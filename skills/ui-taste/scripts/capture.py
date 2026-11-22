@@ -164,7 +164,11 @@ def remove_banners(page: Page) -> None:
             if (s.position !== 'fixed' && s.position !== 'sticky') continue;
             if (el.closest('header, nav')) continue;
             const t = (el.innerText || '').slice(0, 600);
-            if (/cookie|consent|privacy preferences|tracking technologies/i.test(t)) el.remove();
+            // An empty full-screen layer is a modal backdrop left behind.
+            const r = el.getBoundingClientRect();
+            if (!t.trim() && !el.querySelector('img, video, canvas, svg') &&
+                r.width >= innerWidth * 0.9 && r.height >= innerHeight * 0.9) { el.remove(); continue; }
+            if (/cookie|consent|privacy preferences|tracking technologies|looks like you.re in|choose your (country|region)/i.test(t)) el.remove();
           }
         }"""
     )
@@ -192,7 +196,7 @@ def tidy_page(page: Page) -> None:
           scrollTo(0, 0);
         }"""
     )
-    page.wait_for_timeout(900)
+    page.wait_for_timeout(2500)  # let entrance animations finish
     # Some banners only appear once the visitor scrolls.
     remove_banners(page)
 

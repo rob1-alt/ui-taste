@@ -1338,6 +1338,502 @@
     }
   },
   {
+    "id": "amie-landing",
+    "site": "Amie",
+    "url": "https://amie.so",
+    "type": "landing",
+    "tags": [
+      "light",
+      "left-aligned-hero",
+      "product-screenshot-hero",
+      "badges"
+    ],
+    "note": "Plain left-aligned headline, two small buttons (filled blue + outlined) and the full app right under it. \"Product of the Day\" style badges above the headline do the social proof in one line.",
+    "captured": "2026-11-22",
+    "screens": {
+      "desktop": {
+        "file": "screens/amie-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/amie-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Amie - AI Note Taker",
+      "fonts": [
+        "Inter",
+        "Inter var"
+      ],
+      "type": {
+        "h1": null,
+        "h2": null,
+        "h3": {
+          "font": "Inter",
+          "size": 20,
+          "weight": "600",
+          "lineHeight": 1.4,
+          "letterSpacing": "-0.003px",
+          "color": "rgb(0, 0, 0)"
+        },
+        "body": {
+          "font": "Inter",
+          "size": 20,
+          "weight": "500",
+          "lineHeight": 1.4,
+          "letterSpacing": "-0.003px",
+          "color": "rgb(92, 92, 92)"
+        }
+      },
+      "colors": {
+        "background": "#fafafa",
+        "surfaces": [
+          "#fafafa",
+          "#ebebeb",
+          "#11a8ff",
+          "#ffffff"
+        ],
+        "text": [
+          "#5c5c5c",
+          "#000000",
+          "#ffffff",
+          "#ff6154"
+        ]
+      },
+      "buttons": [
+        {
+          "label": "Get started",
+          "bg": "#11a8ff",
+          "color": "#ffffff",
+          "radius": "8px",
+          "height": 32,
+          "paddingX": 16,
+          "font": "Inter",
+          "size": 14,
+          "weight": "500"
+        },
+        {
+          "label": "Get started",
+          "bg": "#11a8ff",
+          "color": "#ffffff",
+          "radius": "12px",
+          "height": 50,
+          "paddingX": 28,
+          "font": "Inter",
+          "size": 16,
+          "weight": "600"
+        },
+        {
+          "label": "Download",
+          "bg": "#ffffff",
+          "color": "#5c5c5c",
+          "radius": "12px",
+          "height": 50,
+          "paddingX": 28,
+          "font": "Inter",
+          "size": 16,
+          "weight": "600"
+        },
+        {
+          "label": "Get started",
+          "bg": "#11a8ff",
+          "color": "#ffffff",
+          "radius": "12px",
+          "height": 50,
+          "paddingX": 28,
+          "font": "Inter",
+          "size": 16,
+          "weight": "600"
+        }
+      ],
+      "contentWidth": 1024
+    }
+  },
+  {
+    "id": "anthropic-landing",
+    "site": "Anthropic",
+    "url": "https://www.anthropic.com",
+    "type": "landing",
+    "tags": [
+      "light",
+      "editorial",
+      "serif-display",
+      "video-hero",
+      "warm-neutrals"
+    ],
+    "note": "Editorial, almost magazine-like: warm off-white, a serif statement in small size at the top and a large organic video instead of product UI. Navigation is tiny and spread across the top. Restraint as brand.",
+    "captured": "2026-11-22",
+    "screens": {
+      "desktop": {
+        "file": "screens/anthropic-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3144
+      },
+      "mobile": {
+        "file": "screens/anthropic-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Home \\ Anthropic",
+      "fonts": [
+        "anthropicSans",
+        "anthropicSerif"
+      ],
+      "type": {
+        "h1": {
+          "font": "anthropicSerif",
+          "size": 16,
+          "weight": "400",
+          "lineHeight": 1.25,
+          "letterSpacing": "-0.16px",
+          "color": "rgb(20, 20, 19)"
+        },
+        "h2": {
+          "font": "anthropicSans",
+          "size": 16,
+          "weight": "400",
+          "lineHeight": 1.53,
+          "letterSpacing": "normal",
+          "color": "rgb(20, 20, 19)"
+        },
+        "h3": {
+          "font": "anthropicSans",
+          "size": 16,
+          "weight": "700",
+          "lineHeight": 1.25,
+          "letterSpacing": "normal",
+          "color": "rgb(20, 20, 19)"
+        },
+        "body": {
+          "font": "anthropicSans",
+          "size": 13,
+          "weight": "400",
+          "lineHeight": 1.54,
+          "letterSpacing": "0.13px",
+          "color": "rgb(94, 93, 89)"
+        }
+      },
+      "colors": {
+        "background": "#faf9f5",
+        "surfaces": [
+          "#faf9f5",
+          "#f5f4ed",
+          "#e8e6dc",
+          "#dedcd1"
+        ],
+        "text": [
+          "#30302e",
+          "#141413",
+          "#5e5d59",
+          "#3d3d3a"
+        ]
+      },
+      "buttons": [
+        {
+          "label": "News",
+          "bg": "#f5f4ed",
+          "color": "#3d3d3a",
+          "radius": "999999px",
+          "height": 28,
+          "paddingX": 16,
+          "font": "anthropicSans",
+          "size": 13,
+          "weight": "400"
+        },
+        {
+          "label": "Research",
+          "bg": "#f5f4ed",
+          "color": "#3d3d3a",
+          "radius": "999999px",
+          "height": 28,
+          "paddingX": 16,
+          "font": "anthropicSans",
+          "size": 13,
+          "weight": "400"
+        },
+        {
+          "label": "Policy",
+          "bg": "#f5f4ed",
+          "color": "#3d3d3a",
+          "radius": "999999px",
+          "height": 28,
+          "paddingX": 16,
+          "font": "anthropicSans",
+          "size": 13,
+          "weight": "400"
+        },
+        {
+          "label": "Commitments",
+          "bg": "#f5f4ed",
+          "color": "#3d3d3a",
+          "radius": "999999px",
+          "height": 28,
+          "paddingX": 16,
+          "font": "anthropicSans",
+          "size": 13,
+          "weight": "400"
+        },
+        {
+          "label": "Company",
+          "bg": "#f5f4ed",
+          "color": "#3d3d3a",
+          "radius": "999999px",
+          "height": 28,
+          "paddingX": 16,
+          "font": "anthropicSans",
+          "size": 13,
+          "weight": "400"
+        },
+        {
+          "label": "Try Claude",
+          "bg": "#f5f4ed",
+          "color": "#3d3d3a",
+          "radius": "999999px",
+          "height": 28,
+          "paddingX": 16,
+          "font": "anthropicSans",
+          "size": 13,
+          "weight": "400"
+        }
+      ],
+      "contentWidth": null
+    }
+  },
+  {
+    "id": "apple-landing",
+    "site": "Apple",
+    "url": "https://www.apple.com",
+    "type": "landing",
+    "tags": [
+      "light",
+      "centered-hero",
+      "product-photo",
+      "stacked-tiles"
+    ],
+    "note": "The product photo is the hero: one name, one line, two small pill links (filled and outlined), then the device. The rest of the page is a stack of full-width tiles, each one product with the same structure.",
+    "captured": "2026-11-22",
+    "screens": {
+      "desktop": {
+        "file": "screens/apple-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/apple-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Apple",
+      "fonts": [
+        "SF Pro Text",
+        "SF Pro Display"
+      ],
+      "type": {
+        "h1": {
+          "font": "SF Pro Text",
+          "size": 34,
+          "weight": "600",
+          "lineHeight": 1.47,
+          "letterSpacing": "-0.374px",
+          "color": "rgb(29, 29, 31)"
+        },
+        "h2": {
+          "font": "SF Pro Display",
+          "size": 56,
+          "weight": "600",
+          "lineHeight": 1.07,
+          "letterSpacing": "-0.28px",
+          "color": "rgb(29, 29, 31)"
+        },
+        "h3": {
+          "font": "SF Pro Display",
+          "size": 40,
+          "weight": "600",
+          "lineHeight": 1.1,
+          "letterSpacing": "normal",
+          "color": "rgb(245, 245, 247)"
+        },
+        "body": {
+          "font": "SF Pro Display",
+          "size": 28,
+          "weight": "400",
+          "lineHeight": 1.14,
+          "letterSpacing": "0.196px",
+          "color": "rgb(29, 29, 31)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#f5f5f7",
+          "#000000",
+          "#fafafc",
+          "#ffffff",
+          "#0071e3"
+        ],
+        "text": [
+          "#333336",
+          "#6e6e73",
+          "#1d1d1f",
+          "#000000"
+        ]
+      },
+      "buttons": [
+        {
+          "label": "Continuer",
+          "bg": "#1d1d1f",
+          "color": "#ffffff",
+          "radius": "8px",
+          "height": 36,
+          "paddingX": 15,
+          "font": "SF Pro Text",
+          "size": 14,
+          "weight": "400"
+        },
+        {
+          "label": "Learn more",
+          "bg": "#0071e3",
+          "color": "#ffffff",
+          "radius": "980px",
+          "height": 44,
+          "paddingX": 21,
+          "font": "SF Pro Text",
+          "size": 17,
+          "weight": "400"
+        },
+        {
+          "label": "Learn more",
+          "bg": "#0071e3",
+          "color": "#ffffff",
+          "radius": "980px",
+          "height": 44,
+          "paddingX": 21,
+          "font": "SF Pro Text",
+          "size": 17,
+          "weight": "400"
+        }
+      ],
+      "contentWidth": 1024
+    }
+  },
+  {
+    "id": "astro-landing",
+    "site": "Astro",
+    "url": "https://astro.build",
+    "type": "landing",
+    "tags": [
+      "dark",
+      "gradient-brand",
+      "centered-hero",
+      "logo-grid",
+      "command-snippet"
+    ],
+    "note": "Saturated violet gradient as the brand, a centred headline, the primary button paired with the install command as a copyable snippet. Logos in two white rows right under the fold.",
+    "captured": "2026-11-22",
+    "screens": {
+      "desktop": {
+        "file": "screens/astro-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/astro-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Astro",
+      "fonts": [
+        "ui-sans-serif",
+        "ui-monospace",
+        "Obviously"
+      ],
+      "type": {
+        "h1": {
+          "font": "Obviously",
+          "size": 48,
+          "weight": "700",
+          "lineHeight": 1.1,
+          "letterSpacing": "normal",
+          "color": "rgb(242, 246, 250)"
+        },
+        "h2": {
+          "font": "Obviously",
+          "size": 36,
+          "weight": "300",
+          "lineHeight": 1.11,
+          "letterSpacing": "normal",
+          "color": "rgb(242, 246, 250)"
+        },
+        "h3": {
+          "font": "ui-sans-serif",
+          "size": 16,
+          "weight": "600",
+          "lineHeight": 1.5,
+          "letterSpacing": "normal",
+          "color": "rgb(255, 255, 255)"
+        },
+        "body": {
+          "font": "Inter",
+          "size": 18,
+          "weight": "200",
+          "lineHeight": 1.5,
+          "letterSpacing": "normal",
+          "color": "rgb(191, 193, 201)"
+        }
+      },
+      "colors": {
+        "background": "#060913",
+        "surfaces": [
+          "#0c0f19",
+          "#343841",
+          "#060913",
+          "#ffffff",
+          "#0d0f14"
+        ],
+        "text": [
+          "#bfc1c9",
+          "#f2f6fa",
+          "#ffffff",
+          "#858b98"
+        ]
+      },
+      "buttons": [
+        {
+          "label": "Astro 7.4\nAvailable now!",
+          "bg": "#060913",
+          "color": "#f2f6fa",
+          "radius": "9999px",
+          "height": 36,
+          "paddingX": 0,
+          "font": "ui-sans-serif",
+          "size": 16,
+          "weight": "400"
+        },
+        {
+          "label": "Get Started",
+          "bg": "#ffffff",
+          "color": "#f2f6fa",
+          "radius": "9999px",
+          "height": 42,
+          "paddingX": 16,
+          "font": "ui-sans-serif",
+          "size": 16,
+          "weight": "400"
+        }
+      ],
+      "contentWidth": 1536
+    }
+  },
+  {
     "id": "attio-landing",
     "site": "Attio",
     "url": "https://attio.com",
@@ -1423,6 +1919,272 @@
       },
       "buttons": [],
       "contentWidth": 1440
+    }
+  },
+  {
+    "id": "browserbase-landing",
+    "site": "Browserbase",
+    "url": "https://www.browserbase.com",
+    "type": "landing",
+    "tags": [
+      "light",
+      "pixel-art",
+      "highlighted-headline",
+      "centered-hero"
+    ],
+    "note": "Headline set on orange highlight blocks over a pixel-art mountain illustration: playful but controlled, with only black, white and one orange. Shows how a custom illustration style can carry a dev tool.",
+    "captured": "2026-11-22",
+    "screens": {
+      "desktop": {
+        "file": "screens/browserbase-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/browserbase-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Browserbase",
+      "fonts": [
+        "plain",
+        "gtStandardMono",
+        "gtPlanar"
+      ],
+      "type": {
+        "h1": null,
+        "h2": {
+          "font": "gtPlanar",
+          "size": 45,
+          "weight": "500",
+          "lineHeight": 1.15,
+          "letterSpacing": "-0.9px",
+          "color": "rgb(0, 0, 0)"
+        },
+        "h3": {
+          "font": "plain",
+          "size": 16,
+          "weight": "500",
+          "lineHeight": 1.2,
+          "letterSpacing": "0.24px",
+          "color": "rgb(0, 0, 0)"
+        },
+        "body": {
+          "font": "plain",
+          "size": 20,
+          "weight": "500",
+          "lineHeight": 1.16,
+          "letterSpacing": "0.4px",
+          "color": "rgb(0, 0, 0)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#ffffff",
+          "#c5d3e8",
+          "#f8f7f4",
+          "#ff4500",
+          "#f1f0ec"
+        ],
+        "text": [
+          "#000000",
+          "#ffffff",
+          "#ff4500"
+        ]
+      },
+      "buttons": [
+        {
+          "label": "Get a demo",
+          "bg": "#000000",
+          "color": "#ffffff",
+          "radius": "99px",
+          "height": 44,
+          "paddingX": 18,
+          "font": "plain",
+          "size": 16,
+          "weight": "500"
+        },
+        {
+          "label": "Get API key",
+          "bg": "#000000",
+          "color": "#ffffff",
+          "radius": "99px",
+          "height": 44,
+          "paddingX": 18,
+          "font": "plain",
+          "size": 16,
+          "weight": "500"
+        },
+        {
+          "label": "Setup for agents",
+          "bg": "#e1e9f2",
+          "color": "#000000",
+          "radius": "99px",
+          "height": 39,
+          "paddingX": 18,
+          "font": "plain",
+          "size": 16,
+          "weight": "500"
+        }
+      ],
+      "contentWidth": 1280
+    }
+  },
+  {
+    "id": "bun-landing",
+    "site": "Bun",
+    "url": "https://bun.sh",
+    "type": "landing",
+    "tags": [
+      "light",
+      "bold-typography",
+      "illustration-brand",
+      "benchmark-chart",
+      "command-snippet"
+    ],
+    "note": "Heavy condensed italic headline with one word in pink script, a mascot illustration on a pink swirl, the install command in a dark box and a benchmark chart as proof. Loud and coherent.",
+    "captured": "2026-11-22",
+    "screens": {
+      "desktop": {
+        "file": "screens/bun-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/bun-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Bun — A fast all-in-one JavaScript runtime",
+      "fonts": [
+        "ui-sans-serif",
+        "Martian Mono",
+        "Archivo"
+      ],
+      "type": {
+        "h1": {
+          "font": "Archivo",
+          "size": 76,
+          "weight": "900",
+          "lineHeight": 0.94,
+          "letterSpacing": "-1.14438px",
+          "color": "rgb(10, 10, 10)"
+        },
+        "h2": {
+          "font": "ui-sans-serif",
+          "size": 17,
+          "weight": "700",
+          "lineHeight": 1.5,
+          "letterSpacing": "-0.168px",
+          "color": "rgb(10, 10, 10)"
+        },
+        "h3": {
+          "font": "Archivo",
+          "size": 58,
+          "weight": "900",
+          "lineHeight": 0.86,
+          "letterSpacing": "-0.576px",
+          "color": "rgb(10, 10, 10)"
+        },
+        "body": {
+          "font": "ui-sans-serif",
+          "size": 18,
+          "weight": "500",
+          "lineHeight": 1.5,
+          "letterSpacing": "normal",
+          "color": "rgb(10, 10, 10)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#f6f6f6",
+          "#ffffff",
+          "#6fc3ff",
+          "#ff6ab5",
+          "#0a0a0a"
+        ],
+        "text": [
+          "#0a0a0a",
+          "#707070",
+          "#525252",
+          "#ffffff"
+        ]
+      },
+      "buttons": [
+        {
+          "label": "Install",
+          "bg": "#0a0a0a",
+          "color": "#ffffff",
+          "radius": "0px",
+          "height": 36,
+          "paddingX": 14,
+          "font": "ui-sans-serif",
+          "size": 14,
+          "weight": "600"
+        },
+        {
+          "label": "Quickstart",
+          "bg": "#ff1f8f",
+          "color": "#ffffff",
+          "radius": "0px",
+          "height": 44,
+          "paddingX": 20,
+          "font": "ui-sans-serif",
+          "size": 15,
+          "weight": "600"
+        },
+        {
+          "label": "Read the docs",
+          "bg": "#f6f6f6",
+          "color": "#0a0a0a",
+          "radius": "0px",
+          "height": 44,
+          "paddingX": 20,
+          "font": "ui-sans-serif",
+          "size": 15,
+          "weight": "600"
+        },
+        {
+          "label": "",
+          "bg": "#ffffff",
+          "color": "#0a0a0a",
+          "radius": "0px",
+          "height": 45,
+          "paddingX": 6,
+          "font": "ui-sans-serif",
+          "size": 16,
+          "weight": "400"
+        },
+        {
+          "label": "bun install",
+          "bg": "#0c0c0c",
+          "color": "#ffffff",
+          "radius": "0px",
+          "height": 45,
+          "paddingX": 10,
+          "font": "ui-sans-serif",
+          "size": 16,
+          "weight": "400"
+        },
+        {
+          "label": "",
+          "bg": "#ffffff",
+          "color": "#0a0a0a",
+          "radius": "0px",
+          "height": 45,
+          "paddingX": 0,
+          "font": "ui-sans-serif",
+          "size": 16,
+          "weight": "400"
+        }
+      ],
+      "contentWidth": 1216
     }
   },
   {
@@ -1667,6 +2429,1274 @@
     }
   },
   {
+    "id": "craft-landing",
+    "site": "Craft",
+    "url": "https://www.craft.do",
+    "type": "landing",
+    "tags": [
+      "light",
+      "serif-display",
+      "illustration-brand",
+      "collage",
+      "product-screenshot-hero"
+    ],
+    "note": "A serif headline on a painted sky collage (clouds, paper textures) with the app sitting in it. Proves a productivity tool can feel warm without losing the product shot.",
+    "captured": "2026-11-22",
+    "screens": {
+      "desktop": {
+        "file": "screens/craft-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/craft-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Craft — Productivity App for Notes, Tasks, and Docs",
+      "fonts": [
+        "Untitled Sans-39d75ea677d0e81c",
+        "apple-system",
+        "Untitled Serif-d2ef79802246ca3a"
+      ],
+      "type": {
+        "h1": {
+          "font": "Untitled Serif-d2ef79802246ca3a",
+          "size": 66,
+          "weight": "400",
+          "lineHeight": 1,
+          "letterSpacing": "-1.98px",
+          "color": "rgb(3, 3, 2)"
+        },
+        "h2": {
+          "font": "Untitled Serif-d2ef79802246ca3a",
+          "size": 46,
+          "weight": "400",
+          "lineHeight": 1.22,
+          "letterSpacing": "-1.38px",
+          "color": "rgb(3, 3, 2)"
+        },
+        "h3": {
+          "font": "Untitled Serif-d2ef79802246ca3a",
+          "size": 36,
+          "weight": "400",
+          "lineHeight": 1.22,
+          "letterSpacing": "-1.08px",
+          "color": "rgb(3, 3, 2)"
+        },
+        "body": {
+          "font": "Untitled Serif-d2ef79802246ca3a",
+          "size": 20,
+          "weight": "400",
+          "lineHeight": 1.4,
+          "letterSpacing": "-0.6px",
+          "color": "rgb(239, 230, 210)"
+        }
+      },
+      "colors": {
+        "background": "#fcf9f7",
+        "surfaces": [
+          "#ffffff",
+          "#f7f7f7",
+          "#b8caf5",
+          "#030302"
+        ],
+        "text": [
+          "#030302",
+          "#efe6d2",
+          "#ffffff"
+        ]
+      },
+      "buttons": [
+        {
+          "label": "Try Craft Free",
+          "bg": "#030302",
+          "color": "#ffffff",
+          "radius": "3.35544e+07px",
+          "height": 36,
+          "paddingX": 14,
+          "font": "Untitled Sans-39d75ea677d0e81c",
+          "size": 16,
+          "weight": "500"
+        }
+      ],
+      "contentWidth": 1160
+    }
+  },
+  {
+    "id": "cursor-landing",
+    "site": "Cursor",
+    "url": "https://cursor.com",
+    "type": "landing",
+    "tags": [
+      "light",
+      "left-aligned-hero",
+      "product-screenshot-hero",
+      "painting-background",
+      "small-type"
+    ],
+    "note": "Small, quiet headline top-left and the product given the whole stage: the editor framed over a soft painted landscape. Very small type everywhere else; the UI is the hero.",
+    "captured": "2026-11-22",
+    "screens": {
+      "desktop": {
+        "file": "screens/cursor-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/cursor-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "AI Coding Agent for Building Ambitious Software | Cursor",
+      "fonts": [
+        "system-ui",
+        "CursorGothic",
+        "berkeleyMono"
+      ],
+      "type": {
+        "h1": {
+          "font": "CursorGothic",
+          "size": 26,
+          "weight": "400",
+          "lineHeight": 1.25,
+          "letterSpacing": "-0.325px",
+          "color": "rgb(38, 37, 30)"
+        },
+        "h2": {
+          "font": "system-ui",
+          "size": 20,
+          "weight": "700",
+          "lineHeight": 1.55,
+          "letterSpacing": "normal",
+          "color": "rgb(38, 37, 30)"
+        },
+        "h3": {
+          "font": "CursorGothic",
+          "size": 22,
+          "weight": "400",
+          "lineHeight": 1.3,
+          "letterSpacing": "-0.11px",
+          "color": "rgb(38, 37, 30)"
+        },
+        "body": {
+          "font": "system-ui",
+          "size": 13,
+          "weight": "400",
+          "lineHeight": 1.55,
+          "letterSpacing": "normal",
+          "color": "rgb(38, 37, 30)"
+        }
+      },
+      "colors": {
+        "background": "#f7f7f4",
+        "surfaces": [
+          "#f7f7f4",
+          "#f2f1ed",
+          "#d9d5cf",
+          "#26251e",
+          "#ebeae5"
+        ],
+        "text": [
+          "#26251e",
+          "#f7f7f4",
+          "#f54e00",
+          "#ffffff"
+        ]
+      },
+      "buttons": [
+        {
+          "label": "Download for macOS\n⤓",
+          "bg": "#26251e",
+          "color": "#f7f7f4",
+          "radius": "3.35544e+07px",
+          "height": 43,
+          "paddingX": 22,
+          "font": "CursorGothic",
+          "size": 16,
+          "weight": "400"
+        },
+        {
+          "label": "Request a demo\n→",
+          "bg": "#e6e5e0",
+          "color": "#26251e",
+          "radius": "3.35544e+07px",
+          "height": 43,
+          "paddingX": 22,
+          "font": "CursorGothic",
+          "size": 16,
+          "weight": "400"
+        },
+        {
+          "label": "Plan Mission Control\nGenerating plan",
+          "bg": "#ebeae5",
+          "color": "#26251e",
+          "radius": "0px",
+          "height": 51,
+          "paddingX": 14,
+          "font": "system-ui",
+          "size": 12,
+          "weight": "400"
+        }
+      ],
+      "contentWidth": 1300
+    }
+  },
+  {
+    "id": "daylight-landing",
+    "site": "Daylight",
+    "url": "https://daylightcomputer.com",
+    "type": "landing",
+    "tags": [
+      "photo-hero",
+      "serif-display",
+      "nature",
+      "product-photo",
+      "warm-neutrals"
+    ],
+    "note": "The device photographed in nature (moss, leaves, sunlight) with a thin serif headline: the visual says \"calm computing\" before the copy does. A small video thumbnail in the corner invites a watch.",
+    "captured": "2026-11-22",
+    "screens": {
+      "desktop": {
+        "file": "screens/daylight-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/daylight-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Daylight | A More Caring Computer",
+      "fonts": [
+        "__abcArizonaFlareFont_498f8e",
+        "__abcRoomFont_38b1ae",
+        "__abcRoomExtendedFont_412c3c"
+      ],
+      "type": {
+        "h1": {
+          "font": "__abcArizonaFlareFont_498f8e",
+          "size": 60,
+          "weight": "300",
+          "lineHeight": 1,
+          "letterSpacing": "-4.2px",
+          "color": "rgb(255, 255, 255)"
+        },
+        "h2": {
+          "font": "__abcArizonaFlareFont_498f8e",
+          "size": 60,
+          "weight": "300",
+          "lineHeight": 0.97,
+          "letterSpacing": "-4.2px",
+          "color": "rgb(23, 25, 15)"
+        },
+        "h3": {
+          "font": "__abcArizonaFlareFont_498f8e",
+          "size": 27,
+          "weight": "500",
+          "lineHeight": 1.25,
+          "letterSpacing": "-1.92px",
+          "color": "rgb(24, 25, 15)"
+        },
+        "body": {
+          "font": "__abcArizonaFlareFont_498f8e",
+          "size": 26,
+          "weight": "500",
+          "lineHeight": 1.25,
+          "letterSpacing": "-1.82px",
+          "color": "rgb(23, 25, 15)"
+        }
+      },
+      "colors": {
+        "background": "#faf5f2",
+        "surfaces": [
+          "#18190f",
+          "#faf4f2",
+          "#ff9d00",
+          "#faf5f2",
+          "#e8ded8"
+        ],
+        "text": [
+          "#17190f",
+          "#faf4f2",
+          "#18190f",
+          "#ffffff"
+        ]
+      },
+      "buttons": [
+        {
+          "label": "ORDER NOW",
+          "bg": "#ff9d00",
+          "color": "#18190f",
+          "radius": "8px",
+          "height": 47,
+          "paddingX": 0,
+          "font": "__abcRoomFont_38b1ae",
+          "size": 14,
+          "weight": "500"
+        },
+        {
+          "label": "SUBSCRIBE",
+          "bg": "#faf5f2",
+          "color": "#18190f",
+          "radius": "6.4px",
+          "height": 43,
+          "paddingX": 16,
+          "font": "__abcRoomFont_38b1ae",
+          "size": 16,
+          "weight": "500"
+        },
+        {
+          "label": "SUBSCRIBE",
+          "bg": "#faf5f2",
+          "color": "#18190f",
+          "radius": "6.4px",
+          "height": 43,
+          "paddingX": 16,
+          "font": "__abcRoomFont_38b1ae",
+          "size": 16,
+          "weight": "500"
+        },
+        {
+          "label": "ORDER NOW",
+          "bg": "#ff9d00",
+          "color": "#18190f",
+          "radius": "14.5px",
+          "height": 65,
+          "paddingX": 0,
+          "font": "__abcRoomFont_38b1ae",
+          "size": 15,
+          "weight": "500"
+        }
+      ],
+      "contentWidth": 1167
+    }
+  },
+  {
+    "id": "dia-landing",
+    "site": "Dia",
+    "url": "https://www.diabrowser.com",
+    "type": "landing",
+    "tags": [
+      "warm-color",
+      "serif-display",
+      "oversized-wordmark",
+      "product-screenshot-hero"
+    ],
+    "note": "A full yellow canvas, a huge outlined serif wordmark behind the browser window and one black download pill. Colour and type do all the branding; the UI stays neutral.",
+    "captured": "2026-11-22",
+    "screens": {
+      "desktop": {
+        "file": "screens/dia-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/dia-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Dia | The browser for better days at work.",
+      "fonts": [
+        "ABC Oracle Triple",
+        "ABC Favorit Mono",
+        "ABC Oracle"
+      ],
+      "type": {
+        "h1": {
+          "font": "Exposure VAR",
+          "size": 39,
+          "weight": "500",
+          "lineHeight": 1.1,
+          "letterSpacing": "-1.55172px",
+          "color": "rgb(255, 255, 255)"
+        },
+        "h2": {
+          "font": "Exposure VAR",
+          "size": 48,
+          "weight": "500",
+          "lineHeight": 1.17,
+          "letterSpacing": "-2.4px",
+          "color": "rgba(0, 0, 0, 0.85)"
+        },
+        "h3": {
+          "font": "ABC Oracle",
+          "size": 20,
+          "weight": "350",
+          "lineHeight": 1.5,
+          "letterSpacing": "-0.4px",
+          "color": "rgba(0, 0, 0, 0.7)"
+        },
+        "body": {
+          "font": "ABC Oracle",
+          "size": 14,
+          "weight": "400",
+          "lineHeight": 1.2,
+          "letterSpacing": "normal",
+          "color": "rgba(0, 0, 0, 0.5)"
+        }
+      },
+      "colors": {
+        "background": "#fbfaf6",
+        "surfaces": [
+          "#fbfaf6",
+          "#ffcb30",
+          "#ffe48c",
+          "#000000",
+          "#f8f8f8"
+        ],
+        "text": [
+          "#000000",
+          "#ffffff",
+          "#f8f8f8"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": 1440
+    }
+  },
+  {
+    "id": "dub-landing",
+    "site": "Dub",
+    "url": "https://dub.co",
+    "type": "landing",
+    "tags": [
+      "light",
+      "centered-hero",
+      "product-screenshot-hero",
+      "feature-chips"
+    ],
+    "note": "Clean centred hero, then three chips (Affiliate Programs, Conversion Analytics, Short Links) that switch the product screenshot underneath. Good pattern for a product with several modules.",
+    "captured": "2026-11-22",
+    "screens": {
+      "desktop": {
+        "file": "screens/dub-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/dub-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Dub - The Modern Link Attribution Platform",
+      "fonts": [
+        "Inter",
+        "GeistMono",
+        "satoshi"
+      ],
+      "type": {
+        "h1": {
+          "font": "satoshi",
+          "size": 48,
+          "weight": "500",
+          "lineHeight": 1.15,
+          "letterSpacing": "normal",
+          "color": "rgb(23, 23, 23)"
+        },
+        "h2": {
+          "font": "satoshi",
+          "size": 48,
+          "weight": "500",
+          "lineHeight": 1,
+          "letterSpacing": "normal",
+          "color": "rgb(23, 23, 23)"
+        },
+        "h3": {
+          "font": "Inter",
+          "size": 16,
+          "weight": "500",
+          "lineHeight": 1.5,
+          "letterSpacing": "normal",
+          "color": "rgb(10, 10, 10)"
+        },
+        "body": {
+          "font": "Inter",
+          "size": 20,
+          "weight": "400",
+          "lineHeight": 1.4,
+          "letterSpacing": "normal",
+          "color": "rgb(82, 82, 82)"
+        }
+      },
+      "colors": {
+        "background": "#fafafa",
+        "surfaces": [
+          "#ffffff",
+          "#f5f5f5",
+          "#262626",
+          "#d4d4d4",
+          "#000000"
+        ],
+        "text": [
+          "#a3a3a3",
+          "#262626",
+          "#525252",
+          "#171717"
+        ]
+      },
+      "buttons": [
+        {
+          "label": "Log in",
+          "bg": "#ffffff",
+          "color": "#171717",
+          "radius": "8px",
+          "height": 32,
+          "paddingX": 16,
+          "font": "Inter",
+          "size": 14,
+          "weight": "400"
+        },
+        {
+          "label": "Sign up",
+          "bg": "#000000",
+          "color": "#ffffff",
+          "radius": "8px",
+          "height": 32,
+          "paddingX": 16,
+          "font": "Inter",
+          "size": 14,
+          "weight": "400"
+        },
+        {
+          "label": "Introducing our Startup Program\nLearn mo",
+          "bg": "#ffffff",
+          "color": "#0a0a0a",
+          "radius": "9999px",
+          "height": 30,
+          "paddingX": 0,
+          "font": "Inter",
+          "size": 12,
+          "weight": "500"
+        },
+        {
+          "label": "Start for free",
+          "bg": "#000000",
+          "color": "#ffffff",
+          "radius": "8px",
+          "height": 38,
+          "paddingX": 20,
+          "font": "Inter",
+          "size": 14,
+          "weight": "500"
+        },
+        {
+          "label": "Get a demo",
+          "bg": "#ffffff",
+          "color": "#262626",
+          "radius": "8px",
+          "height": 38,
+          "paddingX": 20,
+          "font": "Inter",
+          "size": 14,
+          "weight": "500"
+        },
+        {
+          "label": "Affiliate Programs",
+          "bg": "#ffffff",
+          "color": "#262626",
+          "radius": "8px",
+          "height": 34,
+          "paddingX": 12,
+          "font": "Inter",
+          "size": 16,
+          "weight": "400"
+        }
+      ],
+      "contentWidth": 1080
+    }
+  },
+  {
+    "id": "elevenlabs-landing",
+    "site": "ElevenLabs",
+    "url": "https://elevenlabs.io",
+    "type": "landing",
+    "tags": [
+      "light",
+      "split-hero",
+      "product-tabs",
+      "orb-visuals",
+      "carousel"
+    ],
+    "note": "Split hero (headline left, short paragraph right), then a tabbed carousel of soft gradient orbs for each voice product. The orbs give a tactile, audio feel without stock imagery.",
+    "captured": "2026-11-22",
+    "screens": {
+      "desktop": {
+        "file": "screens/elevenlabs-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/elevenlabs-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Free AI Voice Generator & Voice Agents Platform | ElevenLabs",
+      "fonts": [
+        "Inter",
+        "Geist Mono",
+        "Waldenburg"
+      ],
+      "type": {
+        "h1": {
+          "font": "Waldenburg",
+          "size": 44,
+          "weight": "300",
+          "lineHeight": 1.09,
+          "letterSpacing": "-0.88px",
+          "color": "rgb(0, 0, 0)"
+        },
+        "h2": {
+          "font": "Inter",
+          "size": 15,
+          "weight": "400",
+          "lineHeight": 1.47,
+          "letterSpacing": "0.15px",
+          "color": "rgb(0, 0, 0)"
+        },
+        "h3": {
+          "font": "Inter",
+          "size": 15,
+          "weight": "400",
+          "lineHeight": 1.47,
+          "letterSpacing": "0.15px",
+          "color": "rgb(0, 0, 0)"
+        },
+        "body": {
+          "font": "Inter",
+          "size": 18,
+          "weight": "400",
+          "lineHeight": 1.6,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        }
+      },
+      "colors": {
+        "background": "#fdfcfc",
+        "surfaces": [
+          "#fdfcfc",
+          "#f5f3f1",
+          "#ffffff",
+          "#ebe8e4",
+          "#000000"
+        ],
+        "text": [
+          "#000000",
+          "#777169",
+          "#a59f97",
+          "#44403b"
+        ]
+      },
+      "buttons": [
+        {
+          "label": "Subscribe",
+          "bg": "#ffffff",
+          "color": "#000000",
+          "radius": "9999px",
+          "height": 32,
+          "paddingX": 12,
+          "font": "Inter",
+          "size": 13,
+          "weight": "400"
+        },
+        {
+          "label": "Log in",
+          "bg": "#ffffff",
+          "color": "#000000",
+          "radius": "9999px",
+          "height": 36,
+          "paddingX": 14,
+          "font": "Inter",
+          "size": 14,
+          "weight": "400"
+        },
+        {
+          "label": "Sign up",
+          "bg": "#000000",
+          "color": "#ffffff",
+          "radius": "9999px",
+          "height": 36,
+          "paddingX": 14,
+          "font": "Inter",
+          "size": 14,
+          "weight": "400"
+        },
+        {
+          "label": "Sign up",
+          "bg": "#000000",
+          "color": "#ffffff",
+          "radius": "9999px",
+          "height": 44,
+          "paddingX": 20,
+          "font": "Inter",
+          "size": 16,
+          "weight": "400"
+        },
+        {
+          "label": "Contact sales",
+          "bg": "#ffffff",
+          "color": "#000000",
+          "radius": "9999px",
+          "height": 44,
+          "paddingX": 20,
+          "font": "Inter",
+          "size": 16,
+          "weight": "400"
+        },
+        {
+          "label": "Sign up",
+          "bg": "#000000",
+          "color": "#ffffff",
+          "radius": "9999px",
+          "height": 40,
+          "paddingX": 16,
+          "font": "Inter",
+          "size": 15,
+          "weight": "400"
+        }
+      ],
+      "contentWidth": 1440
+    }
+  },
+  {
+    "id": "fal-landing",
+    "site": "fal",
+    "url": "https://fal.ai",
+    "type": "landing",
+    "tags": [
+      "dark",
+      "bold-color",
+      "pixel-art",
+      "oversized-headline",
+      "logo-row"
+    ],
+    "note": "Olive background, huge bright-green headline, pixel shapes and stickers flying around: loud on purpose, with a plain logo row to ground it.",
+    "captured": "2026-11-22",
+    "screens": {
+      "desktop": {
+        "file": "screens/fal-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/fal-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "fal, your full stack for generative media — fal, Creative infrastructure for Generative Media",
+      "fonts": [
+        "Focal Web",
+        "Focal Text",
+        "Hal Timezone Mono"
+      ],
+      "type": {
+        "h1": {
+          "font": "Focal Web",
+          "size": 96,
+          "weight": "500",
+          "lineHeight": 0.9,
+          "letterSpacing": "-3.84px",
+          "color": "rgb(153, 237, 255)"
+        },
+        "h2": {
+          "font": "Focal Web",
+          "size": 59,
+          "weight": "500",
+          "lineHeight": 0.9,
+          "letterSpacing": "-1.18286px",
+          "color": "rgb(0, 0, 0)"
+        },
+        "h3": {
+          "font": "Focal Web",
+          "size": 27,
+          "weight": "500",
+          "lineHeight": 0.9,
+          "letterSpacing": "-0.548571px",
+          "color": "rgb(0, 0, 0)"
+        },
+        "body": {
+          "font": "Focal Text",
+          "size": 12,
+          "weight": "400",
+          "lineHeight": 1.22,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#403700",
+          "#ffffff",
+          "#e5ece7",
+          "#99edff",
+          "#adff00"
+        ],
+        "text": [
+          "#99edff",
+          "#000000",
+          "#403700",
+          "#ffffff"
+        ]
+      },
+      "buttons": [
+        {
+          "label": "",
+          "bg": "#ffffff",
+          "color": "#000000",
+          "radius": "4px",
+          "height": 68,
+          "paddingX": 10,
+          "font": "Focal Web",
+          "size": 16,
+          "weight": "400"
+        },
+        {
+          "label": "Contact Sales",
+          "bg": "#e5ece7",
+          "color": "#000000",
+          "radius": "2px",
+          "height": 35,
+          "paddingX": 26,
+          "font": "Focal Web",
+          "size": 16,
+          "weight": "500"
+        },
+        {
+          "label": "Get Started",
+          "bg": "#000000",
+          "color": "#ffffff",
+          "radius": "2px",
+          "height": 35,
+          "paddingX": 26,
+          "font": "Focal Web",
+          "size": 16,
+          "weight": "500"
+        },
+        {
+          "label": "Get Started",
+          "bg": "#adff00",
+          "color": "#403700",
+          "radius": "2px",
+          "height": 44,
+          "paddingX": 22,
+          "font": "Focal Web",
+          "size": 14,
+          "weight": "500"
+        },
+        {
+          "label": "Contact Sales",
+          "bg": "#ffffff",
+          "color": "#000000",
+          "radius": "2px",
+          "height": 44,
+          "paddingX": 22,
+          "font": "Focal Web",
+          "size": 14,
+          "weight": "500"
+        },
+        {
+          "label": "Explore fal Worlds",
+          "bg": "#ffffff",
+          "color": "#000000",
+          "radius": "4px",
+          "height": 44,
+          "paddingX": 8,
+          "font": "Focal Web",
+          "size": 16,
+          "weight": "500"
+        }
+      ],
+      "contentWidth": 1440
+    }
+  },
+  {
+    "id": "family-landing",
+    "site": "Family",
+    "url": "https://family.co",
+    "type": "landing",
+    "tags": [
+      "light",
+      "illustration-brand",
+      "centered-hero",
+      "playful",
+      "3d-icons"
+    ],
+    "note": "Friendly 3D-ish characters and objects scattered around a simple black headline. Shows how illustration can make a crypto wallet feel approachable; the text stays plain and short.",
+    "captured": "2026-11-22",
+    "screens": {
+      "desktop": {
+        "file": "screens/family-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/family-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Family",
+      "fonts": [
+        "Inter",
+        "Family"
+      ],
+      "type": {
+        "h1": {
+          "font": "Family",
+          "size": 68,
+          "weight": "500",
+          "lineHeight": 1.1,
+          "letterSpacing": "-1.36px",
+          "color": "color(display-p3 0.203922 0.203922 0.2)"
+        },
+        "h2": null,
+        "h3": null,
+        "body": {
+          "font": "Inter",
+          "size": 14,
+          "weight": "400",
+          "lineHeight": 1.43,
+          "letterSpacing": "-0.09px",
+          "color": "rgb(132, 130, 129)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#ffffff",
+          "#000000",
+          "#f97316",
+          "#171717",
+          "#f6f4ef"
+        ],
+        "text": [
+          "#474645",
+          "#121212",
+          "#848281",
+          "#282624"
+        ]
+      },
+      "buttons": [
+        {
+          "label": "Developers",
+          "bg": "#ffffff",
+          "color": "#282624",
+          "radius": "6px",
+          "height": 33,
+          "paddingX": 10,
+          "font": "Inter",
+          "size": 15,
+          "weight": "500"
+        },
+        {
+          "label": "Resources",
+          "bg": "#ffffff",
+          "color": "#282624",
+          "radius": "6px",
+          "height": 33,
+          "paddingX": 10,
+          "font": "Inter",
+          "size": 15,
+          "weight": "500"
+        },
+        {
+          "label": "X (Twitter)",
+          "bg": "#ffffff",
+          "color": "#282624",
+          "radius": "6px",
+          "height": 32,
+          "paddingX": 10,
+          "font": "Inter",
+          "size": 15,
+          "weight": "500"
+        },
+        {
+          "label": "Log In",
+          "bg": "#f6f4ef",
+          "color": "#121212",
+          "radius": "32px",
+          "height": 32,
+          "paddingX": 14,
+          "font": "Inter",
+          "size": 15,
+          "weight": "500"
+        },
+        {
+          "label": "Get Started",
+          "bg": "#171717",
+          "color": "#ffffff",
+          "radius": "32px",
+          "height": 32,
+          "paddingX": 14,
+          "font": "Inter",
+          "size": 15,
+          "weight": "500"
+        },
+        {
+          "label": "Download on iOS",
+          "bg": "#171717",
+          "color": "#ffffff",
+          "radius": "32px",
+          "height": 48,
+          "paddingX": 22,
+          "font": "Inter",
+          "size": 17,
+          "weight": "500"
+        }
+      ],
+      "contentWidth": 1422
+    }
+  },
+  {
+    "id": "figma-landing",
+    "site": "Figma",
+    "url": "https://www.figma.com",
+    "type": "landing",
+    "tags": [
+      "collage",
+      "centered-hero",
+      "interactive-hero",
+      "logo-row"
+    ],
+    "note": "An interactive collage of work made in Figma with a white card in the middle carrying the sentence and one small button. Logo row at the bottom of the fold.",
+    "captured": "2026-11-22",
+    "screens": {
+      "desktop": {
+        "file": "screens/figma-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/figma-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Figma: The collaborative canvas for design, code, and AI",
+      "fonts": [
+        "figmaSans",
+        "figmaMono"
+      ],
+      "type": {
+        "h1": {
+          "font": "figmaSans",
+          "size": 72,
+          "weight": "400",
+          "lineHeight": 1,
+          "letterSpacing": "-1.44px",
+          "color": "rgb(0, 0, 0)"
+        },
+        "h2": {
+          "font": "figmaSans",
+          "size": 30,
+          "weight": "400",
+          "lineHeight": 1.2,
+          "letterSpacing": "-0.66px",
+          "color": "rgb(0, 0, 0)"
+        },
+        "h3": {
+          "font": "figmaSans",
+          "size": 16,
+          "weight": "400",
+          "lineHeight": 1.4,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        },
+        "body": {
+          "font": "figmaSans",
+          "size": 18,
+          "weight": "330",
+          "lineHeight": 1.4,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#ffffff",
+          "#000000"
+        ],
+        "text": [
+          "#000000",
+          "#ffffff"
+        ]
+      },
+      "buttons": [
+        {
+          "label": "Get started for free",
+          "bg": "#000000",
+          "color": "#ffffff",
+          "radius": "8px",
+          "height": 46,
+          "paddingX": 22,
+          "font": "figmaSans",
+          "size": 18,
+          "weight": "330"
+        },
+        {
+          "label": "Get started",
+          "bg": "#000000",
+          "color": "#ffffff",
+          "radius": "8px",
+          "height": 46,
+          "paddingX": 20,
+          "font": "figmaSans",
+          "size": 18,
+          "weight": "480"
+        },
+        {
+          "label": "",
+          "bg": "#000000",
+          "color": "#ffffff",
+          "radius": "9999px",
+          "height": 36,
+          "paddingX": 0,
+          "font": "figmaSans",
+          "size": 14,
+          "weight": "400"
+        },
+        {
+          "label": "",
+          "bg": "#000000",
+          "color": "#ffffff",
+          "radius": "9999px",
+          "height": 36,
+          "paddingX": 0,
+          "font": "figmaSans",
+          "size": 14,
+          "weight": "400"
+        }
+      ],
+      "contentWidth": 1131
+    }
+  },
+  {
+    "id": "fly-io-landing",
+    "site": "Fly.io",
+    "url": "https://fly.io",
+    "type": "landing",
+    "tags": [
+      "light",
+      "illustration-brand",
+      "italic-accent",
+      "left-aligned-hero"
+    ],
+    "note": "Pastel violet illustrated world (balloons, creatures) with a two-line headline whose second line is in italic accent colour. Distinctive, consistent illustration system.",
+    "captured": "2026-11-22",
+    "screens": {
+      "desktop": {
+        "file": "screens/fly-io-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/fly-io-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Fly.io | Deploy apps and agents on hardware-isolated VMs",
+      "fonts": [
+        "Fricolage Grotesque",
+        "Mackinac"
+      ],
+      "type": {
+        "h1": {
+          "font": "Mackinac",
+          "size": 52,
+          "weight": "500",
+          "lineHeight": 1.15,
+          "letterSpacing": "-1.56px",
+          "color": "rgb(40, 25, 80)"
+        },
+        "h2": {
+          "font": "Mackinac",
+          "size": 44,
+          "weight": "500",
+          "lineHeight": 1.08,
+          "letterSpacing": "-1.1px",
+          "color": "rgb(40, 25, 80)"
+        },
+        "h3": {
+          "font": "Mackinac",
+          "size": 26,
+          "weight": "500",
+          "lineHeight": 1.25,
+          "letterSpacing": "-0.65px",
+          "color": "rgb(40, 25, 80)"
+        },
+        "body": {
+          "font": "Fricolage Grotesque",
+          "size": 19,
+          "weight": "325",
+          "lineHeight": 1.5,
+          "letterSpacing": "normal",
+          "color": "rgb(74, 63, 107)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#f1f2f9",
+          "#ffffff",
+          "#faf8ff",
+          "#ece9ff",
+          "#e4def7"
+        ],
+        "text": [
+          "#5b4f78",
+          "#281950",
+          "#4a3f6b",
+          "#202237"
+        ]
+      },
+      "buttons": [
+        {
+          "label": "Sign Up",
+          "bg": "#f86d60",
+          "color": "#ffffff",
+          "radius": "8px 20px 20px 8px",
+          "height": 32,
+          "paddingX": 10,
+          "font": "Fricolage Grotesque",
+          "size": 15,
+          "weight": "450"
+        },
+        {
+          "label": "Start free",
+          "bg": "#f86d60",
+          "color": "#ffffff",
+          "radius": "9999px",
+          "height": 48,
+          "paddingX": 20,
+          "font": "Fricolage Grotesque",
+          "size": 16,
+          "weight": "450"
+        }
+      ],
+      "contentWidth": 1200
+    }
+  },
+  {
     "id": "framer-landing",
     "site": "Framer",
     "url": "https://www.framer.com",
@@ -1773,6 +3803,70 @@
         }
       ],
       "contentWidth": 1400
+    }
+  },
+  {
+    "id": "ghostty-landing",
+    "site": "Ghostty",
+    "url": "https://ghostty.org",
+    "type": "landing",
+    "tags": [
+      "dark",
+      "terminal-ui",
+      "ascii-art",
+      "centered-hero",
+      "minimal"
+    ],
+    "note": "A terminal window with animated ASCII art as the only visual, one sentence and two buttons. The product's own medium is the hero.",
+    "captured": "2026-11-22",
+    "screens": {
+      "desktop": {
+        "file": "screens/ghostty-landing-desktop.jpg",
+        "width": 1440,
+        "height": 900
+      },
+      "mobile": {
+        "file": "screens/ghostty-landing-mobile.jpg",
+        "width": 390,
+        "height": 844
+      }
+    },
+    "tokens": {
+      "title": "Ghostty",
+      "fonts": [
+        "JetBrains Mono",
+        "pretendardStdVariable"
+      ],
+      "type": {
+        "h1": null,
+        "h2": null,
+        "h3": null,
+        "body": {
+          "font": "pretendardStdVariable",
+          "size": 14,
+          "weight": "300",
+          "lineHeight": 1.4,
+          "letterSpacing": "normal",
+          "color": "rgb(130, 130, 134)"
+        }
+      },
+      "colors": {
+        "background": "#0f0f11",
+        "surfaces": [
+          "#0f0f11",
+          "#ff605c",
+          "#ffbd44",
+          "#00ca4e"
+        ],
+        "text": [
+          "#c3c3c4",
+          "#3551f3",
+          "#959597",
+          "#f0f0f4"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": 1300
     }
   },
   {
@@ -1885,6 +3979,124 @@
     }
   },
   {
+    "id": "gumroad-landing",
+    "site": "Gumroad",
+    "url": "https://gumroad.com",
+    "type": "landing",
+    "tags": [
+      "light",
+      "brutalist",
+      "bold-typography",
+      "stickers",
+      "pill-nav"
+    ],
+    "note": "Neo-brutalist: thick black outlines, pink sticker coins, a big plain headline and a search field next to the button. Personality through hard edges and one pink.",
+    "captured": "2026-11-22",
+    "screens": {
+      "desktop": {
+        "file": "screens/gumroad-landing-desktop.jpg",
+        "width": 1440,
+        "height": 900
+      },
+      "mobile": {
+        "file": "screens/gumroad-landing-mobile.jpg",
+        "width": 390,
+        "height": 844
+      }
+    },
+    "tokens": {
+      "title": "Earn your first dollar online with Gumroad",
+      "fonts": [
+        "ABC Favorit",
+        "Arial"
+      ],
+      "type": {
+        "h1": {
+          "font": "ABC Favorit",
+          "size": 96,
+          "weight": "400",
+          "lineHeight": 1,
+          "letterSpacing": "-0.4px",
+          "color": "rgb(0, 0, 0)"
+        },
+        "h2": {
+          "font": "ABC Favorit",
+          "size": 48,
+          "weight": "400",
+          "lineHeight": 1.25,
+          "letterSpacing": "-0.4px",
+          "color": "rgb(0, 0, 0)"
+        },
+        "h3": {
+          "font": "ABC Favorit",
+          "size": 18,
+          "weight": "700",
+          "lineHeight": 1.56,
+          "letterSpacing": "-0.4px",
+          "color": "rgb(0, 0, 0)"
+        },
+        "body": {
+          "font": "ABC Favorit",
+          "size": 16,
+          "weight": "400",
+          "lineHeight": 1.5,
+          "letterSpacing": "-0.4px",
+          "color": "oklab(0.259934 -0.000510707 0.00176623 / 0.5)"
+        }
+      },
+      "colors": {
+        "background": "#f4f4f0",
+        "surfaces": [
+          "#f4f4f0",
+          "#ffffff",
+          "#000000",
+          "#f1f333",
+          "#dc341e"
+        ],
+        "text": [
+          "#000000",
+          "#ffffff"
+        ]
+      },
+      "buttons": [
+        {
+          "label": "About",
+          "bg": "#000000",
+          "color": "#ffffff",
+          "radius": "3.35544e+07px",
+          "height": 46,
+          "paddingX": 16,
+          "font": "ABC Favorit",
+          "size": 18,
+          "weight": "400"
+        },
+        {
+          "label": "Start selling",
+          "bg": "#000000",
+          "color": "#ffffff",
+          "radius": "4px",
+          "height": 64,
+          "paddingX": 40,
+          "font": "ABC Favorit",
+          "size": 20,
+          "weight": "400"
+        },
+        {
+          "label": "",
+          "bg": "#ffffff",
+          "color": "#000000",
+          "radius": "6px",
+          "height": 42,
+          "paddingX": 8,
+          "font": "Arial",
+          "size": 13,
+          "weight": "400"
+        }
+      ],
+      "contentWidth": 1152
+    }
+  },
+  {
     "id": "linear-landing",
     "site": "Linear",
     "url": "https://linear.app",
@@ -1981,6 +4193,268 @@
         }
       ],
       "contentWidth": 1436
+    }
+  },
+  {
+    "id": "liveblocks-landing",
+    "site": "Liveblocks",
+    "url": "https://liveblocks.io",
+    "type": "landing",
+    "tags": [
+      "dark",
+      "centered-hero",
+      "blurred-product",
+      "small-type"
+    ],
+    "note": "Centred dark hero with a blurred product scene behind it, so the headline stays readable while hinting at the UI. Small, precise type and two compact buttons.",
+    "captured": "2026-11-22",
+    "screens": {
+      "desktop": {
+        "file": "screens/liveblocks-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/liveblocks-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Liveblocks | Realtime and sync for the agentic web",
+      "fonts": [
+        "suisse",
+        "JetBrains Mono"
+      ],
+      "type": {
+        "h1": {
+          "font": "suisse",
+          "size": 60,
+          "weight": "500",
+          "lineHeight": 1.1,
+          "letterSpacing": "-1.2px",
+          "color": "rgb(255, 255, 255)"
+        },
+        "h2": {
+          "font": "suisse",
+          "size": 52,
+          "weight": "500",
+          "lineHeight": 1.1,
+          "letterSpacing": "-1.04px",
+          "color": "rgb(255, 255, 255)"
+        },
+        "h3": {
+          "font": "suisse",
+          "size": 16,
+          "weight": "400",
+          "lineHeight": 1.5,
+          "letterSpacing": "normal",
+          "color": "rgb(255, 255, 255)"
+        },
+        "body": {
+          "font": "suisse",
+          "size": 14,
+          "weight": "500",
+          "lineHeight": 1.43,
+          "letterSpacing": "normal",
+          "color": "rgb(255, 255, 255)"
+        }
+      },
+      "colors": {
+        "background": "#000000",
+        "surfaces": [
+          "#000000",
+          "#f9fbfd",
+          "#fefefe",
+          "#21222b",
+          "#e5e5e5"
+        ],
+        "text": [
+          "#000000",
+          "#ffffff",
+          "#b7b4b4",
+          "#635f5f"
+        ]
+      },
+      "buttons": [
+        {
+          "label": "Get started",
+          "bg": "#ffffff",
+          "color": "#000000",
+          "radius": "6px",
+          "height": 36,
+          "paddingX": 14,
+          "font": "suisse",
+          "size": 14,
+          "weight": "500"
+        },
+        {
+          "label": "Get started for free",
+          "bg": "#ffffff",
+          "color": "#000000",
+          "radius": "8px",
+          "height": 44,
+          "paddingX": 16,
+          "font": "suisse",
+          "size": 16,
+          "weight": "500"
+        }
+      ],
+      "contentWidth": 1536
+    }
+  },
+  {
+    "id": "loops-landing",
+    "site": "Loops",
+    "url": "https://loops.so",
+    "type": "landing",
+    "tags": [
+      "light",
+      "serif-display",
+      "logo-row",
+      "product-screenshot-hero",
+      "accent-stripes"
+    ],
+    "note": "Serif headline left, a logo row right under the buttons, then the email editor itself. A vertical band of orange stripes on the right edge is the only decoration.",
+    "captured": "2026-11-22",
+    "screens": {
+      "desktop": {
+        "file": "screens/loops-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/loops-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Loops | Email Platform for SaaS: Marketing & Transactional",
+      "fonts": [
+        "Inter",
+        "ui-sans-serif",
+        "sans-serif"
+      ],
+      "type": {
+        "h1": {
+          "font": "Newsreader",
+          "size": 44,
+          "weight": "500",
+          "lineHeight": 1.08,
+          "letterSpacing": "-0.88px",
+          "color": "rgb(33, 32, 28)"
+        },
+        "h2": {
+          "font": "Inter",
+          "size": 34,
+          "weight": "600",
+          "lineHeight": 1.15,
+          "letterSpacing": "-1.02px",
+          "color": "rgb(33, 32, 28)"
+        },
+        "h3": {
+          "font": "Inter",
+          "size": 16,
+          "weight": "600",
+          "lineHeight": 1.44,
+          "letterSpacing": "normal",
+          "color": "rgb(33, 32, 28)"
+        },
+        "body": {
+          "font": "Inter",
+          "size": 16,
+          "weight": "500",
+          "lineHeight": 1.5,
+          "letterSpacing": "0.16px",
+          "color": "rgb(33, 32, 28)"
+        }
+      },
+      "colors": {
+        "background": "#f9f9f8",
+        "surfaces": [
+          "#fdfdfc",
+          "#f9f9f8",
+          "#f1f0ef",
+          "#7d1b0c",
+          "#21201c"
+        ],
+        "text": [
+          "#63635e",
+          "#21201c",
+          "#f9f9f8",
+          "#cfceca"
+        ]
+      },
+      "buttons": [
+        {
+          "label": "Log in",
+          "bg": "#fdfdfc",
+          "color": "#21201c",
+          "radius": "999px",
+          "height": 40,
+          "paddingX": 14,
+          "font": "sans-serif",
+          "size": 12,
+          "weight": "400"
+        },
+        {
+          "label": "Start for free",
+          "bg": "#21201c",
+          "color": "#0000ee",
+          "radius": "34.88px",
+          "height": 44,
+          "paddingX": 20,
+          "font": "sans-serif",
+          "size": 12,
+          "weight": "400"
+        },
+        {
+          "label": "Book a demo",
+          "bg": "#fdfdfc",
+          "color": "#21201c",
+          "radius": "999px",
+          "height": 44,
+          "paddingX": 14,
+          "font": "sans-serif",
+          "size": 12,
+          "weight": "400"
+        },
+        {
+          "label": "",
+          "bg": "#21201c",
+          "color": "#fdfdfc",
+          "radius": "50%",
+          "height": 28,
+          "paddingX": 6,
+          "font": "Inter",
+          "size": 12,
+          "weight": "400"
+        },
+        {
+          "label": "ChatGPT",
+          "bg": "#fdfdfc",
+          "color": "#21201c",
+          "radius": "9px",
+          "height": 46,
+          "paddingX": 20,
+          "font": "Inter",
+          "size": 14,
+          "weight": "500"
+        },
+        {
+          "label": "Claude",
+          "bg": "#fdfdfc",
+          "color": "#21201c",
+          "radius": "9px",
+          "height": 46,
+          "paddingX": 20,
+          "font": "Inter",
+          "size": 14,
+          "weight": "500"
+        }
+      ],
+      "contentWidth": 1440
     }
   },
   {
@@ -2090,6 +4564,635 @@
         }
       ],
       "contentWidth": 1376
+    }
+  },
+  {
+    "id": "mistral-ai-landing",
+    "site": "Mistral AI",
+    "url": "https://mistral.ai",
+    "type": "landing",
+    "tags": [
+      "light",
+      "pixel-blocks",
+      "bold-color",
+      "centered-hero",
+      "logo-row"
+    ],
+    "note": "Centred bold claim with a small flag icon inside it, framed by stacked orange and yellow pixel blocks and tiny pixel characters. The brand pattern carries the whole page.",
+    "captured": "2026-11-22",
+    "screens": {
+      "desktop": {
+        "file": "screens/mistral-ai-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/mistral-ai-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Mistral | #1 in Sovereign AI: Frontier Open Models You Own",
+      "fonts": [
+        "Inter",
+        "ALTMistral"
+      ],
+      "type": {
+        "h1": {
+          "font": "Inter",
+          "size": 16,
+          "weight": "400",
+          "lineHeight": 1.5,
+          "letterSpacing": "normal",
+          "color": "oklch(0.21 0.006 285.885)"
+        },
+        "h2": {
+          "font": "ALTMistral",
+          "size": 56,
+          "weight": "500",
+          "lineHeight": 1.07,
+          "letterSpacing": "-0.56px",
+          "color": "oklch(0.21 0.006 285.885)"
+        },
+        "h3": {
+          "font": "Inter",
+          "size": 16,
+          "weight": "400",
+          "lineHeight": 1.5,
+          "letterSpacing": "normal",
+          "color": "oklch(0.37 0.013 285.805)"
+        },
+        "body": {
+          "font": "ALTMistral",
+          "size": 32,
+          "weight": "500",
+          "lineHeight": 1.25,
+          "letterSpacing": "normal",
+          "color": "oklch(0.21 0.006 285.885)"
+        }
+      },
+      "colors": {
+        "background": "#fbfbf8",
+        "surfaces": [
+          "#fbfbf8",
+          "#f5f4ef",
+          "#ff5229",
+          "#ffaf01",
+          "#ff8204"
+        ],
+        "text": [
+          "#ffffff"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": 1024
+    }
+  },
+  {
+    "id": "mobbin-landing",
+    "site": "Mobbin",
+    "url": "https://mobbin.com",
+    "type": "landing",
+    "tags": [
+      "light",
+      "centered-hero",
+      "inline-icons-in-headline",
+      "minimal"
+    ],
+    "note": "Big centred headline with small icons inserted between the words, a one-line subtitle with a concrete number, two small buttons. The product preview starts at the bottom of the fold.",
+    "captured": "2026-11-22",
+    "screens": {
+      "desktop": {
+        "file": "screens/mobbin-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/mobbin-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Mobbin — UI & UX design inspiration for mobile & web apps",
+      "fonts": [
+        "saans"
+      ],
+      "type": {
+        "h1": {
+          "font": "saans",
+          "size": 80,
+          "weight": "652",
+          "lineHeight": 1,
+          "letterSpacing": "-0.6px",
+          "color": "rgb(20, 20, 20)"
+        },
+        "h2": {
+          "font": "saans",
+          "size": 44,
+          "weight": "652",
+          "lineHeight": 1.09,
+          "letterSpacing": "-0.4px",
+          "color": "rgb(20, 20, 20)"
+        },
+        "h3": null,
+        "body": {
+          "font": "saans",
+          "size": 20,
+          "weight": "440",
+          "lineHeight": 1.3,
+          "letterSpacing": "normal",
+          "color": "rgb(112, 112, 112)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#ffffff",
+          "#141414"
+        ],
+        "text": [
+          "#707070",
+          "#ffffff",
+          "#141414",
+          "#adadad"
+        ]
+      },
+      "buttons": [
+        {
+          "label": "Join for free",
+          "bg": "#141414",
+          "color": "#ffffff",
+          "radius": "9999px",
+          "height": 44,
+          "paddingX": 16,
+          "font": "saans",
+          "size": 16,
+          "weight": "600"
+        }
+      ],
+      "contentWidth": 891
+    }
+  },
+  {
+    "id": "modal-landing",
+    "site": "Modal",
+    "url": "https://modal.com",
+    "type": "landing",
+    "tags": [
+      "dark",
+      "green-accent",
+      "3d-wireframe",
+      "centered-hero",
+      "logo-row"
+    ],
+    "note": "Dark page with a glowing green 3D wireframe, a centred headline where only \"production AI\" is green, and a logo row at the bottom of the fold.",
+    "captured": "2026-11-22",
+    "screens": {
+      "desktop": {
+        "file": "screens/modal-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/modal-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Modal: The platform for production AI",
+      "fonts": [
+        "ABC Diatype",
+        "DM Mono"
+      ],
+      "type": {
+        "h1": {
+          "font": "ABC Diatype",
+          "size": 45,
+          "weight": "500",
+          "lineHeight": 1.07,
+          "letterSpacing": "-0.45px",
+          "color": "rgb(227, 229, 225)"
+        },
+        "h2": {
+          "font": "ABC Diatype",
+          "size": 38,
+          "weight": "500",
+          "lineHeight": 1.16,
+          "letterSpacing": "-0.38px",
+          "color": "rgb(227, 229, 225)"
+        },
+        "h3": {
+          "font": "ABC Diatype",
+          "size": 18,
+          "weight": "400",
+          "lineHeight": 1.33,
+          "letterSpacing": "normal",
+          "color": "rgb(227, 229, 225)"
+        },
+        "body": {
+          "font": "ABC Diatype",
+          "size": 15,
+          "weight": "400",
+          "lineHeight": 1.47,
+          "letterSpacing": "0.15px",
+          "color": "rgb(108, 110, 106)"
+        }
+      },
+      "colors": {
+        "background": "#181818",
+        "surfaces": [
+          "#040804",
+          "#10120f",
+          "#050a05",
+          "#7fee64",
+          "#1a1c19"
+        ],
+        "text": [
+          "#a8aba6",
+          "#e3e5e1",
+          "#000000",
+          "#6c6e6a"
+        ]
+      },
+      "buttons": [
+        {
+          "label": "Sign up",
+          "bg": "#e3e5e1",
+          "color": "#10120f",
+          "radius": "48px",
+          "height": 32,
+          "paddingX": 12,
+          "font": "ABC Diatype",
+          "size": 15,
+          "weight": "500"
+        },
+        {
+          "label": "Get started",
+          "bg": "#e3e5e1",
+          "color": "#10120f",
+          "radius": "48px",
+          "height": 36,
+          "paddingX": 16,
+          "font": "ABC Diatype",
+          "size": 16,
+          "weight": "500"
+        },
+        {
+          "label": "Learn more",
+          "bg": "#e3e5e1",
+          "color": "#10120f",
+          "radius": "48px",
+          "height": 36,
+          "paddingX": 16,
+          "font": "ABC Diatype",
+          "size": 16,
+          "weight": "500"
+        }
+      ],
+      "contentWidth": 1546
+    }
+  },
+  {
+    "id": "mymind-landing",
+    "site": "mymind",
+    "url": "https://mymind.com",
+    "type": "landing",
+    "tags": [
+      "light",
+      "serif-display",
+      "centered-hero",
+      "inline-tags",
+      "minimal"
+    ],
+    "note": "Huge serif two-line headline (\"Remember everything. Organize nothing.\"), then a line of coloured tag chips naming what you can save. Almost nothing else; confidence through space.",
+    "captured": "2026-11-22",
+    "screens": {
+      "desktop": {
+        "file": "screens/mymind-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/mymind-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "mymind is the extension for your mind.",
+      "fonts": [
+        "Avenir LT W01_45 Book1475508",
+        "Louize-Regular-205TF",
+        "Nunito-SemiBold"
+      ],
+      "type": {
+        "h1": {
+          "font": "Avenir LT W01_45 Book1475508",
+          "size": 140,
+          "weight": "400",
+          "lineHeight": 0.85,
+          "letterSpacing": "-8.4px",
+          "color": "rgb(0, 0, 0)"
+        },
+        "h2": {
+          "font": "Avenir LT W01_45 Book1475508",
+          "size": 16,
+          "weight": "400",
+          "lineHeight": 1.75,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        },
+        "h3": null,
+        "body": {
+          "font": "Inter-Regular",
+          "size": 20,
+          "weight": "400",
+          "lineHeight": 2.2,
+          "letterSpacing": "-0.4px",
+          "color": "rgb(74, 84, 101)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#ffffff",
+          "#f9fafc",
+          "#f5f7f9",
+          "#ff5924"
+        ],
+        "text": [
+          "#3a475a",
+          "#4a5465",
+          "#000000",
+          "#748297"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": 1440
+    }
+  },
+  {
+    "id": "n8n-landing",
+    "site": "n8n",
+    "url": "https://n8n.io",
+    "type": "landing",
+    "tags": [
+      "light",
+      "workflow-diagram",
+      "centered-hero",
+      "mono-labels",
+      "dot-grid"
+    ],
+    "note": "The product is drawn in the hero: a workflow graph with nodes and app icons on a dot grid, under a two-line centred headline. Monospace uppercase nav.",
+    "captured": "2026-11-22",
+    "screens": {
+      "desktop": {
+        "file": "screens/n8n-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/n8n-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "AI Workflow Automation Platform - n8n",
+      "fonts": [
+        "n8n Baumer Uniwidth",
+        "n8n Baumer Mono"
+      ],
+      "type": {
+        "h1": {
+          "font": "n8n Baumer Uniwidth",
+          "size": 64,
+          "weight": "500",
+          "lineHeight": 0.85,
+          "letterSpacing": "-0.64px",
+          "color": "rgb(22, 22, 22)"
+        },
+        "h2": {
+          "font": "n8n Baumer Uniwidth",
+          "size": 48,
+          "weight": "500",
+          "lineHeight": 1,
+          "letterSpacing": "-0.48px",
+          "color": "rgb(22, 22, 22)"
+        },
+        "h3": {
+          "font": "n8n Baumer Uniwidth",
+          "size": 24,
+          "weight": "500",
+          "lineHeight": 1,
+          "letterSpacing": "normal",
+          "color": "rgb(250, 250, 250)"
+        },
+        "body": {
+          "font": "n8n Baumer Uniwidth",
+          "size": 16,
+          "weight": "400",
+          "lineHeight": 1.5,
+          "letterSpacing": "normal",
+          "color": "rgb(22, 22, 22)"
+        }
+      },
+      "colors": {
+        "background": "#fafafa",
+        "surfaces": [
+          "#212121",
+          "#f0f0f0",
+          "#fafafa",
+          "#e6e6e6",
+          "#ffbcca"
+        ],
+        "text": [
+          "#fafafa",
+          "#303030",
+          "#161616",
+          "#8f8f8f"
+        ]
+      },
+      "buttons": [
+        {
+          "label": "GET STARTED",
+          "bg": "#ffbcca",
+          "color": "#212121",
+          "radius": "9999px",
+          "height": 42,
+          "paddingX": 16,
+          "font": "n8n Baumer Mono",
+          "size": 14,
+          "weight": "400"
+        },
+        {
+          "label": "GET STARTED",
+          "bg": "#ffbcca",
+          "color": "#212121",
+          "radius": "9999px",
+          "height": 42,
+          "paddingX": 16,
+          "font": "n8n Baumer Mono",
+          "size": 14,
+          "weight": "400"
+        },
+        {
+          "label": "TALK TO SALES",
+          "bg": "#d9d9d9",
+          "color": "#161616",
+          "radius": "9999px",
+          "height": 42,
+          "paddingX": 16,
+          "font": "n8n Baumer Mono",
+          "size": 14,
+          "weight": "400"
+        },
+        {
+          "label": "TOM, IT",
+          "bg": "#ffbcca",
+          "color": "#161616",
+          "radius": "9999px",
+          "height": 34,
+          "paddingX": 16,
+          "font": "n8n Baumer Mono",
+          "size": 14,
+          "weight": "400"
+        },
+        {
+          "label": "CÉCILE, SECURITY",
+          "bg": "#474747",
+          "color": "#fafafa",
+          "radius": "9999px",
+          "height": 34,
+          "paddingX": 16,
+          "font": "n8n Baumer Mono",
+          "size": 14,
+          "weight": "400"
+        },
+        {
+          "label": "KONSTI, DEVOPS",
+          "bg": "#474747",
+          "color": "#fafafa",
+          "radius": "9999px",
+          "height": 34,
+          "paddingX": 16,
+          "font": "n8n Baumer Mono",
+          "size": 14,
+          "weight": "400"
+        }
+      ],
+      "contentWidth": 1392
+    }
+  },
+  {
+    "id": "neon-landing",
+    "site": "Neon",
+    "url": "https://neon.com",
+    "type": "landing",
+    "tags": [
+      "dark",
+      "green-accent",
+      "abstract-light",
+      "left-aligned-hero",
+      "logo-row"
+    ],
+    "note": "Left-aligned headline at the bottom of a dark hero lit by vertical green light streaks; logos run along the very bottom. Atmosphere from one abstract visual, not from many.",
+    "captured": "2026-11-22",
+    "screens": {
+      "desktop": {
+        "file": "screens/neon-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/neon-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Neon — Postgres backends for apps and agents",
+      "fonts": [
+        "Inter",
+        "GeistMono"
+      ],
+      "type": {
+        "h1": {
+          "font": "Inter",
+          "size": 56,
+          "weight": "400",
+          "lineHeight": 1.13,
+          "letterSpacing": "-2.24px",
+          "color": "rgb(255, 255, 255)"
+        },
+        "h2": {
+          "font": "Inter",
+          "size": 44,
+          "weight": "400",
+          "lineHeight": 1.13,
+          "letterSpacing": "-1.76px",
+          "color": "rgb(255, 255, 255)"
+        },
+        "h3": {
+          "font": "Inter",
+          "size": 16,
+          "weight": "400",
+          "lineHeight": 1.25,
+          "letterSpacing": "-0.32px",
+          "color": "rgb(255, 255, 255)"
+        },
+        "body": {
+          "font": "Inter",
+          "size": 24,
+          "weight": "500",
+          "lineHeight": 1,
+          "letterSpacing": "-0.96px",
+          "color": "rgb(255, 255, 255)"
+        }
+      },
+      "colors": {
+        "background": "#000000",
+        "surfaces": [
+          "#000000",
+          "#111315",
+          "#ffffff",
+          "#18191b"
+        ],
+        "text": [
+          "#94979e",
+          "#ffffff",
+          "#797d86",
+          "#c9cbcf"
+        ]
+      },
+      "buttons": [
+        {
+          "label": "Sign up",
+          "bg": "#ffffff",
+          "color": "#000000",
+          "radius": "3.35544e+07px",
+          "height": 36,
+          "paddingX": 18,
+          "font": "Inter",
+          "size": 14,
+          "weight": "500"
+        },
+        {
+          "label": "Get started",
+          "bg": "#ffffff",
+          "color": "#1a1a1a",
+          "radius": "3.35544e+07px",
+          "height": 44,
+          "paddingX": 28,
+          "font": "Inter",
+          "size": 16,
+          "weight": "500"
+        }
+      ],
+      "contentWidth": 1600
     }
   },
   {
@@ -2210,6 +5313,801 @@
         }
       ],
       "contentWidth": 1440
+    }
+  },
+  {
+    "id": "oura-landing",
+    "site": "Oura",
+    "url": "https://ouraring.com",
+    "type": "landing",
+    "tags": [
+      "light",
+      "serif-display",
+      "product-photo",
+      "centered-hero",
+      "warm-neutrals"
+    ],
+    "note": "Commerce done softly: a thin serif headline, a short line, one small blue button and the rings photographed on a flowing cream shape.",
+    "captured": "2026-11-22",
+    "screens": {
+      "desktop": {
+        "file": "screens/oura-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/oura-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Oura Ring. Smart Ring for Fitness, Stress, Sleep & Health.",
+      "fonts": [
+        "AkkuratLL",
+        "Editorial New"
+      ],
+      "type": {
+        "h1": {
+          "font": "Editorial New",
+          "size": 80,
+          "weight": "300",
+          "lineHeight": 1.1,
+          "letterSpacing": "-4px",
+          "color": "rgb(74, 71, 65)"
+        },
+        "h2": {
+          "font": "Editorial New",
+          "size": 68,
+          "weight": "400",
+          "lineHeight": 1.1,
+          "letterSpacing": "-2.04px",
+          "color": "rgb(74, 71, 65)"
+        },
+        "h3": {
+          "font": "AkkuratLL",
+          "size": 40,
+          "weight": "300",
+          "lineHeight": 1,
+          "letterSpacing": "normal",
+          "color": "rgb(247, 241, 232)"
+        },
+        "body": {
+          "font": "AkkuratLL",
+          "size": 14,
+          "weight": "700",
+          "lineHeight": 1.5,
+          "letterSpacing": "normal",
+          "color": "rgb(74, 71, 65)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#f7f1e8",
+          "#4a4741",
+          "#2a72de",
+          "#1c1b1a"
+        ],
+        "text": [
+          "#4a4741",
+          "#f7f1e8",
+          "#000000",
+          "#ffffff"
+        ]
+      },
+      "buttons": [
+        {
+          "label": "Shop Sale",
+          "bg": "#2a72de",
+          "color": "#ffffff",
+          "radius": "3.35544e+07px",
+          "height": 48,
+          "paddingX": 24,
+          "font": "AkkuratLL",
+          "size": 16,
+          "weight": "700"
+        },
+        {
+          "label": "Why Oura",
+          "bg": "#4a4741",
+          "color": "#f7f1e8",
+          "radius": "3.35544e+07px",
+          "height": 48,
+          "paddingX": 24,
+          "font": "AkkuratLL",
+          "size": 16,
+          "weight": "400"
+        },
+        {
+          "label": "How It Works",
+          "bg": "#4a4741",
+          "color": "#f7f1e8",
+          "radius": "3.35544e+07px",
+          "height": 48,
+          "paddingX": 24,
+          "font": "AkkuratLL",
+          "size": 16,
+          "weight": "400"
+        },
+        {
+          "label": "",
+          "bg": "#f7f1e8",
+          "color": "#4a4741",
+          "radius": "3.35544e+07px",
+          "height": 53,
+          "paddingX": 20,
+          "font": "AkkuratLL",
+          "size": 16,
+          "weight": "400"
+        },
+        {
+          "label": "",
+          "bg": "#f7f1e8",
+          "color": "#4a4741",
+          "radius": "3.35544e+07px",
+          "height": 53,
+          "paddingX": 20,
+          "font": "AkkuratLL",
+          "size": 16,
+          "weight": "400"
+        },
+        {
+          "label": "",
+          "bg": "#f7f1e8",
+          "color": "#4a4741",
+          "radius": "3.35544e+07px",
+          "height": 53,
+          "paddingX": 20,
+          "font": "AkkuratLL",
+          "size": 16,
+          "weight": "400"
+        }
+      ],
+      "contentWidth": 1440
+    }
+  },
+  {
+    "id": "perplexity-landing",
+    "site": "Perplexity",
+    "url": "https://www.perplexity.ai/comet",
+    "type": "landing",
+    "tags": [
+      "light",
+      "serif-display",
+      "centered-hero",
+      "planet-shapes",
+      "product-screenshot-hero"
+    ],
+    "note": "A thin serif headline centred between large planet-like spheres, one dark download pill, then the browser window rising from the bottom. Calm and spacious.",
+    "captured": "2026-11-22",
+    "screens": {
+      "desktop": {
+        "file": "screens/perplexity-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/perplexity-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Comet Browser: a Personal AI Assistant",
+      "fonts": [
+        "GT Standard VF Variable S Black",
+        "sans-serif",
+        "GT Canon VF Variable L Black"
+      ],
+      "type": {
+        "h1": null,
+        "h2": {
+          "font": "GT Standard VF Variable S Black",
+          "size": 16,
+          "weight": "900",
+          "lineHeight": 1,
+          "letterSpacing": "normal",
+          "color": "rgba(9, 23, 23, 0.64)"
+        },
+        "h3": null,
+        "body": {
+          "font": "GT Standard VF Variable S Black",
+          "size": 14,
+          "weight": "900",
+          "lineHeight": 1.2,
+          "letterSpacing": "normal",
+          "color": "rgb(251, 250, 244)"
+        }
+      },
+      "colors": {
+        "background": "#fbfaf4",
+        "surfaces": [
+          "#fbfaf4"
+        ],
+        "text": [
+          "#091717",
+          "#fbfaf4"
+        ]
+      },
+      "buttons": [
+        {
+          "label": "",
+          "bg": "#fbfaf4",
+          "color": "#0000ee",
+          "radius": "50px",
+          "height": 48,
+          "paddingX": 20,
+          "font": "sans-serif",
+          "size": 12,
+          "weight": "400"
+        }
+      ],
+      "contentWidth": 1440
+    }
+  },
+  {
+    "id": "phantom-landing",
+    "site": "Phantom",
+    "url": "https://phantom.com",
+    "type": "landing",
+    "tags": [
+      "light",
+      "card-hero",
+      "centered-hero",
+      "pastel"
+    ],
+    "note": "The hero lives inside one big rounded card with a muted lavender-grey fill and a centred headline. Soft and contained, like the app itself.",
+    "captured": "2026-11-22",
+    "screens": {
+      "desktop": {
+        "file": "screens/phantom-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/phantom-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Phantom: Your home for trading crypto, predictions, and more",
+      "fonts": [
+        "Phantom"
+      ],
+      "type": {
+        "h1": {
+          "font": "Phantom",
+          "size": 80,
+          "weight": "400",
+          "lineHeight": 1.1,
+          "letterSpacing": "-2px",
+          "color": "rgb(255, 253, 248)"
+        },
+        "h2": {
+          "font": "Phantom",
+          "size": 24,
+          "weight": "400",
+          "lineHeight": 1.35,
+          "letterSpacing": "-0.6px",
+          "color": "rgb(255, 253, 248)"
+        },
+        "h3": {
+          "font": "Phantom",
+          "size": 24,
+          "weight": "400",
+          "lineHeight": 1.35,
+          "letterSpacing": "-0.6px",
+          "color": "rgb(60, 49, 91)"
+        },
+        "body": {
+          "font": "Phantom",
+          "size": 30,
+          "weight": "400",
+          "lineHeight": 1.2,
+          "letterSpacing": "normal",
+          "color": "rgb(28, 28, 28)"
+        }
+      },
+      "colors": {
+        "background": "#f5f2ff",
+        "surfaces": [
+          "#fdfcfe",
+          "#e2dffe",
+          "#ab9ff2"
+        ],
+        "text": [
+          "#3c315b",
+          "#fffdf8"
+        ]
+      },
+      "buttons": [
+        {
+          "label": "",
+          "bg": "#fdfcfe",
+          "color": "#3c315b",
+          "radius": "32px",
+          "height": 56,
+          "paddingX": 16,
+          "font": "Phantom",
+          "size": 13,
+          "weight": "400"
+        },
+        {
+          "label": "Download",
+          "bg": "#ab9ff2",
+          "color": "#3c315b",
+          "radius": "32px",
+          "height": 52,
+          "paddingX": 32,
+          "font": "Phantom",
+          "size": 16,
+          "weight": "400"
+        },
+        {
+          "label": "See more",
+          "bg": "#e2dffe",
+          "color": "#3c315b",
+          "radius": "32px",
+          "height": 49,
+          "paddingX": 20,
+          "font": "Phantom",
+          "size": 16,
+          "weight": "400"
+        },
+        {
+          "label": "",
+          "bg": "#e2dffe",
+          "color": "#3c315b",
+          "radius": "32px",
+          "height": 40,
+          "paddingX": 16,
+          "font": "Phantom",
+          "size": 13,
+          "weight": "400"
+        }
+      ],
+      "contentWidth": 1560
+    }
+  },
+  {
+    "id": "pitch-landing",
+    "site": "Pitch",
+    "url": "https://pitch.com",
+    "type": "landing",
+    "tags": [
+      "gradient-brand",
+      "oversized-headline",
+      "prompt-box-hero",
+      "collage"
+    ],
+    "note": "Huge rounded sans headline on a violet field of floating slide thumbnails, with the AI prompt box as the hero action. The product's output becomes the background.",
+    "captured": "2026-11-22",
+    "screens": {
+      "desktop": {
+        "file": "screens/pitch-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/pitch-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "The AI presentation workspace",
+      "fonts": [
+        "Eina 03 Regular",
+        "sans-serif",
+        "Mark Pro Bold"
+      ],
+      "type": {
+        "h1": {
+          "font": "Mark Pro Bold",
+          "size": 180,
+          "weight": "700",
+          "lineHeight": 0.8,
+          "letterSpacing": "-7.2px",
+          "color": "rgb(255, 255, 255)"
+        },
+        "h2": {
+          "font": "Eina 03 Regular",
+          "size": 18,
+          "weight": "400",
+          "lineHeight": 1.6,
+          "letterSpacing": "-0.36px",
+          "color": "rgb(255, 255, 255)"
+        },
+        "h3": {
+          "font": "Mark Pro Bold",
+          "size": 28,
+          "weight": "700",
+          "lineHeight": 1.2,
+          "letterSpacing": "-0.56px",
+          "color": "rgb(40, 15, 98)"
+        },
+        "body": {
+          "font": "Eina 03 Regular",
+          "size": 16,
+          "weight": "400",
+          "lineHeight": 1.6,
+          "letterSpacing": "-0.32px",
+          "color": "rgb(255, 255, 255)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#ffffff",
+          "#c6a5ff",
+          "#5318eb",
+          "#c4ee87",
+          "#ebe3fe"
+        ],
+        "text": [
+          "#ffffff",
+          "#0c021c",
+          "#363636",
+          "#5318eb"
+        ]
+      },
+      "buttons": [
+        {
+          "label": "Log in",
+          "bg": "#ffffff",
+          "color": "#0000ee",
+          "radius": "30px",
+          "height": 44,
+          "paddingX": 12,
+          "font": "sans-serif",
+          "size": 12,
+          "weight": "400"
+        },
+        {
+          "label": "Sign up",
+          "bg": "#c4ee87",
+          "color": "#0000ee",
+          "radius": "4px",
+          "height": 44,
+          "paddingX": 12,
+          "font": "sans-serif",
+          "size": 12,
+          "weight": "400"
+        },
+        {
+          "label": "",
+          "bg": "#ebe3fe",
+          "color": "#280f62",
+          "radius": "100px",
+          "height": 32,
+          "paddingX": 0,
+          "font": "sans-serif",
+          "size": 12,
+          "weight": "400"
+        },
+        {
+          "label": "Generate",
+          "bg": "#5318eb",
+          "color": "#ffffff",
+          "radius": "4px",
+          "height": 36,
+          "paddingX": 16,
+          "font": "Mark Pro",
+          "size": 14,
+          "weight": "400"
+        }
+      ],
+      "contentWidth": 1440
+    }
+  },
+  {
+    "id": "plain-landing",
+    "site": "Plain",
+    "url": "https://www.plain.com",
+    "type": "landing",
+    "tags": [
+      "light",
+      "left-aligned-hero",
+      "mono-buttons",
+      "logo-row",
+      "minimal"
+    ],
+    "note": "Very sparse: small left-aligned headline, monospace pill buttons, an interactive graph (WebGL) and logos at the bottom. Lots of white, few elements.",
+    "captured": "2026-11-22",
+    "screens": {
+      "desktop": {
+        "file": "screens/plain-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/plain-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Plain — Support infrastructure for humans & agents",
+      "fonts": [
+        "ABC Favorit Regular",
+        "sans-serif",
+        "ABC Favorit Medium"
+      ],
+      "type": {
+        "h1": {
+          "font": "ABC Favorit Medium",
+          "size": 48,
+          "weight": "500",
+          "lineHeight": 1.1,
+          "letterSpacing": "-1px",
+          "color": "rgb(37, 45, 42)"
+        },
+        "h2": {
+          "font": "ABC Favorit Medium",
+          "size": 38,
+          "weight": "500",
+          "lineHeight": 1.16,
+          "letterSpacing": "-0.75px",
+          "color": "rgb(37, 45, 42)"
+        },
+        "h3": {
+          "font": "ABC Favorit Medium",
+          "size": 32,
+          "weight": "500",
+          "lineHeight": 1.13,
+          "letterSpacing": "-0.9px",
+          "color": "rgb(37, 45, 42)"
+        },
+        "body": {
+          "font": "ABC Favorit Regular",
+          "size": 15,
+          "weight": "400",
+          "lineHeight": 1.33,
+          "letterSpacing": "-0.15px",
+          "color": "rgb(10, 36, 20)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#ffffff",
+          "#1b6646"
+        ],
+        "text": [
+          "#252d2a",
+          "#000000",
+          "#0c0a08",
+          "#0a2414"
+        ]
+      },
+      "buttons": [
+        {
+          "label": "BOOK A DEMO",
+          "bg": "#1b6646",
+          "color": "#0000ee",
+          "radius": "100px",
+          "height": 36,
+          "paddingX": 16,
+          "font": "sans-serif",
+          "size": 12,
+          "weight": "400"
+        },
+        {
+          "label": "BOOK A DEMO",
+          "bg": "#1b6646",
+          "color": "#0000ee",
+          "radius": "100px",
+          "height": 36,
+          "paddingX": 16,
+          "font": "sans-serif",
+          "size": 12,
+          "weight": "400"
+        }
+      ],
+      "contentWidth": 1200
+    }
+  },
+  {
+    "id": "planetscale-landing",
+    "site": "PlanetScale",
+    "url": "https://planetscale.com",
+    "type": "landing",
+    "tags": [
+      "light",
+      "brutalist",
+      "monospace",
+      "logo-grid",
+      "text-heavy"
+    ],
+    "note": "Deliberately anti-marketing: monospace everywhere, paragraphs of plain text with links, and a hard-bordered grid of customer logos. Credibility through bluntness.",
+    "captured": "2026-11-22",
+    "screens": {
+      "desktop": {
+        "file": "screens/planetscale-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/planetscale-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "PlanetScale - the world’s fastest and most scalable cloud hosting for Vitess, Neki, and Postgres",
+      "fonts": [
+        "ui-monospace"
+      ],
+      "type": {
+        "h1": {
+          "font": "ui-monospace",
+          "size": 16,
+          "weight": "700",
+          "lineHeight": 1.5,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        },
+        "h2": {
+          "font": "ui-monospace",
+          "size": 16,
+          "weight": "700",
+          "lineHeight": 1.5,
+          "letterSpacing": "normal",
+          "color": "rgb(65, 65, 65)"
+        },
+        "h3": {
+          "font": "ui-monospace",
+          "size": 16,
+          "weight": "700",
+          "lineHeight": 1.5,
+          "letterSpacing": "normal",
+          "color": "rgb(65, 65, 65)"
+        },
+        "body": {
+          "font": "ui-monospace",
+          "size": 16,
+          "weight": "400",
+          "lineHeight": 1.5,
+          "letterSpacing": "normal",
+          "color": "rgb(65, 65, 65)"
+        }
+      },
+      "colors": {
+        "background": "#fafafa",
+        "surfaces": [
+          "#fbca00",
+          "#fafafa",
+          "#f35815",
+          "#111111"
+        ],
+        "text": [
+          "#414141",
+          "#737373",
+          "#0b6ec5",
+          "#111111"
+        ]
+      },
+      "buttons": [
+        {
+          "label": "Get in touch",
+          "bg": "#f35815",
+          "color": "#ffffff",
+          "radius": "0px",
+          "height": 32,
+          "paddingX": 8,
+          "font": "ui-monospace",
+          "size": 16,
+          "weight": "600"
+        }
+      ],
+      "contentWidth": 1280
+    }
+  },
+  {
+    "id": "polar-landing",
+    "site": "Polar",
+    "url": "https://polar.sh",
+    "type": "landing",
+    "tags": [
+      "dark",
+      "left-aligned-hero",
+      "product-screenshot-hero",
+      "feature-list-side"
+    ],
+    "note": "Small headline top-left, a large billing dashboard framed in grey, and a short feature list beside it. Numbers in the UI do the convincing.",
+    "captured": "2026-11-22",
+    "screens": {
+      "desktop": {
+        "file": "screens/polar-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/polar-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Polar — A billing platform for the intelligence era | Polar",
+      "fonts": [
+        "PP Neue Montreal",
+        "GeistMono"
+      ],
+      "type": {
+        "h1": {
+          "font": "PP Neue Montreal",
+          "size": 36,
+          "weight": "400",
+          "lineHeight": 1.25,
+          "letterSpacing": "normal",
+          "color": "rgb(255, 255, 255)"
+        },
+        "h2": {
+          "font": "PP Neue Montreal",
+          "size": 30,
+          "weight": "400",
+          "lineHeight": 1.38,
+          "letterSpacing": "normal",
+          "color": "rgb(255, 255, 255)"
+        },
+        "h3": {
+          "font": "PP Neue Montreal",
+          "size": 24,
+          "weight": "400",
+          "lineHeight": 1.38,
+          "letterSpacing": "0.24px",
+          "color": "rgb(255, 255, 255)"
+        },
+        "body": {
+          "font": "PP Neue Montreal",
+          "size": 16,
+          "weight": "450",
+          "lineHeight": 1.5,
+          "letterSpacing": "0.24px",
+          "color": "rgb(255, 255, 255)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#090909",
+          "#111111",
+          "#ffffff"
+        ],
+        "text": [
+          "#858585",
+          "#ffffff",
+          "#000000"
+        ]
+      },
+      "buttons": [
+        {
+          "label": "Get Started",
+          "bg": "#ffffff",
+          "color": "#000000",
+          "radius": "3.35544e+07px",
+          "height": 40,
+          "paddingX": 16,
+          "font": "PP Neue Montreal",
+          "size": 14,
+          "weight": "550"
+        },
+        {
+          "label": "Get Started",
+          "bg": "#ffffff",
+          "color": "#000000",
+          "radius": "3.35544e+07px",
+          "height": 48,
+          "paddingX": 20,
+          "font": "PP Neue Montreal",
+          "size": 14,
+          "weight": "550"
+        }
+      ],
+      "contentWidth": 1280
     }
   },
   {
@@ -2364,6 +6262,116 @@
         }
       ],
       "contentWidth": 1424
+    }
+  },
+  {
+    "id": "railway-landing",
+    "site": "Railway",
+    "url": "https://railway.com",
+    "type": "landing",
+    "tags": [
+      "dark",
+      "serif-display",
+      "illustration-sky",
+      "centered-hero",
+      "product-screenshot-hero"
+    ],
+    "note": "A serif headline on a dusky illustrated sky, two compact buttons and the product canvas below. Warm and calm for an infrastructure product.",
+    "captured": "2026-11-22",
+    "screens": {
+      "desktop": {
+        "file": "screens/railway-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/railway-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Railway | The all-in-one intelligent cloud provider",
+      "fonts": [
+        "Inter",
+        "IBM Plex Serif",
+        "Inter Tight"
+      ],
+      "type": {
+        "h1": {
+          "font": "IBM Plex Serif",
+          "size": 54,
+          "weight": "500",
+          "lineHeight": 1.12,
+          "letterSpacing": "-1.96px",
+          "color": "rgb(255, 255, 255)"
+        },
+        "h2": {
+          "font": "IBM Plex Serif",
+          "size": 36,
+          "weight": "400",
+          "lineHeight": 1.33,
+          "letterSpacing": "-0.72px",
+          "color": "rgb(255, 255, 255)"
+        },
+        "h3": {
+          "font": "Inter",
+          "size": 13,
+          "weight": "500",
+          "lineHeight": 1.54,
+          "letterSpacing": "normal",
+          "color": "rgb(196, 196, 202)"
+        },
+        "body": {
+          "font": "Inter",
+          "size": 20,
+          "weight": "400",
+          "lineHeight": 1.4,
+          "letterSpacing": "normal",
+          "color": "rgba(255, 255, 255, 0.8)"
+        }
+      },
+      "colors": {
+        "background": "#13111c",
+        "surfaces": [
+          "#13111c",
+          "#1b2132",
+          "#0d0c14",
+          "#180d43",
+          "#553f83"
+        ],
+        "text": [
+          "#f7f7f8",
+          "#ffffff",
+          "#878593",
+          "#dcdce0"
+        ]
+      },
+      "buttons": [
+        {
+          "label": "Deploy →",
+          "bg": "#553f83",
+          "color": "#ffffff",
+          "radius": "8px",
+          "height": 58,
+          "paddingX": 24,
+          "font": "Inter",
+          "size": 20,
+          "weight": "500"
+        },
+        {
+          "label": "Deploy",
+          "bg": "#291839",
+          "color": "#f7f7f8",
+          "radius": "8px",
+          "height": 32,
+          "paddingX": 0,
+          "font": "Inter",
+          "size": 16,
+          "weight": "400"
+        }
+      ],
+      "contentWidth": 1440
     }
   },
   {
@@ -2645,6 +6653,626 @@
       },
       "buttons": [],
       "contentWidth": 1280
+    }
+  },
+  {
+    "id": "retool-landing",
+    "site": "Retool",
+    "url": "https://retool.com",
+    "type": "landing",
+    "tags": [
+      "dark",
+      "centered-hero",
+      "prompt-box-hero",
+      "tilted-product",
+      "video-hero"
+    ],
+    "note": "Centred headline over tilted product screenshots in a dark gradient, with an AI prompt box in the middle and a \"Watch the film\" pill. The prompt is the call to action.",
+    "captured": "2026-11-22",
+    "screens": {
+      "desktop": {
+        "file": "screens/retool-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/retool-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Build internal software better, with AI. | Retool",
+      "fonts": [
+        "saansFont",
+        "ui-sans-serif",
+        "pxGroteskFont"
+      ],
+      "type": {
+        "h1": {
+          "font": "saansFont",
+          "size": 72,
+          "weight": "300",
+          "lineHeight": 1.05,
+          "letterSpacing": "-1.584px",
+          "color": "rgb(233, 235, 223)"
+        },
+        "h2": {
+          "font": "saansFont",
+          "size": 48,
+          "weight": "300",
+          "lineHeight": 1.05,
+          "letterSpacing": "-0.48px",
+          "color": "rgb(233, 235, 223)"
+        },
+        "h3": {
+          "font": "saansFont",
+          "size": 48,
+          "weight": "300",
+          "lineHeight": 1.05,
+          "letterSpacing": "-0.48px",
+          "color": "rgb(233, 235, 223)"
+        },
+        "body": {
+          "font": "saansFont",
+          "size": 14,
+          "weight": "300",
+          "lineHeight": 1.5,
+          "letterSpacing": "0.14px",
+          "color": "rgba(233, 235, 223, 0.6)"
+        }
+      },
+      "colors": {
+        "background": "#151515",
+        "surfaces": [
+          "#151515",
+          "#242424",
+          "#e9ebdf",
+          "#d9d9d9",
+          "#000000"
+        ],
+        "text": [
+          "#e9ebdf",
+          "#151515",
+          "#f7f8f4",
+          "#242424"
+        ]
+      },
+      "buttons": [
+        {
+          "label": "Start for free",
+          "bg": "#e9ebdf",
+          "color": "#151515",
+          "radius": "3.35544e+07px",
+          "height": 40,
+          "paddingX": 20,
+          "font": "pxGroteskFont",
+          "size": 14,
+          "weight": "400"
+        },
+        {
+          "label": "",
+          "bg": "#518dd2",
+          "color": "#e9ebdf",
+          "radius": "3.35544e+07px",
+          "height": 40,
+          "paddingX": 0,
+          "font": "ui-sans-serif",
+          "size": 16,
+          "weight": "400"
+        },
+        {
+          "label": "Import code",
+          "bg": "#d9d9d9",
+          "color": "#151515",
+          "radius": "12px",
+          "height": 38,
+          "paddingX": 12,
+          "font": "pxGroteskFont",
+          "size": 14,
+          "weight": "400"
+        },
+        {
+          "label": "Build with AI agents",
+          "bg": "#d9d9d9",
+          "color": "#151515",
+          "radius": "12px",
+          "height": 38,
+          "paddingX": 12,
+          "font": "pxGroteskFont",
+          "size": 14,
+          "weight": "400"
+        },
+        {
+          "label": "See what's new.\nWatch the film",
+          "bg": "#000000",
+          "color": "#e9ebdf",
+          "radius": "3.35544e+07px",
+          "height": 40,
+          "paddingX": 0,
+          "font": "ui-sans-serif",
+          "size": 16,
+          "weight": "400"
+        }
+      ],
+      "contentWidth": 1440
+    }
+  },
+  {
+    "id": "rive-landing",
+    "site": "Rive",
+    "url": "https://rive.app",
+    "type": "landing",
+    "tags": [
+      "dark",
+      "game-art",
+      "bold-typography",
+      "hud-labels",
+      "interactive-hero"
+    ],
+    "note": "A playable game scene as the hero with HUD-style monospace labels around it and a heavy display headline. Shows what the tool makes instead of describing it.",
+    "captured": "2026-11-22",
+    "screens": {
+      "desktop": {
+        "file": "screens/rive-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/rive-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Rive: agent-native 2D and 3D engine for games, apps, and UI",
+      "fonts": [
+        "Inter",
+        "PragmataPro VF Variable Regular",
+        "sans-serif"
+      ],
+      "type": {
+        "h1": {
+          "font": "Orbitron",
+          "size": 48,
+          "weight": "900",
+          "lineHeight": 1.02,
+          "letterSpacing": "-1.44px",
+          "color": "rgb(255, 255, 255)"
+        },
+        "h2": {
+          "font": "Orbitron",
+          "size": 24,
+          "weight": "700",
+          "lineHeight": 1.4,
+          "letterSpacing": "normal",
+          "color": "rgb(241, 241, 241)"
+        },
+        "h3": {
+          "font": "Inter",
+          "size": 24,
+          "weight": "500",
+          "lineHeight": 1.25,
+          "letterSpacing": "-0.24px",
+          "color": "rgb(255, 255, 255)"
+        },
+        "body": {
+          "font": "Inter",
+          "size": 12,
+          "weight": "500",
+          "lineHeight": 1.3,
+          "letterSpacing": "0.96px",
+          "color": "rgba(255, 255, 255, 0.8)"
+        }
+      },
+      "colors": {
+        "background": "#000000",
+        "surfaces": [
+          "#000000",
+          "#0e0e0e",
+          "#050506",
+          "#0b0b0d",
+          "#ffffff"
+        ],
+        "text": [
+          "#ffffff",
+          "#000000",
+          "#f1f1f1"
+        ]
+      },
+      "buttons": [
+        {
+          "label": "START BUILDING FREE",
+          "bg": "#ffffff",
+          "color": "#000000",
+          "radius": "4px",
+          "height": 44,
+          "paddingX": 18,
+          "font": "PragmataPro VF Variable Regular",
+          "size": 13,
+          "weight": "500"
+        },
+        {
+          "label": "COPY STARTER PROMPT",
+          "bg": "#ffffff",
+          "color": "#000000",
+          "radius": "4px",
+          "height": 29,
+          "paddingX": 9,
+          "font": "PragmataPro VF Variable Regular",
+          "size": 12,
+          "weight": "500"
+        }
+      ],
+      "contentWidth": 1200
+    }
+  },
+  {
+    "id": "runway-landing",
+    "site": "Runway",
+    "url": "https://runwayml.com",
+    "type": "landing",
+    "tags": [
+      "light",
+      "cinematic-image",
+      "left-aligned-hero",
+      "logo-row"
+    ],
+    "note": "One cinematic image in a large rounded frame with the headline set inside it, bottom-left. Logos in a quiet row underneath.",
+    "captured": "2026-11-22",
+    "screens": {
+      "desktop": {
+        "file": "screens/runway-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/runway-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Runway | Intelligent tools for scaling content and teams.",
+      "fonts": [
+        "abcNormal"
+      ],
+      "type": {
+        "h1": {
+          "font": "abcNormal",
+          "size": 56,
+          "weight": "400",
+          "lineHeight": 1.1,
+          "letterSpacing": "-0.84px",
+          "color": "rgb(255, 255, 255)"
+        },
+        "h2": {
+          "font": "abcNormal",
+          "size": 56,
+          "weight": "400",
+          "lineHeight": 1.1,
+          "letterSpacing": "-0.84px",
+          "color": "rgb(12, 12, 12)"
+        },
+        "h3": {
+          "font": "abcNormal",
+          "size": 24,
+          "weight": "500",
+          "lineHeight": 1.15,
+          "letterSpacing": "-0.18px",
+          "color": "rgb(64, 64, 64)"
+        },
+        "body": {
+          "font": "abcNormal",
+          "size": 16,
+          "weight": "400",
+          "lineHeight": 1.6,
+          "letterSpacing": "normal",
+          "color": "rgb(255, 255, 255)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#ffffff",
+          "#0c0c0c",
+          "#2b22fa",
+          "#eef1f5",
+          "#262626"
+        ],
+        "text": [
+          "#404040",
+          "#0c0c0c",
+          "#ffffff",
+          "#1a1a1a"
+        ]
+      },
+      "buttons": [
+        {
+          "label": "Enterprise Sales",
+          "bg": "#eef1f5",
+          "color": "#1a1a1a",
+          "radius": "6px",
+          "height": 32,
+          "paddingX": 10,
+          "font": "abcNormal",
+          "size": 14,
+          "weight": "600"
+        },
+        {
+          "label": "Login",
+          "bg": "#eef1f5",
+          "color": "#1a1a1a",
+          "radius": "6px",
+          "height": 32,
+          "paddingX": 10,
+          "font": "abcNormal",
+          "size": 14,
+          "weight": "600"
+        },
+        {
+          "label": "Try Runway",
+          "bg": "#262626",
+          "color": "#ffffff",
+          "radius": "6px",
+          "height": 32,
+          "paddingX": 10,
+          "font": "abcNormal",
+          "size": 14,
+          "weight": "600"
+        },
+        {
+          "label": "Try Runway for free",
+          "bg": "#f7f7f7",
+          "color": "#0c0c0c",
+          "radius": "8px",
+          "height": 40,
+          "paddingX": 12,
+          "font": "abcNormal",
+          "size": 16,
+          "weight": "600"
+        },
+        {
+          "label": "Try now",
+          "bg": "#262626",
+          "color": "#ffffff",
+          "radius": "6px",
+          "height": 32,
+          "paddingX": 10,
+          "font": "abcNormal",
+          "size": 14,
+          "weight": "600"
+        },
+        {
+          "label": "Learn more",
+          "bg": "#eef1f5",
+          "color": "#1a1a1a",
+          "radius": "6px",
+          "height": 32,
+          "paddingX": 10,
+          "font": "abcNormal",
+          "size": 14,
+          "weight": "600"
+        }
+      ],
+      "contentWidth": 1600
+    }
+  },
+  {
+    "id": "sanity-landing",
+    "site": "Sanity",
+    "url": "https://www.sanity.io",
+    "type": "landing",
+    "tags": [
+      "light",
+      "grid-lines",
+      "centered-hero",
+      "mono-labels",
+      "bold-color"
+    ],
+    "note": "Visible layout grid lines, a centred headline, a large orange-red primary button next to a black one, and monospace command snippets below. Technical and confident.",
+    "captured": "2026-11-22",
+    "screens": {
+      "desktop": {
+        "file": "screens/sanity-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/sanity-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "The AI Content Operating System | Sanity",
+      "fonts": [
+        "Waldenburg-75357948a2b6a39b",
+        "IBM Plex Mono-c20ba633a65a8c57"
+      ],
+      "type": {
+        "h1": {
+          "font": "Waldenburg-75357948a2b6a39b",
+          "size": 16,
+          "weight": "400",
+          "lineHeight": 1.5,
+          "letterSpacing": "normal",
+          "color": "rgb(11, 11, 11)"
+        },
+        "h2": {
+          "font": "Waldenburg-75357948a2b6a39b",
+          "size": 0,
+          "weight": "400",
+          "lineHeight": NaN,
+          "letterSpacing": "normal",
+          "color": "rgb(11, 11, 11)"
+        },
+        "h3": {
+          "font": "IBM Plex Mono-c20ba633a65a8c57",
+          "size": 13,
+          "weight": "400",
+          "lineHeight": 1.3,
+          "letterSpacing": "normal",
+          "color": "rgb(11, 11, 11)"
+        },
+        "body": {
+          "font": "Waldenburg-75357948a2b6a39b",
+          "size": 24,
+          "weight": "425",
+          "lineHeight": 1.2,
+          "letterSpacing": "-0.24px",
+          "color": "rgb(11, 11, 11)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#ffffff",
+          "#0b0b0b",
+          "#0052ef"
+        ],
+        "text": [
+          "#0b0b0b",
+          "#4a4a4a",
+          "#797979",
+          "#ffffff"
+        ]
+      },
+      "buttons": [
+        {
+          "label": "npm create sanity@latest",
+          "bg": "#ffffff",
+          "color": "#0b0b0b",
+          "radius": "0px",
+          "height": 36,
+          "paddingX": 16,
+          "font": "IBM Plex Mono-c20ba633a65a8c57",
+          "size": 13,
+          "weight": "400"
+        },
+        {
+          "label": "ASK AGENT:\nSANITY ELI5",
+          "bg": "#ffffff",
+          "color": "#0b0b0b",
+          "radius": "0px",
+          "height": 36,
+          "paddingX": 16,
+          "font": "IBM Plex Mono-c20ba633a65a8c57",
+          "size": 13,
+          "weight": "400"
+        }
+      ],
+      "contentWidth": 1344
+    }
+  },
+  {
+    "id": "spline-landing",
+    "site": "Spline",
+    "url": "https://spline.design",
+    "type": "landing",
+    "tags": [
+      "dark",
+      "centered-hero",
+      "two-tone-headline",
+      "inline-highlight",
+      "product-screenshot-hero"
+    ],
+    "note": "Centred dark headline where \"3D design\" sits in an outlined box and the second line is muted grey. One white button, the editor below.",
+    "captured": "2026-11-22",
+    "screens": {
+      "desktop": {
+        "file": "screens/spline-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/spline-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Spline - Free 3D Design Tool in Your Browser",
+      "fonts": [
+        "Geist",
+        "Spline Sans",
+        "Geist Mono"
+      ],
+      "type": {
+        "h1": {
+          "font": "Geist",
+          "size": 72,
+          "weight": "450",
+          "lineHeight": 1.11,
+          "letterSpacing": "-4.32px",
+          "color": "rgba(255, 255, 255, 0.9)"
+        },
+        "h2": {
+          "font": "Geist",
+          "size": 56,
+          "weight": "450",
+          "lineHeight": 1.14,
+          "letterSpacing": "-3.36px",
+          "color": "rgba(255, 255, 255, 0.9)"
+        },
+        "h3": {
+          "font": "Geist",
+          "size": 24,
+          "weight": "450",
+          "lineHeight": 1.25,
+          "letterSpacing": "-1.2px",
+          "color": "rgba(255, 255, 255, 0.9)"
+        },
+        "body": {
+          "font": "Geist",
+          "size": 16,
+          "weight": "400",
+          "lineHeight": 1.5,
+          "letterSpacing": "normal",
+          "color": "rgb(138, 138, 138)"
+        }
+      },
+      "colors": {
+        "background": "#000000",
+        "surfaces": [
+          "#000000",
+          "#1d1d1d",
+          "#111111",
+          "#101010",
+          "#eeeeee"
+        ],
+        "text": [
+          "#ffffff",
+          "#8a8a8a",
+          "#eeeeee",
+          "#000000"
+        ]
+      },
+      "buttons": [
+        {
+          "label": "Get started",
+          "bg": "#eeeeee",
+          "color": "#000000",
+          "radius": "999px",
+          "height": 34,
+          "paddingX": 14,
+          "font": "Geist",
+          "size": 14,
+          "weight": "500"
+        },
+        {
+          "label": "Get started for free",
+          "bg": "#eeeeee",
+          "color": "#000000",
+          "radius": "999px",
+          "height": 44,
+          "paddingX": 20,
+          "font": "Geist",
+          "size": 16,
+          "weight": "500"
+        }
+      ],
+      "contentWidth": 1416
     }
   },
   {
@@ -2941,6 +7569,453 @@
     }
   },
   {
+    "id": "teenage-engineering-landing",
+    "site": "Teenage Engineering",
+    "url": "https://teenage.engineering",
+    "type": "landing",
+    "tags": [
+      "dark",
+      "product-photo",
+      "icon-nav",
+      "minimal",
+      "editorial"
+    ],
+    "note": "Navigation as line-drawn icons with tiny labels, a dramatic product photo and small technical type. Industrial-design restraint; the photo carries everything.",
+    "captured": "2026-11-22",
+    "screens": {
+      "desktop": {
+        "file": "screens/teenage-engineering-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/teenage-engineering-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "teenage engineering",
+      "fonts": [
+        "te-20",
+        "TechnoType"
+      ],
+      "type": {
+        "h1": null,
+        "h2": null,
+        "h3": null,
+        "body": {
+          "font": "te-20",
+          "size": 19,
+          "weight": "100",
+          "lineHeight": 1.15,
+          "letterSpacing": "normal",
+          "color": "rgb(229, 229, 229)"
+        }
+      },
+      "colors": {
+        "background": "#000000",
+        "surfaces": [
+          "#000000"
+        ],
+        "text": [
+          "#f1f2f2",
+          "#e1560d",
+          "#d1d3d4"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": null
+    }
+  },
+  {
+    "id": "things-landing",
+    "site": "Things",
+    "url": "https://culturedcode.com/things/",
+    "type": "landing",
+    "tags": [
+      "light",
+      "app-icon-hero",
+      "centered-hero",
+      "minimal",
+      "award"
+    ],
+    "note": "The app icon as the hero, the name, three lines of description, a \"Watch Introduction Video\" link and an award badge. Apple-native simplicity.",
+    "captured": "2026-11-22",
+    "screens": {
+      "desktop": {
+        "file": "screens/things-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/things-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Things - To-Do List App for Mac & iOS",
+      "fonts": [
+        "ui-sans-serif"
+      ],
+      "type": {
+        "h1": {
+          "font": "ui-sans-serif",
+          "size": 24,
+          "weight": "400",
+          "lineHeight": 1.25,
+          "letterSpacing": "normal",
+          "color": "rgb(48, 51, 54)"
+        },
+        "h2": {
+          "font": "ui-sans-serif",
+          "size": 36,
+          "weight": "700",
+          "lineHeight": 1,
+          "letterSpacing": "normal",
+          "color": "rgb(44, 49, 56)"
+        },
+        "h3": {
+          "font": "ui-sans-serif",
+          "size": 20,
+          "weight": "700",
+          "lineHeight": 1.2,
+          "letterSpacing": "normal",
+          "color": "rgb(48, 51, 54)"
+        },
+        "body": {
+          "font": "ui-sans-serif",
+          "size": 24,
+          "weight": "400",
+          "lineHeight": 1.25,
+          "letterSpacing": "normal",
+          "color": "rgb(68, 71, 75)"
+        }
+      },
+      "colors": {
+        "background": "#f2f5f7",
+        "surfaces": [
+          "#fbfcfe",
+          "#f2f5f7"
+        ],
+        "text": [
+          "#44474b",
+          "#5c9cf5",
+          "#26344a",
+          "#2c3138"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": 1440
+    }
+  },
+  {
+    "id": "trigger-dev-landing",
+    "site": "Trigger.dev",
+    "url": "https://trigger.dev",
+    "type": "landing",
+    "tags": [
+      "dark",
+      "green-accent",
+      "centered-hero",
+      "code-background",
+      "use-case-chips"
+    ],
+    "note": "Dark hero with faint code text in the background, a centred two-line headline, a green primary button and a row of use-case chips at the bottom.",
+    "captured": "2026-11-22",
+    "screens": {
+      "desktop": {
+        "file": "screens/trigger-dev-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/trigger-dev-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Trigger.dev | The open source platform for durable AI agents",
+      "fonts": [
+        "Geist",
+        "Geist Mono",
+        "Satoshi-Variable"
+      ],
+      "type": {
+        "h1": {
+          "font": "Satoshi-Variable",
+          "size": 60,
+          "weight": "600",
+          "lineHeight": 1,
+          "letterSpacing": "normal",
+          "color": "rgb(232, 233, 236)"
+        },
+        "h2": {
+          "font": "Satoshi-Variable",
+          "size": 30,
+          "weight": "600",
+          "lineHeight": 1.2,
+          "letterSpacing": "normal",
+          "color": "rgb(215, 217, 221)"
+        },
+        "h3": {
+          "font": "Satoshi-Variable",
+          "size": 24,
+          "weight": "600",
+          "lineHeight": 1.33,
+          "letterSpacing": "normal",
+          "color": "rgb(215, 217, 221)"
+        },
+        "body": {
+          "font": "Geist",
+          "size": 16,
+          "weight": "500",
+          "lineHeight": 1.5,
+          "letterSpacing": "normal",
+          "color": "rgb(215, 217, 221)"
+        }
+      },
+      "colors": {
+        "background": "#121317",
+        "surfaces": [
+          "#121317",
+          "#1a1b1f",
+          "#a8ff53",
+          "#212327"
+        ],
+        "text": [
+          "#b5b8c0",
+          "#5f6570",
+          "#878c99",
+          "#9c9af2"
+        ]
+      },
+      "buttons": [
+        {
+          "label": "AI agents",
+          "bg": "#212327",
+          "color": "#d7d9dd",
+          "radius": "4px",
+          "height": 40,
+          "paddingX": 8,
+          "font": "Geist",
+          "size": 16,
+          "weight": "400"
+        },
+        {
+          "label": "Webhooks",
+          "bg": "#121317",
+          "color": "#b5b8c0",
+          "radius": "4px",
+          "height": 40,
+          "paddingX": 8,
+          "font": "Geist",
+          "size": 16,
+          "weight": "400"
+        },
+        {
+          "label": "Media processing",
+          "bg": "#121317",
+          "color": "#b5b8c0",
+          "radius": "4px",
+          "height": 40,
+          "paddingX": 8,
+          "font": "Geist",
+          "size": 16,
+          "weight": "400"
+        },
+        {
+          "label": "Media generation",
+          "bg": "#121317",
+          "color": "#b5b8c0",
+          "radius": "4px",
+          "height": 40,
+          "paddingX": 8,
+          "font": "Geist",
+          "size": 16,
+          "weight": "400"
+        },
+        {
+          "label": "Human in the loop",
+          "bg": "#121317",
+          "color": "#b5b8c0",
+          "radius": "4px",
+          "height": 40,
+          "paddingX": 8,
+          "font": "Geist",
+          "size": 16,
+          "weight": "400"
+        },
+        {
+          "label": "Streaming",
+          "bg": "#121317",
+          "color": "#b5b8c0",
+          "radius": "4px",
+          "height": 40,
+          "paddingX": 8,
+          "font": "Geist",
+          "size": 16,
+          "weight": "400"
+        }
+      ],
+      "contentWidth": 1440
+    }
+  },
+  {
+    "id": "v0-landing",
+    "site": "v0",
+    "url": "https://v0.app",
+    "type": "landing",
+    "tags": [
+      "light",
+      "prompt-box-hero",
+      "template-gallery",
+      "minimal"
+    ],
+    "note": "The hero is a question and a prompt box, nothing else; templates as cards right below. The product is the page.",
+    "captured": "2026-11-22",
+    "screens": {
+      "desktop": {
+        "file": "screens/v0-landing-desktop.jpg",
+        "width": 1440,
+        "height": 900
+      },
+      "mobile": {
+        "file": "screens/v0-landing-mobile.jpg",
+        "width": 390,
+        "height": 844
+      }
+    },
+    "tokens": {
+      "title": "v0 by Vercel - Build Full-Stack Web Apps with AI",
+      "fonts": [
+        "Inter",
+        "GeistSans",
+        "GeistMono"
+      ],
+      "type": {
+        "h1": {
+          "font": "GeistSans",
+          "size": 32,
+          "weight": "600",
+          "lineHeight": 1.25,
+          "letterSpacing": "-1.28px",
+          "color": "rgb(23, 23, 23)"
+        },
+        "h2": {
+          "font": "GeistSans",
+          "size": 24,
+          "weight": "600",
+          "lineHeight": 1.33,
+          "letterSpacing": "-0.96px",
+          "color": "rgb(23, 23, 23)"
+        },
+        "h3": {
+          "font": "GeistSans",
+          "size": 48,
+          "weight": "600",
+          "lineHeight": 1.17,
+          "letterSpacing": "-2.88px",
+          "color": "rgb(23, 23, 23)"
+        },
+        "body": {
+          "font": "GeistSans",
+          "size": 14,
+          "weight": "400",
+          "lineHeight": 1.43,
+          "letterSpacing": "normal",
+          "color": "rgb(23, 23, 23)"
+        }
+      },
+      "colors": {
+        "background": "#fafafa",
+        "surfaces": [
+          "#fafafa",
+          "#ffffff",
+          "#f2f2f2",
+          "#ebebeb",
+          "#171717"
+        ],
+        "text": [
+          "#4d4d4d",
+          "#171717",
+          "#ffffff"
+        ]
+      },
+      "buttons": [
+        {
+          "label": "Log In",
+          "bg": "#ffffff",
+          "color": "#171717",
+          "radius": "6px",
+          "height": 32,
+          "paddingX": 12,
+          "font": "Inter",
+          "size": 14,
+          "weight": "500"
+        },
+        {
+          "label": "Sign Up",
+          "bg": "#171717",
+          "color": "#ffffff",
+          "radius": "6px",
+          "height": 32,
+          "paddingX": 12,
+          "font": "Inter",
+          "size": 14,
+          "weight": "500"
+        },
+        {
+          "label": "Use your ChatGPT plan in v0",
+          "bg": "#ffffff",
+          "color": "#171717",
+          "radius": "3.35544e+07px",
+          "height": 32,
+          "paddingX": 12,
+          "font": "Inter",
+          "size": 14,
+          "weight": "400"
+        },
+        {
+          "label": "",
+          "bg": "#ffffff",
+          "color": "#171717",
+          "radius": "3.35544e+07px",
+          "height": 28,
+          "paddingX": 0,
+          "font": "Inter",
+          "size": 13,
+          "weight": "500"
+        },
+        {
+          "label": "",
+          "bg": "#f2f2f2",
+          "color": "#c9c9c9",
+          "radius": "6px",
+          "height": 28,
+          "paddingX": 0,
+          "font": "Inter",
+          "size": 14,
+          "weight": "500"
+        },
+        {
+          "label": "View Details",
+          "bg": "#171717",
+          "color": "#ffffff",
+          "radius": "8px",
+          "height": 32,
+          "paddingX": 12,
+          "font": "Inter",
+          "size": 14,
+          "weight": "500"
+        }
+      ],
+      "contentWidth": 1448
+    }
+  },
+  {
     "id": "vercel-landing",
     "site": "Vercel",
     "url": "https://vercel.com",
@@ -3071,6 +8146,353 @@
         }
       ],
       "contentWidth": 1448
+    }
+  },
+  {
+    "id": "warp-landing",
+    "site": "Warp",
+    "url": "https://www.warp.dev",
+    "type": "landing",
+    "tags": [
+      "light",
+      "monospace",
+      "left-aligned-hero",
+      "dot-grid",
+      "yellow-accent"
+    ],
+    "note": "Monospace headline left-aligned, small buttons, and a dot-grid visualisation below. One yellow accent in the nav button.",
+    "captured": "2026-11-22",
+    "screens": {
+      "desktop": {
+        "file": "screens/warp-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/warp-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Warp — Open Infrastructure for Cloud Software Factories",
+      "fonts": [
+        "azeretSemiMono",
+        "matter",
+        "Matter"
+      ],
+      "type": {
+        "h1": {
+          "font": "azeretSemiMono",
+          "size": 54,
+          "weight": "400",
+          "lineHeight": 1.18,
+          "letterSpacing": "normal",
+          "color": "rgb(26, 21, 34)"
+        },
+        "h2": {
+          "font": "azeretSemiMono",
+          "size": 34,
+          "weight": "400",
+          "lineHeight": 1.18,
+          "letterSpacing": "normal",
+          "color": "rgb(26, 21, 34)"
+        },
+        "h3": {
+          "font": "azeretSemiMono",
+          "size": 18,
+          "weight": "400",
+          "lineHeight": 1.35,
+          "letterSpacing": "normal",
+          "color": "rgb(26, 21, 34)"
+        },
+        "body": {
+          "font": "Matter",
+          "size": 14,
+          "weight": "400",
+          "lineHeight": 1.5,
+          "letterSpacing": "normal",
+          "color": "lab(96.5815 -2.55355 -2.46191)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#ffffff",
+          "#fbf9fe",
+          "#f6f5fb",
+          "#2a1eff",
+          "#1a1522"
+        ],
+        "text": [
+          "#1a1522",
+          "#2a1eff",
+          "#ffffff",
+          "#000000"
+        ]
+      },
+      "buttons": [
+        {
+          "label": "",
+          "bg": "#ffffff",
+          "color": "#1a1522",
+          "radius": "4px",
+          "height": 30,
+          "paddingX": 0,
+          "font": "matter",
+          "size": 16,
+          "weight": "400"
+        },
+        {
+          "label": "BOOK A DEMO",
+          "bg": "#edf872",
+          "color": "#000000",
+          "radius": "999px",
+          "height": 31,
+          "paddingX": 16,
+          "font": "azeretSemiMono",
+          "size": 12,
+          "weight": "500"
+        },
+        {
+          "label": "request early access",
+          "bg": "#1a1522",
+          "color": "#ffffff",
+          "radius": "4px",
+          "height": 32,
+          "paddingX": 16,
+          "font": "azeretSemiMono",
+          "size": 13,
+          "weight": "500"
+        },
+        {
+          "label": "download warp terminal",
+          "bg": "#ffffff",
+          "color": "#1a1522",
+          "radius": "4px",
+          "height": 32,
+          "paddingX": 16,
+          "font": "azeretSemiMono",
+          "size": 13,
+          "weight": "500"
+        },
+        {
+          "label": "factory.yaml",
+          "bg": "#2a1eff",
+          "color": "#ffffff",
+          "radius": "0px",
+          "height": 34,
+          "paddingX": 12,
+          "font": "azeretSemiMono",
+          "size": 13,
+          "weight": "400"
+        }
+      ],
+      "contentWidth": 1180
+    }
+  },
+  {
+    "id": "webflow-landing",
+    "site": "Webflow",
+    "url": "https://webflow.com",
+    "type": "landing",
+    "tags": [
+      "light",
+      "left-aligned-hero",
+      "bold-typography",
+      "blue-accent",
+      "result-cards"
+    ],
+    "note": "Heavy black headline left, blue primary button, then a row of small cards each showing a result (\"$4M+ in pipeline\") with a visual.",
+    "captured": "2026-11-22",
+    "screens": {
+      "desktop": {
+        "file": "screens/webflow-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/webflow-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Webflow: The agentic web platform for modern businesses",
+      "fonts": [
+        "WF Visual Sans Variable"
+      ],
+      "type": {
+        "h1": {
+          "font": "WF Visual Sans Variable",
+          "size": 80,
+          "weight": "600",
+          "lineHeight": 1.04,
+          "letterSpacing": "-0.8px",
+          "color": "rgb(8, 8, 8)"
+        },
+        "h2": {
+          "font": "WF Visual Sans Variable",
+          "size": 56,
+          "weight": "600",
+          "lineHeight": 1.04,
+          "letterSpacing": "normal",
+          "color": "rgb(8, 8, 8)"
+        },
+        "h3": {
+          "font": "WF Visual Sans Variable",
+          "size": 32,
+          "weight": "600",
+          "lineHeight": 1.2,
+          "letterSpacing": "normal",
+          "color": "rgb(8, 8, 8)"
+        },
+        "body": {
+          "font": "WF Visual Sans Variable",
+          "size": 16,
+          "weight": "400",
+          "lineHeight": 1.6,
+          "letterSpacing": "normal",
+          "color": "rgb(8, 8, 8)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#ffffff",
+          "#f0f0f0",
+          "#d8d8d8",
+          "#146ef5"
+        ],
+        "text": [
+          "#080808",
+          "#ffffff",
+          "#5a5a5a"
+        ]
+      },
+      "buttons": [
+        {
+          "label": "Start for free",
+          "bg": "#146ef5",
+          "color": "#ffffff",
+          "radius": "4px",
+          "height": 51,
+          "paddingX": 24,
+          "font": "WF Visual Sans Variable",
+          "size": 16,
+          "weight": "500"
+        },
+        {
+          "label": "Get started",
+          "bg": "#146ef5",
+          "color": "#ffffff",
+          "radius": "4px",
+          "height": 51,
+          "paddingX": 24,
+          "font": "WF Visual Sans Variable",
+          "size": 16,
+          "weight": "500"
+        },
+        {
+          "label": "Made in Webflow",
+          "bg": "#ffffff",
+          "color": "#080808",
+          "radius": "1440px",
+          "height": 34,
+          "paddingX": 6,
+          "font": "WF Visual Sans Variable",
+          "size": 14,
+          "weight": "500"
+        }
+      ],
+      "contentWidth": 1440
+    }
+  },
+  {
+    "id": "zed-landing",
+    "site": "Zed",
+    "url": "https://zed.dev",
+    "type": "landing",
+    "tags": [
+      "light",
+      "serif-italic",
+      "centered-hero",
+      "product-screenshot-hero",
+      "blue-accent"
+    ],
+    "note": "An italic serif headline in blue (\"Your last next editor\") on a light grid, three short feature columns, then the editor. Unexpected type choice for a code editor, used with restraint.",
+    "captured": "2026-11-22",
+    "screens": {
+      "desktop": {
+        "file": "screens/zed-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/zed-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Zed — Your last next editor",
+      "fonts": [
+        "zedMono",
+        "writer",
+        "plexSerif"
+      ],
+      "type": {
+        "h1": {
+          "font": "plexSerif",
+          "size": 48,
+          "weight": "340",
+          "lineHeight": 1.2,
+          "letterSpacing": "-0.96px",
+          "color": "lab(36.3314 31.1715 -81.0014)"
+        },
+        "h2": {
+          "font": "plexSerif",
+          "size": 26,
+          "weight": "390",
+          "lineHeight": 1.25,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        },
+        "h3": {
+          "font": "plexSerif",
+          "size": 17,
+          "weight": "400",
+          "lineHeight": 1.1,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        },
+        "body": {
+          "font": "writer",
+          "size": 16,
+          "weight": "400",
+          "lineHeight": 1.5,
+          "letterSpacing": "-0.4px",
+          "color": "oklch(0.358979 0.0154914 262.882)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#dcdcdd",
+          "#fafafa",
+          "#ebebec",
+          "#e2e2fa",
+          "#cacaca"
+        ],
+        "text": [
+          "#242529",
+          "#58585a",
+          "#649f57",
+          "#d3604f"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": 1100
     }
   },
   {

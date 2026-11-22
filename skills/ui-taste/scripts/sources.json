@@ -460,5 +460,589 @@
       "minimal"
     ],
     "note": "Email field and a filled Continue first, then a list of providers as outlined buttons of identical width, with more options folded behind a link."
+  },
+  {
+    "site": "Dia",
+    "type": "landing",
+    "url": "https://www.diabrowser.com",
+    "tags": [
+      "warm-color",
+      "serif-display",
+      "oversized-wordmark",
+      "product-screenshot-hero"
+    ],
+    "note": "A full yellow canvas, a huge outlined serif wordmark behind the browser window and one black download pill. Colour and type do all the branding; the UI stays neutral."
+  },
+  {
+    "site": "Cursor",
+    "type": "landing",
+    "url": "https://cursor.com",
+    "tags": [
+      "light",
+      "left-aligned-hero",
+      "product-screenshot-hero",
+      "painting-background",
+      "small-type"
+    ],
+    "note": "Small, quiet headline top-left and the product given the whole stage: the editor framed over a soft painted landscape. Very small type everywhere else; the UI is the hero."
+  },
+  {
+    "site": "Anthropic",
+    "type": "landing",
+    "url": "https://www.anthropic.com",
+    "tags": [
+      "light",
+      "editorial",
+      "serif-display",
+      "video-hero",
+      "warm-neutrals"
+    ],
+    "note": "Editorial, almost magazine-like: warm off-white, a serif statement in small size at the top and a large organic video instead of product UI. Navigation is tiny and spread across the top. Restraint as brand."
+  },
+  {
+    "site": "Runway",
+    "type": "landing",
+    "url": "https://runwayml.com",
+    "tags": [
+      "light",
+      "cinematic-image",
+      "left-aligned-hero",
+      "logo-row"
+    ],
+    "note": "One cinematic image in a large rounded frame with the headline set inside it, bottom-left. Logos in a quiet row underneath."
+  },
+  {
+    "site": "ElevenLabs",
+    "type": "landing",
+    "url": "https://elevenlabs.io",
+    "tags": [
+      "light",
+      "split-hero",
+      "product-tabs",
+      "orb-visuals",
+      "carousel"
+    ],
+    "note": "Split hero (headline left, short paragraph right), then a tabbed carousel of soft gradient orbs for each voice product. The orbs give a tactile, audio feel without stock imagery."
+  },
+  {
+    "site": "Pitch",
+    "type": "landing",
+    "url": "https://pitch.com",
+    "tags": [
+      "gradient-brand",
+      "oversized-headline",
+      "prompt-box-hero",
+      "collage"
+    ],
+    "note": "Huge rounded sans headline on a violet field of floating slide thumbnails, with the AI prompt box as the hero action. The product's output becomes the background."
+  },
+  {
+    "site": "Figma",
+    "type": "landing",
+    "url": "https://www.figma.com",
+    "tags": [
+      "collage",
+      "centered-hero",
+      "interactive-hero",
+      "logo-row"
+    ],
+    "note": "An interactive collage of work made in Figma with a white card in the middle carrying the sentence and one small button. Logo row at the bottom of the fold."
+  },
+  {
+    "site": "Webflow",
+    "type": "landing",
+    "url": "https://webflow.com",
+    "tags": [
+      "light",
+      "left-aligned-hero",
+      "bold-typography",
+      "blue-accent",
+      "result-cards"
+    ],
+    "note": "Heavy black headline left, blue primary button, then a row of small cards each showing a result (\"$4M+ in pipeline\") with a visual."
+  },
+  {
+    "site": "Spline",
+    "type": "landing",
+    "url": "https://spline.design",
+    "tags": [
+      "dark",
+      "centered-hero",
+      "two-tone-headline",
+      "inline-highlight",
+      "product-screenshot-hero"
+    ],
+    "note": "Centred dark headline where \"3D design\" sits in an outlined box and the second line is muted grey. One white button, the editor below."
+  },
+  {
+    "site": "Rive",
+    "type": "landing",
+    "url": "https://rive.app",
+    "tags": [
+      "dark",
+      "game-art",
+      "bold-typography",
+      "hud-labels",
+      "interactive-hero"
+    ],
+    "note": "A playable game scene as the hero with HUD-style monospace labels around it and a heavy display headline. Shows what the tool makes instead of describing it."
+  },
+  {
+    "site": "Family",
+    "type": "landing",
+    "url": "https://family.co",
+    "tags": [
+      "light",
+      "illustration-brand",
+      "centered-hero",
+      "playful",
+      "3d-icons"
+    ],
+    "note": "Friendly 3D-ish characters and objects scattered around a simple black headline. Shows how illustration can make a crypto wallet feel approachable; the text stays plain and short."
+  },
+  {
+    "site": "Phantom",
+    "type": "landing",
+    "url": "https://phantom.com",
+    "tags": [
+      "light",
+      "card-hero",
+      "centered-hero",
+      "pastel"
+    ],
+    "note": "The hero lives inside one big rounded card with a muted lavender-grey fill and a centred headline. Soft and contained, like the app itself."
+  },
+  {
+    "site": "Teenage Engineering",
+    "type": "landing",
+    "url": "https://teenage.engineering",
+    "tags": [
+      "dark",
+      "product-photo",
+      "icon-nav",
+      "minimal",
+      "editorial"
+    ],
+    "note": "Navigation as line-drawn icons with tiny labels, a dramatic product photo and small technical type. Industrial-design restraint; the photo carries everything."
+  },
+  {
+    "site": "Apple",
+    "type": "landing",
+    "url": "https://www.apple.com",
+    "tags": [
+      "light",
+      "centered-hero",
+      "product-photo",
+      "stacked-tiles"
+    ],
+    "note": "The product photo is the hero: one name, one line, two small pill links (filled and outlined), then the device. The rest of the page is a stack of full-width tiles, each one product with the same structure."
+  },
+  {
+    "site": "Amie",
+    "type": "landing",
+    "url": "https://amie.so",
+    "tags": [
+      "light",
+      "left-aligned-hero",
+      "product-screenshot-hero",
+      "badges"
+    ],
+    "note": "Plain left-aligned headline, two small buttons (filled blue + outlined) and the full app right under it. \"Product of the Day\" style badges above the headline do the social proof in one line."
+  },
+  {
+    "site": "Things",
+    "type": "landing",
+    "url": "https://culturedcode.com/things/",
+    "tags": [
+      "light",
+      "app-icon-hero",
+      "centered-hero",
+      "minimal",
+      "award"
+    ],
+    "note": "The app icon as the hero, the name, three lines of description, a \"Watch Introduction Video\" link and an award badge. Apple-native simplicity."
+  },
+  {
+    "site": "Craft",
+    "type": "landing",
+    "url": "https://www.craft.do",
+    "tags": [
+      "light",
+      "serif-display",
+      "illustration-brand",
+      "collage",
+      "product-screenshot-hero"
+    ],
+    "note": "A serif headline on a painted sky collage (clouds, paper textures) with the app sitting in it. Proves a productivity tool can feel warm without losing the product shot."
+  },
+  {
+    "site": "mymind",
+    "type": "landing",
+    "url": "https://mymind.com",
+    "tags": [
+      "light",
+      "serif-display",
+      "centered-hero",
+      "inline-tags",
+      "minimal"
+    ],
+    "note": "Huge serif two-line headline (\"Remember everything. Organize nothing.\"), then a line of coloured tag chips naming what you can save. Almost nothing else; confidence through space."
+  },
+  {
+    "site": "Plain",
+    "type": "landing",
+    "url": "https://www.plain.com",
+    "tags": [
+      "light",
+      "left-aligned-hero",
+      "mono-buttons",
+      "logo-row",
+      "minimal"
+    ],
+    "note": "Very sparse: small left-aligned headline, monospace pill buttons, an interactive graph (WebGL) and logos at the bottom. Lots of white, few elements."
+  },
+  {
+    "site": "Liveblocks",
+    "type": "landing",
+    "url": "https://liveblocks.io",
+    "tags": [
+      "dark",
+      "centered-hero",
+      "blurred-product",
+      "small-type"
+    ],
+    "note": "Centred dark hero with a blurred product scene behind it, so the headline stays readable while hinting at the UI. Small, precise type and two compact buttons."
+  },
+  {
+    "site": "Trigger.dev",
+    "type": "landing",
+    "url": "https://trigger.dev",
+    "tags": [
+      "dark",
+      "green-accent",
+      "centered-hero",
+      "code-background",
+      "use-case-chips"
+    ],
+    "note": "Dark hero with faint code text in the background, a centred two-line headline, a green primary button and a row of use-case chips at the bottom."
+  },
+  {
+    "site": "Neon",
+    "type": "landing",
+    "url": "https://neon.com",
+    "tags": [
+      "dark",
+      "green-accent",
+      "abstract-light",
+      "left-aligned-hero",
+      "logo-row"
+    ],
+    "note": "Left-aligned headline at the bottom of a dark hero lit by vertical green light streaks; logos run along the very bottom. Atmosphere from one abstract visual, not from many."
+  },
+  {
+    "site": "PlanetScale",
+    "type": "landing",
+    "url": "https://planetscale.com",
+    "tags": [
+      "light",
+      "brutalist",
+      "monospace",
+      "logo-grid",
+      "text-heavy"
+    ],
+    "note": "Deliberately anti-marketing: monospace everywhere, paragraphs of plain text with links, and a hard-bordered grid of customer logos. Credibility through bluntness."
+  },
+  {
+    "site": "Railway",
+    "type": "landing",
+    "url": "https://railway.com",
+    "tags": [
+      "dark",
+      "serif-display",
+      "illustration-sky",
+      "centered-hero",
+      "product-screenshot-hero"
+    ],
+    "note": "A serif headline on a dusky illustrated sky, two compact buttons and the product canvas below. Warm and calm for an infrastructure product."
+  },
+  {
+    "site": "Fly.io",
+    "type": "landing",
+    "url": "https://fly.io",
+    "tags": [
+      "light",
+      "illustration-brand",
+      "italic-accent",
+      "left-aligned-hero"
+    ],
+    "note": "Pastel violet illustrated world (balloons, creatures) with a two-line headline whose second line is in italic accent colour. Distinctive, consistent illustration system."
+  },
+  {
+    "site": "Warp",
+    "type": "landing",
+    "url": "https://www.warp.dev",
+    "tags": [
+      "light",
+      "monospace",
+      "left-aligned-hero",
+      "dot-grid",
+      "yellow-accent"
+    ],
+    "note": "Monospace headline left-aligned, small buttons, and a dot-grid visualisation below. One yellow accent in the nav button."
+  },
+  {
+    "site": "Zed",
+    "type": "landing",
+    "url": "https://zed.dev",
+    "tags": [
+      "light",
+      "serif-italic",
+      "centered-hero",
+      "product-screenshot-hero",
+      "blue-accent"
+    ],
+    "note": "An italic serif headline in blue (\"Your last next editor\") on a light grid, three short feature columns, then the editor. Unexpected type choice for a code editor, used with restraint."
+  },
+  {
+    "site": "Ghostty",
+    "type": "landing",
+    "url": "https://ghostty.org",
+    "tags": [
+      "dark",
+      "terminal-ui",
+      "ascii-art",
+      "centered-hero",
+      "minimal"
+    ],
+    "note": "A terminal window with animated ASCII art as the only visual, one sentence and two buttons. The product's own medium is the hero."
+  },
+  {
+    "site": "Bun",
+    "type": "landing",
+    "url": "https://bun.sh",
+    "tags": [
+      "light",
+      "bold-typography",
+      "illustration-brand",
+      "benchmark-chart",
+      "command-snippet"
+    ],
+    "note": "Heavy condensed italic headline with one word in pink script, a mascot illustration on a pink swirl, the install command in a dark box and a benchmark chart as proof. Loud and coherent."
+  },
+  {
+    "site": "Astro",
+    "type": "landing",
+    "url": "https://astro.build",
+    "tags": [
+      "dark",
+      "gradient-brand",
+      "centered-hero",
+      "logo-grid",
+      "command-snippet"
+    ],
+    "note": "Saturated violet gradient as the brand, a centred headline, the primary button paired with the install command as a copyable snippet. Logos in two white rows right under the fold."
+  },
+  {
+    "site": "Polar",
+    "type": "landing",
+    "url": "https://polar.sh",
+    "tags": [
+      "dark",
+      "left-aligned-hero",
+      "product-screenshot-hero",
+      "feature-list-side"
+    ],
+    "note": "Small headline top-left, a large billing dashboard framed in grey, and a short feature list beside it. Numbers in the UI do the convincing."
+  },
+  {
+    "site": "Dub",
+    "type": "landing",
+    "url": "https://dub.co",
+    "tags": [
+      "light",
+      "centered-hero",
+      "product-screenshot-hero",
+      "feature-chips"
+    ],
+    "note": "Clean centred hero, then three chips (Affiliate Programs, Conversion Analytics, Short Links) that switch the product screenshot underneath. Good pattern for a product with several modules."
+  },
+  {
+    "site": "Gumroad",
+    "type": "landing",
+    "url": "https://gumroad.com",
+    "tags": [
+      "light",
+      "brutalist",
+      "bold-typography",
+      "stickers",
+      "pill-nav"
+    ],
+    "note": "Neo-brutalist: thick black outlines, pink sticker coins, a big plain headline and a search field next to the button. Personality through hard edges and one pink."
+  },
+  {
+    "site": "Daylight",
+    "type": "landing",
+    "url": "https://daylightcomputer.com",
+    "tags": [
+      "photo-hero",
+      "serif-display",
+      "nature",
+      "product-photo",
+      "warm-neutrals"
+    ],
+    "note": "The device photographed in nature (moss, leaves, sunlight) with a thin serif headline: the visual says \"calm computing\" before the copy does. A small video thumbnail in the corner invites a watch."
+  },
+  {
+    "site": "Oura",
+    "type": "landing",
+    "url": "https://ouraring.com",
+    "tags": [
+      "light",
+      "serif-display",
+      "product-photo",
+      "centered-hero",
+      "warm-neutrals"
+    ],
+    "note": "Commerce done softly: a thin serif headline, a short line, one small blue button and the rings photographed on a flowing cream shape."
+  },
+  {
+    "site": "Mistral AI",
+    "type": "landing",
+    "url": "https://mistral.ai",
+    "tags": [
+      "light",
+      "pixel-blocks",
+      "bold-color",
+      "centered-hero",
+      "logo-row"
+    ],
+    "note": "Centred bold claim with a small flag icon inside it, framed by stacked orange and yellow pixel blocks and tiny pixel characters. The brand pattern carries the whole page."
+  },
+  {
+    "site": "v0",
+    "type": "landing",
+    "url": "https://v0.app",
+    "tags": [
+      "light",
+      "prompt-box-hero",
+      "template-gallery",
+      "minimal"
+    ],
+    "note": "The hero is a question and a prompt box, nothing else; templates as cards right below. The product is the page."
+  },
+  {
+    "site": "n8n",
+    "type": "landing",
+    "url": "https://n8n.io",
+    "tags": [
+      "light",
+      "workflow-diagram",
+      "centered-hero",
+      "mono-labels",
+      "dot-grid"
+    ],
+    "note": "The product is drawn in the hero: a workflow graph with nodes and app icons on a dot grid, under a two-line centred headline. Monospace uppercase nav."
+  },
+  {
+    "site": "Retool",
+    "type": "landing",
+    "url": "https://retool.com",
+    "tags": [
+      "dark",
+      "centered-hero",
+      "prompt-box-hero",
+      "tilted-product",
+      "video-hero"
+    ],
+    "note": "Centred headline over tilted product screenshots in a dark gradient, with an AI prompt box in the middle and a \"Watch the film\" pill. The prompt is the call to action."
+  },
+  {
+    "site": "Browserbase",
+    "type": "landing",
+    "url": "https://www.browserbase.com",
+    "tags": [
+      "light",
+      "pixel-art",
+      "highlighted-headline",
+      "centered-hero"
+    ],
+    "note": "Headline set on orange highlight blocks over a pixel-art mountain illustration: playful but controlled, with only black, white and one orange. Shows how a custom illustration style can carry a dev tool."
+  },
+  {
+    "site": "Modal",
+    "type": "landing",
+    "url": "https://modal.com",
+    "tags": [
+      "dark",
+      "green-accent",
+      "3d-wireframe",
+      "centered-hero",
+      "logo-row"
+    ],
+    "note": "Dark page with a glowing green 3D wireframe, a centred headline where only \"production AI\" is green, and a logo row at the bottom of the fold."
+  },
+  {
+    "site": "fal",
+    "type": "landing",
+    "url": "https://fal.ai",
+    "tags": [
+      "dark",
+      "bold-color",
+      "pixel-art",
+      "oversized-headline",
+      "logo-row"
+    ],
+    "note": "Olive background, huge bright-green headline, pixel shapes and stickers flying around: loud on purpose, with a plain logo row to ground it."
+  },
+  {
+    "site": "Sanity",
+    "type": "landing",
+    "url": "https://www.sanity.io",
+    "tags": [
+      "light",
+      "grid-lines",
+      "centered-hero",
+      "mono-labels",
+      "bold-color"
+    ],
+    "note": "Visible layout grid lines, a centred headline, a large orange-red primary button next to a black one, and monospace command snippets below. Technical and confident."
+  },
+  {
+    "site": "Loops",
+    "type": "landing",
+    "url": "https://loops.so",
+    "tags": [
+      "light",
+      "serif-display",
+      "logo-row",
+      "product-screenshot-hero",
+      "accent-stripes"
+    ],
+    "note": "Serif headline left, a logo row right under the buttons, then the email editor itself. A vertical band of orange stripes on the right edge is the only decoration."
+  },
+  {
+    "site": "Perplexity",
+    "type": "landing",
+    "url": "https://www.perplexity.ai/comet",
+    "tags": [
+      "light",
+      "serif-display",
+      "centered-hero",
+      "planet-shapes",
+      "product-screenshot-hero"
+    ],
+    "note": "A thin serif headline centred between large planet-like spheres, one dark download pill, then the browser window rising from the bottom. Calm and spacious."
+  },
+  {
+    "site": "Mobbin",
+    "type": "landing",
+    "url": "https://mobbin.com",
+    "tags": [
+      "light",
+      "centered-hero",
+      "inline-icons-in-headline",
+      "minimal"
+    ],
+    "note": "Big centred headline with small icons inserted between the words, a one-line subtitle with a concrete number, two small buttons. The product preview starts at the bottom of the fold."
   }
 ]

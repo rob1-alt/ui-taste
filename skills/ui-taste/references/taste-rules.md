@@ -55,3 +55,19 @@ Take: one filled button in the nav. Everything else is text.
 On the mobile captures, heroes become left-aligned stacks, product shots are cropped rather than shrunk, card rows become horizontal scrollers or single columns, and buttons go full width or keep a comfortable 44px height.
 
 Take: design the 390px layout on purpose; do not just let the desktop grid wrap.
+
+## 10. Pick a style family and commit to it
+
+The strongest landing pages in the library each commit to one family and carry it everywhere:
+
+| Family | What defines it | Look at |
+|---|---|---|
+| Quiet product-first | small type, neutral surfaces, the real UI as the hero | Linear, Cursor, Polar, Vercel |
+| Editorial serif | a serif display face, warm off-white, lots of space | Anthropic, Granola, mymind, Perplexity, Oura, Daylight |
+| Illustrated world | one consistent illustration system around plain copy | Fly.io, Family, Craft, Railway, Browserbase |
+| Loud and bold | saturated colour, oversized or heavy type, stickers or pixels | fal, Bun, Gumroad, Mistral AI, Dia, Pitch |
+| Brutalist / technical | monospace, hard borders, visible grids, plain text | PlanetScale, Warp, Sanity, n8n |
+| Object and photography | the physical product or a photo carries the page | Apple, Teenage Engineering, Oura, Daylight, Mercury |
+| The product is the page | a prompt box or the tool itself as the hero | v0, Pitch, Retool, Rive, Ghostty |
+
+Take: choose the family that fits the brand before choosing components, then search the library inside it (`find_refs.py "serif display"`, `"brutalist"`, `"illustration-brand"`). Mixing families (a brutalist grid with soft 3D blobs and a serif headline) is what makes a page look assembled rather than designed.

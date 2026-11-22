@@ -60,7 +60,7 @@ def score(item: dict, query: str) -> float:
         s += 5
     for tag in item.get("tags", []):
         if tag.replace("-", " ") in q or tag in q:
-            s += 4
+            s += 6
     hay = haystack(item)
     for word in set(tokens(q)):
         if word in hay:

@@ -1,6 +1,6 @@
 # UI taste
 
-> Show your coding agent what good looks like. A Claude Code skill with a library of real screens from products known for their design, the tokens measured on each live page, a reference search, and an anti-slop review of what the agent renders.
+> Show your coding agent what good looks like. A Claude Code skill with a library of real screens from products known for their design (Linear, Stripe, Vercel, Anthropic, Cursor, Figma, Apple, Teenage Engineering…), the tokens measured on each live page, a reference search, and an anti-slop review of what the agent renders.
 
 Agents build the same interface every time: a purple gradient hero, three centred cards with emoji icons, Inter everywhere, shadows on everything. UI taste replaces that default with evidence.
 
@@ -41,7 +41,7 @@ Claude then opens the screenshot with its Read tool and looks at it before decid
 
 | Page type | Screens | Sites |
 |---|---|---|
-| landing | 16 | Attio, Cal.com, Clerk, Framer, Granola, Linear, Mercury, Notion, PostHog, Ramp, Raycast, Resend, Stripe, Supabase, Superhuman, Vercel |
+| landing | 62 | Amie, Anthropic, Apple, Astro, Attio, Browserbase, Bun, Cal.com, Clerk, Craft, Cursor, Daylight, Dia, Dub, ElevenLabs, Family, Figma, Fly.io, Framer, Ghostty, Granola, Gumroad, Linear, Liveblocks, Loops, Mercury, Mistral AI, Mobbin, Modal, Neon, Notion, Oura, Perplexity, Phantom, Pitch, Plain, PlanetScale, Polar, PostHog, Railway, Ramp, Raycast, Resend, Retool, Rive, Runway, Sanity, Spline, Stripe, Supabase, Superhuman, Teenage Engineering, Things, Trigger.dev, Vercel, Warp, Webflow, Zed, fal, mymind, n8n, v0 |
 | pricing | 8 | Attio, Clerk, Linear, Notion, PostHog, Raycast, Resend, Vercel |
 | changelog | 3 | Linear, Raycast, Resend |
 | docs | 3 | Resend, Stripe, Tailwind CSS |
@@ -49,7 +49,7 @@ Claude then opens the screenshot with its Read tool and looks at it before decid
 | blog | 2 | Linear, Vercel |
 | auth | 2 | Linear, Vercel |
 
-**36 pages from 17 sites, each captured on desktop and mobile (72 screenshots).**
+**82 pages from 63 sites, each captured on desktop and mobile (164 screenshots).**
 
 Every screen is captured at 1440px (desktop, first 3600px) and 390px (mobile), with cookie banners refused and chat widgets hidden. Tokens are read from the browser's computed styles: fonts, h1/h2/h3/body sizes, line heights and tracking, background, surface and text colours by area covered, button fill, radius, height and padding, and content width.
 
