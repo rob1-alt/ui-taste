@@ -70,7 +70,8 @@ def score(item: dict, query: str) -> float:
     if item["site"].lower() in q:
         s += 5
     for tag in item.get("tags", []):
-        if tag.replace("-", " ") in q or tag in q:
+        plain = tag.removeprefix("ds-").replace("-", " ")
+        if plain in q or tag in q or (plain.endswith("s") and plain[:-1] in q):
             s += 6
     hay = haystack(item)
     for word in set(tokens(q)):
