@@ -101,7 +101,9 @@ def show(item: dict, platform: str, rank: int, close: bool) -> str:
     t = item.get("tokens") or {}
     c = t.get("colors") or {}
     lines = [
-        f"## {rank}. {item['site']} · {item['type']}" + ("  (closest match, not exact)" if close else ""),
+        f"## {rank}. {item['site']} · {item['type']}"
+        + "".join(f" ({t[3:]})" for t in item.get("tags", []) if t.startswith("ds-"))
+        + ("  (closest match, not exact)" if close else ""),
         f"url: {item['url']}  ·  captured {item.get('captured', '?')}",
     ]
     for name in (["desktop", "mobile"] if platform == "both" else [platform]):
