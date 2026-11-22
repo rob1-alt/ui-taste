@@ -437,18 +437,6 @@
     "note": "Article cards with custom abstract diagrams in a consistent style instead of stock photos; title, two-line excerpt, author and date in small grey."
   },
   {
-    "site": "Linear",
-    "type": "auth",
-    "url": "https://linear.app/login",
-    "tags": [
-      "light",
-      "centered-auth",
-      "sso-first",
-      "minimal"
-    ],
-    "note": "Login reduced to a logo, one title and a stack of equal-width buttons, Google first and filled, passkey last. Nothing else on the page."
-  },
-  {
     "site": "Vercel",
     "type": "auth",
     "url": "https://vercel.com/login",
@@ -1044,5 +1032,1742 @@
       "minimal"
     ],
     "note": "Big centred headline with small icons inserted between the words, a one-line subtitle with a concrete number, two small buttons. The product preview starts at the bottom of the fold."
+  },
+  {
+    "site": "WorkOS",
+    "type": "landing",
+    "url": "https://workos.com",
+    "tags": [
+      "light",
+      "left-aligned-hero",
+      "two-tone-headline",
+      "logo-grid",
+      "ui-toggles"
+    ],
+    "note": "A left headline whose second line is a violet gradient, floating toggle UI on the right and a two-row logo grid."
+  },
+  {
+    "site": "Mintlify",
+    "type": "landing",
+    "url": "https://www.mintlify.com",
+    "tags": [
+      "light",
+      "left-aligned-hero",
+      "product-screenshot-hero",
+      "line-art",
+      "green-accent"
+    ],
+    "note": "Small left headline, flowing green line art behind a docs preview on the right. Light and technical."
+  },
+  {
+    "site": "Inngest",
+    "type": "landing",
+    "url": "https://www.inngest.com",
+    "tags": [
+      "dark",
+      "bold-typography",
+      "code-background",
+      "orange-accent",
+      "outlined-text"
+    ],
+    "note": "Uppercase headline where the last word is outlined, code on the right and an orange start button. Technical and loud at once."
+  },
+  {
+    "site": "Temporal",
+    "type": "landing",
+    "url": "https://temporal.io",
+    "tags": [
+      "dark",
+      "gradient-brand",
+      "centered-hero",
+      "logo-row",
+      "interactive-demo"
+    ],
+    "note": "Purple gradient hero, centred headline, logo row, then an interactive \"watch a workflow recover\" demo."
+  },
+  {
+    "site": "Convex",
+    "type": "landing",
+    "url": "https://www.convex.dev",
+    "tags": [
+      "warm-color",
+      "bold-typography",
+      "stripes",
+      "code-sample",
+      "logo-row"
+    ],
+    "note": "Heavy condensed uppercase headline, retro rainbow stripes and a terminal card with copy-paste prompts on a brown-and-cream palette. Strong, unusual identity for a backend."
+  },
+  {
+    "site": "Upstash",
+    "type": "landing",
+    "url": "https://upstash.com",
+    "tags": [
+      "light",
+      "bold-typography",
+      "green-accent",
+      "product-tabs"
+    ],
+    "note": "Huge green two-line headline and a tab row of products (Redis, QStash, Vector…) that switches the panel below."
+  },
+  {
+    "site": "Tinybird",
+    "type": "landing",
+    "url": "https://www.tinybird.co",
+    "tags": [
+      "dark",
+      "monospace",
+      "centered-hero",
+      "green-accent",
+      "testimonial-inline"
+    ],
+    "note": "Monospace buttons and tags, a centred headline, a green primary button and a customer quote inside the product area."
+  },
+  {
+    "site": "Prisma",
+    "type": "landing",
+    "url": "https://www.prisma.io",
+    "tags": [
+      "light",
+      "centered-hero",
+      "rainbow-accent",
+      "product-screenshot-hero"
+    ],
+    "note": "Centred headline, checkmark benefits under the buttons and a product window rising from a soft rainbow stripe."
+  },
+  {
+    "site": "Expo",
+    "type": "landing",
+    "url": "https://expo.dev",
+    "tags": [
+      "light",
+      "left-aligned-hero",
+      "centered-icon",
+      "app-icon-row",
+      "mono-labels"
+    ],
+    "note": "Big app icon at the centre of a radiating line pattern, a small left headline and a row of real app icons built with Expo as proof."
+  },
+  {
+    "site": "Svelte",
+    "type": "landing",
+    "url": "https://svelte.dev",
+    "tags": [
+      "light",
+      "3d-illustration",
+      "serif-display",
+      "orange-accent",
+      "editorial"
+    ],
+    "note": "A 3D orange logo object on a track, a serif headline and long-form copy in an editorial layout. Personality of an open-source project."
+  },
+  {
+    "site": "Deno",
+    "type": "landing",
+    "url": "https://deno.com",
+    "tags": [
+      "dark",
+      "left-aligned-hero",
+      "animated-list",
+      "green-accent"
+    ],
+    "note": "Left headline with a rotating list of what Deno replaces (linter, formatter, test runner…) on the right, one item highlighted in green. The list itself is the argument."
+  },
+  {
+    "site": "Hugging Face",
+    "type": "landing",
+    "url": "https://huggingface.co",
+    "tags": [
+      "light",
+      "card-hero",
+      "dark-card",
+      "product-screenshot-hero",
+      "emoji-brand"
+    ],
+    "note": "A big dark rounded card holds the headline on the left and a live list of models on the right; the hugging emoji is the brand. Content as hero."
+  },
+  {
+    "site": "Replicate",
+    "type": "landing",
+    "url": "https://replicate.com",
+    "tags": [
+      "bold-color",
+      "gradient-brand",
+      "code-sample",
+      "bold-typography"
+    ],
+    "note": "Hot pink-to-orange gradient, a heavy left headline and a code sample next to its generated output. Developer tool with a fashion-poster palette."
+  },
+  {
+    "site": "Harvey",
+    "type": "landing",
+    "url": "https://www.harvey.ai",
+    "tags": [
+      "light",
+      "serif-display",
+      "split-hero",
+      "product-screenshot-hero",
+      "enterprise"
+    ],
+    "note": "Serif headline on warm off-white with a short line and one dark button on the right, then a dense analytics product view. Authority through restraint, fitting for legal."
+  },
+  {
+    "site": "Sierra",
+    "type": "landing",
+    "url": "https://sierra.ai",
+    "tags": [
+      "photo-hero",
+      "card-hero",
+      "left-aligned-hero",
+      "green-accent"
+    ],
+    "note": "A tender photo (a sleeping baby) inside a rounded card with the headline bottom-left and a conversation snippet in the corner. Emotion for an AI agent company."
+  },
+  {
+    "site": "Clay",
+    "type": "landing",
+    "url": "https://www.clay.com",
+    "tags": [
+      "illustration-brand",
+      "3d-scene",
+      "split-hero",
+      "green"
+    ],
+    "note": "A whimsical 3D machine scene fills the hero (funnels, pipes, blocks) with the headline set bottom-left on green. A memorable illustration that literally depicts the product (data flowing into revenue)."
+  },
+  {
+    "site": "folk",
+    "type": "landing",
+    "url": "https://www.folk.app",
+    "tags": [
+      "light",
+      "centered-hero",
+      "product-screenshot-hero",
+      "mono-labels"
+    ],
+    "note": "Large centred headline, a small dark button, then the CRM grey-framed with a contact card overlapping it. A monospace announcement pill sits above."
+  },
+  {
+    "site": "Twenty",
+    "type": "landing",
+    "url": "https://twenty.com",
+    "tags": [
+      "light",
+      "serif-display",
+      "centered-hero",
+      "product-screenshot-hero",
+      "mono-buttons"
+    ],
+    "note": "Thin serif headline, small monospace buttons and the open-source CRM table below. Restrained and crafted."
+  },
+  {
+    "site": "Heptabase",
+    "type": "landing",
+    "url": "https://heptabase.com",
+    "tags": [
+      "light",
+      "centered-hero",
+      "product-screenshot-hero",
+      "minimal"
+    ],
+    "note": "Two-sentence centred headline contrasting AI answers with the product's promise, one dark button, then the whiteboard UI. Quiet and focused."
+  },
+  {
+    "site": "Tana",
+    "type": "landing",
+    "url": "https://tana.inc",
+    "tags": [
+      "light",
+      "left-aligned-hero",
+      "product-in-context",
+      "video-call"
+    ],
+    "note": "Plain left headline and the product shown in context: a video call with the AI's notes beside it."
+  },
+  {
+    "site": "Reflect",
+    "type": "landing",
+    "url": "https://reflect.app",
+    "tags": [
+      "dark",
+      "glow-once",
+      "centered-hero",
+      "product-screenshot-hero",
+      "purple"
+    ],
+    "note": "Dark purple with one luminous arc behind a centred headline and the app below. A single light source creates the mood."
+  },
+  {
+    "site": "Screen Studio",
+    "type": "landing",
+    "url": "https://screen.studio",
+    "tags": [
+      "dark",
+      "centered-hero",
+      "product-screenshot-hero",
+      "blue-accent",
+      "badges"
+    ],
+    "note": "Dark hero, app icon, \"Product of the Day\" badge, a bold one-line promise and one blue download button, then the editor."
+  },
+  {
+    "site": "CleanShot",
+    "type": "landing",
+    "url": "https://cleanshot.com",
+    "tags": [
+      "light",
+      "centered-hero",
+      "two-tone-headline",
+      "product-screenshot-hero",
+      "testimonial-inline"
+    ],
+    "note": "Centred headline with the product name and a key word in blue, a trust line (\"Trusted by 250,000+ users\"), then the app with a real quote beside it."
+  },
+  {
+    "site": "Jitter",
+    "type": "landing",
+    "url": "https://jitter.video",
+    "tags": [
+      "light",
+      "centered-hero",
+      "bold-typography",
+      "purple-accent",
+      "logo-row"
+    ],
+    "note": "Short heavy two-line headline, one purple pill, a trust line and a logo row. Nothing else above the fold; motion lives further down."
+  },
+  {
+    "site": "Hex",
+    "type": "landing",
+    "url": "https://hex.tech",
+    "tags": [
+      "light",
+      "serif-italic",
+      "centered-hero",
+      "grid-lines",
+      "logo-grid"
+    ],
+    "note": "A sans headline with its second line in italic serif, inline chips in the subtitle, faint grid lines and two rows of logos. Elegant mix kept to two faces."
+  },
+  {
+    "site": "Rows",
+    "type": "landing",
+    "url": "https://rows.com",
+    "tags": [
+      "warm-neutrals",
+      "bold-typography",
+      "centered-hero",
+      "product-screenshot-hero",
+      "yellow-accent"
+    ],
+    "note": "Heavy centred headline on cream, a yellow button and the spreadsheet with charts below."
+  },
+  {
+    "site": "Ideogram",
+    "type": "landing",
+    "url": "https://ideogram.ai",
+    "tags": [
+      "photo-hero",
+      "full-bleed-image",
+      "logo-row",
+      "minimal-nav"
+    ],
+    "note": "One full-bleed generated image (a person jumping) is the hero, with tiny navigation and a logo strip below. The output sells the tool."
+  },
+  {
+    "site": "Suno",
+    "type": "landing",
+    "url": "https://suno.com",
+    "tags": [
+      "dark",
+      "centered-hero",
+      "prompt-box-hero",
+      "floating-cards",
+      "press-logos"
+    ],
+    "note": "A playful example prompt as the headline (\"Make a jazz song about watering my plants\"), the prompt box below, floating album-art cards and press logos."
+  },
+  {
+    "site": "Luma AI",
+    "type": "landing",
+    "url": "https://lumalabs.ai",
+    "tags": [
+      "dark",
+      "centered-hero",
+      "minimal",
+      "prompt-box-hero"
+    ],
+    "note": "Pure black with a small centred two-line headline and one white pill; a prompt box rises from the bottom. Cinematic minimalism."
+  },
+  {
+    "site": "Whimsical",
+    "type": "landing",
+    "url": "https://whimsical.com",
+    "tags": [
+      "gradient-brand",
+      "card-hero",
+      "centered-hero",
+      "product-screenshot-hero"
+    ],
+    "note": "A rounded card with a sunset gradient holds the centred headline and the whiteboard UI."
+  },
+  {
+    "site": "Are.na",
+    "type": "landing",
+    "url": "https://www.are.na",
+    "tags": [
+      "light",
+      "text-only",
+      "minimal",
+      "editorial",
+      "anti-marketing"
+    ],
+    "note": "Almost no design at all: a definition list in plain text, two small buttons. Works because the voice is precise and the brand is the community; a reference for radical simplicity."
+  },
+  {
+    "site": "Wise",
+    "type": "landing",
+    "url": "https://wise.com",
+    "tags": [
+      "bold-color",
+      "bold-typography",
+      "brand-green",
+      "feature-cards"
+    ],
+    "note": "Heavy uppercase headline on lime green, then three coloured feature cards with real UI (a transfer quote). Bold brand system applied consistently."
+  },
+  {
+    "site": "Monzo",
+    "type": "landing",
+    "url": "https://monzo.com",
+    "tags": [
+      "photo-hero",
+      "card-hero",
+      "bold-typography",
+      "brand-coral"
+    ],
+    "note": "The hero is one big rounded photo card (phone in hand, apples) with a bold white headline inside it. Everyday life, not finance clichés."
+  },
+  {
+    "site": "Qonto",
+    "type": "landing",
+    "url": "https://qonto.com/en",
+    "tags": [
+      "light",
+      "centered-hero",
+      "bold-typography",
+      "photo-tiles",
+      "rating"
+    ],
+    "note": "Bold centred headline with a Trustpilot rating above it and a row of photo and product tiles below. Clear and confident banking."
+  },
+  {
+    "site": "Pennylane",
+    "type": "landing",
+    "url": "https://www.pennylane.com",
+    "tags": [
+      "light",
+      "split-hero",
+      "product-photo",
+      "green-accent",
+      "french"
+    ],
+    "note": "French fintech: left headline with three nouns, the product on a laptop in a real office photo on the right, mint-green accent and customer logos."
+  },
+  {
+    "site": "Alan",
+    "type": "landing",
+    "url": "https://alan.com",
+    "tags": [
+      "light",
+      "illustration-brand",
+      "3d-characters",
+      "centered-hero",
+      "french"
+    ],
+    "note": "French health insurer made friendly: soft 3D characters and a phone around a centred headline, two pill buttons (\"Mon devis en 2 min\" filled). Proves a regulated product can feel warm."
+  },
+  {
+    "site": "Oatly",
+    "type": "landing",
+    "url": "https://www.oatly.com",
+    "tags": [
+      "editorial",
+      "collage",
+      "bold-typography",
+      "hand-drawn",
+      "quirky"
+    ],
+    "note": "A newspaper-like grid of hand-made panels and sticker headlines (\"HOW TO MAKE MATCHA\"). The brand voice is the design."
+  },
+  {
+    "site": "Mailchimp",
+    "type": "landing",
+    "url": "https://mailchimp.com",
+    "tags": [
+      "photo-hero",
+      "serif-display",
+      "italic-accent",
+      "yellow-accent",
+      "ratings"
+    ],
+    "note": "A warm photo background, a serif headline with its last line in italic, a yellow button and ratings badges. Captured in French."
+  },
+  {
+    "site": "Duolingo",
+    "type": "landing",
+    "url": "https://www.duolingo.com",
+    "tags": [
+      "light",
+      "illustration-brand",
+      "playful",
+      "centered-hero",
+      "language-selector"
+    ],
+    "note": "The mascot cast as the hero, one friendly sentence and two stacked buttons (start, I have an account), with a language selector strip at the bottom of the fold."
+  },
+  {
+    "site": "Headspace",
+    "type": "landing",
+    "url": "https://www.headspace.com",
+    "tags": [
+      "bold-color",
+      "illustration-brand",
+      "promo",
+      "orange"
+    ],
+    "note": "The brand's orange sun character and a big promotion tag on a warm gradient; captured during a sale. Read it for how a single character and colour hold the brand."
+  },
+  {
+    "site": "Discord",
+    "type": "landing",
+    "url": "https://discord.com",
+    "tags": [
+      "illustration-brand",
+      "bold-typography",
+      "blurple",
+      "playful",
+      "product-screenshot-hero"
+    ],
+    "note": "Loud uppercase headline on brand blurple with illustrated characters around the app window. Two big buttons (download, open in browser). Personality first."
+  },
+  {
+    "site": "GitHub",
+    "type": "landing",
+    "url": "https://github.com",
+    "tags": [
+      "light",
+      "centered-hero",
+      "email-capture-hero",
+      "mascot"
+    ],
+    "note": "A short centred headline, the email field joined to the sign-up button and a secondary Copilot link; the mascot peeks over a dark band below."
+  },
+  {
+    "site": "Shopify",
+    "type": "landing",
+    "url": "https://www.shopify.com",
+    "tags": [
+      "photo-hero",
+      "video-hero",
+      "left-aligned-hero",
+      "thin-type"
+    ],
+    "note": "Full-bleed lifestyle video with a thin, large left headline. Shows entrepreneurs, not software."
+  },
+  {
+    "site": "Intercom",
+    "type": "landing",
+    "url": "https://www.intercom.com",
+    "tags": [
+      "light",
+      "serif-display",
+      "centered-hero",
+      "photo-collage",
+      "muted-headline"
+    ],
+    "note": "A large light-grey serif headline with photos placed at the edges like a collage. Calm editorial luxury for a support platform."
+  },
+  {
+    "site": "Descript",
+    "type": "landing",
+    "url": "https://www.descript.com",
+    "tags": [
+      "dark-warm",
+      "serif-display",
+      "centered-hero",
+      "product-screenshot-hero",
+      "chat-bubble"
+    ],
+    "note": "Deep burgundy background, large serif headline, a red pill button and the editor below with an AI chat bubble overlapping it. Warm colour instead of the usual black."
+  },
+  {
+    "site": "Paddle",
+    "type": "landing",
+    "url": "https://www.paddle.com",
+    "tags": [
+      "light",
+      "serif-display",
+      "centered-hero",
+      "yellow-accent",
+      "logo-row"
+    ],
+    "note": "Two-line serif headline centred on off-white, black and yellow-accent buttons, logos in a row. Calm and premium for payments."
+  },
+  {
+    "site": "Glossier",
+    "type": "landing",
+    "url": "https://www.glossier.com",
+    "tags": [
+      "bold-color",
+      "oversized-wordmark",
+      "promo",
+      "stickers",
+      "brand-blue"
+    ],
+    "note": "Commerce as a poster: a giant italic wordmark and percentage on saturated blue with line-drawn product stickers. Captured during a Black Friday campaign, so read it for the poster treatment."
+  },
+  {
+    "site": "Cursor",
+    "type": "pricing",
+    "url": "https://cursor.com/pricing",
+    "tags": [
+      "warm-neutrals",
+      "pricing-4-tier",
+      "plan-tabs",
+      "popular-badge"
+    ],
+    "note": "Four plain columns on warm grey with Individual/Teams tabs; only the most popular plan has a filled button."
+  },
+  {
+    "site": "Figma",
+    "type": "pricing",
+    "url": "https://www.figma.com/pricing/",
+    "tags": [
+      "light",
+      "seat-pricing",
+      "pricing-4-tier",
+      "currency-selector"
+    ],
+    "note": "Prices per seat type (Full, Dev, Collab) inside each plan, with the products each seat unlocks shown as small icons."
+  },
+  {
+    "site": "Framer",
+    "type": "pricing",
+    "url": "https://www.framer.com/pricing",
+    "tags": [
+      "dark",
+      "pricing-4-tier",
+      "dropdown-in-card",
+      "blue-accent"
+    ],
+    "note": "Dark cards with a credits dropdown inside each plan; only Pro has a blue button."
+  },
+  {
+    "site": "Cal.com",
+    "type": "pricing",
+    "url": "https://cal.com/pricing",
+    "tags": [
+      "light",
+      "pricing-4-tier",
+      "dark-card-highlight",
+      "billing-toggle-per-plan"
+    ],
+    "note": "Four plans where the recommended one is a dark card; yearly toggles inside the paid columns."
+  },
+  {
+    "site": "Loops",
+    "type": "pricing",
+    "url": "https://loops.so/pricing",
+    "tags": [
+      "light",
+      "serif-display",
+      "contacts-slider",
+      "pricing-3-tier"
+    ],
+    "note": "Serif title, one contacts slider spanning the three plans, the price updating in place."
+  },
+  {
+    "site": "Dub",
+    "type": "pricing",
+    "url": "https://dub.co/pricing",
+    "tags": [
+      "light",
+      "pricing-3-tier",
+      "usage-slider",
+      "billing-toggle"
+    ],
+    "note": "A payout-volume slider across all plans, with each plan's included limit shown under the price."
+  },
+  {
+    "site": "Polar",
+    "type": "404",
+    "url": "https://polar.sh/pricing",
+    "tags": [
+      "light",
+      "404",
+      "quick-links",
+      "illustrated-cards",
+      "minimal"
+    ],
+    "note": "A 404 that helps: a short apology and four large cards (Homepage, Blog, Documentation, Company), each with a simple line illustration."
+  },
+  {
+    "site": "Railway",
+    "type": "pricing",
+    "url": "https://railway.com/pricing",
+    "tags": [
+      "dark",
+      "serif-display",
+      "usage-based",
+      "chart"
+    ],
+    "note": "\"Pay only for what your app uses\" in serif with a usage chart, then plans as horizontal rows."
+  },
+  {
+    "site": "Warp",
+    "type": "pricing",
+    "url": "https://www.warp.dev/pricing",
+    "tags": [
+      "light",
+      "monospace",
+      "pricing-3-tier",
+      "popular-badge"
+    ],
+    "note": "Monospace title and three tidy cards with icon-led feature lists."
+  },
+  {
+    "site": "Zed",
+    "type": "pricing",
+    "url": "https://zed.dev/pricing",
+    "tags": [
+      "light",
+      "serif-display",
+      "pricing-3-tier",
+      "grid-lines",
+      "blue-accent"
+    ],
+    "note": "Blue serif title, monospace-ish small text and three cards on a faint grid; the middle plan has the filled button."
+  },
+  {
+    "site": "Webflow",
+    "type": "pricing",
+    "url": "https://webflow.com/pricing",
+    "tags": [
+      "light",
+      "bold-typography",
+      "grouped-plans",
+      "billing-toggle",
+      "blue-accent"
+    ],
+    "note": "Huge \"Our pricing\" title, plans grouped into Site plans and Platform plans, every button the same blue."
+  },
+  {
+    "site": "n8n",
+    "type": "pricing",
+    "url": "https://n8n.io/pricing/",
+    "tags": [
+      "light",
+      "pricing-4-tier",
+      "dark-card-first",
+      "executions-dropdown",
+      "pink-accent"
+    ],
+    "note": "Four cards with an executions selector in each and pink buttons; the starter card is dark for contrast."
+  },
+  {
+    "site": "SavvyCal",
+    "type": "landing",
+    "url": "https://savvycal.com",
+    "tags": [
+      "warm-neutrals",
+      "serif-display",
+      "red-accent",
+      "product-screenshot-hero"
+    ],
+    "note": "Heavy serif headline with the second line in red on cream, then the calendar on a green panel."
+  },
+  {
+    "site": "Tella",
+    "type": "landing",
+    "url": "https://www.tella.tv",
+    "tags": [
+      "light",
+      "left-aligned-hero",
+      "video-tabs",
+      "purple-accent"
+    ],
+    "note": "Small left headline and a video area with tabs for formats (Long form, Short form, Product demos)."
+  },
+  {
+    "site": "Bezi",
+    "type": "landing",
+    "url": "https://www.bezi.com",
+    "tags": [
+      "dark",
+      "starfield",
+      "centered-hero",
+      "product-screenshot-hero",
+      "orange-accent"
+    ],
+    "note": "Starry dark hero, a centred headline with a strong stance (\"AI for building real games, not generating them\"), orange button, then the app."
+  },
+  {
+    "site": "Typefully",
+    "type": "landing",
+    "url": "https://typefully.com",
+    "tags": [
+      "light",
+      "centered-hero",
+      "app-behind",
+      "sso-buttons-hero"
+    ],
+    "note": "A centred sign-up card floating over the app UI, with SSO chips and logos."
+  },
+  {
+    "site": "Weekrise",
+    "type": "landing",
+    "url": "https://weekrise.com",
+    "tags": [
+      "pastel-gradient",
+      "centered-hero",
+      "handwritten-note",
+      "bold-typography"
+    ],
+    "note": "Pink gradient, heavy two-line headline and a handwritten \"Try our Demo\" note with an arrow."
+  },
+  {
+    "site": "Vectary",
+    "type": "landing",
+    "url": "https://www.vectary.com",
+    "tags": [
+      "light",
+      "centered-hero",
+      "canvas-of-objects",
+      "announcement-bar"
+    ],
+    "note": "Centred headline over a canvas of 3D objects in progress: the product's workspace as the background."
+  },
+  {
+    "site": "Soundtrap",
+    "type": "landing",
+    "url": "https://www.soundtrap.com",
+    "tags": [
+      "dark",
+      "bold-typography",
+      "product-screenshot-hero",
+      "pill-button"
+    ],
+    "note": "Big white headline, one pill button and the music editor with a video of a musician inset."
+  },
+  {
+    "site": "Factory",
+    "type": "landing",
+    "url": "https://factory.ai",
+    "tags": [
+      "light",
+      "bold-typography",
+      "uppercase",
+      "monospace",
+      "minimal"
+    ],
+    "note": "Uppercase bold headline, monospace subtitle and small black buttons, with the install command below. Stark and confident."
+  },
+  {
+    "site": "Steel",
+    "type": "landing",
+    "url": "https://steel.dev",
+    "tags": [
+      "light",
+      "blue-line-art",
+      "left-aligned-hero",
+      "monospace"
+    ],
+    "note": "Blue 3D line structure behind a left headline, monospace small text and buttons."
+  },
+  {
+    "site": "Delphi",
+    "type": "landing",
+    "url": "https://www.delphi.ai",
+    "tags": [
+      "light",
+      "warm-gradient",
+      "prompt-box-hero",
+      "category-chips",
+      "colored-cards"
+    ],
+    "note": "Soft peach gradient, a prompt box with floating suggestion chips, category pills and dark coloured example cards."
+  },
+  {
+    "site": "Miro",
+    "type": "landing",
+    "url": "https://miro.com",
+    "tags": [
+      "light",
+      "serif-display",
+      "canvas-hero",
+      "email-capture-hero"
+    ],
+    "note": "The canvas itself frames a serif headline and an email field: diagrams and cursors around the CTA."
+  },
+  {
+    "site": "Spotify",
+    "type": "landing",
+    "url": "https://www.spotify.com/us/premium/",
+    "tags": [
+      "dark",
+      "bold-typography",
+      "photo-hero",
+      "italic-accent",
+      "green-accent"
+    ],
+    "note": "Huge heavy white headline with one italic line over a photo, green pill CTA. A campaign page with full brand energy."
+  },
+  {
+    "site": "Stripe",
+    "type": "about",
+    "url": "https://stripe.com/about",
+    "tags": [
+      "about",
+      "light",
+      "line-illustration",
+      "text-centered"
+    ],
+    "note": "A fine architectural line drawing and a few centred paragraphs about the mission. Captured in French."
+  },
+  {
+    "site": "Notion",
+    "type": "about",
+    "url": "https://www.notion.com/about",
+    "tags": [
+      "about",
+      "light",
+      "illustration-brand",
+      "letter-format"
+    ],
+    "note": "An about page written as a letter (\"Hi there! If you're reading this…\") with the brand's line illustrations of people at work."
+  },
+  {
+    "site": "PostHog",
+    "type": "about",
+    "url": "https://posthog.com/about",
+    "tags": [
+      "about",
+      "playful",
+      "os-desktop-metaphor",
+      "founder-signatures"
+    ],
+    "note": "The about story inside a desktop-OS window, with founders' photo and signatures and a cartoon. Personality all the way through."
+  },
+  {
+    "site": "Linear",
+    "type": "about",
+    "url": "https://linear.app/about",
+    "tags": [
+      "about",
+      "dark",
+      "left-aligned-hero",
+      "photo-portrait"
+    ],
+    "note": "A two-line mission headline and a large candid portrait right below: the company is its people and its craft."
+  },
+  {
+    "site": "Linear",
+    "type": "careers",
+    "url": "https://linear.app/careers",
+    "tags": [
+      "careers",
+      "dark",
+      "left-aligned-hero",
+      "photo-wide"
+    ],
+    "note": "\"Help us craft high-quality tools\" and a wide documentary photo of the team at work; roles further down."
+  },
+  {
+    "site": "Vercel",
+    "type": "careers",
+    "url": "https://vercel.com/careers",
+    "tags": [
+      "careers",
+      "light",
+      "grid-lines",
+      "job-list",
+      "filters"
+    ],
+    "note": "A short headline on faint grid lines, then the job list with Location and Department filters right away."
+  },
+  {
+    "site": "Ramp",
+    "type": "careers",
+    "url": "https://ramp.com/careers",
+    "tags": [
+      "careers",
+      "light",
+      "oversized-headline",
+      "people-cutouts",
+      "yellow-accent"
+    ],
+    "note": "A huge \"We only hire builders\" headline and cut-out portraits of employees each with a concrete achievement caption."
+  },
+  {
+    "site": "Raycast",
+    "type": "careers",
+    "url": "https://www.raycast.com/careers",
+    "tags": [
+      "careers",
+      "dark",
+      "glow-once",
+      "centered-hero",
+      "timeline"
+    ],
+    "note": "Centred headline on a red glow with one button and a company timeline along the bottom."
+  },
+  {
+    "site": "Stripe",
+    "type": "careers",
+    "url": "https://stripe.com/jobs",
+    "tags": [
+      "careers",
+      "light",
+      "full-width-art",
+      "serif-display"
+    ],
+    "note": "An oversized art image (a flower in Stripe's gradient) under a short headline. Captured in French."
+  },
+  {
+    "site": "Resend",
+    "type": "careers",
+    "url": "https://resend.com/careers",
+    "tags": [
+      "careers",
+      "dark",
+      "serif-display",
+      "centered-hero"
+    ],
+    "note": "Serif \"Join the team\", one button and links to About and Philosophy."
+  },
+  {
+    "site": "Linear",
+    "type": "contact",
+    "url": "https://linear.app/contact/sales",
+    "tags": [
+      "contact",
+      "dark",
+      "split-form",
+      "checklist"
+    ],
+    "note": "Dark split: a three-item list of what you'll get on the left, the form on the right."
+  },
+  {
+    "site": "Vercel",
+    "type": "contact",
+    "url": "https://vercel.com/contact/sales",
+    "tags": [
+      "contact",
+      "split-form",
+      "customer-stats",
+      "logos"
+    ],
+    "note": "Form on the right, and on the left customer logos each with a concrete result (\"80% YoY growth…\")."
+  },
+  {
+    "site": "Stripe",
+    "type": "contact",
+    "url": "https://stripe.com/contact/sales",
+    "tags": [
+      "contact",
+      "gradient-brand",
+      "stepped-form",
+      "card-form"
+    ],
+    "note": "A multi-step form in a white card over the brand gradient, with steps shown as tabs. Captured in French."
+  },
+  {
+    "site": "Attio",
+    "type": "contact",
+    "url": "https://attio.com/contact/sales",
+    "tags": [
+      "contact",
+      "split-form",
+      "testimonial-inline",
+      "light"
+    ],
+    "note": "Split layout: headline and a customer quote on the left, a compact form on the right."
+  },
+  {
+    "site": "Stripe",
+    "type": "404",
+    "url": "https://stripe.com/a-page-that-does-not-exist",
+    "tags": [
+      "404",
+      "light",
+      "quick-links",
+      "card-grid"
+    ],
+    "note": "\"Page not found\" with six cards to the most likely destinations (Pricing, Careers, Documentation, API Reference, Status, Support). Recovery over apology."
+  },
+  {
+    "site": "GitHub",
+    "type": "404",
+    "url": "https://github.com/a-page-that-does-not-exist-xyz",
+    "tags": [
+      "404",
+      "illustration-brand",
+      "search-in-404",
+      "mascot"
+    ],
+    "note": "A full illustrated scene (the Octocat in a desert) with a big \"404\" and a joke, then a search field so the visitor can recover on the spot."
+  },
+  {
+    "site": "Raycast",
+    "type": "404",
+    "url": "https://www.raycast.com/a-page-that-does-not-exist",
+    "tags": [
+      "404",
+      "dark",
+      "glow-once",
+      "minimal",
+      "footer-links"
+    ],
+    "note": "Small text top-left, a red glowing shape at the bottom and the normal footer links. Brand atmosphere kept even on an error page."
+  },
+  {
+    "site": "Resend",
+    "type": "404",
+    "url": "https://resend.com/a-page-that-does-not-exist",
+    "tags": [
+      "404",
+      "dark",
+      "logo-mark",
+      "minimal"
+    ],
+    "note": "Centred logo mark, \"404: Not Found\", one line, one button home. The smallest useful 404."
+  },
+  {
+    "site": "Linear",
+    "type": "integrations",
+    "url": "https://linear.app/integrations",
+    "tags": [
+      "integrations",
+      "dark",
+      "sidebar-categories",
+      "card-grid",
+      "search"
+    ],
+    "note": "Category sidebar, search, and integration cards grouped under a short explanation."
+  },
+  {
+    "site": "Cal.com",
+    "type": "integrations",
+    "url": "https://cal.com/apps",
+    "tags": [
+      "integrations",
+      "app-store",
+      "category-cards",
+      "photo-cards"
+    ],
+    "note": "App store with photo category cards, then most popular apps as cards with a Details button."
+  },
+  {
+    "site": "Raycast",
+    "type": "integrations",
+    "url": "https://www.raycast.com/store",
+    "tags": [
+      "integrations",
+      "dark",
+      "icon-cluster",
+      "search",
+      "glow-once"
+    ],
+    "note": "App icons orbiting the word \"Store\" on a red glow, a search field below."
+  },
+  {
+    "site": "Vercel",
+    "type": "integrations",
+    "url": "https://vercel.com/marketplace",
+    "tags": [
+      "integrations",
+      "marketplace",
+      "featured-cards",
+      "filters"
+    ],
+    "note": "Marketplace with large featured cards, filters and a recently added row."
+  },
+  {
+    "site": "n8n",
+    "type": "integrations",
+    "url": "https://n8n.io/integrations/",
+    "tags": [
+      "integrations",
+      "search-first",
+      "filters",
+      "card-grid"
+    ],
+    "note": "A big search with type filters, a category sidebar and a count of integrations."
+  },
+  {
+    "site": "Attio",
+    "type": "integrations",
+    "url": "https://attio.com/apps",
+    "tags": [
+      "integrations",
+      "centered-hero",
+      "icon-grid",
+      "light"
+    ],
+    "note": "Centred headline and a grid of app icons as the hero, before the directory."
+  },
+  {
+    "site": "Linear",
+    "type": "developers",
+    "url": "https://linear.app/developers",
+    "tags": [
+      "developers",
+      "dark",
+      "docs-cards",
+      "sidebar-nav"
+    ],
+    "note": "Docs home with cards for GraphQL API, Authentication, Agents and SDK, then guides."
+  },
+  {
+    "site": "Figma",
+    "type": "developers",
+    "url": "https://www.figma.com/developers",
+    "tags": [
+      "developers",
+      "bold-color",
+      "illustration",
+      "green"
+    ],
+    "note": "Bright green field with a bold illustration and a short headline: the developer platform sold with the same energy as the product."
+  },
+  {
+    "site": "Notion",
+    "type": "developers",
+    "url": "https://developers.notion.com",
+    "tags": [
+      "developers",
+      "docs-three-column",
+      "numbered-steps",
+      "light"
+    ],
+    "note": "Quickstart in numbered steps with copyable code and an on-this-page list."
+  },
+  {
+    "site": "Linear",
+    "type": "brand",
+    "url": "https://linear.app/brand",
+    "tags": [
+      "brand",
+      "dark",
+      "download-assets",
+      "guidelines-text"
+    ],
+    "note": "Brand guidelines as a dark page with one download button and short rules on naming and usage."
+  },
+  {
+    "site": "Resend",
+    "type": "brand",
+    "url": "https://resend.com/brand",
+    "tags": [
+      "brand",
+      "dark",
+      "serif-display",
+      "logo-mark",
+      "download-assets"
+    ],
+    "note": "A glossy 3D logo tile, a serif \"Brand kit\" title, one download button, then naming and logo rules."
+  },
+  {
+    "site": "Vercel",
+    "type": "brand",
+    "url": "https://vercel.com/geist/brands",
+    "tags": [
+      "brand",
+      "docs-three-column",
+      "logo-showcase",
+      "geist"
+    ],
+    "note": "Brand assets inside the Geist docs layout: sidebar, rules in text, each logo shown on a large tile."
+  },
+  {
+    "site": "Linear",
+    "type": "auth",
+    "url": "https://linear.app/signup",
+    "tags": [
+      "auth",
+      "centered-auth",
+      "sso-first",
+      "minimal"
+    ],
+    "note": "Sign-up reduced to the logo, a title and equal-width stacked buttons, Google first and filled; nothing else on the page."
+  },
+  {
+    "site": "Figma",
+    "type": "auth",
+    "url": "https://www.figma.com/signup",
+    "tags": [
+      "auth",
+      "centered-auth",
+      "minimal",
+      "email-first"
+    ],
+    "note": "A plain centred card: Google, divider, email, one dark button."
+  },
+  {
+    "site": "Cal.com",
+    "type": "auth",
+    "url": "https://app.cal.com/signup",
+    "tags": [
+      "auth",
+      "split-auth",
+      "photo-collage",
+      "ratings",
+      "sso-first"
+    ],
+    "note": "Sign-up as a split screen: \"Claim cal.com/you\" with SSO buttons on the left, a photo collage and review scores on the right."
+  },
+  {
+    "site": "Notion",
+    "type": "auth",
+    "url": "https://www.notion.so/signup",
+    "tags": [
+      "auth",
+      "centered-auth",
+      "email-first",
+      "app-preview-behind",
+      "helpful-tip"
+    ],
+    "note": "A card over a blurred preview of the app, a tip about using your work email, then SSO options as small tiles."
+  },
+  {
+    "site": "Apple",
+    "type": "product",
+    "url": "https://www.apple.com/airpods-pro/",
+    "tags": [
+      "product",
+      "product-photo",
+      "light",
+      "price-in-hero"
+    ],
+    "note": "The product photographed large, the name and one promise, and the price with a Buy button in the corner."
+  },
+  {
+    "site": "Teenage Engineering",
+    "type": "product",
+    "url": "https://teenage.engineering/products/op-xy",
+    "tags": [
+      "product",
+      "dark",
+      "product-photo",
+      "minimal",
+      "multilingual"
+    ],
+    "note": "A dark close-up of the device with one line of copy in German (\"liebe auf den ersten blick\"). Desire through restraint."
+  },
+  {
+    "site": "Oura",
+    "type": "404",
+    "url": "https://ouraring.com/oura-ring-4",
+    "tags": [
+      "404",
+      "photo-hero",
+      "playful-copy",
+      "dark"
+    ],
+    "note": "A calm photo of someone sleeping and a witty line (\"This page took relax & unplug a bit too literally\"): on-brand humour instead of an error message.",
+    "id": "oura-404"
+  },
+  {
+    "site": "Daylight",
+    "type": "product",
+    "url": "https://daylightcomputer.com/product",
+    "tags": [
+      "product",
+      "split-product",
+      "gallery",
+      "add-to-cart",
+      "testimonial-inline"
+    ],
+    "note": "Product gallery on the left, name, price, quantity and a big orange Add to cart on the right, a customer quote under it."
+  },
+  {
+    "id": "vercel-geist-overview",
+    "site": "Vercel Geist",
+    "type": "design-system",
+    "tags": [
+      "design-system",
+      "ds-overview",
+      "bento-grid",
+      "fonts"
+    ],
+    "note": "System home as a bento of what's inside: brand assets, components, colours, typefaces.",
+    "url": "https://vercel.com/geist/introduction"
+  },
+  {
+    "id": "vercel-geist-colors",
+    "site": "Vercel Geist",
+    "type": "design-system",
+    "tags": [
+      "design-system",
+      "ds-colors",
+      "color-scales",
+      "p3"
+    ],
+    "note": "Ten scales (backgrounds, gray, gray alpha, blue, red, amber, green, teal…) as rows of swatches; right-click to copy raw values.",
+    "url": "https://vercel.com/geist/colors"
+  },
+  {
+    "id": "vercel-geist-typography",
+    "site": "Vercel Geist",
+    "type": "design-system",
+    "tags": [
+      "design-system",
+      "ds-typography",
+      "type-classes",
+      "usage"
+    ],
+    "note": "Type documented as named classes (text-heading-72…) with live examples and usage code.",
+    "url": "https://vercel.com/geist/typography"
+  },
+  {
+    "id": "vercel-geist-button",
+    "site": "Vercel Geist",
+    "type": "design-system",
+    "tags": [
+      "design-system",
+      "ds-component",
+      "sizes-variants",
+      "show-code"
+    ],
+    "note": "Button page showing sizes and every type side by side with a show-code toggle.",
+    "url": "https://vercel.com/geist/button"
+  },
+  {
+    "id": "github-primer-overview",
+    "site": "GitHub Primer",
+    "type": "design-system",
+    "tags": [
+      "design-system",
+      "ds-overview",
+      "two-paths",
+      "illustration"
+    ],
+    "note": "The home splits into two paths (Product UI and Brand toolkit) as two big cards.",
+    "url": "https://primer.style"
+  },
+  {
+    "id": "github-primer-button",
+    "site": "GitHub Primer",
+    "type": "design-system",
+    "tags": [
+      "design-system",
+      "ds-component",
+      "component-docs",
+      "on-this-page"
+    ],
+    "note": "A component page done right: description, tabs (Overview, Guidelines, Accessibility), framework status and links, examples, and an on-this-page list.",
+    "url": "https://primer.style/product/components/button/"
+  },
+  {
+    "id": "atlassian-overview",
+    "site": "Atlassian Design System",
+    "type": "design-system",
+    "tags": [
+      "design-system",
+      "ds-overview",
+      "bold-typography",
+      "playful-cursors"
+    ],
+    "note": "A bold two-tone headline with multiplayer cursors flying around: the system's home sells collaboration.",
+    "url": "https://atlassian.design"
+  },
+  {
+    "id": "atlassian-colors",
+    "site": "Atlassian Design System",
+    "type": "design-system",
+    "tags": [
+      "design-system",
+      "ds-colors",
+      "color-scales",
+      "docs-three-column"
+    ],
+    "note": "Colour foundations with full scales for every hue shown as columns, plus an anatomy section explaining roles.",
+    "url": "https://atlassian.design/foundations/color-new"
+  },
+  {
+    "id": "shopify-polaris-overview",
+    "site": "Shopify Polaris",
+    "type": "design-system",
+    "tags": [
+      "design-system",
+      "ds-overview",
+      "docs-three-column",
+      "reference-cards"
+    ],
+    "note": "Developer-oriented references with cards per surface and a sidebar tree.",
+    "url": "https://polaris.shopify.com"
+  },
+  {
+    "id": "ibm-carbon-overview",
+    "site": "IBM Carbon",
+    "type": "design-system",
+    "tags": [
+      "design-system",
+      "ds-overview",
+      "serif-light",
+      "illustration"
+    ],
+    "note": "A large light headline on a blue illustrated canvas of UI pieces, with two routes (start designing, start developing).",
+    "url": "https://carbondesignsystem.com"
+  },
+  {
+    "id": "ibm-carbon-colors",
+    "site": "IBM Carbon",
+    "type": "design-system",
+    "tags": [
+      "design-system",
+      "ds-colors",
+      "docs-three-column",
+      "tabs"
+    ],
+    "note": "Colour page with tabs (Overview, Guidelines, Tokens, Code) and a right-hand contents list.",
+    "url": "https://carbondesignsystem.com/elements/color/overview/"
+  },
+  {
+    "id": "ibm-carbon-typography",
+    "site": "IBM Carbon",
+    "type": "design-system",
+    "tags": [
+      "design-system",
+      "ds-typography",
+      "type-tokens",
+      "tabs"
+    ],
+    "note": "Typography documented as tokens and sets, with tabs for style strategies, type sets and code.",
+    "url": "https://carbondesignsystem.com/elements/typography/overview/"
+  },
+  {
+    "id": "material-3-overview",
+    "site": "Material 3",
+    "type": "design-system",
+    "tags": [
+      "design-system",
+      "ds-overview",
+      "rounded-cards",
+      "rail-nav"
+    ],
+    "note": "Navigation rail on the left, oversized title in a rounded card, one pill button.",
+    "url": "https://m3.material.io"
+  },
+  {
+    "id": "material-3-colors",
+    "site": "Material 3",
+    "type": "design-system",
+    "tags": [
+      "design-system",
+      "ds-colors",
+      "rounded-cards",
+      "pastel"
+    ],
+    "note": "Big rounded pastel panels, a pill tab switch and a clear list of what the colour system includes.",
+    "url": "https://m3.material.io/styles/color/system/overview"
+  },
+  {
+    "id": "apple-hig-overview",
+    "site": "Apple HIG",
+    "type": "design-system",
+    "tags": [
+      "design-system",
+      "ds-overview",
+      "sidebar-nav",
+      "icon-tiles"
+    ],
+    "note": "The HIG home: sidebar of topics, then sections of coloured icon tiles (Design principles, Designing for macOS…).",
+    "url": "https://developer.apple.com/design/human-interface-guidelines/"
+  },
+  {
+    "id": "radix-overview",
+    "site": "Radix",
+    "type": "design-system",
+    "tags": [
+      "design-system",
+      "ds-overview",
+      "live-examples",
+      "code-sample"
+    ],
+    "note": "Serif headline, code snippet and live example components (forms, notifications) on the right: the product shows itself.",
+    "url": "https://www.radix-ui.com"
+  },
+  {
+    "id": "radix-colors",
+    "site": "Radix",
+    "type": "design-system",
+    "tags": [
+      "design-system",
+      "ds-colors",
+      "color-scales",
+      "step-roles"
+    ],
+    "note": "The 12-step scales laid out as a grid with column headers naming each step's role (backgrounds, interactive components, borders, solid colours, text).",
+    "url": "https://www.radix-ui.com/colors"
+  },
+  {
+    "id": "shadcn-ui-overview",
+    "site": "shadcn/ui",
+    "type": "design-system",
+    "tags": [
+      "design-system",
+      "ds-overview",
+      "component-showcase",
+      "minimal"
+    ],
+    "note": "A short centred headline and a dense mosaic of real components (charts, forms, cards) as proof.",
+    "url": "https://ui.shadcn.com"
+  },
+  {
+    "id": "shadcn-ui-blocks",
+    "site": "shadcn/ui",
+    "type": "design-system",
+    "tags": [
+      "design-system",
+      "ds-component",
+      "blocks",
+      "preview-code-toggle"
+    ],
+    "note": "Blocks gallery: each block in a live preview with tabs to view code and copy the install command.",
+    "url": "https://ui.shadcn.com/blocks"
+  },
+  {
+    "id": "gov-uk-overview",
+    "site": "GOV.UK Design System",
+    "type": "design-system",
+    "tags": [
+      "design-system",
+      "ds-overview",
+      "accessible",
+      "plain-language",
+      "blue-header"
+    ],
+    "note": "Plain language, high contrast, a blue header with one start button and a dated what's-new section. The accessibility benchmark.",
+    "url": "https://design-system.service.gov.uk"
+  },
+  {
+    "id": "microsoft-fluent-overview",
+    "site": "Microsoft Fluent 2",
+    "type": "design-system",
+    "tags": [
+      "design-system",
+      "ds-overview",
+      "3d-illustration",
+      "inline-highlight"
+    ],
+    "note": "A glossy 3D shape, \"Let the @tasks flow\" with an inline highlight, and two cards (Design, Develop).",
+    "url": "https://fluent2.microsoft.design"
+  },
+  {
+    "id": "adobe-spectrum-overview",
+    "site": "Adobe Spectrum",
+    "type": "design-system",
+    "tags": [
+      "design-system",
+      "ds-overview",
+      "sidebar-nav",
+      "hero-cards"
+    ],
+    "note": "Overview with a short intro, one call to action and two large visual cards linking to the main sections.",
+    "url": "https://spectrum.adobe.com"
+  },
+  {
+    "id": "react-aria-overview",
+    "site": "React Aria",
+    "type": "design-system",
+    "tags": [
+      "design-system",
+      "ds-overview",
+      "centered-hero",
+      "component-showcase"
+    ],
+    "note": "Centred serif headline and an assembled demo of components with labels pointing to each part.",
+    "url": "https://react-spectrum.adobe.com/react-aria/"
+  },
+  {
+    "id": "wise-design-overview",
+    "site": "Wise Design",
+    "type": "design-system",
+    "tags": [
+      "design-system",
+      "ds-overview",
+      "image-carousel",
+      "brand-led"
+    ],
+    "note": "An inspiration carousel of circular images: brand-led rather than doc-led.",
+    "url": "https://wise.design"
+  },
+  {
+    "id": "duolingo-design-overview",
+    "site": "Duolingo Design",
+    "type": "design-system",
+    "tags": [
+      "design-system",
+      "ds-overview",
+      "illustration-brand",
+      "blog-cards"
+    ],
+    "note": "Duolingo's design site as a blog of stories with big illustrated cards in brand colours.",
+    "url": "https://design.duolingo.com"
+  },
+  {
+    "id": "gitlab-pajamas-overview",
+    "site": "GitLab Pajamas",
+    "type": "design-system",
+    "tags": [
+      "design-system",
+      "ds-overview",
+      "sidebar-nav",
+      "two-paths"
+    ],
+    "note": "Sidebar plus a gradient header card, then Brand and Product split.",
+    "url": "https://design.gitlab.com"
+  },
+  {
+    "id": "untitled-ui-overview",
+    "site": "Untitled UI",
+    "type": "design-system",
+    "tags": [
+      "design-system",
+      "ds-overview",
+      "split-hero",
+      "tilted-screens",
+      "ratings"
+    ],
+    "note": "Split hero with tilted product screens on the right and avatars plus rating as proof.",
+    "url": "https://www.untitledui.com"
+  },
+  {
+    "id": "uber-base-overview",
+    "site": "Uber Base",
+    "type": "design-system",
+    "tags": [
+      "design-system",
+      "ds-overview",
+      "dark",
+      "line-art"
+    ],
+    "note": "Black header with white line art and a dated version, then large tiles.",
+    "url": "https://base.uber.com"
+  },
+  {
+    "id": "base-ui-overview",
+    "site": "Base UI",
+    "type": "design-system",
+    "tags": [
+      "design-system",
+      "ds-overview",
+      "text-heavy",
+      "minimal"
+    ],
+    "note": "Headless component library home that is almost all text: a statement, a link to docs and paragraphs of philosophy.",
+    "url": "https://base-ui.com"
   }
 ]

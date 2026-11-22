@@ -54,7 +54,8 @@ def sheet(items: list[dict], out: Path) -> None:
         y = GAP + (n // COLS) * (THUMB_H + LABEL_H + GAP)
         canvas.paste(thumb(item), (x, y))
         draw.rectangle((x, y, x + THUMB_W - 1, y + THUMB_H - 1), outline=(218, 216, 210))
-        draw.text((x, y + THUMB_H + 9), f"{item['site']} · {item['type']}", fill=INK, font=f)
+        label = item["site"] if item["type"] != "design-system" else f"{item['site']} · {item['id'].split('-')[-1]}"
+        draw.text((x, y + THUMB_H + 9), label if item["type"] in ("landing", "design-system") else f"{label} · {item['type']}", fill=INK, font=f)
     out.parent.mkdir(parents=True, exist_ok=True)
     canvas.save(out, "JPEG", quality=80, optimize=True, progressive=True)
 
@@ -85,9 +86,19 @@ def main() -> int:
     mobile_sheet([i for i in items if "mobile" in i.get("screens", {}) and i["type"] == "landing"][:8],
                  out_dir / "mobile.jpg")
     print(f"mobile: -> {out_dir / 'mobile.jpg'}")
+    for old in out_dir.glob("*.jpg"):
+        if old.name != "mobile.jpg":
+            old.unlink()
     for typ, group in by_type.items():
-        sheet(sorted(group, key=lambda i: i["site"].lower()), out_dir / f"{typ}.jpg")
-        print(f"{typ}: {len(group)} screens -> {out_dir / f'{typ}.jpg'}")
+        group = sorted(group, key=lambda i: (i["site"].lower(), i["id"]))
+        # Long types are split so each image stays readable on GitHub.
+        parts = -(-len(group) // 30)
+        size = -(-len(group) // parts)
+        chunks = [group[k:k + size] for k in range(0, len(group), size)]
+        for n, chunk in enumerate(chunks, 1):
+            name = f"{typ}.jpg" if len(chunks) == 1 else f"{typ}-{n}.jpg"
+            sheet(chunk, out_dir / name)
+            print(f"{typ}: {len(chunk)} screens -> {out_dir / name}")
     return 0
 
 

@@ -1,6 +1,6 @@
 ---
 name: ui-taste
-description: Give the agent UI taste before it builds an interface. Use whenever you design, build, restyle or review a user interface (landing page, pricing page, dashboard, docs, changelog, login, settings, component, mobile screen), when the user says the UI looks generic, "AI-made", bland or off, or asks to make it look like Linear, Stripe, Vercel or another well-designed product. Looks up real screens captured from strong products, with the fonts, type scale, colours, radii and widths they really use, then builds from the project's own design system and checks the rendered result against an anti-slop checklist.
+description: Give the agent UI taste before it builds an interface. Use whenever you design, build, restyle or review a user interface or set up a design system (tokens, colour scales, type scale, DESIGN.md) (landing page, pricing page, dashboard, docs, changelog, login, settings, component, mobile screen), when the user says the UI looks generic, "AI-made", bland or off, or asks to make it look like Linear, Stripe, Vercel or another well-designed product. Looks up real screens captured from strong products, with the fonts, type scale, colours, radii and widths they really use, then builds from the project's own design system and checks the rendered result against an anti-slop checklist.
 ---
 
 # UI taste
@@ -18,7 +18,7 @@ Before looking anywhere else, read what the project already decided:
 - The two or three screens closest to the one you are building: spacing, type sizes, radii, button styles, how sections are separated.
 - The brand: fonts, colours, tone of voice, existing illustrations or photos.
 
-The project's system wins over any reference. If there is no system at all, propose one short `DESIGN.md` (fonts, type scale, 4-6 colours, spacing scale, radius, one button style) and confirm it with the user before building on it. Never silently replace an existing one.
+The project's system wins over any reference. If there is no system at all, or its tokens are a mess, build one with `references/design-systems.md` (token layers, colour scales with step roles, type roles, spacing, radius, elevation, motion, component states), fill `assets/DESIGN.md` and confirm it with the user before building on it. The library holds the best public systems (Geist, Primer, Carbon, Material 3, Radix, shadcn/ui, Atlassian, GOV.UK…): `find_refs.py "design system colors"`. Never silently replace an existing system.
 
 ### 2. Reference: only for a concrete decision
 
@@ -74,3 +74,5 @@ Only add screens that teach a decision, and write the note: what to learn, not a
 - `references/taste-rules.md`: the rules behind good interfaces, with examples from the library.
 - `references/anti-slop.md`: the review checklist.
 - `references/brief-template.md`: a short brief to fill before building a new screen.
+- `references/design-systems.md`: how to set up or clean up a design system (tokens, colour, type, space, shape, motion, components).
+- `assets/DESIGN.md`: the template to write it down.

@@ -33,6 +33,17 @@ SYNONYMS = {
     "customers": ["customers", "case study", "case studies", "testimonials", "social proof", "logos", "stories"],
     "blog": ["blog", "articles", "posts", "news", "journal", "editorial"],
     "auth": ["login", "log in", "sign in", "signin", "signup", "sign up", "register", "auth", "onboarding"],
+    "about": ["about", "company", "mission", "manifesto", "team page", "our story"],
+    "careers": ["careers", "jobs", "hiring", "open roles", "join us", "recruiting"],
+    "contact": ["contact", "talk to sales", "contact sales", "demo request", "book a demo", "lead form"],
+    "404": ["404", "not found", "error page", "lost page", "missing page"],
+    "integrations": ["integrations", "integration", "marketplace", "app store", "apps directory", "extensions", "plugins", "store"],
+    "developers": ["developers", "developer page", "api", "sdk", "developer portal", "platform page"],
+    "brand": ["brand", "media kit", "press kit", "brand assets", "logo guidelines", "press"],
+    "design-system": ["design system", "design-system", "tokens", "design tokens", "style guide", "styleguide",
+                      "component library", "ui kit", "guidelines", "foundations", "color scale", "colour scale",
+                      "type scale", "typography scale"],
+    "product": ["product page", "product detail", "pdp", "e-commerce", "ecommerce", "shop", "buy", "hardware"],
 }
 
 

@@ -4,7 +4,7 @@
 
 Agents build the same interface every time: a purple gradient hero, three centred cards with emoji icons, Inter everywhere, shadows on everything. UI taste replaces that default with evidence.
 
-![Landing pages in the library](docs/landing.jpg)
+![Landing pages in the library](docs/landing-1.jpg)
 
 ## How it works
 
@@ -14,6 +14,8 @@ When Claude builds or reviews an interface, the skill makes it:
 2. **Reference** only for a concrete decision: `find_refs.py "pricing page with comparison table"` returns up to three screens, best first, with their screenshots and the tokens measured on the live page.
 3. **Build** with the project's components, following the taste rules (one type family, a real scale, neutral surfaces and one accent, one radius family, real content only).
 4. **Review** the rendered screen at 1440px and 390px against the anti-slop checklist, and fix what it finds.
+
+When a project has no design system, or a messy one, the skill sets one up with `references/design-systems.md` (token layers, 12-step colour scales with defined roles, type roles, spacing, radius, elevation, motion, component states) and writes it down in `assets/DESIGN.md`, using the best public systems in the library (Vercel Geist, GitHub Primer, IBM Carbon, Material 3, Radix, shadcn/ui, Atlassian, GOV.UK, Apple HIG…) as references.
 
 References are evidence, never templates: Claude takes the decision behind a screen (hierarchy, density, rhythm), not its logo, copy or layout.
 
@@ -41,17 +43,38 @@ Claude then opens the screenshot with its Read tool and looks at it before decid
 
 | Page type | Screens | Sites |
 |---|---|---|
-| landing | 62 | Amie, Anthropic, Apple, Astro, Attio, Browserbase, Bun, Cal.com, Clerk, Craft, Cursor, Daylight, Dia, Dub, ElevenLabs, Family, Figma, Fly.io, Framer, Ghostty, Granola, Gumroad, Linear, Liveblocks, Loops, Mercury, Mistral AI, Mobbin, Modal, Neon, Notion, Oura, Perplexity, Phantom, Pitch, Plain, PlanetScale, Polar, PostHog, Railway, Ramp, Raycast, Resend, Retool, Rive, Runway, Sanity, Spline, Stripe, Supabase, Superhuman, Teenage Engineering, Things, Trigger.dev, Vercel, Warp, Webflow, Zed, fal, mymind, n8n, v0 |
-| pricing | 8 | Attio, Clerk, Linear, Notion, PostHog, Raycast, Resend, Vercel |
+| landing | 121 | Alan, Amie, Anthropic, Apple, Are.na, Astro, Attio, Bezi, Browserbase, Bun, Cal.com, Clay, CleanShot, Clerk, Convex, Craft, Cursor, Daylight, Delphi, Deno, Descript, Dia, Discord, Dub, Duolingo, ElevenLabs, Expo, Factory, fal, Family, Figma, Fly.io, folk, Framer, Ghostty, GitHub, Glossier, Granola, Gumroad, Harvey, Headspace, Heptabase, Hex, Hugging Face, Ideogram, Inngest, Intercom, Jitter, Linear, Liveblocks, Loops, Luma AI, Mailchimp, Mercury, Mintlify, Miro, Mistral AI, Mobbin, Modal, Monzo, mymind, n8n, Neon, Notion, Oatly, Oura, Paddle, Pennylane, Perplexity, Phantom, Pitch, Plain, PlanetScale, Polar, PostHog, Prisma, Qonto, Railway, Ramp, Raycast, Reflect, Replicate, Resend, Retool, Rive, Rows, Runway, Sanity, SavvyCal, Screen Studio, Shopify, Sierra, Soundtrap, Spline, Spotify, Steel, Stripe, Suno, Supabase, Superhuman, Svelte, Tana, Teenage Engineering, Tella, Temporal, Things, Tinybird, Trigger.dev, Twenty, Typefully, Upstash, v0, Vectary, Vercel, Warp, Webflow, Weekrise, Whimsical, Wise, WorkOS, Zed |
+| pricing | 19 | Attio, Cal.com, Clerk, Cursor, Dub, Figma, Framer, Linear, Loops, n8n, Notion, PostHog, Railway, Raycast, Resend, Vercel, Warp, Webflow, Zed |
+| design system | 29 | Adobe Spectrum, Apple HIG, Atlassian Design System, Base UI, Duolingo Design, GitHub Primer, GitLab Pajamas, GOV.UK Design System, IBM Carbon, Material 3, Microsoft Fluent 2, Radix, React Aria, shadcn/ui, Shopify Polaris, Uber Base, Untitled UI, Vercel Geist, Wise Design |
+| 404 page | 6 | GitHub, Oura, Polar, Raycast, Resend, Stripe |
+| about | 4 | Linear, Notion, PostHog, Stripe |
+| careers | 6 | Linear, Ramp, Raycast, Resend, Stripe, Vercel |
+| contact | 4 | Attio, Linear, Stripe, Vercel |
+| integrations | 6 | Attio, Cal.com, Linear, n8n, Raycast, Vercel |
+| developers | 3 | Figma, Linear, Notion |
+| brand | 3 | Linear, Resend, Vercel |
+| auth | 5 | Cal.com, Figma, Linear, Notion, Vercel |
+| product | 3 | Apple, Daylight, Teenage Engineering |
 | changelog | 3 | Linear, Raycast, Resend |
 | docs | 3 | Resend, Stripe, Tailwind CSS |
 | customers | 2 | Linear, Vercel |
 | blog | 2 | Linear, Vercel |
-| auth | 2 | Linear, Vercel |
 
-**82 pages from 63 sites, each captured on desktop and mobile (164 screenshots).**
+**219 pages from 141 sites and design systems, each captured on desktop and mobile (438 screenshots).**
 
 Every screen is captured at 1440px (desktop, first 3600px) and 390px (mobile), with cookie banners refused and chat widgets hidden. Tokens are read from the browser's computed styles: fonts, h1/h2/h3/body sizes, line heights and tracking, background, surface and text colours by area covered, button fill, radius, height and padding, and content width.
+
+### Landing pages
+
+![landing pages 1](docs/landing-1.jpg)
+
+![landing pages 2](docs/landing-2.jpg)
+
+![landing pages 3](docs/landing-3.jpg)
+
+![landing pages 4](docs/landing-4.jpg)
+
+![landing pages 5](docs/landing-5.jpg)
 
 ### Mobile
 
@@ -60,6 +83,46 @@ Every screen is captured at 1440px (desktop, first 3600px) and 390px (mobile), w
 ### Pricing
 
 ![pricing](docs/pricing.jpg)
+
+### Design system
+
+![design-system](docs/design-system.jpg)
+
+### 404 page
+
+![404](docs/404.jpg)
+
+### About
+
+![about](docs/about.jpg)
+
+### Careers
+
+![careers](docs/careers.jpg)
+
+### Contact
+
+![contact](docs/contact.jpg)
+
+### Integrations
+
+![integrations](docs/integrations.jpg)
+
+### Developers
+
+![developers](docs/developers.jpg)
+
+### Brand
+
+![brand](docs/brand.jpg)
+
+### Auth
+
+![auth](docs/auth.jpg)
+
+### Product
+
+![product](docs/product.jpg)
 
 ### Changelog
 
@@ -76,10 +139,6 @@ Every screen is captured at 1440px (desktop, first 3600px) and 390px (mobile), w
 ### Blog
 
 ![blog](docs/blog.jpg)
-
-### Auth
-
-![auth](docs/auth.jpg)
 
 ## Install
 
@@ -128,6 +187,9 @@ skills/ui-taste/
     taste-rules.md         what the library's screens have in common
     anti-slop.md           the review checklist
     brief-template.md      a short brief before building a screen
+    design-systems.md      how to set up or clean up a design system
+  assets/
+    DESIGN.md              the template to write a design system down
   scripts/
     find_refs.py           search the library
     capture.py             add or refresh screens (Playwright)
