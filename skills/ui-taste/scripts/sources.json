@@ -1,0 +1,464 @@
+[
+  {
+    "site": "Linear",
+    "type": "landing",
+    "url": "https://linear.app",
+    "tags": [
+      "dark",
+      "product-screenshot-hero",
+      "left-aligned-hero",
+      "logo-row",
+      "mono-labels",
+      "three-column-features"
+    ],
+    "note": "Dark done properly: near-black base, surfaces a few steps lighter, white and ~60% white text. The hero is one left-aligned sentence and the real product right under it. Monospace micro-labels (FIG 0.1) give a technical, editorial feel without colour."
+  },
+  {
+    "site": "Stripe",
+    "type": "landing",
+    "url": "https://stripe.com",
+    "tags": [
+      "light",
+      "gradient-brand",
+      "bento-grid",
+      "logo-row",
+      "product-ui-cards",
+      "two-tone-headline"
+    ],
+    "note": "Two-tone headline: the claim in dark ink, the explanation continuing in a muted accent, in one paragraph. The gradient is the brand and lives in one place; the bento cards below each show a real piece of product UI. Captured in French (the site follows the visitor's IP)."
+  },
+  {
+    "site": "Vercel",
+    "type": "landing",
+    "url": "https://vercel.com",
+    "tags": [
+      "light",
+      "monochrome",
+      "split-hero",
+      "logo-row",
+      "customer-proof-in-section"
+    ],
+    "note": "Monochrome restraint: black on #fafafa, Geist, no accent at all. The hero is split into a short two-line claim, a single mark and three plain lines of who it is for. Proof is woven into sections (\"Notion powers millions of agent conversations\") instead of a testimonials block."
+  },
+  {
+    "site": "Raycast",
+    "type": "landing",
+    "url": "https://www.raycast.com",
+    "tags": [
+      "dark",
+      "centered-hero",
+      "product-screenshot-hero",
+      "glow-once",
+      "keyboard-ui"
+    ],
+    "note": "A centred hero that works because it is short: one punchy sentence, one line of support, one download button with install details in small mono below. The product shot is a faithful macOS frame with the launcher open; the red glow is used once, behind it."
+  },
+  {
+    "site": "Resend",
+    "type": "landing",
+    "url": "https://resend.com",
+    "tags": [
+      "dark",
+      "serif-display",
+      "logo-grid",
+      "code-sample",
+      "tabs"
+    ],
+    "note": "A serif display face on a dark developer site: unexpected and memorable, everything else stays plain sans. Logos sit in a calm two-row grid, then the product is shown as what developers actually touch: a tabbed code sample per framework."
+  },
+  {
+    "site": "Framer",
+    "type": "landing",
+    "url": "https://www.framer.com",
+    "tags": [
+      "dark",
+      "product-screenshot-hero",
+      "logo-grid",
+      "three-column-features",
+      "video-hero"
+    ],
+    "note": "The hero sentence states the category and the differentiator, then the product carries the page: a video of the agent, then the full editor canvas. Three short feature columns with tiny icons sit under the screenshot rather than replacing it."
+  },
+  {
+    "site": "Attio",
+    "type": "landing",
+    "url": "https://attio.com",
+    "tags": [
+      "light",
+      "centered-hero",
+      "product-screenshot-hero",
+      "logo-grid",
+      "sticky-section-nav",
+      "two-tone-headline"
+    ],
+    "note": "A centred hero with two buttons (secondary first, primary second) and a very real app screenshot in a window frame. Logos sit in a bordered grid. Long sections use a sticky left list of steps (Build pipeline, Convert leads…) with the matching UI on the right."
+  },
+  {
+    "site": "Mercury",
+    "type": "landing",
+    "url": "https://mercury.com",
+    "tags": [
+      "photo-hero",
+      "email-capture-hero",
+      "dark-sections",
+      "tabbed-features",
+      "testimonial-video"
+    ],
+    "note": "A photographic hero (a desk in a landscape) instead of an abstract shape, with the email field inside the hero as the first action. Below, a dark band with a left list of features that switches the product panel on the right."
+  },
+  {
+    "site": "Cal.com",
+    "type": "landing",
+    "url": "https://cal.com",
+    "tags": [
+      "light",
+      "centered-hero",
+      "inline-ui-in-headline",
+      "sso-buttons-hero",
+      "product-screenshot-hero"
+    ],
+    "note": "Small UI pieces (a time chip, an avatar) placed inside the headline make the product legible before any screenshot. The hero action is the sign-up itself: Google and Microsoft buttons, with \"No credit card required\" under them."
+  },
+  {
+    "site": "PostHog",
+    "type": "landing",
+    "url": "https://posthog.com",
+    "tags": [
+      "light",
+      "os-desktop-metaphor",
+      "illustration-brand",
+      "playful",
+      "signup-box-hero"
+    ],
+    "note": "The counter-example to minimalism: a whole desktop OS as the website, with windows, icons and illustration. It works because it is consistent and deliberate everywhere. Note the compact sign-up box in the hero with three checkmarked reassurances."
+  },
+  {
+    "site": "Supabase",
+    "type": "landing",
+    "url": "https://supabase.com",
+    "tags": [
+      "light",
+      "split-hero",
+      "bento-grid",
+      "product-feature-cards",
+      "green-accent"
+    ],
+    "note": "Two-line hero where the second line is in the accent colour (\"Build in a weekend / Scale to millions\"), copy on the right. Below, a bento grid where each card names one product (Database, Auth, Edge Functions) with a small real visual."
+  },
+  {
+    "site": "Clerk",
+    "type": "landing",
+    "url": "https://clerk.com",
+    "tags": [
+      "light",
+      "product-ui-hero",
+      "tabbed-features",
+      "left-aligned-hero"
+    ],
+    "note": "For a UI-component product, the hero shows the component itself (the sign-in box) inside a soft canvas, with tabs to switch use cases. Left-aligned headline, small grey subtitle, compact buttons."
+  },
+  {
+    "site": "Granola",
+    "type": "landing",
+    "url": "https://www.granola.ai",
+    "tags": [
+      "light",
+      "serif-display",
+      "split-hero",
+      "product-screenshot-hero",
+      "warm-neutrals"
+    ],
+    "note": "A large serif headline on warm off-white with an olive accent: calm, editorial, unlike most AI tools. The right side shows a note being written and a call window: the product in use. The pill above the headline announces what is new."
+  },
+  {
+    "site": "Superhuman",
+    "type": "landing",
+    "url": "https://superhuman.com",
+    "tags": [
+      "photo-hero",
+      "centered-hero",
+      "gradient-sky"
+    ],
+    "note": "A photo-led hero with a short centred promise and one button. Use as a reference for when emotion, not UI, sells the product; the copy stays very short so the image can do the work."
+  },
+  {
+    "site": "Notion",
+    "type": "landing",
+    "url": "https://www.notion.com",
+    "tags": [
+      "light",
+      "centered-hero",
+      "inline-ui-in-headline",
+      "illustration-brand",
+      "product-screenshot-hero",
+      "logo-row"
+    ],
+    "note": "A big centred headline with a UI chip inside it (a green \"Ship\" toggle), the brand's hand-drawn characters, then the real workspace. Logos follow immediately in one quiet row."
+  },
+  {
+    "site": "Ramp",
+    "type": "landing",
+    "url": "https://ramp.com",
+    "tags": [
+      "light",
+      "email-capture-hero",
+      "live-metrics-ticker",
+      "left-aligned-hero",
+      "accent-yellow"
+    ],
+    "note": "A short punchy headline, the work-email field as the hero action, a single acid-yellow accent for buttons only. A live ticker of numbers at the bottom of the fold turns proof into product data."
+  },
+  {
+    "site": "Linear",
+    "type": "pricing",
+    "url": "https://linear.app/pricing",
+    "tags": [
+      "dark",
+      "pricing-4-tier",
+      "comparison-table",
+      "billing-toggle-per-plan"
+    ],
+    "note": "Four plans in plain columns with no card boxes: name, price, one line, a checklist. Only the Business button is filled. The billed-yearly toggle sits inside each paid column, right where the price changes."
+  },
+  {
+    "site": "Vercel",
+    "type": "pricing",
+    "url": "https://vercel.com/pricing",
+    "tags": [
+      "light",
+      "pricing-3-tier",
+      "comparison-table",
+      "split-hero"
+    ],
+    "note": "Three plans in a bordered row with a left-aligned headline above (\"Scale your app, control your costs\"). Prices are the only big type; each plan lists features with small icons and one action at the bottom."
+  },
+  {
+    "site": "Notion",
+    "type": "pricing",
+    "url": "https://www.notion.com/pricing",
+    "tags": [
+      "light",
+      "pricing-4-tier",
+      "grouped-plans",
+      "billing-toggle",
+      "logo-row",
+      "recommended-badge"
+    ],
+    "note": "Plans grouped under two benefits (\"Essentials for staying organized\" vs \"The AI workspace for work that matters\") so the reader picks a group first, then a plan. Currency selector and monthly/yearly toggle above."
+  },
+  {
+    "site": "Raycast",
+    "type": "pricing",
+    "url": "https://www.raycast.com/pricing",
+    "tags": [
+      "dark",
+      "pricing-3-tier",
+      "plan-selector-in-card",
+      "billing-toggle"
+    ],
+    "note": "Each card has its own mini segmented control (Pro / Plus / Max), so three cards cover nine price points without a wall of columns. Struck-through original price next to the annual one."
+  },
+  {
+    "site": "Resend",
+    "type": "pricing",
+    "url": "https://resend.com/pricing",
+    "tags": [
+      "dark",
+      "serif-display",
+      "usage-slider",
+      "pricing-4-tier",
+      "product-tabs"
+    ],
+    "note": "A volume slider above the plans: the visitor sets their email volume and the plans react, which answers the real question (\"what will I pay\") before the feature lists."
+  },
+  {
+    "site": "Attio",
+    "type": "pricing",
+    "url": "https://attio.com/pricing",
+    "tags": [
+      "light",
+      "pricing-4-tier",
+      "centered-hero",
+      "billing-toggle",
+      "popular-badge"
+    ],
+    "note": "Classic four-tier cards done cleanly: centred title, small toggle with the saving in accent text, one card highlighted with a \"Most popular\" tag and a filled button, others outlined, the top tier dark."
+  },
+  {
+    "site": "Clerk",
+    "type": "pricing",
+    "url": "https://clerk.com/pricing",
+    "tags": [
+      "dark",
+      "pricing-4-tier",
+      "usage-limits",
+      "popular-badge"
+    ],
+    "note": "Dark cards where each plan leads with what is included free (MRU limits), then the overage price in small grey. Good reference for usage-based pricing that stays readable."
+  },
+  {
+    "site": "PostHog",
+    "type": "pricing",
+    "url": "https://posthog.com/pricing",
+    "tags": [
+      "light",
+      "usage-based",
+      "free-tier-first",
+      "playful",
+      "illustration-brand"
+    ],
+    "note": "Leads with the free tier as a fact (\"97% of companies use PostHog for free\") and a row of monthly free allowances per product, before any paid price. Honest, opinionated copy."
+  },
+  {
+    "site": "Linear",
+    "type": "changelog",
+    "url": "https://linear.app/changelog",
+    "tags": [
+      "dark",
+      "changelog-timeline",
+      "date-gutter",
+      "media-per-entry",
+      "filter-tabs"
+    ],
+    "note": "Entries with the date in a left gutter and the title and visual on the right; filter tabs (Changelog, Product launches, From the team) and a search above. Each entry has one strong visual."
+  },
+  {
+    "site": "Raycast",
+    "type": "changelog",
+    "url": "https://www.raycast.com/changelog",
+    "tags": [
+      "dark",
+      "changelog-timeline",
+      "version-badges",
+      "platform-tabs",
+      "media-per-entry"
+    ],
+    "note": "Version badge and date on the left, a large visual and a readable article on the right; platform tabs (macOS, Windows, iOS) at the top. Release notes read as product writing, not a bullet dump."
+  },
+  {
+    "site": "Resend",
+    "type": "changelog",
+    "url": "https://resend.com/changelog",
+    "tags": [
+      "dark",
+      "serif-display",
+      "changelog-timeline",
+      "date-gutter",
+      "subscribe"
+    ],
+    "note": "Serif title, a thin timeline with dates on the left, each entry a large image card, title and one line. Search and Subscribe sit next to the title."
+  },
+  {
+    "site": "Stripe",
+    "type": "docs",
+    "url": "https://docs.stripe.com",
+    "tags": [
+      "light",
+      "docs-landing",
+      "category-grid",
+      "code-sample",
+      "search-first"
+    ],
+    "note": "Docs home organised by job (Payments, Revenue, Developers) as columns of links, a test-mode code sample below. Search with an AI ask button in the top bar."
+  },
+  {
+    "site": "Resend",
+    "type": "docs",
+    "url": "https://resend.com/docs/introduction",
+    "tags": [
+      "light",
+      "docs-three-column",
+      "sidebar-nav",
+      "on-this-page",
+      "quickstart-cards"
+    ],
+    "note": "The reference three-column docs layout: grouped left sidebar, readable centre column (about 680px), \"On this page\" on the right. Quickstart cards per framework at the end of the intro."
+  },
+  {
+    "site": "Tailwind CSS",
+    "type": "docs",
+    "url": "https://tailwindcss.com/docs/installation",
+    "tags": [
+      "light",
+      "docs-three-column",
+      "sidebar-nav",
+      "numbered-steps",
+      "code-sample",
+      "tabs"
+    ],
+    "note": "Installation written as numbered steps, each with its terminal snippet beside it, and tabs for each install method. The sidebar uses small uppercase section labels."
+  },
+  {
+    "site": "Vercel",
+    "type": "customers",
+    "url": "https://vercel.com/customers",
+    "tags": [
+      "light",
+      "photo-carousel",
+      "case-study-cards",
+      "mono-labels"
+    ],
+    "note": "Big black-and-white portrait cards with the result as a caption and a monospace overlay title. People, not logos, lead."
+  },
+  {
+    "site": "Linear",
+    "type": "customers",
+    "url": "https://linear.app/customers",
+    "tags": [
+      "dark",
+      "logo-card-grid",
+      "filter-tabs",
+      "case-study-cards"
+    ],
+    "note": "A grid of large logo cards, each with one-line result and a \"Watch video\" or \"Read story\" link. Industry filter tabs above. Proof by name, not by star ratings."
+  },
+  {
+    "site": "Vercel",
+    "type": "blog",
+    "url": "https://vercel.com/blog",
+    "tags": [
+      "light",
+      "card-grid",
+      "filter-tabs",
+      "text-only-cards"
+    ],
+    "note": "Text-only article cards: date and category in small type, title as the main element, avatars at the bottom. No images and it still reads well."
+  },
+  {
+    "site": "Linear",
+    "type": "blog",
+    "url": "https://linear.app/now",
+    "tags": [
+      "dark",
+      "card-grid",
+      "filter-tabs",
+      "abstract-diagrams"
+    ],
+    "note": "Article cards with custom abstract diagrams in a consistent style instead of stock photos; title, two-line excerpt, author and date in small grey."
+  },
+  {
+    "site": "Linear",
+    "type": "auth",
+    "url": "https://linear.app/login",
+    "tags": [
+      "light",
+      "centered-auth",
+      "sso-first",
+      "minimal"
+    ],
+    "note": "Login reduced to a logo, one title and a stack of equal-width buttons, Google first and filled, passkey last. Nothing else on the page."
+  },
+  {
+    "site": "Vercel",
+    "type": "auth",
+    "url": "https://vercel.com/login",
+    "tags": [
+      "light",
+      "centered-auth",
+      "email-first",
+      "sso-list",
+      "minimal"
+    ],
+    "note": "Email field and a filled Continue first, then a list of providers as outlined buttons of identical width, with more options folded behind a link."
+  }
+]

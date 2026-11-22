@@ -1,0 +1,49 @@
+# Anti-slop review
+
+Go through this list on the rendered screen, desktop and mobile. Each item is a pattern that makes an interface read as generated. Fix what applies, then say what you changed.
+
+## Colour
+- [ ] No purple-to-blue (or pink-to-orange) gradient as the hero background or headline fill, unless it is the brand.
+- [ ] One accent colour, used for actions and state. Not on every heading, icon and border.
+- [ ] No glow, neon or "aurora" blobs added for atmosphere.
+- [ ] Grey text passes contrast: 4.5:1 for body, 3:1 for large text. Placeholder-grey body copy fails.
+- [ ] Dark mode, if any, uses near-black surfaces in steps (for example #0b0b0c, #141416, #1c1c1f), not pure #000 with grey boxes.
+
+## Type
+- [ ] One family, or a deliberate display + text pair. Not three fonts.
+- [ ] Two or three weights. No bold everywhere.
+- [ ] A visible scale: the h1 is clearly larger than h2, h2 than body. Not five sizes within 4px of each other.
+- [ ] Large headings have tight line height (1.0-1.2) and slightly negative tracking; body has 1.5-1.7.
+- [ ] Lines of body text stay under about 75 characters.
+- [ ] No text in ALL CAPS except short labels and eyebrows, which get letter spacing.
+
+## Layout
+- [ ] Not everything centred. Left-aligned text with a clear grid reads as designed; a centred column of centred blocks reads as a template.
+- [ ] No row of three identical cards with an emoji or generic icon, a two-word title and one line of text, unless the content really is three parallel items.
+- [ ] Sections have different shapes (split, full-bleed, list, table, screenshot), not the same card grid repeated.
+- [ ] Spacing follows a scale: large between sections, small inside groups. Nothing floating at random distances.
+- [ ] Content has a max width (text 600-720px, layouts 1100-1280px); nothing stretches across a 1920px screen.
+- [ ] Mobile is designed, not squeezed: tap targets at least 44px, no horizontal scroll, tables become lists or scroll inside their own box.
+
+## Components
+- [ ] One radius family. Not pill buttons next to sharp cards next to 24px-rounded inputs.
+- [ ] Shadows only where something floats (menus, dialogs). Cards on a page use a border or a surface step, not a drop shadow each.
+- [ ] One primary button per view. Secondary actions look secondary.
+- [ ] Icons from one set, one stroke width, sized to the text next to them. No emoji as icons.
+- [ ] Borders are quiet (low-contrast lines), not 1px black boxes everywhere.
+
+## Content
+- [ ] No invented customers, logos, testimonials, star ratings, user counts or statistics. Real ones, or a marked placeholder.
+- [ ] No "Lorem ipsum", "Feature 1", "Revolutionize your workflow", "Unlock the power of", "Seamless", "Next-generation", "Supercharge".
+- [ ] Headlines say what the product does for whom. Buttons say what happens ("Start free trial", "Book a demo"), not "Get started" everywhere.
+- [ ] Real product screenshots or UI beat abstract 3D blobs and stock illustrations.
+
+## Motion
+- [ ] Animations are short (150-300ms), explain a change, and respect `prefers-reduced-motion`.
+- [ ] Nothing fades in on scroll just to fade in. Content is readable without waiting.
+
+## Accessibility
+- [ ] Every interactive element is reachable by keyboard with a visible focus style.
+- [ ] Images have alt text; decorative ones have empty alt.
+- [ ] Headings are in order (one h1, then h2, h3).
+- [ ] Colour is never the only signal (errors also have text, states also have icons or labels).
