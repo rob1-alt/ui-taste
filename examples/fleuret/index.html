@@ -7,7 +7,7 @@
 <meta name="description" content="Émile runs human-grade pentests with a replayable exploit behind every finding. Hortense tells you what to test next, and when. Built and hosted in Europe.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz,wght@6..96,500;6..96,600;6..96,700&family=Inter+Tight:wght@400;500&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Inter+Tight:wght@400;500&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
 <style>
 /* ---------- tokens ---------- */
 :root{
@@ -24,7 +24,7 @@
   --s2:8px; --s3:12px; --s4:16px; --s5:24px; --s6:32px; --s7:48px; --s8:64px; --s9:96px; --s10:144px;
   --r-ctl:3px; --r-card:8px;
   --max:1280px; --gutter:48px;
-  --display:"Bodoni Moda",Didot,serif;   /* echoes the didone of the Fleuret wordmark */
+  --display:"DM Serif Display",Georgia,serif;   /* echoes the didone of the Fleuret wordmark */
   --mono:"IBM Plex Mono",ui-monospace,monospace;
 }
 *{box-sizing:border-box;margin:0}
@@ -36,7 +36,7 @@ img,video{display:block;max-width:100%}
 :focus-visible{outline:2px solid var(--touch);outline-offset:3px;border-radius:2px}
 .wrap{max-width:var(--max);margin:0 auto;padding:0 var(--gutter)}
 .mono{font-family:var(--mono)}
-h2{font-family:var(--display);font-weight:600;font-size:64px;line-height:1;letter-spacing:-.02em}
+h2{font-family:var(--display);font-weight:400;font-size:64px;line-height:1;letter-spacing:-.02em}
 .lede{font-size:20px;line-height:1.55}
 .pad{padding:var(--s10) 0}
 
@@ -65,23 +65,25 @@ h2{font-family:var(--display);font-weight:600;font-size:64px;line-height:1;lette
    middle: the Fleuret findings window, set in front of the wall
    front:  Émile and Hortense cut out of the same photograph, registered on it,
            so they stand in front of the window. Hortense points at it. */
-.hero{position:relative;background:var(--red);color:var(--cream);overflow:hidden}
-nav{position:relative;z-index:6;display:flex;align-items:center;gap:40px;height:88px;padding:0 var(--gutter);max-width:1440px;margin:0 auto}
+.hero{position:relative;background:var(--red);color:var(--cream);overflow:hidden;min-height:max(860px,min(100vh,980px));display:flex;flex-direction:column}
+nav{position:relative;z-index:6;display:flex;align-items:center;gap:40px;height:88px;padding:0 var(--gutter);width:100%;max-width:1440px;margin:0 auto}
 nav ul{display:flex;gap:28px;list-style:none;padding:0;font-size:15px;font-weight:500;color:var(--cream-2)}
 nav ul a:hover,nav .right a:hover{color:var(--cream)}
 nav .right{margin-left:auto;display:flex;gap:28px;align-items:center;font-size:15px;font-weight:500;color:var(--cream-2)}
-.hero .head{position:relative;z-index:5;max-width:1440px;margin:0 auto;padding:40px var(--gutter) 0;display:grid;grid-template-columns:1fr 400px;gap:var(--s8);align-items:end}
-.hero h1{font-family:var(--display);font-weight:600;font-size:clamp(84px,9.4vw,140px);line-height:.92;letter-spacing:-.03em;color:var(--cream)}
+.hero .head{position:relative;z-index:5;flex:1;align-content:space-between;width:100%;max-width:1440px;margin:0 auto;padding:36px var(--gutter) 0;display:grid;grid-template-columns:1fr;gap:var(--s7)}
+.hero .head>div:last-child{max-width:440px;margin-top:auto}
+.hero h1{font-family:var(--display);font-weight:400;font-size:clamp(88px,9.6vw,140px);line-height:.92;letter-spacing:-.025em;color:var(--cream);max-width:720px;text-shadow:0 2px 30px rgba(60,8,16,.35)}
 .hero .lede{font-size:18px;line-height:1.55;color:var(--cream-2)}
 .hero .actions{display:flex;gap:var(--s5);align-items:center;margin-top:var(--s5);flex-wrap:wrap}
 /* the scene: one box with the photo's ratio, all three layers positioned in its coordinates */
-.scene-clip{position:relative;z-index:1;margin-top:-170px;aspect-ratio:1600/800;overflow:hidden}
-.scene{position:absolute;left:0;top:0;width:100%;aspect-ratio:1600/894}
+.scene-clip{position:absolute;inset:0 0 72px 0;z-index:1;overflow:hidden}
+.scene{position:absolute;left:-12%;bottom:-12%;width:112%;aspect-ratio:1600/894}
 .scene .back{position:absolute;inset:0;background:url(assets/atelier-oxblood.webp) 50% 50%/100% 100% no-repeat;
-  -webkit-mask-image:radial-gradient(75% 85% at 45% 55%,#000 52%,transparent 92%);mask-image:radial-gradient(75% 85% at 45% 55%,#000 52%,transparent 92%)}
+  }
+.scene-clip::after{content:"";position:absolute;inset:0;z-index:4;pointer-events:none;background:linear-gradient(90deg,rgba(70,10,20,.55) 0,rgba(70,10,20,.25) 30%,transparent 48%)}
 .scene .front{position:absolute;inset:0;background:url(assets/duo1-front-full.webp) 50% 50%/100% 100% no-repeat;z-index:3;filter:drop-shadow(0 24px 30px rgba(20,3,6,.35))}
 /* the window sits on the wall, to the right of Hortense's pointing hand */
-.app{position:absolute;z-index:2;left:57%;top:24%;width:42%;background:#fbfaf8;color:var(--ink);border-radius:12px;border:1px solid rgba(0,0,0,.08);
+.app{position:absolute;z-index:2;left:59%;top:30%;width:36%;background:#fbfaf8;color:var(--ink);border-radius:12px;border:1px solid rgba(0,0,0,.08);
   box-shadow:0 40px 80px -30px rgba(20,3,6,.6),0 0 0 1px rgba(255,255,255,.4);overflow:hidden;font-size:13px}
 .app .bar{display:flex;align-items:center;gap:8px;height:38px;padding:0 14px;border-bottom:1px solid #ebe8e3;background:#f4f2ee}
 .app .bar i{width:10px;height:10px;border-radius:50%;background:#d9d5cf}
@@ -123,7 +125,7 @@ nav .right{margin-left:auto;display:flex;gap:28px;align-items:center;font-size:1
 .app tr{transition:opacity .35s,transform .35s}
 .app tr.hit td{background:rgba(43,212,106,.08);transition:background .6s}
 .app .kpis i.off{background:#d9d5cf!important;box-shadow:none!important}
-.hero .piste{position:relative;z-index:5;background:var(--red-deep);border-top:1px solid rgba(246,241,234,.14);margin-top:-1px}
+.hero .piste{position:relative;margin-top:auto;z-index:5;background:var(--red-deep);border-top:1px solid rgba(246,241,234,.14);margin-top:-1px}
 .hero .piste .in{max-width:1440px;margin:0 auto;min-height:72px;padding:16px var(--gutter);display:flex;align-items:center;justify-content:space-between;gap:var(--s6)}
 .hero .piste .plate{margin:0;max-width:680px}
 .hero .logos{display:flex;gap:28px;align-items:center;flex:none}
@@ -162,7 +164,7 @@ nav .right{margin-left:auto;display:flex;gap:28px;align-items:center;font-size:1
 /* the foil tip sits at x 100%, y 32.5% of the cut-out: the lamp is centred on it */
 .bout .hit{position:absolute;left:100%;top:32.5%;transform:translate(-18px,-50%);display:flex;align-items:center;gap:36px;white-space:nowrap}
 .lampbig{width:116px;height:116px;border-radius:50%;background:var(--touch);flex:none;box-shadow:0 0 0 14px rgba(43,212,106,.12),0 0 0 32px rgba(43,212,106,.06),0 0 90px rgba(43,212,106,.55)}
-.bout .word{font-family:var(--display);font-weight:600;font-size:clamp(100px,10.5vw,160px);line-height:.9;letter-spacing:-.03em;color:var(--cream)}
+.bout .word{font-family:var(--display);font-weight:400;font-size:clamp(100px,10.5vw,160px);line-height:.9;letter-spacing:-.03em;color:var(--cream)}
 @media (prefers-reduced-motion:no-preference){
   @keyframes lamp{0%,100%{box-shadow:0 0 0 14px rgba(43,212,106,.12),0 0 0 32px rgba(43,212,106,.06),0 0 90px rgba(43,212,106,.55)}50%{box-shadow:0 0 0 18px rgba(43,212,106,.16),0 0 0 40px rgba(43,212,106,.07),0 0 120px rgba(43,212,106,.7)}}
 }
@@ -189,7 +191,7 @@ nav .right{margin-left:auto;display:flex;gap:28px;align-items:center;font-size:1
 .fid{margin-top:var(--s5);display:flex;gap:var(--s2);align-items:center;flex-wrap:wrap}
 .tag{font:500 11.5px/1 var(--mono);padding:6px 8px;border-radius:3px;white-space:nowrap}
 .tag.high{background:#fbe9ea;color:var(--high)} .tag.cvss{background:#efeeeb;color:var(--ink-2)} .tag.fixed{background:#e5f2ea;color:var(--ok)}
-.sheet h3{font-family:var(--display);font-size:34px;font-weight:600;letter-spacing:-.015em;line-height:1.1;margin-top:var(--s4)}
+.sheet h3{font-family:var(--display);font-size:34px;font-weight:400;letter-spacing:-.015em;line-height:1.1;margin-top:var(--s4)}
 .ep{margin-top:var(--s2);font-size:13px;color:var(--ink-2)}
 .sheet p{font-size:16px;color:var(--ink-2);margin-top:var(--s4)}
 .poc{margin-top:var(--s4);background:#16151a;color:#e9e8ee;border-radius:6px;padding:var(--s4);font:400 13px/1.75 var(--mono);overflow-x:auto}
@@ -209,7 +211,7 @@ nav .right{margin-left:auto;display:flex;gap:28px;align-items:center;font-size:1
 .method .intro p{margin-top:var(--s4);color:var(--ink-2)}
 .idx{margin-top:var(--s8);position:relative;z-index:2;padding:0}
 .idx li{list-style:none;display:grid;grid-template-columns:minmax(0,1fr) 240px;gap:var(--s5);align-items:end;padding:var(--s3) 0;border-bottom:1px solid var(--rule);max-width:760px}
-.idx .w{font-family:var(--display);font-weight:600;font-size:clamp(64px,7.4vw,112px);line-height:.95;letter-spacing:-.03em}
+.idx .w{font-family:var(--display);font-weight:400;font-size:clamp(64px,7.4vw,112px);line-height:.95;letter-spacing:-.03em}
 .idx p{color:var(--ink-2);padding-bottom:var(--s4)}
 .idx li:last-child .w{color:var(--red)}
 .method .cap{margin-top:var(--s5)}
@@ -238,7 +240,7 @@ nav .right{margin-left:auto;display:flex;gap:28px;align-items:center;font-size:1
 .questions{margin-top:var(--s8);display:grid;grid-template-columns:repeat(3,1fr);gap:var(--s5)}
 .q{border-top:1px solid var(--rule-cream);padding-top:var(--s4)}
 .q .i{font:500 13px/1 var(--mono);color:var(--cream-3)}
-.q p{margin-top:var(--s3);font-family:var(--display);font-weight:500;font-size:28px;line-height:1.15}
+.q p{margin-top:var(--s3);font-family:var(--display);font-weight:400;font-size:28px;line-height:1.15}
 .floors{margin-top:var(--s8);display:grid;grid-template-columns:1fr 1fr;border:1px solid var(--rule-cream);border-radius:var(--r-card);overflow:hidden}
 .floor{padding:var(--s5)} .floor+.floor{border-left:1px solid var(--rule-cream);background:rgba(255,255,255,.03)}
 .floor .who{font-size:14px;color:var(--cream-3)}
@@ -253,7 +255,7 @@ nav .right{margin-left:auto;display:flex;gap:28px;align-items:center;font-size:1
 .facts3 div{display:grid;grid-template-columns:120px 1fr;gap:var(--s5);padding:var(--s5) 0;border-bottom:1px solid var(--rule)}
 .facts3 b{font-weight:500} .facts3 p{color:var(--ink-2)}
 .price{grid-column:1/-1;margin-top:var(--s9);display:grid;grid-template-columns:7fr 5fr;gap:var(--s8);align-items:end;padding-top:var(--s7);border-top:1px solid var(--rule)}
-.price .big{font-family:var(--display);font-weight:600;font-size:clamp(120px,15vw,220px);line-height:.85;letter-spacing:-.04em}
+.price .big{font-family:var(--display);font-weight:400;font-size:clamp(120px,15vw,220px);line-height:.85;letter-spacing:-.04em}
 .price .from{font-size:20px;color:var(--ink-2);margin-bottom:var(--s4)}
 .price p{color:var(--ink-2)}
 .price .actions{margin-top:var(--s5)}
@@ -270,7 +272,7 @@ nav .right{margin-left:auto;display:flex;gap:28px;align-items:center;font-size:1
 
 /* ---------- 9 · en garde ---------- */
 .final{background:var(--red);color:var(--cream);overflow:hidden;position:relative}
-.final .huge{font-family:var(--display);font-weight:600;font-size:clamp(140px,22vw,330px);line-height:.8;letter-spacing:-.045em;white-space:nowrap;margin-left:-.04em}
+.final .huge{font-family:var(--display);font-weight:400;font-size:clamp(140px,22vw,330px);line-height:.8;letter-spacing:-.045em;white-space:nowrap;margin-left:-.04em}
 .final .row{display:grid;grid-template-columns:1fr 1fr;gap:var(--s8);margin-top:var(--s7);align-items:start}
 .final h2{font-family:"Inter Tight",sans-serif;font-weight:500;font-size:32px;line-height:1.15;letter-spacing:-.02em}
 .final .lede{color:var(--cream-2);font-size:18px}
@@ -293,8 +295,12 @@ footer.site .legal{grid-column:1/-1;margin-top:var(--s6);padding-top:var(--s4);b
   nav .btn{min-height:44px;padding:0 16px;font-size:15px}
   .hero .head{grid-template-columns:1fr;gap:var(--s5);padding-top:var(--s5)}
   .hero h1{font-size:17vw}
+  .hero{min-height:0}
+  .scene-clip{position:relative;inset:auto}
+  .scene-clip::after{display:none}
+  .hero .head>div:last-child{margin-top:0}
   .scene-clip{margin-top:var(--s5);aspect-ratio:auto;height:118vw}
-  .scene{width:210vw;left:-74vw}
+  .scene{width:210vw;left:-74vw;bottom:auto;top:0}
   .app{font-size:11px}
   .app .body{grid-template-columns:1fr} .app .rail{display:none}
   .hero .piste .in{flex-direction:column;align-items:flex-start;padding:var(--s5) var(--gutter)}
