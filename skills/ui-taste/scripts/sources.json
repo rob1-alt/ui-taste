@@ -6073,5 +6073,509 @@
    "product-window"
   ],
   "note": "Notion's black-and-white hand-drawn character as the only image, three numbered steps (make, personalise, publish) on a hairline, then template tabs that swap the real published site in a window."
+ },
+ {
+  "site": "Superlist",
+  "type": "landing",
+  "url": "https://www.superlist.com",
+  "tags": [
+   "light",
+   "warm-neutral",
+   "underline-swoosh",
+   "red-accent",
+   "product-window",
+   "lifestyle-photo"
+  ],
+  "note": "'A little less on your mind' with a hand-drawn underline, one red pill button, the real app window, then a lifestyle photo of a phone on a table among oranges. A to-do app sold as relief."
+ },
+ {
+  "site": "Excalidraw",
+  "type": "landing",
+  "url": "https://excalidraw.com",
+  "tags": [
+   "light",
+   "the-tool-is-the-page",
+   "canvas-hero",
+   "hand-drawn-hints",
+   "no-marketing"
+  ],
+  "note": "The homepage is the empty whiteboard with hand-written hints pointing at the toolbar ('Pick a tool & start drawing!'). The handwriting font of the product is the only typography."
+ },
+ {
+  "site": "Bunny",
+  "type": "landing",
+  "url": "https://bunny.net",
+  "tags": [
+   "dark-to-light",
+   "illustrated-mascot",
+   "rabbit-character",
+   "orange-accent",
+   "stats-row",
+   "feature-ring"
+  ],
+  "note": "A cartoon rabbit riding a rocket in a navy night sky, then a light section where the mascot in VR goggles is surrounded by feature cards. One mascot carries a CDN's whole personality."
+ },
+ {
+  "site": "Subframe",
+  "type": "landing",
+  "url": "https://www.subframe.com",
+  "tags": [
+   "light",
+   "floating-windows",
+   "minimal",
+   "centered-headline",
+   "download-cta"
+  ],
+  "note": "Three small product windows float above a heavy two-line headline; everything else is white space and two buttons. Small product, big type."
+ },
+ {
+  "site": "Bluesky",
+  "type": "landing",
+  "url": "https://bsky.social",
+  "tags": [
+   "blue-sky-field",
+   "italic-headline",
+   "floating-app-cards",
+   "manifesto-paragraph",
+   "white-type"
+  ],
+  "note": "The page is the sky: a saturated blue field with soft clouds, an italic white headline ('Welcome to the social internet.') and app screens floating like cards. The manifesto paragraph is set large on the same blue."
+ },
+ {
+  "site": "Fabric",
+  "type": "landing",
+  "url": "https://fabric.so",
+  "tags": [
+   "light",
+   "serif-display",
+   "red-cloud-mascot",
+   "product-window",
+   "rating-row"
+  ],
+  "note": "A serif 'Your second brain', a small rating line and the product window with a red cloud character with a sleepy face peeking over it. One cute mark on a sober page."
+ },
+ {
+  "site": "Equals",
+  "type": "landing",
+  "url": "https://equals.com",
+  "tags": [
+   "light",
+   "serif-display",
+   "pixel-block-ornaments",
+   "pink-accent",
+   "spreadsheet-ui"
+  ],
+  "note": "'What's after Excel?' in a large serif with scattered pastel pixel blocks at the edges (spreadsheet cells breaking loose), a pink button, and the real spreadsheet with an AI chat below."
+ },
+ {
+  "site": "Porter",
+  "type": "landing",
+  "url": "https://www.porter.run",
+  "tags": [
+   "light",
+   "yellow-accent",
+   "pixel-dot-ornaments",
+   "inline-icon-chips",
+   "framework-list-type",
+   "funding-cells"
+  ],
+  "note": "Pixel-dot clusters and a drawn magnifier decorate a white page with yellow bands; the headline 'From git to prod in 60 seconds' puts small logo chips inline; supported frameworks are a big stacked type list on mint with one word in a black 'Deploy' label."
+ },
+ {
+  "site": "Muse",
+  "type": "landing",
+  "url": "https://museapp.com",
+  "tags": [
+   "light",
+   "serif-display",
+   "hand-circled-switcher",
+   "warm-neutral",
+   "app-badges",
+   "award-laurels",
+   "canvas-screens"
+  ],
+  "note": "Serif headline beside the canvas app on iPad, with a hand-drawn circle around 'Mac' in the device switcher; App Store badges and award laurels below; then warm beige panels with real boards full of images and notes."
+ },
+ {
+  "site": "Count",
+  "type": "landing",
+  "url": "https://count.co",
+  "tags": [
+   "light",
+   "two-sentence-headline",
+   "stickers",
+   "lime-highlight",
+   "product-window",
+   "running-counter"
+  ],
+  "note": "'Don't trust AI. Check it.' in two short sentences, with small photo stickers stuck around the product window and phrases highlighted in lime ('Count demands explanation.'). A running count of AI outputs checked as proof."
+ },
+ {
+  "site": "Cloudflare",
+  "type": "landing",
+  "url": "https://www.cloudflare.com",
+  "tags": [
+   "light",
+   "orange-field",
+   "dot-globe",
+   "brand-colour-hero",
+   "feature-cells"
+  ],
+  "note": "The hero is a big rounded orange field (the brand colour) with white text; then a dotted globe drawing in the same orange tones for 'Region: Earth'. One colour does all the branding."
+ },
+ {
+  "site": "Fleuret",
+  "type": "landing",
+  "url": "https://fleuret.ai",
+  "tags": [
+   "dark",
+   "fencing-concept",
+   "archival-portrait",
+   "named-agent",
+   "three-step-metaphor",
+   "founders-video",
+   "gradient-word"
+  ],
+  "note": "A pentesting AI built on one metaphor: the agent is Émile, named after a 1900 Olympic foil champion, shown as an archival portrait; the method is 'En garde, Attaque, Touché'; a giant outlined 'En garde' sits behind; 'Great mustache. Greater findings.' The idea lives below the fold: the hero itself is the generic dark glow with a gradient word, which is the lesson."
+ },
+ {
+  "site": "Readymag",
+  "type": "landing",
+  "url": "https://readymag.com",
+  "tags": [
+   "light",
+   "orange-pill",
+   "soft-shadow-card",
+   "collage-stickers",
+   "draggable-labels",
+   "black-section"
+  ],
+  "note": "A single soft card with the pitch and one orange pill on white, then a black band; examples arrive as a collage of tiles and tilted labels ('make', 'anything', 'draggable') that look like you could move them."
+ },
+ {
+  "site": "Mastodon",
+  "type": "landing",
+  "url": "https://joinmastodon.org",
+  "tags": [
+   "dark-purple",
+   "illustrated-mammoth",
+   "manifesto-headline",
+   "friendly-mascot",
+   "product-ui-cards"
+  ],
+  "note": "A purple night with a big illustrated mammoth taking photos and a political headline ('Social networking that's not for sale.'). The mascot keeps a decentralised network approachable."
+ },
+ {
+  "site": "Telegram",
+  "type": "landing",
+  "url": "https://telegram.org",
+  "tags": [
+   "light",
+   "mascot-stickers",
+   "duck-characters",
+   "platform-downloads",
+   "news-sidebar",
+   "plain-blue"
+  ],
+  "note": "An old-school plain page made memorable by its sticker ducks: each benefit (simple, private, synced, fast, powerful, open) is a duck in a costume. Download links per platform with device images."
+ },
+ {
+  "site": "Alfred",
+  "type": "landing",
+  "url": "https://www.alfredapp.com",
+  "tags": [
+   "dark-purple",
+   "hero-object",
+   "bowler-hat",
+   "serif-display",
+   "launcher-ui",
+   "since-2010"
+  ],
+  "note": "A big photographed bowler hat with a magnifying glass, a serif version title ('Alfred 6') and 'Supercharging macOS since 2010', then the launcher UI itself. Long-lived indie software with a mascot object."
+ },
+ {
+  "site": "iA Writer",
+  "type": "landing",
+  "url": "https://ia.net/writer",
+  "tags": [
+   "light",
+   "the-text-is-the-hero",
+   "monospace-text",
+   "device-frames",
+   "writing-sample",
+   "no-marketing-art"
+  ],
+  "note": "The hero is a page of text in the app's monospace face (Alice in Wonderland) and an iPhone with the keyboard up. A writing app that shows writing, nothing else."
+ },
+ {
+  "site": "Drafts",
+  "type": "landing",
+  "url": "https://getdrafts.com",
+  "tags": [
+   "blue-blueprint",
+   "keyboard-key-pattern",
+   "device-family",
+   "award-text-list",
+   "app-store-badges"
+  ],
+  "note": "A blue band patterned with keyboard keys, the app on Mac, iPhone, iPad and Watch, then awards and press quotes as a plain centred text list. Old-school indie Mac software proud of its accolades."
+ },
+ {
+  "site": "Pixelmator",
+  "type": "landing",
+  "url": "https://www.pixelmator.com",
+  "tags": [
+   "dark",
+   "apple-style",
+   "product-hero-image",
+   "suite-icons",
+   "big-sans-headline"
+  ],
+  "note": "Apple's own marketing grammar applied to a pro tool: black page, a big sans headline ('Picture perfect.') under the app icon and a vivid image, then the Creator Studio suite as a row of app icons."
+ },
+ {
+  "site": "Carrot Weather",
+  "type": "landing",
+  "url": "https://www.meetcarrot.com",
+  "tags": [
+   "light",
+   "skeuomorphic-icons",
+   "app-family-tiles",
+   "deadpan-voice",
+   "press-logos",
+   "serif-wordmark"
+  ],
+  "note": "'meet CARROT, the A.I. construct with a heart of weapons-grade plutonium': a deadpan voice, then the app family as big glossy icon tiles (to-do, alarm, fit, hunger, weather) and grey press logos. Personality carries a weather app."
+ },
+ {
+  "site": "Structured",
+  "type": "landing",
+  "url": "https://structured.app",
+  "tags": [
+   "light",
+   "lifestyle-photo-hero",
+   "coral-field",
+   "crossed-out-word",
+   "device-mockups",
+   "hand-drawn-arrow"
+  ],
+  "note": "A warm photo of people in a café as the hero, then a coral field where 'calendar' is crossed out under 'your all in one habit tracker', with a hand-drawn arrow toward the button. The copy edits itself."
+ },
+ {
+  "site": "Gentler Streak",
+  "type": "landing",
+  "url": "https://gentler.app",
+  "tags": [
+   "dark",
+   "photo-hero",
+   "runners-at-sunset",
+   "phone-in-hand",
+   "award-laurels",
+   "press-logos"
+  ],
+  "note": "Runners in a golden field with a hand holding the phone over it, the cute mascot on screen; Apple award laurels in a row and press logos. A fitness app that looks kind rather than intense."
+ },
+ {
+  "site": "Ginkgo Bioworks",
+  "type": "landing",
+  "url": "https://www.ginkgobioworks.com",
+  "tags": [
+   "dark-to-light",
+   "photo-hero",
+   "building-facade",
+   "serif-display",
+   "circle-photo",
+   "manifesto"
+  ],
+  "note": "A photo of the company's name on a stock exchange facade with a long-view serif headline ('Someday our kids will design the living world'), then a circular-cropped lab photo next to a serif statement. Biotech with an editorial voice."
+ },
+ {
+  "site": "Reddit Inc",
+  "type": "landing",
+  "url": "https://www.redditinc.com",
+  "tags": [
+   "orange-field",
+   "mascot",
+   "subreddit-chip-cloud",
+   "phone-cards",
+   "corporate-site"
+  ],
+  "note": "A flat orange field with the Snoo mascot waving, then a cloud of colourful subreddit chips ('r/personalfinance', 'r/aww'...) as the illustration of 'how Reddit works'. The communities' names are the imagery."
+ },
+ {
+  "site": "Optimizely",
+  "type": "landing",
+  "url": "https://www.optimizely.com",
+  "tags": [
+   "light",
+   "extruded-3d-type",
+   "green-headline",
+   "portrait-photo",
+   "loud-display",
+   "product-cards"
+  ],
+  "note": "Headlines in extruded, heavy green 3D type ('You're free to grow') over a portrait on a seaside photo. A B2B platform that uses loud display type where others use a gradient."
+ },
+ {
+  "site": "Squarespace",
+  "type": "landing",
+  "url": "https://www.squarespace.com",
+  "tags": [
+   "dark",
+   "photo-hero",
+   "template-showcase",
+   "customer-sites",
+   "stats-row",
+   "serif-free"
+  ],
+  "note": "A dark, moody still life as the hero and a strip of real customer websites below it (LIO AGENCY, a botanical shop) as the proof; stats in large white numbers. The product's output sells the product."
+ },
+ {
+  "site": "Buttondown",
+  "type": "landing",
+  "url": "https://buttondown.com",
+  "tags": [
+   "light",
+   "hand-drawn-illustration",
+   "question-headline",
+   "yellow-sticky-quotes",
+   "long-form-letter",
+   "indie-voice"
+  ],
+  "note": "A heavy 'Why is running a newsletter so hard?' among loose hand-drawn illustrations, then the page becomes a long letter in plain prose, interrupted by customer quotes on yellow sticky notes. An indie product that talks like its founder."
+ },
+ {
+  "site": "Signal",
+  "type": "landing",
+  "url": "https://signal.org",
+  "tags": [
+   "light",
+   "periwinkle-field",
+   "phone-pair",
+   "nonprofit-banner",
+   "plain-sans",
+   "privacy-voice"
+  ],
+  "note": "A flat periwinkle field with two phones showing real calls and chats and a short imperative ('Speak Freely'). A donation banner above the hero says what kind of organisation this is before anything else."
+ },
+ {
+  "site": "Gather",
+  "type": "landing",
+  "url": "https://www.gather.town",
+  "tags": [
+   "light",
+   "pixel-art-office",
+   "illustrated-world",
+   "product-is-the-world",
+   "g2-badges"
+  ],
+  "note": "The product's own pixel-art office (desks, plants, avatars walking between rooms) is the hero image and the section illustrations. The virtual world is the brand."
+ },
+ {
+  "site": "Bartender",
+  "type": "landing",
+  "url": "https://www.macbartender.com",
+  "tags": [
+   "dark",
+   "silk-texture-hero",
+   "macos-menubar",
+   "app-icon-object",
+   "red-bridge-photo",
+   "feature-cards"
+  ],
+  "note": "A dark silk texture with the app icon floating like an object, a big 'Own your menu bar.', then the macOS release named and illustrated (the Golden Gate in red fog). An indie Mac utility presented like an Apple keynote."
+ },
+ {
+  "site": "Ulysses",
+  "type": "landing",
+  "url": "https://ulysses.app",
+  "tags": [
+   "light",
+   "keyboard-photo",
+   "device-hero",
+   "handwritten-insert",
+   "dark-sections",
+   "editor-ui"
+  ],
+  "note": "A clean photograph of a keyboard and an iPhone with the editor, then dark sections where a word is inserted by hand ('Projects cannot get too big' with 'cannot' scribbled above). Writing tools edited like a manuscript."
+ },
+ {
+  "site": "Rogue Amoeba",
+  "type": "landing",
+  "url": "https://rogueamoeba.com",
+  "tags": [
+   "light",
+   "app-icons-as-page",
+   "indie-voice",
+   "product-family-grid",
+   "news-and-links"
+  ],
+  "note": "The homepage is the product family: big glossy app icons (Airfoil, Audio Hijack, Farrago, Fission...) with a one-line purpose each, a tagline 'Strange name. Great software.' and plain news. A catalogue with personality."
+ },
+ {
+  "site": "Flighty",
+  "type": "landing",
+  "url": "https://flighty.com",
+  "tags": [
+   "light",
+   "hand-holding-phone",
+   "floating-flight-cards",
+   "press-logos-dark",
+   "award-badges"
+  ],
+  "note": "A hand holds the phone with a live flight map, surrounded by faded notification cards (delays, gates, landings) floating at the edges. The page shows the moments the app interrupts you, not features."
+ },
+ {
+  "site": "Snackpass",
+  "type": "landing",
+  "url": "https://www.snackpass.co",
+  "tags": [
+   "blue-field",
+   "rounded-heavy-lowercase",
+   "creator-video-wall",
+   "two-buttons",
+   "pill-badges"
+  ],
+  "note": "A saturated blue field with a heavy rounded lowercase headline and two buttons (I'm a brand, I'm a creator), then a wall of creators' food videos with view counts. The content made with the product is the hero."
+ },
+ {
+  "site": "Halide",
+  "type": "landing",
+  "url": "https://halide.cam",
+  "tags": [
+   "dark",
+   "spaced-caps-headline",
+   "award-laurels",
+   "before-after-photos",
+   "app-store-cta"
+  ],
+  "note": "Black page, a small spaced-caps headline and award laurels, then the proof as photographs: the same portrait taken with the default camera and with Halide side by side. A camera app that argues with pictures."
+ },
+ {
+  "site": "Astranis",
+  "type": "landing",
+  "url": "https://www.astranis.com",
+  "tags": [
+   "dark",
+   "satellite-render",
+   "earth-from-orbit",
+   "lime-cta",
+   "hardware-photo",
+   "partner-logos"
+  ],
+  "note": "A satellite over the Earth at night as the hero, a lime button, then a real photo of the spacecraft in the clean room next to a short history. Space hardware shown both imagined and real."
+ },
+ {
+  "site": "Scribd",
+  "type": "landing",
+  "url": "https://www.scribd.com",
+  "tags": [
+   "dark-to-light",
+   "photo-collage-strip",
+   "bracket-wordmark",
+   "search-hero",
+   "trial-table"
+  ],
+  "note": "A strip of collaged photographs (crowds, birds, equations) behind the bracketed [SCRIBD] wordmark and a big search field. Knowledge shown as a collage of subjects."
  }
 ]
