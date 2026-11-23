@@ -26,21 +26,16 @@
     if (t) el.style.backgroundImage = `url("${t}")`;
   });
 
-  // Reel: two rows of real screens, duplicated so the loop is seamless
-  const REEL = [
-    ["stripe-press-landing", "playdate-landing", "teenage-engineering-landing", "obsidian-landing", "pentagram-landing", "hey-landing", "sentry-landing", "anthropic-landing", "pika-landing", "affinity-landing", "kagi-landing", "beehiiv-landing", "cash-app-landing", "lindy-landing"],
-    ["linear-pricing", "procreate-landing", "netlify-landing", "cosmos-landing", "partiful-landing", "panic-landing", "vercel-geist-overview", "basecamp-landing", "frame-io-landing", "ghost-landing", "slack-landing", "turso-landing", "readwise-reader-landing", "sketch-landing"],
-  ];
-  document.querySelectorAll(".reel-row").forEach((row, i) => {
-    const items = REEL[i].filter((id) => thumb(id));
-    const card = (id, hidden) => {
-      const it = byId[id];
-      return `<a href="library.html#id=${esc(id)}" ${hidden ? 'aria-hidden="true" tabindex="-1"' : ""}>
-        <div class="frame"><img src="${esc(thumb(id))}" alt="${hidden ? "" : esc(it.site) + " " + esc(typeLabel(it.type))}" loading="lazy" decoding="async"></div>
-        <div class="cap"><b>${esc(it.site)}</b><span>${esc(typeLabel(it.type))}</span></div></a>`;
-    };
-    row.innerHTML = items.map((id) => card(id, false)).join("") + items.map((id) => card(id, true)).join("");
-  });
+  // Wall: five columns of real screens on a tilted plane, duplicated for a seamless loop
+  const FIRST = ["stripe-press-landing", "playdate-landing", "teenage-engineering-landing", "obsidian-landing", "pentagram-landing", "hey-landing", "sentry-landing", "anthropic-landing", "pika-landing", "affinity-landing", "kagi-landing", "beehiiv-landing", "cash-app-landing", "lindy-landing", "linear-pricing", "procreate-landing", "netlify-landing", "cosmos-landing", "partiful-landing", "panic-landing", "basecamp-landing", "frame-io-landing", "ghost-landing", "turso-landing", "readwise-reader-landing", "sketch-landing"];
+  const pool = [...FIRST.filter((id) => thumb(id)), ...LIB.filter((x) => x.type === "landing" && !FIRST.includes(x.id) && x.screens.desktop).map((x) => x.id)].slice(0, 50);
+  const cols = [[], [], [], [], []];
+  pool.forEach((id, i) => cols[i % 5].push(id));
+  $("#wall").innerHTML = cols.map((c) => {
+    const imgs = c.map((id) => `<img src="${esc(thumb(id))}" alt="" loading="lazy" decoding="async">`).join("");
+    return `<div class="wall-col">${imgs}${imgs}</div>`;
+  }).join("");
+  $("#wall-n").textContent = LIB.length;
 
   // Specimen: real tokens for a few screens
   const SPEC = ["linear-pricing", "stripe-press-landing", "playdate-landing", "obsidian-landing", "hey-landing"].filter((id) => byId[id]);
@@ -86,6 +81,44 @@
   $("#systems").innerHTML = systems
     .map((x) => `<a href="library.html#type=design-system&q=${encodeURIComponent(x.site)}">${esc(x.site)}</a>`)
     .join(' <span class="sep">/</span> ');
+
+  // Reveal sections as they enter, draw the strikes, count the number up
+  const io = new IntersectionObserver((entries) => {
+    entries.forEach((en) => {
+      if (!en.isIntersecting) return;
+      en.target.classList.add("in");
+      io.unobserve(en.target);
+      const n = en.target.querySelector("[data-count]");
+      if (n && !matchMedia("(prefers-reduced-motion: reduce)").matches) {
+        const target = LIB.length, t0 = performance.now();
+        const tick = (t) => {
+          const k = Math.min(1, (t - t0) / 1200);
+          n.textContent = Math.round(target * (1 - Math.pow(1 - k, 3)));
+          if (k < 1) requestAnimationFrame(tick);
+        };
+        requestAnimationFrame(tick);
+      }
+    });
+  }, { threshold: 0.18 });
+  document.querySelectorAll(".reveal").forEach((el) => io.observe(el));
+
+  // A screen follows the cursor over the index and the design-system names
+  const peek = $("#peek");
+  const firstOf = (type, q) => LIB.find((x) => x.type === type && (!q || x.site === q) && x.screens.desktop);
+  document.addEventListener("mousemove", (e) => {
+    const a = e.target.closest(".toc a, .system-list a");
+    if (!a) { peek.classList.remove("show"); return; }
+    const u = new URLSearchParams(a.getAttribute("href").split("#")[1]);
+    const it = firstOf(u.get("type"), u.get("q"));
+    if (!it) return;
+    const img = peek.querySelector("img");
+    if (img.dataset.id !== it.id) { img.src = it.screens.desktop.thumb; img.dataset.id = it.id; peek.querySelector("span").textContent = it.site; }
+    peek.style.setProperty("--x", Math.min(e.clientX + 24, innerWidth - 320) + "px");
+    peek.style.setProperty("--y", Math.min(e.clientY + 20, innerHeight - 260) + "px");
+    peek.classList.add("show");
+  });
+
+  addEventListener("scroll", () => peek.classList.remove("show"), { passive: true });
 
   // Copy and toast
   let timer;

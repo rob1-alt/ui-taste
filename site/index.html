@@ -42,7 +42,7 @@
     <h1 class="hero-title">
       Show your agent
       <span class="inline-shot" data-shot="playdate-landing"></span>
-      what good
+      what <em>good</em>
       <span class="inline-shot" data-shot="stripe-press-landing"></span>
       interfaces
       <span class="inline-shot" data-shot="linear-pricing"></span>
@@ -55,13 +55,17 @@
     </div>
   </section>
 
-  <section class="reel" aria-label="A sample of the library">
-    <div class="reel-row" data-row="0"></div>
-    <div class="reel-row reverse" data-row="1"></div>
+  <section class="wall" aria-label="A wall of screens from the library">
+    <div class="wall-stage" aria-hidden="true"><div class="wall-plane" id="wall"></div></div>
+    <div class="wall-copy">
+      <p class="label">The library</p>
+      <p class="wall-title"><span id="wall-n">273</span> screens, each one kept for a <em>decision</em> worth copying.</p>
+      <a class="pill pill-light pill-lg" href="library.html">Open the library <span aria-hidden="true">→</span></a>
+    </div>
   </section>
 
   <!-- Statement: the problem in two tones -->
-  <section class="statement wrap">
+  <section class="statement wrap reveal">
     <p class="statement-text">
       <span class="ink">Agents build the same interface every time.</span>
       <s>A purple gradient hero</s>, <s>three centred cards with emoji icons</s>, <s>Inter everywhere</s>, <s>shadows on everything</s>.
@@ -70,7 +74,7 @@
   </section>
 
   <!-- How it works -->
-  <section class="how wrap" id="how">
+  <section class="how wrap reveal" id="how">
     <div class="section-head">
       <p class="label">How it works</p>
       <h2>Four steps, every time Claude touches an interface.</h2>
@@ -125,7 +129,7 @@ button: "Sign up" #e5e5e6 radius 9999px height 32px</pre>
   </section>
 
   <!-- Measured tokens, from the real data -->
-  <section class="measured wrap" id="measured">
+  <section class="measured wrap reveal" id="measured">
     <div class="section-head">
       <p class="label">Measured, not guessed</p>
       <h2>Every screen comes with the tokens its page really uses.</h2>
@@ -141,10 +145,10 @@ button: "Sign up" #e5e5e6 radius 9999px height 32px</pre>
   </section>
 
   <!-- Index, set like a table of contents (decision from Stripe Press) -->
-  <section class="index wrap" id="index">
+  <section class="index wrap reveal" id="index">
     <div class="index-left">
       <p class="label">The library</p>
-      <p class="big-number"><span id="n-pages">273</span><small>pages</small></p>
+      <p class="big-number"><span id="n-pages" data-count>273</span><small>pages</small></p>
       <p class="index-meta"><span id="n-sites">186</span> products · <span id="n-shots">546</span> screenshots · desktop and mobile</p>
       <a class="pill pill-dark" href="library.html">Open the library</a>
     </div>
@@ -152,7 +156,7 @@ button: "Sign up" #e5e5e6 radius 9999px height 32px</pre>
   </section>
 
   <!-- Design systems -->
-  <section class="systems wrap">
+  <section class="systems wrap reveal">
     <div class="section-head">
       <p class="label">Design systems</p>
       <h2>And the systems behind good interfaces.</h2>
@@ -187,6 +191,9 @@ cp -r ui-taste/skills/ui-taste ~/.claude/skills/">Copy</button>
     </div>
   </section>
 </main>
+
+<div class="giant" aria-hidden="true">UI <em>taste</em></div>
+<div class="peek" id="peek" aria-hidden="true"><img alt=""><span></span></div>
 
 <footer class="foot">
   <p>Screenshots belong to the companies that made them. Kept as private design references; do not republish.</p>
