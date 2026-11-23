@@ -108,3 +108,9 @@ Take: when the thing you sell is visual (fonts, templates, themes, photos), give
 Museums, magazines, publishers and studios in the library (Whitney, Tate, Cooper Hewitt, Walker, The Pudding, Rest of World, Works in Progress, Apartamento, Supergiant, Annapurna) put the thing itself first: the artwork, the essay's own chart, the cover, the game's key art. The identity lives in two or three strong moves around it (a wordmark, one colour for UI chrome, a type treatment) and never competes with the content.
 
 Take: when the product is content, design the frame, not a hero. Let each item bring its own colour and image, keep the chrome to one brand colour and one type voice, and give dates, places and prices a consistent small metadata style.
+
+## 16. Deep tech shows the machine, at its real scale
+
+The aerospace, energy and chip companies in the library (SpaceX, Relativity, Hermeus, Stoke, K2, Oklo, Extropic, Span) never draw their product. They photograph it: a rocket stage on a crane with workers below, an engine test, a macro of a chip surface, a reactor building at night. The type is either tiny inside the photograph (Hermeus) or as loud as the machine (Stoke), never in between.
+
+Take: for hard tech, the documentary photograph of the real object is the brand. Decide the type's role against it: a caption, or a shout.

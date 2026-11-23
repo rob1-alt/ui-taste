@@ -11013,108 +11013,6 @@
     }
   },
   {
-    "id": "airbyte-landing",
-    "site": "Airbyte",
-    "url": "https://airbyte.com",
-    "type": "landing",
-    "tags": [],
-    "note": "",
-    "captured": "2026-11-23",
-    "screens": {
-      "desktop": {
-        "file": "screens/airbyte-landing-desktop.jpg",
-        "width": 1440,
-        "height": 3600
-      },
-      "mobile": {
-        "file": "screens/airbyte-landing-mobile.jpg",
-        "width": 390,
-        "height": 2600
-      }
-    },
-    "tokens": {
-      "title": "Airbyte | Open-Source Data Integration Platform for AI Agents",
-      "fonts": [
-        "Fragment Mono Chrome",
-        "Booton",
-        "Fragment Mono"
-      ],
-      "type": {
-        "h1": {
-          "font": "Booton Hero",
-          "size": 64,
-          "weight": "500",
-          "lineHeight": 1.05,
-          "letterSpacing": "-3.17852px",
-          "color": "rgb(0, 0, 0)"
-        },
-        "h2": {
-          "font": "Booton",
-          "size": 65,
-          "weight": "500",
-          "lineHeight": 1.05,
-          "letterSpacing": "-3.25px",
-          "color": "rgb(0, 0, 0)"
-        },
-        "h3": {
-          "font": "Booton",
-          "size": 28,
-          "weight": "600",
-          "lineHeight": 1.07,
-          "letterSpacing": "-1.12px",
-          "color": "rgb(0, 0, 0)"
-        },
-        "body": {
-          "font": "Booton Hero",
-          "size": 18,
-          "weight": "400",
-          "lineHeight": 1.5,
-          "letterSpacing": "-0.17px",
-          "color": "rgb(102, 102, 102)"
-        }
-      },
-      "colors": {
-        "background": "#ffffff",
-        "surfaces": [
-          "#ffffff",
-          "#f5f5f5",
-          "#695edf"
-        ],
-        "text": [
-          "#1a1a1a",
-          "#666666",
-          "#5d51d5",
-          "#4b40b0"
-        ]
-      },
-      "buttons": [
-        {
-          "label": "TRY IT FREE",
-          "bg": "#695edf",
-          "color": "#ffffff",
-          "radius": "8px",
-          "height": 36,
-          "paddingX": 16,
-          "font": "Fragment Mono Chrome",
-          "size": 13,
-          "weight": "500"
-        },
-        {
-          "label": "TALK TO SALES",
-          "bg": "#695edf",
-          "color": "#ffffff",
-          "radius": "8px",
-          "height": 52,
-          "paddingX": 20,
-          "font": "Fragment Mono Chrome",
-          "size": 13,
-          "weight": "500"
-        }
-      ],
-      "contentWidth": 1040
-    }
-  },
-  {
     "id": "airtable-landing",
     "site": "Airtable",
     "url": "https://www.airtable.com",
@@ -12388,6 +12286,167 @@
     }
   },
   {
+    "id": "arc-institute-landing",
+    "site": "Arc Institute",
+    "url": "https://arcinstitute.org",
+    "type": "landing",
+    "tags": [
+      "light",
+      "serif-display",
+      "dna-dot-illustration",
+      "research-feed",
+      "figure-thumbnails",
+      "blue-accent"
+    ],
+    "note": "A research institute whose homepage is its papers: a dotted DNA helix beside a serif headline, then a dated feed of featured research, each with a small figure from the paper as its thumbnail. Science shown by its outputs.",
+    "captured": "2026-11-23",
+    "screens": {
+      "desktop": {
+        "file": "screens/arc-institute-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/arc-institute-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Arc Institute",
+      "fonts": [
+        "IBM Plex Sans",
+        "IBM Plex Mono",
+        "Tiempos Headline"
+      ],
+      "type": {
+        "h1": {
+          "font": "Tiempos Headline",
+          "size": 40,
+          "weight": "300",
+          "lineHeight": 1.2,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 115, 230)"
+        },
+        "h2": {
+          "font": "Tiempos Headline",
+          "size": 40,
+          "weight": "300",
+          "lineHeight": 1.2,
+          "letterSpacing": "normal",
+          "color": "rgb(12, 32, 67)"
+        },
+        "h3": {
+          "font": "IBM Plex Sans",
+          "size": 24,
+          "weight": "400",
+          "lineHeight": 1.42,
+          "letterSpacing": "normal",
+          "color": "rgb(12, 32, 67)"
+        },
+        "body": {
+          "font": "IBM Plex Sans",
+          "size": 14,
+          "weight": "400",
+          "lineHeight": 1.57,
+          "letterSpacing": "normal",
+          "color": "rgb(247, 249, 251)"
+        }
+      },
+      "colors": {
+        "background": "#fbf8f2",
+        "surfaces": [
+          "#f7f9fb",
+          "#ffffff",
+          "#0073e6"
+        ],
+        "text": [
+          "#525b6b",
+          "#0c2043",
+          "#11181c",
+          "#0073e6"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": 1440
+    }
+  },
+  {
+    "id": "archer-landing",
+    "site": "Archer",
+    "url": "https://archer.com",
+    "type": "landing",
+    "tags": [
+      "photo-hero",
+      "wide-tracked-caps",
+      "aircraft-in-flight",
+      "rounded-photo-cards",
+      "soft-blue"
+    ],
+    "note": "An eVTOL photographed in flight over a soft landscape under a thin, widely tracked caps headline, then large rounded photo cards per aircraft with small caps names. Calm, cinematic aviation.",
+    "captured": "2026-11-23",
+    "screens": {
+      "desktop": {
+        "file": "screens/archer-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/archer-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Archer",
+      "fonts": [
+        "Archivo Narrow",
+        "Chakra Petch",
+        "MBF Ligione Expanded"
+      ],
+      "type": {
+        "h1": null,
+        "h2": {
+          "font": "MBF Ligione Expanded",
+          "size": 44,
+          "weight": "400",
+          "lineHeight": 1,
+          "letterSpacing": "4px",
+          "color": "rgb(255, 255, 255)"
+        },
+        "h3": {
+          "font": "MBF Ligione Expanded",
+          "size": 28,
+          "weight": "400",
+          "lineHeight": 1,
+          "letterSpacing": "5.6px",
+          "color": "rgb(255, 255, 255)"
+        },
+        "body": {
+          "font": "Archivo Narrow",
+          "size": 16,
+          "weight": "400",
+          "lineHeight": 1.25,
+          "letterSpacing": "1.6px",
+          "color": "rgb(255, 255, 255)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#1a1b21",
+          "#000000",
+          "#ffffff"
+        ],
+        "text": [
+          "#ffffff"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": null
+    }
+  },
+  {
     "id": "are-na-landing",
     "site": "Are.na",
     "url": "https://www.are.na",
@@ -13616,6 +13675,149 @@
         "text": []
       },
       "buttons": [],
+      "contentWidth": null
+    }
+  },
+  {
+    "id": "baseten-landing",
+    "site": "Baseten",
+    "url": "https://www.baseten.co",
+    "type": "landing",
+    "tags": [
+      "light",
+      "isometric-blocks",
+      "green-and-lilac",
+      "colour-logo-cells",
+      "large-statement"
+    ],
+    "note": "An isometric city of green and lilac blocks (models, GPUs, deployments) beside a heavy headline; customer logos as bordered cells with a few in brand colour; a long statement paragraph set large.",
+    "captured": "2026-11-23",
+    "screens": {
+      "desktop": {
+        "file": "screens/baseten-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/baseten-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "The platform for inference, training, and execution | Baseten",
+      "fonts": [
+        "beausite",
+        "geistMono",
+        "Arial"
+      ],
+      "type": {
+        "h1": {
+          "font": "beausite",
+          "size": 104,
+          "weight": "400",
+          "lineHeight": 1,
+          "letterSpacing": "-3.11904px",
+          "color": "rgb(0, 0, 0)"
+        },
+        "h2": {
+          "font": "beausite",
+          "size": 56,
+          "weight": "400",
+          "lineHeight": 1.1,
+          "letterSpacing": "-1.12px",
+          "color": "rgb(0, 0, 0)"
+        },
+        "h3": {
+          "font": "beausite",
+          "size": 24,
+          "weight": "400",
+          "lineHeight": 1.25,
+          "letterSpacing": "-0.24px",
+          "color": "rgb(0, 0, 0)"
+        },
+        "body": {
+          "font": "beausite",
+          "size": 16,
+          "weight": "350",
+          "lineHeight": 1.4,
+          "letterSpacing": "0.16px",
+          "color": "rgb(50, 52, 50)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#ffffff",
+          "#e3eae1",
+          "#f1f5f0",
+          "#d4ebff",
+          "#000000"
+        ],
+        "text": [
+          "#000000",
+          "#575d56",
+          "#323432",
+          "#ffffff"
+        ]
+      },
+      "buttons": [
+        {
+          "label": "Log in",
+          "bg": "#f1f5f0",
+          "color": "#000000",
+          "radius": "0px",
+          "height": 36,
+          "paddingX": 0,
+          "font": "beausite",
+          "size": 16,
+          "weight": "400"
+        },
+        {
+          "label": "Get started",
+          "bg": "#000000",
+          "color": "#ffffff",
+          "radius": "0px",
+          "height": 36,
+          "paddingX": 0,
+          "font": "beausite",
+          "size": 16,
+          "weight": "400"
+        },
+        {
+          "label": "Start building",
+          "bg": "#000000",
+          "color": "#ffffff",
+          "radius": "0px",
+          "height": 36,
+          "paddingX": 0,
+          "font": "beausite",
+          "size": 14,
+          "weight": "400"
+        },
+        {
+          "label": "Talk to an engineer",
+          "bg": "#ffffff",
+          "color": "#000000",
+          "radius": "0px",
+          "height": 36,
+          "paddingX": 0,
+          "font": "beausite",
+          "size": 14,
+          "weight": "400"
+        },
+        {
+          "label": "DEDICATED INFERENCE",
+          "bg": "#d7face",
+          "color": "#000000",
+          "radius": "0px",
+          "height": 32,
+          "paddingX": 4,
+          "font": "Arial",
+          "size": 13,
+          "weight": "400"
+        }
+      ],
       "contentWidth": null
     }
   },
@@ -16874,6 +17076,90 @@
     }
   },
   {
+    "id": "commonwealth-fusion-landing",
+    "site": "Commonwealth Fusion",
+    "url": "https://cfs.energy",
+    "type": "landing",
+    "tags": [
+      "dark-to-taupe",
+      "machine-photography",
+      "thin-type",
+      "bordered-nav",
+      "technical-drawing",
+      "numbered-figures"
+    ],
+    "note": "Close photographs of the fusion magnet's metal surfaces, light thin type, a nav of bordered cells, then a taupe section with numbered photo figures and an engineering line drawing of the tokamak. Industrial science as an atlas.",
+    "captured": "2026-11-23",
+    "screens": {
+      "desktop": {
+        "file": "screens/commonwealth-fusion-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/commonwealth-fusion-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Home | Commonwealth Fusion Systems",
+      "fonts": [
+        "nbInternationalMono",
+        "nbInternational",
+        "Arial"
+      ],
+      "type": {
+        "h1": {
+          "font": "nbInternational",
+          "size": 63,
+          "weight": "300",
+          "lineHeight": 1.2,
+          "letterSpacing": "normal",
+          "color": "rgb(255, 255, 255)"
+        },
+        "h2": {
+          "font": "nbInternational",
+          "size": 63,
+          "weight": "300",
+          "lineHeight": 1.2,
+          "letterSpacing": "normal",
+          "color": "rgb(51, 51, 51)"
+        },
+        "h3": {
+          "font": "nbInternational",
+          "size": 30,
+          "weight": "300",
+          "lineHeight": 1.5,
+          "letterSpacing": "normal",
+          "color": "rgb(255, 255, 255)"
+        },
+        "body": {
+          "font": "nbInternational",
+          "size": 14,
+          "weight": "400",
+          "lineHeight": 1.5,
+          "letterSpacing": "normal",
+          "color": "rgb(255, 255, 255)"
+        }
+      },
+      "colors": {
+        "background": "#ccc8c3",
+        "surfaces": [
+          "#ccc8c3",
+          "#333333"
+        ],
+        "text": [
+          "#ffffff",
+          "#333333",
+          "#cf6d46"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": 900
+    }
+  },
+  {
     "id": "contra-landing",
     "site": "Contra",
     "url": "https://contra.com",
@@ -17980,6 +18266,91 @@
       },
       "buttons": [],
       "contentWidth": 1280
+    }
+  },
+  {
+    "id": "deepgram-landing",
+    "site": "Deepgram",
+    "url": "https://deepgram.com",
+    "type": "landing",
+    "tags": [
+      "dark-to-light",
+      "material-photography",
+      "purple-field",
+      "3d-objects",
+      "stacked-capability-list"
+    ],
+    "note": "A purple field with photographed material objects (a red clay waveform, a chrome speaker grille, a rock slab) standing in for audio: sound made tactile. The stack is a big grey list where one item lights up at a time.",
+    "captured": "2026-11-23",
+    "screens": {
+      "desktop": {
+        "file": "screens/deepgram-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/deepgram-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Enterprise voice AI: STT, TTS & agent APIs | Deepgram",
+      "fonts": [
+        "Work Sans",
+        "Azeret Mono",
+        "perfektta"
+      ],
+      "type": {
+        "h1": {
+          "font": "perfektta",
+          "size": 100,
+          "weight": "600",
+          "lineHeight": 0.9,
+          "letterSpacing": "-2px",
+          "color": "rgb(255, 255, 255)"
+        },
+        "h2": {
+          "font": "perfektta",
+          "size": 40,
+          "weight": "600",
+          "lineHeight": 1.1,
+          "letterSpacing": "-0.4px",
+          "color": "rgb(29, 29, 29)"
+        },
+        "h3": {
+          "font": "perfektta",
+          "size": 24,
+          "weight": "600",
+          "lineHeight": 1,
+          "letterSpacing": "-0.24px",
+          "color": "rgb(29, 29, 29)"
+        },
+        "body": {
+          "font": "Work Sans",
+          "size": 16,
+          "weight": "500",
+          "lineHeight": 1.3,
+          "letterSpacing": "-0.48px",
+          "color": "rgb(255, 255, 255)"
+        }
+      },
+      "colors": {
+        "background": "#fcfaf8",
+        "surfaces": [
+          "#1d1d1d",
+          "#fcfaf8",
+          "#ffffff",
+          "#7f39ff",
+          "#e042ff"
+        ],
+        "text": [
+          "#1d1d1d",
+          "#ffffff"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": 1440
     }
   },
   {
@@ -20114,6 +20485,86 @@
     }
   },
   {
+    "id": "etched-landing",
+    "site": "Etched",
+    "url": "https://www.etched.com",
+    "type": "landing",
+    "tags": [
+      "light",
+      "hardware-photo",
+      "machine-as-hero",
+      "long-form-essay",
+      "no-colour"
+    ],
+    "note": "A photograph from under a server rack (cables like a chandelier) above a plain headline, then the hardware cabinet beside a long essay in small type. A chip company that lets the machine and the argument carry it.",
+    "captured": "2026-11-23",
+    "screens": {
+      "desktop": {
+        "file": "screens/etched-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/etched-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Etched",
+      "fonts": [
+        "Sohne",
+        "Sohne Mono"
+      ],
+      "type": {
+        "h1": {
+          "font": "Sohne",
+          "size": 16,
+          "weight": "400",
+          "lineHeight": 1.5,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        },
+        "h2": {
+          "font": "Sohne",
+          "size": 27,
+          "weight": "400",
+          "lineHeight": 1.32,
+          "letterSpacing": "-0.54px",
+          "color": "rgb(0, 0, 0)"
+        },
+        "h3": {
+          "font": "Sohne",
+          "size": 21,
+          "weight": "400",
+          "lineHeight": 1.32,
+          "letterSpacing": "-0.42px",
+          "color": "rgb(0, 0, 0)"
+        },
+        "body": {
+          "font": "Sohne",
+          "size": 17,
+          "weight": "400",
+          "lineHeight": 1.6,
+          "letterSpacing": "normal",
+          "color": "rgba(0, 0, 0, 0.7)"
+        }
+      },
+      "colors": {
+        "background": "#ededed",
+        "surfaces": [
+          "#ededed"
+        ],
+        "text": [
+          "#000000",
+          "#ffffff"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": 1440
+    }
+  },
+  {
     "id": "every-landing",
     "site": "Every",
     "url": "https://every.to",
@@ -20443,6 +20894,76 @@
         }
       ],
       "contentWidth": 1328
+    }
+  },
+  {
+    "id": "extropic-landing",
+    "site": "Extropic",
+    "url": "https://www.extropic.ai",
+    "type": "landing",
+    "tags": [
+      "dark",
+      "material-macro-photo",
+      "glowing-gradient-type",
+      "crosshair-marks",
+      "chip-photography",
+      "amber-palette"
+    ],
+    "note": "A macro photograph of a warm, textured chip surface under 'THERMODYNAMIC COMPUTING' with the first word glowing amber; crosshair marks and a few chip photos below. Physics made tactile: the material is the image.",
+    "captured": "2026-11-23",
+    "screens": {
+      "desktop": {
+        "file": "screens/extropic-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/extropic-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Extropic | Home",
+      "fonts": [
+        "suisseMono",
+        "rephlex",
+        "kessler"
+      ],
+      "type": {
+        "h1": null,
+        "h2": {
+          "font": "kessler",
+          "size": 96,
+          "weight": "400",
+          "lineHeight": 0.9,
+          "letterSpacing": "-3.84px",
+          "color": "rgb(255, 255, 255)"
+        },
+        "h3": null,
+        "body": {
+          "font": "suisse",
+          "size": 20,
+          "weight": "400",
+          "lineHeight": 1.05,
+          "letterSpacing": "normal",
+          "color": "rgb(255, 255, 255)"
+        }
+      },
+      "colors": {
+        "background": "#1c0101",
+        "surfaces": [
+          "#1c0101",
+          "#903001",
+          "#f5d54c"
+        ],
+        "text": [
+          "#ffffff",
+          "#f5d54c"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": 1440
     }
   },
   {
@@ -24529,86 +25050,6 @@
     }
   },
   {
-    "id": "hatchet-landing",
-    "site": "Hatchet",
-    "url": "https://hatchet.run",
-    "type": "landing",
-    "tags": [],
-    "note": "",
-    "captured": "2026-11-23",
-    "screens": {
-      "desktop": {
-        "file": "screens/hatchet-landing-desktop.jpg",
-        "width": 1440,
-        "height": 3600
-      },
-      "mobile": {
-        "file": "screens/hatchet-landing-mobile.jpg",
-        "width": 390,
-        "height": 2600
-      }
-    },
-    "tokens": {
-      "title": "Hatchet | The orchestration layer for modern apps",
-      "fonts": [
-        "terminal-departure",
-        "geist-mono",
-        "judge-extended"
-      ],
-      "type": {
-        "h1": {
-          "font": "judge-extended",
-          "size": 96,
-          "weight": "400",
-          "lineHeight": 1,
-          "letterSpacing": "-1.92px",
-          "color": "rgb(243, 246, 251)"
-        },
-        "h2": {
-          "font": "judge-extended",
-          "size": 72,
-          "weight": "400",
-          "lineHeight": 1,
-          "letterSpacing": "-1.44px",
-          "color": "rgb(243, 246, 251)"
-        },
-        "h3": {
-          "font": "terminal-departure",
-          "size": 14,
-          "weight": "400",
-          "lineHeight": 1.5,
-          "letterSpacing": "normal",
-          "color": "rgb(197, 208, 224)"
-        },
-        "body": {
-          "font": "geist-mono",
-          "size": 18,
-          "weight": "400",
-          "lineHeight": 1.78,
-          "letterSpacing": "normal",
-          "color": "rgb(243, 246, 251)"
-        }
-      },
-      "colors": {
-        "background": "#0a1029",
-        "surfaces": [
-          "#0a1029",
-          "#050916",
-          "#f3f6fb",
-          "#c8e04a"
-        ],
-        "text": [
-          "#c5d0e0",
-          "#f3f6fb",
-          "#94a5c1",
-          "#0a1029"
-        ]
-      },
-      "buttons": [],
-      "contentWidth": 1288
-    }
-  },
-  {
     "id": "haus-landing",
     "site": "Haus",
     "url": "https://haus.com",
@@ -25254,6 +25695,74 @@
         }
       ],
       "contentWidth": 1396
+    }
+  },
+  {
+    "id": "hermeus-landing",
+    "site": "Hermeus",
+    "url": "https://www.hermeus.com",
+    "type": "landing",
+    "tags": [
+      "light-grey",
+      "aircraft-macro-photo",
+      "tiny-headline",
+      "giant-section-titles",
+      "engineering-close-up"
+    ],
+    "note": "The hero is an extreme close-up of an aircraft's engine and tail with the headline set tiny and faded inside the photo; scale comes from the machine, not the type. Section titles ('Mission') are then set huge.",
+    "captured": "2026-11-23",
+    "screens": {
+      "desktop": {
+        "file": "screens/hermeus-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/hermeus-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Hermeus | Fast Planes, Fast.",
+      "fonts": [
+        "Texgyreheros"
+      ],
+      "type": {
+        "h1": {
+          "font": "Texgyreheros",
+          "size": 92,
+          "weight": "700",
+          "lineHeight": 1,
+          "letterSpacing": "-2.76923px",
+          "color": "rgb(69, 67, 67)"
+        },
+        "h2": null,
+        "h3": null,
+        "body": {
+          "font": "Texgyreheros",
+          "size": 18,
+          "weight": "300",
+          "lineHeight": 1.3,
+          "letterSpacing": "normal",
+          "color": "rgb(69, 67, 67)"
+        }
+      },
+      "colors": {
+        "background": "#ececec",
+        "surfaces": [
+          "#d9d9d9",
+          "#ececec",
+          "#ffffff",
+          "#f2a500"
+        ],
+        "text": [
+          "#000000",
+          "#454343"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": 1290
     }
   },
   {
@@ -26768,6 +27277,90 @@
     }
   },
   {
+    "id": "isomorphic-labs-landing",
+    "site": "Isomorphic Labs",
+    "url": "https://www.isomorphiclabs.com",
+    "type": "landing",
+    "tags": [
+      "light",
+      "molecular-render",
+      "halftone-dots",
+      "mint-palette",
+      "small-headline",
+      "scientist-portrait"
+    ],
+    "note": "A soft cloud-like protein render with halftone teal dots and a DNA strand as the hero, the headline small in the corner ('Solve all disease'). Science shown as beauty, then a scientist's portrait with a long quote.",
+    "captured": "2026-11-23",
+    "screens": {
+      "desktop": {
+        "file": "screens/isomorphic-labs-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/isomorphic-labs-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Reimagining Drug Discovery Process with AI - Isomorphic Labs",
+      "fonts": [
+        "system-ui",
+        "Soehne Leicht",
+        "Soehne Extraleicht"
+      ],
+      "type": {
+        "h1": {
+          "font": "Soehne Extraleicht",
+          "size": 38,
+          "weight": "200",
+          "lineHeight": 1.2,
+          "letterSpacing": "-0.76px",
+          "color": "rgb(0, 0, 0)"
+        },
+        "h2": {
+          "font": "Soehne Leicht",
+          "size": 22,
+          "weight": "300",
+          "lineHeight": 1.3,
+          "letterSpacing": "-0.22px",
+          "color": "rgb(30, 30, 30)"
+        },
+        "h3": {
+          "font": "Soehne Leicht",
+          "size": 16,
+          "weight": "400",
+          "lineHeight": 1.4,
+          "letterSpacing": "normal",
+          "color": "rgb(30, 30, 30)"
+        },
+        "body": {
+          "font": "Soehne Leicht",
+          "size": 16,
+          "weight": "400",
+          "lineHeight": 1.4,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#ffffff",
+          "#f7f7f7",
+          "#000000"
+        ],
+        "text": [
+          "#000000",
+          "#1e1e1e"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": 800
+    }
+  },
+  {
     "id": "it-s-nice-that-landing",
     "site": "It's Nice That",
     "url": "https://www.itsnicethat.com",
@@ -27118,6 +27711,103 @@
       },
       "buttons": [],
       "contentWidth": 1440
+    }
+  },
+  {
+    "id": "k2-space-landing",
+    "site": "K2 Space",
+    "url": "https://www.k2space.com",
+    "type": "landing",
+    "tags": [
+      "dark",
+      "blue-tinted-factory-photo",
+      "giant-headline",
+      "statement-paragraph",
+      "photo-carousel"
+    ],
+    "note": "A giant 'Build Bigger' over a blue-tinted factory photograph, then a long statement paragraph set large ('Scale changes what's possible...') and photo cards for factory and launch. One idea, said big.",
+    "captured": "2026-11-23",
+    "screens": {
+      "desktop": {
+        "file": "screens/k2-space-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/k2-space-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "High-Power Satellite Platforms | K2 Space | Build Bigger",
+      "fonts": [
+        "Telegraf"
+      ],
+      "type": {
+        "h1": {
+          "font": "Telegraf",
+          "size": 213,
+          "weight": "700",
+          "lineHeight": 1,
+          "letterSpacing": "-5.71428px",
+          "color": "rgb(193, 193, 193)"
+        },
+        "h2": {
+          "font": "Telegraf",
+          "size": 48,
+          "weight": "600",
+          "lineHeight": 1,
+          "letterSpacing": "normal",
+          "color": "rgb(197, 197, 197)"
+        },
+        "h3": {
+          "font": "Telegraf",
+          "size": 32,
+          "weight": "700",
+          "lineHeight": 1,
+          "letterSpacing": "normal",
+          "color": "rgb(197, 197, 197)"
+        },
+        "body": null
+      },
+      "colors": {
+        "background": "#000000",
+        "surfaces": [
+          "#000000",
+          "#1b1b1b",
+          "#252525"
+        ],
+        "text": [
+          "#c5c5c5",
+          "#c1c1c1"
+        ]
+      },
+      "buttons": [
+        {
+          "label": "",
+          "bg": "#1b1b1b",
+          "color": "#5e5e5e",
+          "radius": "0px",
+          "height": 55,
+          "paddingX": 0,
+          "font": "Telegraf",
+          "size": 19,
+          "weight": "400"
+        },
+        {
+          "label": "",
+          "bg": "#252525",
+          "color": "#2d62ff",
+          "radius": "0px",
+          "height": 55,
+          "paddingX": 0,
+          "font": "Telegraf",
+          "size": 19,
+          "weight": "400"
+        }
+      ],
+      "contentWidth": 1082
     }
   },
   {
@@ -27962,79 +28652,6 @@
     }
   },
   {
-    "id": "laminar-landing",
-    "site": "Laminar",
-    "url": "https://www.lmnr.ai",
-    "type": "landing",
-    "tags": [],
-    "note": "",
-    "captured": "2026-11-23",
-    "screens": {
-      "desktop": {
-        "file": "screens/laminar-landing-desktop.jpg",
-        "width": 1440,
-        "height": 3600
-      },
-      "mobile": {
-        "file": "screens/laminar-landing-mobile.jpg",
-        "width": 390,
-        "height": 2600
-      }
-    },
-    "tokens": {
-      "title": "Laminar - Open-source observability for AI agents",
-      "fonts": [
-        "Inter",
-        "sansLanding",
-        "ui-monospace"
-      ],
-      "type": {
-        "h1": {
-          "font": "sansLanding",
-          "size": 42,
-          "weight": "480",
-          "lineHeight": 1.25,
-          "letterSpacing": "-0.63px",
-          "color": "rgb(255, 255, 255)"
-        },
-        "h2": {
-          "font": "sansLanding",
-          "size": 24,
-          "weight": "500",
-          "lineHeight": 1.33,
-          "letterSpacing": "0.048px",
-          "color": "rgb(255, 255, 255)"
-        },
-        "h3": null,
-        "body": {
-          "font": "sansLanding",
-          "size": 16,
-          "weight": "450",
-          "lineHeight": 1.5,
-          "letterSpacing": "0.032px",
-          "color": "rgb(255, 255, 255)"
-        }
-      },
-      "colors": {
-        "background": "#ffffff",
-        "surfaces": [
-          "#4e4e4e",
-          "#7c3bed",
-          "#8fbbfe",
-          "#60a5fa",
-          "#e3a008"
-        ],
-        "text": [
-          "#ffffff",
-          "#36d399",
-          "#000000"
-        ]
-      },
-      "buttons": [],
-      "contentWidth": 880
-    }
-  },
-  {
     "id": "langfuse-landing",
     "site": "Langfuse",
     "url": "https://langfuse.com",
@@ -28687,6 +29304,100 @@
         }
       ],
       "contentWidth": 800
+    }
+  },
+  {
+    "id": "lightmatter-landing",
+    "site": "Lightmatter",
+    "url": "https://lightmatter.co",
+    "type": "landing",
+    "tags": [
+      "light",
+      "lab-photo-hero",
+      "custom-display-type",
+      "ligature-letterforms",
+      "orange-accent",
+      "product-names-as-titles"
+    ],
+    "note": "A custom display face with odd joined letterforms ('PHOTONIC CHIPS FOR AI') set over a gloved hand in a chip lab, then product names (PASSAGE, GUIDE) used as big section titles in the same face with orange labels. Type designed for the company.",
+    "captured": "2026-11-23",
+    "screens": {
+      "desktop": {
+        "file": "screens/lightmatter-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/lightmatter-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Lightmatter® - The photonic (super)computer company.",
+      "fonts": [
+        "Object Sans",
+        "Inference Sans"
+      ],
+      "type": {
+        "h1": {
+          "font": "Inference Sans",
+          "size": 119,
+          "weight": "400",
+          "lineHeight": 1,
+          "letterSpacing": "-4.76px",
+          "color": "rgb(255, 255, 255)"
+        },
+        "h2": {
+          "font": "Inference Sans",
+          "size": 95,
+          "weight": "400",
+          "lineHeight": 1,
+          "letterSpacing": "-3.8px",
+          "color": "rgb(0, 0, 0)"
+        },
+        "h3": {
+          "font": "Inference Sans",
+          "size": 61,
+          "weight": "400",
+          "lineHeight": 1,
+          "letterSpacing": "-2.44px",
+          "color": "rgb(0, 0, 0)"
+        },
+        "body": {
+          "font": "Object Sans",
+          "size": 25,
+          "weight": "500",
+          "lineHeight": 1.4,
+          "letterSpacing": "normal",
+          "color": "rgb(255, 255, 255)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#ffffff"
+        ],
+        "text": [
+          "#000000",
+          "#ffffff",
+          "#ff3300"
+        ]
+      },
+      "buttons": [
+        {
+          "label": "View products",
+          "bg": "#ffffff",
+          "color": "#000000",
+          "radius": "0px",
+          "height": 57,
+          "paddingX": 24,
+          "font": "Object Sans",
+          "size": 18,
+          "weight": "500"
+        }
+      ],
+      "contentWidth": 1204
     }
   },
   {
@@ -31051,109 +31762,6 @@
     }
   },
   {
-    "id": "momentic-landing",
-    "site": "Momentic",
-    "url": "https://momentic.ai",
-    "type": "landing",
-    "tags": [],
-    "note": "",
-    "captured": "2026-11-23",
-    "screens": {
-      "desktop": {
-        "file": "screens/momentic-landing-desktop.jpg",
-        "width": 1440,
-        "height": 3600
-      },
-      "mobile": {
-        "file": "screens/momentic-landing-mobile.jpg",
-        "width": 390,
-        "height": 2600
-      }
-    },
-    "tokens": {
-      "title": "AI QA Engineer & AI Testing Platform | Momentic",
-      "fonts": [
-        "BDO Grotesk",
-        "Basically A Mono"
-      ],
-      "type": {
-        "h1": {
-          "font": "BDO Grotesk",
-          "size": 56,
-          "weight": "500",
-          "lineHeight": 1.08,
-          "letterSpacing": "-2.24px",
-          "color": "rgb(28, 28, 28)"
-        },
-        "h2": {
-          "font": "BDO Grotesk",
-          "size": 40,
-          "weight": "500",
-          "lineHeight": 1.2,
-          "letterSpacing": "-1.6px",
-          "color": "rgb(28, 28, 28)"
-        },
-        "h3": {
-          "font": "BDO Grotesk",
-          "size": 24,
-          "weight": "500",
-          "lineHeight": 1.32,
-          "letterSpacing": "-0.96px",
-          "color": "rgb(28, 28, 28)"
-        },
-        "body": {
-          "font": "BDO Grotesk",
-          "size": 13,
-          "weight": "400",
-          "lineHeight": 1.2,
-          "letterSpacing": "-0.2px",
-          "color": "rgb(255, 255, 255)"
-        }
-      },
-      "colors": {
-        "background": "#f5f3f2",
-        "surfaces": [
-          "#f5f3f2",
-          "#fbfbfb",
-          "#ffffff",
-          "#000000",
-          "#87f700"
-        ],
-        "text": [
-          "#1c1c1c",
-          "#737373",
-          "#ffffff",
-          "#7f806f"
-        ]
-      },
-      "buttons": [
-        {
-          "label": "Try for free",
-          "bg": "#87f700",
-          "color": "#1c1c1c",
-          "radius": "8px",
-          "height": 34,
-          "paddingX": 14,
-          "font": "BDO Grotesk",
-          "size": 14,
-          "weight": "500"
-        },
-        {
-          "label": "TRY FOR FREE",
-          "bg": "#87f700",
-          "color": "#1c1c1c",
-          "radius": "8px",
-          "height": 42,
-          "paddingX": 18,
-          "font": "Basically A Mono",
-          "size": 16,
-          "weight": "500"
-        }
-      ],
-      "contentWidth": 1440
-    }
-  },
-  {
     "id": "monarch-landing",
     "site": "Monarch",
     "url": "https://www.monarchmoney.com",
@@ -33282,6 +33890,88 @@
     }
   },
   {
+    "id": "oklo-landing",
+    "site": "Oklo",
+    "url": "https://www.oklo.com",
+    "type": "landing",
+    "tags": [
+      "dark",
+      "night-photography",
+      "architecture-photo",
+      "starry-sky",
+      "quiet-type",
+      "photo-cards"
+    ],
+    "note": "A nuclear company led by one night photograph: a glowing A-frame building under the stars, with almost no text over it. Then rendered buildings in daylight as cards for each business line. Nuclear power made warm and domestic.",
+    "captured": "2026-11-23",
+    "screens": {
+      "desktop": {
+        "file": "screens/oklo-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/oklo-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Oklo — Advanced fission power, fuel recycling and isotopes",
+      "fonts": [
+        "inter"
+      ],
+      "type": {
+        "h1": {
+          "font": "inter",
+          "size": 32,
+          "weight": "300",
+          "lineHeight": "normal",
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        },
+        "h2": {
+          "font": "inter",
+          "size": 19,
+          "weight": "700",
+          "lineHeight": 1.4,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        },
+        "h3": {
+          "font": "inter",
+          "size": 45,
+          "weight": "600",
+          "lineHeight": 1.2,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        },
+        "body": {
+          "font": "inter",
+          "size": 28,
+          "weight": "400",
+          "lineHeight": 1.5,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#ffffff",
+          "#000000",
+          "#6b7478"
+        ],
+        "text": [
+          "#000000",
+          "#ffffff"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": 1512
+    }
+  },
+  {
     "id": "olipop-landing",
     "site": "Olipop",
     "url": "https://drinkolipop.com",
@@ -34355,6 +35045,123 @@
       },
       "buttons": [],
       "contentWidth": 1050
+    }
+  },
+  {
+    "id": "paradedb-landing",
+    "site": "ParadeDB",
+    "url": "https://www.paradedb.com",
+    "type": "landing",
+    "tags": [
+      "blue-field",
+      "pixel-bar-chart",
+      "bordered-logo-grid",
+      "benchmark-bars",
+      "plain-headline"
+    ],
+    "note": "One saturated ultramarine field holds 'Just use Postgres', a pixelated bar chart melting from the bottom edge and a bordered grid of customer logos; below, real benchmark bars against Elasticsearch. A database with one colour and one claim.",
+    "captured": "2026-11-23",
+    "screens": {
+      "desktop": {
+        "file": "screens/paradedb-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/paradedb-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "ParadeDB — Just use Postgres",
+      "fonts": [
+        "Inter",
+        "ui-monospace",
+        "-apple-system"
+      ],
+      "type": {
+        "h1": {
+          "font": "Inter",
+          "size": 48,
+          "weight": "700",
+          "lineHeight": 1.15,
+          "letterSpacing": "-2.4px",
+          "color": "rgb(255, 255, 255)"
+        },
+        "h2": {
+          "font": "Inter",
+          "size": 36,
+          "weight": "600",
+          "lineHeight": 1.15,
+          "letterSpacing": "-0.9px",
+          "color": "oklch(0.208 0.042 265.755)"
+        },
+        "h3": {
+          "font": "-apple-system",
+          "size": 16,
+          "weight": "600",
+          "lineHeight": 1.5,
+          "letterSpacing": "-0.4px",
+          "color": "oklch(0.257 0.09 281.288)"
+        },
+        "body": {
+          "font": "Inter",
+          "size": 20,
+          "weight": "400",
+          "lineHeight": 1.4,
+          "letterSpacing": "normal",
+          "color": "rgb(255, 255, 255)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#ffffff"
+        ],
+        "text": [
+          "#ffffff",
+          "#4f46e5",
+          "#334155",
+          "#d97706"
+        ]
+      },
+      "buttons": [
+        {
+          "label": "",
+          "bg": "#ffffff",
+          "color": null,
+          "radius": "3.35544e+07px",
+          "height": 28,
+          "paddingX": 0,
+          "font": "Inter",
+          "size": 16,
+          "weight": "400"
+        },
+        {
+          "label": "Sign Up",
+          "bg": "#ffffff",
+          "color": null,
+          "radius": "0px",
+          "height": 36,
+          "paddingX": 16,
+          "font": "Inter",
+          "size": 14,
+          "weight": "500"
+        },
+        {
+          "label": "Get Started",
+          "bg": "#ffffff",
+          "color": null,
+          "radius": "0px",
+          "height": 40,
+          "paddingX": 16,
+          "font": "Inter",
+          "size": 16,
+          "weight": "500"
+        }
+      ],
+      "contentWidth": 1440
     }
   },
   {
@@ -35762,6 +36569,91 @@
         }
       ],
       "contentWidth": 1200
+    }
+  },
+  {
+    "id": "planet-landing",
+    "site": "Planet",
+    "url": "https://www.planet.com",
+    "type": "landing",
+    "tags": [
+      "dark-blue",
+      "satellite-hardware-render",
+      "earth-imagery-cards",
+      "3d-terrain-map",
+      "look-broader-closer-deeper"
+    ],
+    "note": "The product's output is the proof: satellite imagery cards (a river, a port, a soil-moisture chart) under 'Look broader. Look closer. Look deeper.', then a 3D terrain slab of Washington state. Earth data shown as Earth.",
+    "captured": "2026-11-23",
+    "screens": {
+      "desktop": {
+        "file": "screens/planet-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/planet-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Planet Labs: Satellite Imagery & Earth Data Analytics",
+      "fonts": [
+        "Gotham SSm A",
+        "Montserrat"
+      ],
+      "type": {
+        "h1": {
+          "font": "Montserrat",
+          "size": 76,
+          "weight": "200",
+          "lineHeight": 1.1,
+          "letterSpacing": "normal",
+          "color": "rgb(255, 255, 255)"
+        },
+        "h2": {
+          "font": "Gotham SSm A",
+          "size": 15,
+          "weight": "600",
+          "lineHeight": 1.2,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 157, 165)"
+        },
+        "h3": {
+          "font": "Gotham SSm A",
+          "size": 24,
+          "weight": "600",
+          "lineHeight": 1.5,
+          "letterSpacing": "normal",
+          "color": "rgb(255, 255, 255)"
+        },
+        "body": {
+          "font": "Gotham SSm A",
+          "size": 18,
+          "weight": "400",
+          "lineHeight": 1.5,
+          "letterSpacing": "normal",
+          "color": "rgb(255, 255, 255)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#000000",
+          "#252525",
+          "#ffffff",
+          "#07090a"
+        ],
+        "text": [
+          "#ffffff",
+          "#000000",
+          "#009da5",
+          "#4bcfe0"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": 1304
     }
   },
   {
@@ -38832,6 +39724,76 @@
     }
   },
   {
+    "id": "relativity-space-landing",
+    "site": "Relativity Space",
+    "url": "https://www.relativityspace.com",
+    "type": "landing",
+    "tags": [
+      "light",
+      "documentary-photo",
+      "rocket-on-crane",
+      "plain-headline",
+      "dark-product-band",
+      "stats-panel"
+    ],
+    "note": "A documentary photograph of a rocket stage hanging from a crane with workers below, then a plain two-line headline. The product band is dark, with the rocket laid across a giant outlined 'TERRAN R'.",
+    "captured": "2026-11-23",
+    "screens": {
+      "desktop": {
+        "file": "screens/relativity-space-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/relativity-space-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Relativity Space",
+      "fonts": [
+        "soehne-body",
+        "soehne-display",
+        "soehne-schmal-kraftig"
+      ],
+      "type": {
+        "h1": {
+          "font": "soehne-display",
+          "size": 39,
+          "weight": "600",
+          "lineHeight": 1.15,
+          "letterSpacing": "normal",
+          "color": "rgb(255, 255, 255)"
+        },
+        "h2": null,
+        "h3": null,
+        "body": {
+          "font": "soehne-body",
+          "size": 17,
+          "weight": "400",
+          "lineHeight": 1.65,
+          "letterSpacing": "normal",
+          "color": "rgb(64, 64, 64)"
+        }
+      },
+      "colors": {
+        "background": "#000000",
+        "surfaces": [
+          "#000000",
+          "#ffffff"
+        ],
+        "text": [
+          "#404040",
+          "#ffffff",
+          "#000000"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": 1600
+    }
+  },
+  {
     "id": "relay-x-v3-example",
     "site": "Relay X (worked example)",
     "url": "examples/relay-x/v3/index.html (local, not the live relay-x.com)",
@@ -40363,6 +41325,123 @@
     }
   },
   {
+    "id": "saronic-landing",
+    "site": "Saronic",
+    "url": "https://www.saronic.com",
+    "type": "landing",
+    "tags": [
+      "photo-hero",
+      "giant-wordmark",
+      "lime-accent",
+      "autonomous-ship",
+      "mono-caps",
+      "news-cards"
+    ],
+    "note": "A giant white wordmark set over a photo of an autonomous warship at speed, one acid-lime accent for the bar and buttons, mono caps eyebrows. Defence tech with the confidence of a sports brand.",
+    "captured": "2026-11-23",
+    "screens": {
+      "desktop": {
+        "file": "screens/saronic-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/saronic-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Home | Saronic Technologies",
+      "fonts": [
+        "__SuisseMono_68313c",
+        "__Suisse_ddcbba"
+      ],
+      "type": {
+        "h1": {
+          "font": "__SuisseMono_68313c",
+          "size": 21,
+          "weight": "400",
+          "lineHeight": 1.5,
+          "letterSpacing": "normal",
+          "color": "rgb(242, 246, 250)"
+        },
+        "h2": {
+          "font": "__Suisse_ddcbba",
+          "size": 54,
+          "weight": "400",
+          "lineHeight": 1.12,
+          "letterSpacing": "-1.07922px",
+          "color": "rgb(22, 32, 41)"
+        },
+        "h3": {
+          "font": "__Suisse_ddcbba",
+          "size": 40,
+          "weight": "400",
+          "lineHeight": 1.2,
+          "letterSpacing": "normal",
+          "color": "rgb(242, 246, 250)"
+        },
+        "body": {
+          "font": "__Suisse_ddcbba",
+          "size": 35,
+          "weight": "450",
+          "lineHeight": 1.2,
+          "letterSpacing": "-0.699608px",
+          "color": "rgb(242, 246, 250)"
+        }
+      },
+      "colors": {
+        "background": "#1b2733",
+        "surfaces": [
+          "#f2f6fa",
+          "#44505c",
+          "#acff24"
+        ],
+        "text": [
+          "#f2f6fa",
+          "#162029"
+        ]
+      },
+      "buttons": [
+        {
+          "label": "CAPABILITIES",
+          "bg": "#acff24",
+          "color": "#162029",
+          "radius": "4px",
+          "height": 48,
+          "paddingX": 24,
+          "font": "__SuisseMono_68313c",
+          "size": 12,
+          "weight": "400"
+        },
+        {
+          "label": "SPECIFICATIONS",
+          "bg": "#44505c",
+          "color": "#f2f6fa",
+          "radius": "4px",
+          "height": 48,
+          "paddingX": 24,
+          "font": "__SuisseMono_68313c",
+          "size": 12,
+          "weight": "400"
+        },
+        {
+          "label": "LEARN MORE",
+          "bg": "#acff24",
+          "color": "#162029",
+          "radius": "4px",
+          "height": 48,
+          "paddingX": 24,
+          "font": "__SuisseMono_68313c",
+          "size": 12,
+          "weight": "400"
+        }
+      ],
+      "contentWidth": 1280
+    }
+  },
+  {
     "id": "savee-landing",
     "site": "Savee",
     "url": "https://savee.it",
@@ -40674,6 +41753,90 @@
         }
       ],
       "contentWidth": 1600
+    }
+  },
+  {
+    "id": "science-corp-landing",
+    "site": "Science Corp",
+    "url": "https://science.xyz",
+    "type": "landing",
+    "tags": [
+      "light",
+      "landscape-photo-hero",
+      "lab-photography",
+      "rounded-photo-cards",
+      "serif-free",
+      "news-card-in-hero"
+    ],
+    "note": "A misty landscape with a flock of birds as the hero ('Transcend the limits of biology'), a news card about the product launch set in the corner, then rounded cards of real lab and device photographs with text over them.",
+    "captured": "2026-11-23",
+    "screens": {
+      "desktop": {
+        "file": "screens/science-corp-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/science-corp-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Science | Science Corporation",
+      "fonts": [
+        "Plain"
+      ],
+      "type": {
+        "h1": {
+          "font": "Plain",
+          "size": 45,
+          "weight": "200",
+          "lineHeight": 1.2,
+          "letterSpacing": "normal",
+          "color": "rgb(255, 255, 255)"
+        },
+        "h2": {
+          "font": "Plain",
+          "size": 35,
+          "weight": "200",
+          "lineHeight": 1.3,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        },
+        "h3": {
+          "font": "Plain",
+          "size": 23,
+          "weight": "200",
+          "lineHeight": 1.3,
+          "letterSpacing": "normal",
+          "color": "rgb(255, 255, 255)"
+        },
+        "body": {
+          "font": "Plain",
+          "size": 14,
+          "weight": "400",
+          "lineHeight": 1.3,
+          "letterSpacing": "0.7px",
+          "color": "rgb(255, 255, 255)"
+        }
+      },
+      "colors": {
+        "background": "#f4f4f4",
+        "surfaces": [
+          "#ffffff",
+          "#4d4d4d",
+          "#828282"
+        ],
+        "text": [
+          "#f4f4f4",
+          "#000000",
+          "#5b5b5b",
+          "#ffffff"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": 1140
     }
   },
   {
@@ -41122,6 +42285,98 @@
         ]
       },
       "buttons": [],
+      "contentWidth": 1440
+    }
+  },
+  {
+    "id": "shield-ai-landing",
+    "site": "Shield AI",
+    "url": "https://shield.ai",
+    "type": "landing",
+    "tags": [
+      "dark",
+      "giant-ghost-letters",
+      "hud-numerals",
+      "aircraft-photo",
+      "camouflage-texture",
+      "mono-tags"
+    ],
+    "note": "The aircraft's name 'BAT' runs vertically in giant ghost letters behind the headline, over a dark camouflage texture, with HUD-style framed numerals (156, 453, 30079) scattered like a cockpit display. The product's world becomes the page's type.",
+    "captured": "2026-11-23",
+    "screens": {
+      "desktop": {
+        "file": "screens/shield-ai-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/shield-ai-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Defense-Tech and Autonomous Aircraft | Shield",
+      "fonts": [
+        "KHTekaMono-Regular",
+        "Kern-StandardRegular"
+      ],
+      "type": {
+        "h1": {
+          "font": "Kern-StandardRegular",
+          "size": 100,
+          "weight": "400",
+          "lineHeight": 1,
+          "letterSpacing": "-4px",
+          "color": "rgb(255, 255, 255)"
+        },
+        "h2": {
+          "font": "Kern-StandardRegular",
+          "size": 76,
+          "weight": "400",
+          "lineHeight": 1,
+          "letterSpacing": "-3.04px",
+          "color": "rgb(255, 255, 255)"
+        },
+        "h3": null,
+        "body": {
+          "font": "KHTekaMono-Regular",
+          "size": 14,
+          "weight": "400",
+          "lineHeight": 1.43,
+          "letterSpacing": "0.98px",
+          "color": "rgb(122, 122, 122)"
+        }
+      },
+      "colors": {
+        "background": "#050506",
+        "surfaces": [
+          "#000000",
+          "#0f0f0f",
+          "#eaeaea",
+          "#050506",
+          "#1f1f1f"
+        ],
+        "text": [
+          "#ffffff",
+          "#eaeaea",
+          "#000000",
+          "#7a7a7a"
+        ]
+      },
+      "buttons": [
+        {
+          "label": "",
+          "bg": "#000000",
+          "color": "#ffffff",
+          "radius": "50%",
+          "height": 44,
+          "paddingX": 0,
+          "font": "Kern-StandardRegular",
+          "size": 15,
+          "weight": "400"
+        }
+      ],
       "contentWidth": 1440
     }
   },
@@ -41686,6 +42941,114 @@
     }
   },
   {
+    "id": "slate-auto-landing",
+    "site": "Slate Auto",
+    "url": "https://www.slate.auto",
+    "type": "landing",
+    "tags": [
+      "yellow-field",
+      "heavy-condensed-caps",
+      "studio-car-photo",
+      "black-bands",
+      "underlined-claims",
+      "price-as-headline"
+    ],
+    "note": "Flat yellow field, one studio photo of a plain truck and a heavy condensed caps claim with the key words underlined ('THE MOST AFFORDABLE TRUCK IN AMERICA'), then alternating black and grey bands with huge grey type ('GET IT HOW YOU WANT.'). Low-cost brand, loud voice.",
+    "captured": "2026-11-23",
+    "screens": {
+      "desktop": {
+        "file": "screens/slate-auto-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/slate-auto-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Slate Truck: Affordable Electric Pickup from $24,950 | Slate Auto",
+      "fonts": [
+        "__slateGeneralFont_636fef"
+      ],
+      "type": {
+        "h1": {
+          "font": "__slateGeneralFont_636fef",
+          "size": 80,
+          "weight": "900",
+          "lineHeight": 1,
+          "letterSpacing": "normal",
+          "color": "rgb(249, 249, 249)"
+        },
+        "h2": {
+          "font": "__slateGeneralFont_636fef",
+          "size": 48,
+          "weight": "900",
+          "lineHeight": 1,
+          "letterSpacing": "normal",
+          "color": "rgb(255, 255, 255)"
+        },
+        "h3": {
+          "font": "__slateGeneralFont_636fef",
+          "size": 32,
+          "weight": "900",
+          "lineHeight": 1.13,
+          "letterSpacing": "normal",
+          "color": "rgb(38, 38, 38)"
+        },
+        "body": {
+          "font": "__slateGeneralFont_636fef",
+          "size": 16,
+          "weight": "900",
+          "lineHeight": 1.5,
+          "letterSpacing": "normal",
+          "color": "rgb(83, 83, 83)"
+        }
+      },
+      "colors": {
+        "background": "#262626",
+        "surfaces": [
+          "#050505",
+          "#262626",
+          "#f9f9f9",
+          "#ff4f00"
+        ],
+        "text": [
+          "#ffffff",
+          "#f9f9f9",
+          "#535353",
+          "#cfcfcf"
+        ]
+      },
+      "buttons": [
+        {
+          "label": "Preorder",
+          "bg": "#ff4f00",
+          "color": "#262626",
+          "radius": "8px",
+          "height": 34,
+          "paddingX": 16,
+          "font": "__slateGeneralFont_636fef",
+          "size": 14,
+          "weight": "900"
+        },
+        {
+          "label": "PREORDER",
+          "bg": "#ff4f00",
+          "color": "#262626",
+          "radius": "8px",
+          "height": 51,
+          "paddingX": 32,
+          "font": "__slateGeneralFont_636fef",
+          "size": 16,
+          "weight": "900"
+        }
+      ],
+      "contentWidth": 1116
+    }
+  },
+  {
     "id": "snackpass-landing",
     "site": "Snackpass",
     "url": "https://www.snackpass.co",
@@ -41887,107 +43250,200 @@
     }
   },
   {
-    "id": "speakeasy-landing",
-    "site": "Speakeasy",
-    "url": "https://www.speakeasy.com",
+    "id": "spacex-landing",
+    "site": "SpaceX",
+    "url": "https://www.spacex.com",
     "type": "landing",
-    "tags": [],
-    "note": "",
+    "tags": [
+      "dark",
+      "launch-photography",
+      "mission-as-headline",
+      "heavy-caps",
+      "full-bleed-sections",
+      "dates-as-eyebrow"
+    ],
+    "note": "Each section is one full-bleed launch or hardware photograph with the mission name in heavy caps and the date above it ('STARSHIP FLIGHT 15', 'GO FOR ORBIT'). The homepage is a feed of missions, no marketing copy.",
     "captured": "2026-11-23",
     "screens": {
       "desktop": {
-        "file": "screens/speakeasy-landing-desktop.jpg",
+        "file": "screens/spacex-landing-desktop.jpg",
         "width": 1440,
         "height": 3600
       },
       "mobile": {
-        "file": "screens/speakeasy-landing-mobile.jpg",
+        "file": "screens/spacex-landing-mobile.jpg",
         "width": 390,
         "height": 2600
       }
     },
     "tokens": {
-      "title": "Govern and secure enterprise AI — Speakeasy",
+      "title": "SpaceX",
       "fonts": [
-        "ABCDiatype",
-        "ABCDiatypeMono",
-        "Tobias"
+        "D-DIN",
+        "D-DIN-Bold"
       ],
       "type": {
-        "h1": {
-          "font": "Tobias",
-          "size": 79,
-          "weight": "100",
-          "lineHeight": 1,
-          "letterSpacing": "-2.772px",
-          "color": "rgb(15, 10, 7)"
-        },
+        "h1": null,
         "h2": {
-          "font": "Tobias",
-          "size": 86,
-          "weight": "100",
-          "lineHeight": 1.02,
-          "letterSpacing": "-3.024px",
-          "color": "rgb(15, 10, 7)"
+          "font": "D-DIN-Bold",
+          "size": 60,
+          "weight": "400",
+          "lineHeight": 0.9,
+          "letterSpacing": "-1px",
+          "color": "rgb(240, 240, 250)"
         },
-        "h3": {
-          "font": "Tobias",
-          "size": 35,
-          "weight": "100",
-          "lineHeight": 1,
-          "letterSpacing": "-1.2096px",
-          "color": "rgb(15, 10, 7)"
-        },
+        "h3": null,
         "body": {
-          "font": "ABCDiatype",
+          "font": "D-DIN",
           "size": 16,
           "weight": "400",
           "lineHeight": 1.5,
-          "letterSpacing": "normal",
-          "color": "rgb(0, 0, 0)"
+          "letterSpacing": "0.32px",
+          "color": "rgb(240, 240, 250)"
         }
       },
       "colors": {
-        "background": "#fafafa",
+        "background": "#000000",
         "surfaces": [
-          "#fafafa",
-          "#ffffff",
-          "#242428",
-          "#121212",
-          "#c83228"
+          "#000000"
         ],
         "text": [
-          "#969696",
-          "#b22c23",
-          "#b25014",
-          "#44663c"
+          "#f0f0fa"
         ]
       },
       "buttons": [
         {
-          "label": "DEPLOY FOR FREE",
-          "bg": "#242428",
-          "color": "#fafafa",
-          "radius": "8px",
-          "height": 41,
-          "paddingX": 24,
-          "font": "ABCDiatypeMono",
-          "size": 14,
-          "weight": "300"
+          "label": "WATCH",
+          "bg": "#000000",
+          "color": "#f0f0fa",
+          "radius": "4px",
+          "height": 50,
+          "paddingX": 20,
+          "font": "D-DIN",
+          "size": 16,
+          "weight": "400"
         },
         {
-          "label": "AGENT VIEW",
-          "bg": "#fafafa",
-          "color": "#0f0a07",
-          "radius": "0px",
-          "height": 38,
-          "paddingX": 16,
-          "font": "ABCDiatypeMono",
-          "size": 12,
-          "weight": "300"
+          "label": "WATCH NOW",
+          "bg": "#000000",
+          "color": "#f0f0fa",
+          "radius": "4px",
+          "height": 50,
+          "paddingX": 20,
+          "font": "D-DIN",
+          "size": 16,
+          "weight": "400"
         }
       ],
-      "contentWidth": 1250
+      "contentWidth": 802
+    }
+  },
+  {
+    "id": "span-landing",
+    "site": "Span",
+    "url": "https://www.span.io",
+    "type": "landing",
+    "tags": [
+      "dark",
+      "product-photography",
+      "stacked-headline",
+      "hexagon-press-badges",
+      "device-lineup"
+    ],
+    "note": "A heavy three-line headline beside a photograph of electrical panels, press quotes as hexagonal badges, and the hardware lineup photographed side by side on black. A home electrical panel sold like premium audio gear.",
+    "captured": "2026-11-23",
+    "screens": {
+      "desktop": {
+        "file": "screens/span-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/span-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "SPAN® | Smart Electrical Panels",
+      "fonts": [
+        "Graphik"
+      ],
+      "type": {
+        "h1": {
+          "font": "Graphik",
+          "size": 36,
+          "weight": "600",
+          "lineHeight": 1.17,
+          "letterSpacing": "normal",
+          "color": "rgb(255, 255, 255)"
+        },
+        "h2": {
+          "font": "Graphik",
+          "size": 68,
+          "weight": "600",
+          "lineHeight": 1,
+          "letterSpacing": "normal",
+          "color": "rgb(31, 31, 31)"
+        },
+        "h3": {
+          "font": "Graphik",
+          "size": 36,
+          "weight": "600",
+          "lineHeight": 1.11,
+          "letterSpacing": "normal",
+          "color": "rgb(31, 31, 31)"
+        },
+        "body": {
+          "font": "Graphik",
+          "size": 32,
+          "weight": "400",
+          "lineHeight": 1.34,
+          "letterSpacing": "normal",
+          "color": "rgb(111, 112, 112)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#0e0f0c",
+          "#f5f5f5",
+          "#fafafa",
+          "#0cb560",
+          "#efefef"
+        ],
+        "text": [
+          "#ffffff",
+          "#1f1f1f",
+          "#6f7070",
+          "#fafafa"
+        ]
+      },
+      "buttons": [
+        {
+          "label": "Upgrade Panel",
+          "bg": "#0cb560",
+          "color": "#ffffff",
+          "radius": "24px",
+          "height": 40,
+          "paddingX": 16,
+          "font": "Graphik",
+          "size": 16,
+          "weight": "700"
+        },
+        {
+          "label": "Explore SPAN Panel",
+          "bg": "#fafafa",
+          "color": "#1f1f1f",
+          "radius": "24px",
+          "height": 40,
+          "paddingX": 16,
+          "font": "Graphik",
+          "size": 16,
+          "weight": "700"
+        }
+      ],
+      "contentWidth": 1400
     }
   },
   {
@@ -42493,6 +43949,87 @@
         }
       ],
       "contentWidth": 1328
+    }
+  },
+  {
+    "id": "stoke-space-landing",
+    "site": "Stoke Space",
+    "url": "https://www.stokespace.com",
+    "type": "landing",
+    "tags": [
+      "dark",
+      "extended-heavy-caps",
+      "rocket-test-photo",
+      "full-bleed-photo",
+      "red-accent",
+      "engineering-index"
+    ],
+    "note": "Very wide, heavy extended caps ('SEAMLESS MOBILITY TO, THROUGH, AND FROM SPACE') over a photograph of an engine test, then a rocket stage hovering against a blue sky. Type as loud as the engine.",
+    "captured": "2026-11-23",
+    "screens": {
+      "desktop": {
+        "file": "screens/stoke-space-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/stoke-space-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Stoke Space — Any Orbit. Any Time.",
+      "fonts": [
+        "interDisplay",
+        "Druk Wide Web"
+      ],
+      "type": {
+        "h1": {
+          "font": "Druk Wide Web",
+          "size": 79,
+          "weight": "500",
+          "lineHeight": 1,
+          "letterSpacing": "-1.57154px",
+          "color": "rgb(242, 242, 242)"
+        },
+        "h2": {
+          "font": "Druk Wide Web",
+          "size": 56,
+          "weight": "500",
+          "lineHeight": 1,
+          "letterSpacing": "-1.11692px",
+          "color": "rgb(242, 242, 242)"
+        },
+        "h3": {
+          "font": "interDisplay",
+          "size": 20,
+          "weight": "400",
+          "lineHeight": 1.3,
+          "letterSpacing": "normal",
+          "color": "rgb(242, 242, 242)"
+        },
+        "body": {
+          "font": "interDisplay",
+          "size": 11,
+          "weight": "400",
+          "lineHeight": 1,
+          "letterSpacing": "1.37077px",
+          "color": "rgb(242, 242, 242)"
+        }
+      },
+      "colors": {
+        "background": "#000000",
+        "surfaces": [
+          "#f2f2f2"
+        ],
+        "text": [
+          "#f2f2f2",
+          "#000000"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": 1060
     }
   },
   {
@@ -44421,6 +45958,159 @@
     }
   },
   {
+    "id": "tavus-landing",
+    "site": "Tavus",
+    "url": "https://www.tavus.io",
+    "type": "landing",
+    "tags": [
+      "light",
+      "pixelated-sky",
+      "serif-italic-word",
+      "classical-hands",
+      "video-call-ui",
+      "pink-accents"
+    ],
+    "note": "A pixel-dithered sky with a live video call UI, then Michelangelo's two hands reaching across a pink cloud ('Imagine a future with machines that get you'). Bold classical reference for a human-like AI.",
+    "captured": "2026-11-23",
+    "screens": {
+      "desktop": {
+        "file": "screens/tavus-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/tavus-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Tavus: The Human Computing Company",
+      "fonts": [
+        "Suisse Intl",
+        "Fk Raster Grotesk Compact Blended",
+        "Perfectlynineties"
+      ],
+      "type": {
+        "h1": {
+          "font": "Perfectlynineties",
+          "size": 88,
+          "weight": "400",
+          "lineHeight": 1,
+          "letterSpacing": "normal",
+          "color": "rgb(40, 41, 42)"
+        },
+        "h2": {
+          "font": "Perfectlynineties",
+          "size": 70,
+          "weight": "400",
+          "lineHeight": 1,
+          "letterSpacing": "normal",
+          "color": "rgb(40, 41, 42)"
+        },
+        "h3": {
+          "font": "Perfectlynineties",
+          "size": 40,
+          "weight": "400",
+          "lineHeight": 1.1,
+          "letterSpacing": "normal",
+          "color": "rgb(40, 41, 42)"
+        },
+        "body": {
+          "font": "Suisse Intl",
+          "size": 16,
+          "weight": "400",
+          "lineHeight": 1.5,
+          "letterSpacing": "normal",
+          "color": "rgb(40, 41, 42)"
+        }
+      },
+      "colors": {
+        "background": "#f7f4ef",
+        "surfaces": [
+          "#eae5de",
+          "#f7f4ef",
+          "#f6c1a8",
+          "#ff8ba6",
+          "#ffffff"
+        ],
+        "text": [
+          "#28292a",
+          "#222222"
+        ]
+      },
+      "buttons": [
+        {
+          "label": "",
+          "bg": "#f7f4ef",
+          "color": "#333333",
+          "radius": "0px",
+          "height": 50,
+          "paddingX": 24,
+          "font": "Suisse Intl",
+          "size": 16,
+          "weight": "400"
+        },
+        {
+          "label": "VISION",
+          "bg": "#fffdfb",
+          "color": "#28292a",
+          "radius": "0px",
+          "height": 50,
+          "paddingX": 24,
+          "font": "Fk Raster Grotesk Compact Blended",
+          "size": 14,
+          "weight": "400"
+        },
+        {
+          "label": "PRICING",
+          "bg": "#fffdfb",
+          "color": "#28292a",
+          "radius": "0px",
+          "height": 50,
+          "paddingX": 24,
+          "font": "Fk Raster Grotesk Compact Blended",
+          "size": 14,
+          "weight": "400"
+        },
+        {
+          "label": "LOGIN",
+          "bg": "#ffffff",
+          "color": "#222222",
+          "radius": "0px",
+          "height": 50,
+          "paddingX": 24,
+          "font": "Fk Raster Grotesk Compact Blended",
+          "size": 14,
+          "weight": "400"
+        },
+        {
+          "label": "GET STARTED",
+          "bg": "#ff6183",
+          "color": "#222222",
+          "radius": "0px",
+          "height": 50,
+          "paddingX": 24,
+          "font": "Fk Raster Grotesk Compact Blended",
+          "size": 14,
+          "weight": "400"
+        },
+        {
+          "label": "START BUILDING",
+          "bg": "#ff6183",
+          "color": "#28292a",
+          "radius": "0px",
+          "height": 57,
+          "paddingX": 24,
+          "font": "Fk Raster Grotesk Compact Blended",
+          "size": 14,
+          "weight": "400"
+        }
+      ],
+      "contentWidth": 1440
+    }
+  },
+  {
     "id": "teenage-engineering-landing",
     "site": "Teenage Engineering",
     "url": "https://teenage.engineering",
@@ -44909,6 +46599,153 @@
         }
       ],
       "contentWidth": 672
+    }
+  },
+  {
+    "id": "tenstorrent-landing",
+    "site": "Tenstorrent",
+    "url": "https://tenstorrent.com",
+    "type": "landing",
+    "tags": [
+      "light",
+      "hardware-photography",
+      "yellow-buttons",
+      "hand-in-frame",
+      "product-cards",
+      "warm-grey"
+    ],
+    "note": "Hands installing a card in a rack, a big light headline over it, and product cards (cards, workstations, servers) each with a real photograph and a yellow buy button. Hardware sold like consumer products.",
+    "captured": "2026-11-23",
+    "screens": {
+      "desktop": {
+        "file": "screens/tenstorrent-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/tenstorrent-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Tenstorrent",
+      "fonts": [
+        "unicaPro",
+        "berkeleyMono",
+        "degularDisplay"
+      ],
+      "type": {
+        "h1": {
+          "font": "degularDisplay",
+          "size": 96,
+          "weight": "300",
+          "lineHeight": 1,
+          "letterSpacing": "normal",
+          "color": "rgb(251, 251, 249)"
+        },
+        "h2": {
+          "font": "degularDisplay",
+          "size": 64,
+          "weight": "300",
+          "lineHeight": 1,
+          "letterSpacing": "normal",
+          "color": "rgb(32, 31, 30)"
+        },
+        "h3": null,
+        "body": {
+          "font": "unicaPro",
+          "size": 16,
+          "weight": "400",
+          "lineHeight": 1.3,
+          "letterSpacing": "normal",
+          "color": "rgb(251, 251, 249)"
+        }
+      },
+      "colors": {
+        "background": "#f5f4ef",
+        "surfaces": [
+          "#797263",
+          "#fbfbf9",
+          "#70c4e1",
+          "#ffc757",
+          "#000000"
+        ],
+        "text": [
+          "#201f1e",
+          "#575247",
+          "#fbfbf9"
+        ]
+      },
+      "buttons": [
+        {
+          "label": "Contact Sales",
+          "bg": "#ffc757",
+          "color": "#201f1e",
+          "radius": "8px",
+          "height": 32,
+          "paddingX": 12,
+          "font": "berkeleyMono",
+          "size": 12,
+          "weight": "700"
+        },
+        {
+          "label": "LLM Solutions",
+          "bg": "#ffc757",
+          "color": "#201f1e",
+          "radius": "8px",
+          "height": 48,
+          "paddingX": 24,
+          "font": "berkeleyMono",
+          "size": 16,
+          "weight": "700"
+        },
+        {
+          "label": "AI Video Solutions",
+          "bg": "#70c4e1",
+          "color": "#201f1e",
+          "radius": "8px",
+          "height": 48,
+          "paddingX": 24,
+          "font": "berkeleyMono",
+          "size": 16,
+          "weight": "700"
+        },
+        {
+          "label": "Buy Blackhole®",
+          "bg": "#70c4e1",
+          "color": "#201f1e",
+          "radius": "8px",
+          "height": 48,
+          "paddingX": 24,
+          "font": "berkeleyMono",
+          "size": 16,
+          "weight": "700"
+        },
+        {
+          "label": "Buy TT-QuietBox®",
+          "bg": "#70c4e1",
+          "color": "#201f1e",
+          "radius": "8px",
+          "height": 48,
+          "paddingX": 24,
+          "font": "berkeleyMono",
+          "size": 16,
+          "weight": "700"
+        },
+        {
+          "label": "Explore Tenstorrent Galaxy™",
+          "bg": "#70c4e1",
+          "color": "#201f1e",
+          "radius": "8px",
+          "height": 48,
+          "paddingX": 24,
+          "font": "berkeleyMono",
+          "size": 16,
+          "weight": "700"
+        }
+      ],
+      "contentWidth": 1536
     }
   },
   {
@@ -49123,6 +50960,116 @@
       },
       "buttons": [],
       "contentWidth": 1100
+    }
+  },
+  {
+    "id": "zep-landing",
+    "site": "Zep",
+    "url": "https://www.getzep.com",
+    "type": "landing",
+    "tags": [
+      "light",
+      "landscape-painting-hero",
+      "serif-display",
+      "product-window-in-painting",
+      "purple-accent"
+    ],
+    "note": "A romantic landscape painting (forest, mountains, golden light) fills the hero with a serif headline over it, and the product window sits in the painting. Agent infrastructure framed by classical art.",
+    "captured": "2026-11-23",
+    "screens": {
+      "desktop": {
+        "file": "screens/zep-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/zep-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Zep | The enterprise context layer for agents",
+      "fonts": [
+        "neueMontreal",
+        "neueMontrealMono",
+        "martinaPlantijn"
+      ],
+      "type": {
+        "h1": {
+          "font": "martinaPlantijn",
+          "size": 88,
+          "weight": "400",
+          "lineHeight": 1.1,
+          "letterSpacing": "-1.76px",
+          "color": "rgb(255, 255, 255)"
+        },
+        "h2": {
+          "font": "martinaPlantijn",
+          "size": 48,
+          "weight": "400",
+          "lineHeight": 1.08,
+          "letterSpacing": "-0.96px",
+          "color": "rgb(26, 26, 26)"
+        },
+        "h3": {
+          "font": "martinaPlantijn",
+          "size": 28,
+          "weight": "400",
+          "lineHeight": 1.1,
+          "letterSpacing": "-0.559968px",
+          "color": "rgb(26, 26, 26)"
+        },
+        "body": {
+          "font": "neueMontreal",
+          "size": 20,
+          "weight": "400",
+          "lineHeight": 1.55,
+          "letterSpacing": "-0.1px",
+          "color": "rgb(255, 255, 255)"
+        }
+      },
+      "colors": {
+        "background": "#faf9f5",
+        "surfaces": [
+          "#5e5b51",
+          "#f2eee7",
+          "#1c1428",
+          "#faf9f5",
+          "#2a2236"
+        ],
+        "text": [
+          "#ffffff",
+          "#4a4a4a",
+          "#1a1a1a",
+          "#4f2d7f"
+        ]
+      },
+      "buttons": [
+        {
+          "label": "Request a Demo",
+          "bg": "#4f2d7f",
+          "color": "#ffffff",
+          "radius": "6px",
+          "height": 40,
+          "paddingX": 16,
+          "font": "neueMontreal",
+          "size": 14,
+          "weight": "500"
+        },
+        {
+          "label": "Request a Demo",
+          "bg": "#4f2d7f",
+          "color": "#ffffff",
+          "radius": "6px",
+          "height": 52,
+          "paddingX": 24,
+          "font": "neueMontreal",
+          "size": 16,
+          "weight": "500"
+        }
+      ],
+      "contentWidth": 1312
     }
   },
   {

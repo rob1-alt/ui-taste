@@ -6562,5 +6562,345 @@
    "trial-table"
   ],
   "note": "A strip of collaged photographs (crowds, birds, equations) behind the bracketed [SCRIBD] wordmark and a big search field. Knowledge shown as a collage of subjects."
+ },
+ {
+  "site": "Deepgram",
+  "type": "landing",
+  "url": "https://deepgram.com",
+  "tags": [
+   "dark-to-light",
+   "material-photography",
+   "purple-field",
+   "3d-objects",
+   "stacked-capability-list"
+  ],
+  "note": "A purple field with photographed material objects (a red clay waveform, a chrome speaker grille, a rock slab) standing in for audio: sound made tactile. The stack is a big grey list where one item lights up at a time."
+ },
+ {
+  "site": "Zep",
+  "type": "landing",
+  "url": "https://www.getzep.com",
+  "tags": [
+   "light",
+   "landscape-painting-hero",
+   "serif-display",
+   "product-window-in-painting",
+   "purple-accent"
+  ],
+  "note": "A romantic landscape painting (forest, mountains, golden light) fills the hero with a serif headline over it, and the product window sits in the painting. Agent infrastructure framed by classical art."
+ },
+ {
+  "site": "ParadeDB",
+  "type": "landing",
+  "url": "https://www.paradedb.com",
+  "tags": [
+   "blue-field",
+   "pixel-bar-chart",
+   "bordered-logo-grid",
+   "benchmark-bars",
+   "plain-headline"
+  ],
+  "note": "One saturated ultramarine field holds 'Just use Postgres', a pixelated bar chart melting from the bottom edge and a bordered grid of customer logos; below, real benchmark bars against Elasticsearch. A database with one colour and one claim."
+ },
+ {
+  "site": "Etched",
+  "type": "landing",
+  "url": "https://www.etched.com",
+  "tags": [
+   "light",
+   "hardware-photo",
+   "machine-as-hero",
+   "long-form-essay",
+   "no-colour"
+  ],
+  "note": "A photograph from under a server rack (cables like a chandelier) above a plain headline, then the hardware cabinet beside a long essay in small type. A chip company that lets the machine and the argument carry it."
+ },
+ {
+  "site": "Tenstorrent",
+  "type": "landing",
+  "url": "https://tenstorrent.com",
+  "tags": [
+   "light",
+   "hardware-photography",
+   "yellow-buttons",
+   "hand-in-frame",
+   "product-cards",
+   "warm-grey"
+  ],
+  "note": "Hands installing a card in a rack, a big light headline over it, and product cards (cards, workstations, servers) each with a real photograph and a yellow buy button. Hardware sold like consumer products."
+ },
+ {
+  "site": "Isomorphic Labs",
+  "type": "landing",
+  "url": "https://www.isomorphiclabs.com",
+  "tags": [
+   "light",
+   "molecular-render",
+   "halftone-dots",
+   "mint-palette",
+   "small-headline",
+   "scientist-portrait"
+  ],
+  "note": "A soft cloud-like protein render with halftone teal dots and a DNA strand as the hero, the headline small in the corner ('Solve all disease'). Science shown as beauty, then a scientist's portrait with a long quote."
+ },
+ {
+  "site": "Science Corp",
+  "type": "landing",
+  "url": "https://science.xyz",
+  "tags": [
+   "light",
+   "landscape-photo-hero",
+   "lab-photography",
+   "rounded-photo-cards",
+   "serif-free",
+   "news-card-in-hero"
+  ],
+  "note": "A misty landscape with a flock of birds as the hero ('Transcend the limits of biology'), a news card about the product launch set in the corner, then rounded cards of real lab and device photographs with text over them."
+ },
+ {
+  "site": "Commonwealth Fusion",
+  "type": "landing",
+  "url": "https://cfs.energy",
+  "tags": [
+   "dark-to-taupe",
+   "machine-photography",
+   "thin-type",
+   "bordered-nav",
+   "technical-drawing",
+   "numbered-figures"
+  ],
+  "note": "Close photographs of the fusion magnet's metal surfaces, light thin type, a nav of bordered cells, then a taupe section with numbered photo figures and an engineering line drawing of the tokamak. Industrial science as an atlas."
+ },
+ {
+  "site": "Tavus",
+  "type": "landing",
+  "url": "https://www.tavus.io",
+  "tags": [
+   "light",
+   "pixelated-sky",
+   "serif-italic-word",
+   "classical-hands",
+   "video-call-ui",
+   "pink-accents"
+  ],
+  "note": "A pixel-dithered sky with a live video call UI, then Michelangelo's two hands reaching across a pink cloud ('Imagine a future with machines that get you'). Bold classical reference for a human-like AI."
+ },
+ {
+  "site": "Baseten",
+  "type": "landing",
+  "url": "https://www.baseten.co",
+  "tags": [
+   "light",
+   "isometric-blocks",
+   "green-and-lilac",
+   "colour-logo-cells",
+   "large-statement"
+  ],
+  "note": "An isometric city of green and lilac blocks (models, GPUs, deployments) beside a heavy headline; customer logos as bordered cells with a few in brand colour; a long statement paragraph set large."
+ },
+ {
+  "site": "Oklo",
+  "type": "landing",
+  "url": "https://www.oklo.com",
+  "tags": [
+   "dark",
+   "night-photography",
+   "architecture-photo",
+   "starry-sky",
+   "quiet-type",
+   "photo-cards"
+  ],
+  "note": "A nuclear company led by one night photograph: a glowing A-frame building under the stars, with almost no text over it. Then rendered buildings in daylight as cards for each business line. Nuclear power made warm and domestic."
+ },
+ {
+  "site": "Slate Auto",
+  "type": "landing",
+  "url": "https://www.slate.auto",
+  "tags": [
+   "yellow-field",
+   "heavy-condensed-caps",
+   "studio-car-photo",
+   "black-bands",
+   "underlined-claims",
+   "price-as-headline"
+  ],
+  "note": "Flat yellow field, one studio photo of a plain truck and a heavy condensed caps claim with the key words underlined ('THE MOST AFFORDABLE TRUCK IN AMERICA'), then alternating black and grey bands with huge grey type ('GET IT HOW YOU WANT.'). Low-cost brand, loud voice."
+ },
+ {
+  "site": "Hermeus",
+  "type": "landing",
+  "url": "https://www.hermeus.com",
+  "tags": [
+   "light-grey",
+   "aircraft-macro-photo",
+   "tiny-headline",
+   "giant-section-titles",
+   "engineering-close-up"
+  ],
+  "note": "The hero is an extreme close-up of an aircraft's engine and tail with the headline set tiny and faded inside the photo; scale comes from the machine, not the type. Section titles ('Mission') are then set huge."
+ },
+ {
+  "site": "Saronic",
+  "type": "landing",
+  "url": "https://www.saronic.com",
+  "tags": [
+   "photo-hero",
+   "giant-wordmark",
+   "lime-accent",
+   "autonomous-ship",
+   "mono-caps",
+   "news-cards"
+  ],
+  "note": "A giant white wordmark set over a photo of an autonomous warship at speed, one acid-lime accent for the bar and buttons, mono caps eyebrows. Defence tech with the confidence of a sports brand."
+ },
+ {
+  "site": "Relativity Space",
+  "type": "landing",
+  "url": "https://www.relativityspace.com",
+  "tags": [
+   "light",
+   "documentary-photo",
+   "rocket-on-crane",
+   "plain-headline",
+   "dark-product-band",
+   "stats-panel"
+  ],
+  "note": "A documentary photograph of a rocket stage hanging from a crane with workers below, then a plain two-line headline. The product band is dark, with the rocket laid across a giant outlined 'TERRAN R'."
+ },
+ {
+  "site": "K2 Space",
+  "type": "landing",
+  "url": "https://www.k2space.com",
+  "tags": [
+   "dark",
+   "blue-tinted-factory-photo",
+   "giant-headline",
+   "statement-paragraph",
+   "photo-carousel"
+  ],
+  "note": "A giant 'Build Bigger' over a blue-tinted factory photograph, then a long statement paragraph set large ('Scale changes what's possible...') and photo cards for factory and launch. One idea, said big."
+ },
+ {
+  "site": "Span",
+  "type": "landing",
+  "url": "https://www.span.io",
+  "tags": [
+   "dark",
+   "product-photography",
+   "stacked-headline",
+   "hexagon-press-badges",
+   "device-lineup"
+  ],
+  "note": "A heavy three-line headline beside a photograph of electrical panels, press quotes as hexagonal badges, and the hardware lineup photographed side by side on black. A home electrical panel sold like premium audio gear."
+ },
+ {
+  "site": "Archer",
+  "type": "landing",
+  "url": "https://archer.com",
+  "tags": [
+   "photo-hero",
+   "wide-tracked-caps",
+   "aircraft-in-flight",
+   "rounded-photo-cards",
+   "soft-blue"
+  ],
+  "note": "An eVTOL photographed in flight over a soft landscape under a thin, widely tracked caps headline, then large rounded photo cards per aircraft with small caps names. Calm, cinematic aviation."
+ },
+ {
+  "site": "Shield AI",
+  "type": "landing",
+  "url": "https://shield.ai",
+  "tags": [
+   "dark",
+   "giant-ghost-letters",
+   "hud-numerals",
+   "aircraft-photo",
+   "camouflage-texture",
+   "mono-tags"
+  ],
+  "note": "The aircraft's name 'BAT' runs vertically in giant ghost letters behind the headline, over a dark camouflage texture, with HUD-style framed numerals (156, 453, 30079) scattered like a cockpit display. The product's world becomes the page's type."
+ },
+ {
+  "site": "SpaceX",
+  "type": "landing",
+  "url": "https://www.spacex.com",
+  "tags": [
+   "dark",
+   "launch-photography",
+   "mission-as-headline",
+   "heavy-caps",
+   "full-bleed-sections",
+   "dates-as-eyebrow"
+  ],
+  "note": "Each section is one full-bleed launch or hardware photograph with the mission name in heavy caps and the date above it ('STARSHIP FLIGHT 15', 'GO FOR ORBIT'). The homepage is a feed of missions, no marketing copy."
+ },
+ {
+  "site": "Stoke Space",
+  "type": "landing",
+  "url": "https://www.stokespace.com",
+  "tags": [
+   "dark",
+   "extended-heavy-caps",
+   "rocket-test-photo",
+   "full-bleed-photo",
+   "red-accent",
+   "engineering-index"
+  ],
+  "note": "Very wide, heavy extended caps ('SEAMLESS MOBILITY TO, THROUGH, AND FROM SPACE') over a photograph of an engine test, then a rocket stage hovering against a blue sky. Type as loud as the engine."
+ },
+ {
+  "site": "Planet",
+  "type": "landing",
+  "url": "https://www.planet.com",
+  "tags": [
+   "dark-blue",
+   "satellite-hardware-render",
+   "earth-imagery-cards",
+   "3d-terrain-map",
+   "look-broader-closer-deeper"
+  ],
+  "note": "The product's output is the proof: satellite imagery cards (a river, a port, a soil-moisture chart) under 'Look broader. Look closer. Look deeper.', then a 3D terrain slab of Washington state. Earth data shown as Earth."
+ },
+ {
+  "site": "Lightmatter",
+  "type": "landing",
+  "url": "https://lightmatter.co",
+  "tags": [
+   "light",
+   "lab-photo-hero",
+   "custom-display-type",
+   "ligature-letterforms",
+   "orange-accent",
+   "product-names-as-titles"
+  ],
+  "note": "A custom display face with odd joined letterforms ('PHOTONIC CHIPS FOR AI') set over a gloved hand in a chip lab, then product names (PASSAGE, GUIDE) used as big section titles in the same face with orange labels. Type designed for the company."
+ },
+ {
+  "site": "Extropic",
+  "type": "landing",
+  "url": "https://www.extropic.ai",
+  "tags": [
+   "dark",
+   "material-macro-photo",
+   "glowing-gradient-type",
+   "crosshair-marks",
+   "chip-photography",
+   "amber-palette"
+  ],
+  "note": "A macro photograph of a warm, textured chip surface under 'THERMODYNAMIC COMPUTING' with the first word glowing amber; crosshair marks and a few chip photos below. Physics made tactile: the material is the image."
+ },
+ {
+  "site": "Arc Institute",
+  "type": "landing",
+  "url": "https://arcinstitute.org",
+  "tags": [
+   "light",
+   "serif-display",
+   "dna-dot-illustration",
+   "research-feed",
+   "figure-thumbnails",
+   "blue-accent"
+  ],
+  "note": "A research institute whose homepage is its papers: a dotted DNA helix beside a serif headline, then a dated feed of featured research, each with a small figure from the paper as its thumbnail. Science shown by its outputs."
  }
 ]

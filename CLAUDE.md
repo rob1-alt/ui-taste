@@ -10,7 +10,8 @@ Grow the library to about 1000 landing pages, kept to sites with real design qua
 
 Every time screens are added to the library (one site or a batch), the same session must finish all of these before calling the work done:
 
-1. **Look at every new screen** (desktop and mobile) before writing anything. Drop captures that are broken, blocked (bot walls, blank, cookie walls) or that teach nothing.
+1. **Triage, then look**: a Haiku subagent does the first pass on the review sheets (BROKEN / GENERIC / CANDIDATE with draft tags; it is good at spotting bot walls, modals and blanks and lenient on taste). Then look yourself at every CANDIDATE: the keep/drop call on taste, the note and the skill update stay with the main model.
+   **Look at every new screen** (desktop and mobile) before writing anything. Drop captures that are broken, blocked (bot walls, blank, cookie walls) or that teach nothing.
 2. **Metadata** (write the review as a notes file and run `python3 ingest/apply_review.py notes.txt batch.json`): real `tags` (patterns, reusing existing tag names where they fit) and a `note` that says what decision to learn, not a description. Write them in `skills/ui-taste/scripts/sources.json` (the source of truth, re-capturable) and in `skills/ui-taste/library/index.json`.
 3. **Update the skill itself** with what the batch teaches:
    - `references/taste-rules.md`: new rules or new examples for existing rules (cite the sites).
