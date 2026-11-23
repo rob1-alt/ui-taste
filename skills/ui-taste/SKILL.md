@@ -1,6 +1,6 @@
 ---
 name: ui-taste
-description: Give the agent UI taste before it builds an interface, and build marketing landing pages in the image-sandwich style (product window set into a full-bleed scene). Use whenever you design, build, restyle or review a user interface or set up a design system (tokens, colour scales, type scale, DESIGN.md) (landing page, pricing page, dashboard, docs, changelog, login, settings, component, mobile screen), when the user says the UI looks generic, "AI-made", bland or off, or asks to make it look like Linear, Stripe, Vercel or another well-designed product. Looks up real screens captured from strong products, with the fonts, type scale, colours, radii and widths they really use, then builds from the project's own design system and checks the rendered result against an anti-slop checklist.
+description: Give the agent UI taste before it builds an interface, and build landing pages that are distinctive rather than templated (three concepts from different directions, one signature move). Use whenever you design, build, restyle or review a user interface or set up a design system (tokens, colour scales, type scale, DESIGN.md) (landing page, pricing page, dashboard, docs, changelog, login, settings, component, mobile screen), when the user says the UI looks generic, "AI-made", bland or off, or asks to make it look like Linear, Stripe, Vercel or another well-designed product. Looks up real screens captured from strong products, with the fonts, type scale, colours, radii and widths they really use, then builds from the project's own design system and checks the rendered result against an anti-slop checklist.
 ---
 
 # UI taste
@@ -50,7 +50,9 @@ Apply the decision with the project's components and tokens. Keep to these defau
 
 ### Landing pages
 
-For a marketing landing page, unless the project's brand already points elsewhere, build the **image sandwich** in `references/landing-recipe.md`: a full-bleed scene (sky, hills, dusk canopy, duotone engraving, collage), the real product window set into it, and the foreground of the scene drawn over the bottom of the window; a two-line serif or tight grotesk headline, one filled button, white proof on the foreground. Start from `assets/landing-hero/` and look at the eight references first (`find_refs.py "image sandwich" --limit 8`). The image makes or breaks it: use the user's imagery or generate it, and prepare layers with `scripts/backdrop.py` (foreground cut-out, duotone halftone, colour grade). The drawn SVG layers in the template are placeholders.
+A landing page must not look like the last one you built, nor like the current AI look (cream, serif with an italic word, mono micro-labels, pills; see `references/anti-slop.md`). Follow `references/landing-concepts.md`: collect the real assets first (product screens at full fidelity, photos, customer and partner logos, people), then find the raw material (the product's edge, its own medium, the customer's world, the brand's tension), propose three concepts from three different directions (poster, colour field, the product is the page, object and photography, editorial, illustrated world, brutalist, quiet product-first, image sandwich), recommend one, give it one signature move nobody else would make, and carry it through every section. Quiet product-first and the image sandwich are the defaults to resist: use them only when they clearly fit, never as two of the three concepts. The image sandwich has its own recipe in `references/landing-recipe.md` and a template in `assets/landing-hero/`. Before calling a landing done, run the Distinctiveness checks in `references/anti-slop.md`.
+
+Photos, artworks, illustrations and 3D belong to the client: never generate or fake them. Use the images the brand already has, design image slots with art direction for the rest (`data-slot`, ratio, tone, brief), show a calm placeholder while a slot is empty, and say which slots wait for what. When the client places their files, run `scripts/slots.py` on the page, look at each image, and adapt crop, text colour, veil and accent to it. See `references/imagery.md`.
 
 ### 4. Review what you rendered
 
@@ -78,8 +80,11 @@ Only add screens that teach a decision, and write the note: what to learn, not a
 - `references/taste-rules.md`: the rules behind good interfaces, with examples from the library.
 - `references/anti-slop.md`: the review checklist.
 - `references/brief-template.md`: a short brief to fill before building a new screen.
-- `references/landing-recipe.md`: the image-sandwich landing (anatomy, scenes, images, sections below, checks).
-- `assets/landing-hero/`: a working landing template built on that recipe.
+- `references/landing-concepts.md`: how to get a distinctive landing (raw material, three concepts, directions, signature move, what a landing may break).
+- `references/landing-recipe.md`: one direction in detail, the image-sandwich landing (anatomy, scenes, images, sections below, checks).
+- `assets/landing-hero/`: a working template for the image-sandwich direction only.
 - `scripts/backdrop.py`: foreground cut-out, halftone duotone and colour grade for hero images.
+- `scripts/slots.py`: list a page's image slots and measure the client's images (ratio, brightness, text colour, palette).
+- `references/imagery.md`: who provides images, how to design slots with art direction, how to adapt the page once images arrive.
 - `references/design-systems.md`: how to set up or clean up a design system (tokens, colour, type, space, shape, motion, components).
 - `assets/DESIGN.md`: the template to write it down.

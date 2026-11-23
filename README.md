@@ -45,8 +45,9 @@ Claude then opens the screenshot with its Read tool and looks at it before decid
 |---|---|---|
 | landing | 166 | 1Password, Affinity, Airtable, Alan, Amie, Anthropic, Apple, Are.na, Asana, Astro, Attio, Axiom, Basecamp, beehiiv, Bezi, Bolt, Brex, Browserbase, Bun, Cal.com, Capacities, Cash App, Clay, CleanShot, Clerk, Coda, Cognition, Convex, Cosmos, Craft, Cursor, Daylight, Decagon, Delphi, Deno, Descript, Devin, Dia, Discord, Dub, Duolingo, ElevenLabs, Expo, Factory, fal, Family, Fathom, Figma, Fly.io, folk, Frame.io, Framer, Ghost, Ghostty, GitHub, Glossier, Granola, Gumroad, Harvey, Headspace, Heptabase, Hex, HEY, Hugging Face, Ideogram, Inngest, Intercom, Jitter, Kagi, Lindy, Linear, Liveblocks, Loom, Loops, Luma AI, Mailchimp, Mercury, Mintlify, Miro, Mistral AI, Mobbin, Modal, Monzo, mymind, N26, n8n, Neon, Netlify, Notion, Oatly, Obsidian, Oura, Paddle, Panic, Partiful, Pennylane, Penpot, Pentagram, Perplexity, Phantom, Pika, Pitch, Plain, PlanetScale, Plausible, Playdate, Polar, PostHog, Prisma, Procreate, Proton, Qonto, Railway, Rainbow, Ramp, Raycast, Readwise Reader, Reflect, Render, Replicate, Resend, Retool, Rive, Rows, Runway, Sanity, SavvyCal, Screen Studio, Sentry, Shopify, Sierra, Sketch, Slack, Soundtrap, Spline, Spotify, Steel, Stripe, Stripe Press, Suno, Sunsama, Supabase, Superhuman, Svelte, Tailscale, Tana, Teenage Engineering, Tella, Temporal, Things, Tinybird, Trigger.dev, Turso, Twenty, Typefully, Upstash, v0, Vectary, Vercel, Warp, Webflow, Weekrise, Whimsical, Wise, WorkOS, Zed |
 | pricing | 27 | Attio, Cal.com, Clerk, Cursor, Dub, Figma, Framer, Ghost, Kagi, Linear, Loops, n8n, Netlify, Notion, Obsidian, PostHog, Railway, Raycast, Render, Resend, Sentry, Stripe, Tailscale, Vercel, Warp, Webflow, Zed |
-| dashboard | 9 | Fathom, GitHub, OpenPanel, Plausible, shadcn/ui, Simple Analytics, Tailwind Catalyst, Tremor |
-| status page | 4 | GitHub, Linear, OpenStatus, Vercel |
+| dashboard | 15 | Artificial Analysis, Fathom, GitHub, Mercury, OpenPanel, Plausible, shadcn/ui, Simple Analytics, Tailwind Catalyst, Tremor, ultrasound.money, Umami, Uniswap |
+| app screen | 10 | Cal.com, FotMob, GitHub, Hugging Face, Hyperliquid, Our World in Data, Robinhood, Spotify, Yr |
+| status page | 8 | Anthropic, GitHub, Linear, OpenAI, OpenStatus, Resend, Stripe, Vercel |
 | design system | 29 | Adobe Spectrum, Apple HIG, Atlassian Design System, Base UI, Duolingo Design, GitHub Primer, GitLab Pajamas, GOV.UK Design System, IBM Carbon, Material 3, Microsoft Fluent 2, Radix, React Aria, shadcn/ui, Shopify Polaris, Uber Base, Untitled UI, Vercel Geist, Wise Design |
 | 404 page | 6 | GitHub, Oura, Polar, Raycast, Resend, Stripe |
 | about | 5 | Linear, Notion, PostHog, Stripe |
@@ -62,7 +63,7 @@ Claude then opens the screenshot with its Read tool and looks at it before decid
 | customers | 2 | Linear, Vercel |
 | blog | 2 | Linear, Vercel |
 
-**286 pages from 191 sites and design systems, each captured on desktop and mobile (572 screenshots).**
+**306 pages from 201 sites and design systems, each captured on desktop and mobile (612 screenshots).**
 
 Every screen is captured at 1440px (desktop, first 3600px) and 390px (mobile), with cookie banners refused and chat widgets hidden. Tokens are read from the browser's computed styles: fonts, h1/h2/h3/body sizes, line heights and tracking, background, surface and text colours by area covered, button fill, radius, height and padding, and content width.
 
@@ -91,6 +92,12 @@ Every screen is captured at 1440px (desktop, first 3600px) and 390px (mobile), w
 ### Dashboard
 
 ![dashboard](docs/dashboard.jpg)
+
+### App screens
+
+Product screens from other domains: banking, trading, weather, music, sport, scheduling, CI, roadmaps.
+
+![app](docs/app.jpg)
 
 ### Status page
 
@@ -154,9 +161,12 @@ Every screen is captured at 1440px (desktop, first 3600px) and 390px (mobile), w
 
 ## Landing pages
 
-Ask for a landing page and the skill builds the **image sandwich**: a full-bleed scene, the real product window set into it, and the front of the scene drawn over the bottom of the window. The recipe is in `skills/ui-taste/references/landing-recipe.md`, eight reference landings of this family are in the library (`find_refs.py "image sandwich"`), a working template is in `skills/ui-taste/assets/landing-hero/`, and `scripts/backdrop.py` prepares the images (foreground cut-out, halftone duotone, colour grade).
+Ask for a landing page and the skill does not reach for a template. It finds the raw material first (what the product does that others do not, its own medium, the customer's world), proposes three concepts from three different directions (poster, colour field, the product as the hero, object and photography, editorial, illustrated world, brutalist, image sandwich…), recommends one and gives it a signature move that would look wrong on any other product's site. A swap test closes the review: with a competitor's logo on it, the page should stop working. The process is in `skills/ui-taste/references/landing-concepts.md`.
 
-![The landing template](docs/landing-template.jpg)
+Photos, artworks and illustrations stay the client's: the skill never fakes them. It uses the images the brand already has, designs image slots with an art-direction brief for the rest (an empty slot shows its brief, not a fake), and once the client drops their files in, `scripts/slots.py` measures each one (ratio, brightness, text colour, palette) so the page is adapted to it: crop, text colour, veil, accent. See `skills/ui-taste/references/imagery.md`.
+
+The image sandwich is one of those directions, with its own recipe (`references/landing-recipe.md`), eight reference landings (`find_refs.py "image sandwich"`), a template (`assets/landing-hero/`) and `scripts/backdrop.py` to prepare the images.
+
 
 ## Browse the library
 
@@ -218,12 +228,15 @@ skills/ui-taste/
     anti-slop.md           the review checklist
     brief-template.md      a short brief before building a screen
     design-systems.md      how to set up or clean up a design system
+    landing-concepts.md    distinctive landings: real assets, three concepts, signature move
+    imagery.md             image slots, art direction, adapting to the client's images
   assets/
     DESIGN.md              the template to write a design system down
   scripts/
     find_refs.py           search the library
     capture.py             add or refresh screens (Playwright)
     contact_sheet.py       build the README sheets
+    slots.py               list image slots, measure the client's images
     sources.json           the pages in the library
   library/
     index.json             screens, patterns, notes, measured tokens

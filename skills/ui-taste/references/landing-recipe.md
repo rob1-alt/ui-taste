@@ -1,6 +1,6 @@
 # Landing recipe: the image sandwich
 
-Use this for a marketing landing page when the project has no stronger brand direction of its own. It is the family of heroes in the library tagged `image-sandwich-family` (MeetSense, Qredible, Opero, Torqe, Xenora, Nelson, Orbit, Synais):
+This is one of the directions in `references/landing-concepts.md`, not the default. Use it when a concept built on it won against two concepts from other directions. It is the family of heroes in the library tagged `image-sandwich-family` (MeetSense, Qredible, Opero, Torqe, Xenora, Nelson, Orbit, Synais):
 
 ```bash
 python3 scripts/find_refs.py "image sandwich" --limit 8
@@ -51,7 +51,7 @@ One brand colour at most. The image carries the colour; the UI stays white, blac
 
 The look depends on the image. In order of preference:
 
-1. **The user's own photography or brand imagery.** Ask for it.
+1. **The user's own photography or brand imagery.** Ask for it, and set the backdrop and foreground as image slots so it drops in later (`references/imagery.md`).
 2. **Generated images** with an image model (GPT Image, Flux, Seedream; in this setup through `treg`). Ask for two plates of the same scene so the layers line up:
    - backdrop: “wide 16:9 photograph of … , soft morning light, large empty sky in the upper half, no text, no people”
    - foreground: the same prompt plus “only the foreground hills, everything above them transparent” (or generate one image and cut it, see 3).

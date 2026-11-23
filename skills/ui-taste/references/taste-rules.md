@@ -71,3 +71,5 @@ The strongest landing pages in the library each commit to one family and carry i
 | The product is the page | a prompt box or the tool itself as the hero | v0, Pitch, Retool, Rive, Ghostty |
 
 Take: choose the family that fits the brand before choosing components, then search the library inside it (`find_refs.py "serif display"`, `"brutalist"`, `"illustration-brand"`). Mixing families (a brutalist grid with soft 3D blobs and a serif headline) is what makes a page look assembled rather than designed.
+
+The rules above (one accent, restrained type, neutral surfaces) are the floor for product UI. A landing page can go further inside its family: a saturated colour field, a 200px display face, a broken grid. See `references/landing-concepts.md` for what a landing may break and what it never breaks.
