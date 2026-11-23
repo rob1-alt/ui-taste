@@ -1,0 +1,515 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>CUBO · Concorde, la mémoire de vos projets de construction</title>
+<meta name="description" content="Concorde by CUBO collecte, structure et croise les données de tous les outils d'une opération de construction, puis les exploite pour la piloter. Plateforme IA native, développée et hébergée en France.">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+/* ---------- tokens: CUBO's own colours, sampled from its logo ---------- */
+:root{
+  --navy:#334070; --navy-d:#232c52; --night:#151a33; --night-2:#1d2342;
+  --peach:#fbcbb2; --peach-2:#fde4d6; --teal:#62baae; --teal-d:#2a8a7e; --teal-bg:#e9f6f4;
+  --paper:#f6f4ef; --white:#fff; --red:#d8513a;
+  --ink:#1d2340; --ink-2:#4f5674; --ink-3:#737a95;
+  --on-dark:#fff; --on-dark-2:rgba(255,255,255,.8); --on-dark-3:rgba(255,255,255,.66);
+  --line:#e6e4ee; --line-dark:rgba(255,255,255,.14);
+  --s2:8px;--s3:12px;--s4:16px;--s5:24px;--s6:32px;--s7:48px;--s8:64px;--s9:96px;--s10:136px;
+  --r-ctl:999px; --r-card:16px; --r-sm:10px;
+  --max:1200px; --gutter:48px;
+  --mono:"JetBrains Mono",ui-monospace,monospace;
+}
+*{box-sizing:border-box;margin:0}
+html{scroll-behavior:smooth}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{animation:none!important;transition:none!important}}
+body{font:400 17px/1.6 Manrope,system-ui,sans-serif;color:var(--ink);background:var(--paper);-webkit-font-smoothing:antialiased;overflow-x:clip}
+a{color:inherit;text-decoration:none}
+img{display:block;max-width:100%}
+:focus-visible{outline:2px solid var(--teal);outline-offset:3px;border-radius:4px}
+.wrap{max-width:var(--max);margin:0 auto;padding:0 var(--gutter)}
+.mono{font-family:var(--mono)}
+h1,h2,h3{font-weight:800;letter-spacing:-.035em;line-height:1.02}
+h2{font-size:56px}
+.lede{font-size:19px;line-height:1.6}
+.pad{padding:var(--s10) 0}
+.kick{font:500 12px/1 var(--mono);letter-spacing:.1em;text-transform:uppercase}
+
+.btn{display:inline-flex;align-items:center;gap:10px;min-height:48px;padding:0 22px;border-radius:var(--r-ctl);font-weight:700;font-size:16px;transition:transform .15s}
+.btn:hover{transform:translateY(-1px)}
+.btn-peach{background:var(--peach);color:var(--navy-d)}
+.btn-navy{background:var(--navy);color:#fff}
+.link{font-weight:700;border-bottom:2px solid currentColor;padding-bottom:1px}
+
+/* citation chip: the signature, used everywhere a claim needs its source */
+sup.c{display:inline-grid;place-items:center;min-width:20px;height:20px;padding:0 5px;border-radius:5px;background:var(--teal-bg);color:var(--teal-d);font:500 11px/1 var(--mono);margin-left:2px;vertical-align:3px}
+.on-dark sup.c{background:rgba(98,186,174,.2);color:#9fe0d6}
+
+/* ---------- redesign banner ---------- */
+.redo{background:var(--peach);color:var(--navy-d);display:flex;align-items:center;justify-content:center;gap:12px;min-height:40px;padding:8px var(--gutter);font-size:14px;text-align:center}
+.redo b{font-weight:800}
+.redo a{text-decoration:underline;text-underline-offset:3px;white-space:nowrap}
+.redo i{width:8px;height:8px;border-radius:50%;background:var(--teal);flex:none}
+
+/* ---------- 0 · hero: ask the project ---------- */
+.hero{position:relative;background:var(--night);color:#fff;overflow:hidden}
+.hero .ph{position:absolute;right:0;top:0;bottom:0;width:50%;background:url(assets/tertiaire.webp) 50% 50%/cover;opacity:.55;
+  -webkit-mask-image:linear-gradient(90deg,transparent,#000 45%);mask-image:linear-gradient(90deg,transparent,#000 45%)}
+nav{position:relative;z-index:3;display:flex;align-items:center;gap:32px;height:84px;padding:0 var(--gutter);max-width:1440px;margin:0 auto;font-weight:500;font-size:15px;color:var(--on-dark-2)}
+nav .logo{width:46px;height:46px}
+nav ul{display:flex;gap:28px;list-style:none;padding:0}
+nav a:hover{color:#fff}
+nav .r{margin-left:auto;display:flex;gap:22px;align-items:center}
+nav .lang{font:500 13px/1 var(--mono)}
+.hero .wrap{position:relative;z-index:2;padding-top:var(--s8);padding-bottom:var(--s9)}
+.hero h1{font-size:76px;max-width:900px}
+.hero h1 em{font-style:normal;color:var(--peach)}
+.hero .lede{margin-top:var(--s5);max-width:640px;color:var(--on-dark-2)}
+.hero .actions{display:flex;gap:var(--s5);align-items:center;margin-top:var(--s6);flex-wrap:wrap}
+/* the chat */
+.ask{margin-top:var(--s8);background:var(--white);color:var(--ink);border-radius:20px;box-shadow:0 50px 90px -30px rgba(0,0,0,.65);overflow:hidden;max-width:1040px}
+.ask .q{display:flex;align-items:center;gap:14px;padding:18px 24px;border-bottom:1px solid var(--line);font-size:18px;font-weight:700}
+.av{flex:none;width:32px;height:32px;border-radius:50%;background:#e6e8f2;display:grid;place-items:center;font-size:12px;font-weight:800;color:var(--navy)}
+.ask .a{display:grid;grid-template-columns:1fr 330px}
+.ask .txt{padding:22px 26px 24px}
+.sam{display:flex;align-items:center;gap:10px;font-weight:800;font-size:14px;color:var(--navy)}
+.sam i{width:28px;height:28px;border-radius:8px;background:var(--peach);display:grid;place-items:center;font-style:normal;font-size:13px}
+.ask .txt p{margin-top:12px;font-size:16.5px;line-height:1.65;color:#30364f}
+.ask .src{background:#f7f7fb;border-left:1px solid var(--line);padding:18px;display:grid;gap:10px;align-content:start}
+.ask .src h4{font:500 11px/1 var(--mono);letter-spacing:.08em;text-transform:uppercase;color:var(--ink-2)}
+.doc{display:grid;grid-template-columns:22px 1fr;gap:10px;align-items:start;background:#fff;border:1px solid var(--line);border-radius:var(--r-sm);padding:10px 12px;transition:border-color .2s,box-shadow .2s}
+.doc b{display:block;font-size:13.5px;font-weight:800}
+.doc span{font:400 11.5px/1.4 var(--mono);color:var(--ink-2)}
+.doc .n{display:grid;place-items:center;width:22px;height:22px;border-radius:5px;background:var(--teal-bg);color:var(--teal-d);font:500 11px/1 var(--mono)}
+.doc.on{border-color:var(--teal);box-shadow:0 0 0 3px rgba(98,186,174,.18)}
+.ill{margin-top:14px;font:400 12px/1.4 var(--mono);color:var(--ink-3)}
+.typing::after{content:"▍";color:var(--teal);animation:caret .8s steps(2) infinite}
+@keyframes caret{50%{opacity:0}}
+.trust{position:relative;z-index:2;display:flex;align-items:center;gap:var(--s5);margin-top:var(--s7)}
+.trust span{font:500 12px/1 var(--mono);letter-spacing:.1em;text-transform:uppercase;color:var(--on-dark-3)}
+.trust .lg{background:#fff;border-radius:10px;padding:8px 14px}
+.trust img{height:30px;width:auto}
+
+/* ---------- 1 · five questions nobody's tool answers ---------- */
+.questions h2{max-width:860px}
+.questions .lede{margin-top:var(--s5);max-width:680px;color:var(--ink-2)}
+.qa{margin-top:var(--s8);display:grid;gap:var(--s4)}
+.qa article{display:grid;grid-template-columns:1fr 1fr;gap:0;background:var(--white);border:1px solid var(--line);border-radius:var(--r-card);overflow:hidden}
+.qa .who{display:flex;gap:14px;padding:22px 24px;align-items:flex-start}
+.qa .who p{font-size:20px;font-weight:700;line-height:1.35;letter-spacing:-.01em}
+.qa .who small{display:block;margin-top:6px;font:500 12px/1.4 var(--mono);color:var(--red);letter-spacing:.02em}
+.qa .ans{padding:22px 24px;background:#f9f9fc;border-left:1px solid var(--line)}
+.qa .ans p{margin-top:8px;font-size:16px;color:#30364f}
+
+/* ---------- 2 · the drift, on the schedule (concept C) ---------- */
+.drift{background:var(--paper);background-image:linear-gradient(rgba(51,64,112,.07) 1px,transparent 1px),linear-gradient(90deg,rgba(51,64,112,.07) 1px,transparent 1px);background-size:80px 40px}
+.drift .head{display:grid;grid-template-columns:1fr 420px;gap:var(--s8);align-items:end}
+.drift h2{color:var(--navy)}
+.drift .lede{color:var(--ink-2)}
+.gantt{position:relative;margin-top:var(--s7);background:rgba(255,255,255,.85);border:1px solid rgba(51,64,112,.18);border-radius:12px;overflow:hidden}
+.months{display:grid;grid-template-columns:180px repeat(9,1fr);font:500 12px/1 var(--mono);color:var(--ink-2);border-bottom:1px solid rgba(51,64,112,.15)}
+.months div{padding:12px 10px;border-left:1px solid rgba(51,64,112,.1)} .months div:first-child{border-left:0}
+.lane{display:grid;grid-template-columns:180px 1fr;align-items:center;border-bottom:1px solid rgba(51,64,112,.08);height:50px}
+.lane .n{padding:0 14px;font-weight:800;font-size:14px;color:var(--navy)}
+.lane .t{position:relative;height:100%}
+.bar{position:absolute;top:15px;height:20px;border-radius:5px;background:var(--navy)}
+.bar.done{background:var(--teal)} .bar.ghost{background:transparent;border:2px dashed rgba(51,64,112,.35)} .bar.late{background:var(--red);transform-origin:left;transition:transform 1s cubic-bezier(.2,.8,.2,1)}
+.gantt.wait .bar.late{transform:scaleX(.18)}
+.today{position:absolute;top:0;bottom:0;width:2px;background:var(--navy-d);z-index:3}
+.today span{position:absolute;top:8px;left:6px;font:500 11px/1 var(--mono);background:var(--navy-d);color:#fff;padding:4px 6px;border-radius:3px;white-space:nowrap}
+.pins{display:flex;gap:12px;padding:12px 14px 0 194px;flex-wrap:wrap}
+.pin{position:relative;z-index:4;max-width:none;flex:1;min-width:240px;background:#fff;border:1px solid rgba(51,64,112,.2);border-radius:var(--r-sm);padding:10px 12px;box-shadow:0 16px 30px -16px rgba(35,44,82,.45);font-size:13px;transition:opacity .5s .9s,transform .5s .9s}
+.gantt.wait .pin{opacity:0;transform:translateY(6px)}
+.pin b{display:block;font-weight:800}
+.pin span{font:400 11.5px/1.45 var(--mono);color:var(--ink-2)}
+.pin.alert{border-color:var(--red)} .pin.alert b{color:var(--red)}
+.legend{display:flex;flex-wrap:wrap;gap:18px;padding:12px 14px;font:400 12px/1 var(--mono);color:var(--ink-2)}
+.legend i{display:inline-block;width:12px;height:12px;border-radius:3px;vertical-align:-2px;margin-right:6px}
+
+/* ---------- 3 · the memory: disciplines crossed ---------- */
+.memory{background:var(--navy-d);color:#fff}
+.memory .wrap{display:grid;grid-template-columns:5fr 7fr;gap:var(--s9);align-items:center}
+.memory .lede{margin-top:var(--s5);color:var(--on-dark-2)}
+.disc{display:flex;flex-wrap:wrap;gap:10px;margin-top:var(--s6)}
+.disc button{font:inherit;font-size:15px;font-weight:700;color:var(--on-dark-2);background:transparent;border:1px solid var(--line-dark);border-radius:999px;padding:8px 14px;cursor:pointer}
+.disc button[aria-pressed="true"]{background:var(--peach);color:var(--navy-d);border-color:var(--peach)}
+.cross{background:var(--night-2);border:1px solid var(--line-dark);border-radius:20px;padding:var(--s6)}
+.cross .k{color:var(--peach)}
+.cross h3{margin-top:var(--s3);font-size:30px}
+.cross > p{margin-top:var(--s3);color:var(--on-dark-2)}
+.cross ul{list-style:none;padding:0;margin-top:var(--s5);display:grid;gap:10px}
+.cross li{display:grid;grid-template-columns:200px 1fr;gap:var(--s4);padding:14px 0;border-top:1px solid var(--line-dark)}
+.cross li b{font-weight:800}
+.cross li span{color:var(--on-dark-2)}
+.hint{margin-top:var(--s4);font:400 12px/1.4 var(--mono);color:var(--on-dark-3)}
+
+/* ---------- 4 · Concorde: four ways to use the memory ---------- */
+.concorde h2{max-width:780px}
+.concorde .lede{margin-top:var(--s5);max-width:660px;color:var(--ink-2)}
+.four{margin-top:var(--s8);display:grid;grid-template-columns:repeat(2,1fr);gap:var(--s4)}
+.four article{background:var(--white);border:1px solid var(--line);border-radius:var(--r-card);padding:var(--s6)}
+.four .k{color:var(--teal-d)}
+.four h3{margin-top:var(--s3);font-size:26px}
+.four ul{margin-top:var(--s4);padding-left:18px;color:var(--ink-2);display:grid;gap:6px}
+.four article:first-child{background:var(--peach-2);border-color:transparent}
+
+/* ---------- 5 · engineers on site ---------- */
+.deploy .wrap{display:grid;grid-template-columns:5fr 7fr;gap:var(--s9)}
+.deploy .lede{margin-top:var(--s5);color:var(--ink-2)}
+.steps{counter-reset:s;border-top:1px solid var(--line)}
+.steps div{display:grid;grid-template-columns:56px 200px 1fr;gap:var(--s4);padding:var(--s5) 0;border-bottom:1px solid var(--line);align-items:baseline}
+.steps div::before{counter-increment:s;content:counter(s,decimal-leading-zero);font:500 13px/1 var(--mono);color:var(--teal-d)}
+.steps b{font-weight:800;font-size:18px}
+.steps span{color:var(--ink-2)}
+
+/* ---------- 6 · three actors, three risks ---------- */
+.actors{background:var(--white)}
+.actors h2{max-width:720px}
+.actors .lede{margin-top:var(--s5);max-width:720px;color:var(--ink-2)}
+.three{margin-top:var(--s8);display:grid;grid-template-columns:repeat(3,1fr);gap:var(--s4)}
+.three article{border:1px solid var(--line);border-radius:var(--r-card);padding:var(--s6);display:flex;flex-direction:column}
+.three h3{font-size:24px}
+.three .roles{margin-top:var(--s3);font:500 12px/1.6 var(--mono);color:var(--ink-3)}
+.three blockquote{margin-top:var(--s5);font-size:20px;font-weight:700;line-height:1.35;letter-spacing:-.01em;color:var(--navy);flex:1}
+.three a{margin-top:var(--s5);align-self:flex-start}
+
+/* ---------- 7 · sovereignty ---------- */
+.sov{background:var(--night);color:#fff}
+.sov .wrap{display:grid;grid-template-columns:5fr 7fr;gap:var(--s9)}
+.sov .lede{margin-top:var(--s5);color:var(--on-dark-2)}
+.facts{border-top:1px solid var(--line-dark)}
+.facts div{display:grid;grid-template-columns:200px 1fr;gap:var(--s5);padding:var(--s5) 0;border-bottom:1px solid var(--line-dark)}
+.facts b{font-weight:800} .facts p{color:var(--on-dark-2)}
+
+/* ---------- 8 · sectors ---------- */
+.sectors .grid{margin-top:var(--s7);display:grid;grid-template-columns:repeat(4,1fr);gap:var(--s4)}
+.sectors figure{border-radius:var(--r-card);overflow:hidden;background:var(--white);border:1px solid var(--line)}
+.sectors img{aspect-ratio:4/3;object-fit:cover;width:100%}
+.sectors figcaption{padding:var(--s4) var(--s5) var(--s5)}
+.sectors figcaption b{display:block;font-weight:800;font-size:19px}
+.sectors figcaption span{color:var(--ink-2);font-size:15px}
+
+/* ---------- 9 · FAQ ---------- */
+.faq .wrap{display:grid;grid-template-columns:5fr 7fr;gap:var(--s9)}
+.faq details{border-bottom:1px solid var(--line)} .faq details:first-child{border-top:1px solid var(--line)}
+.faq summary{list-style:none;cursor:pointer;display:flex;justify-content:space-between;gap:var(--s4);padding:var(--s5) 0;font-size:20px;font-weight:700;letter-spacing:-.01em}
+.faq summary::-webkit-details-marker{display:none}
+.faq summary::after{content:"+";font-weight:400;font-size:26px;line-height:1;color:var(--ink-3)}
+.faq details[open] summary::after{content:"–"}
+.faq details p{padding:0 0 var(--s5);color:var(--ink-2);max-width:640px}
+
+/* ---------- 10 · contact ---------- */
+.final{background:var(--peach);color:var(--navy-d)}
+.final .wrap{display:grid;grid-template-columns:7fr 5fr;gap:var(--s8);align-items:end}
+.final h2{font-size:72px}
+.final .lede{color:var(--navy)}
+.final .actions{display:flex;gap:var(--s5);align-items:center;margin-top:var(--s5);flex-wrap:wrap}
+footer.site{background:var(--night);color:var(--on-dark-2);padding:var(--s8) 0 var(--s6);font-size:15px}
+footer.site .wrap{display:grid;grid-template-columns:2fr 1fr 1fr;gap:var(--s6)}
+footer.site .logo{width:56px}
+footer.site h4{font:500 12px/1 var(--mono);letter-spacing:.1em;text-transform:uppercase;color:var(--on-dark-3);margin-bottom:var(--s3)}
+footer.site ul{list-style:none;padding:0;display:grid;gap:6px}
+footer.site .legal{grid-column:1/-1;margin-top:var(--s6);padding-top:var(--s4);border-top:1px solid var(--line-dark);font-size:13px;color:var(--on-dark-3);display:flex;gap:var(--s5);flex-wrap:wrap}
+
+/* ---------- mobile ---------- */
+@media (max-width:900px){
+  :root{--gutter:16px}
+  h2,.final h2{font-size:38px}
+  .lede{font-size:17px}
+  .pad{padding:var(--s9) 0}
+  nav{height:68px;gap:14px} nav ul,nav .lang{display:none}
+  nav .btn{min-height:44px;padding:0 16px;font-size:15px}
+  .hero .ph{width:100%;opacity:.25;-webkit-mask-image:linear-gradient(#000,transparent 70%);mask-image:linear-gradient(#000,transparent 70%)}
+  .hero .wrap{padding-top:var(--s6);padding-bottom:var(--s8)}
+  .hero h1{font-size:44px}
+  .ask .a{grid-template-columns:1fr}
+  .ask .src{border-left:0;border-top:1px solid var(--line)}
+  .ask .q{font-size:16px;padding:16px}
+  .ask .txt{padding:18px 16px}
+  .trust{flex-wrap:wrap;gap:14px}
+  .qa article{grid-template-columns:1fr}
+  .qa .ans{border-left:0;border-top:1px solid var(--line)}
+  .qa .who p{font-size:18px}
+  .drift .head,.memory .wrap,.deploy .wrap,.sov .wrap,.faq .wrap,.final .wrap{grid-template-columns:1fr;gap:var(--s6)}
+  .gantt{overflow-x:auto}
+  .gantt-in{min-width:820px;position:relative}
+  .cross li,.facts div{grid-template-columns:1fr;gap:4px}
+  .four,.three{grid-template-columns:1fr}
+  .steps div{grid-template-columns:40px 1fr}
+  .steps span{grid-column:2}
+  .sectors .grid{grid-template-columns:1fr 1fr}
+}
+@media (max-width:560px){
+  .sectors .grid{grid-template-columns:1fr}
+  .faq summary{font-size:18px}
+  footer.site .wrap{grid-template-columns:1fr 1fr}
+  footer.site .claim{grid-column:1/-1}
+}
+</style>
+</head>
+<body>
+<div class="redo" role="note"><i aria-hidden="true"></i><p><b>On reprend le site de CUBO.</b> Proposition de refonte en cours, ce n’est pas le site officiel. <a href="https://cubo-solutions.fr">Le site actuel&nbsp;→</a></p></div>
+
+<!-- 0 · ask the project -->
+<header class="hero on-dark">
+  <div class="ph" aria-hidden="true"></div>
+  <nav aria-label="Principale">
+    <a href="#" aria-label="CUBO Solutions, accueil"><img class="logo" src="assets/cubo-logo-640.webp" alt="CUBO Solutions"></a>
+    <ul><li><a href="#concorde">Concorde</a></li><li><a href="#deploiement">Déploiement</a></li><li><a href="#clients">Clients</a></li><li><a href="#">À propos</a></li></ul>
+    <div class="r"><span class="lang">FR · EN</span><a class="btn btn-peach" href="#contact">Nous contacter</a></div>
+  </nav>
+  <div class="wrap">
+    <h1>Posez la question à votre projet. <em>Il répond avec ses pièces.</em></h1>
+    <p class="lede">Concorde by CUBO collecte, structure et croise les données de tous les outils d’une opération de construction. Sam y répond, et chaque réponse cite la pièce, sa version et sa date. Plateforme IA native, développée et hébergée en France.</p>
+    <div class="actions"><a class="btn btn-peach" href="#concorde">Découvrir Concorde&nbsp;→</a><a class="link" href="#contact">Nous contacter</a></div>
+    <div class="ask" aria-label="Exemple de question posée à Sam">
+      <div class="q"><span class="av" aria-hidden="true">CP</span><span>Pourquoi le lot CVC démarre-t-il en retard, et qui doit le porter&nbsp;?</span></div>
+      <div class="a">
+        <div class="txt">
+          <div class="sam"><i aria-hidden="true">S</i>Sam, assistant IA de Concorde</div>
+          <p id="answer">Le lot CVC a démarré sans plans bons pour exécution&nbsp;: la révision C du plan de réseaux n’était pas visée<sup class="c">1</sup>. Le retard a été signalé au compte rendu de chantier suivant<sup class="c">2</sup>, et l’ordre de service qui décale la zone B y est rattaché<sup class="c">3</sup>. Les échanges montrent que la demande de visa a été faite dans les délais contractuels<sup class="c">4</sup>.</p>
+          <p class="ill">Exemple illustratif, données fictives</p>
+        </div>
+        <div class="src" aria-label="Sources citées">
+          <h4>Sources citées</h4>
+          <div class="doc"><span class="n">1</span><div><b>Plan réseaux CVC, rév. C</b><span>GED · v3 · non visé</span></div></div>
+          <div class="doc"><span class="n">2</span><div><b>Compte rendu de chantier n° 42</b><span>Comptes rendus · daté</span></div></div>
+          <div class="doc"><span class="n">3</span><div><b>OS n° 7, zone B</b><span>Contractuel · signé</span></div></div>
+          <div class="doc"><span class="n">4</span><div><b>Courriel, demande de visa</b><span>Courriels · horodaté</span></div></div>
+        </div>
+      </div>
+    </div>
+    <div class="trust" id="clients"><span>Ils nous font confiance</span><span class="lg"><img src="assets/bouygues-construction.webp" alt="Bouygues Construction"></span><span class="lg"><img src="assets/vinci-construction.webp" alt="Vinci Construction"></span></div>
+  </div>
+</header>
+
+<main>
+
+<!-- 1 · the questions -->
+<section class="questions pad">
+  <div class="wrap">
+    <h2>Chaque outil voit une partie du projet. Aucun ne voit l’ensemble.</h2>
+    <p class="lede">Planning, coûts, GED, comptes rendus, courriels. Les écarts se découvrent trop tard, quand ils coûtent déjà. Voici les questions que vos outils ne savent pas croiser.</p>
+    <div class="qa">
+      <article><div class="who"><span class="av" aria-hidden="true">?</span><p>Combien vous a coûté votre dernier retard&nbsp;?<small>Un retard détecté trop tard</small></p></div><div class="ans"><div class="sam"><i aria-hidden="true">S</i>Notre réponse</div><p>Concorde croise planning et avancement pour signaler la dérive avant qu’elle soit actée.</p></div></article>
+      <article><div class="who"><span class="av" aria-hidden="true">?</span><p>Quelle part de votre dernière réclamation avez-vous perdue faute de preuves&nbsp;?<small>Une modification mal documentée</small></p></div><div class="ans"><div class="sam"><i aria-hidden="true">S</i>Notre réponse</div><p>Chaque modification reste rattachée à ses pièces datées&nbsp;: OS, comptes rendus, échanges.</p></div></article>
+      <article><div class="who"><span class="av" aria-hidden="true">?</span><p>Combien d’OS et de non-conformités sont encore ouverts sur vos opérations&nbsp;?<small>Des exigences mal suivies</small></p></div><div class="ans"><div class="sam"><i aria-hidden="true">S</i>Notre réponse</div><p>Concorde suit chaque exigence contractuelle jusqu’à sa levée.</p></div></article>
+      <article><div class="who"><span class="av" aria-hidden="true">?</span><p>Sur quelles données avez-vous fondé votre dernier arbitrage&nbsp;?<small>Une décision sans vision fiable</small></p></div><div class="ans"><div class="sam"><i aria-hidden="true">S</i>Notre réponse</div><p>Coûts, engagements et avancement sont croisés et datés&nbsp;: chaque donnée dit d’où elle vient.</p></div></article>
+      <article><div class="who"><span class="av" aria-hidden="true">?</span><p>Que reste-t-il du dossier quand votre chef de projet change de poste&nbsp;?<small>Une passation qui efface la mémoire</small></p></div><div class="ans"><div class="sam"><i aria-hidden="true">S</i>Notre réponse</div><p>La mémoire reste dans la plateforme. Ceux qui reprennent l’interrogent.</p></div></article>
+    </div>
+  </div>
+</section>
+
+<!-- 2 · the drift on the schedule -->
+<section class="drift pad">
+  <div class="wrap">
+    <div class="head">
+      <h2>Voyez la dérive avant qu’elle soit actée.</h2>
+      <p class="lede">Une dérive vue au point mensuel est déjà actée. Concorde croise planning, avancement et pièces&nbsp;: quand un lot glisse, l’alerte arrive avec ses preuves datées.</p>
+    </div>
+    <div class="gantt wait" aria-label="Planning d’une opération, exemple illustratif">
+      <div class="gantt-in">
+        <div class="months"><div>Lots</div><div>Janv.</div><div>Févr.</div><div>Mars</div><div>Avr.</div><div>Mai</div><div>Juin</div><div>Juil.</div><div>Août</div><div>Sept.</div></div>
+        <div class="lane"><div class="n">Gros œuvre</div><div class="t"><div class="bar done" style="left:0;width:36%"></div></div></div>
+        <div class="lane"><div class="n">Façades</div><div class="t"><div class="bar done" style="left:22%;width:26%"></div><div class="bar" style="left:48%;width:10%"></div></div></div>
+        <div class="lane"><div class="n">CVC</div><div class="t"><div class="bar ghost" style="left:34%;width:30%"></div><div class="bar late" style="left:46%;width:30%"></div></div></div>
+        <div class="lane"><div class="n">Électricité</div><div class="t"><div class="bar" style="left:40%;width:34%"></div></div></div>
+        <div class="lane"><div class="n">Cloisons</div><div class="t"><div class="bar" style="left:58%;width:26%"></div></div></div>
+        <div class="lane"><div class="n">Réception</div><div class="t"><div class="bar" style="left:86%;width:8%"></div></div></div>
+        <div class="today" style="left:calc(180px + (100% - 180px) * .42)"><span>Aujourd’hui</span></div>
+        <div class="pins">
+        <div class="pin alert"><b>CVC&nbsp;: +6 semaines projetées</b><span>Démarrage sans plans BPE<sup class="c">1</sup> · signalé avant le point mensuel</span></div>
+        <div class="pin"><b>Pièces rattachées</b><span>Plan réseaux rév. C<sup class="c">1</sup> · CR n° 42<sup class="c">2</sup> · OS n° 7<sup class="c">3</sup> · courriel<sup class="c">4</sup></span></div>
+                </div>
+        <div class="legend"><span><i style="background:var(--teal)"></i>Réalisé</span><span><i style="background:var(--navy)"></i>Prévu</span><span><i style="background:var(--red)"></i>Dérive projetée</span><span><i style="border:2px dashed rgba(51,64,112,.4)"></i>Planning contractuel</span><span>Exemple illustratif, données fictives</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 3 · the memory -->
+<section class="memory pad on-dark">
+  <div class="wrap">
+    <div>
+      <p class="kick" style="color:var(--peach)">Mémoire du projet</p>
+      <h2 style="margin-top:var(--s4)">Constituez la mémoire de vos opérations.</h2>
+      <p class="lede">Chaque discipline décrit la même opération, avec ses propres identifiants. Concorde les rapproche. Croisées, elles révèlent ce qu’aucun outil ne voit seul.</p>
+      <div class="disc" role="group" aria-label="Disciplines">
+        <button aria-pressed="true" data-d="planning">Planning</button><button aria-pressed="false" data-d="couts">Coûts et facturation</button><button aria-pressed="false" data-d="etudes">Études et BIM</button><button aria-pressed="false" data-d="achats">Achats et sous-traitance</button><button aria-pressed="false" data-d="contractuel">Contractuel</button><button aria-pressed="false" data-d="qualite">Qualité</button><button aria-pressed="false" data-d="terrain">Travaux et terrain</button>
+      </div>
+    </div>
+    <div class="cross" aria-live="polite">
+      <p class="kick k" id="cross-k">Planning</p>
+      <h3 id="cross-h">Contractuel, à trois mois, à trois semaines&nbsp;: chaque planning évolue à son rythme.</h3>
+      <p>Croisé avec&nbsp;:</p>
+      <ul id="cross-l">
+        <li><b>Coûts et facturation</b><span>Valeur acquise et coût final estimé, recalés en continu</span></li>
+        <li><b>Études et BIM</b><span>Zones qui démarrent sans plans bons pour exécution</span></li>
+        <li><b>Achats et sous-traitance</b><span>Approvisionnements qui menacent le chemin critique</span></li>
+        <li><b>Travaux et terrain</b><span>Cadence réelle et date de fin projetée</span></li>
+      </ul>
+      <p class="hint">Choisissez une discipline pour voir ce qu’elle révèle une fois croisée.</p>
+    </div>
+  </div>
+</section>
+
+<!-- 4 · Concorde -->
+<section class="concorde pad" id="concorde">
+  <div class="wrap">
+    <p class="kick" style="color:var(--teal-d)">Concorde by CUBO</p>
+    <h2 style="margin-top:var(--s4)">Une mémoire projet, trois façons de l’exploiter.</h2>
+    <p class="lede">Concorde collecte ce que produisent vos outils, le structure et le croise dans votre mémoire projet. Votre cockpit, Sam et vos agents l’exploitent ensuite.</p>
+    <div class="four">
+      <article><p class="kick k">La base</p><h3>Votre mémoire projet</h3><ul><li>Toutes les données de l’opération, croisées dans une base unique</li><li>Chaque pièce datée, versionnée et traçable</li><li>Connectée à vos outils, sans les remplacer</li><li>Un actif qui appartient à votre entreprise, hébergé en France</li></ul></article>
+      <article><p class="kick k">Piloter</p><h3>Votre cockpit projet</h3><ul><li>Retards et dérives de coûts signalés avant d’être actés</li><li>Avancement, coûts et exigences sur un même écran</li><li>Chaque indicateur porte sa date et sa source</li><li>Quatorze tableaux de bord et trente et un indicateurs spécifiés</li></ul></article>
+      <article><p class="kick k">Interroger</p><h3>Sam, votre assistant IA</h3><ul><li>Vos questions posées en langage courant</li><li>Chaque réponse cite la pièce, sa version et sa date</li><li>Des réponses ancrées dans le contrat et la réglementation</li></ul></article>
+      <article><p class="kick k">Déléguer</p><h3>Vos agents IA</h3><ul><li>Suivi des exigences, des OS et des non-conformités</li><li>Aide au montage des réclamations</li><li>Rapports et synthèses produits depuis la donnée</li><li>Tâches administratives récurrentes prises en charge</li></ul></article>
+    </div>
+    <div style="margin-top:var(--s6)"><a class="btn btn-navy" href="#">Voir la plateforme&nbsp;→</a></div>
+  </div>
+</section>
+
+<!-- 5 · deployment -->
+<section class="deploy pad" id="deploiement" style="padding-top:0">
+  <div class="wrap">
+    <div><h2>Des ingénieurs déployés au contact de vos équipes.</h2><p class="lede">Nous avons exercé le métier que nous outillons.</p><div style="margin-top:var(--s5)"><a class="link" href="#">Voir le déploiement</a></div></div>
+    <div class="steps">
+      <div><b>Cadrage</b><span>Vos sources inventoriées, vos enjeux qualifiés.</span></div>
+      <div><b>Mise en service</b><span>Un ingénieur chez vous, connecté à vos outils.</span></div>
+      <div><b>Data management</b><span>Une donnée juste, au rythme du chantier.</span></div>
+      <div><b>Expérience terrain</b><span>Nous avons exercé le métier que nous outillons.</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- 6 · actors -->
+<section class="actors pad">
+  <div class="wrap">
+    <h2>Chaque acteur porte un risque différent.</h2>
+    <p class="lede">Le maître d’ouvrage protège son budget, la maîtrise d’œuvre sa mission, l’entreprise sa marge. Tous dépendent de la même donnée.</p>
+    <div class="three">
+      <article><h3>Maîtrise d’ouvrage et AMO</h3><p class="roles">MOA privée · MOA publique · Promoteur · Foncière · AMO</p><blockquote>Une dérive vue au point mensuel est déjà actée. Vous arbitrez trop tard.</blockquote><a class="link" href="#">Notre approche</a></article>
+      <article><h3>Maîtrise d’œuvre, OPC et BET</h3><p class="roles">MOEX · Architecte · OPC · BET</p><blockquote>Un retard mal imputé ou une modification sans trace se paient sur votre mission.</blockquote><a class="link" href="#">Notre approche</a></article>
+      <article><h3>Équipes d’exécution</h3><p class="roles">Entreprise générale · Groupement · Conduite de travaux</p><blockquote>Sans preuves datées, une réclamation se perd. Et la marge avec.</blockquote><a class="link" href="#">Notre approche</a></article>
+    </div>
+  </div>
+</section>
+
+<!-- 7 · sovereignty -->
+<section class="sov pad on-dark">
+  <div class="wrap">
+    <div><h2>Vos données restent sous votre contrôle.</h2><p class="lede">La souveraineté est un choix d’architecture, fait dès le premier jour.</p></div>
+    <div class="facts">
+      <div><b>Hébergement en France</b><p>Par défaut, une infrastructure opérée chez OVHcloud, opérateur français certifié jusqu’aux qualifications requises par les données les plus sensibles.</p></div>
+      <div><b>Inférence en France</b><p>Par défaut, les modèles d’IA sont hébergés en France. Vos documents n’entraînent jamais un modèle tiers.</p></div>
+      <div><b>Cloisonnement par compte</b><p>Aucune donnée ne passe d’un compte à l’autre. Ce qui appartient à votre entreprise reste dans votre périmètre.</p></div>
+      <div><b>Déploiement sur site</b><p>Pour les opérations qui n’autorisent aucune sortie de données, la plateforme s’installe dans votre propre infrastructure.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- 8 · sectors -->
+<section class="sectors pad">
+  <div class="wrap">
+    <h2>Secteurs d’intervention.</h2>
+    <div class="grid">
+      <figure><img src="assets/tertiaire.webp" alt="Façade d’un immeuble de bureaux contemporain"><figcaption><b>Tertiaire</b><span>Bureaux, enseignement, santé, réhabilitation lourde.</span></figcaption></figure>
+      <figure><img src="assets/residentiel.webp" alt="Immeuble de logements vu en contre-plongée"><figcaption><b>Résidentiel</b><span>Logement collectif, opérations mixtes, réhabilitation.</span></figcaption></figure>
+      <figure><img src="assets/industriel.webp" alt="Bâtiment industriel en cours de construction"><figcaption><b>Industriel</b><span>Usines neuves, extensions, sites en exploitation.</span></figcaption></figure>
+      <figure><img src="assets/infrastructures.webp" alt="Pont à haubans vu depuis le tablier"><figcaption><b>Infrastructures</b><span>Transport, énergie, ouvrages d’art, grands programmes.</span></figcaption></figure>
+    </div>
+  </div>
+</section>
+
+<!-- 9 · FAQ -->
+<section class="faq pad" style="padding-top:0">
+  <div class="wrap">
+    <div><h2>Ce que vous vous demandez.</h2></div>
+    <div>
+      <details><summary>Concorde remplace-t-elle nos outils existants&nbsp;?</summary><p>Non. Concorde est une surcouche&nbsp;: elle ne remplace ni la GED, ni le planning, ni l’outil financier. Elle se branche au-dessus, centralise ce que ces sources produisent, en garantit la fraîcheur et la cohérence, puis l’exploite. Chacun de vos outils est bon dans son domaine ; le problème est ce qui se passe entre eux.</p></details>
+      <details><summary>En quoi est-ce différent d’un logiciel de gestion de projet de construction&nbsp;?</summary><p>Les éditeurs installés sont puissants sur l’exécution et la conformité documentaire, plus faibles sur l’exploitation analytique et l’intelligence artificielle, et la plupart sont hébergés hors d’Europe.</p></details>
+      <details><summary>Peut-on tester Concorde sur notre projet&nbsp;?</summary><p>Oui. Créez un projet, déposez vos documents et interrogez Sam. Deux projets de démonstration, issus de dossiers de consultation réels, servent de point de comparaison.</p></details>
+    </div>
+  </div>
+</section>
+
+<!-- 10 · contact -->
+<section class="final pad" id="contact">
+  <div class="wrap">
+    <h2>Des projets à piloter&nbsp;? Échangeons.</h2>
+    <div>
+      <p class="lede">Contactez-nous pour échanger sur vos enjeux et découvrir Concorde. N’attendez pas qu’ils fassent dériver vos opérations.</p>
+      <div class="actions"><a class="btn btn-navy" href="mailto:contact@cubo-solutions.fr">Nous contacter&nbsp;→</a><a class="link" href="#">Demander la version d’essai</a></div>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer class="site on-dark">
+  <div class="wrap">
+    <div class="claim"><img class="logo" src="assets/cubo-logo-640.webp" alt="CUBO Solutions"><p style="margin-top:var(--s4)">Faites parler la mémoire de vos projets de construction.</p><p style="margin-top:var(--s4)">27 rue du Chemin Vert, 75011 Paris<br><a href="mailto:contact@cubo-solutions.fr">contact@cubo-solutions.fr</a></p></div>
+    <div><h4>Pages du site</h4><ul><li><a href="#">Accueil</a></li><li><a href="#concorde">Concorde</a></li><li><a href="#deploiement">Déploiement</a></li><li><a href="#clients">Clients</a></li><li><a href="#">À propos</a></li><li><a href="#contact">Contact</a></li></ul></div>
+    <div><h4>Légal</h4><ul><li><a href="#">Mentions légales</a></li><li><a href="#">Politique de confidentialité</a></li></ul></div>
+    <p class="legal"><span>© 2026 CUBO Solutions</span><span>Concorde by CUBO</span></p>
+  </div>
+</footer>
+
+<script>
+(() => {
+  const still = matchMedia("(prefers-reduced-motion: reduce)").matches;
+
+  /* hero: Sam writes the answer, each citation lights its source as it appears */
+  const ans = document.getElementById("answer");
+  const docs = [...document.querySelectorAll(".ask .doc")];
+  if (ans && !still) {
+    const parts = ans.innerHTML.split(/(<sup class="c">\d<\/sup>)/);
+    ans.innerHTML = ""; ans.classList.add("typing");
+    let i = 0, ch = 0, html = "";
+    const tick = () => {
+      if (i >= parts.length) { ans.classList.remove("typing"); return; }
+      const p = parts[i];
+      if (p.startsWith("<sup")) {
+        html += p; ans.innerHTML = html; i++;
+        const n = +p.match(/>(\d)</)[1];
+        docs.forEach(d => d.classList.remove("on")); docs[n - 1]?.classList.add("on");
+        return setTimeout(tick, 380);
+      }
+      ch += 3;
+      ans.innerHTML = html + p.slice(0, ch);
+      if (ch >= p.length) { html += p; i++; ch = 0; }
+      setTimeout(tick, 18);
+    };
+    setTimeout(tick, 700);
+  }
+
+  /* schedule: the CVC bar slides late when the chart scrolls into view, then the evidence pins */
+  const g = document.querySelector(".gantt");
+  if (g) {
+    if (still || !("IntersectionObserver" in window)) g.classList.remove("wait");
+    else new IntersectionObserver((es, o) => es.forEach(e => { if (e.isIntersecting) { g.classList.remove("wait"); o.disconnect(); } }), { threshold: .45 }).observe(g);
+  }
+
+  /* memory: pick a discipline, see what it is crossed with (texts from the live site) */
+  const D = {
+    planning: ["Planning", "Contractuel, à trois mois, à trois semaines : chaque planning évolue à son rythme.", [["Coûts et facturation","Valeur acquise et coût final estimé, recalés en continu"],["Études et BIM","Zones qui démarrent sans plans bons pour exécution"],["Achats et sous-traitance","Approvisionnements qui menacent le chemin critique"],["Travaux et terrain","Cadence réelle et date de fin projetée"]]],
+    couts: ["Coûts et facturation", "Budget, engagements, situations et factures, chacun avec son décalage.", [["Planning", "Coût final estimé sans attendre le point mensuel"], ["Achats et sous-traitance", "Reste à engager par lot face au budget"], ["Contractuel", "Avenants et réclamations : montants demandés face aux montants obtenus"], ["Qualité", "Coût de la non-qualité par secteur"]]],
+    etudes: ["Études et BIM", "Plans indicés, spécifications et modifications, des études jusqu’aux travaux.", [["Planning", "Zones qui démarrent sans plans validés"], ["Achats et sous-traitance", "Composants fabriqués face à la version de conception en vigueur"], ["Qualité", "Non-conformités d’origine conception"], ["Contractuel", "Échanges techniques en attente de réponse"]]],
+    achats: ["Achats et sous-traitance", "Commandes, adjudications et livraisons, chacune avec son délai.", [["Planning", "Approvisionnements qui menacent le chemin critique"], ["Coûts et facturation", "Engagé face au budget, par lot"], ["Études et BIM", "Chaîne plan validé, commande, livraison, pose"]]],
+    contractuel: ["Contractuel", "Marchés, avenants, OS : sur un litige, c’est la pièce datée qui fait foi.", [["Coûts et facturation", "Faits de chantier générateurs d’avenant, repérés dans les échanges"], ["Qualité", "Réserves qui bloquent réception et paiement"], ["Risques et opportunités", "Exposition partagée entre mandataire et cotraitants"]]],
+    qualite: ["Qualité", "Contrôles, essais, non-conformités et réserves.", [["Coûts et facturation", "Coût des reprises, par secteur"], ["Planning", "Réserves situées sur le chemin critique"], ["Études et BIM", "Non-conformités remontées vers les études"], ["Contractuel", "Réserves qui conditionnent réception, paiement et garanties"]]],
+    terrain: ["Travaux et terrain", "Avancement, quantités, heures, intempéries : la source la plus fraîche, et la plus dispersée.", [["Planning", "Cadence sur six semaines face à la date objectif"], ["Études et BIM", "Quantités posées face aux métrés de conception"], ["Ressources humaines", "Heures consommées face aux quantités posées"], ["Coûts et facturation", "Écart entre avancement physique et facturation"]]],
+  };
+  const btns = [...document.querySelectorAll(".disc button")];
+  btns.forEach(b => b.addEventListener("click", () => {
+    btns.forEach(x => x.setAttribute("aria-pressed", x === b ? "true" : "false"));
+    const d = D[b.dataset.d];
+    document.getElementById("cross-k").textContent = d ? d[0] : b.textContent;
+    document.getElementById("cross-h").textContent = d ? d[1] : "Croisements à reprendre du site actuel de CUBO.";
+    document.getElementById("cross-l").innerHTML = d ? d[2].map(([a, t]) => `<li><b>${a}</b><span>${t}</span></li>`).join("") : "";
+  }));
+})();
+</script>
+</body>
+</html>

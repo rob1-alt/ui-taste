@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CUBO · C · Le planning qui dérive</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root{--navy:#334070;--navy-d:#232c52;--peach:#fbcbb2;--teal:#62baae;--paper:#f6f4ef;--grid:rgba(51,64,112,.08);--ink:#1d2340;--ink-2:#565c78;--red:#d8513a}
+*{box-sizing:border-box;margin:0}
+body{font:400 17px/1.55 Manrope,system-ui,sans-serif;color:var(--ink);background:var(--paper)}
+a{color:inherit;text-decoration:none}
+.mono{font-family:"JetBrains Mono",monospace}
+.hero{position:relative;min-height:100vh;overflow:hidden;background:var(--paper);
+  background-image:linear-gradient(var(--grid) 1px,transparent 1px),linear-gradient(90deg,var(--grid) 1px,transparent 1px);background-size:80px 40px}
+nav{position:relative;z-index:3;display:flex;align-items:center;gap:36px;height:84px;padding:0 48px;font-weight:500;font-size:15px;color:var(--navy);background:var(--paper);border-bottom:1px solid rgba(51,64,112,.15)}
+nav img{width:44px}
+nav .r{margin-left:auto;display:flex;gap:24px;align-items:center}
+.btn{display:inline-flex;align-items:center;gap:10px;height:46px;padding:0 20px;border-radius:6px;font-weight:700;font-size:15px}
+.btn-navy{background:var(--navy);color:#fff}
+.head{position:relative;z-index:2;display:grid;grid-template-columns:1fr 420px;gap:56px;padding:56px 48px 32px;max-width:1440px;margin:0 auto;align-items:end}
+h1{font:800 84px/.96 Manrope,sans-serif;letter-spacing:-.04em;color:var(--navy)}
+.lede{font-size:18px;color:var(--ink-2)}
+.acts{display:flex;gap:20px;align-items:center;margin-top:22px}
+.acts .lk{font-weight:700;color:var(--navy);border-bottom:2px solid var(--navy)}
+/* the page is the schedule: months across, lots down, one bar drifting with its evidence pinned to it */
+.gantt{position:relative;z-index:2;margin:0 48px;background:rgba(255,255,255,.72);border:1px solid rgba(51,64,112,.18);border-radius:10px;overflow:hidden}
+.months{display:grid;grid-template-columns:200px repeat(9,1fr);font:500 12px/1 "JetBrains Mono",monospace;color:var(--ink-2);border-bottom:1px solid rgba(51,64,112,.15)}
+.months div{padding:12px 10px;border-left:1px solid rgba(51,64,112,.1)}
+.months div:first-child{border-left:0}
+.lane{display:grid;grid-template-columns:200px 1fr;align-items:center;border-bottom:1px solid rgba(51,64,112,.08);height:48px}
+.lane .n{padding:0 14px;font-weight:700;font-size:14px;color:var(--navy)}
+.lane .t{position:relative;height:100%}
+.bar{position:absolute;top:14px;height:20px;border-radius:4px;background:var(--navy)}
+.bar.done{background:var(--teal)}
+.bar.ghost{background:transparent;border:2px dashed rgba(51,64,112,.35)}
+.bar.late{background:var(--red)}
+.today{position:absolute;top:0;bottom:0;width:2px;background:var(--navy-d);z-index:3}
+.today span{position:absolute;top:-1px;left:6px;font:500 11px/1 "JetBrains Mono",monospace;background:var(--navy-d);color:#fff;padding:4px 6px;border-radius:3px;white-space:nowrap}
+.pin{position:absolute;z-index:4;background:#fff;border:1px solid rgba(51,64,112,.2);border-radius:10px;padding:10px 12px;box-shadow:0 16px 30px -16px rgba(35,44,82,.45);font-size:13px;width:236px}
+.pin b{display:block;font-weight:700;color:var(--ink)}
+.pin span{font:400 11.5px/1.4 "JetBrains Mono",monospace;color:var(--ink-2)}
+.pin.alert{border-color:var(--red)}
+.pin.alert b{color:var(--red)}
+.pin::before{content:"";position:absolute;left:-6px;top:16px;width:10px;height:10px;background:inherit;border-left:1px solid rgba(51,64,112,.2);border-bottom:1px solid rgba(51,64,112,.2);transform:rotate(45deg)}
+.legend{display:flex;gap:22px;padding:12px 14px;font:400 12px/1 "JetBrains Mono",monospace;color:var(--ink-2)}
+.legend i{display:inline-block;width:12px;height:12px;border-radius:3px;vertical-align:-2px;margin-right:6px}
+.logos{position:relative;z-index:2;display:flex;align-items:center;gap:40px;padding:36px 48px;max-width:1440px;margin:0 auto}
+.logos span{font-size:13px;letter-spacing:.1em;text-transform:uppercase;color:var(--ink-2)}
+.logos img{height:36px;width:auto;mix-blend-mode:multiply}
+</style>
+</head>
+<body>
+<header class="hero">
+  <nav><img src="../assets/cubo-logo-640.webp" alt="CUBO Solutions"><span>Concorde</span><span>Déploiement</span><span>Clients</span><span>À propos</span><div class="r"><span>FR · EN</span><a class="btn btn-navy" href="#">Nous contacter</a></div></nav>
+  <div class="head">
+    <h1>Voyez la dérive avant qu’elle soit actée.</h1>
+    <div>
+      <p class="lede">Concorde croise planning, avancement, coûts, comptes rendus et courriels. Quand un lot glisse, la dérive arrive avec ses preuves datées, pas au point mensuel.</p>
+      <div class="acts"><a class="btn btn-navy" href="#">Découvrir Concorde&nbsp;→</a><a class="lk" href="#">Nous contacter</a></div>
+    </div>
+  </div>
+  <div class="gantt" aria-label="Planning d'une opération, exemple illustratif">
+    <div class="months"><div>Lots</div><div>Janv.</div><div>Févr.</div><div>Mars</div><div>Avr.</div><div>Mai</div><div>Juin</div><div>Juil.</div><div>Août</div><div>Sept.</div></div>
+    <div class="lane"><div class="n">Gros œuvre</div><div class="t"><div class="bar done" style="left:0;width:36%"></div></div></div>
+    <div class="lane"><div class="n">Façades</div><div class="t"><div class="bar done" style="left:22%;width:26%"></div><div class="bar" style="left:48%;width:10%"></div></div></div>
+    <div class="lane"><div class="n">CVC</div><div class="t"><div class="bar ghost" style="left:34%;width:30%"></div><div class="bar late" style="left:46%;width:30%"></div></div></div>
+    <div class="lane"><div class="n">Électricité</div><div class="t"><div class="bar" style="left:40%;width:34%"></div></div></div>
+    <div class="lane"><div class="n">Cloisons</div><div class="t"><div class="bar" style="left:58%;width:26%"></div></div></div>
+    <div class="lane"><div class="n">Réception</div><div class="t"><div class="bar" style="left:86%;width:8%"></div></div></div>
+    <div class="today" style="left:calc(200px + (100% - 200px) * .42)"><span>Aujourd’hui</span></div>
+    <div class="pin alert" style="left:calc(200px + (100% - 200px) * .77);top:96px"><b>CVC : +6 semaines projetées</b><span>Démarrage sans plans BPE · signalé le 12/03</span></div>
+    <div class="pin" style="left:calc(200px + (100% - 200px) * .77);top:170px"><b>Pièces rattachées</b><span>Plan réseaux rév. C · CR n° 42 · OS n° 7 · courriel du 03/03</span></div>
+    <div class="legend"><span><i style="background:var(--teal)"></i>Réalisé</span><span><i style="background:var(--navy)"></i>Prévu</span><span><i style="background:var(--red)"></i>Dérive projetée</span><span><i style="border:2px dashed rgba(51,64,112,.4)"></i>Planning contractuel</span><span>Exemple illustratif, données fictives</span></div>
+  </div>
+  <div class="logos"><span>Ils nous font confiance</span><img src="../assets/bouygues-construction.webp" alt="Bouygues Construction"><img src="../assets/vinci-construction.webp" alt="Vinci Construction"></div>
+</header>
+</body>
+</html>

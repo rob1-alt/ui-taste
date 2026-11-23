@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CUBO · A · Le panneau de chantier</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;700;800&family=Manrope:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+:root{--navy:#334070;--navy-d:#232c52;--peach:#fbcbb2;--teal:#62baae;--board:#f7f5f0;--ink:#1d2340;--ink-2:#4a5070;--wood:#3b3f46}
+*{box-sizing:border-box;margin:0}
+body{font:400 17px/1.55 Manrope,system-ui,sans-serif;color:var(--ink);background:var(--navy)}
+a{color:inherit;text-decoration:none}
+/* the hoarding: a site fence in the brand peach, the sign screwed onto it */
+.hero{position:relative;min-height:100vh;background:var(--peach);overflow:hidden}
+.hero::before{content:"";position:absolute;inset:0;background:repeating-linear-gradient(90deg,transparent 0 238px,rgba(51,64,112,.10) 238px 240px)}
+nav{position:relative;z-index:3;display:flex;align-items:center;gap:36px;height:84px;padding:0 48px;font-weight:500;font-size:15px;color:var(--navy)}
+nav img{width:44px;height:44px}
+nav .r{margin-left:auto;display:flex;gap:24px;align-items:center}
+.btn{display:inline-flex;align-items:center;gap:10px;height:46px;padding:0 20px;border-radius:4px;font-weight:700;font-size:15px}
+.btn-navy{background:var(--navy);color:#fff}
+.wrap{position:relative;z-index:2;display:grid;grid-template-columns:1fr 560px;gap:56px;padding:40px 48px 0;max-width:1440px;margin:0 auto;align-items:start}
+.copy{padding-top:24px}
+.kick{font:700 14px/1 "Barlow Condensed",sans-serif;letter-spacing:.14em;text-transform:uppercase;color:var(--navy)}
+h1{margin-top:18px;font:800 112px/.86 "Barlow Condensed",sans-serif;text-transform:uppercase;letter-spacing:-.01em;color:var(--navy)}
+.lede{margin-top:24px;max-width:520px;font-size:19px;color:var(--navy)}
+.acts{display:flex;gap:22px;align-items:center;margin-top:30px}
+.acts .lk{font-weight:700;color:var(--navy);border-bottom:2px solid var(--navy)}
+/* the legal construction-site sign, rewritten for the project's memory */
+.sign{position:relative;background:var(--board);border:10px solid #fff;outline:2px solid rgba(29,35,64,.25);box-shadow:0 30px 60px -20px rgba(35,44,82,.5);padding:26px 28px 24px;transform:rotate(-.4deg)}
+.sign .screw{position:absolute;width:10px;height:10px;border-radius:50%;background:#b9bcc6;box-shadow:inset 0 0 0 2px #8d919c}
+.sign .s1{top:8px;left:8px}.sign .s2{top:8px;right:8px}.sign .s3{bottom:8px;left:8px}.sign .s4{bottom:8px;right:8px}
+.sign .top{display:flex;justify-content:space-between;align-items:center;border-bottom:3px solid var(--ink);padding-bottom:12px}
+.sign .top b{font:800 28px/1 "Barlow Condensed",sans-serif;letter-spacing:.06em;text-transform:uppercase}
+.sign .top span{font:700 13px/1.2 "Barlow Condensed",sans-serif;text-align:right;text-transform:uppercase;letter-spacing:.08em}
+.row{display:grid;grid-template-columns:170px 1fr;gap:14px;padding:11px 0;border-bottom:1px solid #d9d6ce}
+.row dt{font:700 13px/1.25 "Barlow Condensed",sans-serif;text-transform:uppercase;letter-spacing:.08em;color:var(--ink-2)}
+.row dd{font-size:15px;line-height:1.4;font-weight:500}
+.row dd b{font-weight:700}
+.tag{display:inline-block;font:700 12px/1 "Barlow Condensed",sans-serif;letter-spacing:.06em;text-transform:uppercase;padding:4px 7px;border-radius:2px;margin:2px 4px 2px 0;background:#e8e5dd}
+.tag.t{background:var(--teal);color:#fff}
+.sign .foot{display:flex;justify-content:space-between;align-items:end;margin-top:14px}
+.sign .foot img{width:56px}
+.sign .foot p{font:700 12px/1.3 "Barlow Condensed",sans-serif;letter-spacing:.08em;text-transform:uppercase;color:var(--ink-2)}
+.post{position:absolute;bottom:0;width:22px;height:120px;background:var(--wood)}
+.logos{position:relative;z-index:2;display:flex;align-items:center;gap:40px;padding:56px 48px 40px;max-width:1440px;margin:0 auto}
+.logos span{font:700 13px/1 "Barlow Condensed",sans-serif;letter-spacing:.14em;text-transform:uppercase;color:var(--navy)}
+.logos img{height:40px;width:auto;mix-blend-mode:multiply}
+</style>
+</head>
+<body>
+<header class="hero">
+  <nav><img src="../assets/cubo-logo-640.webp" alt="CUBO Solutions"><span>Concorde</span><span>Déploiement</span><span>Clients</span><span>À propos</span><div class="r"><span>FR · EN</span><a class="btn btn-navy" href="#">Nous contacter</a></div></nav>
+  <div class="wrap">
+    <div class="copy">
+      <p class="kick">Concorde by CUBO · plateforme IA native</p>
+      <h1>Faites parler la mémoire de vos chantiers.</h1>
+      <p class="lede">Concorde collecte, structure et croise les données de tous les outils d’une opération de construction, puis les exploite pour la piloter. Développée et hébergée en France.</p>
+      <div class="acts"><a class="btn btn-navy" href="#">Découvrir Concorde&nbsp;→</a><a class="lk" href="#">Nous contacter</a></div>
+    </div>
+    <div class="sign" aria-label="Panneau de chantier de l'opération, tenu à jour par Concorde">
+      <i class="screw s1"></i><i class="screw s2"></i><i class="screw s3"></i><i class="screw s4"></i>
+      <div class="top"><b>Mémoire du projet</b><span>Tenu à jour<br>par Concorde</span></div>
+      <dl>
+        <div class="row"><dt>Opération</dt><dd><b>Immeuble de bureaux, réhabilitation lourde</b></dd></div>
+        <div class="row"><dt>Sources croisées</dt><dd><span class="tag">Planning</span><span class="tag">Coûts</span><span class="tag">GED</span><span class="tag">Comptes rendus</span><span class="tag">Courriels</span><span class="tag">BIM</span></dd></div>
+        <div class="row"><dt>Dérive signalée</dt><dd>Lot CVC : démarrage sans plans bons pour exécution. <span class="tag t">avant d’être actée</span></dd></div>
+        <div class="row"><dt>Modifications</dt><dd>Chaque OS rattaché à ses pièces datées : CR, échanges, versions.</dd></div>
+        <div class="row"><dt>Exigences</dt><dd>Suivies une à une jusqu’à leur levée.</dd></div>
+        <div class="row"><dt>Hébergement</dt><dd>France, OVHcloud. Inférence en France.</dd></div>
+      </dl>
+      <div class="foot"><p>Exemple illustratif · données fictives</p><img src="../assets/cubo-logo-640.webp" alt=""></div>
+    </div>
+  </div>
+  <div class="logos"><span>Ils nous font confiance</span><img src="../assets/bouygues-construction.webp" alt="Bouygues Construction"><img src="../assets/vinci-construction.webp" alt="Vinci Construction"></div>
+</header>
+</body>
+</html>
