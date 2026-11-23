@@ -115,10 +115,10 @@ https://www.experimentaljetset.nl	sparse, images not loaded
 https://www.moma.org	blocked desktop
 https://formlabs.com	region modal
 https://www.arturia.com	Black Friday page
-https//visualelectric.com	broken (capture failed)
-https//column.com	broken (capture failed)
-https//ramp.com/treasury	broken (capture failed)
-https//writer.com	broken (capture failed)
+https://visualelectric.com	broken (capture failed)
+https://column.com	broken (capture failed)
+https://ramp.com/treasury	broken (capture failed)
+https://writer.com	broken (capture failed)
 https://www.rho.co	blocked
 https://carta.com	blocked desktop
 https://copilot.money	generic phone on gradient
@@ -215,8 +215,50 @@ https://formenergy.com	broken, images not loaded
 https://www.epirusinc.com	generic
 https://www.mashgin.com	generic
 https://www.rappi.com	app storefront, generic
-https//www.sievedata.com	broken (capture failed)
-https//www.helionenergy.com	broken (capture failed)
-https//www.scoutmotors.com	broken (capture failed)
+https://www.sievedata.com	broken (capture failed)
+https://www.helionenergy.com	broken (capture failed)
+https://www.scoutmotors.com	broken (capture failed)
 https://www.cerebras.ai	generic dark
 https://colossal.com	newsletter modal over hero; strong page, recapture later
+https://www.hermes.com	broken: "Access is temporarily restricted" with unusual-activity bot
+https://www.jacquemus.com	broken: maintenance notice only, page essentially empty on both view
+https://www.bottegaveneta.com	broken: Access Denied 403-style error page on desktop and mobile
+https://www.cos.com	broken: Access Denied error page
+https://www.arket.com	broken: Access Denied error page
+https://www.sezane.com	broken: "Access is temporarily restricted" bot notice on desktop and
+https://www.veja-store.com	broken: country/delivery-region modal "Souhaitez-vous faire livrer.
+https://www.nike.com	broken: Black Friday takeover "UP TO 40% OFF" blurring the page, o
+https://www.adidas.com	broken: security error page "unable to give you access to our site"
+https://arcteryx.com	broken: Black Friday hero takeover "BLACK FRIDAY IS HERE" on deskt
+https://www.patagonia.com	broken: "We're working on it" maintenance page
+https://fujifilm-x.com	broken: "Stay in touch" newsletter signup modal covers the hero on d
+https://www.nativeunion.com	broken: Black Week sale takeover with an early-access email gate and
+https://www.hay.com	broken: "Sorry, you have been blocked" Cloudflare block page
+https://www.usm.com	broken: "We couldn't verify the security of your connection" error o
+https://hem.com	broken: region/customer-type selector modal covers the hero on deskt
+https://menuspace.com	broken: currency selector modal covers the hero on desktop and mobil
+https://acehotel.com	broken: 403 Forbidden / "Performing security verification" bot check
+https://noma.dk	broken: mobile shows a "Confirm you are human" bot check
+https://bluebottlecoffee.com	broken: "Sorry, you have been blocked" Cloudflare block page
+https://www.ruinart.com	broken: age-verification modal covers the hero on desktop and mobile
+https://www.lelabofragrances.com	broken: "Select your location" modal covers the hero on desktop and 
+https://www.diptyqueparis.com	broken: "Are you in the right place?" shipping-destination modal cov
+https://www.rhodeskin.com	broken: "your location is set to Finland" popup covers the hero on d
+https://www.criterion.com	broken: "Performing security verification" bot check on desktop and 
+https://mubi.com	broken: "Your access is temporarily blocked" error on desktop
+https://letterboxd.com	broken: "Security check" bot challenge on desktop and mobile
+https://www.nytimes.com/section/magazine	broken: "You have been blocked from The New York Times" bot-suspicio
+https://www.highsnobiety.com	broken: cookie-consent panel "We'll tailor your experience" covers
+https://www.ssense.com	broken: "Performing security verification" bot check
+https://www.mrporter.com	broken: Access Denied error page
+https://goodhoodstore.com	broken: Black Friday takeover yellow "BLACK FRIDAY" hero plus a ma
+https://www.phaidon.com	broken: blank page on both viewports
+https://www.kickstarter.com	broken: "Performing security verification" bot check on desktop and 
+https://www.patreon.com	broken: "Performing security verification" bot check on desktop and 
+https://www.bang-olufsen.com	generic gift-guide commerce
+https://www.byredo.com	black friday banner, footer-heavy
+https://www.taschen.com	sale-style commerce grid
+https://www.salomon.com	broken (capture failed)
+https://www.muji.com	broken (capture failed)
+https://www.newyorker.com	broken (capture failed)
+https://www.bloomberg.com/businessweek	broken (capture failed)

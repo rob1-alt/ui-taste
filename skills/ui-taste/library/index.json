@@ -10515,6 +10515,89 @@
     }
   },
   {
+    "id": "032c-landing",
+    "site": "032c",
+    "url": "https://032c.com",
+    "type": "landing",
+    "tags": [
+      "light",
+      "cover-grid",
+      "full-bleed-photo-bands",
+      "uppercase-overlay-captions",
+      "merch-as-content"
+    ],
+    "note": "Magazine covers, posters and merch sit side by side in the first row as equals, then full-bleed photo bands with caption headlines in white caps over them. Content and shop share one visual system.",
+    "captured": "2026-11-23",
+    "screens": {
+      "desktop": {
+        "file": "screens/032c-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/032c-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "032c",
+      "fonts": [
+        "NHaas Grotesk"
+      ],
+      "type": {
+        "h1": {
+          "font": "NHaas Grotesk",
+          "size": 30,
+          "weight": "500",
+          "lineHeight": 0,
+          "letterSpacing": "0.6px",
+          "color": "rgb(18, 18, 18)"
+        },
+        "h2": {
+          "font": "NHaas Grotesk",
+          "size": 30,
+          "weight": "700",
+          "lineHeight": 1.1,
+          "letterSpacing": "0.6px",
+          "color": "rgb(255, 255, 255)"
+        },
+        "h3": {
+          "font": "NHaas Grotesk",
+          "size": 16,
+          "weight": "400",
+          "lineHeight": 1.3,
+          "letterSpacing": "0.8px",
+          "color": "rgb(18, 18, 18)"
+        },
+        "body": {
+          "font": "NHaas Grotesk",
+          "size": 16,
+          "weight": "500",
+          "lineHeight": 1,
+          "letterSpacing": "0.6px",
+          "color": "rgb(255, 255, 255)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#000000",
+          "#121212",
+          "#ffffff"
+        ],
+        "text": [
+          "#000000",
+          "#ffffff",
+          "#121212",
+          "#ff0000"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": 1200
+    }
+  },
+  {
     "id": "1password-landing",
     "site": "1Password",
     "url": "https://1password.com",
@@ -10698,6 +10781,79 @@
         }
       ],
       "contentWidth": null
+    }
+  },
+  {
+    "id": "a24-landing",
+    "site": "A24",
+    "url": "https://a24films.com",
+    "type": "landing",
+    "tags": [
+      "light",
+      "film-stills",
+      "giant-tagline-overlay",
+      "cropped-type",
+      "ticket-buttons",
+      "cinema"
+    ],
+    "note": "Each film gets a full-width still with its tagline set huge in white across the image ('You Can See Everything'), cropped at the edges, with a small 'Buy tickets' button. The poster logic of cinema applied to a homepage.",
+    "captured": "2026-11-23",
+    "screens": {
+      "desktop": {
+        "file": "screens/a24-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/a24-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "A24",
+      "fonts": [
+        "neueMontreal",
+        "neueMontrealMono"
+      ],
+      "type": {
+        "h1": {
+          "font": "neueMontreal",
+          "size": 225,
+          "weight": "485",
+          "lineHeight": 0.8,
+          "letterSpacing": "-11.25px",
+          "color": "rgb(255, 255, 255)"
+        },
+        "h2": {
+          "font": "neueMontreal",
+          "size": 400,
+          "weight": "485",
+          "lineHeight": 0.8,
+          "letterSpacing": "-20px",
+          "color": "rgb(255, 255, 255)"
+        },
+        "h3": null,
+        "body": {
+          "font": "neueMontreal",
+          "size": 18,
+          "weight": "420",
+          "lineHeight": 1.1,
+          "letterSpacing": "0.0605205px",
+          "color": "rgb(14, 14, 13)"
+        }
+      },
+      "colors": {
+        "background": "#0e0e0d",
+        "surfaces": [
+          "#ffffff"
+        ],
+        "text": [
+          "#ffffff"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": 1200
     }
   },
   {
@@ -11381,6 +11537,94 @@
         }
       ],
       "contentWidth": 1200
+    }
+  },
+  {
+    "id": "aman-landing",
+    "site": "Aman",
+    "url": "https://www.aman.com",
+    "type": "landing",
+    "tags": [
+      "light",
+      "full-bleed-landscape-photo",
+      "serif-wordmark",
+      "spaced-caps",
+      "editorial-cards",
+      "quiet-luxury"
+    ],
+    "note": "A misty jungle valley photographed full width under a thin spaced wordmark, then destinations as editorial photo cards with small serif titles. Luxury as silence and space.",
+    "captured": "2026-11-23",
+    "screens": {
+      "desktop": {
+        "file": "screens/aman-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/aman-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Aman Resorts, Hotels & Residences - Explore Luxury Destinations",
+      "fonts": [
+        "WhitneySSm",
+        "Lyon Display Web",
+        "Lyon Text Web"
+      ],
+      "type": {
+        "h1": null,
+        "h2": {
+          "font": "Lyon Text Web",
+          "size": 31,
+          "weight": "400",
+          "lineHeight": 1.45,
+          "letterSpacing": "0.5px",
+          "color": "rgb(49, 49, 49)"
+        },
+        "h3": {
+          "font": "WhitneySSm",
+          "size": 10,
+          "weight": "400",
+          "lineHeight": 1.45,
+          "letterSpacing": "2px",
+          "color": "rgb(49, 49, 49)"
+        },
+        "body": {
+          "font": "WhitneySSm",
+          "size": 10,
+          "weight": "400",
+          "lineHeight": 1.45,
+          "letterSpacing": "2px",
+          "color": "rgb(49, 49, 49)"
+        }
+      },
+      "colors": {
+        "background": "#f3eee7",
+        "surfaces": [
+          "#f3eee7",
+          "#313131"
+        ],
+        "text": [
+          "#313131",
+          "#f3eee7"
+        ]
+      },
+      "buttons": [
+        {
+          "label": "Reserve",
+          "bg": "#313131",
+          "color": "#f3eee7",
+          "radius": "0px",
+          "height": 42,
+          "paddingX": 15,
+          "font": "WhitneySSm",
+          "size": 14,
+          "weight": "400"
+        }
+      ],
+      "contentWidth": 1600
     }
   },
   {
@@ -12776,6 +13020,82 @@
           "weight": "500"
         }
       ],
+      "contentWidth": 1440
+    }
+  },
+  {
+    "id": "asket-landing",
+    "site": "Asket",
+    "url": "https://www.asket.com",
+    "type": "landing",
+    "tags": [
+      "light",
+      "colour-block-photo-grid",
+      "flat-lay",
+      "red-accent",
+      "quiet-type",
+      "permanent-collection"
+    ],
+    "note": "A four-tile grid of folded garments shot flat on alternating red and grey grounds, with a tiny caption ('The Gift Guide'). Basics made graphic through colour blocking, not models.",
+    "captured": "2026-11-23",
+    "screens": {
+      "desktop": {
+        "file": "screens/asket-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/asket-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Asket | Permanent designs, obsessively refined",
+      "fonts": [
+        "NHaasGroteskTextPro",
+        "Times New Roman",
+        "NHaasGroteskDisplayPro"
+      ],
+      "type": {
+        "h1": {
+          "font": "NHaasGroteskTextPro",
+          "size": 14,
+          "weight": "400",
+          "lineHeight": 1.27,
+          "letterSpacing": "-0.135px",
+          "color": "rgb(0, 0, 0)"
+        },
+        "h2": {
+          "font": "NHaasGroteskDisplayPro",
+          "size": 28,
+          "weight": "400",
+          "lineHeight": 1.14,
+          "letterSpacing": "-0.28px",
+          "color": "rgb(255, 255, 255)"
+        },
+        "h3": null,
+        "body": {
+          "font": "NHaasGroteskTextPro",
+          "size": 14,
+          "weight": "400",
+          "lineHeight": 1.27,
+          "letterSpacing": "-0.135px",
+          "color": "rgb(0, 0, 0)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#ffffff",
+          "#000000"
+        ],
+        "text": [
+          "#000000",
+          "#ffffff"
+        ]
+      },
+      "buttons": [],
       "contentWidth": 1440
     }
   },
@@ -18181,6 +18501,103 @@
         }
       ],
       "contentWidth": 1167
+    }
+  },
+  {
+    "id": "dazed-landing",
+    "site": "Dazed",
+    "url": "https://www.dazeddigital.com",
+    "type": "landing",
+    "tags": [
+      "light",
+      "magazine-masthead",
+      "black-and-white-cover",
+      "cropped-wordmark",
+      "cover-line",
+      "editorial-grid"
+    ],
+    "note": "A black-and-white cover portrait with the masthead cropped through it and one cover line ('Feel the Fantasy!'), then a loose editorial grid. The homepage is a magazine cover.",
+    "captured": "2026-11-23",
+    "screens": {
+      "desktop": {
+        "file": "screens/dazed-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/dazed-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Dazed & Confused Magazine | Fashion, Art, Music, Film, Ideas | Dazed",
+      "fonts": [
+        "Inter",
+        "BurberryHouse",
+        "DrukWide"
+      ],
+      "type": {
+        "h1": {
+          "font": "Inter",
+          "size": 36,
+          "weight": "700",
+          "lineHeight": 1,
+          "letterSpacing": "-0.5px",
+          "color": "rgb(255, 255, 255)"
+        },
+        "h2": {
+          "font": "Inter",
+          "size": 18,
+          "weight": "400",
+          "lineHeight": 1.5,
+          "letterSpacing": "-1.2px",
+          "color": "rgb(255, 255, 255)"
+        },
+        "h3": {
+          "font": "Inter",
+          "size": 24,
+          "weight": "700",
+          "lineHeight": 1.17,
+          "letterSpacing": "-0.48px",
+          "color": "rgb(255, 255, 255)"
+        },
+        "body": {
+          "font": "Inter",
+          "size": 16,
+          "weight": "400",
+          "lineHeight": 1.25,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#ffffff",
+          "#171717",
+          "#e5e5e5",
+          "#000000"
+        ],
+        "text": [
+          "#000000",
+          "#ffffff"
+        ]
+      },
+      "buttons": [
+        {
+          "label": "SIGN UP",
+          "bg": "#000000",
+          "color": "#ffffff",
+          "radius": "0px",
+          "height": 44,
+          "paddingX": 16,
+          "font": "DrukWide",
+          "size": 12,
+          "weight": "400"
+        }
+      ],
+      "contentWidth": 1280
     }
   },
   {
@@ -29104,6 +29521,125 @@
     }
   },
   {
+    "id": "leica-landing",
+    "site": "Leica",
+    "url": "https://leica-camera.com",
+    "type": "landing",
+    "tags": [
+      "dark-to-light",
+      "product-macro-photo",
+      "heritage-story",
+      "street-photography",
+      "red-dot",
+      "pill-buttons"
+    ],
+    "note": "A macro of the camera's knurled metal and lens as the hero, then 'The Art of Leica' illustrated by a real street photograph taken with it. The product, then what it makes.",
+    "captured": "2026-11-23",
+    "screens": {
+      "desktop": {
+        "file": "screens/leica-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/leica-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Leica Camera – Official | International",
+      "fonts": [
+        "Outfit"
+      ],
+      "type": {
+        "h1": null,
+        "h2": {
+          "font": "Outfit",
+          "size": 54,
+          "weight": "400",
+          "lineHeight": 1.1,
+          "letterSpacing": "normal",
+          "color": "rgb(255, 255, 255)"
+        },
+        "h3": {
+          "font": "Outfit",
+          "size": 24,
+          "weight": "400",
+          "lineHeight": 1.33,
+          "letterSpacing": "normal",
+          "color": "rgb(34, 34, 34)"
+        },
+        "body": {
+          "font": "Outfit",
+          "size": 54,
+          "weight": "400",
+          "lineHeight": 1.1,
+          "letterSpacing": "normal",
+          "color": "rgb(255, 255, 255)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#ffffff",
+          "#f2efeb"
+        ],
+        "text": [
+          "#222222",
+          "#ffffff"
+        ]
+      },
+      "buttons": [
+        {
+          "label": "M11-P Hammertone",
+          "bg": "#ffffff",
+          "color": "#222222",
+          "radius": "24px",
+          "height": 48,
+          "paddingX": 64,
+          "font": "Outfit",
+          "size": 20,
+          "weight": "600"
+        },
+        {
+          "label": "M-A Hammertone",
+          "bg": "#ffffff",
+          "color": "#222222",
+          "radius": "24px",
+          "height": 48,
+          "paddingX": 64,
+          "font": "Outfit",
+          "size": 20,
+          "weight": "600"
+        },
+        {
+          "label": "Discover the projector",
+          "bg": "#ffffff",
+          "color": "#222222",
+          "radius": "24px",
+          "height": 48,
+          "paddingX": 64,
+          "font": "Outfit",
+          "size": 20,
+          "weight": "600"
+        },
+        {
+          "label": "See the camera",
+          "bg": "#ffffff",
+          "color": "#222222",
+          "radius": "24px",
+          "height": 48,
+          "paddingX": 64,
+          "font": "Outfit",
+          "size": 20,
+          "weight": "600"
+        }
+      ],
+      "contentWidth": 1328
+    }
+  },
+  {
     "id": "levels-landing",
     "site": "Levels",
     "url": "https://www.levels.com",
@@ -29936,6 +30472,78 @@
         ],
         "text": [
           "#ffffff",
+          "#000000"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": null
+    }
+  },
+  {
+    "id": "loewe-landing",
+    "site": "Loewe",
+    "url": "https://www.loewe.com",
+    "type": "landing",
+    "tags": [
+      "light",
+      "luxury",
+      "oversized-wordmark-crop",
+      "product-as-sculpture",
+      "studio-photography",
+      "tiny-ui"
+    ],
+    "note": "The wordmark is cropped huge at the top edge with a character worked into the letter O, and each bag is photographed as a sculpture on a plinth in coloured light. UI shrinks to tiny links: the objects are the page.",
+    "captured": "2026-11-23",
+    "screens": {
+      "desktop": {
+        "file": "screens/loewe-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/loewe-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Loewe | Designer Bags, Clothing, Accessories for Women & Men - LOEWE Europe official website",
+      "fonts": [
+        "Avus"
+      ],
+      "type": {
+        "h1": {
+          "font": "Avus",
+          "size": 28,
+          "weight": "700",
+          "lineHeight": "normal",
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        },
+        "h2": {
+          "font": "Avus",
+          "size": 22,
+          "weight": "400",
+          "lineHeight": 0.91,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        },
+        "h3": null,
+        "body": {
+          "font": "Avus",
+          "size": 14,
+          "weight": "400",
+          "lineHeight": 1.4,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#ffffff"
+        ],
+        "text": [
           "#000000"
         ]
       },
@@ -31880,6 +32488,127 @@
     }
   },
   {
+    "id": "monocle-landing",
+    "site": "Monocle",
+    "url": "https://monocle.com",
+    "type": "landing",
+    "tags": [
+      "light",
+      "newspaper-masthead",
+      "serif-wordmark",
+      "illustrated-columnists",
+      "radio-module",
+      "dense-editorial-grid"
+    ],
+    "note": "A classic serif masthead with the mascot, section links in small caps, then a dense grid with illustrated columnist portraits and a live radio module. A print brand that keeps its print grammar online.",
+    "captured": "2026-11-23",
+    "screens": {
+      "desktop": {
+        "file": "screens/monocle-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/monocle-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Monocle - global affairs, culture and design",
+      "fonts": [
+        "Plantin",
+        "Helvetica Neue",
+        "monocons"
+      ],
+      "type": {
+        "h1": {
+          "font": "Plantin",
+          "size": 32,
+          "weight": "400",
+          "lineHeight": 1.5,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        },
+        "h2": {
+          "font": "Plantin",
+          "size": 32,
+          "weight": "400",
+          "lineHeight": 1.2,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        },
+        "h3": {
+          "font": "Plantin",
+          "size": 20,
+          "weight": "400",
+          "lineHeight": 1.25,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        },
+        "body": {
+          "font": "Plantin",
+          "size": 16,
+          "weight": "400",
+          "lineHeight": 1.5,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#ffffff",
+          "#000000",
+          "#2a2929",
+          "#ffc500"
+        ],
+        "text": [
+          "#000000",
+          "#ffc500",
+          "#ffffff",
+          "#d9d9d9"
+        ]
+      },
+      "buttons": [
+        {
+          "label": "SUBSCRIBE",
+          "bg": "#ffc500",
+          "color": "#000000",
+          "radius": "0px",
+          "height": 40,
+          "paddingX": 16,
+          "font": "Helvetica Neue",
+          "size": 13,
+          "weight": "700"
+        },
+        {
+          "label": "LISTEN LIVE",
+          "bg": "#ffc500",
+          "color": "#000000",
+          "radius": "0px",
+          "height": 44,
+          "paddingX": 16,
+          "font": "Helvetica Neue",
+          "size": 13,
+          "weight": "700"
+        },
+        {
+          "label": "VIEW FULL PROGRAMME",
+          "bg": "#000000",
+          "color": "#ffffff",
+          "radius": "0px",
+          "height": 44,
+          "paddingX": 16,
+          "font": "Helvetica Neue",
+          "size": 13,
+          "weight": "700"
+        }
+      ],
+      "contentWidth": 1440
+    }
+  },
+  {
     "id": "monzo-landing",
     "site": "Monzo",
     "url": "https://monzo.com",
@@ -33654,6 +34383,161 @@
         }
       ],
       "contentWidth": 1440
+    }
+  },
+  {
+    "id": "nts-landing",
+    "site": "NTS",
+    "url": "https://www.nts.live",
+    "type": "landing",
+    "tags": [
+      "dark",
+      "live-radio-player",
+      "two-channel-bar",
+      "dense-show-grid",
+      "mixtape-tiles",
+      "colour-photography"
+    ],
+    "note": "The top of the page is the live radio: two channels playing now, with show names and play buttons, then a dense grid of shows and mixtapes with real artwork. The product, live, is the header.",
+    "captured": "2026-11-23",
+    "screens": {
+      "desktop": {
+        "file": "screens/nts-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/nts-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "NTS | Don't Assume",
+      "fonts": [
+        "Univers-Condensed",
+        "sans-serif",
+        "Arial"
+      ],
+      "type": {
+        "h1": {
+          "font": "Univers-Condensed",
+          "size": 22,
+          "weight": "700",
+          "lineHeight": 1.09,
+          "letterSpacing": "normal",
+          "color": "rgb(255, 255, 255)"
+        },
+        "h2": {
+          "font": "Univers-Condensed",
+          "size": 42,
+          "weight": "700",
+          "lineHeight": 1,
+          "letterSpacing": "normal",
+          "color": "rgb(255, 255, 255)"
+        },
+        "h3": {
+          "font": "Univers-Condensed",
+          "size": 14,
+          "weight": "700",
+          "lineHeight": 1.14,
+          "letterSpacing": "normal",
+          "color": "rgb(255, 255, 255)"
+        },
+        "body": {
+          "font": "Arial",
+          "size": 13,
+          "weight": "400",
+          "lineHeight": 1.38,
+          "letterSpacing": "0.1px",
+          "color": "rgb(255, 255, 255)"
+        }
+      },
+      "colors": {
+        "background": "#000000",
+        "surfaces": [
+          "#ffffff",
+          "#000000",
+          "#fcfcfc",
+          "#f1f1f1",
+          "#cccccc"
+        ],
+        "text": [
+          "#ffffff",
+          "#000000",
+          "#999999",
+          "#cccccc"
+        ]
+      },
+      "buttons": [
+        {
+          "label": "NTS SUPPORTERS",
+          "bg": "#ffffff",
+          "color": "#000000",
+          "radius": "0px",
+          "height": 28,
+          "paddingX": 10,
+          "font": "Univers-Condensed",
+          "size": 14,
+          "weight": "700"
+        },
+        {
+          "label": "",
+          "bg": "#000000",
+          "color": "#ffffff",
+          "radius": "0px",
+          "height": 33,
+          "paddingX": 0,
+          "font": "Univers-Condensed",
+          "size": 16,
+          "weight": "400"
+        },
+        {
+          "label": "",
+          "bg": "#000000",
+          "color": "#ffffff",
+          "radius": "0px",
+          "height": 33,
+          "paddingX": 0,
+          "font": "Univers-Condensed",
+          "size": 16,
+          "weight": "400"
+        },
+        {
+          "label": "",
+          "bg": "#000000",
+          "color": "#ffffff",
+          "radius": "0px",
+          "height": 33,
+          "paddingX": 1,
+          "font": "Univers-Condensed",
+          "size": 16,
+          "weight": "400"
+        },
+        {
+          "label": "",
+          "bg": "#000000",
+          "color": "#ffffff",
+          "radius": "0px",
+          "height": 33,
+          "paddingX": 6,
+          "font": "Univers-Condensed",
+          "size": 16,
+          "weight": "400"
+        },
+        {
+          "label": "",
+          "bg": "#000000",
+          "color": "#ffffff",
+          "radius": "0px",
+          "height": 36,
+          "paddingX": 6,
+          "font": "Univers-Condensed",
+          "size": 16,
+          "weight": "400"
+        }
+      ],
+      "contentWidth": 1000
     }
   },
   {
@@ -36268,6 +37152,97 @@
         }
       ],
       "contentWidth": 1440
+    }
+  },
+  {
+    "id": "pitchfork-landing",
+    "site": "Pitchfork",
+    "url": "https://pitchfork.com",
+    "type": "landing",
+    "tags": [
+      "light",
+      "newspaper-grid",
+      "serif-headlines",
+      "album-art",
+      "score-badges",
+      "dense-columns"
+    ],
+    "note": "A newspaper front page: thin rules, serif headlines in columns, album art as the only images and review scores in circles. Density and hierarchy carry a music magazine.",
+    "captured": "2026-11-23",
+    "screens": {
+      "desktop": {
+        "file": "screens/pitchfork-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/pitchfork-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Pitchfork | The Most Trusted Voice in Music. | Pitchfork",
+      "fonts": [
+        "Walfork",
+        "PTSerif",
+        "FeatureFlatDisplay"
+      ],
+      "type": {
+        "h1": null,
+        "h2": {
+          "font": "Walfork",
+          "size": 14,
+          "weight": "700",
+          "lineHeight": 1.43,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        },
+        "h3": {
+          "font": "FeatureFlatDisplay",
+          "size": 36,
+          "weight": "700",
+          "lineHeight": 1.11,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        },
+        "body": {
+          "font": "Walfork",
+          "size": 19,
+          "weight": "400",
+          "lineHeight": 1.32,
+          "letterSpacing": "normal",
+          "color": "rgb(255, 255, 255)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#1a1a1a",
+          "#000000",
+          "#ff3530"
+        ],
+        "text": [
+          "#000000",
+          "#1a1a1a",
+          "#2b2b2b",
+          "#757575"
+        ]
+      },
+      "buttons": [
+        {
+          "label": "SUBSCRIBE",
+          "bg": "#000000",
+          "color": "#ffffff",
+          "radius": "0px",
+          "height": 48,
+          "paddingX": 20,
+          "font": "Walfork",
+          "size": 14,
+          "weight": "600"
+        }
+      ],
+      "contentWidth": 1600
     }
   },
   {
@@ -43144,6 +44119,130 @@
     }
   },
   {
+    "id": "soho-house-landing",
+    "site": "Soho House",
+    "url": "https://www.sohohouse.com",
+    "type": "landing",
+    "tags": [
+      "light",
+      "full-bleed-video-photo",
+      "serif-headline",
+      "membership-copy",
+      "house-photo-strip",
+      "cream"
+    ],
+    "note": "A moody photo of chefs at an open fire under a centred serif line, then a long scroll of real house interiors as a photo strip. Membership sold by showing the rooms.",
+    "captured": "2026-11-23",
+    "screens": {
+      "desktop": {
+        "file": "screens/soho-house-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3241
+      },
+      "mobile": {
+        "file": "screens/soho-house-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Soho House | Members' Clubs",
+      "fonts": [
+        "HK Grotesk",
+        "Arial",
+        "Cardo"
+      ],
+      "type": {
+        "h1": {
+          "font": "Cardo",
+          "size": 56,
+          "weight": "400",
+          "lineHeight": 1.25,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        },
+        "h2": {
+          "font": "Cardo",
+          "size": 48,
+          "weight": "400",
+          "lineHeight": 1.25,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        },
+        "h3": null,
+        "body": {
+          "font": "HK Grotesk",
+          "size": 18,
+          "weight": "400",
+          "lineHeight": 1.22,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        }
+      },
+      "colors": {
+        "background": "#fffef7",
+        "surfaces": [
+          "#000000",
+          "#fffef7",
+          "#f0eeeb",
+          "#ebe3db"
+        ],
+        "text": [
+          "#000000",
+          "#ffffff",
+          "#121212"
+        ]
+      },
+      "buttons": [
+        {
+          "label": "Apply for membership",
+          "bg": "#f0eeeb",
+          "color": "#121212",
+          "radius": "40px",
+          "height": 40,
+          "paddingX": 24,
+          "font": "HK Grotesk",
+          "size": 14,
+          "weight": "700"
+        },
+        {
+          "label": "Apply for membership",
+          "bg": "#000000",
+          "color": "#ffffff",
+          "radius": "40px",
+          "height": 40,
+          "paddingX": 24,
+          "font": "HK Grotesk",
+          "size": 14,
+          "weight": "700"
+        },
+        {
+          "label": "",
+          "bg": "#ebe3db",
+          "color": "#000000",
+          "radius": "20px",
+          "height": 32,
+          "paddingX": 0,
+          "font": "Arial",
+          "size": 13,
+          "weight": "400"
+        },
+        {
+          "label": "",
+          "bg": "#ebe3db",
+          "color": "#000000",
+          "radius": "20px",
+          "height": 32,
+          "paddingX": 0,
+          "font": "Arial",
+          "size": 13,
+          "weight": "400"
+        }
+      ],
+      "contentWidth": 1047
+    }
+  },
+  {
     "id": "soundtrap-landing",
     "site": "Soundtrap",
     "url": "https://www.soundtrap.com",
@@ -49246,6 +50345,101 @@
       },
       "buttons": [],
       "contentWidth": null
+    }
+  },
+  {
+    "id": "vitsoe-landing",
+    "site": "Vitsoe",
+    "url": "https://www.vitsoe.com",
+    "type": "landing",
+    "tags": [
+      "light",
+      "text-first",
+      "product-in-situ",
+      "archival-photo",
+      "plain-type",
+      "ethos-list"
+    ],
+    "note": "Plain Helvetica-like text and catalogue-style product blocks (606 shelving in a real lived-in room), then 'Why Vitsœ?' as four principles and an archival black-and-white workshop photo. A furniture maker that sells by explaining, Rams-like.",
+    "captured": "2026-11-23",
+    "screens": {
+      "desktop": {
+        "file": "screens/vitsoe-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3166
+      },
+      "mobile": {
+        "file": "screens/vitsoe-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Vitsœ",
+      "fonts": [
+        "Univers Next Pro"
+      ],
+      "type": {
+        "h1": {
+          "font": "Univers Next Pro",
+          "size": 32,
+          "weight": "700",
+          "lineHeight": 1.25,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        },
+        "h2": {
+          "font": "Univers Next Pro",
+          "size": 32,
+          "weight": "700",
+          "lineHeight": 1.25,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        },
+        "h3": {
+          "font": "Univers Next Pro",
+          "size": 16,
+          "weight": "700",
+          "lineHeight": 1.5,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 115, 177)"
+        },
+        "body": {
+          "font": "Univers Next Pro",
+          "size": 17,
+          "weight": "400",
+          "lineHeight": 1.41,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#ffffff",
+          "#f0f0f0",
+          "#0073b1"
+        ],
+        "text": [
+          "#000000",
+          "#0073b1",
+          "#09609c"
+        ]
+      },
+      "buttons": [
+        {
+          "label": "Close",
+          "bg": "#ffffff",
+          "color": "#000000",
+          "radius": "0px",
+          "height": 40,
+          "paddingX": 6,
+          "font": "Univers Next Pro",
+          "size": 14,
+          "weight": "400"
+        }
+      ],
+      "contentWidth": 1110
     }
   },
   {

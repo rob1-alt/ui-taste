@@ -6902,5 +6902,172 @@
    "blue-accent"
   ],
   "note": "A research institute whose homepage is its papers: a dotted DNA helix beside a serif headline, then a dated feed of featured research, each with a small figure from the paper as its thumbnail. Science shown by its outputs."
+ },
+ {
+  "site": "Loewe",
+  "type": "landing",
+  "url": "https://www.loewe.com",
+  "tags": [
+   "light",
+   "luxury",
+   "oversized-wordmark-crop",
+   "product-as-sculpture",
+   "studio-photography",
+   "tiny-ui"
+  ],
+  "note": "The wordmark is cropped huge at the top edge with a character worked into the letter O, and each bag is photographed as a sculpture on a plinth in coloured light. UI shrinks to tiny links: the objects are the page."
+ },
+ {
+  "site": "Asket",
+  "type": "landing",
+  "url": "https://www.asket.com",
+  "tags": [
+   "light",
+   "colour-block-photo-grid",
+   "flat-lay",
+   "red-accent",
+   "quiet-type",
+   "permanent-collection"
+  ],
+  "note": "A four-tile grid of folded garments shot flat on alternating red and grey grounds, with a tiny caption ('The Gift Guide'). Basics made graphic through colour blocking, not models."
+ },
+ {
+  "site": "Leica",
+  "type": "landing",
+  "url": "https://leica-camera.com",
+  "tags": [
+   "dark-to-light",
+   "product-macro-photo",
+   "heritage-story",
+   "street-photography",
+   "red-dot",
+   "pill-buttons"
+  ],
+  "note": "A macro of the camera's knurled metal and lens as the hero, then 'The Art of Leica' illustrated by a real street photograph taken with it. The product, then what it makes."
+ },
+ {
+  "site": "Vitsoe",
+  "type": "landing",
+  "url": "https://www.vitsoe.com",
+  "tags": [
+   "light",
+   "text-first",
+   "product-in-situ",
+   "archival-photo",
+   "plain-type",
+   "ethos-list"
+  ],
+  "note": "Plain Helvetica-like text and catalogue-style product blocks (606 shelving in a real lived-in room), then 'Why Vitsœ?' as four principles and an archival black-and-white workshop photo. A furniture maker that sells by explaining, Rams-like."
+ },
+ {
+  "site": "Aman",
+  "type": "landing",
+  "url": "https://www.aman.com",
+  "tags": [
+   "light",
+   "full-bleed-landscape-photo",
+   "serif-wordmark",
+   "spaced-caps",
+   "editorial-cards",
+   "quiet-luxury"
+  ],
+  "note": "A misty jungle valley photographed full width under a thin spaced wordmark, then destinations as editorial photo cards with small serif titles. Luxury as silence and space."
+ },
+ {
+  "site": "Soho House",
+  "type": "landing",
+  "url": "https://www.sohohouse.com",
+  "tags": [
+   "light",
+   "full-bleed-video-photo",
+   "serif-headline",
+   "membership-copy",
+   "house-photo-strip",
+   "cream"
+  ],
+  "note": "A moody photo of chefs at an open fire under a centred serif line, then a long scroll of real house interiors as a photo strip. Membership sold by showing the rooms."
+ },
+ {
+  "site": "A24",
+  "type": "landing",
+  "url": "https://a24films.com",
+  "tags": [
+   "light",
+   "film-stills",
+   "giant-tagline-overlay",
+   "cropped-type",
+   "ticket-buttons",
+   "cinema"
+  ],
+  "note": "Each film gets a full-width still with its tagline set huge in white across the image ('You Can See Everything'), cropped at the edges, with a small 'Buy tickets' button. The poster logic of cinema applied to a homepage."
+ },
+ {
+  "site": "Pitchfork",
+  "type": "landing",
+  "url": "https://pitchfork.com",
+  "tags": [
+   "light",
+   "newspaper-grid",
+   "serif-headlines",
+   "album-art",
+   "score-badges",
+   "dense-columns"
+  ],
+  "note": "A newspaper front page: thin rules, serif headlines in columns, album art as the only images and review scores in circles. Density and hierarchy carry a music magazine."
+ },
+ {
+  "site": "NTS",
+  "type": "landing",
+  "url": "https://www.nts.live",
+  "tags": [
+   "dark",
+   "live-radio-player",
+   "two-channel-bar",
+   "dense-show-grid",
+   "mixtape-tiles",
+   "colour-photography"
+  ],
+  "note": "The top of the page is the live radio: two channels playing now, with show names and play buttons, then a dense grid of shows and mixtapes with real artwork. The product, live, is the header."
+ },
+ {
+  "site": "Dazed",
+  "type": "landing",
+  "url": "https://www.dazeddigital.com",
+  "tags": [
+   "light",
+   "magazine-masthead",
+   "black-and-white-cover",
+   "cropped-wordmark",
+   "cover-line",
+   "editorial-grid"
+  ],
+  "note": "A black-and-white cover portrait with the masthead cropped through it and one cover line ('Feel the Fantasy!'), then a loose editorial grid. The homepage is a magazine cover."
+ },
+ {
+  "site": "Monocle",
+  "type": "landing",
+  "url": "https://monocle.com",
+  "tags": [
+   "light",
+   "newspaper-masthead",
+   "serif-wordmark",
+   "illustrated-columnists",
+   "radio-module",
+   "dense-editorial-grid"
+  ],
+  "note": "A classic serif masthead with the mascot, section links in small caps, then a dense grid with illustrated columnist portraits and a live radio module. A print brand that keeps its print grammar online."
+ },
+ {
+  "site": "032c",
+  "type": "landing",
+  "url": "https://032c.com",
+  "tags": [
+   "light",
+   "cover-grid",
+   "full-bleed-photo-bands",
+   "uppercase-overlay-captions",
+   "merch-as-content"
+  ],
+  "note": "Magazine covers, posters and merch sit side by side in the first row as equals, then full-bleed photo bands with caption headlines in white caps over them. Content and shop share one visual system."
  }
 ]

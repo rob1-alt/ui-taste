@@ -114,3 +114,9 @@ Take: when the product is content, design the frame, not a hero. Let each item b
 The aerospace, energy and chip companies in the library (SpaceX, Relativity, Hermeus, Stoke, K2, Oklo, Extropic, Span) never draw their product. They photograph it: a rocket stage on a crane with workers below, an engine test, a macro of a chip surface, a reactor building at night. The type is either tiny inside the photograph (Hermeus) or as loud as the machine (Stoke), never in between.
 
 Take: for hard tech, the documentary photograph of the real object is the brand. Decide the type's role against it: a caption, or a shout.
+
+## 17. Luxury is space and the object, not ornament
+
+The luxury and heritage brands in the library (Loewe, Aman, Leica, Vitsœ, Soho House, Asket) put one object or one place in a large, carefully lit photograph and shrink the interface to small text links. Loewe shoots each bag as a sculpture on a plinth; Aman gives a misty valley the whole width; Asket colour-blocks folded garments; Vitsœ explains in plain text. None of them uses gradients, shadows, badges or icons.
+
+Take: for a premium brand, spend the budget on the photograph and on space, cut the UI to the minimum, and let one typographic voice (a thin serif, a plain grotesk) do the rest.

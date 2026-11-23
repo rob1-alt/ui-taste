@@ -32,3 +32,5 @@ Tools in `ingest/`: `capture_parallel.sh batch.json` (2 parallel shards by defau
 Commerce sites captured during a sale period (Black Friday, end of November) are covered in banners and pop-ups: drop them and recapture outside sale weeks.
 
 Agency and studio sites built on WebGL often capture as black or empty (Resn, Lusion, Active Theory, Koto, Obys): prefer studios with static pages, and drop blank captures.
+
+Commerce, fashion, hotels and media sites block headless capture often (about 70% of batch 8: bot walls, region and age modals, sale takeovers). Prefer product, studio, lab and indie sites, and retry commerce outside sale weeks.
