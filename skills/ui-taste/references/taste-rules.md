@@ -14,6 +14,8 @@ Linear, Framer, Raycast and Stripe put real interface in the hero or right after
 
 Take: a real screenshot or a faithful rebuilt UI of the product, cropped on the part that matters, beats any illustration. Framed in a window with a subtle border, not a heavy device mockup.
 
+Better still, let it work. Vapi's hero starts a real voice call, Firecrawl's hero is the input with its modes (Search, Scrape, Map, Crawl), Mux's cards are a playable video, a live transcript and a cost breakdown. When the product cannot run on the page, run one concrete example through it: Browser Use takes "Buy trail shoes, size 42, under $120" through each step to "Ordered".
+
 ## 3. Restraint in colour
 
 Most screens use neutrals for 90% of the surface and one accent for actions: Vercel is black on #fafafa, Linear near-black with white text, Resend black with a single gradient word. Stripe is the exception that proves it: its gradient is the brand, used in one place, and everything else is white.
@@ -31,6 +33,8 @@ Take: let size and weight carry hierarchy instead of colour, boxes and icons. Mo
 A single row of customer logos, monochrome, right under the hero (Linear, Vercel, Stripe, Resend, Framer). No "Trusted by" heading in 32px, no coloured logos.
 
 Take: only logos you are allowed to show. If you have none, skip the row; never invent them.
+
+Proof that says something beats a bigger wall. Front mixes ROI numbers (591%, 90%) and a quote into the logo grid's own cells. Vapi leads with one customer quote with the metric set in bold inside the sentence. Greptile keeps the customer's real voice, swearing included. Browser Use publishes benchmarks ("Everything we sell is benchmarked. In public."). Y Combinator lists alumni as faint text wordmarks ending on one number. Pick one of these over a second row of logos.
 
 ## 6. Density is a choice
 
@@ -63,13 +67,26 @@ The strongest landing pages in the library each commit to one family and carry i
 | Family | What defines it | Look at |
 |---|---|---|
 | Quiet product-first | small type, neutral surfaces, the real UI as the hero | Linear, Cursor, Polar, Vercel |
-| Editorial serif | a serif display face, warm off-white, lots of space | Anthropic, Granola, mymind, Perplexity, Oura, Daylight |
+| Editorial serif | a serif display face, warm off-white, lots of space | Anthropic, Granola, mymind, Perplexity, Oura, Daylight, Y Combinator |
 | Illustrated world | one consistent illustration system around plain copy | Fly.io, Family, Craft, Railway, Browserbase |
 | Loud and bold | saturated colour, oversized or heavy type, stickers or pixels | fal, Bun, Gumroad, Mistral AI, Dia, Pitch |
-| Brutalist / technical | monospace, hard borders, visible grids, plain text | PlanetScale, Warp, Sanity, n8n |
+| Brutalist / technical | monospace, hard borders, visible grids, plain text | PlanetScale, Warp, Sanity, n8n, Mux, Firecrawl, Greptile |
+| Near-nothing | one paragraph or one sentence over one image, almost no page | Ollama, Scale AI |
 | Object and photography | the physical product or a photo carries the page | Apple, Teenage Engineering, Oura, Daylight, Mercury |
-| The product is the page | a prompt box or the tool itself as the hero | v0, Pitch, Retool, Rive, Ghostty |
+| The product is the page | a prompt box or the tool itself as the hero | v0, Pitch, Retool, Rive, Ghostty, Vapi, Firecrawl |
 
 Take: choose the family that fits the brand before choosing components, then search the library inside it (`find_refs.py "serif display"`, `"brutalist"`, `"illustration-brand"`). Mixing families (a brutalist grid with soft 3D blobs and a serif headline) is what makes a page look assembled rather than designed.
 
 The rules above (one accent, restrained type, neutral surfaces) are the floor for product UI. A landing page can go further inside its family: a saturated colour field, a 200px display face, a broken grid. See `references/landing-concepts.md` for what a landing may break and what it never breaks.
+
+## 11. Accent through a device, not only a colour
+
+Several strong pages carry emphasis with one device used on a few words: a yellow highlighter behind them (Quo, Langfuse, Infisical), a switch of typeface on the product name (Wordware), a footnote marker (Y Combinator). It reads as a voice rather than as decoration because it is rare and always means "this word matters".
+
+Take: choose one emphasis device for the whole site and use it on two or three words per page at most. An italic serif word in an accent colour is the current generated default (see `anti-slop.md`); reach for another device.
+
+## 12. Pricing turns units into outcomes
+
+Usage pricing is abstract. Mux's pricing page answers "What can you get with $100 credit?" per use case (company website, user-generated video, live stream, gen AI), and keeps enterprise as a thin strip under three plans instead of a fourth column.
+
+Take: under usage-based plans, translate one realistic budget into concrete results for two to four typical customers.

@@ -19,6 +19,8 @@ Generated pages have a new default that is as recognisable as the purple gradien
 - [ ] Decoration posing as concept: hand-drawn circles, stamps, marker strikes, rotated stickers, drawn line-art objects.
 - [ ] No real asset anywhere: no product screen at real fidelity, no photo, no real logo.
 
+Cream and a serif are not banned on their own: Y Combinator is cream with a serif headline and reads as designed, because the footnote is a real quote, the logos are real alumni and the photos are real founders. What gives the AI look away is the combination with no real material.
+
 The fix is not another style. It is real material: the product rendered at full fidelity (real labels, 12-14px UI text, dense like the real app), real photos, real logos and marks, real people. Plain confident type (one sans, sentence case) around it. Look at Harvey, Linear, Ramp, Attio, Mercury in the library.
 
 ## Type
@@ -60,6 +62,8 @@ The fix is not another style. It is real material: the product rendered at full 
 - [ ] One signature move, visible in the hero and carried into at least two sections below. Not a hero idea followed by a generic SaaS page.
 - [ ] It does not look like the previous landing you built: different direction, different type, different structure.
 - [ ] Bold through a decision, not through effects: no glow, gradient or blur added to make a safe page look exciting.
+- [ ] Proof is specific: a number in a quote, a metric in the logo grid, a public benchmark, a named result. Not a second row of logos.
+- [ ] Stock-photo AI imagery (a smiling person holding a tablet, glowing neon panels around them) is never the hero. Use the product, a real photo, or a worked example.
 
 ## Accessibility
 - [ ] Every interactive element is reachable by keyboard with a visible focus style.

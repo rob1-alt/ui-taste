@@ -3966,5 +3966,279 @@
    "date-range"
   ],
   "note": "Black, one dark green fully-operational banner, then one row per service with a segmented uptime bar. The date range above the list can be stepped back month by month."
+ },
+ {
+  "site": "Y Combinator",
+  "type": "landing",
+  "url": "https://www.ycombinator.com",
+  "tags": [
+   "light",
+   "editorial-serif",
+   "serif-display",
+   "footnote-headline",
+   "text-wordmark-list",
+   "drop-cap",
+   "photo-strip",
+   "cream-brand"
+  ],
+  "note": "The headline carries a footnote [1] that opens onto a real Paul Graham quote: the brand's own canon used as the supporting copy. Alumni are a faint serif wordmark list (no logos) ending on one number ($1.3T), then a drop-cap paragraph and a strip of real photos of founders. Cream here is twenty years of brand, not a trend: it works because every element is real material."
+ },
+ {
+  "site": "Y Combinator",
+  "type": "app",
+  "url": "https://www.ycombinator.com/companies",
+  "tags": [
+   "light",
+   "directory",
+   "facet-filters",
+   "filter-counts",
+   "list-rows",
+   "chips",
+   "mobile-filter-button"
+  ],
+  "note": "Startup directory done plainly: a left column of facet filters, each option with its count, and a list where each row is logo, name, location, one line, then batch and industry chips. On mobile the whole facet column collapses into one Filter button above the same rows."
+ },
+ {
+  "site": "Ollama",
+  "type": "landing",
+  "url": "https://ollama.com",
+  "tags": [
+   "light",
+   "minimal",
+   "one-fold",
+   "body-size-hero",
+   "stats-row",
+   "logo-grid",
+   "monochrome-logos"
+  ],
+  "note": "The whole homepage is one fold: no display headline, the hero is a body-size paragraph and one black button, then three numbers and a monochrome logo grid. Restraint as the brand: it only works because the product's reputation does the talking."
+ },
+ {
+  "site": "Mux",
+  "type": "landing",
+  "url": "https://www.mux.com",
+  "tags": [
+   "light",
+   "technical-grid",
+   "node-graph-layout",
+   "mono-caps",
+   "working-demo",
+   "logo-cells",
+   "mascot"
+  ],
+  "note": "Graph paper background with connector lines that wire the sections together like a node graph. All-caps headline and mono buttons. Every card is a working piece of product: a real video player with 'try another video', a live transcript, a cost breakdown with line items, a small analytics chart. A tiny robot mascot is the only charm."
+ },
+ {
+  "site": "Vanta",
+  "type": "landing",
+  "url": "https://www.vanta.com",
+  "tags": [
+   "light",
+   "colour-field-hero",
+   "serif-display",
+   "email-capture-hero",
+   "product-window",
+   "logo-grid"
+  ],
+  "note": "One saturated lavender field holds the hero: serif headline, an inline email + 'Get a demo' form, and the product window floating inside the field. Everything after is white and grey. The colour is spent once, at the top."
+ },
+ {
+  "site": "Pylon",
+  "type": "landing",
+  "url": "https://www.usepylon.com",
+  "tags": [
+   "dark-to-light",
+   "photo-hero",
+   "motion-blur",
+   "bottom-left-headline",
+   "mono-eyebrow",
+   "logo-marquee",
+   "tabbed-steps"
+  ],
+  "note": "Hero is a motion-blurred violet light photograph with the headline set bottom-left, like a poster caption. A mono eyebrow above it. The same violet returns once as a large panel framing a prompt box, then the page goes white with tabbed steps (Set up, Intake, Contextualize, Operate)."
+ },
+ {
+  "site": "Greptile",
+  "type": "landing",
+  "url": "https://www.greptile.com",
+  "tags": [
+   "light",
+   "engraving-illustration",
+   "mascot",
+   "mono-labels",
+   "bracket-labels",
+   "crosshair-marks",
+   "dense-logo-grid",
+   "voice-testimonial"
+  ],
+  "note": "An engraved, halftone iguana is the mascot and the hero image: one strong illustration in a technical page. Mono labels in [brackets], crosshair marks on the section corners, a two-row logo grid, then a big testimonial that keeps the customer's real voice ('the s**t out of me'). Dark section below uses blueprint wireframes."
+ },
+ {
+  "site": "Vapi",
+  "type": "landing",
+  "url": "https://vapi.ai",
+  "tags": [
+   "dark",
+   "photo-hero",
+   "motion-blur",
+   "working-demo",
+   "quote-proof",
+   "metric-in-quote"
+  ],
+  "note": "A full-bleed motion-blurred forest photograph as a dark hero, and the product works right there: pick an agent and press 'Start call'. Proof is a customer quote with the metric set in bold inside the sentence, not a logo wall."
+ },
+ {
+  "site": "Quo",
+  "type": "landing",
+  "url": "https://www.quo.com",
+  "tags": [
+   "light",
+   "highlighter-accent",
+   "rating-above-headline",
+   "platform-list",
+   "product-ui-hero",
+   "highlighted-word"
+  ],
+  "note": "A yellow highlighter is the whole brand device: the CTA, a highlighted 'Hello' in a later headline, nothing else coloured. Social proof sits above the headline (4.7 stars, 3,400+ reviews) and the platforms list (iOS, Android, macOS, Windows, Web) sits under the button. The hero shows the real inbox and a call on a phone."
+ },
+ {
+  "site": "Scale AI",
+  "type": "landing",
+  "url": "https://scale.com",
+  "tags": [
+   "dark",
+   "full-bleed-video",
+   "one-sentence",
+   "minimal",
+   "centered-headline"
+  ],
+  "note": "The homepage is one full-bleed video (a pilot, a city street, a cell tower) and one sentence in white over it. Nothing else above the fold, no button. A serious-institution move: the stakes are shown, not listed."
+ },
+ {
+  "site": "Firecrawl",
+  "type": "landing",
+  "url": "https://www.firecrawl.dev",
+  "tags": [
+   "light",
+   "dot-matrix-ornaments",
+   "crosshair-marks",
+   "visible-grid",
+   "working-demo",
+   "accent-word",
+   "json-output"
+  ],
+  "note": "Orange on white with faint pixel/dot-matrix ornaments and crosshair marks on a visible grid. The hero is a working input with mode tabs (Search, Scrape, Map, Crawl) and the product shot below is the JSON it returns. One orange word in the headline, one orange button."
+ },
+ {
+  "site": "Wordware",
+  "type": "landing",
+  "url": "https://www.wordware.ai",
+  "tags": [
+   "light",
+   "ascii-illustration",
+   "typeface-switch-accent",
+   "mono-nav",
+   "manifesto-block",
+   "inline-chips"
+  ],
+  "note": "A plant drawn entirely with text characters is the hero image. The product name switches typeface inside the sans headline (serif 'Sauna') instead of italic or colour. A deep green manifesto block in typewriter mono, then a sentence with inline icon chips ('collaborates', 'eliminates', 'anticipates')."
+ },
+ {
+  "site": "Langfuse",
+  "type": "landing",
+  "url": "https://langfuse.com",
+  "tags": [
+   "light",
+   "docs-shell-landing",
+   "sidebar-nav",
+   "toc",
+   "highlighter-accent",
+   "architecture-diagram",
+   "product-ui"
+  ],
+  "note": "The landing lives inside the docs chrome: left sidebar with live community stats, changelog and blog; right 'On this page' table of contents. Yellow highlighter on the headline, an architecture diagram of boxes, then a real trace view. For a dev tool, it says: everything here is documentation."
+ },
+ {
+  "site": "Browser Use",
+  "type": "landing",
+  "url": "https://browser-use.com",
+  "tags": [
+   "light",
+   "warm-neutral",
+   "flow-diagram-hero",
+   "concrete-example",
+   "price-per-task",
+   "benchmark-proof"
+  ],
+  "note": "The hero is a flow diagram with one concrete example run end to end: 'Buy trail shoes, size 42, under $120' goes through the harness and a stealth browser to 'Ordered'. Product cards carry a price per task and a named customer. 'Everything we sell is benchmarked. In public.' with bar charts as the proof."
+ },
+ {
+  "site": "Magic Patterns",
+  "type": "landing",
+  "url": "https://www.magicpatterns.com",
+  "tags": [
+   "light",
+   "painted-backdrop",
+   "product-window",
+   "image-sandwich-family",
+   "restrained"
+  ],
+  "note": "The product window floats on a watercolour/marbled painting; everything else is grey and white. The painted backdrop gives warmth to a design tool without illustrations or gradients."
+ },
+ {
+  "site": "Front",
+  "type": "landing",
+  "url": "https://front.com",
+  "tags": [
+   "dark-to-light",
+   "deep-colour-hero",
+   "product-ui-hero",
+   "proof-grid",
+   "metrics-in-logo-grid",
+   "video-founder"
+  ],
+  "note": "Deep aubergine hero with a lime button and the real inbox with an agent's action log on top. The proof below is one grid that mixes logos, ROI numbers (591%, 90%) and a quote in the same cells, so the logo wall says something."
+ },
+ {
+  "site": "Zapier",
+  "type": "landing",
+  "url": "https://zapier.com",
+  "tags": [
+   "light",
+   "warm-neutral",
+   "painted-sky-backdrop",
+   "single-notification",
+   "orange-accent",
+   "calm"
+  ],
+  "note": "A blurred, painted sky with a single notification card on it ('We fixed Support ticket reply assistant'): automation shown as one calm result, not a diagram of 30 app icons. Orange only on the button."
+ },
+ {
+  "site": "Infisical",
+  "type": "landing",
+  "url": "https://infisical.com",
+  "tags": [
+   "light",
+   "highlighter-accent",
+   "product-ui-hero",
+   "stacked-windows",
+   "grid-lines",
+   "mono-labels"
+  ],
+  "note": "Yellow highlighter on the words that matter (Developers, Agents, all-in-one, Secrets Management), stacked real product tables in the hero, faint grid lines and mono section labels. A security tool that feels precise instead of dark and scary."
+ },
+ {
+  "site": "Mux",
+  "type": "pricing",
+  "url": "https://www.mux.com/pricing",
+  "tags": [
+   "light",
+   "pricing-3-tier",
+   "technical-grid",
+   "mono-caps",
+   "credit-calculator",
+   "enterprise-strip"
+  ],
+  "note": "Three plans on graph paper, each with the same icon-led list and one yellow button; enterprise is a thin strip below, not a fourth column. 'What can you get with $100 credit?' turns usage pricing into concrete outcomes per use case (tabs: company website, UGC, live stream, gen AI)."
  }
 ]

@@ -40,7 +40,8 @@ A signature move is one decision that would look wrong on any other product's si
 - The customer's object, photographed or drawn: the binder, the receipt, the vinyl, the seed packet.
 - The page behaves like the product: a prompt that answers, a slider that changes the hero, a timeline that scrubs, a before/after you drag.
 - A grid broken on purpose: one element (the product window, a photo, a number) bleeds out of the column and off the edge.
-- A voice written into the layout: marginal notes, footnotes, handwriting, redactions, a changelog as the hero.
+- A voice written into the layout: marginal notes, footnotes, handwriting, redactions, a changelog as the hero. Y Combinator's headline carries a footnote [1] that opens onto a real Paul Graham quote: the brand's own canon as the subhead.
+- One accent device instead of one accent colour, used on the few words that matter: a yellow highlighter (Quo, Langfuse, Infisical), a typeface switch on the product name (Wordware's serif "Sauna" inside a sans headline).
 
 One signature move per page, carried through every section. Two compete; zero is the template.
 
@@ -54,11 +55,14 @@ Build with `references/taste-rules.md` and the project's tokens, then go through
 |---|---|---|
 | **Poster / type as image** | One giant word, wordmark or number is the visual. Colour fields, no illustration. | `dia-landing`, `glossier-landing`, `playdate-landing`, `mymind-landing`, `jitter-landing` — `"oversized wordmark"`, `"bold typography"` |
 | **Colour field** | One saturated brand colour fills the fold; UI and copy in black or white only. | `cash-app-landing`, `dia-landing`, `fal-landing`, `discord-landing` — `"bold color"` |
-| **The product is the page** | The hero is the working tool: a prompt, a terminal, a playable scene, a live editor. | `rive-landing`, `ghostty-landing`, `suno-landing`, `pitch-landing`, `vectary-landing` — `"prompt box hero"`, `"interactive hero"` |
-| **Object and photography** | A real object or photo carries the page; type is small and precise. | `teenage-engineering-landing`, `daylight-landing`, `monzo-landing`, `runway-landing`, `ideogram-landing` — `"product photo"`, `"photo hero"` |
+| **The product is the page** | The hero is the working tool: a prompt, a terminal, a playable scene, a live editor, a call you can start. | `rive-landing`, `ghostty-landing`, `suno-landing`, `pitch-landing`, `vectary-landing`, `vapi-landing`, `firecrawl-landing`, `mux-landing` — `"prompt box hero"`, `"interactive hero"`, `"working demo"` |
+| **One worked example** | The hero runs one concrete, specific job end to end (input, what happens, result) instead of stating a claim. | `browser-use-landing` (trail shoes, size 42, under $120 → Ordered), `zapier-landing` (one notification: the ticket got fixed) — `"flow diagram hero"`, `"concrete example"` |
+| **Docs as the landing** | For developer tools: the landing lives in the docs chrome (sidebar, table of contents, changelog, live stats). Says "nothing hidden". | `langfuse-landing` — `"docs shell landing"` |
+| **Near-nothing** | One fold or one sentence: a paragraph and a button, or a full-bleed video and a line. Only for brands whose reputation already does the work. | `ollama-landing`, `scale-ai-landing` — `"one fold"`, `"full-bleed video"` |
+| **Object and photography** | A real object or photo carries the page; type is small and precise. A motion-blurred or painted photo can be the field itself (Pylon, Vapi, Zapier). | `teenage-engineering-landing`, `daylight-landing`, `monzo-landing`, `runway-landing`, `ideogram-landing`, `pylon-landing`, `vapi-landing` — `"product photo"`, `"photo hero"`, `"motion blur"` |
 | **Editorial / collage** | The page reads like a magazine, a newspaper or a book: columns, captions, hand-made pieces. | `oatly-landing`, `stripe-press-landing`, `pentagram-landing`, `are-na-landing` — `"editorial"`, `"collage"` |
 | **Illustrated world** | One illustration system (mascots, stickers, pixels, icons) builds a world around plain copy. | `bun-landing`, `mistral-ai-landing`, `panic-landing`, `family-landing`, `duolingo-landing` — `"illustration brand"`, `"pixel"` |
-| **Brutalist / technical** | Hard borders, monospace, visible grid, raw numbers. Confidence through bareness. | `gumroad-landing`, PlanetScale, Warp, Sanity — `"brutalist"`, `"monospace"` |
+| **Brutalist / technical** | Hard borders, monospace, visible grid, raw numbers. Confidence through bareness. Graph paper, crosshair corner marks and node-graph connectors between sections (Mux, Firecrawl, Greptile); one engraved or ASCII illustration keeps it from being cold (Greptile's iguana, Wordware's text-drawn plant). | `gumroad-landing`, `mux-landing`, `greptile-landing`, `firecrawl-landing`, `wordware-landing`, PlanetScale, Warp — `"brutalist"`, `"monospace"`, `"technical grid"`, `"ascii illustration"` |
 | **Quiet product-first** | Small type, neutral surfaces, the real UI as the hero. Right for tools whose UI is the brand. | Linear, Cursor, Vercel, Polar — `"product screenshot hero"` |
 | **Image sandwich** | The product window set into a full-bleed scene, the foreground over it. See `references/landing-recipe.md`. | `find_refs.py "image sandwich"` |
 
