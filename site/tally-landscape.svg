@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -420 1600 1420" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#e9e6d8"/>
+      <stop offset="0.38" stop-color="#f3efe3"/>
+      <stop offset="0.62" stop-color="#f6ead0"/>
+    </linearGradient>
+    <radialGradient id="sun" cx="0.74" cy="0.5" r="0.42">
+      <stop offset="0" stop-color="#fff7df" stop-opacity="0.95"/>
+      <stop offset="0.5" stop-color="#fbe9c2" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#fbe9c2" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="h1" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#b9c4ad"/><stop offset="1" stop-color="#a3b39b"/></linearGradient>
+    <linearGradient id="h2" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#8ea486"/><stop offset="1" stop-color="#718f75"/></linearGradient>
+    <linearGradient id="h3" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#5f8466"/><stop offset="1" stop-color="#3f6b55"/></linearGradient>
+    <linearGradient id="h4" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#3a6450"/><stop offset="1" stop-color="#24503f"/></linearGradient>
+    <linearGradient id="h5" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#24493a"/><stop offset="1" stop-color="#12302a"/></linearGradient>
+
+    <!-- brushy edges -->
+    <filter id="paint" x="-5%" y="-10%" width="110%" height="120%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.009 0.035" numOctaves="3" seed="4" result="n"/>
+      <feDisplacementMap in="SourceGraphic" in2="n" scale="22" xChannelSelector="R" yChannelSelector="G"/>
+    </filter>
+    <filter id="soft" x="-20%" y="-50%" width="140%" height="200%">
+      <feGaussianBlur stdDeviation="18"/>
+    </filter>
+    <filter id="haze"><feGaussianBlur stdDeviation="3"/></filter>
+    <!-- horizontal brush strokes -->
+    <filter id="strokes" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.0015 0.035" numOctaves="3" seed="11"/>
+      <feColorMatrix type="matrix" values="0 0 0 0 0.08  0 0 0 0 0.12  0 0 0 0 0.08  0 0 0 1.6 -0.55"/>
+    </filter>
+    <!-- canvas grain -->
+    <filter id="grain" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" seed="2"/>
+      <feColorMatrix type="matrix" values="0 0 0 0 0.2  0 0 0 0 0.18  0 0 0 0 0.12  0 0 0 0.9 -0.3"/>
+    </filter>
+  </defs>
+
+  <rect y="-420" width="1600" height="1420" fill="url(#sky)"/>
+  <rect y="-420" width="1600" height="1420" fill="url(#sun)"/>
+
+  <!-- clouds -->
+  <g filter="url(#soft)" fill="#fffdf6" opacity="1">
+    <ellipse cx="300" cy="170" rx="260" ry="42"/><ellipse cx="520" cy="-180" rx="320" ry="40"/><ellipse cx="1240" cy="-60" rx="260" ry="34"/>
+    <ellipse cx="460" cy="140" rx="180" ry="30"/>
+    <ellipse cx="1080" cy="120" rx="300" ry="38"/>
+    <ellipse cx="1320" cy="250" rx="220" ry="30"/>
+    <ellipse cx="760" cy="300" rx="200" ry="22"/>
+  </g>
+
+  <!-- far hills -->
+  <g filter="url(#paint)">
+    <path d="M-80 560 C 160 500 300 520 440 540 C 620 565 760 470 940 480 C 1120 490 1260 540 1400 520 C 1500 505 1560 500 1600 505 L1680 1000 L1680 1100 L-80 1100 Z" fill="url(#h1)" opacity="0.9"/>
+  </g>
+  <g filter="url(#haze)" opacity="0.5">
+    <path d="M-80 600 C 200 590 420 610 700 600 C 980 590 1300 610 1600 598 L1680 640 L-80 640 Z" fill="#f3ecdb"/>
+  </g>
+  <g filter="url(#paint)">
+    <path d="M-80 640 C 180 590 340 600 520 630 C 700 660 860 590 1060 600 C 1240 610 1380 650 1600 620 L1680 1000 L1680 1100 L-80 1100 Z" fill="url(#h2)"/>
+    <!-- distant tree line -->
+    <g fill="#55765d" opacity="0.85">
+      <ellipse cx="980" cy="598" rx="34" ry="16"/><ellipse cx="1012" cy="592" rx="26" ry="18"/><ellipse cx="1040" cy="600" rx="30" ry="13"/>
+      <ellipse cx="1180" cy="606" rx="22" ry="12"/><ellipse cx="1200" cy="600" rx="18" ry="14"/>
+    </g>
+  </g>
+  <g filter="url(#paint)">
+    <path d="M-80 720 C 220 660 400 690 600 720 C 820 752 980 690 1180 700 C 1360 708 1480 740 1600 720 L1680 1000 L1680 1100 L-80 1100 Z" fill="url(#h3)"/>
+    <!-- a stand of trees -->
+    <g fill="#2e5644">
+      <ellipse cx="250" cy="676" rx="46" ry="40"/><ellipse cx="300" cy="664" rx="38" ry="48"/><ellipse cx="340" cy="684" rx="34" ry="30"/>
+      <ellipse cx="1390" cy="704" rx="40" ry="34"/><ellipse cx="1430" cy="694" rx="30" ry="40"/>
+    </g>
+    <!-- path -->
+    <path d="M820 1000 C 860 900 760 860 880 800 C 960 760 1060 750 1120 720" stroke="#d9c9a4" stroke-width="16" fill="none" stroke-linecap="round" opacity="0.55"/>
+  </g>
+  <g filter="url(#paint)">
+    <path d="M-80 810 C 240 760 460 790 680 820 C 900 850 1080 790 1300 800 C 1440 806 1540 830 1600 820 L1680 1000 L1680 1100 L-80 1100 Z" fill="url(#h4)"/>
+  </g>
+  <g filter="url(#paint)">
+    <path d="M-80 900 C 260 860 520 880 800 905 C 1080 930 1320 880 1600 890 L1680 1000 L1680 1100 L-80 1100 Z" fill="url(#h5)"/>
+  </g>
+
+  <!-- painterly texture over everything -->
+  <rect y="-420" width="1600" height="1420" filter="url(#strokes)" opacity="0.13" style="mix-blend-mode:multiply"/>
+  <rect y="-420" width="1600" height="1420" filter="url(#grain)" opacity="0.22" style="mix-blend-mode:multiply"/>
+</svg>

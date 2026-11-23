@@ -558,3 +558,10 @@ body { background: #fff; }
   .measured, .numbers, .index, .method, .review, .install, .foot { border-left: 0; border-right: 0; }
   .measured::after, .numbers::after, .index::after, .method::after, .review::after, .install::after, .foot::after { left: 8px; right: 8px; }
 }
+
+/* the fixed demo sits on a painted landscape (after Cursor and Craft: the product framed in a painting) */
+.demo.fix-gradient { background: linear-gradient(to bottom, transparent 62%, rgb(12 34 26 / 0.55)), #ece8da url("tally-landscape.svg") center bottom / cover no-repeat; }
+.demo.fix-gradient.fix-cards .d-cards { color: #f4f1ea; --t-ink: #f4f1ea; --t-muted: rgb(244 241 234 / 0.75); --t-accent: #e9d9a8; }
+.demo.fix-gradient.fix-cards .d-card { border-top-color: rgb(244 241 234 / 0.6); }
+.demo.fix-center .d-product { box-shadow: 0 0 0 1px rgb(19 37 31 / 0.08), 0 40px 70px -30px rgb(10 30 22 / 0.55); }
+.demo { min-height: 600px; }
