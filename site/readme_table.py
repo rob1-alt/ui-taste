@@ -39,6 +39,10 @@ def main() -> None:
     text = README.read_text()
     text = re.sub(r"\| Page type \| Screens \| Sites \|\n(?:\|.*\|\n)+", "\n".join(rows) + "\n", text, count=1)
     text = re.sub(r"\*\*\d+ pages from \d+ sites and design systems[^\n]*\*\*", total, text, count=1)
+    # one image line per landing contact sheet in docs/
+    sheets = sorted(ROOT.glob("docs/landing-*.jpg"), key=lambda q: int(q.stem.split("-")[1]))
+    block = "\n\n".join(f"![landing pages {q.stem.split('-')[1]}](docs/{q.name})" for q in sheets)
+    text = re.sub(r"!\[landing pages 1\]\(docs/landing-1\.jpg\)(?:\n\n!\[landing pages \d+\]\(docs/landing-\d+\.jpg\))*", block, text, count=1)
     README.write_text(text)
     print(total)
 

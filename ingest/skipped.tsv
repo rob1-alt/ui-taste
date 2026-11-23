@@ -1,0 +1,89 @@
+# url	reason (blocked = bot wall/Cloudflare on capture; generic = captured but teaches nothing; broken = capture empty or covered)
+https://replit.com	blocked
+https://www.coinbase.com	blocked
+https://www.faire.com	blocked
+https://kalshi.com	blocked
+https://www.airbnb.com	broken (desktop listings empty)
+https://www.dropbox.com	broken (cookie banner) + generic
+https://www.ashbyhq.com	generic
+https://lattice.com	generic
+https://www.getlago.com	generic
+https://www.algolia.com	generic (stock AI photo)
+https://reducto.ai	generic (AI look)
+https://www.whoop.com	blocked
+https://frame.work	blocked
+https://www.midjourney.com	blocked
+https://www.aesop.com	blocked
+https://www.sonos.com	blocked
+https://www.whatnot.com	blocked
+https://www.revolut.com	blocked
+https://gamma.app	blocked
+https://www.vitra.com	blocked
+https://www.helicone.ai	generic
+https://reclaim.ai	generic
+https://www.statsig.com	generic
+https://www.medplum.com	generic
+https://www.pigment.com	generic
+https://riverside.fm	generic
+https://www.nango.dev	generic
+https://www.useparagon.com	generic
+https://amplitude.com	generic
+https://tuple.app	generic
+https://zen-browser.app	generic (AI look)
+https://mem0.ai	generic
+https://www.heroku.com	generic
+https://www.benchling.com	generic
+https://www.together.ai	generic
+https://www.usemotion.com	generic
+https://www.eightsleep.com	broken (modal over hero)
+https://cap.so	generic (AI look)
+https://zed.dev/industries	broken 404
+https://www.tabnine.com	generic
+https://plane.so	generic
+https://sparkmailapp.com	generic
+https://www.opal.so	broken
+https://www.peakdesign.com	generic commerce
+https://athleticbrewing.com	broken consent modal
+https://momofukugoods.com	broken parked
+https://www.hims.com	blocked
+https://www.blinkist.com	blocked
+https://lovable.dev	blocked
+https://www.continue.dev	acquisition notice
+https://www.shortwave.com	generic
+https://daylightcomputer.com	duplicate of daylight, popups
+https://www.plaud.ai	modals
+https://www.awaytravel.com	blank
+https://liquiddeath.com	modal
+https://fromourplace.com	modal
+https://windsurf.com	generic
+https://www.coderabbit.ai	generic
+https://flexibits.com/fantastical	generic glossy blobs
+https://arc.net/search	same page as arc
+https://www.kobo.com	blocked
+https://bellroy.com	Black Friday banner page
+https://ritual.com	modal
+https://www.carawayhome.com	Black Friday banner page
+https://makeheadway.com	modal
+https://medium.com	blocked
+https://www.fontshare.com	broken short capture
+https://bolt.new	generic dark glow
+https://sourcegraph.com	generic
+https://www.notion.com/product/calendar	generic
+https://www.notion.com/product/mail	redirects to notion home
+https://www.limitless.ai	acquisition notice
+https://remarkable.com	survey popup over hero
+https://nomadgoods.com	Black Friday banner page
+https://www.brooklinen.com	popup
+https://www.graza.co	blank
+https://greatjonesgoods.com	blank
+https://www.tealhq.com	blocked
+https://www.cosmos.so/about	not found
+https://ironcladapp.com	AI-look italic serif
+https://mixpanel.com	generic
+https://www.krea.ai	sale modal
+https://huly.io	generic glow
+https://layers.to	gallery of other people's work
+https://about.gitlab.com	broken (capture crashes twice)
+https://rivian.com	broken (capture crashes twice)
+https://clipdrop.co	broken (capture crashes twice)
+https://substack.com	broken (capture crashes twice)

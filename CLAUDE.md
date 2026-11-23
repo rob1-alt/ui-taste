@@ -22,4 +22,10 @@ Every time screens are added to the library (one site or a batch), the same sess
 6. **Commit** the batch (screens, index, sources, skill changes, site, README) in one commit, message style `library: <n> <type> pages (<sites>), <what the skill learned>`. Do not push unless asked.
 7. Report what was added, what was dropped and why, and what changed in the skill.
 
+Before a batch, skip every URL already in `sources.json` or in `ingest/skipped.tsv`; after review, add each dropped URL to `ingest/skipped.tsv` with its reason (blocked, generic, broken).
+
 Capture with the venv: `.venv/bin/python skills/ui-taste/scripts/capture.py --batch <file.json>` (run from `skills/ui-taste/scripts/`).
+
+For speed, split a batch into 4 files and run 4 `capture.py --batch` processes in parallel: `save_item` locks `index.json`. Never write `index.json` from another script while captures are running.
+
+Commerce sites captured during a sale period (Black Friday, end of November) are covered in banners and pop-ups: drop them and recapture outside sale weeks.

@@ -63,6 +63,7 @@ The fix is not another style. It is real material: the product rendered at full 
 - [ ] It does not look like the previous landing you built: different direction, different type, different structure.
 - [ ] Bold through a decision, not through effects: no glow, gradient or blur added to make a safe page look exciting.
 - [ ] Proof is specific: a number in a quote, a metric in the logo grid, a public benchmark, a named result. Not a second row of logos.
+- [ ] The copy has a voice. Read the headline aloud: if any company in the category could say it ("Build reliable AI apps", "A new era for X teams"), rewrite it with what only this product can claim.
 - [ ] Stock-photo AI imagery (a smiling person holding a tablet, glowing neon panels around them) is never the hero. Use the product, a real photo, or a worked example.
 
 ## Accessibility

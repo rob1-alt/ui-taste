@@ -43,7 +43,7 @@ Claude then opens the screenshot with its Read tool and looks at it before decid
 
 | Page type | Screens | Sites |
 |---|---|---|
-| landing | 183 | 1Password, Affinity, Airtable, Alan, Amie, Anthropic, Apple, Are.na, Asana, Astro, Attio, Axiom, Basecamp, beehiiv, Bezi, Bolt, Brex, Browser Use, Browserbase, Bun, Cal.com, Capacities, Cash App, Clay, CleanShot, Clerk, Coda, Cognition, Convex, Cosmos, Craft, Cursor, Daylight, Decagon, Delphi, Deno, Descript, Devin, Dia, Discord, Dub, Duolingo, ElevenLabs, Expo, Factory, fal, Family, Fathom, Figma, Firecrawl, Fly.io, folk, Frame.io, Framer, Front, Ghost, Ghostty, GitHub, Glossier, Granola, Greptile, Gumroad, Harvey, Headspace, Heptabase, Hex, HEY, Hugging Face, Ideogram, Infisical, Inngest, Intercom, Jitter, Kagi, Langfuse, Lindy, Linear, Liveblocks, Loom, Loops, Luma AI, Magic Patterns, Mailchimp, Mercury, Mintlify, Miro, Mistral AI, Mobbin, Modal, Monzo, Mux, mymind, N26, n8n, Neon, Netlify, Notion, Oatly, Obsidian, Ollama, Oura, Paddle, Panic, Partiful, Pennylane, Penpot, Pentagram, Perplexity, Phantom, Pika, Pitch, Plain, PlanetScale, Plausible, Playdate, Polar, PostHog, Prisma, Procreate, Proton, Pylon, Qonto, Quo, Railway, Rainbow, Ramp, Raycast, Readwise Reader, Reflect, Render, Replicate, Resend, Retool, Rive, Rows, Runway, Sanity, SavvyCal, Scale AI, Screen Studio, Sentry, Shopify, Sierra, Sketch, Slack, Soundtrap, Spline, Spotify, Steel, Stripe, Stripe Press, Suno, Sunsama, Supabase, Superhuman, Svelte, Tailscale, Tana, Teenage Engineering, Tella, Temporal, Things, Tinybird, Trigger.dev, Turso, Twenty, Typefully, Upstash, v0, Vanta, Vapi, Vectary, Vercel, Warp, Webflow, Weekrise, Whimsical, Wise, Wordware, WorkOS, Y Combinator, Zapier, Zed |
+| landing | 240 | 1Password, Affinity, Airtable, Alan, Amie, Analogue, Anthropic, Anytype, Apple, Arc, Are.na, Asana, Astro, Attio, Augment Code, Axiom, Basecamp, Bear, Bee, beehiiv, Bezi, Bolt, Brex, Browser Use, Browserbase, Bun, Cal.com, Capacities, Cartesia, Cash App, Clay, CleanShot, Clerk, Cline, Coda, Cognition, Cohere, Commercial Type, Contra, Convex, Cosmos, Craft, Cursor, Daylight, Decagon, Delphi, Deno, Descript, Devin, Dia, Dinamo, Discord, Docker, Dovetail, Dub, Duolingo, Dust, ElevenLabs, Every, Expo, Factory, Fairphone, fal, Family, Fathom, Figma, Firecrawl, Flexport, Fly by Jing, Fly.io, folk, Frame.io, Framer, Friend, Front, Function Health, Ghost, Ghostty, GitHub, Glossier, Granola, Graphite, Greptile, Grilli Type, Groq, Gumroad, Harvey, Haus, Headspace, Heptabase, Hex, HEY, HeyGen, Hugging Face, Hume AI, Ideogram, Infisical, Inngest, Intercom, Jitter, Kagi, Kilo Code, Klim Type Foundry, Komoot, Ladder, Langfuse, Ledger, Levels, Light Phone, Lindy, Linear, Liveblocks, Loom, Loops, Luma, Luma AI, Magic Patterns, Mailchimp, Maze, Mercury, Mintlify, Miro, Mistral AI, Mobbin, Modal, Monzo, Mullvad, Mux, mymind, N26, n8n, Neon, Netlify, Northflank, Nothing, Notion, Oatly, Obsidian, Olipop, Ollama, Omsom, On, Oura, Paddle, Pangram Pangram, Panic, Partiful, Pennylane, Penpot, Pentagram, Perplexity, Phantom, Photoroom, Pika, Pitch, Plain, PlanetScale, Plausible, Playdate, Polar, Polestar, Poolside, PostHog, Prisma, Procreate, Proton, Pylon, Qonto, Quo, Rabbit, Railway, Rainbow, Ramp, Rapha, Raycast, Readwise, Readwise Reader, Recess, Reflect, Relume, Render, Replicate, Resend, Retool, Rive, Rows, Runway, Sanity, Savee, SavvyCal, Scale AI, Screen Studio, Sentry, Shopify, Sierra, Sketch, Slack, Soundtrap, Spline, Spotify, Steel, Strava, Stripe, Stripe Press, Suno, Sunsama, Supabase, Superhuman, Superpower, Svelte, Tailscale, Tana, Teenage Engineering, Tella, Tempo, Temporal, The Browser Company, Things, Tinybird, tldraw, Trigger.dev, Turso, Twenty, Typefully, Upstash, v0, Vanta, Vapi, Vectary, Vercel, Warp, Webflow, Weekrise, Whimsical, Wise, Wordware, WorkOS, Y Combinator, Zapier, Zed |
 | pricing | 28 | Attio, Cal.com, Clerk, Cursor, Dub, Figma, Framer, Ghost, Kagi, Linear, Loops, Mux, n8n, Netlify, Notion, Obsidian, PostHog, Railway, Raycast, Render, Resend, Sentry, Stripe, Tailscale, Vercel, Warp, Webflow, Zed |
 | dashboard | 15 | Artificial Analysis, Fathom, GitHub, Mercury, OpenPanel, Plausible, shadcn/ui, Simple Analytics, Tailwind Catalyst, Tremor, ultrasound.money, Umami, Uniswap |
 | app screen | 11 | Cal.com, FotMob, GitHub, Hugging Face, Hyperliquid, Our World in Data, Robinhood, Spotify, Y Combinator, Yr |
@@ -63,7 +63,7 @@ Claude then opens the screenshot with its Read tool and looks at it before decid
 | customers | 2 | Linear, Vercel |
 | blog | 2 | Linear, Vercel |
 
-**325 pages from 218 sites and design systems, each captured on desktop and mobile (650 screenshots).**
+**382 pages from 275 sites and design systems, each captured on desktop and mobile (764 screenshots).**
 
 Every screen is captured at 1440px (desktop, first 3600px) and 390px (mobile), with cookie banners refused and chat widgets hidden. Tokens are read from the browser's computed styles: fonts, h1/h2/h3/body sizes, line heights and tracking, background, surface and text colours by area covered, button fill, radius, height and padding, and content width.
 
@@ -82,6 +82,10 @@ Every screen is captured at 1440px (desktop, first 3600px) and 390px (mobile), w
 ![landing pages 6](docs/landing-6.jpg)
 
 ![landing pages 7](docs/landing-7.jpg)
+
+![landing pages 8](docs/landing-8.jpg)
+
+![landing pages 9](docs/landing-9.jpg)
 
 ### Mobile
 

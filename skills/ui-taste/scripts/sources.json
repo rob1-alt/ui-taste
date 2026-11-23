@@ -4240,5 +4240,789 @@
    "enterprise-strip"
   ],
   "note": "Three plans on graph paper, each with the same icon-led list and one yellow button; enterprise is a thin strip below, not a fourth column. 'What can you get with $100 credit?' turns usage pricing into concrete outcomes per use case (tabs: company website, UGC, live stream, gen AI)."
+ },
+ {
+  "site": "Docker",
+  "type": "landing",
+  "url": "https://www.docker.com",
+  "tags": [
+   "dark-to-light",
+   "starfield-hero",
+   "tiny-ui-nodes",
+   "left-headline",
+   "three-column-cards"
+  ],
+  "note": "A dark hero with a sparse starfield where tiny agent windows float like constellations; the headline is a twist on a phrase (\"Trust Docker for the agents you don't\"). Below, light grey sections with small, precise UI drawings for each pillar."
+ },
+ {
+  "site": "Flexport",
+  "type": "landing",
+  "url": "https://www.flexport.com",
+  "tags": [
+   "dark-to-light",
+   "photo-hero",
+   "ocean-photo",
+   "product-ui-hero",
+   "email-capture-hero",
+   "mono-caps-nav",
+   "shipment-card"
+  ],
+  "note": "An ocean freight photograph as the hero field, with an email + 'Request a demo' field in it and the real dashboard (a world map of shipments) rising from the bottom. Below, a shipment document (INVPO10903, in transit, Shanghai) is the illustration: the product's real objects as imagery."
+ },
+ {
+  "site": "Graphite",
+  "type": "landing",
+  "url": "https://graphite.dev",
+  "tags": [
+   "dark",
+   "wireframe-object",
+   "video-hero",
+   "coloured-logo-cells",
+   "product-ui"
+  ],
+  "note": "Dark page with one glowing wireframe object beside the headline and a product video below. Customer stories are logo cells, one of them in the customer's own colour (Ramp's lime), which breaks the monochrome wall on purpose."
+ },
+ {
+  "site": "tldraw",
+  "type": "landing",
+  "url": "https://www.tldraw.com",
+  "tags": [
+   "light",
+   "the-tool-is-the-page",
+   "canvas-hero",
+   "no-marketing",
+   "minimal"
+  ],
+  "note": "The homepage is the product: an empty whiteboard canvas with its toolbar and style panel, and nothing else above the fold. The most literal version of \"the product is the page\"."
+ },
+ {
+  "site": "Arc",
+  "type": "landing",
+  "url": "https://arc.net",
+  "tags": [
+   "dark",
+   "letter-as-landing",
+   "editorial",
+   "signature",
+   "sunset-announcement",
+   "long-form"
+  ],
+  "note": "A product's goodbye written as a letter: centred logo, one-line title, then plain long-form text signed by hand (Josh). The landing becomes a document of the company's voice; no feature grid."
+ },
+ {
+  "site": "Cohere",
+  "type": "landing",
+  "url": "https://cohere.com",
+  "tags": [
+   "light",
+   "product-ui-over-painting",
+   "photo-hero",
+   "two-sentence-headline",
+   "logo-row"
+  ],
+  "note": "\"Your AI. Your rules.\" in two short sentences. The product window sits on a painted landscape, then a full-bleed photo of a person outdoors: enterprise AI shown with human warmth instead of circuits."
+ },
+ {
+  "site": "Groq",
+  "type": "landing",
+  "url": "https://groq.com",
+  "tags": [
+   "light",
+   "manifesto-hero",
+   "text-only",
+   "large-grey-type",
+   "mono-caps",
+   "orange-accent"
+  ],
+  "note": "No image, no product: the hero is a manifesto of short sentences in large light-grey type, one after another (\"Every customer served. Every product sold. ... That's inference.\"). Orange mono caps for nav and the one button. Text as the whole visual."
+ },
+ {
+  "site": "Cartesia",
+  "type": "landing",
+  "url": "https://cartesia.ai",
+  "tags": [
+   "light",
+   "serif-display",
+   "voice-orbs",
+   "live-demo",
+   "ranked-proof",
+   "photo-story",
+   "logo-cells"
+  ],
+  "note": "Serif headline that leads with a ranking (\"#1-ranked for realtime voice\"), then a carousel of green voice orbs with \"Talk to Skylar\": you hear the product. The ranking is a logo cell with its source, and the customer story is a big photo of a skyscraper with a quote and a metric."
+ },
+ {
+  "site": "Hume AI",
+  "type": "landing",
+  "url": "https://www.hume.ai",
+  "tags": [
+   "dark-to-light",
+   "dot-matrix-map",
+   "serif-display",
+   "product-cards",
+   "people-photo-grid",
+   "stats-cells"
+  ],
+  "note": "Dark top with a dot-matrix texture, serif headline, then light product cards (a call transcript, an emotion matrix). Below, a grid of real people photos with UI labels overlaid (Tone, Expression): a voice model shown through faces."
+ },
+ {
+  "site": "Relume",
+  "type": "landing",
+  "url": "https://www.relume.io",
+  "tags": [
+   "light",
+   "product-window",
+   "3d-wireframe-grid",
+   "pink-accent",
+   "prompt-box-hero"
+  ],
+  "note": "A prompt box hero, then the product window framed by bright pink with yellow 3D wireframe grids peeking from behind: playful geometry instead of a gradient, and the window shows a real generated site (a pelican photo) rather than placeholders."
+ },
+ {
+  "site": "Northflank",
+  "type": "landing",
+  "url": "https://northflank.com",
+  "tags": [
+   "dark",
+   "terminal-line",
+   "isometric-blocks",
+   "mono-labels",
+   "dense-logo-grid",
+   "product-cards"
+  ],
+  "note": "A one-line terminal command above an isometric drawing of green blocks (services, sandboxes) on black: infrastructure drawn as a small city. Mono labels and a dense logo grid keep it engineering-first."
+ },
+ {
+  "site": "Nothing",
+  "type": "landing",
+  "url": "https://nothing.tech",
+  "tags": [
+   "light",
+   "commerce",
+   "product-photo-hero",
+   "dot-matrix-type",
+   "shop-by-category",
+   "dark-product-section"
+  ],
+  "note": "Product photography as the hero (earbuds, headphones exploded in transparent shells) with a small serif-ish line over it; then shop by category on white, then a black section for one flagship product. The brand's dot-matrix type appears only in small labels."
+ },
+ {
+  "site": "Rabbit",
+  "type": "landing",
+  "url": "https://www.rabbit.tech",
+  "tags": [
+   "light-grey",
+   "orange-accent",
+   "lowercase-type",
+   "studio-photo",
+   "one-colour-brand",
+   "conversational-copy"
+  ],
+  "note": "One orange on grey, everything lowercase, a studio photograph with a play button as the hero. The copy talks like a person (\"the operating system you don't operate\", \"that folder you keep putting off\"). Brand by voice and one colour."
+ },
+ {
+  "site": "On",
+  "type": "landing",
+  "url": "https://www.on.com",
+  "tags": [
+   "light",
+   "commerce",
+   "lifestyle-photo-hero",
+   "category-photo-tiles",
+   "large-type-list",
+   "ticker-bar"
+  ],
+  "note": "Sportswear commerce: a warm lifestyle photograph as the hero with one line and two pill buttons, then three photo tiles (shoes, apparel, accessories), then a large-type list of sports. A ticker of promos runs on top."
+ },
+ {
+  "site": "Rapha",
+  "type": "landing",
+  "url": "https://www.rapha.cc",
+  "tags": [
+   "dark",
+   "commerce",
+   "full-bleed-photo",
+   "product-grid",
+   "sport",
+   "uppercase-condensed"
+  ],
+  "note": "Commerce landing led by one full-bleed sport photograph and an uppercase partnership line, then a plain product grid with prices. The photography is the brand; the UI around it stays small and grey."
+ },
+ {
+  "site": "Analogue",
+  "type": "landing",
+  "url": "https://www.analogue.co",
+  "tags": [
+   "light-grey",
+   "commerce",
+   "product-photography",
+   "object-hero",
+   "minimal-ui",
+   "stacked-products"
+  ],
+  "note": "Each product gets one full-width grey studio photograph with a tiny label and one button: \"Shipping now\", \"Pocket in stock now\". Almost no UI chrome; the object and the light do the work."
+ },
+ {
+  "site": "Polestar",
+  "type": "landing",
+  "url": "https://www.polestar.com",
+  "tags": [
+   "light",
+   "commerce",
+   "photo-hero",
+   "car-grid",
+   "large-type-links",
+   "localised"
+  ],
+  "note": "Car brand landing: one cinematic photo with the model name and two outline buttons, then a plain two-column grid of every model on white with price and two links. Ends with huge type links (book a test drive). Captured in Finnish (IP)."
+ },
+ {
+  "site": "Photoroom",
+  "type": "landing",
+  "url": "https://www.photoroom.com",
+  "tags": [
+   "light",
+   "product-photo-collage",
+   "colour-echo",
+   "centered-headline",
+   "logo-cells"
+  ],
+  "note": "The hero is built from the product's own output: product photos (a yellow shirt) cut out and arranged around the headline, and the same yellow returns across the page. The before/after is implied by the collage."
+ },
+ {
+  "site": "Dust",
+  "type": "landing",
+  "url": "https://dust.tt",
+  "tags": [
+   "light",
+   "isometric-map",
+   "multiplayer-illustration",
+   "colour-zones",
+   "quote-with-photo",
+   "logo-row"
+  ],
+  "note": "An isometric floor plan of coloured rooms with tiny avatars in them: \"multiplayer\" shown as a place where people and agents sit together. A large quote next to a real photo of the customer below."
+ },
+ {
+  "site": "Ledger",
+  "type": "landing",
+  "url": "https://www.ledger.com",
+  "tags": [
+   "dark",
+   "commerce",
+   "device-photography",
+   "product-cards",
+   "stat-row",
+   "coin-icons"
+  ],
+  "note": "Dark commerce for a hardware wallet: the devices photographed in a fan as the hero, then each signer as a card with a real photo, a one-line role and 'Learn more'. Trust is carried by the object and a few numbers, not by shields and padlocks."
+ },
+ {
+  "site": "Luma",
+  "type": "landing",
+  "url": "https://lu.ma",
+  "tags": [
+   "light",
+   "scattered-stickers",
+   "event-covers",
+   "gradient-word",
+   "centered-headline",
+   "directory-below"
+  ],
+  "note": "Real event cover art scattered like stickers around a centred headline with one gradient line. Then the product itself: popular events, categories, communities. The user-made covers make the page."
+ },
+ {
+  "site": "HeyGen",
+  "type": "landing",
+  "url": "https://www.heygen.com",
+  "tags": [
+   "light",
+   "video-frame-carousel",
+   "output-as-hero",
+   "rating-row",
+   "logo-row"
+  ],
+  "note": "The hero is a strip of the product's own output: video frames of avatars with captions burned in, scrolling sideways. Ratings (G2, Forbes, stars) sit right under it."
+ },
+ {
+  "site": "Bear",
+  "type": "landing",
+  "url": "https://bear.app",
+  "tags": [
+   "light",
+   "underline-accent",
+   "device-switcher",
+   "product-window",
+   "awards-row",
+   "mascot"
+  ],
+  "note": "\"Markdown notes you'll love\" with a red hand-drawn underline, a Mac/iPhone/iPad switcher above the product window, then award badges as proof. A calm single-product page for a consumer app."
+ },
+ {
+  "site": "Anytype",
+  "type": "landing",
+  "url": "https://anytype.io",
+  "tags": [
+   "light",
+   "pink-accent",
+   "line-drawing",
+   "bordered-grid",
+   "short-page",
+   "video-cell"
+  ],
+  "note": "The hero is a bordered box: pink headline on the left, a line drawing of desktop objects (calendar, files, a smiling screen) on the right, then four bordered cells (private, offline, work and play, a video). Everything sits on one visible grid."
+ },
+ {
+  "site": "Mullvad",
+  "type": "landing",
+  "url": "https://mullvad.net",
+  "tags": [
+   "dark-navy",
+   "yellow-accent",
+   "manifesto-headline",
+   "app-ui-hero",
+   "full-bleed-photo",
+   "film-section"
+  ],
+  "note": "\"Privacy is for the people\": a political headline, navy and yellow only, the real VPN app beside it, then a full-bleed colourful street photograph and a short film. A security product that refuses the hooded-hacker cliché and speaks as a cause."
+ },
+ {
+  "site": "Friend",
+  "type": "landing",
+  "url": "https://www.friend.com",
+  "tags": [
+   "dark",
+   "film-photography",
+   "full-bleed-photo",
+   "one-button",
+   "near-nothing",
+   "wearable"
+  ],
+  "note": "The whole page is one full-bleed film photograph of a person wearing the pendant, the wordmark small at the top and one white button ('Meet your friend'). A wearable sold like a fashion campaign, not a gadget."
+ },
+ {
+  "site": "Light Phone",
+  "type": "landing",
+  "url": "https://www.thelightphone.com",
+  "tags": [
+   "light",
+   "sky-photo",
+   "near-nothing",
+   "tiny-type",
+   "manifesto"
+  ],
+  "note": "A sky full of clouds and a few lines of small type: a phone designed to be used as little as possible, sold with almost nothing on the page. The emptiness is the argument."
+ },
+ {
+  "site": "Omsom",
+  "type": "landing",
+  "url": "https://omsom.com",
+  "tags": [
+   "loud",
+   "food-photography",
+   "starburst-sticker",
+   "saturated-colour",
+   "retail-logos",
+   "press-logos"
+  ],
+  "note": "Saturated food photography (noodles lifted with chopsticks) with a starburst sticker ('Proud + loud Asian flavors'), then pink and yellow pattern fields and retail and press logos. Packaging colour drives the page."
+ },
+ {
+  "site": "Ladder",
+  "type": "landing",
+  "url": "https://www.joinladder.com",
+  "tags": [
+   "dark",
+   "celebrity-photo",
+   "neon-accent",
+   "condensed-caps",
+   "press-logos",
+   "app-badges"
+  ],
+  "note": "A fitness app sold by a person: a celebrity training photo fills the dark hero, the headline in condensed white caps, one neon-yellow button, app-store awards as round badges, then press logos. Energy through photography and one loud colour."
+ },
+ {
+  "site": "Every",
+  "type": "landing",
+  "url": "https://every.to",
+  "tags": [
+   "dark",
+   "editorial",
+   "magazine-layout",
+   "serif-display",
+   "classical-collage",
+   "product-cards"
+  ],
+  "note": "A media company laid out like a magazine cover: a classical statue collage with a blue paper plane as the lead image, serif headlines with a custom swash letter, essays in columns, and the company's own software products as cards between the articles."
+ },
+ {
+  "site": "Pangram Pangram",
+  "type": "landing",
+  "url": "https://pangrampangram.com",
+  "tags": [
+   "light",
+   "type-foundry",
+   "poster-cards",
+   "type-as-image",
+   "specimen-grid"
+  ],
+  "note": "Each typeface gets a full-width poster card with its own world (a mountain photo, line drawings, a blue spirograph) and the font name huge in that face. Specimens below are a grid of big 'Aa'. Type as the image, one image per voice."
+ },
+ {
+  "site": "Dinamo",
+  "type": "landing",
+  "url": "https://abcdinamo.com",
+  "tags": [
+   "light",
+   "type-foundry",
+   "eccentric-nav",
+   "yellow-field",
+   "large-type-copy",
+   "playful-voice"
+  ],
+  "note": "A foundry that writes like a friend ('Try it, it's free! <333'): a stacked text nav in the corner with tiny emoji badges, a video of a costumed figure, then a full yellow field with a big all-caps headline and large plain copy."
+ },
+ {
+  "site": "Augment Code",
+  "type": "landing",
+  "url": "https://www.augmentcode.com",
+  "tags": [
+   "dark",
+   "green-accent",
+   "orbit-diagram",
+   "italic-accent",
+   "mono-labels",
+   "loop-cards"
+  ],
+  "note": "Dark page where the hero image is an orbit diagram of the software loop (ticket, code, review, deploy, monitor) with mono sublabels; below, each loop gets a small line chart or radar drawing in green."
+ },
+ {
+  "site": "Fairphone",
+  "type": "landing",
+  "url": "https://www.fairphone.com",
+  "tags": [
+   "light",
+   "commerce",
+   "hand-held-photo",
+   "landscape-photo",
+   "product-cards",
+   "localised"
+  ],
+  "note": "A hand holds the phone against a mountain landscape: the repairable phone shown outdoors in use rather than floating. Then rounded product cards with real photos of accessories and spare parts. Captured in German."
+ },
+ {
+  "site": "Haus",
+  "type": "landing",
+  "url": "https://haus.com",
+  "tags": [
+   "light",
+   "coral-field",
+   "split-photo-hero",
+   "calculator",
+   "plain-numbers",
+   "big-circle"
+  ],
+  "note": "Half coral field, half candid photo of a couple: a mortgage product made human. The proof is a calculator: loan amount against monthly payment, Haus vs a normal mortgage, with the saving in a big coral circle."
+ },
+ {
+  "site": "Strava",
+  "type": "landing",
+  "url": "https://www.strava.com",
+  "tags": [
+   "light",
+   "split-photo-hero",
+   "signup-centre",
+   "map-trace",
+   "short-page"
+  ],
+  "note": "Two outdoor photos frame a centred sign-up card (Google, Apple, email): the page is almost only the door in. On mobile, an orange route trace over a map with time and distance shows the product in one glance."
+ },
+ {
+  "site": "Readwise",
+  "type": "landing",
+  "url": "https://readwise.io",
+  "tags": [
+   "light",
+   "warm-gradient",
+   "product-ui-hero",
+   "book-covers",
+   "highlighter-accent",
+   "italic-word"
+  ],
+  "note": "A warm peach field with faint quotes in the background, the real library (real book covers) in a window, and the word 'highlights' highlighted in yellow: the product's own action used as typography."
+ },
+ {
+  "site": "The Browser Company",
+  "type": "landing",
+  "url": "https://thebrowser.company",
+  "tags": [
+   "light",
+   "near-nothing",
+   "emblem",
+   "italic-serif-line",
+   "mono-links"
+  ],
+  "note": "A seal-like emblem, one italic serif line ('We're building better ways to use the internet with Dia and Arc.') and a few mono links on warm grey. A company page reduced to a letterhead."
+ },
+ {
+  "site": "Savee",
+  "type": "landing",
+  "url": "https://savee.it",
+  "tags": [
+   "light",
+   "user-content-mosaic",
+   "inline-app-icons",
+   "centered-headline",
+   "testimonial-carousel"
+  ],
+  "note": "Inline app icons sit inside the headline words; below, a dense mosaic of saved images (fashion, cars, posters) is the hero: the community's taste is the product shot."
+ },
+ {
+  "site": "Klim Type Foundry",
+  "type": "landing",
+  "url": "https://klim.co.nz",
+  "tags": [
+   "light",
+   "type-foundry",
+   "full-bleed-image-tiles",
+   "colour-blocks",
+   "no-copy",
+   "gallery"
+  ],
+  "note": "No headline at all: full-width image tiles in strong colour blocks (a blurred giant letter on green, a red chair on red, a yellow field, a punk photo), each with a tiny typeface name. A foundry presented as an art gallery."
+ },
+ {
+  "site": "Cline",
+  "type": "landing",
+  "url": "https://cline.bot",
+  "tags": [
+   "light",
+   "brace-headline",
+   "pastel-cards",
+   "surface-cards",
+   "terminal-snippets",
+   "logo-row"
+  ],
+  "note": "The headline sits between big curly braces. Each surface (desktop, IDE, CLI, SDK) gets a pastel card with its own install line or download buttons, so the hero answers 'where do I run it?' immediately."
+ },
+ {
+  "site": "Bee",
+  "type": "landing",
+  "url": "https://www.bee.computer",
+  "tags": [
+   "light",
+   "photo-hero",
+   "blue-field",
+   "product-object",
+   "giant-headline",
+   "amazon-cta"
+  ],
+  "note": "A candid photo of someone wearing the device with a giant white two-line headline over it, then a flat periwinkle field where the device floats alone with its price. Two moves only: a person, then the object."
+ },
+ {
+  "site": "Fly by Jing",
+  "type": "landing",
+  "url": "https://flybyjing.com",
+  "tags": [
+   "loud",
+   "commerce",
+   "deep-red",
+   "condensed-caps",
+   "fireworks-ornaments",
+   "packaging-colour"
+  ],
+  "note": "Maximalist food commerce: deep red, gold fireworks ornaments, condensed caps and the packaging's own colours everywhere. Loud but consistent, because every colour comes from the product. Captured during a Black Friday sale."
+ },
+ {
+  "site": "Olipop",
+  "type": "landing",
+  "url": "https://drinkolipop.com",
+  "tags": [
+   "loud",
+   "commerce",
+   "colour-blocks",
+   "product-cans",
+   "pill-filters",
+   "illustrated-sky"
+  ],
+  "note": "Each flavour's can colour becomes a block of the page; the cans stand in a row like a shelf with pill filters (9g fiber, 4g fiber, minis). Playful serif-ish display headlines. Captured during a Black Friday sale."
+ },
+ {
+  "site": "Levels",
+  "type": "landing",
+  "url": "https://www.levels.com",
+  "tags": [
+   "dark-to-light",
+   "photo-hero",
+   "curve-graphic",
+   "three-claims",
+   "editorial-copy"
+  ],
+  "note": "A dark, intimate photograph with a big plain headline ('See how food affects your health.'), then a glucose curve as the only illustration: the product's real data shape becomes the brand mark."
+ },
+ {
+  "site": "Contra",
+  "type": "landing",
+  "url": "https://contra.com",
+  "tags": [
+   "light",
+   "prompt-box-hero",
+   "community-work-grid",
+   "trending-cards",
+   "creator-avatars"
+  ],
+  "note": "A prompt box ('How can I help you?') with suggestions, then the community's own work as the page: trending challenges with prize amounts, verified studios and project thumbnails. A marketplace that shows its supply before explaining itself."
+ },
+ {
+  "site": "Commercial Type",
+  "type": "landing",
+  "url": "https://commercialtype.com",
+  "tags": [
+   "loud",
+   "type-foundry",
+   "stacked-colour-bands",
+   "type-as-image",
+   "multi-script"
+  ],
+  "note": "The homepage is a stack of full-width colour bands, each one set in a different typeface at huge size (Schenk, Spectator, New Doric, an Arabic face, Action Grotesque) with its style count. Then plain three-column text about custom work, the studio and goods."
+ },
+ {
+  "site": "Kilo Code",
+  "type": "landing",
+  "url": "https://kilocode.ai",
+  "tags": [
+   "dark",
+   "yellow-accent",
+   "monospace-display",
+   "bordered-cards",
+   "surface-grid",
+   "stats-cells",
+   "qr-code"
+  ],
+  "note": "Monospace headline on black with yellow as the only colour. Each surface (desktop, VS Code, JetBrains, CLI, cloud, Slack, mobile with a QR code) is a bordered card with its own install action; stats are yellow-outlined cells."
+ },
+ {
+  "site": "Superpower",
+  "type": "landing",
+  "url": "https://superpower.com",
+  "tags": [
+   "dark-to-light",
+   "product-photo-hero",
+   "device-and-object",
+   "price-in-headline",
+   "photo-step-cards",
+   "university-logos"
+  ],
+  "note": "The real objects of the service on a dark field: a blood tube next to a phone showing your results, with the price in the headline. 'How it works' is four photo cards with UI fragments over them, and the proof is the doctors' universities."
+ },
+ {
+  "site": "Komoot",
+  "type": "landing",
+  "url": "https://www.komoot.com",
+  "tags": [
+   "light",
+   "outdoor-photo-hero",
+   "flower-ornaments",
+   "app-phones",
+   "warm-neutral",
+   "handwritten-tagline"
+  ],
+  "note": "A hiking photograph fills the hero with a short headline; below, warm beige panels with phones showing real routes and small hand-drawn flower ornaments. The outdoors, then the map, never the reverse."
+ },
+ {
+  "site": "Grilli Type",
+  "type": "landing",
+  "url": "https://www.grillitype.com",
+  "tags": [
+   "light",
+   "type-foundry",
+   "type-as-image",
+   "opinion-headline",
+   "colour-tiles",
+   "specimen-poster"
+  ],
+  "note": "'Type with an opinion' next to a tick-mark clock drawing, then each family as a poster tile (a huge pink 5 over mono numbers, red 'a @ a', a jockey in 'WHITESPACE'). The specimens are posters, not tables."
+ },
+ {
+  "site": "Tempo",
+  "type": "landing",
+  "url": "https://www.tempo.new",
+  "tags": [
+   "dark",
+   "editor-selection-headline",
+   "product-ui-hero",
+   "mono-labels",
+   "framework-badges"
+  ],
+  "note": "The key word of the headline ('code') sits inside the product's own selection box with handles, as if selected in the editor. The editor itself follows at full fidelity. The product's UI chrome used as typography."
+ },
+ {
+  "site": "Poolside",
+  "type": "landing",
+  "url": "https://poolside.ai",
+  "tags": [
+   "light",
+   "warm-grey",
+   "restrained",
+   "terminal-window",
+   "inline-model-badges",
+   "research-cards"
+  ],
+  "note": "Very quiet: warm grey ground, a small headline with inline model badges, a terminal window as the only image, then research cards with a faceted crystal drawing. A frontier lab that whispers."
+ },
+ {
+  "site": "Dovetail",
+  "type": "landing",
+  "url": "https://dovetail.com",
+  "tags": [
+   "dark",
+   "giant-headline",
+   "inline-object",
+   "serif-mono-mix",
+   "product-ui",
+   "logo-row"
+  ],
+  "note": "'Feed the facts machine' in giant white type with a small retro machine object set inline between the words. Smaller lines mix serif, sans and outline in one sentence ('Build your customer context layer')."
+ },
+ {
+  "site": "Maze",
+  "type": "landing",
+  "url": "https://maze.co",
+  "tags": [
+   "light",
+   "large-light-headline",
+   "artefact-collage",
+   "lime-accent",
+   "tabbed-steps"
+  ],
+  "note": "A large light-weight headline beside a collage of real research artefacts (an interview video, a participant photo, a study draft, a chart) with lime highlights. Then big tabs: Recruit, Research, Decide."
+ },
+ {
+  "site": "Recess",
+  "type": "landing",
+  "url": "https://takearecess.com",
+  "tags": [
+   "light",
+   "casual-photo-hero",
+   "pastel-gradient",
+   "retail-logos",
+   "product-cards",
+   "lowercase-voice"
+  ],
+  "note": "A casual photo of a hand holding a can in a car, like a friend's phone picture, with a lowercase line ('calm in a can'). Retail logos as proof, then pastel product cards with tiny benefit icons."
+ },
+ {
+  "site": "Function Health",
+  "type": "landing",
+  "url": "https://www.functionhealth.com",
+  "tags": [
+   "dark-to-light",
+   "photo-hero",
+   "italic-serif",
+   "warm-neutral",
+   "numbered-steps",
+   "price-stats"
+  ],
+  "note": "A hand reaching up through trees as the hero, the headline in italic serif, and three numbers in the photo (160+ lab tests, whole body, $1 per day). Below, warm cream steps with tiny charts."
  }
 ]

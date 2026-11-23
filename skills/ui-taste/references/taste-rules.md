@@ -90,3 +90,15 @@ Take: choose one emphasis device for the whole site and use it on two or three w
 Usage pricing is abstract. Mux's pricing page answers "What can you get with $100 credit?" per use case (company website, user-generated video, live stream, gen AI), and keeps enterprise as a thin strip under three plans instead of a fourth column.
 
 Take: under usage-based plans, translate one realistic budget into concrete results for two to four typical customers.
+
+## 13. Physical products: the photograph is the page
+
+The hardware and commerce pages in the library (Analogue, Nothing, Rapha, On, Polestar, Ledger) all do the same thing: one large, well-lit photograph per product, a label of a few words, one button, and plain grids with prices further down. Type is small, UI is grey, nothing competes with the object.
+
+Take: for anything people can hold, spend the effort on the photograph (studio light, a real setting, the product large) and strip the interface around it. A 3D render or a device mockup is a weaker substitute.
+
+## 14. Specimens are posters
+
+The type foundries in the library (Commercial Type, Grilli Type, Pangram Pangram, Klim, Dinamo) never show a font as a table of weights first. Each typeface gets a full-width tile with its own colour, image or drawing and its name set huge in that face; the specimen grid comes later.
+
+Take: when the thing you sell is visual (fonts, templates, themes, photos), give each item its own poster before any list or table, and let the item's own character set the tile's colour and image.
