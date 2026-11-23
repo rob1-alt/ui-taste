@@ -5024,5 +5024,579 @@
    "price-stats"
   ],
   "note": "A hand reaching up through trees as the hero, the headline in italic serif, and three numbers in the photo (160+ lab tests, whole body, $1 per day). Below, warm cream steps with tiny charts."
+ },
+ {
+  "site": "Locomotive",
+  "type": "landing",
+  "url": "https://locomotive.ca",
+  "tags": [
+   "dark-to-light",
+   "studio",
+   "full-bleed-photo",
+   "condensed-serif-list",
+   "award-object",
+   "work-index-list"
+  ],
+  "note": "A studio homepage with no grid of thumbnails: a red-lit full-bleed photo with the agency name set small at the bottom, one award object (a championship ring, 'seven years running'), then featured work as a list of client names in a huge condensed serif with hairlines between them."
+ },
+ {
+  "site": "Collins",
+  "type": "landing",
+  "url": "https://www.wearecollins.com",
+  "tags": [
+   "dark",
+   "studio",
+   "serif-display",
+   "centered-short-headline",
+   "award-tags",
+   "video-hero",
+   "programs-list"
+  ],
+  "note": "Near-black brown with one centred serif line ('Rewrite your worth.'), award tags in brackets, then a framed film still. Services are 'programs' listed as text rows. A studio that sells a point of view before work."
+ },
+ {
+  "site": "Order",
+  "type": "landing",
+  "url": "https://order.design",
+  "tags": [
+   "dark",
+   "studio",
+   "work-grid",
+   "identity-applications",
+   "mono-labels",
+   "full-bleed-tiles"
+  ],
+  "note": "Design studio as a pure work grid on charcoal: each project shown through its applied identity (tea packaging, a blue logo, a sign), tiny mono project labels and discipline tags above. No headline at all."
+ },
+ {
+  "site": "Area 17",
+  "type": "landing",
+  "url": "https://area17.com",
+  "tags": [
+   "dark-to-light",
+   "studio",
+   "aerial-photo-hero",
+   "client-list-overlay",
+   "statement-paragraph"
+  ],
+  "note": "A full-bleed aerial photograph of a client's building with the client list overlaid in white, the current one highlighted. Then one large statement paragraph on white. Clients as the headline."
+ },
+ {
+  "site": "Whitney Museum",
+  "type": "landing",
+  "url": "https://whitney.org",
+  "tags": [
+   "light",
+   "museum",
+   "diagonal-wordmark",
+   "uppercase-grotesk",
+   "exhibition-cards",
+   "two-tone-titles"
+  ],
+  "note": "The wordmark sits inside a diagonal line drawing (the building's silhouette); exhibitions are big uppercase grotesk titles in black with the dates in grey right under, next to the artwork. The building and the art carry the brand."
+ },
+ {
+  "site": "Stedelijk",
+  "type": "landing",
+  "url": "https://www.stedelijk.nl",
+  "tags": [
+   "light",
+   "museum",
+   "giant-type-index",
+   "inline-thumbnails",
+   "arrows",
+   "sticker-badge"
+  ],
+  "note": "The homepage is an index: every line is huge uppercase type running off the edge ('WHAT'S ON', 'YAYOI KUSAMA ->'), with tiny inline thumbnails and red labels mixed into the lines. A yellow sticker on the wordmark. Navigation as typography."
+ },
+ {
+  "site": "Tate",
+  "type": "landing",
+  "url": "https://www.tate.org.uk",
+  "tags": [
+   "light",
+   "museum",
+   "olive-colour-block",
+   "exhibition-hero",
+   "mono-caps",
+   "gallery-cards"
+  ],
+  "note": "An exhibition painting next to an olive colour block with the title in spaced uppercase, then the four galleries as building photos and what's on as artwork cards with tiny icon metadata (location, dates, price)."
+ },
+ {
+  "site": "The Pudding",
+  "type": "landing",
+  "url": "https://pudding.cool",
+  "tags": [
+   "light",
+   "editorial",
+   "visual-essays",
+   "saturated-cards",
+   "mono-metadata",
+   "issue-numbers"
+  ],
+  "note": "A publication of visual essays shown as a grid of saturated colour cards, each with the essay's own chart or illustration, an issue number and date in mono. The content's visuals are the navigation."
+ },
+ {
+  "site": "Thinking Machines",
+  "type": "landing",
+  "url": "https://thinkingmachines.ai",
+  "tags": [
+   "light",
+   "text-only",
+   "essay-landing",
+   "spaced-caps-wordmark",
+   "serif-body",
+   "near-nothing"
+  ],
+  "note": "An AI lab whose homepage is an essay: a light spaced-caps wordmark, one 'new' link, then several sections of plain serif prose with italic leads. No product, no image, no button. Seriousness through text."
+ },
+ {
+  "site": "Anduril",
+  "type": "landing",
+  "url": "https://www.anduril.com",
+  "tags": [
+   "dark",
+   "photo-grid",
+   "product-photography",
+   "condensed-caps",
+   "military-hardware",
+   "mosaic"
+  ],
+  "note": "Full-width photographs of the hardware (aircraft wings above clouds, a jet engine, drones) in a tight mosaic, each tile labelled with the product name. On mobile, a giant condensed all-caps statement. The photography is documentary, not rendered."
+ },
+ {
+  "site": "Zipline",
+  "type": "landing",
+  "url": "https://www.flyzipline.com",
+  "tags": [
+   "light",
+   "motion-blur-photo",
+   "condensed-display",
+   "wave-edge",
+   "cream-ground",
+   "one-line"
+  ],
+  "note": "A motion-blurred grassy hillside (as seen from a flying drone) under a huge condensed 'LOOK UP', the photo cut by a soft wave edge into cream. The speed of the delivery is in the blur."
+ },
+ {
+  "site": "Instrument",
+  "type": "landing",
+  "url": "https://www.instrument.com",
+  "tags": [
+   "light",
+   "studio",
+   "giant-wordmark",
+   "work-collage",
+   "serif-statement",
+   "work-grid"
+  ],
+  "note": "A huge black wordmark across the top, then a collage of a client campaign (fuzzy monster characters with feelings), a short serif statement and a grid of work thumbnails with filter pills."
+ },
+ {
+  "site": "Hey Studio",
+  "type": "landing",
+  "url": "https://heystudio.es",
+  "tags": [
+   "dark",
+   "the-page-is-a-game",
+   "pong",
+   "minimal-nav",
+   "playful"
+  ],
+  "note": "The homepage is a game of Pong ('Tap to Play') with the score at the top and a tiny nav in the corner. The studio's playfulness is something you do, not something you read."
+ },
+ {
+  "site": "Wieden+Kennedy",
+  "type": "landing",
+  "url": "https://www.wk.com",
+  "tags": [
+   "dark",
+   "agency",
+   "campaign-as-hero",
+   "client-logo-in-hero",
+   "work-grid",
+   "manifesto-paragraph"
+  ],
+  "note": "An ad agency that leads with one campaign: the client's line and logo on black ('Always dreamed.' with the swoosh) and the campaign name as the caption. Work tiles follow, then a plain manifesto in large white text."
+ },
+ {
+  "site": "Walker Art Center",
+  "type": "landing",
+  "url": "https://walkerart.org",
+  "tags": [
+   "light",
+   "museum",
+   "full-bleed-photo",
+   "link-list-arrows",
+   "ticker-line",
+   "serif-free-grotesk"
+  ],
+  "note": "A full-width people photo with the programme title on it, a plain list of sections with arrows beside a short paragraph, then a running line of text ('Free programs every Thursday night') as a ticker. Calm, information-first museum."
+ },
+ {
+  "site": "Cooper Hewitt",
+  "type": "landing",
+  "url": "https://www.cooperhewitt.org",
+  "tags": [
+   "dark-and-colour",
+   "museum",
+   "collection-mosaic",
+   "condensed-caps-labels",
+   "colour-tiles",
+   "clock-object"
+  ],
+  "note": "The collection is the hero: a mosaic of objects from the archive (textiles, ceramics, lamps) with condensed caps labels in black boxes, then saturated tiles for programmes and a design-object clock for opening hours."
+ },
+ {
+  "site": "Rest of World",
+  "type": "landing",
+  "url": "https://restofworld.org",
+  "tags": [
+   "light",
+   "editorial",
+   "news-grid",
+   "collage-illustrations",
+   "latest-list-sidebar",
+   "newsletter-panel"
+  ],
+  "note": "A tech news site with a sharp identity: a diacritic-heavy wordmark, each story illustrated with a commissioned collage, a latest-stories sidebar with read times, and a big blue newsletter panel with a phone mockup."
+ },
+ {
+  "site": "Hadrian",
+  "type": "landing",
+  "url": "https://www.hadrian.co",
+  "tags": [
+   "dark-blue",
+   "blueprint-drawing",
+   "factory-photo",
+   "mono-caps",
+   "bordered-panels",
+   "manifesto"
+  ],
+  "note": "Navy page with a blueprint line drawing of a factory floor as the hero image, then a real factory photo with a paragraph in a bordered panel. Mono caps labels; the industrial message drawn like engineering documents."
+ },
+ {
+  "site": "Neuralink",
+  "type": "landing",
+  "url": "https://neuralink.com",
+  "tags": [
+   "dark-to-light",
+   "product-photo-hero",
+   "patient-quotes",
+   "clinical-tone",
+   "serif-free",
+   "carousel"
+  ],
+  "note": "A dark photo of a patient using a laptop with the device, a plain headline, then 'Meet our pioneers': patient photos with first-person quotes and their condition. Proof through people, in a clinical calm."
+ },
+ {
+  "site": "Annapurna Interactive",
+  "type": "landing",
+  "url": "https://annapurnainteractive.com",
+  "tags": [
+   "dark",
+   "games",
+   "key-art-hero",
+   "game-cover-grid",
+   "platform-icons",
+   "carousel"
+  ],
+  "note": "A games publisher: full-bleed key art of the featured game with its title in white caps, then a grid of game covers, each one in its own illustrated style, with platform icons. The games' art is the brand."
+ },
+ {
+  "site": "Ableton",
+  "type": "landing",
+  "url": "https://www.ableton.com",
+  "tags": [
+   "light",
+   "music",
+   "lime-field",
+   "hand-lettering-pattern",
+   "editorial-cards",
+   "video-series"
+  ],
+  "note": "Split hero: dark panel with the product announcement, lime panel covered in hand-written product names as a pattern. Below, editorial content (tutorials, artist videos) dominates over selling."
+ },
+ {
+  "site": "Work & Co",
+  "type": "landing",
+  "url": "https://work.co",
+  "tags": [
+   "light",
+   "agency",
+   "red-rule",
+   "two-column-index",
+   "press-quote",
+   "work-thumbnails",
+   "serif-small"
+  ],
+  "note": "A consultancy homepage as a document: a thin red rule on top, a label column on the left (Latest, Updates, Index) and content on the right, a press quote as the subhead, and an index of plain links. Order and restraint as the pitch."
+ },
+ {
+  "site": "Fantasy",
+  "type": "landing",
+  "url": "https://fantasy.co",
+  "tags": [
+   "dark-to-light",
+   "agency",
+   "client-product-hero",
+   "saturated-blue",
+   "logo-badges",
+   "device-shot"
+  ],
+  "note": "One client's product shot full-bleed (a car on a saturated blue set) with a tiny 'Lead by Design' line, then client logos as floating black badges and a phone lying on a black stage. The work is the headline."
+ },
+ {
+  "site": "MSCHF",
+  "type": "landing",
+  "url": "https://mschf.com",
+  "tags": [
+   "dark",
+   "the-list-is-the-page",
+   "numbered-index",
+   "mono-caps",
+   "green-on-black",
+   "no-images"
+  ],
+  "note": "The homepage is a numbered list of every drop, in large green mono caps on black ('THE PERSISTENCE OF CHAOS', 'BULL & MOON', ...). No images, no copy: the catalogue itself is the identity."
+ },
+ {
+  "site": "It's Nice That",
+  "type": "landing",
+  "url": "https://www.itsnicethat.com",
+  "tags": [
+   "light",
+   "editorial",
+   "hero-image-article",
+   "partner-bar",
+   "purple-accent",
+   "mixed-grid"
+  ],
+  "note": "Design media: one striking image for the lead article, a bar of the brand's own events and lists on top, purple as the only UI colour and a loose grid of article images below."
+ },
+ {
+  "site": "Works in Progress",
+  "type": "landing",
+  "url": "https://worksinprogress.co",
+  "tags": [
+   "light",
+   "editorial",
+   "collage-illustrations",
+   "typewriter-mono",
+   "cream-and-colour",
+   "print-magazine"
+  ],
+  "note": "An ideas magazine with commissioned collage illustrations (a hand-drawn portrait torn into red grids) on mint and cream, typewriter mono for metadata, and the print issue as a product. Science writing with an art direction."
+ },
+ {
+  "site": "Google DeepMind",
+  "type": "landing",
+  "url": "https://deepmind.google",
+  "tags": [
+   "light",
+   "giant-number-backdrop",
+   "gradient-sky",
+   "model-cards",
+   "news-list"
+  ],
+  "note": "A huge faded '4' behind the headline on a pale blue gradient (the model number as the image), then model cards with photo-like imagery and a plain news list."
+ },
+ {
+  "site": "Figure",
+  "type": "landing",
+  "url": "https://www.figure.ai",
+  "tags": [
+   "dark",
+   "documentary-photo",
+   "greyscale",
+   "humanoid-robot",
+   "full-bleed-sections",
+   "mono-caps"
+  ],
+  "note": "Greyscale documentary photographs of the robot in a home, each full-bleed with a small mono caps line and one button. No colour at all: a humanoid made calm and domestic."
+ },
+ {
+  "site": "Varda",
+  "type": "landing",
+  "url": "https://www.varda.com",
+  "tags": [
+   "dark-blue",
+   "orange-duotone",
+   "texture-photo",
+   "bordered-tile-grid",
+   "arrow-links",
+   "space-industry"
+  ],
+  "note": "Orange and navy only: a duotone texture (a heat-shield or terrain surface) behind 'Space born, Earth bound', then a bordered grid of tiles mixing duotone photos, a video and short statements with arrow links. Two colours carry a whole space company."
+ },
+ {
+  "site": "Base Power",
+  "type": "landing",
+  "url": "https://www.basepowercompany.com",
+  "tags": [
+   "light",
+   "photo-hero",
+   "zip-code-hero",
+   "rating-row",
+   "press-logos",
+   "celebrity-quote",
+   "hand-drawn-label"
+  ],
+  "note": "A family running across the lawn of a house as the hero, rating stars and a zip-code field with a lime button right in the photo. The proof is a well-known customer photographed at home with his saving in a quote. Energy sold as a home, not as a grid."
+ },
+ {
+  "site": "Elektron",
+  "type": "landing",
+  "url": "https://www.elektron.se",
+  "tags": [
+   "dark",
+   "music-hardware",
+   "product-photography",
+   "overhead-shot",
+   "news-grid",
+   "outline-buttons"
+  ],
+  "note": "A top-down studio photograph of the new device among cables and other gear on colour blocks, then a dark news grid of people playing the instruments, all with small outline buttons in caps."
+ },
+ {
+  "site": "Wolff Olins",
+  "type": "landing",
+  "url": "https://www.wolffolins.com",
+  "tags": [
+   "light",
+   "agency",
+   "client-work-hero",
+   "serif-statement",
+   "underlined-links",
+   "video"
+  ],
+  "note": "One client's work fills the hero (colourful sponges in a bag), then a serif statement where the key words are underlined links (businesses, people, world) and a showreel. The statement doubles as navigation."
+ },
+ {
+  "site": "Rejouice",
+  "type": "landing",
+  "url": "https://www.rejouice.com",
+  "tags": [
+   "dark",
+   "agency",
+   "giant-wordmark",
+   "video-reel",
+   "large-statement",
+   "underlined-link"
+  ],
+  "note": "A wordmark filling the width in white on black, a drone video reel labelled 'Showreel', then one large statement ending in an underlined link. Three elements, no grid."
+ },
+ {
+  "site": "Barbican",
+  "type": "landing",
+  "url": "https://www.barbican.org.uk",
+  "tags": [
+   "light",
+   "arts-centre",
+   "orange-brand",
+   "photo-hero",
+   "bold-sans",
+   "event-cards",
+   "tabs"
+  ],
+  "note": "Orange header and nav, a lush photo with 'Welcome to the Barbican' in bold white, then 'This week' tabs and event cards with genre tags. The orange is the venue's identity applied to UI chrome only."
+ },
+ {
+  "site": "SFMOMA",
+  "type": "landing",
+  "url": "https://www.sfmoma.org",
+  "tags": [
+   "light",
+   "museum",
+   "cropped-giant-letters",
+   "photo-hero",
+   "red-accent",
+   "exhibition-list"
+  ],
+  "note": "The letters S F M O M A are set huge and cropped at the corners of the hero photograph, framing the artwork. Then exhibitions as plain image + title + paragraph rows. The wordmark becomes the frame."
+ },
+ {
+  "site": "The Verge",
+  "type": "landing",
+  "url": "https://www.theverge.com",
+  "tags": [
+   "light",
+   "editorial",
+   "rotated-wordmark",
+   "condensed-headlines",
+   "news-river",
+   "colour-tags",
+   "ads-in-flow"
+  ],
+  "note": "The wordmark runs vertically down the left edge next to the lead story; headlines are set in a tall condensed face over the photo; the river of news uses small colour tags. A news site with a loud identity in a dense layout."
+ },
+ {
+  "site": "Apartamento",
+  "type": "landing",
+  "url": "https://www.apartamentomagazine.com",
+  "tags": [
+   "light",
+   "magazine",
+   "yellow-field",
+   "cover-as-hero",
+   "shop-grid",
+   "editorial-stories"
+  ],
+  "note": "An interiors magazine that puts the new issue's cover on a flat yellow field with the contributor list as the paragraph, then the shop (books, issues) and stories. The print object is the hero."
+ },
+ {
+  "site": "Sesame",
+  "type": "landing",
+  "url": "https://www.sesame.com",
+  "tags": [
+   "light",
+   "near-nothing",
+   "motion-blur-photo",
+   "serif-wordmark",
+   "tiny-copy"
+  ],
+  "note": "One motion-blurred photograph of a person turning, a small serif wordmark and a short paragraph with a download link. An AI voice company that shows a feeling, not a waveform."
+ },
+ {
+  "site": "1X",
+  "type": "landing",
+  "url": "https://www.1x.tech",
+  "tags": [
+   "light",
+   "soft-robot-photography",
+   "beige-palette",
+   "full-bleed-sections",
+   "price-in-hero",
+   "careers-photo"
+  ],
+  "note": "Soft, knit-covered humanoid robots photographed like fashion on warm beige, with the product name and a small price and order button in the corner. A man holding a robot like a friend introduces careers."
+ },
+ {
+  "site": "Boom Supersonic",
+  "type": "landing",
+  "url": "https://boomsupersonic.com",
+  "tags": [
+   "dark",
+   "industrial-photo",
+   "condensed-caps",
+   "mono-subline",
+   "video-sections"
+  ],
+  "note": "A close photo of engine parts in a factory behind 'IT'S ABOUT TIME' in heavy condensed caps with a small yellow mono subline. Aviation shown as machinery, not as a sky render."
+ },
+ {
+  "site": "Supergiant Games",
+  "type": "landing",
+  "url": "https://www.supergiantgames.com",
+  "tags": [
+   "dark",
+   "games",
+   "key-art-rows",
+   "platform-badges",
+   "news-cards",
+   "colour-per-game"
+  ],
+  "note": "Each game gets a full-width band with its key art, a short paragraph and the store badges, and the band's colour comes from the game (green Hades II, red Hades, blue Pyre). The studio's site is its catalogue."
  }
 ]

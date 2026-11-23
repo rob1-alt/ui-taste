@@ -102,3 +102,9 @@ Take: for anything people can hold, spend the effort on the photograph (studio l
 The type foundries in the library (Commercial Type, Grilli Type, Pangram Pangram, Klim, Dinamo) never show a font as a table of weights first. Each typeface gets a full-width tile with its own colour, image or drawing and its name set huge in that face; the specimen grid comes later.
 
 Take: when the thing you sell is visual (fonts, templates, themes, photos), give each item its own poster before any list or table, and let the item's own character set the tile's colour and image.
+
+## 15. Content-led sites lead with the content
+
+Museums, magazines, publishers and studios in the library (Whitney, Tate, Cooper Hewitt, Walker, The Pudding, Rest of World, Works in Progress, Apartamento, Supergiant, Annapurna) put the thing itself first: the artwork, the essay's own chart, the cover, the game's key art. The identity lives in two or three strong moves around it (a wordmark, one colour for UI chrome, a type treatment) and never competes with the content.
+
+Take: when the product is content, design the frame, not a hero. Let each item bring its own colour and image, keep the chrome to one brand colour and one type voice, and give dates, places and prices a consistent small metadata style.
