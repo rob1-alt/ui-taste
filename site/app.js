@@ -330,6 +330,7 @@
   readHash();
   $("#q").value = state.q;
   const sites = new Set(ALL.map((x) => x.site)).size;
+  const h1n = $("#h1-n"); if (h1n) h1n.textContent = ALL.length;
   $("#lede").textContent = `${ALL.length} real pages from ${sites} products known for their design, with the fonts, sizes, colours and buttons measured on the live page.`;
   renderAll();
   if (state.id) openDetail(state.id);
