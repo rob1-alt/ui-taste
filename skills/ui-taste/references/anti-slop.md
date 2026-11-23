@@ -60,7 +60,7 @@ The fix is not another style. It is real material: the product rendered at full 
 - [ ] Swap test: put a competitor's logo on the page. If it still works, the page has no idea of its own. Push the signature move.
 - [ ] The fold makes one bet you can say in a sentence ("the headline is an audited document"), and it comes from the product or its customers, not from a trend.
 - [ ] One signature move, visible in the hero and carried into at least two sections below. Not a hero idea followed by a generic SaaS page.
-- [ ] The reverse failure: a strong idea hidden below a generic hero. Fleuret's fencing concept (an agent named after a 1900 Olympic foil champion, 'En garde / Attaque / Touché') only starts in the third section; the fold is a dark glow with a gradient word. If the idea is good, it goes in the fold.
+- [ ] The reverse failure: a strong idea hidden below a generic hero. If the concept only starts in the third section and the fold is a dark glow with a gradient word, move the idea into the fold.
 - [ ] It does not look like the previous landing you built: different direction, different type, different structure.
 - [ ] Bold through a decision, not through effects: no glow, gradient or blur added to make a safe page look exciting.
 - [ ] Proof is specific: a number in a quote, a metric in the logo grid, a public benchmark, a named result. Not a second row of logos.

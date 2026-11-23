@@ -11013,6 +11013,108 @@
     }
   },
   {
+    "id": "airbyte-landing",
+    "site": "Airbyte",
+    "url": "https://airbyte.com",
+    "type": "landing",
+    "tags": [],
+    "note": "",
+    "captured": "2026-11-23",
+    "screens": {
+      "desktop": {
+        "file": "screens/airbyte-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/airbyte-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Airbyte | Open-Source Data Integration Platform for AI Agents",
+      "fonts": [
+        "Fragment Mono Chrome",
+        "Booton",
+        "Fragment Mono"
+      ],
+      "type": {
+        "h1": {
+          "font": "Booton Hero",
+          "size": 64,
+          "weight": "500",
+          "lineHeight": 1.05,
+          "letterSpacing": "-3.17852px",
+          "color": "rgb(0, 0, 0)"
+        },
+        "h2": {
+          "font": "Booton",
+          "size": 65,
+          "weight": "500",
+          "lineHeight": 1.05,
+          "letterSpacing": "-3.25px",
+          "color": "rgb(0, 0, 0)"
+        },
+        "h3": {
+          "font": "Booton",
+          "size": 28,
+          "weight": "600",
+          "lineHeight": 1.07,
+          "letterSpacing": "-1.12px",
+          "color": "rgb(0, 0, 0)"
+        },
+        "body": {
+          "font": "Booton Hero",
+          "size": 18,
+          "weight": "400",
+          "lineHeight": 1.5,
+          "letterSpacing": "-0.17px",
+          "color": "rgb(102, 102, 102)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#ffffff",
+          "#f5f5f5",
+          "#695edf"
+        ],
+        "text": [
+          "#1a1a1a",
+          "#666666",
+          "#5d51d5",
+          "#4b40b0"
+        ]
+      },
+      "buttons": [
+        {
+          "label": "TRY IT FREE",
+          "bg": "#695edf",
+          "color": "#ffffff",
+          "radius": "8px",
+          "height": 36,
+          "paddingX": 16,
+          "font": "Fragment Mono Chrome",
+          "size": 13,
+          "weight": "500"
+        },
+        {
+          "label": "TALK TO SALES",
+          "bg": "#695edf",
+          "color": "#ffffff",
+          "radius": "8px",
+          "height": 52,
+          "paddingX": 20,
+          "font": "Fragment Mono Chrome",
+          "size": 13,
+          "weight": "500"
+        }
+      ],
+      "contentWidth": 1040
+    }
+  },
+  {
     "id": "airtable-landing",
     "site": "Airtable",
     "url": "https://www.airtable.com",
@@ -21556,95 +21658,6 @@
     }
   },
   {
-    "id": "fleuret-landing",
-    "site": "Fleuret",
-    "url": "https://fleuret.ai",
-    "type": "landing",
-    "tags": [
-      "dark",
-      "fencing-concept",
-      "archival-portrait",
-      "named-agent",
-      "three-step-metaphor",
-      "founders-video",
-      "gradient-word"
-    ],
-    "note": "A pentesting AI built on one metaphor: the agent is Émile, named after a 1900 Olympic foil champion, shown as an archival portrait; the method is 'En garde, Attaque, Touché'; a giant outlined 'En garde' sits behind; 'Great mustache. Greater findings.' The idea lives below the fold: the hero itself is the generic dark glow with a gradient word, which is the lesson.",
-    "captured": "2026-11-23",
-    "screens": {
-      "desktop": {
-        "file": "screens/fleuret-landing-desktop.jpg",
-        "width": 1440,
-        "height": 3600
-      },
-      "mobile": {
-        "file": "screens/fleuret-landing-mobile.jpg",
-        "width": 390,
-        "height": 2600
-      }
-    },
-    "tokens": {
-      "title": "Fleuret | AI-powered automated pentesting",
-      "fonts": [
-        "Lufga",
-        "ui-monospace",
-        "Inter"
-      ],
-      "type": {
-        "h1": {
-          "font": "Lufga",
-          "size": 92,
-          "weight": "300",
-          "lineHeight": 1.02,
-          "letterSpacing": "-3.22px",
-          "color": "rgb(255, 255, 255)"
-        },
-        "h2": {
-          "font": "Lufga",
-          "size": 46,
-          "weight": "300",
-          "lineHeight": 1.08,
-          "letterSpacing": "-1.15px",
-          "color": "rgb(255, 255, 255)"
-        },
-        "h3": {
-          "font": "Lufga",
-          "size": 32,
-          "weight": "300",
-          "lineHeight": 1.15,
-          "letterSpacing": "-0.64px",
-          "color": "rgb(255, 255, 255)"
-        },
-        "body": {
-          "font": "Lufga",
-          "size": 19,
-          "weight": "400",
-          "lineHeight": 1.55,
-          "letterSpacing": "normal",
-          "color": "rgba(255, 255, 255, 0.6)"
-        }
-      },
-      "colors": {
-        "background": "#0b0c14",
-        "surfaces": [
-          "#0b0c14",
-          "#090a12",
-          "#0a0b14",
-          "#07070c",
-          "#10121e"
-        ],
-        "text": [
-          "#ffffff",
-          "#f1f1f8",
-          "#ecfeff",
-          "#4f8fff"
-        ]
-      },
-      "buttons": [],
-      "contentWidth": 1280
-    }
-  },
-  {
     "id": "flexport-landing",
     "site": "Flexport",
     "url": "https://www.flexport.com",
@@ -24513,6 +24526,86 @@
         }
       ],
       "contentWidth": 1440
+    }
+  },
+  {
+    "id": "hatchet-landing",
+    "site": "Hatchet",
+    "url": "https://hatchet.run",
+    "type": "landing",
+    "tags": [],
+    "note": "",
+    "captured": "2026-11-23",
+    "screens": {
+      "desktop": {
+        "file": "screens/hatchet-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/hatchet-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Hatchet | The orchestration layer for modern apps",
+      "fonts": [
+        "terminal-departure",
+        "geist-mono",
+        "judge-extended"
+      ],
+      "type": {
+        "h1": {
+          "font": "judge-extended",
+          "size": 96,
+          "weight": "400",
+          "lineHeight": 1,
+          "letterSpacing": "-1.92px",
+          "color": "rgb(243, 246, 251)"
+        },
+        "h2": {
+          "font": "judge-extended",
+          "size": 72,
+          "weight": "400",
+          "lineHeight": 1,
+          "letterSpacing": "-1.44px",
+          "color": "rgb(243, 246, 251)"
+        },
+        "h3": {
+          "font": "terminal-departure",
+          "size": 14,
+          "weight": "400",
+          "lineHeight": 1.5,
+          "letterSpacing": "normal",
+          "color": "rgb(197, 208, 224)"
+        },
+        "body": {
+          "font": "geist-mono",
+          "size": 18,
+          "weight": "400",
+          "lineHeight": 1.78,
+          "letterSpacing": "normal",
+          "color": "rgb(243, 246, 251)"
+        }
+      },
+      "colors": {
+        "background": "#0a1029",
+        "surfaces": [
+          "#0a1029",
+          "#050916",
+          "#f3f6fb",
+          "#c8e04a"
+        ],
+        "text": [
+          "#c5d0e0",
+          "#f3f6fb",
+          "#94a5c1",
+          "#0a1029"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": 1288
     }
   },
   {
@@ -27869,6 +27962,79 @@
     }
   },
   {
+    "id": "laminar-landing",
+    "site": "Laminar",
+    "url": "https://www.lmnr.ai",
+    "type": "landing",
+    "tags": [],
+    "note": "",
+    "captured": "2026-11-23",
+    "screens": {
+      "desktop": {
+        "file": "screens/laminar-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/laminar-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Laminar - Open-source observability for AI agents",
+      "fonts": [
+        "Inter",
+        "sansLanding",
+        "ui-monospace"
+      ],
+      "type": {
+        "h1": {
+          "font": "sansLanding",
+          "size": 42,
+          "weight": "480",
+          "lineHeight": 1.25,
+          "letterSpacing": "-0.63px",
+          "color": "rgb(255, 255, 255)"
+        },
+        "h2": {
+          "font": "sansLanding",
+          "size": 24,
+          "weight": "500",
+          "lineHeight": 1.33,
+          "letterSpacing": "0.048px",
+          "color": "rgb(255, 255, 255)"
+        },
+        "h3": null,
+        "body": {
+          "font": "sansLanding",
+          "size": 16,
+          "weight": "450",
+          "lineHeight": 1.5,
+          "letterSpacing": "0.032px",
+          "color": "rgb(255, 255, 255)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#4e4e4e",
+          "#7c3bed",
+          "#8fbbfe",
+          "#60a5fa",
+          "#e3a008"
+        ],
+        "text": [
+          "#ffffff",
+          "#36d399",
+          "#000000"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": 880
+    }
+  },
+  {
     "id": "langfuse-landing",
     "site": "Langfuse",
     "url": "https://langfuse.com",
@@ -30879,6 +31045,109 @@
           "font": "mt-sans",
           "size": 16,
           "weight": "600"
+        }
+      ],
+      "contentWidth": 1440
+    }
+  },
+  {
+    "id": "momentic-landing",
+    "site": "Momentic",
+    "url": "https://momentic.ai",
+    "type": "landing",
+    "tags": [],
+    "note": "",
+    "captured": "2026-11-23",
+    "screens": {
+      "desktop": {
+        "file": "screens/momentic-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/momentic-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "AI QA Engineer & AI Testing Platform | Momentic",
+      "fonts": [
+        "BDO Grotesk",
+        "Basically A Mono"
+      ],
+      "type": {
+        "h1": {
+          "font": "BDO Grotesk",
+          "size": 56,
+          "weight": "500",
+          "lineHeight": 1.08,
+          "letterSpacing": "-2.24px",
+          "color": "rgb(28, 28, 28)"
+        },
+        "h2": {
+          "font": "BDO Grotesk",
+          "size": 40,
+          "weight": "500",
+          "lineHeight": 1.2,
+          "letterSpacing": "-1.6px",
+          "color": "rgb(28, 28, 28)"
+        },
+        "h3": {
+          "font": "BDO Grotesk",
+          "size": 24,
+          "weight": "500",
+          "lineHeight": 1.32,
+          "letterSpacing": "-0.96px",
+          "color": "rgb(28, 28, 28)"
+        },
+        "body": {
+          "font": "BDO Grotesk",
+          "size": 13,
+          "weight": "400",
+          "lineHeight": 1.2,
+          "letterSpacing": "-0.2px",
+          "color": "rgb(255, 255, 255)"
+        }
+      },
+      "colors": {
+        "background": "#f5f3f2",
+        "surfaces": [
+          "#f5f3f2",
+          "#fbfbfb",
+          "#ffffff",
+          "#000000",
+          "#87f700"
+        ],
+        "text": [
+          "#1c1c1c",
+          "#737373",
+          "#ffffff",
+          "#7f806f"
+        ]
+      },
+      "buttons": [
+        {
+          "label": "Try for free",
+          "bg": "#87f700",
+          "color": "#1c1c1c",
+          "radius": "8px",
+          "height": 34,
+          "paddingX": 14,
+          "font": "BDO Grotesk",
+          "size": 14,
+          "weight": "500"
+        },
+        {
+          "label": "TRY FOR FREE",
+          "bg": "#87f700",
+          "color": "#1c1c1c",
+          "radius": "8px",
+          "height": 42,
+          "paddingX": 18,
+          "font": "Basically A Mono",
+          "size": 16,
+          "weight": "500"
         }
       ],
       "contentWidth": 1440
@@ -41615,6 +41884,110 @@
         }
       ],
       "contentWidth": null
+    }
+  },
+  {
+    "id": "speakeasy-landing",
+    "site": "Speakeasy",
+    "url": "https://www.speakeasy.com",
+    "type": "landing",
+    "tags": [],
+    "note": "",
+    "captured": "2026-11-23",
+    "screens": {
+      "desktop": {
+        "file": "screens/speakeasy-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/speakeasy-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Govern and secure enterprise AI — Speakeasy",
+      "fonts": [
+        "ABCDiatype",
+        "ABCDiatypeMono",
+        "Tobias"
+      ],
+      "type": {
+        "h1": {
+          "font": "Tobias",
+          "size": 79,
+          "weight": "100",
+          "lineHeight": 1,
+          "letterSpacing": "-2.772px",
+          "color": "rgb(15, 10, 7)"
+        },
+        "h2": {
+          "font": "Tobias",
+          "size": 86,
+          "weight": "100",
+          "lineHeight": 1.02,
+          "letterSpacing": "-3.024px",
+          "color": "rgb(15, 10, 7)"
+        },
+        "h3": {
+          "font": "Tobias",
+          "size": 35,
+          "weight": "100",
+          "lineHeight": 1,
+          "letterSpacing": "-1.2096px",
+          "color": "rgb(15, 10, 7)"
+        },
+        "body": {
+          "font": "ABCDiatype",
+          "size": 16,
+          "weight": "400",
+          "lineHeight": 1.5,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        }
+      },
+      "colors": {
+        "background": "#fafafa",
+        "surfaces": [
+          "#fafafa",
+          "#ffffff",
+          "#242428",
+          "#121212",
+          "#c83228"
+        ],
+        "text": [
+          "#969696",
+          "#b22c23",
+          "#b25014",
+          "#44663c"
+        ]
+      },
+      "buttons": [
+        {
+          "label": "DEPLOY FOR FREE",
+          "bg": "#242428",
+          "color": "#fafafa",
+          "radius": "8px",
+          "height": 41,
+          "paddingX": 24,
+          "font": "ABCDiatypeMono",
+          "size": 14,
+          "weight": "300"
+        },
+        {
+          "label": "AGENT VIEW",
+          "bg": "#fafafa",
+          "color": "#0f0a07",
+          "radius": "0px",
+          "height": 38,
+          "paddingX": 16,
+          "font": "ABCDiatypeMono",
+          "size": 12,
+          "weight": "300"
+        }
+      ],
+      "contentWidth": 1250
     }
   },
   {
