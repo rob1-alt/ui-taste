@@ -30,7 +30,7 @@
 *{box-sizing:border-box;margin:0}
 html{scroll-behavior:smooth}
 @media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
-body{font:400 17px/1.6 "Inter Tight",system-ui,sans-serif;color:var(--ink);background:var(--paper);-webkit-font-smoothing:antialiased;overflow-x:hidden}
+body{font:400 17px/1.6 "Inter Tight",system-ui,sans-serif;color:var(--ink);background:var(--paper);-webkit-font-smoothing:antialiased;overflow-x:clip}
 a{color:inherit;text-decoration:none}
 img,video{display:block;max-width:100%}
 :focus-visible{outline:2px solid var(--touch);outline-offset:3px;border-radius:2px}
@@ -52,6 +52,13 @@ h2{font-family:var(--display);font-weight:600;font-size:64px;line-height:1;lette
 .yog{height:21px;width:auto;filter:grayscale(1) brightness(3);opacity:.85}
 .cap{font-size:13px;line-height:1.5;color:var(--cream-3)} .cap b{font-weight:500;color:var(--cream)}
 .on-paper .cap{color:var(--ink-3)} .on-paper .cap b{color:var(--ink)}
+
+/* ---------- redesign banner ---------- */
+.redo{position:relative;z-index:10;background:var(--cream);color:var(--red-deep);display:flex;align-items:center;justify-content:center;gap:12px;min-height:40px;padding:8px var(--gutter);font-size:14px;text-align:center}
+.redo p{margin:0}
+.redo b{font-weight:600}
+.redo a{text-decoration:underline;text-underline-offset:3px;white-space:nowrap}
+.redo-dot{width:8px;height:8px;border-radius:50%;background:var(--touch);box-shadow:0 0 8px rgba(43,212,106,.8);flex:none}
 
 /* ---------- 0 · hero: the image sandwich ----------
    back:  the atelier photograph, graded oxblood (the painted studio wall)
@@ -110,6 +117,12 @@ nav .right{margin-left:auto;display:flex;gap:28px;align-items:center;font-size:1
 .app .st i{width:8px;height:8px;border-radius:50%;background:#cfcbc4}
 .app .st.ok{color:var(--ok)} .app .st.ok i{background:var(--touch);box-shadow:0 0 6px rgba(43,212,106,.8)}
 .app .st.no{color:var(--ink-3);text-decoration:line-through}
+.app .st.testing{color:var(--ink-2);text-decoration:none} .app .st.testing i{background:#e3a008;box-shadow:0 0 6px rgba(227,160,8,.8);animation:blink .6s steps(2) infinite}
+@keyframes blink{50%{opacity:.25}}
+.app tr.pending{opacity:0;transform:translateY(6px)}
+.app tr{transition:opacity .35s,transform .35s}
+.app tr.hit td{background:rgba(43,212,106,.08);transition:background .6s}
+.app .kpis i.off{background:#d9d5cf!important;box-shadow:none!important}
 .hero .piste{position:relative;z-index:5;background:var(--red-deep);border-top:1px solid rgba(246,241,234,.14);margin-top:-1px}
 .hero .piste .in{max-width:1440px;margin:0 auto;min-height:72px;padding:16px var(--gutter);display:flex;align-items:center;justify-content:space-between;gap:var(--s6)}
 .hero .piste .plate{margin:0;max-width:680px}
@@ -132,16 +145,25 @@ nav .right{margin-left:auto;display:flex;gap:28px;align-items:center;font-size:1
 .player video{width:100%;height:100%;object-fit:cover}
 
 /* ---------- 2 · TOUCHÉ: the blade reaches the lamp ---------- */
-.touche{background:var(--night);color:var(--cream);overflow:hidden;padding:var(--s9) 0 var(--s10)}
+.touche{background:var(--night);color:var(--cream);overflow:clip;padding:var(--s9) 0 var(--s10)}
 .bout{position:relative;max-width:1440px;margin:0 auto}
 .bout .stage{position:relative;width:47%;margin-left:0;aspect-ratio:1270/770}
 .bout .lunge{position:absolute;inset:0;background:url(assets/duo2-cut.webp) 0 100%/contain no-repeat}
+@supports (animation-timeline: view()){
+  @media (prefers-reduced-motion:no-preference){
+    .bout .stage{animation:advance linear both;animation-timeline:view();animation-range:entry 10% cover 45%}
+    .bout .lampbig{animation:lightup linear both;animation-timeline:view();animation-range:entry 10% cover 45%}
+    .bout .word{animation:shout linear both;animation-timeline:view();animation-range:entry 10% cover 45%}
+    @keyframes advance{from{transform:translateX(-14%)}to{transform:none}}
+    @keyframes lightup{0%,88%{background:#1d1d1d;box-shadow:0 0 0 0 rgba(43,212,106,0)}100%{background:var(--touch);box-shadow:0 0 0 14px rgba(43,212,106,.12),0 0 0 32px rgba(43,212,106,.06),0 0 90px rgba(43,212,106,.55)}}
+    @keyframes shout{0%,88%{opacity:0;transform:translateX(-12px)}100%{opacity:1;transform:none}}
+  }
+}
 /* the foil tip sits at x 100%, y 32.5% of the cut-out: the lamp is centred on it */
 .bout .hit{position:absolute;left:100%;top:32.5%;transform:translate(-18px,-50%);display:flex;align-items:center;gap:36px;white-space:nowrap}
 .lampbig{width:116px;height:116px;border-radius:50%;background:var(--touch);flex:none;box-shadow:0 0 0 14px rgba(43,212,106,.12),0 0 0 32px rgba(43,212,106,.06),0 0 90px rgba(43,212,106,.55)}
 .bout .word{font-family:var(--display);font-weight:600;font-size:clamp(100px,10.5vw,160px);line-height:.9;letter-spacing:-.03em;color:var(--cream)}
 @media (prefers-reduced-motion:no-preference){
-  .lampbig{animation:lamp 2.4s ease-in-out infinite}
   @keyframes lamp{0%,100%{box-shadow:0 0 0 14px rgba(43,212,106,.12),0 0 0 32px rgba(43,212,106,.06),0 0 90px rgba(43,212,106,.55)}50%{box-shadow:0 0 0 18px rgba(43,212,106,.16),0 0 0 40px rgba(43,212,106,.07),0 0 120px rgba(43,212,106,.7)}}
 }
 .touche .wrap{display:grid;grid-template-columns:6fr 6fr;gap:var(--s8);margin-top:var(--s8);align-items:start}
@@ -307,6 +329,7 @@ footer.site .legal{grid-column:1/-1;margin-top:var(--s6);padding-top:var(--s4);b
 </style>
 </head>
 <body>
+<div class="redo" role="note"><span class="redo-dot" aria-hidden="true"></span><p><b>On reprend le site de Fleuret.</b> Proposition de refonte en cours, ce n'est pas le site officiel. <a href="https://fleuret.ai">Le site actuel&nbsp;→</a></p></div>
 
 <!-- 0 · the poster -->
 <header class="hero on-red">
@@ -338,18 +361,18 @@ footer.site .legal{grid-column:1/-1;margin-top:var(--s6);padding-top:var(--s4);b
           <div class="top"><h4>northwind-health.eu</h4><span class="run"><i></i>Émile · T+04:12</span></div>
           <div class="sub">3 subdomains · 47 routes · 12 API endpoints · scope signed</div>
           <div class="kpis">
-            <div><b><i class="lit"></i>3</b><span>Touché, exploit replayed</span></div>
-            <div><b><i></i>11</b><span>Leads dropped</span></div>
+            <div><b><i class="lit" data-lamp></i><span data-count="touch">3</span></b><span>Touché, exploit replayed</span></div>
+            <div><b><i></i><span data-count="drop">11</span></b><span>Leads dropped</span></div>
             <div><b><i></i>0</b><span>Reported without proof</span></div>
           </div>
           <table>
             <thead><tr><th>ID</th><th>Finding</th><th>Severity</th><th>Status</th></tr></thead>
             <tbody>
-              <tr><td class="mono">F-002</td><td class="t">Cross-tenant IDOR on invoices</td><td><span class="sev h">HIGH 8.2</span></td><td><span class="st ok"><i></i>touché</span></td></tr>
-              <tr><td class="mono">F-003</td><td class="t">JWT tenant claim not checked on /export</td><td><span class="sev h">HIGH</span></td><td><span class="st ok"><i></i>touché</span></td></tr>
-              <tr><td class="mono">F-005</td><td class="t">Password reset token reusable</td><td><span class="sev m">MED</span></td><td><span class="st ok"><i></i>touché</span></td></tr>
-              <tr><td class="mono">L-014</td><td class="t">SQL injection on /search</td><td><span class="sev l">—</span></td><td><span class="st no"><i></i>no proof</span></td></tr>
-              <tr><td class="mono">L-019</td><td class="t">Open redirect on /logout</td><td><span class="sev l">—</span></td><td><span class="st no"><i></i>no proof</span></td></tr>
+              <tr><td class="mono">F-002</td><td class="t">Cross-tenant IDOR on invoices</td><td><span class="sev h">HIGH 8.2</span></td><td><span class="st ok" data-final="ok"><i></i>touché</span></td></tr>
+              <tr><td class="mono">F-003</td><td class="t">JWT tenant claim not checked on /export</td><td><span class="sev h">HIGH</span></td><td><span class="st ok" data-final="ok"><i></i>touché</span></td></tr>
+              <tr><td class="mono">F-005</td><td class="t">Password reset token reusable</td><td><span class="sev m">MED</span></td><td><span class="st ok" data-final="ok"><i></i>touché</span></td></tr>
+              <tr><td class="mono">L-014</td><td class="t">SQL injection on /search</td><td><span class="sev l">—</span></td><td><span class="st no" data-final="no"><i></i>no proof</span></td></tr>
+              <tr><td class="mono">L-019</td><td class="t">Open redirect on /logout</td><td><span class="sev l">—</span></td><td><span class="st no" data-final="no"><i></i>no proof</span></td></tr>
             </tbody>
           </table>
         </main>
@@ -543,5 +566,35 @@ footer.site .legal{grid-column:1/-1;margin-top:var(--s6);padding-top:var(--s4);b
     <p class="legal">© 2026 fleuret.ai. All rights reserved.</p>
   </div>
 </footer>
+<script>
+/* The hero window plays one run: each finding is tested, then lands (touché) or is dropped (no proof).
+   Without motion, or without JS, the final state is what is in the HTML. */
+(() => {
+  if (matchMedia("(prefers-reduced-motion: reduce)").matches) return;
+  const rows = [...document.querySelectorAll(".app tbody tr")];
+  const lamp = document.querySelector("[data-lamp]");
+  const nTouch = document.querySelector('[data-count="touch"]');
+  const nDrop = document.querySelector('[data-count="drop"]');
+  if (!rows.length || !lamp) return;
+  const st = rows.map(r => r.querySelector("[data-final]"));
+  const label = st.map(s => s.lastChild.textContent);
+  let touch = 0, drop = 9;
+  rows.forEach(r => r.classList.add("pending"));
+  st.forEach(s => { s.className = "st testing"; s.lastChild.textContent = "testing…"; });
+  lamp.classList.add("off"); nTouch.textContent = "0"; nDrop.textContent = String(drop);
+  const order = [3, 0, 4, 1, 2];               // leads and touches interleaved, like a real run
+  let t = 700;
+  rows.forEach((r, i) => setTimeout(() => r.classList.remove("pending"), 350 + i * 140));
+  order.forEach(i => {
+    t += 900;
+    setTimeout(() => {
+      const s = st[i], ok = s.dataset.final === "ok";
+      s.className = "st " + (ok ? "ok" : "no"); s.lastChild.textContent = label[i];
+      if (ok) { touch++; nTouch.textContent = touch; lamp.classList.remove("off"); rows[i].classList.add("hit"); setTimeout(() => rows[i].classList.remove("hit"), 900); }
+      else { drop++; nDrop.textContent = drop; }
+    }, t);
+  });
+})();
+</script>
 </body>
 </html>
