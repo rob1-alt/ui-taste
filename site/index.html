@@ -37,34 +37,29 @@
 
 <main>
   <!-- Hero: one sentence, real screens set into the words (decision from Mobbin's hero) -->
+  <!-- Hero: the library itself is the backdrop (a tilted wall of real screens), the headline sits on it -->
   <section class="hero">
-    <p class="eyebrow">A skill for Claude Code</p>
-    <h1 class="hero-title">
-      Show your agent
-      <span class="inline-shot" data-shot="playdate-landing"></span>
-      what <em>good</em>
-      <span class="inline-shot" data-shot="stripe-press-landing"></span>
-      interfaces
-      <span class="inline-shot" data-shot="linear-pricing"></span>
-      look&nbsp;like.
-    </h1>
-    <p class="hero-sub" id="hero-sub">Real pages from products known for their design, with the fonts, sizes, colours and buttons measured on the live page. Claude looks before it builds, then reviews what it rendered.</p>
-    <div class="hero-cta">
-      <a class="pill pill-dark pill-lg" href="library.html">Browse the library</a>
-      <a class="pill pill-ghost pill-lg" href="#install">Install the skill <span aria-hidden="true">→</span></a>
-    </div>
-  </section>
-
-  <section class="wall" aria-label="A wall of screens from the library">
     <div class="wall-stage" aria-hidden="true"><div class="wall-plane" id="wall"></div></div>
-    <div class="wall-copy">
-      <p class="label">The library</p>
-      <p class="wall-title"><span id="wall-n">273</span> screens, each one kept for a <em>decision</em> worth copying.</p>
-      <a class="pill pill-light pill-lg" href="library.html">Open the library <span aria-hidden="true">→</span></a>
+    <div class="hero-inner">
+      <p class="eyebrow">A skill for Claude Code</p>
+      <h1 class="hero-title">
+        Show your agent
+        <span class="inline-shot" data-shot="playdate-landing"></span>
+        what <em>good</em>
+        <span class="inline-shot" data-shot="stripe-press-landing"></span>
+        interfaces
+        <span class="inline-shot" data-shot="linear-pricing"></span>
+        look&nbsp;like.
+      </h1>
+      <p class="hero-sub" id="hero-sub">Real pages from products known for their design, with the fonts, sizes, colours and buttons measured on the live page. Claude looks before it builds, then reviews what it rendered.</p>
+      <div class="hero-cta">
+        <a class="pill pill-light pill-lg" href="library.html">Browse the library</a>
+        <a class="pill pill-outline pill-lg" href="#install">Install the skill <span aria-hidden="true">→</span></a>
+      </div>
     </div>
+    <p class="hero-foot"><span id="wall-n">273</span> screens · <span id="hero-sites">186</span> products · desktop and mobile</p>
   </section>
 
-  <!-- Statement: the problem in two tones -->
   <section class="statement wrap reveal">
     <p class="statement-text">
       <span class="ink">Agents build the same interface every time.</span>
@@ -72,6 +67,40 @@
       <span class="ink">UI taste replaces that default with evidence.</span>
     </p>
   </section>
+
+  <!-- Default vs evidence: drag to compare what agents build by default with a real screen -->
+  <section class="versus wrap reveal" id="versus">
+    <div class="section-head">
+      <p class="label">Drag to compare</p>
+      <h2>The default, and what the library shows instead.</h2>
+    </div>
+    <div class="compare" id="compare" style="--pos: 50%">
+      <div class="pane pane-after">
+        <img src="thumbs/linear-pricing-desktop.jpg" alt="Linear's pricing page: four plans in plain columns, no card boxes, one filled button" loading="lazy">
+        <span class="pane-tag tag-after">Linear · pricing<span class="long">, from the library</span></span>
+      </div>
+      <div class="pane pane-before" aria-hidden="true">
+        <div class="slop">
+          <div class="slop-nav"><i></i><b></b><b></b><b></b><u>Get Started 🚀</u></div>
+          <div class="slop-hero">
+            <h3>Supercharge Your Workflow With AI ✨</h3>
+            <p>The all-in-one platform to unlock your team's potential.</p>
+            <div class="slop-btns"><u>Get Started Free</u><u class="ghost">Learn More →</u></div>
+          </div>
+          <div class="slop-cards">
+            <div><span>⚡</span><b>Lightning Fast</b><p>Blazingly fast performance for your team.</p></div>
+            <div><span>🔒</span><b>Secure by Default</b><p>Enterprise-grade security built in.</p></div>
+            <div><span>🎯</span><b>Easy to Use</b><p>An intuitive interface anyone can use.</p></div>
+          </div>
+        </div>
+        <span class="pane-tag tag-before"><span class="long">What agents build by </span>default</span>
+      </div>
+      <input class="compare-range" type="range" min="0" max="100" value="50" aria-label="Compare the default with the reference">
+      <div class="handle" aria-hidden="true"><span>◀ ▶</span></div>
+    </div>
+  </section>
+
+  <div class="marquee" aria-hidden="true"><div class="marquee-track" id="marquee"></div></div>
 
   <!-- How it works -->
   <section class="how wrap reveal" id="how">

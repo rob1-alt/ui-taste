@@ -28,14 +28,45 @@
 
   // Wall: five columns of real screens on a tilted plane, duplicated for a seamless loop
   const FIRST = ["stripe-press-landing", "playdate-landing", "teenage-engineering-landing", "obsidian-landing", "pentagram-landing", "hey-landing", "sentry-landing", "anthropic-landing", "pika-landing", "affinity-landing", "kagi-landing", "beehiiv-landing", "cash-app-landing", "lindy-landing", "linear-pricing", "procreate-landing", "netlify-landing", "cosmos-landing", "partiful-landing", "panic-landing", "basecamp-landing", "frame-io-landing", "ghost-landing", "turso-landing", "readwise-reader-landing", "sketch-landing"];
-  const pool = [...FIRST.filter((id) => thumb(id)), ...LIB.filter((x) => x.type === "landing" && !FIRST.includes(x.id) && x.screens.desktop).map((x) => x.id)].slice(0, 50);
-  const cols = [[], [], [], [], []];
-  pool.forEach((id, i) => cols[i % 5].push(id));
+  const pool = [...FIRST.filter((id) => thumb(id)), ...LIB.filter((x) => x.type === "landing" && !FIRST.includes(x.id) && x.screens.desktop).map((x) => x.id)].slice(0, 60);
+  const cols = [[], [], [], [], [], []];
+  pool.forEach((id, i) => cols[i % 6].push(id));
   $("#wall").innerHTML = cols.map((c) => {
     const imgs = c.map((id) => `<img src="${esc(thumb(id))}" alt="" loading="lazy" decoding="async">`).join("");
     return `<div class="wall-col">${imgs}${imgs}</div>`;
   }).join("");
   $("#wall-n").textContent = LIB.length;
+  $("#hero-sites").textContent = sites;
+
+  // The wall leans with the pointer
+  const plane = $("#wall");
+  if (matchMedia("(hover: hover) and (prefers-reduced-motion: no-preference)").matches) {
+    let tx = 0, ty = 0, cx = 0, cy = 0, raf = 0;
+    const step = () => {
+      cx += (tx - cx) * 0.06; cy += (ty - cy) * 0.06;
+      plane.style.setProperty("--px", cx.toFixed(1) + "px");
+      plane.style.setProperty("--py", cy.toFixed(1) + "px");
+      raf = Math.abs(tx - cx) + Math.abs(ty - cy) > 0.2 ? requestAnimationFrame(step) : 0;
+    };
+    $(".hero").addEventListener("pointermove", (e) => {
+      tx = (e.clientX / innerWidth - 0.5) * -120; ty = (e.clientY / innerHeight - 0.5) * -80;
+      if (!raf) raf = requestAnimationFrame(step);
+    });
+  }
+
+  // Top bar turns light once the dark hero has scrolled away
+  const bar = $(".bar"), hero = $(".hero");
+  const lit = () => bar.classList.toggle("lit", scrollY > hero.offsetHeight - 60);
+  addEventListener("scroll", lit, { passive: true }); lit();
+
+  // Drag to compare
+  const cmp = $("#compare");
+  cmp.querySelector(".compare-range").addEventListener("input", (e) => cmp.style.setProperty("--pos", e.target.value + "%"));
+
+  // Marquee of site names
+  const names = [...new Set(LIB.filter((x) => x.type !== "design-system").map((x) => x.site))].sort(() => Math.random() - 0.5).slice(0, 40);
+  const half = names.map((n, i) => `${i % 3 === 1 ? `<em>${esc(n)}</em>` : esc(n)}<span class="dot">·</span>`).join("");
+  $("#marquee").innerHTML = half + half;
 
   // Specimen: real tokens for a few screens
   const SPEC = ["linear-pricing", "stripe-press-landing", "playdate-landing", "obsidian-landing", "hey-landing"].filter((id) => byId[id]);
