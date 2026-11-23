@@ -7,7 +7,7 @@
 <meta name="description" content="Émile runs human-grade pentests with a replayable exploit behind every finding. Hortense tells you what to test next, and when. Built and hosted in Europe.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz,wght@6..96,400;6..96,500&family=Inter+Tight:wght@400;500&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz,wght@6..96,500;6..96,600;6..96,700&family=Inter+Tight:wght@400;500&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
 <style>
 /* ---------- tokens ---------- */
 :root{
@@ -36,7 +36,7 @@ img,video{display:block;max-width:100%}
 :focus-visible{outline:2px solid var(--touch);outline-offset:3px;border-radius:2px}
 .wrap{max-width:var(--max);margin:0 auto;padding:0 var(--gutter)}
 .mono{font-family:var(--mono)}
-h2{font-family:var(--display);font-weight:400;font-size:64px;line-height:1;letter-spacing:-.02em}
+h2{font-family:var(--display);font-weight:600;font-size:64px;line-height:1;letter-spacing:-.02em}
 .lede{font-size:20px;line-height:1.55}
 .pad{padding:var(--s10) 0}
 
@@ -53,31 +53,73 @@ h2{font-family:var(--display);font-weight:400;font-size:64px;line-height:1;lette
 .cap{font-size:13px;line-height:1.5;color:var(--cream-3)} .cap b{font-weight:500;color:var(--cream)}
 .on-paper .cap{color:var(--ink-3)} .on-paper .cap b{color:var(--ink)}
 
-/* ---------- 0 · hero: the poster ---------- */
-.hero{position:relative;background:var(--red);color:var(--cream);height:max(760px,min(100vh,960px));overflow:hidden}
-.hero::after{content:"";position:absolute;inset:0;background:radial-gradient(70% 60% at 62% 70%,rgba(255,255,255,.07),transparent 70%),linear-gradient(transparent 60%,rgba(0,0,0,.18));pointer-events:none}
-nav{position:relative;z-index:5;display:flex;align-items:center;gap:40px;height:88px;padding:0 var(--gutter);max-width:1440px;margin:0 auto}
-nav ul{display:flex;gap:28px;list-style:none;padding:0;font-size:15px;color:var(--cream-2)}
+/* ---------- 0 · hero: the image sandwich ----------
+   back:  the atelier photograph, graded oxblood (the painted studio wall)
+   middle: the Fleuret findings window, set in front of the wall
+   front:  Émile and Hortense cut out of the same photograph, registered on it,
+           so they stand in front of the window. Hortense points at it. */
+.hero{position:relative;background:var(--red);color:var(--cream);overflow:hidden}
+nav{position:relative;z-index:6;display:flex;align-items:center;gap:40px;height:88px;padding:0 var(--gutter);max-width:1440px;margin:0 auto}
+nav ul{display:flex;gap:28px;list-style:none;padding:0;font-size:15px;font-weight:500;color:var(--cream-2)}
 nav ul a:hover,nav .right a:hover{color:var(--cream)}
-nav .right{margin-left:auto;display:flex;gap:28px;align-items:center;font-size:15px;color:var(--cream-2)}
-.hero h1{position:absolute;z-index:1;left:var(--gutter);right:var(--gutter);top:118px;font-family:var(--display);font-weight:400;font-size:clamp(120px,14.2vw,212px);line-height:.86;letter-spacing:-.035em;color:var(--cream)}
-.hero h1 span{display:block}
-.hero h1 span:last-child{padding-left:0}
-.hero .figures{position:absolute;z-index:2;bottom:72px;left:49%;height:76%;aspect-ratio:745/770;background:url(assets/duo1-cut.webp) 0 100%/contain no-repeat;filter:drop-shadow(0 30px 40px rgba(0,0,0,.25))}
-.hero .foot{position:absolute;z-index:3;left:var(--gutter);bottom:calc(72px + var(--s7));width:440px}
-.hero .piste{position:absolute;z-index:3;left:0;right:0;bottom:0;height:72px;background:var(--red-deep);border-top:1px solid rgba(246,241,234,.14)}
-.hero .piste .in{max-width:1440px;margin:0 auto;height:100%;padding:0 var(--gutter);display:flex;align-items:center;justify-content:space-between;gap:var(--s6)}
-.hero .piste .plate{margin:0;max-width:640px}
-.hero .lede{font-size:18px;color:var(--cream-2)}
+nav .right{margin-left:auto;display:flex;gap:28px;align-items:center;font-size:15px;font-weight:500;color:var(--cream-2)}
+.hero .head{position:relative;z-index:5;max-width:1440px;margin:0 auto;padding:40px var(--gutter) 0;display:grid;grid-template-columns:1fr 400px;gap:var(--s8);align-items:end}
+.hero h1{font-family:var(--display);font-weight:600;font-size:clamp(84px,9.4vw,140px);line-height:.92;letter-spacing:-.03em;color:var(--cream)}
+.hero .lede{font-size:18px;line-height:1.55;color:var(--cream-2)}
 .hero .actions{display:flex;gap:var(--s5);align-items:center;margin-top:var(--s5);flex-wrap:wrap}
+/* the scene: one box with the photo's ratio, all three layers positioned in its coordinates */
+.scene-clip{position:relative;z-index:1;margin-top:-170px;aspect-ratio:1600/800;overflow:hidden}
+.scene{position:absolute;left:0;top:0;width:100%;aspect-ratio:1600/894}
+.scene .back{position:absolute;inset:0;background:url(assets/atelier-oxblood.webp) 50% 50%/100% 100% no-repeat;
+  -webkit-mask-image:radial-gradient(75% 85% at 45% 55%,#000 52%,transparent 92%);mask-image:radial-gradient(75% 85% at 45% 55%,#000 52%,transparent 92%)}
+.scene .front{position:absolute;inset:0;background:url(assets/duo1-front-full.webp) 50% 50%/100% 100% no-repeat;z-index:3;filter:drop-shadow(0 24px 30px rgba(20,3,6,.35))}
+/* the window sits on the wall, to the right of Hortense's pointing hand */
+.app{position:absolute;z-index:2;left:57%;top:24%;width:42%;background:#fbfaf8;color:var(--ink);border-radius:12px;border:1px solid rgba(0,0,0,.08);
+  box-shadow:0 40px 80px -30px rgba(20,3,6,.6),0 0 0 1px rgba(255,255,255,.4);overflow:hidden;font-size:13px}
+.app .bar{display:flex;align-items:center;gap:8px;height:38px;padding:0 14px;border-bottom:1px solid #ebe8e3;background:#f4f2ee}
+.app .bar i{width:10px;height:10px;border-radius:50%;background:#d9d5cf}
+.app .bar span{margin-left:10px;font:400 12px/1 var(--mono);color:var(--ink-3)}
+.app .body{display:grid;grid-template-columns:118px 1fr}
+.app .rail{background:#f1eee9;border-right:1px solid #e6e2dc;padding:16px 12px;display:grid;gap:10px;align-content:start;font-size:12px;color:var(--ink-3)}
+.app .rail b{font-weight:500;color:var(--ink)}
+.app aside{border-right:1px solid #ebe8e3;padding:14px 10px;display:grid;gap:2px;align-content:start;background:#f8f6f3}
+.app aside .wm{height:14px;margin:2px 8px 14px}
+.app aside .wm path{fill:var(--ink)!important}
+.app aside a{padding:7px 8px;border-radius:5px;color:var(--ink-2);display:flex;justify-content:space-between}
+.app aside a.on{background:#ece8e2;color:var(--ink);font-weight:500}
+.app aside a b{font-weight:500;font:500 11px/1.6 var(--mono);color:var(--ink-3)}
+.app main{padding:16px 18px 18px}
+.app .top{display:flex;justify-content:space-between;align-items:center}
+.app .top h4{font-size:16px;font-weight:600;letter-spacing:-.01em}
+.app .top .run{display:flex;align-items:center;gap:8px;font:400 12px/1 var(--mono);color:var(--ink-2)}
+.app .top .run i{width:8px;height:8px;border-radius:50%;background:var(--touch);box-shadow:0 0 8px rgba(43,212,106,.8)}
+.app .sub{margin-top:4px;font:400 12px/1.4 var(--mono);color:var(--ink-3)}
+.app .kpis{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin-top:14px}
+.app .kpis div{border:1px solid #ebe8e3;border-radius:8px;padding:10px 12px}
+.app .kpis b{display:flex;align-items:center;gap:8px;font:500 22px/1 var(--mono);letter-spacing:-.03em}
+.app .kpis b i{width:9px;height:9px;border-radius:50%;background:#d9d5cf}
+.app .kpis b i.lit{background:var(--touch);box-shadow:0 0 8px rgba(43,212,106,.8)}
+.app .kpis span{display:block;margin-top:6px;font-size:12px;color:var(--ink-3)}
+.app table{width:100%;border-collapse:collapse;margin-top:14px}
+.app th{text-align:left;font:500 11px/1 var(--mono);color:var(--ink-3);padding:0 8px 8px;border-bottom:1px solid #ebe8e3}
+.app td{padding:9px 8px;border-bottom:1px solid #f0ede8;white-space:nowrap}
+.app td.t{font-weight:500;white-space:normal}
+.app .sev{font:500 10.5px/1 var(--mono);padding:4px 6px;border-radius:3px}
+.app .sev.h{background:#fbe9ea;color:var(--high)} .app .sev.m{background:#fdf1df;color:#9a5a00} .app .sev.l{background:#efeeeb;color:var(--ink-2)}
+.app .st{display:inline-flex;align-items:center;gap:6px;font:400 12px/1 var(--mono)}
+.app .st i{width:8px;height:8px;border-radius:50%;background:#cfcbc4}
+.app .st.ok{color:var(--ok)} .app .st.ok i{background:var(--touch);box-shadow:0 0 6px rgba(43,212,106,.8)}
+.app .st.no{color:var(--ink-3);text-decoration:line-through}
+.hero .piste{position:relative;z-index:5;background:var(--red-deep);border-top:1px solid rgba(246,241,234,.14);margin-top:-1px}
+.hero .piste .in{max-width:1440px;margin:0 auto;min-height:72px;padding:16px var(--gutter);display:flex;align-items:center;justify-content:space-between;gap:var(--s6)}
+.hero .piste .plate{margin:0;max-width:680px}
 .hero .logos{display:flex;gap:28px;align-items:center;flex:none}
 .hero .logos span{font-size:13px;color:var(--cream-3)}
 @media (prefers-reduced-motion:no-preference){
-  .hero h1 span{animation:lunge .9s cubic-bezier(.2,.8,.2,1) both}
-  .hero h1 span:last-child{animation-delay:.08s}
-  .hero .figures{animation:rise 1s .1s cubic-bezier(.2,.8,.2,1) both}
-  @keyframes lunge{from{transform:translateX(-6%);opacity:0}to{transform:none;opacity:1}}
-  @keyframes rise{from{transform:translateY(4%);opacity:0}to{transform:none;opacity:1}}
+  .scene .front{animation:rise 1s .1s cubic-bezier(.2,.8,.2,1) both}
+  .app{animation:slide 1s cubic-bezier(.2,.8,.2,1) both}
+  @keyframes rise{from{transform:translateY(2%);opacity:0}to{transform:none;opacity:1}}
+  @keyframes slide{from{transform:translateY(6%);opacity:0}to{transform:none;opacity:1}}
 }
 
 /* ---------- 1 · founders ---------- */
@@ -97,7 +139,7 @@ nav .right{margin-left:auto;display:flex;gap:28px;align-items:center;font-size:1
 /* the foil tip sits at x 100%, y 32.5% of the cut-out: the lamp is centred on it */
 .bout .hit{position:absolute;left:100%;top:32.5%;transform:translate(-18px,-50%);display:flex;align-items:center;gap:36px;white-space:nowrap}
 .lampbig{width:116px;height:116px;border-radius:50%;background:var(--touch);flex:none;box-shadow:0 0 0 14px rgba(43,212,106,.12),0 0 0 32px rgba(43,212,106,.06),0 0 90px rgba(43,212,106,.55)}
-.bout .word{font-family:var(--display);font-size:clamp(100px,10.5vw,160px);line-height:.9;letter-spacing:-.03em;color:var(--cream)}
+.bout .word{font-family:var(--display);font-weight:600;font-size:clamp(100px,10.5vw,160px);line-height:.9;letter-spacing:-.03em;color:var(--cream)}
 @media (prefers-reduced-motion:no-preference){
   .lampbig{animation:lamp 2.4s ease-in-out infinite}
   @keyframes lamp{0%,100%{box-shadow:0 0 0 14px rgba(43,212,106,.12),0 0 0 32px rgba(43,212,106,.06),0 0 90px rgba(43,212,106,.55)}50%{box-shadow:0 0 0 18px rgba(43,212,106,.16),0 0 0 40px rgba(43,212,106,.07),0 0 120px rgba(43,212,106,.7)}}
@@ -125,7 +167,7 @@ nav .right{margin-left:auto;display:flex;gap:28px;align-items:center;font-size:1
 .fid{margin-top:var(--s5);display:flex;gap:var(--s2);align-items:center;flex-wrap:wrap}
 .tag{font:500 11.5px/1 var(--mono);padding:6px 8px;border-radius:3px;white-space:nowrap}
 .tag.high{background:#fbe9ea;color:var(--high)} .tag.cvss{background:#efeeeb;color:var(--ink-2)} .tag.fixed{background:#e5f2ea;color:var(--ok)}
-.sheet h3{font-family:var(--display);font-size:34px;font-weight:400;letter-spacing:-.015em;line-height:1.1;margin-top:var(--s4)}
+.sheet h3{font-family:var(--display);font-size:34px;font-weight:600;letter-spacing:-.015em;line-height:1.1;margin-top:var(--s4)}
 .ep{margin-top:var(--s2);font-size:13px;color:var(--ink-2)}
 .sheet p{font-size:16px;color:var(--ink-2);margin-top:var(--s4)}
 .poc{margin-top:var(--s4);background:#16151a;color:#e9e8ee;border-radius:6px;padding:var(--s4);font:400 13px/1.75 var(--mono);overflow-x:auto}
@@ -145,7 +187,7 @@ nav .right{margin-left:auto;display:flex;gap:28px;align-items:center;font-size:1
 .method .intro p{margin-top:var(--s4);color:var(--ink-2)}
 .idx{margin-top:var(--s8);position:relative;z-index:2;padding:0}
 .idx li{list-style:none;display:grid;grid-template-columns:minmax(0,1fr) 240px;gap:var(--s5);align-items:end;padding:var(--s3) 0;border-bottom:1px solid var(--rule);max-width:760px}
-.idx .w{font-family:var(--display);font-size:clamp(64px,7.4vw,112px);line-height:.95;letter-spacing:-.03em}
+.idx .w{font-family:var(--display);font-weight:600;font-size:clamp(64px,7.4vw,112px);line-height:.95;letter-spacing:-.03em}
 .idx p{color:var(--ink-2);padding-bottom:var(--s4)}
 .idx li:last-child .w{color:var(--red)}
 .method .cap{margin-top:var(--s5)}
@@ -174,7 +216,7 @@ nav .right{margin-left:auto;display:flex;gap:28px;align-items:center;font-size:1
 .questions{margin-top:var(--s8);display:grid;grid-template-columns:repeat(3,1fr);gap:var(--s5)}
 .q{border-top:1px solid var(--rule-cream);padding-top:var(--s4)}
 .q .i{font:500 13px/1 var(--mono);color:var(--cream-3)}
-.q p{margin-top:var(--s3);font-family:var(--display);font-size:28px;line-height:1.15}
+.q p{margin-top:var(--s3);font-family:var(--display);font-weight:500;font-size:28px;line-height:1.15}
 .floors{margin-top:var(--s8);display:grid;grid-template-columns:1fr 1fr;border:1px solid var(--rule-cream);border-radius:var(--r-card);overflow:hidden}
 .floor{padding:var(--s5)} .floor+.floor{border-left:1px solid var(--rule-cream);background:rgba(255,255,255,.03)}
 .floor .who{font-size:14px;color:var(--cream-3)}
@@ -189,7 +231,7 @@ nav .right{margin-left:auto;display:flex;gap:28px;align-items:center;font-size:1
 .facts3 div{display:grid;grid-template-columns:120px 1fr;gap:var(--s5);padding:var(--s5) 0;border-bottom:1px solid var(--rule)}
 .facts3 b{font-weight:500} .facts3 p{color:var(--ink-2)}
 .price{grid-column:1/-1;margin-top:var(--s9);display:grid;grid-template-columns:7fr 5fr;gap:var(--s8);align-items:end;padding-top:var(--s7);border-top:1px solid var(--rule)}
-.price .big{font-family:var(--display);font-size:clamp(120px,15vw,220px);line-height:.85;letter-spacing:-.04em}
+.price .big{font-family:var(--display);font-weight:600;font-size:clamp(120px,15vw,220px);line-height:.85;letter-spacing:-.04em}
 .price .from{font-size:20px;color:var(--ink-2);margin-bottom:var(--s4)}
 .price p{color:var(--ink-2)}
 .price .actions{margin-top:var(--s5)}
@@ -206,7 +248,7 @@ nav .right{margin-left:auto;display:flex;gap:28px;align-items:center;font-size:1
 
 /* ---------- 9 · en garde ---------- */
 .final{background:var(--red);color:var(--cream);overflow:hidden;position:relative}
-.final .huge{font-family:var(--display);font-size:clamp(140px,22vw,330px);line-height:.8;letter-spacing:-.045em;white-space:nowrap;margin-left:-.04em}
+.final .huge{font-family:var(--display);font-weight:600;font-size:clamp(140px,22vw,330px);line-height:.8;letter-spacing:-.045em;white-space:nowrap;margin-left:-.04em}
 .final .row{display:grid;grid-template-columns:1fr 1fr;gap:var(--s8);margin-top:var(--s7);align-items:start}
 .final h2{font-family:"Inter Tight",sans-serif;font-weight:500;font-size:32px;line-height:1.15;letter-spacing:-.02em}
 .final .lede{color:var(--cream-2);font-size:18px}
@@ -227,14 +269,12 @@ footer.site .legal{grid-column:1/-1;margin-top:var(--s6);padding-top:var(--s4);b
   .pad{padding:var(--s9) 0}
   nav{height:68px;gap:16px} nav ul,nav .right a:not(.btn){display:none}
   nav .btn{min-height:44px;padding:0 16px;font-size:15px}
-  .hero{height:auto;padding-bottom:var(--s6)}
-  .hero h1{position:relative;left:auto;right:auto;top:auto;padding:var(--s5) var(--gutter) 0;font-size:21vw;line-height:.86}
-  .hero h1 span:last-child{padding-left:0}
-  .hero .figures{position:relative;left:auto;height:auto;width:92%;margin:var(--s5) 0 0 auto}
-  .hero{padding-bottom:0}
-  .hero .figures{bottom:auto}
-  .hero .foot{position:relative;left:auto;bottom:auto;width:auto;padding:var(--s5) var(--gutter) var(--s7)}
-  .hero .piste{position:relative;height:auto}
+  .hero .head{grid-template-columns:1fr;gap:var(--s5);padding-top:var(--s5)}
+  .hero h1{font-size:17vw}
+  .scene-clip{margin-top:var(--s5);aspect-ratio:auto;height:118vw}
+  .scene{width:210vw;left:-74vw}
+  .app{font-size:11px}
+  .app .body{grid-template-columns:1fr} .app .rail{display:none}
   .hero .piste .in{flex-direction:column;align-items:flex-start;padding:var(--s5) var(--gutter)}
   .hero .logos{flex-wrap:wrap;gap:22px}
   .film .wrap,.report .wrap,.europe .wrap,.faq .wrap,.hortense .top,.touche .wrap,.final .row,.price{grid-template-columns:1fr;gap:var(--s7)}
@@ -281,14 +321,44 @@ footer.site .legal{grid-column:1/-1;margin-top:var(--s6);padding-top:var(--s4);b
     </ul>
     <div class="right"><a href="#">Sign in</a><a class="btn btn-cream" href="#book">Book a demo</a></div>
   </nav>
-  <h1><span>Find, prove</span><span>and fix.</span></h1>
-  <div class="figures" role="img" aria-label="Hortense, in a dark cape beside a brass telescope, points ahead. Émile stands back to back with her, at the salute."></div>
-  <div class="foot">
-    <p class="lede">Émile runs human-grade pentests on your applications, APIs and infrastructure, with a replayable exploit behind every finding. Built and hosted in Europe.</p>
-    <div class="actions"><a class="btn btn-cream" href="#book">Book a demo&nbsp;&nbsp;→</a><a class="link" href="#film">Watch the launch film</a></div>
+  <div class="head">
+    <h1>Find, prove<br>and fix.</h1>
+    <div>
+      <p class="lede">Émile runs human-grade pentests on your applications, APIs and infrastructure, with a replayable exploit behind every finding. Built and hosted in Europe.</p>
+      <div class="actions"><a class="btn btn-cream" href="#book">Book a demo&nbsp;&nbsp;→</a><a class="link" href="#film">Watch the launch film</a></div>
+    </div>
   </div>
+  <div class="scene-clip"><div class="scene">
+    <div class="back" aria-hidden="true"></div>
+    <div class="app" aria-label="The Fleuret workspace during an illustrative run">
+      <div class="bar"><i></i><i></i><i></i><span>app.fleuret.ai / engagements / northwind-health</span></div>
+      <div class="body">
+        <div class="rail" aria-hidden="true"><span>Engagements</span><b>Findings</b><span>Hortense</span><span>Re-tests</span><span>Reports</span></div>
+        <main>
+          <div class="top"><h4>northwind-health.eu</h4><span class="run"><i></i>Émile · T+04:12</span></div>
+          <div class="sub">3 subdomains · 47 routes · 12 API endpoints · scope signed</div>
+          <div class="kpis">
+            <div><b><i class="lit"></i>3</b><span>Touché, exploit replayed</span></div>
+            <div><b><i></i>11</b><span>Leads dropped</span></div>
+            <div><b><i></i>0</b><span>Reported without proof</span></div>
+          </div>
+          <table>
+            <thead><tr><th>ID</th><th>Finding</th><th>Severity</th><th>Status</th></tr></thead>
+            <tbody>
+              <tr><td class="mono">F-002</td><td class="t">Cross-tenant IDOR on invoices</td><td><span class="sev h">HIGH 8.2</span></td><td><span class="st ok"><i></i>touché</span></td></tr>
+              <tr><td class="mono">F-003</td><td class="t">JWT tenant claim not checked on /export</td><td><span class="sev h">HIGH</span></td><td><span class="st ok"><i></i>touché</span></td></tr>
+              <tr><td class="mono">F-005</td><td class="t">Password reset token reusable</td><td><span class="sev m">MED</span></td><td><span class="st ok"><i></i>touché</span></td></tr>
+              <tr><td class="mono">L-014</td><td class="t">SQL injection on /search</td><td><span class="sev l">—</span></td><td><span class="st no"><i></i>no proof</span></td></tr>
+              <tr><td class="mono">L-019</td><td class="t">Open redirect on /logout</td><td><span class="sev l">—</span></td><td><span class="st no"><i></i>no proof</span></td></tr>
+            </tbody>
+          </table>
+        </main>
+      </div>
+    </div>
+    <div class="front" role="img" aria-label="Hortense, in a dark cape beside a brass telescope, points at the findings. Émile stands back to back with her, at the salute."></div>
+  </div></div>
   <div class="piste"><div class="in">
-    <p class="plate cap"><b>Plate I.</b> Hortense, your offensive security brain, and Émile, the pentester. Émile is named after Émile Coste, Olympic foil champion, Paris 1900.</p>
+    <p class="plate cap"><b>Plate I.</b> Hortense, your offensive security brain, points. Émile, the pentester, salutes. Named after Émile Coste, Olympic foil champion, Paris 1900. Illustrative run on a fictional target.</p>
     <div class="logos"><span>Trusted by</span>{{stoik}}{{brevo}}<img class="yog" src="assets/yogosha-CKA7FSg7.png" alt="Yogosha"></div>
   </div></div>
 </header>
