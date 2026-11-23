@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Fleuret · A · Atelier</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@300;400;500&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --canvas:#5f5f5d;      /* the studio backdrop of the photograph */
+    --canvas-deep:#3f3f3e;
+    --ink:#f3f2ee;
+    --ink-2:rgba(243,242,238,.72);
+    --ink-3:rgba(243,242,238,.5);
+    --rule:rgba(243,242,238,.18);
+    --accent:#8e2436;      /* oxblood, the only colour */
+  }
+  *{box-sizing:border-box;margin:0}
+  html,body{background:var(--canvas);color:var(--ink)}
+  body{font:400 16px/1.5 "Inter Tight",system-ui,sans-serif;-webkit-font-smoothing:antialiased}
+  a{color:inherit;text-decoration:none}
+
+  .stage{position:relative;min-height:100vh;overflow:hidden;
+    background:radial-gradient(120% 90% at 68% 45%, #7a7a78 0%, var(--canvas) 45%, var(--canvas-deep) 100%)}
+  .photo{position:absolute;right:-2%;top:0;height:100%;width:74%;
+    background:url(../assets/paire-duo-salut-1-DWqbgipL.webp) 40% 60%/cover no-repeat;
+    -webkit-mask-image:linear-gradient(90deg,transparent 0,#000 30%,#000 92%,transparent 100%),linear-gradient(#000 80%,transparent);
+    -webkit-mask-composite:source-in;
+            mask-image:linear-gradient(90deg,transparent 0,#000 30%,#000 92%,transparent 100%),linear-gradient(#000 80%,transparent);
+            mask-composite:intersect;
+    filter:contrast(1.04)}
+
+  nav{position:relative;z-index:2;display:flex;align-items:center;gap:40px;padding:28px 48px}
+  .wm{height:24px;width:auto}
+  .wm path{fill:var(--ink)!important}
+  nav ul{display:flex;gap:28px;list-style:none;padding:0;font-size:14px;color:var(--ink-2)}
+  nav .right{margin-left:auto;display:flex;gap:24px;align-items:center;font-size:14px}
+  .btn{display:inline-flex;align-items:center;gap:10px;height:44px;padding:0 20px;border-radius:2px;font-weight:500;font-size:15px}
+  .btn-primary{background:var(--accent);color:#fff}
+  .btn-ghost{color:var(--ink);border-bottom:1px solid var(--ink-3);border-radius:0;padding:0;height:auto}
+
+  .copy{position:relative;z-index:2;padding:12vh 48px 0;max-width:620px}
+  .kicker{font:500 12px/1 "IBM Plex Mono",monospace;letter-spacing:.12em;text-transform:uppercase;color:var(--ink-3);margin-bottom:28px}
+  h1{font-weight:300;font-size:88px;line-height:.98;letter-spacing:-.035em}
+  .lede{margin-top:28px;font-size:19px;line-height:1.55;color:var(--ink-2);max-width:480px}
+  .actions{display:flex;gap:28px;align-items:center;margin-top:36px}
+
+  /* the archive plate caption: the photograph is captioned like a museum print */
+  .plate{position:absolute;z-index:2;left:48px;right:48px;bottom:28px;display:grid;grid-template-columns:1fr auto;gap:24px;align-items:end;
+    border-top:1px solid var(--rule);padding-top:16px}
+  .plate p{font:400 12px/1.6 "IBM Plex Mono",monospace;letter-spacing:.04em;color:var(--ink-3)}
+  .plate b{color:var(--ink-2);font-weight:500}
+  .logos{display:flex;gap:36px;align-items:center}
+  .logos span{font:500 11px/1 "IBM Plex Mono",monospace;letter-spacing:.12em;text-transform:uppercase;color:var(--ink-3)}
+  .lg{height:18px;width:auto}
+  .lg path{fill:var(--ink-2)!important}
+  .lg-brevo{height:20px}
+  .yog{height:20px;filter:grayscale(1) brightness(3);opacity:.75}
+
+  @media (max-width:760px){
+    nav{padding:18px 16px;gap:16px} nav ul{display:none} nav .right a:not(.btn){display:none}
+    .btn{height:40px;padding:0 14px;font-size:14px}
+    .stage{min-height:auto}
+    .photo{position:relative;right:auto;width:100%;height:62vw;margin-top:4px;
+      -webkit-mask-image:linear-gradient(#000 70%,transparent);mask-image:linear-gradient(#000 70%,transparent);background-position:50% 55%}
+    .copy{padding:8px 16px 0}
+    h1{font-size:52px}
+    .lede{font-size:17px}
+    .actions{flex-wrap:wrap;gap:20px}
+    .plate{position:relative;left:auto;right:auto;bottom:auto;margin:48px 16px 24px;grid-template-columns:1fr}
+    .logos{flex-wrap:wrap;gap:22px}
+  }
+</style>
+</head>
+<body>
+<main class="stage">
+  <nav>
+    <a href="#" aria-label="Fleuret">{{wordmark}}</a>
+    <ul><li>Émile</li><li>Hortense</li><li>Pricing</li><li>Resources</li><li>Company</li></ul>
+    <div class="right"><a href="#">Sign in</a><a class="btn btn-primary" href="#">Book a demo</a></div>
+  </nav>
+  <div class="photo" role="img" aria-label="Hortense, in a dark cape beside a brass telescope, points ahead. Émile stands back to back with her, at the salute, foil raised."></div>
+  <section class="copy">
+    <p class="kicker">AI pentesting · built and hosted in Europe</p>
+    <h1>Find, prove<br>and fix.</h1>
+    <p class="lede">Émile runs human-grade pentests on your applications, APIs and infrastructure, with a replayable exploit behind every finding. Hortense tells you what to test next, and when.</p>
+    <div class="actions">
+      <a class="btn btn-primary" href="#">Book a demo&nbsp;&nbsp;→</a>
+      <a class="btn btn-ghost" href="#">Watch Émile work a full engagement</a>
+    </div>
+  </section>
+  <footer class="plate">
+    <p><b>Pl. I.</b> Hortense, your offensive security brain, and Émile, the pentester, at the salute.<br>Émile is named after Émile Coste, Olympic foil champion, Paris 1900.</p>
+    <div class="logos"><span>Trusted by</span>{{stoik}}{{brevo}}<img class="yog" src="../assets/yogosha-CKA7FSg7.png" alt="Yogosha"></div>
+  </footer>
+</main>
+</body>
+</html>
