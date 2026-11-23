@@ -41,7 +41,7 @@ h1, h2, .wordmark, .foot-mark {
 }
 
 .btn {
-  display: inline-flex; align-items: center; justify-content: center; height: 38px; padding: 0 16px;
+  display: inline-flex; align-items: center; justify-content: center; gap: 6px; height: 38px; padding: 0 16px;
   border-radius: var(--r); font-size: 13px; font-weight: 600; font-stretch: 112%; letter-spacing: 0.01em; white-space: nowrap;
   transition: background 140ms var(--ease), color 140ms var(--ease), transform 140ms var(--ease);
 }
@@ -501,3 +501,60 @@ main { counter-reset: sec; }
 .demo.fix-cards .d-card strong { font-size: 14px; font-weight: 500; }
 .d-btn { white-space: nowrap; }
 .demo.fix-buttons .d-btn.d-nav-cta { background: transparent; color: inherit; box-shadow: none; height: auto; padding: 0; font-size: 12.5px; font-weight: 600; }
+
+/* =================== v8: construction grid background (after Sanity's visible layout grid and Vercel's crosshairs) =================== */
+html, body { overflow-x: clip; }
+body { background: #fff; }
+.bg-grid { position: fixed; inset: 0; z-index: -1; pointer-events: none; }
+.bg-fine, .bg-spot {
+  position: absolute; inset: 0;
+  background-image:
+    linear-gradient(to right, rgb(14 14 14 / var(--a)) 1px, transparent 1px),
+    linear-gradient(to bottom, rgb(14 14 14 / var(--a)) 1px, transparent 1px);
+  background-size: 24px 24px;
+  background-position: calc(50% + 12px) 0;
+}
+.bg-fine { --a: 0.035; }
+.bg-spot {
+  --a: 0.11; opacity: 0; transition: opacity 300ms var(--ease);
+  -webkit-mask-image: radial-gradient(280px circle at var(--mx, -999px) var(--my, -999px), #000 0%, rgb(0 0 0 / 0.5) 45%, transparent 75%);
+          mask-image: radial-gradient(280px circle at var(--mx, -999px) var(--my, -999px), #000 0%, rgb(0 0 0 / 0.5) 45%, transparent 75%);
+}
+.bg-spot.on { opacity: 1; }
+.bg-coord {
+  position: fixed; left: 0; top: 0; z-index: 30; pointer-events: none; opacity: 0;
+  transform: translate(calc(var(--mx, 0px) + 14px), calc(var(--my, 0px) + 14px));
+  font-size: 9.5px; font-weight: 600; font-stretch: 125%; letter-spacing: 0.03em; color: var(--red); white-space: nowrap;
+  transition: opacity 200ms var(--ease);
+}
+.bg-coord.on { opacity: 1; }
+
+/* rails at the content edges, full-bleed rules at each section, crosshairs where they meet */
+.measured, .numbers, .index, .method, .review, .install, .foot {
+  position: relative; border-left: 1px solid rgb(14 14 14 / 0.12); border-right: 1px solid rgb(14 14 14 / 0.12);
+}
+.measured::before, .numbers::before, .index::before, .method::before, .review::before, .install::before, .foot::before {
+  content: ""; position: absolute; top: 0; left: 50%; width: 100vw; height: 1px; transform: translateX(-50%);
+  background: rgb(14 14 14 / 0.12);
+}
+.measured::after, .numbers::after, .index::after, .method::after, .review::after, .install::after, .foot::after {
+  content: ""; position: absolute; top: -7px; left: -8px; right: -8px; height: 15px; pointer-events: none;
+  background:
+    linear-gradient(var(--ink), var(--ink)) left 0 top 7px / 15px 1px no-repeat,
+    linear-gradient(var(--ink), var(--ink)) left 7px top 0 / 1px 15px no-repeat,
+    linear-gradient(var(--ink), var(--ink)) right 0 top 7px / 15px 1px no-repeat,
+    linear-gradient(var(--ink), var(--ink)) right 7px top 0 / 1px 15px no-repeat;
+}
+/* small section coordinates on the left rail */
+.measured > :first-child::before, .numbers > .head::after, .index > .head::after, .method > .head::after, .review > .head::after { content: none; }
+.install { padding-bottom: 120px; }
+.foot { margin-top: 0; }
+/* surfaces sit on the grid: give them a solid fill so the lines stop at their edges */
+.head h2, .head-lede, .lede { position: relative; }
+.stats .stat, .line, .row a, .filters, .fix-list, .all-checks { background: rgb(255 255 255 / 0.72); }
+
+@media (hover: none), (max-width: 720px) {
+  .bg-spot, .bg-coord { display: none; }
+  .measured, .numbers, .index, .method, .review, .install, .foot { border-left: 0; border-right: 0; }
+  .measured::after, .numbers::after, .index::after, .method::after, .review::after, .install::after, .foot::after { left: 8px; right: 8px; }
+}

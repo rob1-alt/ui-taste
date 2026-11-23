@@ -365,6 +365,25 @@
   let rt; addEventListener("resize", () => { clearTimeout(rt); rt = setTimeout(() => { drawRuler(); measure(); }, 120); });
   new MutationObserver(() => document.body.classList.contains("measuring") && measure()).observe($("#rows"), { childList: true });
 
+  // ---- background: the fine grid brightens around the pointer, with page coordinates ----
+  const spot = $("#bg-spot"), coord = $("#bg-coord");
+  if (matchMedia("(hover: hover)").matches && spot) {
+    let mx = 0, my = 0, raf = 0;
+    const paint = () => {
+      raf = 0;
+      document.documentElement.style.setProperty("--mx", mx + "px");
+      document.documentElement.style.setProperty("--my", my + "px");
+      coord.textContent = `x ${Math.round(mx)} · y ${Math.round(my + scrollY)}`;
+    };
+    addEventListener("pointermove", (e) => {
+      mx = e.clientX; my = e.clientY;
+      const dark = e.target.closest(".hero, .masthead, .install-card, .demo-frame, .sheet, .stage");
+      spot.classList.toggle("on", !dark); coord.classList.toggle("on", !dark);
+      if (!raf) raf = requestAnimationFrame(paint);
+    }, { passive: true });
+    document.addEventListener("pointerleave", () => { spot.classList.remove("on"); coord.classList.remove("on"); });
+  }
+
   // ---- copy ----
   let tt;
   const toast = (m) => { const t = $("#toast"); t.textContent = m; t.classList.add("show"); clearTimeout(tt); tt = setTimeout(() => t.classList.remove("show"), 1400); };
