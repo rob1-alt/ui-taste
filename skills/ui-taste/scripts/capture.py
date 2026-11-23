@@ -49,6 +49,7 @@ REFUSE_LABELS = [
     "Only necessary", "Necessary only", "Reject", "Deny", "Tout refuser",
     "Refuser", "Continuer sans accepter", "Opt out of all", "Reject non-essential",
     "Accept only essential", "Essential only", "Only essential cookies", "Reject all cookies",
+    "Rejeter tout", "Reject All, Except Strictly Necessary", "Accept All Except Strictly Necessary",
 ]
 HIDE_CSS = """
 [id*="cookie" i], [class*="cookie" i], [id*="consent" i], [class*="consent" i],

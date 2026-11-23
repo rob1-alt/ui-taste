@@ -43,11 +43,11 @@ Claude then opens the screenshot with its Read tool and looks at it before decid
 
 | Page type | Screens | Sites |
 |---|---|---|
-| landing | 121 | Alan, Amie, Anthropic, Apple, Are.na, Astro, Attio, Bezi, Browserbase, Bun, Cal.com, Clay, CleanShot, Clerk, Convex, Craft, Cursor, Daylight, Delphi, Deno, Descript, Dia, Discord, Dub, Duolingo, ElevenLabs, Expo, Factory, fal, Family, Figma, Fly.io, folk, Framer, Ghostty, GitHub, Glossier, Granola, Gumroad, Harvey, Headspace, Heptabase, Hex, Hugging Face, Ideogram, Inngest, Intercom, Jitter, Linear, Liveblocks, Loops, Luma AI, Mailchimp, Mercury, Mintlify, Miro, Mistral AI, Mobbin, Modal, Monzo, mymind, n8n, Neon, Notion, Oatly, Oura, Paddle, Pennylane, Perplexity, Phantom, Pitch, Plain, PlanetScale, Polar, PostHog, Prisma, Qonto, Railway, Ramp, Raycast, Reflect, Replicate, Resend, Retool, Rive, Rows, Runway, Sanity, SavvyCal, Screen Studio, Shopify, Sierra, Soundtrap, Spline, Spotify, Steel, Stripe, Suno, Supabase, Superhuman, Svelte, Tana, Teenage Engineering, Tella, Temporal, Things, Tinybird, Trigger.dev, Twenty, Typefully, Upstash, v0, Vectary, Vercel, Warp, Webflow, Weekrise, Whimsical, Wise, WorkOS, Zed |
-| pricing | 19 | Attio, Cal.com, Clerk, Cursor, Dub, Figma, Framer, Linear, Loops, n8n, Notion, PostHog, Railway, Raycast, Resend, Vercel, Warp, Webflow, Zed |
+| landing | 166 | 1Password, Affinity, Airtable, Alan, Amie, Anthropic, Apple, Are.na, Asana, Astro, Attio, Axiom, Basecamp, beehiiv, Bezi, Bolt, Brex, Browserbase, Bun, Cal.com, Capacities, Cash App, Clay, CleanShot, Clerk, Coda, Cognition, Convex, Cosmos, Craft, Cursor, Daylight, Decagon, Delphi, Deno, Descript, Devin, Dia, Discord, Dub, Duolingo, ElevenLabs, Expo, Factory, fal, Family, Fathom, Figma, Fly.io, folk, Frame.io, Framer, Ghost, Ghostty, GitHub, Glossier, Granola, Gumroad, Harvey, Headspace, Heptabase, Hex, HEY, Hugging Face, Ideogram, Inngest, Intercom, Jitter, Kagi, Lindy, Linear, Liveblocks, Loom, Loops, Luma AI, Mailchimp, Mercury, Mintlify, Miro, Mistral AI, Mobbin, Modal, Monzo, mymind, N26, n8n, Neon, Netlify, Notion, Oatly, Obsidian, Oura, Paddle, Panic, Partiful, Pennylane, Penpot, Pentagram, Perplexity, Phantom, Pika, Pitch, Plain, PlanetScale, Plausible, Playdate, Polar, PostHog, Prisma, Procreate, Proton, Qonto, Railway, Rainbow, Ramp, Raycast, Readwise Reader, Reflect, Render, Replicate, Resend, Retool, Rive, Rows, Runway, Sanity, SavvyCal, Screen Studio, Sentry, Shopify, Sierra, Sketch, Slack, Soundtrap, Spline, Spotify, Steel, Stripe, Stripe Press, Suno, Sunsama, Supabase, Superhuman, Svelte, Tailscale, Tana, Teenage Engineering, Tella, Temporal, Things, Tinybird, Trigger.dev, Turso, Twenty, Typefully, Upstash, v0, Vectary, Vercel, Warp, Webflow, Weekrise, Whimsical, Wise, WorkOS, Zed |
+| pricing | 27 | Attio, Cal.com, Clerk, Cursor, Dub, Figma, Framer, Ghost, Kagi, Linear, Loops, n8n, Netlify, Notion, Obsidian, PostHog, Railway, Raycast, Render, Resend, Sentry, Stripe, Tailscale, Vercel, Warp, Webflow, Zed |
 | design system | 29 | Adobe Spectrum, Apple HIG, Atlassian Design System, Base UI, Duolingo Design, GitHub Primer, GitLab Pajamas, GOV.UK Design System, IBM Carbon, Material 3, Microsoft Fluent 2, Radix, React Aria, shadcn/ui, Shopify Polaris, Uber Base, Untitled UI, Vercel Geist, Wise Design |
 | 404 page | 6 | GitHub, Oura, Polar, Raycast, Resend, Stripe |
-| about | 4 | Linear, Notion, PostHog, Stripe |
+| about | 5 | Linear (about + Method), Notion, PostHog, Stripe |
 | careers | 6 | Linear, Ramp, Raycast, Resend, Stripe, Vercel |
 | contact | 4 | Attio, Linear, Stripe, Vercel |
 | integrations | 6 | Attio, Cal.com, Linear, n8n, Raycast, Vercel |
@@ -60,7 +60,7 @@ Claude then opens the screenshot with its Read tool and looks at it before decid
 | customers | 2 | Linear, Vercel |
 | blog | 2 | Linear, Vercel |
 
-**219 pages from 141 sites and design systems, each captured on desktop and mobile (438 screenshots).**
+**273 pages from 186 sites and design systems, each captured on desktop and mobile (546 screenshots).**
 
 Every screen is captured at 1440px (desktop, first 3600px) and 390px (mobile), with cookie banners refused and chat widgets hidden. Tokens are read from the browser's computed styles: fonts, h1/h2/h3/body sizes, line heights and tracking, background, surface and text colours by area covered, button fill, radius, height and padding, and content width.
 
@@ -75,6 +75,8 @@ Every screen is captured at 1440px (desktop, first 3600px) and 390px (mobile), w
 ![landing pages 4](docs/landing-4.jpg)
 
 ![landing pages 5](docs/landing-5.jpg)
+
+![landing pages 6](docs/landing-6.jpg)
 
 ### Mobile
 
