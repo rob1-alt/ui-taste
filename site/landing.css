@@ -52,6 +52,10 @@ h1, h2, .wordmark, .foot-mark {
 .btn-line { box-shadow: inset 0 0 0 1.5px var(--ink); }
 .btn-line:hover { background: var(--ink); color: #fff; }
 
+/* the taster logo, painted in currentColor through a mask so it follows the theme */
+.logo { display: inline-block; width: 98px; height: 26px; background: currentColor; -webkit-mask: url("brand/taster-logo-mask.svg") center / contain no-repeat; mask: url("brand/taster-logo-mask.svg") center / contain no-repeat; vertical-align: middle; }
+.logo-xl { width: 100%; height: auto; aspect-ratio: 392 / 104; display: block; }
+
 /* ---------- masthead ---------- */
 .masthead { position: sticky; top: 0; z-index: 20; background: #0e0e0e; color: #fff; }
 .masthead-inner { max-width: none; margin: 0 auto; padding: 0 24px; height: 56px; display: grid; grid-template-columns: 1fr auto 1fr; align-items: center; gap: 24px; }
@@ -228,7 +232,7 @@ section { padding-top: 120px; }
 
 /* ---------- footer ---------- */
 .foot { max-width: var(--wrap); margin: 0 auto; padding: 120px 24px 40px; display: grid; grid-template-columns: minmax(0, 5fr) minmax(0, 7fr); gap: 56px; align-items: end; }
-.foot-mark { margin: 0; font-size: clamp(96px, 14vw, 220px); line-height: 0.8; }
+.foot-mark { margin: 0; }
 .foot dl { margin: 0; display: grid; gap: 8px; font-size: 13px; }
 .foot div { display: grid; grid-template-columns: 80px 1fr; gap: 16px; }
 .foot dt { color: var(--muted); font-size: 10.5px; font-weight: 600; text-transform: uppercase; padding-top: 2px; }
