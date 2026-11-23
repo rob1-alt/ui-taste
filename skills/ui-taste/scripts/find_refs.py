@@ -27,6 +27,7 @@ INDEX = LIBRARY / "index.json"
 # Words people use for a page type, mapped to the library's types.
 SYNONYMS = {
     "landing": ["landing", "home", "homepage", "hero", "marketing", "above the fold", "website", "site"],
+
     "pricing": ["pricing", "price", "plans", "plan", "tiers", "billing", "checkout", "upgrade"],
     "changelog": ["changelog", "release notes", "releases", "updates", "what's new", "whats new"],
     "docs": ["docs", "documentation", "api reference", "guide", "developer", "reference", "sidebar"],
@@ -60,7 +61,9 @@ def tokens(text: str) -> list[str]:
 def haystack(item: dict) -> str:
     t = item.get("tokens", {}) or {}
     parts = [
-        item["site"], item["type"], " ".join(item.get("tags", [])), item.get("note", ""),
+        item["site"], item["type"], " ".join(item.get("tags", [])),
+        " ".join(item.get("tags", [])).replace("-", " "),  # "bg-painting" also matches "painting background"
+        item.get("note", ""),
         t.get("title", ""), " ".join(t.get("fonts", []) or []),
         " ".join(SYNONYMS.get(item["type"], [])),
     ]
@@ -76,7 +79,7 @@ def score(item: dict, query: str) -> float:
     if item["site"].lower() in q:
         s += 5
     for tag in item.get("tags", []):
-        plain = tag.removeprefix("ds-").replace("-", " ")
+        plain = tag.removeprefix("ds-").removeprefix("bg-").replace("-", " ")
         if plain in q or tag in q or (plain.endswith("s") and plain[:-1] in q):
             s += 6
     hay = haystack(item)

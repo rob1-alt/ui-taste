@@ -55,8 +55,8 @@ sup.c{display:inline-grid;place-items:center;min-width:20px;height:20px;padding:
 
 /* ---------- 0 · hero: ask the project ---------- */
 .hero{position:relative;background:var(--night);color:#fff;overflow:hidden}
-.hero .ph{position:absolute;right:0;top:0;bottom:0;width:50%;background:url(assets/tertiaire.webp) 50% 50%/cover;opacity:.55;
-  -webkit-mask-image:linear-gradient(90deg,transparent,#000 45%);mask-image:linear-gradient(90deg,transparent,#000 45%)}
+.hero .ph{position:absolute;right:0;top:0;bottom:0;width:62%;background:url(assets/tertiaire-duo.webp) 40% 50%/cover;
+  -webkit-mask-image:linear-gradient(90deg,transparent 0,#000 38%);mask-image:linear-gradient(90deg,transparent 0,#000 38%)}
 nav{position:relative;z-index:3;display:flex;align-items:center;gap:32px;height:84px;padding:0 var(--gutter);max-width:1440px;margin:0 auto;font-weight:500;font-size:15px;color:var(--on-dark-2)}
 nav .logo{width:46px;height:46px}
 nav ul{display:flex;gap:28px;list-style:none;padding:0}
@@ -93,6 +93,7 @@ nav .lang{font:500 13px/1 var(--mono)}
 .trust img{height:30px;width:auto}
 
 /* ---------- 1 · five questions nobody's tool answers ---------- */
+.questions{background:var(--paper);background-image:linear-gradient(rgba(51,64,112,.05) 1px,transparent 1px),linear-gradient(90deg,rgba(51,64,112,.05) 1px,transparent 1px),linear-gradient(rgba(51,64,112,.025) 1px,transparent 1px),linear-gradient(90deg,rgba(51,64,112,.025) 1px,transparent 1px);background-size:100px 100px,100px 100px,20px 20px,20px 20px}
 .questions h2{max-width:860px}
 .questions .lede{margin-top:var(--s5);max-width:680px;color:var(--ink-2)}
 .qa{margin-top:var(--s8);display:grid;gap:var(--s4)}
@@ -129,13 +130,14 @@ nav .lang{font:500 13px/1 var(--mono)}
 .legend i{display:inline-block;width:12px;height:12px;border-radius:3px;vertical-align:-2px;margin-right:6px}
 
 /* ---------- 3 · the memory: disciplines crossed ---------- */
-.memory{background:var(--navy-d);color:#fff}
+.memory{position:relative;background:var(--navy-d) url(assets/infra-duo.webp) 70% 50%/cover;color:#fff;isolation:isolate}
+.memory::before{content:"";position:absolute;inset:0;z-index:-1;background:linear-gradient(90deg,rgba(21,26,51,.94) 0,rgba(21,26,51,.85) 42%,rgba(21,26,51,.35) 100%)}
 .memory .wrap{display:grid;grid-template-columns:5fr 7fr;gap:var(--s9);align-items:center}
 .memory .lede{margin-top:var(--s5);color:var(--on-dark-2)}
 .disc{display:flex;flex-wrap:wrap;gap:10px;margin-top:var(--s6)}
 .disc button{font:inherit;font-size:15px;font-weight:700;color:var(--on-dark-2);background:transparent;border:1px solid var(--line-dark);border-radius:999px;padding:8px 14px;cursor:pointer}
 .disc button[aria-pressed="true"]{background:var(--peach);color:var(--navy-d);border-color:var(--peach)}
-.cross{background:var(--night-2);border:1px solid var(--line-dark);border-radius:20px;padding:var(--s6)}
+.cross{background:rgba(21,26,51,.86);backdrop-filter:blur(6px);border:1px solid var(--line-dark);border-radius:20px;padding:var(--s6)}
 .cross .k{color:var(--peach)}
 .cross h3{margin-top:var(--s3);font-size:30px}
 .cross > p{margin-top:var(--s3);color:var(--on-dark-2)}
@@ -176,7 +178,8 @@ nav .lang{font:500 13px/1 var(--mono)}
 .three a{margin-top:var(--s5);align-self:flex-start}
 
 /* ---------- 7 · sovereignty ---------- */
-.sov{background:var(--night);color:#fff}
+.sov{position:relative;background:var(--night) url(assets/indus-duo.webp) 50% 60%/cover;color:#fff;isolation:isolate}
+.sov::before{content:"";position:absolute;inset:0;z-index:-1;background:linear-gradient(rgba(21,26,51,.9),rgba(21,26,51,.78))}
 .sov .wrap{display:grid;grid-template-columns:5fr 7fr;gap:var(--s9)}
 .sov .lede{margin-top:var(--s5);color:var(--on-dark-2)}
 .facts{border-top:1px solid var(--line-dark)}
@@ -201,7 +204,8 @@ nav .lang{font:500 13px/1 var(--mono)}
 .faq details p{padding:0 0 var(--s5);color:var(--ink-2);max-width:640px}
 
 /* ---------- 10 · contact ---------- */
-.final{background:var(--peach);color:var(--navy-d)}
+.final{position:relative;background:var(--peach);color:var(--navy-d);overflow:hidden;isolation:isolate}
+.final::after{content:"";position:absolute;right:-4%;top:0;bottom:0;width:46%;z-index:-1;background:url(assets/tertiaire-duo.webp) 30% 50%/cover;mix-blend-mode:multiply;opacity:.4;-webkit-mask-image:linear-gradient(90deg,transparent,#000 55%);mask-image:linear-gradient(90deg,transparent,#000 55%)}
 .final .wrap{display:grid;grid-template-columns:7fr 5fr;gap:var(--s8);align-items:end}
 .final h2{font-size:72px}
 .final .lede{color:var(--navy)}
@@ -221,7 +225,7 @@ footer.site .legal{grid-column:1/-1;margin-top:var(--s6);padding-top:var(--s4);b
   .pad{padding:var(--s9) 0}
   nav{height:68px;gap:14px} nav ul,nav .lang{display:none}
   nav .btn{min-height:44px;padding:0 16px;font-size:15px}
-  .hero .ph{width:100%;opacity:.25;-webkit-mask-image:linear-gradient(#000,transparent 70%);mask-image:linear-gradient(#000,transparent 70%)}
+  .hero .ph{width:100%;opacity:.45;-webkit-mask-image:linear-gradient(#000,transparent 70%);mask-image:linear-gradient(#000,transparent 70%)}
   .hero .wrap{padding-top:var(--s6);padding-bottom:var(--s8)}
   .hero h1{font-size:44px}
   .ask .a{grid-template-columns:1fr}
@@ -244,6 +248,9 @@ footer.site .legal{grid-column:1/-1;margin-top:var(--s6);padding-top:var(--s4);b
 @media (max-width:560px){
   .sectors .grid{grid-template-columns:1fr}
   .faq summary{font-size:18px}
+  .memory{background-position:60% 50%}
+  .memory::before{background:rgba(21,26,51,.86)}
+  .final::after{width:100%;opacity:.25}
   footer.site .wrap{grid-template-columns:1fr 1fr}
   footer.site .claim{grid-column:1/-1}
 }

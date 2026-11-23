@@ -168,6 +168,12 @@ nav .right{margin-left:auto;display:flex;gap:28px;align-items:center;font-size:1
 @media (prefers-reduced-motion:no-preference){
   @keyframes lamp{0%,100%{box-shadow:0 0 0 14px rgba(43,212,106,.12),0 0 0 32px rgba(43,212,106,.06),0 0 90px rgba(43,212,106,.55)}50%{box-shadow:0 0 0 18px rgba(43,212,106,.16),0 0 0 40px rgba(43,212,106,.07),0 0 120px rgba(43,212,106,.7)}}
 }
+.piste-lines{position:relative;height:64px;margin-top:-8px;border-top:2px solid rgba(246,241,234,.5);border-bottom:2px solid rgba(246,241,234,.5);max-width:1440px;margin-left:auto;margin-right:auto;
+  background:linear-gradient(90deg,transparent calc(50% - 1px),rgba(246,241,234,.6) calc(50% - 1px) calc(50% + 1px),transparent calc(50% + 1px)),
+  linear-gradient(90deg,transparent calc(36% - 1px),rgba(246,241,234,.45) calc(36% - 1px) calc(36% + 1px),transparent calc(36% + 1px)),
+  linear-gradient(90deg,transparent calc(64% - 1px),rgba(246,241,234,.45) calc(64% - 1px) calc(64% + 1px),transparent calc(64% + 1px)),
+  linear-gradient(90deg,rgba(122,26,40,.5) 0 7%,transparent 7% 93%,rgba(122,26,40,.5) 93%)}
+.piste-lines span{position:absolute;bottom:-22px;transform:translateX(-50%);font:400 11px/1 var(--mono);color:var(--cream-3);white-space:nowrap}
 .touche .wrap{display:grid;grid-template-columns:6fr 6fr;gap:var(--s8);margin-top:var(--s8);align-items:start}
 .touche h2{font-size:48px}
 .touche .lede{color:var(--cream-2)}
@@ -205,7 +211,7 @@ nav .right{margin-left:auto;display:flex;gap:28px;align-items:center;font-size:1
 .lamp-mini i{width:14px;height:14px;border-radius:50%;background:var(--touch);box-shadow:0 0 12px rgba(43,212,106,.6)}
 
 /* ---------- 4 · the method as an index of three words ---------- */
-.method{background:var(--paper-2);overflow:hidden;position:relative}
+.method{background:#e9e5df url(assets/wall-paper.webp) 50% 50%/cover;overflow:hidden;position:relative}
 .method .wink{position:absolute;right:2%;bottom:0;height:84%;aspect-ratio:610/944;background:url(assets/wink-cut.webp) 50% 100%/contain no-repeat}
 .method .intro{max-width:520px}
 .method .intro p{margin-top:var(--s4);color:var(--ink-2)}
@@ -249,6 +255,9 @@ nav .right{margin-left:auto;display:flex;gap:28px;align-items:center;font-size:1
 .hortense .note{margin-top:var(--s5);color:var(--cream-2);display:flex;gap:var(--s6);align-items:center;flex-wrap:wrap}
 
 /* ---------- 7 · Europe and price ---------- */
+.europe{background:var(--red) url(assets/wall-red.webp) 50% 50%/cover;color:var(--cream)}
+.europe .lede,.europe .facts3 p,.europe .price p,.europe .price .from{color:var(--cream-2)!important}
+.europe .facts3,.europe .facts3 div,.europe .price{border-color:var(--rule-cream)!important}
 .europe .wrap{display:grid;grid-template-columns:5fr 7fr;gap:var(--s9)}
 .europe .lede{margin-top:var(--s5);color:var(--ink-2)}
 .facts3{border-top:1px solid var(--rule)}
@@ -418,6 +427,7 @@ footer.site .legal{grid-column:1/-1;margin-top:var(--s6);padding-top:var(--s4);b
       <div class="hit"><span class="lampbig" aria-hidden="true"></span><span class="word">Touché.</span></div>
     </div>
   </div>
+  <div class="piste-lines" aria-hidden="true"><span style="left:1%;transform:none">Avertissement</span><span style="left:36%">En garde</span><span style="left:50%">Milieu</span><span style="left:64%">En garde</span><span style="left:99%;transform:translateX(-100%)">Avertissement</span></div>
   <div class="wrap">
     <div>
       <h2>A finding counts only when it lands.</h2>
@@ -517,7 +527,7 @@ footer.site .legal{grid-column:1/-1;margin-top:var(--s6);padding-top:var(--s4);b
 </section>
 
 <!-- 7 · Europe and price -->
-<section class="europe pad on-paper" id="pricing">
+<section class="europe pad on-red" id="pricing">
   <div class="wrap">
     <div><h2>Your engagement data stays in Europe.</h2><p class="lede">Hosting and inference on Scaleway in Paris: a European provider, not the EU region of a US hyperscaler.</p></div>
     <div class="facts3">
@@ -533,7 +543,7 @@ footer.site .legal{grid-column:1/-1;margin-top:var(--s6);padding-top:var(--s4);b
 </section>
 
 <!-- 8 · FAQ -->
-<section class="faq pad on-paper" id="faq" style="padding-top:0">
+<section class="faq pad on-paper" id="faq">
   <div class="wrap">
     <div><h2>Straight answers, with proof.</h2></div>
     <div>

@@ -102,7 +102,8 @@
    "email-capture-hero",
    "dark-sections",
    "tabbed-features",
-   "testimonial-video"
+   "testimonial-video",
+   "bg-photo-field"
   ],
   "note": "A photographic hero (a desk in a landscape) instead of an abstract shape, with the email field inside the hero as the first action. Below, a dark band with a left list of features that switches the product panel on the right."
  },
@@ -1207,7 +1208,8 @@
    "serif-display",
    "split-hero",
    "product-screenshot-hero",
-   "enterprise"
+   "enterprise",
+   "bg-painting"
   ],
   "note": "Serif headline on warm off-white with a short line and one dark button on the right, then a dense analytics product view. Authority through restraint, fitting for legal."
  },
@@ -4024,7 +4026,8 @@
    "mono-caps",
    "working-demo",
    "logo-cells",
-   "mascot"
+   "mascot",
+   "bg-technical-grid"
   ],
   "note": "Graph paper background with connector lines that wire the sections together like a node graph. All-caps headline and mono buttons. Every card is a working piece of product: a real video player with 'try another video', a live transcript, a cost breakdown with line items, a small analytics chart. A tiny robot mascot is the only charm."
  },
@@ -4038,7 +4041,8 @@
    "serif-display",
    "email-capture-hero",
    "product-window",
-   "logo-grid"
+   "logo-grid",
+   "bg-colour-field"
   ],
   "note": "One saturated lavender field holds the hero: serif headline, an inline email + 'Get a demo' form, and the product window floating inside the field. Everything after is white and grey. The colour is spent once, at the top."
  },
@@ -4053,7 +4057,8 @@
    "bottom-left-headline",
    "mono-eyebrow",
    "logo-marquee",
-   "tabbed-steps"
+   "tabbed-steps",
+   "bg-photo-field"
   ],
   "note": "Hero is a motion-blurred violet light photograph with the headline set bottom-left, like a poster caption. A mono eyebrow above it. The same violet returns once as a large panel framing a prompt box, then the page goes white with tabbed steps (Set up, Intake, Contextualize, Operate)."
  },
@@ -4069,7 +4074,8 @@
    "bracket-labels",
    "crosshair-marks",
    "dense-logo-grid",
-   "voice-testimonial"
+   "voice-testimonial",
+   "bg-technical-grid"
   ],
   "note": "An engraved, halftone iguana is the mascot and the hero image: one strong illustration in a technical page. Mono labels in [brackets], crosshair marks on the section corners, a two-row logo grid, then a big testimonial that keeps the customer's real voice ('the s**t out of me'). Dark section below uses blueprint wireframes."
  },
@@ -4083,7 +4089,8 @@
    "motion-blur",
    "working-demo",
    "quote-proof",
-   "metric-in-quote"
+   "metric-in-quote",
+   "bg-photo-field"
   ],
   "note": "A full-bleed motion-blurred forest photograph as a dark hero, and the product works right there: pick an agent and press 'Start call'. Proof is a customer quote with the metric set in bold inside the sentence, not a logo wall."
  },
@@ -4125,7 +4132,8 @@
    "visible-grid",
    "working-demo",
    "accent-word",
-   "json-output"
+   "json-output",
+   "bg-technical-grid"
   ],
   "note": "Orange on white with faint pixel/dot-matrix ornaments and crosshair marks on a visible grid. The hero is a working input with mode tabs (Search, Scrape, Map, Crawl) and the product shot below is the JSON it returns. One orange word in the headline, one orange button."
  },
@@ -4181,7 +4189,8 @@
    "painted-backdrop",
    "product-window",
    "image-sandwich-family",
-   "restrained"
+   "restrained",
+   "bg-painting"
   ],
   "note": "The product window floats on a watercolour/marbled painting; everything else is grey and white. The painted backdrop gives warmth to a design tool without illustrations or gradients."
  },
@@ -4209,7 +4218,8 @@
    "painted-sky-backdrop",
    "single-notification",
    "orange-accent",
-   "calm"
+   "calm",
+   "bg-painting"
   ],
   "note": "A blurred, painted sky with a single notification card on it ('We fixed Support ticket reply assistant'): automation shown as one calm result, not a diagram of 30 app icons. Orange only on the button."
  },
@@ -4265,7 +4275,8 @@
    "product-ui-hero",
    "email-capture-hero",
    "mono-caps-nav",
-   "shipment-card"
+   "shipment-card",
+   "bg-photo-field"
   ],
   "note": "An ocean freight photograph as the hero field, with an email + 'Request a demo' field in it and the real dashboard (a world map of shipments) rising from the bottom. Below, a shipment document (INVPO10903, in transit, Shanghai) is the illustration: the product's real objects as imagery."
  },
@@ -4318,7 +4329,8 @@
    "product-ui-over-painting",
    "photo-hero",
    "two-sentence-headline",
-   "logo-row"
+   "logo-row",
+   "bg-painting"
   ],
   "note": "\"Your AI. Your rules.\" in two short sentences. The product window sits on a painted landscape, then a full-bleed photo of a person outdoors: enterprise AI shown with human warmth instead of circuits."
  },
@@ -4361,7 +4373,8 @@
    "serif-display",
    "product-cards",
    "people-photo-grid",
-   "stats-cells"
+   "stats-cells",
+   "bg-halftone-dots"
   ],
   "note": "Dark top with a dot-matrix texture, serif headline, then light product cards (a call transcript, an emotion matrix). Below, a grid of real people photos with UI labels overlaid (Tone, Expression): a voice model shown through faces."
  },
@@ -4416,7 +4429,8 @@
    "lowercase-type",
    "studio-photo",
    "one-colour-brand",
-   "conversational-copy"
+   "conversational-copy",
+   "bg-colour-field"
   ],
   "note": "One orange on grey, everything lowercase, a studio photograph with a play button as the hero. The copy talks like a person (\"the operating system you don't operate\", \"that folder you keep putting off\"). Brand by voice and one colour."
  },
@@ -4596,7 +4610,8 @@
    "full-bleed-photo",
    "one-button",
    "near-nothing",
-   "wearable"
+   "wearable",
+   "bg-photo-field"
   ],
   "note": "The whole page is one full-bleed film photograph of a person wearing the pendant, the wordmark small at the top and one white button ('Meet your friend'). A wearable sold like a fashion campaign, not a gadget."
  },
@@ -4609,7 +4624,8 @@
    "sky-photo",
    "near-nothing",
    "tiny-type",
-   "manifesto"
+   "manifesto",
+   "bg-photo-field"
   ],
   "note": "A sky full of clouds and a few lines of small type: a phone designed to be used as little as possible, sold with almost nothing on the page. The emptiness is the argument."
  },
@@ -5272,7 +5288,8 @@
    "factory-photo",
    "mono-caps",
    "bordered-panels",
-   "manifesto"
+   "manifesto",
+   "bg-technical-grid"
   ],
   "note": "Navy page with a blueprint line drawing of a factory floor as the hero image, then a real factory photo with a paragraph in a bordered panel. Mono caps labels; the industrial message drawn like engineering documents."
  },
@@ -5426,7 +5443,8 @@
    "texture-photo",
    "bordered-tile-grid",
    "arrow-links",
-   "space-industry"
+   "space-industry",
+   "bg-duotone"
   ],
   "note": "Orange and navy only: a duotone texture (a heat-shield or terrain surface) behind 'Space born, Earth bound', then a bordered grid of tiles mixing duotone photos, a video and short statements with arrow links. Two colours carry a whole space company."
  },
@@ -5554,7 +5572,8 @@
    "near-nothing",
    "motion-blur-photo",
    "serif-wordmark",
-   "tiny-copy"
+   "tiny-copy",
+   "bg-photo-field"
   ],
   "note": "One motion-blurred photograph of a person turning, a small serif wordmark and a short paragraph with a download link. An AI voice company that shows a feeling, not a waveform."
  },
@@ -5608,7 +5627,8 @@
    "cinematic-photo",
    "close-up-portrait",
    "small-headline",
-   "quiet-cta"
+   "quiet-cta",
+   "bg-photo-field"
   ],
   "note": "A cinematic close-up of a lawyer's face in reading light fills the hero, with a small white headline ('Legal work, without limits.') low in the frame. Legal AI sold through a human moment, not a dashboard."
  },
@@ -5651,7 +5671,8 @@
    "cartoon-clouds",
    "isometric-stack",
    "chunky-borders",
-   "caps-headings"
+   "caps-headings",
+   "bg-illustrated-sky"
   ],
   "note": "Sky-blue ground with cartoon clouds, chunky black borders and caps headings; the architecture is an isometric stack of dark slabs with labelled cards around it, and product cards come in flat yellow, peach and mint. A database with a playful, consistent world."
  },
@@ -5718,7 +5739,8 @@
    "flow-diagram-hero",
    "money-rails",
    "grid-paper",
-   "product-cards-with-ui"
+   "product-cards-with-ui",
+   "bg-technical-grid"
   ],
   "note": "The hero image is a diagram of money moving between rails (ACH, wire, RTP, stablecoins) through the company's node, drawn on faint grid paper. Payments infrastructure shown as the flow it controls."
  },
@@ -5745,7 +5767,8 @@
    "textured-field",
    "giant-serif",
    "institutional-logos",
-   "restraint"
+   "restraint",
+   "bg-material"
   ],
   "note": "A deep green textured field with a giant serif 'Built for Finance' and a tiny button. Proof is a grid of grey bank logos. Finance-grade restraint: one colour, one face, nothing playful."
  },
@@ -5838,7 +5861,8 @@
    "serif-caps",
    "sculptural-imagery",
    "prompt-box-hero",
-   "institutional-logos"
+   "institutional-logos",
+   "bg-material"
   ],
   "note": "Black page with a small serif-caps title ('INSTITUTIONAL INTELLIGENCE'), a prompt box at the top and monochrome sculptural images (a ribbed arch against sky) for each section. Finance AI made to feel like architecture."
  },
@@ -5879,7 +5903,8 @@
    "blue-duotone",
    "banknote-imagery",
    "product-cards",
-   "gauge"
+   "gauge",
+   "bg-duotone"
   ],
   "note": "The hero is Benjamin Franklin's engraved portrait from the $100 bill, recoloured in blue duotone with a green headline. Money's own imagery reused for a fintech brand; product cards below use a credit-score dial."
  },
@@ -5893,7 +5918,8 @@
    "orange-accent",
    "mono-labels",
    "search-box-hero",
-   "ranking-proof"
+   "ranking-proof",
+   "bg-photo-field"
   ],
   "note": "A soft blue sky photograph holds the search box; orange is the only accent; proof is a ranking ('#1 on the Artificial Analysis Search Index') in its own panel. Infrastructure that looks like open air."
  },
@@ -5948,7 +5974,8 @@
    "motion-blur-crowd",
    "prompt-box-in-photo",
    "running-counter",
-   "highlighted-phrases"
+   "highlighted-phrases",
+   "bg-photo-field"
   ],
   "note": "Big red serif headline over a motion-blurred crowd photo with a prompt box set into it. Proof is a running counter in the same serif ('$1,105,931,739 of pipeline and counting'). Phrases in the body are coloured red as highlights."
  },
@@ -6043,7 +6070,8 @@
    "highlighted-words",
    "video-testimonials",
    "yellow-cards",
-   "use-case-icons"
+   "use-case-icons",
+   "bg-colour-field"
   ],
   "note": "Yellow on black only: 'At any scale' in yellow, a yellow button, and customer video testimonials set on solid yellow cards. A database brand built from one loud colour used with discipline."
  },
@@ -6111,7 +6139,8 @@
    "rabbit-character",
    "orange-accent",
    "stats-row",
-   "feature-ring"
+   "feature-ring",
+   "bg-illustrated-sky"
   ],
   "note": "A cartoon rabbit riding a rocket in a navy night sky, then a light section where the mascot in VR goggles is surrounded by feature cards. One mascot carries a CDN's whole personality."
  },
@@ -6137,7 +6166,8 @@
    "italic-headline",
    "floating-app-cards",
    "manifesto-paragraph",
-   "white-type"
+   "white-type",
+   "bg-illustrated-sky"
   ],
   "note": "The page is the sky: a saturated blue field with soft clouds, an italic white headline ('Welcome to the social internet.') and app screens floating like cards. The manifesto paragraph is set large on the same blue."
  },
@@ -6163,7 +6193,8 @@
    "serif-display",
    "pixel-block-ornaments",
    "pink-accent",
-   "spreadsheet-ui"
+   "spreadsheet-ui",
+   "bg-halftone-dots"
   ],
   "note": "'What's after Excel?' in a large serif with scattered pastel pixel blocks at the edges (spreadsheet cells breaking loose), a pink button, and the real spreadsheet with an AI chat below."
  },
@@ -6177,7 +6208,8 @@
    "pixel-dot-ornaments",
    "inline-icon-chips",
    "framework-list-type",
-   "funding-cells"
+   "funding-cells",
+   "bg-technical-grid"
   ],
   "note": "Pixel-dot clusters and a drawn magnifier decorate a white page with yellow bands; the headline 'From git to prod in 60 seconds' puts small logo chips inline; supported frameworks are a big stacked type list on mint with one word in a black 'Deploy' label."
  },
@@ -6219,7 +6251,8 @@
    "orange-field",
    "dot-globe",
    "brand-colour-hero",
-   "feature-cells"
+   "feature-cells",
+   "bg-colour-field"
   ],
   "note": "The hero is a big rounded orange field (the brand colour) with white text; then a dotted globe drawing in the same orange tones for 'Region: Earth'. One colour does all the branding."
  },
@@ -6246,7 +6279,8 @@
    "illustrated-mammoth",
    "manifesto-headline",
    "friendly-mascot",
-   "product-ui-cards"
+   "product-ui-cards",
+   "bg-illustrated-sky"
   ],
   "note": "A purple night with a big illustrated mammoth taking photos and a political headline ('Social networking that's not for sale.'). The mascot keeps a decentralised network approachable."
  },
@@ -6439,7 +6473,8 @@
    "phone-pair",
    "nonprofit-banner",
    "plain-sans",
-   "privacy-voice"
+   "privacy-voice",
+   "bg-colour-field"
   ],
   "note": "A flat periwinkle field with two phones showing real calls and chats and a short imperative ('Speak Freely'). A donation banner above the hero says what kind of organisation this is before anything else."
  },
@@ -6572,7 +6607,8 @@
    "material-photography",
    "purple-field",
    "3d-objects",
-   "stacked-capability-list"
+   "stacked-capability-list",
+   "bg-material"
   ],
   "note": "A purple field with photographed material objects (a red clay waveform, a chrome speaker grille, a rock slab) standing in for audio: sound made tactile. The stack is a big grey list where one item lights up at a time."
  },
@@ -6585,7 +6621,8 @@
    "landscape-painting-hero",
    "serif-display",
    "product-window-in-painting",
-   "purple-accent"
+   "purple-accent",
+   "bg-painting"
   ],
   "note": "A romantic landscape painting (forest, mountains, golden light) fills the hero with a serif headline over it, and the product window sits in the painting. Agent infrastructure framed by classical art."
  },
@@ -6598,7 +6635,9 @@
    "pixel-bar-chart",
    "bordered-logo-grid",
    "benchmark-bars",
-   "plain-headline"
+   "plain-headline",
+   "bg-halftone-dots",
+   "bg-colour-field"
   ],
   "note": "One saturated ultramarine field holds 'Just use Postgres', a pixelated bar chart melting from the bottom edge and a bordered grid of customer logos; below, real benchmark bars against Elasticsearch. A database with one colour and one claim."
  },
@@ -6639,7 +6678,8 @@
    "halftone-dots",
    "mint-palette",
    "small-headline",
-   "scientist-portrait"
+   "scientist-portrait",
+   "bg-halftone-dots"
   ],
   "note": "A soft cloud-like protein render with halftone teal dots and a DNA strand as the hero, the headline small in the corner ('Solve all disease'). Science shown as beauty, then a scientist's portrait with a long quote."
  },
@@ -6667,7 +6707,8 @@
    "thin-type",
    "bordered-nav",
    "technical-drawing",
-   "numbered-figures"
+   "numbered-figures",
+   "bg-material"
   ],
   "note": "Close photographs of the fusion magnet's metal surfaces, light thin type, a nav of bordered cells, then a taupe section with numbered photo figures and an engineering line drawing of the tokamak. Industrial science as an atlas."
  },
@@ -6681,7 +6722,8 @@
    "serif-italic-word",
    "classical-hands",
    "video-call-ui",
-   "pink-accents"
+   "pink-accents",
+   "bg-painting"
   ],
   "note": "A pixel-dithered sky with a live video call UI, then Michelangelo's two hands reaching across a pink cloud ('Imagine a future with machines that get you'). Bold classical reference for a human-like AI."
  },
@@ -6708,7 +6750,8 @@
    "architecture-photo",
    "starry-sky",
    "quiet-type",
-   "photo-cards"
+   "photo-cards",
+   "bg-photo-field"
   ],
   "note": "A nuclear company led by one night photograph: a glowing A-frame building under the stars, with almost no text over it. Then rendered buildings in daylight as cards for each business line. Nuclear power made warm and domestic."
  },
@@ -6722,7 +6765,8 @@
    "studio-car-photo",
    "black-bands",
    "underlined-claims",
-   "price-as-headline"
+   "price-as-headline",
+   "bg-colour-field"
   ],
   "note": "Flat yellow field, one studio photo of a plain truck and a heavy condensed caps claim with the key words underlined ('THE MOST AFFORDABLE TRUCK IN AMERICA'), then alternating black and grey bands with huge grey type ('GET IT HOW YOU WANT.'). Low-cost brand, loud voice."
  },
@@ -6776,7 +6820,8 @@
    "blue-tinted-factory-photo",
    "giant-headline",
    "statement-paragraph",
-   "photo-carousel"
+   "photo-carousel",
+   "bg-duotone"
   ],
   "note": "A giant 'Build Bigger' over a blue-tinted factory photograph, then a long statement paragraph set large ('Scale changes what's possible...') and photo cards for factory and launch. One idea, said big."
  },
@@ -6885,7 +6930,8 @@
    "glowing-gradient-type",
    "crosshair-marks",
    "chip-photography",
-   "amber-palette"
+   "amber-palette",
+   "bg-material"
   ],
   "note": "A macro photograph of a warm, textured chip surface under 'THERMODYNAMIC COMPUTING' with the first word glowing amber; crosshair marks and a few chip photos below. Physics made tactile: the material is the image."
  },

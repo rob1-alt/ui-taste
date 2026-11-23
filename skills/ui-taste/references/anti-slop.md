@@ -66,6 +66,7 @@ The fix is not another style. It is real material: the product rendered at full 
 - [ ] Proof is specific: a number in a quote, a metric in the logo grid, a public benchmark, a named result. Not a second row of logos.
 - [ ] The copy has a voice. Read the headline aloud: if any company in the category could say it ("Build reliable AI apps", "A new era for X teams"), rewrite it with what only this product can claim.
 - [ ] A dark page is not a design decision. Dark hero + glow + gradient blobs + logo wall is the dev-tool default (most of the dark pages rejected from the library look exactly like this); a dark page needs its own idea (a colour used with discipline like ClickHouse's yellow, a photograph like Hedra's, a voice like E2B's).
+- [ ] The page has a ground. If every section is flat white or flat dark, give it one background family from `backgrounds.md` (a duotone of the brand's photo, the customer's technical paper, a material, a painting), alternating strong and quiet.
 - [ ] Stock-photo AI imagery (a smiling person holding a tablet, glowing neon panels around them) is never the hero. Use the product, a real photo, or a worked example.
 
 ## Accessibility
