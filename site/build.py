@@ -61,7 +61,7 @@ def main() -> None:
                 if not tile.exists() or tile.stat().st_mtime < src.stat().st_mtime:
                     im = Image.open(src).convert("RGB")
                     h = min(im.height, int(im.width * 507 / 260))
-                    im.crop((0, 0, im.width, h)).resize((90, int(h * 90 / im.width)), Image.LANCZOS).save(tile, "JPEG", quality=70, optimize=True)
+                    im.crop((0, 0, im.width, h)).resize((240, int(h * 240 / im.width)), Image.LANCZOS).save(tile, "JPEG", quality=72, optimize=True, progressive=True)
             screens[kind] = {
                 "full": f"../skills/ui-taste/library/{s['file']}",
                 "thumb": f"thumbs/{out.name}",

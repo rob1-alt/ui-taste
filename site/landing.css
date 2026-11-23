@@ -570,3 +570,12 @@ body { background: #fff; }
   .d-h1 { font-size: 34px; }
 }
 @media (prefers-reduced-motion: reduce) { .demo *, .d-sky, .d-hills { transition: none !important; animation: none !important; } }
+
+/* the product sits in front of the hills; the hills frame it from the sides and below */
+.demo.fix-center .d-product { z-index: 3; box-shadow: 0 0 0 1px rgb(17 17 17 / 0.06), 0 30px 60px -24px rgb(20 50 20 / 0.55); }
+.demo.fix-cards .d-cards { z-index: 4; }
+.demo-note { margin: 0; padding: 14px 16px; font-size: 13px; line-height: 1.5; color: var(--ink-2); background: var(--tint); border-top: 1px solid var(--line); }
+.demo-note b { color: var(--ink); font-weight: 600; }
+.demo.fix-center { min-height: 0; padding-bottom: 92px; }
+.demo.fix-center .d-product { height: 300px; }
+@media (max-width: 720px) { .demo.fix-center { padding-bottom: 120px; } .demo.fix-center .d-product { height: 240px; } }
