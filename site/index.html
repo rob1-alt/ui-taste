@@ -4,93 +4,198 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>UI taste</title>
-<meta name="description" content="Real screens from products known for their design, with the tokens measured on each live page.">
+<meta name="description" content="A Claude Code skill that shows your agent what good interfaces look like: real pages from products known for their design, measured on the live page.">
 <meta name="robots" content="noindex, nofollow">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600&family=Geist+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600&family=Geist+Mono:wght@400;500&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="landing.css">
 <script>
   try { const t = localStorage.getItem("uitaste-theme"); if (t) document.documentElement.dataset.theme = t; } catch (e) {}
 </script>
 </head>
-<body>
+<body class="landing">
+
 <header class="bar">
   <div class="bar-inner">
-    <a class="brand" href="#" aria-label="UI taste, all screens">
-      <span class="mark" aria-hidden="true"></span>UI taste
-    </a>
-    <label class="search">
-      <span class="visually-hidden">Search</span>
-      <svg viewBox="0 0 16 16" aria-hidden="true"><circle cx="7" cy="7" r="4.5"/><path d="M10.5 10.5 14 14"/></svg>
-      <input id="q" type="search" placeholder="Search sites, patterns, notes" autocomplete="off" spellcheck="false">
-      <kbd>/</kbd>
-    </label>
+    <a class="brand" href="index.html"><span class="mark" aria-hidden="true"></span>UI taste</a>
+    <nav class="top-links" aria-label="Sections">
+      <a href="library.html">Library</a>
+      <a href="#how">How it works</a>
+      <a href="#measured">Tokens</a>
+      <a href="#install">Install</a>
+    </nav>
     <div class="bar-actions">
-      <div class="segmented" role="group" aria-label="Platform">
-        <button type="button" data-platform="desktop" aria-pressed="true">Desktop</button>
-        <button type="button" data-platform="mobile" aria-pressed="false">Mobile</button>
-      </div>
       <button type="button" class="icon-btn" id="theme" aria-label="Toggle dark mode">
         <svg viewBox="0 0 16 16" aria-hidden="true"><circle cx="8" cy="8" r="5.5"/><path d="M8 2.5v11a5.5 5.5 0 0 0 0-11z" fill="currentColor" stroke="none"/></svg>
       </button>
+      <a class="pill pill-dark" href="library.html">Browse the library</a>
     </div>
   </div>
 </header>
 
 <main>
-  <section class="intro">
-    <h1>Screens worth learning from.</h1>
-    <p class="lede" id="lede">Real pages from products known for their design, with the fonts, sizes, colours and buttons measured on the live page.</p>
+  <!-- Hero: one sentence, real screens set into the words (decision from Mobbin's hero) -->
+  <section class="hero">
+    <p class="eyebrow">A skill for Claude Code</p>
+    <h1 class="hero-title">
+      Show your agent
+      <span class="inline-shot" data-shot="playdate-landing"></span>
+      what good
+      <span class="inline-shot" data-shot="stripe-press-landing"></span>
+      interfaces
+      <span class="inline-shot" data-shot="linear-pricing"></span>
+      look&nbsp;like.
+    </h1>
+    <p class="hero-sub" id="hero-sub">Real pages from products known for their design, with the fonts, sizes, colours and buttons measured on the live page. Claude looks before it builds, then reviews what it rendered.</p>
+    <div class="hero-cta">
+      <a class="pill pill-dark pill-lg" href="library.html">Browse the library</a>
+      <a class="pill pill-ghost pill-lg" href="#install">Install the skill <span aria-hidden="true">→</span></a>
+    </div>
   </section>
 
-  <nav class="filters" aria-label="Filters">
-    <div class="types" id="types" role="tablist" aria-label="Page type"></div>
-    <div class="tags-row">
-      <span class="tags-label">Patterns</span>
-      <div class="tags" id="tags"></div>
+  <section class="reel" aria-label="A sample of the library">
+    <div class="reel-row" data-row="0"></div>
+    <div class="reel-row reverse" data-row="1"></div>
+  </section>
+
+  <!-- Statement: the problem in two tones -->
+  <section class="statement wrap">
+    <p class="statement-text">
+      <span class="ink">Agents build the same interface every time.</span>
+      <s>A purple gradient hero</s>, <s>three centred cards with emoji icons</s>, <s>Inter everywhere</s>, <s>shadows on everything</s>.
+      <span class="ink">UI taste replaces that default with evidence.</span>
+    </p>
+  </section>
+
+  <!-- How it works -->
+  <section class="how wrap" id="how">
+    <div class="section-head">
+      <p class="label">How it works</p>
+      <h2>Four steps, every time Claude touches an interface.</h2>
     </div>
-  </nav>
+    <ol class="steps">
+      <li>
+        <span class="step-n">01</span>
+        <h3>Inspect</h3>
+        <p>Read the project's own design system first: DESIGN.md, tokens, Tailwind config, components. The project always wins over a reference.</p>
+      </li>
+      <li>
+        <span class="step-n">02</span>
+        <h3>Reference</h3>
+        <p>Search the library only for a concrete decision. One strong screen is enough, three is the limit, and Claude opens the screenshot before deciding.</p>
+      </li>
+      <li>
+        <span class="step-n">03</span>
+        <h3>Build</h3>
+        <p>Apply the decision with the project's components: one type family, a real scale, neutral surfaces and one accent, real content only.</p>
+      </li>
+      <li>
+        <span class="step-n">04</span>
+        <h3>Review</h3>
+        <p>Render the screen at 1440px and 390px, look at it, and go through the anti-slop checklist. A UI that was never looked at is not reviewed.</p>
+      </li>
+    </ol>
 
-  <div class="results-head">
-    <p id="count" aria-live="polite"></p>
-    <button type="button" class="link-btn" id="clear" hidden>Clear filters</button>
-  </div>
+    <div class="demo">
+      <div class="terminal" role="figure" aria-label="Output of a library search">
+        <div class="term-top"><i></i><i></i><i></i><span>find_refs.py</span></div>
+<pre><span class="prompt">$</span> python3 scripts/find_refs.py "linear pricing" --limit 1
+query: linear pricing
 
-  <section id="grid" class="grid" aria-label="Screens"></section>
-  <p id="empty" class="empty" hidden>Nothing matches. Try fewer patterns or another word.</p>
+<b>## 1. Linear · pricing</b>
+url: https://linear.app/pricing
+desktop: …/library/screens/linear-pricing-desktop.jpg
+patterns: dark, pricing-4-tier, comparison-table,
+          billing-toggle-per-plan
+<em>why: Four plans in plain columns with no card boxes:
+name, price, one line, a checklist. Only the Business
+button is filled.</em>
+fonts: Inter Variable
+type: h1 48px/1 w510 ls -1.056px · body 15px/1.6
+colours: bg #08090a · text #f7f8f8, #8a8f98
+button: "Sign up" #e5e5e6 radius 9999px height 32px</pre>
+      </div>
+      <figure class="demo-shot">
+        <img src="thumbs/linear-pricing-desktop.jpg" alt="Linear's pricing page, the screen returned by the search" loading="lazy">
+        <figcaption>Then Claude opens the screenshot and looks at it.</figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <!-- Measured tokens, from the real data -->
+  <section class="measured wrap" id="measured">
+    <div class="section-head">
+      <p class="label">Measured, not guessed</p>
+      <h2>Every screen comes with the tokens its page really uses.</h2>
+      <p class="section-sub">Read from the browser's computed styles at capture time: fonts, the type scale, colours by area covered, button fill, radius, height and padding, content width.</p>
+    </div>
+    <div class="specimen">
+      <div class="specimen-tabs" role="tablist" aria-label="Example screens" id="spec-tabs"></div>
+      <div class="specimen-body">
+        <div class="specimen-shot" id="spec-shot"></div>
+        <div class="specimen-info" id="spec-info"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Index, set like a table of contents (decision from Stripe Press) -->
+  <section class="index wrap" id="index">
+    <div class="index-left">
+      <p class="label">The library</p>
+      <p class="big-number"><span id="n-pages">273</span><small>pages</small></p>
+      <p class="index-meta"><span id="n-sites">186</span> products · <span id="n-shots">546</span> screenshots · desktop and mobile</p>
+      <a class="pill pill-dark" href="library.html">Open the library</a>
+    </div>
+    <ul class="toc" id="toc"></ul>
+  </section>
+
+  <!-- Design systems -->
+  <section class="systems wrap">
+    <div class="section-head">
+      <p class="label">Design systems</p>
+      <h2>And the systems behind good interfaces.</h2>
+      <p class="section-sub">When a project has no system, or a messy one, the skill sets one up: token layers, 12-step colour scales with defined roles, type roles, spacing, radius, motion and every component state, written down in a DESIGN.md. It learns from these:</p>
+    </div>
+    <p class="system-list" id="systems"></p>
+  </section>
+
+  <!-- Install -->
+  <section class="install" id="install">
+    <div class="wrap install-inner">
+      <div>
+        <p class="label">Install</p>
+        <h2>Two commands in Claude Code.</h2>
+        <p class="section-sub">Then ask “Redesign our pricing page” or “This dashboard looks generic, fix it”. Searching needs only Python 3.</p>
+      </div>
+      <div class="codes">
+        <div class="code">
+          <pre>/plugin marketplace add rob1-alt/ui-taste
+/plugin install ui-taste@ui-taste</pre>
+          <button type="button" class="copy-btn" data-copy="/plugin marketplace add rob1-alt/ui-taste
+/plugin install ui-taste@ui-taste">Copy</button>
+        </div>
+        <p class="code-label">Or by hand</p>
+        <div class="code">
+          <pre>git clone https://github.com/rob1-alt/ui-taste.git
+cp -r ui-taste/skills/ui-taste ~/.claude/skills/</pre>
+          <button type="button" class="copy-btn" data-copy="git clone https://github.com/rob1-alt/ui-taste.git
+cp -r ui-taste/skills/ui-taste ~/.claude/skills/">Copy</button>
+        </div>
+      </div>
+    </div>
+  </section>
 </main>
 
 <footer class="foot">
   <p>Screenshots belong to the companies that made them. Kept as private design references; do not republish.</p>
-  <p>Rebuild after adding screens: <code>python3 site/build.py</code></p>
+  <p><a href="library.html">Library</a> · <a href="https://github.com/rob1-alt/ui-taste">GitHub</a></p>
 </footer>
-
-<dialog id="detail" aria-labelledby="d-title">
-  <div class="d-top">
-    <div class="d-heading">
-      <h2 id="d-title"></h2>
-      <span class="d-type" id="d-type"></span>
-    </div>
-    <div class="segmented" role="group" aria-label="Screen">
-      <button type="button" data-shot="desktop" aria-pressed="true">Desktop</button>
-      <button type="button" data-shot="mobile" aria-pressed="false">Mobile</button>
-    </div>
-    <div class="d-nav">
-      <button type="button" class="icon-btn" id="prev" aria-label="Previous screen (←)"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M10 3 5 8l5 5"/></svg></button>
-      <button type="button" class="icon-btn" id="next" aria-label="Next screen (→)"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="m6 3 5 5-5 5"/></svg></button>
-      <button type="button" class="icon-btn" id="close" aria-label="Close (Esc)"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M4 4l8 8M12 4l-8 8"/></svg></button>
-    </div>
-  </div>
-  <div class="d-body">
-    <div class="d-shot" id="d-shot" tabindex="-1"></div>
-    <aside class="d-info" id="d-info"></aside>
-  </div>
-</dialog>
 
 <div class="toast" id="toast" role="status" aria-live="polite"></div>
 
 <script src="data.js"></script>
-<script src="app.js"></script>
+<script src="landing.js"></script>
 </body>
 </html>

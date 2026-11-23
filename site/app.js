@@ -93,7 +93,7 @@
       .map((it, i) => {
         const s = it.screens[state.platform];
         return `<button type="button" class="card" data-id="${esc(it.id)}" aria-label="${esc(it.site)}, ${esc(typeLabel(it.type))}">
-          <div class="frame"><img src="${esc(s.thumb)}" alt="" loading="${i < 8 ? "eager" : "lazy"}" decoding="async"></div>
+          <div class="frame"><img src="${esc(s.thumb)}" alt="" loading="${i < 8 ? "eager" : "lazy"}" decoding="async"><span class="hover-note">${esc(it.note)}</span></div>
           <div class="meta"><span class="name">${esc(it.site)}</span><span class="kind">${esc(typeLabel(it.type))}</span><span class="dots" aria-hidden="true">${dots(it)}</span></div>
         </button>`;
       })
@@ -104,7 +104,44 @@
     $("#clear").hidden = !(state.type !== "all" || state.tags.length || state.q);
   }
 
+  const COLLECTIONS = [
+    { name: "Dark heroes", type: "landing", tags: ["dark"], pick: ["obsidian-landing", "linear-landing", "sentry-landing"] },
+    { name: "Serif and editorial", tags: ["serif-display"], pick: [] },
+    { name: "Illustrated worlds", tags: ["illustration-brand"], pick: [] },
+    { name: "Photo-led", tags: ["photo-hero"], pick: [] },
+    { name: "Prompt box as the hero", tags: ["prompt-box-hero"], pick: [] },
+    { name: "Bold typography", tags: ["bold-typography"], pick: [] },
+    { name: "Pricing pages", type: "pricing", tags: [], pick: ["linear-pricing", "kagi-pricing", "ghost-pricing"] },
+    { name: "Design systems", type: "design-system", tags: [], pick: ["vercel-geist-overview", "radix-colors", "material-3-overview"] },
+  ];
+  function collItems(c) {
+    return ALL.filter((it) => (!c.type || it.type === c.type) && c.tags.every((t) => it.tags.includes(t)) && it.screens.desktop);
+  }
+  function renderCollections() {
+    const el = $("#collections");
+    const show = state.type === "all" && !state.tags.length && !state.q;
+    el.hidden = !show;
+    if (!show || el.childElementCount) return;
+    el.innerHTML = COLLECTIONS.map((c, i) => {
+      const items = collItems(c);
+      const picked = [...c.pick.map((id) => items.find((x) => x.id === id)).filter(Boolean), ...items].filter((x, j, arr) => arr.indexOf(x) === j).slice(0, 3);
+      return `<button type="button" class="coll" data-coll="${i}">
+        <div class="fan" aria-hidden="true">${picked.map((x) => `<img src="${esc(x.screens.desktop.thumb)}" alt="" loading="lazy">`).join("")}</div>
+        <div class="coll-name"><b>${esc(c.name)}</b><span>${items.length}</span></div></button>`;
+    }).join("");
+  }
+  $("#collections").addEventListener("click", (e) => {
+    const b = e.target.closest("[data-coll]");
+    if (!b) return;
+    const c = COLLECTIONS[+b.dataset.coll];
+    state.type = c.type || "all";
+    state.tags = c.tags.slice();
+    renderAll();
+    $(".filters").scrollIntoView({ behavior: "smooth" });
+  });
+
   function renderAll() {
+    renderCollections();
     document.querySelectorAll(".bar-actions [data-platform]").forEach((b) => b.setAttribute("aria-pressed", b.dataset.platform === state.platform));
     renderTypes();
     renderTags();
@@ -244,7 +281,7 @@
     const c = e.target.closest(".card");
     if (c) openDetail(c.dataset.id);
   });
-  $(".brand").addEventListener("click", (e) => {
+  $("#lib-home").addEventListener("click", (e) => {
     e.preventDefault();
     Object.assign(state, { type: "all", tags: [], q: "" });
     $("#q").value = "";

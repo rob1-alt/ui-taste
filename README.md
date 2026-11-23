@@ -144,10 +144,11 @@ Every screen is captured at 1440px (desktop, first 3600px) and 390px (mobile), w
 
 ## Browse the library
 
-`site/` is a gallery of every screen: search, filter by page type and pattern, switch desktop and mobile, and open a screen to see why it is in the library, its fonts, type scale, colours (click to copy) and buttons rebuilt from the measured styles. Arrow keys move between screens, `/` focuses the search.
+`site/` holds a landing page for the skill (`index.html`) and the library (`library.html`). The library has collections (dark heroes, serif and editorial, illustrated worlds, pricing pages, design systems…), search, filter by page type and pattern, switch desktop and mobile, and open a screen to see why it is in the library, its fonts, type scale, colours (click to copy) and buttons rebuilt from the measured styles. Arrow keys move between screens, `/` focuses the search.
 
 ```bash
-open site/index.html          # no server needed
+open site/index.html          # the landing; no server needed
+open site/library.html        # the library
 python3 site/build.py         # after adding screens: thumbnails and data
 ```
 
@@ -211,7 +212,7 @@ skills/ui-taste/
   library/
     index.json             screens, patterns, notes, measured tokens
     screens/               desktop and mobile captures
-site/                      the gallery (index.html, build.py, thumbs/)
+site/                      landing (index.html), library (library.html), build.py, thumbs/
 docs/                      contact sheets for this README
 ```
 

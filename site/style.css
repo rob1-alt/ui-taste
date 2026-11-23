@@ -130,6 +130,50 @@ kbd {
 .icon-btn:hover { background: var(--chip); color: var(--text); }
 .icon-btn svg { width: 16px; height: 16px; fill: none; stroke: currentColor; stroke-width: 1.5; stroke-linecap: round; stroke-linejoin: round; }
 
+/* ---------- crumb, collections, hover note ---------- */
+.crumb {
+  font-size: 14px; text-decoration: none; color: var(--text-muted); margin-left: -12px; flex-shrink: 0;
+}
+.crumb::before { content: "/"; margin-right: 10px; color: var(--border-strong); }
+.crumb:hover { color: var(--text); }
+h1 em { font-family: "Instrument Serif", ui-serif, Georgia, serif; font-style: italic; font-weight: 400; letter-spacing: -0.01em; }
+
+.collections {
+  display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 16px; padding-bottom: 48px;
+}
+.collections[hidden] { display: none; }
+.coll {
+  all: unset; cursor: pointer; display: grid; gap: 14px; padding: 14px 14px 16px;
+  border: 1px solid var(--border); border-radius: 14px; background: var(--surface);
+  transition: border-color 140ms var(--ease), transform 200ms var(--ease);
+}
+.coll:hover { border-color: var(--border-strong); }
+.coll:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
+.fan { position: relative; height: 128px; }
+.fan img {
+  position: absolute; top: 10px; width: 62%; aspect-ratio: 720 / 500; object-fit: cover; object-position: top;
+  border-radius: 7px; border: 1px solid var(--border); box-shadow: 0 6px 16px -8px rgb(0 0 0 / 0.3);
+  transition: transform 260ms var(--ease);
+}
+.fan img:nth-child(1) { left: 0; transform: rotate(-5deg); z-index: 1; }
+.fan img:nth-child(2) { left: 19%; top: 2px; z-index: 3; }
+.fan img:nth-child(3) { right: 0; transform: rotate(5deg); z-index: 2; }
+.coll:hover .fan img:nth-child(1) { transform: rotate(-8deg) translateX(-4px); }
+.coll:hover .fan img:nth-child(3) { transform: rotate(8deg) translateX(4px); }
+.coll-name { display: flex; justify-content: space-between; align-items: baseline; gap: 8px; }
+.coll-name b { font-size: 15px; font-weight: 500; }
+.coll-name span { font: 12px/1 var(--mono); color: var(--text-muted); }
+
+.hover-note {
+  position: absolute; inset: auto 0 0 0; padding: 40px 14px 12px;
+  background: linear-gradient(transparent, rgb(12 12 11 / 0.86) 45%);
+  color: #f2f1ed; font-size: 13px; line-height: 1.45;
+  opacity: 0; transform: translateY(6px); transition: opacity 160ms var(--ease), transform 200ms var(--ease);
+  display: -webkit-box; -webkit-line-clamp: 4; -webkit-box-orient: vertical; overflow: hidden;
+}
+.card:hover .hover-note, .card:focus-visible .hover-note { opacity: 1; transform: none; }
+.grid.mobile .hover-note { display: none; }
+
 /* ---------- intro and filters ---------- */
 main { max-width: 1600px; margin: 0 auto; padding: 0 32px; }
 .intro { padding: 72px 0 40px; max-width: 760px; }
@@ -138,7 +182,7 @@ h1 {
 }
 .lede { margin: 16px 0 0; font-size: 17px; line-height: 1.6; color: var(--text-muted); max-width: 600px; }
 
-.filters { display: grid; gap: 14px; padding-bottom: 28px; border-bottom: 1px solid var(--border); }
+.filters { display: grid; grid-template-columns: minmax(0, 1fr); gap: 14px; padding-bottom: 28px; border-bottom: 1px solid var(--border); }
 .types { display: flex; flex-wrap: wrap; gap: 6px; }
 .type-btn {
   display: inline-flex; align-items: center; gap: 8px;
@@ -283,6 +327,7 @@ dialog[open] { display: grid; grid-template-rows: auto 1fr; animation: enter 200
 .toast.show { opacity: 1; transform: translate(-50%, 0); }
 
 /* ---------- small screens ---------- */
+@media (max-width: 1100px) { .collections { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
 @media (max-width: 900px) {
   .d-body { grid-template-columns: 1fr; grid-template-rows: auto auto; overflow: auto; }
   .d-shot, .d-info { overflow: visible; }
@@ -292,6 +337,9 @@ dialog[open] { display: grid; grid-template-rows: auto 1fr; animation: enter 200
   .bar-inner, main, .foot { padding-left: 16px; padding-right: 16px; }
   .bar-inner { gap: 12px; }
   .brand { font-size: 0; gap: 0; }
+  .crumb { display: none; }
+  .collections { grid-template-columns: none; grid-auto-flow: column; grid-auto-columns: 74%; overflow-x: auto; margin: 0 -16px; padding: 0 16px 36px; scrollbar-width: none; }
+  .hover-note { display: none; }
   .bar-actions .segmented { display: none; }
   kbd { display: none; }
   .intro { padding: 40px 0 28px; }
