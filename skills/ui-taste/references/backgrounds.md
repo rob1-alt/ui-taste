@@ -9,10 +9,10 @@ Search them by tag (`find_refs.py "bg-painting"`, `"bg-duotone"`, …), open two
 | Family | What it is | Look at (tag) |
 |---|---|---|
 | **Painting** | A real painting, watercolour or painted sky behind the product or the headline. Warmth and culture for a technical product. | Harvey, Zep, Cohere, Magic Patterns, Zapier, Tavus (`bg-painting`) |
-| **Photo as field** | One photograph that fills the section, often blurred, graded or cropped so text sits on a calm part of it. | Mercury, Pylon, Vapi, Flexport, Legora, Oklo, Friend (`bg-photo-field`) |
+| **Photo as field** | One photograph that fills the section, often blurred, graded or cropped so text sits on a calm part of it. One object against a gradient sky works too (TanStack's palm tree). | Mercury, Pylon, Vapi, Flexport, Legora, Oklo, Friend, TanStack (`bg-photo-field`) |
 | **Duotone** | The brand's own photo or an engraving reduced to two colours, the brand ink and the paper. Turns any photo into brand. | Orbit, Varda, Plaid, K2 Space (`bg-duotone`) |
 | **Material** | A macro of the product's material: metal, chip, clay, stone, textile. Tactile, specific to the category. | Extropic, Deepgram, Commonwealth Fusion, Rogo, Hebbia (`bg-material`) |
-| **Technical paper** | Graph paper, blueprint, crosshair marks, a schedule grid: the customer's working surface. | Mux, Firecrawl, Greptile, Hadrian, Modern Treasury (`bg-technical-grid`) |
+| **Technical paper** | Graph paper, blueprint, crosshair marks, a schedule grid: the customer's working surface. Warm grid paper reads as a sketchbook for design tools (Paper). | Mux, Firecrawl, Greptile, Hadrian, Modern Treasury, Paper (`bg-technical-grid`) |
 | **Halftone and dots** | A dot screen or dot-matrix drawing that carries an image or a map with a print feel. | Hume, Isomorphic Labs, ParadeDB, Equals (`bg-halftone-dots`) |
 | **Illustrated sky** | A drawn or pixel sky and clouds, a world rather than a picture. | MotherDuck, Bluesky, Bunny, Mastodon (`bg-illustrated-sky`) |
 | **Colour field** | One saturated brand colour, nothing on it but type and UI. | Vanta, ParadeDB, Cloudflare, Signal, Slate (`bg-colour-field`) |

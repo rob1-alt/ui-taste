@@ -12141,6 +12141,159 @@
     }
   },
   {
+    "id": "anthropic-claude-landing",
+    "site": "Anthropic Claude",
+    "url": "https://claude.com",
+    "type": "landing",
+    "tags": [
+      "light",
+      "serif-display",
+      "documentary-photo",
+      "signup-in-hero",
+      "pricing-on-home"
+    ],
+    "note": "'Question what's next' in a small serif beside a documentary photograph of someone at a cluttered desk, with the sign-up right in the hero and the plans directly below. An AI product framed by a human, ordinary scene, not by a robot or a glow.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/anthropic-claude-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/anthropic-claude-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Claude by Anthropic | The AI for problem solvers",
+      "fonts": [
+        "anthropicSans",
+        "anthropicSerif"
+      ],
+      "type": {
+        "h1": {
+          "font": "anthropicSerif",
+          "size": 56,
+          "weight": "400",
+          "lineHeight": 1.15,
+          "letterSpacing": "normal",
+          "color": "rgb(20, 20, 19)"
+        },
+        "h2": {
+          "font": "anthropicSerif",
+          "size": 52,
+          "weight": "500",
+          "lineHeight": 1.2,
+          "letterSpacing": "normal",
+          "color": "rgb(20, 20, 19)"
+        },
+        "h3": {
+          "font": "anthropicSerif",
+          "size": 32,
+          "weight": "500",
+          "lineHeight": 1.1,
+          "letterSpacing": "normal",
+          "color": "rgb(20, 20, 19)"
+        },
+        "body": {
+          "font": "anthropicSerif",
+          "size": 18,
+          "weight": "400",
+          "lineHeight": 1.38,
+          "letterSpacing": "normal",
+          "color": "rgb(20, 20, 19)"
+        }
+      },
+      "colors": {
+        "background": "#faf9f5",
+        "surfaces": [
+          "#faf9f5",
+          "#ffffff",
+          "#141413",
+          "#f5f4ed",
+          "#f0eee6"
+        ],
+        "text": [
+          "#141413",
+          "#5e5d59",
+          "#30302e",
+          "#faf9f5"
+        ]
+      },
+      "buttons": [
+        {
+          "label": "Contact sales",
+          "bg": "#faf9f5",
+          "color": "#5e5d59",
+          "radius": "8px",
+          "height": 36,
+          "paddingX": 16,
+          "font": "anthropicSans",
+          "size": 15,
+          "weight": "500"
+        },
+        {
+          "label": "Try Claude",
+          "bg": "#141413",
+          "color": "#faf9f5",
+          "radius": "8px",
+          "height": 36,
+          "paddingX": 16,
+          "font": "anthropicSans",
+          "size": 15,
+          "weight": "500"
+        },
+        {
+          "label": "Download desktop app",
+          "bg": "#faf9f5",
+          "color": "#141413",
+          "radius": "9.6px",
+          "height": 44,
+          "paddingX": 20,
+          "font": "anthropicSans",
+          "size": 17,
+          "weight": "400"
+        },
+        {
+          "label": "Try Claude",
+          "bg": "#141413",
+          "color": "#faf9f5",
+          "radius": "8px",
+          "height": 40,
+          "paddingX": 24,
+          "font": "anthropicSans",
+          "size": 17,
+          "weight": "500"
+        },
+        {
+          "label": "Try Claude",
+          "bg": "#141413",
+          "color": "#faf9f5",
+          "radius": "8px",
+          "height": 40,
+          "paddingX": 24,
+          "font": "anthropicSans",
+          "size": 17,
+          "weight": "500"
+        },
+        {
+          "label": "Try Claude",
+          "bg": "#141413",
+          "color": "#faf9f5",
+          "radius": "8px",
+          "height": 40,
+          "paddingX": 24,
+          "font": "anthropicSans",
+          "size": 17,
+          "weight": "500"
+        }
+      ],
+      "contentWidth": 1440
+    }
+  },
+  {
     "id": "anytype-landing",
     "site": "Anytype",
     "url": "https://anytype.io",
@@ -22463,6 +22616,239 @@
     }
   },
   {
+    "id": "figma-sites-landing",
+    "site": "Figma Sites",
+    "url": "https://www.figma.com/sites",
+    "type": "landing",
+    "tags": [
+      "light",
+      "product-window",
+      "colour-shapes",
+      "published-site-in-editor",
+      "grey-section"
+    ],
+    "note": "The editor shown building a real-looking site (a flower shop) with big flat colour shapes behind it. The output inside the tool is the hero.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/figma-sites-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/figma-sites-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Figma Sites: Design, Prototype & Publish Your Next Website",
+      "fonts": [
+        "figmaSans",
+        "figmaMono"
+      ],
+      "type": {
+        "h1": {
+          "font": "figmaSans",
+          "size": 72,
+          "weight": "400",
+          "lineHeight": 1,
+          "letterSpacing": "-1.44px",
+          "color": "rgb(0, 0, 0)"
+        },
+        "h2": {
+          "font": "figmaSans",
+          "size": 56,
+          "weight": "400",
+          "lineHeight": 1.1,
+          "letterSpacing": "-0.84px",
+          "color": "rgb(0, 0, 0)"
+        },
+        "h3": {
+          "font": "figmaSans",
+          "size": 32,
+          "weight": "400",
+          "lineHeight": 1.3,
+          "letterSpacing": "-0.32px",
+          "color": "rgb(0, 0, 0)"
+        },
+        "body": {
+          "font": "figmaSans",
+          "size": 18,
+          "weight": "330",
+          "lineHeight": 1.4,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#ffffff",
+          "#e2e2e2",
+          "#000000"
+        ],
+        "text": [
+          "#000000",
+          "#ffffff"
+        ]
+      },
+      "buttons": [
+        {
+          "label": "Get started for free",
+          "bg": "#000000",
+          "color": "#ffffff",
+          "radius": "8px",
+          "height": 46,
+          "paddingX": 22,
+          "font": "figmaSans",
+          "size": 18,
+          "weight": "330"
+        },
+        {
+          "label": "Get started",
+          "bg": "#000000",
+          "color": "#ffffff",
+          "radius": "8px",
+          "height": 46,
+          "paddingX": 22,
+          "font": "figmaSans",
+          "size": 16,
+          "weight": "400"
+        },
+        {
+          "label": "",
+          "bg": "#000000",
+          "color": "#ffffff",
+          "radius": "9999px",
+          "height": 36,
+          "paddingX": 8,
+          "font": "figmaSans",
+          "size": 16,
+          "weight": "400"
+        }
+      ],
+      "contentWidth": 780
+    }
+  },
+  {
+    "id": "figma-slides-landing",
+    "site": "Figma Slides",
+    "url": "https://www.figma.com/slides",
+    "type": "landing",
+    "tags": [
+      "light",
+      "shape-stickers",
+      "colour-blocks",
+      "product-window",
+      "purple-section",
+      "brand-shapes"
+    ],
+    "note": "Big flat brand shapes (asterisk, checkerboard, blob) stacked behind the real slides editor, then a lilac section. Figma's shape language as decoration that comes from the product's own output.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/figma-slides-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/figma-slides-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Figma Slides: Create Presentations & Slides for Every Occasion",
+      "fonts": [
+        "figmaSans",
+        "figmaMono"
+      ],
+      "type": {
+        "h1": {
+          "font": "figmaSans",
+          "size": 86,
+          "weight": "400",
+          "lineHeight": 0.95,
+          "letterSpacing": "-1.72px",
+          "color": "rgb(0, 0, 0)"
+        },
+        "h2": {
+          "font": "figmaMono",
+          "size": 16,
+          "weight": "400",
+          "lineHeight": 1.3,
+          "letterSpacing": "0.48px",
+          "color": "rgb(0, 0, 0)"
+        },
+        "h3": {
+          "font": "figmaSans",
+          "size": 32,
+          "weight": "400",
+          "lineHeight": 1.3,
+          "letterSpacing": "-0.32px",
+          "color": "rgb(0, 0, 0)"
+        },
+        "body": {
+          "font": "figmaSans",
+          "size": 18,
+          "weight": "330",
+          "lineHeight": 1.4,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#ffffff",
+          "#c4baff",
+          "#000000"
+        ],
+        "text": [
+          "#000000",
+          "#ffffff"
+        ]
+      },
+      "buttons": [
+        {
+          "label": "Get started for free",
+          "bg": "#000000",
+          "color": "#ffffff",
+          "radius": "8px",
+          "height": 46,
+          "paddingX": 22,
+          "font": "figmaSans",
+          "size": 18,
+          "weight": "330"
+        },
+        {
+          "label": "Try Figma Slides",
+          "bg": "#000000",
+          "color": "#ffffff",
+          "radius": "8px",
+          "height": 46,
+          "paddingX": 22,
+          "font": "figmaSans",
+          "size": 16,
+          "weight": "400"
+        },
+        {
+          "label": "",
+          "bg": "#000000",
+          "color": "#ffffff",
+          "radius": "9999px",
+          "height": 36,
+          "paddingX": 8,
+          "font": "figmaSans",
+          "size": 16,
+          "weight": "400"
+        }
+      ],
+      "contentWidth": 780
+    }
+  },
+  {
     "id": "figure-landing",
     "site": "Figure",
     "url": "https://www.figure.ai",
@@ -25107,6 +25493,89 @@
     }
   },
   {
+    "id": "gsap-landing",
+    "site": "GSAP",
+    "url": "https://gsap.com",
+    "type": "landing",
+    "tags": [
+      "dark",
+      "giant-display-type",
+      "sticker-shapes",
+      "bracket-labels",
+      "lime-accent",
+      "playful-motion-assets"
+    ],
+    "note": "'Animate anything' set huge with small coloured shapes stuck to the letters like stickers, curly brackets framing the subhead, and lime on near-black. An animation library that behaves like its own demos.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/gsap-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/gsap-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Homepage | GSAP",
+      "fonts": [
+        "Mori"
+      ],
+      "type": {
+        "h1": {
+          "font": "Mori",
+          "size": 32,
+          "weight": "400",
+          "lineHeight": 1.15,
+          "letterSpacing": "normal",
+          "color": "rgb(255, 252, 225)"
+        },
+        "h2": {
+          "font": "Mori",
+          "size": 24,
+          "weight": "400",
+          "lineHeight": 1.15,
+          "letterSpacing": "normal",
+          "color": "rgb(255, 252, 225)"
+        },
+        "h3": {
+          "font": "Mori",
+          "size": 19,
+          "weight": "400",
+          "lineHeight": 1.15,
+          "letterSpacing": "normal",
+          "color": "rgb(255, 252, 225)"
+        },
+        "body": {
+          "font": "Mori",
+          "size": 14,
+          "weight": "400",
+          "lineHeight": 1.4,
+          "letterSpacing": "-0.14px",
+          "color": "rgb(14, 16, 15)"
+        }
+      },
+      "colors": {
+        "background": "#0e100f",
+        "surfaces": [
+          "#0e100f",
+          "#fffce1"
+        ],
+        "text": [
+          "#fffce1",
+          "#7c7c6f",
+          "#bbbaa6",
+          "#0e100f"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": null
+    }
+  },
+  {
     "id": "gumroad-landing",
     "site": "Gumroad",
     "url": "https://gumroad.com",
@@ -25891,6 +26360,149 @@
     }
   },
   {
+    "id": "hebbia-matrix-landing",
+    "site": "Hebbia Matrix",
+    "url": "https://www.hebbia.com/matrix",
+    "type": "landing",
+    "tags": [
+      "dark",
+      "serif-caps-wordmark",
+      "real-product-table",
+      "blue-grid-imagery",
+      "institutional"
+    ],
+    "note": "'MATRIX' in light serif caps over the real product table full of companies and extracted fields, then blue structural photography. The product's density is the hero.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/hebbia-matrix-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/hebbia-matrix-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Matrix",
+      "fonts": [
+        "Selecta Upright",
+        "Selecta",
+        "Material Symbols Sharp"
+      ],
+      "type": {
+        "h1": {
+          "font": "Selecta",
+          "size": 16,
+          "weight": "400",
+          "lineHeight": 0,
+          "letterSpacing": "normal",
+          "color": "rgb(244, 241, 235)"
+        },
+        "h2": {
+          "font": "Edict Display",
+          "size": 44,
+          "weight": "440",
+          "lineHeight": 1,
+          "letterSpacing": "normal",
+          "color": "rgb(244, 241, 235)"
+        },
+        "h3": {
+          "font": "Selecta Upright",
+          "size": 52,
+          "weight": "90",
+          "lineHeight": 1.1,
+          "letterSpacing": "-1.04px",
+          "color": "rgb(244, 241, 235)"
+        },
+        "body": {
+          "font": "Edict Display",
+          "size": 37,
+          "weight": "400",
+          "lineHeight": 0.93,
+          "letterSpacing": "normal",
+          "color": "rgb(244, 241, 235)"
+        }
+      },
+      "colors": {
+        "background": "#0e0b0b",
+        "surfaces": [
+          "#0e0b0b",
+          "#1d1d1d",
+          "#121212",
+          "#161616",
+          "#222222"
+        ],
+        "text": [
+          "#f5f5f5",
+          "#cacaca",
+          "#4e5bff",
+          "#a3a3a3"
+        ]
+      },
+      "buttons": [
+        {
+          "label": "Request demo",
+          "bg": "#f5f5f5",
+          "color": "#0e0b0b",
+          "radius": "4px",
+          "height": 35,
+          "paddingX": 12,
+          "font": "Selecta",
+          "size": 15,
+          "weight": "400"
+        },
+        {
+          "label": "Investing",
+          "bg": "#161616",
+          "color": "#ffffff",
+          "radius": "10px 0px 0px",
+          "height": 33,
+          "paddingX": 12,
+          "font": "Selecta",
+          "size": 15,
+          "weight": "400"
+        },
+        {
+          "label": "Banking",
+          "bg": "#101010",
+          "color": "#ffffff",
+          "radius": "10px 0px 0px",
+          "height": 33,
+          "paddingX": 12,
+          "font": "Selecta",
+          "size": 15,
+          "weight": "400"
+        },
+        {
+          "label": "Legal",
+          "bg": "#232323",
+          "color": "#ffffff",
+          "radius": "10px 0px 0px",
+          "height": 33,
+          "paddingX": 12,
+          "font": "Selecta",
+          "size": 15,
+          "weight": "400"
+        },
+        {
+          "label": "Corporate",
+          "bg": "#101010",
+          "color": "#ffffff",
+          "radius": "10px 0px 0px",
+          "height": 33,
+          "paddingX": 12,
+          "font": "Selecta",
+          "size": 15,
+          "weight": "400"
+        }
+      ],
+      "contentWidth": 1424
+    }
+  },
+  {
     "id": "hedra-landing",
     "site": "Hedra",
     "url": "https://www.hedra.com",
@@ -26419,6 +27031,102 @@
           "paddingX": 4,
           "font": "Moniker",
           "size": 14,
+          "weight": "500"
+        }
+      ],
+      "contentWidth": null
+    }
+  },
+  {
+    "id": "hey-calendar-landing",
+    "site": "Hey Calendar",
+    "url": "https://www.hey.com/calendar",
+    "type": "landing",
+    "tags": [
+      "light",
+      "heavy-rounded-headline",
+      "gradient-purple",
+      "rating-quotes",
+      "product-screens",
+      "playful-copy"
+    ],
+    "note": "'Make your day' in heavy rounded purple with three star-rated quotes above it, then the real calendar with its filmstrip idea ('Time never stops, life is like a filmstrip'). Loud, opinionated, and the copy carries the concept.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/hey-calendar-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/hey-calendar-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "HEY — Make your day",
+      "fonts": [
+        "Moniker",
+        "Really Sans Large",
+        "Shantell Sans"
+      ],
+      "type": {
+        "h1": {
+          "font": "Really Sans Large",
+          "size": 83,
+          "weight": "900",
+          "lineHeight": 1.1,
+          "letterSpacing": "normal",
+          "color": "rgb(35, 28, 51)"
+        },
+        "h2": {
+          "font": "Really Sans Large",
+          "size": 40,
+          "weight": "850",
+          "lineHeight": 1.2,
+          "letterSpacing": "normal",
+          "color": "rgb(35, 28, 51)"
+        },
+        "h3": {
+          "font": "Really Sans Large",
+          "size": 48,
+          "weight": "850",
+          "lineHeight": 1.1,
+          "letterSpacing": "normal",
+          "color": "rgb(35, 28, 51)"
+        },
+        "body": {
+          "font": "Moniker",
+          "size": 27,
+          "weight": "400",
+          "lineHeight": 1.4,
+          "letterSpacing": "-0.34px",
+          "color": "rgb(35, 28, 51)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#f9f7f5",
+          "#ffffff",
+          "#edeae6"
+        ],
+        "text": [
+          "#231c33",
+          "#ffffff"
+        ]
+      },
+      "buttons": [
+        {
+          "label": "Sign in",
+          "bg": "#edeae6",
+          "color": "#231c33",
+          "radius": "57.2px",
+          "height": 46,
+          "paddingX": 21,
+          "font": "Moniker",
+          "size": 21,
           "weight": "500"
         }
       ],
@@ -27708,6 +28416,216 @@
         }
       ],
       "contentWidth": 1600
+    }
+  },
+  {
+    "id": "intercom-fin-landing",
+    "site": "Intercom Fin",
+    "url": "https://fin.ai",
+    "type": "landing",
+    "tags": [
+      "light",
+      "orange-3d-ribbon",
+      "serif-display",
+      "chat-cards",
+      "metric-in-copy",
+      "logo-grid"
+    ],
+    "note": "A big orange 3D ribbon sculpture behind live chat cards, a serif headline and the resolution rate stated in the subhead. Proof and product in the first screen.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/intercom-fin-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/intercom-fin-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Fin. The highest performing Customer Agent",
+      "fonts": [
+        "Saans",
+        "system-ui",
+        "Serrif"
+      ],
+      "type": {
+        "h1": {
+          "font": "Serrif",
+          "size": 72,
+          "weight": "300",
+          "lineHeight": 1,
+          "letterSpacing": "-4px",
+          "color": "rgba(0, 0, 0, 0)"
+        },
+        "h2": {
+          "font": "Serrif",
+          "size": 32,
+          "weight": "300",
+          "lineHeight": 1.2,
+          "letterSpacing": "-1.088px",
+          "color": "rgb(0, 0, 0)"
+        },
+        "h3": {
+          "font": "Saans",
+          "size": 20,
+          "weight": "400",
+          "lineHeight": 1.2,
+          "letterSpacing": "-0.2px",
+          "color": "rgb(0, 0, 0)"
+        },
+        "body": {
+          "font": "Saans",
+          "size": 20,
+          "weight": "400",
+          "lineHeight": 1.2,
+          "letterSpacing": "-0.2px",
+          "color": "oklab(0 0 0 / 0.6)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#ffffff",
+          "#faf9f6",
+          "#e1e2e5",
+          "#111111",
+          "#000000"
+        ],
+        "text": [
+          "#000000",
+          "#111111",
+          "#393939",
+          "#3b3b3b"
+        ]
+      },
+      "buttons": [
+        {
+          "label": "View demo",
+          "bg": "#000000",
+          "color": "#ffffff",
+          "radius": "4px",
+          "height": 40,
+          "paddingX": 12,
+          "font": "Saans",
+          "size": 14,
+          "weight": "400"
+        },
+        {
+          "label": "View demo",
+          "bg": "#111111",
+          "color": "#ffffff",
+          "radius": "4px",
+          "height": 40,
+          "paddingX": 14,
+          "font": "Saans",
+          "size": 16,
+          "weight": "400"
+        }
+      ],
+      "contentWidth": 1600
+    }
+  },
+  {
+    "id": "ironclad-ai-landing",
+    "site": "Ironclad AI",
+    "url": "https://ironcladapp.com/product",
+    "type": "landing",
+    "tags": [
+      "light",
+      "signature-ui",
+      "serif-italic-accent",
+      "colour-stat-cards",
+      "green-cta"
+    ],
+    "note": "The hero shows a contract's signature block being filled, then stats on cards in brand colours of each customer (99%, 2k, 96%). Proof as a row of coloured numbers.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/ironclad-ai-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/ironclad-ai-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Ironclad's CLM Platform: Turning Every Contract Into Intelligence and Action",
+      "fonts": [
+        "Moderat",
+        "Moderat Mono",
+        "Times New Roman"
+      ],
+      "type": {
+        "h1": {
+          "font": "Moderat",
+          "size": 60,
+          "weight": "500",
+          "lineHeight": 1.2,
+          "letterSpacing": "-1.2px",
+          "color": "rgb(242, 241, 238)"
+        },
+        "h2": {
+          "font": "Moderat",
+          "size": 60,
+          "weight": "500",
+          "lineHeight": 1.2,
+          "letterSpacing": "-1.2px",
+          "color": "rgb(28, 33, 43)"
+        },
+        "h3": {
+          "font": "Moderat",
+          "size": 36,
+          "weight": "400",
+          "lineHeight": 1.2,
+          "letterSpacing": "-0.36px",
+          "color": "rgb(28, 33, 43)"
+        },
+        "body": {
+          "font": "Moderat Mono",
+          "size": 16,
+          "weight": "500",
+          "lineHeight": 1.2,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 202, 136)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#ffffff",
+          "#1c212b",
+          "#f5f5f3",
+          "#f2f1ee",
+          "#f1643c"
+        ],
+        "text": [
+          "#1c212b",
+          "#f2f1ee",
+          "#5f6674",
+          "#308970"
+        ]
+      },
+      "buttons": [
+        {
+          "label": "Contact Sales",
+          "bg": "#308970",
+          "color": "#f2f1ee",
+          "radius": "50px",
+          "height": 58,
+          "paddingX": 30,
+          "font": "Moderat",
+          "size": 18,
+          "weight": "500"
+        }
+      ],
+      "contentWidth": 1440
     }
   },
   {
@@ -30211,6 +31129,114 @@
     }
   },
   {
+    "id": "linear-mobile-landing",
+    "site": "Linear Mobile",
+    "url": "https://linear.app/mobile",
+    "type": "landing",
+    "tags": [
+      "dark",
+      "greyscale-device-photo",
+      "macro-photography",
+      "app-icons",
+      "small-type"
+    ],
+    "note": "The phone photographed in black and white, close, at an angle, with the app UI glowing on it. A mobile app sold with product photography, not a mockup.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/linear-mobile-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/linear-mobile-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Linear Mobile – Available for iOS and Android",
+      "fonts": [
+        "Inter Variable",
+        "Berkeley Mono"
+      ],
+      "type": {
+        "h1": {
+          "font": "Inter Variable",
+          "size": 48,
+          "weight": "590",
+          "lineHeight": 1,
+          "letterSpacing": "-1.056px",
+          "color": "rgb(247, 248, 248)"
+        },
+        "h2": {
+          "font": "Inter Variable",
+          "size": 48,
+          "weight": "510",
+          "lineHeight": 1,
+          "letterSpacing": "-1.056px",
+          "color": "rgb(247, 248, 248)"
+        },
+        "h3": {
+          "font": "Inter Variable",
+          "size": 20,
+          "weight": "510",
+          "lineHeight": 1.33,
+          "letterSpacing": "-0.24px",
+          "color": "rgb(247, 248, 248)"
+        },
+        "body": {
+          "font": "Inter Variable",
+          "size": 13,
+          "weight": "510",
+          "lineHeight": 1.5,
+          "letterSpacing": "-0.13px",
+          "color": "rgb(130, 143, 255)"
+        }
+      },
+      "colors": {
+        "background": "#08090a",
+        "surfaces": [
+          "#010102",
+          "#08090a",
+          "#5e6ad2",
+          "#e5e5e6"
+        ],
+        "text": [
+          "#8a8f98",
+          "#ffffff",
+          "#f7f8f8",
+          "#d0d6e0"
+        ]
+      },
+      "buttons": [
+        {
+          "label": "Sign up",
+          "bg": "#e5e5e6",
+          "color": "#010102",
+          "radius": "9999px",
+          "height": 32,
+          "paddingX": 12,
+          "font": "Inter Variable",
+          "size": 13,
+          "weight": "510"
+        },
+        {
+          "label": "See how it works",
+          "bg": "#e5e5e6",
+          "color": "#010102",
+          "radius": "9999px",
+          "height": 40,
+          "paddingX": 16,
+          "font": "Inter Variable",
+          "size": 15,
+          "weight": "510"
+        }
+      ],
+      "contentWidth": 1440
+    }
+  },
+  {
     "id": "lithic-landing",
     "site": "Lithic",
     "url": "https://www.lithic.com",
@@ -30570,6 +31596,125 @@
       },
       "buttons": [],
       "contentWidth": null
+    }
+  },
+  {
+    "id": "logseq-landing",
+    "site": "Logseq",
+    "url": "https://logseq.com",
+    "type": "landing",
+    "tags": [
+      "dark-teal",
+      "sculpture-photo",
+      "floating-cards",
+      "thin-type",
+      "audience-tiles"
+    ],
+    "note": "A classical bust photographed in teal with note cards floating around it ('Connect your notes, increase understanding'). Knowledge tools with a museum reference instead of a brain icon.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/logseq-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/logseq-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Logseq: A privacy-first, open-source knowledge base",
+      "fonts": [
+        "ui-sans-serif"
+      ],
+      "type": {
+        "h1": {
+          "font": "ui-sans-serif",
+          "size": 64,
+          "weight": "400",
+          "lineHeight": 0.95,
+          "letterSpacing": "1px",
+          "color": "rgba(183, 213, 213, 0.8)"
+        },
+        "h2": {
+          "font": "ui-sans-serif",
+          "size": 64,
+          "weight": "600",
+          "lineHeight": 0.95,
+          "letterSpacing": "1px",
+          "color": "rgb(243, 244, 246)"
+        },
+        "h3": {
+          "font": "ui-sans-serif",
+          "size": 38,
+          "weight": "400",
+          "lineHeight": 0.83,
+          "letterSpacing": "1px",
+          "color": "rgba(183, 213, 213, 0.8)"
+        },
+        "body": {
+          "font": "ui-sans-serif",
+          "size": 14,
+          "weight": "400",
+          "lineHeight": 1.43,
+          "letterSpacing": "normal",
+          "color": "rgb(142, 194, 194)"
+        }
+      },
+      "colors": {
+        "background": "#01222a",
+        "surfaces": [
+          "#023643",
+          "#002b36",
+          "#01222a",
+          "#195d6c",
+          "#0369a1"
+        ],
+        "text": [
+          "#b7d5d5",
+          "#f3f4f6",
+          "#a4b5b6",
+          "#8ec2c2"
+        ]
+      },
+      "buttons": [
+        {
+          "label": "Download for Linux",
+          "bg": "#0369a1",
+          "color": "#f3f4f6",
+          "radius": "4px",
+          "height": 28,
+          "paddingX": 8,
+          "font": "ui-sans-serif",
+          "size": 14,
+          "weight": "400"
+        },
+        {
+          "label": "Download for Linux",
+          "bg": "#195d6c",
+          "color": "#f3f4f6",
+          "radius": "8px",
+          "height": 48,
+          "paddingX": 16,
+          "font": "ui-sans-serif",
+          "size": 16,
+          "weight": "400"
+        },
+        {
+          "label": "Web app",
+          "bg": "#023643",
+          "color": "#f3f4f6",
+          "radius": "8px",
+          "height": 48,
+          "paddingX": 16,
+          "font": "ui-sans-serif",
+          "size": 16,
+          "weight": "400"
+        }
+      ],
+      "contentWidth": 1440
     }
   },
   {
@@ -35756,6 +36901,137 @@
     }
   },
   {
+    "id": "panda-css-landing",
+    "site": "Panda CSS",
+    "url": "https://panda-css.com",
+    "type": "landing",
+    "tags": [
+      "yellow-field",
+      "mascot",
+      "giant-wordmark",
+      "code-tabs",
+      "marquee-of-features"
+    ],
+    "note": "A full yellow field with a giant black 'panda' wordmark and a cartoon panda with a drink, then a ticker of feature words and a dark code tab. A CSS library with a character.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/panda-css-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/panda-css-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Panda CSS - Build modern websites using build time and type-safe CSS-in-JS",
+      "fonts": [
+        "Geist Mono",
+        "Onest"
+      ],
+      "type": {
+        "h1": {
+          "font": "Onest",
+          "size": 210,
+          "weight": "700",
+          "lineHeight": 0.95,
+          "letterSpacing": "-10.5px",
+          "color": "rgb(0, 0, 0)"
+        },
+        "h2": {
+          "font": "Onest",
+          "size": 45,
+          "weight": "600",
+          "lineHeight": 1.2,
+          "letterSpacing": "-1.125px",
+          "color": "rgb(255, 255, 255)"
+        },
+        "h3": {
+          "font": "Onest",
+          "size": 34,
+          "weight": "700",
+          "lineHeight": 1.2,
+          "letterSpacing": "-0.84375px",
+          "color": "rgb(23, 23, 23)"
+        },
+        "body": {
+          "font": "Onest",
+          "size": 15,
+          "weight": "400",
+          "lineHeight": 1.5,
+          "letterSpacing": "normal",
+          "color": "rgb(255, 255, 255)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#000000",
+          "#fde047",
+          "#282828",
+          "#ffffff",
+          "#f5f5f5"
+        ],
+        "text": [
+          "#171717",
+          "#ffffff",
+          "#b8bb26",
+          "#a89984"
+        ]
+      },
+      "buttons": [
+        {
+          "label": "Playground\n(opens in a new tab)",
+          "bg": "#000000",
+          "color": "#ffffff",
+          "radius": "5.625px",
+          "height": 34,
+          "paddingX": 11,
+          "font": "Onest",
+          "size": 13,
+          "weight": "600"
+        },
+        {
+          "label": "Get Started",
+          "bg": "#ffffff",
+          "color": "#000000",
+          "radius": "13px",
+          "height": 58,
+          "paddingX": 23,
+          "font": "Onest",
+          "size": 23,
+          "weight": "600"
+        },
+        {
+          "label": "Browse Guides",
+          "bg": "#000000",
+          "color": "#ffffff",
+          "radius": "13px",
+          "height": 58,
+          "paddingX": 23,
+          "font": "Onest",
+          "size": 23,
+          "weight": "600"
+        },
+        {
+          "label": "style-functions.tsx",
+          "bg": "#facc15",
+          "color": "#000000",
+          "radius": "10px",
+          "height": 45,
+          "paddingX": 0,
+          "font": "Onest",
+          "size": 15,
+          "weight": "500"
+        }
+      ],
+      "contentWidth": 1350
+    }
+  },
+  {
     "id": "pangram-pangram-landing",
     "site": "Pangram Pangram",
     "url": "https://pangrampangram.com",
@@ -35957,6 +37233,94 @@
       },
       "buttons": [],
       "contentWidth": 1050
+    }
+  },
+  {
+    "id": "paper-landing",
+    "site": "Paper",
+    "url": "https://paper.design",
+    "type": "landing",
+    "tags": [
+      "light",
+      "warm-grey-paper",
+      "technical-grid",
+      "lowercase-headline",
+      "product-window",
+      "muted-accents",
+      "bg-technical-grid"
+    ],
+    "note": "Lowercase headline in two greys ('design incredible / the connected canvas for teams shipping with agents') on warm grid paper, then the real canvas UI. A design tool that looks like a sketchbook.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/paper-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/paper-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Paper – design, share, ship",
+      "fonts": [
+        "Matter",
+        "-apple-system",
+        "paperMono"
+      ],
+      "type": {
+        "h1": {
+          "font": "Matter",
+          "size": 48,
+          "weight": "360",
+          "lineHeight": 1,
+          "letterSpacing": "-0.96px",
+          "color": "lab(8.244 0 -0.00000298023)"
+        },
+        "h2": {
+          "font": "Matter",
+          "size": 48,
+          "weight": "360",
+          "lineHeight": 1,
+          "letterSpacing": "-0.96px",
+          "color": "lab(59.7944 -0.0000298023 0)"
+        },
+        "h3": {
+          "font": "Matter",
+          "size": 18,
+          "weight": "550",
+          "lineHeight": 1.56,
+          "letterSpacing": "0.18px",
+          "color": "lab(8.244 0 -0.00000298023)"
+        },
+        "body": {
+          "font": "Matter",
+          "size": 18,
+          "weight": "400",
+          "lineHeight": 1.56,
+          "letterSpacing": "0.18px",
+          "color": "lab(8.244 0 -0.00000298023)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#f2f2f2",
+          "#f9f9f9",
+          "#c1c1c0",
+          "#f6f6f6",
+          "#fcfbfd"
+        ],
+        "text": [
+          "#000000",
+          "#797979",
+          "#959595"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": 1080
     }
   },
   {
@@ -44585,6 +45949,116 @@
     }
   },
   {
+    "id": "spellbook-landing",
+    "site": "Spellbook",
+    "url": "https://www.spellbook.legal",
+    "type": "landing",
+    "tags": [
+      "dark",
+      "architectural-photo",
+      "serif-display",
+      "rating-badge",
+      "logo-grid"
+    ],
+    "note": "A dark photograph looking up at office towers under a serif headline, then a dense logo grid of in-house legal teams. Legal AI framed as the city where deals happen.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/spellbook-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/spellbook-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "AI Contract Review & Drafting | Spellbook",
+      "fonts": [
+        "Soehne",
+        "Arial",
+        "Arizona Mix"
+      ],
+      "type": {
+        "h1": {
+          "font": "Arizona Mix",
+          "size": 68,
+          "weight": "300",
+          "lineHeight": 1,
+          "letterSpacing": "-2.72px",
+          "color": "rgb(255, 255, 255)"
+        },
+        "h2": {
+          "font": "Soehne",
+          "size": 20,
+          "weight": "400",
+          "lineHeight": 1.4,
+          "letterSpacing": "normal",
+          "color": "rgb(14, 19, 21)"
+        },
+        "h3": {
+          "font": "Soehne",
+          "size": 20,
+          "weight": "400",
+          "lineHeight": 1.4,
+          "letterSpacing": "normal",
+          "color": "rgb(86, 89, 91)"
+        },
+        "body": {
+          "font": "Soehne",
+          "size": 20,
+          "weight": "400",
+          "lineHeight": 1.4,
+          "letterSpacing": "normal",
+          "color": "rgb(217, 217, 217)"
+        }
+      },
+      "colors": {
+        "background": "#0e1315",
+        "surfaces": [
+          "#000000",
+          "#ffffff",
+          "#0e1315",
+          "#2e3333",
+          "#f5f5f5"
+        ],
+        "text": [
+          "#f5f5f5",
+          "#0e1315",
+          "#d9d9d9",
+          "#ffffff"
+        ]
+      },
+      "buttons": [
+        {
+          "label": "Book a Demo",
+          "bg": "#ffffff",
+          "color": "#0e1315",
+          "radius": "3.2px",
+          "height": 48,
+          "paddingX": 24,
+          "font": "Soehne",
+          "size": 16,
+          "weight": "500"
+        },
+        {
+          "label": "Book a Demo",
+          "bg": "#ffffff",
+          "color": "#0e1315",
+          "radius": "3.2px",
+          "height": 48,
+          "paddingX": 24,
+          "font": "Soehne",
+          "size": 16,
+          "weight": "500"
+        }
+      ],
+      "contentWidth": 1472
+    }
+  },
+  {
     "id": "spline-landing",
     "site": "Spline",
     "url": "https://spline.design",
@@ -45168,6 +46642,115 @@
       },
       "buttons": [],
       "contentWidth": 1060
+    }
+  },
+  {
+    "id": "storybook-landing",
+    "site": "Storybook",
+    "url": "https://storybook.js.org",
+    "type": "landing",
+    "tags": [
+      "dark-to-colour",
+      "gradient-band",
+      "real-product-window",
+      "component-in-canvas",
+      "stats-row"
+    ],
+    "note": "A pink-to-violet band holds the real Storybook window showing one component (a product card) with its controls and tests beside it. The tool shown working on a believable component, not an empty shell.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/storybook-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/storybook-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Storybook: Frontend workshop for UI development",
+      "fonts": [
+        "__Nunito_Sans_5c797e",
+        "ui-monospace"
+      ],
+      "type": {
+        "h1": {
+          "font": "__Nunito_Sans_5c797e",
+          "size": 56,
+          "weight": "700",
+          "lineHeight": 1.25,
+          "letterSpacing": "normal",
+          "color": "rgb(255, 255, 255)"
+        },
+        "h2": {
+          "font": "__Nunito_Sans_5c797e",
+          "size": 56,
+          "weight": "700",
+          "lineHeight": 1.25,
+          "letterSpacing": "normal",
+          "color": "rgb(255, 255, 255)"
+        },
+        "h3": {
+          "font": "__Nunito_Sans_5c797e",
+          "size": 24,
+          "weight": "700",
+          "lineHeight": 1.33,
+          "letterSpacing": "normal",
+          "color": "rgb(255, 255, 255)"
+        },
+        "body": {
+          "font": "__Nunito_Sans_5c797e",
+          "size": 16,
+          "weight": "400",
+          "lineHeight": 1.75,
+          "letterSpacing": "normal",
+          "color": "rgb(255, 255, 255)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#ffffff",
+          "#0d1026",
+          "#f7f9fc",
+          "#029cfd",
+          "#e2e8f0"
+        ],
+        "text": [
+          "#ffffff",
+          "#000000",
+          "#0271b6",
+          "#16b242"
+        ]
+      },
+      "buttons": [
+        {
+          "label": "Get Started",
+          "bg": "#ffffff",
+          "color": "#000000",
+          "radius": "9999px",
+          "height": 32,
+          "paddingX": 12,
+          "font": "__Nunito_Sans_5c797e",
+          "size": 16,
+          "weight": "400"
+        },
+        {
+          "label": "Get Started",
+          "bg": "#ffffff",
+          "color": "#000000",
+          "radius": "9999px",
+          "height": 48,
+          "paddingX": 24,
+          "font": "__Nunito_Sans_5c797e",
+          "size": 16,
+          "weight": "700"
+        }
+      ],
+      "contentWidth": 1440
     }
   },
   {
@@ -46152,6 +47735,87 @@
     }
   },
   {
+    "id": "supabase-launch-week-landing",
+    "site": "Supabase Launch Week",
+    "url": "https://supabase.com/launch-week",
+    "type": "landing",
+    "tags": [
+      "light",
+      "event-page",
+      "giant-numeral-wordmark",
+      "photo-in-type",
+      "day-cards",
+      "greyscale-photography"
+    ],
+    "note": "'LW 15' set huge with a greyscale photo strip running between the letters and the number, then one card per day of the launch week. A recurring event branded by its number.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/supabase-launch-week-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/supabase-launch-week-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Launch Week 15 | 14 — 18 Jul / 8am PT",
+      "fonts": [
+        "SuisseIntl-Book",
+        "Manrope",
+        "ui-sans-serif"
+      ],
+      "type": {
+        "h1": {
+          "font": "Manrope",
+          "size": 16,
+          "weight": "500",
+          "lineHeight": 1.5,
+          "letterSpacing": "normal",
+          "color": "oklch(0.1 0 337.5)"
+        },
+        "h2": {
+          "font": "Manrope",
+          "size": 16,
+          "weight": "600",
+          "lineHeight": 1.5,
+          "letterSpacing": "normal",
+          "color": "oklch(0.1 0 337.5)"
+        },
+        "h3": {
+          "font": "Manrope",
+          "size": 28,
+          "weight": "600",
+          "lineHeight": 1.2,
+          "letterSpacing": "normal",
+          "color": "oklch(0.1 0 337.5)"
+        },
+        "body": {
+          "font": "SuisseIntl-Book",
+          "size": 14,
+          "weight": "500",
+          "lineHeight": 1.38,
+          "letterSpacing": "normal",
+          "color": "oklch(0.1 0 337.5)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#000000"
+        ],
+        "text": [
+          "#ffffff"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": 1280
+    }
+  },
+  {
     "id": "supergiant-games-landing",
     "site": "Supergiant Games",
     "url": "https://www.supergiantgames.com",
@@ -46979,6 +48643,117 @@
         }
       ],
       "contentWidth": 1440
+    }
+  },
+  {
+    "id": "tanstack-landing",
+    "site": "TanStack",
+    "url": "https://tanstack.com",
+    "type": "landing",
+    "tags": [
+      "pastel-sky",
+      "palm-tree-photo",
+      "stats-row",
+      "big-numbers",
+      "prompt-box",
+      "bg-photo-field"
+    ],
+    "note": "A single palm tree photographed against a pastel gradient sky, a plain headline, then download stats as giant numbers (22,171,284,782). An open-source stack with a holiday mood and hard proof.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/tanstack-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/tanstack-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "TanStack | The open-source application stack for the web.",
+      "fonts": [
+        "Inter",
+        "ui-monospace",
+        "Bricolage Grotesque"
+      ],
+      "type": {
+        "h1": {
+          "font": "Bricolage Grotesque",
+          "size": 62,
+          "weight": "800",
+          "lineHeight": 1.08,
+          "letterSpacing": "-1.548px",
+          "color": "rgb(17, 17, 17)"
+        },
+        "h2": {
+          "font": "Bricolage Grotesque",
+          "size": 64,
+          "weight": "500",
+          "lineHeight": 1.05,
+          "letterSpacing": "-0.8px",
+          "color": "rgb(32, 27, 21)"
+        },
+        "h3": {
+          "font": "Bricolage Grotesque",
+          "size": 64,
+          "weight": "500",
+          "lineHeight": 1.05,
+          "letterSpacing": "-0.8px",
+          "color": "rgb(32, 27, 21)"
+        },
+        "body": {
+          "font": "Inter",
+          "size": 20,
+          "weight": "400",
+          "lineHeight": 1.6,
+          "letterSpacing": "normal",
+          "color": "rgb(17, 17, 17)"
+        }
+      },
+      "colors": {
+        "background": "#fdfdfd",
+        "surfaces": [
+          "#fafafa",
+          "#faf8f2",
+          "#111111",
+          "#ffffff",
+          "#000000"
+        ],
+        "text": [
+          "#3e3529",
+          "#5f574a",
+          "#111111",
+          "#756c5b"
+        ]
+      },
+      "buttons": [
+        {
+          "label": "Log In",
+          "bg": "#000000",
+          "color": "#ffffff",
+          "radius": "6px",
+          "height": 28,
+          "paddingX": 8,
+          "font": "Inter",
+          "size": 12,
+          "weight": "600"
+        },
+        {
+          "label": "Browse the Stack",
+          "bg": "#111111",
+          "color": "#ffffff",
+          "radius": "3.35544e+07px",
+          "height": 38,
+          "paddingX": 16,
+          "font": "Inter",
+          "size": 14,
+          "weight": "600"
+        }
+      ],
+      "contentWidth": 1536
     }
   },
   {
@@ -48275,6 +50050,83 @@
       },
       "buttons": [],
       "contentWidth": 952
+    }
+  },
+  {
+    "id": "three-js-landing",
+    "site": "Three.js",
+    "url": "https://threejs.org",
+    "type": "landing",
+    "tags": [
+      "light",
+      "showcase-mosaic",
+      "user-work-grid",
+      "no-hero",
+      "minimal-nav"
+    ],
+    "note": "The homepage is a mosaic of projects made with the library (games, scenes, sites) under a tiny text nav. No pitch at all: the work is the pitch.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/three-js-landing-desktop.jpg",
+        "width": 1440,
+        "height": 900
+      },
+      "mobile": {
+        "file": "screens/three-js-landing-mobile.jpg",
+        "width": 390,
+        "height": 844
+      }
+    },
+    "tokens": {
+      "title": "Three.js – JavaScript 3D Library",
+      "fonts": [
+        "Roboto Mono"
+      ],
+      "type": {
+        "h1": {
+          "font": "Roboto Mono",
+          "size": 18,
+          "weight": "500",
+          "lineHeight": 1.33,
+          "letterSpacing": "normal",
+          "color": "rgb(4, 158, 244)"
+        },
+        "h2": {
+          "font": "Roboto Mono",
+          "size": 15,
+          "weight": "500",
+          "lineHeight": 1.73,
+          "letterSpacing": "normal",
+          "color": "rgb(4, 158, 244)"
+        },
+        "h3": null,
+        "body": null
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#ffffff"
+        ],
+        "text": [
+          "#444444",
+          "#049ef4"
+        ]
+      },
+      "buttons": [
+        {
+          "label": "submit project",
+          "bg": "#ffffff",
+          "color": "#049ef4",
+          "radius": "25px",
+          "height": 49,
+          "paddingX": 20,
+          "font": "Roboto Mono",
+          "size": 15,
+          "weight": "500"
+        }
+      ],
+      "contentWidth": null
     }
   },
   {

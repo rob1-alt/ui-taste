@@ -7115,5 +7115,234 @@
    "merch-as-content"
   ],
   "note": "Magazine covers, posters and merch sit side by side in the first row as equals, then full-bleed photo bands with caption headlines in white caps over them. Content and shop share one visual system."
+ },
+ {
+  "site": "Anthropic Claude",
+  "type": "landing",
+  "url": "https://claude.com",
+  "tags": [
+   "light",
+   "serif-display",
+   "documentary-photo",
+   "signup-in-hero",
+   "pricing-on-home"
+  ],
+  "note": "'Question what's next' in a small serif beside a documentary photograph of someone at a cluttered desk, with the sign-up right in the hero and the plans directly below. An AI product framed by a human, ordinary scene, not by a robot or a glow."
+ },
+ {
+  "site": "Supabase Launch Week",
+  "type": "landing",
+  "url": "https://supabase.com/launch-week",
+  "tags": [
+   "light",
+   "event-page",
+   "giant-numeral-wordmark",
+   "photo-in-type",
+   "day-cards",
+   "greyscale-photography"
+  ],
+  "note": "'LW 15' set huge with a greyscale photo strip running between the letters and the number, then one card per day of the launch week. A recurring event branded by its number."
+ },
+ {
+  "site": "Storybook",
+  "type": "landing",
+  "url": "https://storybook.js.org",
+  "tags": [
+   "dark-to-colour",
+   "gradient-band",
+   "real-product-window",
+   "component-in-canvas",
+   "stats-row"
+  ],
+  "note": "A pink-to-violet band holds the real Storybook window showing one component (a product card) with its controls and tests beside it. The tool shown working on a believable component, not an empty shell."
+ },
+ {
+  "site": "TanStack",
+  "type": "landing",
+  "url": "https://tanstack.com",
+  "tags": [
+   "pastel-sky",
+   "palm-tree-photo",
+   "stats-row",
+   "big-numbers",
+   "prompt-box",
+   "bg-photo-field"
+  ],
+  "note": "A single palm tree photographed against a pastel gradient sky, a plain headline, then download stats as giant numbers (22,171,284,782). An open-source stack with a holiday mood and hard proof."
+ },
+ {
+  "site": "Panda CSS",
+  "type": "landing",
+  "url": "https://panda-css.com",
+  "tags": [
+   "yellow-field",
+   "mascot",
+   "giant-wordmark",
+   "code-tabs",
+   "marquee-of-features"
+  ],
+  "note": "A full yellow field with a giant black 'panda' wordmark and a cartoon panda with a drink, then a ticker of feature words and a dark code tab. A CSS library with a character."
+ },
+ {
+  "site": "GSAP",
+  "type": "landing",
+  "url": "https://gsap.com",
+  "tags": [
+   "dark",
+   "giant-display-type",
+   "sticker-shapes",
+   "bracket-labels",
+   "lime-accent",
+   "playful-motion-assets"
+  ],
+  "note": "'Animate anything' set huge with small coloured shapes stuck to the letters like stickers, curly brackets framing the subhead, and lime on near-black. An animation library that behaves like its own demos."
+ },
+ {
+  "site": "Three.js",
+  "type": "landing",
+  "url": "https://threejs.org",
+  "tags": [
+   "light",
+   "showcase-mosaic",
+   "user-work-grid",
+   "no-hero",
+   "minimal-nav"
+  ],
+  "note": "The homepage is a mosaic of projects made with the library (games, scenes, sites) under a tiny text nav. No pitch at all: the work is the pitch."
+ },
+ {
+  "site": "Paper",
+  "type": "landing",
+  "url": "https://paper.design",
+  "tags": [
+   "light",
+   "warm-grey-paper",
+   "technical-grid",
+   "lowercase-headline",
+   "product-window",
+   "muted-accents",
+   "bg-technical-grid"
+  ],
+  "note": "Lowercase headline in two greys ('design incredible / the connected canvas for teams shipping with agents') on warm grid paper, then the real canvas UI. A design tool that looks like a sketchbook."
+ },
+ {
+  "site": "Figma Slides",
+  "type": "landing",
+  "url": "https://www.figma.com/slides",
+  "tags": [
+   "light",
+   "shape-stickers",
+   "colour-blocks",
+   "product-window",
+   "purple-section",
+   "brand-shapes"
+  ],
+  "note": "Big flat brand shapes (asterisk, checkerboard, blob) stacked behind the real slides editor, then a lilac section. Figma's shape language as decoration that comes from the product's own output."
+ },
+ {
+  "site": "Figma Sites",
+  "type": "landing",
+  "url": "https://www.figma.com/sites",
+  "tags": [
+   "light",
+   "product-window",
+   "colour-shapes",
+   "published-site-in-editor",
+   "grey-section"
+  ],
+  "note": "The editor shown building a real-looking site (a flower shop) with big flat colour shapes behind it. The output inside the tool is the hero."
+ },
+ {
+  "site": "Logseq",
+  "type": "landing",
+  "url": "https://logseq.com",
+  "tags": [
+   "dark-teal",
+   "sculpture-photo",
+   "floating-cards",
+   "thin-type",
+   "audience-tiles"
+  ],
+  "note": "A classical bust photographed in teal with note cards floating around it ('Connect your notes, increase understanding'). Knowledge tools with a museum reference instead of a brain icon."
+ },
+ {
+  "site": "Linear Mobile",
+  "type": "landing",
+  "url": "https://linear.app/mobile",
+  "tags": [
+   "dark",
+   "greyscale-device-photo",
+   "macro-photography",
+   "app-icons",
+   "small-type"
+  ],
+  "note": "The phone photographed in black and white, close, at an angle, with the app UI glowing on it. A mobile app sold with product photography, not a mockup."
+ },
+ {
+  "site": "Hey Calendar",
+  "type": "landing",
+  "url": "https://www.hey.com/calendar",
+  "tags": [
+   "light",
+   "heavy-rounded-headline",
+   "gradient-purple",
+   "rating-quotes",
+   "product-screens",
+   "playful-copy"
+  ],
+  "note": "'Make your day' in heavy rounded purple with three star-rated quotes above it, then the real calendar with its filmstrip idea ('Time never stops, life is like a filmstrip'). Loud, opinionated, and the copy carries the concept."
+ },
+ {
+  "site": "Intercom Fin",
+  "type": "landing",
+  "url": "https://fin.ai",
+  "tags": [
+   "light",
+   "orange-3d-ribbon",
+   "serif-display",
+   "chat-cards",
+   "metric-in-copy",
+   "logo-grid"
+  ],
+  "note": "A big orange 3D ribbon sculpture behind live chat cards, a serif headline and the resolution rate stated in the subhead. Proof and product in the first screen."
+ },
+ {
+  "site": "Hebbia Matrix",
+  "type": "landing",
+  "url": "https://www.hebbia.com/matrix",
+  "tags": [
+   "dark",
+   "serif-caps-wordmark",
+   "real-product-table",
+   "blue-grid-imagery",
+   "institutional"
+  ],
+  "note": "'MATRIX' in light serif caps over the real product table full of companies and extracted fields, then blue structural photography. The product's density is the hero."
+ },
+ {
+  "site": "Spellbook",
+  "type": "landing",
+  "url": "https://www.spellbook.legal",
+  "tags": [
+   "dark",
+   "architectural-photo",
+   "serif-display",
+   "rating-badge",
+   "logo-grid"
+  ],
+  "note": "A dark photograph looking up at office towers under a serif headline, then a dense logo grid of in-house legal teams. Legal AI framed as the city where deals happen."
+ },
+ {
+  "site": "Ironclad AI",
+  "type": "landing",
+  "url": "https://ironcladapp.com/product",
+  "tags": [
+   "light",
+   "signature-ui",
+   "serif-italic-accent",
+   "colour-stat-cards",
+   "green-cta"
+  ],
+  "note": "The hero shows a contract's signature block being filled, then stats on cards in brand colours of each customer (99%, 2k, 96%). Proof as a row of coloured numbers."
  }
 ]

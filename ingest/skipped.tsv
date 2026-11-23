@@ -262,3 +262,36 @@ https://www.salomon.com	broken (capture failed)
 https://www.muji.com	broken (capture failed)
 https://www.newyorker.com	broken (capture failed)
 https://www.bloomberg.com/businessweek	broken (capture failed)
+https://www.framer.com/motion	duplicate of motion
+https://www.todoist.com	generic
+https://missiveapp.com	generic
+https://www.rippling.com	generic
+https://claude.com/product/claude-code	generic product page
+https://www.raycast.com/pro	generic dark
+https://www.sanity.io/studio	cluttered
+https://www.chromatic.com	generic
+https://playwright.dev	docs-style
+https://neon.tech/branching	generic dark
+https://www.radix-ui.com/themes	generic
+https://ark-ui.com	generic
+https://park-ui.com	unfinished page
+https://unocss.dev	generic
+https://motion.dev	generic dark
+https://docs.fal.ai	generic
+https://modal.com/docs	generic
+https://vercel.com/ai	generic
+https://resend.com/broadcasts	broken
+https://vitest.dev	generic
+https://deno.com/deploy	generic
+https://reactrouter.com	generic
+https://lottiefiles.com	broken
+https://www.canva.com	broken
+https://tome.app	broken
+https://www.beautiful.ai	generic
+https://get.mem.ai	generic
+https://akiflow.com	generic
+https://ticktick.com	generic
+https://front.com/product	generic
+https://www.clio.com	broken
+https://clerk.com/elements	broken (capture failed)
+https://remix.run	not triaged, redirects to React Router
