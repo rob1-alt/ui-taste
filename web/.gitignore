@@ -1,0 +1,11 @@
+node_modules
+.next
+out
+next-env.d.ts
+*.tsbuildinfo
+# synced from site/ and the library by scripts/sync-assets.mjs
+public/thumbs
+public/screens
+public/brand
+public/tally-sky.svg
+public/tally-hills.svg
