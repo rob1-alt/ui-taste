@@ -21,18 +21,33 @@
   $("#c-date").textContent = LIB.map((x) => x.captured).sort().pop() || "";
 
   // ---- hero: the word TASTE spelled with every page of the library ----
-  // desktop: 39 × 7 = 273, one line. mobile: 13 × 21 = 273, "TA / ST / E".
+  // desktop: one line, 7 rows for the glyphs. mobile: "TA / ST / E" on 21 rows. The grid grows to fill the first screen.
   const GLYPH = {
     T: ["11111", "00100", "00100", "00100", "00100", "00100", "00100"],
     A: ["01110", "10001", "10001", "11111", "10001", "10001", "10001"],
     S: ["01111", "10000", "10000", "01110", "00001", "00001", "11110"],
     E: ["11111", "10000", "10000", "11110", "10000", "10000", "11111"],
   };
-  const LAYOUTS = {
-    // one cell per page: the grid grows with the library and the word stays centred
-    wide: (() => { const cols = Math.max(39, Math.ceil(LIB.length / 7)), o = Math.floor((cols - 39) / 2); return { cols, rows: 7, letters: [["T", 0, 5 + o], ["A", 0, 11 + o], ["S", 0, 17 + o], ["T", 0, 23 + o], ["E", 0, 29 + o]] }; })(),
-    tall: (() => { const rows = Math.max(21, Math.ceil(LIB.length / 13)), o = Math.floor((rows - 21) / 2); return { cols: 13, rows, letters: [["T", o, 1], ["A", o, 7], ["S", 7 + o, 1], ["T", 7 + o, 7], ["E", 14 + o, 4]] }; })(),
+  // The grid fills the hero: pick the column count whose stretched tiles stay closest to a phone screen,
+  // given the mosaic's width and height. One cell per page on desktop; on phones the columns are capped so the
+  // word stays legible and only part of the library is drawn. The glyphs sit centred in the grid.
+  const WORD = {
+    wide: { minCols: 39, minRows: 7, aspect: 507 / 260, letters: (co, ro) => [["T", ro, 5 + co], ["A", ro, 11 + co], ["S", ro, 17 + co], ["T", ro, 23 + co], ["E", ro, 29 + co]], pad: (cols, rows) => [Math.floor((cols - 39) / 2), Math.floor((rows - 7) / 2)] },
+    tall: { minCols: 13, maxCols: 15, minRows: 21, aspect: 1.08, letters: (co, ro) => [["T", ro, 1 + co], ["A", ro, 7 + co], ["S", 7 + ro, 1 + co], ["T", 7 + ro, 7 + co], ["E", 14 + ro, 4 + co]], pad: (cols, rows) => [Math.floor((cols - 13) / 2), Math.floor((rows - 21) / 2)] },
   };
+  function fitLayout(word, W, H, gap) {
+    let best = null;
+    for (let cols = word.minCols; cols <= (word.maxCols || 160); cols++) {
+      const tw = (W - gap * (cols - 1)) / cols;
+      // capped grids (phones) take as many rows as the height allows; open grids take one cell per page
+      const rows = Math.max(word.minRows, word.maxCols ? Math.round((H + gap) / (tw * word.aspect + gap)) : Math.ceil(LIB.length / cols));
+      const th = (H - gap * (rows - 1)) / rows;
+      const err = Math.abs(Math.log((th / tw) / word.aspect));
+      if (!best || err < best.err) best = { cols, rows, err };
+    }
+    const [co, ro] = word.pad(best.cols, best.rows);
+    return { key: `${word.minCols}:${best.cols}x${best.rows}`, cols: best.cols, rows: best.rows, letters: word.letters(co, ro), wide: word === WORD.wide };
+  }
   let seed = 7; const rnd = () => (seed = (seed * 16807) % 2147483647) / 2147483647;
   const shuffle = (arr) => { for (let i = arr.length - 1; i > 0; i--) { const j = Math.floor(rnd() * (i + 1)); [arr[i], arr[j]] = [arr[j], arr[i]]; } return arr; };
   const lum = (h) => { const m = /^#([0-9a-f]{6})$/i.exec(h || ""); if (!m) return 1; const n = parseInt(m[1], 16); return ((n >> 16) * 0.299 + ((n >> 8) & 255) * 0.587 + (n & 255) * 0.114) / 255; };
@@ -45,8 +60,13 @@
   let cells = [], lit = new Set(), layout = null, centers = null;
 
   function buildMosaic() {
-    const L = matchMedia("(max-width: 720px)").matches ? LAYOUTS.tall : LAYOUTS.wide;
-    if (L === layout) return;
+    const cs = getComputedStyle(mosaic), gap = parseFloat(cs.columnGap) || 3;
+    const W = mosaic.clientWidth - parseFloat(cs.paddingLeft) - parseFloat(cs.paddingRight);
+    const H = mosaic.clientHeight - parseFloat(cs.paddingTop) - parseFloat(cs.paddingBottom);
+    const L = fitLayout(matchMedia("(max-width: 720px)").matches ? WORD.tall : WORD.wide, W, Math.max(H, 120), gap);
+    // rows in px so the grid's height never depends on the images: it is exactly the space the hero leaves
+    mosaic.style.gridTemplateRows = `repeat(${L.rows}, ${((Math.max(H, 120) - gap * (L.rows - 1)) / L.rows).toFixed(2)}px)`;
+    if (layout && L.key === layout.key) return;
     layout = L; seed = 7;
     lit = new Set();
     L.letters.forEach(([ch, r0, c0]) => GLYPH[ch].forEach((line, r) => [...line].forEach((v, c) => { if (v === "1") lit.add((r0 + r) * L.cols + c0 + c); })));
@@ -54,20 +74,24 @@
     const rest = shuffle(LIB.filter((x) => !litPages.includes(x)));
     const pool = shuffle(litPages.slice());
     cells = [];
-    for (let i = 0, a = 0, b = 0; i < L.cols * L.rows; i++) cells.push(lit.has(i) ? pool[a++] : rest[b++] || null);
+    // the grid rarely divides the library exactly: the last cells repeat dimmed pages rather than leave a ragged row
+    for (let i = 0, a = 0, b = 0; i < L.cols * L.rows; i++) cells.push(lit.has(i) ? pool[a++] : rest[b++ % rest.length]);
     mosaic.style.setProperty("--cols", L.cols);
     mosaic.classList.remove("in");
     mosaic.innerHTML = cells.map((it, i) => {
       if (!it) return `<span class="tile off" data-i="${i}"></span>`;
       const col = i % L.cols, row = Math.floor(i / L.cols), on = lit.has(i);
-      const delay = L === LAYOUTS.wide ? col * 14 + rnd() * 160 : row * 30 + rnd() * 120;
+      const delay = L.wide ? col * 14 + rnd() * 160 : row * 30 + rnd() * 120;
       return `<a class="tile${on ? "" : " off"}" href="library.html#id=${encodeURIComponent(it.id)}" data-i="${i}" style="--d:${Math.round(delay)}ms" aria-label="${esc(it.site)}, ${esc(typeLabel(it.type).toLowerCase())}"><img src="${esc(tileSrc(it))}" alt="" decoding="async"></a>`;
     }).join("");
     requestAnimationFrame(() => requestAnimationFrame(() => mosaic.classList.add("in")));
     centers = null;
   }
   buildMosaic();
-  matchMedia("(max-width: 720px)").addEventListener("change", buildMosaic);
+  // the mosaic's box changes when the web font lands (the headline rewraps) and on resize: refit the grid then
+  let mosaicRt; const refit = () => { clearTimeout(mosaicRt); mosaicRt = setTimeout(buildMosaic, 120); };
+  new ResizeObserver(refit).observe(mosaic);
+  document.fonts?.ready.then(refit);
 
   // name of the hovered page
   const tiN = $("#ti-n"), tiText = $("#ti-text");

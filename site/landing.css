@@ -76,17 +76,18 @@ main { max-width: none; margin: 0; padding: 0; }
 .wrap, .measured, .numbers, .index, .method, .review, .install { max-width: var(--wrap); margin: 0 auto; padding-left: 24px; padding-right: 24px; }
 
 /* ---------- hero: the mosaic ---------- */
-.hero { background: #0e0e0e; color: #fff; padding: 20px 0 0; }
+.hero { background: #0e0e0e; color: #fff; padding: 20px 0 0; display: flex; flex-direction: column; min-height: calc(100vh - 56px); min-height: calc(100svh - 56px); }
 .mosaic {
-  display: grid; grid-template-columns: repeat(var(--cols, 39), minmax(0, 1fr)); gap: 3px; padding: 0 24px;
+  flex: 1 1 auto; min-height: 0; display: grid; gap: 3px; padding: 0 24px;
+  grid-template-columns: repeat(var(--cols, 39), minmax(0, 1fr)); grid-auto-rows: 0;
 }
 .tile {
-  position: relative; display: block; aspect-ratio: 260 / 507; overflow: hidden; border-radius: 2px; background: #1b1b1a;
+  position: relative; display: block; min-height: 0; overflow: hidden; border-radius: 2px; background: #1b1b1a;
   opacity: 0; transform: scale(0.6);
   transition: opacity 420ms var(--ease), transform 420ms var(--ease), filter 600ms var(--ease);
   transition-delay: var(--d, 0ms);
 }
-.tile img { width: 100%; height: 100%; object-fit: cover; object-position: top; }
+.tile img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: top; }
 .mosaic.in .tile { opacity: 1; transform: none; }
 .tile.off { filter: grayscale(1) brightness(0.5) contrast(0.8); }
 .mosaic.in .tile.off { opacity: calc(0.16 + var(--glow, 0) * 0.84); filter: grayscale(calc(1 - var(--glow, 0))) brightness(calc(0.5 + var(--glow, 0) * 0.5)); transition: opacity 420ms var(--ease), transform 420ms var(--ease), filter 200ms linear; }
@@ -97,7 +98,7 @@ main { max-width: none; margin: 0; padding: 0; }
   box-shadow: 0 10px 30px -6px rgb(0 0 0 / 0.8), 0 0 0 1px rgb(255 255 255 / 0.25); outline: none;
 }
 .hero-foot {
-  display: grid; grid-template-columns: minmax(0, 8fr) minmax(0, 4fr); gap: 48px; align-items: end;
+  flex: 0 0 auto; display: grid; grid-template-columns: minmax(0, 8fr) minmax(0, 4fr); gap: 48px; align-items: end;
   padding: 48px 24px 40px;
 }
 .hero h1 {
@@ -271,9 +272,8 @@ section { padding-top: 120px; }
   .masthead-inner { grid-template-columns: 1fr auto; height: 52px; padding: 0 16px; }
   .nav, .measure-toggle { display: none; }
   .measured, .index, .method, .review, .install { padding-left: 16px; padding-right: 16px; }
-  .hero { padding-top: 12px; }
+  .hero { padding-top: 12px; min-height: calc(100vh - 52px); min-height: calc(100svh - 52px); }
   .mosaic { gap: 2px; padding: 0 16px; }
-  .tile { aspect-ratio: 1 / 1.08; }
   .switch button { white-space: nowrap; }
   .numbers { padding-left: 16px; padding-right: 16px; }
   .stat-n { font-size: 64px; }
