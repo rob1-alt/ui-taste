@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>UI taste</title>
+<meta name="description" content="Real screens from products known for their design, with the tokens measured on each live page.">
+<meta name="robots" content="noindex, nofollow">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600&family=Geist+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<script>
+  try { const t = localStorage.getItem("uitaste-theme"); if (t) document.documentElement.dataset.theme = t; } catch (e) {}
+</script>
+</head>
+<body>
+<header class="bar">
+  <div class="bar-inner">
+    <a class="brand" href="#" aria-label="UI taste, all screens">
+      <span class="mark" aria-hidden="true"></span>UI taste
+    </a>
+    <label class="search">
+      <span class="visually-hidden">Search</span>
+      <svg viewBox="0 0 16 16" aria-hidden="true"><circle cx="7" cy="7" r="4.5"/><path d="M10.5 10.5 14 14"/></svg>
+      <input id="q" type="search" placeholder="Search sites, patterns, notes" autocomplete="off" spellcheck="false">
+      <kbd>/</kbd>
+    </label>
+    <div class="bar-actions">
+      <div class="segmented" role="group" aria-label="Platform">
+        <button type="button" data-platform="desktop" aria-pressed="true">Desktop</button>
+        <button type="button" data-platform="mobile" aria-pressed="false">Mobile</button>
+      </div>
+      <button type="button" class="icon-btn" id="theme" aria-label="Toggle dark mode">
+        <svg viewBox="0 0 16 16" aria-hidden="true"><circle cx="8" cy="8" r="5.5"/><path d="M8 2.5v11a5.5 5.5 0 0 0 0-11z" fill="currentColor" stroke="none"/></svg>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main>
+  <section class="intro">
+    <h1>Screens worth learning from.</h1>
+    <p class="lede" id="lede">Real pages from products known for their design, with the fonts, sizes, colours and buttons measured on the live page.</p>
+  </section>
+
+  <nav class="filters" aria-label="Filters">
+    <div class="types" id="types" role="tablist" aria-label="Page type"></div>
+    <div class="tags-row">
+      <span class="tags-label">Patterns</span>
+      <div class="tags" id="tags"></div>
+    </div>
+  </nav>
+
+  <div class="results-head">
+    <p id="count" aria-live="polite"></p>
+    <button type="button" class="link-btn" id="clear" hidden>Clear filters</button>
+  </div>
+
+  <section id="grid" class="grid" aria-label="Screens"></section>
+  <p id="empty" class="empty" hidden>Nothing matches. Try fewer patterns or another word.</p>
+</main>
+
+<footer class="foot">
+  <p>Screenshots belong to the companies that made them. Kept as private design references; do not republish.</p>
+  <p>Rebuild after adding screens: <code>python3 site/build.py</code></p>
+</footer>
+
+<dialog id="detail" aria-labelledby="d-title">
+  <div class="d-top">
+    <div class="d-heading">
+      <h2 id="d-title"></h2>
+      <span class="d-type" id="d-type"></span>
+    </div>
+    <div class="segmented" role="group" aria-label="Screen">
+      <button type="button" data-shot="desktop" aria-pressed="true">Desktop</button>
+      <button type="button" data-shot="mobile" aria-pressed="false">Mobile</button>
+    </div>
+    <div class="d-nav">
+      <button type="button" class="icon-btn" id="prev" aria-label="Previous screen (←)"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M10 3 5 8l5 5"/></svg></button>
+      <button type="button" class="icon-btn" id="next" aria-label="Next screen (→)"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="m6 3 5 5-5 5"/></svg></button>
+      <button type="button" class="icon-btn" id="close" aria-label="Close (Esc)"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M4 4l8 8M12 4l-8 8"/></svg></button>
+    </div>
+  </div>
+  <div class="d-body">
+    <div class="d-shot" id="d-shot" tabindex="-1"></div>
+    <aside class="d-info" id="d-info"></aside>
+  </div>
+</dialog>
+
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+<script src="data.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
