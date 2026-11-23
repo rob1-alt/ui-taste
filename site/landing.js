@@ -19,45 +19,107 @@
   $("#c-shots").textContent = shots;
   $("#c-date").textContent = LIB.map((x) => x.captured).sort().pop() || "";
 
-  // ---- hero: the word TASTE spelled with every page of the library (39 × 7 = 273 cells) ----
+  // ---- hero: the word TASTE spelled with every page of the library ----
+  // desktop: 39 × 7 = 273, one line. mobile: 13 × 21 = 273, "TA / ST / E".
   const GLYPH = {
     T: ["11111", "00100", "00100", "00100", "00100", "00100", "00100"],
     A: ["01110", "10001", "10001", "11111", "10001", "10001", "10001"],
     S: ["01111", "10000", "10000", "01110", "00001", "00001", "11110"],
     E: ["11111", "10000", "10000", "11110", "10000", "10000", "11111"],
   };
-  const COLS = 39, ROWS = 7, START = 5;
-  const lit = new Set();
-  [..."TASTE"].forEach((ch, k) => GLYPH[ch].forEach((line, r) => [...line].forEach((v, c) => { if (v === "1") lit.add(r * COLS + START + k * 6 + c); })));
-  // deterministic shuffle so neighbours are varied
+  const LAYOUTS = {
+    wide: { cols: 39, rows: 7, letters: [["T", 0, 5], ["A", 0, 11], ["S", 0, 17], ["T", 0, 23], ["E", 0, 29]] },
+    tall: { cols: 13, rows: 21, letters: [["T", 0, 1], ["A", 0, 7], ["S", 7, 1], ["T", 7, 7], ["E", 14, 4]] },
+  };
   let seed = 7; const rnd = () => (seed = (seed * 16807) % 2147483647) / 2147483647;
   const shuffle = (arr) => { for (let i = arr.length - 1; i > 0; i--) { const j = Math.floor(rnd() * (i + 1)); [arr[i], arr[j]] = [arr[j], arr[i]]; } return arr; };
-  const STAR = ["stripe-press-landing", "playdate-landing", "linear-pricing", "teenage-engineering-landing", "kagi-pricing", "hey-landing", "cash-app-landing", "sentry-landing", "pika-landing", "obsidian-landing", "lindy-landing", "affinity-landing", "procreate-landing", "netlify-landing", "partiful-landing", "beehiiv-landing", "duolingo-landing", "spotify-landing", "oatly-landing", "glossier-landing", "panic-landing", "cosmos-landing", "anthropic-landing", "pentagram-landing"];
-  const starred = STAR.filter((id) => byId[id]).map((id) => byId[id]);
-  const others = shuffle(LIB.filter((x) => !STAR.includes(x.id)));
-  // letters use pages with a light background so the word reads against the dark band
   const lum = (h) => { const m = /^#([0-9a-f]{6})$/i.exec(h || ""); if (!m) return 1; const n = parseInt(m[1], 16); return ((n >> 16) * 0.299 + ((n >> 8) & 255) * 0.587 + (n & 255) * 0.114) / 255; };
   const light = (x) => lum(x.colors?.background) > 0.6 && !x.tags.includes("dark");
-  const litPool = shuffle([...starred.filter(light), ...others.filter((x) => x.type === "landing" && light(x)), ...others.filter((x) => x.type !== "landing" && light(x))].slice(0, lit.size));
-  const rest = shuffle(LIB.filter((x) => !litPool.includes(x)));
-  const cells = [];
-  for (let i = 0, a = 0, b = 0; i < COLS * ROWS; i++) cells.push(lit.has(i) ? litPool[a++] : rest[b++]);
+  const STAR = ["stripe-press-landing", "playdate-landing", "kagi-pricing", "hey-landing", "lindy-landing", "netlify-landing", "duolingo-landing", "oatly-landing", "glossier-landing", "panic-landing", "cosmos-landing", "anthropic-landing", "basecamp-landing", "tailscale-landing", "mailchimp-landing", "notion-landing"];
+  const starred = STAR.filter((id) => byId[id] && light(byId[id])).map((id) => byId[id]);
+  const lightPages = [...starred, ...shuffle(LIB.filter((x) => light(x) && !STAR.includes(x.id)))];
   const mosaic = $("#mosaic");
-  mosaic.innerHTML = cells.map((it, i) => {
-    if (!it) return `<span class="tile off"></span>`;
-    const col = i % COLS, on = lit.has(i);
-    const src = it.screens.mobile?.tile || it.screens.mobile?.thumb || it.screens.desktop?.thumb;
-    return `<a class="tile${on ? "" : " off"}" href="library.html#id=${encodeURIComponent(it.id)}" data-id="${esc(it.id)}" data-n="${i + 1}" style="--d:${Math.round(col * 14 + rnd() * 160)}ms" aria-label="${esc(it.site)}, ${esc(typeLabel(it.type).toLowerCase())}"><img src="${esc(src)}" alt="" decoding="async"></a>`;
-  }).join("");
-  requestAnimationFrame(() => requestAnimationFrame(() => mosaic.classList.add("in")));
+  const tileSrc = (it) => it.screens.mobile?.tile || it.screens.mobile?.thumb || it.screens.desktop?.thumb;
+  let cells = [], lit = new Set(), layout = null, centers = null;
+
+  function buildMosaic() {
+    const L = matchMedia("(max-width: 720px)").matches ? LAYOUTS.tall : LAYOUTS.wide;
+    if (L === layout) return;
+    layout = L; seed = 7;
+    lit = new Set();
+    L.letters.forEach(([ch, r0, c0]) => GLYPH[ch].forEach((line, r) => [...line].forEach((v, c) => { if (v === "1") lit.add((r0 + r) * L.cols + c0 + c); })));
+    const litPages = lightPages.slice(0, lit.size);
+    const rest = shuffle(LIB.filter((x) => !litPages.includes(x)));
+    const pool = shuffle(litPages.slice());
+    cells = [];
+    for (let i = 0, a = 0, b = 0; i < L.cols * L.rows; i++) cells.push(lit.has(i) ? pool[a++] : rest[b++]);
+    mosaic.style.setProperty("--cols", L.cols);
+    mosaic.classList.remove("in");
+    mosaic.innerHTML = cells.map((it, i) => {
+      const col = i % L.cols, row = Math.floor(i / L.cols), on = lit.has(i);
+      const delay = L === LAYOUTS.wide ? col * 14 + rnd() * 160 : row * 30 + rnd() * 120;
+      return `<a class="tile${on ? "" : " off"}" href="library.html#id=${encodeURIComponent(it.id)}" data-i="${i}" style="--d:${Math.round(delay)}ms" aria-label="${esc(it.site)}, ${esc(typeLabel(it.type).toLowerCase())}"><img src="${esc(tileSrc(it))}" alt="" decoding="async"></a>`;
+    }).join("");
+    requestAnimationFrame(() => requestAnimationFrame(() => mosaic.classList.add("in")));
+    centers = null;
+  }
+  buildMosaic();
+  matchMedia("(max-width: 720px)").addEventListener("change", buildMosaic);
+
+  // name of the hovered page
   const tiN = $("#ti-n"), tiText = $("#ti-text");
   const tileInfo = (a) => {
-    const it = byId[a.dataset.id]; if (!it) return;
-    tiN.textContent = `Tile ${String(a.dataset.n).padStart(3, "0")} of 273`;
+    const i = +a.dataset.i, it = cells[i]; if (!it) return;
+    tiN.textContent = `Tile ${String(i + 1).padStart(3, "0")} of ${cells.length}`;
     tiText.innerHTML = `<b>${esc(it.site)}</b>${esc(typeLabel(it.type))} · ${esc(it.note.split(/[.:]/)[0])}`;
   };
-  mosaic.addEventListener("pointerover", (e) => { const a = e.target.closest(".tile[data-id]"); if (a) tileInfo(a); });
-  mosaic.addEventListener("focusin", (e) => { const a = e.target.closest(".tile[data-id]"); if (a) tileInfo(a); });
+  mosaic.addEventListener("pointerover", (e) => { const a = e.target.closest(".tile"); if (a) tileInfo(a); });
+  mosaic.addEventListener("focusin", (e) => { const a = e.target.closest(".tile"); if (a) tileInfo(a); });
+
+  // a torch: the dimmed pages light up around the pointer
+  let px = -1e4, py = -1e4, torchRaf = 0;
+  const measureCenters = () => { centers = [...mosaic.children].map((t) => { const r = t.getBoundingClientRect(); return [t, r.left + r.width / 2, r.top + r.height / 2 + scrollY]; }); };
+  function torch() {
+    torchRaf = 0;
+    if (!centers) measureCenters();
+    const R = 150;
+    for (const [t, cx, cy] of centers) {
+      if (!t.classList.contains("off")) continue;
+      const d = Math.hypot(cx - px, cy - py);
+      t.style.setProperty("--glow", d < R ? (1 - d / R).toFixed(2) : "0");
+    }
+  }
+  if (matchMedia("(hover: hover)").matches) {
+    mosaic.addEventListener("pointermove", (e) => { px = e.clientX; py = e.clientY + scrollY; if (!torchRaf) torchRaf = requestAnimationFrame(torch); });
+    mosaic.addEventListener("pointerleave", () => { px = py = -1e4; torch(); });
+    addEventListener("resize", () => { centers = null; });
+  }
+
+  // the word shimmers: now and then a page in a letter trades places with a light page outside it
+  const still = matchMedia("(prefers-reduced-motion: reduce)").matches;
+  let hovering = false;
+  mosaic.addEventListener("pointerenter", () => { hovering = true; });
+  mosaic.addEventListener("pointerleave", () => { hovering = false; });
+  function swapOnce() {
+    if (hovering || document.hidden) return;
+    const litIdx = [...lit], offLight = cells.map((it, i) => (!lit.has(i) && light(it) ? i : -1)).filter((i) => i >= 0);
+    if (!offLight.length) return;
+    for (let k = 0; k < 3; k++) {
+      const a = litIdx[Math.floor(Math.random() * litIdx.length)], b = offLight[Math.floor(Math.random() * offLight.length)];
+      [cells[a], cells[b]] = [cells[b], cells[a]];
+      for (const i of [a, b]) {
+        const t = mosaic.children[i], it = cells[i];
+        t.classList.add("flip");
+        setTimeout(() => {
+          t.querySelector("img").src = tileSrc(it);
+          t.href = `library.html#id=${encodeURIComponent(it.id)}`;
+          t.setAttribute("aria-label", `${it.site}, ${typeLabel(it.type).toLowerCase()}`);
+          t.classList.remove("flip");
+        }, 220);
+      }
+    }
+  }
+  if (!still) setInterval(swapOnce, 1800);
 
   // ---- hero specimens: marks placed on the screenshot (percent of the 1440×1000 top), labels read from the measured tokens ----
   const SPECS = [
@@ -174,6 +236,41 @@
   });
   $("#more").addEventListener("click", () => { expanded = true; renderRows(); });
   renderRows();
+
+  // ---- numbers: computed from the measured values of every page ----
+  const med = (arr) => { const s = arr.slice().sort((x, y) => x - y); return s.length ? s[Math.floor(s.length / 2)] : 0; };
+  const pct = (n, d) => Math.round((n / d) * 100);
+  const h1s = LIB.map((x) => x.typeScale?.h1).filter((t) => t && t.size > 0);
+  const bodies = LIB.map((x) => x.typeScale?.body).filter((t) => t && t.size > 0);
+  const btns = LIB.map((x) => (x.buttons || [])[0]).filter(Boolean);
+  const radius = (b) => parseFloat(b.radius) || 0;
+  const weightCount = {}; h1s.forEach((t) => { const w = String(t.weight); weightCount[w] = (weightCount[w] || 0) + 1; });
+  const topWeight = Object.entries(weightCount).sort((x, y) => y[1] - x[1])[0];
+  const interN = LIB.filter((x) => /inter/i.test(x.fonts[0] || "")).length;
+  const oneFamily = LIB.filter((x) => x.fonts.length === 1).length;
+  const darkN = LIB.filter((x) => lum(x.colors?.background) < 0.3).length;
+  const pills = btns.filter((b) => radius(b) >= 50).length;
+  const heights = {}; btns.forEach((b) => { if (b.height) heights[b.height] = (heights[b.height] || 0) + 1; });
+  const topHeight = Object.entries(heights).sort((x, y) => y[1] - x[1])[0];
+  const bars = (vals, on) => `<div class="stat-viz" aria-hidden="true">${vals.map(([v, n]) => `<i class="${on(v) ? "on" : ""}" style="height:${Math.max(4, n)}%"></i>`).join("")}</div>`;
+  const hist = (arr, lo, hi, step) => { const out = []; for (let v = lo; v <= hi; v += step) out.push([v, arr.filter((x) => x >= v && x < v + step).length]); const mx = Math.max(...out.map((o) => o[1])); return out.map(([v, n]) => [v, (n / mx) * 100]); };
+  const h1Med = med(h1s.map((t) => t.size));
+  const STATS = [
+    { n: med(h1s.map((t) => t.size)), unit: "px", k: "Median headline size", p: `At a line height of ${med(h1s.map((t) => t.lineHeight).filter(Number.isFinite))}. Big, but tightly set.`, viz: bars(hist(h1s.map((t) => t.size), 16, 128, 8), (v) => v <= h1Med && v + 8 > h1Med) },
+    { n: topWeight[0], unit: "", k: "Most common headline weight", p: `${topWeight[1]} of ${h1s.length} headlines are regular weight. Good pages rarely shout in bold.`, red: true },
+    { n: pct(interN, LIB.length), unit: "%", k: "Set in Inter", p: "The default font is not the problem. What makes a page generated is how everything else is decided." },
+    { n: pct(oneFamily, LIB.length), unit: "%", k: "Use a single typeface", p: `${oneFamily} pages load one family and nothing else. Most of the rest use two.` },
+    { n: med(bodies.map((t) => t.size)), unit: "px", k: "Median body text", p: `At ${med(bodies.map((t) => t.lineHeight).filter(Number.isFinite))} line height. Not 18, not 14.` },
+    { n: topHeight[0], unit: "px", k: "Most common button height", p: `${topHeight[1]} pages. Median ${med(btns.map((b) => b.height).filter(Boolean))}px: small, confident buttons.`, btn: true },
+    { n: pct(pills, btns.length), unit: "%", k: "Pill buttons", p: `The rest are square-ish: ${pct(btns.filter((b) => radius(b) <= 8).length, btns.length)}% have a radius of 8px or less.` },
+    { n: pct(darkN, LIB.length), unit: "%", k: "Dark pages", p: `${LIB.length - darkN} pages are light. Dark is a choice, not a default.` },
+  ];
+  $("#stats").innerHTML = STATS.map((s) => `<div class="stat">
+      <span class="stat-n${s.red ? " red" : ""}">${esc(s.n)}<small>${s.unit}</small></span>
+      <span class="stat-k">${esc(s.k)}</span>
+      <p>${esc(s.p)}</p>
+      ${s.viz || ""}${s.btn ? `<span class="stat-btn" style="height:${esc(s.n)}px">${esc(s.n)}px button</span>` : ""}
+    </div>`).join("");
 
   // ---- review checklist (mirrors references/anti-slop.md) ----
   const CHECK = {

@@ -69,12 +69,12 @@ h1, h2, .wordmark, .foot-mark {
 .masthead .btn-ink:hover { background: var(--red); color: #fff; }
 
 main { max-width: none; margin: 0; padding: 0; }
-.wrap, .measured, .index, .method, .review, .install { max-width: var(--wrap); margin: 0 auto; padding-left: 24px; padding-right: 24px; }
+.wrap, .measured, .numbers, .index, .method, .review, .install { max-width: var(--wrap); margin: 0 auto; padding-left: 24px; padding-right: 24px; }
 
 /* ---------- hero: the mosaic ---------- */
 .hero { background: #0e0e0e; color: #fff; padding: 20px 0 0; }
 .mosaic {
-  display: grid; grid-template-columns: repeat(39, minmax(0, 1fr)); gap: 3px; padding: 0 24px;
+  display: grid; grid-template-columns: repeat(var(--cols, 39), minmax(0, 1fr)); gap: 3px; padding: 0 24px;
 }
 .tile {
   position: relative; display: block; aspect-ratio: 260 / 507; overflow: hidden; border-radius: 2px; background: #1b1b1a;
@@ -85,8 +85,9 @@ main { max-width: none; margin: 0; padding: 0; }
 .tile img { width: 100%; height: 100%; object-fit: cover; object-position: top; }
 .mosaic.in .tile { opacity: 1; transform: none; }
 .tile.off { filter: grayscale(1) brightness(0.5) contrast(0.8); }
-.mosaic.in .tile.off { opacity: 0.16; }
-.mosaic:hover .tile.off { opacity: 0.24; }
+.mosaic.in .tile.off { opacity: calc(0.16 + var(--glow, 0) * 0.84); filter: grayscale(calc(1 - var(--glow, 0))) brightness(calc(0.5 + var(--glow, 0) * 0.5)); transition: opacity 420ms var(--ease), transform 420ms var(--ease), filter 200ms linear; }
+.tile img { transition: transform 220ms var(--ease), opacity 220ms var(--ease); }
+.tile.flip img { transform: scaleX(0); opacity: 0.4; }
 .tile:hover, .tile:focus-visible {
   z-index: 3; filter: none; opacity: 1 !important; transform: scale(2.6) !important; transition-delay: 0ms;
   box-shadow: 0 10px 30px -6px rgb(0 0 0 / 0.8), 0 0 0 1px rgb(255 255 255 / 0.25); outline: none;
@@ -112,7 +113,7 @@ main { max-width: none; margin: 0; padding: 0; }
 section { padding-top: 120px; }
 .measured-body { display: grid; grid-template-columns: minmax(0, 5fr) minmax(0, 7fr); gap: 56px; align-items: start; }
 .measured h2, .head h2 {
-  margin: 0; font-size: clamp(48px, 5.6vw, 88px); line-height: 0.86;
+  margin: 0; text-wrap: balance; font-size: clamp(48px, 5.6vw, 88px); line-height: 0.86;
 }
 .lede { margin: 28px 0 0; font-size: 18px; line-height: 1.55; color: var(--ink-2); max-width: 44ch; }
 
@@ -151,6 +152,21 @@ section { padding-top: 120px; }
 .switch button:hover img { transform: translateY(-2px); }
 .switch button[aria-selected="true"] { color: var(--ink); }
 .switch button[aria-selected="true"] img { box-shadow: 0 0 0 2px var(--ink); }
+
+/* ---------- numbers ---------- */
+.stats { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 0; border-top: 1px solid var(--line); }
+.stat { padding: 28px 24px 32px 0; border-bottom: 1px solid var(--line); display: grid; align-content: start; gap: 10px; }
+.stat + .stat { padding-left: 24px; border-left: 1px solid var(--line); }
+.stat:nth-child(4n + 1) { padding-left: 0; border-left: 0; }
+.stat-n { font-size: clamp(72px, 8vw, 128px); line-height: 0.82; font-weight: 800; font-stretch: 62%; letter-spacing: -0.02em; font-variant-numeric: tabular-nums; }
+.stat-n small { font-size: 0.38em; margin-left: 4px; letter-spacing: 0; }
+.stat-n.red { color: var(--red); }
+.stat-k { font-size: 10.5px; font-weight: 700; font-stretch: 125%; text-transform: uppercase; letter-spacing: 0.03em; }
+.stat p { margin: 0; font-size: 14px; color: var(--ink-2); max-width: 32ch; }
+.stat-viz { height: 40px; display: flex; align-items: end; gap: 3px; margin-top: 4px; }
+.stat-viz i { flex: 1; background: var(--tint-2); min-height: 2px; }
+.stat-viz i.on { background: var(--ink); }
+.stat-btn { display: inline-flex; align-items: center; height: 36px; padding: 0 14px; border-radius: 6px; background: var(--ink); color: #fff; font-size: 13px; font-weight: 600; justify-self: start; margin-top: 4px; }
 
 /* ---------- section heads ---------- */
 .head { display: grid; grid-template-columns: minmax(0, 5fr) minmax(0, 7fr); gap: 56px; align-items: end; margin-bottom: 40px; padding-bottom: 20px; border-bottom: 3px solid var(--ink); }
@@ -238,6 +254,9 @@ section { padding-top: 120px; }
 @media (max-width: 1080px) {
   .hero-foot, .measured-body, .head, .install-card, .foot { grid-template-columns: 1fr; gap: 28px; }
   .steps { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .stats { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .stat:nth-child(4n + 1) { padding-left: 24px; border-left: 1px solid var(--line); }
+  .stat:nth-child(2n + 1) { padding-left: 0; border-left: 0; }
   .checks { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .row a { grid-template-columns: 120px minmax(0, 1fr) auto; }
   .r-n, .r-h1 { display: none; }
@@ -249,7 +268,13 @@ section { padding-top: 120px; }
   .nav, .measure-toggle { display: none; }
   .measured, .index, .method, .review, .install { padding-left: 16px; padding-right: 16px; }
   .hero { padding-top: 12px; }
-  .mosaic { gap: 1px; padding: 0 8px; }
+  .mosaic { gap: 2px; padding: 0 16px; }
+  .tile { aspect-ratio: 1 / 1.08; }
+  .switch button { white-space: nowrap; }
+  .numbers { padding-left: 16px; padding-right: 16px; }
+  .stat-n { font-size: 64px; }
+  .stat, .stat + .stat { padding: 20px 12px 22px 0; }
+  .stat:nth-child(2n) { padding-left: 12px; }
   .tile { border-radius: 1px; }
   .hero-foot { padding: 32px 16px 32px; }
   .tile-info { min-height: 0; }
