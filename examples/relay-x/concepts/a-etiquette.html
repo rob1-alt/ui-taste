@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Relay X · concept A · L’étiquette</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Bricolage+Grotesque:opsz,wght@12..96,300..600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root { --paper: #f4ede2; --card: #fbf7f0; --ink: #1b1713; --ink-2: #5d554c; --line: #d9cebe; --wine: #7a2f33; }
+* { box-sizing: border-box; } body { margin: 0; background: var(--paper); color: var(--ink); font: 400 16px/1.55 "Bricolage Grotesque", system-ui, sans-serif; -webkit-font-smoothing: antialiased; }
+a { color: inherit; text-decoration: none; }
+.mono { font: 400 11px/1.5 "IBM Plex Mono", monospace; letter-spacing: .08em; text-transform: uppercase; }
+.nav { display: flex; align-items: center; justify-content: space-between; max-width: 1320px; margin: 0 auto; padding: 22px 40px; }
+.logo { font: 500 14px/1 "IBM Plex Mono", monospace; letter-spacing: .3em; } .logo i { font: italic 400 20px/1 "Instrument Serif", serif; letter-spacing: 0; }
+.links { display: flex; gap: 32px; font-size: 15px; color: var(--ink-2); }
+.btn { display: inline-flex; align-items: center; gap: 8px; height: 46px; padding: 0 22px; border-radius: 999px; background: var(--ink); color: var(--card); font-size: 15px; font-weight: 500; white-space: nowrap; }
+.btn-sm { height: 38px; padding: 0 16px; font-size: 14px; }
+.hero { max-width: 1320px; margin: 0 auto; padding: 40px 40px 80px; display: grid; grid-template-columns: 1fr 520px; gap: 64px; align-items: center; min-height: 780px; }
+h1 { margin: 0; font: 400 clamp(54px, 6.2vw, 96px)/.92 "Instrument Serif", serif; letter-spacing: -.02em; }
+h1 em { color: var(--wine); }
+.sub { margin: 28px 0 36px; max-width: 440px; font-size: 18px; color: var(--ink-2); }
+.ctas { display: flex; flex-wrap: wrap; gap: 16px 24px; align-items: center; }
+.ctas .text { text-decoration: underline; text-underline-offset: 5px; text-decoration-color: var(--line); font-weight: 500; }
+.proof { margin-top: 64px; color: var(--ink-2); }
+.proof b { display: block; margin-bottom: 10px; color: var(--ink); font-weight: 500; }
+
+/* the label, as an object */
+.stage { position: relative; display: grid; place-items: center; }
+.stage::before { content: ""; position: absolute; width: min(440px, 100%); height: 600px; border-radius: 50%; background: radial-gradient(closest-side, rgb(122 47 51 / .10), transparent); }
+.label { position: relative; width: 400px; padding: 34px 34px 30px; background: var(--card); border-radius: 4px; transform: rotate(-2.2deg); box-shadow: 0 1px 0 rgb(0 0 0 / .04), 0 30px 60px -20px rgb(60 40 20 / .28), 0 8px 18px -8px rgb(60 40 20 / .18); }
+.label::after { content: ""; position: absolute; inset: 10px; border: 1px solid var(--ink); outline: 1px solid var(--ink); outline-offset: -4px; pointer-events: none; }
+.l-top { text-align: center; padding-bottom: 16px; border-bottom: 1px solid var(--ink); }
+.l-top .mono { color: var(--ink-2); }
+.l-name { margin: 8px 0 2px; font: 400 40px/1 "Instrument Serif", serif; }
+.l-name i { font-size: .8em; }
+.l-rows { margin: 0; padding: 14px 0 0; }
+.l-rows div { display: grid; grid-template-columns: 1fr auto; gap: 12px; padding: 8px 0; border-bottom: 1px dotted var(--line); font: 400 12.5px/1.4 "IBM Plex Mono", monospace; }
+.l-rows dd { margin: 0; text-align: right; }
+.ok { color: #2f6b3f; } .wa { color: #8a520c; } .ko { color: var(--wine); }
+.l-inci { margin: 16px 0 0; font: 400 11px/1.6 "IBM Plex Mono", monospace; color: var(--ink-2); }
+.l-inci u { text-decoration: none; border-bottom: 1px solid var(--wine); color: var(--ink); }
+.l-foot { display: flex; justify-content: space-between; align-items: end; margin-top: 18px; }
+.seal { width: 86px; height: 86px; border-radius: 50%; border: 1.5px solid var(--wine); color: var(--wine); display: grid; place-items: center; text-align: center; transform: rotate(8deg); font: 500 9.5px/1.3 "IBM Plex Mono", monospace; letter-spacing: .1em; }
+.seal b { display: block; font: italic 400 26px/1 "Instrument Serif", serif; letter-spacing: 0; }
+.callout { position: absolute; display: flex; align-items: center; gap: 10px; color: var(--ink-2); white-space: nowrap; }
+.callout::before { content: ""; width: 56px; height: 1px; background: var(--ink); order: var(--o, 0); }
+.c1 { left: -150px; top: 172px; --o: 2; } .c2 { right: -128px; top: 300px; } .c3 { left: -120px; bottom: 120px; --o: 2; }
+.callout span { order: 1; } .callout em { font: italic 400 17px/1.2 "Instrument Serif", serif; color: var(--ink); text-transform: none; letter-spacing: 0; display: block; }
+@media (max-width: 1100px) { .hero { grid-template-columns: 1fr; } .callout { display: none; } .links { display: none; } }
+@media (max-width: 520px) { .nav, .hero { padding-left: 18px; padding-right: 18px; } .hero { grid-template-columns: minmax(0, 1fr); } .stage { padding: 16px 6px; } .label { width: 100%; padding: 28px 24px 24px; transform: rotate(-1.2deg); } h1 { font-size: 54px; } .links { display: none; } }
+</style>
+</head>
+<body>
+<header class="nav">
+  <a class="logo" href="#">RELAY <i>X</i></a>
+  <nav class="links"><a href="#">Plateforme</a><a href="#">Solutions</a><a href="#">Réglementations</a><a href="#">Développeurs</a><a href="#">À propos</a></nav>
+  <a class="btn btn-sm" href="#">Demander une démo ↗</a>
+</header>
+<section class="hero">
+  <div>
+    <h1>Anticiper<br>la <em>réglementation.</em></h1>
+    <p class="sub">Relay X traduit des réglementations qui bougent sans cesse en contrôles précis, appliqués à vos produits, vos fournisseurs et vos audits.</p>
+    <div class="ctas"><a class="btn" href="#">Demander une démo ↗</a><a class="text" href="#">Découvrir la plateforme</a></div>
+    <p class="proof mono"><b class="mono">Un écosystème de confiance</b>Cosmetic Valley · COSMED · HEC Paris · OVHcloud · Cellcosmet · Embryolisse</p>
+  </div>
+  <div class="stage">
+    <article class="label" aria-label="Exemple : une étiquette vérifiée par Relay X">
+      <div class="l-top">
+        <p class="mono">Relay X · Laboratoire de conformité</p>
+        <p class="l-name">Crème visage <i>anti-âge</i></p>
+        <p class="mono">50 ml ℮ · Formule P-867311</p>
+      </div>
+      <dl class="l-rows">
+        <div><dt>Marchés</dt><dd>EU · CN · US</dd></div>
+        <div><dt>Ingrédients vérifiés</dt><dd class="ok">17 / 17</dd></div>
+        <div><dt>Homosalate 8,00 %</dt><dd class="ko">Non conforme EU</dd></div>
+        <div><dt>Benzophenone-3 4,00 %</dt><dd class="wa">À revoir</dd></div>
+        <div><dt>Linalool 0,12 %</dt><dd class="wa">À déclarer</dd></div>
+      </dl>
+      <p class="l-inci">Aqua, Glycerin, <u>Homosalate</u>, Caprylic/Capric Triglyceride, <u>Benzophenone-3</u>, Niacinamide, Cetearyl Alcohol, Butyrospermum Parkii Butter, Phenoxyethanol, Tocopherol, Parfum, <u>Linalool</u>, Limonene.</p>
+      <div class="l-foot"><p class="mono">Vérifié le 23.11.2026<br>Source · Règl. (CE) 1223/2009</p><span class="seal"><span>Relay<b>X</b>vérifié</span></span></div>
+    </article>
+  </div>
+</section>
+</body>
+</html>
