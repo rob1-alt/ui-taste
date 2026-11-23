@@ -3670,5 +3670,301 @@
    "latency"
   ],
   "note": "Monospace labels, latency next to each monitor, big green uptime bars per service and a percentage on the right. Feels like an engineering tool, not a marketing page."
+ },
+ {
+  "id": "mercury-dashboard",
+  "site": "Mercury",
+  "type": "dashboard",
+  "url": "https://demo.mercury.com/dashboard",
+  "tags": [
+   "light",
+   "finance",
+   "banking",
+   "balance-chart",
+   "sidebar-nav",
+   "quick-actions"
+  ],
+  "note": "A bank home that reads like a calm document: one big balance with a thin line chart, a row of pill actions (Send, Transfer, Deposit, Request) right under the greeting, accounts listed on the right. Almost no colour; money gets the largest type on the page."
+ },
+ {
+  "id": "umami-dashboard",
+  "site": "Umami",
+  "type": "dashboard",
+  "url": "https://cloud.umami.is/share/LGazGOecbDtaIwDr/umami.is",
+  "tags": [
+   "light",
+   "analytics",
+   "kpi-row",
+   "stacked-bars",
+   "sidebar-nav",
+   "two-tone-blue"
+  ],
+  "note": "Five KPIs in one bordered strip, each with a small green or red delta, then a stacked bar chart in two blues (visitors inside views). Sidebar groups pages by intent: Traffic, Behavior, Growth, Monitoring."
+ },
+ {
+  "id": "artificialanalysis-dashboard",
+  "site": "Artificial Analysis",
+  "type": "dashboard",
+  "url": "https://artificialanalysis.ai/",
+  "tags": [
+   "light",
+   "ai",
+   "benchmarks",
+   "serif-headline",
+   "bar-chart-grid",
+   "logo-labels"
+  ],
+  "note": "A serif headline over a grid of bar charts, each bar labelled with the vendor's logo under it so the eye finds a model without a legend. Editorial type on top, dense data below."
+ },
+ {
+  "id": "uniswap-explore",
+  "site": "Uniswap",
+  "type": "dashboard",
+  "url": "https://app.uniswap.org/explore",
+  "tags": [
+   "light",
+   "crypto",
+   "markets-table",
+   "sparklines",
+   "pink-accent",
+   "stat-row"
+  ],
+  "note": "A row of plain stats, trending tokens as small cards with a sparkline, then a token table with price, deltas in green or red and a 1-day sparkline per row. Pink is kept for the brand and the one call to action."
+ },
+ {
+  "id": "ultrasound-money",
+  "site": "ultrasound.money",
+  "type": "dashboard",
+  "url": "https://ultrasound.money/",
+  "tags": [
+   "dark",
+   "crypto",
+   "gradient-title",
+   "tile-grid",
+   "gauges",
+   "monospace-numbers"
+  ],
+  "note": "Navy tiles on a darker navy, one rainbow gradient title, live numbers in monospace and three speedometer gauges. Shows how a data page can have a personality without losing density."
+ },
+ {
+  "id": "hyperliquid-trade",
+  "site": "Hyperliquid",
+  "type": "app",
+  "url": "https://app.hyperliquid.xyz/trade",
+  "tags": [
+   "dark",
+   "crypto",
+   "trading-terminal",
+   "candlestick",
+   "order-book",
+   "teal-accent",
+   "dense"
+  ],
+  "note": "A trading terminal: candlestick chart, order book with depth shading in red and green, order form on the right, positions table below. Every pixel is used, yet one teal and tight 12px type keep it legible."
+ },
+ {
+  "id": "robinhood-stock",
+  "site": "Robinhood",
+  "type": "app",
+  "url": "https://robinhood.com/us/en/stocks/AAPL/",
+  "tags": [
+   "light",
+   "finance",
+   "stock-page",
+   "line-chart",
+   "range-tabs",
+   "buy-panel"
+  ],
+  "note": "The price as the headline, one thin green line chart with no axes, range tabs under it, a sticky buy panel on the right. The chart colour says up or down; nothing else is coloured."
+ },
+ {
+  "id": "owid-grapher",
+  "site": "Our World in Data",
+  "type": "app",
+  "url": "https://ourworldindata.org/grapher/co2-emissions-per-capita",
+  "tags": [
+   "light",
+   "data-viz",
+   "line-chart",
+   "direct-labels",
+   "country-picker",
+   "serif-title"
+  ],
+  "note": "One line chart with each line labelled at its end instead of a legend, a time slider underneath, a country picker with values on the right, and the source written under the chart. The reference for honest charts."
+ },
+ {
+  "id": "github-contributors",
+  "site": "GitHub",
+  "type": "dashboard",
+  "url": "https://github.com/vercel/next.js/graphs/contributors",
+  "tags": [
+   "light",
+   "devtools",
+   "bar-chart",
+   "small-multiples",
+   "range-brush"
+  ],
+  "note": "One big bar chart of commits with a range brush below it, then a grid of small multiples, one per contributor, all on the same blue. Small multiples beat one chart with forty colours."
+ },
+ {
+  "id": "github-actions",
+  "site": "GitHub",
+  "type": "app",
+  "url": "https://github.com/vercel/next.js/actions",
+  "tags": [
+   "light",
+   "devtools",
+   "run-list",
+   "status-icons",
+   "filters",
+   "sidebar-nav"
+  ],
+  "note": "A list of workflow runs where a green tick, a red cross or an amber dot carries the status, the title is the commit message and the metadata sits on a second grey line. Filters are plain dropdowns above the list."
+ },
+ {
+  "id": "github-project",
+  "site": "GitHub",
+  "type": "app",
+  "url": "https://github.com/orgs/github/projects/4247",
+  "tags": [
+   "light",
+   "project-management",
+   "kanban",
+   "labels",
+   "roadmap",
+   "columns"
+  ],
+  "note": "A public roadmap as a kanban: one column per stage with a count, cards that are just a title and coloured labels. The labels do the sorting, the cards stay flat."
+ },
+ {
+  "id": "hf-leaderboard",
+  "site": "Hugging Face",
+  "type": "app",
+  "url": "https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard",
+  "tags": [
+   "light",
+   "ai",
+   "leaderboard",
+   "data-table",
+   "quick-filters",
+   "search"
+  ],
+  "note": "A leaderboard with a big search field, quick-filter chips with counts, then a wide table where the score columns are shaded by value. Rank, type icon and model name lead each row."
+ },
+ {
+  "id": "yr-forecast",
+  "site": "Yr",
+  "type": "app",
+  "url": "https://www.yr.no/en/forecast/daily-table/2-2988507/France/Ile-de-France/Paris",
+  "tags": [
+   "light",
+   "weather",
+   "forecast-table",
+   "weather-icons",
+   "table-graph-toggle"
+  ],
+  "note": "A forecast as a table: one row per day, icons for night, morning, afternoon and evening, high and low in red and blue, rain in blue only when there is rain. A Table or Graph toggle sits above."
+ },
+ {
+  "id": "cal-booker",
+  "site": "Cal.com",
+  "type": "app",
+  "url": "https://cal.com/peer",
+  "tags": [
+   "light",
+   "scheduling",
+   "booking",
+   "calendar-grid",
+   "time-slots",
+   "three-column"
+  ],
+  "note": "The booking widget in three columns: who and what on the left, a month grid with available days filled in grey, the time slots as a list on the right. Nothing else on the page."
+ },
+ {
+  "id": "spotify-album",
+  "site": "Spotify",
+  "type": "app",
+  "url": "https://open.spotify.com/album/4m2880jivSbbyEGAKfITCa",
+  "tags": [
+   "dark",
+   "music",
+   "album-header",
+   "colour-from-artwork",
+   "tracklist",
+   "play-button"
+  ],
+  "note": "The header takes its colour from the album art and fades into near-black, one big green play button, then a plain tracklist. The artwork sets the mood; the chrome stays grey."
+ },
+ {
+  "id": "fotmob-league",
+  "site": "FotMob",
+  "type": "app",
+  "url": "https://www.fotmob.com/leagues/47/overview/premier-league",
+  "tags": [
+   "light",
+   "sports",
+   "league-table",
+   "form-pills",
+   "team-crests",
+   "tabs"
+  ],
+  "note": "A league table with crests, compact numbers and the last five results as small green, grey and red pills. Tabs across the top switch between overview, table, fixtures and stats."
+ },
+ {
+  "id": "claude-status",
+  "site": "Anthropic",
+  "type": "status",
+  "url": "https://status.claude.com/",
+  "tags": [
+   "light",
+   "status-page",
+   "uptime-bars",
+   "green-banner",
+   "atlassian-statuspage"
+  ],
+  "note": "The stock Atlassian Statuspage, done right: a cream background in the brand's colour, one green banner, then one 90-day uptime bar per product with its percentage."
+ },
+ {
+  "id": "stripe-status",
+  "site": "Stripe",
+  "type": "status",
+  "url": "https://status.stripe.com/",
+  "tags": [
+   "dark",
+   "status-page",
+   "navy",
+   "uptime-bars",
+   "two-column",
+   "maintenance-list"
+  ],
+  "note": "Navy, with one big 90-day uptime bar for the API and its percentage, then two columns: system status with green ticks on the left, active incidents and scheduled maintenance on the right."
+ },
+ {
+  "id": "openai-status",
+  "site": "OpenAI",
+  "type": "status",
+  "url": "https://status.openai.com/",
+  "tags": [
+   "light",
+   "status-page",
+   "incident-io",
+   "uptime-bars",
+   "grouped-components"
+  ],
+  "note": "Built on incident.io: one pale green banner, then products grouped with a component count, each with a thin 90-day bar and its uptime. Narrow, white and quiet."
+ },
+ {
+  "id": "resend-status",
+  "site": "Resend",
+  "type": "status",
+  "url": "https://resend-status.com/",
+  "tags": [
+   "dark",
+   "status-page",
+   "uptime-bars",
+   "green-banner",
+   "date-range"
+  ],
+  "note": "Black, one dark green fully-operational banner, then one row per service with a segmented uptime bar. The date range above the list can be stepped back month by month."
  }
 ]
