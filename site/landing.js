@@ -4,208 +4,192 @@
   const $ = (s, el = document) => el.querySelector(s);
   const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
   const TYPE = {
-    landing: "Landing", pricing: "Pricing", "design-system": "Design system", "404": "404", about: "About",
+    landing: "Landing page", pricing: "Pricing", "design-system": "Design system", "404": "404 page", about: "About",
     careers: "Careers", contact: "Contact", integrations: "Integrations", developers: "Developers", brand: "Brand",
-    auth: "Sign-up", product: "Product", changelog: "Changelog", docs: "Docs", customers: "Customers", blog: "Blog",
+    auth: "Sign-up", product: "Product page", changelog: "Changelog", docs: "Docs", customers: "Customers", blog: "Blog",
   };
   const typeLabel = (t) => TYPE[t] || t;
-  const pad = (n) => String(n).padStart(3, "0");
+  const cleanFont = (f) => (f || "").replace(/^__/, "").replace(/_[0-9a-f]{6}$/, "").replace(/_Fallback.*$/, "");
 
-  // ---- counts, real ----
+  // ---- real counts ----
   const sites = new Set(LIB.map((x) => x.site)).size;
   const shots = LIB.reduce((n, x) => n + Object.keys(x.screens).length, 0);
-  const last = LIB.map((x) => x.captured).sort().pop();
-  for (const id of ["n-pages", "n-pages-2", "n-rows", "c-pages"]) { const el = $("#" + id); if (el) el.textContent = LIB.length; }
+  ["n-pages", "n-rows", "c-pages", "more-n"].forEach((id) => { const el = $("#" + id); if (el) el.textContent = LIB.length; });
   $("#n-sites").textContent = sites;
   $("#c-shots").textContent = shots;
-  $("#c-date").textContent = last || "";
+  $("#c-date").textContent = LIB.map((x) => x.captured).sort().pop() || "";
 
-  // ---- ruler ----
-  const ticks = $("#ticks");
-  function drawRuler() {
-    const w = innerWidth; let html = "";
-    for (let x = 0; x <= w; x += 25) {
-      const major = x % 100 === 0;
-      html += `<i class="${major ? "major" : ""}" style="left:${x}px" ${major ? `data-n="${x}"` : ""}></i>`;
-    }
-    ticks.innerHTML = html;
+  // ---- hero specimens: marks placed on the screenshot (percent of the 1440×1000 top), labels read from the measured tokens ----
+  const SPECS = [
+    { id: "lindy-landing", stage: "#f1e7d6", marks: [
+      { x: 32, y: 11, w: 35, h: 19, side: "top", label: (t) => `${t.type.h1.font} ${t.type.h1.size}/${t.type.h1.lineHeight}` },
+      { x: 67, y: 57, w: 10, h: 5, side: "right", label: (t) => `button ${t.btn.height}px · r ${parseInt(t.btn.radius)}` },
+      { x: 9, y: 46, side: "dot", label: (t) => t.bg },
+    ] },
+    { id: "linear-pricing", stage: "#16171a", dark: true, marks: [
+      { x: 5, y: 16, w: 10, h: 5, side: "right", label: (t) => `${t.type.h1.font} ${t.type.h1.size}/${t.type.h1.lineHeight} w${t.type.h1.weight}` },
+      { x: 52, y: 78, w: 10, h: 4.5, side: "top", label: (t) => `${t.btns[1].height}px · r ${parseInt(t.btns[1].radius)} · ${t.btns[1].bg}` },
+      { x: 92, y: 60, side: "dot", label: (t) => t.bg },
+    ] },
+    { id: "kagi-pricing", stage: "#fbecc9", marks: [
+      { x: 42.5, y: 11, w: 15, h: 7.5, side: "right", label: (t) => `${t.type.h1.font} ${t.type.h1.size}/${t.type.h1.lineHeight} w${t.type.h1.weight}` },
+      { x: 30.5, y: 32.5, w: 7, h: 4.5, side: "bottom", label: (t) => `${t.btn.height}px · r ${parseInt(t.btn.radius)} · ${t.btn.bg}` },
+    ] },
+    { id: "stripe-press-landing", stage: "#dfe6ee", marks: [
+      { x: 8, y: 8.5, w: 50, h: 6, side: "bottom", label: (t) => `${t.type.h2.font} ${t.type.h2.size}/${t.type.h2.lineHeight} w${t.type.h2.weight}` },
+      { x: 95, y: 40, side: "dot", label: (t) => t.bg },
+    ] },
+    { id: "hey-landing", stage: "#ece6fb", marks: [
+      { x: 18, y: 31, w: 64, h: 18, side: "top", label: (t) => `${t.type.h1.font} ${t.type.h1.size}/${t.type.h1.lineHeight} w${t.type.h1.weight}` },
+      { x: 37, y: 62, w: 25, h: 6.5, side: "right", label: () => "the one filled button" },
+    ] },
+  ].filter((s) => byId[s.id]);
+
+  const stage = $("#stage"), img = $("#spec-img"), marks = $("#marks");
+  function tokensOf(it) {
+    return {
+      type: it.typeScale || {}, bg: it.colors?.background || "",
+      btn: (it.buttons || [])[0] || {}, btns: it.buttons || [],
+    };
   }
-  drawRuler();
-  addEventListener("resize", drawRuler);
-  const rc = $("#ruler-cursor");
-  addEventListener("pointermove", (e) => { rc.style.setProperty("--x", e.clientX + "px"); rc.firstElementChild.textContent = Math.round(e.clientX); }, { passive: true });
-
-  // ---- §1 specimen ----
-  const fmtType = (t) => t ? `${t.font} ${t.size}/${t.lineHeight} w${t.weight}${t.letterSpacing && t.letterSpacing !== "normal" ? " ls " + t.letterSpacing : ""}` : null;
-  const sw = (x) => `<i style="background:${esc(x)}"></i>${esc(x)}`;
-  function renderSpec(id) {
-    const it = byId[id]; if (!it || !it.screens.desktop) return;
-    $("#spec-img").src = it.screens.desktop.thumb;
-    $("#spec-img").alt = `${it.site} ${typeLabel(it.type)} page: ${it.note}`;
-    $("#spec-link").textContent = `${it.site} · ${typeLabel(it.type).toLowerCase()}`;
-    $("#spec-link").href = `library.html#id=${encodeURIComponent(id)}`;
-    $("#spec-url").textContent = it.url.replace(/^https?:\/\/(www\.)?/, "").replace(/\/$/, "");
-    $("#spec-note").textContent = it.note;
-    const c = it.colors || {}, b = (it.buttons || [])[0], ts = it.typeScale || {};
-    const rows = [
-      ["fonts", esc(it.fonts.join(", "))],
-      ["h1", esc(fmtType(ts.h1) || fmtType(ts.h2))],
-      ["body", esc(fmtType(ts.body))],
-      ["background", c.background ? sw(c.background) : ""],
-      ["text", (c.text || []).slice(0, 3).map(sw).join(" ")],
-      ["button", b ? `"${esc(b.label)}" ${esc(b.bg)} on ${esc(b.color)} · r ${esc(b.radius)} · h ${b.height} · px ${b.paddingX}` : ""],
-      ["width", it.contentWidth ? it.contentWidth + "px" : ""],
-      ["captured", `${esc(it.captured)} · 1440 and 390`],
-    ].filter(([, v]) => v && v !== "null");
-    $("#redlines").innerHTML = rows.map(([k, v]) => `<div><dt>${k}</dt><dd>${v}</dd></div>`).join("");
-    document.querySelectorAll("[data-spec]").forEach((btn) => btn.setAttribute("aria-current", btn.dataset.spec === id));
+  function show(i) {
+    const s = SPECS[i], it = byId[s.id], t = tokensOf(it);
+    stage.style.setProperty("--stage", s.stage);
+    stage.classList.toggle("dark", !!s.dark);
+    marks.classList.remove("on");
+    img.classList.add("swap");
+    const next = new Image();
+    next.onload = () => {
+      img.src = next.src; img.alt = `${it.site} ${typeLabel(it.type).toLowerCase()}: ${it.note}`;
+      img.classList.remove("swap");
+      marks.innerHTML = s.marks.map((m) => {
+        let label = ""; try { label = m.label(t); } catch (e) { return ""; }
+        const style = m.side === "dot" ? `left:${m.x}%;top:${m.y}%` : `left:${m.x}%;top:${m.y}%;width:${m.w}%;height:${m.h}%`;
+        const side = m.side === "dot" ? "dot right" : m.side;
+        return `<div class="mark ${side}" style="${style}"><span>${esc(label)}</span></div>`;
+      }).join("");
+      requestAnimationFrame(() => requestAnimationFrame(() => marks.classList.add("on")));
+    };
+    next.src = it.screens.desktop.thumb;
+    $("#spec-link").textContent = it.site;
+    $("#spec-link").href = `library.html#id=${encodeURIComponent(it.id)}`;
+    $("#spec-type").textContent = typeLabel(it.type);
+    const pal = [...new Set([it.colors?.background, ...(it.colors?.surfaces || []), ...(it.colors?.text || [])].filter(Boolean))].slice(0, 4);
+    $("#stage-specs").innerHTML =
+      it.fonts.slice(0, 2).map((f) => `<span class="chip">${esc(cleanFont(f))}</span>`).join("") +
+      pal.map((c) => `<span class="chip"><i style="background:${esc(c)}"></i>${esc(c)}</span>`).join("");
+    document.querySelectorAll("#switch button").forEach((b, j) => b.setAttribute("aria-selected", String(j === i)));
   }
-  renderSpec("lindy-landing");
-  document.querySelectorAll("[data-spec]").forEach((btn) => btn.addEventListener("click", () => renderSpec(btn.dataset.spec)));
-  const frame = $("#spec-frame");
-  frame.addEventListener("pointermove", (e) => {
-    const r = frame.getBoundingClientRect();
-    const x = e.clientX - r.left, y = e.clientY - r.top;
-    frame.style.setProperty("--x", x + "px"); frame.style.setProperty("--y", y + "px");
-    // coordinates in the captured page's pixels (1440 wide), not the thumbnail's
-    $("#coord").textContent = `${Math.round(x / r.width * 1440)}, ${Math.round(y / r.width * 1440)}`;
-  });
+  $("#switch").innerHTML = SPECS.map((s, i) => {
+    const it = byId[s.id];
+    return `<button type="button" role="tab" aria-selected="${i === 0}" data-i="${i}"><img src="${esc(it.screens.desktop.thumb)}" alt="">${esc(it.site)}</button>`;
+  }).join("");
+  $("#switch").addEventListener("click", (e) => { const b = e.target.closest("[data-i]"); if (b) { show(+b.dataset.i); stopCycle(); } });
+  show(0);
+  // gently cycle through the specimens until the visitor picks one
+  let cur = 0, cycle = matchMedia("(prefers-reduced-motion: reduce)").matches ? 0 : setInterval(() => { cur = (cur + 1) % SPECS.length; show(cur); }, 6000);
+  function stopCycle() { clearInterval(cycle); cycle = 0; }
+  stage.addEventListener("pointerenter", stopCycle);
 
-  // ---- §2 index ----
+  // ---- index ----
   const counts = {};
   LIB.forEach((x) => { counts[x.type] = (counts[x.type] || 0) + 1; });
   const types = Object.keys(counts).sort((a, b) => counts[b] - counts[a] || a.localeCompare(b));
-  $("#type-filter").innerHTML = [["all", LIB.length], ...types.map((t) => [t, counts[t]])]
-    .map(([t, n]) => `<button type="button" data-type="${esc(t)}" aria-pressed="${t === "all"}">${t === "all" ? "All" : esc(typeLabel(t))}<b>${n}</b></button>`).join("");
-  const sorted = LIB.slice().sort((a, b) => a.site.localeCompare(b.site) || a.type.localeCompare(b.type));
-  $("#index-rows").innerHTML = sorted.map((it, i) => {
-    const h1 = it.typeScale?.h1 || it.typeScale?.h2;
-    const bg = it.colors?.background;
-    const pats = it.tags.filter((t) => !["light", "dark", "design-system", it.type].includes(t)).slice(0, 3).map((t) => t.replace(/^ds-/, "").replace(/-/g, " "));
-    return `<tr data-id="${esc(it.id)}" data-type="${esc(it.type)}" tabindex="0">
-      <td class="c-n">${pad(i + 1)}</td>
-      <td class="c-site">${esc(it.site)}</td>
-      <td>${esc(typeLabel(it.type))}</td>
-      <td class="c-pat">${esc(pats.join(", "))}</td>
-      <td class="c-font">${esc((it.fonts[0] || "").replace(/^__/, "").replace(/_[0-9a-f]{6}$/, "").replace(/_Fallback.*$/, ""))}</td>
-      <td class="c-h1">${h1 ? `${h1.size}/${h1.lineHeight}` : ""}</td>
-      <td class="c-bg">${bg ? sw(bg) : ""}</td>
-    </tr>`;
-  }).join("");
-  const rows = [...document.querySelectorAll("#index-rows tr")];
-  $("#type-filter").addEventListener("click", (e) => {
-    const b = e.target.closest("[data-type]"); if (!b) return;
-    const current = b.dataset.type;
-    document.querySelectorAll("#type-filter button").forEach((x) => x.setAttribute("aria-pressed", x === b));
-    let n = 0;
-    rows.forEach((r) => { const show = current === "all" || r.dataset.type === current; r.hidden = !show; if (show) { n++; r.firstElementChild.textContent = pad(n); } });
-    $("#n-rows").textContent = n;
-  });
-  const preview = $("#preview"), pimg = $("#preview img"), pcap = $(".preview-cap");
-  let onRow = null;
-  function showRow(tr) {
-    if (!tr || tr === onRow) return;
-    onRow?.classList.remove("on"); onRow = tr; tr.classList.add("on");
-    const it = byId[tr.dataset.id]; if (!it?.screens.desktop) return;
-    pimg.src = it.screens.desktop.thumb; preview.classList.add("show");
-    pcap.innerHTML = `<b>${esc(it.site)} · ${esc(typeLabel(it.type).toLowerCase())}</b><br>${esc(it.note)}`;
+  const SHORT = { ...TYPE, landing: "Landing", product: "Product", "404": "404" };
+  $("#filters").innerHTML = [["all", LIB.length], ...types.map((t) => [t, counts[t]])]
+    .map(([t, n]) => `<button type="button" role="tab" data-type="${esc(t)}" aria-selected="${t === "all"}">${t === "all" ? "All" : esc(SHORT[t] || t)}<b>${n}</b></button>`).join("");
+  const FIRST = ["stripe-press-landing", "linear-pricing", "playdate-landing", "anthropic-landing", "teenage-engineering-landing", "obsidian-landing", "kagi-pricing", "pentagram-landing", "vercel-geist-overview", "lindy-landing", "hey-landing", "cognition-landing"];
+  const rank = (it) => { const i = FIRST.indexOf(it.id); return i < 0 ? 99 : i; };
+  const ordered = LIB.slice().sort((a, b) => rank(a) - rank(b) || a.site.localeCompare(b.site));
+  let type = "all", expanded = false;
+  const PAGE = 12;
+  function row(it, n) {
+    const pal = [...new Set([it.colors?.background, ...(it.colors?.surfaces || []), ...(it.colors?.text || [])].filter(Boolean))].slice(0, 5);
+    const h1 = it.typeScale?.h1?.size ? it.typeScale.h1 : it.typeScale?.h2;
+    return `<li class="row"><a href="library.html#id=${encodeURIComponent(it.id)}">
+      <span class="r-n">${String(n).padStart(3, "0")}</span>
+      <span class="r-img"><img src="${esc(it.screens.desktop?.thumb || "")}" alt="" loading="lazy" decoding="async"></span>
+      <span class="r-main">
+        <span class="r-site">${esc(it.site)}</span>
+        <span class="r-meta">${esc(typeLabel(it.type))}${it.fonts[0] ? " · " + esc(cleanFont(it.fonts[0])) : ""}</span>
+        <span class="r-note">${esc(it.note)}</span>
+      </span>
+      <span class="r-pal" aria-hidden="true">${pal.map((c) => `<i style="background:${esc(c)}"></i>`).join("")}</span>
+      <span class="r-h1">${h1?.size ? `<b>${h1.size}px</b>h1` : ""}</span>
+    </a></li>`;
   }
-  $("#index-rows").addEventListener("pointerover", (e) => showRow(e.target.closest("tr")));
-  $("#index-rows").addEventListener("focusin", (e) => showRow(e.target.closest("tr")));
-  $("#index-rows").addEventListener("click", (e) => { const tr = e.target.closest("tr"); if (tr) location.href = `library.html#id=${encodeURIComponent(tr.dataset.id)}`; });
-  $("#index-rows").addEventListener("keydown", (e) => { if (e.key === "Enter") e.target.closest("tr")?.click(); });
-  showRow(rows[0]);
+  function renderRows() {
+    const list = ordered.filter((x) => type === "all" || x.type === type);
+    const shown = expanded ? list : list.slice(0, PAGE);
+    $("#rows").innerHTML = shown.map((it, i) => row(it, i + 1)).join("");
+    $("#n-rows").textContent = list.length;
+    $(".more").hidden = expanded || list.length <= PAGE;
+    $("#more-n").textContent = list.length;
+  }
+  $("#filters").addEventListener("click", (e) => {
+    const b = e.target.closest("[data-type]"); if (!b) return;
+    type = b.dataset.type; expanded = false;
+    document.querySelectorAll("#filters button").forEach((x) => x.setAttribute("aria-selected", String(x === b)));
+    renderRows();
+  });
+  $("#more").addEventListener("click", () => { expanded = true; renderRows(); });
+  renderRows();
 
-  // ---- §4 the checklist (mirrors references/anti-slop.md) ----
+  // ---- review checklist (mirrors references/anti-slop.md) ----
   const CHECK = {
-    Colour: [
-      "No purple-to-blue or pink-to-orange gradient as the hero background or headline fill, unless it is the brand.",
-      "One accent colour, used for actions and state. Not on every heading, icon and border.",
-      "No glow, neon or aurora blobs added for atmosphere.",
-      "Grey text passes contrast: 4.5:1 for body, 3:1 for large text.",
-      "Dark mode uses near-black surfaces in steps, not pure black with grey boxes.",
-    ],
-    Type: [
-      "One family, or a deliberate display and text pair. Not three fonts.",
-      "Two or three weights. No bold everywhere.",
-      "A visible scale: the h1 clearly larger than h2, h2 than body.",
-      "Large headings have tight line height and slightly negative tracking; body has 1.5 to 1.7.",
-      "Lines of body text stay under about 75 characters.",
-      "No text in all caps except short labels, which get letter spacing.",
-    ],
-    Layout: [
-      "Not everything centred. Left-aligned text on a clear grid reads as designed.",
-      "No row of three identical cards with an emoji, a two-word title and one line of text.",
-      "Sections have different shapes: split, full-bleed, list, table, screenshot.",
-      "Spacing follows a scale: large between sections, small inside groups.",
-      "Content has a max width; nothing stretches across a 1920px screen.",
-      "Mobile is designed, not squeezed: 44px targets, no horizontal scroll.",
-    ],
-    Components: [
-      "One radius family. Not pills next to sharp cards next to rounded inputs.",
-      "Shadows only where something floats. Cards use a border or a surface step.",
-      "One primary button per view. Secondary actions look secondary.",
-      "Icons from one set, one stroke width. No emoji as icons.",
-      "Borders are quiet, not 1px black boxes everywhere.",
-    ],
-    Content: [
-      "No invented customers, logos, testimonials, ratings, user counts or statistics.",
-      "No “Seamless”, “Next-generation”, “Supercharge”, “Unlock the power of”.",
-      "Headlines say what the product does for whom. Buttons say what happens.",
-      "Real screenshots beat abstract 3D blobs and stock illustrations.",
-    ],
-    Motion: [
-      "Animations are short, explain a change, and respect prefers-reduced-motion.",
-      "Nothing fades in on scroll just to fade in. Content is readable without waiting.",
-    ],
+    Colour: ["No purple-to-blue or pink-to-orange hero gradient unless it is the brand.", "One accent colour, for action and state only.", "No glow or aurora blobs for atmosphere.", "Grey text passes contrast: 4.5:1 for body.", "Dark mode uses near-black surfaces in steps."],
+    Type: ["One family, or a deliberate display and text pair.", "Two or three weights, not bold everywhere.", "A visible scale between h1, h2 and body.", "Tight line height on large headings, 1.5 to 1.7 on body.", "Lines of body text under about 75 characters."],
+    Layout: ["Not everything centred: left-aligned text on a clear grid.", "No row of three identical emoji cards.", "Sections with different shapes, not one card grid repeated.", "Spacing on a scale: large between sections, small inside groups.", "Mobile designed, not squeezed: 44px targets, no sideways scroll."],
+    Components: ["One radius family.", "Shadows only where something floats.", "One primary button per view.", "Icons from one set, no emoji as icons.", "Quiet borders, not black boxes everywhere."],
+    Content: ["No invented customers, logos, ratings or numbers.", "No “Seamless”, “Supercharge”, “Unlock the power of”.", "Headlines say what the product does, buttons say what happens.", "Real screenshots over abstract blobs."],
+    Motion: ["Short animations that explain a change.", "Respects reduced motion.", "Nothing fades in on scroll just to fade in."],
   };
-  $("#checklist").innerHTML = Object.entries(CHECK).map(([g, items]) =>
-    `<div class="check-group"><h3>${g}</h3><ul>${items.map((t) => `<li class="done">${esc(t)}</li>`).join("")}</ul></div>`).join("");
+  $("#checks").innerHTML = Object.entries(CHECK).map(([g, items]) =>
+    `<div class="check-group"><h3>${g}</h3><ul>${items.map((t) => `<li>${esc(t)}</li>`).join("")}</ul></div>`).join("");
 
-  // ---- measure mode: the page annotates itself with its real computed values ----
-  const layer = $("#measure-layer");
-  const toggle = $("#measure");
-  const hex = (c) => { const m = c.match(/\d+(\.\d+)?/g); return m ? "#" + m.slice(0, 3).map((n) => Math.round(+n).toString(16).padStart(2, "0")).join("") : c; };
+  // ---- measure mode: the page annotates itself with its computed values ----
+  const ticks = $("#ticks"), rc = $("#ruler-cursor"), layer = $("#measure-layer"), toggle = $("#measure");
+  function drawRuler() {
+    let h = "";
+    for (let x = 0; x <= innerWidth; x += 20) h += `<i class="${x % 100 ? "" : "major"}" style="left:${x}px" ${x % 100 ? "" : `data-n="${x}"`}></i>`;
+    ticks.innerHTML = h;
+  }
+  addEventListener("pointermove", (e) => { rc.style.setProperty("--x", e.clientX + "px"); rc.firstElementChild.textContent = Math.round(e.clientX); }, { passive: true });
+  const hex = (c) => { const m = c.match(/[\d.]+/g); return m ? "#" + m.slice(0, 3).map((n) => Math.round(+n).toString(16).padStart(2, "0")).join("") : c; };
   function measure() {
     layer.innerHTML = "";
     if (!document.body.classList.contains("measuring")) return;
-    const sy = scrollY, sx = scrollX;
-    const main = $("main").getBoundingClientRect();
-    layer.insertAdjacentHTML("beforeend", `<div class="m-dim" style="left:${main.left + sx + 24}px;top:${main.top + sy + 12}px;width:${main.width - 48}px"><span>${Math.round(main.width - 48)}</span></div>`);
-    const targets = document.querySelectorAll("[data-measure], h2, .method-grid h3, .sec-lede, .index-table, .output pre, .cmd pre, .colophon dl, .spec-frame, .checklist li:first-child");
-    for (const el of targets) {
-      const r = el.getBoundingClientRect(); if (!r.width || !r.height) continue;
+    const sx = scrollX, sy = scrollY;
+    const els = document.querySelectorAll("[data-measure], .head h2, .head-lede, .stage, .steps h3, .step-n, .sheet, .install-card, .row:first-child a");
+    let html = "";
+    for (const el of els) {
+      const r = el.getBoundingClientRect(); if (!r.width) continue;
       const cs = getComputedStyle(el);
       const fam = cs.fontFamily.split(",")[0].replace(/["']/g, "");
       const lh = cs.lineHeight === "normal" ? "normal" : (parseFloat(cs.lineHeight) / parseFloat(cs.fontSize)).toFixed(2);
-      const ls = cs.letterSpacing === "normal" ? "" : ` · ls ${cs.letterSpacing}`;
-      const isBox = el.matches(".spec-frame, .index-table, .colophon dl");
-      const tag = isBox
-        ? `${Math.round(r.width)}×${Math.round(r.height)}${cs.borderTopWidth !== "0px" ? ` · border ${cs.borderTopWidth} ${hex(cs.borderTopColor)}` : ""}`
-        : `${fam} ${cs.fontWeight} · ${parseFloat(cs.fontSize)}/${lh}${ls} · ${hex(cs.color)} · ${Math.round(r.width)}×${Math.round(r.height)}`;
-      layer.insertAdjacentHTML("beforeend",
-        `<div class="m-box" style="left:${r.left + sx}px;top:${r.top + sy}px;width:${r.width}px;height:${r.height}px"></div>
-         <div class="m-tag" style="left:${r.left + sx}px;top:${r.top + sy - 2}px">${esc(tag)}</div>`);
+      const boxy = el.matches(".stage, .sheet, .install-card, .row a");
+      const label = boxy
+        ? `${Math.round(r.width)} × ${Math.round(r.height)} · radius ${cs.borderTopLeftRadius} · ${hex(cs.backgroundColor)}`
+        : el.matches(".btn")
+          ? `${Math.round(r.height)}px high · padding ${cs.paddingLeft} · radius ${cs.borderTopLeftRadius} · ${fam} ${parseFloat(cs.fontSize)}`
+          : `${fam} ${parseFloat(cs.fontSize)}/${lh} · w${cs.fontWeight} · ${hex(cs.color)}`;
+      html += `<div class="m-box" style="left:${r.left + sx}px;top:${r.top + sy}px;width:${r.width}px;height:${r.height}px"></div>
+               <div class="m-tag" style="left:${r.left + sx}px;top:${r.top + sy}px">${esc(label)}</div>`;
     }
+    layer.innerHTML = html;
   }
   function setMeasuring(on) {
     document.body.classList.toggle("measuring", on);
     toggle.setAttribute("aria-pressed", String(on));
-    measure();
+    if (on) drawRuler();
+    requestAnimationFrame(measure);
   }
   toggle.addEventListener("click", () => setMeasuring(!document.body.classList.contains("measuring")));
   addEventListener("keydown", (e) => {
     if (e.key.toLowerCase() === "m" && !e.metaKey && !e.ctrlKey && !e.altKey && !/input|textarea/i.test(document.activeElement.tagName)) setMeasuring(!document.body.classList.contains("measuring"));
   });
-  let rt; addEventListener("resize", () => { clearTimeout(rt); rt = setTimeout(measure, 120); });
-
-  // ---- current section in the nav ----
-  const navLinks = [...document.querySelectorAll(".toc-nav a")];
-  const secs = navLinks.map((a) => $(a.getAttribute("href"))).filter(Boolean);
-  const io = new IntersectionObserver((es) => {
-    es.forEach((en) => { if (en.isIntersecting) navLinks.forEach((a) => a.classList.toggle("current", a.getAttribute("href") === "#" + en.target.id)); });
-  }, { rootMargin: "-40% 0px -55% 0px" });
-  secs.forEach((s) => io.observe(s));
+  let rt; addEventListener("resize", () => { clearTimeout(rt); rt = setTimeout(() => { drawRuler(); measure(); }, 120); });
+  new MutationObserver(() => document.body.classList.contains("measuring") && measure()).observe($("#rows"), { childList: true });
 
   // ---- copy ----
   let tt;
