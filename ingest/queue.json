@@ -1,0 +1,1724 @@
+[
+ {
+  "site": "Anthropic Claude",
+  "url": "https://claude.com",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "Claude Code",
+  "url": "https://claude.com/product/claude-code",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "Fal Docs",
+  "url": "https://docs.fal.ai",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "Modal Docs",
+  "url": "https://modal.com/docs",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "Raycast Pro",
+  "url": "https://www.raycast.com/pro",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "Vercel AI",
+  "url": "https://vercel.com/ai",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "Supabase Launch Week",
+  "url": "https://supabase.com/launch-week",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "Resend Broadcasts",
+  "url": "https://resend.com/broadcasts",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "Clerk Elements",
+  "url": "https://clerk.com/elements",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "Neon Branching",
+  "url": "https://neon.tech/branching",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "Sanity Studio",
+  "url": "https://www.sanity.io/studio",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "Storybook",
+  "url": "https://storybook.js.org",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "Chromatic",
+  "url": "https://www.chromatic.com",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "Playwright",
+  "url": "https://playwright.dev",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "Vitest",
+  "url": "https://vitest.dev",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "Deno Deploy",
+  "url": "https://deno.com/deploy",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "Remix",
+  "url": "https://remix.run",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "React Router",
+  "url": "https://reactrouter.com",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "TanStack",
+  "url": "https://tanstack.com",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "Radix Themes",
+  "url": "https://www.radix-ui.com/themes",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "Ark UI",
+  "url": "https://ark-ui.com",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "Park UI",
+  "url": "https://park-ui.com",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "Panda CSS",
+  "url": "https://panda-css.com",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "UnoCSS",
+  "url": "https://unocss.dev",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "Motion",
+  "url": "https://motion.dev",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "GSAP",
+  "url": "https://gsap.com",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "Three.js",
+  "url": "https://threejs.org",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "Lottiefiles",
+  "url": "https://lottiefiles.com",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "Framer Motion",
+  "url": "https://www.framer.com/motion",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "Paper",
+  "url": "https://paper.design",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "Figma Slides",
+  "url": "https://www.figma.com/slides",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "Figma Sites",
+  "url": "https://www.figma.com/sites",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "Canva",
+  "url": "https://www.canva.com",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "Tome",
+  "url": "https://tome.app",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "Beautiful AI",
+  "url": "https://www.beautiful.ai",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "Mem",
+  "url": "https://get.mem.ai",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "Logseq",
+  "url": "https://logseq.com",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "Akiflow",
+  "url": "https://akiflow.com",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "Todoist",
+  "url": "https://www.todoist.com",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "TickTick",
+  "url": "https://ticktick.com",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "Linear Mobile",
+  "url": "https://linear.app/mobile",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "Hey Calendar",
+  "url": "https://www.hey.com/calendar",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "Missive",
+  "url": "https://missiveapp.com",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "Front App",
+  "url": "https://front.com/product",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "Intercom Fin",
+  "url": "https://fin.ai",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "Hebbia Matrix",
+  "url": "https://www.hebbia.com/matrix",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "Spellbook",
+  "url": "https://www.spellbook.legal",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "Clio",
+  "url": "https://www.clio.com",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "Ironclad AI",
+  "url": "https://ironcladapp.com/product",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "Rippling",
+  "url": "https://www.rippling.com",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "Ramp Bills",
+  "url": "https://ramp.com/bill-pay",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "Brex Card",
+  "url": "https://www.brex.com/product/business-account",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "Mercury Treasury",
+  "url": "https://mercury.com/treasury",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "Pennylane FR",
+  "url": "https://www.pennylane.com/fr",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "Alan Health",
+  "url": "https://alan.com/en",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "Swile",
+  "url": "https://www.swile.co",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "Payfit",
+  "url": "https://payfit.com",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "Spendesk",
+  "url": "https://www.spendesk.com",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "Agicap",
+  "url": "https://agicap.com",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "Mirakl",
+  "url": "https://www.mirakl.com",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "Contentsquare",
+  "url": "https://contentsquare.com",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "Doctolib",
+  "url": "https://about.doctolib.com",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "BlaBlaCar",
+  "url": "https://www.blablacar.com",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "Back Market",
+  "url": "https://www.backmarket.com",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "Vinted",
+  "url": "https://www.vinted.com",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "Ledger Stax",
+  "url": "https://shop.ledger.com/pages/ledger-stax",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "Lydia",
+  "url": "https://lydia-app.com",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "Sorare",
+  "url": "https://sorare.com",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "Dust AI",
+  "url": "https://dust.tt/home",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "Mistral Le Chat",
+  "url": "https://chat.mistral.ai",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "Photoroom App",
+  "url": "https://www.photoroom.com/api",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "Hugging Face Spaces",
+  "url": "https://huggingface.co/spaces",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "Poolside AI",
+  "url": "https://poolside.ai/about",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "H Company",
+  "url": "https://www.hcompany.ai",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "Kyutai",
+  "url": "https://kyutai.org",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "Gladia",
+  "url": "https://www.gladia.io",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "Nabla",
+  "url": "https://www.nabla.com",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "Owkin",
+  "url": "https://www.owkin.com",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "Pasqal",
+  "url": "https://www.pasqal.com",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "Alice & Bob",
+  "url": "https://alice-bob.com",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "Exotec",
+  "url": "https://www.exotec.com",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "Ynsect",
+  "url": "https://www.ynsect.com",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "Verkor",
+  "url": "https://verkor.com",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "Electra",
+  "url": "https://www.go-electra.com",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "Zity",
+  "url": "https://zity.eco",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "Cityscoot",
+  "url": "https://www.cityscoot.eu",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "Voi",
+  "url": "https://www.voi.com",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "Tier Dott",
+  "url": "https://ridedott.com",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "Lime",
+  "url": "https://www.li.me",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "Bird",
+  "url": "https://www.bird.co",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "Rad Power",
+  "url": "https://www.radpowerbikes.com",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "VanMoof",
+  "url": "https://www.vanmoof.com",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "Cowboy",
+  "url": "https://cowboy.com",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "Brompton",
+  "url": "https://www.brompton.com",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "Canyon",
+  "url": "https://www.canyon.com",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "Specialized",
+  "url": "https://www.specialized.com",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "Wahoo",
+  "url": "https://www.wahoofitness.com",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "Garmin",
+  "url": "https://www.garmin.com",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "Coros",
+  "url": "https://coros.com",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "Polar Electro",
+  "url": "https://www.polar.com",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "Oura Ring",
+  "url": "https://ouraring.com/oura-experience",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "Eight Sleep Pod",
+  "url": "https://www.eightsleep.com/product/pod-cover",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "Withings",
+  "url": "https://www.withings.com",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "Therabody",
+  "url": "https://www.therabody.com",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "Hydrow",
+  "url": "https://hydrow.com",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "Tonal",
+  "url": "https://www.tonal.com",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "Peloton",
+  "url": "https://www.onepeloton.com",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "Zwift",
+  "url": "https://www.zwift.com",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "Strava Subscription",
+  "url": "https://www.strava.com/subscribe",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "Calm",
+  "url": "https://www.calm.com",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "Headspace App",
+  "url": "https://www.headspace.com/meditation",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "Balance",
+  "url": "https://www.balanceapp.com",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "Endel",
+  "url": "https://endel.io",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "Brain.fm",
+  "url": "https://www.brain.fm",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "Spotify Design",
+  "url": "https://spotify.design",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "Airbnb Design",
+  "url": "https://airbnb.design",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "Uber Design",
+  "url": "https://www.uber.com/us/en/design",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "Dropbox Design",
+  "url": "https://dropbox.design",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "Shopify Editions",
+  "url": "https://www.shopify.com/editions",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "Stripe Atlas",
+  "url": "https://stripe.com/atlas",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "Stripe Climate",
+  "url": "https://stripe.com/climate",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "Linear Readme",
+  "url": "https://linear.app/readme",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "Figma Config Recap",
+  "url": "https://config.figma.com/san-francisco",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "GitHub Universe",
+  "url": "https://githubuniverse.com",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "Vercel Conf",
+  "url": "https://vercel.com/conf",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "Framer Conference",
+  "url": "https://www.framer.com/events",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "Awwwards Conference",
+  "url": "https://conference.awwwards.com",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "Brand New",
+  "url": "https://www.underconsideration.com/brandnew",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "Fonts In Use",
+  "url": "https://fontsinuse.com",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "Typewolf",
+  "url": "https://www.typewolf.com",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "Future Fonts",
+  "url": "https://www.futurefonts.xyz",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "Displaay",
+  "url": "https://displaay.net",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "Production Type",
+  "url": "https://productiontype.com",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "Colophon Foundry",
+  "url": "https://www.colophon-foundry.org",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "Swiss Typefaces",
+  "url": "https://www.swisstypefaces.com",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "Lineto",
+  "url": "https://lineto.com",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "OH no Type",
+  "url": "https://ohnotype.co",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "Velvetyne",
+  "url": "https://velvetyne.fr",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "205TF",
+  "url": "https://www.205.tf",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "Bureau Brut",
+  "url": "https://www.bureaubrut.com",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "Atelier Triay",
+  "url": "https://www.ateliertriay.fr",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "Toormix",
+  "url": "https://www.toormix.com",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "Koto Studio",
+  "url": "https://koto.studio/work",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "Pentagram Work",
+  "url": "https://www.pentagram.com/work",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "Collins Work",
+  "url": "https://www.wearecollins.com/work",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "Ragged Edge",
+  "url": "https://raggededge.com",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "Mucho",
+  "url": "https://wearemucho.com",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "Studio Blackburn",
+  "url": "https://studioblackburn.com",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "DIA Studio",
+  "url": "https://dia.tv",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "ManvsMachine",
+  "url": "https://mvsm.com",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "Buck",
+  "url": "https://buck.co",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "Ordinary Folk",
+  "url": "https://ordinaryfolk.co",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "Tendril",
+  "url": "https://tendril.ca",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "Studio Freight",
+  "url": "https://www.studiofreight.com",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "Lusion Labs",
+  "url": "https://labs.lusion.co",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "Locomotive Work",
+  "url": "https://locomotive.ca/en/work",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "Bureau Borsche",
+  "url": "https://bureauborsche.com",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "Hassan Rahim",
+  "url": "https://12-34.us",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "Studio Dumbar Work",
+  "url": "https://studiodumbar.com/work",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "Base Design",
+  "url": "https://www.basedesign.com",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "Zak Group",
+  "url": "https://zak.group",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "Spin",
+  "url": "https://spin.co.uk",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "Graphic Thought Facility",
+  "url": "https://www.graphicthoughtfacility.com",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "Sagmeister Walsh",
+  "url": "https://sagmeister.com",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "Hey Studio Work",
+  "url": "https://heystudio.es/work",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "Porto Rocha",
+  "url": "https://portorocha.com",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "Gretel",
+  "url": "https://gretelny.com",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "Order Design",
+  "url": "https://order.design/work",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "Mother Design Work",
+  "url": "https://www.motherdesign.com/work",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "Koto Brand",
+  "url": "https://koto.studio/about",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "Teenage Engineering OP-1",
+  "url": "https://teenage.engineering/products/op-1",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "Nothing Phone",
+  "url": "https://nothing.tech/pages/phone-3",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "Analogue 3D",
+  "url": "https://www.analogue.co/3d",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "Playdate Catalog",
+  "url": "https://play.date/games",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "Panic Software",
+  "url": "https://panic.com/transmit",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "reMarkable Paper Pro",
+  "url": "https://remarkable.com/store/remarkable-paper/pro",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "Kindle Scribe",
+  "url": "https://www.amazon.com/kindle-scribe",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "Framework Laptop 13",
+  "url": "https://frame.work/laptop13",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "System76",
+  "url": "https://system76.com",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "Keychron",
+  "url": "https://www.keychron.com",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "NuPhy",
+  "url": "https://nuphy.com",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "Grovemade",
+  "url": "https://grovemade.com",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "Orbitkey",
+  "url": "https://www.orbitkey.com",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "Bellroy Bags",
+  "url": "https://bellroy.com/products/transit-backpack",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "Mous",
+  "url": "https://www.mous.co",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "Native Instruments Kontakt",
+  "url": "https://www.native-instruments.com/en/products/komplete/samplers/kontakt-8",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "Ableton Push",
+  "url": "https://www.ableton.com/en/push",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "Teenage Engineering Field",
+  "url": "https://teenage.engineering/products/field-system",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "Elektron Digitakt",
+  "url": "https://www.elektron.se/en/digitakt-ii",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "Arturia MiniFreak",
+  "url": "https://www.arturia.com/products/hardware-synths/minifreak/overview",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "Moog",
+  "url": "https://www.moogmusic.com",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "Roland",
+  "url": "https://www.roland.com",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "Korg",
+  "url": "https://www.korg.com",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "Output",
+  "url": "https://output.com",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "Splice Sounds",
+  "url": "https://splice.com/sounds",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "Bandcamp Daily",
+  "url": "https://daily.bandcamp.com",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "Resident Advisor",
+  "url": "https://ra.co",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "Boiler Room",
+  "url": "https://boilerroom.tv",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "Dice",
+  "url": "https://dice.fm",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "Songkick",
+  "url": "https://www.songkick.com",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "Shazam",
+  "url": "https://www.shazam.com",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "SoundCloud",
+  "url": "https://soundcloud.com",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "Tidal",
+  "url": "https://tidal.com",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "Apple Music",
+  "url": "https://www.apple.com/apple-music",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "YouTube Music",
+  "url": "https://music.youtube.com",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "Qobuz",
+  "url": "https://www.qobuz.com",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "Deezer",
+  "url": "https://www.deezer.com",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "Radio France",
+  "url": "https://www.radiofrance.fr",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "Arte",
+  "url": "https://www.arte.tv",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "Le Monde",
+  "url": "https://www.lemonde.fr",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "Libération",
+  "url": "https://www.liberation.fr",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "Society",
+  "url": "https://www.society-magazine.fr",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "Le Bonbon",
+  "url": "https://www.lebonbon.fr",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "Konbini",
+  "url": "https://www.konbini.com",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "Brut",
+  "url": "https://www.brut.media",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "Vice",
+  "url": "https://www.vice.com",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "The Atlantic",
+  "url": "https://www.theatlantic.com",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "Wired",
+  "url": "https://www.wired.com",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "The Information",
+  "url": "https://www.theinformation.com",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "Stratechery",
+  "url": "https://stratechery.com",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "Platformer",
+  "url": "https://www.platformer.news",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "Semafor",
+  "url": "https://www.semafor.com",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "Axios",
+  "url": "https://www.axios.com",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "Puck",
+  "url": "https://puck.news",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "Air Mail",
+  "url": "https://airmail.news",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "The Browser",
+  "url": "https://thebrowser.com",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "Aeon",
+  "url": "https://aeon.co",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "Noema",
+  "url": "https://www.noemamag.com",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "Quanta",
+  "url": "https://www.quantamagazine.org",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "Nautilus",
+  "url": "https://nautil.us",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "Kottke",
+  "url": "https://kottke.org",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "Craig Mod",
+  "url": "https://craigmod.com",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "Robin Sloan",
+  "url": "https://www.robinsloan.com",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "Frank Chimero",
+  "url": "https://frankchimero.com",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "Paul Graham",
+  "url": "https://paulgraham.com",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "Maggie Appleton",
+  "url": "https://maggieappleton.com",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "Josh Comeau",
+  "url": "https://www.joshwcomeau.com",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "Lynn Fisher",
+  "url": "https://lynnandtonic.com",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "Rauno",
+  "url": "https://rauno.me",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "Emil Kowalski",
+  "url": "https://emilkowal.ski",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "Paco Coursey",
+  "url": "https://paco.me",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "Brian Lovin",
+  "url": "https://brianlovin.com",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "Lee Robinson",
+  "url": "https://leerob.com",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "Bret Victor",
+  "url": "https://worrydream.com",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "Tobias van Schneider",
+  "url": "https://vanschneider.com",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "Linus Lee",
+  "url": "https://thesephist.com",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ }
+]
