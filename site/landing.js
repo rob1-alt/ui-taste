@@ -19,6 +19,46 @@
   $("#c-shots").textContent = shots;
   $("#c-date").textContent = LIB.map((x) => x.captured).sort().pop() || "";
 
+  // ---- hero: the word TASTE spelled with every page of the library (39 × 7 = 273 cells) ----
+  const GLYPH = {
+    T: ["11111", "00100", "00100", "00100", "00100", "00100", "00100"],
+    A: ["01110", "10001", "10001", "11111", "10001", "10001", "10001"],
+    S: ["01111", "10000", "10000", "01110", "00001", "00001", "11110"],
+    E: ["11111", "10000", "10000", "11110", "10000", "10000", "11111"],
+  };
+  const COLS = 39, ROWS = 7, START = 5;
+  const lit = new Set();
+  [..."TASTE"].forEach((ch, k) => GLYPH[ch].forEach((line, r) => [...line].forEach((v, c) => { if (v === "1") lit.add(r * COLS + START + k * 6 + c); })));
+  // deterministic shuffle so neighbours are varied
+  let seed = 7; const rnd = () => (seed = (seed * 16807) % 2147483647) / 2147483647;
+  const shuffle = (arr) => { for (let i = arr.length - 1; i > 0; i--) { const j = Math.floor(rnd() * (i + 1)); [arr[i], arr[j]] = [arr[j], arr[i]]; } return arr; };
+  const STAR = ["stripe-press-landing", "playdate-landing", "linear-pricing", "teenage-engineering-landing", "kagi-pricing", "hey-landing", "cash-app-landing", "sentry-landing", "pika-landing", "obsidian-landing", "lindy-landing", "affinity-landing", "procreate-landing", "netlify-landing", "partiful-landing", "beehiiv-landing", "duolingo-landing", "spotify-landing", "oatly-landing", "glossier-landing", "panic-landing", "cosmos-landing", "anthropic-landing", "pentagram-landing"];
+  const starred = STAR.filter((id) => byId[id]).map((id) => byId[id]);
+  const others = shuffle(LIB.filter((x) => !STAR.includes(x.id)));
+  // letters use pages with a light background so the word reads against the dark band
+  const lum = (h) => { const m = /^#([0-9a-f]{6})$/i.exec(h || ""); if (!m) return 1; const n = parseInt(m[1], 16); return ((n >> 16) * 0.299 + ((n >> 8) & 255) * 0.587 + (n & 255) * 0.114) / 255; };
+  const light = (x) => lum(x.colors?.background) > 0.6 && !x.tags.includes("dark");
+  const litPool = shuffle([...starred.filter(light), ...others.filter((x) => x.type === "landing" && light(x)), ...others.filter((x) => x.type !== "landing" && light(x))].slice(0, lit.size));
+  const rest = shuffle(LIB.filter((x) => !litPool.includes(x)));
+  const cells = [];
+  for (let i = 0, a = 0, b = 0; i < COLS * ROWS; i++) cells.push(lit.has(i) ? litPool[a++] : rest[b++]);
+  const mosaic = $("#mosaic");
+  mosaic.innerHTML = cells.map((it, i) => {
+    if (!it) return `<span class="tile off"></span>`;
+    const col = i % COLS, on = lit.has(i);
+    const src = it.screens.mobile?.tile || it.screens.mobile?.thumb || it.screens.desktop?.thumb;
+    return `<a class="tile${on ? "" : " off"}" href="library.html#id=${encodeURIComponent(it.id)}" data-id="${esc(it.id)}" data-n="${i + 1}" style="--d:${Math.round(col * 14 + rnd() * 160)}ms" aria-label="${esc(it.site)}, ${esc(typeLabel(it.type).toLowerCase())}"><img src="${esc(src)}" alt="" decoding="async"></a>`;
+  }).join("");
+  requestAnimationFrame(() => requestAnimationFrame(() => mosaic.classList.add("in")));
+  const tiN = $("#ti-n"), tiText = $("#ti-text");
+  const tileInfo = (a) => {
+    const it = byId[a.dataset.id]; if (!it) return;
+    tiN.textContent = `Tile ${String(a.dataset.n).padStart(3, "0")} of 273`;
+    tiText.innerHTML = `<b>${esc(it.site)}</b>${esc(typeLabel(it.type))} · ${esc(it.note.split(/[.:]/)[0])}`;
+  };
+  mosaic.addEventListener("pointerover", (e) => { const a = e.target.closest(".tile[data-id]"); if (a) tileInfo(a); });
+  mosaic.addEventListener("focusin", (e) => { const a = e.target.closest(".tile[data-id]"); if (a) tileInfo(a); });
+
   // ---- hero specimens: marks placed on the screenshot (percent of the 1440×1000 top), labels read from the measured tokens ----
   const SPECS = [
     { id: "lindy-landing", stage: "#f1e7d6", marks: [

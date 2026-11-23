@@ -4,11 +4,11 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>UI taste</title>
-<meta name="description" content="A Claude Code skill: real pages from products known for their design, measured on the live page, so the agent looks before it builds.">
+<meta name="description" content="A Claude Code skill: 273 real pages from products known for their design, measured on the live page, so the agent looks before it builds.">
 <meta name="robots" content="noindex, nofollow">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,300..500;1,6..72,300..500&family=Geist:wght@400;500&family=Geist+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wdth,wght@0,62..125,100..900;1,62..125,100..900&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="landing.css">
 </head>
 <body>
@@ -19,44 +19,55 @@
   <div class="masthead-inner">
     <a class="wordmark" href="index.html">UI taste</a>
     <nav class="nav" aria-label="Sections">
+      <a href="#measured">Measured</a>
       <a href="#index">Index</a>
       <a href="#method">Method</a>
       <a href="#review">Review</a>
       <a href="#install">Install</a>
     </nav>
     <div class="tools">
-      <button type="button" class="measure-toggle" id="measure" aria-pressed="false">Measure this page <kbd>M</kbd></button>
+      <button type="button" class="measure-toggle" id="measure" aria-pressed="false">Measure <kbd>M</kbd></button>
       <a class="btn btn-ink" href="library.html">Open the library</a>
     </div>
   </div>
 </header>
 
 <main>
+  <!-- The word TASTE spelled with the 273 pages of the library: a 39 × 7 grid, one page per cell. -->
   <section class="hero">
-    <div class="hero-text">
-      <p class="eyebrow">A skill for Claude Code</p>
-      <h1 data-measure><span id="n-pages">273</span> pages that know what they are doing.</h1>
-      <p class="lede" data-measure>Real screens from products known for their design, measured on the live page: fonts, type scale, colours, radii, widths. Claude looks at them before it builds, then checks what it rendered against a list of what makes an interface look generated.</p>
-      <div class="actions">
-        <a class="btn btn-ink btn-lg" data-measure href="library.html">Browse the library</a>
-        <a class="btn btn-quiet btn-lg" href="#install">Install</a>
+    <div class="mosaic" id="mosaic" role="img" aria-label="The word TASTE spelled out with the 273 page screenshots of the library"></div>
+    <div class="hero-foot">
+      <h1>A Claude Code skill that shows your agent what good looks&nbsp;like.</h1>
+      <div class="hero-side">
+        <p class="tile-info" id="tile-info" aria-live="polite"><span class="ti-n" id="ti-n">273</span><span id="ti-text">pages, one per tile. Hover any of them.</span></p>
+        <div class="actions">
+          <a class="btn btn-ink btn-lg" href="library.html">Browse the library</a>
+          <a class="btn btn-line btn-lg" href="#install">Install</a>
+        </div>
       </div>
     </div>
+  </section>
 
-    <figure class="stage" id="stage" aria-labelledby="stage-cap">
-      <div class="stage-shot">
-        <img id="spec-img" src="thumbs/lindy-landing-desktop.jpg" alt="" width="720" height="500">
-        <div class="marks" id="marks" aria-hidden="true"></div>
+  <section class="measured" id="measured">
+    <div class="measured-body">
+      <div class="measured-text">
+        <h2>Measured,<br>not guessed.</h2>
+        <p class="lede" data-measure>Each page was captured on desktop and mobile, then read from the browser's computed styles: fonts, type scale, colours, radii, widths. Claude opens the screenshot and the numbers before it builds, then checks what it rendered against a list of what makes an interface look generated.</p>
       </div>
-      <figcaption id="stage-cap" class="stage-cap">
-        <div class="stage-title">
-          <a id="spec-link" href="library.html#id=lindy-landing">Lindy</a>
-          <span id="spec-type">Landing page</span>
-        </div>
-        <div class="stage-specs" id="stage-specs"></div>
-      </figcaption>
-    </figure>
-    <div class="switch" id="switch" role="tablist" aria-label="Specimens"></div>
+      <div class="measured-stage">
+        <figure class="stage" id="stage" aria-labelledby="stage-cap">
+          <div class="stage-shot">
+            <img id="spec-img" src="thumbs/lindy-landing-desktop.jpg" alt="" width="720" height="500">
+            <div class="marks" id="marks" aria-hidden="true"></div>
+          </div>
+          <figcaption id="stage-cap" class="stage-cap">
+            <div class="stage-title"><a id="spec-link" href="library.html#id=lindy-landing">Lindy</a><span id="spec-type">Landing page</span></div>
+            <div class="stage-specs" id="stage-specs"></div>
+          </figcaption>
+        </figure>
+        <div class="switch" id="switch" role="tablist" aria-label="Specimens"></div>
+      </div>
+    </div>
   </section>
 
   <section class="index" id="index">
@@ -66,7 +77,7 @@
     </header>
     <div class="filters" id="filters" role="tablist" aria-label="Page type"></div>
     <ol class="rows" id="rows"></ol>
-    <div class="more"><button type="button" class="btn btn-quiet" id="more">Show all <span id="more-n">273</span></button></div>
+    <div class="more"><button type="button" class="btn btn-line" id="more">Show all <span id="more-n">273</span></button></div>
   </section>
 
   <section class="method" id="method">
@@ -75,10 +86,10 @@
       <p class="head-lede">Four steps, every time it builds or reviews an interface.</p>
     </header>
     <ol class="steps">
-      <li><span class="step-n">1</span><h3>Inspect</h3><p>Read the project's own system first: a DESIGN.md, the tokens, the Tailwind config, the components. The project wins over any reference.</p></li>
-      <li><span class="step-n">2</span><h3>Reference</h3><p>Search the library only to settle a concrete question. One strong screen is enough, three is the limit, and Claude opens the screenshot before it decides.</p></li>
-      <li><span class="step-n">3</span><h3>Build</h3><p>Apply the decision with the project's components: one type family, a real scale, neutral surfaces and one accent, real content only.</p></li>
-      <li><span class="step-n">4</span><h3>Review</h3><p>Render at 1440 and 390 pixels, look at it, and go through the checklist below. A screen that was never looked at is not reviewed.</p></li>
+      <li><span class="step-n">01</span><h3>Inspect</h3><p>Read the project's own system first: a DESIGN.md, the tokens, the Tailwind config, the components. The project wins over any reference.</p></li>
+      <li><span class="step-n">02</span><h3>Reference</h3><p>Search the library only to settle a concrete question. One strong screen is enough, three is the limit, and Claude opens the screenshot before it decides.</p></li>
+      <li><span class="step-n">03</span><h3>Build</h3><p>Apply the decision with the project's components: one type family, a real scale, neutral surfaces and one accent, real content only.</p></li>
+      <li><span class="step-n">04</span><h3>Review</h3><p>Render at 1440 and 390 pixels, look at it, and go through the checklist below. A screen that was never looked at is not reviewed.</p></li>
     </ol>
     <figure class="sheet">
       <figcaption>What a search returns</figcaption>
@@ -124,7 +135,7 @@ cp -r ui-taste/skills/ui-taste ~/.claude/skills/">Copy</button></div>
 <footer class="foot">
   <p class="foot-mark">UI taste</p>
   <dl>
-    <div><dt>Set in</dt><dd>Newsreader, Geist and Geist Mono</dd></div>
+    <div><dt>Set in</dt><dd>Archivo, from 62% to 125% width</dd></div>
     <div><dt>Library</dt><dd><span id="c-pages">273</span> pages · <span id="c-shots">546</span> screenshots · last capture <span id="c-date"></span></dd></div>
     <div><dt>Rights</dt><dd>Screenshots belong to the companies that made them. Private study references, not to be republished.</dd></div>
   </dl>

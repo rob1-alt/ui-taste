@@ -54,9 +54,16 @@ def main() -> None:
             src = LIBRARY / s["file"]
             out = THUMBS / f"{it['id']}-{kind}.jpg"
             thumb(src, out, ratio, width)
+            if kind == "mobile":
+                tile = THUMBS / f"{it['id']}-tile.jpg"
+                if not tile.exists() or tile.stat().st_mtime < src.stat().st_mtime:
+                    im = Image.open(src).convert("RGB")
+                    h = min(im.height, int(im.width * 507 / 260))
+                    im.crop((0, 0, im.width, h)).resize((90, int(h * 90 / im.width)), Image.LANCZOS).save(tile, "JPEG", quality=70, optimize=True)
             screens[kind] = {
                 "full": f"../skills/ui-taste/library/{s['file']}",
                 "thumb": f"thumbs/{out.name}",
+                **({"tile": f"thumbs/{it['id']}-tile.jpg"} if kind == "mobile" else {}),
                 "w": s["width"],
                 "h": s["height"],
             }

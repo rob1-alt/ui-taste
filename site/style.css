@@ -389,3 +389,15 @@ h1 em { display: none; }
 .fan img:nth-child(1) { left: 6%; } .fan img:nth-child(3) { right: 6%; } .fan img:nth-child(2) { top: 9%; left: 22%; }
 .frame { border-radius: 10px; }
 .segmented button[aria-pressed="true"] { background: var(--surface); color: var(--gray-12); }
+
+/* Archivo across its width axis, like the landing */
+:root { --font: "Archivo", "Helvetica Neue", Arial, sans-serif; --mono: "Archivo", sans-serif; --serif: "Archivo", sans-serif; --gray-1: #ffffff; --surface: #ffffff; --accent: #ff3d1f; }
+.brand, h1, .meta .name, .coll-name b, .d-heading h2 { font-family: var(--font); font-stretch: 62%; font-weight: 800; text-transform: uppercase; letter-spacing: -0.01em; }
+h1 { font-size: clamp(56px, 7vw, 112px); line-height: 0.86; }
+.brand { font-size: 24px; }
+.meta .name { font-size: 20px; }
+.coll-name b { font-size: 22px; }
+.d-heading h2 { font-size: 26px; }
+.note, .lede { font-family: var(--font); font-stretch: 100%; }
+.crumb, .type-btn, .tag, .tags-label, #count, .meta .kind, .coll-name span, .d-type, .d-info h3, .visit, .copy-btn, .foot, .segmented button, .search input { font-stretch: 125%; }
+.type-btn, .tag, .tags-label, .meta .kind, .d-info h3, .segmented button { text-transform: uppercase; font-size: 11px; font-weight: 600; letter-spacing: 0.02em; }
