@@ -15,6 +15,7 @@ const pairs = [
   [join(root, "site", "brand"), join(pub, "brand")],
   [join(root, "site", "tally-sky.svg"), join(pub, "tally-sky.svg")],
   [join(root, "site", "tally-hills.svg"), join(pub, "tally-hills.svg")],
+  [join(root, "site", "work"), join(pub, "work")],  // client redesigns made with the skill, e.g. /work/fleuret/
 ];
 for (const [from, to] of pairs) {
   if (!existsSync(from)) { console.warn(`sync-assets: missing ${from}`); continue; }
