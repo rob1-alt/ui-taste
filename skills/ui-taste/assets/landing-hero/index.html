@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Tally — invoices that chase themselves</title>
+<!--
+  Image-sandwich landing template (references/landing-recipe.md).
+  Example content is a fictional product, Tally. Replace every word, number and screen with the real product.
+  Layers: .hero-back (backdrop image) → .product (app window) → .hero-front (foreground cut-out over the product).
+  backdrop.svg / foreground.svg are drawn placeholders: swap them for real or generated images
+  (scripts/backdrop.py foreground … cuts the front layer out of one photo).
+-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif&family=Inter+Tight:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="page">
+  <header class="hero">
+    <div class="hero-back" aria-hidden="true"></div>
+
+    <nav class="nav" aria-label="Main">
+      <a class="logo" href="#"><span class="mark" aria-hidden="true"></span>Tally</a>
+      <div class="links"><a href="#">Product</a><a href="#">Customers</a><a href="#">Pricing</a><a href="#">Docs</a></div>
+      <div class="nav-cta"><a class="btn btn-white btn-sm" href="#">Sign in</a><a class="btn btn-ink btn-sm" href="#">Start free <span aria-hidden="true">→</span></a></div>
+    </nav>
+
+    <div class="hero-copy">
+      <p class="badge"><b>New</b>Bank matching for every account</p>
+      <h1>Invoices sent.<br>Payments chased.</h1>
+      <p class="sub">Tally sends the reminders, matches the payments and tells you who is late.</p>
+      <div class="ctas"><a class="btn btn-ink" href="#">Start free trial <span aria-hidden="true">→</span></a><a class="btn btn-white" href="#">Book a demo</a></div>
+    </div>
+
+    <figure class="product" aria-label="The Tally invoices screen">
+      <aside class="p-side">
+        <b><span class="mark" aria-hidden="true"></span>Tally</b>
+        <span class="on">Invoices</span><span>Clients</span><span>Reminders</span><span>Payments</span><span>Reports</span>
+      </aside>
+      <div class="p-main">
+        <div class="p-head">
+          <div><b>Invoices</b><small>Who owes what, and what Tally is doing about it.</small></div>
+          <span class="p-chip">March 2026</span>
+        </div>
+        <div class="p-sum">
+          <div><em>Outstanding</em><strong>€15,650</strong><small>4 invoices</small></div>
+          <div><em>Paid this month</em><strong>€42,300</strong><small>+12% on February</small></div>
+          <div><em>Average days to pay</em><strong>9</strong><small>21 before reminders</small></div>
+        </div>
+        <table class="p-table">
+          <tr><td>Northwind Studio<small>INV-0142</small></td><td>€4,800</td><td><span class="st st-paid">Paid</span></td></tr>
+          <tr><td>Hale &amp; Co<small>INV-0139</small></td><td>€1,250</td><td><span class="st st-sent">Reminder 2 sent</span></td></tr>
+          <tr><td>Orbit Labs<small>INV-0131</small></td><td>€9,600</td><td><span class="st st-late">23 days late</span></td></tr>
+          <tr><td>Fieldnote<small>INV-0128</small></td><td>€2,000</td><td><span class="st st-paid">Matched</span></td></tr>
+        </table>
+      </div>
+    </figure>
+
+    <div class="hero-front" aria-hidden="true"></div>
+    <!-- Proof row: real customer logos only. Without them, keep these three plain facts. -->
+    <ul class="proof">
+      <li>Reminders on day 3, 7 and 14</li><li>Bank payments matched overnight</li><li>One list of who is late</li>
+    </ul>
+  </header>
+
+  <main>
+    <section class="sec">
+      <p class="eyebrow"><span class="dot" aria-hidden="true"></span>How it works</p>
+      <h2 class="center">Write the invoice once.<br><span class="mute">Tally does the</span> awkward part.</h2>
+      <div class="trio">
+        <article class="card">
+          <span class="ico" aria-hidden="true">1</span>
+          <h3>Send</h3>
+          <p>Create an invoice or import it from your accounting tool. Tally sends it with a payment link.</p>
+          <ul><li>Stripe and bank transfer</li><li>Your logo and your tone</li></ul>
+        </article>
+        <article class="card card-dark">
+          <span class="ico" aria-hidden="true">2</span>
+          <h3>Chase</h3>
+          <p>Polite reminders go out on day 3, 7 and 14, from your address, written the way you write.</p>
+          <ul><li>Stops the moment they pay</li><li>Pauses on disputes</li></ul>
+        </article>
+        <article class="card">
+          <span class="ico" aria-hidden="true">3</span>
+          <h3>Match</h3>
+          <p>Every morning Tally reads your bank feed and marks the invoices that were paid overnight.</p>
+          <ul><li>Partial payments</li><li>Multiple currencies</li></ul>
+        </article>
+      </div>
+    </section>
+
+    <section class="sec">
+      <div class="split-head">
+        <div>
+          <p class="eyebrow"><span class="dot" aria-hidden="true"></span>For every team</p>
+          <h2>Built for the people<br><span class="mute">who hate chasing</span></h2>
+        </div>
+        <p class="lede">Freelancers, studios and finance teams use the same three screens. Nothing to configure before the first reminder.</p>
+      </div>
+      <div class="scenes">
+        <article class="scene">
+          <div class="scene-ui"><div class="mini"><b>Reminder 2 · Hale &amp; Co</b><p>Hi Sam, a quick nudge on INV-0139 (€1,250), due 12 March. The link below still works.</p><span class="st st-sent">Sends Thursday 9:00</span></div></div>
+          <div class="scene-text"><h3>Studios and freelancers</h3><p>Reminders that sound like you, sent when you would send them.</p></div>
+        </article>
+        <article class="scene scene-wide">
+          <div class="scene-ui"><div class="mini mini-flow"><span>Bank feed</span><i aria-hidden="true"></i><span>Match €9,600</span><i aria-hidden="true"></i><span class="st st-paid">INV-0131 paid</span></div></div>
+          <div class="scene-text"><h3>Finance teams</h3><p>Overnight matching across accounts, with a log of every decision for the audit.</p></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="statement">
+      <p>Tally <span class="mute">turns late payments into</span> a list you clear on Monday morning <span class="mute">and forget by Tuesday.</span></p>
+      <!-- Big numbers: only real figures. Remove the row rather than invent one. -->
+    </section>
+
+    <footer class="foot">
+      <a class="logo" href="#"><span class="mark" aria-hidden="true"></span>Tally</a>
+      <p>Demo content for the ui-taste landing template.</p>
+    </footer>
+  </main>
+</div>
+</body>
+</html>

@@ -142,6 +142,12 @@ Every screen is captured at 1440px (desktop, first 3600px) and 390px (mobile), w
 
 ![blog](docs/blog.jpg)
 
+## Landing pages
+
+Ask for a landing page and the skill builds the **image sandwich**: a full-bleed scene, the real product window set into it, and the front of the scene drawn over the bottom of the window. The recipe is in `skills/ui-taste/references/landing-recipe.md`, eight reference landings of this family are in the library (`find_refs.py "image sandwich"`), a working template is in `skills/ui-taste/assets/landing-hero/`, and `scripts/backdrop.py` prepares the images (foreground cut-out, halftone duotone, colour grade).
+
+![The landing template](docs/landing-template.jpg)
+
 ## Browse the library
 
 `site/` holds a landing page for the skill (`index.html`, a page that measures itself: press M) and the library (`library.html`). The library has collections (dark heroes, serif and editorial, illustrated worlds, pricing pages, design systems…), search, filter by page type and pattern, switch desktop and mobile, and open a screen to see why it is in the library, its fonts, type scale, colours (click to copy) and buttons rebuilt from the measured styles. Arrow keys move between screens, `/` focuses the search.

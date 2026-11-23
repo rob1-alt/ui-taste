@@ -30144,5 +30144,233 @@
    "buttons": [],
    "contentWidth": null
   }
+ },
+ {
+  "id": "nelson-clouds-collage",
+  "site": "Nelson",
+  "url": "(reference supplied by the user, no live URL)",
+  "type": "landing",
+  "source": "user-reference",
+  "tags": [
+   "image-sandwich-family",
+   "light",
+   "image-hero",
+   "photo-collage",
+   "torn-paper",
+   "classical-art",
+   "serif-display",
+   "logo-strip",
+   "blue-accent"
+  ],
+  "note": "Full-bleed photo of clouds with a torn-paper hole revealing a classical painting; the headline sits below the image in a serif, then a ruled logo strip. Later sections repeat the collage (statues in clouds) next to a small UI card. One electric blue for tabs and the Contact button.",
+  "captured": "2026-11-23",
+  "screens": {
+   "desktop": {
+    "file": "screens/nelson-clouds-collage-desktop.jpg",
+    "width": 1200,
+    "height": 1620
+   }
+  },
+  "tokens": null
+ },
+ {
+  "id": "synais-object-in-hand",
+  "site": "Synais",
+  "url": "(reference supplied by the user, no live URL)",
+  "type": "landing",
+  "source": "user-reference",
+  "tags": [
+   "image-sandwich-family",
+   "light",
+   "warm-neutrals",
+   "object-photo",
+   "line-diagram",
+   "grotesk-display",
+   "two-tone-headline",
+   "oxblood-accent",
+   "dark-ui-cards"
+  ],
+  "note": "Beige page with thin circuit-like lines and small chips around a photographed hand holding the product object; two dark UI cards overlap the hand's edge. Tight grotesk headline with the second word in taupe. Oxblood primary button, white secondary, square corners. Then a deep brown section with a huge two-tone statement and three big numbers.",
+  "captured": "2026-11-23",
+  "screens": {
+   "desktop": {
+    "file": "screens/synais-object-in-hand-desktop.jpg",
+    "width": 1200,
+    "height": 1621
+   }
+  },
+  "tokens": null
+ },
+ {
+  "id": "orbit-halftone-duotone",
+  "site": "Orbit",
+  "url": "(reference supplied by the user, no live URL)",
+  "type": "landing",
+  "source": "user-reference",
+  "tags": [
+   "image-sandwich-family",
+   "blue",
+   "image-hero",
+   "halftone",
+   "duotone",
+   "classical-art",
+   "pixel-display",
+   "mono-buttons",
+   "logo-marquee",
+   "image-cards"
+  ],
+  "note": "Whole hero is one engraving-like image turned into a blue and white halftone duotone (a Roman general facing his army), with a pixel-grotesk headline and two mono square buttons. A ruled bar above carries the badge, the user count and a logo marquee. Feature cards reuse the duotone image as a background with a white UI fragment on top.",
+  "captured": "2026-11-23",
+  "screens": {
+   "desktop": {
+    "file": "screens/orbit-halftone-duotone-desktop.jpg",
+    "width": 1200,
+    "height": 1620
+   }
+  },
+  "tokens": null
+ },
+ {
+  "id": "qredible-blue-and-grass",
+  "site": "Qredible",
+  "url": "(reference supplied by the user, no live URL)",
+  "type": "landing",
+  "source": "user-reference",
+  "tags": [
+   "image-sandwich-family",
+   "blue",
+   "image-hero",
+   "image-sandwich",
+   "grass-foreground",
+   "serif-display",
+   "dashboard-in-landscape",
+   "logo-strip",
+   "image-cards"
+  ],
+  "note": "Electric blue sky, centred serif headline, a black square button and a text link; the product dashboard is sunk into a field of grass with pink tips that grows over its lower half, and the logos sit in white on the grass. Use-case cards are deep blue panels with the same grass at the bottom and white UI nodes on top.",
+  "captured": "2026-11-23",
+  "screens": {
+   "desktop": {
+    "file": "screens/qredible-blue-and-grass-desktop.jpg",
+    "width": 1200,
+    "height": 1620
+   }
+  },
+  "tokens": null
+ },
+ {
+  "id": "opero-dusk-foliage",
+  "site": "Opero",
+  "url": "(reference supplied by the user, no live URL)",
+  "type": "landing",
+  "source": "user-reference",
+  "tags": [
+   "image-sandwich-family",
+   "dark",
+   "image-hero",
+   "image-sandwich",
+   "dusk",
+   "foliage-foreground",
+   "serif-display",
+   "dashboard-in-landscape",
+   "rating"
+  ],
+  "note": "Dusk sky over dark hills; the product window rises from a band of pink and green tree canopy that covers its bottom edge. Centred serif headline, a white pill button and a 4.8 rating beside it. The page stays dark below with a serif h2 and a light UI card on a dark panel.",
+  "captured": "2026-11-23",
+  "screens": {
+   "desktop": {
+    "file": "screens/opero-dusk-foliage-desktop.jpg",
+    "width": 1200,
+    "height": 1621
+   }
+  },
+  "tokens": null
+ },
+ {
+  "id": "meetsense-sky-and-hills",
+  "site": "MeetSense",
+  "url": "(reference supplied by the user, no live URL)",
+  "type": "landing",
+  "source": "user-reference",
+  "tags": [
+   "image-sandwich-family",
+   "light",
+   "image-hero",
+   "image-sandwich",
+   "hills-foreground",
+   "serif-display",
+   "badge-pill",
+   "pill-buttons",
+   "dashboard-in-landscape",
+   "logo-strip"
+  ],
+  "note": "Pale blue sky with bluish mountains at the sides and bright green rolling hills in front; the dashboard sits between them so the hills cover its lower half. Badge pill with a dark tag and mono text, a two-line serif headline, a black pill and a white pill button. White logos on the grass. Below: a serif h2 with greyed words and three cards with the middle one black.",
+  "captured": "2026-11-23",
+  "screens": {
+   "desktop": {
+    "file": "screens/meetsense-sky-and-hills-desktop.jpg",
+    "width": 1200,
+    "height": 1620
+   }
+  },
+  "tokens": null
+ },
+ {
+  "id": "xenora-sky-and-ruins",
+  "site": "Xenora",
+  "url": "(reference supplied by the user, no live URL)",
+  "type": "landing",
+  "source": "user-reference",
+  "tags": [
+   "image-sandwich-family",
+   "light",
+   "image-hero",
+   "image-sandwich",
+   "photo-sky",
+   "left-aligned-hero",
+   "grotesk-display",
+   "mono-labels",
+   "workflow-ui",
+   "connector-lines"
+  ],
+  "note": "Deep blue photographed sky with clouds and a Greek temple at the horizon; left-aligned white grotesk headline and a black mono button, a thin connector line leads to a small chip and down into a large workflow editor that fills the bottom of the hero.",
+  "captured": "2026-11-23",
+  "screens": {
+   "desktop": {
+    "file": "screens/xenora-sky-and-ruins-desktop.jpg",
+    "width": 1200,
+    "height": 1620
+   }
+  },
+  "tokens": null
+ },
+ {
+  "id": "torqe-blue-and-hill",
+  "site": "Torqe",
+  "url": "(reference supplied by the user, no live URL)",
+  "type": "landing",
+  "source": "user-reference",
+  "tags": [
+   "image-sandwich-family",
+   "blue",
+   "image-hero",
+   "image-sandwich",
+   "hill-foreground",
+   "dot-grid",
+   "grotesk-display",
+   "orange-accent",
+   "dashboard-in-landscape",
+   "big-numbers"
+  ],
+  "note": "Saturated blue with a faint dot grid on the left, a tight grotesk headline and an orange square button; one dark green hill sweeps diagonally across the bottom and over the CRM dashboard on the right, logos in white on the grass. Below: an orange eyebrow, a big headline, five stars and three large numbers with progress bars.",
+  "captured": "2026-11-23",
+  "screens": {
+   "desktop": {
+    "file": "screens/torqe-blue-and-hill-desktop.jpg",
+    "width": 1200,
+    "height": 1621
+   }
+  },
+  "tokens": null
  }
 ]

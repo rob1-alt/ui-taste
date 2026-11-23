@@ -43,6 +43,8 @@ def main() -> None:
     items = json.loads((LIBRARY / "index.json").read_text())
     data = []
     for it in items:
+        if it.get("source") == "user-reference":
+            continue  # style references without a live page stay out of the gallery
         screens = {}
         for kind, ratio, width in (
             ("desktop", DESKTOP_CROP[1] / DESKTOP_CROP[0], DESKTOP_THUMB_W),

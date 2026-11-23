@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 600" preserveAspectRatio="xMidYMax slice">
+  <defs>
+    <!-- sunlit grass: bright yellow-green on the crests, deep green in the hollows -->
+    <linearGradient id="g1" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#a6c95a"/><stop offset="0.35" stop-color="#7fae3c"/><stop offset="1" stop-color="#3f7a24"/></linearGradient>
+    <linearGradient id="g2" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#b3d167"/><stop offset="0.3" stop-color="#86b442"/><stop offset="1" stop-color="#3b7322"/></linearGradient>
+    <linearGradient id="g3" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#9cc552"/><stop offset="0.4" stop-color="#6d9f33"/><stop offset="1" stop-color="#2f611b"/></linearGradient>
+    <linearGradient id="g4" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#8dbb46"/><stop offset="0.5" stop-color="#5d912b"/><stop offset="1" stop-color="#2a5718"/></linearGradient>
+    <!-- side light: crests catch light on the right -->
+    <linearGradient id="light" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#000" stop-opacity="0.14"/><stop offset="0.5" stop-color="#000" stop-opacity="0"/><stop offset="1" stop-color="#fff" stop-opacity="0.08"/></linearGradient>
+    <filter id="grass" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.6 0.12" numOctaves="2" seed="5"/>
+      <feColorMatrix type="matrix" values="0 0 0 0 0.1  0 0 0 0 0.25  0 0 0 0 0.05  0 0 0 1.2 -0.45"/>
+    </filter>
+    <filter id="mottle" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.006 0.012" numOctaves="3" seed="9"/>
+      <feColorMatrix type="matrix" values="0 0 0 0 0.15  0 0 0 0 0.3  0 0 0 0 0.05  0 0 0 1.4 -0.55"/>
+    </filter>
+    <filter id="cast" x="-5%" y="-30%" width="110%" height="160%"><feGaussianBlur stdDeviation="16"/></filter>
+    <clipPath id="all"><path d="M-20 600 L -20 300 C 140 240 300 180 470 200 C 640 220 700 330 820 330 C 960 330 1080 150 1260 150 C 1420 150 1520 230 1620 270 L 1620 600 Z"/></clipPath>
+  </defs>
+  <!-- back hills -->
+  <path d="M-20 600 L -20 300 C 140 240 300 180 470 200 C 640 220 700 330 820 330 C 960 330 1080 150 1260 150 C 1420 150 1520 230 1620 270 L 1620 600 Z" fill="url(#g1)"/>
+  <path transform="translate(0,-14)" filter="url(#cast)" fill="#1d4a12" opacity="0.45" d="M-20 600 L -20 420 C 160 340 340 300 560 320 C 760 340 860 420 1020 400 C 1180 380 1300 300 1460 320 C 1540 330 1590 350 1620 360 L 1620 600 Z"/>
+  <!-- middle swell -->
+  <path d="M-20 600 L -20 420 C 160 340 340 300 560 320 C 760 340 860 420 1020 400 C 1180 380 1300 300 1460 320 C 1540 330 1590 350 1620 360 L 1620 600 Z" fill="url(#g2)"/>
+  <!-- front hills -->
+  <path transform="translate(0,-14)" filter="url(#cast)" fill="#1d4a12" opacity="0.45" d="M-20 600 L -20 470 C 200 430 420 440 620 490 C 760 524 860 520 980 480 C 1140 430 1360 420 1620 470 L 1620 600 Z"/>
+  <path d="M-20 600 L -20 470 C 200 430 420 440 620 490 C 760 524 860 520 980 480 C 1140 430 1360 420 1620 470 L 1620 600 Z" fill="url(#g3)"/>
+  <path transform="translate(0,-12)" filter="url(#cast)" fill="#1d4a12" opacity="0.4" d="M-20 600 L -20 540 C 300 510 640 530 900 560 C 1180 590 1400 550 1620 540 L 1620 600 Z"/>
+  <path d="M-20 600 L -20 540 C 300 510 640 530 900 560 C 1180 590 1400 550 1620 540 L 1620 600 Z" fill="url(#g4)"/>
+  <g clip-path="url(#all)">
+    <rect width="1600" height="600" fill="url(#light)"/>
+    <rect width="1600" height="600" filter="url(#mottle)" opacity="0.55"/>
+    <rect width="1600" height="600" filter="url(#grass)" opacity="0.35"/>
+  </g>
+</svg>

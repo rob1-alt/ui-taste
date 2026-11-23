@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" preserveAspectRatio="xMidYMax slice">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#a8d3ea"/>
+      <stop offset="0.35" stop-color="#c4e1ee"/>
+      <stop offset="0.62" stop-color="#e6f0ef"/>
+      <stop offset="0.8" stop-color="#eef1ea"/>
+    </linearGradient>
+    <linearGradient id="m1" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#9fb4c2"/><stop offset="1" stop-color="#c9d8dc"/></linearGradient>
+    <linearGradient id="m2" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#7f97a3"/><stop offset="0.6" stop-color="#9cb0b4"/><stop offset="1" stop-color="#b7c7c4"/></linearGradient>
+    <linearGradient id="m3" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#6d8a76"/><stop offset="1" stop-color="#8ea98a"/></linearGradient>
+    <filter id="rock" x="-5%" y="-5%" width="110%" height="110%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.006 0.02" numOctaves="4" seed="8" result="n"/>
+      <feDisplacementMap in="SourceGraphic" in2="n" scale="26" xChannelSelector="R" yChannelSelector="G"/>
+    </filter>
+    <filter id="haze"><feGaussianBlur stdDeviation="2.2"/></filter>
+    <filter id="cloud" x="-30%" y="-60%" width="160%" height="220%"><feGaussianBlur stdDeviation="22"/></filter>
+    <filter id="ridges" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.02 0.004" numOctaves="3" seed="3"/>
+      <feColorMatrix type="matrix" values="0 0 0 0 0.15  0 0 0 0 0.2  0 0 0 0 0.22  0 0 0 2 -0.9"/>
+    </filter>
+    <clipPath id="mts"><path d="M-40 760 L 60 640 L 120 600 L 190 520 L 240 470 L 300 520 L 360 560 L 420 610 L 520 690 L 640 760 Z M 980 760 L 1120 670 L 1210 600 L 1290 560 L 1350 500 L 1400 470 L 1450 520 L 1520 560 L 1640 640 L 1640 760 Z"/></clipPath>
+  </defs>
+  <rect width="1600" height="1000" fill="url(#sky)"/>
+  <g filter="url(#cloud)" fill="#ffffff" opacity="0.7">
+    <ellipse cx="260" cy="210" rx="240" ry="34"/><ellipse cx="1320" cy="160" rx="260" ry="30"/><ellipse cx="840" cy="320" rx="300" ry="26"/>
+  </g>
+  <!-- far blue ranges -->
+  <g filter="url(#rock)" opacity="0.75">
+    <path d="M-40 760 L 80 650 L 180 600 L 260 560 L 340 600 L 450 660 L 560 720 L 700 760 Z" fill="url(#m1)"/>
+    <path d="M 900 760 L 1040 700 L 1180 640 L 1300 590 L 1420 560 L 1520 600 L 1640 650 L 1640 760 Z" fill="url(#m1)"/>
+  </g>
+  <!-- nearer mountains with ridge texture -->
+  <g filter="url(#rock)">
+    <path d="M-40 760 L 60 640 L 120 600 L 190 520 L 240 470 L 300 520 L 360 560 L 420 610 L 520 690 L 640 760 Z" fill="url(#m2)"/>
+    <path d="M 980 760 L 1120 670 L 1210 600 L 1290 560 L 1350 500 L 1400 470 L 1450 520 L 1520 560 L 1640 640 L 1640 760 Z" fill="url(#m2)"/>
+  </g>
+  <g clip-path="url(#mts)" opacity="0.5"><rect width="1600" height="1000" filter="url(#ridges)"/></g>
+  <!-- green foothills fading into haze -->
+  <g filter="url(#rock)">
+    <path d="M-40 800 C 120 700 260 690 420 740 C 520 770 600 790 700 800 L 700 1000 L -40 1000 Z" fill="url(#m3)"/>
+    <path d="M 920 800 C 1060 760 1200 700 1360 690 C 1480 684 1560 720 1640 740 L 1640 1000 L 920 1000 Z" fill="url(#m3)"/>
+  </g>
+  <rect x="0" y="700" width="1600" height="300" fill="#eef1ea" opacity="0.35" filter="url(#haze)"/>
+</svg>

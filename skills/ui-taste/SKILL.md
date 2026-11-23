@@ -1,6 +1,6 @@
 ---
 name: ui-taste
-description: Give the agent UI taste before it builds an interface. Use whenever you design, build, restyle or review a user interface or set up a design system (tokens, colour scales, type scale, DESIGN.md) (landing page, pricing page, dashboard, docs, changelog, login, settings, component, mobile screen), when the user says the UI looks generic, "AI-made", bland or off, or asks to make it look like Linear, Stripe, Vercel or another well-designed product. Looks up real screens captured from strong products, with the fonts, type scale, colours, radii and widths they really use, then builds from the project's own design system and checks the rendered result against an anti-slop checklist.
+description: Give the agent UI taste before it builds an interface, and build marketing landing pages in the image-sandwich style (product window set into a full-bleed scene). Use whenever you design, build, restyle or review a user interface or set up a design system (tokens, colour scales, type scale, DESIGN.md) (landing page, pricing page, dashboard, docs, changelog, login, settings, component, mobile screen), when the user says the UI looks generic, "AI-made", bland or off, or asks to make it look like Linear, Stripe, Vercel or another well-designed product. Looks up real screens captured from strong products, with the fonts, type scale, colours, radii and widths they really use, then builds from the project's own design system and checks the rendered result against an anti-slop checklist.
 ---
 
 # UI taste
@@ -48,6 +48,10 @@ Apply the decision with the project's components and tokens. Keep to these defau
 - One radius family (for example 6px controls, 12px cards) and one button style per level (primary, secondary, ghost).
 - Real content: the product's real names, numbers, screenshots and copy. Never invent customers, logos, testimonials, ratings or statistics; leave a clearly marked placeholder and tell the user.
 
+### Landing pages
+
+For a marketing landing page, unless the project's brand already points elsewhere, build the **image sandwich** in `references/landing-recipe.md`: a full-bleed scene (sky, hills, dusk canopy, duotone engraving, collage), the real product window set into it, and the foreground of the scene drawn over the bottom of the window; a two-line serif or tight grotesk headline, one filled button, white proof on the foreground. Start from `assets/landing-hero/` and look at the eight references first (`find_refs.py "image sandwich" --limit 8`). The image makes or breaks it: use the user's imagery or generate it, and prepare layers with `scripts/backdrop.py` (foreground cut-out, duotone halftone, colour grade). The drawn SVG layers in the template are placeholders.
+
 ### 4. Review what you rendered
 
 Render the screen (dev server, Storybook, or a screenshot tool) at desktop (1440px) and mobile (390px) widths and look at it. Then go through `references/anti-slop.md` and fix every item that applies. Report what you checked and what you changed. A UI that was never looked at is not reviewed.
@@ -74,5 +78,8 @@ Only add screens that teach a decision, and write the note: what to learn, not a
 - `references/taste-rules.md`: the rules behind good interfaces, with examples from the library.
 - `references/anti-slop.md`: the review checklist.
 - `references/brief-template.md`: a short brief to fill before building a new screen.
+- `references/landing-recipe.md`: the image-sandwich landing (anatomy, scenes, images, sections below, checks).
+- `assets/landing-hero/`: a working landing template built on that recipe.
+- `scripts/backdrop.py`: foreground cut-out, halftone duotone and colour grade for hero images.
 - `references/design-systems.md`: how to set up or clean up a design system (tokens, colour, type, space, shape, motion, components).
 - `assets/DESIGN.md`: the template to write it down.
