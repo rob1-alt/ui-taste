@@ -3495,6 +3495,822 @@
   }
  },
  {
+  "id": "fathom-dashboard",
+  "site": "Fathom",
+  "url": "https://app.usefathom.com/demo",
+  "type": "dashboard",
+  "tags": [
+   "light",
+   "analytics",
+   "dark-kpi-band",
+   "purple-chart",
+   "two-column-lists"
+  ],
+  "note": "The KPIs sit in one dark band across the top, so the eye reads them as a single statement; below, a soft purple area chart and two lists with pale value bars.",
+  "captured": "2026-11-23",
+  "screens": {
+   "desktop": {
+    "file": "screens/fathom-dashboard-desktop.jpg",
+    "width": 1440,
+    "height": 2918
+   },
+   "mobile": {
+    "file": "screens/fathom-dashboard-mobile.jpg",
+    "width": 390,
+    "height": 2600
+   }
+  },
+  "tokens": {
+   "title": "5 current visitors - Hilarious Platypus - Fathom Analytics",
+   "fonts": [
+    "int",
+    "jb"
+   ],
+   "type": {
+    "h1": {
+     "font": "int",
+     "size": 30,
+     "weight": "460",
+     "lineHeight": 1.15,
+     "letterSpacing": "-1px",
+     "color": "rgb(24, 27, 25)"
+    },
+    "h2": null,
+    "h3": {
+     "font": "int",
+     "size": 30,
+     "weight": "460",
+     "lineHeight": 1,
+     "letterSpacing": "-1px",
+     "color": "rgb(24, 27, 25)"
+    },
+    "body": {
+     "font": "int",
+     "size": 17,
+     "weight": "380",
+     "lineHeight": 1.6,
+     "letterSpacing": "normal",
+     "color": "rgb(24, 27, 25)"
+    }
+   },
+   "colors": {
+    "background": "#f7f8f7",
+    "surfaces": [
+     "#ffffff",
+     "#181b19",
+     "#f7f8f7",
+     "#eff1ef"
+    ],
+    "text": [
+     "#181b19",
+     "#89908b",
+     "#ffffff",
+     "#303632"
+    ]
+   },
+   "buttons": [
+    {
+     "label": "Area",
+     "bg": "#f7f8f7",
+     "color": "#89908b",
+     "radius": "4.8px",
+     "height": 32,
+     "paddingX": 11,
+     "font": "int",
+     "size": 14,
+     "weight": "380"
+    },
+    {
+     "label": "Auto",
+     "bg": "#f7f8f7",
+     "color": "#89908b",
+     "radius": "4.8px",
+     "height": 32,
+     "paddingX": 11,
+     "font": "int",
+     "size": 14,
+     "weight": "380"
+    }
+   ],
+   "contentWidth": 1312
+  }
+ },
+ {
+  "id": "github-pulse",
+  "site": "GitHub",
+  "url": "https://github.com/vercel/next.js/pulse",
+  "type": "dashboard",
+  "tags": [
+   "light",
+   "activity-summary",
+   "two-tone-bar",
+   "sentence-summary",
+   "bar-chart"
+  ],
+  "note": "Activity told as sentences (Excluding merges, 47 authors have pushed 135 commits…) under a two-tone purple and green bar of merged versus open work. Text first, chart second.",
+  "captured": "2026-11-23",
+  "screens": {
+   "desktop": {
+    "file": "screens/github-pulse-desktop.jpg",
+    "width": 1440,
+    "height": 3600
+   },
+   "mobile": {
+    "file": "screens/github-pulse-mobile.jpg",
+    "width": 390,
+    "height": 2600
+   }
+  },
+  "tokens": {
+   "title": "Pulse · vercel/next.js · GitHub",
+   "fonts": [
+    "Mona Sans VF",
+    "Mona Sans"
+   ],
+   "type": {
+    "h1": {
+     "font": "Mona Sans VF",
+     "size": 32,
+     "weight": "600",
+     "lineHeight": 1.5,
+     "letterSpacing": "normal",
+     "color": "rgb(31, 35, 40)"
+    },
+    "h2": {
+     "font": "Mona Sans VF",
+     "size": 24,
+     "weight": "600",
+     "lineHeight": 1.5,
+     "letterSpacing": "normal",
+     "color": "rgb(255, 255, 255)"
+    },
+    "h3": {
+     "font": "Mona Sans VF",
+     "size": 14,
+     "weight": "600",
+     "lineHeight": 1.5,
+     "letterSpacing": "normal",
+     "color": "rgb(31, 35, 40)"
+    },
+    "body": {
+     "font": "Mona Sans VF",
+     "size": 16,
+     "weight": "400",
+     "lineHeight": 1.5,
+     "letterSpacing": "normal",
+     "color": "rgb(89, 99, 110)"
+    }
+   },
+   "colors": {
+    "background": "#ffffff",
+    "surfaces": [
+     "#000000",
+     "#ffffff",
+     "#f6f8fa",
+     "#0d1117",
+     "#d1d9e0"
+    ],
+    "text": [
+     "#1f2328",
+     "#59636e",
+     "#ffffff",
+     "#a4aea6"
+    ]
+   },
+   "buttons": [
+    {
+     "label": "Sign up",
+     "bg": "#ffffff",
+     "color": "#000000",
+     "radius": "6px",
+     "height": 32,
+     "paddingX": 12,
+     "font": "Mona Sans VF",
+     "size": 16,
+     "weight": "400"
+    },
+    {
+     "label": "Period:\n1 week",
+     "bg": "#f6f8fa",
+     "color": "#25292e",
+     "radius": "6px",
+     "height": 32,
+     "paddingX": 12,
+     "font": "Mona Sans VF",
+     "size": 14,
+     "weight": "500"
+    }
+   ],
+   "contentWidth": 1280
+  }
+ },
+ {
+  "id": "openpanel-dashboard",
+  "site": "OpenPanel",
+  "url": "https://dashboard.openpanel.dev/share/overview/zef2XC",
+  "type": "dashboard",
+  "tags": [
+   "light",
+   "analytics",
+   "sparkline-kpis",
+   "blue-accent",
+   "tabs-over-lists"
+  ],
+  "note": "KPI tiles each with a tiny bar sparkline in blue, a line chart, then lists switched by underlined tabs (Refs, URLs, Source, Campaign). One blue does all the work.",
+  "captured": "2026-11-23",
+  "screens": {
+   "desktop": {
+    "file": "screens/openpanel-dashboard-desktop.jpg",
+    "width": 1440,
+    "height": 3600
+   },
+   "mobile": {
+    "file": "screens/openpanel-dashboard-mobile.jpg",
+    "width": 390,
+    "height": 2600
+   }
+  },
+  "tokens": {
+   "title": "Public Web - Openpanel.dev - OpenPanel.dev",
+   "fonts": [
+    "Inter Variable",
+    "ui-monospace"
+   ],
+   "type": {
+    "h1": null,
+    "h2": null,
+    "h3": null,
+    "body": null
+   },
+   "colors": {
+    "background": "#ffffff",
+    "surfaces": [],
+    "text": []
+   },
+   "buttons": [],
+   "contentWidth": 1280
+  }
+ },
+ {
+  "id": "plausible-dashboard",
+  "site": "Plausible",
+  "url": "https://plausible.io/plausible.io",
+  "type": "dashboard",
+  "tags": [
+   "light",
+   "analytics",
+   "kpi-row",
+   "line-chart",
+   "two-column-lists",
+   "bar-in-row"
+  ],
+  "note": "One row of six KPIs above one big line chart, then lists in two columns where each row carries a pale bar behind it sized by its value. No cards inside cards: the bars do the charting.",
+  "captured": "2026-11-23",
+  "screens": {
+   "desktop": {
+    "file": "screens/plausible-dashboard-desktop.jpg",
+    "width": 1440,
+    "height": 2879
+   },
+   "mobile": {
+    "file": "screens/plausible-dashboard-mobile.jpg",
+    "width": 390,
+    "height": 2600
+   }
+  },
+  "tokens": {
+   "title": "Plausible Analytics: Live Demo",
+   "fonts": [
+    "ui-sans-serif"
+   ],
+   "type": {
+    "h1": null,
+    "h2": {
+     "font": "ui-sans-serif",
+     "size": 36,
+     "weight": "800",
+     "lineHeight": 1.11,
+     "letterSpacing": "-0.9px",
+     "color": "oklch(0.21 0.006 285.885)"
+    },
+    "h3": null,
+    "body": {
+     "font": "ui-sans-serif",
+     "size": 19,
+     "weight": "600",
+     "lineHeight": 1.5,
+     "letterSpacing": "normal",
+     "color": "oklch(0.21 0.006 285.885)"
+    }
+   },
+   "colors": {
+    "background": "#ffffff",
+    "surfaces": [
+     "#ffffff"
+    ],
+    "text": [
+     "#ffffff"
+    ]
+   },
+   "buttons": [],
+   "contentWidth": 1120
+  }
+ },
+ {
+  "id": "shadcn-dashboard-01",
+  "site": "shadcn/ui",
+  "url": "https://ui.shadcn.com/view/new-york-v4/dashboard-01",
+  "type": "dashboard",
+  "tags": [
+   "light",
+   "sidebar-nav",
+   "kpi-cards",
+   "area-chart",
+   "data-table",
+   "monochrome"
+  ],
+  "note": "The canonical SaaS dashboard: collapsible sidebar, four KPI cards each with a delta and one line of context, one large area chart with a range switch, then a data table with tabs. Entirely grey with black accents; the data is the only thing that varies.",
+  "captured": "2026-11-23",
+  "screens": {
+   "desktop": {
+    "file": "screens/shadcn-dashboard-01-desktop.jpg",
+    "width": 1440,
+    "height": 1436
+   },
+   "mobile": {
+    "file": "screens/shadcn-dashboard-01-mobile.jpg",
+    "width": 390,
+    "height": 1956
+   }
+  },
+  "tokens": {
+   "title": "dashboard-01 - shadcn/ui",
+   "fonts": [
+    "Geist"
+   ],
+   "type": {
+    "h1": {
+     "font": "Geist",
+     "size": 16,
+     "weight": "500",
+     "lineHeight": 1.5,
+     "letterSpacing": "normal",
+     "color": "rgb(0, 0, 0)"
+    },
+    "h2": null,
+    "h3": null,
+    "body": null
+   },
+   "colors": {
+    "background": "#ffffff",
+    "surfaces": [],
+    "text": [
+     "#000000"
+    ]
+   },
+   "buttons": [],
+   "contentWidth": null
+  }
+ },
+ {
+  "id": "simple-analytics-dashboard",
+  "site": "Simple Analytics",
+  "url": "https://dashboard.simpleanalytics.com/simpleanalytics.com",
+  "type": "dashboard",
+  "tags": [
+   "light",
+   "analytics",
+   "big-numbers",
+   "annotated-chart",
+   "flags",
+   "teal-accent"
+  ],
+  "note": "Huge plain numbers with a small delta, an area chart with notes pinned on the dates where something happened, then compact lists with icons and flags. Friendly but dense.",
+  "captured": "2026-11-23",
+  "screens": {
+   "desktop": {
+    "file": "screens/simple-analytics-dashboard-desktop.jpg",
+    "width": 1440,
+    "height": 1731
+   },
+   "mobile": {
+    "file": "screens/simple-analytics-dashboard-mobile.jpg",
+    "width": 390,
+    "height": 2600
+   }
+  },
+  "tokens": {
+   "title": "Website Analytics dashboard of Simple Analytics",
+   "fonts": [
+    "Space Grotesk"
+   ],
+   "type": {
+    "h1": null,
+    "h2": null,
+    "h3": {
+     "font": "Space Grotesk",
+     "size": 12,
+     "weight": "600",
+     "lineHeight": 1.33,
+     "letterSpacing": "0.6px",
+     "color": "rgb(141, 163, 166)"
+    },
+    "body": {
+     "font": "Space Grotesk",
+     "size": 16,
+     "weight": "400",
+     "lineHeight": 1,
+     "letterSpacing": "normal",
+     "color": "rgb(65, 86, 89)"
+    }
+   },
+   "colors": {
+    "background": "#ffffff",
+    "surfaces": [
+     "#f9fbfb",
+     "#eef9ff",
+     "#bfedf5",
+     "#ff4f64",
+     "#ffffff"
+    ],
+    "text": [
+     "#425659",
+     "#415659",
+     "#68797b",
+     "#00c5e5"
+    ]
+   },
+   "buttons": [
+    {
+     "label": "Sign up",
+     "bg": "#ff4f64",
+     "color": "#ffffff",
+     "radius": "20px",
+     "height": 40,
+     "paddingX": 16,
+     "font": "Space Grotesk",
+     "size": 16,
+     "weight": "600"
+    },
+    {
+     "label": "",
+     "bg": "#eef9ff",
+     "color": "#098195",
+     "radius": "3px",
+     "height": 28,
+     "paddingX": 0,
+     "font": "Space Grotesk",
+     "size": 16,
+     "weight": "400"
+    },
+    {
+     "label": "",
+     "bg": "#eef9ff",
+     "color": "#098195",
+     "radius": "3px",
+     "height": 28,
+     "paddingX": 0,
+     "font": "Space Grotesk",
+     "size": 16,
+     "weight": "400"
+    },
+    {
+     "label": "",
+     "bg": "#eef9ff",
+     "color": "#098195",
+     "radius": "3px",
+     "height": 28,
+     "paddingX": 0,
+     "font": "Space Grotesk",
+     "size": 16,
+     "weight": "400"
+    },
+    {
+     "label": "",
+     "bg": "#eef9ff",
+     "color": "#098195",
+     "radius": "3px",
+     "height": 28,
+     "paddingX": 0,
+     "font": "Space Grotesk",
+     "size": 16,
+     "weight": "400"
+    },
+    {
+     "label": "",
+     "bg": "#eef9ff",
+     "color": "#098195",
+     "radius": "3px",
+     "height": 28,
+     "paddingX": 0,
+     "font": "Space Grotesk",
+     "size": 16,
+     "weight": "400"
+    }
+   ],
+   "contentWidth": 1280
+  }
+ },
+ {
+  "id": "catalyst-dashboard",
+  "site": "Tailwind Catalyst",
+  "url": "https://catalyst-demo.tailwindui.com/",
+  "type": "dashboard",
+  "tags": [
+   "light",
+   "sidebar-nav",
+   "greeting",
+   "kpi-row",
+   "orders-table",
+   "tailwind"
+  ],
+  "note": "Personal greeting, four KPIs with green or red deltas under a hairline, then a recent-orders table with thumbnails. Generous row height, no card borders at all: hairlines and whitespace only.",
+  "captured": "2026-11-23",
+  "screens": {
+   "desktop": {
+    "file": "screens/catalyst-dashboard-desktop.jpg",
+    "width": 1440,
+    "height": 1048
+   },
+   "mobile": {
+    "file": "screens/catalyst-dashboard-mobile.jpg",
+    "width": 390,
+    "height": 1563
+   }
+  },
+  "tokens": {
+   "title": "Catalyst",
+   "fonts": [
+    "Inter"
+   ],
+   "type": {
+    "h1": {
+     "font": "Inter",
+     "size": 20,
+     "weight": "600",
+     "lineHeight": 1.6,
+     "letterSpacing": "normal",
+     "color": "lab(2.51107 0.242703 -0.886115)"
+    },
+    "h2": {
+     "font": "Inter",
+     "size": 14,
+     "weight": "600",
+     "lineHeight": 1.71,
+     "letterSpacing": "normal",
+     "color": "lab(2.51107 0.242703 -0.886115)"
+    },
+    "h3": {
+     "font": "Inter",
+     "size": 12,
+     "weight": "500",
+     "lineHeight": 2,
+     "letterSpacing": "normal",
+     "color": "lab(47.8878 1.65477 -5.77283)"
+    },
+    "body": null
+   },
+   "colors": {
+    "background": "#ffffff",
+    "surfaces": [
+     "#ffffff"
+    ],
+    "text": []
+   },
+   "buttons": [],
+   "contentWidth": 1152
+  }
+ },
+ {
+  "id": "tremor-dashboard",
+  "site": "Tremor",
+  "url": "https://dashboard.tremor.so/overview",
+  "type": "dashboard",
+  "tags": [
+   "light",
+   "sidebar-nav",
+   "usage-meters",
+   "sparkline-grid",
+   "indigo-accent"
+  ],
+  "note": "Billing-cycle usage as thin progress meters with numbers right-aligned, then a grid of small line charts each with its delta. Shows how to make many numbers calm: thin lines, one indigo, lots of white.",
+  "captured": "2026-11-23",
+  "screens": {
+   "desktop": {
+    "file": "screens/tremor-dashboard-desktop.jpg",
+    "width": 1440,
+    "height": 1345
+   },
+   "mobile": {
+    "file": "screens/tremor-dashboard-mobile.jpg",
+    "width": 390,
+    "height": 2600
+   }
+  },
+  "tokens": {
+   "title": "Dashboard",
+   "fonts": [
+    "__Inter_f367f3"
+   ],
+   "type": {
+    "h1": {
+     "font": "__Inter_f367f3",
+     "size": 20,
+     "weight": "600",
+     "lineHeight": 1.4,
+     "letterSpacing": "normal",
+     "color": "rgb(17, 24, 39)"
+    },
+    "h2": null,
+    "h3": {
+     "font": "__Inter_f367f3",
+     "size": 14,
+     "weight": "700",
+     "lineHeight": 1.43,
+     "letterSpacing": "normal",
+     "color": "rgb(17, 24, 39)"
+    },
+    "body": {
+     "font": "__Inter_f367f3",
+     "size": 14,
+     "weight": "500",
+     "lineHeight": 1.43,
+     "letterSpacing": "normal",
+     "color": "rgb(17, 24, 39)"
+    }
+   },
+   "colors": {
+    "background": "#ffffff",
+    "surfaces": [
+     "#ffffff",
+     "#e0e7ff",
+     "#4f46e5",
+     "#ecfdf5",
+     "#fef2f2"
+    ],
+    "text": [
+     "#111827",
+     "#6b7280",
+     "#000000",
+     "#374151"
+    ]
+   },
+   "buttons": [
+    {
+     "label": "RA\n\nRetail analytics\n\nMember",
+     "bg": "#ffffff",
+     "color": "#000000",
+     "radius": "6px",
+     "height": 54,
+     "paddingX": 8,
+     "font": "__Inter_f367f3",
+     "size": 14,
+     "weight": "400"
+    },
+    {
+     "label": "16 Apr, 2024 - 16 May, 2024",
+     "bg": "#ffffff",
+     "color": "#111827",
+     "radius": "6px",
+     "height": 38,
+     "paddingX": 12,
+     "font": "__Inter_f367f3",
+     "size": 14,
+     "weight": "400"
+    },
+    {
+     "label": "Last year",
+     "bg": "#ffffff",
+     "color": "#111827",
+     "radius": "6px",
+     "height": 38,
+     "paddingX": 12,
+     "font": "__Inter_f367f3",
+     "size": 14,
+     "weight": "400"
+    },
+    {
+     "label": "Edit",
+     "bg": "#ffffff",
+     "color": "#111827",
+     "radius": "6px",
+     "height": 38,
+     "paddingX": 8,
+     "font": "__Inter_f367f3",
+     "size": 14,
+     "weight": "500"
+    }
+   ],
+   "contentWidth": 1536
+  }
+ },
+ {
+  "id": "tremor-planner",
+  "site": "Tremor",
+  "url": "https://planner.tremor.so/quotes/overview",
+  "type": "dashboard",
+  "tags": [
+   "light",
+   "data-table",
+   "grouped-rows",
+   "avatars",
+   "status-pills",
+   "inline-meters"
+  ],
+  "note": "A deals table grouped by region, with tiny inline meters for ratios, avatar stacks for owners and pale status pills. The header row is a KPI strip with coloured mini bars.",
+  "captured": "2026-11-23",
+  "screens": {
+   "desktop": {
+    "file": "screens/tremor-planner-desktop.jpg",
+    "width": 1440,
+    "height": 1508
+   },
+   "mobile": {
+    "file": "screens/tremor-planner-mobile.jpg",
+    "width": 390,
+    "height": 1760
+   }
+  },
+  "tokens": {
+   "title": "Planner",
+   "fonts": [
+    "ui-sans-serif"
+   ],
+   "type": {
+    "h1": {
+     "font": "ui-sans-serif",
+     "size": 18,
+     "weight": "600",
+     "lineHeight": 1.56,
+     "letterSpacing": "normal",
+     "color": "rgb(17, 24, 39)"
+    },
+    "h2": null,
+    "h3": null,
+    "body": {
+     "font": "ui-sans-serif",
+     "size": 18,
+     "weight": "600",
+     "lineHeight": 1.56,
+     "letterSpacing": "normal",
+     "color": "rgb(17, 24, 39)"
+    }
+   },
+   "colors": {
+    "background": "#ffffff",
+    "surfaces": [
+     "#ffffff",
+     "#f9fafb",
+     "#eff6ff",
+     "#a855f7",
+     "#10b981"
+    ],
+    "text": [
+     "#4b5563",
+     "#111827",
+     "#6b7280",
+     "#374151"
+    ]
+   },
+   "buttons": [
+    {
+     "label": "Quotes",
+     "bg": "#ffffff",
+     "color": "#2563eb",
+     "radius": "4px",
+     "height": 32,
+     "paddingX": 36,
+     "font": "ui-sans-serif",
+     "size": 14,
+     "weight": "400"
+    },
+    {
+     "label": "Assigned to...",
+     "bg": "#ffffff",
+     "color": "#6b7280",
+     "radius": "6px",
+     "height": 34,
+     "paddingX": 12,
+     "font": "ui-sans-serif",
+     "size": 14,
+     "weight": "400"
+    },
+    {
+     "label": "Export",
+     "bg": "#ffffff",
+     "color": "#111827",
+     "radius": "6px",
+     "height": 34,
+     "paddingX": 12,
+     "font": "ui-sans-serif",
+     "size": 14,
+     "weight": "500"
+    }
+   ],
+   "contentWidth": null
+  }
+ },
+ {
   "id": "adobe-spectrum-overview",
   "site": "Adobe Spectrum",
   "url": "https://spectrum.adobe.com",
@@ -11819,6 +12635,117 @@
   }
  },
  {
+  "id": "devin-landing",
+  "site": "Devin",
+  "url": "https://windsurf.com",
+  "type": "landing",
+  "tags": [
+   "light",
+   "product-ui",
+   "left-aligned",
+   "download-cta"
+  ],
+  "note": "Left-aligned small headline and a download button, then large app screenshots; windsurf.com now redirects here.",
+  "captured": "2026-11-23",
+  "screens": {
+   "desktop": {
+    "file": "screens/devin-landing-desktop.jpg",
+    "width": 1440,
+    "height": 3600,
+    "path": ""
+   },
+   "mobile": {
+    "file": "screens/devin-landing-mobile.jpg",
+    "width": 390,
+    "height": 2600,
+    "path": ""
+   }
+  },
+  "tokens": {
+   "title": "Devin Desktop | Devin",
+   "fonts": [
+    "skandia",
+    "inter",
+    "ibmPlexMono"
+   ],
+   "type": {
+    "h1": {
+     "font": "skandia",
+     "size": 36,
+     "weight": "400",
+     "lineHeight": 1.2,
+     "letterSpacing": "-1.08px",
+     "color": "rgb(25, 25, 25)"
+    },
+    "h2": {
+     "font": "skandia",
+     "size": 32,
+     "weight": "400",
+     "lineHeight": 1.2,
+     "letterSpacing": "-0.64px",
+     "color": "rgb(25, 25, 25)"
+    },
+    "h3": {
+     "font": "skandia",
+     "size": 20,
+     "weight": "400",
+     "lineHeight": 1.2,
+     "letterSpacing": "-0.2px",
+     "color": "rgb(25, 25, 25)"
+    },
+    "body": {
+     "font": "skandia",
+     "size": 16,
+     "weight": "400",
+     "lineHeight": 1.4,
+     "letterSpacing": "-0.16px",
+     "color": "rgba(25, 25, 25, 0.56)"
+    }
+   },
+   "colors": {
+    "background": "#ffffff",
+    "surfaces": [
+     "#fcfcfc",
+     "#ffffff",
+     "#f8f8f8",
+     "#000000",
+     "#3a3a3a"
+    ],
+    "text": [
+     "#191919",
+     "#000000",
+     "#317cff",
+     "#ffffff"
+    ]
+   },
+   "buttons": [
+    {
+     "label": "Download",
+     "bg": "#000000",
+     "color": "#ffffff",
+     "radius": "3.35544e+07px",
+     "height": 28,
+     "paddingX": 12,
+     "font": "skandia",
+     "size": 14,
+     "weight": "400"
+    },
+    {
+     "label": "Download for MacOS",
+     "bg": "#000000",
+     "color": "#ffffff",
+     "radius": "3.35544e+07px",
+     "height": 42,
+     "paddingX": 20,
+     "font": "skandia",
+     "size": 16,
+     "weight": "400"
+    }
+   ],
+   "contentWidth": 1400
+  }
+ },
+ {
   "id": "dia-landing",
   "site": "Dia",
   "url": "https://www.diabrowser.com",
@@ -16539,6 +17466,35 @@
   }
  },
  {
+  "id": "meetsense-sky-and-hills",
+  "site": "MeetSense",
+  "url": "(reference supplied by the user, no live URL)",
+  "type": "landing",
+  "source": "user-reference",
+  "tags": [
+   "image-sandwich-family",
+   "light",
+   "image-hero",
+   "image-sandwich",
+   "hills-foreground",
+   "serif-display",
+   "badge-pill",
+   "pill-buttons",
+   "dashboard-in-landscape",
+   "logo-strip"
+  ],
+  "note": "Pale blue sky with bluish mountains at the sides and bright green rolling hills in front; the dashboard sits between them so the hills cover its lower half. Badge pill with a dark tag and mono text, a two-line serif headline, a black pill and a white pill button. White logos on the grass. Below: a serif h2 with greyed words and three cards with the middle one black.",
+  "captured": "2026-11-23",
+  "screens": {
+   "desktop": {
+    "file": "screens/meetsense-sky-and-hills-desktop.jpg",
+    "width": 1200,
+    "height": 1620
+   }
+  },
+  "tokens": null
+ },
+ {
   "id": "mercury-landing",
   "site": "Mercury",
   "url": "https://mercury.com",
@@ -17606,6 +18562,34 @@
   }
  },
  {
+  "id": "nelson-clouds-collage",
+  "site": "Nelson",
+  "url": "(reference supplied by the user, no live URL)",
+  "type": "landing",
+  "source": "user-reference",
+  "tags": [
+   "image-sandwich-family",
+   "light",
+   "image-hero",
+   "photo-collage",
+   "torn-paper",
+   "classical-art",
+   "serif-display",
+   "logo-strip",
+   "blue-accent"
+  ],
+  "note": "Full-bleed photo of clouds with a torn-paper hole revealing a classical painting; the headline sits below the image in a serif, then a ruled logo strip. Later sections repeat the collage (statues in clouds) next to a small UI card. One electric blue for tabs and the Contact button.",
+  "captured": "2026-11-23",
+  "screens": {
+   "desktop": {
+    "file": "screens/nelson-clouds-collage-desktop.jpg",
+    "width": 1200,
+    "height": 1620
+   }
+  },
+  "tokens": null
+ },
+ {
   "id": "neon-landing",
   "site": "Neon",
   "url": "https://neon.com",
@@ -18195,6 +19179,63 @@
    ],
    "contentWidth": 672
   }
+ },
+ {
+  "id": "opero-dusk-foliage",
+  "site": "Opero",
+  "url": "(reference supplied by the user, no live URL)",
+  "type": "landing",
+  "source": "user-reference",
+  "tags": [
+   "image-sandwich-family",
+   "dark",
+   "image-hero",
+   "image-sandwich",
+   "dusk",
+   "foliage-foreground",
+   "serif-display",
+   "dashboard-in-landscape",
+   "rating"
+  ],
+  "note": "Dusk sky over dark hills; the product window rises from a band of pink and green tree canopy that covers its bottom edge. Centred serif headline, a white pill button and a 4.8 rating beside it. The page stays dark below with a serif h2 and a light UI card on a dark panel.",
+  "captured": "2026-11-23",
+  "screens": {
+   "desktop": {
+    "file": "screens/opero-dusk-foliage-desktop.jpg",
+    "width": 1200,
+    "height": 1621
+   }
+  },
+  "tokens": null
+ },
+ {
+  "id": "orbit-halftone-duotone",
+  "site": "Orbit",
+  "url": "(reference supplied by the user, no live URL)",
+  "type": "landing",
+  "source": "user-reference",
+  "tags": [
+   "image-sandwich-family",
+   "blue",
+   "image-hero",
+   "halftone",
+   "duotone",
+   "classical-art",
+   "pixel-display",
+   "mono-buttons",
+   "logo-marquee",
+   "image-cards"
+  ],
+  "note": "Whole hero is one engraving-like image turned into a blue and white halftone duotone (a Roman general facing his army), with a pixel-grotesk headline and two mono square buttons. A ruled bar above carries the badge, the user count and a logo marquee. Feature cards reuse the duotone image as a background with a white UI fragment on top.",
+  "captured": "2026-11-23",
+  "screens": {
+   "desktop": {
+    "file": "screens/orbit-halftone-duotone-desktop.jpg",
+    "width": 1200,
+    "height": 1620
+   }
+  },
+  "tokens": null
  },
  {
   "id": "oura-landing",
@@ -20504,6 +21545,34 @@
    ],
    "contentWidth": 1600
   }
+ },
+ {
+  "id": "qredible-blue-and-grass",
+  "site": "Qredible",
+  "url": "(reference supplied by the user, no live URL)",
+  "type": "landing",
+  "source": "user-reference",
+  "tags": [
+   "image-sandwich-family",
+   "blue",
+   "image-hero",
+   "image-sandwich",
+   "grass-foreground",
+   "serif-display",
+   "dashboard-in-landscape",
+   "logo-strip",
+   "image-cards"
+  ],
+  "note": "Electric blue sky, centred serif headline, a black square button and a text link; the product dashboard is sunk into a field of grass with pink tips that grows over its lower half, and the logos sit in white on the grass. Use-case cards are deep blue panels with the same grass at the bottom and white UI nodes on top.",
+  "captured": "2026-11-23",
+  "screens": {
+   "desktop": {
+    "file": "screens/qredible-blue-and-grass-desktop.jpg",
+    "width": 1200,
+    "height": 1620
+   }
+  },
+  "tokens": null
  },
  {
   "id": "railway-landing",
@@ -23815,6 +24884,34 @@
   }
  },
  {
+  "id": "synais-object-in-hand",
+  "site": "Synais",
+  "url": "(reference supplied by the user, no live URL)",
+  "type": "landing",
+  "source": "user-reference",
+  "tags": [
+   "image-sandwich-family",
+   "light",
+   "warm-neutrals",
+   "object-photo",
+   "line-diagram",
+   "grotesk-display",
+   "two-tone-headline",
+   "oxblood-accent",
+   "dark-ui-cards"
+  ],
+  "note": "Beige page with thin circuit-like lines and small chips around a photographed hand holding the product object; two dark UI cards overlap the hand's edge. Tight grotesk headline with the second word in taupe. Oxblood primary button, white secondary, square corners. Then a deep brown section with a huge two-tone statement and three big numbers.",
+  "captured": "2026-11-23",
+  "screens": {
+   "desktop": {
+    "file": "screens/synais-object-in-hand-desktop.jpg",
+    "width": 1200,
+    "height": 1621
+   }
+  },
+  "tokens": null
+ },
+ {
   "id": "tailscale-landing",
   "site": "Tailscale",
   "url": "https://tailscale.com",
@@ -24590,6 +25687,35 @@
    ],
    "contentWidth": 1440
   }
+ },
+ {
+  "id": "torqe-blue-and-hill",
+  "site": "Torqe",
+  "url": "(reference supplied by the user, no live URL)",
+  "type": "landing",
+  "source": "user-reference",
+  "tags": [
+   "image-sandwich-family",
+   "blue",
+   "image-hero",
+   "image-sandwich",
+   "hill-foreground",
+   "dot-grid",
+   "grotesk-display",
+   "orange-accent",
+   "dashboard-in-landscape",
+   "big-numbers"
+  ],
+  "note": "Saturated blue with a faint dot grid on the left, a tight grotesk headline and an orange square button; one dark green hill sweeps diagonally across the bottom and over the CRM dashboard on the right, logos in white on the grass. Below: an orange eyebrow, a big headline, five stars and three large numbers with progress bars.",
+  "captured": "2026-11-23",
+  "screens": {
+   "desktop": {
+    "file": "screens/torqe-blue-and-hill-desktop.jpg",
+    "width": 1200,
+    "height": 1621
+   }
+  },
+  "tokens": null
  },
  {
   "id": "trigger-dev-landing",
@@ -26041,117 +27167,6 @@
   }
  },
  {
-  "id": "devin-landing",
-  "site": "Devin",
-  "url": "https://windsurf.com",
-  "type": "landing",
-  "tags": [
-   "light",
-   "product-ui",
-   "left-aligned",
-   "download-cta"
-  ],
-  "note": "Left-aligned small headline and a download button, then large app screenshots; windsurf.com now redirects here.",
-  "captured": "2026-11-23",
-  "screens": {
-   "desktop": {
-    "file": "screens/devin-landing-desktop.jpg",
-    "width": 1440,
-    "height": 3600,
-    "path": ""
-   },
-   "mobile": {
-    "file": "screens/devin-landing-mobile.jpg",
-    "width": 390,
-    "height": 2600,
-    "path": ""
-   }
-  },
-  "tokens": {
-   "title": "Devin Desktop | Devin",
-   "fonts": [
-    "skandia",
-    "inter",
-    "ibmPlexMono"
-   ],
-   "type": {
-    "h1": {
-     "font": "skandia",
-     "size": 36,
-     "weight": "400",
-     "lineHeight": 1.2,
-     "letterSpacing": "-1.08px",
-     "color": "rgb(25, 25, 25)"
-    },
-    "h2": {
-     "font": "skandia",
-     "size": 32,
-     "weight": "400",
-     "lineHeight": 1.2,
-     "letterSpacing": "-0.64px",
-     "color": "rgb(25, 25, 25)"
-    },
-    "h3": {
-     "font": "skandia",
-     "size": 20,
-     "weight": "400",
-     "lineHeight": 1.2,
-     "letterSpacing": "-0.2px",
-     "color": "rgb(25, 25, 25)"
-    },
-    "body": {
-     "font": "skandia",
-     "size": 16,
-     "weight": "400",
-     "lineHeight": 1.4,
-     "letterSpacing": "-0.16px",
-     "color": "rgba(25, 25, 25, 0.56)"
-    }
-   },
-   "colors": {
-    "background": "#ffffff",
-    "surfaces": [
-     "#fcfcfc",
-     "#ffffff",
-     "#f8f8f8",
-     "#000000",
-     "#3a3a3a"
-    ],
-    "text": [
-     "#191919",
-     "#000000",
-     "#317cff",
-     "#ffffff"
-    ]
-   },
-   "buttons": [
-    {
-     "label": "Download",
-     "bg": "#000000",
-     "color": "#ffffff",
-     "radius": "3.35544e+07px",
-     "height": 28,
-     "paddingX": 12,
-     "font": "skandia",
-     "size": 14,
-     "weight": "400"
-    },
-    {
-     "label": "Download for MacOS",
-     "bg": "#000000",
-     "color": "#ffffff",
-     "radius": "3.35544e+07px",
-     "height": 42,
-     "paddingX": 20,
-     "font": "skandia",
-     "size": 16,
-     "weight": "400"
-    }
-   ],
-   "contentWidth": 1400
-  }
- },
- {
   "id": "wise-landing",
   "site": "Wise",
   "url": "https://wise.com",
@@ -26378,6 +27393,35 @@
    ],
    "contentWidth": 1200
   }
+ },
+ {
+  "id": "xenora-sky-and-ruins",
+  "site": "Xenora",
+  "url": "(reference supplied by the user, no live URL)",
+  "type": "landing",
+  "source": "user-reference",
+  "tags": [
+   "image-sandwich-family",
+   "light",
+   "image-hero",
+   "image-sandwich",
+   "photo-sky",
+   "left-aligned-hero",
+   "grotesk-display",
+   "mono-labels",
+   "workflow-ui",
+   "connector-lines"
+  ],
+  "note": "Deep blue photographed sky with clouds and a Greek temple at the horizon; left-aligned white grotesk headline and a black mono button, a thin connector line leads to a small chip and down into a large workflow editor that fills the bottom of the hero.",
+  "captured": "2026-11-23",
+  "screens": {
+   "desktop": {
+    "file": "screens/xenora-sky-and-ruins-desktop.jpg",
+    "width": 1200,
+    "height": 1620
+   }
+  },
+  "tokens": null
  },
  {
   "id": "zed-landing",
@@ -30146,231 +31190,297 @@
   }
  },
  {
-  "id": "nelson-clouds-collage",
-  "site": "Nelson",
-  "url": "(reference supplied by the user, no live URL)",
-  "type": "landing",
-  "source": "user-reference",
+  "id": "github-status",
+  "site": "GitHub",
+  "url": "https://www.githubstatus.com/",
+  "type": "status",
   "tags": [
-   "image-sandwich-family",
    "light",
-   "image-hero",
-   "photo-collage",
-   "torn-paper",
-   "classical-art",
-   "serif-display",
-   "logo-strip",
-   "blue-accent"
+   "status-page",
+   "illustrated-header",
+   "uptime-bars",
+   "green-banner"
   ],
-  "note": "Full-bleed photo of clouds with a torn-paper hole revealing a classical painting; the headline sits below the image in a serif, then a ruled logo strip. Later sections repeat the collage (statues in clouds) next to a small UI card. One electric blue for tabs and the Contact button.",
+  "note": "Playful illustrated header (mascots), one green All Systems Operational banner, then a two-column grid of components with 90-day uptime bars and a percentage.",
   "captured": "2026-11-23",
   "screens": {
    "desktop": {
-    "file": "screens/nelson-clouds-collage-desktop.jpg",
-    "width": 1200,
-    "height": 1620
+    "file": "screens/github-status-desktop.jpg",
+    "width": 1440,
+    "height": 2255
+   },
+   "mobile": {
+    "file": "screens/github-status-mobile.jpg",
+    "width": 390,
+    "height": 2600
    }
   },
-  "tokens": null
+  "tokens": {
+   "title": "GitHub Status",
+   "fonts": [
+    "-apple-system",
+    "FontAwesome",
+    "SFMono-Regular"
+   ],
+   "type": {
+    "h1": null,
+    "h2": {
+     "font": "-apple-system",
+     "size": 20,
+     "weight": "600",
+     "lineHeight": 1.45,
+     "letterSpacing": "normal",
+     "color": "rgb(255, 255, 255)"
+    },
+    "h3": {
+     "font": "-apple-system",
+     "size": 14,
+     "weight": "600",
+     "lineHeight": 3.17,
+     "letterSpacing": "normal",
+     "color": "rgb(36, 41, 46)"
+    },
+    "body": {
+     "font": "-apple-system",
+     "size": 16,
+     "weight": "400",
+     "lineHeight": 1.5,
+     "letterSpacing": "normal",
+     "color": "rgb(106, 115, 125)"
+    }
+   },
+   "colors": {
+    "background": "#f6f8fa",
+    "surfaces": [
+     "#ffffff",
+     "#28a745"
+    ],
+    "text": [
+     "#6a737d",
+     "#0366d6",
+     "#24292e",
+     "#ffffff"
+    ]
+   },
+   "buttons": [],
+   "contentWidth": 1012
+  }
  },
  {
-  "id": "synais-object-in-hand",
-  "site": "Synais",
-  "url": "(reference supplied by the user, no live URL)",
-  "type": "landing",
-  "source": "user-reference",
+  "id": "linear-status",
+  "site": "Linear",
+  "url": "https://linearstatus.com/",
+  "type": "status",
   "tags": [
-   "image-sandwich-family",
-   "light",
-   "warm-neutrals",
-   "object-photo",
-   "line-diagram",
-   "grotesk-display",
-   "two-tone-headline",
-   "oxblood-accent",
-   "dark-ui-cards"
-  ],
-  "note": "Beige page with thin circuit-like lines and small chips around a photographed hand holding the product object; two dark UI cards overlap the hand's edge. Tight grotesk headline with the second word in taupe. Oxblood primary button, white secondary, square corners. Then a deep brown section with a huge two-tone statement and three big numbers.",
-  "captured": "2026-11-23",
-  "screens": {
-   "desktop": {
-    "file": "screens/synais-object-in-hand-desktop.jpg",
-    "width": 1200,
-    "height": 1621
-   }
-  },
-  "tokens": null
- },
- {
-  "id": "orbit-halftone-duotone",
-  "site": "Orbit",
-  "url": "(reference supplied by the user, no live URL)",
-  "type": "landing",
-  "source": "user-reference",
-  "tags": [
-   "image-sandwich-family",
-   "blue",
-   "image-hero",
-   "halftone",
-   "duotone",
-   "classical-art",
-   "pixel-display",
-   "mono-buttons",
-   "logo-marquee",
-   "image-cards"
-  ],
-  "note": "Whole hero is one engraving-like image turned into a blue and white halftone duotone (a Roman general facing his army), with a pixel-grotesk headline and two mono square buttons. A ruled bar above carries the badge, the user count and a logo marquee. Feature cards reuse the duotone image as a background with a white UI fragment on top.",
-  "captured": "2026-11-23",
-  "screens": {
-   "desktop": {
-    "file": "screens/orbit-halftone-duotone-desktop.jpg",
-    "width": 1200,
-    "height": 1620
-   }
-  },
-  "tokens": null
- },
- {
-  "id": "qredible-blue-and-grass",
-  "site": "Qredible",
-  "url": "(reference supplied by the user, no live URL)",
-  "type": "landing",
-  "source": "user-reference",
-  "tags": [
-   "image-sandwich-family",
-   "blue",
-   "image-hero",
-   "image-sandwich",
-   "grass-foreground",
-   "serif-display",
-   "dashboard-in-landscape",
-   "logo-strip",
-   "image-cards"
-  ],
-  "note": "Electric blue sky, centred serif headline, a black square button and a text link; the product dashboard is sunk into a field of grass with pink tips that grows over its lower half, and the logos sit in white on the grass. Use-case cards are deep blue panels with the same grass at the bottom and white UI nodes on top.",
-  "captured": "2026-11-23",
-  "screens": {
-   "desktop": {
-    "file": "screens/qredible-blue-and-grass-desktop.jpg",
-    "width": 1200,
-    "height": 1620
-   }
-  },
-  "tokens": null
- },
- {
-  "id": "opero-dusk-foliage",
-  "site": "Opero",
-  "url": "(reference supplied by the user, no live URL)",
-  "type": "landing",
-  "source": "user-reference",
-  "tags": [
-   "image-sandwich-family",
    "dark",
-   "image-hero",
-   "image-sandwich",
-   "dusk",
-   "foliage-foreground",
-   "serif-display",
-   "dashboard-in-landscape",
-   "rating"
+   "status-page",
+   "uptime-bars",
+   "calendar",
+   "minimal"
   ],
-  "note": "Dusk sky over dark hills; the product window rises from a band of pink and green tree canopy that covers its bottom edge. Centred serif headline, a white pill button and a 4.8 rating beside it. The page stays dark below with a serif h2 and a light UI card on a dark panel.",
+  "note": "Dark, narrow column: a single operational message, region-by-region uptime bars with tooltips on hover, then an incident calendar. Quiet and trustworthy.",
   "captured": "2026-11-23",
   "screens": {
    "desktop": {
-    "file": "screens/opero-dusk-foliage-desktop.jpg",
-    "width": 1200,
-    "height": 1621
+    "file": "screens/linear-status-desktop.jpg",
+    "width": 1440,
+    "height": 1219
+   },
+   "mobile": {
+    "file": "screens/linear-status-mobile.jpg",
+    "width": 390,
+    "height": 1119
    }
   },
-  "tokens": null
+  "tokens": {
+   "title": "Linear Status",
+   "fonts": [
+    "interLatin"
+   ],
+   "type": {
+    "h1": {
+     "font": "interLatin",
+     "size": 24,
+     "weight": "500",
+     "lineHeight": 1.33,
+     "letterSpacing": "-0.36px",
+     "color": "rgb(228, 228, 231)"
+    },
+    "h2": {
+     "font": "interLatin",
+     "size": 16,
+     "weight": "500",
+     "lineHeight": 1.5,
+     "letterSpacing": "-0.2px",
+     "color": "rgb(247, 247, 248)"
+    },
+    "h3": {
+     "font": "interLatin",
+     "size": 14,
+     "weight": "500",
+     "lineHeight": 1.43,
+     "letterSpacing": "-0.07px",
+     "color": "rgb(228, 228, 231)"
+    },
+    "body": {
+     "font": "interLatin",
+     "size": 12,
+     "weight": "400",
+     "lineHeight": 1.33,
+     "letterSpacing": "normal",
+     "color": "rgb(202, 202, 206)"
+    }
+   },
+   "colors": {
+    "background": "#161618",
+    "surfaces": [
+     "#161618",
+     "#39393f",
+     "#29292f",
+     "#1fa382",
+     "#0e493a"
+    ],
+    "text": [
+     "#787882",
+     "#95959d",
+     "#e4e4e7",
+     "#f7f7f8"
+    ]
+   },
+   "buttons": [
+    {
+     "label": "Subscribe to updates",
+     "bg": "#ffffff",
+     "color": "#161618",
+     "radius": "6px",
+     "height": 34,
+     "paddingX": 10,
+     "font": "interLatin",
+     "size": 14,
+     "weight": "500"
+    }
+   ],
+   "contentWidth": 718
+  }
  },
  {
-  "id": "meetsense-sky-and-hills",
-  "site": "MeetSense",
-  "url": "(reference supplied by the user, no live URL)",
-  "type": "landing",
-  "source": "user-reference",
+  "id": "openstatus-status",
+  "site": "OpenStatus",
+  "url": "https://status.openstatus.dev/",
+  "type": "status",
   "tags": [
-   "image-sandwich-family",
    "light",
-   "image-hero",
-   "image-sandwich",
-   "hills-foreground",
-   "serif-display",
-   "badge-pill",
-   "pill-buttons",
-   "dashboard-in-landscape",
-   "logo-strip"
+   "status-page",
+   "monospace",
+   "uptime-bars",
+   "latency"
   ],
-  "note": "Pale blue sky with bluish mountains at the sides and bright green rolling hills in front; the dashboard sits between them so the hills cover its lower half. Badge pill with a dark tag and mono text, a two-line serif headline, a black pill and a white pill button. White logos on the grass. Below: a serif h2 with greyed words and three cards with the middle one black.",
+  "note": "Monospace labels, latency next to each monitor, big green uptime bars per service and a percentage on the right. Feels like an engineering tool, not a marketing page.",
   "captured": "2026-11-23",
   "screens": {
    "desktop": {
-    "file": "screens/meetsense-sky-and-hills-desktop.jpg",
-    "width": 1200,
-    "height": 1620
+    "file": "screens/openstatus-status-desktop.jpg",
+    "width": 1440,
+    "height": 1467
+   },
+   "mobile": {
+    "file": "screens/openstatus-status-mobile.jpg",
+    "width": 390,
+    "height": 1471
    }
   },
-  "tokens": null
+  "tokens": {
+   "title": "Openstatus Status Page | Status Page",
+   "fonts": [
+    "-apple-system",
+    "commitMono"
+   ],
+   "type": {
+    "h1": null,
+    "h2": null,
+    "h3": null,
+    "body": null
+   },
+   "colors": {
+    "background": "#ffffff",
+    "surfaces": [],
+    "text": []
+   },
+   "buttons": [],
+   "contentWidth": 672
+  }
  },
  {
-  "id": "xenora-sky-and-ruins",
-  "site": "Xenora",
-  "url": "(reference supplied by the user, no live URL)",
-  "type": "landing",
-  "source": "user-reference",
+  "id": "vercel-status",
+  "site": "Vercel",
+  "url": "https://www.vercel-status.com/",
+  "type": "status",
   "tags": [
-   "image-sandwich-family",
    "light",
-   "image-hero",
-   "image-sandwich",
-   "photo-sky",
-   "left-aligned-hero",
-   "grotesk-display",
-   "mono-labels",
-   "workflow-ui",
-   "connector-lines"
+   "status-page",
+   "uptime-bars",
+   "blue-banner",
+   "collapsible-groups"
   ],
-  "note": "Deep blue photographed sky with clouds and a Greek temple at the horizon; left-aligned white grotesk headline and a black mono button, a thin connector line leads to a small chip and down into a large workflow editor that fills the bottom of the hero.",
+  "note": "Narrow centred column, a blue operational banner and collapsible component groups, each with a 90-day uptime bar. Red and orange ticks are the only colour.",
   "captured": "2026-11-23",
   "screens": {
    "desktop": {
-    "file": "screens/xenora-sky-and-ruins-desktop.jpg",
-    "width": 1200,
-    "height": 1620
+    "file": "screens/vercel-status-desktop.jpg",
+    "width": 1440,
+    "height": 3600
+   },
+   "mobile": {
+    "file": "screens/vercel-status-mobile.jpg",
+    "width": 390,
+    "height": 2600
    }
   },
-  "tokens": null
- },
- {
-  "id": "torqe-blue-and-hill",
-  "site": "Torqe",
-  "url": "(reference supplied by the user, no live URL)",
-  "type": "landing",
-  "source": "user-reference",
-  "tags": [
-   "image-sandwich-family",
-   "blue",
-   "image-hero",
-   "image-sandwich",
-   "hill-foreground",
-   "dot-grid",
-   "grotesk-display",
-   "orange-accent",
-   "dashboard-in-landscape",
-   "big-numbers"
-  ],
-  "note": "Saturated blue with a faint dot grid on the left, a tight grotesk headline and an orange square button; one dark green hill sweeps diagonally across the bottom and over the CRM dashboard on the right, logos in white on the grass. Below: an orange eyebrow, a big headline, five stars and three large numbers with progress bars.",
-  "captured": "2026-11-23",
-  "screens": {
-   "desktop": {
-    "file": "screens/torqe-blue-and-hill-desktop.jpg",
-    "width": 1200,
-    "height": 1621
-   }
-  },
-  "tokens": null
+  "tokens": {
+   "title": "Vercel Status",
+   "fonts": [
+    "Geist",
+    "FontAwesome",
+    "arial"
+   ],
+   "type": {
+    "h1": null,
+    "h2": {
+     "font": "Geist",
+     "size": 16,
+     "weight": "500",
+     "lineHeight": 1.4,
+     "letterSpacing": "normal",
+     "color": "oklch(1 0 0)"
+    },
+    "h3": {
+     "font": "Geist",
+     "size": 20,
+     "weight": "500",
+     "lineHeight": 1.4,
+     "letterSpacing": "normal",
+     "color": "oklch(0.2046 0 0)"
+    },
+    "body": {
+     "font": "Geist",
+     "size": 14,
+     "weight": "400",
+     "lineHeight": 1.4,
+     "letterSpacing": "normal",
+     "color": "oklch(0.5103 0 0)"
+    }
+   },
+   "colors": {
+    "background": "#ffffff",
+    "surfaces": [
+     "#ffffff"
+    ],
+    "text": [
+     "#666666"
+    ]
+   },
+   "buttons": [],
+   "contentWidth": 850
+  }
  }
 ]

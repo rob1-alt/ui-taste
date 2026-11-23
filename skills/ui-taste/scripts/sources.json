@@ -3483,5 +3483,192 @@
   ],
   "note": "Each plan has a small doodle; a yellow band explains the fair pricing policy with an illustration.",
   "url": "https://kagi.com/pricing"
+ },
+ {
+  "id": "shadcn-dashboard-01",
+  "site": "shadcn/ui",
+  "type": "dashboard",
+  "url": "https://ui.shadcn.com/view/new-york-v4/dashboard-01",
+  "tags": [
+   "light",
+   "sidebar-nav",
+   "kpi-cards",
+   "area-chart",
+   "data-table",
+   "monochrome"
+  ],
+  "note": "The canonical SaaS dashboard: collapsible sidebar, four KPI cards each with a delta and one line of context, one large area chart with a range switch, then a data table with tabs. Entirely grey with black accents; the data is the only thing that varies."
+ },
+ {
+  "id": "plausible-dashboard",
+  "site": "Plausible",
+  "type": "dashboard",
+  "url": "https://plausible.io/plausible.io",
+  "tags": [
+   "light",
+   "analytics",
+   "kpi-row",
+   "line-chart",
+   "two-column-lists",
+   "bar-in-row"
+  ],
+  "note": "One row of six KPIs above one big line chart, then lists in two columns where each row carries a pale bar behind it sized by its value. No cards inside cards: the bars do the charting."
+ },
+ {
+  "id": "simple-analytics-dashboard",
+  "site": "Simple Analytics",
+  "type": "dashboard",
+  "url": "https://dashboard.simpleanalytics.com/simpleanalytics.com",
+  "tags": [
+   "light",
+   "analytics",
+   "big-numbers",
+   "annotated-chart",
+   "flags",
+   "teal-accent"
+  ],
+  "note": "Huge plain numbers with a small delta, an area chart with notes pinned on the dates where something happened, then compact lists with icons and flags. Friendly but dense."
+ },
+ {
+  "id": "fathom-dashboard",
+  "site": "Fathom",
+  "type": "dashboard",
+  "url": "https://app.usefathom.com/demo",
+  "tags": [
+   "light",
+   "analytics",
+   "dark-kpi-band",
+   "purple-chart",
+   "two-column-lists"
+  ],
+  "note": "The KPIs sit in one dark band across the top, so the eye reads them as a single statement; below, a soft purple area chart and two lists with pale value bars."
+ },
+ {
+  "id": "openpanel-dashboard",
+  "site": "OpenPanel",
+  "type": "dashboard",
+  "url": "https://dashboard.openpanel.dev/share/overview/zef2XC",
+  "tags": [
+   "light",
+   "analytics",
+   "sparkline-kpis",
+   "blue-accent",
+   "tabs-over-lists"
+  ],
+  "note": "KPI tiles each with a tiny bar sparkline in blue, a line chart, then lists switched by underlined tabs (Refs, URLs, Source, Campaign). One blue does all the work."
+ },
+ {
+  "id": "tremor-dashboard",
+  "site": "Tremor",
+  "type": "dashboard",
+  "url": "https://dashboard.tremor.so/overview",
+  "tags": [
+   "light",
+   "sidebar-nav",
+   "usage-meters",
+   "sparkline-grid",
+   "indigo-accent"
+  ],
+  "note": "Billing-cycle usage as thin progress meters with numbers right-aligned, then a grid of small line charts each with its delta. Shows how to make many numbers calm: thin lines, one indigo, lots of white."
+ },
+ {
+  "id": "tremor-planner",
+  "site": "Tremor",
+  "type": "dashboard",
+  "url": "https://planner.tremor.so/quotes/overview",
+  "tags": [
+   "light",
+   "data-table",
+   "grouped-rows",
+   "avatars",
+   "status-pills",
+   "inline-meters"
+  ],
+  "note": "A deals table grouped by region, with tiny inline meters for ratios, avatar stacks for owners and pale status pills. The header row is a KPI strip with coloured mini bars."
+ },
+ {
+  "id": "catalyst-dashboard",
+  "site": "Tailwind Catalyst",
+  "type": "dashboard",
+  "url": "https://catalyst-demo.tailwindui.com/",
+  "tags": [
+   "light",
+   "sidebar-nav",
+   "greeting",
+   "kpi-row",
+   "orders-table",
+   "tailwind"
+  ],
+  "note": "Personal greeting, four KPIs with green or red deltas under a hairline, then a recent-orders table with thumbnails. Generous row height, no card borders at all: hairlines and whitespace only."
+ },
+ {
+  "id": "github-pulse",
+  "site": "GitHub",
+  "type": "dashboard",
+  "url": "https://github.com/vercel/next.js/pulse",
+  "tags": [
+   "light",
+   "activity-summary",
+   "two-tone-bar",
+   "sentence-summary",
+   "bar-chart"
+  ],
+  "note": "Activity told as sentences (Excluding merges, 47 authors have pushed 135 commits…) under a two-tone purple and green bar of merged versus open work. Text first, chart second."
+ },
+ {
+  "id": "github-status",
+  "site": "GitHub",
+  "type": "status",
+  "url": "https://www.githubstatus.com/",
+  "tags": [
+   "light",
+   "status-page",
+   "illustrated-header",
+   "uptime-bars",
+   "green-banner"
+  ],
+  "note": "Playful illustrated header (mascots), one green All Systems Operational banner, then a two-column grid of components with 90-day uptime bars and a percentage."
+ },
+ {
+  "id": "linear-status",
+  "site": "Linear",
+  "type": "status",
+  "url": "https://linearstatus.com/",
+  "tags": [
+   "dark",
+   "status-page",
+   "uptime-bars",
+   "calendar",
+   "minimal"
+  ],
+  "note": "Dark, narrow column: a single operational message, region-by-region uptime bars with tooltips on hover, then an incident calendar. Quiet and trustworthy."
+ },
+ {
+  "id": "vercel-status",
+  "site": "Vercel",
+  "type": "status",
+  "url": "https://www.vercel-status.com/",
+  "tags": [
+   "light",
+   "status-page",
+   "uptime-bars",
+   "blue-banner",
+   "collapsible-groups"
+  ],
+  "note": "Narrow centred column, a blue operational banner and collapsible component groups, each with a 90-day uptime bar. Red and orange ticks are the only colour."
+ },
+ {
+  "id": "openstatus-status",
+  "site": "OpenStatus",
+  "type": "status",
+  "url": "https://status.openstatus.dev/",
+  "tags": [
+   "light",
+   "status-page",
+   "monospace",
+   "uptime-bars",
+   "latency"
+  ],
+  "note": "Monospace labels, latency next to each monitor, big green uptime bars per service and a percentage on the right. Feels like an engineering tool, not a marketing page."
  }
 ]

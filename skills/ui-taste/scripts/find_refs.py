@@ -30,6 +30,8 @@ SYNONYMS = {
     "pricing": ["pricing", "price", "plans", "plan", "tiers", "billing", "checkout", "upgrade"],
     "changelog": ["changelog", "release notes", "releases", "updates", "what's new", "whats new"],
     "docs": ["docs", "documentation", "api reference", "guide", "developer", "reference", "sidebar"],
+    "dashboard": ["dashboard", "admin", "analytics", "app ui", "kpi", "metrics", "saas app", "data table", "charts"],
+    "status": ["status page", "status", "uptime", "incident", "incidents"],
     "customers": ["customers", "case study", "case studies", "testimonials", "social proof", "logos", "stories"],
     "blog": ["blog", "articles", "posts", "news", "journal", "editorial"],
     "auth": ["login", "log in", "sign in", "signin", "signup", "sign up", "register", "auth", "onboarding"],

@@ -16,6 +16,7 @@
   const shots = LIB.reduce((n, x) => n + Object.keys(x.screens).length, 0);
   ["n-pages", "n-rows", "c-pages", "more-n"].forEach((id) => { const el = $("#" + id); if (el) el.textContent = LIB.length; });
   $("#n-sites").textContent = sites;
+  document.querySelectorAll(".n-all").forEach((el) => { el.textContent = LIB.length; });
   $("#c-shots").textContent = shots;
   $("#c-date").textContent = LIB.map((x) => x.captured).sort().pop() || "";
 
@@ -28,8 +29,9 @@
     E: ["11111", "10000", "10000", "11110", "10000", "10000", "11111"],
   };
   const LAYOUTS = {
-    wide: { cols: 39, rows: 7, letters: [["T", 0, 5], ["A", 0, 11], ["S", 0, 17], ["T", 0, 23], ["E", 0, 29]] },
-    tall: { cols: 13, rows: 21, letters: [["T", 0, 1], ["A", 0, 7], ["S", 7, 1], ["T", 7, 7], ["E", 14, 4]] },
+    // one cell per page: the grid grows with the library and the word stays centred
+    wide: (() => { const cols = Math.max(39, Math.ceil(LIB.length / 7)), o = Math.floor((cols - 39) / 2); return { cols, rows: 7, letters: [["T", 0, 5 + o], ["A", 0, 11 + o], ["S", 0, 17 + o], ["T", 0, 23 + o], ["E", 0, 29 + o]] }; })(),
+    tall: (() => { const rows = Math.max(21, Math.ceil(LIB.length / 13)), o = Math.floor((rows - 21) / 2); return { cols: 13, rows, letters: [["T", o, 1], ["A", o, 7], ["S", 7 + o, 1], ["T", 7 + o, 7], ["E", 14 + o, 4]] }; })(),
   };
   let seed = 7; const rnd = () => (seed = (seed * 16807) % 2147483647) / 2147483647;
   const shuffle = (arr) => { for (let i = arr.length - 1; i > 0; i--) { const j = Math.floor(rnd() * (i + 1)); [arr[i], arr[j]] = [arr[j], arr[i]]; } return arr; };
@@ -52,10 +54,11 @@
     const rest = shuffle(LIB.filter((x) => !litPages.includes(x)));
     const pool = shuffle(litPages.slice());
     cells = [];
-    for (let i = 0, a = 0, b = 0; i < L.cols * L.rows; i++) cells.push(lit.has(i) ? pool[a++] : rest[b++]);
+    for (let i = 0, a = 0, b = 0; i < L.cols * L.rows; i++) cells.push(lit.has(i) ? pool[a++] : rest[b++] || null);
     mosaic.style.setProperty("--cols", L.cols);
     mosaic.classList.remove("in");
     mosaic.innerHTML = cells.map((it, i) => {
+      if (!it) return `<span class="tile off" data-i="${i}"></span>`;
       const col = i % L.cols, row = Math.floor(i / L.cols), on = lit.has(i);
       const delay = L === LAYOUTS.wide ? col * 14 + rnd() * 160 : row * 30 + rnd() * 120;
       return `<a class="tile${on ? "" : " off"}" href="library.html#id=${encodeURIComponent(it.id)}" data-i="${i}" style="--d:${Math.round(delay)}ms" aria-label="${esc(it.site)}, ${esc(typeLabel(it.type).toLowerCase())}"><img src="${esc(tileSrc(it))}" alt="" decoding="async"></a>`;
@@ -70,7 +73,7 @@
   const tiN = $("#ti-n"), tiText = $("#ti-text");
   const tileInfo = (a) => {
     const i = +a.dataset.i, it = cells[i]; if (!it) return;
-    tiN.textContent = `Tile ${String(i + 1).padStart(3, "0")} of ${cells.length}`;
+    tiN.textContent = `Page ${String(i + 1).padStart(3, "0")} of ${LIB.length}`;
     tiText.innerHTML = `<b>${esc(it.site)}</b>${esc(typeLabel(it.type))} · ${esc(it.note.split(/[.:]/)[0])}`;
   };
   mosaic.addEventListener("pointerover", (e) => { const a = e.target.closest(".tile"); if (a) tileInfo(a); });
@@ -102,7 +105,7 @@
   mosaic.addEventListener("pointerleave", () => { hovering = false; });
   function swapOnce() {
     if (hovering || document.hidden) return;
-    const litIdx = [...lit], offLight = cells.map((it, i) => (!lit.has(i) && light(it) ? i : -1)).filter((i) => i >= 0);
+    const litIdx = [...lit], offLight = cells.map((it, i) => (it && !lit.has(i) && light(it) ? i : -1)).filter((i) => i >= 0);
     if (!offLight.length) return;
     for (let k = 0; k < 3; k++) {
       const a = litIdx[Math.floor(Math.random() * litIdx.length)], b = offLight[Math.floor(Math.random() * offLight.length)];
