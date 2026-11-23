@@ -94,11 +94,41 @@
       <h2>How Claude uses it</h2>
       <p class="head-lede">Four steps, every time it builds or reviews an interface.</p>
     </header>
-    <ol class="steps">
-      <li><span class="step-n">01</span><h3>Inspect</h3><p>Read the project's own system first: a DESIGN.md, the tokens, the Tailwind config, the components. The project wins over any reference.</p></li>
-      <li><span class="step-n">02</span><h3>Reference</h3><p>Search the library only to settle a concrete question. One strong screen is enough, three is the limit, and Claude opens the screenshot before it decides.</p></li>
-      <li><span class="step-n">03</span><h3>Build</h3><p>Apply the decision with the project's components: one type family, a real scale, neutral surfaces and one accent, real content only.</p></li>
-      <li><span class="step-n">04</span><h3>Review</h3><p>Render at 1440 and 390 pixels, look at it, and go through the checklist below. A screen that was never looked at is not reviewed.</p></li>
+    <ol class="lines">
+      <li class="line">
+        <span class="line-n">01</span>
+        <h3 class="line-word">Inspect</h3>
+        <p class="line-text">Read the project's own system first. The project always wins over any reference; if there is no system, the skill writes one down before building on it.</p>
+        <div class="line-art art-files" aria-hidden="true">
+          <span>DESIGN.md</span><span>tailwind.config.ts</span><span>globals.css</span><span>components/ui/</span>
+        </div>
+      </li>
+      <li class="line">
+        <span class="line-n">02</span>
+        <h3 class="line-word">Reference</h3>
+        <p class="line-text">Search the library only to settle a concrete question. One strong screen is enough, three is the limit, and Claude opens the screenshot before it decides.</p>
+        <div class="line-art art-ref" aria-hidden="true">
+          <img src="thumbs/linear-pricing-desktop.jpg" alt="">
+          <span>“linear pricing” → plain columns, one filled button</span>
+        </div>
+      </li>
+      <li class="line">
+        <span class="line-n">03</span>
+        <h3 class="line-word">Build</h3>
+        <p class="line-text">Apply the decision with the project's components and tokens: one type family, a real scale, neutral surfaces and one accent, real content only.</p>
+        <div class="line-art art-tokens" aria-hidden="true">
+          <i style="background:#0e0e0e"></i><i style="background:#3d3d3b"></i><i style="background:#e8e8e5"></i><i style="background:#ffffff"></i><i style="background:#ff3d1f"></i>
+          <b>Aa</b><b>Aa</b><b>Aa</b>
+        </div>
+      </li>
+      <li class="line">
+        <span class="line-n">04</span>
+        <h3 class="line-word">Review</h3>
+        <p class="line-text">Render at 1440 and 390 pixels, look at the result, run the checklist below and fix what it finds. A screen nobody looked at is not reviewed.</p>
+        <div class="line-art art-frames" aria-hidden="true">
+          <span class="f-desk">1440</span><span class="f-mob">390</span>
+        </div>
+      </li>
     </ol>
     <figure class="sheet">
       <figcaption>What a search returns</figcaption>
@@ -117,10 +147,38 @@
 
   <section class="review" id="review">
     <header class="head">
-      <h2>The review</h2>
-      <p class="head-lede">The checklist Claude runs on what it rendered. Every item is a habit that makes an interface read as generated. This page went through it too.</p>
+      <h2>Fix the slop</h2>
+      <p class="head-lede">This is the page agents build by default. Each line of the review checklist fixes one habit. Tick them, or let Claude do all of it.</p>
     </header>
-    <div class="checks" id="checks"></div>
+    <div class="fixer">
+      <div class="fix-list">
+        <div class="fix-score"><span class="fs-n" id="fs-n">8</span><span class="fs-k">habits left<br>that read as generated</span></div>
+        <ul id="fixes"></ul>
+        <div class="fix-actions">
+          <button type="button" class="btn btn-ink" id="fix-all">Fix all</button>
+          <button type="button" class="btn btn-line" id="fix-reset">Reset</button>
+        </div>
+      </div>
+      <div class="demo-frame">
+        <div class="demo-bar" aria-hidden="true"><i></i><i></i><i></i><span>A demo page · not a real product</span></div>
+        <div class="demo" id="demo">
+          <div class="d-glow" aria-hidden="true"></div>
+          <nav class="d-nav"><b class="d-logo">Tally</b><span>Product</span><span>Pricing</span><span>Docs</span><a class="d-btn d-btn-1 d-nav-cta">Get Started 🚀</a></nav>
+          <div class="d-hero">
+            <p class="d-eyebrow">✨ Now with AI</p>
+            <h4 class="d-h1"><span class="slop-copy">Supercharge Your Invoicing Workflow</span><span class="taste-copy">Invoices that chase themselves.</span></h4>
+            <p class="d-sub"><span class="slop-copy">The all-in-one platform to unlock seamless, next-generation billing for modern teams.</span><span class="taste-copy">Tally sends the reminder, matches the payment and tells you who is late. You stop writing awkward emails.</span></p>
+            <div class="d-ctas"><a class="d-btn d-btn-1"><span class="slop-copy">Get Started Free</span><span class="taste-copy">Start a 14-day trial</span></a><a class="d-btn d-btn-2"><span class="slop-copy">Learn More</span><span class="taste-copy">See how it works →</span></a></div>
+          </div>
+          <div class="d-cards">
+            <div class="d-card"><span class="d-ico">⚡</span><b>Lightning Fast</b><p>Blazing performance for your team.</p><em>Reminders</em><strong>Sent on day 3, 7 and 14, in your tone.</strong></div>
+            <div class="d-card"><span class="d-ico">🔒</span><b>Secure by Default</b><p>Enterprise-grade security built in.</p><em>Matching</em><strong>Bank payments matched to invoices overnight.</strong></div>
+            <div class="d-card"><span class="d-ico">🎯</span><b>Easy to Use</b><p>An intuitive interface anyone can use.</p><em>Late list</em><strong>One list of who owes what, sorted by age.</strong></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <details class="all-checks"><summary>The full checklist Claude runs <span id="n-checks"></span></summary><div class="checks" id="checks"></div></details>
   </section>
 
   <section class="install" id="install">

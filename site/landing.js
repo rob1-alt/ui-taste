@@ -272,6 +272,42 @@
       ${s.viz || ""}${s.btn ? `<span class="stat-btn" style="height:${esc(s.n)}px">${esc(s.n)}px button</span>` : ""}
     </div>`).join("");
 
+  // ---- fix the slop ----
+  const FIXES = [
+    ["gradient", "No purple-to-pink gradient behind everything"],
+    ["glow", "No glow blob for atmosphere"],
+    ["copy", "Say what the product does. No “Supercharge”, no emoji in copy"],
+    ["emoji", "No emoji as icons"],
+    ["center", "Not everything centred: left-aligned on a grid"],
+    ["cards", "No row of three identical cards: real content in a list"],
+    ["shadow", "Shadows only where something floats"],
+    ["weight", "Two or three weights, not bold everywhere"],
+    ["buttons", "One primary button. The second action looks secondary"],
+    ["radius", "One radius family"],
+  ];
+  const demo = $("#demo"), fixesEl = $("#fixes"), fsN = $("#fs-n");
+  fixesEl.innerHTML = FIXES.map(([k, t]) => `<li><button type="button" data-fix="${k}" aria-pressed="false">${esc(t)}</button></li>`).join("");
+  const updateScore = () => {
+    const left = FIXES.length - demo.className.split(" ").filter((c) => c.startsWith("fix-")).length;
+    fsN.textContent = left; fsN.classList.toggle("zero", left === 0);
+    $(".fs-k").innerHTML = left ? "habits left<br>that read as generated" : "habits left.<br>Reads as designed.";
+  };
+  const setFix = (k, on) => {
+    demo.classList.toggle("fix-" + k, on);
+    fixesEl.querySelector(`[data-fix="${k}"]`).setAttribute("aria-pressed", String(on));
+    updateScore();
+  };
+  fixesEl.addEventListener("click", (e) => { const b = e.target.closest("[data-fix]"); if (b) setFix(b.dataset.fix, b.getAttribute("aria-pressed") !== "true"); });
+  let playing = 0;
+  $("#fix-all").addEventListener("click", () => {
+    clearTimeout(playing);
+    const todo = FIXES.map(([k]) => k).filter((k) => !demo.classList.contains("fix-" + k));
+    const step = () => { const k = todo.shift(); if (!k) return; setFix(k, true); playing = setTimeout(step, still ? 0 : 420); };
+    step();
+  });
+  $("#fix-reset").addEventListener("click", () => { clearTimeout(playing); FIXES.forEach(([k]) => setFix(k, false)); });
+  updateScore();
+
   // ---- review checklist (mirrors references/anti-slop.md) ----
   const CHECK = {
     Colour: ["No purple-to-blue or pink-to-orange hero gradient unless it is the brand.", "One accent colour, for action and state only.", "No glow or aurora blobs for atmosphere.", "Grey text passes contrast: 4.5:1 for body.", "Dark mode uses near-black surfaces in steps."],
@@ -281,6 +317,7 @@
     Content: ["No invented customers, logos, ratings or numbers.", "No “Seamless”, “Supercharge”, “Unlock the power of”.", "Headlines say what the product does, buttons say what happens.", "Real screenshots over abstract blobs."],
     Motion: ["Short animations that explain a change.", "Respects reduced motion.", "Nothing fades in on scroll just to fade in."],
   };
+  $("#n-checks").textContent = Object.values(CHECK).flat().length + " items";
   $("#checks").innerHTML = Object.entries(CHECK).map(([g, items]) =>
     `<div class="check-group"><h3>${g}</h3><ul>${items.map((t) => `<li>${esc(t)}</li>`).join("")}</ul></div>`).join("");
 
