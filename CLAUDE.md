@@ -26,7 +26,7 @@ Before a batch, skip every URL already in `sources.json` or in `ingest/skipped.t
 
 Capture with the venv: `.venv/bin/python skills/ui-taste/scripts/capture.py --batch <file.json>` (run from `skills/ui-taste/scripts/`).
 
-Tools in `ingest/`: `capture_parallel.sh batch.json` (4 parallel shards; `save_item` locks `index.json`), `review_sheet.py prefix ids...` (contact sheets, 4 screens each, for the visual review), `apply_review.py notes.txt batch.json` (tags, notes, drops, sources, skipped list). Never write `index.json` from another script while captures are running.
+Tools in `ingest/`: `capture_parallel.sh batch.json` (2 parallel shards by default, more only with spare RAM; `save_item` locks `index.json`), `review_sheet.py prefix ids...` (contact sheets, 4 screens each, for the visual review), `apply_review.py notes.txt batch.json` (tags, notes, drops, sources, skipped list). Never write `index.json` from another script while captures are running.
 
 Commerce sites captured during a sale period (Black Friday, end of November) are covered in banners and pop-ups: drop them and recapture outside sale weeks.
 

@@ -5598,5 +5598,480 @@
    "colour-per-game"
   ],
   "note": "Each game gets a full-width band with its key art, a short paragraph and the store badges, and the band's colour comes from the game (green Hades II, red Hades, blue Pyre). The studio's site is its catalogue."
+ },
+ {
+  "site": "Legora",
+  "type": "landing",
+  "url": "https://legora.com",
+  "tags": [
+   "dark-to-light",
+   "cinematic-photo",
+   "close-up-portrait",
+   "small-headline",
+   "quiet-cta"
+  ],
+  "note": "A cinematic close-up of a lawyer's face in reading light fills the hero, with a small white headline ('Legal work, without limits.') low in the frame. Legal AI sold through a human moment, not a dashboard."
+ },
+ {
+  "site": "Recraft",
+  "type": "landing",
+  "url": "https://www.recraft.ai",
+  "tags": [
+   "dark",
+   "fashion-photography",
+   "heavy-italic-caps",
+   "lime-cta",
+   "model-showcase",
+   "carousel"
+  ],
+  "note": "The model's own output as fashion editorial photography (a platinum-haired portrait, a group in ski gear), with heavy italic caps headlines over them and a lime button. Image quality proven by images, not claims."
+ },
+ {
+  "site": "Restate",
+  "type": "landing",
+  "url": "https://restate.dev",
+  "tags": [
+   "light",
+   "playable-game-hero",
+   "pixel-art",
+   "blue-sky",
+   "platformer",
+   "technical-below"
+  ],
+  "note": "Under a blue headline, the hero is a small pixel-art platformer ('Press space to start'): trees, stars, a running character. A durable-execution runtime with a toy that makes you smile, then sober diagrams below."
+ },
+ {
+  "site": "MotherDuck",
+  "type": "landing",
+  "url": "https://motherduck.com",
+  "tags": [
+   "light",
+   "sky-blue-field",
+   "yellow-accent",
+   "cartoon-clouds",
+   "isometric-stack",
+   "chunky-borders",
+   "caps-headings"
+  ],
+  "note": "Sky-blue ground with cartoon clouds, chunky black borders and caps headings; the architecture is an isometric stack of dark slabs with labelled cards around it, and product cards come in flat yellow, peach and mint. A database with a playful, consistent world."
+ },
+ {
+  "site": "Jam",
+  "type": "landing",
+  "url": "https://jam.dev",
+  "tags": [
+   "light",
+   "inline-chip-word",
+   "angled-stickers",
+   "product-ui-hero",
+   "grid-paper"
+  ],
+  "note": "The key word sits inside a small yellow chip in the middle of the headline ('The [logs] capture tool'); angled sticker labels ('Visual feedback', 'Bugs', 'Customer issues') stick out from behind the product window like tape."
+ },
+ {
+  "site": "Mercury Personal",
+  "type": "landing",
+  "url": "https://mercury.com/personal-banking",
+  "tags": [
+   "dark",
+   "photo-field",
+   "glass-product-ui",
+   "italic-serif-word",
+   "email-capture-hero",
+   "price-in-copy"
+  ],
+  "note": "A blurred interior photograph as the field with the product's personal-banking UI floating in it as frosted glass. The price of the subscription is stated in the subhead, not hidden on a pricing page."
+ },
+ {
+  "site": "Vercel Ship",
+  "type": "landing",
+  "url": "https://vercel.com/ship",
+  "tags": [
+   "dark",
+   "event-page",
+   "speaker-video",
+   "session-list",
+   "mono-type",
+   "event-cards"
+  ],
+  "note": "A conference page as a broadcast: a big speaker portrait video with name and title in mono, the session highlights as a selectable list beside it, then upcoming events as bordered cells with city and date."
+ },
+ {
+  "site": "Public",
+  "type": "landing",
+  "url": "https://public.com",
+  "tags": [
+   "light",
+   "serif-display",
+   "device-photo",
+   "product-list-as-type",
+   "inline-badges"
+  ],
+  "note": "The product range is set as one centred paragraph of large serif words separated by dots (Stocks · Bonds · Treasuries · Options ...), with small rate badges inline. A financial supermarket made to read like a menu."
+ },
+ {
+  "site": "Modern Treasury",
+  "type": "landing",
+  "url": "https://www.moderntreasury.com",
+  "tags": [
+   "light",
+   "flow-diagram-hero",
+   "money-rails",
+   "grid-paper",
+   "product-cards-with-ui"
+  ],
+  "note": "The hero image is a diagram of money moving between rails (ACH, wire, RTP, stablecoins) through the company's node, drawn on faint grid paper. Payments infrastructure shown as the flow it controls."
+ },
+ {
+  "site": "Day.ai",
+  "type": "landing",
+  "url": "https://day.ai",
+  "tags": [
+   "light",
+   "monospace-type",
+   "stacked-verbs",
+   "highlighted-verb",
+   "flow-diagram",
+   "blue-accent"
+  ],
+  "note": "A stack of faded verbs ('build, deploy, secure, accelerate') with one in blue completing 'scale your company brain', set in mono, next to a box-and-arrow diagram of the context graph. Testimonials are mono text cards."
+ },
+ {
+  "site": "Rogo",
+  "type": "landing",
+  "url": "https://rogo.ai",
+  "tags": [
+   "dark-green",
+   "textured-field",
+   "giant-serif",
+   "institutional-logos",
+   "restraint"
+  ],
+  "note": "A deep green textured field with a giant serif 'Built for Finance' and a tiny button. Proof is a grid of grey bank logos. Finance-grade restraint: one colour, one face, nothing playful."
+ },
+ {
+  "site": "Knock",
+  "type": "landing",
+  "url": "https://knock.app",
+  "tags": [
+   "light",
+   "data-viz-hero",
+   "particle-tree",
+   "annotated-illustration",
+   "warm-neutral",
+   "product-ui"
+  ],
+  "note": "The hero image is a data visualisation: thousands of coloured particles forming a branching tree, with small annotations on branches (agent sends, workflows triggered). Messaging volume drawn as something organic."
+ },
+ {
+  "site": "Effect",
+  "type": "landing",
+  "url": "https://effect.website",
+  "tags": [
+   "dark",
+   "interactive-code-demo",
+   "concurrency-toggle",
+   "mono-labels",
+   "speaker-photos"
+  ],
+  "note": "The hero has a working demo: pick sequential, batched or unbounded and watch tasks run in a small grid, next to the code that does it. Talks from the conference follow as photo cards."
+ },
+ {
+  "site": "Turborepo",
+  "type": "landing",
+  "url": "https://turborepo.com",
+  "tags": [
+   "light",
+   "gauge-graphic",
+   "big-numbers",
+   "stats-row",
+   "for-humans-for-agents"
+  ],
+  "note": "A big speedometer gauge in red-to-blue as the only illustration, and four huge numbers (25,095,815 compute hours saved, 48.3M weekly downloads...) as the proof, the first in red and counting."
+ },
+ {
+  "site": "Stripe Sessions",
+  "type": "landing",
+  "url": "https://stripe.com/sessions",
+  "tags": [
+   "light",
+   "event-page",
+   "3d-ribbon",
+   "serif-free-display",
+   "date-and-place",
+   "why-attend-list"
+  ],
+  "note": "Conference page: a big plain headline with date and venue set small beside it, then one swirling 3D ribbon in Stripe's colours as the key visual, and 'Why attend' as a numbered list of reasons with a recap video."
+ },
+ {
+  "site": "Increase",
+  "type": "landing",
+  "url": "https://increase.com",
+  "tags": [
+   "light",
+   "diagonal-colour-planes",
+   "api-bank",
+   "stats-row",
+   "rails-list"
+  ],
+  "note": "Green and blue diagonal planes slice across the right side of the hero like folded paper, the only decoration of an API-first bank. Stats ($500B+, 99.9999%, 9M+) then the payment rails as a checklist."
+ },
+ {
+  "site": "Bridge",
+  "type": "landing",
+  "url": "https://www.bridge.xyz",
+  "tags": [
+   "light",
+   "aqua-wave-header",
+   "flow-diagram-hero",
+   "mono-subline",
+   "logo-grid"
+  ],
+  "note": "A band of aqua water-like waves across the top, then the hero is a diagram of money converting between currencies and stablecoins (USD -> PYUSD -> USDC -> EUR) as boxes and arrows. The product is drawn as its own routing."
+ },
+ {
+  "site": "Hebbia",
+  "type": "landing",
+  "url": "https://www.hebbia.com",
+  "tags": [
+   "dark",
+   "serif-caps",
+   "sculptural-imagery",
+   "prompt-box-hero",
+   "institutional-logos"
+  ],
+  "note": "Black page with a small serif-caps title ('INSTITUTIONAL INTELLIGENCE'), a prompt box at the top and monochrome sculptural images (a ribbed arch against sky) for each section. Finance AI made to feel like architecture."
+ },
+ {
+  "site": "Stytch",
+  "type": "landing",
+  "url": "https://stytch.com",
+  "tags": [
+   "light",
+   "bordered-tile-grid",
+   "tiny-ui-drawings",
+   "mono-buttons",
+   "yellow-tag"
+  ],
+  "note": "Under a heavy headline, every feature is a bordered tile with a small, precise UI drawing (an admin table, a code block, a passkey prompt). The grid of honest little screens is the whole argument."
+ },
+ {
+  "site": "Koyeb",
+  "type": "landing",
+  "url": "https://www.koyeb.com",
+  "tags": [
+   "light",
+   "mint-ground",
+   "condensed-caps",
+   "globe-line-drawing",
+   "terminal-hero",
+   "green-gauges"
+  ],
+  "note": "Heavy condensed caps headlines on mint and beige, a terminal at the centre of a thin globe drawing with tiny server icons, and green gauge illustrations for each feature. A cloud with a poster-like voice."
+ },
+ {
+  "site": "Plaid",
+  "type": "landing",
+  "url": "https://plaid.com",
+  "tags": [
+   "light",
+   "engraving-portrait",
+   "blue-duotone",
+   "banknote-imagery",
+   "product-cards",
+   "gauge"
+  ],
+  "note": "The hero is Benjamin Franklin's engraved portrait from the $100 bill, recoloured in blue duotone with a green headline. Money's own imagery reused for a fintech brand; product cards below use a credit-score dial."
+ },
+ {
+  "site": "Parallel",
+  "type": "landing",
+  "url": "https://parallel.ai",
+  "tags": [
+   "light",
+   "sky-photo",
+   "orange-accent",
+   "mono-labels",
+   "search-box-hero",
+   "ranking-proof"
+  ],
+  "note": "A soft blue sky photograph holds the search box; orange is the only accent; proof is a ranking ('#1 on the Artificial Analysis Search Index') in its own panel. Infrastructure that looks like open air."
+ },
+ {
+  "site": "Figma Config",
+  "type": "landing",
+  "url": "https://config.figma.com",
+  "tags": [
+   "light",
+   "event-page",
+   "crowd-photo",
+   "price-as-headline",
+   "strikethrough-price",
+   "mono-labels"
+  ],
+  "note": "A conference page where the early-bird price is the headline ($600, $1,200 struck through) in big type over a wide photo of the crowd on the lawn. Date and place sit in small mono at the top."
+ },
+ {
+  "site": "Monarch",
+  "type": "landing",
+  "url": "https://www.monarchmoney.com",
+  "tags": [
+   "light",
+   "warm-photo-hero",
+   "floating-ui-cards",
+   "orange-accent",
+   "award-laurels",
+   "sankey-chart"
+  ],
+  "note": "A warm photo of a woman at home with small budget cards floating over it; award laurels (WSJ, Forbes, CNBC) as a row; then the real product with a Sankey cash-flow chart. Personal finance shown as a person first."
+ },
+ {
+  "site": "Lithic",
+  "type": "landing",
+  "url": "https://www.lithic.com",
+  "tags": [
+   "dark",
+   "product-photography",
+   "cards-in-darkness",
+   "orange-cta",
+   "tile-grid"
+  ],
+  "note": "Physical payment cards scattered in darkness under one light, a centred headline and an orange button; then light tiles with card network logos and a compliance badge. The card itself is the hero object."
+ },
+ {
+  "site": "Unify",
+  "type": "landing",
+  "url": "https://www.unifygtm.com",
+  "tags": [
+   "light",
+   "red-serif-display",
+   "motion-blur-crowd",
+   "prompt-box-in-photo",
+   "running-counter",
+   "highlighted-phrases"
+  ],
+  "note": "Big red serif headline over a motion-blurred crowd photo with a prompt box set into it. Proof is a running counter in the same serif ('$1,105,931,739 of pipeline and counting'). Phrases in the body are coloured red as highlights."
+ },
+ {
+  "site": "Abridge",
+  "type": "landing",
+  "url": "https://www.abridge.com",
+  "tags": [
+   "dark",
+   "clinician-portraits",
+   "warm-photography",
+   "red-cta",
+   "impact-number",
+   "partner-cards"
+  ],
+  "note": "A warm portrait of a clinician fills the dark hero, with one red button; the impact is one number ('140M+ conversations powered each year') and health systems as cards. Healthcare AI shown through the people it frees up."
+ },
+ {
+  "site": "Udio",
+  "type": "landing",
+  "url": "https://www.udio.com",
+  "tags": [
+   "dark",
+   "album-art-carousel",
+   "pink-waveform",
+   "prompt-hero",
+   "track-list"
+  ],
+  "note": "A pink waveform under 'Make your music', then a carousel of generated album covers and a track list with play buttons. The product's output (songs and their art) is the page."
+ },
+ {
+  "site": "Hedra",
+  "type": "landing",
+  "url": "https://www.hedra.com",
+  "tags": [
+   "dark",
+   "cinematic-photo",
+   "silhouette",
+   "server-corridor",
+   "large-white-headline"
+  ],
+  "note": "A lone silhouette standing between server racks under a pale sky opening; a large white two-line headline below. Infrastructure framed as a film still."
+ },
+ {
+  "site": "Val Town",
+  "type": "landing",
+  "url": "https://www.val.town",
+  "tags": [
+   "light",
+   "hand-drawn-illustration",
+   "street-scene",
+   "closed-sign",
+   "product-window",
+   "quotes"
+  ],
+  "note": "A hand-drawn street of little shops with a 'Sorry, we're closed' sign: the product's shutdown notice told as an illustration, then the real editor and customer quotes. A tender way to announce an ending."
+ },
+ {
+  "site": "Drizzle",
+  "type": "landing",
+  "url": "https://orm.drizzle.team",
+  "tags": [
+   "light",
+   "hand-drawn-doodles",
+   "scribbled-word",
+   "mascot-drawings",
+   "changelog-cards",
+   "performance-charts"
+  ],
+  "note": "The headline has a hand-scribbled correction ('ORM for you to ship ship ship'), little drawn droplets as mascots, contributors' avatars in a row and real benchmark charts. Developer humour drawn by hand."
+ },
+ {
+  "site": "Encore",
+  "type": "landing",
+  "url": "https://encore.dev",
+  "tags": [
+   "light",
+   "terminal-on-studio-set",
+   "grey-backdrop",
+   "yellow-accent",
+   "copy-command"
+  ],
+  "note": "A terminal window photographed on a grey studio set like a product shot, with a yellow copy button on the install command. A dev tool treated like an object on a pedestal."
+ },
+ {
+  "site": "ClickHouse",
+  "type": "landing",
+  "url": "https://clickhouse.com",
+  "tags": [
+   "dark",
+   "yellow-on-black",
+   "highlighted-words",
+   "video-testimonials",
+   "yellow-cards",
+   "use-case-icons"
+  ],
+  "note": "Yellow on black only: 'At any scale' in yellow, a yellow button, and customer video testimonials set on solid yellow cards. A database brand built from one loud colour used with discipline."
+ },
+ {
+  "site": "E2B",
+  "type": "landing",
+  "url": "https://e2b.dev",
+  "tags": [
+   "dark",
+   "condensed-caps",
+   "red-accent",
+   "terminal-hero",
+   "bracket-labels",
+   "dense-logo-grid"
+  ],
+  "note": "Condensed all-caps headlines ('EVERY AGENT GETS A MACHINE'), bracket labels, red buttons and a real terminal session listing sandboxes as the hero. Logos in a dense two-row wall."
+ },
+ {
+  "site": "Notion Sites",
+  "type": "landing",
+  "url": "https://www.notion.com/product/sites",
+  "tags": [
+   "light",
+   "brand-illustration",
+   "numbered-steps",
+   "template-tabs",
+   "product-window"
+  ],
+  "note": "Notion's black-and-white hand-drawn character as the only image, three numbered steps (make, personalise, publish) on a hairline, then template tabs that swap the real published site in a window."
  }
 ]

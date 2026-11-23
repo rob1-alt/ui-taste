@@ -10788,8 +10788,15 @@
     "site": "Abridge",
     "url": "https://www.abridge.com",
     "type": "landing",
-    "tags": [],
-    "note": "",
+    "tags": [
+      "dark",
+      "clinician-portraits",
+      "warm-photography",
+      "red-cta",
+      "impact-number",
+      "partner-cards"
+    ],
+    "note": "A warm portrait of a clinician fills the dark hero, with one red button; the impact is one number ('140M+ conversations powered each year') and health systems as cards. Healthcare AI shown through the people it frees up.",
     "captured": "2026-11-23",
     "screens": {
       "desktop": {
@@ -12074,6 +12081,105 @@
     }
   },
   {
+    "id": "appwrite-landing",
+    "site": "Appwrite",
+    "url": "https://appwrite.io",
+    "type": "landing",
+    "tags": [],
+    "note": "",
+    "captured": "2026-11-23",
+    "screens": {
+      "desktop": {
+        "file": "screens/appwrite-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/appwrite-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Appwrite · The open-source cloud for developers and agents",
+      "fonts": [
+        "-apple-system",
+        "Aeonik Pro",
+        "ui-monospace"
+      ],
+      "type": {
+        "h1": {
+          "font": "Aeonik Pro",
+          "size": 76,
+          "weight": "400",
+          "lineHeight": 1.04,
+          "letterSpacing": "-1.672px",
+          "color": "rgba(0, 0, 0, 0)"
+        },
+        "h2": {
+          "font": "Aeonik Pro",
+          "size": 18,
+          "weight": "400",
+          "lineHeight": 1.5,
+          "letterSpacing": "-0.45px",
+          "color": "lab(98.26 0 0)"
+        },
+        "h3": {
+          "font": "Aeonik Pro",
+          "size": 17,
+          "weight": "400",
+          "lineHeight": 1.5,
+          "letterSpacing": "-0.17px",
+          "color": "lab(98.26 0 0)"
+        },
+        "body": {
+          "font": "-apple-system",
+          "size": 16,
+          "weight": "400",
+          "lineHeight": 1.75,
+          "letterSpacing": "normal",
+          "color": "lab(65.6464 1.53497 -5.42429)"
+        }
+      },
+      "colors": {
+        "background": "#19191c",
+        "surfaces": [
+          "#19191c",
+          "#fd366e"
+        ],
+        "text": [
+          "#ffffff",
+          "#fd366e"
+        ]
+      },
+      "buttons": [
+        {
+          "label": "Sign up",
+          "bg": "#fd366e",
+          "color": "#ffffff",
+          "radius": "8px",
+          "height": 36,
+          "paddingX": 12,
+          "font": "-apple-system",
+          "size": 13,
+          "weight": "500"
+        },
+        {
+          "label": "Start project",
+          "bg": "#fd366e",
+          "color": "#ffffff",
+          "radius": "8px",
+          "height": 40,
+          "paddingX": 24,
+          "font": "-apple-system",
+          "size": 14,
+          "weight": "500"
+        }
+      ],
+      "contentWidth": 1376
+    }
+  },
+  {
     "id": "arc-landing",
     "site": "Arc",
     "url": "https://arc.net",
@@ -12096,94 +12202,6 @@
       },
       "mobile": {
         "file": "screens/arc-landing-mobile.jpg",
-        "width": 390,
-        "height": 2600
-      }
-    },
-    "tokens": {
-      "title": "A farewell to Arc",
-      "fonts": [
-        "ABC Oracle",
-        "-apple-system",
-        "Exposure VAR"
-      ],
-      "type": {
-        "h1": {
-          "font": "Exposure VAR",
-          "size": 76,
-          "weight": "600",
-          "lineHeight": 1.13,
-          "letterSpacing": "-2.432px",
-          "color": "rgb(255, 255, 255)"
-        },
-        "h2": {
-          "font": "ABC Oracle",
-          "size": 38,
-          "weight": "350",
-          "lineHeight": 1.29,
-          "letterSpacing": "-1.14px",
-          "color": "rgb(255, 255, 255)"
-        },
-        "h3": {
-          "font": "ABC Oracle",
-          "size": 16,
-          "weight": "350",
-          "lineHeight": "normal",
-          "letterSpacing": "normal",
-          "color": "rgb(0, 0, 0)"
-        },
-        "body": {
-          "font": "ABC Oracle",
-          "size": 21,
-          "weight": "350",
-          "lineHeight": 1.42,
-          "letterSpacing": "-0.63px",
-          "color": "rgb(255, 255, 255)"
-        }
-      },
-      "colors": {
-        "background": "#0b0b0b",
-        "surfaces": [
-          "#0b0b0b",
-          "#ffffff"
-        ],
-        "text": [
-          "#ffffff",
-          "#000000"
-        ]
-      },
-      "buttons": [
-        {
-          "label": "Download Dia",
-          "bg": "#0b0b0b",
-          "color": "#ffffff",
-          "radius": "12px",
-          "height": 60,
-          "paddingX": 24,
-          "font": "ABC Oracle",
-          "size": 18,
-          "weight": "350"
-        }
-      ],
-      "contentWidth": 666
-    }
-  },
-  {
-    "id": "arc-max-landing",
-    "site": "Arc Max",
-    "url": "https://arc.net/max",
-    "type": "landing",
-    "tags": [],
-    "note": "",
-    "captured": "2026-11-23",
-    "screens": {
-      "desktop": {
-        "file": "screens/arc-max-landing-desktop.jpg",
-        "width": 1440,
-        "height": 3600
-      },
-      "mobile": {
-        "file": "screens/arc-max-landing-mobile.jpg",
         "width": 390,
         "height": 2600
       }
@@ -13107,97 +13125,6 @@
     }
   },
   {
-    "id": "base-landing",
-    "site": "Base",
-    "url": "https://www.base.org",
-    "type": "landing",
-    "tags": [],
-    "note": "",
-    "captured": "2026-11-23",
-    "screens": {
-      "desktop": {
-        "file": "screens/base-landing-desktop.jpg",
-        "width": 1440,
-        "height": 3600
-      },
-      "mobile": {
-        "file": "screens/base-landing-mobile.jpg",
-        "width": 390,
-        "height": 2600
-      }
-    },
-    "tokens": {
-      "title": "Base",
-      "fonts": [
-        "baseSans",
-        "baseSansText",
-        "doto"
-      ],
-      "type": {
-        "h1": {
-          "font": "baseSans",
-          "size": 72,
-          "weight": "400",
-          "lineHeight": 1.03,
-          "letterSpacing": "-2.88px",
-          "color": "rgb(0, 0, 0)"
-        },
-        "h2": {
-          "font": "baseSans",
-          "size": 28,
-          "weight": "400",
-          "lineHeight": 1.29,
-          "letterSpacing": "-0.7px",
-          "color": "rgb(0, 0, 0)"
-        },
-        "h3": {
-          "font": "baseSans",
-          "size": 20,
-          "weight": "400",
-          "lineHeight": 1.4,
-          "letterSpacing": "-0.5px",
-          "color": "rgb(0, 0, 0)"
-        },
-        "body": {
-          "font": "baseSans",
-          "size": 14,
-          "weight": "400",
-          "lineHeight": 1.43,
-          "letterSpacing": "-0.14px",
-          "color": "rgb(120, 120, 120)"
-        }
-      },
-      "colors": {
-        "background": "#ffffff",
-        "surfaces": [
-          "#ffffff",
-          "#f8f8f8",
-          "#efefef"
-        ],
-        "text": [
-          "#787878",
-          "#000000",
-          "#6f6f6f",
-          "#171717"
-        ]
-      },
-      "buttons": [
-        {
-          "label": "Explore Ecosystem",
-          "bg": "#ffffff",
-          "color": "#171717",
-          "radius": "3.35544e+07px",
-          "height": 48,
-          "paddingX": 20,
-          "font": "baseSans",
-          "size": 16,
-          "weight": "400"
-        }
-      ],
-      "contentWidth": 1200
-    }
-  },
-  {
     "id": "base-power-landing",
     "site": "Base Power",
     "url": "https://www.basepowercompany.com",
@@ -13707,131 +13634,6 @@
     }
   },
   {
-    "id": "better-stack-landing",
-    "site": "Better Stack",
-    "url": "https://betterstack.com",
-    "type": "landing",
-    "tags": [],
-    "note": "",
-    "captured": "2026-11-23",
-    "screens": {
-      "desktop": {
-        "file": "screens/better-stack-landing-desktop.jpg",
-        "width": 1440,
-        "height": 3600
-      },
-      "mobile": {
-        "file": "screens/better-stack-landing-mobile.jpg",
-        "width": 390,
-        "height": 2600
-      }
-    },
-    "tokens": {
-      "title": "Better Stack - 30x cheaper than Datadog, Exceptional support",
-      "fonts": [
-        "Helvetica Now Text",
-        "Helvetica Now Display"
-      ],
-      "type": {
-        "h1": {
-          "font": "Helvetica Now Display",
-          "size": 53,
-          "weight": "500",
-          "lineHeight": 1.1,
-          "letterSpacing": "normal",
-          "color": "rgba(0, 0, 0, 0)"
-        },
-        "h2": {
-          "font": "Helvetica Now Display",
-          "size": 40,
-          "weight": "700",
-          "lineHeight": 1.08,
-          "letterSpacing": "-0.4px",
-          "color": "rgba(0, 0, 0, 0)"
-        },
-        "h3": {
-          "font": "Helvetica Now Display",
-          "size": 16,
-          "weight": "500",
-          "lineHeight": 1.5,
-          "letterSpacing": "normal",
-          "color": "rgb(255, 255, 255)"
-        },
-        "body": {
-          "font": "Helvetica Now Text",
-          "size": 20,
-          "weight": "400",
-          "lineHeight": 1.2,
-          "letterSpacing": "normal",
-          "color": "rgb(147, 157, 184)"
-        }
-      },
-      "colors": {
-        "background": "#0b0c14",
-        "surfaces": [
-          "#0f101a",
-          "#171824",
-          "#171926",
-          "#2f3547",
-          "#202432"
-        ],
-        "text": [
-          "#939db8",
-          "#646e87",
-          "#c9d3ee",
-          "#ffffff"
-        ]
-      },
-      "buttons": [
-        {
-          "label": "Explore pricing",
-          "bg": "#171926",
-          "color": "#c9d3ee",
-          "radius": "43px",
-          "height": 37,
-          "paddingX": 12,
-          "font": "Helvetica Now Text",
-          "size": 13,
-          "weight": "400"
-        },
-        {
-          "label": "",
-          "bg": "#171926",
-          "color": "#939db8",
-          "radius": "9999px",
-          "height": 38,
-          "paddingX": 0,
-          "font": "Helvetica Now Text",
-          "size": 16,
-          "weight": "400"
-        },
-        {
-          "label": "",
-          "bg": "#171926",
-          "color": "#939db8",
-          "radius": "9999px",
-          "height": 38,
-          "paddingX": 0,
-          "font": "Helvetica Now Text",
-          "size": 16,
-          "weight": "400"
-        },
-        {
-          "label": "Explore AI SRE",
-          "bg": "#171926",
-          "color": "#c9d3ee",
-          "radius": "9999px",
-          "height": 39,
-          "paddingX": 16,
-          "font": "Helvetica Now Text",
-          "size": 13,
-          "weight": "400"
-        }
-      ],
-      "contentWidth": 1440
-    }
-  },
-  {
     "id": "bezi-landing",
     "site": "Bezi",
     "url": "https://www.bezi.com",
@@ -13919,144 +13721,93 @@
     }
   },
   {
-    "id": "biome-landing",
-    "site": "Biome",
-    "url": "https://biomejs.dev",
+    "id": "bluesky-landing",
+    "site": "Bluesky",
+    "url": "https://bsky.social",
     "type": "landing",
     "tags": [],
     "note": "",
     "captured": "2026-11-23",
     "screens": {
       "desktop": {
-        "file": "screens/biome-landing-desktop.jpg",
+        "file": "screens/bluesky-landing-desktop.jpg",
         "width": 1440,
         "height": 3600
       },
       "mobile": {
-        "file": "screens/biome-landing-mobile.jpg",
+        "file": "screens/bluesky-landing-mobile.jpg",
         "width": 390,
         "height": 2600
       }
     },
     "tokens": {
-      "title": "Biome, toolchain of the web",
+      "title": "Bluesky",
       "fonts": [
-        "JetBrains Mono-1ea6b49896f773c2",
-        "Geist-b17c5c92c1d3a205",
-        "Arial"
+        "__Inter_aa510d",
+        "Inter",
+        "monospace"
       ],
       "type": {
         "h1": {
-          "font": "Geist-b17c5c92c1d3a205",
-          "size": 64,
-          "weight": "600",
-          "lineHeight": 1.2,
-          "letterSpacing": "normal",
-          "color": "rgb(23, 24, 28)"
+          "font": "__Inter_aa510d",
+          "size": 76,
+          "weight": "500",
+          "lineHeight": 1.18,
+          "letterSpacing": "-3px",
+          "color": "rgb(255, 255, 255)"
         },
         "h2": {
-          "font": "Geist-b17c5c92c1d3a205",
-          "size": 20,
-          "weight": "600",
+          "font": "__Inter_aa510d",
+          "size": 40,
+          "weight": "500",
           "lineHeight": 1.2,
           "letterSpacing": "normal",
-          "color": "rgb(23, 24, 28)"
+          "color": "rgb(255, 255, 255)"
         },
-        "h3": null,
+        "h3": {
+          "font": "__Inter_aa510d",
+          "size": 40,
+          "weight": "600",
+          "lineHeight": 1.2,
+          "letterSpacing": "-0.56px",
+          "color": "rgb(255, 255, 255)"
+        },
         "body": {
-          "font": "Geist-b17c5c92c1d3a205",
-          "size": 16,
+          "font": "__Inter_aa510d",
+          "size": 22,
           "weight": "400",
-          "lineHeight": 1.75,
+          "lineHeight": 1.18,
           "letterSpacing": "normal",
-          "color": "rgb(53, 56, 65)"
+          "color": "rgb(28, 34, 40)"
         }
       },
       "colors": {
-        "background": "#ffffff",
+        "background": "#d6dbdc",
         "surfaces": [
-          "#151515",
-          "#c0c2c7",
-          "#f5f6f8",
-          "#eceef2",
-          "#0065da"
+          "#e6f2ff",
+          "#ffffff",
+          "#1c2228"
         ],
         "text": [
-          "#353841",
           "#ffffff",
-          "#17181c",
-          "#0065da"
+          "#1c2228",
+          "#252b37"
         ]
       },
       "buttons": [
         {
-          "label": "Search\nCtrl\nK",
-          "bg": "#ffffff",
-          "color": "#353841",
-          "radius": "4px",
-          "height": 40,
-          "paddingX": 12,
-          "font": "Geist-b17c5c92c1d3a205",
+          "label": "Log In or Sign Up",
+          "bg": "#1c2228",
+          "color": "#ffffff",
+          "radius": "10px",
+          "height": 35,
+          "paddingX": 24,
+          "font": "__Inter_aa510d",
           "size": 14,
-          "weight": "400"
-        },
-        {
-          "label": "Get started",
-          "bg": "#0065da",
-          "color": "#ffffff",
-          "radius": "4px",
-          "height": 56,
-          "paddingX": 20,
-          "font": "Geist-b17c5c92c1d3a205",
-          "size": 16,
-          "weight": "400"
-        },
-        {
-          "label": "",
-          "bg": "#000000",
-          "color": "#ffffff",
-          "radius": "8px",
-          "height": 39,
-          "paddingX": 0,
-          "font": "Geist-b17c5c92c1d3a205",
-          "size": 16,
-          "weight": "400"
-        },
-        {
-          "label": "npm",
-          "bg": "#ffffff",
-          "color": "#17181c",
-          "radius": "0px",
-          "height": 36,
-          "paddingX": 14,
-          "font": "JetBrains Mono-1ea6b49896f773c2",
-          "size": 12,
-          "weight": "700"
-        },
-        {
-          "label": "",
-          "bg": "#f5f6f8",
-          "color": "#000000",
-          "radius": "2px",
-          "height": 32,
-          "paddingX": 0,
-          "font": "Arial",
-          "size": 13,
-          "weight": "400"
-        },
-        {
-          "label": "",
-          "bg": "#f5f6f8",
-          "color": "#000000",
-          "radius": "2px",
-          "height": 32,
-          "paddingX": 0,
-          "font": "Arial",
-          "size": 13,
-          "weight": "400"
+          "weight": "600"
         }
       ],
-      "contentWidth": 1100
+      "contentWidth": 1340
     }
   },
   {
@@ -14396,8 +14147,14 @@
     "site": "Bridge",
     "url": "https://www.bridge.xyz",
     "type": "landing",
-    "tags": [],
-    "note": "",
+    "tags": [
+      "light",
+      "aqua-wave-header",
+      "flow-diagram-hero",
+      "mono-subline",
+      "logo-grid"
+    ],
+    "note": "A band of aqua water-like waves across the top, then the hero is a diagram of money converting between currencies and stablecoins (USD -> PYUSD -> USDC -> EUR) as boxes and arrows. The product is drawn as its own routing.",
     "captured": "2026-11-23",
     "screens": {
       "desktop": {
@@ -14867,6 +14624,77 @@
     }
   },
   {
+    "id": "bunny-landing",
+    "site": "Bunny",
+    "url": "https://bunny.net",
+    "type": "landing",
+    "tags": [],
+    "note": "",
+    "captured": "2026-11-23",
+    "screens": {
+      "desktop": {
+        "file": "screens/bunny-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/bunny-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "bunny.net - The Global Edge Platform that truly Hops",
+      "fonts": [
+        "Rubik"
+      ],
+      "type": {
+        "h1": null,
+        "h2": {
+          "font": "Rubik",
+          "size": 54,
+          "weight": "700",
+          "lineHeight": 1.2,
+          "letterSpacing": "normal",
+          "color": "rgb(255, 255, 255)"
+        },
+        "h3": {
+          "font": "Rubik",
+          "size": 50,
+          "weight": "700",
+          "lineHeight": 1.2,
+          "letterSpacing": "normal",
+          "color": "rgb(255, 255, 255)"
+        },
+        "body": {
+          "font": "Rubik",
+          "size": 22,
+          "weight": "400",
+          "lineHeight": 1.4,
+          "letterSpacing": "normal",
+          "color": "rgb(255, 255, 255)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#e1f2ff",
+          "#fafafa",
+          "#ffffff",
+          "#051e38",
+          "#f5f5f5"
+        ],
+        "text": [
+          "#223c6a",
+          "#183d6d",
+          "#ffffff"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": 1210
+    }
+  },
+  {
     "id": "cal-com-landing",
     "site": "Cal.com",
     "url": "https://cal.com",
@@ -15086,213 +14914,61 @@
     }
   },
   {
-    "id": "captions-landing",
-    "site": "Captions",
-    "url": "https://www.captions.ai",
+    "id": "cargo-landing",
+    "site": "Cargo",
+    "url": "https://cargo.site",
     "type": "landing",
     "tags": [],
     "note": "",
     "captured": "2026-11-23",
     "screens": {
       "desktop": {
-        "file": "screens/captions-landing-desktop.jpg",
-        "width": 1440,
-        "height": 3600
-      },
-      "mobile": {
-        "file": "screens/captions-landing-mobile.jpg",
-        "width": 390,
-        "height": 2600
-      }
-    },
-    "tokens": {
-      "title": "Captions: AI That Edits Like a Professional Editor",
-      "fonts": [
-        "DenimINK-fc4757ccf169d42a",
-        "Exposure-09cb373df0d2138c",
-        "system-ui"
-      ],
-      "type": {
-        "h1": {
-          "font": "Exposure-09cb373df0d2138c",
-          "size": 48,
-          "weight": "400",
-          "lineHeight": 1.41,
-          "letterSpacing": "-0.48px",
-          "color": "rgb(42, 44, 45)"
-        },
-        "h2": {
-          "font": "Exposure-09cb373df0d2138c",
-          "size": 48,
-          "weight": "400",
-          "lineHeight": 1,
-          "letterSpacing": "-0.48px",
-          "color": "rgb(42, 44, 45)"
-        },
-        "h3": {
-          "font": "DenimINK-fc4757ccf169d42a",
-          "size": 32,
-          "weight": "400",
-          "lineHeight": 1,
-          "letterSpacing": "normal",
-          "color": "rgb(29, 31, 32)"
-        },
-        "body": {
-          "font": "DenimINK-fc4757ccf169d42a",
-          "size": 13,
-          "weight": "400",
-          "lineHeight": 1.38,
-          "letterSpacing": "0.325px",
-          "color": "rgb(159, 165, 167)"
-        }
-      },
-      "colors": {
-        "background": "#ffffff",
-        "surfaces": [
-          "#ffffff",
-          "#eef4f6",
-          "#e8eff2"
-        ],
-        "text": [
-          "#2a2c2d",
-          "#7e8486",
-          "#9fa5a7",
-          "#1d1f20"
-        ]
-      },
-      "buttons": [
-        {
-          "label": "Edit",
-          "bg": "#ffffff",
-          "color": "#2a2c2d",
-          "radius": "58px",
-          "height": 40,
-          "paddingX": 16,
-          "font": "DenimINK-fc4757ccf169d42a",
-          "size": 13,
-          "weight": "400"
-        },
-        {
-          "label": "",
-          "bg": "#eef4f6",
-          "color": "#2a2c2d",
-          "radius": "9999px",
-          "height": 36,
-          "paddingX": 10,
-          "font": "DenimINK-fc4757ccf169d42a",
-          "size": 13,
-          "weight": "500"
-        },
-        {
-          "label": "Add style",
-          "bg": "#eef4f6",
-          "color": "#2a2c2d",
-          "radius": "9999px",
-          "height": 36,
-          "paddingX": 10,
-          "font": "DenimINK-fc4757ccf169d42a",
-          "size": 13,
-          "weight": "500"
-        },
-        {
-          "label": "Create my video",
-          "bg": "#eef4f6",
-          "color": "#bec3c6",
-          "radius": "8px",
-          "height": 40,
-          "paddingX": 16,
-          "font": "DenimINK-fc4757ccf169d42a",
-          "size": 13,
-          "weight": "400"
-        },
-        {
-          "label": "Add captions",
-          "bg": "#eef4f6",
-          "color": "#2a2c2d",
-          "radius": "9999px",
-          "height": 32,
-          "paddingX": 14,
-          "font": "DenimINK-fc4757ccf169d42a",
-          "size": 13,
-          "weight": "500"
-        },
-        {
-          "label": "Edit with transitions",
-          "bg": "#eef4f6",
-          "color": "#2a2c2d",
-          "radius": "9999px",
-          "height": 32,
-          "paddingX": 14,
-          "font": "DenimINK-fc4757ccf169d42a",
-          "size": 13,
-          "weight": "500"
-        }
-      ],
-      "contentWidth": 1440
-    }
-  },
-  {
-    "id": "carta-landing",
-    "site": "Carta",
-    "url": "https://carta.com",
-    "type": "landing",
-    "tags": [],
-    "note": "",
-    "captured": "2026-11-23",
-    "screens": {
-      "desktop": {
-        "file": "screens/carta-landing-desktop.jpg",
+        "file": "screens/cargo-landing-desktop.jpg",
         "width": 1440,
         "height": 900
       },
       "mobile": {
-        "file": "screens/carta-landing-mobile.jpg",
+        "file": "screens/cargo-landing-mobile.jpg",
         "width": 390,
         "height": 2600
       }
     },
     "tokens": {
-      "title": "Just a moment...",
+      "title": "Cargo",
       "fonts": [
-        "system-ui"
+        "CargoDiatypeVariable"
       ],
       "type": {
         "h1": {
-          "font": "system-ui",
-          "size": 40,
-          "weight": "600",
-          "lineHeight": 1.25,
-          "letterSpacing": "normal",
-          "color": "rgb(49, 49, 49)"
+          "font": "CargoDiatypeVariable",
+          "size": 41,
+          "weight": "500",
+          "lineHeight": 1,
+          "letterSpacing": "-1.01953px",
+          "color": "rgba(0, 0, 0, 0.75)"
         },
         "h2": {
-          "font": "system-ui",
-          "size": 24,
-          "weight": "600",
-          "lineHeight": 1.25,
-          "letterSpacing": "normal",
-          "color": "rgb(49, 49, 49)"
+          "font": "CargoDiatypeVariable",
+          "size": 41,
+          "weight": "500",
+          "lineHeight": 1,
+          "letterSpacing": "-1.01953px",
+          "color": "rgba(0, 0, 0, 0.75)"
         },
         "h3": null,
-        "body": {
-          "font": "system-ui",
-          "size": 16,
-          "weight": "400",
-          "lineHeight": 1.5,
-          "letterSpacing": "normal",
-          "color": "rgb(49, 49, 49)"
-        }
+        "body": null
       },
       "colors": {
-        "background": "#ffffff",
-        "surfaces": [],
+        "background": "#fcfcfc",
+        "surfaces": [
+          "#fcfcfc"
+        ],
         "text": [
-          "#313131",
-          "#0000ee"
+          "#000000"
         ]
       },
       "buttons": [],
-      "contentWidth": 960
+      "contentWidth": null
     }
   },
   {
@@ -15555,208 +15231,151 @@
     }
   },
   {
-    "id": "character-ai-landing",
-    "site": "Character AI",
-    "url": "https://character.ai",
+    "id": "causal-landing",
+    "site": "Causal",
+    "url": "https://causal.app",
     "type": "landing",
     "tags": [],
     "note": "",
     "captured": "2026-11-23",
     "screens": {
       "desktop": {
-        "file": "screens/character-ai-landing-desktop.jpg",
-        "width": 1440,
-        "height": 1021
-      },
-      "mobile": {
-        "file": "screens/character-ai-landing-mobile.jpg",
-        "width": 390,
-        "height": 980
-      }
-    },
-    "tokens": {
-      "title": "Attention Required! | Cloudflare",
-      "fonts": [
-        "-apple-system"
-      ],
-      "type": {
-        "h1": {
-          "font": "-apple-system",
-          "size": 60,
-          "weight": "300",
-          "lineHeight": 1.2,
-          "letterSpacing": "normal",
-          "color": "rgb(64, 64, 64)"
-        },
-        "h2": {
-          "font": "-apple-system",
-          "size": 30,
-          "weight": "300",
-          "lineHeight": 1.3,
-          "letterSpacing": "normal",
-          "color": "rgb(89, 89, 89)"
-        },
-        "h3": null,
-        "body": {
-          "font": "-apple-system",
-          "size": 15,
-          "weight": "400",
-          "lineHeight": 1.5,
-          "letterSpacing": "normal",
-          "color": "rgb(64, 64, 64)"
-        }
-      },
-      "colors": {
-        "background": "#ffffff",
-        "surfaces": [
-          "#ffffff",
-          "#ebebeb"
-        ],
-        "text": [
-          "#404040",
-          "#595959",
-          "#0051c3"
-        ]
-      },
-      "buttons": [],
-      "contentWidth": null
-    }
-  },
-  {
-    "id": "checkly-landing",
-    "site": "Checkly",
-    "url": "https://www.checklyhq.com",
-    "type": "landing",
-    "tags": [],
-    "note": "",
-    "captured": "2026-11-23",
-    "screens": {
-      "desktop": {
-        "file": "screens/checkly-landing-desktop.jpg",
+        "file": "screens/causal-landing-desktop.jpg",
         "width": 1440,
         "height": 3600
       },
       "mobile": {
-        "file": "screens/checkly-landing-mobile.jpg",
+        "file": "screens/causal-landing-mobile.jpg",
         "width": 390,
         "height": 2600
       }
     },
     "tokens": {
-      "title": "Checkly — The active reliability layer for developers & agents",
+      "title": "Extended planning and analysis (xP&A) software | Lucanet",
       "fonts": [
-        "Inter",
-        "ui-monospace",
-        "-apple-system"
+        "Lucanet Light",
+        "Lucanet Regular",
+        "Lucanet Medium"
       ],
       "type": {
         "h1": {
-          "font": "Inter",
-          "size": 48,
-          "weight": "500",
-          "lineHeight": 1,
-          "letterSpacing": "-1.92px",
+          "font": "Lucanet Light",
+          "size": 60,
+          "weight": "300",
+          "lineHeight": 1.2,
+          "letterSpacing": "normal",
           "color": "rgb(255, 255, 255)"
         },
         "h2": {
-          "font": "Inter",
-          "size": 16,
-          "weight": "500",
-          "lineHeight": 1.5,
-          "letterSpacing": "normal",
-          "color": "rgb(167, 186, 190)"
-        },
-        "h3": {
-          "font": "Inter",
-          "size": 20,
-          "weight": "500",
-          "lineHeight": 1.4,
+          "font": "Lucanet Light",
+          "size": 38,
+          "weight": "300",
+          "lineHeight": 1.3,
           "letterSpacing": "normal",
           "color": "rgb(255, 255, 255)"
         },
+        "h3": {
+          "font": "Lucanet Light",
+          "size": 38,
+          "weight": "300",
+          "lineHeight": 1.3,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 42, 66)"
+        },
         "body": {
-          "font": "Inter",
-          "size": 11,
-          "weight": "600",
-          "lineHeight": 1.82,
-          "letterSpacing": "0.55px",
-          "color": "rgb(167, 186, 190)"
+          "font": "Lucanet Light",
+          "size": 18,
+          "weight": "300",
+          "lineHeight": 1.4,
+          "letterSpacing": "normal",
+          "color": "rgb(255, 255, 255)"
         }
       },
       "colors": {
         "background": "#ffffff",
         "surfaces": [
-          "#041734",
+          "#66788a",
+          "#002a42",
           "#ffffff",
-          "#0f2340",
-          "#0a1929",
-          "#0e0d0c"
+          "#00a0ff",
+          "#9728ff"
         ],
         "text": [
-          "#a7babe",
           "#ffffff",
-          "#212121",
-          "#7a8fa8"
+          "#002a42",
+          "#66788a",
+          "#9728ff"
         ]
       },
       "buttons": [
         {
-          "label": "Start for free",
-          "bg": "#ffffff",
-          "color": "#041734",
-          "radius": "8px",
-          "height": 38,
-          "paddingX": 20,
-          "font": "Inter",
-          "size": 14,
-          "weight": "500"
-        },
-        {
-          "label": "Start for free",
-          "bg": "#ffffff",
-          "color": "#041734",
-          "radius": "8px",
-          "height": 42,
-          "paddingX": 20,
-          "font": "Inter",
-          "size": 16,
-          "weight": "500"
-        },
-        {
-          "label": "",
-          "bg": "#001027",
+          "label": "Request demo",
+          "bg": "#9728ff",
           "color": "#ffffff",
-          "radius": "4px",
-          "height": 44,
-          "paddingX": 0,
-          "font": "Inter",
+          "radius": "38px",
+          "height": 47,
+          "paddingX": 20,
+          "font": "Lucanet Light",
           "size": 16,
-          "weight": "400"
+          "weight": "300"
         },
         {
-          "label": "Agent view",
-          "bg": "#0d1117",
-          "color": "#a7babe",
-          "radius": "8px",
-          "height": 44,
-          "paddingX": 14,
-          "font": "Inter",
+          "label": "Watch demo",
+          "bg": "#66788a",
+          "color": "#9728ff",
+          "radius": "38px",
+          "height": 48,
+          "paddingX": 20,
+          "font": "Lucanet Regular",
+          "size": 16,
+          "weight": "300"
+        },
+        {
+          "label": "Download solution brief",
+          "bg": "#ffffff",
+          "color": "#ffffff",
+          "radius": "38px",
+          "height": 48,
+          "paddingX": 20,
+          "font": "Lucanet Regular",
+          "size": 16,
+          "weight": "300"
+        },
+        {
+          "label": "Play",
+          "bg": "#66788a",
+          "color": "#002a42",
+          "radius": "0px",
+          "height": 32,
+          "paddingX": 0,
+          "font": "Lucanet Regular",
           "size": 12,
           "weight": "400"
         },
         {
-          "label": "",
-          "bg": "#041734",
-          "color": "#ffffff",
-          "radius": "6px",
-          "height": 40,
+          "label": "Back to Top",
+          "bg": "#ffffff",
+          "color": "#9728ff",
+          "radius": "9999px",
+          "height": 48,
           "paddingX": 0,
-          "font": "Inter",
+          "font": "Lucanet Light",
           "size": 16,
-          "weight": "400"
+          "weight": "300"
+        },
+        {
+          "label": "Contact Us",
+          "bg": "#9728ff",
+          "color": "#9728ff",
+          "radius": "9999px",
+          "height": 48,
+          "paddingX": 0,
+          "font": "Lucanet Light",
+          "size": 16,
+          "weight": "300"
         }
       ],
-      "contentWidth": 1408
+      "contentWidth": 1440
     }
   },
   {
@@ -16131,8 +15750,15 @@
     "site": "ClickHouse",
     "url": "https://clickhouse.com",
     "type": "landing",
-    "tags": [],
-    "note": "",
+    "tags": [
+      "dark",
+      "yellow-on-black",
+      "highlighted-words",
+      "video-testimonials",
+      "yellow-cards",
+      "use-case-icons"
+    ],
+    "note": "Yellow on black only: 'At any scale' in yellow, a yellow button, and customer video testimonials set on solid yellow cards. A database brand built from one loud colour used with discipline.",
     "captured": "2026-11-23",
     "screens": {
       "desktop": {
@@ -16321,6 +15947,106 @@
         }
       ],
       "contentWidth": 1440
+    }
+  },
+  {
+    "id": "cloudflare-landing",
+    "site": "Cloudflare",
+    "url": "https://www.cloudflare.com",
+    "type": "landing",
+    "tags": [],
+    "note": "",
+    "captured": "2026-11-23",
+    "screens": {
+      "desktop": {
+        "file": "screens/cloudflare-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/cloudflare-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Cloudflare: Build for the agent era",
+      "fonts": [
+        "STK Bureau Sans",
+        "Apercu Mono Pro"
+      ],
+      "type": {
+        "h1": {
+          "font": "STK Bureau Sans",
+          "size": 56,
+          "weight": "500",
+          "lineHeight": 0.99,
+          "letterSpacing": "-1.4px",
+          "color": "rgb(255, 255, 255)"
+        },
+        "h2": {
+          "font": "STK Bureau Sans",
+          "size": 48,
+          "weight": "500",
+          "lineHeight": 1,
+          "letterSpacing": "-1.2px",
+          "color": "rgb(38, 38, 38)"
+        },
+        "h3": {
+          "font": "STK Bureau Sans",
+          "size": 18,
+          "weight": "500",
+          "lineHeight": 1.2,
+          "letterSpacing": "-0.45px",
+          "color": "rgb(38, 38, 38)"
+        },
+        "body": {
+          "font": "STK Bureau Sans",
+          "size": 19,
+          "weight": "400",
+          "lineHeight": 1.2,
+          "letterSpacing": "-0.48px",
+          "color": "rgb(255, 255, 255)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#ffffff",
+          "#ff5e1f"
+        ],
+        "text": [
+          "#ffffff",
+          "#262626",
+          "#1f1f1f",
+          "#b52831"
+        ]
+      },
+      "buttons": [
+        {
+          "label": "Start building",
+          "bg": "#ff5e1f",
+          "color": "#ffffff",
+          "radius": "3.35544e+07px",
+          "height": 35,
+          "paddingX": 12,
+          "font": "STK Bureau Sans",
+          "size": 16,
+          "weight": "500"
+        },
+        {
+          "label": "Start building for free",
+          "bg": "#ffffff",
+          "color": "#1f1f1f",
+          "radius": "3.35544e+07px",
+          "height": 50,
+          "paddingX": 24,
+          "font": "STK Bureau Sans",
+          "size": 16,
+          "weight": "500"
+        }
+      ],
+      "contentWidth": 1480
     }
   },
   {
@@ -17144,6 +16870,77 @@
     }
   },
   {
+    "id": "coolify-landing",
+    "site": "Coolify",
+    "url": "https://coolify.io",
+    "type": "landing",
+    "tags": [],
+    "note": "",
+    "captured": "2026-11-23",
+    "screens": {
+      "desktop": {
+        "file": "screens/coolify-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/coolify-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Coolify - Self-hosting with superpowers",
+      "fonts": [
+        "Geist Sans",
+        "Geist Mono"
+      ],
+      "type": {
+        "h1": {
+          "font": "Geist Sans",
+          "size": 60,
+          "weight": "600",
+          "lineHeight": 1,
+          "letterSpacing": "-1.5px",
+          "color": "oklch(0.9612 0 0)"
+        },
+        "h2": {
+          "font": "Geist Sans",
+          "size": 30,
+          "weight": "600",
+          "lineHeight": 1.2,
+          "letterSpacing": "-0.75px",
+          "color": "oklch(0.9612 0 0)"
+        },
+        "h3": {
+          "font": "Geist Sans",
+          "size": 12,
+          "weight": "500",
+          "lineHeight": 1.33,
+          "letterSpacing": "0.3px",
+          "color": "oklch(0.7699 0 0)"
+        },
+        "body": {
+          "font": "Geist Sans",
+          "size": 18,
+          "weight": "400",
+          "lineHeight": 1.56,
+          "letterSpacing": "normal",
+          "color": "oklch(0.7699 0 0)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [],
+        "text": [
+          "#ffffff"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": 1280
+    }
+  },
+  {
     "id": "cooper-hewitt-landing",
     "site": "Cooper Hewitt",
     "url": "https://www.cooperhewitt.org",
@@ -17218,121 +17015,6 @@
     }
   },
   {
-    "id": "copilot-money-landing",
-    "site": "Copilot Money",
-    "url": "https://copilot.money",
-    "type": "landing",
-    "tags": [],
-    "note": "",
-    "captured": "2026-11-23",
-    "screens": {
-      "desktop": {
-        "file": "screens/copilot-money-landing-desktop.jpg",
-        "width": 1440,
-        "height": 3600
-      },
-      "mobile": {
-        "file": "screens/copilot-money-landing-mobile.jpg",
-        "width": 390,
-        "height": 2600
-      }
-    },
-    "tokens": {
-      "title": "Copilot Money · Your money finally has a copilot",
-      "fonts": [
-        "Matter",
-        "JetBrains Mono",
-        "Apple Color Emoji"
-      ],
-      "type": {
-        "h1": {
-          "font": "Matter",
-          "size": 64,
-          "weight": "600",
-          "lineHeight": 1.25,
-          "letterSpacing": "-0.5px",
-          "color": "rgb(20, 51, 82)"
-        },
-        "h2": {
-          "font": "Matter",
-          "size": 48,
-          "weight": "600",
-          "lineHeight": 1.15,
-          "letterSpacing": "-0.5px",
-          "color": "rgb(20, 51, 82)"
-        },
-        "h3": {
-          "font": "Matter",
-          "size": 48,
-          "weight": "600",
-          "lineHeight": 1.15,
-          "letterSpacing": "-0.5px",
-          "color": "rgb(20, 51, 82)"
-        },
-        "body": {
-          "font": "Matter",
-          "size": 24,
-          "weight": "500",
-          "lineHeight": 1.25,
-          "letterSpacing": "normal",
-          "color": "color(srgb 0.0784314 0.2 0.321569 / 0.7)"
-        }
-      },
-      "colors": {
-        "background": "#f1f7fe",
-        "surfaces": [
-          "#ffffff",
-          "#f9fafb",
-          "#437cef",
-          "#fcfdff",
-          "#05070b"
-        ],
-        "text": [
-          "#143352",
-          "#8b95ac",
-          "#ffffff",
-          "#2a5bc4"
-        ]
-      },
-      "buttons": [
-        {
-          "label": "Log in",
-          "bg": "#ffffff",
-          "color": null,
-          "radius": "40px",
-          "height": 44,
-          "paddingX": 20,
-          "font": "Matter",
-          "size": 16,
-          "weight": "500"
-        },
-        {
-          "label": "Get started",
-          "bg": "#437cef",
-          "color": "#ffffff",
-          "radius": "40px",
-          "height": 44,
-          "paddingX": 20,
-          "font": "Matter",
-          "size": 16,
-          "weight": "500"
-        },
-        {
-          "label": "Get started",
-          "bg": "#437cef",
-          "color": "#ffffff",
-          "radius": "40px",
-          "height": 54,
-          "paddingX": 28,
-          "font": "Matter",
-          "size": 18,
-          "weight": "550"
-        }
-      ],
-      "contentWidth": 1440
-    }
-  },
-  {
     "id": "cosmos-landing",
     "site": "Cosmos",
     "url": "https://www.cosmos.so",
@@ -17403,6 +17085,121 @@
       },
       "buttons": [],
       "contentWidth": 1200
+    }
+  },
+  {
+    "id": "count-landing",
+    "site": "Count",
+    "url": "https://count.co",
+    "type": "landing",
+    "tags": [],
+    "note": "",
+    "captured": "2026-11-23",
+    "screens": {
+      "desktop": {
+        "file": "screens/count-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/count-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Count — Don’t trust AI. Check it.",
+      "fonts": [
+        "inter",
+        "riformaNext",
+        "azeretMono"
+      ],
+      "type": {
+        "h1": {
+          "font": "riformaNext",
+          "size": 104,
+          "weight": "700",
+          "lineHeight": 1.02,
+          "letterSpacing": "-5.2px",
+          "color": "rgb(36, 42, 44)"
+        },
+        "h2": {
+          "font": "riformaNext",
+          "size": 48,
+          "weight": "700",
+          "lineHeight": 1.12,
+          "letterSpacing": "-1.92px",
+          "color": "rgb(36, 42, 44)"
+        },
+        "h3": {
+          "font": "riformaNext",
+          "size": 26,
+          "weight": "700",
+          "lineHeight": 1.15,
+          "letterSpacing": "-0.91px",
+          "color": "rgb(255, 255, 255)"
+        },
+        "body": {
+          "font": "riformaNext",
+          "size": 20,
+          "weight": "400",
+          "lineHeight": 1.42,
+          "letterSpacing": "-0.3px",
+          "color": "rgb(36, 42, 44)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#f7f6f2",
+          "#edece8",
+          "#ffffff",
+          "#fbfbfa",
+          "#fcfbf8"
+        ],
+        "text": [
+          "#242a2c",
+          "#ffffff",
+          "#1a1a1a",
+          "#2e29fa"
+        ]
+      },
+      "buttons": [
+        {
+          "label": "START FREE\nS",
+          "bg": "#242a2c",
+          "color": "#ffffff",
+          "radius": "3.35544e+07px",
+          "height": 36,
+          "paddingX": 16,
+          "font": "azeretMono",
+          "size": 11,
+          "weight": "500"
+        },
+        {
+          "label": "START FREE",
+          "bg": "#242a2c",
+          "color": "#ffffff",
+          "radius": "3.35544e+07px",
+          "height": 44,
+          "paddingX": 24,
+          "font": "azeretMono",
+          "size": 12,
+          "weight": "500"
+        },
+        {
+          "label": "BOOK DEMO",
+          "bg": "#f0f0f0",
+          "color": "#242a2c",
+          "radius": "3.35544e+07px",
+          "height": 44,
+          "paddingX": 24,
+          "font": "azeretMono",
+          "size": 12,
+          "weight": "500"
+        }
+      ],
+      "contentWidth": 1400
     }
   },
   {
@@ -17628,8 +17425,15 @@
     "site": "Day.ai",
     "url": "https://day.ai",
     "type": "landing",
-    "tags": [],
-    "note": "",
+    "tags": [
+      "light",
+      "monospace-type",
+      "stacked-verbs",
+      "highlighted-verb",
+      "flow-diagram",
+      "blue-accent"
+    ],
+    "note": "A stack of faded verbs ('build, deploy, secure, accelerate') with one in blue completing 'scale your company brain', set in mono, next to a box-and-arrow diagram of the context graph. Testimonials are mono text cards.",
     "captured": "2026-11-23",
     "screens": {
       "desktop": {
@@ -17855,103 +17659,6 @@
         }
       ],
       "contentWidth": 1167
-    }
-  },
-  {
-    "id": "daytona-landing",
-    "site": "Daytona",
-    "url": "https://www.daytona.io",
-    "type": "landing",
-    "tags": [],
-    "note": "",
-    "captured": "2026-11-23",
-    "screens": {
-      "desktop": {
-        "file": "screens/daytona-landing-desktop.jpg",
-        "width": 1440,
-        "height": 3600
-      },
-      "mobile": {
-        "file": "screens/daytona-landing-mobile.jpg",
-        "width": 390,
-        "height": 2600
-      }
-    },
-    "tokens": {
-      "title": "Daytona - Secure Infrastructure for Running AI-Generated Code",
-      "fonts": [
-        "monospace",
-        "Inter",
-        "IBM Plex Mono"
-      ],
-      "type": {
-        "h1": {
-          "font": "Inter",
-          "size": 48,
-          "weight": "400",
-          "lineHeight": 1.2,
-          "letterSpacing": "normal",
-          "color": "rgb(255, 255, 255)"
-        },
-        "h2": null,
-        "h3": {
-          "font": "Inter",
-          "size": 32,
-          "weight": "400",
-          "lineHeight": 1.2,
-          "letterSpacing": "normal",
-          "color": "rgb(255, 255, 255)"
-        },
-        "body": {
-          "font": "Berkeley Mono",
-          "size": 14,
-          "weight": "400",
-          "lineHeight": 1.38,
-          "letterSpacing": "-0.56px",
-          "color": "rgb(162, 162, 162)"
-        }
-      },
-      "colors": {
-        "background": "#0a0a0a",
-        "surfaces": [
-          "#0a0a0a",
-          "#161616",
-          "#0080ff",
-          "#252525",
-          "#2ecc71"
-        ],
-        "text": [
-          "#a2a2a2",
-          "#ffffff",
-          "#eeeeee",
-          "#77dddd"
-        ]
-      },
-      "buttons": [
-        {
-          "label": "Contact us",
-          "bg": "#252525",
-          "color": "#0000ee",
-          "radius": "4px",
-          "height": 32,
-          "paddingX": 16,
-          "font": "sans-serif",
-          "size": 12,
-          "weight": "400"
-        },
-        {
-          "label": "Start for Free",
-          "bg": "#0080ff",
-          "color": "#0000ee",
-          "radius": "4px",
-          "height": 48,
-          "paddingX": 24,
-          "font": "sans-serif",
-          "size": 12,
-          "weight": "400"
-        }
-      ],
-      "contentWidth": 1248
     }
   },
   {
@@ -19050,8 +18757,15 @@
     "site": "Drizzle",
     "url": "https://orm.drizzle.team",
     "type": "landing",
-    "tags": [],
-    "note": "",
+    "tags": [
+      "light",
+      "hand-drawn-doodles",
+      "scribbled-word",
+      "mascot-drawings",
+      "changelog-cards",
+      "performance-charts"
+    ],
+    "note": "The headline has a hand-scribbled correction ('ORM for you to ship ship ship'), little drawn droplets as mascots, contributors' avatars in a row and real benchmark charts. Developer humour drawn by hand.",
     "captured": "2026-11-23",
     "screens": {
       "desktop": {
@@ -19318,154 +19032,6 @@
     }
   },
   {
-    "id": "duckdb-landing",
-    "site": "DuckDB",
-    "url": "https://duckdb.org",
-    "type": "landing",
-    "tags": [],
-    "note": "",
-    "captured": "2026-11-23",
-    "screens": {
-      "desktop": {
-        "file": "screens/duckdb-landing-desktop.jpg",
-        "width": 1440,
-        "height": 3358
-      },
-      "mobile": {
-        "file": "screens/duckdb-landing-mobile.jpg",
-        "width": 390,
-        "height": 2600
-      }
-    },
-    "tokens": {
-      "title": "An analytical SQL database management system – DuckDB",
-      "fonts": [
-        "SuisseIntl",
-        "sans-serif",
-        "JetBrainsMono-Bold"
-      ],
-      "type": {
-        "h1": {
-          "font": "SuisseIntl",
-          "size": 44,
-          "weight": "600",
-          "lineHeight": 1.1,
-          "letterSpacing": "-0.165px",
-          "color": "rgb(13, 13, 13)"
-        },
-        "h2": {
-          "font": "SuisseIntl",
-          "size": 34,
-          "weight": "600",
-          "lineHeight": 1.1,
-          "letterSpacing": "0.034px",
-          "color": "rgb(13, 13, 13)"
-        },
-        "h3": {
-          "font": "SuisseIntl",
-          "size": 15,
-          "weight": "600",
-          "lineHeight": 1.3,
-          "letterSpacing": "0.015px",
-          "color": "rgb(5, 5, 5)"
-        },
-        "body": {
-          "font": "SuisseIntl",
-          "size": 13,
-          "weight": "400",
-          "lineHeight": 1.5,
-          "letterSpacing": "0.065px",
-          "color": "rgb(51, 51, 51)"
-        }
-      },
-      "colors": {
-        "background": "#fcfcfc",
-        "surfaces": [
-          "#e6e6e6",
-          "#fafafa",
-          "#fcfcfc",
-          "#fff100",
-          "#d9d9d9"
-        ],
-        "text": [
-          "#333333",
-          "#0d0d0d",
-          "#1a1a1a",
-          "#666666"
-        ]
-      },
-      "buttons": [
-        {
-          "label": "Support",
-          "bg": "#fff100",
-          "color": "#000000",
-          "radius": "999px",
-          "height": 33,
-          "paddingX": 16,
-          "font": "SuisseIntl",
-          "size": 13,
-          "weight": "450"
-        },
-        {
-          "label": "",
-          "bg": "#fafafa",
-          "color": "#ccbd00",
-          "radius": "10px",
-          "height": 33,
-          "paddingX": 6,
-          "font": "sans-serif",
-          "size": 15,
-          "weight": "400"
-        },
-        {
-          "label": "Get DuckDB",
-          "bg": "#fff100",
-          "color": "#000000",
-          "radius": "999px",
-          "height": 39,
-          "paddingX": 20,
-          "font": "SuisseIntl",
-          "size": 13,
-          "weight": "450"
-        },
-        {
-          "label": "Cloudflare",
-          "bg": "#fafafa",
-          "color": "#0d0d0d",
-          "radius": "10px",
-          "height": 55,
-          "paddingX": 11,
-          "font": "SuisseIntl",
-          "size": 15,
-          "weight": "400"
-        },
-        {
-          "label": "Amazon Web Services",
-          "bg": "#fafafa",
-          "color": "#0d0d0d",
-          "radius": "10px",
-          "height": 55,
-          "paddingX": 11,
-          "font": "SuisseIntl",
-          "size": 15,
-          "weight": "400"
-        },
-        {
-          "label": "Microsoft Azure",
-          "bg": "#fafafa",
-          "color": "#0d0d0d",
-          "radius": "10px",
-          "height": 55,
-          "paddingX": 11,
-          "font": "SuisseIntl",
-          "size": 15,
-          "weight": "400"
-        }
-      ],
-      "contentWidth": 1184
-    }
-  },
-  {
     "id": "duolingo-landing",
     "site": "Duolingo",
     "url": "https://www.duolingo.com",
@@ -19627,8 +19193,15 @@
     "site": "E2B",
     "url": "https://e2b.dev",
     "type": "landing",
-    "tags": [],
-    "note": "",
+    "tags": [
+      "dark",
+      "condensed-caps",
+      "red-accent",
+      "terminal-hero",
+      "bracket-labels",
+      "dense-logo-grid"
+    ],
+    "note": "Condensed all-caps headlines ('EVERY AGENT GETS A MACHINE'), bracket labels, red buttons and a real terminal session listing sandboxes as the hero. Logos in a dense two-row wall.",
     "captured": "2026-11-23",
     "screens": {
       "desktop": {
@@ -19714,8 +19287,14 @@
     "site": "Effect",
     "url": "https://effect.website",
     "type": "landing",
-    "tags": [],
-    "note": "",
+    "tags": [
+      "dark",
+      "interactive-code-demo",
+      "concurrency-toggle",
+      "mono-labels",
+      "speaker-photos"
+    ],
+    "note": "The hero has a working demo: pick sequential, batched or unbounded and watch tasks run in a small grid, next to the code that does it. Talks from the conference follow as photo cards.",
     "captured": "2026-11-23",
     "screens": {
       "desktop": {
@@ -19785,6 +19364,153 @@
       },
       "buttons": [],
       "contentWidth": 1180
+    }
+  },
+  {
+    "id": "electric-landing",
+    "site": "Electric",
+    "url": "https://electric-sql.com",
+    "type": "landing",
+    "tags": [],
+    "note": "",
+    "captured": "2026-11-23",
+    "screens": {
+      "desktop": {
+        "file": "screens/electric-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/electric-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Electric | Agents on sync",
+      "fonts": [
+        "OpenSauceOne",
+        "SourceCodePro"
+      ],
+      "type": {
+        "h1": {
+          "font": "OpenSauceOne",
+          "size": 56,
+          "weight": "700",
+          "lineHeight": 1.05,
+          "letterSpacing": "-1.12px",
+          "color": "rgba(255, 255, 245, 0.92)"
+        },
+        "h2": {
+          "font": "OpenSauceOne",
+          "size": 38,
+          "weight": "600",
+          "lineHeight": 1.15,
+          "letterSpacing": "-0.57px",
+          "color": "rgba(255, 255, 245, 0.92)"
+        },
+        "h3": {
+          "font": "OpenSauceOne",
+          "size": 20,
+          "weight": "600",
+          "lineHeight": 1.3,
+          "letterSpacing": "-0.2px",
+          "color": "rgba(255, 255, 245, 0.92)"
+        },
+        "body": {
+          "font": "OpenSauceOne",
+          "size": 20,
+          "weight": "500",
+          "lineHeight": 1.4,
+          "letterSpacing": "normal",
+          "color": "rgba(255, 255, 245, 0.92)"
+        }
+      },
+      "colors": {
+        "background": "#111318",
+        "surfaces": [
+          "#111318",
+          "#16181f",
+          "#1a1d27",
+          "#56e8ea",
+          "#22252f"
+        ],
+        "text": [
+          "#fffff5",
+          "#ebebf5",
+          "#75fbfd",
+          "#1a1a1a"
+        ]
+      },
+      "buttons": [
+        {
+          "label": "Search\nK",
+          "bg": "#22252f",
+          "color": "#ebebf5",
+          "radius": "8px",
+          "height": 40,
+          "paddingX": 12,
+          "font": "OpenSauceOne",
+          "size": 13,
+          "weight": "500"
+        },
+        {
+          "label": "Go to Cloud",
+          "bg": "#56e8ea",
+          "color": "#1a1a1a",
+          "radius": "20px",
+          "height": 37,
+          "paddingX": 17,
+          "font": "OpenSauceOne",
+          "size": 14,
+          "weight": "550"
+        },
+        {
+          "label": "Agents",
+          "bg": "#56e8ea",
+          "color": "#1a1a1a",
+          "radius": "20px",
+          "height": 40,
+          "paddingX": 20,
+          "font": "OpenSauceOne",
+          "size": 14,
+          "weight": "600"
+        },
+        {
+          "label": "Streams",
+          "bg": "#22252f",
+          "color": "#fffff5",
+          "radius": "20px",
+          "height": 40,
+          "paddingX": 20,
+          "font": "OpenSauceOne",
+          "size": 14,
+          "weight": "600"
+        },
+        {
+          "label": "Sync",
+          "bg": "#22252f",
+          "color": "#fffff5",
+          "radius": "20px",
+          "height": 40,
+          "paddingX": 20,
+          "font": "OpenSauceOne",
+          "size": 14,
+          "weight": "600"
+        },
+        {
+          "label": "Explore Agents",
+          "bg": "#56e8ea",
+          "color": "#1a1a1a",
+          "radius": "20px",
+          "height": 40,
+          "paddingX": 20,
+          "font": "OpenSauceOne",
+          "size": 14,
+          "weight": "600"
+        }
+      ],
+      "contentWidth": 1440
     }
   },
   {
@@ -20030,8 +19756,14 @@
     "site": "Encore",
     "url": "https://encore.dev",
     "type": "landing",
-    "tags": [],
-    "note": "",
+    "tags": [
+      "light",
+      "terminal-on-studio-set",
+      "grey-backdrop",
+      "yellow-accent",
+      "copy-command"
+    ],
+    "note": "A terminal window photographed on a grey studio set like a product shot, with a yellow copy button on the install command. A dev tool treated like an object on a pedestal.",
     "captured": "2026-11-23",
     "screens": {
       "desktop": {
@@ -20129,6 +19861,92 @@
     }
   },
   {
+    "id": "equals-landing",
+    "site": "Equals",
+    "url": "https://equals.com",
+    "type": "landing",
+    "tags": [],
+    "note": "",
+    "captured": "2026-11-23",
+    "screens": {
+      "desktop": {
+        "file": "screens/equals-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/equals-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Trusted AI analytics | Equals",
+      "fonts": [
+        "Unica77",
+        "Anthropic Sans",
+        "Inter"
+      ],
+      "type": {
+        "h1": {
+          "font": "Serrif Condensed",
+          "size": 110,
+          "weight": "400",
+          "lineHeight": 1,
+          "letterSpacing": "-2.2px",
+          "color": "rgb(0, 0, 0)"
+        },
+        "h2": {
+          "font": "Serrif Condensed",
+          "size": 48,
+          "weight": "400",
+          "lineHeight": 1.04,
+          "letterSpacing": "-0.48px",
+          "color": "rgb(0, 0, 0)"
+        },
+        "h3": null,
+        "body": {
+          "font": "Unica77",
+          "size": 14,
+          "weight": "400",
+          "lineHeight": 1.43,
+          "letterSpacing": "-0.09px",
+          "color": "rgba(0, 0, 0, 0.6)"
+        }
+      },
+      "colors": {
+        "background": "#faf9f5",
+        "surfaces": [
+          "#ffffff",
+          "#fcfcfc",
+          "#faf9f5",
+          "#f5f5f5",
+          "#f4f3f0"
+        ],
+        "text": [
+          "#000000",
+          "#262626",
+          "#8d8d8d",
+          "#737373"
+        ]
+      },
+      "buttons": [
+        {
+          "label": "Get a demo",
+          "bg": "#b074ce",
+          "color": "#ffffff",
+          "radius": "60px",
+          "height": 44,
+          "paddingX": 18,
+          "font": "Unica77",
+          "size": 16,
+          "weight": "400"
+        }
+      ],
+      "contentWidth": 1266
+    }
+  },
+  {
     "id": "every-landing",
     "site": "Every",
     "url": "https://every.to",
@@ -20222,140 +20040,219 @@
     }
   },
   {
-    "id": "exa-landing",
-    "site": "Exa",
-    "url": "https://exa.ai",
+    "id": "evidence-landing",
+    "site": "Evidence",
+    "url": "https://evidence.dev",
     "type": "landing",
     "tags": [],
     "note": "",
     "captured": "2026-11-23",
     "screens": {
       "desktop": {
-        "file": "screens/exa-landing-desktop.jpg",
+        "file": "screens/evidence-landing-desktop.jpg",
         "width": 1440,
         "height": 3600
       },
       "mobile": {
-        "file": "screens/exa-landing-mobile.jpg",
+        "file": "screens/evidence-landing-mobile.jpg",
         "width": 390,
         "height": 2600
       }
     },
     "tokens": {
-      "title": "Exa | Search API for AI Agents — Real-Time Web Data",
+      "title": "Evidence - Business Intelligence as Code",
       "fonts": [
-        "ABCDiatype",
-        "GeistMono",
+        "Geist",
+        "ui-monospace",
         "Inter"
       ],
       "type": {
         "h1": {
-          "font": "Arizona",
-          "size": 63,
-          "weight": "400",
-          "lineHeight": 0.72,
-          "letterSpacing": "-1.896px",
-          "color": "rgb(17, 24, 39)"
+          "font": "Geist",
+          "size": 48,
+          "weight": "500",
+          "lineHeight": 1,
+          "letterSpacing": "-1.2px",
+          "color": "rgb(23, 23, 23)"
         },
         "h2": {
-          "font": "Arizona",
-          "size": 42,
-          "weight": "400",
-          "lineHeight": 1.1,
-          "letterSpacing": "-1.04px",
-          "color": "rgb(3, 7, 18)"
+          "font": "Geist",
+          "size": 36,
+          "weight": "500",
+          "lineHeight": 1.11,
+          "letterSpacing": "-0.9px",
+          "color": "rgb(23, 23, 23)"
         },
         "h3": {
-          "font": "ABCDiatype",
-          "size": 42,
-          "weight": "400",
-          "lineHeight": 1,
-          "letterSpacing": "-1.272px",
-          "color": "rgb(24, 24, 21)"
+          "font": "Geist",
+          "size": 20,
+          "weight": "500",
+          "lineHeight": 1.4,
+          "letterSpacing": "-0.5px",
+          "color": "rgb(23, 23, 23)"
         },
         "body": {
-          "font": "ABCDiatype",
-          "size": 16,
+          "font": "Geist",
+          "size": 14,
           "weight": "400",
-          "lineHeight": 1.4,
-          "letterSpacing": "-0.32px",
-          "color": "rgb(120, 117, 114)"
+          "lineHeight": 1.43,
+          "letterSpacing": "normal",
+          "color": "rgb(115, 115, 115)"
         }
+      },
+      "colors": {
+        "background": "#fcfcfc",
+        "surfaces": [
+          "#ffffff",
+          "#fafafa",
+          "#fcfcfc",
+          "#000000",
+          "#f5f5f5"
+        ],
+        "text": [
+          "#737373",
+          "#525252",
+          "#171717",
+          "#262626"
+        ]
+      },
+      "buttons": [
+        {
+          "label": "Get started",
+          "bg": "#171717",
+          "color": "#ffffff",
+          "radius": "9999px",
+          "height": 36,
+          "paddingX": 20,
+          "font": "Geist",
+          "size": 14,
+          "weight": "500"
+        },
+        {
+          "label": "Book a demo",
+          "bg": "#ffffff",
+          "color": "#171717",
+          "radius": "9999px",
+          "height": 36,
+          "paddingX": 20,
+          "font": "Geist",
+          "size": 14,
+          "weight": "500"
+        }
+      ],
+      "contentWidth": 1152
+    }
+  },
+  {
+    "id": "excalidraw-landing",
+    "site": "Excalidraw",
+    "url": "https://excalidraw.com",
+    "type": "landing",
+    "tags": [],
+    "note": "",
+    "captured": "2026-11-23",
+    "screens": {
+      "desktop": {
+        "file": "screens/excalidraw-landing-desktop.jpg",
+        "width": 1440,
+        "height": 900
+      },
+      "mobile": {
+        "file": "screens/excalidraw-landing-mobile.jpg",
+        "width": 390,
+        "height": 844
+      }
+    },
+    "tokens": {
+      "title": "Excalidraw Whiteboard",
+      "fonts": [
+        "Assistant",
+        "Arial",
+        "Times New Roman"
+      ],
+      "type": {
+        "h1": {
+          "font": "Times New Roman",
+          "size": 32,
+          "weight": "700",
+          "lineHeight": "normal",
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        },
+        "h2": {
+          "font": "Assistant",
+          "size": 24,
+          "weight": "700",
+          "lineHeight": "normal",
+          "letterSpacing": "normal",
+          "color": "rgb(27, 27, 31)"
+        },
+        "h3": null,
+        "body": null
       },
       "colors": {
         "background": "#ffffff",
         "surfaces": [
           "#ffffff",
-          "#faf9f7",
-          "#181815",
-          "#fafafa",
-          "#eef8ff"
+          "#ececf4",
+          "#f0efff",
+          "#6965db",
+          "#e0dfff"
         ],
         "text": [
-          "#0972d5",
-          "#030712",
-          "#6b7280",
-          "#ffffff"
+          "#b8b8b8",
+          "#999999",
+          "#1b1b1f",
+          "#8b88e0"
         ]
       },
       "buttons": [
         {
-          "label": "Contact sales",
-          "bg": "#f2f0ef",
-          "color": "#514837",
-          "radius": "4px",
-          "height": 33,
-          "paddingX": 12,
-          "font": "Inter",
-          "size": 14,
-          "weight": "500"
-        },
-        {
-          "label": "Sign up",
-          "bg": "#000000",
-          "color": "#ffffff",
-          "radius": "4px",
-          "height": 32,
-          "paddingX": 12,
-          "font": "Inter",
-          "size": 14,
-          "weight": "500"
-        },
-        {
-          "label": "Try API for free",
-          "bg": "#000000",
-          "color": "#ffffff",
-          "radius": "4px",
-          "height": 40,
-          "paddingX": 16,
-          "font": "Inter",
-          "size": 15,
-          "weight": "500"
-        },
-        {
           "label": "",
-          "bg": "#f3f4f6",
-          "color": "#4b5563",
+          "bg": "#ececf4",
+          "color": "#1b1b1f",
           "radius": "8px",
-          "height": 32,
-          "paddingX": 0,
-          "font": "ABCDiatype",
-          "size": 16,
+          "height": 36,
+          "paddingX": 10,
+          "font": "Assistant",
+          "size": 13,
           "weight": "400"
         },
         {
-          "label": "Read customer stories\n→",
-          "bg": "#efedeb",
-          "color": "#514837",
-          "radius": "4px",
-          "height": 40,
-          "paddingX": 20,
-          "font": "Inter",
-          "size": 14,
+          "label": "Make comments\nwith Excalidraw+",
+          "bg": "#f0efff",
+          "color": "#6965db",
+          "radius": "8px",
+          "height": 36,
+          "paddingX": 10,
+          "font": "Assistant",
+          "size": 16,
           "weight": "500"
+        },
+        {
+          "label": "Share",
+          "bg": "#6965db",
+          "color": "#ffffff",
+          "radius": "8px",
+          "height": 36,
+          "paddingX": 10,
+          "font": "Assistant",
+          "size": 13,
+          "weight": "400"
+        },
+        {
+          "label": "",
+          "bg": "#ececf4",
+          "color": "#1b1b1f",
+          "radius": "8px",
+          "height": 36,
+          "paddingX": 10,
+          "font": "Assistant",
+          "size": 13,
+          "weight": "400"
         }
       ],
-      "contentWidth": 1280
+      "contentWidth": null
     }
   },
   {
@@ -20477,6 +20374,108 @@
         }
       ],
       "contentWidth": 1328
+    }
+  },
+  {
+    "id": "fabric-landing",
+    "site": "Fabric",
+    "url": "https://fabric.so",
+    "type": "landing",
+    "tags": [],
+    "note": "",
+    "captured": "2026-11-23",
+    "screens": {
+      "desktop": {
+        "file": "screens/fabric-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/fabric-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Fabric – the AI workspace that thinks with you",
+      "fonts": [
+        "Inter",
+        "sans-serif",
+        "GT Alpina Light"
+      ],
+      "type": {
+        "h1": {
+          "font": "GT Alpina Light",
+          "size": 80,
+          "weight": "300",
+          "lineHeight": 1.08,
+          "letterSpacing": "-1.6px",
+          "color": "rgb(0, 0, 0)"
+        },
+        "h2": {
+          "font": "GT Alpina Light",
+          "size": 52,
+          "weight": "300",
+          "lineHeight": 1.08,
+          "letterSpacing": "-1.04px",
+          "color": "rgb(0, 0, 0)"
+        },
+        "h3": {
+          "font": "Inter",
+          "size": 18,
+          "weight": "500",
+          "lineHeight": 1.5,
+          "letterSpacing": "-0.18px",
+          "color": "rgb(102, 102, 102)"
+        },
+        "body": {
+          "font": "Inter",
+          "size": 18,
+          "weight": "500",
+          "lineHeight": 1.3,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#ffffff",
+          "#0a0a0a",
+          "#666666"
+        ],
+        "text": [
+          "#000000",
+          "#666666",
+          "#ffffff",
+          "#737373"
+        ]
+      },
+      "buttons": [
+        {
+          "label": "Try for $0",
+          "bg": "#0a0a0a",
+          "color": "#0000ee",
+          "radius": "8px",
+          "height": 50,
+          "paddingX": 14,
+          "font": "sans-serif",
+          "size": 12,
+          "weight": "400"
+        },
+        {
+          "label": "Try for $0",
+          "bg": "#0a0a0a",
+          "color": "#0000ee",
+          "radius": "8px",
+          "height": 39,
+          "paddingX": 10,
+          "font": "sans-serif",
+          "size": 12,
+          "weight": "400"
+        }
+      ],
+      "contentWidth": 1280
     }
   },
   {
@@ -21339,8 +21338,15 @@
     "site": "Figma Config",
     "url": "https://config.figma.com",
     "type": "landing",
-    "tags": [],
-    "note": "",
+    "tags": [
+      "light",
+      "event-page",
+      "crowd-photo",
+      "price-as-headline",
+      "strikethrough-price",
+      "mono-labels"
+    ],
+    "note": "A conference page where the early-bird price is the headline ($600, $1,200 struck through) in big type over a wide photo of the crowd on the lawn. Date and place sit in small mono at the top.",
     "captured": "2026-11-23",
     "screens": {
       "desktop": {
@@ -22279,109 +22285,6 @@
     }
   },
   {
-    "id": "framer-sites-landing",
-    "site": "Framer Sites",
-    "url": "https://www.framer.com/sites",
-    "type": "landing",
-    "tags": [],
-    "note": "",
-    "captured": "2026-11-23",
-    "screens": {
-      "desktop": {
-        "file": "screens/framer-sites-landing-desktop.jpg",
-        "width": 1440,
-        "height": 3600
-      },
-      "mobile": {
-        "file": "screens/framer-sites-landing-mobile.jpg",
-        "width": 390,
-        "height": 2600
-      }
-    },
-    "tokens": {
-      "title": "Framer: Free website builder and AI design agent",
-      "fonts": [
-        "Inter",
-        "Inter Variable",
-        "sans-serif"
-      ],
-      "type": {
-        "h1": {
-          "font": "GT Walsheim Medium",
-          "size": 54,
-          "weight": "500",
-          "lineHeight": 1,
-          "letterSpacing": "-2.16px",
-          "color": "rgb(255, 255, 255)"
-        },
-        "h2": {
-          "font": "GT Walsheim Medium",
-          "size": 44,
-          "weight": "500",
-          "lineHeight": 1.1,
-          "letterSpacing": "-1.76px",
-          "color": "rgb(255, 255, 255)"
-        },
-        "h3": {
-          "font": "Inter Variable",
-          "size": 15,
-          "weight": "400",
-          "lineHeight": 1.35,
-          "letterSpacing": "-0.1px",
-          "color": "rgb(255, 255, 255)"
-        },
-        "body": {
-          "font": "Inter Variable",
-          "size": 14,
-          "weight": "400",
-          "lineHeight": 1,
-          "letterSpacing": "-0.01px",
-          "color": "rgb(255, 255, 255)"
-        }
-      },
-      "colors": {
-        "background": "#000000",
-        "surfaces": [
-          "#000000",
-          "#111111",
-          "#171717",
-          "#242424",
-          "#ffffff"
-        ],
-        "text": [
-          "#ffffff",
-          "#000000",
-          "#999999"
-        ]
-      },
-      "buttons": [
-        {
-          "label": "Sign up",
-          "bg": "#ffffff",
-          "color": "#0000ee",
-          "radius": "8px",
-          "height": 30,
-          "paddingX": 10,
-          "font": "sans-serif",
-          "size": 12,
-          "weight": "400"
-        },
-        {
-          "label": "Get started for free",
-          "bg": "#ffffff",
-          "color": "#0000ee",
-          "radius": "8px",
-          "height": 34,
-          "paddingX": 14,
-          "font": "sans-serif",
-          "size": 12,
-          "weight": "400"
-        }
-      ],
-      "contentWidth": 1400
-    }
-  },
-  {
     "id": "friend-landing",
     "site": "Friend",
     "url": "https://www.friend.com",
@@ -23003,121 +22906,6 @@
         }
       ],
       "contentWidth": 1440
-    }
-  },
-  {
-    "id": "glean-landing",
-    "site": "Glean",
-    "url": "https://www.glean.com",
-    "type": "landing",
-    "tags": [],
-    "note": "",
-    "captured": "2026-11-23",
-    "screens": {
-      "desktop": {
-        "file": "screens/glean-landing-desktop.jpg",
-        "width": 1440,
-        "height": 3600
-      },
-      "mobile": {
-        "file": "screens/glean-landing-mobile.jpg",
-        "width": 390,
-        "height": 2600
-      }
-    },
-    "tokens": {
-      "title": "Glean – Enterprise AI that Works | Agents, Assistant & Search",
-      "fonts": [
-        "Polysans Neutral",
-        "Polysans Slim",
-        "Polysans Neutral Mono"
-      ],
-      "type": {
-        "h1": {
-          "font": "Polysans Neutral",
-          "size": 56,
-          "weight": "400",
-          "lineHeight": 0.96,
-          "letterSpacing": "-2.4px",
-          "color": "rgb(0, 0, 0)"
-        },
-        "h2": {
-          "font": "Polysans Neutral",
-          "size": 20,
-          "weight": "400",
-          "lineHeight": 0.96,
-          "letterSpacing": "-0.8px",
-          "color": "rgb(51, 51, 51)"
-        },
-        "h3": {
-          "font": "Polysans Neutral",
-          "size": 66,
-          "weight": "400",
-          "lineHeight": 0.88,
-          "letterSpacing": "-0.025px",
-          "color": "rgb(0, 0, 0)"
-        },
-        "body": {
-          "font": "Polysans Neutral Mono",
-          "size": 16,
-          "weight": "400",
-          "lineHeight": 1,
-          "letterSpacing": "-0.96px",
-          "color": "rgb(114, 114, 114)"
-        }
-      },
-      "colors": {
-        "background": "#ffffff",
-        "surfaces": [
-          "#ffffff",
-          "#d8fd49",
-          "#f6f6f6",
-          "#343ced",
-          "#000000"
-        ],
-        "text": [
-          "#333333",
-          "#ffffff",
-          "#fefefe",
-          "#727272"
-        ]
-      },
-      "buttons": [
-        {
-          "label": "Get a demo",
-          "bg": "#000000",
-          "color": "#fefefe",
-          "radius": "64px",
-          "height": 42,
-          "paddingX": 24,
-          "font": "Polysans Neutral",
-          "size": 16,
-          "weight": "400"
-        },
-        {
-          "label": "Get a demo",
-          "bg": "#343ced",
-          "color": "#fefefe",
-          "radius": "64px",
-          "height": 43,
-          "paddingX": 24,
-          "font": "Polysans Neutral",
-          "size": 18,
-          "weight": "400"
-        },
-        {
-          "label": "Register for Glean:GO replays",
-          "bg": "#343ced",
-          "color": "#fefefe",
-          "radius": "64px",
-          "height": 43,
-          "paddingX": 24,
-          "font": "Polysans Neutral",
-          "size": 18,
-          "weight": "400"
-        }
-      ],
-      "contentWidth": 1376
     }
   },
   {
@@ -23914,81 +23702,6 @@
     }
   },
   {
-    "id": "gumloop-landing",
-    "site": "Gumloop",
-    "url": "https://www.gumloop.com",
-    "type": "landing",
-    "tags": [],
-    "note": "",
-    "captured": "2026-11-23",
-    "screens": {
-      "desktop": {
-        "file": "screens/gumloop-landing-desktop.jpg",
-        "width": 1440,
-        "height": 3600
-      },
-      "mobile": {
-        "file": "screens/gumloop-landing-mobile.jpg",
-        "width": 390,
-        "height": 2600
-      }
-    },
-    "tokens": {
-      "title": "Gumloop: The enterprise AI agent platform",
-      "fonts": [
-        "GeistSans",
-        "Gellix",
-        "GeistMono"
-      ],
-      "type": {
-        "h1": {
-          "font": "Gellix",
-          "size": 48,
-          "weight": "500",
-          "lineHeight": 1,
-          "letterSpacing": "-1.2px",
-          "color": "lab(8.70976 -0.096187 -1.58296)"
-        },
-        "h2": {
-          "font": "GeistSans",
-          "size": 12,
-          "weight": "500",
-          "lineHeight": 1.33,
-          "letterSpacing": "normal",
-          "color": "oklab(0.213174 -0.000407465 -0.00418828 / 0.7)"
-        },
-        "h3": {
-          "font": "Gellix",
-          "size": 20,
-          "weight": "500",
-          "lineHeight": 1.25,
-          "letterSpacing": "normal",
-          "color": "lab(8.70976 -0.096187 -1.58296)"
-        },
-        "body": {
-          "font": "GeistSans",
-          "size": 14,
-          "weight": "400",
-          "lineHeight": 1.43,
-          "letterSpacing": "normal",
-          "color": "oklab(0.488649 0.00388773 -0.0136895 / 0.8)"
-        }
-      },
-      "colors": {
-        "background": "#ffffff",
-        "surfaces": [
-          "#ffffff",
-          "#1b8ff4"
-        ],
-        "text": [
-          "#ffffff"
-        ]
-      },
-      "buttons": [],
-      "contentWidth": 1440
-    }
-  },
-  {
     "id": "gumroad-landing",
     "site": "Gumroad",
     "url": "https://gumroad.com",
@@ -24600,8 +24313,14 @@
     "site": "Hebbia",
     "url": "https://www.hebbia.com",
     "type": "landing",
-    "tags": [],
-    "note": "",
+    "tags": [
+      "dark",
+      "serif-caps",
+      "sculptural-imagery",
+      "prompt-box-hero",
+      "institutional-logos"
+    ],
+    "note": "Black page with a small serif-caps title ('INSTITUTIONAL INTELLIGENCE'), a prompt box at the top and monochrome sculptural images (a ribbed arch against sky) for each section. Finance AI made to feel like architecture.",
     "captured": "2026-11-23",
     "screens": {
       "desktop": {
@@ -24704,8 +24423,14 @@
     "site": "Hedra",
     "url": "https://www.hedra.com",
     "type": "landing",
-    "tags": [],
-    "note": "",
+    "tags": [
+      "dark",
+      "cinematic-photo",
+      "silhouette",
+      "server-corridor",
+      "large-white-headline"
+    ],
+    "note": "A lone silhouette standing between server racks under a pale sky opening; a large white two-line headline below. Infrastructure framed as a film still.",
     "captured": "2026-11-23",
     "screens": {
       "desktop": {
@@ -25351,113 +25076,6 @@
     }
   },
   {
-    "id": "hono-landing",
-    "site": "Hono",
-    "url": "https://hono.dev",
-    "type": "landing",
-    "tags": [],
-    "note": "",
-    "captured": "2026-11-23",
-    "screens": {
-      "desktop": {
-        "file": "screens/hono-landing-desktop.jpg",
-        "width": 1440,
-        "height": 1107
-      },
-      "mobile": {
-        "file": "screens/hono-landing-mobile.jpg",
-        "width": 390,
-        "height": 1637
-      }
-    },
-    "tokens": {
-      "title": "Hono - Web framework built on Web Standards",
-      "fonts": [
-        "-apple-system",
-        "ui-monospace"
-      ],
-      "type": {
-        "h1": {
-          "font": "-apple-system",
-          "size": 16,
-          "weight": "400",
-          "lineHeight": 1.5,
-          "letterSpacing": "normal",
-          "color": "rgb(31, 35, 40)"
-        },
-        "h2": {
-          "font": "-apple-system",
-          "size": 16,
-          "weight": "700",
-          "lineHeight": 1.5,
-          "letterSpacing": "normal",
-          "color": "rgb(31, 35, 40)"
-        },
-        "h3": null,
-        "body": {
-          "font": "-apple-system",
-          "size": 24,
-          "weight": "500",
-          "lineHeight": 1.5,
-          "letterSpacing": "normal",
-          "color": "rgb(69, 69, 69)"
-        }
-      },
-      "colors": {
-        "background": "#ffffff",
-        "surfaces": [
-          "#f6f6f7",
-          "#eff2f5",
-          "#ffffff",
-          "#ebebef",
-          "#ff9c24"
-        ],
-        "text": [
-          "#454545",
-          "#1f2328",
-          "#d73a49",
-          "#24292e"
-        ]
-      },
-      "buttons": [
-        {
-          "label": "Search\nK",
-          "bg": "#f6f6f7",
-          "color": "#454545",
-          "radius": "8px",
-          "height": 40,
-          "paddingX": 12,
-          "font": "-apple-system",
-          "size": 13,
-          "weight": "500"
-        },
-        {
-          "label": "Get Started",
-          "bg": "#ff9c24",
-          "color": "#000000",
-          "radius": "20px",
-          "height": 40,
-          "paddingX": 20,
-          "font": "-apple-system",
-          "size": 14,
-          "weight": "600"
-        },
-        {
-          "label": "View on GitHub",
-          "bg": "#ebebef",
-          "color": "#1f2328",
-          "radius": "20px",
-          "height": 40,
-          "paddingX": 20,
-          "font": "-apple-system",
-          "size": 14,
-          "weight": "600"
-        }
-      ],
-      "contentWidth": 1440
-    }
-  },
-  {
     "id": "hugging-face-landing",
     "site": "Hugging Face",
     "url": "https://huggingface.co",
@@ -25817,8 +25435,14 @@
     "site": "Increase",
     "url": "https://increase.com",
     "type": "landing",
-    "tags": [],
-    "note": "",
+    "tags": [
+      "light",
+      "diagonal-colour-planes",
+      "api-bank",
+      "stats-row",
+      "rails-list"
+    ],
+    "note": "Green and blue diagonal planes slice across the right side of the hero like folded paper, the only decoration of an API-first bank. Stats ($500B+, 99.9999%, 9M+) then the payment rails as a checklist.",
     "captured": "2026-11-23",
     "screens": {
       "desktop": {
@@ -26207,6 +25831,82 @@
     }
   },
   {
+    "id": "instantdb-landing",
+    "site": "InstantDB",
+    "url": "https://www.instantdb.com",
+    "type": "landing",
+    "tags": [],
+    "note": "",
+    "captured": "2026-11-23",
+    "screens": {
+      "desktop": {
+        "file": "screens/instantdb-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/instantdb-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Instant",
+      "fonts": [
+        "Switzer",
+        "Berkeley Mono"
+      ],
+      "type": {
+        "h1": {
+          "font": "Switzer",
+          "size": 48,
+          "weight": "400",
+          "lineHeight": 1,
+          "letterSpacing": "normal",
+          "color": "rgb(51, 51, 51)"
+        },
+        "h2": {
+          "font": "Switzer",
+          "size": 48,
+          "weight": "400",
+          "lineHeight": 1.38,
+          "letterSpacing": "normal",
+          "color": "rgb(51, 51, 51)"
+        },
+        "h3": {
+          "font": "Switzer",
+          "size": 30,
+          "weight": "400",
+          "lineHeight": 1.2,
+          "letterSpacing": "normal",
+          "color": "rgb(51, 51, 51)"
+        },
+        "body": {
+          "font": "Switzer",
+          "size": 20,
+          "weight": "400",
+          "lineHeight": 1.4,
+          "letterSpacing": "normal",
+          "color": "rgb(51, 51, 51)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#f8f8f8",
+          "#fbf9f6",
+          "#f2f2f2"
+        ],
+        "text": [
+          "#333333",
+          "#ffffff"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": 1280
+    }
+  },
+  {
     "id": "instrument-landing",
     "site": "Instrument",
     "url": "https://www.instrument.com",
@@ -26589,8 +26289,14 @@
     "site": "Jam",
     "url": "https://jam.dev",
     "type": "landing",
-    "tags": [],
-    "note": "",
+    "tags": [
+      "light",
+      "inline-chip-word",
+      "angled-stickers",
+      "product-ui-hero",
+      "grid-paper"
+    ],
+    "note": "The key word sits inside a small yellow chip in the middle of the headline ('The [logs] capture tool'); angled sticker labels ('Visual feedback', 'Bugs', 'Customer issues') stick out from behind the product window like tape.",
     "captured": "2026-11-23",
     "screens": {
       "desktop": {
@@ -27149,8 +26855,15 @@
     "site": "Knock",
     "url": "https://knock.app",
     "type": "landing",
-    "tags": [],
-    "note": "",
+    "tags": [
+      "light",
+      "data-viz-hero",
+      "particle-tree",
+      "annotated-illustration",
+      "warm-neutral",
+      "product-ui"
+    ],
+    "note": "The hero image is a data visualisation: thousands of coloured particles forming a branching tree, with small annotations on branches (agent sends, workflows triggered). Messaging volume drawn as something organic.",
     "captured": "2026-11-23",
     "screens": {
       "desktop": {
@@ -27426,12 +27139,120 @@
     }
   },
   {
+    "id": "kosmik-landing",
+    "site": "Kosmik",
+    "url": "https://www.kosmik.app",
+    "type": "landing",
+    "tags": [],
+    "note": "",
+    "captured": "2026-11-23",
+    "screens": {
+      "desktop": {
+        "file": "screens/kosmik-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/kosmik-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Kosmik - Create Moodboard In Seconds With AI",
+      "fonts": [
+        "sans-serif",
+        "Kosmik SF Compact Display Regular",
+        "SuperBlue Regular"
+      ],
+      "type": {
+        "h1": {
+          "font": "Americane Bold",
+          "size": 90,
+          "weight": "700",
+          "lineHeight": 1,
+          "letterSpacing": "normal",
+          "color": "rgb(245, 113, 39)"
+        },
+        "h2": {
+          "font": "Americane Bold",
+          "size": 48,
+          "weight": "400",
+          "lineHeight": 1,
+          "letterSpacing": "normal",
+          "color": "rgb(60, 60, 60)"
+        },
+        "h3": {
+          "font": "SuperBlue Regular",
+          "size": 32,
+          "weight": "400",
+          "lineHeight": 1.88,
+          "letterSpacing": "0.64px",
+          "color": "rgb(60, 60, 60)"
+        },
+        "body": {
+          "font": "SuperBlue Regular",
+          "size": 20,
+          "weight": "400",
+          "lineHeight": 1.4,
+          "letterSpacing": "0.4px",
+          "color": "rgb(60, 60, 60)"
+        }
+      },
+      "colors": {
+        "background": "#fff8f5",
+        "surfaces": [
+          "#fff8f5",
+          "#f57127",
+          "#ffffff"
+        ],
+        "text": [
+          "#3c3c3c",
+          "#ffffff",
+          "#f57127"
+        ]
+      },
+      "buttons": [
+        {
+          "label": "Learn how to export your data",
+          "bg": "#f57127",
+          "color": "#0000ee",
+          "radius": "15px",
+          "height": 52,
+          "paddingX": 24,
+          "font": "sans-serif",
+          "size": 12,
+          "weight": "400"
+        },
+        {
+          "label": "Download Kosmik",
+          "bg": "#ffffff",
+          "color": "#0000ee",
+          "radius": "15px",
+          "height": 52,
+          "paddingX": 24,
+          "font": "sans-serif",
+          "size": 12,
+          "weight": "400"
+        }
+      ],
+      "contentWidth": 1440
+    }
+  },
+  {
     "id": "koyeb-landing",
     "site": "Koyeb",
     "url": "https://www.koyeb.com",
     "type": "landing",
-    "tags": [],
-    "note": "",
+    "tags": [
+      "light",
+      "mint-ground",
+      "condensed-caps",
+      "globe-line-drawing",
+      "terminal-hero",
+      "green-gauges"
+    ],
+    "note": "Heavy condensed caps headlines on mint and beige, a terminal at the centre of a thin globe drawing with tiny server icons, and green gauge illustrations for each feature. A cloud with a poster-like voice.",
     "captured": "2026-11-23",
     "screens": {
       "desktop": {
@@ -27914,8 +27735,14 @@
     "site": "Legora",
     "url": "https://legora.com",
     "type": "landing",
-    "tags": [],
-    "note": "",
+    "tags": [
+      "dark-to-light",
+      "cinematic-photo",
+      "close-up-portrait",
+      "small-headline",
+      "quiet-cta"
+    ],
+    "note": "A cinematic close-up of a lawyer's face in reading light fills the hero, with a small white headline ('Legal work, without limits.') low in the frame. Legal AI sold through a human moment, not a dashboard.",
     "captured": "2026-11-23",
     "screens": {
       "desktop": {
@@ -28513,113 +28340,18 @@
     }
   },
   {
-    "id": "linear-asks-landing",
-    "site": "Linear Asks",
-    "url": "https://linear.app/asks",
-    "type": "landing",
-    "tags": [],
-    "note": "",
-    "captured": "2026-11-23",
-    "screens": {
-      "desktop": {
-        "file": "screens/linear-asks-landing-desktop.jpg",
-        "width": 1440,
-        "height": 3600
-      },
-      "mobile": {
-        "file": "screens/linear-asks-landing-mobile.jpg",
-        "width": 390,
-        "height": 2600
-      }
-    },
-    "tokens": {
-      "title": "Linear Asks – Manage workplace requests",
-      "fonts": [
-        "Inter Variable"
-      ],
-      "type": {
-        "h1": {
-          "font": "Inter Variable",
-          "size": 64,
-          "weight": "510",
-          "lineHeight": 1.06,
-          "letterSpacing": "-1.408px",
-          "color": "rgb(247, 248, 248)"
-        },
-        "h2": {
-          "font": "Inter Variable",
-          "size": 48,
-          "weight": "510",
-          "lineHeight": 1,
-          "letterSpacing": "-1.056px",
-          "color": "rgb(247, 248, 248)"
-        },
-        "h3": {
-          "font": "Inter Variable",
-          "size": 14,
-          "weight": "510",
-          "lineHeight": 1.5,
-          "letterSpacing": "-0.182px",
-          "color": "rgb(208, 214, 224)"
-        },
-        "body": {
-          "font": "Inter Variable",
-          "size": 17,
-          "weight": "400",
-          "lineHeight": 1.6,
-          "letterSpacing": "normal",
-          "color": "rgb(138, 143, 152)"
-        }
-      },
-      "colors": {
-        "background": "#08090a",
-        "surfaces": [
-          "#08090a",
-          "#5e6ad2",
-          "#e5e5e6",
-          "#171717"
-        ],
-        "text": [
-          "#8a8f98",
-          "#f7f8f8",
-          "#08090a",
-          "#ffffff"
-        ]
-      },
-      "buttons": [
-        {
-          "label": "Sign up",
-          "bg": "#e5e5e6",
-          "color": "#08090a",
-          "radius": "9999px",
-          "height": 32,
-          "paddingX": 12,
-          "font": "Inter Variable",
-          "size": 13,
-          "weight": "510"
-        },
-        {
-          "label": "See how it works",
-          "bg": "#e5e5e6",
-          "color": "#08090a",
-          "radius": "9999px",
-          "height": 40,
-          "paddingX": 16,
-          "font": "Inter Variable",
-          "size": 15,
-          "weight": "510"
-        }
-      ],
-      "contentWidth": 1436
-    }
-  },
-  {
     "id": "lithic-landing",
     "site": "Lithic",
     "url": "https://www.lithic.com",
     "type": "landing",
-    "tags": [],
-    "note": "",
+    "tags": [
+      "dark",
+      "product-photography",
+      "cards-in-darkness",
+      "orange-cta",
+      "tile-grid"
+    ],
+    "note": "Physical payment cards scattered in darkness under one light, a centred headline and an orange button; then light tiles with card network logos and a compliance badge. The card itself is the hero object.",
     "captured": "2026-11-23",
     "screens": {
       "desktop": {
@@ -29523,64 +29255,6 @@
     }
   },
   {
-    "id": "magnific-landing",
-    "site": "Magnific",
-    "url": "https://magnific.ai",
-    "type": "landing",
-    "tags": [],
-    "note": "",
-    "captured": "2026-11-23",
-    "screens": {
-      "desktop": {
-        "file": "screens/magnific-landing-desktop.jpg",
-        "width": 1440,
-        "height": 900
-      },
-      "mobile": {
-        "file": "screens/magnific-landing-mobile.jpg",
-        "width": 390,
-        "height": 844
-      }
-    },
-    "tokens": {
-      "title": "That request didn't go through. Our security filter flagged something. You don't have permission to access this page.",
-      "fonts": [
-        "GeistInline",
-        "KlarheitInline"
-      ],
-      "type": {
-        "h1": {
-          "font": "KlarheitInline",
-          "size": 30,
-          "weight": "800",
-          "lineHeight": 1,
-          "letterSpacing": "normal",
-          "color": "rgb(255, 255, 255)"
-        },
-        "h2": null,
-        "h3": null,
-        "body": {
-          "font": "KlarheitInline",
-          "size": 30,
-          "weight": "800",
-          "lineHeight": 1,
-          "letterSpacing": "normal",
-          "color": "rgb(255, 255, 255)"
-        }
-      },
-      "colors": {
-        "background": "#080808",
-        "surfaces": [],
-        "text": [
-          "#ffffff",
-          "#ff58ae"
-        ]
-      },
-      "buttons": [],
-      "contentWidth": null
-    }
-  },
-  {
     "id": "mailchimp-landing",
     "site": "Mailchimp",
     "url": "https://mailchimp.com",
@@ -29827,119 +29501,6 @@
     "tokens": null
   },
   {
-    "id": "meow-landing",
-    "site": "Meow",
-    "url": "https://www.meow.com",
-    "type": "landing",
-    "tags": [],
-    "note": "",
-    "captured": "2026-11-23",
-    "screens": {
-      "desktop": {
-        "file": "screens/meow-landing-desktop.jpg",
-        "width": 1440,
-        "height": 3600
-      },
-      "mobile": {
-        "file": "screens/meow-landing-mobile.jpg",
-        "width": 390,
-        "height": 2600
-      }
-    },
-    "tokens": {
-      "title": "Business banking | Meow",
-      "fonts": [
-        "untitledSans"
-      ],
-      "type": {
-        "h1": {
-          "font": "untitledSans",
-          "size": 56,
-          "weight": "500",
-          "lineHeight": 1.14,
-          "letterSpacing": "-1.96px",
-          "color": "rgb(255, 255, 255)"
-        },
-        "h2": {
-          "font": "untitledSans",
-          "size": 32,
-          "weight": "500",
-          "lineHeight": 1.25,
-          "letterSpacing": "-0.8px",
-          "color": "rgb(24, 27, 37)"
-        },
-        "h3": {
-          "font": "untitledSans",
-          "size": 28,
-          "weight": "500",
-          "lineHeight": 1.29,
-          "letterSpacing": "-0.56px",
-          "color": "rgb(24, 27, 37)"
-        },
-        "body": {
-          "font": "untitledSans",
-          "size": 16,
-          "weight": "400",
-          "lineHeight": 1.5,
-          "letterSpacing": "-0.16px",
-          "color": "rgba(255, 255, 255, 0.8)"
-        }
-      },
-      "colors": {
-        "background": "#ffffff",
-        "surfaces": [
-          "#ffffff",
-          "#171923",
-          "#f6f6f6",
-          "#000000",
-          "#0c1d37"
-        ],
-        "text": [
-          "#181b25",
-          "#ffffff",
-          "#36373a",
-          "#595a5f"
-        ]
-      },
-      "buttons": [
-        {
-          "label": "Get Started",
-          "bg": "#ff6631",
-          "color": "#ffffff",
-          "radius": "4px",
-          "height": 40,
-          "paddingX": 16,
-          "font": "untitledSans",
-          "size": 14,
-          "weight": "400"
-        },
-        {
-          "label": "Get Started",
-          "bg": "#ff6631",
-          "color": "#ffffff",
-          "radius": "6px",
-          "height": 48,
-          "paddingX": 0,
-          "font": "untitledSans",
-          "size": 16,
-          "weight": "400"
-        },
-        {
-          "label": "Get started with Claude",
-          "bg": "#ff6631",
-          "color": "#ffffff",
-          "radius": "8px",
-          "height": 43,
-          "paddingX": 20,
-          "font": "untitledSans",
-          "size": 14,
-          "weight": "500"
-        }
-      ],
-      "contentWidth": 1440
-    }
-  },
-  {
     "id": "mercury-landing",
     "site": "Mercury",
     "url": "https://mercury.com",
@@ -30053,8 +29614,15 @@
     "site": "Mercury Personal",
     "url": "https://mercury.com/personal-banking",
     "type": "landing",
-    "tags": [],
-    "note": "",
+    "tags": [
+      "dark",
+      "photo-field",
+      "glass-product-ui",
+      "italic-serif-word",
+      "email-capture-hero",
+      "price-in-copy"
+    ],
+    "note": "A blurred interior photograph as the field with the product's personal-banking UI floating in it as frosted glass. The price of the subscription is stated in the subhead, not hidden on a pricing page.",
     "captured": "2026-11-23",
     "screens": {
       "desktop": {
@@ -30149,6 +29717,44 @@
         }
       ],
       "contentWidth": 1376
+    }
+  },
+  {
+    "id": "metabase-landing",
+    "site": "Metabase",
+    "url": "https://www.metabase.com",
+    "type": "landing",
+    "tags": [],
+    "note": "",
+    "captured": "2026-11-23",
+    "screens": {
+      "desktop": {
+        "file": "screens/metabase-landing-desktop.jpg",
+        "width": 1440,
+        "height": 900
+      },
+      "mobile": {
+        "file": "screens/metabase-landing-mobile.jpg",
+        "width": 390,
+        "height": 844
+      }
+    },
+    "tokens": {
+      "title": "Open source AI analytics you can verify | Metabase",
+      "fonts": [],
+      "type": {
+        "h1": null,
+        "h2": null,
+        "h3": null,
+        "body": null
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [],
+        "text": []
+      },
+      "buttons": [],
+      "contentWidth": 1520
     }
   },
   {
@@ -30659,8 +30265,14 @@
     "site": "Modern Treasury",
     "url": "https://www.moderntreasury.com",
     "type": "landing",
-    "tags": [],
-    "note": "",
+    "tags": [
+      "light",
+      "flow-diagram-hero",
+      "money-rails",
+      "grid-paper",
+      "product-cards-with-ui"
+    ],
+    "note": "The hero image is a diagram of money moving between rails (ACH, wire, RTP, stablecoins) through the company's node, drawn on faint grid paper. Payments infrastructure shown as the flow it controls.",
     "captured": "2026-11-23",
     "screens": {
       "desktop": {
@@ -30761,8 +30373,15 @@
     "site": "Monarch",
     "url": "https://www.monarchmoney.com",
     "type": "landing",
-    "tags": [],
-    "note": "",
+    "tags": [
+      "light",
+      "warm-photo-hero",
+      "floating-ui-cards",
+      "orange-accent",
+      "award-laurels",
+      "sankey-chart"
+    ],
+    "note": "A warm photo of a woman at home with small budget cards floating over it; award laurels (WSJ, Forbes, CNBC) as a row; then the real product with a Sankey cash-flow chart. Personal finance shown as a person first.",
     "captured": "2026-11-23",
     "screens": {
       "desktop": {
@@ -30987,8 +30606,16 @@
     "site": "MotherDuck",
     "url": "https://motherduck.com",
     "type": "landing",
-    "tags": [],
-    "note": "",
+    "tags": [
+      "light",
+      "sky-blue-field",
+      "yellow-accent",
+      "cartoon-clouds",
+      "isometric-stack",
+      "chunky-borders",
+      "caps-headings"
+    ],
+    "note": "Sky-blue ground with cartoon clouds, chunky black borders and caps headings; the architecture is an isometric stack of dark slabs with labelled cards around it, and product cards come in flat yellow, peach and mint. A database with a playful, consistent world.",
     "captured": "2026-11-23",
     "screens": {
       "desktop": {
@@ -31312,6 +30939,102 @@
         }
       ],
       "contentWidth": null
+    }
+  },
+  {
+    "id": "muse-landing",
+    "site": "Muse",
+    "url": "https://museapp.com",
+    "type": "landing",
+    "tags": [],
+    "note": "",
+    "captured": "2026-11-23",
+    "screens": {
+      "desktop": {
+        "file": "screens/muse-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/muse-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Allume — dive into big ideas",
+      "fonts": [
+        "Marat Sans",
+        "Marat",
+        "Comic Sans MS"
+      ],
+      "type": {
+        "h1": {
+          "font": "Marat",
+          "size": 78,
+          "weight": "500",
+          "lineHeight": 1.1,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        },
+        "h2": {
+          "font": "Marat",
+          "size": 56,
+          "weight": "500",
+          "lineHeight": 1,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        },
+        "h3": null,
+        "body": {
+          "font": "Marat",
+          "size": 24,
+          "weight": "400",
+          "lineHeight": 1.2,
+          "letterSpacing": "0.1px",
+          "color": "rgba(0, 0, 0, 0.7)"
+        }
+      },
+      "colors": {
+        "background": "#f9f7f4",
+        "surfaces": [
+          "#f9f7f4",
+          "#ece8e2",
+          "#ffffff",
+          "#272624",
+          "#f6953c"
+        ],
+        "text": [
+          "#000000",
+          "#803ede",
+          "#f9f7f4"
+        ]
+      },
+      "buttons": [
+        {
+          "label": "🌙",
+          "bg": "#272624",
+          "color": "#f9f7f4",
+          "radius": "6px",
+          "height": 33,
+          "paddingX": 10,
+          "font": "Arial",
+          "size": 19,
+          "weight": "400"
+        },
+        {
+          "label": "↓ Download Allume",
+          "bg": "#272624",
+          "color": "#f9f7f4",
+          "radius": "6px",
+          "height": 35,
+          "paddingX": 10,
+          "font": "Marat Sans",
+          "size": 19,
+          "weight": "400"
+        }
+      ],
+      "contentWidth": 1500
     }
   },
   {
@@ -32437,8 +32160,14 @@
     "site": "Notion Sites",
     "url": "https://www.notion.com/product/sites",
     "type": "landing",
-    "tags": [],
-    "note": "",
+    "tags": [
+      "light",
+      "brand-illustration",
+      "numbered-steps",
+      "template-tabs",
+      "product-window"
+    ],
+    "note": "Notion's black-and-white hand-drawn character as the only image, three numbered steps (make, personalise, publish) on a hairline, then template tabs that swap the real published site in a window.",
     "captured": "2026-11-23",
     "screens": {
       "desktop": {
@@ -32668,6 +32397,57 @@
         }
       ],
       "contentWidth": 1399
+    }
+  },
+  {
+    "id": "observable-landing",
+    "site": "Observable",
+    "url": "https://observablehq.com",
+    "type": "landing",
+    "tags": [],
+    "note": "",
+    "captured": "2026-11-23",
+    "screens": {
+      "desktop": {
+        "file": "screens/observable-landing-desktop.jpg",
+        "width": 1440,
+        "height": 900
+      },
+      "mobile": {
+        "file": "screens/observable-landing-mobile.jpg",
+        "width": 390,
+        "height": 844
+      }
+    },
+    "tokens": {
+      "title": "Vercel Security Checkpoint",
+      "fonts": [
+        "ui-monospace",
+        "-apple-system"
+      ],
+      "type": {
+        "h1": null,
+        "h2": null,
+        "h3": null,
+        "body": {
+          "font": "-apple-system",
+          "size": 19,
+          "weight": "500",
+          "lineHeight": 1.67,
+          "letterSpacing": "normal",
+          "color": "rgba(0, 0, 0, 0.91)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [],
+        "text": [
+          "#666666",
+          "#000000"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": null
     }
   },
   {
@@ -33165,44 +32945,6 @@
         }
       ],
       "contentWidth": 650
-    }
-  },
-  {
-    "id": "openevidence-landing",
-    "site": "OpenEvidence",
-    "url": "https://www.openevidence.com",
-    "type": "landing",
-    "tags": [],
-    "note": "",
-    "captured": "2026-11-23",
-    "screens": {
-      "desktop": {
-        "file": "screens/openevidence-landing-desktop.jpg",
-        "width": 1440,
-        "height": 900
-      },
-      "mobile": {
-        "file": "screens/openevidence-landing-mobile.jpg",
-        "width": 390,
-        "height": 844
-      }
-    },
-    "tokens": {
-      "title": "openevidence.com",
-      "fonts": [],
-      "type": {
-        "h1": null,
-        "h2": null,
-        "h3": null,
-        "body": null
-      },
-      "colors": {
-        "background": "#ffffff",
-        "surfaces": [],
-        "text": []
-      },
-      "buttons": [],
-      "contentWidth": null
     }
   },
   {
@@ -33767,8 +33509,15 @@
     "site": "Parallel",
     "url": "https://parallel.ai",
     "type": "landing",
-    "tags": [],
-    "note": "",
+    "tags": [
+      "light",
+      "sky-photo",
+      "orange-accent",
+      "mono-labels",
+      "search-box-hero",
+      "ranking-proof"
+    ],
+    "note": "A soft blue sky photograph holds the search box; orange is the only accent; proof is a ranking ('#1 on the Artificial Analysis Search Index') in its own panel. Infrastructure that looks like open air.",
     "captured": "2026-11-23",
     "screens": {
       "desktop": {
@@ -34624,70 +34373,6 @@
     }
   },
   {
-    "id": "pi-landing",
-    "site": "Pi",
-    "url": "https://pi.ai",
-    "type": "landing",
-    "tags": [],
-    "note": "",
-    "captured": "2026-11-23",
-    "screens": {
-      "desktop": {
-        "file": "screens/pi-landing-desktop.jpg",
-        "width": 1440,
-        "height": 900
-      },
-      "mobile": {
-        "file": "screens/pi-landing-mobile.jpg",
-        "width": 390,
-        "height": 844
-      }
-    },
-    "tokens": {
-      "title": "Just a moment...",
-      "fonts": [
-        "system-ui"
-      ],
-      "type": {
-        "h1": {
-          "font": "system-ui",
-          "size": 40,
-          "weight": "600",
-          "lineHeight": 1.25,
-          "letterSpacing": "normal",
-          "color": "rgb(49, 49, 49)"
-        },
-        "h2": {
-          "font": "system-ui",
-          "size": 24,
-          "weight": "600",
-          "lineHeight": 1.25,
-          "letterSpacing": "normal",
-          "color": "rgb(49, 49, 49)"
-        },
-        "h3": null,
-        "body": {
-          "font": "system-ui",
-          "size": 16,
-          "weight": "400",
-          "lineHeight": 1.5,
-          "letterSpacing": "normal",
-          "color": "rgb(49, 49, 49)"
-        }
-      },
-      "colors": {
-        "background": "#ffffff",
-        "surfaces": [],
-        "text": [
-          "#313131",
-          "#0000ee"
-        ]
-      },
-      "buttons": [],
-      "contentWidth": 960
-    }
-  },
-  {
     "id": "pika-landing",
     "site": "Pika",
     "url": "https://pika.art",
@@ -34792,164 +34477,6 @@
         }
       ],
       "contentWidth": null
-    }
-  },
-  {
-    "id": "pilot-landing",
-    "site": "Pilot",
-    "url": "https://pilot.com",
-    "type": "landing",
-    "tags": [],
-    "note": "",
-    "captured": "2026-11-23",
-    "screens": {
-      "desktop": {
-        "file": "screens/pilot-landing-desktop.jpg",
-        "width": 1440,
-        "height": 3600
-      },
-      "mobile": {
-        "file": "screens/pilot-landing-mobile.jpg",
-        "width": 390,
-        "height": 2600
-      }
-    },
-    "tokens": {
-      "title": "Pilot: Bookkeeping & Accounting Services for Startups & Small Businesses",
-      "fonts": [
-        "Euclid Circular B",
-        "Spacemono"
-      ],
-      "type": {
-        "h1": {
-          "font": "Euclid Circular B",
-          "size": 56,
-          "weight": "600",
-          "lineHeight": 1.15,
-          "letterSpacing": "normal",
-          "color": "rgb(255, 255, 255)"
-        },
-        "h2": {
-          "font": "Euclid Circular B",
-          "size": 40,
-          "weight": "600",
-          "lineHeight": 1.05,
-          "letterSpacing": "normal",
-          "color": "rgb(40, 19, 80)"
-        },
-        "h3": null,
-        "body": {
-          "font": "Euclid Circular B",
-          "size": 20,
-          "weight": "400",
-          "lineHeight": 1.5,
-          "letterSpacing": "normal",
-          "color": "rgb(40, 19, 80)"
-        }
-      },
-      "colors": {
-        "background": "#ffffff",
-        "surfaces": [
-          "#e7f9ff",
-          "#281350",
-          "#f891ff",
-          "#ffd967"
-        ],
-        "text": [
-          "#281350",
-          "#ffffff",
-          "#f891ff"
-        ]
-      },
-      "buttons": [
-        {
-          "label": "GET STARTED",
-          "bg": "#ffd967",
-          "color": "#281350",
-          "radius": "100px",
-          "height": 48,
-          "paddingX": 24,
-          "font": "Spacemono",
-          "size": 18,
-          "weight": "400"
-        }
-      ],
-      "contentWidth": 1440
-    }
-  },
-  {
-    "id": "pipedream-landing",
-    "site": "Pipedream",
-    "url": "https://pipedream.com",
-    "type": "landing",
-    "tags": [],
-    "note": "",
-    "captured": "2026-11-23",
-    "screens": {
-      "desktop": {
-        "file": "screens/pipedream-landing-desktop.jpg",
-        "width": 1440,
-        "height": 3600
-      },
-      "mobile": {
-        "file": "screens/pipedream-landing-mobile.jpg",
-        "width": 390,
-        "height": 2600
-      }
-    },
-    "tokens": {
-      "title": "Pipedream — The integration layer for AI agents",
-      "fonts": [
-        "Inter Variable",
-        "JetBrains Mono Variable",
-        "Departure Mono"
-      ],
-      "type": {
-        "h1": {
-          "font": "Inter Variable",
-          "size": 72,
-          "weight": "510",
-          "lineHeight": 1,
-          "letterSpacing": "-2.16px",
-          "color": "oklch(0 0 0 / 0.82)"
-        },
-        "h2": {
-          "font": "Inter Variable",
-          "size": 44,
-          "weight": "510",
-          "lineHeight": 1,
-          "letterSpacing": "-1.1px",
-          "color": "oklch(0 0 0 / 0.82)"
-        },
-        "h3": {
-          "font": "Inter Variable",
-          "size": 18,
-          "weight": "590",
-          "lineHeight": 1.38,
-          "letterSpacing": "-0.216px",
-          "color": "oklch(0 0 0 / 0.82)"
-        },
-        "body": {
-          "font": "Inter Variable",
-          "size": 20,
-          "weight": "500",
-          "lineHeight": 1.4,
-          "letterSpacing": "-0.24px",
-          "color": "oklch(0 0 0 / 0.57)"
-        }
-      },
-      "colors": {
-        "background": "#ffffff",
-        "surfaces": [],
-        "text": [
-          "#032f62",
-          "#24292e",
-          "#6a737d",
-          "#6f42c1"
-        ]
-      },
-      "buttons": [],
-      "contentWidth": 1280
     }
   },
   {
@@ -35088,8 +34615,15 @@
     "site": "Plaid",
     "url": "https://plaid.com",
     "type": "landing",
-    "tags": [],
-    "note": "",
+    "tags": [
+      "light",
+      "engraving-portrait",
+      "blue-duotone",
+      "banknote-imagery",
+      "product-cards",
+      "gauge"
+    ],
+    "note": "The hero is Benjamin Franklin's engraved portrait from the $100 bill, recoloured in blue duotone with a green headline. Money's own imagery reused for a fintech brand; product cards below use a credit-score dial.",
     "captured": "2026-11-23",
     "screens": {
       "desktop": {
@@ -35366,6 +34900,82 @@
     }
   },
   {
+    "id": "plasmic-landing",
+    "site": "Plasmic",
+    "url": "https://www.plasmic.app",
+    "type": "landing",
+    "tags": [],
+    "note": "",
+    "captured": "2026-11-23",
+    "screens": {
+      "desktop": {
+        "file": "screens/plasmic-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/plasmic-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Plasmic | Build powerful apps fast— without the limits",
+      "fonts": [
+        "Inter"
+      ],
+      "type": {
+        "h1": {
+          "font": "Inter",
+          "size": 80,
+          "weight": "600",
+          "lineHeight": 1.1,
+          "letterSpacing": "-3px",
+          "color": "rgb(13, 13, 18)"
+        },
+        "h2": {
+          "font": "Inter",
+          "size": 72,
+          "weight": "600",
+          "lineHeight": 1.11,
+          "letterSpacing": "-2%",
+          "color": "rgb(13, 13, 18)"
+        },
+        "h3": {
+          "font": "Inter",
+          "size": 48,
+          "weight": "500",
+          "lineHeight": 1.17,
+          "letterSpacing": "-2%",
+          "color": "rgb(12, 12, 17)"
+        },
+        "body": {
+          "font": "Inter",
+          "size": 16,
+          "weight": "400",
+          "lineHeight": 1.5,
+          "letterSpacing": "-1%",
+          "color": "rgb(13, 13, 18)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#ffffff",
+          "#0d0d12"
+        ],
+        "text": [
+          "#0d0d12",
+          "#0c0c11",
+          "#ededec",
+          "#7f4afd"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": 1440
+    }
+  },
+  {
     "id": "plausible-landing",
     "site": "Plausible",
     "url": "https://plausible.io",
@@ -35555,6 +35165,128 @@
       },
       "buttons": [],
       "contentWidth": 1100
+    }
+  },
+  {
+    "id": "pocketbase-landing",
+    "site": "PocketBase",
+    "url": "https://pocketbase.io",
+    "type": "landing",
+    "tags": [],
+    "note": "",
+    "captured": "2026-11-23",
+    "screens": {
+      "desktop": {
+        "file": "screens/pocketbase-landing-desktop.jpg",
+        "width": 1440,
+        "height": 2295
+      },
+      "mobile": {
+        "file": "screens/pocketbase-landing-mobile.jpg",
+        "width": 390,
+        "height": 1915
+      }
+    },
+    "tokens": {
+      "title": "PocketBase - Open Source backend in 1 file",
+      "fonts": [
+        "Ubuntu Mono",
+        "Source Sans Pro"
+      ],
+      "type": {
+        "h1": null,
+        "h2": {
+          "font": "Source Sans Pro",
+          "size": 22,
+          "weight": "400",
+          "lineHeight": 1.27,
+          "letterSpacing": "normal",
+          "color": "rgb(37, 39, 45)"
+        },
+        "h3": null,
+        "body": {
+          "font": "Source Sans Pro",
+          "size": 15,
+          "weight": "400",
+          "lineHeight": 1.52,
+          "letterSpacing": "normal",
+          "color": "rgb(37, 39, 45)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#b8dbe5",
+          "#e8eaee",
+          "#25272d",
+          "#ffffff",
+          "#d9dde2"
+        ],
+        "text": [
+          "#25272d",
+          "#3c526d",
+          "#116b00",
+          "#7c00aa"
+        ]
+      },
+      "buttons": [
+        {
+          "label": "Documentation",
+          "bg": "#ffffff",
+          "color": "#25272d",
+          "radius": "4px",
+          "height": 40,
+          "paddingX": 12,
+          "font": "Source Sans Pro",
+          "size": 15,
+          "weight": "600"
+        },
+        {
+          "label": "Live demo",
+          "bg": "#ffffff",
+          "color": "#ffffff",
+          "radius": "4px",
+          "height": 54,
+          "paddingX": 30,
+          "font": "Source Sans Pro",
+          "size": 15,
+          "weight": "600"
+        },
+        {
+          "label": "Read the documentation",
+          "bg": "#ffffff",
+          "color": "#25272d",
+          "radius": "4px",
+          "height": 54,
+          "paddingX": 30,
+          "font": "Source Sans Pro",
+          "size": 15,
+          "weight": "600"
+        },
+        {
+          "label": "JavaScript",
+          "bg": "#ffffff",
+          "color": "#ffffff",
+          "radius": "4px 0px 0px 4px",
+          "height": 30,
+          "paddingX": 12,
+          "font": "Source Sans Pro",
+          "size": 13,
+          "weight": "600"
+        },
+        {
+          "label": "Dart",
+          "bg": "#ffffff",
+          "color": "#25272d",
+          "radius": "0px 4px 4px 0px",
+          "height": 30,
+          "paddingX": 12,
+          "font": "Source Sans Pro",
+          "size": 13,
+          "weight": "600"
+        }
+      ],
+      "contentWidth": 1296
     }
   },
   {
@@ -35840,6 +35572,151 @@
         ]
       },
       "buttons": [],
+      "contentWidth": 1440
+    }
+  },
+  {
+    "id": "porter-landing",
+    "site": "Porter",
+    "url": "https://www.porter.run",
+    "type": "landing",
+    "tags": [],
+    "note": "",
+    "captured": "2026-11-23",
+    "screens": {
+      "desktop": {
+        "file": "screens/porter-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/porter-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Porter | Platform as a Service, Reimagined.",
+      "fonts": [
+        "Riforma LL",
+        "Riforma Mono LL"
+      ],
+      "type": {
+        "h1": {
+          "font": "Riforma LL",
+          "size": 56,
+          "weight": "500",
+          "lineHeight": 0.96,
+          "letterSpacing": "-0.56px",
+          "color": "rgb(0, 0, 0)"
+        },
+        "h2": {
+          "font": "Riforma LL",
+          "size": 18,
+          "weight": "500",
+          "lineHeight": 1.02,
+          "letterSpacing": "-0.18px",
+          "color": "rgb(0, 0, 0)"
+        },
+        "h3": {
+          "font": "Riforma LL",
+          "size": 18,
+          "weight": "500",
+          "lineHeight": 1.16,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        },
+        "body": {
+          "font": "Riforma LL",
+          "size": 56,
+          "weight": "500",
+          "lineHeight": 1,
+          "letterSpacing": "-0.56px",
+          "color": "rgb(0, 0, 0)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#cdeaff",
+          "#fffbe1",
+          "#ffea4b",
+          "#000000",
+          "#d9d9d9"
+        ],
+        "text": [
+          "#000000",
+          "#ffffff"
+        ]
+      },
+      "buttons": [
+        {
+          "label": "Deploy Now",
+          "bg": "#000000",
+          "color": "#ffffff",
+          "radius": "0px",
+          "height": 42,
+          "paddingX": 12,
+          "font": "Riforma Mono LL",
+          "size": 16,
+          "weight": "400"
+        },
+        {
+          "label": "Series B: $60M",
+          "bg": "#fffbe1",
+          "color": "#000000",
+          "radius": "0px",
+          "height": 58,
+          "paddingX": 0,
+          "font": "Riforma LL",
+          "size": 16,
+          "weight": "400"
+        },
+        {
+          "label": "Series B: $181M",
+          "bg": "#fffbe1",
+          "color": "#000000",
+          "radius": "0px",
+          "height": 58,
+          "paddingX": 0,
+          "font": "Riforma LL",
+          "size": 16,
+          "weight": "400"
+        },
+        {
+          "label": "Series A: $72M",
+          "bg": "#fffbe1",
+          "color": "#000000",
+          "radius": "0px",
+          "height": 58,
+          "paddingX": 0,
+          "font": "Riforma LL",
+          "size": 16,
+          "weight": "400"
+        },
+        {
+          "label": "Series B: $70M",
+          "bg": "#fffbe1",
+          "color": "#000000",
+          "radius": "0px",
+          "height": 58,
+          "paddingX": 0,
+          "font": "Riforma LL",
+          "size": 16,
+          "weight": "400"
+        },
+        {
+          "label": "Series A: $88M",
+          "bg": "#fffbe1",
+          "color": "#000000",
+          "radius": "0px",
+          "height": 58,
+          "paddingX": 0,
+          "font": "Riforma LL",
+          "size": 16,
+          "weight": "400"
+        }
+      ],
       "contentWidth": 1440
     }
   },
@@ -36382,8 +36259,14 @@
     "site": "Public",
     "url": "https://public.com",
     "type": "landing",
-    "tags": [],
-    "note": "",
+    "tags": [
+      "light",
+      "serif-display",
+      "device-photo",
+      "product-list-as-type",
+      "inline-badges"
+    ],
+    "note": "The product range is set as one centred paragraph of large serif words separated by dots (Stocks · Bonds · Treasuries · Options ...), with small rate badges inline. A financial supermarket made to read like a menu.",
     "captured": "2026-11-23",
     "screens": {
       "desktop": {
@@ -36488,143 +36371,6 @@
         }
       ],
       "contentWidth": 1552
-    }
-  },
-  {
-    "id": "puzzle-landing",
-    "site": "Puzzle",
-    "url": "https://puzzle.io",
-    "type": "landing",
-    "tags": [],
-    "note": "",
-    "captured": "2026-11-23",
-    "screens": {
-      "desktop": {
-        "file": "screens/puzzle-landing-desktop.jpg",
-        "width": 1440,
-        "height": 3600
-      },
-      "mobile": {
-        "file": "screens/puzzle-landing-mobile.jpg",
-        "width": 390,
-        "height": 2600
-      }
-    },
-    "tokens": {
-      "title": "Puzzle: AI Accounting Software & Accounting Services",
-      "fonts": [
-        "Haskoy",
-        "Generalsans Webfont",
-        "JetBrainsMono"
-      ],
-      "type": {
-        "h1": {
-          "font": "JetBrainsMono",
-          "size": 13,
-          "weight": "400",
-          "lineHeight": 1.4,
-          "letterSpacing": "normal",
-          "color": "rgb(10, 11, 11)"
-        },
-        "h2": {
-          "font": "Generalsans Webfont",
-          "size": 39,
-          "weight": "500",
-          "lineHeight": 1.2,
-          "letterSpacing": "normal",
-          "color": "rgb(10, 11, 11)"
-        },
-        "h3": {
-          "font": "Generalsans Webfont",
-          "size": 13,
-          "weight": "500",
-          "lineHeight": 1.3,
-          "letterSpacing": "0.3px",
-          "color": "rgb(10, 11, 11)"
-        },
-        "body": {
-          "font": "Haskoy",
-          "size": 18,
-          "weight": "400",
-          "lineHeight": 1.5,
-          "letterSpacing": "normal",
-          "color": "rgb(10, 11, 11)"
-        }
-      },
-      "colors": {
-        "background": "#ffffff",
-        "surfaces": [
-          "#311164",
-          "#f3f4f1",
-          "#ffffff",
-          "#f5f5f1",
-          "#e6def8"
-        ],
-        "text": [
-          "#0a0b0b",
-          "#ffffff",
-          "#000211",
-          "#222222"
-        ]
-      },
-      "buttons": [
-        {
-          "label": "Book a demo",
-          "bg": "#0a0b0b",
-          "color": "#ffffff",
-          "radius": "8px",
-          "height": 36,
-          "paddingX": 30,
-          "font": "Haskoy",
-          "size": 14,
-          "weight": "500"
-        },
-        {
-          "label": "Try for free",
-          "bg": "#ceb4fa",
-          "color": "#0a0b0b",
-          "radius": "8px",
-          "height": 36,
-          "paddingX": 30,
-          "font": "Haskoy",
-          "size": 14,
-          "weight": "500"
-        },
-        {
-          "label": "Book a demo",
-          "bg": "#0a0b0b",
-          "color": "#ffffff",
-          "radius": "8px",
-          "height": 49,
-          "paddingX": 30,
-          "font": "Haskoy",
-          "size": 18,
-          "weight": "500"
-        },
-        {
-          "label": "Try for free",
-          "bg": "#0a0b0b",
-          "color": "#ffffff",
-          "radius": "9.36px",
-          "height": 56,
-          "paddingX": 31,
-          "font": "Haskoy",
-          "size": 19,
-          "weight": "500"
-        },
-        {
-          "label": "Explore services",
-          "bg": "#ffffff",
-          "color": "#0a0b0b",
-          "radius": "9.36px",
-          "height": 56,
-          "paddingX": 31,
-          "font": "Haskoy",
-          "size": 19,
-          "weight": "500"
-        }
-      ],
-      "contentWidth": 1440
     }
   },
   {
@@ -37818,8 +37564,15 @@
     "site": "Recraft",
     "url": "https://www.recraft.ai",
     "type": "landing",
-    "tags": [],
-    "note": "",
+    "tags": [
+      "dark",
+      "fashion-photography",
+      "heavy-italic-caps",
+      "lime-cta",
+      "model-showcase",
+      "carousel"
+    ],
+    "note": "The model's own output as fashion editorial photography (a platinum-haired portrait, a group in ski gear), with heavy italic caps headlines over them and a lime button. Image quality proven by images, not claims.",
     "captured": "2026-11-23",
     "screens": {
       "desktop": {
@@ -38725,8 +38478,15 @@
     "site": "Restate",
     "url": "https://restate.dev",
     "type": "landing",
-    "tags": [],
-    "note": "",
+    "tags": [
+      "light",
+      "playable-game-hero",
+      "pixel-art",
+      "blue-sky",
+      "platformer",
+      "technical-below"
+    ],
+    "note": "Under a blue headline, the hero is a small pixel-art platformer ('Press space to start'): trees, stars, a running character. A durable-execution runtime with a toy that makes you smile, then sober diagrams below.",
     "captured": "2026-11-23",
     "screens": {
       "desktop": {
@@ -38963,57 +38723,6 @@
     }
   },
   {
-    "id": "rho-landing",
-    "site": "Rho",
-    "url": "https://www.rho.co",
-    "type": "landing",
-    "tags": [],
-    "note": "",
-    "captured": "2026-11-23",
-    "screens": {
-      "desktop": {
-        "file": "screens/rho-landing-desktop.jpg",
-        "width": 1440,
-        "height": 900
-      },
-      "mobile": {
-        "file": "screens/rho-landing-mobile.jpg",
-        "width": 390,
-        "height": 844
-      }
-    },
-    "tokens": {
-      "title": "Vercel Security Checkpoint",
-      "fonts": [
-        "ui-monospace",
-        "-apple-system"
-      ],
-      "type": {
-        "h1": null,
-        "h2": null,
-        "h3": null,
-        "body": {
-          "font": "-apple-system",
-          "size": 19,
-          "weight": "500",
-          "lineHeight": 1.67,
-          "letterSpacing": "normal",
-          "color": "rgba(0, 0, 0, 0.91)"
-        }
-      },
-      "colors": {
-        "background": "#ffffff",
-        "surfaces": [],
-        "text": [
-          "#666666",
-          "#000000"
-        ]
-      },
-      "buttons": [],
-      "contentWidth": null
-    }
-  },
-  {
     "id": "rive-landing",
     "site": "Rive",
     "url": "https://rive.app",
@@ -39127,8 +38836,14 @@
     "site": "Rogo",
     "url": "https://rogo.ai",
     "type": "landing",
-    "tags": [],
-    "note": "",
+    "tags": [
+      "dark-green",
+      "textured-field",
+      "giant-serif",
+      "institutional-logos",
+      "restraint"
+    ],
+    "note": "A deep green textured field with a giant serif 'Built for Finance' and a tiny button. Proof is a grid of grey bank logos. Finance-grade restraint: one colour, one face, nothing playful.",
     "captured": "2026-11-23",
     "screens": {
       "desktop": {
@@ -41448,8 +41163,15 @@
     "site": "Stripe Sessions",
     "url": "https://stripe.com/sessions",
     "type": "landing",
-    "tags": [],
-    "note": "",
+    "tags": [
+      "light",
+      "event-page",
+      "3d-ribbon",
+      "serif-free-display",
+      "date-and-place",
+      "why-attend-list"
+    ],
+    "note": "Conference page: a big plain headline with date and venue set small beside it, then one swirling 3D ribbon in Stripe's colours as the key visual, and 'Why attend' as a numbered list of reasons with a recap video.",
     "captured": "2026-11-23",
     "screens": {
       "desktop": {
@@ -41536,8 +41258,14 @@
     "site": "Stytch",
     "url": "https://stytch.com",
     "type": "landing",
-    "tags": [],
-    "note": "",
+    "tags": [
+      "light",
+      "bordered-tile-grid",
+      "tiny-ui-drawings",
+      "mono-buttons",
+      "yellow-tag"
+    ],
+    "note": "Under a heavy headline, every feature is a bordered tile with a small, precise UI drawing (an admin table, a code block, a passkey prompt). The grid of honest little screens is the whole argument.",
     "captured": "2026-11-23",
     "screens": {
       "desktop": {
@@ -41630,6 +41358,87 @@
         }
       ],
       "contentWidth": 1200
+    }
+  },
+  {
+    "id": "subframe-landing",
+    "site": "Subframe",
+    "url": "https://www.subframe.com",
+    "type": "landing",
+    "tags": [],
+    "note": "",
+    "captured": "2026-11-23",
+    "screens": {
+      "desktop": {
+        "file": "screens/subframe-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/subframe-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Subframe — design & build in one tool",
+      "fonts": [
+        "Inter",
+        "PP Neue Montreal 3",
+        "Fragment Mono"
+      ],
+      "type": {
+        "h1": {
+          "font": "PP Neue Montreal 3",
+          "size": 96,
+          "weight": "500",
+          "lineHeight": 0.92,
+          "letterSpacing": "-3.36px",
+          "color": "rgba(0, 0, 0, 0.96)"
+        },
+        "h2": {
+          "font": "PP Neue Montreal 3",
+          "size": 88,
+          "weight": "500",
+          "lineHeight": 1,
+          "letterSpacing": "-3.08px",
+          "color": "oklab(0 0 0 / 0.192157)"
+        },
+        "h3": {
+          "font": "PP Neue Montreal 3",
+          "size": 64,
+          "weight": "500",
+          "lineHeight": 1,
+          "letterSpacing": "-2.24px",
+          "color": "rgba(0, 0, 0, 0.96)"
+        },
+        "body": {
+          "font": "Inter",
+          "size": 13,
+          "weight": "500",
+          "lineHeight": 1.54,
+          "letterSpacing": "-0.13px",
+          "color": "oklab(0 0 0 / 0.85)"
+        }
+      },
+      "colors": {
+        "background": "#f9f9f9",
+        "surfaces": [
+          "#f0f0f0",
+          "#f8f8f8",
+          "#cbc6bc",
+          "#d9d8d3",
+          "#ffffff"
+        ],
+        "text": [
+          "#2b2b2f",
+          "#6f7278",
+          "#000000",
+          "#a3a3a3"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": 1280
     }
   },
   {
@@ -41941,6 +41750,153 @@
     }
   },
   {
+    "id": "super-landing",
+    "site": "Super",
+    "url": "https://super.so",
+    "type": "landing",
+    "tags": [],
+    "note": "",
+    "captured": "2026-11-23",
+    "screens": {
+      "desktop": {
+        "file": "screens/super-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/super-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Super — Create Custom Websites with Notion",
+      "fonts": [
+        "Beausite",
+        "Inter"
+      ],
+      "type": {
+        "h1": {
+          "font": "Beausite",
+          "size": 56,
+          "weight": "600",
+          "lineHeight": 1.12,
+          "letterSpacing": "-2.5px",
+          "color": "rgb(38, 42, 46)"
+        },
+        "h2": {
+          "font": "Beausite",
+          "size": 38,
+          "weight": "600",
+          "lineHeight": 1.1,
+          "letterSpacing": "-1px",
+          "color": "rgb(38, 42, 46)"
+        },
+        "h3": {
+          "font": "Beausite",
+          "size": 26,
+          "weight": "600",
+          "lineHeight": 1.2,
+          "letterSpacing": "-0.8px",
+          "color": "rgb(255, 255, 255)"
+        },
+        "body": {
+          "font": "Beausite",
+          "size": 17,
+          "weight": "700",
+          "lineHeight": 1.4,
+          "letterSpacing": "normal",
+          "color": "rgb(17, 17, 17)"
+        }
+      },
+      "colors": {
+        "background": "#fdfdfc",
+        "surfaces": [
+          "#ffffff",
+          "#ffbe3c",
+          "#f2f2f0",
+          "#fffaf0",
+          "#111111"
+        ],
+        "text": [
+          "#66707a",
+          "#222222",
+          "#111111",
+          "#262a2e"
+        ]
+      },
+      "buttons": [
+        {
+          "label": "Sign in",
+          "bg": "#ffffff",
+          "color": "#4d545c",
+          "radius": "8px",
+          "height": 44,
+          "paddingX": 16,
+          "font": "Beausite",
+          "size": 16,
+          "weight": "500"
+        },
+        {
+          "label": "Get started for free",
+          "bg": "#ffbe3c",
+          "color": "#111111",
+          "radius": "8px",
+          "height": 53,
+          "paddingX": 16,
+          "font": "Beausite",
+          "size": 16,
+          "weight": "500"
+        },
+        {
+          "label": "Website",
+          "bg": "#ffffff",
+          "color": "#222222",
+          "radius": "999px",
+          "height": 35,
+          "paddingX": 13,
+          "font": "Beausite",
+          "size": 14,
+          "weight": "500"
+        },
+        {
+          "label": "Landing page",
+          "bg": "#262a2e",
+          "color": "#ffffff",
+          "radius": "999px",
+          "height": 35,
+          "paddingX": 13,
+          "font": "Beausite",
+          "size": 14,
+          "weight": "500"
+        },
+        {
+          "label": "Startup site",
+          "bg": "#ffffff",
+          "color": "#222222",
+          "radius": "999px",
+          "height": 35,
+          "paddingX": 13,
+          "font": "Beausite",
+          "size": 14,
+          "weight": "500"
+        },
+        {
+          "label": "Agency site",
+          "bg": "#ffffff",
+          "color": "#222222",
+          "radius": "999px",
+          "height": 35,
+          "paddingX": 13,
+          "font": "Beausite",
+          "size": 14,
+          "weight": "500"
+        }
+      ],
+      "contentWidth": 1416
+    }
+  },
+  {
     "id": "supergiant-games-landing",
     "site": "Supergiant Games",
     "url": "https://www.supergiantgames.com",
@@ -42172,6 +42128,83 @@
         }
       ],
       "contentWidth": 900
+    }
+  },
+  {
+    "id": "superlist-landing",
+    "site": "Superlist",
+    "url": "https://www.superlist.com",
+    "type": "landing",
+    "tags": [],
+    "note": "",
+    "captured": "2026-11-23",
+    "screens": {
+      "desktop": {
+        "file": "screens/superlist-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/superlist-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Superlist — A little less on your mind",
+      "fonts": [
+        "Inter",
+        "sans-serif",
+        "Haffer XH SemiBold"
+      ],
+      "type": {
+        "h1": {
+          "font": "Haffer XH Bold",
+          "size": 68,
+          "weight": "700",
+          "lineHeight": 1.02,
+          "letterSpacing": "-3px",
+          "color": "rgb(24, 24, 37)"
+        },
+        "h2": {
+          "font": "Haffer XH SemiBold",
+          "size": 48,
+          "weight": "600",
+          "lineHeight": 1.08,
+          "letterSpacing": "-1px",
+          "color": "rgb(24, 24, 37)"
+        },
+        "h3": {
+          "font": "Haffer XH SemiBold",
+          "size": 32,
+          "weight": "600",
+          "lineHeight": 1.15,
+          "letterSpacing": "normal",
+          "color": "rgb(24, 24, 37)"
+        },
+        "body": {
+          "font": "Haffer XH SemiBold",
+          "size": 16,
+          "weight": "600",
+          "lineHeight": 1.2,
+          "letterSpacing": "normal",
+          "color": "rgb(24, 24, 36)"
+        }
+      },
+      "colors": {
+        "background": "#fffdf9",
+        "surfaces": [
+          "#fffdf9"
+        ],
+        "text": [
+          "#59575c",
+          "#181825",
+          "#181824",
+          "#ffffff"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": 1400
     }
   },
   {
@@ -42798,96 +42831,6 @@
         }
       ],
       "contentWidth": 1408
-    }
-  },
-  {
-    "id": "tauri-landing",
-    "site": "Tauri",
-    "url": "https://tauri.app",
-    "type": "landing",
-    "tags": [],
-    "note": "",
-    "captured": "2026-11-23",
-    "screens": {
-      "desktop": {
-        "file": "screens/tauri-landing-desktop.jpg",
-        "width": 1440,
-        "height": 3600
-      },
-      "mobile": {
-        "file": "screens/tauri-landing-mobile.jpg",
-        "width": 390,
-        "height": 2600
-      }
-    },
-    "tokens": {
-      "title": "Tauri 2.0 | Tauri",
-      "fonts": [
-        "-apple-system",
-        "ui-monospace",
-        "Arial"
-      ],
-      "type": {
-        "h1": null,
-        "h2": null,
-        "h3": {
-          "font": "-apple-system",
-          "size": 32,
-          "weight": "600",
-          "lineHeight": 1.75,
-          "letterSpacing": "normal",
-          "color": "rgb(35, 38, 47)"
-        },
-        "body": {
-          "font": "-apple-system",
-          "size": 19,
-          "weight": "600",
-          "lineHeight": 1.75,
-          "letterSpacing": "normal",
-          "color": "rgb(35, 38, 47)"
-        }
-      },
-      "colors": {
-        "background": "#ffffff",
-        "surfaces": [
-          "#ffffff",
-          "#f6f7f9",
-          "#f7ecd4",
-          "#23262f",
-          "#f6e8fc"
-        ],
-        "text": [
-          "#23262f",
-          "#17181c",
-          "#555962",
-          "#3b61b0"
-        ]
-      },
-      "buttons": [
-        {
-          "label": "Search\nCtrl\nK",
-          "bg": "#ffffff",
-          "color": "#23262f",
-          "radius": "8px",
-          "height": 40,
-          "paddingX": 12,
-          "font": "-apple-system",
-          "size": 14,
-          "weight": "400"
-        },
-        {
-          "label": "",
-          "bg": "#f6f7f9",
-          "color": "#000000",
-          "radius": "3.2px",
-          "height": 32,
-          "paddingX": 0,
-          "font": "Arial",
-          "size": 13,
-          "weight": "400"
-        }
-      ],
-      "contentWidth": 1080
     }
   },
   {
@@ -43703,6 +43646,110 @@
     }
   },
   {
+    "id": "tigris-landing",
+    "site": "Tigris",
+    "url": "https://www.tigrisdata.com",
+    "type": "landing",
+    "tags": [],
+    "note": "",
+    "captured": "2026-11-23",
+    "screens": {
+      "desktop": {
+        "file": "screens/tigris-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/tigris-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Tigris - Storage for Any Cloud",
+      "fonts": [
+        "Geist Mono",
+        "Geist",
+        "ui-monospace"
+      ],
+      "type": {
+        "h1": {
+          "font": "Geist",
+          "size": 52,
+          "weight": "800",
+          "lineHeight": 0.95,
+          "letterSpacing": "-1.3px",
+          "color": "rgb(255, 255, 255)"
+        },
+        "h2": {
+          "font": "Geist",
+          "size": 40,
+          "weight": "500",
+          "lineHeight": 1.15,
+          "letterSpacing": "-0.88px",
+          "color": "rgb(255, 255, 255)"
+        },
+        "h3": {
+          "font": "Geist",
+          "size": 19,
+          "weight": "500",
+          "lineHeight": 1.5,
+          "letterSpacing": "normal",
+          "color": "rgb(255, 255, 255)"
+        },
+        "body": {
+          "font": "Geist",
+          "size": 14,
+          "weight": "500",
+          "lineHeight": 1.43,
+          "letterSpacing": "normal",
+          "color": "rgb(16, 32, 29)"
+        }
+      },
+      "colors": {
+        "background": "#0a171e",
+        "surfaces": [
+          "#0e1920",
+          "#0a171e",
+          "#74e0b8",
+          "#1b2b32",
+          "#57d3a4"
+        ],
+        "text": [
+          "#ffffff",
+          "#e2e8eb",
+          "#7b8c94",
+          "#57d3a4"
+        ]
+      },
+      "buttons": [
+        {
+          "label": "Get started",
+          "bg": "#57d3a4",
+          "color": "#10201d",
+          "radius": "3px",
+          "height": 44,
+          "paddingX": 17,
+          "font": "Geist",
+          "size": 14,
+          "weight": "500"
+        },
+        {
+          "label": "Get started",
+          "bg": "#57d3a4",
+          "color": "#10201d",
+          "radius": "3px",
+          "height": 44,
+          "paddingX": 17,
+          "font": "Geist",
+          "size": 14,
+          "weight": "500"
+        }
+      ],
+      "contentWidth": 1440
+    }
+  },
+  {
     "id": "tinybird-landing",
     "site": "Tinybird",
     "url": "https://www.tinybird.co",
@@ -44074,8 +44121,14 @@
     "site": "Turborepo",
     "url": "https://turborepo.com",
     "type": "landing",
-    "tags": [],
-    "note": "",
+    "tags": [
+      "light",
+      "gauge-graphic",
+      "big-numbers",
+      "stats-row",
+      "for-humans-for-agents"
+    ],
+    "note": "A big speedometer gauge in red-to-blue as the only illustration, and four huge numbers (25,095,815 compute hours saved, 48.3M weekly downloads...) as the proof, the first in red and counting.",
     "captured": "2026-11-23",
     "screens": {
       "desktop": {
@@ -44493,8 +44546,14 @@
     "site": "Udio",
     "url": "https://www.udio.com",
     "type": "landing",
-    "tags": [],
-    "note": "",
+    "tags": [
+      "dark",
+      "album-art-carousel",
+      "pink-waveform",
+      "prompt-hero",
+      "track-list"
+    ],
+    "note": "A pink waveform under 'Make your music', then a carousel of generated album covers and a track list with play buttons. The product's output (songs and their art) is the page.",
     "captured": "2026-11-23",
     "screens": {
       "desktop": {
@@ -44617,8 +44676,15 @@
     "site": "Unify",
     "url": "https://www.unifygtm.com",
     "type": "landing",
-    "tags": [],
-    "note": "",
+    "tags": [
+      "light",
+      "red-serif-display",
+      "motion-blur-crowd",
+      "prompt-box-in-photo",
+      "running-counter",
+      "highlighted-phrases"
+    ],
+    "note": "Big red serif headline over a motion-blurred crowd photo with a prompt box set into it. Proof is a running counter in the same serif ('$1,105,931,739 of pipeline and counting'). Phrases in the body are coloured red as highlights.",
     "captured": "2026-11-23",
     "screens": {
       "desktop": {
@@ -44980,8 +45046,15 @@
     "site": "Val Town",
     "url": "https://www.val.town",
     "type": "landing",
-    "tags": [],
-    "note": "",
+    "tags": [
+      "light",
+      "hand-drawn-illustration",
+      "street-scene",
+      "closed-sign",
+      "product-window",
+      "quotes"
+    ],
+    "note": "A hand-drawn street of little shops with a 'Sorry, we're closed' sign: the product's shutdown notice told as an illustration, then the real editor and customer quotes. A tender way to announce an ending.",
     "captured": "2026-11-23",
     "screens": {
       "desktop": {
@@ -45629,8 +45702,15 @@
     "site": "Vercel Ship",
     "url": "https://vercel.com/ship",
     "type": "landing",
-    "tags": [],
-    "note": "",
+    "tags": [
+      "dark",
+      "event-page",
+      "speaker-video",
+      "session-list",
+      "mono-type",
+      "event-cards"
+    ],
+    "note": "A conference page as a broadcast: a big speaker portrait video with name and title in mono, the session highlights as a selectable list beside it, then upcoming events as bordered cells with city and date.",
     "captured": "2026-11-23",
     "screens": {
       "desktop": {
@@ -45693,110 +45773,6 @@
       },
       "buttons": [],
       "contentWidth": null
-    }
-  },
-  {
-    "id": "vite-landing",
-    "site": "Vite",
-    "url": "https://vite.dev",
-    "type": "landing",
-    "tags": [],
-    "note": "",
-    "captured": "2026-11-23",
-    "screens": {
-      "desktop": {
-        "file": "screens/vite-landing-desktop.jpg",
-        "width": 1440,
-        "height": 3600
-      },
-      "mobile": {
-        "file": "screens/vite-landing-mobile.jpg",
-        "width": 390,
-        "height": 2600
-      }
-    },
-    "tokens": {
-      "title": "Vite | Next Generation Frontend Tooling",
-      "fonts": [
-        "Inter",
-        "KH Teka Mono",
-        "APK Protocol"
-      ],
-      "type": {
-        "h1": {
-          "font": "APK Protocol",
-          "size": 60,
-          "weight": "500",
-          "lineHeight": 1.12,
-          "letterSpacing": "-3px",
-          "color": "rgb(255, 255, 255)"
-        },
-        "h2": {
-          "font": "APK Protocol",
-          "size": 48,
-          "weight": "500",
-          "lineHeight": 1,
-          "letterSpacing": "-1.2px",
-          "color": "rgb(255, 255, 255)"
-        },
-        "h3": {
-          "font": "APK Protocol",
-          "size": 40,
-          "weight": "500",
-          "lineHeight": 1.33,
-          "letterSpacing": "-1px",
-          "color": "rgb(255, 255, 255)"
-        },
-        "body": {
-          "font": "Inter",
-          "size": 18,
-          "weight": "400",
-          "lineHeight": 1.56,
-          "letterSpacing": "normal",
-          "color": "oklab(0.999994 0.0000455677 0.0000200868 / 0.7)"
-        }
-      },
-      "colors": {
-        "background": "#16171d",
-        "surfaces": [
-          "#16171d",
-          "#370a7f",
-          "#14121a",
-          "#ffffff",
-          "#98989f"
-        ],
-        "text": [
-          "#ffffff",
-          "#867e8e",
-          "#98989f",
-          "#b39aff"
-        ]
-      },
-      "buttons": [
-        {
-          "label": "Search\nCtrl\nK",
-          "bg": "#14121a",
-          "color": "#98989f",
-          "radius": "8px",
-          "height": 38,
-          "paddingX": 12,
-          "font": "Inter",
-          "size": 14,
-          "weight": "400"
-        },
-        {
-          "label": "",
-          "bg": "#14121a",
-          "color": "#ffffff",
-          "radius": "4px",
-          "height": 40,
-          "paddingX": 0,
-          "font": "Inter",
-          "size": 16,
-          "weight": "400"
-        }
-      ],
-      "contentWidth": 1440
     }
   },
   {
@@ -46078,108 +46054,6 @@
     }
   },
   {
-    "id": "wealthfront-landing",
-    "site": "Wealthfront",
-    "url": "https://www.wealthfront.com",
-    "type": "landing",
-    "tags": [],
-    "note": "",
-    "captured": "2026-11-23",
-    "screens": {
-      "desktop": {
-        "file": "screens/wealthfront-landing-desktop.jpg",
-        "width": 1440,
-        "height": 3600
-      },
-      "mobile": {
-        "file": "screens/wealthfront-landing-mobile.jpg",
-        "width": 390,
-        "height": 2600
-      }
-    },
-    "tokens": {
-      "title": "Money works better here | Wealthfront",
-      "fonts": [
-        "Calibre",
-        "GT Alpina"
-      ],
-      "type": {
-        "h1": {
-          "font": "Calibre",
-          "size": 62,
-          "weight": "700",
-          "lineHeight": 0.9,
-          "letterSpacing": "-1.86px",
-          "color": "rgb(240, 240, 242)"
-        },
-        "h2": {
-          "font": "GT Alpina",
-          "size": 59,
-          "weight": "200",
-          "lineHeight": 1.2,
-          "letterSpacing": "-2.95px",
-          "color": "rgb(240, 240, 242)"
-        },
-        "h3": {
-          "font": "Calibre",
-          "size": 20,
-          "weight": "600",
-          "lineHeight": 0.9,
-          "letterSpacing": "-0.6px",
-          "color": "rgb(255, 255, 255)"
-        },
-        "body": {
-          "font": "Calibre",
-          "size": 24,
-          "weight": "700",
-          "lineHeight": 1.5,
-          "letterSpacing": "-0.48px",
-          "color": "rgb(35, 11, 89)"
-        }
-      },
-      "colors": {
-        "background": "#ffffff",
-        "surfaces": [
-          "#f8f7fc",
-          "#ffffff",
-          "#e5e2ff",
-          "#4840bb"
-        ],
-        "text": [
-          "#f0f0f2",
-          "#18172b",
-          "#4840bb",
-          "#230b59"
-        ]
-      },
-      "buttons": [
-        {
-          "label": "Get started",
-          "bg": "#ffffff",
-          "color": "#230b59",
-          "radius": "6px",
-          "height": 46,
-          "paddingX": 20,
-          "font": "Calibre",
-          "size": 18,
-          "weight": "500"
-        },
-        {
-          "label": "Get started",
-          "bg": "#4840bb",
-          "color": "#ffffff",
-          "radius": "6px",
-          "height": 46,
-          "paddingX": 20,
-          "font": "Calibre",
-          "size": 18,
-          "weight": "500"
-        }
-      ],
-      "contentWidth": 1400
-    }
-  },
-  {
     "id": "webflow-landing",
     "site": "Webflow",
     "url": "https://webflow.com",
@@ -46294,6 +46168,70 @@
         }
       ],
       "contentWidth": 1440
+    }
+  },
+  {
+    "id": "webstudio-landing",
+    "site": "Webstudio",
+    "url": "https://webstudio.is",
+    "type": "landing",
+    "tags": [],
+    "note": "",
+    "captured": "2026-11-23",
+    "screens": {
+      "desktop": {
+        "file": "screens/webstudio-landing-desktop.jpg",
+        "width": 1440,
+        "height": 900
+      },
+      "mobile": {
+        "file": "screens/webstudio-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Just a moment...",
+      "fonts": [
+        "system-ui"
+      ],
+      "type": {
+        "h1": {
+          "font": "system-ui",
+          "size": 40,
+          "weight": "600",
+          "lineHeight": 1.25,
+          "letterSpacing": "normal",
+          "color": "rgb(49, 49, 49)"
+        },
+        "h2": {
+          "font": "system-ui",
+          "size": 24,
+          "weight": "600",
+          "lineHeight": 1.25,
+          "letterSpacing": "normal",
+          "color": "rgb(49, 49, 49)"
+        },
+        "h3": null,
+        "body": {
+          "font": "system-ui",
+          "size": 16,
+          "weight": "400",
+          "lineHeight": 1.5,
+          "letterSpacing": "normal",
+          "color": "rgb(49, 49, 49)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [],
+        "text": [
+          "#313131",
+          "#0000ee"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": 960
     }
   },
   {
@@ -46698,154 +46636,6 @@
     }
   },
   {
-    "id": "windmill-landing",
-    "site": "Windmill",
-    "url": "https://www.windmill.dev",
-    "type": "landing",
-    "tags": [],
-    "note": "",
-    "captured": "2026-11-23",
-    "screens": {
-      "desktop": {
-        "file": "screens/windmill-landing-desktop.jpg",
-        "width": 1440,
-        "height": 3600
-      },
-      "mobile": {
-        "file": "screens/windmill-landing-mobile.jpg",
-        "width": 390,
-        "height": 2600
-      }
-    },
-    "tokens": {
-      "title": "Windmill | Code-first platform for workflows, apps and AI agents",
-      "fonts": [
-        "ui-sans-serif",
-        "ui-monospace",
-        "Inter"
-      ],
-      "type": {
-        "h1": {
-          "font": "Inter",
-          "size": 60,
-          "weight": "600",
-          "lineHeight": 1,
-          "letterSpacing": "-1.5px",
-          "color": "rgb(46, 52, 64)"
-        },
-        "h2": {
-          "font": "Inter",
-          "size": 18,
-          "weight": "600",
-          "lineHeight": 1.78,
-          "letterSpacing": "-0.45px",
-          "color": "rgba(46, 52, 64, 0.6)"
-        },
-        "h3": {
-          "font": "Inter",
-          "size": 20,
-          "weight": "500",
-          "lineHeight": 1.4,
-          "letterSpacing": "normal",
-          "color": "rgb(15, 23, 42)"
-        },
-        "body": {
-          "font": "ui-sans-serif",
-          "size": 18,
-          "weight": "400",
-          "lineHeight": 1.6,
-          "letterSpacing": "normal",
-          "color": "rgb(100, 116, 139)"
-        }
-      },
-      "colors": {
-        "background": "#ffffff",
-        "surfaces": [
-          "#ffffff",
-          "#fbfbfb",
-          "#3b82f6",
-          "#dbeafe",
-          "#eff6ff"
-        ],
-        "text": [
-          "#64748b",
-          "#475973",
-          "#2e3440",
-          "#3b82f6"
-        ]
-      },
-      "buttons": [
-        {
-          "label": "Contact us",
-          "bg": "#dbeafe",
-          "color": "#2563eb",
-          "radius": "6px",
-          "height": 42,
-          "paddingX": 16,
-          "font": "ui-sans-serif",
-          "size": 16,
-          "weight": "500"
-        },
-        {
-          "label": "Open menu",
-          "bg": "#ffffff",
-          "color": "#6e87a2",
-          "radius": "6px",
-          "height": 40,
-          "paddingX": 8,
-          "font": "ui-sans-serif",
-          "size": 16,
-          "weight": "400"
-        },
-        {
-          "label": "OSS",
-          "bg": "#f3f6f8",
-          "color": "#394251",
-          "radius": "6px 0px 0px 6px",
-          "height": 28,
-          "paddingX": 10,
-          "font": "ui-sans-serif",
-          "size": 12,
-          "weight": "600"
-        },
-        {
-          "label": "18,696",
-          "bg": "#ffffff",
-          "color": "#394251",
-          "radius": "0px 6px 6px 0px",
-          "height": 28,
-          "paddingX": 10,
-          "font": "ui-sans-serif",
-          "size": 12,
-          "weight": "600"
-        },
-        {
-          "label": "Try Windmill cloud",
-          "bg": "#3b82f6",
-          "color": "#ffffff",
-          "radius": "6px",
-          "height": 44,
-          "paddingX": 16,
-          "font": "ui-sans-serif",
-          "size": 16,
-          "weight": "600"
-        },
-        {
-          "label": "TypeScript",
-          "bg": "#eff6ff",
-          "color": "#1e40af",
-          "radius": "9999px",
-          "height": 28,
-          "paddingX": 10,
-          "font": "ui-sans-serif",
-          "size": 12,
-          "weight": "500"
-        }
-      ],
-      "contentWidth": 1536
-    }
-  },
-  {
     "id": "wise-landing",
     "site": "Wise",
     "url": "https://wise.com",
@@ -46962,6 +46752,97 @@
         }
       ],
       "contentWidth": 1600
+    }
+  },
+  {
+    "id": "wix-studio-landing",
+    "site": "Wix Studio",
+    "url": "https://www.wix.com/studio",
+    "type": "landing",
+    "tags": [],
+    "note": "",
+    "captured": "2026-11-23",
+    "screens": {
+      "desktop": {
+        "file": "screens/wix-studio-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/wix-studio-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Wix Studio | The Web Platform Built for Agencies and Enterprises",
+      "fonts": [
+        "Arial",
+        "wix-madefor-text-v2",
+        "Madefor-Text"
+      ],
+      "type": {
+        "h1": {
+          "font": "wix-madefor-display-v2",
+          "size": 80,
+          "weight": "400",
+          "lineHeight": 1.1,
+          "letterSpacing": "-2.40745px",
+          "color": "rgb(0, 0, 0)"
+        },
+        "h2": {
+          "font": "wix-madefor-display-v2",
+          "size": 31,
+          "weight": "400",
+          "lineHeight": 1,
+          "letterSpacing": "-0.929768px",
+          "color": "rgb(0, 0, 0)"
+        },
+        "h3": {
+          "font": "wix-madefor-text-v2",
+          "size": 18,
+          "weight": "700",
+          "lineHeight": "normal",
+          "letterSpacing": "normal",
+          "color": "rgb(255, 255, 255)"
+        },
+        "body": {
+          "font": "wix-madefor-text-v2",
+          "size": 18,
+          "weight": "400",
+          "lineHeight": 1.6,
+          "letterSpacing": "-0.18px",
+          "color": "rgb(0, 0, 0)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#ffffff",
+          "#181818",
+          "#000000",
+          "#3910ed"
+        ],
+        "text": [
+          "#666666",
+          "#000000",
+          "#ffffff"
+        ]
+      },
+      "buttons": [
+        {
+          "label": "Start Creating",
+          "bg": "#000000",
+          "color": "#ffffff",
+          "radius": "0px",
+          "height": 57,
+          "paddingX": 35,
+          "font": "Madefor-Text",
+          "size": 16,
+          "weight": "400"
+        }
+      ],
+      "contentWidth": 1545
     }
   },
   {
@@ -47860,130 +47741,6 @@
         }
       ],
       "contentWidth": 1440
-    }
-  },
-  {
-    "id": "zora-landing",
-    "site": "Zora",
-    "url": "https://zora.co",
-    "type": "landing",
-    "tags": [],
-    "note": "",
-    "captured": "2026-11-23",
-    "screens": {
-      "desktop": {
-        "file": "screens/zora-landing-desktop.jpg",
-        "width": 1440,
-        "height": 3600
-      },
-      "mobile": {
-        "file": "screens/zora-landing-mobile.jpg",
-        "width": 390,
-        "height": 2600
-      }
-    },
-    "tokens": {
-      "title": "Zora — Post, discover, and trade what’s next",
-      "fonts": [
-        "DiatypeRounded"
-      ],
-      "type": {
-        "h1": null,
-        "h2": null,
-        "h3": null,
-        "body": {
-          "font": "DiatypeRounded",
-          "size": 15,
-          "weight": "420",
-          "lineHeight": 1.33,
-          "letterSpacing": "-0.21px",
-          "color": "rgb(18, 18, 18)"
-        }
-      },
-      "colors": {
-        "background": "#ffffff",
-        "surfaces": [
-          "#ffffff",
-          "#f5f5f5",
-          "#00df00",
-          "#121212"
-        ],
-        "text": [
-          "#4d4d4d",
-          "#121212",
-          "#00df00",
-          "#ff00f0"
-        ]
-      },
-      "buttons": [
-        {
-          "label": "Sign up",
-          "bg": "#121212",
-          "color": "#ffffff",
-          "radius": "8px",
-          "height": 40,
-          "paddingX": 12,
-          "font": "DiatypeRounded",
-          "size": 15,
-          "weight": "595"
-        },
-        {
-          "label": "",
-          "bg": "#f5f5f5",
-          "color": "#4d4d4d",
-          "radius": "8px",
-          "height": 48,
-          "paddingX": 12,
-          "font": "DiatypeRounded",
-          "size": 15,
-          "weight": "595"
-        },
-        {
-          "label": "",
-          "bg": "#ffffff",
-          "color": "#4d4d4d",
-          "radius": "50%",
-          "height": 30,
-          "paddingX": 0,
-          "font": "DiatypeRounded",
-          "size": 15,
-          "weight": "420"
-        },
-        {
-          "label": "",
-          "bg": "#ffffff",
-          "color": "#4d4d4d",
-          "radius": "50%",
-          "height": 30,
-          "paddingX": 0,
-          "font": "DiatypeRounded",
-          "size": 15,
-          "weight": "420"
-        },
-        {
-          "label": "NVIDIA xStock\n$87.2m\n23.87%",
-          "bg": "#ffffff",
-          "color": "#4d4d4d",
-          "radius": "20px",
-          "height": 69,
-          "paddingX": 12,
-          "font": "DiatypeRounded",
-          "size": 15,
-          "weight": "420"
-        },
-        {
-          "label": "NVIDIA Corporation\n$11m\n23.95%",
-          "bg": "#ffffff",
-          "color": "#4d4d4d",
-          "radius": "20px",
-          "height": 69,
-          "paddingX": 12,
-          "font": "DiatypeRounded",
-          "size": 15,
-          "weight": "420"
-        }
-      ],
-      "contentWidth": 662
     }
   },
   {
