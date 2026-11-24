@@ -834,7 +834,7 @@ section { padding-top: 160px; }
 .nums-big { font-size: clamp(96px, 14vw, 240px); line-height: 0.8; font-stretch: 62%; font-weight: 800; color: var(--ink); letter-spacing: -0.02em; }
 .nums { margin: 0; font-size: clamp(28px, 3.3vw, 50px); line-height: 1.22; font-weight: 500; letter-spacing: -0.02em; color: var(--ink); max-width: 30ch; max-width: none; text-wrap: pretty; }
 .nb { color: var(--red); font-weight: 600; font-variant-numeric: tabular-nums; }
-.nums-btn { display: inline-flex; align-items: center; vertical-align: 0.12em; padding: 0 14px; border-radius: 6px; background: var(--ink); color: #fff; font-size: 13px; font-weight: 600; letter-spacing: 0; }
+.nums-btn { display: inline-flex; align-items: center; vertical-align: middle; position: relative; top: -0.06em; padding: 0 14px; border-radius: 6px; background: var(--ink); color: #fff; font-size: 13px; font-weight: 600; letter-spacing: 0; }
 .nums-note { margin: 28px 0 0; font-size: 14px; color: var(--muted); }
 
 /* install: the agents, with their marks */
