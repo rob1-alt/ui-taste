@@ -213,6 +213,31 @@ def shoot(page: Page, max_height: int, max_width: int, out: Path) -> tuple[int, 
     return img.size
 
 
+def wait_for_memory(min_mb: int = 700, max_wait_s: int = 600) -> None:
+    """Small machines: before each site, wait until enough RAM is free instead of being killed."""
+    import time
+    waited = 0
+    while waited < max_wait_s:
+        try:
+            info = dict(l.split(":", 1) for l in open("/proc/meminfo"))
+            avail = int(info["MemAvailable"].split()[0]) // 1024
+        except Exception:
+            return
+        if avail >= min_mb:
+            return
+        print(f"wait  only {avail} MB free", flush=True)
+        time.sleep(15)
+        waited += 15
+
+
+LAUNCH_ARGS = [
+    "--disable-dev-shm-usage", "--disable-gpu", "--disable-extensions",
+    "--renderer-process-limit=2", "--js-flags=--max-old-space-size=384",
+    "--disable-background-networking", "--disable-features=Translate,MediaRouter",
+]
+RESTART_EVERY = 8  # a long-lived browser keeps growing; a fresh one every few sites stays small
+
+
 def capture(entry: dict, browser) -> dict:
     url = entry["url"]
     site = entry["site"]
@@ -234,7 +259,7 @@ def capture(entry: dict, browser) -> dict:
     ):
         ctx = browser.new_context(
             viewport=viewport,
-            device_scale_factor=1 if not mobile else 2,
+            device_scale_factor=1,  # mobile was shot at 2x then halved: same stored size, 4x the memory
             is_mobile=mobile,
             has_touch=mobile,
             locale="en-US",
@@ -257,14 +282,7 @@ def capture(entry: dict, browser) -> dict:
             if name == "desktop":
                 result["tokens"] = page.evaluate(TOKENS_JS)
             file = SCREENS / f"{sid}-{name}.jpg"
-            scale = 2 if mobile else 1
-            w, h = shoot(page, max_h * scale, viewport["width"] * scale, file)
-            if mobile:
-                # Stored at 1x width: enough to read the layout, half the weight.
-                img = Image.open(file)
-                img = img.resize((img.width // 2, img.height // 2), Image.LANCZOS)
-                img.save(file, "JPEG", quality=JPEG_QUALITY, optimize=True, progressive=True)
-                w, h = img.size
+            w, h = shoot(page, max_h, viewport["width"], file)
             result["screens"][name] = {"file": f"screens/{file.name}", "width": w, "height": h}
         finally:
             ctx.close()
@@ -317,8 +335,12 @@ def main() -> int:
 
     failed = []
     with sync_playwright() as p:
-        browser = p.chromium.launch()
-        for entry in entries:
+        browser = p.chromium.launch(args=LAUNCH_ARGS)
+        for n, entry in enumerate(entries):
+            if n and n % RESTART_EVERY == 0:
+                browser.close()
+                browser = p.chromium.launch(args=LAUNCH_ARGS)
+            wait_for_memory()
             label = entry.get("id") or entry["url"]
             try:
                 item = capture(entry, browser)
