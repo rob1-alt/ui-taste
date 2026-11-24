@@ -13,7 +13,7 @@ import { getDirections } from "@/lib/directions";
 import { Logo } from "@/components/Logo";
 import { cleanFont, isLight, opt, palette, typeLabel } from "@/lib/format";
 import { getLibrary, libraryCounts } from "@/lib/library";
-import { SPEC_IDS } from "@/lib/specs";
+import { getSpecimens } from "@/lib/specimens";
 import type { Tile } from "@/lib/types";
 import { Head } from "@/components/landing/Head";
 
@@ -33,7 +33,7 @@ export default function Landing() {
     const h1 = it.typeScale?.h1?.size ? it.typeScale.h1 : it.typeScale?.h2;
     return { id: it.id, site: it.site, type: it.type, note: it.note, thumb: it.screens.desktop?.thumb || "", font: cleanFont(it.fonts[0]), pal: palette(it, 5), h1: h1?.size || null };
   });
-  const specimens = LIB.filter((it) => SPEC_IDS.includes(it.id));
+  const specimens = getSpecimens();
   const directions = getDirections(LIB);
   // the search demo replays what find_refs returns for dark pricing pages
   const hits: SearchHit[] = ["clerk-pricing", "linear-pricing", "vercel-pricing"].map((id) => LIB.find((x) => x.id === id)).filter(Boolean).map((it) => ({
@@ -82,7 +82,7 @@ export default function Landing() {
               <h2>Measured,<br />not guessed.</h2>
               <p className="lede" data-measure>Each page was captured on desktop and mobile, then read from the browser&apos;s computed styles: fonts, type scale, colours, radii, widths. Claude opens the screenshot and the numbers before it builds, then checks what it rendered against a list of what makes an interface look generated.</p>
             </div>
-            <Specimens items={specimens} />
+            <Specimens specs={specimens} />
           </div>
         </section>
 

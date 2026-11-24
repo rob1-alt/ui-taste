@@ -53,8 +53,13 @@ def main() -> None:
             s, tags, note = line.split("|")
             keep[s] = ([t.strip() for t in tags.split(",") if t.strip()], note.strip())
 
+    import unicodedata
+    def fold(t):  # "Demande Spéciale" -> "demandespeciale", and the capture id "demande-sp-ciale" -> "demandespciale"
+        return re.sub(r"[^a-z0-9]", "", unicodedata.normalize("NFKD", t.lower()).encode("ascii", "ignore").decode())
+    by_fold = {fold(e["site"]): i for i, e in entries.items()}
+
     def resolve(s):
-        return s if s in entries else by_slug.get(s)
+        return s if s in entries else by_slug.get(s) or by_fold.get(fold(s))
 
     # captures write to a staging index next to the batch file (see capture_parallel.sh)
     staged = {}

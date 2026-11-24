@@ -74,7 +74,7 @@
      10.14,
      4.0
     ],
-    "label": "40px · r 32px · #5266eb"
+    "label": "40px · pill · #5266eb"
    },
    {
     "kind": "body",
@@ -96,7 +96,8 @@
   "stage": "#f3e6b5",
   "bg": "#fbfaf6",
   "fonts": [
-   "Exposure VAR"
+   "Exposure VAR",
+   "ABC Oracle"
   ],
   "head": {
    "box": [
@@ -113,7 +114,23 @@
    "color": "#ffffff",
    "text": "More than a browser. A better workday."
   },
-  "button": null,
+  "button": {
+   "box": [
+    499,
+    890,
+    443,
+    56
+   ],
+   "label": "Download Dia for free",
+   "h": 56,
+   "radius": "9999px",
+   "bg": "#000000",
+   "color": "#000000",
+   "font": "ABC Oracle",
+   "size": 10,
+   "weight": "400",
+   "px": "24px"
+  },
   "body": null,
   "marks": [
    {
@@ -125,6 +142,16 @@
      4.7
     ],
     "label": "Exposure VAR 39/1.1 w500"
+   },
+   {
+    "kind": "button",
+    "box": [
+     34.65,
+     89.0,
+     30.76,
+     5.6
+    ],
+    "label": "56px · pill · #000000"
    }
   ]
  },
@@ -203,7 +230,7 @@
      14.31,
      5.6
     ],
-    "label": "56px · r 3.35544e+07px · #5b6f00"
+    "label": "56px · pill · #5b6f00"
    },
    {
     "kind": "body",

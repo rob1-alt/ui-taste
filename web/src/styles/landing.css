@@ -864,3 +864,25 @@ section { padding-top: 160px; }
 }
 /* the current direction may take two lines rather than be cut */
 .drum-list .drum-0 { white-space: normal; text-overflow: clip; text-wrap: balance; }
+
+/* specimens: labels show the real names (fonts keep their case) and can sit left of a button near the right edge */
+.mark span { text-transform: none; letter-spacing: 0.01em; font-size: 10.5px; }
+.mark.left span { right: calc(100% + 1px); top: -1.5px; }
+.stage-shot img { aspect-ratio: 1440 / 1000; }
+
+/* specimens v2: numbered pins on the measured boxes, values in a legend under the shot */
+.mark.pin b { position: absolute; left: -1.5px; bottom: calc(100% + 1px); min-width: 18px; height: 18px; padding: 0 5px; display: grid; place-items: center; background: var(--red); color: #fff; font: 700 11px/1 var(--font); }
+.stage-cap { grid-template-columns: 1fr; gap: 14px; }
+.legend { list-style: none; margin: 0; padding: 0; display: grid; gap: 6px; }
+.legend li { display: grid; grid-template-columns: 22px 110px minmax(0, 1fr); gap: 10px; align-items: baseline; font-size: 13px; }
+.legend li b { display: inline-grid; place-items: center; width: 18px; height: 18px; background: var(--red); color: #fff; font-size: 11px; font-weight: 700; }
+.legend li span { color: var(--muted); }
+.stage.dark .legend li span { color: #a7a7a3; }
+.legend code { font: 500 13px/1.4 ui-monospace, "SF Mono", Menlo, monospace; overflow-wrap: anywhere; }
+.stage-specs .chip { text-transform: none; }
+.stage.dark .stage-title a, .stage.dark .stage-title { color: #f2f1ee; }
+@media (max-width: 720px) {
+  .legend li { grid-template-columns: 22px minmax(0, 1fr); }
+  .legend li code { grid-column: 2; }
+  .mark.pin b { min-width: 14px; height: 14px; font-size: 9px; padding: 0 3px; }
+}
