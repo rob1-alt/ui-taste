@@ -1184,3 +1184,19 @@ https://www.theprintloft.art	sale, popup, generic or partial render
 https://uff.cfda.com	sale, popup, generic or partial render
 https://vemvem.com	sale, popup, generic or partial render
 https://wwake.com	sale, popup, generic or partial render
+https://mammothbrands.com	white shape is likely an unloaded image
+https://www.appntd.com	redirects off-site (appointed.co) (prefilter)
+https://oneworldoneface.com	bot wall (prefilter)
+http://annethai.com	bot wall (cloudflare) (prefilter)
+http://beaubourg-paris.com	bot wall (prefilter)
+http://justinschueler.de	redirects off-site (de.wallpapers.com) (prefilter)
+https://www.adamunderwear.com	redirects off-site (a-dam.com) (prefilter)
+http://10x16.com	bot wall (prefilter)
+http://stevefraschini.com	broken (URLError) (prefilter)
+http://gabeferraeira.com	broken (URLError) (prefilter)
+http://ruinmag.in	broken (URLError) (prefilter)
+http://citadela.io	broken (http 404) (prefilter)
+https://iwantrest.com	redirects off-site (iwantrest.org) (prefilter)
+http://madebytung.com	blocked (http 403) (prefilter)
+http://www.filipnordin.com	broken (URLError) (prefilter)
+https://andreabrugi.com	redirects off-site (instagram.com) (prefilter)

@@ -11026,19 +11026,6 @@
   "note": "'Living House' set huge above photos of green timber houses, then 'Houses that give more than they take' in the same huge type. Affordable housing presented with the confidence of a manifesto."
  },
  {
-  "site": "Mammoth Brands",
-  "type": "landing",
-  "url": "https://mammothbrands.com",
-  "tags": [
-   "grey",
-   "giant-white-caps",
-   "white-shape",
-   "serif-subhead",
-   "holding-company"
-  ],
-  "note": "Huge white caps 'MAMMOTH BRANDS' over grey with one big white abstract shape below, then a serif 'Create Things People Like More'. A holding company with almost nothing but a name and a shape."
- },
- {
   "site": "NEON Rated",
   "type": "landing",
   "url": "http://neonrated.com",
@@ -11050,19 +11037,6 @@
    "film-distributor"
   ],
   "note": "Each film is a full still with its title in big condensed caps, then rows 'In theaters' and 'Coming soon'. A film distributor whose site is a lobby of posters."
- },
- {
-  "site": "Roxoseco Rural",
-  "type": "landing",
-  "url": "https://www.roxoseco.com",
-  "tags": [
-   "light",
-   "grid-markers",
-   "nature-photos",
-   "scattered-layout",
-   "rural-coliving"
-  ],
-  "note": "Photos of Galician hills and paths placed on a grid marked with small crosses, captions in mono. A rural coliving project laid out like a field notebook."
  },
  {
   "site": "Silver Gore",
@@ -11127,5 +11101,18 @@
    "pet-food"
   ],
   "note": "A huge white wordmark over a dog photo, then orange product bags with clear names ('Better Dailies'). A pet supplement brand loud enough to read across a shop."
+ },
+ {
+  "site": "Roxoseco Rural",
+  "type": "landing",
+  "url": "https://www.roxoseco.com",
+  "tags": [
+   "light",
+   "grid-markers",
+   "nature-photos",
+   "scattered-layout",
+   "rural-coliving"
+  ],
+  "note": "Photos of Galician hills and paths placed on a grid marked with small crosses, captions in mono. A rural coliving project laid out like a field notebook."
  }
 ]
