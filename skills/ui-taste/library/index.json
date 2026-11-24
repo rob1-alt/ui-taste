@@ -12879,6 +12879,69 @@
     }
   },
   {
+    "id": "anne-boysen-landing",
+    "site": "Anne Boysen",
+    "url": "https://www.anneboysen.dk",
+    "type": "landing",
+    "tags": [
+      "dark-green",
+      "material-collage",
+      "collectibles-grid",
+      "beige",
+      "interior-studio"
+    ],
+    "note": "A dark green hero holds a collage of fabric swatches, glass and iridescent material shots, then the collectible objects on beige. An interior studio leads with its materials before its rooms.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/anne-boysen-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/anne-boysen-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Anne Boysen: My design portfolio",
+      "fonts": [
+        "system-ui",
+        "Scto Grotesk A"
+      ],
+      "type": {
+        "h1": null,
+        "h2": null,
+        "h3": null,
+        "body": {
+          "font": "Scto Grotesk A",
+          "size": 15,
+          "weight": "400",
+          "lineHeight": 1.2,
+          "letterSpacing": "normal",
+          "color": "rgb(224, 221, 208)"
+        }
+      },
+      "colors": {
+        "background": "#e0ddd0",
+        "surfaces": [
+          "#e0ddd0",
+          "#023327",
+          "#250000"
+        ],
+        "text": [
+          "#250000",
+          "#b27a0c",
+          "#836f69",
+          "#e0ddd0"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": null
+    }
+  },
+  {
     "id": "antfood-landing",
     "site": "Antfood",
     "url": "http://www.antfood.com",
@@ -13419,6 +13482,103 @@
     }
   },
   {
+    "id": "anuc-home-landing",
+    "site": "Anuc Home",
+    "url": "https://www.anuchome.com",
+    "type": "landing",
+    "tags": [
+      "light",
+      "shape-letters",
+      "interior-photos",
+      "serif-statement",
+      "spanish"
+    ],
+    "note": "The name built from heavy black arches and half-circles sits above a strip of interior photos, then a serif statement. Geometric shapes turned into a wordmark that echoes architecture.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/anuc-home-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/anuc-home-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Anuc Home | Anuc Home",
+      "fonts": [
+        "Instrument Sans",
+        "Instrument Serif"
+      ],
+      "type": {
+        "h1": {
+          "font": "Instrument Serif",
+          "size": 52,
+          "weight": "400",
+          "lineHeight": 1.1,
+          "letterSpacing": "normal",
+          "color": "rgb(255, 255, 255)"
+        },
+        "h2": {
+          "font": "Instrument Serif",
+          "size": 74,
+          "weight": "400",
+          "lineHeight": 1,
+          "letterSpacing": "normal",
+          "color": "rgb(26, 26, 30)"
+        },
+        "h3": {
+          "font": "Instrument Sans",
+          "size": 15,
+          "weight": "400",
+          "lineHeight": 1.2,
+          "letterSpacing": "normal",
+          "color": "rgb(26, 26, 30)"
+        },
+        "body": {
+          "font": "Instrument Sans",
+          "size": 18,
+          "weight": "400",
+          "lineHeight": 1.2,
+          "letterSpacing": "normal",
+          "color": "rgb(77, 73, 66)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#ffffff",
+          "#d0ceca",
+          "#9a682c",
+          "#707455",
+          "#4a626f"
+        ],
+        "text": [
+          "#1a1a1e",
+          "#ffffff",
+          "#707455"
+        ]
+      },
+      "buttons": [
+        {
+          "label": "AGENDAR VALORACIÓN GRATUITA",
+          "bg": "#d0ceca",
+          "color": "#1a1a1e",
+          "radius": "0px",
+          "height": 64,
+          "paddingX": 24,
+          "font": "Instrument Sans",
+          "size": 15,
+          "weight": "400"
+        }
+      ],
+      "contentWidth": null
+    }
+  },
+  {
     "id": "anytype-landing",
     "site": "Anytype",
     "url": "https://anytype.io",
@@ -13878,6 +14038,76 @@
         }
       ],
       "contentWidth": 666
+    }
+  },
+  {
+    "id": "arc-arcprojects-landing",
+    "site": "Arc",
+    "url": "https://www.arcprojects.build",
+    "type": "landing",
+    "tags": [
+      "light",
+      "house-photo-hero",
+      "orange-heading",
+      "swiss-grid",
+      "builders"
+    ],
+    "note": "A timber house under eucalyptus fills the hero, then an orange 'Architecture, Built for Life.' and a three-photo project row. Builders who let the finished houses do the talking.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/arc-arcprojects-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/arc-arcprojects-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Arc. - Architecture, Built for Life.",
+      "fonts": [
+        "Neue Haas Grotesk Display"
+      ],
+      "type": {
+        "h1": null,
+        "h2": {
+          "font": "Neue Haas Grotesk Display",
+          "size": 33,
+          "weight": "500",
+          "lineHeight": 1,
+          "letterSpacing": "-0.329143px",
+          "color": "rgb(166, 58, 0)"
+        },
+        "h3": null,
+        "body": {
+          "font": "Neue Haas Grotesk Display",
+          "size": 33,
+          "weight": "500",
+          "lineHeight": 1,
+          "letterSpacing": "-0.329143px",
+          "color": "rgb(23, 23, 23)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#ffffff",
+          "#171717",
+          "#131313",
+          "#000000",
+          "#a63a00"
+        ],
+        "text": [
+          "#171717",
+          "#ffffff",
+          "#a63a00"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": 735
     }
   },
   {
@@ -24847,6 +25077,75 @@
     }
   },
   {
+    "id": "down-the-long-driveway-landing",
+    "site": "Down the long driveway",
+    "url": "http://downthelongdriveway.com",
+    "type": "landing",
+    "tags": [
+      "dark",
+      "giant-headline",
+      "book-site",
+      "house-photo",
+      "mono-captions"
+    ],
+    "note": "'Down the long driveway, you'll see it' set huge in white on black above one photo of a mid-century house. A photo book's site written as an invitation.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/down-the-long-driveway-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/down-the-long-driveway-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Down the long driveway you'll see it",
+      "fonts": [
+        "__sohne_9a3499"
+      ],
+      "type": {
+        "h1": {
+          "font": "__sohne_9a3499",
+          "size": 16,
+          "weight": "400",
+          "lineHeight": 1.7,
+          "letterSpacing": "normal",
+          "color": "rgb(255, 255, 255)"
+        },
+        "h2": {
+          "font": "__sohne_9a3499",
+          "size": 100,
+          "weight": "400",
+          "lineHeight": 1,
+          "letterSpacing": "normal",
+          "color": "rgb(255, 255, 255)"
+        },
+        "h3": null,
+        "body": {
+          "font": "__sohne_9a3499",
+          "size": 12,
+          "weight": "400",
+          "lineHeight": 1.7,
+          "letterSpacing": "normal",
+          "color": "rgb(255, 255, 255)"
+        }
+      },
+      "colors": {
+        "background": "#000000",
+        "surfaces": [],
+        "text": [
+          "#ffffff"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": 1440
+    }
+  },
+  {
     "id": "drafts-landing",
     "site": "Drafts",
     "url": "https://getdrafts.com",
@@ -26201,6 +26500,79 @@
         }
       ],
       "contentWidth": 1530
+    }
+  },
+  {
+    "id": "energy-profits-landing",
+    "site": "Energy Profits",
+    "url": "https://energy-profits.org",
+    "type": "landing",
+    "tags": [
+      "dark",
+      "data-headline",
+      "scattered-red-figures",
+      "activist-data",
+      "download-cta"
+    ],
+    "note": "'History-making profits. World-ending emissions.' with each oil major's profit scattered across black in red, then a full orange download bar. A data campaign where the numbers are the layout.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/energy-profits-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/energy-profits-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Energy Profits | History-making profits. World-ending emissions.",
+      "fonts": [
+        "aktiv-grotesk"
+      ],
+      "type": {
+        "h1": {
+          "font": "aktiv-grotesk",
+          "size": 64,
+          "weight": "600",
+          "lineHeight": 1,
+          "letterSpacing": "normal",
+          "color": "rgb(255, 255, 255)"
+        },
+        "h2": {
+          "font": "aktiv-grotesk",
+          "size": 32,
+          "weight": "800",
+          "lineHeight": 1.12,
+          "letterSpacing": "-0.639999px",
+          "color": "rgb(255, 255, 255)"
+        },
+        "h3": null,
+        "body": {
+          "font": "aktiv-grotesk",
+          "size": 18,
+          "weight": "600",
+          "lineHeight": 1.37,
+          "letterSpacing": "normal",
+          "color": "rgba(255, 255, 255, 0.4)"
+        }
+      },
+      "colors": {
+        "background": "#000000",
+        "surfaces": [
+          "#000000"
+        ],
+        "text": [
+          "#ffffff",
+          "#fd3e12",
+          "#666666"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": 1192
     }
   },
   {
@@ -29694,6 +30066,67 @@
     }
   },
   {
+    "id": "focal-glow-landing",
+    "site": "Focal Glow",
+    "url": "https://focalglow.co",
+    "type": "landing",
+    "tags": [
+      "light",
+      "lamp-photo-hero",
+      "serif-statement",
+      "project-photos",
+      "lighting"
+    ],
+    "note": "A hand reaching for a small lamp in soft light, then a long serif sentence about light as architecture. A lighting studio sells mood through one gesture.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/focal-glow-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/focal-glow-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Focal Glow | Lighting Design Consultancy, Noosa & Brisbane | Focal Glow",
+      "fonts": [
+        "Unica 77 LL",
+        "Bradford LL"
+      ],
+      "type": {
+        "h1": null,
+        "h2": null,
+        "h3": null,
+        "body": {
+          "font": "Unica 77 LL",
+          "size": 15,
+          "weight": "400",
+          "lineHeight": 1.2,
+          "letterSpacing": "normal",
+          "color": "rgb(255, 255, 255)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#ffffff",
+          "#533429"
+        ],
+        "text": [
+          "#000000",
+          "#ffffff",
+          "#808080"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": 1536
+    }
+  },
+  {
     "id": "folk-landing",
     "site": "folk",
     "url": "https://www.folk.app",
@@ -31196,6 +31629,65 @@
         }
       ],
       "contentWidth": 1280
+    }
+  },
+  {
+    "id": "general-purpose-landing",
+    "site": "General Purpose",
+    "url": "https://generalpurpose.directory",
+    "type": "landing",
+    "tags": [
+      "light",
+      "dense-object-grid",
+      "labels",
+      "curated-objects",
+      "directory"
+    ],
+    "note": "A dense grid of designed objects (a vase, a stool, a blue pill, a horse sculpture), each with a tiny label. A curation site that is all inventory and no chrome.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/general-purpose-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/general-purpose-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "General Purpose",
+      "fonts": [
+        "Moderngothic"
+      ],
+      "type": {
+        "h1": null,
+        "h2": {
+          "font": "Moderngothic",
+          "size": 12,
+          "weight": "500",
+          "lineHeight": 1,
+          "letterSpacing": "normal",
+          "color": "rgb(20, 20, 20)"
+        },
+        "h3": null,
+        "body": null
+      },
+      "colors": {
+        "background": "#fafafa",
+        "surfaces": [
+          "#e2e2e2",
+          "#141414"
+        ],
+        "text": [
+          "#141414",
+          "#444444"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": null
     }
   },
   {
@@ -35260,6 +35752,149 @@
     }
   },
   {
+    "id": "house-of-honey-landing",
+    "site": "House of Honey",
+    "url": "https://www.houseofhoney.com",
+    "type": "landing",
+    "tags": [
+      "pink",
+      "giant-serif-wordmark",
+      "script-italic",
+      "interior-photo",
+      "colour-rich"
+    ],
+    "note": "A huge black serif 'HOUSE of HONEY' over pink, a maximal interior photo, then a burgundy panel with a pink script. An interiors studio as loud and layered as its rooms.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/house-of-honey-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/house-of-honey-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "House of Honey | Interior Design Studio",
+      "fonts": [
+        "neueHaasGrotesk",
+        "noeText"
+      ],
+      "type": {
+        "h1": null,
+        "h2": {
+          "font": "noeText",
+          "size": 45,
+          "weight": "400",
+          "lineHeight": 1,
+          "letterSpacing": "-0.897306px",
+          "color": "rgb(237, 204, 190)"
+        },
+        "h3": {
+          "font": "neueHaasGrotesk",
+          "size": 18,
+          "weight": "400",
+          "lineHeight": 1.3,
+          "letterSpacing": "normal",
+          "color": "rgb(51, 25, 23)"
+        },
+        "body": {
+          "font": "noeText",
+          "size": 31,
+          "weight": "400",
+          "lineHeight": 1,
+          "letterSpacing": "-0.619102px",
+          "color": "rgb(51, 25, 23)"
+        }
+      },
+      "colors": {
+        "background": "#0e0e0e",
+        "surfaces": [
+          "#331917",
+          "#edccbe",
+          "#fc72c4"
+        ],
+        "text": [
+          "#edccbe",
+          "#331917",
+          "#fc72c4"
+        ]
+      },
+      "buttons": [
+        {
+          "label": "",
+          "bg": "#edccbe",
+          "color": "#331917",
+          "radius": "9999px",
+          "height": 32,
+          "paddingX": 6,
+          "font": "neueHaasGrotesk",
+          "size": 16,
+          "weight": "400"
+        },
+        {
+          "label": "Studio",
+          "bg": "#edccbe",
+          "color": "#331917",
+          "radius": "0px",
+          "height": 32,
+          "paddingX": 12,
+          "font": "neueHaasGrotesk",
+          "size": 16,
+          "weight": "400"
+        },
+        {
+          "label": "Spaces",
+          "bg": "#edccbe",
+          "color": "#331917",
+          "radius": "0px",
+          "height": 32,
+          "paddingX": 12,
+          "font": "neueHaasGrotesk",
+          "size": 16,
+          "weight": "400"
+        },
+        {
+          "label": "The Buzz",
+          "bg": "#edccbe",
+          "color": "#331917",
+          "radius": "0px",
+          "height": 32,
+          "paddingX": 12,
+          "font": "neueHaasGrotesk",
+          "size": 16,
+          "weight": "400"
+        },
+        {
+          "label": "Dear Honey",
+          "bg": "#edccbe",
+          "color": "#331917",
+          "radius": "0px",
+          "height": 32,
+          "paddingX": 12,
+          "font": "neueHaasGrotesk",
+          "size": 16,
+          "weight": "400"
+        },
+        {
+          "label": "Press Room",
+          "bg": "#edccbe",
+          "color": "#331917",
+          "radius": "0px",
+          "height": 32,
+          "paddingX": 12,
+          "font": "neueHaasGrotesk",
+          "size": 16,
+          "weight": "400"
+        }
+      ],
+      "contentWidth": 1054
+    }
+  },
+  {
     "id": "hoverstat-landing",
     "site": "Hoverstat",
     "url": "https://www.hoverstat.es",
@@ -35996,6 +36631,111 @@
         }
       ],
       "contentWidth": null
+    }
+  },
+  {
+    "id": "hx-clinic-landing",
+    "site": "HX Clinic",
+    "url": "https://hx.clinic/en",
+    "type": "landing",
+    "tags": [
+      "dark",
+      "grey-serif-statement",
+      "clinic",
+      "portrait-photo",
+      "medicine"
+    ],
+    "note": "'Czechia's first Medicine 3.0 clinic' with the last words in grey, then a long grey serif philosophy. A clinic that reads like a journal, not a hospital.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/hx-clinic-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/hx-clinic-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "HX | Czechia’s first Medicine 3.0 clinic",
+      "fonts": [
+        "IBM Plex Sefif",
+        "IBM Plex Sans",
+        "IBM Plex Mono"
+      ],
+      "type": {
+        "h1": {
+          "font": "IBM Plex Sans",
+          "size": 79,
+          "weight": "300",
+          "lineHeight": 1.04,
+          "letterSpacing": "-1.584px",
+          "color": "rgb(255, 255, 255)"
+        },
+        "h2": {
+          "font": "IBM Plex Mono",
+          "size": 12,
+          "weight": "400",
+          "lineHeight": 1.5,
+          "letterSpacing": "0.48px",
+          "color": "rgb(0, 0, 0)"
+        },
+        "h3": {
+          "font": "IBM Plex Sans",
+          "size": 16,
+          "weight": "400",
+          "lineHeight": 1.48,
+          "letterSpacing": "0.16px",
+          "color": "rgb(255, 255, 255)"
+        },
+        "body": {
+          "font": "IBM Plex Sans",
+          "size": 42,
+          "weight": "300",
+          "lineHeight": 1.16,
+          "letterSpacing": "-0.42px",
+          "color": "rgb(255, 255, 255)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#000000",
+          "#ffffff"
+        ],
+        "text": [
+          "#000000",
+          "#ffffff"
+        ]
+      },
+      "buttons": [
+        {
+          "label": "Join HX Clinic\nJoin HX Clinic",
+          "bg": "#ffffff",
+          "color": "#ffffff",
+          "radius": "3px",
+          "height": 32,
+          "paddingX": 12,
+          "font": "IBM Plex Sans",
+          "size": 15,
+          "weight": "400"
+        },
+        {
+          "label": "Join HX Clinic\nJoin HX Clinic",
+          "bg": "#ffffff",
+          "color": "#ffffff",
+          "radius": "3px",
+          "height": 42,
+          "paddingX": 22,
+          "font": "IBM Plex Sans",
+          "size": 15,
+          "weight": "400"
+        }
+      ],
+      "contentWidth": 1440
     }
   },
   {
@@ -38352,6 +39092,86 @@
         }
       ],
       "contentWidth": 1082
+    }
+  },
+  {
+    "id": "kaan-architecten-landing",
+    "site": "KAAN Architecten",
+    "url": "https://kaanarchitecten.com",
+    "type": "landing",
+    "tags": [
+      "light",
+      "caps-index-nav",
+      "project-list",
+      "concrete-photos",
+      "architecture"
+    ],
+    "note": "A large crop of a concrete ceiling, then the nav itself set large (ABOUT, WORK, REPOSITORY) beside a list of buildings with places. An architecture office whose menu is the page's typography.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/kaan-architecten-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3205
+      },
+      "mobile": {
+        "file": "screens/kaan-architecten-landing-mobile.jpg",
+        "width": 390,
+        "height": 2484
+      }
+    },
+    "tokens": {
+      "title": "KAAN Architecten",
+      "fonts": [
+        "Suisse Intl Book"
+      ],
+      "type": {
+        "h1": {
+          "font": "Suisse Intl Book",
+          "size": 42,
+          "weight": "450",
+          "lineHeight": 1.2,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        },
+        "h2": {
+          "font": "Suisse Intl Book",
+          "size": 13,
+          "weight": "450",
+          "lineHeight": 1.3,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        },
+        "h3": {
+          "font": "Suisse Intl Book",
+          "size": 13,
+          "weight": "450",
+          "lineHeight": 1.3,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        },
+        "body": {
+          "font": "Suisse Intl Book",
+          "size": 13,
+          "weight": "450",
+          "lineHeight": 1.3,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#ffffff",
+          "#f7f5f3",
+          "#1f2323"
+        ],
+        "text": [
+          "#000000"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": null
     }
   },
   {
@@ -46412,6 +47232,72 @@
     }
   },
   {
+    "id": "neubau-forst-catalogue-landing",
+    "site": "Neubau Forst Catalogue",
+    "url": "http://neubauforst.com",
+    "type": "landing",
+    "tags": [
+      "light",
+      "book-product",
+      "green-sticker",
+      "tree-silhouettes",
+      "catalogue"
+    ],
+    "note": "The book with a round green sticker, a centred description, then cut-out tree silhouettes standing along the bottom. A book about tree drawings shows the trees as the decoration.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/neubau-forst-catalogue-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/neubau-forst-catalogue-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Neubau Forst - Lars Müller Publishers",
+      "fonts": [
+        "nb_international_regular"
+      ],
+      "type": {
+        "h1": {
+          "font": "nb_international_regular",
+          "size": 35,
+          "weight": "400",
+          "lineHeight": 1.14,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        },
+        "h2": null,
+        "h3": null,
+        "body": {
+          "font": "nb_international_regular",
+          "size": 17,
+          "weight": "400",
+          "lineHeight": 1.53,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        }
+      },
+      "colors": {
+        "background": "#f2f2f2",
+        "surfaces": [
+          "#f2f2f2",
+          "#cccccc",
+          "#999999"
+        ],
+        "text": [
+          "#000000"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": 900
+    }
+  },
+  {
     "id": "neuralink-landing",
     "site": "Neuralink",
     "url": "https://neuralink.com",
@@ -47424,6 +48310,88 @@
         }
       ],
       "contentWidth": 1440
+    }
+  },
+  {
+    "id": "ntgent-landing",
+    "site": "NTGent",
+    "url": "https://www.ntgent.be/en",
+    "type": "landing",
+    "tags": [
+      "light",
+      "cut-out-collage",
+      "serif-masthead",
+      "programme-table",
+      "theatre"
+    ],
+    "note": "Cut-out figures, fried eggs and a sword float around a serif masthead, then the programme as a dated table with ticket buttons. A theatre poster that turns into a box office.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/ntgent-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3541
+      },
+      "mobile": {
+        "file": "screens/ntgent-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "NTGent – Belgian City Theatre | Performances, Tickets & News | NTGent – Belgian City Theatre",
+      "fonts": [
+        "diatype",
+        "gtAlpina"
+      ],
+      "type": {
+        "h1": {
+          "font": "gtAlpina",
+          "size": 32,
+          "weight": "400",
+          "lineHeight": 1,
+          "letterSpacing": "-1.28px",
+          "color": "rgb(82, 82, 79)"
+        },
+        "h2": {
+          "font": "diatype",
+          "size": 16,
+          "weight": "500",
+          "lineHeight": 1,
+          "letterSpacing": "normal",
+          "color": "rgb(82, 82, 79)"
+        },
+        "h3": {
+          "font": "diatype",
+          "size": 19,
+          "weight": "400",
+          "lineHeight": 0.9,
+          "letterSpacing": "normal",
+          "color": "rgb(82, 82, 79)"
+        },
+        "body": {
+          "font": "diatype",
+          "size": 16,
+          "weight": "400",
+          "lineHeight": 1.05,
+          "letterSpacing": "normal",
+          "color": "rgb(82, 82, 79)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#ededed",
+          "#ffffff",
+          "#52524f"
+        ],
+        "text": [
+          "#52524f",
+          "#ffffff"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": null
     }
   },
   {
@@ -48683,6 +49651,88 @@
         }
       ],
       "contentWidth": 650
+    }
+  },
+  {
+    "id": "on-the-impulse-to-notate-landing",
+    "site": "On the Impulse to Notate",
+    "url": "https://notations.xyz",
+    "type": "landing",
+    "tags": [
+      "cream",
+      "scattered-note-cards",
+      "essay",
+      "serif-body",
+      "annotations"
+    ],
+    "note": "Dozens of small note cards scattered across the page, then a serif essay with references. An essay site whose hero is the notes it came from.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/on-the-impulse-to-notate-landing-desktop.jpg",
+        "width": 1440,
+        "height": 900
+      },
+      "mobile": {
+        "file": "screens/on-the-impulse-to-notate-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "On the Impulse to Notate",
+      "fonts": [
+        "Apercu Condensed Pro",
+        "Bradford LL",
+        "Apercu"
+      ],
+      "type": {
+        "h1": {
+          "font": "Apercu",
+          "size": 15,
+          "weight": "500",
+          "lineHeight": 1,
+          "letterSpacing": "0.3px",
+          "color": "rgb(154, 106, 18)"
+        },
+        "h2": {
+          "font": "Apercu",
+          "size": 15,
+          "weight": "500",
+          "lineHeight": 1,
+          "letterSpacing": "0.3px",
+          "color": "rgb(154, 106, 18)"
+        },
+        "h3": {
+          "font": "Apercu Condensed Pro",
+          "size": 15,
+          "weight": "500",
+          "lineHeight": 1.2,
+          "letterSpacing": "0.295264px",
+          "color": "rgb(154, 106, 18)"
+        },
+        "body": {
+          "font": "Bradford LL",
+          "size": 15,
+          "weight": "400",
+          "lineHeight": 1.2,
+          "letterSpacing": "0.293728px",
+          "color": "rgb(154, 106, 18)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#ffffff",
+          "#f7f3ec"
+        ],
+        "text": [
+          "#9a6a12",
+          "#3180c6"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": null
     }
   },
   {
@@ -70740,6 +71790,144 @@
         ]
       },
       "buttons": [],
+      "contentWidth": null
+    }
+  },
+  {
+    "id": "very-good-films-landing",
+    "site": "Very Good Films",
+    "url": "https://verygoodfilms.co",
+    "type": "landing",
+    "tags": [
+      "light",
+      "film-table",
+      "red-type",
+      "catalogue",
+      "recommendations"
+    ],
+    "note": "A plain table of films with year, director, country and genre in red type. A film list as a single sortable table, nothing else.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/very-good-films-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/very-good-films-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Very Good Films",
+      "fonts": [
+        "Untitled Sans"
+      ],
+      "type": {
+        "h1": {
+          "font": "Untitled Sans",
+          "size": 65,
+          "weight": "400",
+          "lineHeight": 1.4,
+          "letterSpacing": "-2.6px",
+          "color": "rgb(208, 45, 0)"
+        },
+        "h2": null,
+        "h3": {
+          "font": "Untitled Sans",
+          "size": 15,
+          "weight": "400",
+          "lineHeight": 1.4,
+          "letterSpacing": "normal",
+          "color": "rgb(208, 45, 0)"
+        },
+        "body": {
+          "font": "Untitled Sans",
+          "size": 13,
+          "weight": "400",
+          "lineHeight": 1.4,
+          "letterSpacing": "normal",
+          "color": "rgb(208, 45, 0)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#ffffff"
+        ],
+        "text": [
+          "#d02d00"
+        ]
+      },
+      "buttons": [
+        {
+          "label": "Watch trailer",
+          "bg": "#ffffff",
+          "color": "#d02d00",
+          "radius": "0px",
+          "height": 38,
+          "paddingX": 12,
+          "font": "Untitled Sans",
+          "size": 15,
+          "weight": "400"
+        },
+        {
+          "label": "Watch trailer",
+          "bg": "#ffffff",
+          "color": "#d02d00",
+          "radius": "0px",
+          "height": 38,
+          "paddingX": 12,
+          "font": "Untitled Sans",
+          "size": 15,
+          "weight": "400"
+        },
+        {
+          "label": "Watch trailer",
+          "bg": "#ffffff",
+          "color": "#d02d00",
+          "radius": "0px",
+          "height": 38,
+          "paddingX": 12,
+          "font": "Untitled Sans",
+          "size": 15,
+          "weight": "400"
+        },
+        {
+          "label": "Watch trailer",
+          "bg": "#ffffff",
+          "color": "#d02d00",
+          "radius": "0px",
+          "height": 38,
+          "paddingX": 12,
+          "font": "Untitled Sans",
+          "size": 15,
+          "weight": "400"
+        },
+        {
+          "label": "Watch trailer",
+          "bg": "#ffffff",
+          "color": "#d02d00",
+          "radius": "0px",
+          "height": 38,
+          "paddingX": 12,
+          "font": "Untitled Sans",
+          "size": 15,
+          "weight": "400"
+        },
+        {
+          "label": "Watch trailer",
+          "bg": "#ffffff",
+          "color": "#d02d00",
+          "radius": "0px",
+          "height": 38,
+          "paddingX": 12,
+          "font": "Untitled Sans",
+          "size": 15,
+          "weight": "400"
+        }
+      ],
       "contentWidth": null
     }
   },

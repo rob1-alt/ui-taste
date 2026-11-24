@@ -10161,5 +10161,187 @@
    "dark-green-panel"
   ],
   "note": "'Don't type, just speak.' in a large serif with italics, a line of transcribed text trailing across the page into a waveform, then a dark green panel comparing 45 wpm with 220 wpm. Voice input shown as words flowing out."
+ },
+ {
+  "site": "Anne Boysen",
+  "type": "landing",
+  "url": "https://www.anneboysen.dk",
+  "tags": [
+   "dark-green",
+   "material-collage",
+   "collectibles-grid",
+   "beige",
+   "interior-studio"
+  ],
+  "note": "A dark green hero holds a collage of fabric swatches, glass and iridescent material shots, then the collectible objects on beige. An interior studio leads with its materials before its rooms."
+ },
+ {
+  "site": "Anuc Home",
+  "type": "landing",
+  "url": "https://www.anuchome.com",
+  "tags": [
+   "light",
+   "shape-letters",
+   "interior-photos",
+   "serif-statement",
+   "spanish"
+  ],
+  "note": "The name built from heavy black arches and half-circles sits above a strip of interior photos, then a serif statement. Geometric shapes turned into a wordmark that echoes architecture."
+ },
+ {
+  "site": "Arc",
+  "type": "landing",
+  "url": "https://www.arcprojects.build",
+  "tags": [
+   "light",
+   "house-photo-hero",
+   "orange-heading",
+   "swiss-grid",
+   "builders"
+  ],
+  "note": "A timber house under eucalyptus fills the hero, then an orange 'Architecture, Built for Life.' and a three-photo project row. Builders who let the finished houses do the talking."
+ },
+ {
+  "site": "Down the long driveway",
+  "type": "landing",
+  "url": "http://downthelongdriveway.com",
+  "tags": [
+   "dark",
+   "giant-headline",
+   "book-site",
+   "house-photo",
+   "mono-captions"
+  ],
+  "note": "'Down the long driveway, you'll see it' set huge in white on black above one photo of a mid-century house. A photo book's site written as an invitation."
+ },
+ {
+  "site": "Energy Profits",
+  "type": "landing",
+  "url": "https://energy-profits.org",
+  "tags": [
+   "dark",
+   "data-headline",
+   "scattered-red-figures",
+   "activist-data",
+   "download-cta"
+  ],
+  "note": "'History-making profits. World-ending emissions.' with each oil major's profit scattered across black in red, then a full orange download bar. A data campaign where the numbers are the layout."
+ },
+ {
+  "site": "Focal Glow",
+  "type": "landing",
+  "url": "https://focalglow.co",
+  "tags": [
+   "light",
+   "lamp-photo-hero",
+   "serif-statement",
+   "project-photos",
+   "lighting"
+  ],
+  "note": "A hand reaching for a small lamp in soft light, then a long serif sentence about light as architecture. A lighting studio sells mood through one gesture."
+ },
+ {
+  "site": "General Purpose",
+  "type": "landing",
+  "url": "https://generalpurpose.directory",
+  "tags": [
+   "light",
+   "dense-object-grid",
+   "labels",
+   "curated-objects",
+   "directory"
+  ],
+  "note": "A dense grid of designed objects (a vase, a stool, a blue pill, a horse sculpture), each with a tiny label. A curation site that is all inventory and no chrome."
+ },
+ {
+  "site": "House of Honey",
+  "type": "landing",
+  "url": "https://www.houseofhoney.com",
+  "tags": [
+   "pink",
+   "giant-serif-wordmark",
+   "script-italic",
+   "interior-photo",
+   "colour-rich"
+  ],
+  "note": "A huge black serif 'HOUSE of HONEY' over pink, a maximal interior photo, then a burgundy panel with a pink script. An interiors studio as loud and layered as its rooms."
+ },
+ {
+  "site": "HX Clinic",
+  "type": "landing",
+  "url": "https://hx.clinic/en",
+  "tags": [
+   "dark",
+   "grey-serif-statement",
+   "clinic",
+   "portrait-photo",
+   "medicine"
+  ],
+  "note": "'Czechia's first Medicine 3.0 clinic' with the last words in grey, then a long grey serif philosophy. A clinic that reads like a journal, not a hospital."
+ },
+ {
+  "site": "KAAN Architecten",
+  "type": "landing",
+  "url": "https://kaanarchitecten.com",
+  "tags": [
+   "light",
+   "caps-index-nav",
+   "project-list",
+   "concrete-photos",
+   "architecture"
+  ],
+  "note": "A large crop of a concrete ceiling, then the nav itself set large (ABOUT, WORK, REPOSITORY) beside a list of buildings with places. An architecture office whose menu is the page's typography."
+ },
+ {
+  "site": "Neubau Forst Catalogue",
+  "type": "landing",
+  "url": "http://neubauforst.com",
+  "tags": [
+   "light",
+   "book-product",
+   "green-sticker",
+   "tree-silhouettes",
+   "catalogue"
+  ],
+  "note": "The book with a round green sticker, a centred description, then cut-out tree silhouettes standing along the bottom. A book about tree drawings shows the trees as the decoration."
+ },
+ {
+  "site": "NTGent",
+  "type": "landing",
+  "url": "https://www.ntgent.be/en",
+  "tags": [
+   "light",
+   "cut-out-collage",
+   "serif-masthead",
+   "programme-table",
+   "theatre"
+  ],
+  "note": "Cut-out figures, fried eggs and a sword float around a serif masthead, then the programme as a dated table with ticket buttons. A theatre poster that turns into a box office."
+ },
+ {
+  "site": "On the Impulse to Notate",
+  "type": "landing",
+  "url": "https://notations.xyz",
+  "tags": [
+   "cream",
+   "scattered-note-cards",
+   "essay",
+   "serif-body",
+   "annotations"
+  ],
+  "note": "Dozens of small note cards scattered across the page, then a serif essay with references. An essay site whose hero is the notes it came from."
+ },
+ {
+  "site": "Very Good Films",
+  "type": "landing",
+  "url": "https://verygoodfilms.co",
+  "tags": [
+   "light",
+   "film-table",
+   "red-type",
+   "catalogue",
+   "recommendations"
+  ],
+  "note": "A plain table of films with year, director, country and genre in red type. A film list as a single sortable table, nothing else."
  }
 ]

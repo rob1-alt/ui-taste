@@ -951,3 +951,29 @@ http://vanook.com	generic, broken or a notice page
 https://www.wealthsimple.com	generic, broken or a notice page
 https://www.ynab.com	generic, broken or a notice page
 https://zerion.io	generic, broken or a notice page
+https://www.doingcoolstuff.xyz	broken (http 404) (prefilter)
+https://getnewmatter.com	broken (http 404) (prefilter)
+http://act.mit.edu/cavs	broken (http 404) (prefilter)
+https://www.thebrandt.amsterdam	broken (URLError) (prefilter)
+https://www.non-linear.com	bot wall (cloudflare) (prefilter)
+https://www.einheit.jetzt	broken (URLError) (prefilter)
+https://biaformations.com	redirects off-site (bia-education.com) (prefilter)
+https://gymbox.com	sale takeover (prefilter)
+http://feels.com	redirects off-site (feals.com) (prefilter)
+https://www.gavinmaddock.com	redirects off-site (maddockdesign.com) (prefilter)
+https://rikpro.tilda.ws	broken (http 404) (prefilter)
+https://bradswartz.com.au	bot wall (cloudflare) (prefilter)
+https://ohm.studio	broken (URLError) (prefilter)
+https://300.yourmajesty.co	only the hero renders
+https://burn.manychat.team	only the hero renders
+https://new.computer	shutdown letter
+https://enid.fm	only partly renders
+http://iad-lab.ch	only the hero renders
+https://heyorbi.com	generic dark saas
+https://radiocast.co	modal over the page
+http://www.romance-journal.com	only the hero renders
+http://sanfranciscointernationalbookclub.com	only the hero renders
+https://theoutline.com	only the hero renders
+https://ulyssesdesanti.com	only partly renders
+https://waterworksproject.nl	only partly renders
+https://websiteheadlines.com	italic-serif default, plain directory
