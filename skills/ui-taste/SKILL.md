@@ -38,10 +38,12 @@ Each result gives the screenshot paths (open them with the Read tool: look at th
 - When the result is labelled "closest match", treat it as a loose hint.
 - If the library has nothing relevant, say so and rely on the rules below; do not pretend a screen applies.
 
+For a landing or any marketing page (pricing, about, careers, product), references are not optional: before writing CSS, open at least two library screens from the direction you chose and write one line each on what they do that a default page does not (scale of the headline, how much of the fold the image takes, the one colour, the real material). The first screen you build is calibrated by what you looked at last.
+
 ### 3. Build
 
 Apply the decision with the project's components and tokens. Keep to these defaults unless the project says otherwise (see `references/taste-rules.md` for the reasoning):
-- One typeface family (two at most: a display face for headings and a text face). Two or three weights.
+- One typeface family (two at most: a display face for headings and a text face). Two or three weights. The face is a choice, not the default: pick it for the direction (a grotesk with character, a condensed display, a serif with a voice) from Google Fonts or Fontshare when web fonts are allowed. When they are not, use a deliberate system stack (see `references/taste-rules.md`, "Type without web fonts") and carry the character through scale, weight and width; never ship the bare `-apple-system, Arial` stack as if it were a decision.
 - A type scale with clear steps (for example 14 / 16 / 20 / 28 / 40 / 56). Body text 15-18px, line height 1.5-1.7; large headings line height 1.0-1.2 and slightly negative letter spacing.
 - Neutral surfaces, one accent colour used for action and state, not decoration. Text never pure black on pure white is fine; grey text must still pass contrast (4.5:1 for body).
 - A spacing scale on a 4 or 8px grid; generous vertical space between sections (64-160px on desktop), tight space inside groups.
@@ -56,7 +58,19 @@ Photos, artworks, illustrations and 3D belong to the client: never generate or f
 
 ### 4. Review what you rendered
 
-Render the screen (dev server, Storybook, or a screenshot tool) at desktop (1440px) and mobile (390px) widths and look at it. Then go through `references/anti-slop.md` and fix every item that applies. Report what you checked and what you changed. A UI that was never looked at is not reviewed.
+Render the screen and look at it. This step is not optional and is where most of the quality comes from:
+
+```bash
+python3 scripts/shot.py index.html --ref <the library id you leaned on>     # or a dev-server URL
+```
+
+It writes the desktop (1440) and mobile (390) first screens, the full page, and `vs-<id>.png`: your fold beside the reference's fold at the same scale. Open them all with the Read tool. If Playwright is missing, install it (`pip install playwright pillow && python3 -m playwright install chromium`); only if that is impossible say plainly that the page was not reviewed.
+
+Then two passes, and at least one round of changes:
+1. **The bar.** Look at the side-by-side. If a designer had to pick one of the two folds, would they pick yours? If not, name what the reference does that yours does not (the headline is twice as big, the image takes the fold, one colour is used with conviction, the product is real and dense) and change the page. A tidy page that loses the side-by-side is not done.
+2. **The checklist.** Go through `references/anti-slop.md` and fix every item that applies.
+
+Shoot again after the changes. Report what you saw, what you changed, and the final side-by-side.
 
 ## Adding screens to the library
 
@@ -73,6 +87,7 @@ Only add screens that teach a decision, and write the note: what to learn, not a
 ## Files
 
 - `scripts/find_refs.py`: search the library.
+- `scripts/shot.py`: render your page at 1440 and 390, and set its fold beside a library reference.
 - `scripts/capture.py`: add or refresh screens.
 - `scripts/sources.json`: the list of pages in the library (re-run it to refresh).
 - `library/index.json`: every screen with its patterns, note and measured tokens.

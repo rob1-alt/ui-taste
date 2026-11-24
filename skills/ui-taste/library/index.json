@@ -19324,6 +19324,120 @@
     }
   },
   {
+    "id": "carrot-landing",
+    "site": "Carrot",
+    "url": "https://carrot.tech",
+    "type": "landing",
+    "tags": [
+      "yellow",
+      "black-blob-shape",
+      "serif-headline",
+      "device-trio",
+      "waste-tech"
+    ],
+    "note": "A heavy black organic blob floats on bright yellow next to a serif headline, then three devices with dashboards. Waste software given one strange, memorable shape instead of recycling icons.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/carrot-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/carrot-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Carrot ‣ Carrot",
+      "fonts": [
+        "DM Sans",
+        "Signifier"
+      ],
+      "type": {
+        "h1": {
+          "font": "Signifier",
+          "size": 72,
+          "weight": "300",
+          "lineHeight": 1.15,
+          "letterSpacing": "-0.72px",
+          "color": "rgb(0, 0, 0)"
+        },
+        "h2": {
+          "font": "Signifier",
+          "size": 72,
+          "weight": "300",
+          "lineHeight": 1.15,
+          "letterSpacing": "-0.72px",
+          "color": "rgb(0, 0, 0)"
+        },
+        "h3": {
+          "font": "DM Sans",
+          "size": 29,
+          "weight": "500",
+          "lineHeight": 1.25,
+          "letterSpacing": "-0.29px",
+          "color": "rgb(0, 0, 0)"
+        },
+        "body": {
+          "font": "DM Sans",
+          "size": 24,
+          "weight": "400",
+          "lineHeight": 1.25,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        }
+      },
+      "colors": {
+        "background": "#e7eb5d",
+        "surfaces": [
+          "#000000"
+        ],
+        "text": [
+          "#000000",
+          "#ffffff"
+        ]
+      },
+      "buttons": [
+        {
+          "label": "Demo",
+          "bg": "#000000",
+          "color": "#ffffff",
+          "radius": "0px",
+          "height": 45,
+          "paddingX": 14,
+          "font": "DM Sans",
+          "size": 20,
+          "weight": "400"
+        },
+        {
+          "label": "Log in",
+          "bg": "#000000",
+          "color": "#ffffff",
+          "radius": "0px",
+          "height": 45,
+          "paddingX": 14,
+          "font": "DM Sans",
+          "size": 20,
+          "weight": "400"
+        },
+        {
+          "label": "Get in touch!",
+          "bg": "#000000",
+          "color": "#ffffff",
+          "radius": "0px",
+          "height": 42,
+          "paddingX": 14,
+          "font": "DM Sans",
+          "size": 20,
+          "weight": "400"
+        }
+      ],
+      "contentWidth": 1500
+    }
+  },
+  {
     "id": "carrot-weather-landing",
     "site": "Carrot Weather",
     "url": "https://www.meetcarrot.com",
@@ -23338,6 +23452,86 @@
         }
       ],
       "contentWidth": 1280
+    }
+  },
+  {
+    "id": "dds-landing",
+    "site": "DDS+",
+    "url": "https://www.dds.plus",
+    "type": "landing",
+    "tags": [
+      "light",
+      "plus-list",
+      "yellow-cube-illustration",
+      "news-grid",
+      "architecture"
+    ],
+    "note": "The process is a list of plus-marked words ('+ Human scale + Share + Surprise + Not boring') beside a yellow cube on a dotted circle. An architecture office states its method as a short manifesto list.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/dds-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/dds-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "DDS+",
+      "fonts": [
+        "DDS Grotesque"
+      ],
+      "type": {
+        "h1": {
+          "font": "DDS Grotesque",
+          "size": 44,
+          "weight": "400",
+          "lineHeight": 1.36,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        },
+        "h2": {
+          "font": "DDS Grotesque",
+          "size": 32,
+          "weight": "600",
+          "lineHeight": 1.25,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        },
+        "h3": {
+          "font": "DDS Grotesque",
+          "size": 22,
+          "weight": "400",
+          "lineHeight": 1.36,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        },
+        "body": {
+          "font": "DDS Grotesque",
+          "size": 32,
+          "weight": "600",
+          "lineHeight": 1.25,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#000000"
+        ],
+        "text": [
+          "#000000",
+          "#b8b8b8",
+          "#ffffff"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": null
     }
   },
   {
@@ -30831,6 +31025,86 @@
         "background": "#e9eaeb",
         "surfaces": [],
         "text": [
+          "#000000"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": null
+    }
+  },
+  {
+    "id": "fraher-landing",
+    "site": "Fraher",
+    "url": "http://fraher.co",
+    "type": "landing",
+    "tags": [
+      "light",
+      "serif-sentence",
+      "italic-you",
+      "film-hero",
+      "beige"
+    ],
+    "note": "'We are architects, designers, builders and you are FRAHER', the word 'you' in italic, over a film of a forest. A practice that writes the client into its name.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/fraher-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/fraher-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Fraher",
+      "fonts": [
+        "BOLTON",
+        "Clarkson",
+        "LEKISKAL-REGULAR"
+      ],
+      "type": {
+        "h1": {
+          "font": "LEKISKAL-REGULAR",
+          "size": 45,
+          "weight": "400",
+          "lineHeight": 1.26,
+          "letterSpacing": "normal",
+          "color": "rgb(61, 61, 63)"
+        },
+        "h2": {
+          "font": "LEKISKAL-REGULAR",
+          "size": 35,
+          "weight": "400",
+          "lineHeight": 1.29,
+          "letterSpacing": "normal",
+          "color": "rgb(61, 61, 63)"
+        },
+        "h3": null,
+        "body": {
+          "font": "BOLTON",
+          "size": 43,
+          "weight": "400",
+          "lineHeight": 1.3,
+          "letterSpacing": "2.9376px",
+          "color": "rgb(61, 61, 63)"
+        }
+      },
+      "colors": {
+        "background": "#3d3d3f",
+        "surfaces": [
+          "#f4f4ee",
+          "#3d3d3f",
+          "#000000",
+          "#262626",
+          "#ffffff"
+        ],
+        "text": [
+          "#f4f4ee",
+          "#3d3d3f",
+          "#ffffff",
           "#000000"
         ]
       },
@@ -44610,6 +44884,71 @@
     }
   },
   {
+    "id": "marazzi-reinhardt-landing",
+    "site": "Marazzi Reinhardt",
+    "url": "http://www.marazzireinhardt.ch",
+    "type": "landing",
+    "tags": [
+      "light",
+      "forest-and-timber-split",
+      "project-list",
+      "bw-photos",
+      "architecture"
+    ],
+    "note": "A forest photo beside a timber facade, then projects as a list of small black-and-white photos with place and year. An architecture office that treats its work as an archive.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/marazzi-reinhardt-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/marazzi-reinhardt-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Marazzi Reinhardt",
+      "fonts": [
+        "Union"
+      ],
+      "type": {
+        "h1": null,
+        "h2": {
+          "font": "Union",
+          "size": 22,
+          "weight": "400",
+          "lineHeight": 1.15,
+          "letterSpacing": "normal",
+          "color": "rgb(255, 255, 255)"
+        },
+        "h3": null,
+        "body": {
+          "font": "Union",
+          "size": 22,
+          "weight": "400",
+          "lineHeight": 1.15,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        }
+      },
+      "colors": {
+        "background": "#d5d4d1",
+        "surfaces": [
+          "#d5d4d1"
+        ],
+        "text": [
+          "#000000",
+          "#ffffff"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": null
+    }
+  },
+  {
     "id": "march-2004-landing",
     "site": "March 2004",
     "url": "https://march2004.com",
@@ -46067,6 +46406,71 @@
         }
       ],
       "contentWidth": 1366
+    }
+  },
+  {
+    "id": "misplaced-landing",
+    "site": "Misplaced",
+    "url": "http://misplaced.design",
+    "type": "landing",
+    "tags": [
+      "light",
+      "line-pictograms",
+      "ruled-rows",
+      "yellow-text-block",
+      "photo-book"
+    ],
+    "note": "Line drawings of misplaced landmarks sit on horizontal rules around 'Misplaced → New York', then a yellow block of story text. A photography project told with diagrams instead of photos.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/misplaced-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/misplaced-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Misplaced → New York",
+      "fonts": [
+        "tscy",
+        "Roboto",
+        "tmmf"
+      ],
+      "type": {
+        "h1": null,
+        "h2": null,
+        "h3": null,
+        "body": {
+          "font": "Inter",
+          "size": 18,
+          "weight": "400",
+          "lineHeight": 7.78,
+          "letterSpacing": "normal",
+          "color": "rgb(40, 40, 40)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#ffffff",
+          "#141414",
+          "#000000",
+          "#f3e852"
+        ],
+        "text": [
+          "#141414",
+          "#ffffff",
+          "#000000",
+          "#f2e429"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": null
     }
   },
   {
@@ -52408,6 +52812,73 @@
     }
   },
   {
+    "id": "parabola-landing",
+    "site": "Parabola",
+    "url": "https://www.parabola.com",
+    "type": "landing",
+    "tags": [
+      "light",
+      "underlined-keywords",
+      "colour-panels-photo",
+      "property-developer"
+    ],
+    "note": "A sentence with 'people', 'places', 'promise' and 'philanthropy' underlined as links, over a photo of coloured exhibition panels. A developer's values set as the menu.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/parabola-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/parabola-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Parabola",
+      "fonts": [
+        "Dia"
+      ],
+      "type": {
+        "h1": {
+          "font": "Dia",
+          "size": 50,
+          "weight": "400",
+          "lineHeight": 1.2,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        },
+        "h2": {
+          "font": "Dia",
+          "size": 30,
+          "weight": "400",
+          "lineHeight": 1.2,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        },
+        "h3": null,
+        "body": null
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#dddddd",
+          "#fa5729",
+          "#ffc84b",
+          "#4ddb85"
+        ],
+        "text": [
+          "#000000",
+          "#222222"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": 1440
+    }
+  },
+  {
     "id": "paradedb-landing",
     "site": "ParadeDB",
     "url": "https://www.paradedb.com",
@@ -52650,6 +53121,67 @@
     }
   },
   {
+    "id": "parasite-2-0-landing",
+    "site": "Parasite 2.0",
+    "url": "http://www.parasiteparasite.com",
+    "type": "landing",
+    "tags": [
+      "light",
+      "typewriter-project-list",
+      "giant-yellow-letters",
+      "interior-design"
+    ],
+    "note": "Projects listed in a large typewriter face with tiny captions, while a giant yellow 'P.P.' sits behind the list. A studio whose index is set like a manuscript.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/parasite-2-0-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/parasite-2-0-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Parasite 2.0",
+      "fonts": [
+        "abclaicaamono"
+      ],
+      "type": {
+        "h1": null,
+        "h2": {
+          "font": "abclaicaamono",
+          "size": 100,
+          "weight": "400",
+          "lineHeight": 1,
+          "letterSpacing": "1.19px",
+          "color": "rgb(0, 0, 0)"
+        },
+        "h3": null,
+        "body": {
+          "font": "abclaicaamono",
+          "size": 100,
+          "weight": "400",
+          "lineHeight": 1,
+          "letterSpacing": "1.19px",
+          "color": "rgb(0, 0, 0)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [],
+        "text": [
+          "#000000"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": null
+    }
+  },
+  {
     "id": "paris-agreement-landing",
     "site": "Paris Agreement",
     "url": "http://which-countries-signed-paris-agreement.com",
@@ -52720,6 +53252,77 @@
       },
       "buttons": [],
       "contentWidth": 900
+    }
+  },
+  {
+    "id": "part-architects-landing",
+    "site": "PART Architects",
+    "url": "http://part.archi",
+    "type": "landing",
+    "tags": [
+      "light",
+      "red-line-perspective",
+      "research-practice",
+      "frame-borders"
+    ],
+    "note": "A red wireframe drawing of a room in perspective fills the page inside thin labelled borders. An experimental architecture practice that leads with a drawing tool, not a building.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/part-architects-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/part-architects-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "PART Architects",
+      "fonts": [
+        "GalapagosC-Light",
+        "UCity"
+      ],
+      "type": {
+        "h1": {
+          "font": "GalapagosC-Light",
+          "size": 101,
+          "weight": "400",
+          "lineHeight": 1.07,
+          "letterSpacing": "-14.4px",
+          "color": "rgb(242, 74, 60)"
+        },
+        "h2": {
+          "font": "UCity",
+          "size": 29,
+          "weight": "400",
+          "lineHeight": 1.25,
+          "letterSpacing": "normal",
+          "color": "rgb(242, 74, 60)"
+        },
+        "h3": null,
+        "body": {
+          "font": "UCity",
+          "size": 17,
+          "weight": "400",
+          "lineHeight": 1.7,
+          "letterSpacing": "normal",
+          "color": "rgb(242, 74, 60)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#ffffff"
+        ],
+        "text": [
+          "#f24a3c"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": 700
     }
   },
   {
@@ -64014,6 +64617,81 @@
     }
   },
   {
+    "id": "spacecadet-landing",
+    "site": "Spacecadet",
+    "url": "https://spacecadet.ventures",
+    "type": "landing",
+    "tags": [
+      "dark",
+      "orbit-logo",
+      "orange-star",
+      "wide-caps",
+      "venture-fund"
+    ],
+    "note": "An orbit drawing with an orange star around the name, then 'WE INVEST IN SPACECADETS' in wide caps. A marketing VC built as a space mission patch.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/spacecadet-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/spacecadet-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Spacecadet - The Marketing VC",
+      "fonts": [
+        "F37-Bolton",
+        "NB-Architekt"
+      ],
+      "type": {
+        "h1": {
+          "font": "NB-Architekt",
+          "size": 112,
+          "weight": "700",
+          "lineHeight": 0.9,
+          "letterSpacing": "0.16px",
+          "color": "rgb(212, 212, 212)"
+        },
+        "h2": null,
+        "h3": {
+          "font": "NB-Architekt",
+          "size": 40,
+          "weight": "700",
+          "lineHeight": 0.9,
+          "letterSpacing": "0.16px",
+          "color": "rgb(0, 0, 0)"
+        },
+        "body": {
+          "font": "F37-Bolton",
+          "size": 16,
+          "weight": "400",
+          "lineHeight": 1.15,
+          "letterSpacing": "0.16px",
+          "color": "rgb(0, 0, 0)"
+        }
+      },
+      "colors": {
+        "background": "#000000",
+        "surfaces": [
+          "#ff5c00",
+          "#ffffff"
+        ],
+        "text": [
+          "#000000",
+          "#d4d4d4",
+          "#ffffff"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": 1440
+    }
+  },
+  {
     "id": "spacex-landing",
     "site": "SpaceX",
     "url": "https://www.spacex.com",
@@ -64462,6 +65140,67 @@
         }
       ],
       "contentWidth": 1472
+    }
+  },
+  {
+    "id": "spine-architects-landing",
+    "site": "Spine Architects",
+    "url": "http://spine-architects.com",
+    "type": "landing",
+    "tags": [
+      "light",
+      "name-as-nav",
+      "photo-mosaic",
+      "architecture"
+    ],
+    "note": "'Spine Architects / Projects, About, Contact' set as one huge headline, then a loose mosaic of photos. The name and the menu are the same line of type.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/spine-architects-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/spine-architects-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Spine Architects",
+      "fonts": [
+        "nb_akademie_stdregular"
+      ],
+      "type": {
+        "h1": {
+          "font": "nb_akademie_stdregular",
+          "size": 127,
+          "weight": "400",
+          "lineHeight": 1.07,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        },
+        "h2": null,
+        "h3": null,
+        "body": {
+          "font": "nb_akademie_stdregular",
+          "size": 24,
+          "weight": "400",
+          "lineHeight": "normal",
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [],
+        "text": [
+          "#000000"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": null
     }
   },
   {
@@ -68551,6 +69290,68 @@
           "weight": "400"
         }
       ],
+      "contentWidth": 1440
+    }
+  },
+  {
+    "id": "ted-synnott-landing",
+    "site": "Ted Synnott",
+    "url": "https://www.tedsynnott.com",
+    "type": "landing",
+    "tags": [
+      "light",
+      "product-list",
+      "name-year-rows",
+      "green-object",
+      "furniture-design"
+    ],
+    "note": "Each piece is a row: name, maker, year, one photo, a paragraph. A furniture designer's site as a catalogue raisonné.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/ted-synnott-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/ted-synnott-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Ted Synnott",
+      "fonts": [
+        "Suisseintl webm"
+      ],
+      "type": {
+        "h1": null,
+        "h2": {
+          "font": "Suisseintl webm",
+          "size": 22,
+          "weight": "400",
+          "lineHeight": 1.3,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        },
+        "h3": null,
+        "body": {
+          "font": "Suisseintl webm",
+          "size": 14,
+          "weight": "400",
+          "lineHeight": 1.4,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [],
+        "text": [
+          "#000000"
+        ]
+      },
+      "buttons": [],
       "contentWidth": 1440
     }
   },
@@ -74507,6 +75308,78 @@
     }
   },
   {
+    "id": "we-make-things-landing",
+    "site": "WE MAKE THINGS",
+    "url": "https://wemakethings.de",
+    "type": "landing",
+    "tags": [
+      "light",
+      "outlined-giant-letters",
+      "vertical-brand-columns",
+      "numbered-list",
+      "caps"
+    ],
+    "note": "Huge outlined letters behind a caps statement, then ten numbered columns with each brand name running vertically. A holding company shows its brands as a ruled index.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/we-make-things-landing-desktop.jpg",
+        "width": 1440,
+        "height": 2873
+      },
+      "mobile": {
+        "file": "screens/we-make-things-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "WE MAKE THINGS",
+      "fonts": [
+        "Maison Neue",
+        "Unzyale"
+      ],
+      "type": {
+        "h1": {
+          "font": "Maison Neue",
+          "size": 65,
+          "weight": "500",
+          "lineHeight": 1.11,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        },
+        "h2": null,
+        "h3": {
+          "font": "Maison Neue",
+          "size": 43,
+          "weight": "500",
+          "lineHeight": "normal",
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        },
+        "body": {
+          "font": "Maison Neue",
+          "size": 24,
+          "weight": "400",
+          "lineHeight": 1.33,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#ffffff"
+        ],
+        "text": [
+          "#000000"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": 1267
+    }
+  },
+  {
     "id": "webflow-landing",
     "site": "Webflow",
     "url": "https://webflow.com",
@@ -76505,6 +77378,89 @@
         }
       ],
       "contentWidth": 1312
+    }
+  },
+  {
+    "id": "zeyra-glow-landing",
+    "site": "Zeyra Glow",
+    "url": "https://zeyraglow.com",
+    "type": "landing",
+    "tags": [
+      "blue",
+      "skin-close-up",
+      "lavender-product-tiles",
+      "small-type",
+      "body-care"
+    ],
+    "note": "A close-up of a collarbone shining under blue light, then jars on lavender tiles with small prices. A body care brand that owns one colour end to end.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/zeyra-glow-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/zeyra-glow-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Zeyra Glow | Natural Body Care Products in the UAE",
+      "fonts": [
+        "TikTok Sans",
+        "Outfit"
+      ],
+      "type": {
+        "h1": {
+          "font": "TikTok Sans",
+          "size": 20,
+          "weight": "500",
+          "lineHeight": 1.1,
+          "letterSpacing": "0.2px",
+          "color": "rgb(255, 255, 255)"
+        },
+        "h2": {
+          "font": "TikTok Sans",
+          "size": 20,
+          "weight": "500",
+          "lineHeight": 0.96,
+          "letterSpacing": "0.02px",
+          "color": "rgb(5, 5, 5)"
+        },
+        "h3": {
+          "font": "TikTok Sans",
+          "size": 15,
+          "weight": "400",
+          "lineHeight": 1,
+          "letterSpacing": "normal",
+          "color": "rgb(5, 5, 5)"
+        },
+        "body": {
+          "font": "Outfit",
+          "size": 15,
+          "weight": "400",
+          "lineHeight": 1.45,
+          "letterSpacing": "normal",
+          "color": "rgb(154, 154, 154)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#ffffff",
+          "#061735"
+        ],
+        "text": [
+          "#a2a2a2",
+          "#ffffff",
+          "#050505",
+          "#000000"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": null
     }
   },
   {

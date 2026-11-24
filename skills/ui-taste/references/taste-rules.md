@@ -34,6 +34,14 @@ Measured on these pages: hero headings 54-96px with tight line height (about 1.0
 
 Take: let size and weight carry hierarchy instead of colour, boxes and icons. Monospace small caps make good eyebrows and metadata.
 
+**Type without web fonts.** When a page may not load fonts, the system stack is still a choice. Pick one with a character that fits the direction and say why:
+- Editorial or warm: `"Iowan Old Style", "Palatino Linotype", Charter, "Bitstream Charter", Georgia, serif` (Charter and Iowan are on every Mac and iPhone).
+- Geometric and precise: `"Avenir Next", Avenir, "Segoe UI Variable Display", "Century Gothic", sans-serif`.
+- Neo-grotesk with weight: `"Helvetica Neue", "Inter Display", Arial, sans-serif` at 700-800 for display, tracked tight; only when the scale is big enough to be the poster.
+- Condensed display: `"Avenir Next Condensed", "Arial Narrow", "Roboto Condensed", sans-serif` for a loud headline.
+- Technical: `ui-monospace, "SF Mono", "Cascadia Mono", Menlo, monospace` for numbers and the product's own text.
+Then make the character in scale (a 120-200px headline), weight contrast (800 against 400) and width, not in decoration.
+
 ## 5. Logos as quiet proof
 
 A single row of customer logos, monochrome, right under the hero (Linear, Vercel, Stripe, Resend, Framer). No "Trusted by" heading in 32px, no coloured logos.
@@ -157,6 +165,8 @@ Take: an event page has states (announce, early bird, live, recap) and each need
 The studios in the library (Bureau Borsche, Zak Group, Sagmeister, Gretel, Porto Rocha, Locomotive) skip the claim. The first screen is the work: a mosaic of identities in situ, one project as one big photograph with its name, or a plain index of clients. The studio's own voice is a single line or a caption.
 
 Take: for a portfolio, lead with one large piece of real work and its name, then an index (grid or text table). The studio's statement, if any, fits in one sentence.
+
+Architecture offices push the same idea further: Spine Architects sets 'Spine Architects / Projects, About, Contact' as one huge headline, the name and the menu in the same line of type; Kaan's nav is set large as the page's main typography; Ted Synnott and Marazzi Reinhardt list each work as a ruled row (name, place, year, one photo), a catalogue raisonné rather than a showreel.
 
 ## 19. Personal sites: one sentence and one move
 

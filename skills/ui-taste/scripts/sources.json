@@ -10665,5 +10665,170 @@
    "furniture"
   ],
   "note": "The name in huge white type over a pink plaster wall photo, then a product strip with each piece cut out, and a grey band with a neon-green graffiti 'VERO PRO' logo. A furniture brand that mixes Italian craft with street graphics."
+ },
+ {
+  "site": "Carrot",
+  "type": "landing",
+  "url": "https://carrot.tech",
+  "tags": [
+   "yellow",
+   "black-blob-shape",
+   "serif-headline",
+   "device-trio",
+   "waste-tech"
+  ],
+  "note": "A heavy black organic blob floats on bright yellow next to a serif headline, then three devices with dashboards. Waste software given one strange, memorable shape instead of recycling icons."
+ },
+ {
+  "site": "DDS+",
+  "type": "landing",
+  "url": "https://www.dds.plus",
+  "tags": [
+   "light",
+   "plus-list",
+   "yellow-cube-illustration",
+   "news-grid",
+   "architecture"
+  ],
+  "note": "The process is a list of plus-marked words ('+ Human scale + Share + Surprise + Not boring') beside a yellow cube on a dotted circle. An architecture office states its method as a short manifesto list."
+ },
+ {
+  "site": "Fraher",
+  "type": "landing",
+  "url": "http://fraher.co",
+  "tags": [
+   "light",
+   "serif-sentence",
+   "italic-you",
+   "film-hero",
+   "beige"
+  ],
+  "note": "'We are architects, designers, builders and you are FRAHER', the word 'you' in italic, over a film of a forest. A practice that writes the client into its name."
+ },
+ {
+  "site": "Misplaced",
+  "type": "landing",
+  "url": "http://misplaced.design",
+  "tags": [
+   "light",
+   "line-pictograms",
+   "ruled-rows",
+   "yellow-text-block",
+   "photo-book"
+  ],
+  "note": "Line drawings of misplaced landmarks sit on horizontal rules around 'Misplaced → New York', then a yellow block of story text. A photography project told with diagrams instead of photos."
+ },
+ {
+  "site": "Parasite 2.0",
+  "type": "landing",
+  "url": "http://www.parasiteparasite.com",
+  "tags": [
+   "light",
+   "typewriter-project-list",
+   "giant-yellow-letters",
+   "interior-design"
+  ],
+  "note": "Projects listed in a large typewriter face with tiny captions, while a giant yellow 'P.P.' sits behind the list. A studio whose index is set like a manuscript."
+ },
+ {
+  "site": "PART Architects",
+  "type": "landing",
+  "url": "http://part.archi",
+  "tags": [
+   "light",
+   "red-line-perspective",
+   "research-practice",
+   "frame-borders"
+  ],
+  "note": "A red wireframe drawing of a room in perspective fills the page inside thin labelled borders. An experimental architecture practice that leads with a drawing tool, not a building."
+ },
+ {
+  "site": "Parabola",
+  "type": "landing",
+  "url": "https://www.parabola.com",
+  "tags": [
+   "light",
+   "underlined-keywords",
+   "colour-panels-photo",
+   "property-developer"
+  ],
+  "note": "A sentence with 'people', 'places', 'promise' and 'philanthropy' underlined as links, over a photo of coloured exhibition panels. A developer's values set as the menu."
+ },
+ {
+  "site": "Spacecadet",
+  "type": "landing",
+  "url": "https://spacecadet.ventures",
+  "tags": [
+   "dark",
+   "orbit-logo",
+   "orange-star",
+   "wide-caps",
+   "venture-fund"
+  ],
+  "note": "An orbit drawing with an orange star around the name, then 'WE INVEST IN SPACECADETS' in wide caps. A marketing VC built as a space mission patch."
+ },
+ {
+  "site": "Spine Architects",
+  "type": "landing",
+  "url": "http://spine-architects.com",
+  "tags": [
+   "light",
+   "name-as-nav",
+   "photo-mosaic",
+   "architecture"
+  ],
+  "note": "'Spine Architects / Projects, About, Contact' set as one huge headline, then a loose mosaic of photos. The name and the menu are the same line of type."
+ },
+ {
+  "site": "Ted Synnott",
+  "type": "landing",
+  "url": "https://www.tedsynnott.com",
+  "tags": [
+   "light",
+   "product-list",
+   "name-year-rows",
+   "green-object",
+   "furniture-design"
+  ],
+  "note": "Each piece is a row: name, maker, year, one photo, a paragraph. A furniture designer's site as a catalogue raisonné."
+ },
+ {
+  "site": "WE MAKE THINGS",
+  "type": "landing",
+  "url": "https://wemakethings.de",
+  "tags": [
+   "light",
+   "outlined-giant-letters",
+   "vertical-brand-columns",
+   "numbered-list",
+   "caps"
+  ],
+  "note": "Huge outlined letters behind a caps statement, then ten numbered columns with each brand name running vertically. A holding company shows its brands as a ruled index."
+ },
+ {
+  "site": "Zeyra Glow",
+  "type": "landing",
+  "url": "https://zeyraglow.com",
+  "tags": [
+   "blue",
+   "skin-close-up",
+   "lavender-product-tiles",
+   "small-type",
+   "body-care"
+  ],
+  "note": "A close-up of a collarbone shining under blue light, then jars on lavender tiles with small prices. A body care brand that owns one colour end to end."
+ },
+ {
+  "site": "Marazzi Reinhardt",
+  "type": "landing",
+  "url": "http://www.marazzireinhardt.ch",
+  "tags": [
+   "light",
+   "forest-and-timber-split",
+   "project-list",
+   "bw-photos",
+   "architecture"
+  ],
+  "note": "A forest photo beside a timber facade, then projects as a list of small black-and-white photos with place and year. An architecture office that treats its work as an archive."
  }
 ]

@@ -67,6 +67,9 @@ The fix is not another style. It is real material: the product rendered at full 
 - [ ] The copy has a voice. Read the headline aloud: if any company in the category could say it ("Build reliable AI apps", "A new era for X teams"), rewrite it with what only this product can claim.
 - [ ] A dark page is not a design decision. Dark hero + glow + gradient blobs + logo wall is the dev-tool default (most of the dark pages rejected from the library look exactly like this); a dark page needs its own idea (a colour used with discipline like ClickHouse's yellow, a photograph like Hedra's, a voice like E2B's).
 - [ ] The page has a ground. If every section is flat white or flat dark, give it one background family from `backgrounds.md` (a duotone of the brand's photo, the customer's technical paper, a material, a painting), alternating strong and quiet.
+- [ ] The fold is not headline-left, card-right on a pale ground. That is the quiet product-first default even when the card is clever; if it is the right answer, the card must be the real product at full density and the headline must be big enough to be the poster (80px and up on desktop).
+- [ ] A faint pattern is not a ground. Ruled ledger lines, dot grids or graph paper at 5% behind everything read as wallpaper; a ground the eye notices (a colour field, a photograph, a painting, a material, a dark band) changes the page. The customer's paper works when it is the object itself (an invoice at full size, a contract with real clauses), not a texture.
+- [ ] The motif is not the concept. A tally mark, a stamp or a strike-through repeated as an icon in every section is decoration; the concept is what the page lets the visitor see or do that no other page would.
 - [ ] Stock-photo AI imagery (a smiling person holding a tablet, glowing neon panels around them) is never the hero. Use the product, a real photo, or a worked example.
 
 ## Accessibility
