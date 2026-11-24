@@ -1,5 +1,5 @@
 // The landing directions, read from the skill's own reference so the site never drifts from it.
-import { readFileSync } from "node:fs";
+import { existsSync, readFileSync } from "node:fs";
 import { resolve } from "node:path";
 import type { Item } from "./types";
 
@@ -9,6 +9,9 @@ const FILE = resolve(process.cwd(), "..", "skills", "ui-taste", "references", "l
 const plain = (s: string) => s.replace(/\*\*/g, "").replace(/`/g, "").replace(/\s+/g, " ").trim();
 
 export function getDirections(items: Item[]): Direction[] {
+  // the reference must reach the build (it is listed in neither .vercelignore nor .gitignore); if it does not,
+  // the section is left out rather than failing the whole deploy
+  if (!existsSync(FILE)) { console.warn(`directions: ${FILE} not found, section hidden`); return []; }
   const md = readFileSync(FILE, "utf8");
   const byId = new Map(items.map((x) => [x.id, x]));
   const out: Direction[] = [];

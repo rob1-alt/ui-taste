@@ -87,7 +87,7 @@ export default function Landing() {
 
         <Tools hits={hits} measured={measured} total={LIB.length} />
 
-        <Directions list={directions} />
+        {directions.length > 0 && <Directions list={directions} />}
 
         <Stats items={LIB} />
 
