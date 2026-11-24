@@ -45,7 +45,7 @@ export function Fixer() {
         </div>
       </div>
       <div className="demo-frame">
-        <div className="demo-bar" aria-hidden="true"><i /><i /><i /><span>A demo page · not a real product · placeholder visuals</span></div>
+        <div className="demo-bar" aria-hidden="true"><i /><i /><i /><span>A demo page · not a real product</span></div>
         <div className={["demo", ...[...on].map((k) => `fix-${k}`)].join(" ")} id="demo">
           <div className="d-sky" aria-hidden="true" />
           <div className="d-glow" aria-hidden="true" />
@@ -81,7 +81,7 @@ export function Fixer() {
             <div className="d-card"><span className="d-ico">🎯</span><b>Easy to Use</b><p>An intuitive interface anyone can use.</p><strong>One list of who is late</strong></div>
           </div>
         </div>
-        <p className="demo-note"><b>About the visuals.</b> The sky and hills here are drawn placeholders, the kind you would generate or shoot. ui taste does not make your visuals: it gives Claude the layout ideas (where the product sits, how the scene frames it, what goes on top), and the images come from you or an image model.</p>
+        <p className="demo-note"><b>Behind the fixed page:</b> Vincent van Gogh, <i>Wheat Field with Cypresses</i>, 1889, The Metropolitan Museum of Art, public domain. The wheat is cut out of the same painting with <code>backdrop.py</code> so it passes in front of the product. That is the image sandwich the skill builds from your own pictures; it never invents them.</p>
       </div>
     </div>
   );
