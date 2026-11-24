@@ -20,6 +20,7 @@ import argparse
 import datetime as dt
 import io
 import json
+import os
 import re
 import sys
 from pathlib import Path
@@ -32,7 +33,9 @@ from playwright.sync_api import Page, sync_playwright
 ROOT = Path(__file__).resolve().parent.parent
 LIBRARY = ROOT / "library"
 SCREENS = LIBRARY / "screens"
-INDEX = LIBRARY / "index.json"
+INDEX = Path(os.environ["UI_TASTE_INDEX"]) if os.environ.get("UI_TASTE_INDEX") else LIBRARY / "index.json"
+# ingest/capture_parallel.sh sets UI_TASTE_INDEX to a staging index per batch, so a capture can run
+# while the previous batch is reviewed; ingest/apply_review.py merges the kept screens.
 
 DESKTOP = {"width": 1440, "height": 900}
 MOBILE = {"width": 390, "height": 844}

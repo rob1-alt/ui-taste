@@ -18,6 +18,7 @@ running (index.json is rewritten).
 
 from __future__ import annotations
 
+import fcntl
 import json
 import re
 import sys
@@ -55,7 +56,17 @@ def main() -> None:
     def resolve(s):
         return s if s in entries else by_slug.get(s)
 
+    # captures write to a staging index next to the batch file (see capture_parallel.sh)
+    staged = {}
+    for b in batches:
+        st = Path(b[:-5] + "_index.json")
+        if st.exists():
+            staged |= {x["id"]: x for x in json.loads(st.read_text())}
+    lock = open(INDEX.with_suffix(".lock"), "w")
+    fcntl.flock(lock, fcntl.LOCK_EX)
     idx = json.loads(INDEX.read_text())
+    have_ids = {x["id"] for x in idx}
+    idx += [x for i, x in staged.items() if i not in have_ids and i in entries]
     ids = {x["id"] for x in idx}
     drop_ids = {resolve(s): r for s, r in drop.items() if resolve(s)}
     keep_ids = {resolve(s): v for s, v in keep.items() if resolve(s)}
@@ -71,7 +82,9 @@ def main() -> None:
     for x in idx:
         if x["id"] in keep_ids:
             x["tags"], x["note"] = keep_ids[x["id"]]
+    idx.sort(key=lambda e: (e["type"], e["site"].lower()))
     INDEX.write_text(json.dumps(idx, indent=2, ensure_ascii=False) + "\n")
+    lock.close()
 
     src = json.loads(SOURCES.read_text())
     have = {e["url"] for e in src}

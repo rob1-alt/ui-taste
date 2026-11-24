@@ -11,6 +11,7 @@ b=json.load(open(sys.argv[1])); base=sys.argv[1][:-5]
 for i in range(int(sys.argv[2])): json.dump(b[i::int(sys.argv[2])],open(f"{base}_{i}.json","w"))
 PY
 cd "$ROOT/skills/ui-taste/scripts"
+export UI_TASTE_INDEX="$DIR/${BASE}_index.json"   # staging index, merged by apply_review.py
 for i in $(seq 0 $((N-1))); do
   "$ROOT/.venv/bin/python" capture.py --batch "$DIR/${BASE}_$i.json" > "$DIR/${BASE}_$i.log" 2>&1 &
 done

@@ -521,3 +521,12 @@ https://lucide.dev	generic icon-library template
 https://onepagelove.com	generic directory grid
 https://newsroom.pinterest.com	generic newsroom
 https://httpster.net	capture failed
+https://height.app	broken (URLError) (prefilter)
+https://www.mmhmm.app	redirects off-site (airtime.com) (prefilter)
+https://shottr.cc	sale takeover (prefilter)
+https://icemenubar.app	blocked (http 403) (prefilter)
+https://glasp.co	bot wall (prefilter)
+https://atom.finance	broken (http 404) (prefilter)
+https://allagi.music	redirects off-site (allagi.webflow.io) (prefilter)
+https://www.kometatype.com	bot wall (prefilter)
+https://www.flowlife.com	sale takeover (prefilter)

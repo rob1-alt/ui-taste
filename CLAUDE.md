@@ -27,7 +27,7 @@ Before a batch, skip every URL already in `sources.json` or in `ingest/skipped.t
 
 Capture with the venv: `.venv/bin/python skills/ui-taste/scripts/capture.py --batch <file.json>` (run from `skills/ui-taste/scripts/`).
 
-Tools in `ingest/`: `capture_parallel.sh batch.json` (2 parallel shards by default, more only with spare RAM; `save_item` locks `index.json`), `review_sheet.py prefix ids...` (contact sheets, 4 screens each, for the visual review), `apply_review.py notes.txt batch.json` (tags, notes, drops, sources, skipped list). Never write `index.json` from another script while captures are running.
+Tools in `ingest/`: `gallery_queue.py` (fills `queue.json` from minimal.gallery, a human-curated source: use it instead of writing site lists by hand), `prefilter.py batch.json` (HTTP check before capture: bot walls, errors, gates, sale takeovers go straight to `skipped.tsv`), `blank_check.py ids...` (flags flat or empty captures), `commit_batch.sh msg` (commits only screens present in `index.json`), `capture_parallel.sh batch.json` (2 parallel shards by default, more only with spare RAM; `save_item` locks `index.json`), `review_sheet.py prefix ids...` (contact sheets, 4 screens each, for the visual review), `apply_review.py notes.txt batch.json` (tags, notes, drops, sources, skipped list). Captures write to a staging index next to the batch file (`nN_index.json`) and `apply_review.py` merges the kept screens under the lock, so the next batch can capture while the previous one is reviewed. The loop is described in `ingest/NIGHT.md`.
 
 Commerce sites captured during a sale period (Black Friday, end of November) are covered in banners and pop-ups: drop them and recapture outside sale weeks.
 
