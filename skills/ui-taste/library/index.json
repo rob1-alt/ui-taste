@@ -26204,6 +26204,90 @@
     }
   },
   {
+    "id": "enko-landing",
+    "site": "ENKO",
+    "url": "https://www.enko.ag",
+    "type": "landing",
+    "tags": [
+      "green",
+      "giant-condensed-caps",
+      "aerial-field-photo",
+      "colour-panels",
+      "agtech"
+    ],
+    "note": "'GROW NEW' in heavy green condensed caps over dark green, then an aerial photo of terraced crops beside a pale green panel 'A new way to protect the planet'. Crop science shown from above, as landscape.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/enko-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/enko-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "At Enko we believe that to create the future the world wants, we need to change the way the world grows.",
+      "fonts": [
+        "Söhne buch",
+        "Roobert"
+      ],
+      "type": {
+        "h1": {
+          "font": "Roobert",
+          "size": 202,
+          "weight": "500",
+          "lineHeight": 0.8,
+          "letterSpacing": "-5px",
+          "color": "rgb(136, 229, 62)"
+        },
+        "h2": {
+          "font": "Roobert",
+          "size": 64,
+          "weight": "500",
+          "lineHeight": 0.9,
+          "letterSpacing": "-0.5px",
+          "color": "rgb(0, 78, 53)"
+        },
+        "h3": {
+          "font": "Söhne buch",
+          "size": 45,
+          "weight": "400",
+          "lineHeight": 1,
+          "letterSpacing": "-0.2px",
+          "color": "rgb(0, 78, 53)"
+        },
+        "body": {
+          "font": "Söhne buch",
+          "size": 24,
+          "weight": "400",
+          "lineHeight": 1,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 78, 53)"
+        }
+      },
+      "colors": {
+        "background": "#fbf4eb",
+        "surfaces": [
+          "#004e35",
+          "#81b1ff",
+          "#dddddd",
+          "#88e53e",
+          "#c0e8c0"
+        ],
+        "text": [
+          "#004e35",
+          "#88e53e"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": 1600
+    }
+  },
+  {
     "id": "enode-landing",
     "site": "Enode",
     "url": "https://enode.com",
@@ -33154,6 +33238,103 @@
     }
   },
   {
+    "id": "gv-landing",
+    "site": "GV",
+    "url": "https://www.gv.com",
+    "type": "landing",
+    "tags": [
+      "light",
+      "parenthesised-wordmark",
+      "condensed-masthead",
+      "magazine-tiles",
+      "venture-fund"
+    ],
+    "note": "'(GOOGLE VENTURES) EST. 2009' set like a newspaper masthead in tall condensed type, then portfolio stories as magazine covers. A VC firm whose homepage reads like a publication.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/gv-landing-desktop.jpg",
+        "width": 1440,
+        "height": 900
+      },
+      "mobile": {
+        "file": "screens/gv-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "GV (Google Ventures)",
+      "fonts": [
+        "Plain-Regular",
+        "GrotzecCond-Bold",
+        "GrotzecCond-Demibold"
+      ],
+      "type": {
+        "h1": {
+          "font": "GrotzecCond-Bold",
+          "size": 207,
+          "weight": "400",
+          "lineHeight": 1,
+          "letterSpacing": "-4.14px",
+          "color": "rgb(0, 0, 0)"
+        },
+        "h2": {
+          "font": "GrotzecCond-Bold",
+          "size": 127,
+          "weight": "400",
+          "lineHeight": 0.7,
+          "letterSpacing": "normal",
+          "color": "rgb(255, 92, 57)"
+        },
+        "h3": {
+          "font": "Plain-Regular",
+          "size": 14,
+          "weight": "400",
+          "lineHeight": 1.1,
+          "letterSpacing": "0.154px",
+          "color": "rgb(0, 0, 0)"
+        },
+        "body": {
+          "font": "Plain-Regular",
+          "size": 15,
+          "weight": "400",
+          "lineHeight": 1.2,
+          "letterSpacing": "0.164736px",
+          "color": "rgb(0, 0, 0)"
+        }
+      },
+      "colors": {
+        "background": "#f6f6f3",
+        "surfaces": [
+          "#f6f6f3",
+          "#ff5c39",
+          "#c16bff"
+        ],
+        "text": [
+          "#000000",
+          "#c16bff",
+          "#ff5c39",
+          "#f6f6f3"
+        ]
+      },
+      "buttons": [
+        {
+          "label": "CULTURE & CODE",
+          "bg": "#ff5c39",
+          "color": "#f6f6f3",
+          "radius": "0px",
+          "height": 33,
+          "paddingX": 11,
+          "font": "GrotzecCond-Bold",
+          "size": 23,
+          "weight": "400"
+        }
+      ],
+      "contentWidth": 1600
+    }
+  },
+  {
     "id": "hadrian-landing",
     "site": "Hadrian",
     "url": "https://www.hadrian.co",
@@ -37187,6 +37368,85 @@
         }
       ],
       "contentWidth": 1200
+    }
+  },
+  {
+    "id": "ivory-landing",
+    "site": "Ivory",
+    "url": "https://tapbots.com/ivory",
+    "type": "landing",
+    "tags": [
+      "dark-purple",
+      "space-illustration",
+      "mascot",
+      "product-on-devices",
+      "mastodon-client"
+    ],
+    "note": "An elephant mascot in a spacesuit next to a rocket in a purple space illustration, then the app on every device. A social client sold through character and craft, the same way its maker did for Tweetbot.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/ivory-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/ivory-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Ivory for Mastodon",
+      "fonts": [
+        "-apple-system"
+      ],
+      "type": {
+        "h1": {
+          "font": "-apple-system",
+          "size": 18,
+          "weight": "400",
+          "lineHeight": 1.5,
+          "letterSpacing": "normal",
+          "color": "rgb(255, 255, 255)"
+        },
+        "h2": {
+          "font": "-apple-system",
+          "size": 20,
+          "weight": "400",
+          "lineHeight": 1.7,
+          "letterSpacing": "normal",
+          "color": "rgb(204, 204, 204)"
+        },
+        "h3": {
+          "font": "-apple-system",
+          "size": 28,
+          "weight": "600",
+          "lineHeight": 1.1,
+          "letterSpacing": "normal",
+          "color": "rgb(255, 255, 255)"
+        },
+        "body": {
+          "font": "-apple-system",
+          "size": 24,
+          "weight": "300",
+          "lineHeight": 1.4,
+          "letterSpacing": "normal",
+          "color": "rgb(205, 212, 248)"
+        }
+      },
+      "colors": {
+        "background": "#1a1a1a",
+        "surfaces": [
+          "#05050b"
+        ],
+        "text": [
+          "#cdd4f8",
+          "#ffffff"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": 900
     }
   },
   {
@@ -63333,6 +63593,124 @@
     }
   },
   {
+    "id": "sublime-landing",
+    "site": "Sublime",
+    "url": "https://sublime.app",
+    "type": "landing",
+    "tags": [
+      "light",
+      "giant-headline",
+      "3d-moss-sculpture",
+      "butterfly",
+      "whitespace"
+    ],
+    "note": "'inspiration is everywhere. and nowhere.' in heavy type above a 3D sculpture of moss-covered rock with one butterfly. An ideas app represented by a single strange object.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/sublime-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/sublime-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Sublime — A second brain with a soul",
+      "fonts": [
+        "Control Upright",
+        "Times New Roman"
+      ],
+      "type": {
+        "h1": {
+          "font": "Control Upright",
+          "size": 120,
+          "weight": "400",
+          "lineHeight": 0.9,
+          "letterSpacing": "normal",
+          "color": "rgb(24, 24, 22)"
+        },
+        "h2": {
+          "font": "Control Upright",
+          "size": 28,
+          "weight": "400",
+          "lineHeight": 1,
+          "letterSpacing": "normal",
+          "color": "rgb(144, 143, 142)"
+        },
+        "h3": {
+          "font": "Control Upright",
+          "size": 18,
+          "weight": "400",
+          "lineHeight": 1.5,
+          "letterSpacing": "-0.3375px",
+          "color": "rgb(0, 0, 0)"
+        },
+        "body": {
+          "font": "Control Upright",
+          "size": 24,
+          "weight": "400",
+          "lineHeight": 1,
+          "letterSpacing": "-0.3375px",
+          "color": "rgb(162, 158, 156)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#ffffff",
+          "#efefef",
+          "#cbffa6"
+        ],
+        "text": [
+          "#908f8e",
+          "#181816",
+          "#a29e9c",
+          "#38744d"
+        ]
+      },
+      "buttons": [
+        {
+          "label": "login",
+          "bg": "#efefef",
+          "color": "#908f8e",
+          "radius": "5px",
+          "height": 30,
+          "paddingX": 18,
+          "font": "Control Upright",
+          "size": 14,
+          "weight": "400"
+        },
+        {
+          "label": "try now",
+          "bg": "#cbffa6",
+          "color": "#38744d",
+          "radius": "5px",
+          "height": 30,
+          "paddingX": 18,
+          "font": "Control Upright",
+          "size": 14,
+          "weight": "400"
+        },
+        {
+          "label": "mute",
+          "bg": "#ffffff",
+          "color": "#908f8e",
+          "radius": "5px",
+          "height": 30,
+          "paddingX": 0,
+          "font": "Control Upright",
+          "size": 14,
+          "weight": "400"
+        }
+      ],
+      "contentWidth": 1536
+    }
+  },
+  {
     "id": "sunday-landing",
     "site": "Sunday",
     "url": "https://www.sunday.ai",
@@ -71448,6 +71826,127 @@
         }
       ],
       "contentWidth": 1600
+    }
+  },
+  {
+    "id": "wispr-flow-landing",
+    "site": "Wispr Flow",
+    "url": "https://wisprflow.ai",
+    "type": "landing",
+    "tags": [
+      "cream-and-green",
+      "serif-italic",
+      "text-trail",
+      "voice-waveform",
+      "dark-green-panel"
+    ],
+    "note": "'Don't type, just speak.' in a large serif with italics, a line of transcribed text trailing across the page into a waveform, then a dark green panel comparing 45 wpm with 220 wpm. Voice input shown as words flowing out.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/wispr-flow-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/wispr-flow-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Wispr Flow | Voice to Text Dictation & AI Notetaker",
+      "fonts": [
+        "Figtree",
+        "Eb garamond",
+        "Jetbrainsmono"
+      ],
+      "type": {
+        "h1": {
+          "font": "Eb garamond",
+          "size": 96,
+          "weight": "400",
+          "lineHeight": 0.95,
+          "letterSpacing": "-2.88px",
+          "color": "rgb(26, 26, 26)"
+        },
+        "h2": {
+          "font": "Eb garamond",
+          "size": 96,
+          "weight": "400",
+          "lineHeight": 0.95,
+          "letterSpacing": "-2.88px",
+          "color": "rgb(255, 255, 235)"
+        },
+        "h3": {
+          "font": "Eb garamond",
+          "size": 20,
+          "weight": "400",
+          "lineHeight": 0.95,
+          "letterSpacing": "normal",
+          "color": "rgb(255, 255, 235)"
+        },
+        "body": {
+          "font": "Figtree",
+          "size": 20,
+          "weight": "500",
+          "lineHeight": 1.3,
+          "letterSpacing": "normal",
+          "color": "rgb(26, 26, 26)"
+        }
+      },
+      "colors": {
+        "background": "#ffffeb",
+        "surfaces": [
+          "#034f46",
+          "#1a1a1a",
+          "#ffffeb",
+          "#f0d7ff",
+          "#e4e4d0"
+        ],
+        "text": [
+          "#1a1a1a",
+          "#ffffeb",
+          "#fffdf9",
+          "#ff6c4c"
+        ]
+      },
+      "buttons": [
+        {
+          "label": "Dictation",
+          "bg": "#fffdf9",
+          "color": "#1a1a1a",
+          "radius": "1600px",
+          "height": 32,
+          "paddingX": 16,
+          "font": "Figtree",
+          "size": 16,
+          "weight": "600"
+        },
+        {
+          "label": "Download for free",
+          "bg": "#f0d7ff",
+          "color": "#1a1a1a",
+          "radius": "8px",
+          "height": 52,
+          "paddingX": 24,
+          "font": "Figtree",
+          "size": 16,
+          "weight": "600"
+        },
+        {
+          "label": "Download for free",
+          "bg": "#f0d7ff",
+          "color": "#1a1a1a",
+          "radius": "8px",
+          "height": 52,
+          "paddingX": 24,
+          "font": "Figtree",
+          "size": 16,
+          "weight": "600"
+        }
+      ],
+      "contentWidth": 1440
     }
   },
   {

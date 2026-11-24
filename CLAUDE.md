@@ -38,3 +38,5 @@ Commerce, fashion, hotels and media sites block headless capture often (about 70
 Batch 10 (French tech, mobility, bikes, wearables) kept 7 of 50: mobility and sports-hardware sites hide behind region selectors and sale takeovers. Lean the queue toward studios, foundries, indie software, personal sites and dev tools.
 
 Feature sub-pages of companies already in the library (stripe.com/billing, notion.com/product/ai) rarely teach anything new: queue a company's homepage once, not its sub-pages.
+
+Pages that capture as "hero only" are scroll-hijacked: the document is one screen tall and the content moves inside a custom scroll engine. Re-capturing them (batch 27, 74 sites, stitched capture) recovered none: drop them. The stitched fallback in `capture.py` only helps pages that do scroll but reveal content on view.

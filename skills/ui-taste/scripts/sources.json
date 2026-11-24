@@ -10096,5 +10096,70 @@
    "event-state"
   ],
   "note": "Glowing 3D icon tiles across the top, then each day's launch on a vertical timeline with its own icon. A launch week page that stays as the record once the week is over."
+ },
+ {
+  "site": "ENKO",
+  "type": "landing",
+  "url": "https://www.enko.ag",
+  "tags": [
+   "green",
+   "giant-condensed-caps",
+   "aerial-field-photo",
+   "colour-panels",
+   "agtech"
+  ],
+  "note": "'GROW NEW' in heavy green condensed caps over dark green, then an aerial photo of terraced crops beside a pale green panel 'A new way to protect the planet'. Crop science shown from above, as landscape."
+ },
+ {
+  "site": "GV",
+  "type": "landing",
+  "url": "https://www.gv.com",
+  "tags": [
+   "light",
+   "parenthesised-wordmark",
+   "condensed-masthead",
+   "magazine-tiles",
+   "venture-fund"
+  ],
+  "note": "'(GOOGLE VENTURES) EST. 2009' set like a newspaper masthead in tall condensed type, then portfolio stories as magazine covers. A VC firm whose homepage reads like a publication."
+ },
+ {
+  "site": "Ivory",
+  "type": "landing",
+  "url": "https://tapbots.com/ivory",
+  "tags": [
+   "dark-purple",
+   "space-illustration",
+   "mascot",
+   "product-on-devices",
+   "mastodon-client"
+  ],
+  "note": "An elephant mascot in a spacesuit next to a rocket in a purple space illustration, then the app on every device. A social client sold through character and craft, the same way its maker did for Tweetbot."
+ },
+ {
+  "site": "Sublime",
+  "type": "landing",
+  "url": "https://sublime.app",
+  "tags": [
+   "light",
+   "giant-headline",
+   "3d-moss-sculpture",
+   "butterfly",
+   "whitespace"
+  ],
+  "note": "'inspiration is everywhere. and nowhere.' in heavy type above a 3D sculpture of moss-covered rock with one butterfly. An ideas app represented by a single strange object."
+ },
+ {
+  "site": "Wispr Flow",
+  "type": "landing",
+  "url": "https://wisprflow.ai",
+  "tags": [
+   "cream-and-green",
+   "serif-italic",
+   "text-trail",
+   "voice-waveform",
+   "dark-green-panel"
+  ],
+  "note": "'Don't type, just speak.' in a large serif with italics, a line of transcribed text trailing across the page into a waveform, then a dark green panel comparing 45 wpm with 220 wpm. Voice input shown as words flowing out."
  }
 ]
