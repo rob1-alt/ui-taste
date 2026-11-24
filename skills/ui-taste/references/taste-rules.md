@@ -103,6 +103,10 @@ The type foundries in the library (Commercial Type, Grilli Type, Pangram Pangram
 
 Take: when the thing you sell is visual (fonts, templates, themes, photos), give each item its own poster before any list or table, and let the item's own character set the tile's colour and image.
 
+The sample words are copy, not filler. Displaay sets "Extra chewy!" and "Post Internet" in the faces they describe; Production Type lists its serif as publishing sentences ("In Quarto Book Club", "Deluxe edition, 472 pages"); Swiss Typefaces picks "star" for the letters that show the face best; Bureau Brut's manifesto is set in its own serif. When the faces differ enough, the colour can go: 205TF and OH no Type are black and white only and still read as posters.
+
+Take: write the specimen text for the face's use and mood, never a pangram, and choose the hero word for its letterforms.
+
 ## 15. Content-led sites lead with the content
 
 Museums, magazines, publishers and studios in the library (Whitney, Tate, Cooper Hewitt, Walker, The Pudding, Rest of World, Works in Progress, Apartamento, Supergiant, Annapurna) put the thing itself first: the artwork, the essay's own chart, the cover, the game's key art. The identity lives in two or three strong moves around it (a wordmark, one colour for UI chrome, a type treatment) and never competes with the content.
@@ -120,3 +124,9 @@ Take: for hard tech, the documentary photograph of the real object is the brand.
 The luxury and heritage brands in the library (Loewe, Aman, Leica, Vitsœ, Soho House, Asket) put one object or one place in a large, carefully lit photograph and shrink the interface to small text links. Loewe shoots each bag as a sculpture on a plinth; Aman gives a misty valley the whole width; Asket colour-blocks folded garments; Vitsœ explains in plain text. None of them uses gradients, shadows, badges or icons.
 
 Take: for a premium brand, spend the budget on the photograph and on space, cut the UI to the minimum, and let one typographic voice (a thin serif, a plain grotesk) do the rest.
+
+## 18. Event pages know where the event is in its life
+
+The conference pages in the library change with the date. GitHub Universe, after the event, says "thanks-for-joining-us/" and "see-you-next-year/" (section titles written as URL paths, in the audience's own syntax); Config sells the next edition with a stage photograph and the early-bird price set as large as the headline, the full price struck through; Next.js Conf turns the agenda into a plain table with speakers' roles in mono caps.
+
+Take: an event page has states (announce, early bird, live, recap) and each needs its own first screen. Sell the room with one photograph, make the deadline or price the biggest number, and treat the agenda as data in a table, not speaker cards.

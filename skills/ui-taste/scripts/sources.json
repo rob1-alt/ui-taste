@@ -7440,5 +7440,265 @@
    "warm-palette"
   ],
   "note": "A woman riding the bike under an old stone arch, then the bike alone on a pale studio ground with spec chips and a model toggle (Cruiser / Cruiser ST). Lifestyle first, object second."
+ },
+ {
+  "site": "205TF",
+  "type": "landing",
+  "url": "https://www.205.tf",
+  "tags": [
+   "dark",
+   "type-foundry",
+   "type-as-image",
+   "tile-grid",
+   "mono-labels"
+  ],
+  "note": "Every family is a black card with its name set huge in its own face and a small dot pager; the grid is one colour so the faces alone make the difference. Restraint as specimen: no colour per font when the faces are distinct enough."
+ },
+ {
+  "site": "Buck",
+  "type": "landing",
+  "url": "https://buck.co",
+  "tags": [
+   "light",
+   "studio",
+   "work-grid",
+   "minimal",
+   "small-type"
+  ],
+  "note": "One plain sentence at top-left is the whole claim; the work below sits in a staggered grid with big holes of white and tiny two-line captions. A famous studio can afford emptiness: the gaps make each piece read as chosen, not listed."
+ },
+ {
+  "site": "Bureau Brut",
+  "type": "landing",
+  "url": "https://www.bureaubrut.com",
+  "tags": [
+   "dark",
+   "type-foundry",
+   "serif-display",
+   "manifesto",
+   "red-accent"
+  ],
+  "note": "A photo of the printed specimen book, then a coral block with the foundry's belief set big in its own serif. The manifesto is the specimen: the sentence shows the face and states the stance at once."
+ },
+ {
+  "site": "Collins Work",
+  "type": "landing",
+  "url": "https://www.wearecollins.com/work",
+  "tags": [
+   "dark",
+   "studio",
+   "work-grid",
+   "serif-headline",
+   "warm-neutrals"
+  ],
+  "note": "Warm near-black brown instead of pure black, a two-line serif claim, then tiles of very different sizes and shapes per client. The ground colour warms everything; the tile sizes give rhythm without any card chrome."
+ },
+ {
+  "site": "Displaay",
+  "type": "landing",
+  "url": "https://displaay.net",
+  "tags": [
+   "light",
+   "type-foundry",
+   "colour-blocks",
+   "tile-grid",
+   "small-type"
+  ],
+  "note": "New releases as big pastel tiles, each with a sample word that fits the face's mood (\"Extra chewy!\", \"Post Internet\"). The sample text is copywriting: pick words that perform the font's character."
+ },
+ {
+  "site": "Figma Config Recap",
+  "type": "landing",
+  "url": "https://config.figma.com/san-francisco",
+  "tags": [
+   "light",
+   "event-page",
+   "photo-hero",
+   "mono-labels",
+   "big-numbers"
+  ],
+  "note": "Mono meta (dates, place) above a full-width stage photo, then the price set as large as the headline with the struck-through full price. An event page sells the room and the deadline; the number is the CTA."
+ },
+ {
+  "site": "Fonts In Use",
+  "type": "landing",
+  "url": "https://fontsinuse.com",
+  "tags": [
+   "light",
+   "dense",
+   "archive-grid",
+   "type-as-image",
+   "editorial"
+  ],
+  "note": "An archive of photographed type in a tight grid, each tile captioned with the fonts in it. Density is the point for a reference site: small tiles, many per row, metadata in the face's own style where possible."
+ },
+ {
+  "site": "Future Fonts",
+  "type": "landing",
+  "url": "https://www.futurefonts.xyz",
+  "tags": [
+   "light",
+   "type-foundry",
+   "giant-headline",
+   "yellow-field",
+   "mono-labels"
+  ],
+  "note": "The hero is a type specimen in progress, huge and calligraphic, with a small \"type in progress\" card on top; a yellow band explains the model in mono. Show the unfinished as the product when the business is selling work in progress."
+ },
+ {
+  "site": "GitHub Universe",
+  "type": "landing",
+  "url": "https://githubuniverse.com",
+  "tags": [
+   "light",
+   "event-page",
+   "giant-wordmark",
+   "mono-labels",
+   "green-accent"
+  ],
+  "note": "Section titles are written as URL paths (\"thanks-for-joining-us/\", \"see-you-next-year/\") and the page states where the event is in its life. Borrow the audience's own syntax for headings, and redesign an event page after the event instead of leaving the sales page up."
+ },
+ {
+  "site": "Linear Readme",
+  "type": "landing",
+  "url": "https://linear.app/readme",
+  "tags": [
+   "dark",
+   "manifesto",
+   "serif-italic",
+   "text-only",
+   "illustration"
+  ],
+  "note": "A long essay in a narrow column of small grey text, chapter heads in a large serif with an italic second line, one retro computer drawing. A manifesto page should read like a book page, not a landing page: no buttons until the end."
+ },
+ {
+  "site": "ManvsMachine",
+  "type": "landing",
+  "url": "https://mvsm.com",
+  "tags": [
+   "light",
+   "studio",
+   "work-grid",
+   "full-bleed-photo",
+   "small-type"
+  ],
+  "note": "Each tile is \"Project for Client\" in white on the image itself, no card, no caption below. Naming the client inside the work turns the grid into a list of credentials."
+ },
+ {
+  "site": "OH no Type",
+  "type": "landing",
+  "url": "https://ohnotype.co",
+  "tags": [
+   "light",
+   "type-foundry",
+   "type-as-image",
+   "monochrome",
+   "dense"
+  ],
+  "note": "Black and white only, every face shown as a loud poster word or a set phrase in a loose irregular grid. Without colour, the faces' shapes carry the whole page and the foundry's humour comes through the sample words."
+ },
+ {
+  "site": "Ordinary Folk",
+  "type": "landing",
+  "url": "https://ordinaryfolk.co",
+  "tags": [
+   "light",
+   "studio",
+   "centered-headline",
+   "minimal",
+   "work-grid"
+  ],
+  "note": "A friendly greeting set large with a play button inline after the last word, then a scattered grid of work. Putting the reel button inside the sentence makes the claim and the proof one line."
+ },
+ {
+  "site": "Production Type",
+  "type": "landing",
+  "url": "https://productiontype.com",
+  "tags": [
+   "light",
+   "type-foundry",
+   "serif-display",
+   "data-table",
+   "photo-hero"
+  ],
+  "note": "Faces listed as rows of real sentences (\"In Quarto Book Club\", \"Deluxe edition, 472 pages\") with the styles in a small column on the right. Specimen text written for the face's use case (publishing, here) sells better than a pangram."
+ },
+ {
+  "site": "Stripe Atlas",
+  "type": "landing",
+  "url": "https://stripe.com/atlas",
+  "tags": [
+   "light",
+   "product-ui-hero",
+   "warm-gradient",
+   "stats-row",
+   "logo-row"
+  ],
+  "note": "An orange silk gradient behind floating product cards, then three big numbers in three colours. Stripe's sub-products share the system and change only the gradient's hue: one family, one colour per product."
+ },
+ {
+  "site": "Studio Freight",
+  "type": "landing",
+  "url": "https://www.studiofreight.com",
+  "tags": [
+   "light",
+   "studio",
+   "collage",
+   "serif-headline",
+   "short-page"
+  ],
+  "note": "One screen: a scatter of small work thumbnails around a single centred serif line. The homepage as a moodboard: no scroll, no captions, the variety of the work is the message."
+ },
+ {
+  "site": "Swiss Typefaces",
+  "type": "landing",
+  "url": "https://www.swisstypefaces.com",
+  "tags": [
+   "light",
+   "type-foundry",
+   "giant-headline",
+   "colour-blocks",
+   "red-accent"
+  ],
+  "note": "One word (\"star\") filling a red photo hero in the featured face, then a grid of exclusive faces as colour-block posters. The hero word is chosen to show the face's best letters at the largest size."
+ },
+ {
+  "site": "Toormix",
+  "type": "landing",
+  "url": "https://www.toormix.com",
+  "tags": [
+   "dark",
+   "studio",
+   "yellow-field",
+   "condensed-caps",
+   "illustration-brand"
+  ],
+  "note": "Two yellow tiles with a custom numeral and a glyph drawing, then a condensed bold statement on black. A studio with a strong drawn identity can lead with its own graphics instead of client work."
+ },
+ {
+  "site": "Typewolf",
+  "type": "landing",
+  "url": "https://www.typewolf.com",
+  "tags": [
+   "light",
+   "editorial",
+   "card-grid",
+   "serif-wordmark",
+   "pink-accent"
+  ],
+  "note": "Soft pink ground, a serif masthead, cards that each show a real site's type in use with the font names below. A reference site works when every card is the evidence and the caption is the data."
+ },
+ {
+  "site": "Vercel Conf",
+  "type": "landing",
+  "url": "https://vercel.com/conf",
+  "tags": [
+   "light",
+   "event-page",
+   "mono-labels",
+   "data-table",
+   "photo-hero"
+  ],
+  "note": "Halftone portraits with blue pixel blocks, then the sessions as a plain table with speakers in mono caps. A conference agenda is data: a table with roles in mono beats speaker cards."
  }
 ]

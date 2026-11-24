@@ -10784,6 +10784,82 @@
     }
   },
   {
+    "id": "205tf-landing",
+    "site": "205TF",
+    "url": "https://www.205.tf",
+    "type": "landing",
+    "tags": [
+      "dark",
+      "type-foundry",
+      "type-as-image",
+      "tile-grid",
+      "mono-labels"
+    ],
+    "note": "Every family is a black card with its name set huge in its own face and a small dot pager; the grid is one colour so the faces alone make the difference. Restraint as specimen: no colour per font when the faces are distinct enough.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/205tf-landing-desktop.jpg",
+        "width": 1440,
+        "height": 2389
+      },
+      "mobile": {
+        "file": "screens/205tf-landing-mobile.jpg",
+        "width": 390,
+        "height": 2153
+      }
+    },
+    "tokens": {
+      "title": "205TF",
+      "fonts": [
+        "__mm205_123aef"
+      ],
+      "type": {
+        "h1": null,
+        "h2": null,
+        "h3": null,
+        "body": {
+          "font": "__mm205_123aef",
+          "size": 15,
+          "weight": "400",
+          "lineHeight": 0.72,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        }
+      },
+      "colors": {
+        "background": "#eaeaec",
+        "surfaces": [
+          "#000000",
+          "#101010",
+          "#eaeaec",
+          "#56bc39",
+          "#ffff00"
+        ],
+        "text": [
+          "#cccccc",
+          "#000000",
+          "#808080",
+          "#ffffff"
+        ]
+      },
+      "buttons": [
+        {
+          "label": "See All Typefaces",
+          "bg": "#56bc39",
+          "color": "#ffffff",
+          "radius": "0px",
+          "height": 39,
+          "paddingX": 14,
+          "font": "__mm205_123aef",
+          "size": 15,
+          "weight": "400"
+        }
+      ],
+      "contentWidth": null
+    }
+  },
+  {
     "id": "a24-landing",
     "site": "A24",
     "url": "https://a24films.com",
@@ -15575,6 +15651,77 @@
     }
   },
   {
+    "id": "buck-landing",
+    "site": "Buck",
+    "url": "https://buck.co",
+    "type": "landing",
+    "tags": [
+      "light",
+      "studio",
+      "work-grid",
+      "minimal",
+      "small-type"
+    ],
+    "note": "One plain sentence at top-left is the whole claim; the work below sits in a staggered grid with big holes of white and tiny two-line captions. A famous studio can afford emptiness: the gaps make each piece read as chosen, not listed.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/buck-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/buck-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "BUCK",
+      "fonts": [
+        "Mabry"
+      ],
+      "type": {
+        "h1": null,
+        "h2": {
+          "font": "Mabry",
+          "size": 21,
+          "weight": "100",
+          "lineHeight": 1.4,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        },
+        "h3": {
+          "font": "Mabry",
+          "size": 52,
+          "weight": "400",
+          "lineHeight": 1,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        },
+        "body": {
+          "font": "Mabry",
+          "size": 31,
+          "weight": "100",
+          "lineHeight": 1.4,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#fbb017"
+        ],
+        "text": [
+          "#000000"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": null
+    }
+  },
+  {
     "id": "bun-landing",
     "site": "Bun",
     "url": "https://bun.sh",
@@ -15805,6 +15952,83 @@
       },
       "buttons": [],
       "contentWidth": 1210
+    }
+  },
+  {
+    "id": "bureau-brut-landing",
+    "site": "Bureau Brut",
+    "url": "https://www.bureaubrut.com",
+    "type": "landing",
+    "tags": [
+      "dark",
+      "type-foundry",
+      "serif-display",
+      "manifesto",
+      "red-accent"
+    ],
+    "note": "A photo of the printed specimen book, then a coral block with the foundry's belief set big in its own serif. The manifesto is the specimen: the sentence shows the face and states the stance at once.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/bureau-brut-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/bureau-brut-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Bureau Brut - Home",
+      "fonts": [
+        "brut-grotesque-light",
+        "font-families_brut-grotesque_brut-grotesque-bold",
+        "brut-grotesque-mono-light"
+      ],
+      "type": {
+        "h1": {
+          "font": "font-families_brut-grotesque_brut-grotesque-light",
+          "size": 20,
+          "weight": "400",
+          "lineHeight": 1.5,
+          "letterSpacing": "normal",
+          "color": "rgb(255, 255, 255)"
+        },
+        "h2": {
+          "font": "brut-grotesque-bold",
+          "size": 24,
+          "weight": "400",
+          "lineHeight": 1.33,
+          "letterSpacing": "0.2px",
+          "color": "rgb(255, 255, 255)"
+        },
+        "h3": null,
+        "body": {
+          "font": "brut-grotesque-medium",
+          "size": 18,
+          "weight": "400",
+          "lineHeight": 1.33,
+          "letterSpacing": "0.4px",
+          "color": "rgb(255, 255, 255)"
+        }
+      },
+      "colors": {
+        "background": "#000000",
+        "surfaces": [
+          "#e66450",
+          "#ffffff",
+          "#666262",
+          "#f28861"
+        ],
+        "text": [
+          "#ffffff",
+          "#000000"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": null
     }
   },
   {
@@ -17521,6 +17745,77 @@
       },
       "buttons": [],
       "contentWidth": 1440
+    }
+  },
+  {
+    "id": "collins-work-landing",
+    "site": "Collins Work",
+    "url": "https://www.wearecollins.com/work",
+    "type": "landing",
+    "tags": [
+      "dark",
+      "studio",
+      "work-grid",
+      "serif-headline",
+      "warm-neutrals"
+    ],
+    "note": "Warm near-black brown instead of pure black, a two-line serif claim, then tiles of very different sizes and shapes per client. The ground colour warms everything; the tile sizes give rhythm without any card chrome.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/collins-work-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/collins-work-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Case Studies | COLLINS",
+      "fonts": [
+        "COLLINS Graphik Web",
+        "COLLINS Portrait Text Web",
+        "Arial"
+      ],
+      "type": {
+        "h1": {
+          "font": "COLLINS Graphik Web",
+          "size": 16,
+          "weight": "400",
+          "lineHeight": 1.3,
+          "letterSpacing": "-0.16px",
+          "color": "rgb(208, 208, 200)"
+        },
+        "h2": null,
+        "h3": null,
+        "body": {
+          "font": "COLLINS Portrait Text Web",
+          "size": 36,
+          "weight": "400",
+          "lineHeight": 1.05,
+          "letterSpacing": "-0.72px",
+          "color": "rgb(248, 248, 247)"
+        }
+      },
+      "colors": {
+        "background": "#140700",
+        "surfaces": [
+          "#140700",
+          "#424242",
+          "#ffffff"
+        ],
+        "text": [
+          "#f8f8f7",
+          "#ffffff",
+          "#d0d0c8",
+          "#000000"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": null
     }
   },
   {
@@ -19966,6 +20261,151 @@
         }
       ],
       "contentWidth": 1300
+    }
+  },
+  {
+    "id": "displaay-landing",
+    "site": "Displaay",
+    "url": "https://displaay.net",
+    "type": "landing",
+    "tags": [
+      "light",
+      "type-foundry",
+      "colour-blocks",
+      "tile-grid",
+      "small-type"
+    ],
+    "note": "New releases as big pastel tiles, each with a sample word that fits the face's mood (\"Extra chewy!\", \"Post Internet\"). The sample text is copywriting: pick words that perform the font's character.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/displaay-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/displaay-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Homepage - Displaay Type Foundry",
+      "fonts": [
+        "Saans",
+        "Serrif"
+      ],
+      "type": {
+        "h1": null,
+        "h2": {
+          "font": "Saans",
+          "size": 44,
+          "weight": "600",
+          "lineHeight": 0.9,
+          "letterSpacing": "-1.1px",
+          "color": "rgb(0, 0, 0)"
+        },
+        "h3": {
+          "font": "Saans",
+          "size": 28,
+          "weight": "400",
+          "lineHeight": 1.1,
+          "letterSpacing": "-0.28px",
+          "color": "rgb(0, 0, 0)"
+        },
+        "body": {
+          "font": "Serrif",
+          "size": 21,
+          "weight": "400",
+          "lineHeight": 1.15,
+          "letterSpacing": "0.21px",
+          "color": "rgb(0, 0, 0)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#c9cac9",
+          "#a2e3ff",
+          "#ffa0ff",
+          "#000000",
+          "#b8fbff"
+        ],
+        "text": [
+          "#000000",
+          "#76756f",
+          "#ffffff"
+        ]
+      },
+      "buttons": [
+        {
+          "label": "Displaay®",
+          "bg": "#000000",
+          "color": "#ffffff",
+          "radius": "50px",
+          "height": 59,
+          "paddingX": 20,
+          "font": "Saans",
+          "size": 28,
+          "weight": "400"
+        },
+        {
+          "label": "New",
+          "bg": "#000000",
+          "color": "#ffffff",
+          "radius": "10px",
+          "height": 34,
+          "paddingX": 12,
+          "font": "Saans",
+          "size": 15,
+          "weight": "400"
+        },
+        {
+          "label": "Ask Albert",
+          "bg": "#000000",
+          "color": "#ffffff",
+          "radius": "10px",
+          "height": 34,
+          "paddingX": 12,
+          "font": "Saans",
+          "size": 15,
+          "weight": "400"
+        },
+        {
+          "label": "Trials",
+          "bg": "#000000",
+          "color": "#ffffff",
+          "radius": "10px",
+          "height": 34,
+          "paddingX": 12,
+          "font": "Saans",
+          "size": 15,
+          "weight": "400"
+        },
+        {
+          "label": "Tester",
+          "bg": "#b8fbff",
+          "color": "#000000",
+          "radius": "10px",
+          "height": 34,
+          "paddingX": 12,
+          "font": "Saans",
+          "size": 15,
+          "weight": "400"
+        },
+        {
+          "label": "Buy",
+          "bg": "#beffbd",
+          "color": "#000000",
+          "radius": "10px",
+          "height": 34,
+          "paddingX": 12,
+          "font": "Saans",
+          "size": 15,
+          "weight": "400"
+        }
+      ],
+      "contentWidth": 935
     }
   },
   {
@@ -22869,6 +23309,112 @@
     }
   },
   {
+    "id": "figma-config-recap-landing",
+    "site": "Figma Config Recap",
+    "url": "https://config.figma.com/san-francisco",
+    "type": "landing",
+    "tags": [
+      "light",
+      "event-page",
+      "photo-hero",
+      "mono-labels",
+      "big-numbers"
+    ],
+    "note": "Mono meta (dates, place) above a full-width stage photo, then the price set as large as the headline with the struck-through full price. An event page sells the room and the deadline; the number is the CTA.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/figma-config-recap-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/figma-config-recap-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Figma Config 2027 | May 25–27 in San Francisco",
+      "fonts": [
+        "figmaSans",
+        "figmaMono"
+      ],
+      "type": {
+        "h1": {
+          "font": "figmaMono",
+          "size": 16,
+          "weight": "300",
+          "lineHeight": 1.25,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        },
+        "h2": {
+          "font": "figmaSans",
+          "size": 16,
+          "weight": "300",
+          "lineHeight": 1.35,
+          "letterSpacing": "-0.16px",
+          "color": "rgb(0, 0, 0)"
+        },
+        "h3": {
+          "font": "figmaSans",
+          "size": 80,
+          "weight": "400",
+          "lineHeight": 1.1,
+          "letterSpacing": "-1.6px",
+          "color": "rgb(255, 255, 255)"
+        },
+        "body": {
+          "font": "figmaSans",
+          "size": 44,
+          "weight": "400",
+          "lineHeight": 1.15,
+          "letterSpacing": "-1.32px",
+          "color": "rgb(255, 255, 255)"
+        }
+      },
+      "colors": {
+        "background": "#131313",
+        "surfaces": [
+          "#ffffff",
+          "#131313",
+          "#000000"
+        ],
+        "text": [
+          "#000000",
+          "#ffffff",
+          "#a1a1a1"
+        ]
+      },
+      "buttons": [
+        {
+          "label": "Get tickets\nGet tickets",
+          "bg": "#000000",
+          "color": "#ffffff",
+          "radius": "0px",
+          "height": 36,
+          "paddingX": 16,
+          "font": "figmaSans",
+          "size": 16,
+          "weight": "300"
+        },
+        {
+          "label": "",
+          "bg": "#000000",
+          "color": "#ffffff",
+          "radius": "50%",
+          "height": 40,
+          "paddingX": 0,
+          "font": "figmaMono",
+          "size": 16,
+          "weight": "400"
+        }
+      ],
+      "contentWidth": 810
+    }
+  },
+  {
     "id": "figma-sites-landing",
     "site": "Figma Sites",
     "url": "https://www.figma.com/sites",
@@ -23853,6 +24399,77 @@
     }
   },
   {
+    "id": "fonts-in-use-landing",
+    "site": "Fonts In Use",
+    "url": "https://fontsinuse.com",
+    "type": "landing",
+    "tags": [
+      "light",
+      "dense",
+      "archive-grid",
+      "type-as-image",
+      "editorial"
+    ],
+    "note": "An archive of photographed type in a tight grid, each tile captioned with the fonts in it. Density is the point for a reference site: small tiles, many per row, metadata in the face's own style where possible.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/fonts-in-use-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/fonts-in-use-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Fonts In Use - Fonts In Use",
+      "fonts": [
+        "BentonSansRE",
+        "RelayCond"
+      ],
+      "type": {
+        "h1": null,
+        "h2": {
+          "font": "RelayCond",
+          "size": 36,
+          "weight": "700",
+          "lineHeight": 1,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        },
+        "h3": null,
+        "body": {
+          "font": "BentonSansRE",
+          "size": 10,
+          "weight": "400",
+          "lineHeight": 1.6,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#ffffff",
+          "#f0f0f0",
+          "#999999",
+          "#cccccc",
+          "#dddddd"
+        ],
+        "text": [
+          "#000000",
+          "#999999",
+          "#ffffff"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": 1180
+    }
+  },
+  {
     "id": "frame-io-landing",
     "site": "Frame.io",
     "url": "https://frame.io",
@@ -24368,6 +24985,114 @@
         }
       ],
       "contentWidth": 1440
+    }
+  },
+  {
+    "id": "future-fonts-landing",
+    "site": "Future Fonts",
+    "url": "https://www.futurefonts.xyz",
+    "type": "landing",
+    "tags": [
+      "light",
+      "type-foundry",
+      "giant-headline",
+      "yellow-field",
+      "mono-labels"
+    ],
+    "note": "The hero is a type specimen in progress, huge and calligraphic, with a small \"type in progress\" card on top; a yellow band explains the model in mono. Show the unfinished as the product when the business is selling work in progress.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/future-fonts-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/future-fonts-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Future Fonts",
+      "fonts": [
+        "VCTR Mono Web"
+      ],
+      "type": {
+        "h1": null,
+        "h2": {
+          "font": "VCTR Mono Web",
+          "size": 45,
+          "weight": "700",
+          "lineHeight": 1.1,
+          "letterSpacing": "normal",
+          "color": "rgb(51, 51, 51)"
+        },
+        "h3": null,
+        "body": null
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#ffd951",
+          "#ededea",
+          "#ffffff",
+          "#ffe174",
+          "#1d49ff"
+        ],
+        "text": [
+          "#333333",
+          "#878787",
+          "#ffffff"
+        ]
+      },
+      "buttons": [
+        {
+          "label": "",
+          "bg": "#333333",
+          "color": "#ffffff",
+          "radius": "3px",
+          "height": 29,
+          "paddingX": 9,
+          "font": "VCTR Mono Web",
+          "size": 13,
+          "weight": "400"
+        },
+        {
+          "label": "",
+          "bg": "#333333",
+          "color": "#ffffff",
+          "radius": "3px",
+          "height": 29,
+          "paddingX": 9,
+          "font": "VCTR Mono Web",
+          "size": 13,
+          "weight": "400"
+        },
+        {
+          "label": "",
+          "bg": "#333333",
+          "color": "#ffffff",
+          "radius": "3px",
+          "height": 29,
+          "paddingX": 9,
+          "font": "VCTR Mono Web",
+          "size": 13,
+          "weight": "400"
+        },
+        {
+          "label": "BROWSE FONTS",
+          "bg": "#1d49ff",
+          "color": "#ffffff",
+          "radius": "1904px",
+          "height": 48,
+          "paddingX": 29,
+          "font": "VCTR Mono Web",
+          "size": 19,
+          "weight": "600"
+        }
+      ],
+      "contentWidth": 806
     }
   },
   {
@@ -24949,6 +25674,97 @@
         }
       ],
       "contentWidth": 1440
+    }
+  },
+  {
+    "id": "github-universe-landing",
+    "site": "GitHub Universe",
+    "url": "https://githubuniverse.com",
+    "type": "landing",
+    "tags": [
+      "light",
+      "event-page",
+      "giant-wordmark",
+      "mono-labels",
+      "green-accent"
+    ],
+    "note": "Section titles are written as URL paths (\"thanks-for-joining-us/\", \"see-you-next-year/\") and the page states where the event is in its life. Borrow the audience's own syntax for headings, and redesign an event page after the event instead of leaving the sales page up.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/github-universe-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/github-universe-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "GitHub Universe 2026",
+      "fonts": [
+        "Mona Sans",
+        "Mona Sans Mono"
+      ],
+      "type": {
+        "h1": {
+          "font": "Mona Sans",
+          "size": 28,
+          "weight": "460",
+          "lineHeight": 1.3,
+          "letterSpacing": "normal",
+          "color": "rgb(88, 99, 91)"
+        },
+        "h2": {
+          "font": "Mona Sans",
+          "size": 56,
+          "weight": "440",
+          "lineHeight": 1.1,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        },
+        "h3": null,
+        "body": {
+          "font": "Mona Sans",
+          "size": 24,
+          "weight": "400",
+          "lineHeight": 1.4,
+          "letterSpacing": "normal",
+          "color": "rgb(88, 99, 91)"
+        }
+      },
+      "colors": {
+        "background": "#e9edec",
+        "surfaces": [
+          "#e9edec",
+          "#000000",
+          "#01b000",
+          "#08872b",
+          "#6a40ff"
+        ],
+        "text": [
+          "#58635b",
+          "#000000",
+          "#ffffff",
+          "#077a26"
+        ]
+      },
+      "buttons": [
+        {
+          "label": "Watch now",
+          "bg": "#08872b",
+          "color": "#ffffff",
+          "radius": "0px",
+          "height": 72,
+          "paddingX": 16,
+          "font": "Mona Sans",
+          "size": 16,
+          "weight": "550"
+        }
+      ],
+      "contentWidth": 1600
     }
   },
   {
@@ -31626,6 +32442,104 @@
     }
   },
   {
+    "id": "linear-readme-landing",
+    "site": "Linear Readme",
+    "url": "https://linear.app/readme",
+    "type": "landing",
+    "tags": [
+      "dark",
+      "manifesto",
+      "serif-italic",
+      "text-only",
+      "illustration"
+    ],
+    "note": "A long essay in a narrow column of small grey text, chapter heads in a large serif with an italic second line, one retro computer drawing. A manifesto page should read like a book page, not a landing page: no buttons until the end.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/linear-readme-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/linear-readme-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "README – Linear",
+      "fonts": [
+        "Inter Variable",
+        "EB Garamond"
+      ],
+      "type": {
+        "h1": {
+          "font": "EB Garamond",
+          "size": 72,
+          "weight": "400",
+          "lineHeight": 1,
+          "letterSpacing": "normal",
+          "color": "rgb(247, 248, 248)"
+        },
+        "h2": {
+          "font": "EB Garamond",
+          "size": 64,
+          "weight": "400",
+          "lineHeight": 1.13,
+          "letterSpacing": "normal",
+          "color": "rgb(247, 248, 248)"
+        },
+        "h3": {
+          "font": "EB Garamond",
+          "size": 36,
+          "weight": "400",
+          "lineHeight": 1.13,
+          "letterSpacing": "normal",
+          "color": "rgb(247, 248, 248)"
+        },
+        "body": {
+          "font": "Inter Variable",
+          "size": 16,
+          "weight": "400",
+          "lineHeight": 1.75,
+          "letterSpacing": "normal",
+          "color": "rgb(208, 214, 224)"
+        }
+      },
+      "colors": {
+        "background": "#08090a",
+        "surfaces": [
+          "#08090a",
+          "#5e6ad2",
+          "#000000",
+          "#d1eff9",
+          "#93c4e0"
+        ],
+        "text": [
+          "#d0d6e0",
+          "#8a8f98",
+          "#f7f8f8",
+          "#ffffff"
+        ]
+      },
+      "buttons": [
+        {
+          "label": "Sign up",
+          "bg": "#e5e5e6",
+          "color": "#08090a",
+          "radius": "9999px",
+          "height": 32,
+          "paddingX": 12,
+          "font": "Inter Variable",
+          "size": 13,
+          "weight": "510"
+        }
+      ],
+      "contentWidth": 1436
+    }
+  },
+  {
     "id": "lithic-landing",
     "site": "Lithic",
     "url": "https://www.lithic.com",
@@ -32960,6 +33874,89 @@
         }
       ],
       "contentWidth": 1600
+    }
+  },
+  {
+    "id": "manvsmachine-landing",
+    "site": "ManvsMachine",
+    "url": "https://mvsm.com",
+    "type": "landing",
+    "tags": [
+      "light",
+      "studio",
+      "work-grid",
+      "full-bleed-photo",
+      "small-type"
+    ],
+    "note": "Each tile is \"Project for Client\" in white on the image itself, no card, no caption below. Naming the client inside the work turns the grid into a list of credentials.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/manvsmachine-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3123
+      },
+      "mobile": {
+        "file": "screens/manvsmachine-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "ManvsMachine",
+      "fonts": [
+        "UniversusSans",
+        "a"
+      ],
+      "type": {
+        "h1": {
+          "font": "UniversusSans",
+          "size": 36,
+          "weight": "400",
+          "lineHeight": 1.11,
+          "letterSpacing": "-0.2px",
+          "color": "rgb(255, 255, 255)"
+        },
+        "h2": {
+          "font": "UniversusSans",
+          "size": 36,
+          "weight": "400",
+          "lineHeight": 1.11,
+          "letterSpacing": "-0.2px",
+          "color": "rgb(35, 31, 32)"
+        },
+        "h3": {
+          "font": "UniversusSans",
+          "size": 20,
+          "weight": "400",
+          "lineHeight": 1.4,
+          "letterSpacing": "-0.2px",
+          "color": "rgb(0, 0, 0)"
+        },
+        "body": {
+          "font": "UniversusSans",
+          "size": 36,
+          "weight": "400",
+          "lineHeight": 1.11,
+          "letterSpacing": "-0.2px",
+          "color": "rgb(35, 31, 32)"
+        }
+      },
+      "colors": {
+        "background": "#f4f4f4",
+        "surfaces": [
+          "#ffffff",
+          "#0e1adf",
+          "#f4f4f4"
+        ],
+        "text": [
+          "#ffffff",
+          "#231f20",
+          "#000000"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": null
     }
   },
   {
@@ -36446,6 +37443,73 @@
     }
   },
   {
+    "id": "oh-no-type-landing",
+    "site": "OH no Type",
+    "url": "https://ohnotype.co",
+    "type": "landing",
+    "tags": [
+      "light",
+      "type-foundry",
+      "type-as-image",
+      "monochrome",
+      "dense"
+    ],
+    "note": "Black and white only, every face shown as a loud poster word or a set phrase in a loose irregular grid. Without colour, the faces' shapes carry the whole page and the foundry's humour comes through the sample words.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/oh-no-type-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/oh-no-type-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "OH no Type Company",
+      "fonts": [
+        "Covik Sans",
+        "Vulf Mono"
+      ],
+      "type": {
+        "h1": {
+          "font": "Covik Sans",
+          "size": 16,
+          "weight": "400",
+          "lineHeight": 1.4,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        },
+        "h2": null,
+        "h3": null,
+        "body": {
+          "font": "Covik Sans",
+          "size": 16,
+          "weight": "400",
+          "lineHeight": 1.4,
+          "letterSpacing": "normal",
+          "color": "rgb(255, 255, 255)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#000000"
+        ],
+        "text": [
+          "#000000",
+          "#ffffff",
+          "#999999"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": null
+    }
+  },
+  {
     "id": "oklo-landing",
     "site": "Oklo",
     "url": "https://www.oklo.com",
@@ -37170,6 +38234,74 @@
       },
       "buttons": [],
       "contentWidth": null
+    }
+  },
+  {
+    "id": "ordinary-folk-landing",
+    "site": "Ordinary Folk",
+    "url": "https://ordinaryfolk.co",
+    "type": "landing",
+    "tags": [
+      "light",
+      "studio",
+      "centered-headline",
+      "minimal",
+      "work-grid"
+    ],
+    "note": "A friendly greeting set large with a play button inline after the last word, then a scattered grid of work. Putting the reel button inside the sentence makes the claim and the proof one line.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/ordinary-folk-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/ordinary-folk-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Ordinary Folk – Motion Design & Animation Studio, Vancouver",
+      "fonts": [
+        "Circular",
+        "Arial"
+      ],
+      "type": {
+        "h1": {
+          "font": "Circular",
+          "size": 114,
+          "weight": "500",
+          "lineHeight": 0.95,
+          "letterSpacing": "normal",
+          "color": "rgb(22, 22, 22)"
+        },
+        "h2": null,
+        "h3": null,
+        "body": {
+          "font": "Circular",
+          "size": 18,
+          "weight": "400",
+          "lineHeight": 1.4,
+          "letterSpacing": "normal",
+          "color": "rgb(22, 22, 22)"
+        }
+      },
+      "colors": {
+        "background": "#f8f8f8",
+        "surfaces": [
+          "#f8f8f8",
+          "#000000",
+          "#252324"
+        ],
+        "text": [
+          "#161616",
+          "#a2a2a2"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": 1200
     }
   },
   {
@@ -40656,6 +41788,145 @@
         }
       ],
       "contentWidth": 1366
+    }
+  },
+  {
+    "id": "production-type-landing",
+    "site": "Production Type",
+    "url": "https://productiontype.com",
+    "type": "landing",
+    "tags": [
+      "light",
+      "type-foundry",
+      "serif-display",
+      "data-table",
+      "photo-hero"
+    ],
+    "note": "Faces listed as rows of real sentences (\"In Quarto Book Club\", \"Deluxe edition, 472 pages\") with the styles in a small column on the right. Specimen text written for the face's use case (publishing, here) sells better than a pangram.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/production-type-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/production-type-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Home | Production Type",
+      "fonts": [
+        "enduro",
+        "Vendôme Nouveau Text Regular tester",
+        "Vendôme Nouveau Text Bold tester"
+      ],
+      "type": {
+        "h1": null,
+        "h2": {
+          "font": "enduro",
+          "size": 21,
+          "weight": "400",
+          "lineHeight": 1.15,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        },
+        "h3": null,
+        "body": {
+          "font": "enduro",
+          "size": 42,
+          "weight": "400",
+          "lineHeight": 1.15,
+          "letterSpacing": "-1.67619px",
+          "color": "rgb(0, 0, 0)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#ffffff",
+          "#f00000",
+          "#f2f2f2",
+          "#000000"
+        ],
+        "text": [
+          "#000000",
+          "#757575",
+          "#ffffff",
+          "#f00000"
+        ]
+      },
+      "buttons": [
+        {
+          "label": "Catalogue",
+          "bg": "#f00000",
+          "color": "#ffffff",
+          "radius": "9999px",
+          "height": 32,
+          "paddingX": 15,
+          "font": "enduro",
+          "size": 13,
+          "weight": "400"
+        },
+        {
+          "label": "Custom Fonts",
+          "bg": "#f2f2f2",
+          "color": "#000000",
+          "radius": "9999px",
+          "height": 32,
+          "paddingX": 15,
+          "font": "enduro",
+          "size": 13,
+          "weight": "400"
+        },
+        {
+          "label": "Typetester",
+          "bg": "#f2f2f2",
+          "color": "#000000",
+          "radius": "9999px",
+          "height": 32,
+          "paddingX": 15,
+          "font": "enduro",
+          "size": 13,
+          "weight": "400"
+        },
+        {
+          "label": "",
+          "bg": "#f2f2f2",
+          "color": "#000000",
+          "radius": "9999px",
+          "height": 32,
+          "paddingX": 6,
+          "font": "enduro",
+          "size": 13,
+          "weight": "500"
+        },
+        {
+          "label": "",
+          "bg": "#f2f2f2",
+          "color": "#000000",
+          "radius": "9999px",
+          "height": 32,
+          "paddingX": 6,
+          "font": "enduro",
+          "size": 13,
+          "weight": "500"
+        },
+        {
+          "label": "Cart\n0",
+          "bg": "#f2f2f2",
+          "color": "#000000",
+          "radius": "9999px",
+          "height": 32,
+          "paddingX": 15,
+          "font": "enduro",
+          "size": 13,
+          "weight": "400"
+        }
+      ],
+      "contentWidth": null
     }
   },
   {
@@ -47525,6 +48796,114 @@
     }
   },
   {
+    "id": "stripe-atlas-landing",
+    "site": "Stripe Atlas",
+    "url": "https://stripe.com/atlas",
+    "type": "landing",
+    "tags": [
+      "light",
+      "product-ui-hero",
+      "warm-gradient",
+      "stats-row",
+      "logo-row"
+    ],
+    "note": "An orange silk gradient behind floating product cards, then three big numbers in three colours. Stripe's sub-products share the system and change only the gradient's hue: one family, one colour per product.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/stripe-atlas-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/stripe-atlas-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Stripe Atlas | Startup Company Formation and Legal Documents",
+      "fonts": [
+        "sohne-var"
+      ],
+      "type": {
+        "h1": {
+          "font": "sohne-var",
+          "size": 16,
+          "weight": "400",
+          "lineHeight": "normal",
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        },
+        "h2": {
+          "font": "sohne-var",
+          "size": 32,
+          "weight": "300",
+          "lineHeight": 1.1,
+          "letterSpacing": "-0.64px",
+          "color": "rgb(6, 27, 49)"
+        },
+        "h3": {
+          "font": "sohne-var",
+          "size": 16,
+          "weight": "400",
+          "lineHeight": 1.4,
+          "letterSpacing": "normal",
+          "color": "rgb(6, 27, 49)"
+        },
+        "body": {
+          "font": "sohne-var",
+          "size": 16,
+          "weight": "300",
+          "lineHeight": 1.4,
+          "letterSpacing": "normal",
+          "color": "rgb(80, 97, 122)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#ffffff",
+          "#f8fafd",
+          "#e5edf5",
+          "#533afd",
+          "#f5f5ff"
+        ],
+        "text": [
+          "#061b31",
+          "#50617a",
+          "#64748d",
+          "#172442"
+        ]
+      },
+      "buttons": [
+        {
+          "label": "Contact sales",
+          "bg": "#533afd",
+          "color": "#ffffff",
+          "radius": "4px",
+          "height": 40,
+          "paddingX": 20,
+          "font": "sohne-var",
+          "size": 14,
+          "weight": "400"
+        },
+        {
+          "label": "Incorporate your startup",
+          "bg": "#533afd",
+          "color": "#ffffff",
+          "radius": "4px",
+          "height": 48,
+          "paddingX": 24,
+          "font": "sohne-var",
+          "size": 16,
+          "weight": "400"
+        }
+      ],
+      "contentWidth": 1298
+    }
+  },
+  {
     "id": "stripe-press-landing",
     "site": "Stripe Press",
     "url": "https://press.stripe.com",
@@ -47798,6 +49177,72 @@
         }
       ],
       "contentWidth": 1440
+    }
+  },
+  {
+    "id": "studio-freight-landing",
+    "site": "Studio Freight",
+    "url": "https://www.studiofreight.com",
+    "type": "landing",
+    "tags": [
+      "light",
+      "studio",
+      "collage",
+      "serif-headline",
+      "short-page"
+    ],
+    "note": "One screen: a scatter of small work thumbnails around a single centred serif line. The homepage as a moodboard: no scroll, no captions, the variety of the work is the message.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/studio-freight-landing-desktop.jpg",
+        "width": 1440,
+        "height": 900
+      },
+      "mobile": {
+        "file": "screens/studio-freight-landing-mobile.jpg",
+        "width": 390,
+        "height": 844
+      }
+    },
+    "tokens": {
+      "title": "Studio Freight",
+      "fonts": [
+        "Times New Roman",
+        "publico-text-mono-roman",
+        "jjannon-regular"
+      ],
+      "type": {
+        "h1": {
+          "font": "jjannon-regular",
+          "size": 42,
+          "weight": "400",
+          "lineHeight": 1.16,
+          "letterSpacing": "normal",
+          "color": "rgb(254, 253, 252)"
+        },
+        "h2": null,
+        "h3": null,
+        "body": {
+          "font": "publico-text-mono-roman",
+          "size": 14,
+          "weight": "400",
+          "lineHeight": 1.12,
+          "letterSpacing": "0.14px",
+          "color": "rgb(254, 253, 252)"
+        }
+      },
+      "colors": {
+        "background": "#fefdfc",
+        "surfaces": [
+          "#fefdfc"
+        ],
+        "text": [
+          "#fefdfc"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": 1416
     }
   },
   {
@@ -49018,6 +50463,158 @@
         }
       ],
       "contentWidth": 768
+    }
+  },
+  {
+    "id": "swiss-typefaces-landing",
+    "site": "Swiss Typefaces",
+    "url": "https://www.swisstypefaces.com",
+    "type": "landing",
+    "tags": [
+      "light",
+      "type-foundry",
+      "giant-headline",
+      "colour-blocks",
+      "red-accent"
+    ],
+    "note": "One word (\"star\") filling a red photo hero in the featured face, then a grid of exclusive faces as colour-block posters. The hero word is chosen to show the face's best letters at the largest size.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/swiss-typefaces-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/swiss-typefaces-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Swiss Typefaces",
+      "fonts": [
+        "Suisse Intl",
+        "Euclid Triangle",
+        "Only Extended VF Variable"
+      ],
+      "type": {
+        "h1": {
+          "font": "Only Extended VF Variable",
+          "size": 44,
+          "weight": "350",
+          "lineHeight": 1.18,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        },
+        "h2": {
+          "font": "Only Extended VF Variable",
+          "size": 28,
+          "weight": "350",
+          "lineHeight": 1.43,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        },
+        "h3": {
+          "font": "Only Extended VF Variable",
+          "size": 20,
+          "weight": "375",
+          "lineHeight": 1.5,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        },
+        "body": {
+          "font": "Euclid Triangle",
+          "size": 18,
+          "weight": "300",
+          "lineHeight": 1.56,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#f0f0f0",
+          "#f5f5f5",
+          "#ffcc02",
+          "#c4c4c4",
+          "#97a1ff"
+        ],
+        "text": [
+          "#000000",
+          "#ffffff"
+        ]
+      },
+      "buttons": [
+        {
+          "label": "Discover Only Extended",
+          "bg": "#f5f5f5",
+          "color": "#000000",
+          "radius": "17.5px",
+          "height": 35,
+          "paddingX": 22,
+          "font": "Suisse Intl",
+          "size": 12,
+          "weight": "300"
+        },
+        {
+          "label": "Discover TheW Clan",
+          "bg": "#f5f5f5",
+          "color": "#000000",
+          "radius": "17.5px",
+          "height": 35,
+          "paddingX": 22,
+          "font": "Suisse Intl",
+          "size": 12,
+          "weight": "300"
+        },
+        {
+          "label": "Discover Suisse Works",
+          "bg": "#f5f5f5",
+          "color": "#000000",
+          "radius": "17.5px",
+          "height": 35,
+          "paddingX": 22,
+          "font": "Suisse Intl",
+          "size": 12,
+          "weight": "300"
+        },
+        {
+          "label": "Discover Euclid Circular A",
+          "bg": "#f5f5f5",
+          "color": "#000000",
+          "radius": "17.5px",
+          "height": 35,
+          "paddingX": 22,
+          "font": "Suisse Intl",
+          "size": 12,
+          "weight": "300"
+        },
+        {
+          "label": "Discover NewParis Kingsize",
+          "bg": "#f5f5f5",
+          "color": "#000000",
+          "radius": "17.5px",
+          "height": 35,
+          "paddingX": 22,
+          "font": "Suisse Intl",
+          "size": 12,
+          "weight": "300"
+        },
+        {
+          "label": "Discover SangBleu Empire",
+          "bg": "#f5f5f5",
+          "color": "#000000",
+          "radius": "17.5px",
+          "height": 35,
+          "paddingX": 22,
+          "font": "Suisse Intl",
+          "size": 12,
+          "weight": "300"
+        }
+      ],
+      "contentWidth": 1440
     }
   },
   {
@@ -51013,6 +52610,96 @@
     }
   },
   {
+    "id": "toormix-landing",
+    "site": "Toormix",
+    "url": "https://www.toormix.com",
+    "type": "landing",
+    "tags": [
+      "dark",
+      "studio",
+      "yellow-field",
+      "condensed-caps",
+      "illustration-brand"
+    ],
+    "note": "Two yellow tiles with a custom numeral and a glyph drawing, then a condensed bold statement on black. A studio with a strong drawn identity can lead with its own graphics instead of client work.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/toormix-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/toormix-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Toormix, branding and design agency based in Barcelona",
+      "fonts": [
+        "gt-america-standard-regular",
+        "gt-america-mono-medium",
+        "Bandit-Variable"
+      ],
+      "type": {
+        "h1": null,
+        "h2": {
+          "font": "Bandit-Variable",
+          "size": 100,
+          "weight": "400",
+          "lineHeight": 0.8,
+          "letterSpacing": "1px",
+          "color": "rgb(0, 0, 0)"
+        },
+        "h3": {
+          "font": "Bandit-Variable",
+          "size": 290,
+          "weight": "400",
+          "lineHeight": 0.8,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        },
+        "body": {
+          "font": "gt-america-mono-medium",
+          "size": 16,
+          "weight": "400",
+          "lineHeight": 1,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#000000",
+          "#fff135",
+          "#ffffff",
+          "#cccccc"
+        ],
+        "text": [
+          "#ffffff",
+          "#000000",
+          "#fff135"
+        ]
+      },
+      "buttons": [
+        {
+          "label": "",
+          "bg": "#fff135",
+          "color": "#000000",
+          "radius": "8px",
+          "height": 40,
+          "paddingX": 0,
+          "font": "gt-america-standard-regular",
+          "size": 16,
+          "weight": "400"
+        }
+      ],
+      "contentWidth": 1440
+    }
+  },
+  {
     "id": "torqe-blue-and-hill",
     "site": "Torqe",
     "url": "(reference supplied by the user, no live URL)",
@@ -51617,6 +53304,72 @@
         }
       ],
       "contentWidth": 1100
+    }
+  },
+  {
+    "id": "typewolf-landing",
+    "site": "Typewolf",
+    "url": "https://www.typewolf.com",
+    "type": "landing",
+    "tags": [
+      "light",
+      "editorial",
+      "card-grid",
+      "serif-wordmark",
+      "pink-accent"
+    ],
+    "note": "Soft pink ground, a serif masthead, cards that each show a real site's type in use with the font names below. A reference site works when every card is the evidence and the caption is the data.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/typewolf-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/typewolf-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "What’s Trending in Type · Typewolf",
+      "fonts": [
+        "DomaineText",
+        "Dia",
+        "DomaineDisplayNarrow"
+      ],
+      "type": {
+        "h1": null,
+        "h2": {
+          "font": "DomaineDisplayNarrow",
+          "size": 42,
+          "weight": "700",
+          "lineHeight": 1.2,
+          "letterSpacing": "normal",
+          "color": "rgb(101, 74, 78)"
+        },
+        "h3": null,
+        "body": {
+          "font": "DomaineText",
+          "size": 16,
+          "weight": "400",
+          "lineHeight": 1.5,
+          "letterSpacing": "normal",
+          "color": "rgb(68, 50, 53)"
+        }
+      },
+      "colors": {
+        "background": "#e6ddde",
+        "surfaces": [],
+        "text": [
+          "#443235",
+          "#654a4e",
+          "#916a70"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": 1128
     }
   },
   {
@@ -52861,6 +54614,89 @@
         }
       ],
       "contentWidth": 1448
+    }
+  },
+  {
+    "id": "vercel-conf-landing",
+    "site": "Vercel Conf",
+    "url": "https://vercel.com/conf",
+    "type": "landing",
+    "tags": [
+      "light",
+      "event-page",
+      "mono-labels",
+      "data-table",
+      "photo-hero"
+    ],
+    "note": "Halftone portraits with blue pixel blocks, then the sessions as a plain table with speakers in mono caps. A conference agenda is data: a table with roles in mono beats speaker cards.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/vercel-conf-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/vercel-conf-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Next.js Conf 2025",
+      "fonts": [
+        "Geist Mono",
+        "Geist",
+        "GeistSans"
+      ],
+      "type": {
+        "h1": {
+          "font": "GeistSans",
+          "size": 96,
+          "weight": "500",
+          "lineHeight": 1,
+          "letterSpacing": "-4.32px",
+          "color": "rgb(23, 23, 23)"
+        },
+        "h2": null,
+        "h3": null,
+        "body": {
+          "font": "GeistSans",
+          "size": 14,
+          "weight": "400",
+          "lineHeight": 1.43,
+          "letterSpacing": "normal",
+          "color": "rgb(23, 23, 23)"
+        }
+      },
+      "colors": {
+        "background": "#fafafa",
+        "surfaces": [
+          "#fafafa",
+          "#ffffff",
+          "#000000"
+        ],
+        "text": [
+          "#171717",
+          "#4d4d4d",
+          "#0072f5",
+          "#0068d6"
+        ]
+      },
+      "buttons": [
+        {
+          "label": "Next.js 16 is available",
+          "bg": "#ffffff",
+          "color": "#171717",
+          "radius": "3.35544e+07px",
+          "height": 32,
+          "paddingX": 8,
+          "font": "Geist",
+          "size": 14,
+          "weight": "500"
+        }
+      ],
+      "contentWidth": 961
     }
   },
   {
