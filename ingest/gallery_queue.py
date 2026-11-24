@@ -90,7 +90,7 @@ def main() -> int:
     cap = int(args[args.index("--max") + 1]) if "--max" in args else 400
     per_tag = int(args[args.index("--per-tag") + 1]) if "--per-tag" in args else 120
     ids = tag_ids()
-    weak = {ids[t] for t in WEAK_TAGS if t in ids}
+    weak = set() if "--include-weak" in args else {ids[t] for t in WEAK_TAGS if t in ids}
     if "--all" in args:  # every non-offline post, untagged ones included, minus the weak tags
         lists = [posts(0, 5000, weak)]
     else:
