@@ -8928,5 +8928,227 @@
    "industrial"
   ],
   "note": "A heavy black headline over an orange halftone image of oil pumps and machinery. Enterprise software for rental and service companies shows their industrial world, printed like a poster."
+ },
+ {
+  "site": "Anècdota Rural",
+  "type": "landing",
+  "url": "https://www.anecdotarural.com",
+  "tags": [
+   "cream",
+   "giant-serif-wordmark",
+   "red-on-cream",
+   "stockist-map",
+   "olive-oil"
+  ],
+  "note": "A huge red serif wordmark across the top, then a satellite map of every shop and restaurant that sells the oil, listed beside it. A small producer proves its reach with a map, not testimonials."
+ },
+ {
+  "site": "Blaze Type",
+  "type": "landing",
+  "url": "https://learntype.eu",
+  "tags": [
+   "light",
+   "red-on-white",
+   "giant-glyph",
+   "condensed-caps",
+   "book-sale"
+  ],
+  "note": "'Learn how to design fonts like a pro' in red condensed caps over a giant red serif 'aa' pair. A type foundry sells its book with the letters themselves as the hero image."
+ },
+ {
+  "site": "Demande Spéciale",
+  "type": "landing",
+  "url": "https://demandespeciale.ca/en",
+  "tags": [
+   "light",
+   "split-serif-wordmark",
+   "poster-work",
+   "giant-name",
+   "studio"
+  ],
+  "note": "The studio's name set huge in a grey serif, split across the width, then a vivid conference poster at full size. A studio introduced by its name and one loud piece of work."
+ },
+ {
+  "site": "MICRtype",
+  "type": "landing",
+  "url": "https://www.micrtype.com",
+  "tags": [
+   "cream",
+   "single-product",
+   "inline-checkout",
+   "specimen-digits",
+   "serif-free"
+  ],
+  "note": "The MICR banking typeface's digits as the specimen, and the checkout (licence choice, price, pay button) sits right in the first screen. A one-product foundry where buying is the landing page."
+ },
+ {
+  "site": "Registered Commons",
+  "type": "landing",
+  "url": "https://registered-commons.com",
+  "tags": [
+   "light",
+   "red-serif-statement",
+   "sauna-photo",
+   "mono-captions",
+   "agency"
+  ],
+  "note": "A red serif sentence with black clauses, then a warm sauna portrait at full height with mono deliverables lists. A growth agency shows one client's world in a single photograph."
+ },
+ {
+  "site": "Sana Labs",
+  "type": "landing",
+  "url": "https://www.sanalabs.com",
+  "tags": [
+   "light",
+   "product-on-object-pile",
+   "centered-headline",
+   "logo-row",
+   "collage"
+  ],
+  "note": "The product's laptop sits on a stack of books, binders and a coffee cup under a centred headline. Enterprise AI shown on the pile of work it replaces."
+ },
+ {
+  "site": "Side Stage Ventures",
+  "type": "landing",
+  "url": "https://www.sidestage.vc",
+  "tags": [
+   "lavender",
+   "giant-caps-wordmark",
+   "sunburst",
+   "mono-caps",
+   "venture-fund"
+  ],
+  "note": "The fund's name in heavy caps across the top, then a pastel sunburst behind a mono caps sentence 'We're building the seed fund we wish we had.' A VC that reads like a record sleeve."
+ },
+ {
+  "site": "Stable Audio",
+  "type": "landing",
+  "url": "https://www.stableaudio.com",
+  "tags": [
+   "dark",
+   "prompt-as-sentence",
+   "token-chips",
+   "audio-orb",
+   "colour-tokens"
+  ],
+  "note": "The prompt is a sentence whose words are coloured editable chips ('A driving trap track with percussion, synth bass and flute, 140 BPM, 1:00') beside a playing orb. A generator's hero teaches you the prompt grammar by example."
+ },
+ {
+  "site": "Die Carz",
+  "type": "landing",
+  "url": "https://diecarz.com",
+  "tags": [
+   "orange",
+   "colour-blocks",
+   "flying-objects",
+   "app-screens",
+   "collector-app"
+  ],
+  "note": "Die-cast cars tumble across saturated orange, green and purple blocks, each block one claim with the app screen. A collector app makes the collected objects the hero, at toy scale."
+ },
+ {
+  "site": "DOC",
+  "type": "landing",
+  "url": "https://www.doc.cc",
+  "tags": [
+   "dark",
+   "photo-inside-wordmark",
+   "serif-headlines",
+   "editorial",
+   "moon-photo"
+  ],
+  "note": "The wordmark's letters hold an architecture photo, then essays with serif titles beside large black-and-white space photographs. A design publication whose logo is a frame for images."
+ },
+ {
+  "site": "How&How",
+  "type": "landing",
+  "url": "https://how.studio",
+  "tags": [
+   "cream",
+   "serif-statement",
+   "glyph-logo",
+   "underlined-places",
+   "project-cards"
+  ],
+  "note": "A serif statement with London and Los Angeles underlined, under a huge serif 'H+H' glyph drawn like a ligature. An agency's logo set big enough to be the hero image."
+ },
+ {
+  "site": "Hungry Tiger",
+  "type": "landing",
+  "url": "https://www.eathungrytiger.com",
+  "tags": [
+   "brown",
+   "orange-condensed-caps",
+   "product-jar",
+   "poster-type",
+   "food"
+  ],
+  "note": "'BOLD FLAVOR' in orange condensed caps spans the width over brown, the jar of sauce below. A food brand whose headline literally is the product promise, set like a spice label."
+ },
+ {
+  "site": "Letta",
+  "type": "landing",
+  "url": "https://www.letta.com",
+  "tags": [
+   "grey",
+   "plain-text",
+   "mono",
+   "research-lab",
+   "single-image",
+   "list-of-papers"
+  ],
+  "note": "A grey page of mono text, one orange desert photograph and a list of papers with dates. An AI research lab presents itself as a working document."
+ },
+ {
+  "site": "Material-Archiv",
+  "type": "landing",
+  "url": "https://materialarchiv.ch",
+  "tags": [
+   "dark",
+   "swatch-grid",
+   "material-library",
+   "search-first",
+   "dense-grid"
+  ],
+  "note": "A dense grid of material swatches (stone, pigment, wood, textile) under a search bar and category filters. A materials archive where every tile is a sample."
+ },
+ {
+  "site": "Niklas Rosén",
+  "type": "landing",
+  "url": "https://www.niklasrosen.se",
+  "tags": [
+   "light",
+   "project-table",
+   "year-client-type",
+   "text-index",
+   "personal"
+  ],
+  "note": "The homepage is a table of years, clients, disciplines and studios, a hundred rows long. A designer's whole career as one plain index."
+ },
+ {
+  "site": "Sunday",
+  "type": "landing",
+  "url": "https://www.sunday.ai",
+  "tags": [
+   "light",
+   "product-photo",
+   "robot-in-home",
+   "centered-headline",
+   "documentary"
+  ],
+  "note": "'Say hello to Memo' over a photograph of the home robot handling a wine glass in a real kitchen. A robot shown doing a delicate chore, not posing."
+ },
+ {
+  "site": "TeTuhi",
+  "type": "landing",
+  "url": "https://tetuhi.art",
+  "tags": [
+   "red",
+   "colour-block-grid",
+   "art-centre",
+   "photo-tiles",
+   "teal"
+  ],
+  "note": "Red, teal and blue blocks tile the page, each holding an exhibition photo, its dates and a short title. An art centre whose layout is itself a coloured composition."
  }
 ]

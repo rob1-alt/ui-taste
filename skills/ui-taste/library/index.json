@@ -13111,6 +13111,79 @@
     }
   },
   {
+    "id": "an-cdota-rural-landing",
+    "site": "Anècdota Rural",
+    "url": "https://www.anecdotarural.com",
+    "type": "landing",
+    "tags": [
+      "cream",
+      "giant-serif-wordmark",
+      "red-on-cream",
+      "stockist-map",
+      "olive-oil"
+    ],
+    "note": "A huge red serif wordmark across the top, then a satellite map of every shop and restaurant that sells the oil, listed beside it. A small producer proves its reach with a map, not testimonials.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/an-cdota-rural-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/an-cdota-rural-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Anècdota",
+      "fonts": [
+        "ivar",
+        "neueHass",
+        "Helvetica Neue"
+      ],
+      "type": {
+        "h1": null,
+        "h2": {
+          "font": "neueHass",
+          "size": 19,
+          "weight": "400",
+          "lineHeight": 1.4,
+          "letterSpacing": "normal",
+          "color": "rgb(251, 67, 41)"
+        },
+        "h3": {
+          "font": "ivar",
+          "size": 16,
+          "weight": "400",
+          "lineHeight": 1,
+          "letterSpacing": "normal",
+          "color": "rgb(251, 67, 41)"
+        },
+        "body": {
+          "font": "neueHass",
+          "size": 16,
+          "weight": "400",
+          "lineHeight": 1.2,
+          "letterSpacing": "normal",
+          "color": "rgb(251, 67, 41)"
+        }
+      },
+      "colors": {
+        "background": "#f2f1e9",
+        "surfaces": [
+          "#f2f1e9"
+        ],
+        "text": [
+          "#fb4329"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": null
+    }
+  },
+  {
     "id": "apartamento-landing",
     "site": "Apartamento",
     "url": "https://www.apartamentomagazine.com",
@@ -15827,6 +15900,86 @@
       },
       "buttons": [],
       "contentWidth": 1400
+    }
+  },
+  {
+    "id": "blaze-type-landing",
+    "site": "Blaze Type",
+    "url": "https://learntype.eu",
+    "type": "landing",
+    "tags": [
+      "light",
+      "red-on-white",
+      "giant-glyph",
+      "condensed-caps",
+      "book-sale"
+    ],
+    "note": "'Learn how to design fonts like a pro' in red condensed caps over a giant red serif 'aa' pair. A type foundry sells its book with the letters themselves as the hero image.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/blaze-type-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/blaze-type-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Blaze Type — How To Design Fonts?",
+      "fonts": [
+        "Rules Bold",
+        "Rules Regular",
+        "Nuances Condensed Black"
+      ],
+      "type": {
+        "h1": {
+          "font": "Rules Bold",
+          "size": 120,
+          "weight": "400",
+          "lineHeight": 1,
+          "letterSpacing": "-2px",
+          "color": "rgb(255, 0, 0)"
+        },
+        "h2": {
+          "font": "Nuances Condensed Black",
+          "size": 96,
+          "weight": "400",
+          "lineHeight": 1.04,
+          "letterSpacing": "normal",
+          "color": "rgb(255, 0, 0)"
+        },
+        "h3": {
+          "font": "Nuances Condensed Black",
+          "size": 48,
+          "weight": "400",
+          "lineHeight": 1,
+          "letterSpacing": "normal",
+          "color": "rgb(255, 0, 0)"
+        },
+        "body": {
+          "font": "Rules Regular",
+          "size": 20,
+          "weight": "400",
+          "lineHeight": 1.2,
+          "letterSpacing": "normal",
+          "color": "rgb(255, 0, 0)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#ffffff"
+        ],
+        "text": [
+          "#ff0000"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": 1080
     }
   },
   {
@@ -21458,6 +21611,77 @@
     }
   },
   {
+    "id": "demande-sp-ciale-landing",
+    "site": "Demande Spéciale",
+    "url": "https://demandespeciale.ca/en",
+    "type": "landing",
+    "tags": [
+      "light",
+      "split-serif-wordmark",
+      "poster-work",
+      "giant-name",
+      "studio"
+    ],
+    "note": "The studio's name set huge in a grey serif, split across the width, then a vivid conference poster at full size. A studio introduced by its name and one loud piece of work.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/demande-sp-ciale-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/demande-sp-ciale-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Demande Spéciale — design studio in Montreal",
+      "fonts": [
+        "NeueSpeciale"
+      ],
+      "type": {
+        "h1": {
+          "font": "NeueSpeciale",
+          "size": 44,
+          "weight": "600",
+          "lineHeight": 1,
+          "letterSpacing": "normal",
+          "color": "rgb(124, 124, 122)"
+        },
+        "h2": {
+          "font": "NeueSpeciale",
+          "size": 32,
+          "weight": "600",
+          "lineHeight": 1,
+          "letterSpacing": "normal",
+          "color": "rgb(124, 124, 122)"
+        },
+        "h3": null,
+        "body": {
+          "font": "NeueSpeciale",
+          "size": 16,
+          "weight": "600",
+          "lineHeight": 1,
+          "letterSpacing": "normal",
+          "color": "rgb(124, 124, 122)"
+        }
+      },
+      "colors": {
+        "background": "#f4f4f2",
+        "surfaces": [
+          "#f4f4f2"
+        ],
+        "text": [
+          "#7c7c7a"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": null
+    }
+  },
+  {
     "id": "denmu-landing",
     "site": "Denmu",
     "url": "https://denmu.com",
@@ -22061,6 +22285,104 @@
     }
   },
   {
+    "id": "die-carz-landing",
+    "site": "Die Carz",
+    "url": "https://diecarz.com",
+    "type": "landing",
+    "tags": [
+      "orange",
+      "colour-blocks",
+      "flying-objects",
+      "app-screens",
+      "collector-app"
+    ],
+    "note": "Die-cast cars tumble across saturated orange, green and purple blocks, each block one claim with the app screen. A collector app makes the collected objects the hero, at toy scale.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/die-carz-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/die-carz-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Die Carz – Diecast Car Collection Platform",
+      "fonts": [
+        "inter",
+        "Geist Mono"
+      ],
+      "type": {
+        "h1": {
+          "font": "inter",
+          "size": 96,
+          "weight": "600",
+          "lineHeight": 1,
+          "letterSpacing": "-2.88px",
+          "color": "rgb(255, 255, 255)"
+        },
+        "h2": {
+          "font": "inter",
+          "size": 64,
+          "weight": "800",
+          "lineHeight": 1,
+          "letterSpacing": "-3.2px",
+          "color": "rgb(255, 255, 255)"
+        },
+        "h3": null,
+        "body": {
+          "font": "inter",
+          "size": 30,
+          "weight": "600",
+          "lineHeight": 1.13,
+          "letterSpacing": "-0.9px",
+          "color": "rgb(255, 255, 255)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#ffffff",
+          "#2d6645"
+        ],
+        "text": [
+          "#ffffff",
+          "#171717",
+          "#82cd53"
+        ]
+      },
+      "buttons": [
+        {
+          "label": "Start your collection",
+          "bg": "#ffffff",
+          "color": "#171717",
+          "radius": "0px",
+          "height": 56,
+          "paddingX": 24,
+          "font": "inter",
+          "size": 20,
+          "weight": "700"
+        },
+        {
+          "label": "Start your collection",
+          "bg": "#ffffff",
+          "color": "#171717",
+          "radius": "0px",
+          "height": 56,
+          "paddingX": 24,
+          "font": "inter",
+          "size": 20,
+          "weight": "700"
+        }
+      ],
+      "contentWidth": 1440
+    }
+  },
+  {
     "id": "dinamo-landing",
     "site": "Dinamo",
     "url": "https://abcdinamo.com",
@@ -22453,6 +22775,86 @@
         }
       ],
       "contentWidth": 935
+    }
+  },
+  {
+    "id": "doc-landing",
+    "site": "DOC",
+    "url": "https://www.doc.cc",
+    "type": "landing",
+    "tags": [
+      "dark",
+      "photo-inside-wordmark",
+      "serif-headlines",
+      "editorial",
+      "moon-photo"
+    ],
+    "note": "The wordmark's letters hold an architecture photo, then essays with serif titles beside large black-and-white space photographs. A design publication whose logo is a frame for images.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/doc-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/doc-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "DOC",
+      "fonts": [
+        "NeueHaasGroteskText",
+        "Times NR MT W01 Regular",
+        "NeueHaasGroteskDisp"
+      ],
+      "type": {
+        "h1": null,
+        "h2": {
+          "font": "NeueHaasGroteskDisp",
+          "size": 120,
+          "weight": "400",
+          "lineHeight": 0.9,
+          "letterSpacing": "-5.76px",
+          "color": "rgb(255, 255, 255)"
+        },
+        "h3": null,
+        "body": {
+          "font": "NeueHaasGroteskText",
+          "size": 16,
+          "weight": "400",
+          "lineHeight": 1.3,
+          "letterSpacing": "normal",
+          "color": "rgb(255, 255, 255)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#000000",
+          "#ffffff"
+        ],
+        "text": [
+          "#000000",
+          "#ffffff"
+        ]
+      },
+      "buttons": [
+        {
+          "label": "Articles",
+          "bg": "#000000",
+          "color": "#ffffff",
+          "radius": "100px",
+          "height": 32,
+          "paddingX": 10,
+          "font": "NeueHaasGroteskText",
+          "size": 16,
+          "weight": "400"
+        }
+      ],
+      "contentWidth": null
     }
   },
   {
@@ -31596,6 +31998,105 @@
     }
   },
   {
+    "id": "how-how-landing",
+    "site": "How&How",
+    "url": "https://how.studio",
+    "type": "landing",
+    "tags": [
+      "cream",
+      "serif-statement",
+      "glyph-logo",
+      "underlined-places",
+      "project-cards"
+    ],
+    "note": "A serif statement with London and Los Angeles underlined, under a huge serif 'H+H' glyph drawn like a ligature. An agency's logo set big enough to be the hero image.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/how-how-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/how-how-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Branding Agency in London & Los Angeles | HOW+HOW",
+      "fonts": [
+        "Azeret Mono",
+        "wagram"
+      ],
+      "type": {
+        "h1": {
+          "font": "Azeret Mono",
+          "size": 12,
+          "weight": "360",
+          "lineHeight": 1.15,
+          "letterSpacing": "normal",
+          "color": "rgb(51, 51, 51)"
+        },
+        "h2": {
+          "font": "wagram",
+          "size": 60,
+          "weight": "300",
+          "lineHeight": 0.85,
+          "letterSpacing": "-3px",
+          "color": "rgb(51, 51, 51)"
+        },
+        "h3": null,
+        "body": {
+          "font": "Azeret Mono",
+          "size": 12,
+          "weight": "360",
+          "lineHeight": 1.15,
+          "letterSpacing": "normal",
+          "color": "rgb(102, 102, 102)"
+        }
+      },
+      "colors": {
+        "background": "#f9f8f2",
+        "surfaces": [
+          "#f9f8f2",
+          "#e0ddd2",
+          "#ecffb4"
+        ],
+        "text": [
+          "#333333",
+          "#666666",
+          "#888888"
+        ]
+      },
+      "buttons": [
+        {
+          "label": "Start a project",
+          "bg": "#ecffb4",
+          "color": "#333333",
+          "radius": "6px",
+          "height": 40,
+          "paddingX": 16,
+          "font": "Azeret Mono",
+          "size": 12,
+          "weight": "360"
+        },
+        {
+          "label": "Send us your brief",
+          "bg": "#ecffb4",
+          "color": "#333333",
+          "radius": "6px",
+          "height": 44,
+          "paddingX": 24,
+          "font": "Azeret Mono",
+          "size": 12,
+          "weight": "360"
+        }
+      ],
+      "contentWidth": 1440
+    }
+  },
+  {
     "id": "hugging-face-landing",
     "site": "Hugging Face",
     "url": "https://huggingface.co",
@@ -31987,6 +32488,147 @@
         }
       ],
       "contentWidth": 1344
+    }
+  },
+  {
+    "id": "hungry-tiger-landing",
+    "site": "Hungry Tiger",
+    "url": "https://www.eathungrytiger.com",
+    "type": "landing",
+    "tags": [
+      "brown",
+      "orange-condensed-caps",
+      "product-jar",
+      "poster-type",
+      "food"
+    ],
+    "note": "'BOLD FLAVOR' in orange condensed caps spans the width over brown, the jar of sauce below. A food brand whose headline literally is the product promise, set like a spice label.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/hungry-tiger-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/hungry-tiger-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Hungry Tiger — Bold Indian Sauces Made for Real Life",
+      "fonts": [
+        "Salmond",
+        "Graphikx"
+      ],
+      "type": {
+        "h1": {
+          "font": "Salmond",
+          "size": 213,
+          "weight": "700",
+          "lineHeight": 0.8,
+          "letterSpacing": "-4.2624px",
+          "color": "rgb(250, 174, 51)"
+        },
+        "h2": {
+          "font": "Salmond",
+          "size": 130,
+          "weight": "700",
+          "lineHeight": 0.9,
+          "letterSpacing": "-2.0736px",
+          "color": "rgb(250, 174, 51)"
+        },
+        "h3": {
+          "font": "Salmond",
+          "size": 65,
+          "weight": "700",
+          "lineHeight": 0.9,
+          "letterSpacing": "-0.324px",
+          "color": "rgb(250, 174, 51)"
+        },
+        "body": null
+      },
+      "colors": {
+        "background": "#823513",
+        "surfaces": [
+          "#823513",
+          "#faae33"
+        ],
+        "text": [
+          "#faae33",
+          "#402011"
+        ]
+      },
+      "buttons": [
+        {
+          "label": "SAUCE",
+          "bg": "#faae33",
+          "color": "#402011",
+          "radius": "1296px",
+          "height": 48,
+          "paddingX": 17,
+          "font": "Graphikx",
+          "size": 13,
+          "weight": "500"
+        },
+        {
+          "label": "ABOUT",
+          "bg": "#faae33",
+          "color": "#402011",
+          "radius": "1296px",
+          "height": 48,
+          "paddingX": 17,
+          "font": "Graphikx",
+          "size": 13,
+          "weight": "500"
+        },
+        {
+          "label": "RECIPES",
+          "bg": "#faae33",
+          "color": "#402011",
+          "radius": "1296px",
+          "height": 48,
+          "paddingX": 17,
+          "font": "Graphikx",
+          "size": 13,
+          "weight": "500"
+        },
+        {
+          "label": "GAME",
+          "bg": "#faae33",
+          "color": "#402011",
+          "radius": "1296px",
+          "height": 48,
+          "paddingX": 17,
+          "font": "Graphikx",
+          "size": 13,
+          "weight": "500"
+        },
+        {
+          "label": "CONTACT",
+          "bg": "#faae33",
+          "color": "#402011",
+          "radius": "1296px",
+          "height": 48,
+          "paddingX": 17,
+          "font": "Graphikx",
+          "size": 13,
+          "weight": "500"
+        },
+        {
+          "label": "BUY NOW",
+          "bg": "#faae33",
+          "color": "#402011",
+          "radius": "1296px",
+          "height": 50,
+          "paddingX": 17,
+          "font": "Graphikx",
+          "size": 13,
+          "weight": "500"
+        }
+      ],
+      "contentWidth": null
     }
   },
   {
@@ -35572,6 +36214,74 @@
     }
   },
   {
+    "id": "letta-landing",
+    "site": "Letta",
+    "url": "https://www.letta.com",
+    "type": "landing",
+    "tags": [
+      "grey",
+      "plain-text",
+      "mono",
+      "research-lab",
+      "single-image",
+      "list-of-papers"
+    ],
+    "note": "A grey page of mono text, one orange desert photograph and a list of papers with dates. An AI research lab presents itself as a working document.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/letta-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3309
+      },
+      "mobile": {
+        "file": "screens/letta-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Letta | Machines that learn",
+      "fonts": [
+        "Fira Code",
+        "Arial"
+      ],
+      "type": {
+        "h1": null,
+        "h2": {
+          "font": "Fira Code",
+          "size": 11,
+          "weight": "400",
+          "lineHeight": 2,
+          "letterSpacing": "0.88px",
+          "color": "color(srgb 0.12549 0.12549 0.12549 / 0.45)"
+        },
+        "h3": null,
+        "body": {
+          "font": "Fira Code",
+          "size": 13,
+          "weight": "400",
+          "lineHeight": 1.69,
+          "letterSpacing": "normal",
+          "color": "rgb(32, 32, 32)"
+        }
+      },
+      "colors": {
+        "background": "#c9cdd1",
+        "surfaces": [
+          "#0707ac",
+          "#202020"
+        ],
+        "text": [
+          "#202020",
+          "#2200cc"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": null
+    }
+  },
+  {
     "id": "levels-landing",
     "site": "Levels",
     "url": "https://www.levels.com",
@@ -38350,6 +39060,151 @@
     }
   },
   {
+    "id": "material-archiv-landing",
+    "site": "Material-Archiv",
+    "url": "https://materialarchiv.ch",
+    "type": "landing",
+    "tags": [
+      "dark",
+      "swatch-grid",
+      "material-library",
+      "search-first",
+      "dense-grid"
+    ],
+    "note": "A dense grid of material swatches (stone, pigment, wood, textile) under a search bar and category filters. A materials archive where every tile is a sample.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/material-archiv-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/material-archiv-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Material-Archiv",
+      "fonts": [
+        "Circular",
+        "Arial"
+      ],
+      "type": {
+        "h1": {
+          "font": "Circular",
+          "size": 50,
+          "weight": "700",
+          "lineHeight": 1.2,
+          "letterSpacing": "0.32px",
+          "color": "rgb(0, 0, 0)"
+        },
+        "h2": {
+          "font": "Circular",
+          "size": 16,
+          "weight": "700",
+          "lineHeight": 1.3,
+          "letterSpacing": "0.32px",
+          "color": "rgb(255, 255, 255)"
+        },
+        "h3": null,
+        "body": {
+          "font": "Circular",
+          "size": 13,
+          "weight": "400",
+          "lineHeight": 1.2,
+          "letterSpacing": "0.26px",
+          "color": "rgb(255, 255, 255)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#222222",
+          "#ffffff",
+          "#444444",
+          "#735999",
+          "#ff0000"
+        ],
+        "text": [
+          "#ffffff",
+          "#000000",
+          "#757575"
+        ]
+      },
+      "buttons": [
+        {
+          "label": "",
+          "bg": "#ffffff",
+          "color": "#000000",
+          "radius": "9999px",
+          "height": 40,
+          "paddingX": 10,
+          "font": "Circular",
+          "size": 16,
+          "weight": "300"
+        },
+        {
+          "label": "",
+          "bg": "#ffffff",
+          "color": "#ffffff",
+          "radius": "9999px",
+          "height": 50,
+          "paddingX": 15,
+          "font": "Circular",
+          "size": 16,
+          "weight": "300"
+        },
+        {
+          "label": "24",
+          "bg": "#ff0000",
+          "color": "#ffffff",
+          "radius": "10px",
+          "height": 38,
+          "paddingX": 8,
+          "font": "Arial",
+          "size": 13,
+          "weight": "400"
+        },
+        {
+          "label": "Resultate anzeigen",
+          "bg": "#ffffff",
+          "color": "#000000",
+          "radius": "0px 0px 12.8px 12.8px",
+          "height": 31,
+          "paddingX": 0,
+          "font": "Circular",
+          "size": 16,
+          "weight": "300"
+        },
+        {
+          "label": "",
+          "bg": "#ffffff",
+          "color": "#ffffff",
+          "radius": "9999px",
+          "height": 50,
+          "paddingX": 15,
+          "font": "Circular",
+          "size": 16,
+          "weight": "300"
+        },
+        {
+          "label": "0",
+          "bg": "#ffffff",
+          "color": "#222222",
+          "radius": "9999%",
+          "height": 50,
+          "paddingX": 15,
+          "font": "Circular",
+          "size": 16,
+          "weight": "300"
+        }
+      ],
+      "contentWidth": 1200
+    }
+  },
+  {
     "id": "maze-landing",
     "site": "Maze",
     "url": "https://maze.co",
@@ -38900,6 +39755,76 @@
         }
       ],
       "contentWidth": 1600
+    }
+  },
+  {
+    "id": "micrtype-landing",
+    "site": "MICRtype",
+    "url": "https://www.micrtype.com",
+    "type": "landing",
+    "tags": [
+      "cream",
+      "single-product",
+      "inline-checkout",
+      "specimen-digits",
+      "serif-free"
+    ],
+    "note": "The MICR banking typeface's digits as the specimen, and the checkout (licence choice, price, pay button) sits right in the first screen. A one-product foundry where buying is the landing page.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/micrtype-landing-desktop.jpg",
+        "width": 1440,
+        "height": 1070
+      },
+      "mobile": {
+        "file": "screens/micrtype-landing-mobile.jpg",
+        "width": 390,
+        "height": 1991
+      }
+    },
+    "tokens": {
+      "title": "MICR E-13B Font for Check Printing | MICRtype",
+      "fonts": [
+        "IBM Plex Sans",
+        "Gelasio"
+      ],
+      "type": {
+        "h1": {
+          "font": "Gelasio",
+          "size": 30,
+          "weight": "400",
+          "lineHeight": 1.25,
+          "letterSpacing": "normal",
+          "color": "lab(9.03829 1.15421 1.92859)"
+        },
+        "h2": {
+          "font": "IBM Plex Sans",
+          "size": 12,
+          "weight": "600",
+          "lineHeight": 1.33,
+          "letterSpacing": "1.2px",
+          "color": "lab(9.03829 1.15421 1.92859)"
+        },
+        "h3": null,
+        "body": {
+          "font": "IBM Plex Sans",
+          "size": 12,
+          "weight": "400",
+          "lineHeight": 1.33,
+          "letterSpacing": "0.6px",
+          "color": "lab(43.2605 1.74788 3.76555)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#a4531f"
+        ],
+        "text": []
+      },
+      "buttons": [],
+      "contentWidth": null
     }
   },
   {
@@ -41563,6 +42488,78 @@
       },
       "buttons": [],
       "contentWidth": null
+    }
+  },
+  {
+    "id": "niklas-ros-n-landing",
+    "site": "Niklas Rosén",
+    "url": "https://www.niklasrosen.se",
+    "type": "landing",
+    "tags": [
+      "light",
+      "project-table",
+      "year-client-type",
+      "text-index",
+      "personal"
+    ],
+    "note": "The homepage is a table of years, clients, disciplines and studios, a hundred rows long. A designer's whole career as one plain index.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/niklas-ros-n-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/niklas-ros-n-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Niklas Rosén",
+      "fonts": [
+        "Univers Next Pro"
+      ],
+      "type": {
+        "h1": {
+          "font": "Univers Next Pro",
+          "size": 24,
+          "weight": "400",
+          "lineHeight": 1,
+          "letterSpacing": "-0.72px",
+          "color": "rgb(26, 26, 26)"
+        },
+        "h2": {
+          "font": "Univers Next Pro",
+          "size": 24,
+          "weight": "400",
+          "lineHeight": 1,
+          "letterSpacing": "-0.72px",
+          "color": "rgb(183, 183, 183)"
+        },
+        "h3": null,
+        "body": {
+          "font": "Univers Next Pro",
+          "size": 24,
+          "weight": "400",
+          "lineHeight": 1,
+          "letterSpacing": "-0.72px",
+          "color": "rgb(26, 26, 26)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#ffffff"
+        ],
+        "text": [
+          "#1a1a1a",
+          "#b7b7b7"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": 910
     }
   },
   {
@@ -50148,6 +51145,86 @@
     }
   },
   {
+    "id": "registered-commons-landing",
+    "site": "Registered Commons",
+    "url": "https://registered-commons.com",
+    "type": "landing",
+    "tags": [
+      "light",
+      "red-serif-statement",
+      "sauna-photo",
+      "mono-captions",
+      "agency"
+    ],
+    "note": "A red serif sentence with black clauses, then a warm sauna portrait at full height with mono deliverables lists. A growth agency shows one client's world in a single photograph.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/registered-commons-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/registered-commons-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Registered Commons",
+      "fonts": [
+        "BasicCommercial",
+        "ABCSimonMonoLight"
+      ],
+      "type": {
+        "h1": {
+          "font": "BasicCommercial",
+          "size": 58,
+          "weight": "500",
+          "lineHeight": 1,
+          "letterSpacing": "-2.5%",
+          "color": "rgb(20, 20, 20)"
+        },
+        "h2": {
+          "font": "BasicCommercial",
+          "size": 58,
+          "weight": "500",
+          "lineHeight": 1,
+          "letterSpacing": "-2.5%",
+          "color": "rgb(20, 20, 20)"
+        },
+        "h3": {
+          "font": "BasicCommercial",
+          "size": 14,
+          "weight": "700",
+          "lineHeight": 0.9,
+          "letterSpacing": "normal",
+          "color": "rgb(20, 20, 20)"
+        },
+        "body": {
+          "font": "BasicCommercial",
+          "size": 14,
+          "weight": "700",
+          "lineHeight": 0.9,
+          "letterSpacing": "normal",
+          "color": "rgb(20, 20, 20)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#f5f5f5"
+        ],
+        "text": [
+          "#141414",
+          "#e8362a"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": null
+    }
+  },
+  {
     "id": "rejouice-landing",
     "site": "Rejouice",
     "url": "https://www.rejouice.com",
@@ -51929,6 +53006,116 @@
     }
   },
   {
+    "id": "sana-labs-landing",
+    "site": "Sana Labs",
+    "url": "https://www.sanalabs.com",
+    "type": "landing",
+    "tags": [
+      "light",
+      "product-on-object-pile",
+      "centered-headline",
+      "logo-row",
+      "collage"
+    ],
+    "note": "The product's laptop sits on a stack of books, binders and a coffee cup under a centred headline. Enterprise AI shown on the pile of work it replaces.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/sana-labs-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/sana-labs-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Superintelligence for work | Sana",
+      "fonts": [
+        "Sana Sans"
+      ],
+      "type": {
+        "h1": {
+          "font": "Sana Sans",
+          "size": 83,
+          "weight": "400",
+          "lineHeight": 0.95,
+          "letterSpacing": "-0.832px",
+          "color": "rgb(9, 9, 9)"
+        },
+        "h2": {
+          "font": "Sana Sans",
+          "size": 48,
+          "weight": "500",
+          "lineHeight": 1,
+          "letterSpacing": "-0.96px",
+          "color": "rgb(0, 0, 0)"
+        },
+        "h3": null,
+        "body": {
+          "font": "Sana Sans",
+          "size": 14,
+          "weight": "450",
+          "lineHeight": 1.4,
+          "letterSpacing": "-0.14px",
+          "color": "rgb(0, 0, 0)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#efefed",
+          "#ffffff",
+          "#000000",
+          "#0055ff"
+        ],
+        "text": [
+          "#000000",
+          "#090909",
+          "#ffffff"
+        ]
+      },
+      "buttons": [
+        {
+          "label": "Book an intro",
+          "bg": "#000000",
+          "color": "#ffffff",
+          "radius": "32px",
+          "height": 38,
+          "paddingX": 16,
+          "font": "Sana Sans",
+          "size": 14,
+          "weight": "450"
+        },
+        {
+          "label": "Explore",
+          "bg": "#0055ff",
+          "color": "#ffffff",
+          "radius": "32px",
+          "height": 38,
+          "paddingX": 16,
+          "font": "Sana Sans",
+          "size": 16,
+          "weight": "400"
+        },
+        {
+          "label": "Sana is now part of Workday.",
+          "bg": "#ffffff",
+          "color": "#000000",
+          "radius": "32px",
+          "height": 44,
+          "paddingX": 32,
+          "font": "Sana Sans",
+          "size": 14,
+          "weight": "450"
+        }
+      ],
+      "contentWidth": 1496
+    }
+  },
+  {
     "id": "sanity-landing",
     "site": "Sanity",
     "url": "https://www.sanity.io",
@@ -53541,6 +54728,88 @@
         }
       ],
       "contentWidth": 855
+    }
+  },
+  {
+    "id": "side-stage-ventures-landing",
+    "site": "Side Stage Ventures",
+    "url": "https://www.sidestage.vc",
+    "type": "landing",
+    "tags": [
+      "lavender",
+      "giant-caps-wordmark",
+      "sunburst",
+      "mono-caps",
+      "venture-fund"
+    ],
+    "note": "The fund's name in heavy caps across the top, then a pastel sunburst behind a mono caps sentence 'We're building the seed fund we wish we had.' A VC that reads like a record sleeve.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/side-stage-ventures-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/side-stage-ventures-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Side Stage Ventures",
+      "fonts": [
+        "Abcdiatype",
+        "Quadranttextmonotrial",
+        "Denimink"
+      ],
+      "type": {
+        "h1": {
+          "font": "Quadranttextmonotrial",
+          "size": 42,
+          "weight": "400",
+          "lineHeight": 1,
+          "letterSpacing": "-1px",
+          "color": "rgb(19, 18, 19)"
+        },
+        "h2": {
+          "font": "Quadranttextmonotrial",
+          "size": 24,
+          "weight": "400",
+          "lineHeight": 1.15,
+          "letterSpacing": "-1px",
+          "color": "rgb(253, 243, 249)"
+        },
+        "h3": {
+          "font": "Denimink",
+          "size": 32,
+          "weight": "400",
+          "lineHeight": 1.1,
+          "letterSpacing": "-1px",
+          "color": "rgb(253, 243, 249)"
+        },
+        "body": {
+          "font": "Quadranttextmonotrial",
+          "size": 24,
+          "weight": "400",
+          "lineHeight": 1.15,
+          "letterSpacing": "-1px",
+          "color": "rgb(253, 243, 249)"
+        }
+      },
+      "colors": {
+        "background": "#131213",
+        "surfaces": [
+          "#131213",
+          "#7fa5ff"
+        ],
+        "text": [
+          "#131213",
+          "#fdf3f9"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": 1520
     }
   },
   {
@@ -55365,6 +56634,115 @@
     }
   },
   {
+    "id": "stable-audio-landing",
+    "site": "Stable Audio",
+    "url": "https://www.stableaudio.com",
+    "type": "landing",
+    "tags": [
+      "dark",
+      "prompt-as-sentence",
+      "token-chips",
+      "audio-orb",
+      "colour-tokens"
+    ],
+    "note": "The prompt is a sentence whose words are coloured editable chips ('A driving trap track with percussion, synth bass and flute, 140 BPM, 1:00') beside a playing orb. A generator's hero teaches you the prompt grammar by example.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/stable-audio-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/stable-audio-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Stable Audio",
+      "fonts": [
+        "Neue Haas Grotesk Text Pro",
+        "SX Plex Mono"
+      ],
+      "type": {
+        "h1": {
+          "font": "Neue Haas Grotesk Text Pro",
+          "size": 72,
+          "weight": "600",
+          "lineHeight": 1.02,
+          "letterSpacing": "-2.52px",
+          "color": "rgb(255, 255, 255)"
+        },
+        "h2": {
+          "font": "Neue Haas Grotesk Text Pro",
+          "size": 46,
+          "weight": "600",
+          "lineHeight": 1.06,
+          "letterSpacing": "-1.38px",
+          "color": "rgb(255, 255, 255)"
+        },
+        "h3": {
+          "font": "Neue Haas Grotesk Text Pro",
+          "size": 18,
+          "weight": "600",
+          "lineHeight": 1.25,
+          "letterSpacing": "-0.18px",
+          "color": "rgb(255, 255, 255)"
+        },
+        "body": {
+          "font": "Neue Haas Grotesk Text Pro",
+          "size": 17,
+          "weight": "400",
+          "lineHeight": 1.45,
+          "letterSpacing": "-0.176px",
+          "color": "rgb(207, 205, 198)"
+        }
+      },
+      "colors": {
+        "background": "#000000",
+        "surfaces": [
+          "#000000",
+          "#0d0d0c",
+          "#0b0b0b",
+          "#141414",
+          "#9a6ebd"
+        ],
+        "text": [
+          "#cfcdc6",
+          "#ffffff",
+          "#8e8e8e",
+          "#ad6be2"
+        ]
+      },
+      "buttons": [
+        {
+          "label": "Start free",
+          "bg": "#9d4edd",
+          "color": "#000000",
+          "radius": "0px",
+          "height": 36,
+          "paddingX": 16,
+          "font": "Neue Haas Grotesk Text Pro",
+          "size": 13,
+          "weight": "600"
+        },
+        {
+          "label": "Make my mix",
+          "bg": "#9d4edd",
+          "color": "#000000",
+          "radius": "0px",
+          "height": 44,
+          "paddingX": 20,
+          "font": "Neue Haas Grotesk Text Pro",
+          "size": 15,
+          "weight": "600"
+        }
+      ],
+      "contentWidth": 1440
+    }
+  },
+  {
     "id": "stedelijk-landing",
     "site": "Stedelijk",
     "url": "https://www.stedelijk.nl",
@@ -56598,6 +57976,90 @@
       },
       "buttons": [],
       "contentWidth": 1280
+    }
+  },
+  {
+    "id": "sunday-landing",
+    "site": "Sunday",
+    "url": "https://www.sunday.ai",
+    "type": "landing",
+    "tags": [
+      "light",
+      "product-photo",
+      "robot-in-home",
+      "centered-headline",
+      "documentary"
+    ],
+    "note": "'Say hello to Memo' over a photograph of the home robot handling a wine glass in a real kitchen. A robot shown doing a delicate chore, not posing.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/sunday-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/sunday-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Sunday Robotics | The helpful robotics company",
+      "fonts": [
+        "sans",
+        "mono",
+        "helvetica neue"
+      ],
+      "type": {
+        "h1": {
+          "font": "sans",
+          "size": 120,
+          "weight": "400",
+          "lineHeight": 1,
+          "letterSpacing": "-3px",
+          "color": "rgb(26, 26, 26)"
+        },
+        "h2": {
+          "font": "sans",
+          "size": 16,
+          "weight": "400",
+          "lineHeight": 1.5,
+          "letterSpacing": "normal",
+          "color": "rgb(26, 26, 26)"
+        },
+        "h3": {
+          "font": "sans",
+          "size": 18,
+          "weight": "400",
+          "lineHeight": 1.4,
+          "letterSpacing": "normal",
+          "color": "rgb(255, 255, 255)"
+        },
+        "body": {
+          "font": "mono",
+          "size": 14,
+          "weight": "400",
+          "lineHeight": 1.43,
+          "letterSpacing": "0.35px",
+          "color": "oklch(0.556 0 0)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#ffffff",
+          "#000000",
+          "#1a1a1a"
+        ],
+        "text": [
+          "#1a1a1a",
+          "#ffffff",
+          "#000000"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": 1408
     }
   },
   {
@@ -59385,6 +60847,91 @@
         }
       ],
       "contentWidth": 765
+    }
+  },
+  {
+    "id": "tetuhi-landing",
+    "site": "TeTuhi",
+    "url": "https://tetuhi.art",
+    "type": "landing",
+    "tags": [
+      "red",
+      "colour-block-grid",
+      "art-centre",
+      "photo-tiles",
+      "teal"
+    ],
+    "note": "Red, teal and blue blocks tile the page, each holding an exhibition photo, its dates and a short title. An art centre whose layout is itself a coloured composition.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/tetuhi-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/tetuhi-landing-mobile.jpg",
+        "width": 390,
+        "height": 2405
+      }
+    },
+    "tokens": {
+      "title": "TeTuhi",
+      "fonts": [
+        "body",
+        "sans-serif"
+      ],
+      "type": {
+        "h1": {
+          "font": "body",
+          "size": 96,
+          "weight": "400",
+          "lineHeight": 0.89,
+          "letterSpacing": "-1px",
+          "color": "rgb(162, 218, 219)"
+        },
+        "h2": {
+          "font": "body",
+          "size": 96,
+          "weight": "400",
+          "lineHeight": 0.89,
+          "letterSpacing": "-1px",
+          "color": "rgb(162, 218, 219)"
+        },
+        "h3": {
+          "font": "body",
+          "size": 36,
+          "weight": "400",
+          "lineHeight": 1,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        },
+        "body": {
+          "font": "body",
+          "size": 20,
+          "weight": "400",
+          "lineHeight": 1.1,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#a2dadb",
+          "#a39473",
+          "#ed1c24",
+          "#252d8f",
+          "#000000"
+        ],
+        "text": [
+          "#000000",
+          "#a2dadb",
+          "#ffffff"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": 1152
     }
   },
   {

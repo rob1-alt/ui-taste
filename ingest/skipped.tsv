@@ -598,3 +598,36 @@ https://studio-product.com	only one image renders
 https://www.sandbar.com	newsletter popup over hero
 https://wearetwoo.com	only the hero renders
 https://type1ventures.com	generic glow hero
+https://www.friendsoffriends.com	redirects off-site (freundevonfreunden.com) (prefilter)
+https://seated.nyc	broken (RemoteDisconnected) (prefilter)
+https://www.cellag.org	redirects off-site (fromfauna.org) (prefilter)
+https://useplink.com	redirects off-site (mollie.com:443) (prefilter)
+https://stephenbarkan.com	broken (http 404) (prefilter)
+https://urbanpsychopaths.com	bot wall (cloudflare) (prefilter)
+https://innerworkhealth.com	broken (http 402) (prefilter)
+https://radicaleverything.wolffolins.com	broken (URLError) (prefilter)
+https://www.mindrop.app/en	broken (URLError) (prefilter)
+https://fugoya.com	broken (http 404) (prefilter)
+http://thesoundarchitects.com	broken (http 521) (prefilter)
+https://www.folkkombucha.dk	blank capture
+https://www.noth.in	blank capture
+https://awge.com	region modal over the shop
+https://www.behaviorai.eu	generic saas
+https://caladan.bio	generic
+https://usedropshot.com	hero video renders black
+https://frequencybreathwork.com	only the hero renders
+https://heenachung.info	most tiles never load
+https://mathiasadolfsson.dev	only the hero renders
+https://ova-investment.com	only the hero renders
+https://petrillo.studio	only the hero renders
+https://ploy.ai	generic
+https://www.sapiens.org	announcement overlay washes the page
+https://sharelocal.dev	only the terminal renders
+https://sort.to	generic
+https://atomicdust.com	generic agency
+https://www.fairetype.com	only the hero renders
+https://futureagi.com	generic
+https://hkipf.org.hk	feedback widget over text, plain
+https://www.isidor.ai	generic
+https://www.milamend.com	sale banner
+https://www.slash.com	generic dark fintech

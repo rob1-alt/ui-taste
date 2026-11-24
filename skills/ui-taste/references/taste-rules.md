@@ -18,6 +18,8 @@ Better still, let it work. Vapi's hero starts a real voice call, Firecrawl's her
 
 The smallest version is the product's output, in the hero, already personal. Beacon's promise is a date ("Find your financial independence date") and the page has the calculator that returns it; Portrait's sign-up field is prefilled with the URL you will own (portrait.so/robert); SevenGrid's copy is computed from today ("It's week 48. Six days of this week are still open."). One concrete output beats three feature cards.
 
+Two more: Stable Audio writes its prompt as a sentence whose words are coloured, editable chips ("A driving trap track with percussion, synth bass and flute, 140 BPM, 1:00"), so the hero teaches the prompt grammar by example; Micrtype, a one-typeface foundry, puts the licence picker, price and pay button in the first screen next to the digits: for a single product, buying is the landing page.
+
 ## 3. Restraint in colour
 
 Most screens use neutrals for 90% of the surface and one accent for actions: Vercel is black on #fafafa, Linear near-black with white text, Resend black with a single gradient word. Stripe is the exception that proves it: its gradient is the brand, used in one place, and everything else is white.
@@ -120,6 +122,7 @@ Museums, magazines, publishers and studios in the library (Whitney, Tate, Cooper
 Take: when the product is content, design the frame, not a hero. Let each item bring its own colour and image, keep the chrome to one brand colour and one type voice, and give dates, places and prices a consistent small metadata style.
 
 Catalogues and galleries follow the same rule. Heroicons puts the search field and the full icon grid in the first screen under one line of headline; Hoverstat's hero is today's pick, big in a browser frame with a one-line review; Minimal Gallery keeps its chrome black and its type small so the thumbnails bring all the colour. The generic version (Lucide, Iconoir, One Page Love) wraps the same inventory in a stats row, a promo bar and a plain directory grid.
+Material Archiv opens on a dense grid of material swatches under one search bar, every tile a sample; Anècdota, a small olive oil producer, lists every shop that sells it beside a satellite map instead of testimonials.
 
 ## 16. Deep tech shows the machine, at its real scale
 
