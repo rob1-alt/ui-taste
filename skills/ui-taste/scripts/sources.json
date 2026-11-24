@@ -11359,5 +11359,106 @@
    "coworking"
   ],
   "note": "'STUDIO OFFICE' in a chunky rounded display with a sun replacing the O, then rounded outlined panels with line icons ('Good vibes', 'Inspiration'). A coworking space with the charm of a 70s cafe menu."
+ },
+ {
+  "site": "A Year of Conscious Practice",
+  "type": "landing",
+  "url": "http://ayearofconsciouspractice.com",
+  "tags": [
+   "light",
+   "colour-block-tiles",
+   "photo-and-colour-grid",
+   "contributor-index",
+   "publication"
+  ],
+  "note": "Every essay is a tile: either a solid colour (orange, lime, grey, red, blue) with its title and authors, or a photo. A publication whose index is a patchwork of colour."
+ },
+ {
+  "site": "Bayport",
+  "type": "landing",
+  "url": "https://bayport.com.au",
+  "tags": [
+   "light",
+   "giant-blue-wordmark-over-city",
+   "colon-mark",
+   "property-developer"
+  ],
+  "note": "'Bayport:' in a huge blue wordmark with a dotted colon, laid over an aerial photo of a city. A property developer whose logo is placed on the land it builds on."
+ },
+ {
+  "site": "Houses Of",
+  "type": "landing",
+  "url": "https://housesof.world",
+  "tags": [
+   "peach-and-purple",
+   "giant-serif-wordmark",
+   "scattered-photo-cards",
+   "globe",
+   "photo-project"
+  ],
+  "note": "'Houses' in a huge pink serif cropping off the page, scattered house photos, then a purple globe with '324 homes from 12 places in 6 countries'. A photo project that counts its collection on a planet."
+ },
+ {
+  "site": "Humane by Design",
+  "type": "landing",
+  "url": "https://humanebydesign.com",
+  "tags": [
+   "dark",
+   "line-pattern-icons",
+   "purple-and-yellow",
+   "guidelines",
+   "ethics"
+  ],
+  "note": "Large line-pattern emblems (a fingerprint arch, a target, chevrons) in purple and yellow on black, one per article. A design-ethics guide with a consistent graphic language for each principle."
+ },
+ {
+  "site": "Samuels & Associates",
+  "type": "landing",
+  "url": "https://www.samuelsre.com",
+  "tags": [
+   "light",
+   "giant-black-wordmark",
+   "colour-text-tiles",
+   "photo-mosaic",
+   "real-estate"
+  ],
+  "note": "A dense mosaic of building photos with text tiles in coloured blocks ('It was a parking lot. Now it's a park...'), under a huge black wordmark. A developer's story told as captions between photos."
+ },
+ {
+  "site": "Simon Phipps",
+  "type": "landing",
+  "url": "https://www.simonphipps.co.uk",
+  "tags": [
+   "light",
+   "bw-brutalist-photos",
+   "condensed-masthead",
+   "photo-book"
+  ],
+  "note": "Black-and-white photos of brutalist buildings in a loose staggered grid, each with a tiny caps caption. A photographer's archive where architecture fills all the space."
+ },
+ {
+  "site": "The Internet Warriors",
+  "type": "landing",
+  "url": "https://theinternetwarriors.com",
+  "tags": [
+   "blue",
+   "giant-condensed-caps",
+   "centred-text",
+   "documentary"
+  ],
+  "note": "'THE INTERNET WARRIORS' in huge white condensed caps on electric blue, then a centred text column about the film. A documentary site made of one colour and one title."
+ },
+ {
+  "site": "Varyer",
+  "type": "landing",
+  "url": "https://www.varyer.com",
+  "tags": [
+   "teal",
+   "cyanotype-photos",
+   "serif-statement",
+   "oval-crops",
+   "brand-strategy"
+  ],
+  "note": "Teal cyanotype images cropped into ovals and circles around a long serif statement with 'quality' in italic. A brand consultancy with a print-process texture instead of stock imagery."
  }
 ]

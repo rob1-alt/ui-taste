@@ -1232,3 +1232,21 @@ https://www.stellardevelopment.eu	only partly renders
 https://suvorovabrand.fun	domain now a casino page
 https://terminal27.com	only the hero renders
 https://yuannstudio.com	only the hero renders
+http://www.bkkr.co	broken (URLError) (prefilter)
+http://y7k.com/de	broken (http 404) (prefilter)
+http://www.foreignrap.com	broken (http 503) (prefilter)
+http://intermusica.co.uk	redirects off-site (intermusica.com) (prefilter)
+https://jacobince.com	broken (http 402) (prefilter)
+https://www.felixpeault.com	bot wall (cloudflare) (prefilter)
+https://www.cobosrl.co	capture failed
+https://goldsworthystudio.com	capture failed
+https://www.iacworldwide.com	blank capture
+https://www.michelbergerhotel.com/en	blank capture
+https://www.rouserlab.com	almost empty
+https://collagecrafting.com/en	bot wall
+https://www.glein.wien	generic shop
+https://noel.fun	generic cards
+https://pawelszczypinski.com	only partly renders
+https://www.withsisterhood.com	sparse, generic
+https://www.techleap.nl	generic
+https://www.uninterrupted.com	only partly renders

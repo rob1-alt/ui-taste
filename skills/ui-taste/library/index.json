@@ -11270,6 +11270,74 @@
     }
   },
   {
+    "id": "a-year-of-conscious-practice-landing",
+    "site": "A Year of Conscious Practice",
+    "url": "http://ayearofconsciouspractice.com",
+    "type": "landing",
+    "tags": [
+      "light",
+      "colour-block-tiles",
+      "photo-and-colour-grid",
+      "contributor-index",
+      "publication"
+    ],
+    "note": "Every essay is a tile: either a solid colour (orange, lime, grey, red, blue) with its title and authors, or a photo. A publication whose index is a patchwork of colour.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/a-year-of-conscious-practice-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/a-year-of-conscious-practice-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "A Year of Conscious Practice",
+      "fonts": [
+        "Gestalt"
+      ],
+      "type": {
+        "h1": {
+          "font": "Gestalt",
+          "size": 76,
+          "weight": "400",
+          "lineHeight": "normal",
+          "letterSpacing": "1.44px",
+          "color": "rgb(0, 0, 0)"
+        },
+        "h2": {
+          "font": "Gestalt",
+          "size": 24,
+          "weight": "400",
+          "lineHeight": "normal",
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        },
+        "h3": null,
+        "body": null
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#bfbda7",
+          "#fe4814",
+          "#847e96",
+          "#d0ff71",
+          "#993333"
+        ],
+        "text": [
+          "#000000"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": null
+    }
+  },
+  {
     "id": "a24-landing",
     "site": "A24",
     "url": "https://a24films.com",
@@ -16626,6 +16694,82 @@
         }
       ],
       "contentWidth": null
+    }
+  },
+  {
+    "id": "bayport-landing",
+    "site": "Bayport",
+    "url": "https://bayport.com.au",
+    "type": "landing",
+    "tags": [
+      "light",
+      "giant-blue-wordmark-over-city",
+      "colon-mark",
+      "property-developer"
+    ],
+    "note": "'Bayport:' in a huge blue wordmark with a dotted colon, laid over an aerial photo of a city. A property developer whose logo is placed on the land it builds on.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/bayport-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/bayport-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Bayport Group",
+      "fonts": [
+        "Gordita",
+        "Helvetica Neue"
+      ],
+      "type": {
+        "h1": {
+          "font": "Gordita",
+          "size": 25,
+          "weight": "400",
+          "lineHeight": 1.2,
+          "letterSpacing": "0.2px",
+          "color": "rgb(51, 51, 51)"
+        },
+        "h2": {
+          "font": "Gordita",
+          "size": 20,
+          "weight": "400",
+          "lineHeight": 1.25,
+          "letterSpacing": "0.2px",
+          "color": "rgb(51, 51, 51)"
+        },
+        "h3": null,
+        "body": {
+          "font": "Gordita",
+          "size": 12,
+          "weight": "400",
+          "lineHeight": 1.33,
+          "letterSpacing": "0.2px",
+          "color": "rgb(255, 255, 255)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#0000ff",
+          "#f7f7f7",
+          "#ffffff"
+        ],
+        "text": [
+          "#ffffff",
+          "#bcbfbf",
+          "#333333",
+          "#0000ff"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": 1200
     }
   },
   {
@@ -38130,6 +38274,120 @@
     }
   },
   {
+    "id": "houses-of-landing",
+    "site": "Houses Of",
+    "url": "https://housesof.world",
+    "type": "landing",
+    "tags": [
+      "peach-and-purple",
+      "giant-serif-wordmark",
+      "scattered-photo-cards",
+      "globe",
+      "photo-project"
+    ],
+    "note": "'Houses' in a huge pink serif cropping off the page, scattered house photos, then a purple globe with '324 homes from 12 places in 6 countries'. A photo project that counts its collection on a planet.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/houses-of-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/houses-of-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Houses Of The World",
+      "fonts": [
+        "Garnett",
+        "Jazmin",
+        "Arial"
+      ],
+      "type": {
+        "h1": {
+          "font": "Jazmin",
+          "size": 547,
+          "weight": "200",
+          "lineHeight": 1,
+          "letterSpacing": "-21.888px",
+          "color": "rgb(255, 108, 137)"
+        },
+        "h2": {
+          "font": "Jazmin",
+          "size": 32,
+          "weight": "400",
+          "lineHeight": 1.3,
+          "letterSpacing": "normal",
+          "color": "rgb(139, 80, 178)"
+        },
+        "h3": null,
+        "body": {
+          "font": "Garnett",
+          "size": 28,
+          "weight": "200",
+          "lineHeight": 1.5,
+          "letterSpacing": "normal",
+          "color": "rgb(51, 51, 51)"
+        }
+      },
+      "colors": {
+        "background": "#3c0576",
+        "surfaces": [
+          "#633185",
+          "#ffe0c5",
+          "#fef6ef",
+          "#ffffff",
+          "#ff6c89"
+        ],
+        "text": [
+          "#fef6ef",
+          "#333333",
+          "#ffffff",
+          "#ffb3c2"
+        ]
+      },
+      "buttons": [
+        {
+          "label": "",
+          "bg": "#633185",
+          "color": "#000000",
+          "radius": "100%",
+          "height": 56,
+          "paddingX": 0,
+          "font": "Arial",
+          "size": 13,
+          "weight": "400"
+        },
+        {
+          "label": "Explore locations\nExplore locations",
+          "bg": "#ffffff",
+          "color": "#333333",
+          "radius": "900px",
+          "height": 48,
+          "paddingX": 16,
+          "font": "Garnett",
+          "size": 18,
+          "weight": "900"
+        },
+        {
+          "label": "View posters\nView posters",
+          "bg": "#ff6c89",
+          "color": "#ffffff",
+          "radius": "900px",
+          "height": 32,
+          "paddingX": 16,
+          "font": "Garnett",
+          "size": 14,
+          "weight": "900"
+        }
+      ],
+      "contentWidth": 1200
+    }
+  },
+  {
     "id": "hoverstat-landing",
     "site": "Hoverstat",
     "url": "https://www.hoverstat.es",
@@ -38750,6 +39008,85 @@
         }
       ],
       "contentWidth": 1400
+    }
+  },
+  {
+    "id": "humane-by-design-landing",
+    "site": "Humane by Design",
+    "url": "https://humanebydesign.com",
+    "type": "landing",
+    "tags": [
+      "dark",
+      "line-pattern-icons",
+      "purple-and-yellow",
+      "guidelines",
+      "ethics"
+    ],
+    "note": "Large line-pattern emblems (a fingerprint arch, a target, chevrons) in purple and yellow on black, one per article. A design-ethics guide with a consistent graphic language for each principle.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/humane-by-design-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/humane-by-design-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Humane by Design",
+      "fonts": [
+        "graphik"
+      ],
+      "type": {
+        "h1": {
+          "font": "graphik",
+          "size": 99,
+          "weight": "700",
+          "lineHeight": 1,
+          "letterSpacing": "-0.99072px",
+          "color": "rgb(207, 208, 214)"
+        },
+        "h2": {
+          "font": "graphik",
+          "size": 48,
+          "weight": "700",
+          "lineHeight": 1.2,
+          "letterSpacing": "normal",
+          "color": "rgb(138, 141, 156)"
+        },
+        "h3": {
+          "font": "graphik",
+          "size": 33,
+          "weight": "700",
+          "lineHeight": 1.2,
+          "letterSpacing": "normal",
+          "color": "rgb(207, 208, 214)"
+        },
+        "body": {
+          "font": "graphik",
+          "size": 23,
+          "weight": "400",
+          "lineHeight": 1.5,
+          "letterSpacing": "normal",
+          "color": "rgb(207, 208, 214)"
+        }
+      },
+      "colors": {
+        "background": "#101117",
+        "surfaces": [
+          "#14151d"
+        ],
+        "text": [
+          "#cfd0d6",
+          "#8a8d9c"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": null
     }
   },
   {
@@ -63705,6 +64042,82 @@
     }
   },
   {
+    "id": "samuels-associates-landing",
+    "site": "Samuels & Associates",
+    "url": "https://www.samuelsre.com",
+    "type": "landing",
+    "tags": [
+      "light",
+      "giant-black-wordmark",
+      "colour-text-tiles",
+      "photo-mosaic",
+      "real-estate"
+    ],
+    "note": "A dense mosaic of building photos with text tiles in coloured blocks ('It was a parking lot. Now it's a park...'), under a huge black wordmark. A developer's story told as captions between photos.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/samuels-associates-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/samuels-associates-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Commercial Real Estate In Boston, MA | Samuels & Associates",
+      "fonts": [
+        "Helvetica Neue"
+      ],
+      "type": {
+        "h1": {
+          "font": "Helvetica Neue",
+          "size": 25,
+          "weight": "400",
+          "lineHeight": 1.25,
+          "letterSpacing": "normal",
+          "color": "rgb(229, 229, 229)"
+        },
+        "h2": {
+          "font": "Helvetica Neue",
+          "size": 67,
+          "weight": "700",
+          "lineHeight": 1,
+          "letterSpacing": "-2.68194px",
+          "color": "rgb(0, 0, 0)"
+        },
+        "h3": null,
+        "body": {
+          "font": "Helvetica Neue",
+          "size": 67,
+          "weight": "700",
+          "lineHeight": 1,
+          "letterSpacing": "-2.68194px",
+          "color": "rgb(0, 0, 0)"
+        }
+      },
+      "colors": {
+        "background": "#000000",
+        "surfaces": [
+          "#000000",
+          "#e5e5e5",
+          "#94c356",
+          "#db6462",
+          "#f8f9fa"
+        ],
+        "text": [
+          "#000000",
+          "#212529"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": null
+    }
+  },
+  {
     "id": "sana-labs-landing",
     "site": "Sana Labs",
     "url": "https://www.sanalabs.com",
@@ -66037,6 +66450,55 @@
       },
       "buttons": [],
       "contentWidth": 960
+    }
+  },
+  {
+    "id": "simon-phipps-landing",
+    "site": "Simon Phipps",
+    "url": "https://www.simonphipps.co.uk",
+    "type": "landing",
+    "tags": [
+      "light",
+      "bw-brutalist-photos",
+      "condensed-masthead",
+      "photo-book"
+    ],
+    "note": "Black-and-white photos of brutalist buildings in a loose staggered grid, each with a tiny caps caption. A photographer's archive where architecture fills all the space.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/simon-phipps-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/simon-phipps-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Simon Phipps",
+      "fonts": [
+        "GT-America"
+      ],
+      "type": {
+        "h1": null,
+        "h2": null,
+        "h3": null,
+        "body": null
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#efefef"
+        ],
+        "text": [
+          "#000000"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": null
     }
   },
   {
@@ -73600,6 +74062,80 @@
     }
   },
   {
+    "id": "the-internet-warriors-landing",
+    "site": "The Internet Warriors",
+    "url": "https://theinternetwarriors.com",
+    "type": "landing",
+    "tags": [
+      "blue",
+      "giant-condensed-caps",
+      "centred-text",
+      "documentary"
+    ],
+    "note": "'THE INTERNET WARRIORS' in huge white condensed caps on electric blue, then a centred text column about the film. A documentary site made of one colour and one title.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/the-internet-warriors-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/the-internet-warriors-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "The Internet Warriors",
+      "fonts": [
+        "NeueHaasUnicaPro-Regular",
+        "HelveticaNeueLTStd-BdCn",
+        "sans-serif"
+      ],
+      "type": {
+        "h1": {
+          "font": "HelveticaNeueLTStd-BdCn",
+          "size": 180,
+          "weight": "400",
+          "lineHeight": 0.83,
+          "letterSpacing": "1.45px",
+          "color": "rgb(255, 255, 255)"
+        },
+        "h2": {
+          "font": "NeueHaasUnicaPro-Regular",
+          "size": 22,
+          "weight": "400",
+          "lineHeight": 1,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        },
+        "h3": null,
+        "body": {
+          "font": "NeueHaasUnicaPro-Regular",
+          "size": 22,
+          "weight": "400",
+          "lineHeight": 1.41,
+          "letterSpacing": "normal",
+          "color": "rgba(0, 0, 0, 0.7)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#0000ff"
+        ],
+        "text": [
+          "#000000",
+          "#0000ff",
+          "#ffffff"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": null
+    }
+  },
+  {
     "id": "the-new-industrials-landing",
     "site": "The New Industrials",
     "url": "https://thenewindustrials.com",
@@ -77231,6 +77767,69 @@
         }
       ],
       "contentWidth": 1120
+    }
+  },
+  {
+    "id": "varyer-landing",
+    "site": "Varyer",
+    "url": "https://www.varyer.com",
+    "type": "landing",
+    "tags": [
+      "teal",
+      "cyanotype-photos",
+      "serif-statement",
+      "oval-crops",
+      "brand-strategy"
+    ],
+    "note": "Teal cyanotype images cropped into ovals and circles around a long serif statement with 'quality' in italic. A brand consultancy with a print-process texture instead of stock imagery.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/varyer-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/varyer-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Home | Varyer",
+      "fonts": [
+        "GT Alpina VAR",
+        "Roobert",
+        "GT Alpina Condensed"
+      ],
+      "type": {
+        "h1": null,
+        "h2": null,
+        "h3": null,
+        "body": {
+          "font": "GT Alpina",
+          "size": 52,
+          "weight": "200",
+          "lineHeight": 1.32,
+          "letterSpacing": "normal",
+          "color": "rgb(22, 22, 22)"
+        }
+      },
+      "colors": {
+        "background": "#fcfbf7",
+        "surfaces": [
+          "#000000",
+          "#1c1c1c",
+          "#fcfbf7",
+          "#f6f5f0"
+        ],
+        "text": [
+          "#fcfbf7",
+          "#161616"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": 1490
     }
   },
   {
