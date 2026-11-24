@@ -70,17 +70,22 @@ def haystack(item: dict) -> str:
     return " ".join(parts).lower()
 
 
+def has(q: str, phrase: str) -> bool:
+    """Whole words only: "ci" must not match inside "pricing"."""
+    return re.search(rf"(?<![a-z0-9]){re.escape(phrase)}(?![a-z0-9])", q) is not None
+
+
 def score(item: dict, query: str) -> float:
     q = query.lower()
     s = 0.0
     for typ, words in SYNONYMS.items():
-        if any(w in q for w in words) and item["type"] == typ:
+        if item["type"] == typ and any(has(q, w) for w in words):
             s += 6
-    if item["site"].lower() in q:
+    if has(q, item["site"].lower()):
         s += 5
     for tag in item.get("tags", []):
         plain = tag.removeprefix("ds-").removeprefix("bg-").replace("-", " ")
-        if plain in q or tag in q or (plain.endswith("s") and plain[:-1] in q):
+        if has(q, plain) or has(q, tag) or (plain.endswith("s") and has(q, plain[:-1])):
             s += 6
     hay = haystack(item)
     for word in set(tokens(q)):

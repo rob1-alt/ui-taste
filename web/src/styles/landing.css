@@ -886,3 +886,12 @@ section { padding-top: 160px; }
   .legend li code { grid-column: 2; }
   .mark.pin b { min-width: 14px; height: 14px; font-size: 9px; padding: 0 3px; }
 }
+
+/* live search: the command line is a real input */
+.demo-term.live .dt-line { display: flex; align-items: center; cursor: text; }
+.dt-line input { flex: 0 1 auto; min-width: 2ch; max-width: 100%; background: transparent; border: 0; outline: 0; padding: 0; margin: 0; font: inherit; color: #fff; }
+.dt-line input::placeholder { color: #6b6b67; }
+.dt-hits li > a { display: contents; color: inherit; }
+.dt-hits li:has(a:hover) { background: rgb(255 255 255 / 0.09); }
+.dt-hits em { display: block; margin-top: 4px; font: normal 500 11px/1.3 ui-monospace, "SF Mono", Menlo, monospace; color: var(--red); }
+.dt-none { display: block !important; padding: 14px 10px !important; font-size: 13px; color: #b9b9b5; }
