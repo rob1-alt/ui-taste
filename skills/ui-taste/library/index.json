@@ -10844,6 +10844,72 @@
     }
   },
   {
+    "id": "2020-is-a-song-landing",
+    "site": "2020 IS A SONG",
+    "url": "https://2020isasong.com",
+    "type": "landing",
+    "tags": [
+      "light",
+      "playlist-table",
+      "blue-mono",
+      "crowdsourced",
+      "time-capsule"
+    ],
+    "note": "A plain table of songs, artists, the people who submitted them, their city and a feeling, in blue mono with play buttons. A time capsule made of one list, the data is the design.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/2020-is-a-song-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/2020-is-a-song-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "2020 IS A SONG",
+      "fonts": [
+        "Helvetica",
+        "Times New Roman",
+        "Courier"
+      ],
+      "type": {
+        "h1": {
+          "font": "Helvetica",
+          "size": 100,
+          "weight": "400",
+          "lineHeight": "normal",
+          "letterSpacing": "normal",
+          "color": "rgb(0, 34, 143)"
+        },
+        "h2": null,
+        "h3": null,
+        "body": {
+          "font": "Courier",
+          "size": 17,
+          "weight": "400",
+          "lineHeight": "normal",
+          "letterSpacing": "normal",
+          "color": "rgb(0, 34, 143)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#efefef"
+        ],
+        "text": [
+          "#00228f"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": null
+    }
+  },
+  {
     "id": "205tf-landing",
     "site": "205TF",
     "url": "https://www.205.tf",
@@ -15816,6 +15882,93 @@
     }
   },
   {
+    "id": "benjamin-righetti-landing",
+    "site": "Benjamin Righetti",
+    "url": "https://benjaminrighetti.com",
+    "type": "landing",
+    "tags": [
+      "light",
+      "multi-colour-statement",
+      "blue-and-grey",
+      "events-list",
+      "musician"
+    ],
+    "note": "One long sentence introduces the organist, each role set in a different blue or grey, then a video and a dated events list. A musician's bio as a single typographic sentence.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/benjamin-righetti-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3221
+      },
+      "mobile": {
+        "file": "screens/benjamin-righetti-landing-mobile.jpg",
+        "width": 320,
+        "height": 1670
+      }
+    },
+    "tokens": {
+      "title": "Benjamin Righetti | swiss musician",
+      "fonts": [
+        "wfont_57a328_7aa948d65d7545849d825526e894b91f",
+        "wfont_2684f6_a3ccc7c9b10d40be848657dd2952187a",
+        "Arial"
+      ],
+      "type": {
+        "h1": {
+          "font": "wfont_57a328_7aa948d65d7545849d825526e894b91f",
+          "size": 56,
+          "weight": "400",
+          "lineHeight": 1.2,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        },
+        "h2": {
+          "font": "wfont_57a328_7aa948d65d7545849d825526e894b91f",
+          "size": 22,
+          "weight": "400",
+          "lineHeight": 1.4,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        },
+        "h3": {
+          "font": "wfont_2684f6_a3ccc7c9b10d40be848657dd2952187a",
+          "size": 18,
+          "weight": "400",
+          "lineHeight": 1.75,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        },
+        "body": {
+          "font": "wfont_57a328_7aa948d65d7545849d825526e894b91f",
+          "size": 32,
+          "weight": "400",
+          "lineHeight": 1,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#fdfdfd",
+          "#000000",
+          "#b4caf3",
+          "#2e2e2e",
+          "#ffffff"
+        ],
+        "text": [
+          "#000000",
+          "#2a549c",
+          "#ffffff",
+          "#b4caf3"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": null
+    }
+  },
+  {
     "id": "bezi-landing",
     "site": "Bezi",
     "url": "https://www.bezi.com",
@@ -15980,6 +16133,65 @@
       },
       "buttons": [],
       "contentWidth": 1080
+    }
+  },
+  {
+    "id": "bleibtgleich-landing",
+    "site": "Bleibtgleich",
+    "url": "https://bleibtgleich.dev",
+    "type": "landing",
+    "tags": [
+      "light",
+      "vertical-rule",
+      "stacked-type",
+      "giant-wordmark-ghost",
+      "personal"
+    ],
+    "note": "A vertical rule divides the page and the name and roles stack against it at different sizes, with the brand name ghosted huge in grey behind. A personal site that is one typographic composition.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/bleibtgleich-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/bleibtgleich-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "bleibtgleich - UX/UI Designer & Developer",
+      "fonts": [
+        "Akzidenz Grotesk Pro"
+      ],
+      "type": {
+        "h1": {
+          "font": "Akzidenz Grotesk Pro",
+          "size": 90,
+          "weight": "500",
+          "lineHeight": 0.88,
+          "letterSpacing": "-4.45507px",
+          "color": "rgb(0, 0, 0)"
+        },
+        "h2": null,
+        "h3": null,
+        "body": null
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#f2f2f2",
+          "#000000"
+        ],
+        "text": [
+          "#000000",
+          "#ffffff"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": null
     }
   },
   {
@@ -23638,6 +23850,103 @@
     }
   },
   {
+    "id": "dr-sa-studio-landing",
+    "site": "DRĄSA Studio",
+    "url": "https://drasa.uk",
+    "type": "landing",
+    "tags": [
+      "pink",
+      "giant-stepped-wordmark",
+      "manifesto-link",
+      "founder-portrait"
+    ],
+    "note": "A heavy black wordmark with stair-stepped letters fills a hot-pink hero, then a calm cream section with the founder's portrait. A studio puts all its noise in the logo and stays quiet after.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/dr-sa-studio-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/dr-sa-studio-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "DRĄSA — UX Research, Product Design & Coaching Studio",
+      "fonts": [
+        "Geist",
+        "Geist Mono"
+      ],
+      "type": {
+        "h1": {
+          "font": "Geist",
+          "size": 16,
+          "weight": "400",
+          "lineHeight": 1.5,
+          "letterSpacing": "normal",
+          "color": "rgb(18, 18, 18)"
+        },
+        "h2": {
+          "font": "Geist",
+          "size": 108,
+          "weight": "500",
+          "lineHeight": 0.95,
+          "letterSpacing": "-3.78px",
+          "color": "rgb(18, 18, 18)"
+        },
+        "h3": {
+          "font": "Geist",
+          "size": 35,
+          "weight": "500",
+          "lineHeight": 1.1,
+          "letterSpacing": "-0.864px",
+          "color": "rgb(18, 18, 18)"
+        },
+        "body": {
+          "font": "Geist",
+          "size": 18,
+          "weight": "400",
+          "lineHeight": 1.5,
+          "letterSpacing": "-0.09px",
+          "color": "rgb(18, 18, 18)"
+        }
+      },
+      "colors": {
+        "background": "#0e0e0c",
+        "surfaces": [
+          "#f8f7f3",
+          "#ff48a4",
+          "#0e0e0c",
+          "#efede6",
+          "#ffffff"
+        ],
+        "text": [
+          "#121212",
+          "#ffffff",
+          "#1b1700",
+          "#5a5a58"
+        ]
+      },
+      "buttons": [
+        {
+          "label": "",
+          "bg": "#ffffff",
+          "color": "#1b1700",
+          "radius": "9999px",
+          "height": 45,
+          "paddingX": 0,
+          "font": "Geist",
+          "size": 16,
+          "weight": "400"
+        }
+      ],
+      "contentWidth": 1440
+    }
+  },
+  {
     "id": "dub-landing",
     "site": "Dub",
     "url": "https://dub.co",
@@ -28658,6 +28967,187 @@
     }
   },
   {
+    "id": "galerie-russi-klenner-landing",
+    "site": "Galerie Russi Klenner",
+    "url": "http://russiklenner.de",
+    "type": "landing",
+    "tags": [
+      "pink",
+      "cloud-cutout",
+      "serif-free",
+      "centered-artist-list",
+      "gallery"
+    ],
+    "note": "A pink hero cut by a white cloud shape holds the exhibition title and dates, then the artists listed in a centred column beside the works. A gallery whose layout echoes the show's mood.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/galerie-russi-klenner-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/galerie-russi-klenner-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Galerie Russi Klenner",
+      "fonts": [
+        "apercu_regular_pro",
+        "sans-serif",
+        "SuisseWorks-Regular-WebXL"
+      ],
+      "type": {
+        "h1": {
+          "font": "apercu_regular_pro",
+          "size": 20,
+          "weight": "700",
+          "lineHeight": "normal",
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        },
+        "h2": null,
+        "h3": {
+          "font": "apercu_regular_pro",
+          "size": 62,
+          "weight": "400",
+          "lineHeight": "normal",
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        },
+        "body": {
+          "font": "apercu_regular_pro",
+          "size": 62,
+          "weight": "400",
+          "lineHeight": 1.2,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#ffffff",
+          "#f1d40d"
+        ],
+        "text": [
+          "#000000"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": 1600
+    }
+  },
+  {
+    "id": "garage-landing",
+    "site": "Garage",
+    "url": "http://garagemca.org",
+    "type": "landing",
+    "tags": [
+      "purple",
+      "museum",
+      "yellow-notice-bar",
+      "calendar-grid",
+      "object-photo"
+    ],
+    "note": "A cut-out object (a jar with a paintbrush) on purple, a yellow notice bar, then the month's events as a dated calendar of photo cards. A contemporary art museum leads with its programme, in its own odd colours.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/garage-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/garage-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Музей современного искусства «Гараж»",
+      "fonts": [
+        "Favorit Pro",
+        "icon"
+      ],
+      "type": {
+        "h1": {
+          "font": "Favorit Pro",
+          "size": 32,
+          "weight": "700",
+          "lineHeight": 1.15,
+          "letterSpacing": "normal",
+          "color": "rgb(26, 26, 26)"
+        },
+        "h2": {
+          "font": "Favorit Pro",
+          "size": 24,
+          "weight": "700",
+          "lineHeight": 1.15,
+          "letterSpacing": "normal",
+          "color": "rgb(255, 255, 255)"
+        },
+        "h3": {
+          "font": "Favorit Pro",
+          "size": 16,
+          "weight": "400",
+          "lineHeight": 1.27,
+          "letterSpacing": "-0.1575px",
+          "color": "rgb(255, 255, 255)"
+        },
+        "body": {
+          "font": "Favorit Pro",
+          "size": 16,
+          "weight": "400",
+          "lineHeight": 1.27,
+          "letterSpacing": "-0.1575px",
+          "color": "rgb(26, 26, 26)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#ffffff",
+          "#9b4cb1",
+          "#1a1a1a",
+          "#f5e123",
+          "#f2c9ec"
+        ],
+        "text": [
+          "#1a1a1a",
+          "#ffffff"
+        ]
+      },
+      "buttons": [
+        {
+          "label": "",
+          "bg": "#1a1a1a",
+          "color": "#ffffff",
+          "radius": "50%",
+          "height": 40,
+          "paddingX": 0,
+          "font": "icon",
+          "size": 40,
+          "weight": "400"
+        },
+        {
+          "label": "",
+          "bg": "#1a1a1a",
+          "color": "#ffffff",
+          "radius": "50%",
+          "height": 40,
+          "paddingX": 0,
+          "font": "icon",
+          "size": 40,
+          "weight": "400"
+        }
+      ],
+      "contentWidth": null
+    }
+  },
+  {
     "id": "gass-records-landing",
     "site": "GASS Records",
     "url": "https://www.gass.zone",
@@ -30638,6 +31128,84 @@
     }
   },
   {
+    "id": "gusta-landing",
+    "site": "Gusta",
+    "url": "https://gusta.studio",
+    "type": "landing",
+    "tags": [
+      "light",
+      "collage",
+      "illustrated-characters",
+      "product-ui-cutouts",
+      "studio"
+    ],
+    "note": "Product screens, photos and little illustrated characters are cut out and pasted around the headline. A design studio shows its range as a playful collage instead of a case-study grid.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/gusta-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/gusta-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Gusta – Digital design studio in Valencia",
+      "fonts": [
+        "Universal Sans Display 385",
+        "Universal Sans Display 538",
+        "sans-serif"
+      ],
+      "type": {
+        "h1": {
+          "font": "Universal Sans Display 538",
+          "size": 128,
+          "weight": "500",
+          "lineHeight": 1,
+          "letterSpacing": "-3.968px",
+          "color": "rgb(8, 10, 12)"
+        },
+        "h2": {
+          "font": "Universal Sans Display 538",
+          "size": 60,
+          "weight": "500",
+          "lineHeight": 1.03,
+          "letterSpacing": "-1px",
+          "color": "rgb(8, 10, 12)"
+        },
+        "h3": null,
+        "body": {
+          "font": "Universal Sans Display 538",
+          "size": 22,
+          "weight": "400",
+          "lineHeight": 1.33,
+          "letterSpacing": "normal",
+          "color": "rgb(255, 255, 255)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#ffffff",
+          "#e14f1e",
+          "#007319",
+          "#d4c6ba",
+          "#243d66"
+        ],
+        "text": [
+          "#ffffff",
+          "#080a0c"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": 1440
+    }
+  },
+  {
     "id": "hadrian-landing",
     "site": "Hadrian",
     "url": "https://www.hadrian.co",
@@ -30783,6 +31351,71 @@
       },
       "buttons": [],
       "contentWidth": 1397
+    }
+  },
+  {
+    "id": "hard-sun-landing",
+    "site": "Hard Sun",
+    "url": "https://www.hardsun.com",
+    "type": "landing",
+    "tags": [
+      "light",
+      "scrapbook-collage",
+      "ingredient-macro",
+      "faces",
+      "diagram-line-art"
+    ],
+    "note": "Faces, ingredient macros, product tubes and line diagrams are pinned together like a research scrapbook. A sunscreen brand shows its science and its users on the same wall.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/hard-sun-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/hard-sun-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Hard Sun | Dermatologist-recommended, athlete-tested mineral SPF.",
+      "fonts": [
+        "Specta HS",
+        "Helvetica"
+      ],
+      "type": {
+        "h1": null,
+        "h2": null,
+        "h3": null,
+        "body": {
+          "font": "Specta HS",
+          "size": 12,
+          "weight": "400",
+          "lineHeight": 1.17,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#f4f4f4",
+          "#ffffff",
+          "#000000",
+          "#f5e1a4",
+          "#ae8a79"
+        ],
+        "text": [
+          "#000000",
+          "#8a8a8a",
+          "#f4f4f4",
+          "#ffffff"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": null
     }
   },
   {
@@ -35076,6 +35709,136 @@
       },
       "buttons": [],
       "contentWidth": 1440
+    }
+  },
+  {
+    "id": "jonite-landing",
+    "site": "Jonite",
+    "url": "https://www.jonite.com",
+    "type": "landing",
+    "tags": [
+      "light",
+      "stone-objects",
+      "product-photo",
+      "beige",
+      "architectural"
+    ],
+    "note": "Sculptural stone gratings photographed as objects on beige plinths, with a large 'Made to matter' at the bottom. An industrial product shot as if it were gallery sculpture.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/jonite-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/jonite-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Decorative Grating | Stone Grating Products | Jonite®",
+      "fonts": [
+        "PP Neue Montreal",
+        "Silka Mono"
+      ],
+      "type": {
+        "h1": {
+          "font": "PP Neue Montreal",
+          "size": 20,
+          "weight": "400",
+          "lineHeight": 1.3,
+          "letterSpacing": "normal",
+          "color": "rgb(14, 14, 14)"
+        },
+        "h2": {
+          "font": "PP Neue Montreal",
+          "size": 16,
+          "weight": "400",
+          "lineHeight": 1.5,
+          "letterSpacing": "normal",
+          "color": "rgb(14, 14, 14)"
+        },
+        "h3": {
+          "font": "PP Neue Montreal",
+          "size": 32,
+          "weight": "400",
+          "lineHeight": 1.2,
+          "letterSpacing": "normal",
+          "color": "rgb(230, 231, 232)"
+        },
+        "body": {
+          "font": "PP Neue Montreal",
+          "size": 13,
+          "weight": "300",
+          "lineHeight": 1.5,
+          "letterSpacing": "0.13008px",
+          "color": "rgba(231, 232, 233, 0.7)"
+        }
+      },
+      "colors": {
+        "background": "#e6e7e8",
+        "surfaces": [
+          "#bfbfbf",
+          "#000000",
+          "#0e0e0e",
+          "#e6e7e8"
+        ],
+        "text": [
+          "#0e0e0e",
+          "#e7e8e9",
+          "#e6e7e8",
+          "#c9beb5"
+        ]
+      },
+      "buttons": [
+        {
+          "label": "Our projects",
+          "bg": "#e6e7e8",
+          "color": "#0e0e0e",
+          "radius": "40px",
+          "height": 32,
+          "paddingX": 16,
+          "font": "PP Neue Montreal",
+          "size": 15,
+          "weight": "400"
+        },
+        {
+          "label": "Shop",
+          "bg": "#e6e7e8",
+          "color": "#0e0e0e",
+          "radius": "40px",
+          "height": 32,
+          "paddingX": 16,
+          "font": "PP Neue Montreal",
+          "size": 15,
+          "weight": "400"
+        },
+        {
+          "label": "Explore products",
+          "bg": "#e6e7e8",
+          "color": "#0e0e0e",
+          "radius": "40px",
+          "height": 32,
+          "paddingX": 16,
+          "font": "PP Neue Montreal",
+          "size": 15,
+          "weight": "400"
+        },
+        {
+          "label": "Request samples",
+          "bg": "#0e0e0e",
+          "color": "#e6e7e8",
+          "radius": "40px",
+          "height": 32,
+          "paddingX": 16,
+          "font": "PP Neue Montreal",
+          "size": 15,
+          "weight": "400"
+        }
+      ],
+      "contentWidth": 720
     }
   },
   {
@@ -41266,6 +42029,86 @@
     }
   },
   {
+    "id": "moe-amaya-landing",
+    "site": "Moe Amaya",
+    "url": "https://moeamaya.com",
+    "type": "landing",
+    "tags": [
+      "light",
+      "giant-domain-list",
+      "serif-and-sans",
+      "sql-texture",
+      "personal"
+    ],
+    "note": "The CV is a list of past companies written as huge domain names (monograph.com, figma.com), over a faint wall of SQL. A designer-engineer lets the URLs he built be the headline.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/moe-amaya-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3517
+      },
+      "mobile": {
+        "file": "screens/moe-amaya-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Moe Amaya — Designer",
+      "fonts": [
+        "Rubik",
+        "Feijoa",
+        "IBM Plex Mono"
+      ],
+      "type": {
+        "h1": {
+          "font": "Rubik",
+          "size": 12,
+          "weight": "400",
+          "lineHeight": 2.67,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        },
+        "h2": null,
+        "h3": null,
+        "body": {
+          "font": "Feijoa",
+          "size": 24,
+          "weight": "300",
+          "lineHeight": 1.29,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        }
+      },
+      "colors": {
+        "background": "#f5f5f5",
+        "surfaces": [
+          "#ffffff"
+        ],
+        "text": [
+          "#000000",
+          "#0037ff",
+          "#01020f"
+        ]
+      },
+      "buttons": [
+        {
+          "label": "",
+          "bg": "#ffffff",
+          "color": "#000000",
+          "radius": "32px",
+          "height": 64,
+          "paddingX": 6,
+          "font": "Feijoa",
+          "size": 16,
+          "weight": "400"
+        }
+      ],
+      "contentWidth": 900
+    }
+  },
+  {
     "id": "monarch-landing",
     "site": "Monarch",
     "url": "https://www.monarchmoney.com",
@@ -44662,6 +45505,68 @@
     }
   },
   {
+    "id": "oma-appel-landing",
+    "site": "Oma Appel",
+    "url": "https://oma-appel.nl",
+    "type": "landing",
+    "tags": [
+      "light",
+      "mirrored-type",
+      "red-on-white",
+      "flipped-wordmark",
+      "food"
+    ],
+    "note": "The name 'OMA APPEL' is set in red and mirrored upside down below itself, as is every section heading. A small jam maker gets a whole identity from one typographic trick.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/oma-appel-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/oma-appel-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Home - Oma Appel",
+      "fonts": [
+        "aktiv-grotesk"
+      ],
+      "type": {
+        "h1": null,
+        "h2": null,
+        "h3": {
+          "font": "aktiv-grotesk",
+          "size": 31,
+          "weight": "700",
+          "lineHeight": 1,
+          "letterSpacing": "normal",
+          "color": "rgb(226, 6, 19)"
+        },
+        "body": {
+          "font": "aktiv-grotesk",
+          "size": 42,
+          "weight": "400",
+          "lineHeight": 1.2,
+          "letterSpacing": "normal",
+          "color": "rgb(226, 6, 19)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [],
+        "text": [
+          "#e20613"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": null
+    }
+  },
+  {
     "id": "omsom-landing",
     "site": "Omsom",
     "url": "https://omsom.com",
@@ -44845,6 +45750,116 @@
         }
       ],
       "contentWidth": 650
+    }
+  },
+  {
+    "id": "operate-landing",
+    "site": "Operate",
+    "url": "https://operate.so",
+    "type": "landing",
+    "tags": [
+      "green",
+      "pitch-lines",
+      "framed-product",
+      "sports-metaphor",
+      "saas"
+    ],
+    "note": "The whole page is framed by green football-pitch markings, with the sales product UI on the field. A sales tool commits to one metaphor and draws it as the layout.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/operate-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/operate-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Operate – Collaborative AI for frontier sales organizations",
+      "fonts": [
+        "denim",
+        "muoto",
+        "cinetype"
+      ],
+      "type": {
+        "h1": {
+          "font": "denim",
+          "size": 48,
+          "weight": "600",
+          "lineHeight": 1.17,
+          "letterSpacing": "normal",
+          "color": "rgb(17, 112, 37)"
+        },
+        "h2": {
+          "font": "denim",
+          "size": 32,
+          "weight": "600",
+          "lineHeight": 1.13,
+          "letterSpacing": "normal",
+          "color": "rgb(17, 112, 37)"
+        },
+        "h3": {
+          "font": "denim",
+          "size": 18,
+          "weight": "600",
+          "lineHeight": 1.22,
+          "letterSpacing": "normal",
+          "color": "rgb(17, 112, 37)"
+        },
+        "body": {
+          "font": "denim",
+          "size": 20,
+          "weight": "400",
+          "lineHeight": 1.35,
+          "letterSpacing": "normal",
+          "color": "rgb(17, 112, 37)"
+        }
+      },
+      "colors": {
+        "background": "#e0e0e0",
+        "surfaces": [
+          "#005c00",
+          "#ebebeb",
+          "#fcfcfc",
+          "#f7f7f7",
+          "#dcdcdc"
+        ],
+        "text": [
+          "#117025",
+          "#29211e",
+          "#008125",
+          "#e0e0e0"
+        ]
+      },
+      "buttons": [
+        {
+          "label": "Get started",
+          "bg": "#117025",
+          "color": "#e0e0e0",
+          "radius": "12px",
+          "height": 36,
+          "paddingX": 15,
+          "font": "denim",
+          "size": 18,
+          "weight": "400"
+        },
+        {
+          "label": "Watch the video",
+          "bg": "#ebebeb",
+          "color": "#117025",
+          "radius": "12px",
+          "height": 36,
+          "paddingX": 15,
+          "font": "denim",
+          "size": 18,
+          "weight": "400"
+        }
+      ],
+      "contentWidth": 1474
     }
   },
   {
@@ -50031,6 +51046,73 @@
     }
   },
   {
+    "id": "pulitzer-art-foundation-landing",
+    "site": "Pulitzer Art Foundation",
+    "url": "https://pulitzerarts.org",
+    "type": "landing",
+    "tags": [
+      "light",
+      "museum",
+      "exhibition-photo-hero",
+      "dated-listings",
+      "quiet-type"
+    ],
+    "note": "A full-width gallery photo of the current show, then exhibitions as large titles with dates and installation photos. A museum that lets the rooms and the works do all the talking.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/pulitzer-art-foundation-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/pulitzer-art-foundation-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Homepage - Pulitzer Arts Foundation",
+      "fonts": [
+        "PostGrotesk",
+        "sans-serif"
+      ],
+      "type": {
+        "h1": null,
+        "h2": {
+          "font": "PostGrotesk",
+          "size": 48,
+          "weight": "500",
+          "lineHeight": 1.08,
+          "letterSpacing": "normal",
+          "color": "rgb(41, 43, 44)"
+        },
+        "h3": null,
+        "body": {
+          "font": "PostGrotesk",
+          "size": 15,
+          "weight": "400",
+          "lineHeight": 1.27,
+          "letterSpacing": "normal",
+          "color": "rgb(41, 43, 44)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#eeeeef",
+          "#ffffff"
+        ],
+        "text": [
+          "#656d75",
+          "#000000"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": 800
+    }
+  },
+  {
     "id": "pylon-landing",
     "site": "Pylon",
     "url": "https://www.usepylon.com",
@@ -54509,6 +55591,88 @@
         }
       ],
       "contentWidth": 1600
+    }
+  },
+  {
+    "id": "schema-landing",
+    "site": "Schema",
+    "url": "https://www.schemadesign.com",
+    "type": "landing",
+    "tags": [
+      "light",
+      "data-viz-hero",
+      "node-map",
+      "project-table",
+      "studio"
+    ],
+    "note": "A blue network map of labelled nodes fills the hero, then a plain table of projects with client and discipline. A data-design studio leads with a visualization and lists its work as data.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/schema-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/schema-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Schema - Home",
+      "fonts": [
+        "Graphik Regular",
+        "Graphik Medium",
+        "Times New Roman"
+      ],
+      "type": {
+        "h1": {
+          "font": "Times New Roman",
+          "size": 32,
+          "weight": "700",
+          "lineHeight": "normal",
+          "letterSpacing": "normal",
+          "color": "rgb(51, 51, 51)"
+        },
+        "h2": {
+          "font": "Graphik Regular",
+          "size": 120,
+          "weight": "100",
+          "lineHeight": 1.08,
+          "letterSpacing": "-4.8px",
+          "color": "rgb(51, 51, 51)"
+        },
+        "h3": {
+          "font": "Graphik Regular",
+          "size": 36,
+          "weight": "700",
+          "lineHeight": 1.33,
+          "letterSpacing": "-0.5px",
+          "color": "rgb(51, 51, 51)"
+        },
+        "body": {
+          "font": "Graphik Regular",
+          "size": 16,
+          "weight": "400",
+          "lineHeight": 1.5,
+          "letterSpacing": "normal",
+          "color": "rgb(255, 255, 255)"
+        }
+      },
+      "colors": {
+        "background": "#efefef",
+        "surfaces": [
+          "#efefef"
+        ],
+        "text": [
+          "#878787",
+          "#333333",
+          "#ffffff"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": null
     }
   },
   {

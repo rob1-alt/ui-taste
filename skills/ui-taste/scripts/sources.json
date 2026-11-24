@@ -9295,5 +9295,186 @@
    "featured-typeface"
   ],
   "note": "A blurred macro photo of plants under the giant name, then the featured face 'Avec' as a large specimen with a Moholy-Nagy quote set in it. A foundry whose homepage is a rotating feature."
+ },
+ {
+  "site": "2020 IS A SONG",
+  "type": "landing",
+  "url": "https://2020isasong.com",
+  "tags": [
+   "light",
+   "playlist-table",
+   "blue-mono",
+   "crowdsourced",
+   "time-capsule"
+  ],
+  "note": "A plain table of songs, artists, the people who submitted them, their city and a feeling, in blue mono with play buttons. A time capsule made of one list, the data is the design."
+ },
+ {
+  "site": "Benjamin Righetti",
+  "type": "landing",
+  "url": "https://benjaminrighetti.com",
+  "tags": [
+   "light",
+   "multi-colour-statement",
+   "blue-and-grey",
+   "events-list",
+   "musician"
+  ],
+  "note": "One long sentence introduces the organist, each role set in a different blue or grey, then a video and a dated events list. A musician's bio as a single typographic sentence."
+ },
+ {
+  "site": "Bleibtgleich",
+  "type": "landing",
+  "url": "https://bleibtgleich.dev",
+  "tags": [
+   "light",
+   "vertical-rule",
+   "stacked-type",
+   "giant-wordmark-ghost",
+   "personal"
+  ],
+  "note": "A vertical rule divides the page and the name and roles stack against it at different sizes, with the brand name ghosted huge in grey behind. A personal site that is one typographic composition."
+ },
+ {
+  "site": "DRĄSA Studio",
+  "type": "landing",
+  "url": "https://drasa.uk",
+  "tags": [
+   "pink",
+   "giant-stepped-wordmark",
+   "manifesto-link",
+   "founder-portrait"
+  ],
+  "note": "A heavy black wordmark with stair-stepped letters fills a hot-pink hero, then a calm cream section with the founder's portrait. A studio puts all its noise in the logo and stays quiet after."
+ },
+ {
+  "site": "Galerie Russi Klenner",
+  "type": "landing",
+  "url": "http://russiklenner.de",
+  "tags": [
+   "pink",
+   "cloud-cutout",
+   "serif-free",
+   "centered-artist-list",
+   "gallery"
+  ],
+  "note": "A pink hero cut by a white cloud shape holds the exhibition title and dates, then the artists listed in a centred column beside the works. A gallery whose layout echoes the show's mood."
+ },
+ {
+  "site": "Garage",
+  "type": "landing",
+  "url": "http://garagemca.org",
+  "tags": [
+   "purple",
+   "museum",
+   "yellow-notice-bar",
+   "calendar-grid",
+   "object-photo"
+  ],
+  "note": "A cut-out object (a jar with a paintbrush) on purple, a yellow notice bar, then the month's events as a dated calendar of photo cards. A contemporary art museum leads with its programme, in its own odd colours."
+ },
+ {
+  "site": "Gusta",
+  "type": "landing",
+  "url": "https://gusta.studio",
+  "tags": [
+   "light",
+   "collage",
+   "illustrated-characters",
+   "product-ui-cutouts",
+   "studio"
+  ],
+  "note": "Product screens, photos and little illustrated characters are cut out and pasted around the headline. A design studio shows its range as a playful collage instead of a case-study grid."
+ },
+ {
+  "site": "Hard Sun",
+  "type": "landing",
+  "url": "https://www.hardsun.com",
+  "tags": [
+   "light",
+   "scrapbook-collage",
+   "ingredient-macro",
+   "faces",
+   "diagram-line-art"
+  ],
+  "note": "Faces, ingredient macros, product tubes and line diagrams are pinned together like a research scrapbook. A sunscreen brand shows its science and its users on the same wall."
+ },
+ {
+  "site": "Jonite",
+  "type": "landing",
+  "url": "https://www.jonite.com",
+  "tags": [
+   "light",
+   "stone-objects",
+   "product-photo",
+   "beige",
+   "architectural"
+  ],
+  "note": "Sculptural stone gratings photographed as objects on beige plinths, with a large 'Made to matter' at the bottom. An industrial product shot as if it were gallery sculpture."
+ },
+ {
+  "site": "Moe Amaya",
+  "type": "landing",
+  "url": "https://moeamaya.com",
+  "tags": [
+   "light",
+   "giant-domain-list",
+   "serif-and-sans",
+   "sql-texture",
+   "personal"
+  ],
+  "note": "The CV is a list of past companies written as huge domain names (monograph.com, figma.com), over a faint wall of SQL. A designer-engineer lets the URLs he built be the headline."
+ },
+ {
+  "site": "Oma Appel",
+  "type": "landing",
+  "url": "https://oma-appel.nl",
+  "tags": [
+   "light",
+   "mirrored-type",
+   "red-on-white",
+   "flipped-wordmark",
+   "food"
+  ],
+  "note": "The name 'OMA APPEL' is set in red and mirrored upside down below itself, as is every section heading. A small jam maker gets a whole identity from one typographic trick."
+ },
+ {
+  "site": "Operate",
+  "type": "landing",
+  "url": "https://operate.so",
+  "tags": [
+   "green",
+   "pitch-lines",
+   "framed-product",
+   "sports-metaphor",
+   "saas"
+  ],
+  "note": "The whole page is framed by green football-pitch markings, with the sales product UI on the field. A sales tool commits to one metaphor and draws it as the layout."
+ },
+ {
+  "site": "Pulitzer Art Foundation",
+  "type": "landing",
+  "url": "https://pulitzerarts.org",
+  "tags": [
+   "light",
+   "museum",
+   "exhibition-photo-hero",
+   "dated-listings",
+   "quiet-type"
+  ],
+  "note": "A full-width gallery photo of the current show, then exhibitions as large titles with dates and installation photos. A museum that lets the rooms and the works do all the talking."
+ },
+ {
+  "site": "Schema",
+  "type": "landing",
+  "url": "https://www.schemadesign.com",
+  "tags": [
+   "light",
+   "data-viz-hero",
+   "node-map",
+   "project-table",
+   "studio"
+  ],
+  "note": "A blue network map of labelled nodes fills the hero, then a plain table of projects with client and discipline. A data-design studio leads with a visualization and lists its work as data."
  }
 ]
