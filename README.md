@@ -185,7 +185,7 @@ Product screens from other domains: banking, trading, weather, music, sport, sch
 
 Ask for a landing page and the skill does not reach for a template. It finds the raw material first (what the product does that others do not, its own medium, the customer's world), proposes three concepts from three different directions (poster, colour field, the product as the hero, object and photography, editorial, illustrated world, brutalist, image sandwich…), recommends one and gives it a signature move that would look wrong on any other product's site. A swap test closes the review: with a competitor's logo on it, the page should stop working. The process is in `skills/ui-taste/references/landing-concepts.md`.
 
-Photos, artworks and illustrations stay the client's: the skill never fakes them. It uses the images the brand already has, designs image slots with an art-direction brief for the rest (an empty slot shows its brief, not a fake), and once the client drops their files in, `scripts/slots.py` measures each one (ratio, brightness, text colour, palette) so the page is adapted to it: crop, text colour, veil, accent. See `skills/ui-taste/references/imagery.md`.
+Photos, artworks and illustrations stay the client's: the skill never fakes them. It uses the images the brand already has, designs image slots with an art-direction brief for the rest (an empty slot shows its brief, not a fake), and once the client drops their files in, `scripts/slots.py` measures each one (ratio, brightness, text colour, palette) so the page is adapted to it: crop, text colour, veil, accent. When there is nothing yet, `scripts/find_art.py` borrows a public-domain painting, engraving or photograph from The Met or the Cleveland Museum of Art (CC0 only), with its credit line; `backdrop.py` can cut its foreground so it passes in front of the product. The fixed demo on the site stands on Van Gogh's *Wheat Field with Cypresses* that way. See `skills/ui-taste/references/imagery.md`.
 
 The image sandwich is one of those directions, with its own recipe (`references/landing-recipe.md`), eight reference landings (`find_refs.py "image sandwich"`), a template (`assets/landing-hero/`) and `scripts/backdrop.py` to prepare the images.
 
@@ -259,6 +259,7 @@ skills/ui-taste/
     capture.py             add or refresh screens (Playwright)
     contact_sheet.py       build the README sheets
     slots.py               list image slots, measure the client's images
+    find_art.py            public-domain artworks (The Met, Cleveland), contact sheet, credit
     sources.json           the pages in the library
   library/
     index.json             screens, patterns, notes, measured tokens

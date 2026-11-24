@@ -20,6 +20,7 @@ Search them by tag (`find_refs.py "bg-painting"`, `"bg-duotone"`, …), open two
 ## How to choose and build
 
 1. **Start from the brand's real images.** Duotone them (`scripts/backdrop.py duotone photo.jpg out.jpg --ink "#brand" --paper "#light" --dots 4`), grade them (`backdrop.py grade`), or crop them to a texture. A grain of the client's own photo beats any generic pattern.
+   No images, and the direction wants a painting, an engraving or an old photograph: borrow a public-domain one with `scripts/find_art.py` (`references/imagery.md`, "No pictures yet"), crop the scan, cut its foreground with `backdrop.py` if it should pass in front of the product, and credit it.
 2. **Take the pattern from the customer's world.** Construction: blueprint and schedule grid. Finance: banknote engraving. Fencing: the piste markings. Audio: waveform. Never a generic "tech" grid on a non-technical brand.
 3. **One family per page, two at most.** Alternate a strong field (photo, duotone, colour) with a quiet one (paper, grain) so the strong ones keep their force. A section-by-section rhythm: field, paper, field.
 4. **Text on a background**: put it where the image is calm, or add a veil only behind the text column (`references/imagery.md`). Body text still passes 4.5:1.
