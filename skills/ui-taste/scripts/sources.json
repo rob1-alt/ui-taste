@@ -9592,5 +9592,122 @@
    "finance"
   ],
   "note": "The name in a huge serif over an overhead photo of people working, then plain stats on cream (.2 Billion, 10,000+, SEC, 2017). A wealth manager for tech workers shows the office and four facts."
+ },
+ {
+  "site": "Aino",
+  "type": "landing",
+  "url": "https://aino.agency",
+  "tags": [
+   "light",
+   "ascii-art-hero",
+   "mono-texture",
+   "fashion-photo",
+   "agency"
+  ],
+  "note": "The hero is a mountain drawn in ASCII characters across the whole width, then fashion photos with small mono product labels. A design-and-tech agency signs its craft with code-made imagery."
+ },
+ {
+  "site": "DICE Conference",
+  "type": "landing",
+  "url": "http://dice.berlin",
+  "tags": [
+   "cream",
+   "3d-letters",
+   "artist-name-list",
+   "event-archive",
+   "hiatus-state"
+  ],
+  "note": "Green glassy 3D letters spell the name, then a note that the festival is on hiatus and a dense list of every past artist. An event page in its archive state: thanks, photos and the full line-up as a record."
+ },
+ {
+  "site": "Goodside",
+  "type": "landing",
+  "url": "https://www.goodside.studio",
+  "tags": [
+   "light",
+   "giant-serif-wordmark",
+   "packaging-photos",
+   "centered-serif-copy",
+   "studio"
+  ],
+  "note": "The name in a huge heavy serif across the top, then a row of the packaging it designed and a centred serif paragraph with a small flower drawing. A branding studio as a printed catalogue."
+ },
+ {
+  "site": "Orion",
+  "type": "landing",
+  "url": "https://orion.tube",
+  "tags": [
+   "dark",
+   "tv-colour-bars",
+   "serif-display",
+   "sticker-button",
+   "ipad-product"
+  ],
+  "note": "A blurred TV colour-bar glow behind an iPad showing a camera feed, a serif headline with one italic word, and an App Store button stuck on like a yellow price sticker. A utility app with the warmth of an old TV ad."
+ },
+ {
+  "site": "Antfood",
+  "type": "landing",
+  "url": "http://www.antfood.com",
+  "tags": [
+   "dark",
+   "aerial-city-photo",
+   "sound-studio",
+   "clock-list",
+   "work-tiles"
+  ],
+  "note": "A dark page with world clocks for its studios, then an aerial photo of Manhattan captioned 'Empire State Building, Immersive Sonic Experience'. A sound studio shows places, because sound has no picture."
+ },
+ {
+  "site": "DeepJudge",
+  "type": "landing",
+  "url": "https://www.deepjudge.ai",
+  "tags": [
+   "beige",
+   "serif-display",
+   "barcode-stripes",
+   "purple-accent",
+   "legal-ai"
+  ],
+  "note": "A large serif headline above a band of black and purple vertical stripes like a barcode or document stack, then a search field across purple stripes. Legal AI shown as a texture of documents, not a robot."
+ },
+ {
+  "site": "July Fund",
+  "type": "landing",
+  "url": "https://july.fund",
+  "tags": [
+   "dark-brown",
+   "stacked-cards",
+   "serif-display",
+   "minimal",
+   "venture-fund"
+  ],
+  "note": "The fund is a single pale card with the name in a large serif, and the portfolio arrives as more cards stacked beneath it. A small fund presents itself like letters on a desk."
+ },
+ {
+  "site": "Offsuit",
+  "type": "landing",
+  "url": "https://offsuit.app",
+  "tags": [
+   "dark",
+   "giant-wordmark",
+   "3d-suit-icons",
+   "tile-grid",
+   "vote-next-game"
+  ],
+  "note": "The name in huge white type, then each card game as a tile with a soft 3D suit icon, and a 'What should we make next?' grid with vote counts. A games studio lets players vote on the roadmap from the homepage."
+ },
+ {
+  "site": "Temper Studio",
+  "type": "landing",
+  "url": "https://temper.studio",
+  "tags": [
+   "light",
+   "red-clay-photo",
+   "serif-statement",
+   "product-row",
+   "tennis"
+  ],
+  "note": "A player sitting on a bench against a red clay court wall, a serif paragraph about the state of the sport, then the products on white. A tennis brand shot like a magazine story, products after the mood."
  }
 ]

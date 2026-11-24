@@ -145,6 +145,8 @@ Take: for a premium brand, spend the budget on the photograph and on space, cut 
 
 The conference pages in the library change with the date. GitHub Universe, after the event, says "thanks-for-joining-us/" and "see-you-next-year/" (section titles written as URL paths, in the audience's own syntax); Config sells the next edition with a stage photograph and the early-bird price set as large as the headline, the full price struck through; Next.js Conf turns the agenda into a plain table with speakers' roles in mono caps.
 
+The last state is the archive: DICE Conference, on hiatus, keeps its 3D wordmark, a thank-you line, two stage photos and the full list of every past artist, so the page still works as a record.
+
 Take: an event page has states (announce, early bird, live, recap) and each needs its own first screen. Sell the room with one photograph, make the deadline or price the biggest number, and treat the agenda as data in a table, not speaker cards.
 
 ## 18. A studio's site is its work, at full size

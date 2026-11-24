@@ -11515,6 +11515,85 @@
     }
   },
   {
+    "id": "aino-landing",
+    "site": "Aino",
+    "url": "https://aino.agency",
+    "type": "landing",
+    "tags": [
+      "light",
+      "ascii-art-hero",
+      "mono-texture",
+      "fashion-photo",
+      "agency"
+    ],
+    "note": "The hero is a mountain drawn in ASCII characters across the whole width, then fashion photos with small mono product labels. A design-and-tech agency signs its craft with code-made imagery.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/aino-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/aino-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Aino — Design & Technology Agency",
+      "fonts": [
+        "abcplus",
+        "abc"
+      ],
+      "type": {
+        "h1": {
+          "font": "abcplus",
+          "size": 38,
+          "weight": "720",
+          "lineHeight": 1.03,
+          "letterSpacing": "-1.13248px",
+          "color": "rgb(24, 24, 24)"
+        },
+        "h2": {
+          "font": "abcplus",
+          "size": 13,
+          "weight": "500",
+          "lineHeight": 1.39,
+          "letterSpacing": "0.54px",
+          "color": "rgb(24, 24, 24)"
+        },
+        "h3": {
+          "font": "abcplus",
+          "size": 13,
+          "weight": "500",
+          "lineHeight": 1.39,
+          "letterSpacing": "0.54px",
+          "color": "rgb(24, 24, 24)"
+        },
+        "body": {
+          "font": "abcplus",
+          "size": 23,
+          "weight": "500",
+          "lineHeight": 1.14,
+          "letterSpacing": "-0.452993px",
+          "color": "rgb(24, 24, 24)"
+        }
+      },
+      "colors": {
+        "background": "#f5f5f0",
+        "surfaces": [
+          "#f5f5f0"
+        ],
+        "text": [
+          "#181818"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": null
+    }
+  },
+  {
     "id": "air-mail-landing",
     "site": "Air Mail",
     "url": "https://airmail.news",
@@ -12620,6 +12699,88 @@
         }
       ],
       "contentWidth": 1200
+    }
+  },
+  {
+    "id": "antfood-landing",
+    "site": "Antfood",
+    "url": "http://www.antfood.com",
+    "type": "landing",
+    "tags": [
+      "dark",
+      "aerial-city-photo",
+      "sound-studio",
+      "clock-list",
+      "work-tiles"
+    ],
+    "note": "A dark page with world clocks for its studios, then an aerial photo of Manhattan captioned 'Empire State Building, Immersive Sonic Experience'. A sound studio shows places, because sound has no picture.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/antfood-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/antfood-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Antfood: Music, Sonic Branding, and Audio Innovation",
+      "fonts": [
+        "Brut"
+      ],
+      "type": {
+        "h1": {
+          "font": "Brut",
+          "size": 61,
+          "weight": "500",
+          "lineHeight": 0.9,
+          "letterSpacing": "-1.82256px",
+          "color": "rgb(255, 255, 255)"
+        },
+        "h2": {
+          "font": "Brut",
+          "size": 61,
+          "weight": "500",
+          "lineHeight": 0.9,
+          "letterSpacing": "-1.82256px",
+          "color": "rgb(255, 255, 255)"
+        },
+        "h3": {
+          "font": "Brut",
+          "size": 20,
+          "weight": "600",
+          "lineHeight": 1.05,
+          "letterSpacing": "-0.324px",
+          "color": "rgb(21, 21, 21)"
+        },
+        "body": {
+          "font": "Brut",
+          "size": 18,
+          "weight": "600",
+          "lineHeight": 1.1,
+          "letterSpacing": "-0.324px",
+          "color": "rgb(255, 255, 255)"
+        }
+      },
+      "colors": {
+        "background": "#000000",
+        "surfaces": [
+          "#000000",
+          "#ff0001",
+          "#eeb300",
+          "#ff0000"
+        ],
+        "text": [
+          "#ffffff",
+          "#f4f4f4"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": null
     }
   },
   {
@@ -22153,6 +22314,93 @@
     }
   },
   {
+    "id": "deepjudge-landing",
+    "site": "DeepJudge",
+    "url": "https://www.deepjudge.ai",
+    "type": "landing",
+    "tags": [
+      "beige",
+      "serif-display",
+      "barcode-stripes",
+      "purple-accent",
+      "legal-ai"
+    ],
+    "note": "A large serif headline above a band of black and purple vertical stripes like a barcode or document stack, then a search field across purple stripes. Legal AI shown as a texture of documents, not a robot.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/deepjudge-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/deepjudge-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "DeepJudge - Precision AI Search for legal teams",
+      "fonts": [
+        "Suisse intl",
+        "Suisse works",
+        "Suisse intl mono"
+      ],
+      "type": {
+        "h1": {
+          "font": "Suisse works",
+          "size": 96,
+          "weight": "400",
+          "lineHeight": 1,
+          "letterSpacing": "-4.8px",
+          "color": "rgb(26, 26, 26)"
+        },
+        "h2": {
+          "font": "Suisse works",
+          "size": 64,
+          "weight": "400",
+          "lineHeight": 1.1,
+          "letterSpacing": "-2.56px",
+          "color": "rgb(26, 26, 26)"
+        },
+        "h3": {
+          "font": "Suisse intl mono",
+          "size": 12,
+          "weight": "400",
+          "lineHeight": 0.9,
+          "letterSpacing": "-0.24px",
+          "color": "rgb(26, 26, 26)"
+        },
+        "body": {
+          "font": "Suisse intl",
+          "size": 16,
+          "weight": "400",
+          "lineHeight": 1.3,
+          "letterSpacing": "-0.32px",
+          "color": "rgba(237, 233, 229, 0.7)"
+        }
+      },
+      "colors": {
+        "background": "#ede9e5",
+        "surfaces": [
+          "#ffffff",
+          "#e6e0db",
+          "#f2f0ed",
+          "#242422",
+          "#e4ded8"
+        ],
+        "text": [
+          "#242422",
+          "#1a1a1a",
+          "#ede9e5",
+          "#ffffff"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": 1440
+    }
+  },
+  {
     "id": "delphi-landing",
     "site": "Delphi",
     "url": "https://www.delphi.ai",
@@ -22922,6 +23170,72 @@
       },
       "buttons": [],
       "contentWidth": 1440
+    }
+  },
+  {
+    "id": "dice-conference-landing",
+    "site": "DICE Conference",
+    "url": "http://dice.berlin",
+    "type": "landing",
+    "tags": [
+      "cream",
+      "3d-letters",
+      "artist-name-list",
+      "event-archive",
+      "hiatus-state"
+    ],
+    "note": "Green glassy 3D letters spell the name, then a note that the festival is on hiatus and a dense list of every past artist. An event page in its archive state: thanks, photos and the full line-up as a record.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/dice-conference-landing-desktop.jpg",
+        "width": 1440,
+        "height": 2205
+      },
+      "mobile": {
+        "file": "screens/dice-conference-landing-mobile.jpg",
+        "width": 390,
+        "height": 2322
+      }
+    },
+    "tokens": {
+      "title": "DICE Conference + Festival",
+      "fonts": [
+        "Jost",
+        "Arial"
+      ],
+      "type": {
+        "h1": null,
+        "h2": {
+          "font": "Jost",
+          "size": 16,
+          "weight": "500",
+          "lineHeight": 1.5,
+          "letterSpacing": "1.92px",
+          "color": "rgb(58, 158, 124)"
+        },
+        "h3": null,
+        "body": {
+          "font": "Jost",
+          "size": 28,
+          "weight": "400",
+          "lineHeight": 1.4,
+          "letterSpacing": "normal",
+          "color": "rgb(31, 61, 51)"
+        }
+      },
+      "colors": {
+        "background": "#eeebdc",
+        "surfaces": [
+          "#5dd4ac"
+        ],
+        "text": [
+          "#1f3d33",
+          "#3a9e7c"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": 680
     }
   },
   {
@@ -30261,6 +30575,79 @@
     }
   },
   {
+    "id": "goodside-landing",
+    "site": "Goodside",
+    "url": "https://www.goodside.studio",
+    "type": "landing",
+    "tags": [
+      "light",
+      "giant-serif-wordmark",
+      "packaging-photos",
+      "centered-serif-copy",
+      "studio"
+    ],
+    "note": "The name in a huge heavy serif across the top, then a row of the packaging it designed and a centred serif paragraph with a small flower drawing. A branding studio as a printed catalogue.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/goodside-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3496
+      },
+      "mobile": {
+        "file": "screens/goodside-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Goodside → An independent brand design studio",
+      "fonts": [
+        "Epicene Text"
+      ],
+      "type": {
+        "h1": {
+          "font": "Epicene Text",
+          "size": 25,
+          "weight": "300",
+          "lineHeight": 1.2,
+          "letterSpacing": "-0.498px",
+          "color": "rgb(0, 0, 0)"
+        },
+        "h2": {
+          "font": "Epicene Text",
+          "size": 18,
+          "weight": "300",
+          "lineHeight": 1.2,
+          "letterSpacing": "-0.36px",
+          "color": "rgb(0, 0, 0)"
+        },
+        "h3": null,
+        "body": {
+          "font": "Epicene Text",
+          "size": 15,
+          "weight": "300",
+          "lineHeight": 1.2,
+          "letterSpacing": "-0.3px",
+          "color": "rgb(0, 0, 0)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#d9d9d9",
+          "#ffffff",
+          "#000000"
+        ],
+        "text": [
+          "#000000"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": null
+    }
+  },
+  {
     "id": "google-deepmind-landing",
     "site": "Google DeepMind",
     "url": "https://deepmind.google",
@@ -36076,6 +36463,78 @@
         }
       ],
       "contentWidth": 720
+    }
+  },
+  {
+    "id": "july-fund-landing",
+    "site": "July Fund",
+    "url": "https://july.fund",
+    "type": "landing",
+    "tags": [
+      "dark-brown",
+      "stacked-cards",
+      "serif-display",
+      "minimal",
+      "venture-fund"
+    ],
+    "note": "The fund is a single pale card with the name in a large serif, and the portfolio arrives as more cards stacked beneath it. A small fund presents itself like letters on a desk.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/july-fund-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/july-fund-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "July Fund",
+      "fonts": [
+        "Helvetica Neue",
+        "Portrait"
+      ],
+      "type": {
+        "h1": null,
+        "h2": null,
+        "h3": {
+          "font": "Portrait",
+          "size": 34,
+          "weight": "400",
+          "lineHeight": "normal",
+          "letterSpacing": "normal",
+          "color": "rgb(67, 62, 60)"
+        },
+        "body": {
+          "font": "Helvetica Neue",
+          "size": 20,
+          "weight": "400",
+          "lineHeight": 1.3,
+          "letterSpacing": "normal",
+          "color": "rgb(136, 136, 136)"
+        }
+      },
+      "colors": {
+        "background": "#433e3c",
+        "surfaces": [
+          "#2a2b2f",
+          "#eee7e4",
+          "#f0e7e4",
+          "#eee7e5",
+          "#615a57"
+        ],
+        "text": [
+          "#f0e7e4",
+          "#433e3c",
+          "#888888",
+          "#2b2b2b"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": 843
     }
   },
   {
@@ -45411,6 +45870,75 @@
     }
   },
   {
+    "id": "offsuit-landing",
+    "site": "Offsuit",
+    "url": "https://offsuit.app",
+    "type": "landing",
+    "tags": [
+      "dark",
+      "giant-wordmark",
+      "3d-suit-icons",
+      "tile-grid",
+      "vote-next-game"
+    ],
+    "note": "The name in huge white type, then each card game as a tile with a soft 3D suit icon, and a 'What should we make next?' grid with vote counts. A games studio lets players vote on the roadmap from the homepage.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/offsuit-landing-desktop.jpg",
+        "width": 1440,
+        "height": 2590
+      },
+      "mobile": {
+        "file": "screens/offsuit-landing-mobile.jpg",
+        "width": 390,
+        "height": 2540
+      }
+    },
+    "tokens": {
+      "title": "Offsuit Games - Dead Simple, Deliberately Designed",
+      "fonts": [
+        "Plus Jakarta Sans"
+      ],
+      "type": {
+        "h1": {
+          "font": "Plus Jakarta Sans",
+          "size": 16,
+          "weight": "400",
+          "lineHeight": 1.5,
+          "letterSpacing": "normal",
+          "color": "rgb(255, 255, 255)"
+        },
+        "h2": {
+          "font": "Plus Jakarta Sans",
+          "size": 16,
+          "weight": "400",
+          "lineHeight": 1,
+          "letterSpacing": "normal",
+          "color": "rgb(255, 255, 255)"
+        },
+        "h3": null,
+        "body": {
+          "font": "Plus Jakarta Sans",
+          "size": 24,
+          "weight": "500",
+          "lineHeight": 1.25,
+          "letterSpacing": "-0.5px",
+          "color": "rgb(255, 255, 255)"
+        }
+      },
+      "colors": {
+        "background": "#000000",
+        "surfaces": [],
+        "text": [
+          "#ffffff"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": null
+    }
+  },
+  {
     "id": "oh-no-type-landing",
     "site": "OH no Type",
     "url": "https://ohnotype.co",
@@ -46616,6 +47144,88 @@
       },
       "buttons": [],
       "contentWidth": 1200
+    }
+  },
+  {
+    "id": "orion-landing",
+    "site": "Orion",
+    "url": "https://orion.tube",
+    "type": "landing",
+    "tags": [
+      "dark",
+      "tv-colour-bars",
+      "serif-display",
+      "sticker-button",
+      "ipad-product"
+    ],
+    "note": "A blurred TV colour-bar glow behind an iPad showing a camera feed, a serif headline with one italic word, and an App Store button stuck on like a yellow price sticker. A utility app with the warmth of an old TV ad.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/orion-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/orion-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Orion — HDMI Monitor for iPad",
+      "fonts": [
+        "SeriouslyNostalgic Regular",
+        "New York Small Regular",
+        "New York Medium Regular"
+      ],
+      "type": {
+        "h1": {
+          "font": "SeriouslyNostalgic Regular",
+          "size": 87,
+          "weight": "400",
+          "lineHeight": 0.5,
+          "letterSpacing": "normal",
+          "color": "rgb(221, 221, 221)"
+        },
+        "h2": {
+          "font": "SeriouslyNostalgic Regular",
+          "size": 65,
+          "weight": "400",
+          "lineHeight": 0.5,
+          "letterSpacing": "normal",
+          "color": "rgb(221, 221, 221)"
+        },
+        "h3": {
+          "font": "SeriouslyNostalgic Regular",
+          "size": 33,
+          "weight": "400",
+          "lineHeight": 1.4,
+          "letterSpacing": "normal",
+          "color": "rgb(58, 58, 59)"
+        },
+        "body": {
+          "font": "SeriouslyNostalgic Regular",
+          "size": 65,
+          "weight": "400",
+          "lineHeight": 1.01,
+          "letterSpacing": "normal",
+          "color": "rgb(255, 255, 255)"
+        }
+      },
+      "colors": {
+        "background": "#000000",
+        "surfaces": [
+          "#000000"
+        ],
+        "text": [
+          "#dddddd",
+          "#5d5d5d",
+          "#ffffff"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": null
     }
   },
   {
@@ -62887,6 +63497,115 @@
         }
       ],
       "contentWidth": 1340
+    }
+  },
+  {
+    "id": "temper-studio-landing",
+    "site": "Temper Studio",
+    "url": "https://temper.studio",
+    "type": "landing",
+    "tags": [
+      "light",
+      "red-clay-photo",
+      "serif-statement",
+      "product-row",
+      "tennis"
+    ],
+    "note": "A player sitting on a bench against a red clay court wall, a serif paragraph about the state of the sport, then the products on white. A tennis brand shot like a magazine story, products after the mood.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/temper-studio-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/temper-studio-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Temper Studio",
+      "fonts": [
+        "TMSurt",
+        "Quadrant Text",
+        "Quadrant Text Mono"
+      ],
+      "type": {
+        "h1": {
+          "font": "Quadrant Text",
+          "size": 56,
+          "weight": "400",
+          "lineHeight": 0,
+          "letterSpacing": "-2.24px",
+          "color": "rgb(17, 17, 17)"
+        },
+        "h2": {
+          "font": "TMSurt",
+          "size": 24,
+          "weight": "400",
+          "lineHeight": 1.2,
+          "letterSpacing": "normal",
+          "color": "rgb(17, 17, 17)"
+        },
+        "h3": {
+          "font": "TMSurt",
+          "size": 13,
+          "weight": "400",
+          "lineHeight": 1.4,
+          "letterSpacing": "normal",
+          "color": "rgb(17, 17, 17)"
+        },
+        "body": {
+          "font": "Quadrant Text",
+          "size": 32,
+          "weight": "400",
+          "lineHeight": 1.5,
+          "letterSpacing": "normal",
+          "color": "rgb(17, 17, 17)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#111111",
+          "#f2f1ef",
+          "#ffffff",
+          "#909090",
+          "#ffe24c"
+        ],
+        "text": [
+          "#111111",
+          "#ffffff",
+          "#909090"
+        ]
+      },
+      "buttons": [
+        {
+          "label": "SHOP NOW",
+          "bg": "#111111",
+          "color": "#ffffff",
+          "radius": "2px",
+          "height": 52,
+          "paddingX": 24,
+          "font": "TMSurt",
+          "size": 10,
+          "weight": "400"
+        },
+        {
+          "label": "MORE ABOUT US",
+          "bg": "#ffe24c",
+          "color": "#111111",
+          "radius": "2px",
+          "height": 52,
+          "paddingX": 24,
+          "font": "TMSurt",
+          "size": 10,
+          "weight": "400"
+        }
+      ],
+      "contentWidth": 1600
     }
   },
   {

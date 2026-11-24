@@ -777,3 +777,34 @@ https://www.palmer-dinnerware.com	only the hero renders
 https://tokorocapital.com	only the hero renders
 https://xanvierallison.com	only the hero renders
 https://suvreesstudio.de	capture hangs the renderer
+https://no-ra.art	broken (URLError) (prefilter)
+http://www.morningbaker6am.com	broken (URLError) (prefilter)
+https://www.mparticle.com	redirects off-site (rokt.com) (prefilter)
+https://www.wittl.co	broken (URLError) (prefilter)
+https://www.campsite.co	redirects off-site (campsite.com) (prefilter)
+https://www.callinganyone.com	broken (http 402) (prefilter)
+https://www.swanvision.ai	redirects off-site (swan.so) (prefilter)
+https://www.save.day	broken (http 404) (prefilter)
+https://www.variant.ai	redirects off-site (variant.com) (prefilter)
+https://www.designspells.com	blocked (http 429) (prefilter)
+https://dataandtrustalliance.org	redirects off-site (dtaalliance.org) (prefilter)
+https://www.multivault.com	redirects off-site (multi.inc) (prefilter)
+https://bento.me	bot wall (prefilter)
+https://quickcapture.xyz	broken (http 526) (prefilter)
+https://hona.ai	redirects off-site (hona.com) (prefilter)
+https://openhome.xyz	redirects off-site (openhome.com) (prefilter)
+https://dub.sh	blocked (http 429) (prefilter)
+https://haptic.app	broken (http 404) (prefilter)
+http://essential.com	blank capture
+https://www.sgrappa.com	blank capture
+https://www.shadergradient.co	capture failed
+https://boc.studio	work grid, pattern covered
+https://composio.dev	generic
+https://www.easound.no	only the hero renders
+https://www.gabrielbeaugonin.com	only the hero renders
+https://gufram.it/en	only the hero renders
+https://houseofyellow.nl	generic agency
+https://huehaus.design	only the wordmark renders
+https://link-kit.com	sign-up modal
+https://honest.fi	only the hero renders
+https://www.tayte.co	work previews never load
