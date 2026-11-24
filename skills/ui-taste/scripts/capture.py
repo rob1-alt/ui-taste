@@ -257,6 +257,40 @@ BLOCKED_HOSTS = [
     "*.sentry.io", "*.datadoghq-browser-agent.com", "*.newrelic.com", "*.nr-data.net",
 ]
 LAUNCH_ARGS.append("--host-resolver-rules=" + ", ".join(f"MAP {h} ~NOTFOUND" for h in BLOCKED_HOSTS))
+SITE_TIMEOUT_S = 120  # a page whose scripts lock the renderer can hang a capture for good
+
+
+class SiteTimeout(Exception):
+    pass
+
+
+def _on_alarm(signum, frame):
+    raise SiteTimeout(f"over {SITE_TIMEOUT_S}s")
+
+
+def kill_browsers() -> None:
+    """Kill the headless Chrome processes started by this capture (not other shards')."""
+    import os, signal as sig
+    me, children = os.getpid(), {}
+    for d in os.listdir("/proc"):
+        if d.isdigit():
+            try:
+                ppid = int(open(f"/proc/{d}/stat").read().rsplit(")", 1)[1].split()[1])
+                children.setdefault(ppid, []).append(int(d))
+            except Exception:
+                pass
+    todo, mine = [me], []
+    while todo:
+        for c in children.get(todo.pop(), []):
+            mine.append(c); todo.append(c)
+    for pid in mine:
+        try:
+            if "chrome" in open(f"/proc/{pid}/cmdline").read():
+                os.kill(pid, sig.SIGKILL)
+        except Exception:
+            pass
+
+
 RESTART_EVERY = 8  # a long-lived browser keeps growing; a fresh one every few sites stays small
 
 
@@ -372,11 +406,22 @@ def main() -> int:
                 failed.append(label)
                 print(f"FAIL  {label}: id {sid} is already in the library, give the entry its own id", file=sys.stderr, flush=True)
                 continue
+            import signal
+            signal.signal(signal.SIGALRM, _on_alarm)
+            signal.alarm(SITE_TIMEOUT_S)
             try:
                 item = capture(entry, browser)
+                signal.alarm(0)
                 save_item(item)
                 print(f"ok    {item['id']}", flush=True)
+            except SiteTimeout as exc:
+                signal.alarm(0)
+                failed.append(label)
+                print(f"FAIL  {label}: {exc}, browser killed", file=sys.stderr, flush=True)
+                kill_browsers()
+                browser = p.chromium.launch(args=LAUNCH_ARGS)
             except Exception as exc:  # one bad site must not stop the batch
+                signal.alarm(0)
                 failed.append(label)
                 print(f"FAIL  {label}: {str(exc).splitlines()[0][:160]}", file=sys.stderr, flush=True)
         browser.close()

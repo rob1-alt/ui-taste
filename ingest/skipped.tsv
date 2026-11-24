@@ -744,3 +744,36 @@ https://pipe.com	only the hero renders
 https://raworkshop.org	password page
 https://www.spotstravel.co	text stuck mid-fade
 https://waabi.ai	scroll animation leaves the page scattered
+https://www.tinycapital.com	broken (http 404) (prefilter)
+https://mushstudios.co	sale takeover (prefilter)
+https://www.mindpalace.ai	broken (URLError) (prefilter)
+http://www.1979.fm	redirects off-site (a24films.com) (prefilter)
+https://freeflo.ai	bot wall (prefilter)
+http://www.collaborativefund.com	redirects off-site (collabfund.com) (prefilter)
+http://www.iancoyle.com	redirects off-site (coyle.ventures) (prefilter)
+https://frantvodka.com	broken (URLError) (prefilter)
+https://wetwo.digital	broken (URLError) (prefilter)
+https://diagram.com	broken (URLError) (prefilter)
+https://nucelo.com	redirects off-site (comma.to) (prefilter)
+https://www.hyperstudio.org/ultralogos	broken (http 404) (prefilter)
+http://sobieskivodka.com/en-en	broken (http 404) (prefilter)
+https://www.getvesto.com	redirects off-site (vesto.com) (prefilter)
+https://intl.nothing.tech	duplicate of nothing.tech in the library
+https://newgenre.studio	almost empty
+https://www.and2es.com	only the hero renders
+https://bswt.tv	only the hero renders
+https://capital.xyz	generic dark fintech
+https://www.composer.trade	black friday banner
+https://dailyfour.app	generic, text mid-fade
+https://i-type-ny.groznov.co	black intro screen only
+https://www.joshuabaker.com	generic personal
+https://juneshine.com	age gate modal
+https://kiaradigregorio.com	only the hero renders
+https://kvistly.com	generic saas
+https://modeinspect.com	generic
+http://moscowmusicschool.ru	mobile only partly renders
+https://nomadlabs.es	logo only, nothing else renders
+https://www.palmer-dinnerware.com	only the hero renders
+https://tokorocapital.com	only the hero renders
+https://xanvierallison.com	only the hero renders
+https://suvreesstudio.de	capture hangs the renderer
