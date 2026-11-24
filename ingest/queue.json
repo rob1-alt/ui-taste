@@ -1,126 +1,329 @@
 [
  {
-  "site": "Lucide",
-  "url": "https://lucide.dev",
+  "site": "YNAB",
+  "url": "https://www.ynab.com",
   "type": "landing",
   "tags": [],
   "note": ""
  },
  {
-  "site": "Heroicons",
-  "url": "https://heroicons.com",
+  "site": "Lunch Money",
+  "url": "https://lunchmoney.app",
   "type": "landing",
   "tags": [],
   "note": ""
  },
  {
-  "site": "Iconoir",
-  "url": "https://iconoir.com",
+  "site": "Tiller",
+  "url": "https://tiller.com",
   "type": "landing",
   "tags": [],
   "note": ""
  },
  {
-  "site": "Tabler Icons",
-  "url": "https://tabler.io/icons",
+  "site": "Origin",
+  "url": "https://www.useorigin.com",
   "type": "landing",
   "tags": [],
   "note": ""
  },
  {
-  "site": "Streamline",
-  "url": "https://www.streamlinehq.com",
+  "site": "Wealthsimple",
+  "url": "https://www.wealthsimple.com",
   "type": "landing",
   "tags": [],
   "note": ""
  },
  {
-  "site": "Humaaans",
-  "url": "https://www.humaaans.com",
+  "site": "Trade Republic",
+  "url": "https://traderepublic.com",
   "type": "landing",
   "tags": [],
   "note": ""
  },
  {
-  "site": "Blush",
-  "url": "https://blush.design",
+  "site": "Bitpanda",
+  "url": "https://www.bitpanda.com",
   "type": "landing",
   "tags": [],
   "note": ""
  },
  {
-  "site": "Unsplash",
-  "url": "https://unsplash.com",
+  "site": "Kraken",
+  "url": "https://www.kraken.com",
   "type": "landing",
   "tags": [],
   "note": ""
  },
  {
-  "site": "Pinterest Design",
-  "url": "https://newsroom.pinterest.com",
+  "site": "Uniswap Labs",
+  "url": "https://uniswap.org",
   "type": "landing",
   "tags": [],
   "note": ""
  },
  {
-  "site": "Dribbble",
-  "url": "https://dribbble.com",
+  "site": "Zerion",
+  "url": "https://zerion.io",
   "type": "landing",
   "tags": [],
   "note": ""
  },
  {
-  "site": "Behance",
-  "url": "https://www.behance.net",
+  "site": "Farcaster",
+  "url": "https://www.farcaster.xyz",
   "type": "landing",
   "tags": [],
   "note": ""
  },
  {
-  "site": "Layers Design",
-  "url": "https://layers.to/explore",
+  "site": "Warpcast",
+  "url": "https://warpcast.com",
   "type": "landing",
   "tags": [],
   "note": ""
  },
  {
-  "site": "Siteinspire",
-  "url": "https://www.siteinspire.com",
+  "site": "Lens",
+  "url": "https://lens.xyz",
   "type": "landing",
   "tags": [],
   "note": ""
  },
  {
-  "site": "One Page Love",
-  "url": "https://onepagelove.com",
+  "site": "Mirror",
+  "url": "https://mirror.xyz",
   "type": "landing",
   "tags": [],
   "note": ""
  },
  {
-  "site": "Minimal Gallery",
-  "url": "https://minimal.gallery",
+  "site": "Paragraph",
+  "url": "https://paragraph.xyz",
   "type": "landing",
   "tags": [],
   "note": ""
  },
  {
-  "site": "Httpster",
-  "url": "https://httpster.net",
+  "site": "Foundation",
+  "url": "https://foundation.app",
   "type": "landing",
   "tags": [],
   "note": ""
  },
  {
-  "site": "Hoverstat",
-  "url": "https://www.hoverstat.es",
+  "site": "Highlight",
+  "url": "https://highlight.xyz",
   "type": "landing",
   "tags": [],
   "note": ""
  },
  {
-  "site": "Brutalist Websites",
-  "url": "https://brutalistwebsites.com",
+  "site": "Manifold",
+  "url": "https://manifold.xyz",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "Glitch",
+  "url": "https://glitch.com",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "CodePen",
+  "url": "https://codepen.io",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "CodeSandbox",
+  "url": "https://codesandbox.io",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "StackBlitz",
+  "url": "https://stackblitz.com",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "Oxc",
+  "url": "https://oxc.rs",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "Rspack",
+  "url": "https://rspack.dev",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "Rolldown",
+  "url": "https://rolldown.rs",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "Nuxt",
+  "url": "https://nuxt.com",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "SolidJS",
+  "url": "https://www.solidjs.com",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "Qwik",
+  "url": "https://qwik.dev",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "Htmx",
+  "url": "https://htmx.org",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "Alpine.js",
+  "url": "https://alpinejs.dev",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "Elm",
+  "url": "https://elm-lang.org",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "Gleam",
+  "url": "https://gleam.run",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "Zig",
+  "url": "https://ziglang.org",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "Rust",
+  "url": "https://www.rust-lang.org",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "Go",
+  "url": "https://go.dev",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "Elixir",
+  "url": "https://elixir-lang.org",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "Phoenix",
+  "url": "https://www.phoenixframework.org",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "Laravel",
+  "url": "https://laravel.com",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "Rails",
+  "url": "https://rubyonrails.org",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "Django",
+  "url": "https://www.djangoproject.com",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "FastAPI",
+  "url": "https://fastapi.tiangolo.com",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "Pydantic",
+  "url": "https://pydantic.dev",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "Astral",
+  "url": "https://astral.sh",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "Marimo",
+  "url": "https://marimo.io",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "Jupyter",
+  "url": "https://jupyter.org",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "Streamlit",
+  "url": "https://streamlit.io",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "Gradio",
+  "url": "https://www.gradio.app",
   "type": "landing",
   "tags": [],
   "note": ""
