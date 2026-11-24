@@ -3,329 +3,492 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Pricing — Tally, invoicing for freelancers and small studios</title>
-<meta name="description" content="Tally pricing: Solo is free with 5 invoices a month. Studio is €12 a month with unlimited invoices, automatic reminders and bank matching. Team is €29 a month with 5 seats and a client portal.">
-<meta name="theme-color" content="#e9ecef">
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%230f1419'/%3E%3Cg stroke='%23ff5a36' stroke-width='3' stroke-linecap='round'%3E%3Cpath d='M9 8v16M14 8v16M19 8v16M24 8v16'/%3E%3C/g%3E%3Cpath d='M5 21L28 11' stroke='%23fff' stroke-width='3' stroke-linecap='round'/%3E%3C/svg%3E">
+<title>Pricing · Tally</title>
+<meta name="description" content="Tally pricing for freelancers and small studios. Solo is free for 5 invoices a month. Studio is €12 a month with unlimited invoices, automatic reminders and bank matching. Team is €29 a month with 5 seats and a client portal.">
+<meta name="theme-color" content="#14302a">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:wght@400;500;700&display=swap" rel="stylesheet">
 <style>
   :root {
-    /* surfaces */
-    --ground: #e9ecef;
-    --paper: #fbfbfa;
-    --ink: #0f1419;
-    --ink-2: #444c56;      /* 7.6:1 on paper */
-    --ink-3: #5f6772;      /* 5.2:1 on paper */
-    --rule: #cfd4da;
-    --accent: #e8431f;     /* action + state only */
-    --accent-ink: #b8310f; /* text-safe accent on light */
-    --accent-hi: #ff5a36;  /* accent on dark */
+    /* colour */
+    --ink: #14302a;          /* ledger green: the strong ground */
+    --ink-2: #1c3d36;
+    --ink-line: #2f5249;
+    --on-ink: #e9efec;
+    --on-ink-muted: #a9bdb6;
+    --page: #f3f4f1;         /* quiet ground */
+    --paper: #ffffff;        /* the invoice */
+    --text: #17201d;
+    --text-muted: #56625d;   /* 6.3:1 on white */
+    --line: #dfe3df;
+    --line-strong: #c3cac5;
+    --accent: #c2410c;       /* action only; 5.2:1 with white */
+    --accent-hover: #a8380a;
 
-    /* type scale: 13 / 15 / 17 / 20 / 28 / 56 / 72 */
-    --font: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-    --mono: ui-monospace, "SF Mono", "Cascadia Mono", Menlo, Consolas, monospace;
+    /* type */
+    --font: "Schibsted Grotesk", ui-sans-serif, system-ui, "Segoe UI", Roboto, sans-serif;
+    --fs-12: 0.75rem;
+    --fs-14: 0.875rem;
+    --fs-16: 1rem;
+    --fs-18: 1.125rem;
+    --fs-20: 1.25rem;
+    --fs-28: 1.75rem;
+    --fs-40: 2.5rem;
 
-    --r-control: 8px;
-    --r-card: 14px;
-    --wrap: 1120px;
+    /* shape */
+    --r-control: 6px;
+    --r-card: 10px;
+    --wrap: 1200px;
   }
 
   *, *::before, *::after { box-sizing: border-box; }
   html { -webkit-text-size-adjust: 100%; scroll-behavior: smooth; }
   body {
     margin: 0;
-    font: 400 17px/1.6 var(--font);
-    color: var(--ink);
-    background: var(--ground);
+    font-family: var(--font);
+    font-size: var(--fs-16);
+    line-height: 1.6;
+    color: var(--text);
+    background: var(--page);
     -webkit-font-smoothing: antialiased;
-    font-variant-numeric: tabular-nums;
   }
-  /* the customer's technical paper: faint ledger rules */
-  body::before {
-    content: "";
-    position: fixed; inset: 0; z-index: -1;
-    background-image:
-      repeating-linear-gradient(to bottom, transparent 0 31px, rgba(15,20,25,.055) 31px 32px);
-    pointer-events: none;
-  }
-  .wrap { max-width: var(--wrap); margin: 0 auto; padding: 0 24px; }
+  .compare td { font-variant-numeric: tabular-nums; }
+  h1, h2, h3, p { margin: 0; }
   a { color: inherit; }
-  :focus-visible { outline: 3px solid var(--accent); outline-offset: 3px; border-radius: 4px; }
-  .sr { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+  ul { margin: 0; padding: 0; list-style: none; }
+  .wrap { max-width: var(--wrap); margin: 0 auto; padding: 0 24px; }
 
-  .skip { position: absolute; left: 16px; top: -60px; background: var(--ink); color: #fff; padding: 10px 14px; border-radius: var(--r-control); z-index: 10; }
-  .skip:focus { top: 16px; }
-
-  /* ---------- header ---------- */
-  header.top { padding: 22px 0; }
-  header.top .wrap { display: flex; align-items: center; justify-content: space-between; gap: 16px; }
-  .brand { display: inline-flex; align-items: center; gap: 10px; font-weight: 700; font-size: 20px; letter-spacing: -.02em; text-decoration: none; }
-  .brand svg { display: block; }
-  nav.top { display: flex; align-items: center; gap: 28px; font-size: 15px; }
-  nav.top a { text-decoration: none; color: var(--ink-2); }
-  nav.top a:hover { color: var(--ink); }
-  nav.top a[aria-current="page"] { color: var(--ink); font-weight: 600; }
+  :focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; border-radius: 4px; }
+  .skip { position: absolute; left: 16px; top: -48px; background: var(--paper); padding: 8px 12px; border-radius: var(--r-control); z-index: 10; }
+  .skip:focus { top: 12px; }
+  .visually-hidden { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
 
   /* ---------- buttons ---------- */
   .btn {
-    display: inline-flex; align-items: center; justify-content: center;
-    height: 48px; padding: 0 22px;
-    font: 600 15px/1 var(--font);
-    border-radius: var(--r-control);
-    border: 1px solid transparent;
-    text-decoration: none; cursor: pointer;
-    transition: background-color .15s, border-color .15s, transform .15s;
+    display: inline-flex; align-items: center; justify-content: center; gap: 8px;
+    min-height: 44px; padding: 0 18px;
+    border-radius: var(--r-control); border: 1px solid transparent;
+    font: 500 var(--fs-16)/1 var(--font); text-decoration: none; cursor: pointer;
+    transition: background-color .15s ease, border-color .15s ease, color .15s ease;
   }
-  .btn:active { transform: translateY(1px); }
   .btn-primary { background: var(--accent); color: #fff; }
-  .btn-primary:hover { background: #d2380f; }
-  .btn-secondary { background: transparent; color: var(--ink); border-color: var(--ink); }
-  .btn-secondary:hover { background: var(--ink); color: #fff; }
-  .btn-small { height: 38px; padding: 0 16px; }
+  .btn-primary:hover { background: var(--accent-hover); }
+  .btn-secondary { background: transparent; color: var(--text); border-color: var(--line-strong); }
+  .btn-secondary:hover { border-color: var(--text); }
+  .btn-on-ink { background: transparent; color: var(--on-ink); border-color: var(--ink-line); }
+  .btn-on-ink:hover { border-color: var(--on-ink); }
+  .btn-block { width: 100%; }
+
+  /* ---------- header ---------- */
+  .site-header { border-bottom: 1px solid var(--line); background: var(--page); }
+  .site-header .wrap { display: flex; align-items: center; justify-content: space-between; height: 64px; }
+  .logo { display: inline-flex; align-items: center; gap: 10px; font-weight: 700; font-size: var(--fs-20); letter-spacing: -0.02em; text-decoration: none; }
+  .logo svg { display: block; }
+  .nav { display: flex; align-items: center; gap: 28px; font-size: var(--fs-14); }
+  .nav a { text-decoration: none; color: var(--text-muted); }
+  .nav a:hover, .nav a[aria-current="page"] { color: var(--text); }
+  .nav .btn { min-height: 36px; font-size: var(--fs-14); padding: 0 14px; color: var(--text); }
+  .nav-links { display: flex; gap: 28px; }
 
   /* ---------- hero ---------- */
   .hero { padding: 72px 0 56px; }
-  .eyebrow { font: 600 13px/1 var(--mono); letter-spacing: .08em; text-transform: uppercase; color: var(--ink-3); margin: 0 0 20px; }
-  h1 {
-    margin: 0;
-    font-size: clamp(42px, 7.2vw, 72px);
-    line-height: 1.02;
-    letter-spacing: -.035em;
-    font-weight: 750;
-    max-width: 13em;
+  .hero-grid { display: grid; grid-template-columns: minmax(0, 1fr) 340px; gap: 48px; align-items: end; }
+  .hero h1 {
+    font-size: clamp(2.75rem, 1.2rem + 5.4vw, 5.75rem);
+    line-height: 0.98; letter-spacing: -0.045em; font-weight: 700;
+    max-width: 13ch;
     text-wrap: balance;
   }
-  h1 .strike { position: relative; white-space: nowrap; }
-  .hero p.lede { margin: 24px 0 0; max-width: 34em; font-size: 20px; line-height: 1.5; color: var(--ink-2); text-wrap: pretty; }
+  .hero-note { font-size: var(--fs-18); color: var(--text-muted); line-height: 1.55; }
+  .hero-note strong { color: var(--text); font-weight: 500; }
 
-  /* ---------- plans: three invoices ---------- */
-  .plans { padding: 8px 0 88px; }
-  .grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 28px; align-items: start; }
-  .slip {
-    --bg: var(--paper); --fg: var(--ink); --fg-2: var(--ink-2); --fg-3: var(--ink-3); --line: var(--rule);
+  /* ---------- plans: the strong ground ---------- */
+  .plans { background: var(--ink); color: var(--on-ink); padding: 56px 0 96px; }
+  .plans-head { display: flex; justify-content: space-between; align-items: baseline; gap: 24px; margin-bottom: 32px; }
+  .plans-head h2 { font-size: var(--fs-20); font-weight: 500; letter-spacing: -0.01em; }
+  .plans-head p { font-size: var(--fs-14); color: var(--on-ink-muted); }
+
+  .invoices { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 24px; align-items: stretch; }
+
+  .invoice {
     position: relative;
-    background: var(--bg); color: var(--fg);
-    border-radius: var(--r-card) var(--r-card) 0 0;
-    padding: 32px 28px 28px;
-    margin-bottom: 12px; /* room for the torn edge */
     display: flex; flex-direction: column;
-    box-shadow: 0 1px 0 rgba(15,20,25,.04), 0 18px 30px -22px rgba(15,20,25,.35);
+    background: var(--paper); color: var(--text);
+    border-radius: var(--r-card);
+    padding: 28px 28px 24px;
   }
-  /* torn bottom edge */
-  .slip::after {
-    content: ""; position: absolute; left: 0; right: 0; top: 100%; height: 12px;
-    background:
-      linear-gradient(135deg, var(--bg) 6px, transparent 0) 0 0 / 16px 12px repeat-x,
-      linear-gradient(225deg, var(--bg) 6px, transparent 0) 0 0 / 16px 12px repeat-x;
-    filter: drop-shadow(0 8px 6px rgba(15,20,25,.08));
+  .invoice.is-recommended { outline: 3px solid var(--accent); outline-offset: -3px; }
+  .invoice-flag {
+    position: absolute; top: -12px; left: 28px;
+    background: var(--accent); color: #fff;
+    font-size: var(--fs-12); font-weight: 500; letter-spacing: 0.02em;
+    padding: 4px 10px; border-radius: 4px;
   }
-  .slip.feature { --bg: var(--ink); --fg: #f4f5f6; --fg-2: #c3c8ce; --fg-3: #a2a9b1; --line: #3a424c; }
-  @media (min-width: 900px) { .slip.feature { margin-top: -16px; padding-top: 48px; } }
 
-  .slip-head { display: flex; align-items: baseline; justify-content: space-between; gap: 12px; }
-  .slip h2 { margin: 0; font-size: 20px; line-height: 1.2; letter-spacing: -.01em; font-weight: 700; }
-  .tag { font: 600 12px/1 var(--mono); letter-spacing: .06em; text-transform: uppercase; color: var(--accent-hi); border: 1px solid currentColor; padding: 6px 8px; border-radius: 4px; transform: rotate(-3deg); }
-  .slip .for { margin: 6px 0 0; font-size: 15px; line-height: 1.5; color: var(--fg-2); min-height: 3em; }
+  .inv-top { display: flex; justify-content: space-between; align-items: flex-start; gap: 16px; padding-bottom: 20px; border-bottom: 1px solid var(--line); }
+  .inv-plan { font-size: var(--fs-28); font-weight: 700; letter-spacing: -0.03em; line-height: 1.1; }
+  .inv-for { font-size: var(--fs-14); color: var(--text-muted); margin-top: 4px; }
+  .inv-meta { text-align: right; font-size: var(--fs-12); color: var(--text-muted); line-height: 1.5; white-space: nowrap; }
+  .inv-meta .price { color: var(--text); margin-top: 6px; }
 
-  .price { display: flex; align-items: flex-start; gap: 4px; margin: 28px 0 4px; line-height: 1; }
-  .price .cur { font-size: 28px; font-weight: 600; margin-top: 8px; letter-spacing: -.02em; }
-  .price .amt { font-size: 72px; font-weight: 750; letter-spacing: -.045em; }
-  .per { margin: 0 0 28px; font-size: 15px; color: var(--fg-3); }
+  .inv-parties { display: grid; grid-template-columns: 0.8fr 1.1fr 1fr; gap: 16px; padding: 16px 0; border-bottom: 1px solid var(--line); font-size: var(--fs-14); line-height: 1.45; }
+  .inv-parties dt { font-size: var(--fs-12); color: var(--text-muted); margin-bottom: 2px; }
+  .inv-parties dd { margin: 0; }
 
-  .lines { list-style: none; margin: 0 0 32px; padding: 20px 0 0; border-top: 1px solid var(--line); display: grid; gap: 14px; font-size: 15px; line-height: 1.4; }
-  .lines li { display: flex; align-items: baseline; gap: 8px; }
-  .lines .lead { flex: 1; min-width: 12px; border-bottom: 2px dotted var(--line); transform: translateY(-3px); }
-  .lines .val { font-weight: 600; white-space: nowrap; }
-  .lines .yes .val::before { content: ""; display: inline-block; width: 9px; height: 5px; border-left: 2px solid var(--accent-ink); border-bottom: 2px solid var(--accent-ink); transform: rotate(-45deg) translateY(-3px); margin-right: 8px; }
-  .slip.feature .yes .val::before { border-color: var(--accent-hi); }
-  .lines .no { color: var(--fg-3); }
-  .lines .no .lead { border-bottom-color: transparent; }
-  .lines .no .val { font-weight: 400; }
-  .lines .inc { color: var(--fg-3); font-size: 14px; }
-  .lines .inc .val { font-weight: 400; }
+  .lines { width: 100%; border-collapse: collapse; font-size: var(--fs-14); margin: 8px 0 0; }
+  .lines th { text-align: left; font-weight: 500; font-size: var(--fs-12); color: var(--text-muted); padding: 10px 0 8px; border-bottom: 1px solid var(--line); }
+  .lines th:last-child, .lines td:last-child { text-align: right; }
+  .lines td { padding: 11px 0; border-bottom: 1px solid var(--line); vertical-align: top; }
+  .lines td:first-child { padding-right: 12px; }
+  .lines td:last-child { color: var(--text-muted); white-space: nowrap; }
+  .lines .sub { display: block; color: var(--text-muted); font-size: var(--fs-12); margin-top: 1px; }
+  .lines .carried td { color: var(--text-muted); }
+  .lines .carried td:first-child { font-style: normal; }
 
-  .slip .btn { width: 100%; margin-top: auto; }
-  .slip.feature .btn-secondary { color: #fff; border-color: #fff; }
-  .slip .fine { margin: 14px 0 0; font-size: 13px; line-height: 1.4; text-align: center; color: var(--fg-3); }
+  .inv-total { margin-top: auto; padding-top: 24px; }
+  .total-row {
+    display: flex; justify-content: space-between; align-items: baseline; gap: 12px;
+    padding: 12px 0 14px;
+    border-top: 1px solid var(--text);
+    border-bottom: 3px double var(--text);  /* the accountant's double rule under a total */
+    margin-bottom: 20px;
+  }
+  .total-row span { font-size: var(--fs-14); font-weight: 500; }
+  .total-row b { font-size: var(--fs-20); font-weight: 700; letter-spacing: -0.02em; }
+  .price { font-size: 3rem; font-weight: 700; letter-spacing: -0.04em; line-height: 1; }
+  .price small { font-size: var(--fs-14); font-weight: 400; letter-spacing: 0; color: var(--text-muted); margin-left: 2px; }
+  .inv-foot { font-size: var(--fs-12); color: var(--text-muted); margin-top: 12px; text-align: center; }
 
-  .below { margin: 40px 0 0; text-align: center; font-size: 15px; color: var(--ink-2); }
-  .below a { color: var(--ink); text-underline-offset: 3px; }
+  .plans-after { margin-top: 32px; display: flex; flex-wrap: wrap; justify-content: space-between; gap: 16px; font-size: var(--fs-14); color: var(--on-ink-muted); }
+  .plans-after a { color: var(--on-ink); }
+
+  /* ---------- comparison ---------- */
+  .section { padding: 112px 0; }
+  .section-head { display: grid; grid-template-columns: 340px minmax(0, 1fr); gap: 48px; }
+  .section-head h2 { font-size: var(--fs-40); line-height: 1.08; letter-spacing: -0.035em; font-weight: 700; }
+  .section-head .lede { color: var(--text-muted); margin-top: 16px; max-width: 34ch; }
+
+  .compare-box { background: var(--paper); border: 1px solid var(--line); border-radius: var(--r-card); overflow-x: auto; }
+  .compare { width: 100%; border-collapse: collapse; font-size: var(--fs-16); min-width: 560px; }
+  .compare caption { text-align: left; }
+  .compare th, .compare td { padding: 16px 20px; border-bottom: 1px solid var(--line); text-align: left; }
+  .compare tbody tr:last-child th, .compare tbody tr:last-child td { border-bottom: 0; }
+  .compare thead th { font-size: var(--fs-14); font-weight: 500; vertical-align: bottom; }
+  .compare thead th span { display: block; font-weight: 400; color: var(--text-muted); }
+  .compare tbody th { font-weight: 400; }
+  .compare tbody th .sub { display: block; font-size: var(--fs-14); color: var(--text-muted); margin-top: 2px; max-width: 40ch; }
+  .compare td { width: 18%; }
+  .compare .col-rec { background: #fbf4f0; }
+  .yes, .no { display: inline-flex; align-items: center; gap: 8px; }
+  .no { color: var(--text-muted); }
+  .yes svg { color: var(--ink); flex: none; }
 
   /* ---------- FAQ ---------- */
-  .faq { background: var(--paper); border-top: 1px solid var(--rule); padding: 96px 0 112px; }
-  .faq .wrap { display: grid; grid-template-columns: 1fr 1.7fr; gap: 64px; }
-  .faq h2 { margin: 0; font-size: 36px; line-height: 1.1; letter-spacing: -.03em; font-weight: 750; }
-  .faq .intro { margin: 16px 0 0; color: var(--ink-2); font-size: 17px; max-width: 18em; }
-  .faq .intro a { color: var(--ink); text-underline-offset: 3px; }
-  details { border-top: 1px solid var(--rule); }
-  details:last-child { border-bottom: 1px solid var(--rule); }
-  summary {
+  .faq { border-top: 1px solid var(--line); }
+  .faq-list { border-top: 1px solid var(--line-strong); }
+  .faq details { border-bottom: 1px solid var(--line-strong); }
+  .faq summary {
     list-style: none; cursor: pointer;
     display: flex; justify-content: space-between; align-items: center; gap: 24px;
-    padding: 22px 0; font-size: 18px; font-weight: 600; letter-spacing: -.01em; line-height: 1.35;
+    padding: 22px 0; font-size: var(--fs-18); font-weight: 500; letter-spacing: -0.01em;
   }
-  summary::-webkit-details-marker { display: none; }
-  summary::after {
-    content: ""; flex: none; width: 12px; height: 12px;
-    border-right: 2px solid var(--ink); border-bottom: 2px solid var(--ink);
-    transform: rotate(45deg) translate(-2px, -2px);
-    transition: transform .2s;
-  }
-  details[open] summary::after { transform: rotate(-135deg) translate(-2px, -2px); }
-  details p { margin: 0; padding: 0 40px 24px 0; color: var(--ink-2); max-width: 38em; text-wrap: pretty; }
+  .faq summary::-webkit-details-marker { display: none; }
+  .faq summary svg { flex: none; transition: transform .2s ease; color: var(--text-muted); }
+  .faq details[open] summary svg { transform: rotate(45deg); }
+  .faq summary:hover svg { color: var(--text); }
+  .faq .answer { padding: 0 48px 24px 0; color: var(--text-muted); max-width: 68ch; }
+  .faq .answer p + p { margin-top: 12px; }
 
-  /* ---------- footer ---------- */
-  footer { background: var(--paper); border-top: 1px solid var(--rule); padding: 28px 0 40px; font-size: 14px; color: var(--ink-3); }
-  footer .wrap { display: flex; justify-content: space-between; flex-wrap: wrap; gap: 12px 24px; }
-  footer nav { display: flex; gap: 20px; }
-  footer a { color: var(--ink-2); text-decoration: none; }
-  footer a:hover { color: var(--ink); text-decoration: underline; }
+  /* ---------- closing ---------- */
+  .closing { background: var(--ink); color: var(--on-ink); padding: 96px 0; }
+  .closing .wrap { display: flex; justify-content: space-between; align-items: flex-end; gap: 32px; flex-wrap: wrap; }
+  .closing h2 { font-size: clamp(2rem, 1rem + 3.2vw, 3.5rem); line-height: 1.02; letter-spacing: -0.04em; font-weight: 700; max-width: 20ch; text-wrap: balance; }
+  .closing p { color: var(--on-ink-muted); margin-top: 16px; }
+  .closing .actions { display: flex; gap: 12px; flex-wrap: wrap; }
+
+  .site-footer { background: var(--ink); color: var(--on-ink-muted); border-top: 1px solid var(--ink-line); font-size: var(--fs-14); }
+  .site-footer .wrap { display: flex; justify-content: space-between; gap: 16px; flex-wrap: wrap; padding-top: 24px; padding-bottom: 32px; }
+  .site-footer nav { display: flex; gap: 24px; flex-wrap: wrap; }
+  .site-footer a { text-decoration: none; }
+  .site-footer a:hover { color: var(--on-ink); }
 
   /* ---------- responsive ---------- */
-  @media (max-width: 899px) {
-    .grid { grid-template-columns: 1fr; max-width: 460px; margin: 0 auto; gap: 36px; }
-    .slip .for { min-height: 0; }
-    .faq .wrap { grid-template-columns: 1fr; gap: 32px; }
+  @media (max-width: 1040px) {
+    .invoices { grid-template-columns: 1fr; max-width: 560px; margin: 0 auto; gap: 32px; }
+    .hero-grid, .section-head { grid-template-columns: 1fr; gap: 24px; }
+    .section-head > div:first-child { margin-bottom: 8px; }
   }
-  @media (max-width: 600px) {
-    body { font-size: 16px; }
-    .wrap { padding: 0 20px; }
-    nav.top a:not(.btn) { display: none; }
-    .hero { padding: 40px 0 36px; }
-    .hero p.lede { font-size: 18px; }
-    .price .amt { font-size: 64px; }
-    .faq { padding: 64px 0 72px; }
-    .faq h2 { font-size: 30px; }
-    summary { font-size: 17px; padding: 18px 0; }
-    details p { padding-right: 0; }
+  @media (max-width: 720px) {
+    .nav-links { display: none; }
+    .hero { padding: 56px 0 48px; }
+    .plans { padding: 48px 0 64px; }
+    .plans-head { flex-direction: column; gap: 4px; }
+    .invoice { padding: 24px 20px 20px; }
+    .invoice-flag { left: 20px; }
+    .section { padding: 72px 0; }
+    .section-head h2 { font-size: var(--fs-28); }
+    .compare { min-width: 0; font-size: var(--fs-14); }
+    .compare th, .compare td { padding: 14px 8px; }
+    .compare th:first-child { padding-left: 14px; }
+    .compare td { width: 22%; }
+    .compare tbody th .sub { display: none; }
+    .yes .label { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+    .faq summary { font-size: var(--fs-16); padding: 18px 0; }
+    .faq .answer { padding-right: 0; }
+    .closing { padding: 64px 0; }
+    .closing .actions, .closing .actions .btn { width: 100%; }
   }
   @media (prefers-reduced-motion: reduce) {
-    html { scroll-behavior: auto; }
-    * { transition: none !important; }
+    *, *::before, *::after { transition: none !important; scroll-behavior: auto !important; }
   }
 </style>
 </head>
 <body>
 <a class="skip" href="#plans">Skip to plans</a>
 
-<header class="top">
+<header class="site-header">
   <div class="wrap">
-    <a class="brand" href="/" aria-label="Tally home">
-      <svg width="28" height="28" viewBox="0 0 32 32" aria-hidden="true">
-        <rect width="32" height="32" rx="7" fill="#0f1419"/>
-        <g stroke="#ff5a36" stroke-width="3" stroke-linecap="round"><path d="M9 8v16M14 8v16M19 8v16M24 8v16"/></g>
-        <path d="M5 21L28 11" stroke="#fff" stroke-width="3" stroke-linecap="round"/>
-      </svg>
+    <a class="logo" href="/" aria-label="Tally home">
+      <svg width="24" height="24" viewBox="0 0 24 24" aria-hidden="true"><rect width="24" height="24" rx="6" fill="#14302a"/><path d="M7 7.5h10M12 7.5V17" stroke="#fff" stroke-width="2.4" stroke-linecap="round"/></svg>
       Tally
     </a>
-    <nav class="top" aria-label="Main">
-      <a href="/features">Features</a>
-      <a href="/pricing" aria-current="page">Pricing</a>
+    <nav class="nav" aria-label="Main">
+      <div class="nav-links">
+        <a href="/features">Features</a>
+        <a href="/pricing" aria-current="page">Pricing</a>
+        <a href="/help">Help</a>
+      </div>
       <a href="/login">Log in</a>
-      <a class="btn btn-primary btn-small" href="/signup">Start free</a>
+      <a class="btn btn-secondary" href="/signup">Start free</a>
     </nav>
   </div>
 </header>
 
 <main>
-  <section class="hero">
-    <div class="wrap">
-      <p class="eyebrow">Pricing</p>
-      <h1>Send five invoices free. Pay when you're busy.</h1>
-      <p class="lede">Tally is invoicing for freelancers and small studios. Start on Solo at no cost, move up when the work picks up, and change plan whenever you need to.</p>
+  <section class="hero" aria-labelledby="hero-title">
+    <div class="wrap hero-grid">
+      <h1 id="hero-title">You send the invoices. Ours fit on one line.</h1>
+      <p class="hero-note">Free for your first <strong>5 invoices a month</strong>. When clients start paying late, Studio chases them and matches the money for <strong>€12 a month</strong>.</p>
     </div>
   </section>
 
-  <section class="plans" id="plans" aria-labelledby="plans-h">
+  <section class="plans" id="plans" aria-labelledby="plans-title">
     <div class="wrap">
-      <h2 id="plans-h" class="sr">Plans</h2>
-      <div class="grid">
-
-        <article class="slip" aria-labelledby="p-solo">
-          <div class="slip-head"><h2 id="p-solo">Solo</h2></div>
-          <p class="for">For freelancers just getting started.</p>
-          <p class="price" aria-label="0 euros"><span class="cur" aria-hidden="true">€</span><span class="amt" aria-hidden="true">0</span></p>
-          <p class="per">Free, no card needed</p>
-          <ul class="lines">
-            <li class="yes"><span>Invoices</span><span class="lead" aria-hidden="true"></span><span class="val">5 a month</span></li>
-            <li class="no"><span>Automatic reminders</span><span class="lead" aria-hidden="true"></span><span class="val"><span aria-hidden="true">—</span><span class="sr">Not included</span></span></li>
-            <li class="no"><span>Bank matching</span><span class="lead" aria-hidden="true"></span><span class="val"><span aria-hidden="true">—</span><span class="sr">Not included</span></span></li>
-            <li class="no"><span>Client portal</span><span class="lead" aria-hidden="true"></span><span class="val"><span aria-hidden="true">—</span><span class="sr">Not included</span></span></li>
-          </ul>
-          <a class="btn btn-secondary" href="/signup?plan=solo">Start with Solo</a>
-        </article>
-
-        <article class="slip feature" aria-labelledby="p-studio">
-          <div class="slip-head"><h2 id="p-studio">Studio</h2><span class="tag">Most popular</span></div>
-          <p class="for">For freelancers who invoice every week and are tired of chasing.</p>
-          <p class="price" aria-label="12 euros"><span class="cur" aria-hidden="true">€</span><span class="amt" aria-hidden="true">12</span></p>
-          <p class="per">per month</p>
-          <ul class="lines">
-            <li class="yes"><span>Invoices</span><span class="lead" aria-hidden="true"></span><span class="val">Unlimited</span></li>
-            <li class="yes"><span>Automatic reminders</span><span class="lead" aria-hidden="true"></span><span class="val">Included</span></li>
-            <li class="yes"><span>Bank matching</span><span class="lead" aria-hidden="true"></span><span class="val">Included</span></li>
-            <li class="no"><span>Client portal</span><span class="lead" aria-hidden="true"></span><span class="val"><span aria-hidden="true">—</span><span class="sr">Not included</span></span></li>
-          </ul>
-          <a class="btn btn-primary" href="/signup?plan=studio">Choose Studio</a>
-        </article>
-
-        <article class="slip" aria-labelledby="p-team">
-          <div class="slip-head"><h2 id="p-team">Team</h2></div>
-          <p class="for">For small studios that invoice together.</p>
-          <p class="price" aria-label="29 euros"><span class="cur" aria-hidden="true">€</span><span class="amt" aria-hidden="true">29</span></p>
-          <p class="per">per month</p>
-          <ul class="lines">
-            <li class="inc"><span>Everything in Studio, plus</span></li>
-            <li class="yes"><span>Seats</span><span class="lead" aria-hidden="true"></span><span class="val">5</span></li>
-            <li class="yes"><span>Client portal</span><span class="lead" aria-hidden="true"></span><span class="val">Included</span></li>
-            <li class="yes"><span>Unlimited invoices, reminders, bank matching</span></li>
-          </ul>
-          <a class="btn btn-secondary" href="/signup?plan=team">Choose Team</a>
-        </article>
-
+      <div class="plans-head">
+        <h2 id="plans-title">Three plans, invoiced the way Tally would invoice you</h2>
+        <p>Prices per month, per workspace.</p>
       </div>
-      <p class="below">Prices are per month in euros. You can switch plan at any time from your account settings.</p>
+
+      <div class="invoices">
+        <!-- SOLO -->
+        <article class="invoice" aria-labelledby="solo-name">
+          <div class="inv-top">
+            <div>
+              <h3 class="inv-plan" id="solo-name">Solo</h3>
+              <p class="inv-for">For freelancers getting started</p>
+            </div>
+            <div class="inv-meta">Amount due<p class="price">€0<small>/month</small></p></div>
+          </div>
+          <dl class="inv-parties">
+            <div><dt>From</dt><dd>Tally</dd></div>
+            <div><dt>Billed to</dt><dd>You</dd></div>
+            <div><dt>Invoice</dt><dd>SOLO-001</dd></div>
+          </dl>
+          <table class="lines">
+            <caption class="visually-hidden">What Solo includes</caption>
+            <thead><tr><th scope="col">Description</th><th scope="col">Amount</th></tr></thead>
+            <tbody>
+              <tr><td>Invoices<span class="sub">5 a month, reset on the 1st</span></td><td>Included</td></tr>
+              <tr><td>Seats<span class="sub">1 person</span></td><td>Included</td></tr>
+            </tbody>
+          </table>
+          <div class="inv-total">
+            <div class="total-row"><span>Total due · never</span><b>€0.00</b></div>
+            <a class="btn btn-secondary btn-block" href="/signup?plan=solo">Start on Solo</a>
+            <p class="inv-foot">No card needed</p>
+          </div>
+        </article>
+
+        <!-- STUDIO -->
+        <article class="invoice is-recommended" aria-labelledby="studio-name">
+          <span class="invoice-flag">Recommended</span>
+          <div class="inv-top">
+            <div>
+              <h3 class="inv-plan" id="studio-name">Studio</h3>
+              <p class="inv-for">For freelancers with steady clients</p>
+            </div>
+            <div class="inv-meta">Amount due<p class="price">€12<small>/month</small></p></div>
+          </div>
+          <dl class="inv-parties">
+            <div><dt>From</dt><dd>Tally</dd></div>
+            <div><dt>Billed to</dt><dd>You, busier</dd></div>
+            <div><dt>Invoice</dt><dd>STUDIO-001</dd></div>
+          </dl>
+          <table class="lines">
+            <caption class="visually-hidden">What Studio includes</caption>
+            <thead><tr><th scope="col">Description</th><th scope="col">Amount</th></tr></thead>
+            <tbody>
+              <tr><td>Unlimited invoices<span class="sub">Send as many as you bill</span></td><td>Included</td></tr>
+              <tr><td>Automatic reminders<span class="sub">Polite follow-ups when an invoice is overdue</span></td><td>Included</td></tr>
+              <tr><td>Bank matching<span class="sub">Incoming payments marked against the right invoice</span></td><td>Included</td></tr>
+              <tr><td>Seats<span class="sub">1 person</span></td><td>Included</td></tr>
+            </tbody>
+          </table>
+          <div class="inv-total">
+            <div class="total-row"><span>Total due, monthly</span><b>€12.00</b></div>
+            <a class="btn btn-primary btn-block" href="/signup?plan=studio">Start with Studio</a>
+            <p class="inv-foot">Change or cancel from your settings</p>
+          </div>
+        </article>
+
+        <!-- TEAM -->
+        <article class="invoice" aria-labelledby="team-name">
+          <div class="inv-top">
+            <div>
+              <h3 class="inv-plan" id="team-name">Team</h3>
+              <p class="inv-for">For small studios billing together</p>
+            </div>
+            <div class="inv-meta">Amount due<p class="price">€29<small>/month</small></p></div>
+          </div>
+          <dl class="inv-parties">
+            <div><dt>From</dt><dd>Tally</dd></div>
+            <div><dt>Billed to</dt><dd>Your studio</dd></div>
+            <div><dt>Invoice</dt><dd>TEAM-001</dd></div>
+          </dl>
+          <table class="lines">
+            <caption class="visually-hidden">What Team includes</caption>
+            <thead><tr><th scope="col">Description</th><th scope="col">Amount</th></tr></thead>
+            <tbody>
+              <tr class="carried"><td>Everything in Studio<span class="sub">Unlimited invoices, reminders, bank matching</span></td><td>Included</td></tr>
+              <tr><td>Seats<span class="sub">5 people in one workspace</span></td><td>Included</td></tr>
+              <tr><td>Client portal<span class="sub">Clients find every invoice you sent them in one place</span></td><td>Included</td></tr>
+            </tbody>
+          </table>
+          <div class="inv-total">
+            <div class="total-row"><span>Total due, monthly</span><b>€29.00</b></div>
+            <a class="btn btn-secondary btn-block" href="/signup?plan=team">Start with Team</a>
+            <p class="inv-foot">€29 covers all 5 seats, not each one</p>
+          </div>
+        </article>
+      </div>
+
+      <div class="plans-after">
+        <p>Start on Solo and upgrade the day you need a sixth invoice.</p>
+        <p><a href="#compare">Compare plans line by line</a></p>
+      </div>
     </div>
   </section>
 
-  <section class="faq" aria-labelledby="faq-h">
+  <section class="section" id="compare" aria-labelledby="compare-title">
+    <div class="wrap section-head">
+      <div>
+        <h2 id="compare-title">Line by line</h2>
+        <p class="lede">Every plan sends proper invoices. The paid plans spend less of your time chasing them.</p>
+      </div>
+      <div class="compare-box" role="region" aria-labelledby="compare-title" tabindex="0">
+        <table class="compare">
+          <thead>
+            <tr>
+              <th scope="col"><span class="visually-hidden">Feature</span></th>
+              <th scope="col">Solo<span>€0</span></th>
+              <th scope="col" class="col-rec">Studio<span>€12/mo</span></th>
+              <th scope="col">Team<span>€29/mo</span></th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">Invoices per month</th>
+              <td>5</td><td class="col-rec">Unlimited</td><td>Unlimited</td>
+            </tr>
+            <tr>
+              <th scope="row">Automatic reminders<span class="sub">Tally follows up on overdue invoices so you don't have to.</span></th>
+              <td><span class="no">—<span class="visually-hidden">Not included</span></span></td>
+              <td class="col-rec"><span class="yes"><svg width="16" height="16" viewBox="0 0 16 16" aria-hidden="true"><path d="M3 8.5l3.2 3L13 4.5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span class="label">Included</span></span></td>
+              <td><span class="yes"><svg width="16" height="16" viewBox="0 0 16 16" aria-hidden="true"><path d="M3 8.5l3.2 3L13 4.5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span class="label">Included</span></span></td>
+            </tr>
+            <tr>
+              <th scope="row">Bank matching<span class="sub">Payments from your bank feed are matched to open invoices.</span></th>
+              <td><span class="no">—<span class="visually-hidden">Not included</span></span></td>
+              <td class="col-rec"><span class="yes"><svg width="16" height="16" viewBox="0 0 16 16" aria-hidden="true"><path d="M3 8.5l3.2 3L13 4.5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span class="label">Included</span></span></td>
+              <td><span class="yes"><svg width="16" height="16" viewBox="0 0 16 16" aria-hidden="true"><path d="M3 8.5l3.2 3L13 4.5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span class="label">Included</span></span></td>
+            </tr>
+            <tr>
+              <th scope="row">Seats</th>
+              <td>1</td><td class="col-rec">1</td><td>5</td>
+            </tr>
+            <tr>
+              <th scope="row">Client portal<span class="sub">One link where each client sees their invoices.</span></th>
+              <td><span class="no">—<span class="visually-hidden">Not included</span></span></td>
+              <td class="col-rec"><span class="no">—<span class="visually-hidden">Not included</span></span></td>
+              <td><span class="yes"><svg width="16" height="16" viewBox="0 0 16 16" aria-hidden="true"><path d="M3 8.5l3.2 3L13 4.5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span class="label">Included</span></span></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <section class="section faq" id="faq" aria-labelledby="faq-title">
+    <div class="wrap section-head">
+      <div>
+        <h2 id="faq-title">Questions</h2>
+        <p class="lede">Something else? Write to us from the help page and a person will answer.</p>
+      </div>
+      <div class="faq-list">
+        <details>
+          <summary>Is Solo really free, or is it a trial?<svg width="20" height="20" viewBox="0 0 20 20" aria-hidden="true"><path d="M10 4v12M4 10h12" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg></summary>
+          <div class="answer"><p>It is free with no end date. You can send 5 invoices every month for as long as you like, and no card is needed to sign up.</p></div>
+        </details>
+        <details>
+          <summary>What happens when I need a sixth invoice in a month?<svg width="20" height="20" viewBox="0 0 20 20" aria-hidden="true"><path d="M10 4v12M4 10h12" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg></summary>
+          <div class="answer"><p>Tally asks you to upgrade before sending it. Your drafts, clients and past invoices stay exactly where they are. If you'd rather wait, your count resets on the 1st of the next month.</p></div>
+        </details>
+        <details>
+          <summary>How do automatic reminders work?<svg width="20" height="20" viewBox="0 0 20 20" aria-hidden="true"><path d="M10 4v12M4 10h12" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg></summary>
+          <div class="answer"><p>When an invoice passes its due date and hasn't been paid, Tally emails your client a short reminder with the invoice attached. You choose when reminders go out and can turn them off for any client.</p></div>
+        </details>
+        <details>
+          <summary>What does bank matching do?<svg width="20" height="20" viewBox="0 0 20 20" aria-hidden="true"><path d="M10 4v12M4 10h12" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg></summary>
+          <div class="answer"><p>Connect your business account and Tally reads incoming payments. When one matches an open invoice by amount and reference, the invoice is marked paid and the reminders stop. Anything uncertain waits for you to confirm.</p></div>
+        </details>
+        <details>
+          <summary>Is Team €29 per person?<svg width="20" height="20" viewBox="0 0 20 20" aria-hidden="true"><path d="M10 4v12M4 10h12" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg></summary>
+          <div class="answer"><p>No. €29 a month covers the whole workspace with up to 5 people in it. Everyone shares the same clients, invoices and bank matching.</p></div>
+        </details>
+        <details>
+          <summary>Can I change plans or cancel later?<svg width="20" height="20" viewBox="0 0 20 20" aria-hidden="true"><path d="M10 4v12M4 10h12" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg></summary>
+          <div class="answer"><p>Yes, from your workspace settings at any time. If you move back to Solo, every invoice you've sent stays in your account; only the paid features switch off.</p></div>
+        </details>
+        <details>
+          <summary>Do prices include VAT?<svg width="20" height="20" viewBox="0 0 20 20" aria-hidden="true"><path d="M10 4v12M4 10h12" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg></summary>
+          <div class="answer"><p>Prices are shown before VAT. VAT is added at checkout depending on your country and whether you have a VAT number, and it appears on the invoice Tally sends you.</p></div>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <section class="closing" aria-labelledby="closing-title">
     <div class="wrap">
       <div>
-        <h2 id="faq-h">Questions, answered</h2>
-        <p class="intro">Something missing? <a href="mailto:hello@tally.example">Write to us</a> and a person will reply.</p>
+        <h2 id="closing-title">Send your first invoice today. It's on us.</h2>
+        <p>Solo is free. Upgrade when your clients keep you busy.</p>
       </div>
-      <div>
-        <details>
-          <summary>What happens when I reach 5 invoices on Solo?</summary>
-          <p>You keep full access to everything you've already created. To send a sixth invoice in the same month, upgrade to Studio, or wait for your count to reset at the start of the next month.</p>
-        </details>
-        <details>
-          <summary>What does bank matching do?</summary>
-          <p>Tally compares incoming payments on your bank account with your open invoices and marks the matching ones as paid, so you don't have to tick them off by hand.</p>
-        </details>
-        <details>
-          <summary>How do automatic reminders work?</summary>
-          <p>When an invoice passes its due date, Tally emails your client a polite nudge for you. Once the invoice is paid, the reminders stop.</p>
-        </details>
-        <details>
-          <summary>What counts as a seat on the Team plan?</summary>
-          <p>A seat is one person who signs in to your Tally account to create or manage invoices. Team includes five. Your clients never use a seat, whether or not they use the client portal.</p>
-        </details>
-        <details>
-          <summary>Can I change or cancel my plan?</summary>
-          <p>Yes. Move between Solo, Studio and Team whenever you like from your account settings, and cancel at any time. If you drop back to Solo, you keep your invoice history.</p>
-        </details>
+      <div class="actions">
+        <a class="btn btn-primary" href="/signup?plan=solo">Start free</a>
+        <a class="btn btn-on-ink" href="/help">Talk to us</a>
       </div>
     </div>
   </section>
 </main>
 
-<footer>
+<footer class="site-footer">
   <div class="wrap">
-    <span>© 2026 Tally</span>
+    <p>© 2026 Tally</p>
     <nav aria-label="Footer">
       <a href="/terms">Terms</a>
       <a href="/privacy">Privacy</a>
-      <a href="mailto:hello@tally.example">Contact</a>
+      <a href="/help">Help</a>
     </nav>
   </div>
 </footer>

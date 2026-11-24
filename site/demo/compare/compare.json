@@ -1,53 +1,53 @@
 {
- "model": "claude-sonnet-5-5",
+ "model": "claude-opus-5-5",
  "tool": "Claude Code 2.1.331",
  "pairs": [
   {
    "name": "landing",
-   "prompt": "Build the landing page for Tally, an invoicing app for freelancers and small studios: it sends invoices, chases late payments with automatic reminders, and matches incoming bank payments to invoices. Audience: freelance designers and developers in Europe. One file, index.html, with inline CSS and no external images or libraries. Make it production quality.",
+   "prompt": "Build the landing page for Tally, an invoicing app for freelancers and small studios: it sends invoices, chases late payments with automatic reminders, and matches incoming bank payments to invoices. Audience: freelance designers and developers in Europe. One file, index.html, with inline CSS and no external images or JavaScript libraries (web fonts are fine). Make it production quality.",
    "without": {
     "img": "/demo/compare/without-landing.jpg",
     "html": "/demo/compare/without-landing.html",
-    "turns": 6,
-    "seconds": 136
+    "turns": 9,
+    "seconds": 204
    },
    "with": {
     "img": "/demo/compare/with-landing.jpg",
     "html": "/demo/compare/with-landing.html",
-    "turns": 11,
-    "seconds": 167
+    "turns": 41,
+    "seconds": 342
    }
   },
   {
    "name": "pricing",
-   "prompt": "Build the pricing page for Tally, an invoicing app for freelancers and small studios. Three plans: Solo (free, 5 invoices a month), Studio (12 euros a month, unlimited invoices, automatic reminders, bank matching), Team (29 euros a month, everything in Studio plus 5 seats and client portal). Include a short FAQ. One file, index.html, inline CSS, no external images or libraries. Make it production quality.",
+   "prompt": "Build the pricing page for Tally, an invoicing app for freelancers and small studios. Three plans: Solo (free, 5 invoices a month), Studio (12 euros a month, unlimited invoices, automatic reminders, bank matching), Team (29 euros a month, everything in Studio plus 5 seats and client portal). Include a short FAQ. One file, index.html, inline CSS, no external images or JavaScript libraries (web fonts are fine). Make it production quality.",
    "without": {
     "img": "/demo/compare/without-pricing.jpg",
     "html": "/demo/compare/without-pricing.html",
-    "turns": 2,
-    "seconds": 55
+    "turns": 6,
+    "seconds": 124
    },
    "with": {
     "img": "/demo/compare/with-pricing.jpg",
     "html": "/demo/compare/with-pricing.html",
-    "turns": 13,
-    "seconds": 92
+    "turns": 39,
+    "seconds": 245
    }
   },
   {
    "name": "dashboard",
-   "prompt": "Build the main dashboard screen of Tally, an invoicing app for freelancers: what is outstanding, what was paid this month, which clients are late, recent invoices and the reminders Tally is sending. Use realistic sample data. One file, index.html, inline CSS, no external images or libraries. Make it production quality.",
+   "prompt": "Build the main dashboard screen of Tally, an invoicing app for freelancers: what is outstanding, what was paid this month, which clients are late, recent invoices and the reminders Tally is sending. Use realistic sample data. One file, index.html, inline CSS, no external images or JavaScript libraries (web fonts are fine). Make it production quality.",
    "without": {
     "img": "/demo/compare/without-dashboard.jpg",
     "html": "/demo/compare/without-dashboard.html",
-    "turns": 2,
-    "seconds": 125
+    "turns": 5,
+    "seconds": 224
    },
    "with": {
     "img": "/demo/compare/with-dashboard.jpg",
     "html": "/demo/compare/with-dashboard.html",
-    "turns": 16,
-    "seconds": 190
+    "turns": 27,
+    "seconds": 245
    }
   }
  ]
