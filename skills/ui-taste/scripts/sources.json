@@ -7344,5 +7344,101 @@
    "green-cta"
   ],
   "note": "The hero shows a contract's signature block being filled, then stats on cards in brand colours of each customer (99%, 2k, 96%). Proof as a row of coloured numbers."
+ },
+ {
+  "site": "Swile",
+  "type": "landing",
+  "url": "https://www.swile.co",
+  "tags": [
+   "dark",
+   "product-object-hero",
+   "glowing-card-stack",
+   "french",
+   "giant-white-type",
+   "one-button"
+  ],
+  "note": "The physical payment cards stacked and floating on a dark field with a coloured ring of light under them, a heavy white headline and one button. A meal-voucher card sold like a luxury object."
+ },
+ {
+  "site": "Lydia",
+  "type": "landing",
+  "url": "https://lydia-app.com",
+  "tags": [
+   "light",
+   "heavy-rounded-headline",
+   "phone-on-paper-photo",
+   "teal-palette",
+   "french",
+   "checklist"
+  ],
+  "note": "'Tenir un budget n'a jamais été aussi simple' in a heavy rounded face, then a phone lying on white folded paper, photographed in soft light. Banking made calm with one object photo."
+ },
+ {
+  "site": "Sorare",
+  "type": "landing",
+  "url": "https://sorare.com",
+  "tags": [
+   "dark-purple",
+   "starry-night-sky",
+   "collectible-cards",
+   "footballer-cutouts",
+   "heavy-caps",
+   "game-ui"
+  ],
+  "note": "A starry purple night with collectible player cards and cut-out footballers holding packs ('SCOUT. PLAY. WIN.'). A fantasy game that looks like the packs it sells."
+ },
+ {
+  "site": "Hugging Face Spaces",
+  "type": "landing",
+  "url": "https://huggingface.co/spaces",
+  "tags": [
+   "light",
+   "app-directory",
+   "saturated-gradient-cards",
+   "search-first",
+   "dense-grid"
+  ],
+  "note": "The directory itself is the page: a search box and a dense grid of saturated gradient cards, one per app, each with its emoji and run count. Community output as a colourful wall."
+ },
+ {
+  "site": "Kyutai",
+  "type": "landing",
+  "url": "https://kyutai.org",
+  "tags": [
+   "dark",
+   "green-mono",
+   "ascii-art-demos",
+   "open-science-manifesto",
+   "terminal-aesthetic"
+  ],
+  "note": "Bright green monospace on black ('OPEN-SCIENCE AI LAB'), each model shown as an ASCII-art portrait tile you can try, and a mono manifesto block. A research lab that looks like its terminal."
+ },
+ {
+  "site": "Alice & Bob",
+  "type": "landing",
+  "url": "https://alice-bob.com",
+  "tags": [
+   "dark",
+   "quantum-hardware-render",
+   "gold-on-black",
+   "heavy-caps",
+   "one-key-word",
+   "product-object"
+  ],
+  "note": "'BUILDING THE FIRST UNIVERSAL QUANTUM COMPUTER' in white caps with the key words in gold, over the dilution refrigerator rendered as a gold chandelier on black. Deep tech sold as an object of beauty."
+ },
+ {
+  "site": "Cowboy",
+  "type": "landing",
+  "url": "https://cowboy.com",
+  "tags": [
+   "light",
+   "lifestyle-photo-hero",
+   "studio-product-photo",
+   "spec-chips",
+   "model-toggle",
+   "warm-palette"
+  ],
+  "note": "A woman riding the bike under an old stone arch, then the bike alone on a pale studio ground with spec chips and a model toggle (Cruiser / Cruiser ST). Lifestyle first, object second."
  }
 ]

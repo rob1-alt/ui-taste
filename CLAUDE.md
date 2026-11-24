@@ -34,3 +34,5 @@ Commerce sites captured during a sale period (Black Friday, end of November) are
 Agency and studio sites built on WebGL often capture as black or empty (Resn, Lusion, Active Theory, Koto, Obys): prefer studios with static pages, and drop blank captures.
 
 Commerce, fashion, hotels and media sites block headless capture often (about 70% of batch 8: bot walls, region and age modals, sale takeovers). Prefer product, studio, lab and indie sites, and retry commerce outside sale weeks.
+
+Batch 10 (French tech, mobility, bikes, wearables) kept 7 of 50: mobility and sports-hardware sites hide behind region selectors and sale takeovers. Lean the queue toward studios, foundries, indie software, personal sites and dev tools.

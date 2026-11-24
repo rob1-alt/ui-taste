@@ -11540,6 +11540,108 @@
     }
   },
   {
+    "id": "alice-bob-landing",
+    "site": "Alice & Bob",
+    "url": "https://alice-bob.com",
+    "type": "landing",
+    "tags": [
+      "dark",
+      "quantum-hardware-render",
+      "gold-on-black",
+      "heavy-caps",
+      "one-key-word",
+      "product-object"
+    ],
+    "note": "'BUILDING THE FIRST UNIVERSAL QUANTUM COMPUTER' in white caps with the key words in gold, over the dilution refrigerator rendered as a gold chandelier on black. Deep tech sold as an object of beauty.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/alice-bob-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/alice-bob-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Building the First Universal Quantum Computer〡Alice & Bob",
+      "fonts": [
+        "Rubik"
+      ],
+      "type": {
+        "h1": null,
+        "h2": {
+          "font": "Rubik",
+          "size": 50,
+          "weight": "400",
+          "lineHeight": 1.15,
+          "letterSpacing": "-2.2px",
+          "color": "rgb(255, 255, 255)"
+        },
+        "h3": {
+          "font": "Rubik",
+          "size": 50,
+          "weight": "400",
+          "lineHeight": 1.15,
+          "letterSpacing": "-2.2px",
+          "color": "rgb(255, 255, 255)"
+        },
+        "body": {
+          "font": "Rubik",
+          "size": 14,
+          "weight": "400",
+          "lineHeight": 1.2,
+          "letterSpacing": "normal",
+          "color": "rgb(241, 241, 238)"
+        }
+      },
+      "colors": {
+        "background": "#f1f1ee",
+        "surfaces": [
+          "#010102",
+          "#ffffff",
+          "#fac500",
+          "#0c0c11",
+          "#f1f1ee"
+        ],
+        "text": [
+          "#3d4955",
+          "#010102",
+          "#ffffff",
+          "#f1f1ee"
+        ]
+      },
+      "buttons": [
+        {
+          "label": "View as Markdown",
+          "bg": "#1a1a1b",
+          "color": "#f1f1ee",
+          "radius": "100px",
+          "height": 28,
+          "paddingX": 13,
+          "font": "Rubik",
+          "size": 14,
+          "weight": "400"
+        },
+        {
+          "label": "JOIN US",
+          "bg": "#fac500",
+          "color": "#010102",
+          "radius": "5px",
+          "height": 35,
+          "paddingX": 15,
+          "font": "Rubik",
+          "size": 14,
+          "weight": "500"
+        }
+      ],
+      "contentWidth": 1440
+    }
+  },
+  {
     "id": "aman-landing",
     "site": "Aman",
     "url": "https://www.aman.com",
@@ -18201,6 +18303,157 @@
         }
       ],
       "contentWidth": 1400
+    }
+  },
+  {
+    "id": "cowboy-landing",
+    "site": "Cowboy",
+    "url": "https://cowboy.com",
+    "type": "landing",
+    "tags": [
+      "light",
+      "lifestyle-photo-hero",
+      "studio-product-photo",
+      "spec-chips",
+      "model-toggle",
+      "warm-palette"
+    ],
+    "note": "A woman riding the bike under an old stone arch, then the bike alone on a pale studio ground with spec chips and a model toggle (Cruiser / Cruiser ST). Lifestyle first, object second.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/cowboy-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/cowboy-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Cowboy - The Ultimate Connected E-Bikes",
+      "fonts": [
+        "SuisseIntl",
+        "ui-monospace"
+      ],
+      "type": {
+        "h1": {
+          "font": "SuisseIntl",
+          "size": 16,
+          "weight": "400",
+          "lineHeight": 1.47,
+          "letterSpacing": "normal",
+          "color": "rgb(29, 29, 29)"
+        },
+        "h2": {
+          "font": "SuisseIntl",
+          "size": 12,
+          "weight": "600",
+          "lineHeight": 1.47,
+          "letterSpacing": "normal",
+          "color": "rgb(29, 29, 29)"
+        },
+        "h3": {
+          "font": "SuisseIntl",
+          "size": 20,
+          "weight": "400",
+          "lineHeight": 1.47,
+          "letterSpacing": "normal",
+          "color": "rgba(248, 248, 245, 0.6)"
+        },
+        "body": {
+          "font": "SuisseIntl",
+          "size": 16,
+          "weight": "400",
+          "lineHeight": 1.47,
+          "letterSpacing": "normal",
+          "color": "rgb(29, 29, 29)"
+        }
+      },
+      "colors": {
+        "background": "#f5f5f5",
+        "surfaces": [
+          "#ffffff",
+          "#1d1d1d",
+          "#569d5f"
+        ],
+        "text": [
+          "#1d1d1d",
+          "#ffffff",
+          "#f8f8f5"
+        ]
+      },
+      "buttons": [
+        {
+          "label": "Book a test ride",
+          "bg": "#ffffff",
+          "color": "#1d1d1d",
+          "radius": "9999px",
+          "height": 38,
+          "paddingX": 20,
+          "font": "SuisseIntl",
+          "size": 14,
+          "weight": "500"
+        },
+        {
+          "label": "Add a bike",
+          "bg": "#1d1d1d",
+          "color": "#ffffff",
+          "radius": "0px",
+          "height": 48,
+          "paddingX": 0,
+          "font": "SuisseIntl",
+          "size": 16,
+          "weight": "400"
+        },
+        {
+          "label": "Discover Cruiser",
+          "bg": "#ffffff",
+          "color": "#1d1d1d",
+          "radius": "9999px",
+          "height": 56,
+          "paddingX": 24,
+          "font": "SuisseIntl",
+          "size": 16,
+          "weight": "500"
+        },
+        {
+          "label": "Explore",
+          "bg": "#1d1d1d",
+          "color": "#ffffff",
+          "radius": "9999px",
+          "height": 56,
+          "paddingX": 24,
+          "font": "SuisseIntl",
+          "size": 16,
+          "weight": "500"
+        },
+        {
+          "label": "",
+          "bg": "#ffffff",
+          "color": "#1d1d1d",
+          "radius": "8px",
+          "height": 40,
+          "paddingX": 0,
+          "font": "SuisseIntl",
+          "size": 16,
+          "weight": "400"
+        },
+        {
+          "label": "",
+          "bg": "#ffffff",
+          "color": "#1d1d1d",
+          "radius": "8px",
+          "height": 40,
+          "paddingX": 0,
+          "font": "SuisseIntl",
+          "size": 16,
+          "weight": "400"
+        }
+      ],
+      "contentWidth": 1440
     }
   },
   {
@@ -27404,6 +27657,73 @@
     }
   },
   {
+    "id": "hugging-face-spaces-landing",
+    "site": "Hugging Face Spaces",
+    "url": "https://huggingface.co/spaces",
+    "type": "landing",
+    "tags": [
+      "light",
+      "app-directory",
+      "saturated-gradient-cards",
+      "search-first",
+      "dense-grid"
+    ],
+    "note": "The directory itself is the page: a search box and a dense grid of saturated gradient cards, one per app, each with its emoji and run count. Community output as a colourful wall.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/hugging-face-spaces-landing-desktop.jpg",
+        "width": 1440,
+        "height": 2076
+      },
+      "mobile": {
+        "file": "screens/hugging-face-spaces-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Spaces - Hugging Face",
+      "fonts": [
+        "Source Sans Pro",
+        "IBM Plex Mono"
+      ],
+      "type": {
+        "h1": {
+          "font": "Source Sans Pro",
+          "size": 30,
+          "weight": "700",
+          "lineHeight": 1.2,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        },
+        "h2": null,
+        "h3": null,
+        "body": {
+          "font": "Source Sans Pro",
+          "size": 20,
+          "weight": "400",
+          "lineHeight": 1.4,
+          "letterSpacing": "normal",
+          "color": "oklch(0.551 0.027 264.364)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#ffffff",
+          "#4b5563"
+        ],
+        "text": [
+          "#ffffff",
+          "#000000"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": 1280
+    }
+  },
+  {
     "id": "hume-ai-landing",
     "site": "Hume AI",
     "url": "https://www.hume.ai",
@@ -29898,6 +30218,75 @@
     }
   },
   {
+    "id": "kyutai-landing",
+    "site": "Kyutai",
+    "url": "https://kyutai.org",
+    "type": "landing",
+    "tags": [
+      "dark",
+      "green-mono",
+      "ascii-art-demos",
+      "open-science-manifesto",
+      "terminal-aesthetic"
+    ],
+    "note": "Bright green monospace on black ('OPEN-SCIENCE AI LAB'), each model shown as an ASCII-art portrait tile you can try, and a mono manifesto block. A research lab that looks like its terminal.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/kyutai-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/kyutai-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "kyutai: open-science AI lab",
+      "fonts": [
+        "Satoshi-Variable",
+        "system-ui"
+      ],
+      "type": {
+        "h1": null,
+        "h2": null,
+        "h3": {
+          "font": "Satoshi-Variable",
+          "size": 41,
+          "weight": "700",
+          "lineHeight": 1.2,
+          "letterSpacing": "normal",
+          "color": "rgb(255, 255, 255)"
+        },
+        "body": {
+          "font": "Satoshi-Variable",
+          "size": 19,
+          "weight": "500",
+          "lineHeight": 1.43,
+          "letterSpacing": "normal",
+          "color": "rgb(181, 188, 197)"
+        }
+      },
+      "colors": {
+        "background": "#121212",
+        "surfaces": [
+          "#121212",
+          "#000000"
+        ],
+        "text": [
+          "#b5bcc5",
+          "#ffffff",
+          "#efefef",
+          "#656565"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": 1440
+    }
+  },
+  {
     "id": "ladder-landing",
     "site": "Ladder",
     "url": "https://www.joinladder.com",
@@ -32254,6 +32643,117 @@
         }
       ],
       "contentWidth": 1280
+    }
+  },
+  {
+    "id": "lydia-landing",
+    "site": "Lydia",
+    "url": "https://lydia-app.com",
+    "type": "landing",
+    "tags": [
+      "light",
+      "heavy-rounded-headline",
+      "phone-on-paper-photo",
+      "teal-palette",
+      "french",
+      "checklist"
+    ],
+    "note": "'Tenir un budget n'a jamais été aussi simple' in a heavy rounded face, then a phone lying on white folded paper, photographed in soft light. Banking made calm with one object photo.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/lydia-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/lydia-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Sumeria - Comptes bancaires en ligne, gratuits et rémunérés",
+      "fonts": [
+        "proxima-nova",
+        "ui-sans-serif",
+        "degular"
+      ],
+      "type": {
+        "h1": {
+          "font": "degular",
+          "size": 112,
+          "weight": "700",
+          "lineHeight": 0.84,
+          "letterSpacing": "-6.72px",
+          "color": "rgb(15, 20, 21)"
+        },
+        "h2": {
+          "font": "degular",
+          "size": 48,
+          "weight": "700",
+          "lineHeight": 0.96,
+          "letterSpacing": "-2.4px",
+          "color": "rgb(15, 20, 21)"
+        },
+        "h3": {
+          "font": "proxima-nova",
+          "size": 19,
+          "weight": "600",
+          "lineHeight": 1.09,
+          "letterSpacing": "-0.384px",
+          "color": "rgb(15, 20, 21)"
+        },
+        "body": {
+          "font": "degular",
+          "size": 24,
+          "weight": "400",
+          "lineHeight": 1.25,
+          "letterSpacing": "-0.24px",
+          "color": "rgb(49, 64, 64)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#e0e9eb",
+          "#f1f4f4",
+          "#007a78",
+          "#004952",
+          "#ffffff"
+        ],
+        "text": [
+          "#314040",
+          "#0f2322",
+          "#5b6968",
+          "#ffffff"
+        ]
+      },
+      "buttons": [
+        {
+          "label": "Ouvrir un compte",
+          "bg": "#004952",
+          "color": "#f6f8f8",
+          "radius": "56px",
+          "height": 64,
+          "paddingX": 32,
+          "font": "ui-sans-serif",
+          "size": 18,
+          "weight": "700"
+        },
+        {
+          "label": "Se connecter",
+          "bg": "#ffffff",
+          "color": "#004952",
+          "radius": "56px",
+          "height": 64,
+          "paddingX": 32,
+          "font": "ui-sans-serif",
+          "size": 18,
+          "weight": "700"
+        }
+      ],
+      "contentWidth": 1440
     }
   },
   {
@@ -45646,6 +46146,74 @@
     }
   },
   {
+    "id": "sorare-landing",
+    "site": "Sorare",
+    "url": "https://sorare.com",
+    "type": "landing",
+    "tags": [
+      "dark-purple",
+      "starry-night-sky",
+      "collectible-cards",
+      "footballer-cutouts",
+      "heavy-caps",
+      "game-ui"
+    ],
+    "note": "A starry purple night with collectible player cards and cut-out footballers holding packs ('SCOUT. PLAY. WIN.'). A fantasy game that looks like the packs it sells.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/sorare-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/sorare-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Play fantasy football with ownable digital player cards - Sorare",
+      "fonts": [
+        "-apple-system",
+        "pressio",
+        "pressio-condensed"
+      ],
+      "type": {
+        "h1": {
+          "font": "pressio-condensed",
+          "size": 69,
+          "weight": "500",
+          "lineHeight": 1,
+          "letterSpacing": "normal",
+          "color": "rgb(255, 255, 255)"
+        },
+        "h2": {
+          "font": "pressio",
+          "size": 69,
+          "weight": "700",
+          "lineHeight": 1,
+          "letterSpacing": "normal",
+          "color": "rgb(255, 255, 255)"
+        },
+        "h3": null,
+        "body": null
+      },
+      "colors": {
+        "background": "#0e0e0e",
+        "surfaces": [
+          "#0e0e0e"
+        ],
+        "text": [
+          "#ffffff",
+          "#101010"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": 800
+    }
+  },
+  {
     "id": "soundtrap-landing",
     "site": "Soundtrap",
     "url": "https://www.soundtrap.com",
@@ -48320,6 +48888,136 @@
       },
       "buttons": [],
       "contentWidth": 1200
+    }
+  },
+  {
+    "id": "swile-landing",
+    "site": "Swile",
+    "url": "https://www.swile.co",
+    "type": "landing",
+    "tags": [
+      "dark",
+      "product-object-hero",
+      "glowing-card-stack",
+      "french",
+      "giant-white-type",
+      "one-button"
+    ],
+    "note": "The physical payment cards stacked and floating on a dark field with a coloured ring of light under them, a heavy white headline and one button. A meal-voucher card sold like a luxury object.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/swile-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/swile-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Let's smile at work | Swile",
+      "fonts": [
+        "graphik",
+        "swileNova"
+      ],
+      "type": {
+        "h1": {
+          "font": "swileNova",
+          "size": 72,
+          "weight": "400",
+          "lineHeight": 1,
+          "letterSpacing": "normal",
+          "color": "rgb(255, 255, 255)"
+        },
+        "h2": {
+          "font": "swileNova",
+          "size": 60,
+          "weight": "500",
+          "lineHeight": 1,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        },
+        "h3": {
+          "font": "graphik",
+          "size": 20,
+          "weight": "500",
+          "lineHeight": 1.4,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        },
+        "body": {
+          "font": "swileNova",
+          "size": 30,
+          "weight": "400",
+          "lineHeight": 1.2,
+          "letterSpacing": "normal",
+          "color": "rgb(255, 255, 255)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#f7f7f7",
+          "#000000",
+          "#ffffff",
+          "#dec991",
+          "#222222"
+        ],
+        "text": [
+          "#000000",
+          "#ffffff"
+        ]
+      },
+      "buttons": [
+        {
+          "label": "Activer mon compte",
+          "bg": "#000000",
+          "color": "#ffffff",
+          "radius": "8px",
+          "height": 44,
+          "paddingX": 32,
+          "font": "graphik",
+          "size": 16,
+          "weight": "600"
+        },
+        {
+          "label": "Utiliser ma carte cadeau",
+          "bg": "#dec991",
+          "color": "#000000",
+          "radius": "8px",
+          "height": 44,
+          "paddingX": 32,
+          "font": "graphik",
+          "size": 16,
+          "weight": "600"
+        },
+        {
+          "label": "Je veux une démo",
+          "bg": "#ffffff",
+          "color": "#000000",
+          "radius": "8px",
+          "height": 44,
+          "paddingX": 32,
+          "font": "graphik",
+          "size": 16,
+          "weight": "600"
+        },
+        {
+          "label": "Des questions ?",
+          "bg": "#222222",
+          "color": "#ffffff",
+          "radius": "12px",
+          "height": 50,
+          "paddingX": 16,
+          "font": "graphik",
+          "size": 14,
+          "weight": "500"
+        }
+      ],
+      "contentWidth": 768
     }
   },
   {
