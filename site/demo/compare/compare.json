@@ -14,8 +14,8 @@
    "with": {
     "img": "/demo/compare/with-landing.jpg",
     "html": "/demo/compare/with-landing.html",
-    "turns": 41,
-    "seconds": 342
+    "turns": 24,
+    "seconds": 315
    }
   },
   {
@@ -30,8 +30,8 @@
    "with": {
     "img": "/demo/compare/with-pricing.jpg",
     "html": "/demo/compare/with-pricing.html",
-    "turns": 39,
-    "seconds": 245
+    "turns": 18,
+    "seconds": 184
    }
   },
   {
@@ -46,8 +46,8 @@
    "with": {
     "img": "/demo/compare/with-dashboard.jpg",
     "html": "/demo/compare/with-dashboard.html",
-    "turns": 27,
-    "seconds": 245
+    "turns": 16,
+    "seconds": 233
    }
   }
  ]

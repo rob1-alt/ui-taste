@@ -9,36 +9,34 @@
 <link href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600&display=swap" rel="stylesheet">
 <style>
   :root {
-    /* neutrals */
-    --bg: #f6f6f4;
-    --surface: #ffffff;
-    --surface-2: #f1f1ee;
-    --line: #e4e4df;
-    --line-strong: #d3d3cc;
-    --text: #17181a;
-    --text-2: #55575c;   /* 7.1:1 on white */
-    --text-3: #6d7076;   /* 4.9:1 on white */
-    /* band */
-    --ink: #15171a;
-    --ink-2: #23262b;
-    --ink-line: rgba(255,255,255,.10);
-    --ink-text-2: rgba(255,255,255,.66);
-    /* accent: action only */
-    --accent: #2b4fe0;
-    --accent-hover: #2140c2;
-    --accent-soft: #eef1fd;
-    /* state */
-    --late: #b42318;
-    --late-soft: #fdf0ee;
-    --late-bar: #f6d9d4;
-    --paid: #0a7a4f;
-    --paid-soft: #eaf6f0;
-    --due: #8a5a00;
-    --due-soft: #fbf3e2;
+    --bg: #ffffff;
+    --sidebar: #f7f7f5;
+    --surface: #f7f7f5;
+    --line: #e8e8e4;
+    --line-strong: #d9d9d4;
+    --text: #1a1a18;
+    --text-2: #5c5c57;
+    --text-3: #75756f;
+    --ink: #1a1a18;
+
+    --paid: #13795b;
+    --paid-bg: #e7f4ee;
+    --late: #c2341b;
+    --late-bg: #fcebe7;
+    --soon: #9a5b00;
+    --soon-bg: #fdf3e1;
+    --info: #2d5bd8;
+    --info-bg: #eaf0fd;
+
+    /* ageing scale: current → 60+ days */
+    --age-0: #cfcfc9;
+    --age-1: #e7a23b;
+    --age-2: #dd6b2c;
+    --age-3: #c2341b;
 
     --r-sm: 6px;
     --r-md: 10px;
-    --font: "Geist", ui-sans-serif, "Segoe UI Variable Text", "Helvetica Neue", Arial, sans-serif;
+    --font: "Geist", ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
   }
 
   * { box-sizing: border-box; }
@@ -50,545 +48,592 @@
     line-height: 1.5;
     color: var(--text);
     background: var(--bg);
-    font-feature-settings: "tnum" 1, "ss01" 1;
+    font-feature-settings: "tnum" 1, "cv11" 1;
     -webkit-font-smoothing: antialiased;
   }
   a { color: inherit; text-decoration: none; }
   button { font: inherit; color: inherit; }
-  :focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; border-radius: 4px; }
+  :focus-visible { outline: 2px solid var(--info); outline-offset: 2px; border-radius: 4px; }
+  .num { font-variant-numeric: tabular-nums; }
   .sr-only { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
-  svg.i { width: 16px; height: 16px; flex: none; fill: none; stroke: currentColor; stroke-width: 1.6; stroke-linecap: round; stroke-linejoin: round; }
 
   /* ---------- shell ---------- */
-  .app { display: grid; grid-template-columns: 232px minmax(0, 1fr); min-height: 100vh; }
-  .side {
-    position: sticky; top: 0; height: 100vh;
-    display: flex; flex-direction: column; gap: 24px;
-    padding: 20px 14px;
+  .app { display: grid; grid-template-columns: 244px 1fr; min-height: 100vh; }
+
+  .sidebar {
+    background: var(--sidebar);
     border-right: 1px solid var(--line);
-    background: var(--bg);
+    padding: 20px 12px;
+    display: flex; flex-direction: column; gap: 24px;
+    position: sticky; top: 0; height: 100vh;
   }
-  .brand { flex: none; display: flex; align-items: center; gap: 10px; padding: 4px 8px; font-weight: 600; font-size: 16px; letter-spacing: -0.01em; }
-  .brand-mark { width: 24px; height: 24px; border-radius: 6px; background: var(--ink); display: grid; place-items: center; }
-  .brand-mark svg { width: 14px; height: 14px; stroke: #fff; stroke-width: 2; fill: none; stroke-linecap: round; }
+  .brand { display: flex; align-items: center; gap: 10px; padding: 0 8px; font-weight: 600; font-size: 16px; letter-spacing: -0.01em; }
+  .brand-mark { width: 26px; height: 26px; border-radius: 7px; background: var(--ink); color: #fff; display: grid; place-items: center; }
   .nav { display: flex; flex-direction: column; gap: 2px; }
   .nav a {
     display: flex; align-items: center; gap: 10px;
-    height: 34px; padding: 0 10px; border-radius: var(--r-sm);
+    padding: 7px 8px; border-radius: var(--r-sm);
     color: var(--text-2); font-weight: 500;
   }
-  .nav a:hover { background: var(--surface-2); color: var(--text); }
-  .nav a[aria-current="page"] { background: var(--surface); color: var(--text); box-shadow: inset 0 0 0 1px var(--line); }
+  .nav a:hover { background: #ededea; color: var(--text); }
+  .nav a[aria-current="page"] { background: #fff; color: var(--text); box-shadow: 0 0 0 1px var(--line); }
+  .nav svg { width: 16px; height: 16px; flex: none; }
   .nav .count { margin-left: auto; font-size: 12px; color: var(--late); font-weight: 500; }
-  .nav-label { padding: 0 10px 6px; font-size: 12px; color: var(--text-3); }
-  .side-foot { margin-top: auto; display: flex; align-items: center; gap: 10px; padding: 10px; border-top: 1px solid var(--line); }
-  .avatar { width: 30px; height: 30px; border-radius: 50%; background: #dfe3ea; color: #2a3140; display: grid; place-items: center; font-size: 12px; font-weight: 600; flex: none; }
-  .side-foot .who { line-height: 1.3; }
-  .side-foot .who b { display: block; font-weight: 500; }
-  .side-foot .who span { font-size: 12px; color: var(--text-3); }
+  .nav-label { padding: 0 8px 6px; font-size: 12px; color: var(--text-3); }
+  .sidebar-foot { margin-top: auto; display: flex; flex-direction: column; gap: 12px; }
+  .payout {
+    padding: 12px; border: 1px solid var(--line); border-radius: var(--r-md); background: #fff;
+    font-size: 13px; color: var(--text-2);
+  }
+  .payout strong { display: block; color: var(--text); font-weight: 600; font-size: 14px; }
+  .me { display: flex; align-items: center; gap: 10px; padding: 6px 8px; }
+  .avatar { width: 30px; height: 30px; border-radius: 50%; background: #dcd6cc; color: #4a4339; display: grid; place-items: center; font-size: 12px; font-weight: 600; flex: none; }
+  .me-name { font-weight: 500; line-height: 1.3; }
+  .me-mail { font-size: 12px; color: var(--text-3); line-height: 1.3; }
 
-  main { padding: 28px 40px 64px; max-width: 1320px; width: 100%; }
+  main { padding: 28px 40px 64px; min-width: 0; }
+  .wrap { max-width: 1200px; margin: 0 auto; }
 
   /* ---------- header ---------- */
-  .head { display: flex; align-items: flex-end; justify-content: space-between; gap: 16px; margin-bottom: 20px; }
-  .head h1 { margin: 0; font-size: 28px; line-height: 1.15; font-weight: 600; letter-spacing: -0.02em; }
-  .head p { margin: 4px 0 0; color: var(--text-2); }
+  .page-head { display: flex; align-items: flex-end; justify-content: space-between; gap: 16px; flex-wrap: wrap; }
+  .page-head h1 { margin: 0; font-size: 26px; line-height: 1.2; font-weight: 600; letter-spacing: -0.02em; }
+  .page-head p { margin: 4px 0 0; color: var(--text-2); }
   .actions { display: flex; gap: 8px; }
   .btn {
     display: inline-flex; align-items: center; gap: 8px;
     height: 36px; padding: 0 14px; border-radius: var(--r-sm);
-    border: 1px solid var(--line-strong); background: var(--surface);
-    font-weight: 500; cursor: pointer; white-space: nowrap;
-    transition: background-color .15s, border-color .15s;
+    font-weight: 500; cursor: pointer; border: 1px solid var(--line-strong); background: #fff;
+    transition: background-color .15s ease, border-color .15s ease;
   }
-  .btn:hover { background: var(--surface-2); }
-  .btn.primary { background: var(--accent); border-color: var(--accent); color: #fff; }
-  .btn.primary:hover { background: var(--accent-hover); border-color: var(--accent-hover); }
-  .btn.sm { height: 30px; padding: 0 10px; font-size: 13px; }
-  .link { color: var(--accent); font-weight: 500; }
-  .link:hover { text-decoration: underline; text-underline-offset: 3px; }
+  .btn:hover { background: var(--surface); }
+  .btn svg { width: 16px; height: 16px; }
+  .btn-primary { background: var(--ink); border-color: var(--ink); color: #fff; }
+  .btn-primary:hover { background: #33332f; }
+  .btn-sm { height: 30px; padding: 0 10px; font-size: 13px; }
+  .link { white-space: nowrap; color: var(--text-2); font-weight: 500; font-size: 13px; }
+  .link:hover { color: var(--text); text-decoration: underline; text-underline-offset: 3px; }
 
-  /* ---------- money band ---------- */
-  .band {
-    display: grid; grid-template-columns: 1.5fr 1fr 1fr 1fr;
-    background: var(--ink); color: #fff;
-    border-radius: var(--r-md);
-    margin-bottom: 16px;
+  /* ---------- money strip ---------- */
+  .money { margin-top: 32px; display: grid; grid-template-columns: 1.35fr 1fr 1fr; border-top: 1px solid var(--line); }
+  .stat { padding: 20px 24px 22px; border-right: 1px solid var(--line); }
+  .stat:first-child { padding-left: 0; }
+  .stat:last-child { border-right: 0; padding-right: 0; }
+  .stat-label { color: var(--text-2); font-weight: 500; display: flex; align-items: center; gap: 8px; }
+  .stat-value { margin-top: 6px; font-size: 40px; line-height: 1.1; font-weight: 600; letter-spacing: -0.03em; }
+  .stat-value .cents { color: var(--text-3); font-size: 24px; letter-spacing: -0.01em; }
+  .stat-sub { margin-top: 6px; color: var(--text-2); font-size: 13px; }
+  .stat-sub b { font-weight: 500; color: var(--text); }
+  .delta { color: var(--paid); font-weight: 500; }
+  .dot { width: 8px; height: 8px; border-radius: 50%; display: inline-block; flex: none; }
+
+  /* ageing bar: the one chart on the page */
+  .ageing { margin-top: 18px; }
+  .ageing-bar { display: flex; height: 12px; gap: 2px; border-radius: 3px; overflow: hidden; }
+  .ageing-bar span { display: block; height: 100%; }
+  .ageing-legend { margin: 12px 0 0; padding: 0; list-style: none; display: grid; grid-template-columns: repeat(4, auto); justify-content: start; gap: 4px 24px; font-size: 13px; }
+  .ageing-legend li { display: flex; flex-direction: column; }
+  .ageing-legend .k { display: flex; align-items: center; gap: 6px; color: var(--text-2); }
+  .ageing-legend .v { font-weight: 500; padding-left: 14px; }
+
+  .spark { margin-top: 16px; display: flex; align-items: flex-end; gap: 6px; height: 44px; }
+  .spark div { flex: 1; display: flex; flex-direction: column; align-items: center; gap: 4px; height: 100%; justify-content: flex-end; }
+  .spark i { display: block; width: 100%; background: #dcdcd6; border-radius: 2px 2px 0 0; }
+  .spark div:last-child i { background: var(--paid); }
+  .spark small { font-size: 11px; color: var(--text-3); line-height: 1; }
+
+  .pace { margin: 16px 0 0; font-size: 13px; }
+  .pace div { display: grid; grid-template-columns: 56px 1fr auto; gap: 8px; padding: 6px 0; border-top: 1px solid var(--line); }
+  .pace dt { color: var(--text-3); }
+  .pace dd { margin: 0; }
+  .pace dd + dd { font-weight: 500; }
+
+  /* ---------- sections ---------- */
+  .grid-2 { margin-top: 40px; display: grid; grid-template-columns: 1fr 1fr; gap: 40px; }
+  section h2 { margin: 0; font-size: 16px; font-weight: 600; letter-spacing: -0.01em; }
+  .sec-head { display: flex; align-items: baseline; justify-content: space-between; gap: 12px; padding-bottom: 12px; border-bottom: 1px solid var(--line); }
+  .sec-head p { margin: 2px 0 0; color: var(--text-2); font-size: 13px; }
+
+  .badge {
+    display: inline-flex; align-items: center; gap: 5px;
+    font-size: 12px; font-weight: 500; line-height: 20px; padding: 0 7px; border-radius: 4px; white-space: nowrap;
   }
-  .kpi { padding: 22px 24px 20px; border-left: 1px solid var(--ink-line); min-width: 0; }
-  .kpi:first-child { border-left: 0; }
-  .kpi .label { color: var(--ink-text-2); font-size: 13px; display: flex; align-items: center; gap: 6px; }
-  .kpi .value { font-size: 34px; line-height: 1.1; font-weight: 500; letter-spacing: -0.03em; margin: 10px 0 8px; }
-  .kpi .value small { font-size: 18px; color: var(--ink-text-2); font-weight: 400; letter-spacing: 0; margin-left: 2px; }
-  .kpi .sub { font-size: 13px; color: var(--ink-text-2); }
-  .kpi .sub strong { color: #fff; font-weight: 500; }
-  .up { color: #6ee7b0; }
-  .split { display: flex; height: 6px; border-radius: 3px; overflow: hidden; gap: 2px; margin: 4px 0 10px; }
-  .split span:nth-child(1) { background: #ff8a7a; }
-  .split span:nth-child(2) { background: rgba(255,255,255,.32); }
-  .legend { display: flex; flex-wrap: wrap; gap: 4px 16px; font-size: 13px; color: var(--ink-text-2); }
-  .legend i { display: inline-block; width: 8px; height: 8px; border-radius: 2px; margin-right: 6px; vertical-align: 0; }
-  .legend b { color: #fff; font-weight: 500; }
+  .badge svg { width: 12px; height: 12px; }
+  .b-paid { color: var(--paid); background: var(--paid-bg); }
+  .b-late { color: var(--late); background: var(--late-bg); }
+  .b-soon { color: var(--soon); background: var(--soon-bg); }
+  .b-sent { color: var(--text-2); background: var(--surface); box-shadow: inset 0 0 0 1px var(--line); }
+  .b-view { color: var(--info); background: var(--info-bg); }
 
-  /* ---------- grid + cards ---------- */
-  .grid { display: grid; grid-template-columns: repeat(12, minmax(0, 1fr)); gap: 16px; }
-  .c-7 { grid-column: span 7; } .c-5 { grid-column: span 5; }
-  .card { background: var(--surface); border: 1px solid var(--line); border-radius: var(--r-md); min-width: 0; }
-  .card-head { display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 16px 20px 12px; }
-  .card-head h2 { margin: 0; font-size: 15px; font-weight: 600; letter-spacing: -0.005em; }
-  .card-head .meta { color: var(--text-3); font-size: 13px; }
+  /* late clients */
+  .late-list { list-style: none; margin: 0; padding: 0; }
+  .late-list li { display: grid; grid-template-columns: 36px 1fr auto; gap: 12px; padding: 16px 0; border-bottom: 1px solid var(--line); align-items: start; }
+  .co { width: 36px; height: 36px; border-radius: 8px; display: grid; place-items: center; font-weight: 600; font-size: 13px; color: #fff; }
+  .late-name { font-weight: 500; }
+  .late-meta { color: var(--text-2); font-size: 13px; margin-top: 2px; }
+  .late-note { margin-top: 8px; font-size: 13px; color: var(--text-2); display: flex; align-items: center; gap: 6px; }
+  .late-note svg { width: 14px; height: 14px; flex: none; }
+  .late-amt { text-align: right; }
+  .late-amt strong { display: block; font-weight: 600; font-size: 15px; }
+  .late-amt .badge { margin-top: 4px; }
+  .days { height: 4px; background: var(--surface); border-radius: 2px; margin-top: 10px; overflow: hidden; }
+  .days i { display: block; height: 100%; border-radius: 2px; }
 
-  /* ---------- late clients ---------- */
-  .late-list { list-style: none; margin: 0; padding: 0 12px 8px; }
-  .late-row {
-    display: grid; grid-template-columns: minmax(0, 1fr) 88px 96px; align-items: center; gap: 12px;
-    padding: 10px 8px; border-top: 1px solid var(--line);
-  }
-  .late-row:first-child { border-top: 0; }
-  .late-row .who { position: relative; min-width: 0; }
-  .bar-bg { position: absolute; inset: -4px auto -4px -4px; background: var(--late-soft); border-radius: 4px; z-index: 0; }
-  .late-row .who > *:not(.bar-bg) { position: relative; }
-  .late-row .name { font-weight: 500; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; display: block; }
-  .late-row .detail { font-size: 13px; color: var(--text-2); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; display: block; }
-  .days { font-size: 13px; color: var(--late); font-weight: 500; text-align: right; }
-  .amt { text-align: right; font-weight: 500; }
-  .card-foot { padding: 12px 20px 16px; border-top: 1px solid var(--line); display: flex; align-items: center; justify-content: space-between; gap: 12px; font-size: 13px; color: var(--text-2); }
+  /* reminders */
+  .rem-policy { margin: 14px 0 4px; display: flex; align-items: center; flex-wrap: wrap; gap: 6px; font-size: 13px; color: var(--text-2); }
+  .rem-policy .step { padding: 2px 8px; border: 1px solid var(--line); border-radius: 4px; color: var(--text); background: #fff; }
+  .rem-policy .arrow { color: var(--text-3); }
+  .rem-group { margin-top: 16px; font-size: 13px; font-weight: 500; color: var(--text-3); }
+  .rem { list-style: none; margin: 0; padding: 0; position: relative; }
+  .rem li { position: relative; display: grid; grid-template-columns: 72px 1fr auto; gap: 12px; padding: 12px 0; border-bottom: 1px solid var(--line); align-items: start; }
+  .rem li:last-child { border-bottom: 0; }
+  .rem-when { font-size: 13px; color: var(--text-2); line-height: 1.35; }
+  .rem-when b { display: block; color: var(--text); font-weight: 500; }
+  .rem-what { min-width: 0; }
+  .rem-what .t { font-weight: 500; }
+  .rem-what .s { font-size: 13px; color: var(--text-2); margin-top: 1px; }
+  .rem-what blockquote { margin: 8px 0 0; padding: 8px 10px; background: var(--surface); border-radius: var(--r-sm); font-size: 13px; color: var(--text); }
+  .rem-what blockquote span { display: block; color: var(--text-3); font-size: 12px; margin-bottom: 2px; }
+  .rem-hold { background: var(--soon-bg); margin: 8px 0 0; border-radius: var(--r-md); padding: 14px; display: grid; grid-template-columns: 72px 1fr; gap: 12px; }
+  .rem-hold .rem-when b { color: var(--soon); }
+  .rem-hold .row { display: flex; gap: 8px; margin-top: 10px; flex-wrap: wrap; }
+  .rem-hold .btn { background: #fff; }
+  .rem-hold .btn-primary { background: var(--ink); }
 
-  /* ---------- chart ---------- */
-  .chart-wrap { padding: 4px 20px 18px; }
-  .chart-total { display: flex; align-items: baseline; gap: 10px; margin-bottom: 14px; }
-  .chart-total b { font-size: 24px; font-weight: 500; letter-spacing: -0.02em; }
-  .chart-total span { color: var(--text-2); font-size: 13px; }
-  .bars { display: grid; grid-template-columns: repeat(6, 1fr); gap: 14px; align-items: end; height: 168px; border-bottom: 1px solid var(--line-strong); position: relative; }
-  .bars::before, .bars::after { content: ""; position: absolute; left: 0; right: 0; border-top: 1px dashed var(--line); }
-  .bars::before { bottom: 33.3%; } .bars::after { bottom: 66.6%; }
-  .bar { position: relative; z-index: 1; display: flex; flex-direction: column; justify-content: flex-end; height: 100%; }
-  .bar span { display: block; background: #c9cfdc; border-radius: 4px 4px 0 0; min-height: 2px; }
-  .bar.now span { background: var(--ink); }
-  .bar .v { font-size: 12px; color: var(--text-2); text-align: center; margin-bottom: 6px; white-space: nowrap; }
-  .bar.now .v { color: var(--text); font-weight: 600; }
-  .months { display: grid; grid-template-columns: repeat(6, 1fr); gap: 14px; margin-top: 8px; font-size: 12px; color: var(--text-3); text-align: center; }
-  .months .now { color: var(--text); font-weight: 500; }
-  .paid-list { list-style: none; margin: 16px 0 0; padding: 0; border-top: 1px solid var(--line); }
-  .paid-list li { display: flex; justify-content: space-between; gap: 12px; padding: 8px 0; border-bottom: 1px solid var(--line); font-size: 13px; }
-  .paid-list li:last-child { border-bottom: 0; padding-bottom: 0; }
-  .paid-list .d { color: var(--text-3); margin-left: 6px; }
-
-  /* ---------- invoices table ---------- */
-  .tabs { display: flex; gap: 2px; background: var(--surface-2); padding: 3px; border-radius: 8px; }
-  .tabs button {
-    border: 0; background: transparent; height: 28px; padding: 0 10px; border-radius: 5px;
-    font-size: 13px; font-weight: 500; color: var(--text-2); cursor: pointer;
-  }
-  .tabs button[aria-selected="true"] { background: var(--surface); color: var(--text); box-shadow: 0 0 0 1px var(--line); }
-  .tabs button .n { color: var(--text-3); margin-left: 4px; font-weight: 400; }
+  /* invoices table */
+  .invoices { margin-top: 48px; }
+  .tabs { display: flex; gap: 4px; }
+  .tabs a { padding: 4px 10px; border-radius: var(--r-sm); font-size: 13px; font-weight: 500; color: var(--text-2); }
+  .tabs a:hover { color: var(--text); background: var(--surface); }
+  .tabs a[aria-current="true"] { background: var(--surface); color: var(--text); box-shadow: inset 0 0 0 1px var(--line); }
   table { width: 100%; border-collapse: collapse; }
-  th { text-align: left; font-weight: 500; font-size: 12px; color: var(--text-3); padding: 8px 12px; border-bottom: 1px solid var(--line); white-space: nowrap; }
-  td { padding: 11px 12px; border-bottom: 1px solid var(--line); vertical-align: middle; }
-  th:first-child, td:first-child { padding-left: 20px; }
-  th:last-child, td:last-child { padding-right: 20px; }
-  tbody tr:last-child td { border-bottom: 0; }
-  tbody tr { cursor: pointer; transition: background-color .12s; }
+  th { text-align: left; font-weight: 500; color: var(--text-3); font-size: 13px; padding: 12px 12px; border-bottom: 1px solid var(--line); white-space: nowrap; }
+  td { padding: 14px 12px; border-bottom: 1px solid var(--line); vertical-align: middle; }
+  th:first-child, td:first-child { padding-left: 0; }
+  th:last-child, td:last-child { padding-right: 0; }
+  tbody tr { transition: background-color .15s ease; }
   tbody tr:hover { background: #fafaf8; }
-  .num { text-align: right; white-space: nowrap; }
-  .inv-no { color: var(--text-2); font-size: 13px; white-space: nowrap; }
-  .client b { font-weight: 500; display: block; }
-  .client { max-width: 0; width: 100%; }
-  .client b, .client span { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
-  .client span { display: block; font-size: 13px; color: var(--text-3); }
-  .date { white-space: nowrap; color: var(--text-2); font-size: 13px; }
-  .status { display: inline-flex; align-items: center; gap: 6px; height: 22px; padding: 0 8px; border-radius: 5px; font-size: 12px; font-weight: 500; white-space: nowrap; }
-  .status::before { content: ""; width: 6px; height: 6px; border-radius: 50%; background: currentColor; }
-  .s-late { background: var(--late-soft); color: var(--late); }
-  .s-paid { background: var(--paid-soft); color: var(--paid); }
-  .s-sent { background: var(--accent-soft); color: #2741b8; }
-  .s-draft { background: var(--surface-2); color: var(--text-2); }
-  .s-draft::before { background: transparent; box-shadow: inset 0 0 0 1.5px currentColor; }
-  tr[hidden] { display: none; }
+  .t-right { text-align: right; }
+  .inv-no { color: var(--text-2); }
+  .client { display: flex; align-items: center; gap: 10px; }
+  .client .co { width: 28px; height: 28px; border-radius: 6px; font-size: 11px; }
+  .client small { display: block; color: var(--text-3); font-size: 12px; }
+  .amt { font-weight: 500; }
+  .muted { color: var(--text-2); }
+  .row-act { color: var(--text-3); display: inline-grid; place-items: center; width: 28px; height: 28px; border-radius: var(--r-sm); }
+  .row-act:hover { background: var(--surface); color: var(--text); }
+  .row-act svg { width: 16px; height: 16px; }
+  .table-foot { display: flex; justify-content: space-between; align-items: center; padding-top: 14px; font-size: 13px; color: var(--text-2); }
 
-  /* ---------- reminders ---------- */
-  .attention {
-    margin: 0 20px 12px; padding: 12px 14px; border-radius: 8px;
-    background: var(--late-soft); border: 1px solid #f3d3ce;
-    display: grid; grid-template-columns: auto 1fr; gap: 2px 10px;
-  }
-  .attention svg { color: var(--late); margin-top: 2px; }
-  .attention p { margin: 0; font-size: 13px; color: #5c1a13; }
-  .attention p b { font-weight: 600; }
-  .attention .acts { grid-column: 2; display: flex; gap: 8px; margin-top: 8px; flex-wrap: wrap; }
-  .attention .btn { border-color: #e9bdb6; }
-  .rem-group { padding: 4px 20px 0; }
-  .rem-group h3 { margin: 8px 0 6px; font-size: 12px; font-weight: 500; color: var(--text-3); }
-  .rem { list-style: none; margin: 0; padding: 0; }
-  .rem li { display: grid; grid-template-columns: 52px 1fr auto; gap: 12px; padding: 10px 0; border-top: 1px solid var(--line); align-items: start; }
-  .rem li:first-child { border-top: 0; }
-  .when { font-size: 12px; color: var(--text-2); line-height: 1.35; padding-top: 1px; }
-  .when b { display: block; color: var(--text); font-weight: 500; font-size: 13px; }
-  .rem .what { min-width: 0; }
-  .rem .what b { font-weight: 500; }
-  .rem .what span { display: block; font-size: 13px; color: var(--text-2); }
-  .rem .what q { display: block; margin-top: 6px; padding-left: 10px; border-left: 2px solid var(--line-strong); font-size: 13px; color: var(--text-2); quotes: "“" "”"; }
-  .tag { font-size: 12px; color: var(--text-2); white-space: nowrap; display: inline-flex; align-items: center; gap: 4px; padding-top: 2px; }
-  .tag.ok { color: var(--paid); }
-  .tag.paused { color: var(--due); }
-  .skip { border: 0; background: none; padding: 2px 0; color: var(--text-2); font-size: 12px; font-weight: 500; cursor: pointer; }
-  .skip:hover { color: var(--text); text-decoration: underline; text-underline-offset: 3px; }
-  li.skipped .what, li.skipped .when { opacity: .45; text-decoration: line-through; }
+  /* topbar shown on small screens */
+  .topbar { display: none; }
 
-  .stack { display: flex; flex-direction: column; gap: 16px; }
-
-  /* ---------- responsive ---------- */
   @media (max-width: 1180px) {
-    .band { grid-template-columns: 1fr 1fr; }
-    .kpi:nth-child(3) { border-left: 0; }
-    .kpi:nth-child(n+3) { border-top: 1px solid var(--ink-line); }
-    .c-7, .c-5 { grid-column: span 12; }
-    .client { max-width: none; }
+    .money { grid-template-columns: 1fr 1fr; }
+    .stat:first-child { grid-column: 1 / -1; border-right: 0; padding-right: 0; border-bottom: 1px solid var(--line); }
+    .stat:nth-child(2) { padding-left: 0; }
+    .grid-2 { grid-template-columns: 1fr; gap: 48px; }
   }
+
   @media (max-width: 860px) {
-    .app { grid-template-columns: minmax(0, 1fr); }
-    .side {
-      position: sticky; top: 0; z-index: 5; height: auto; flex-direction: row; align-items: center;
-      padding: 10px 16px; gap: 12px; border-right: 0; border-bottom: 1px solid var(--line);
+    .app { grid-template-columns: 1fr; }
+    .sidebar { display: none; }
+    .topbar {
+      display: flex; align-items: center; justify-content: space-between;
+      padding: 12px 20px; border-bottom: 1px solid var(--line); background: var(--sidebar);
+      position: sticky; top: 0; z-index: 2;
     }
-    .side .nav-label, .side-foot .who, .nav.secondary { display: none; }
-    .side .nav { flex-direction: row; overflow-x: auto; scrollbar-width: none; min-width: 0; flex: 1; }
-    .side .nav a { height: 36px; white-space: nowrap; }
-    .side .nav a svg { display: none; }
-    .side-foot { margin: 0 0 0 auto; border: 0; padding: 0; }
-    .brand span { display: none; }
-    main { padding: 20px 16px 48px; }
-    .head { flex-direction: column; align-items: stretch; }
+    .menu-btn { width: 44px; height: 44px; display: grid; place-items: center; border: 0; background: none; margin-right: -10px; border-radius: var(--r-sm); }
+    .menu-btn svg { width: 22px; height: 22px; }
+    main { padding: 24px 20px 48px; }
+    .page-head { align-items: flex-start; flex-direction: column; }
+    .actions { width: 100%; }
     .actions .btn { flex: 1; justify-content: center; height: 44px; }
-  }
-  @media (max-width: 640px) {
-    .band { grid-template-columns: 1fr 1fr; }
-    .kpi { padding: 16px 18px; border-top: 1px solid var(--ink-line); }
-    .kpi:first-child { grid-column: span 2; border-top: 0; }
-    .kpi:nth-child(2) { border-left: 0; }
-    .kpi:nth-child(3) { border-left: 1px solid var(--ink-line); }
-    .kpi:nth-child(4) { grid-column: span 2; border-left: 0; }
-    .kpi .value { font-size: 28px; }
-    .kpi:not(:first-child) .value { font-size: 24px; margin: 6px 0 4px; }
-    .late-row { grid-template-columns: minmax(0, 1fr) auto; }
-    .late-row .days { grid-column: 2; grid-row: 2; }
-    .late-row .amt { grid-column: 2; grid-row: 1; }
-    .card-head { flex-wrap: wrap; }
-    /* invoices become a list */
-    thead { display: none; }
-    table, tbody, tr, td { display: block; }
-    tbody tr { display: grid; grid-template-columns: 1fr auto; gap: 2px 12px; padding: 12px 16px; border-bottom: 1px solid var(--line); }
-    tbody tr:last-child { border-bottom: 0; }
+    .money { grid-template-columns: 1fr; }
+    .stat, .stat:nth-child(2) { padding: 20px 0; border-right: 0; border-bottom: 1px solid var(--line); }
+    .stat:last-child { border-bottom: 0; }
+    .stat-value { font-size: 36px; }
+    .ageing-legend { grid-template-columns: 1fr 1fr; gap: 10px 16px; }
+    .rem li { grid-template-columns: 64px 1fr; }
+    .rem li > .badge { grid-column: 2; justify-self: start; }
+    .rem-hold { grid-template-columns: 1fr; gap: 4px; }
+    .rem-hold .btn { height: 44px; }
+
+    /* table becomes a list */
+    table, thead, tbody, tr, td { display: block; }
+    thead { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); }
+    tbody tr {
+      display: grid; grid-template-columns: 1fr auto; gap: 4px 12px;
+      padding: 14px 0; border-bottom: 1px solid var(--line);
+    }
     td { padding: 0 !important; border: 0; }
-    td.inv-no { grid-column: 1; grid-row: 2; }
-    td.client { grid-column: 1; grid-row: 1; }
-    td.c-issued { display: none; }
-    td.c-due { grid-column: 1; grid-row: 3; }
-    td.num { grid-column: 2; grid-row: 1; }
-    td.c-status { grid-column: 2; grid-row: 2 / span 2; justify-self: end; }
-    .client span { display: none; }
-    .rem li { grid-template-columns: 46px 1fr; }
-    .rem li > :last-child { grid-column: 2; }
-    .bars { gap: 8px; } .months { gap: 8px; }
-    .bar .v { font-size: 11px; }
+    td.c-client { grid-column: 1; grid-row: 1; }
+    td.c-amt { grid-column: 2; grid-row: 1; text-align: right; align-self: center; }
+    td.c-no { grid-column: 1; grid-row: 2; font-size: 13px; padding-left: 38px !important; }
+    td.c-status { grid-column: 2; grid-row: 2; justify-self: end; }
+    td.c-issued, td.c-act { display: none; }
+    td.c-due { grid-column: 1; grid-row: 3; font-size: 13px; padding-left: 38px !important; }
+    td.c-due::before { content: "Due "; color: var(--text-3); }
+    .tabs { display: none; }
   }
-  @media (prefers-reduced-motion: reduce) { * { transition: none !important; } }
+
+  @media (prefers-reduced-motion: reduce) {
+    * { transition: none !important; }
+  }
 </style>
 </head>
 <body>
+
 <svg width="0" height="0" style="position:absolute" aria-hidden="true">
-  <symbol id="i-home" viewBox="0 0 24 24"><path d="M3 10.5 12 3l9 7.5"/><path d="M5 9.5V21h14V9.5"/></symbol>
-  <symbol id="i-file" viewBox="0 0 24 24"><path d="M14 3H6v18h12V7z"/><path d="M14 3v4h4"/><path d="M9 12h6M9 16h6"/></symbol>
-  <symbol id="i-users" viewBox="0 0 24 24"><circle cx="9" cy="8" r="3.5"/><path d="M2.5 20c.8-3.5 3.4-5.5 6.5-5.5s5.7 2 6.5 5.5"/><path d="M16 4.8a3.5 3.5 0 0 1 0 6.4M18 14.8c1.8.7 3 2.5 3.5 5.2"/></symbol>
-  <symbol id="i-bell" viewBox="0 0 24 24"><path d="M6 16V11a6 6 0 0 1 12 0v5l1.5 2h-15z"/><path d="M10 21h4"/></symbol>
-  <symbol id="i-chart" viewBox="0 0 24 24"><path d="M4 20V4"/><path d="M4 20h16"/><path d="M8 16v-4M12 16V8M16 16v-6"/></symbol>
-  <symbol id="i-gear" viewBox="0 0 24 24"><circle cx="12" cy="12" r="3"/><path d="M12 2.5v3M12 18.5v3M2.5 12h3M18.5 12h3M5.3 5.3l2.1 2.1M16.6 16.6l2.1 2.1M5.3 18.7l2.1-2.1M16.6 7.4l2.1-2.1"/></symbol>
-  <symbol id="i-plus" viewBox="0 0 24 24"><path d="M12 5v14M5 12h14"/></symbol>
-  <symbol id="i-download" viewBox="0 0 24 24"><path d="M12 4v11M7 10l5 5 5-5"/><path d="M5 20h14"/></symbol>
-  <symbol id="i-alert" viewBox="0 0 24 24"><path d="M12 3 2 20h20z"/><path d="M12 10v4M12 17v.01"/></symbol>
-  <symbol id="i-eye" viewBox="0 0 24 24"><path d="M2 12s3.5-6.5 10-6.5S22 12 22 12s-3.5 6.5-10 6.5S2 12 2 12z"/><circle cx="12" cy="12" r="2.5"/></symbol>
-  <symbol id="i-reply" viewBox="0 0 24 24"><path d="M9 7 4 12l5 5"/><path d="M4 12h10a6 6 0 0 1 6 6"/></symbol>
-  <symbol id="i-pause" viewBox="0 0 24 24"><path d="M9 6v12M15 6v12"/></symbol>
-  <symbol id="i-send" viewBox="0 0 24 24"><path d="M21 3 10 14"/><path d="M21 3l-7 18-4-7-7-4z"/></symbol>
+  <defs>
+    <symbol id="i-home" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M3 10.5 12 3l9 7.5V20a1 1 0 0 1-1 1h-5v-6H9v6H4a1 1 0 0 1-1-1z"/></symbol>
+    <symbol id="i-doc" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M14 3H6a1 1 0 0 0-1 1v16a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V8z"/><path d="M14 3v5h5M9 13h6M9 17h6"/></symbol>
+    <symbol id="i-users" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="8" r="3.5"/><path d="M2.5 20c.6-3.4 3.3-5.5 6.5-5.5s5.9 2.1 6.5 5.5M16 4.6a3.5 3.5 0 0 1 0 6.8M18 14.8c1.9.7 3.2 2.5 3.5 5.2"/></symbol>
+    <symbol id="i-bell" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9a6 6 0 1 1 12 0c0 6 2.5 7.5 2.5 7.5h-17S6 15 6 9M10 20a2 2 0 0 0 4 0"/></symbol>
+    <symbol id="i-receipt" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M5 3h14v18l-3-2-2.5 2-1.5-1.2L10.5 21 8 19l-3 2z"/><path d="M9 8h6M9 12h6"/></symbol>
+    <symbol id="i-chart" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M4 20V4M4 20h16M8 16v-4M12 16V8M16 16v-6"/></symbol>
+    <symbol id="i-cog" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.7 1.7 0 0 0 .3 1.8l.1.1a2 2 0 1 1-2.8 2.8l-.1-.1a1.7 1.7 0 0 0-1.8-.3 1.7 1.7 0 0 0-1 1.5V21a2 2 0 1 1-4 0v-.1a1.7 1.7 0 0 0-1.1-1.5 1.7 1.7 0 0 0-1.8.3l-.1.1a2 2 0 1 1-2.8-2.8l.1-.1a1.7 1.7 0 0 0 .3-1.8 1.7 1.7 0 0 0-1.5-1H3a2 2 0 1 1 0-4h.1a1.7 1.7 0 0 0 1.5-1.1 1.7 1.7 0 0 0-.3-1.8l-.1-.1a2 2 0 1 1 2.8-2.8l.1.1a1.7 1.7 0 0 0 1.8.3H9a1.7 1.7 0 0 0 1-1.5V3a2 2 0 1 1 4 0v.1a1.7 1.7 0 0 0 1 1.5 1.7 1.7 0 0 0 1.8-.3l.1-.1a2 2 0 1 1 2.8 2.8l-.1.1a1.7 1.7 0 0 0-.3 1.8V9a1.7 1.7 0 0 0 1.5 1H21a2 2 0 1 1 0 4h-.1a1.7 1.7 0 0 0-1.5 1z"/></symbol>
+    <symbol id="i-plus" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></symbol>
+    <symbol id="i-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m5 12.5 4.5 4.5L19 7.5"/></symbol>
+    <symbol id="i-clock" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="8.5"/><path d="M12 7.5V12l3 2"/></symbol>
+    <symbol id="i-alert" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="8.5"/><path d="M12 7.5v5M12 16v.01"/></symbol>
+    <symbol id="i-eye" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M2.5 12S6 5.5 12 5.5 21.5 12 21.5 12 18 18.5 12 18.5 2.5 12 2.5 12"/><circle cx="12" cy="12" r="2.5"/></symbol>
+    <symbol id="i-reply" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M9 14 4 9l5-5"/><path d="M4 9h10a6 6 0 0 1 6 6v5"/></symbol>
+    <symbol id="i-send" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M21 3 10 14M21 3l-7 18-4-7-7-4z"/></symbol>
+    <symbol id="i-more" viewBox="0 0 24 24" fill="currentColor"><circle cx="5" cy="12" r="1.6"/><circle cx="12" cy="12" r="1.6"/><circle cx="19" cy="12" r="1.6"/></symbol>
+    <symbol id="i-menu" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"/></symbol>
+    <symbol id="i-cash" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="2.5" y="6" width="19" height="12" rx="1.5"/><circle cx="12" cy="12" r="2.5"/><path d="M6 9.5v5M18 9.5v5"/></symbol>
+    <symbol id="i-logo" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M7 5v14M11 5v14M15 5v14M4 15.5 19 8.5"/></symbol>
+  </defs>
 </svg>
 
 <div class="app">
-  <aside class="side" aria-label="Main">
-    <a class="brand" href="#" aria-label="Tally home">
-      <span class="brand-mark"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M4 3v10M8 3v10M12 3v10"/></svg></span>
-      <span>Tally</span>
-    </a>
+  <aside class="sidebar" aria-label="Main navigation">
+    <div class="brand"><span class="brand-mark"><svg width="16" height="16"><use href="#i-logo"/></svg></span>Tally</div>
+
     <nav class="nav" aria-label="Sections">
-      <a href="#" aria-current="page"><svg class="i"><use href="#i-home"/></svg>Overview</a>
-      <a href="#invoices"><svg class="i"><use href="#i-file"/></svg>Invoices<span class="count" aria-label="4 overdue">4</span></a>
-      <a href="#late"><svg class="i"><use href="#i-users"/></svg>Clients</a>
-      <a href="#reminders"><svg class="i"><use href="#i-bell"/></svg>Reminders</a>
-      <a href="#paid"><svg class="i"><use href="#i-chart"/></svg>Reports</a>
+      <a href="#" aria-current="page"><svg><use href="#i-home"/></svg>Overview</a>
+      <a href="#"><svg><use href="#i-doc"/></svg>Invoices<span class="count" aria-label="3 overdue">3</span></a>
+      <a href="#"><svg><use href="#i-users"/></svg>Clients</a>
+      <a href="#"><svg><use href="#i-bell"/></svg>Reminders</a>
+      <a href="#"><svg><use href="#i-receipt"/></svg>Expenses</a>
+      <a href="#"><svg><use href="#i-chart"/></svg>Reports</a>
     </nav>
-    <div class="nav secondary">
-      <div class="nav-label">Workspace</div>
-      <a href="#"><svg class="i"><use href="#i-gear"/></svg>Settings</a>
-    </div>
-    <div class="side-foot">
-      <span class="avatar" aria-hidden="true">MO</span>
-      <span class="who"><b>Maya Okafor</b><span>Product designer · EUR</span></span>
+
+    <div class="sidebar-foot">
+      <div class="payout">
+        Next payout · Thu 26 Nov
+        <strong class="num">€6,600.00</strong>
+        to Qonto ••4821
+      </div>
+      <nav class="nav" aria-label="Account">
+        <a href="#"><svg><use href="#i-cog"/></svg>Settings</a>
+      </nav>
+      <div class="me">
+        <span class="avatar" aria-hidden="true">CM</span>
+        <div>
+          <div class="me-name">Camille Martin</div>
+          <div class="me-mail">Brand &amp; web design</div>
+        </div>
+      </div>
     </div>
   </aside>
 
-  <main>
-    <header class="head">
-      <div>
-        <h1>Overview</h1>
-        <p>Tuesday 24 November 2026 · €9,480 of your money is late.</p>
-      </div>
-      <div class="actions">
-        <button class="btn" type="button"><svg class="i"><use href="#i-download"/></svg>Export</button>
-        <button class="btn primary" type="button"><svg class="i"><use href="#i-plus"/></svg>New invoice</button>
-      </div>
+  <div>
+    <header class="topbar">
+      <div class="brand"><span class="brand-mark"><svg width="16" height="16"><use href="#i-logo"/></svg></span>Tally</div>
+      <button class="menu-btn" aria-label="Open menu"><svg><use href="#i-menu"/></svg></button>
     </header>
 
-    <!-- money band -->
-    <section class="band" aria-label="Key figures">
-      <div class="kpi">
-        <div class="label">Outstanding</div>
-        <div class="value">€19,630<small>.00</small></div>
-        <div class="split" role="img" aria-label="48% overdue, 52% not yet due">
-          <span style="flex: 9480"></span><span style="flex: 10150"></span>
-        </div>
-        <div class="legend">
-          <span><i style="background:#ff8a7a"></i><b>€9,480</b> overdue</span>
-          <span><i style="background:rgba(255,255,255,.32)"></i><b>€10,150</b> not yet due</span>
-        </div>
-      </div>
-      <div class="kpi">
-        <div class="label">Paid in November</div>
-        <div class="value">€12,340</div>
-        <div class="sub"><span class="up">↑ 12%</span> vs October · 4 invoices</div>
-      </div>
-      <div class="kpi">
-        <div class="label">Overdue</div>
-        <div class="value">4 <small>invoices</small></div>
-        <div class="sub">across <strong>3 clients</strong> · oldest 24 days</div>
-      </div>
-      <div class="kpi">
-        <div class="label">Average time to pay</div>
-        <div class="value">19 <small>days</small></div>
-        <div class="sub">Your terms are 14 days</div>
-      </div>
-    </section>
+    <main>
+      <div class="wrap">
 
-    <div class="grid">
-      <div class="c-7 stack">
-      <!-- late clients -->
-      <section class="card" id="late" aria-labelledby="late-h">
-        <div class="card-head">
-          <h2 id="late-h">Clients who are late</h2>
-          <span class="meta">Sorted by amount</span>
-        </div>
-        <ul class="late-list">
-          <li class="late-row">
-            <div class="who">
-              <span class="bar-bg" style="width:100%" aria-hidden="true"></span>
-              <a class="name" href="#">Northwind Studio</a>
-              <span class="detail">2 invoices · final notice sent 21 Nov</span>
-            </div>
-            <span class="days">24 days</span>
-            <span class="amt">€6,450.00</span>
-          </li>
-          <li class="late-row">
-            <div class="who">
-              <span class="bar-bg" style="width:33%" aria-hidden="true"></span>
-              <a class="name" href="#">Halden &amp; Co.</a>
-              <span class="detail">INV-0091 · promised payment Fri 27 Nov</span>
-            </div>
-            <span class="days">15 days</span>
-            <span class="amt">€2,150.00</span>
-          </li>
-          <li class="late-row">
-            <div class="who">
-              <span class="bar-bg" style="width:14%" aria-hidden="true"></span>
-              <a class="name" href="#">Pellucid Labs</a>
-              <span class="detail">INV-0094 · first reminder opened</span>
-            </div>
-            <span class="days">4 days</span>
-            <span class="amt">€880.00</span>
-          </li>
-        </ul>
-        <div class="card-foot">
-          <span>Late fees are off. Under French law you may add €40 per invoice.</span>
-          <a class="link" href="#">Settings</a>
-        </div>
-      </section>
-
-      <section class="card" id="invoices" aria-labelledby="inv-h">
-        <div class="card-head">
-          <h2 id="inv-h">Recent invoices</h2>
-          <div class="tabs" role="tablist" aria-label="Filter invoices">
-            <button role="tab" aria-selected="true" data-filter="all">All<span class="n">12</span></button>
-            <button role="tab" aria-selected="false" data-filter="late">Overdue<span class="n">4</span></button>
-            <button role="tab" aria-selected="false" data-filter="sent">Awaiting<span class="n">3</span></button>
-            <button role="tab" aria-selected="false" data-filter="paid">Paid<span class="n">4</span></button>
+        <div class="page-head">
+          <div>
+            <h1>Good afternoon, Camille</h1>
+            <p>Tuesday 24 November · 3 clients are late, and one final notice is waiting for you.</p>
           </div>
-        </div>
-        <table>
-          <thead>
-            <tr><th scope="col">Invoice</th><th scope="col">Client</th><th scope="col">Due</th><th scope="col" class="num">Amount</th><th scope="col">Status</th></tr>
-          </thead>
-          <tbody>
-            <tr data-s="draft"><td class="inv-no">INV-0099</td><td class="client"><b>Ostra Coffee</b><span>Winter menu boards</span></td><td class="date c-due">Not sent</td><td class="num">€720.00</td><td class="c-status"><span class="status s-draft">Draft</span></td></tr>
-            <tr data-s="sent"><td class="inv-no">INV-0098</td><td class="client"><b>Kestrel Bikes</b><span>Checkout redesign, phase 2</span></td><td class="date c-due">Due 20 Dec</td><td class="num">€1,350.00</td><td class="c-status"><span class="status s-sent">Sent</span></td></tr>
-            <tr data-s="sent"><td class="inv-no">INV-0097</td><td class="client"><b>Brightline Health</b><span>Patient app, November retainer</span></td><td class="date c-due">Due 12 Dec</td><td class="num">€5,600.00</td><td class="c-status"><span class="status s-sent">Sent</span></td></tr>
-            <tr data-s="sent"><td class="inv-no">INV-0096</td><td class="client"><b>Ostra Coffee</b><span>Packaging system</span></td><td class="date c-due">Due 5 Dec</td><td class="num">€3,200.00</td><td class="c-status"><span class="status s-sent">Sent</span></td></tr>
-            <tr data-s="paid"><td class="inv-no">INV-0095</td><td class="client"><b>Fenwick Press</b><span>Book cover, “Salt Year”</span></td><td class="date c-due">Paid 22 Nov</td><td class="num">€1,240.00</td><td class="c-status"><span class="status s-paid">Paid</span></td></tr>
-            <tr data-s="late"><td class="inv-no">INV-0094</td><td class="client"><b>Pellucid Labs</b><span>Pitch deck</span></td><td class="date c-due">Due 20 Nov</td><td class="num">€880.00</td><td class="c-status"><span class="status s-late">4 days late</span></td></tr>
-            <tr data-s="late"><td class="inv-no">INV-0093</td><td class="client"><b>Northwind Studio</b><span>Brand guidelines, extra rounds</span></td><td class="date c-due">Due 14 Nov</td><td class="num">€1,650.00</td><td class="c-status"><span class="status s-late">10 days late</span></td></tr>
-            <tr data-s="paid"><td class="inv-no">INV-0092</td><td class="client"><b>Kestrel Bikes</b><span>Checkout redesign, phase 1</span></td><td class="date c-due">Paid 21 Nov</td><td class="num">€2,900.00</td><td class="c-status"><span class="status s-paid">Paid</span></td></tr>
-            <tr data-s="late"><td class="inv-no">INV-0091</td><td class="client"><b>Halden &amp; Co.</b><span>Website audit</span></td><td class="date c-due">Due 9 Nov</td><td class="num">€2,150.00</td><td class="c-status"><span class="status s-late">15 days late</span></td></tr>
-            <tr data-s="paid" hidden data-more><td class="inv-no">INV-0090</td><td class="client"><b>Brightline Health</b><span>Patient app, October retainer</span></td><td class="date c-due">Paid 18 Nov</td><td class="num">€6,400.00</td><td class="c-status"><span class="status s-paid">Paid</span></td></tr>
-            <tr data-s="late" hidden data-more><td class="inv-no">INV-0087</td><td class="client"><b>Northwind Studio</b><span>Brand identity</span></td><td class="date c-due">Due 31 Oct</td><td class="num">€4,800.00</td><td class="c-status"><span class="status s-late">24 days late</span></td></tr>
-            <tr data-s="paid" hidden data-more><td class="inv-no">INV-0088</td><td class="client"><b>Ostra Coffee</b><span>Café signage</span></td><td class="date c-due">Paid 6 Nov</td><td class="num">€1,800.00</td><td class="c-status"><span class="status s-paid">Paid</span></td></tr>
-          </tbody>
-        </table>
-        <div class="card-foot">
-          <span id="inv-count">Showing 9 of 12</span>
-          <a class="link" href="#">All invoices</a>
-        </div>
-      </section>
-
-      </div>
-      <div class="c-5 stack">
-      <!-- paid by month -->
-      <section class="card" id="paid" aria-labelledby="paid-h">
-        <div class="card-head">
-          <h2 id="paid-h">Paid, last 6 months</h2>
-          <a class="link" href="#" style="font-size:13px">Report</a>
-        </div>
-        <div class="chart-wrap">
-          <div class="chart-total"><b>€59,060</b><span>since June · €9,843 a month on average</span></div>
-          <div class="bars" role="img" aria-label="Paid per month: June €8,420, July €11,300, August €6,150, September €9,870, October €10,980, November so far €12,340">
-            <div class="bar"><div class="v">8.4k</div><span style="height:61%"></span></div>
-            <div class="bar"><div class="v">11.3k</div><span style="height:82%"></span></div>
-            <div class="bar"><div class="v">6.2k</div><span style="height:45%"></span></div>
-            <div class="bar"><div class="v">9.9k</div><span style="height:72%"></span></div>
-            <div class="bar"><div class="v">11.0k</div><span style="height:80%"></span></div>
-            <div class="bar now"><div class="v">12.3k</div><span style="height:90%"></span></div>
-          </div>
-          <div class="months" aria-hidden="true"><span>Jun</span><span>Jul</span><span>Aug</span><span>Sep</span><span>Oct</span><span class="now">Nov</span></div>
-          <ul class="paid-list" aria-label="Payments received in November">
-            <li><span>Fenwick Press<span class="d">22 Nov</span></span><b>€1,240.00</b></li>
-            <li><span>Kestrel Bikes<span class="d">21 Nov</span></span><b>€2,900.00</b></li>
-            <li><span>Brightline Health<span class="d">18 Nov</span></span><b>€6,400.00</b></li>
-            <li><span>Ostra Coffee<span class="d">6 Nov</span></span><b>€1,800.00</b></li>
-          </ul>
-        </div>
-      </section>
-
-      <!-- reminders -->
-      <section class="card" id="reminders" aria-labelledby="rem-h">
-        <div class="card-head">
-          <h2 id="rem-h">Reminders</h2>
-          <a class="link" href="#" style="font-size:13px">Edit schedule</a>
-        </div>
-
-        <div class="attention" role="note">
-          <svg class="i" aria-hidden="true"><use href="#i-alert"/></svg>
-          <p><b>Northwind Studio has had every reminder.</b> INV-0087 is 24 days late and Tally has stopped writing. Time for a call or a personal note.</p>
-          <div class="acts">
-            <button class="btn sm" type="button">Write to Jonas Berg</button>
-            <button class="btn sm" type="button">Mark as paid</button>
+          <div class="actions">
+            <button class="btn"><svg><use href="#i-cash"/></svg>Record payment</button>
+            <button class="btn btn-primary"><svg><use href="#i-plus"/></svg>New invoice</button>
           </div>
         </div>
 
-        <div class="rem-group">
-          <h3>Scheduled</h3>
-          <ul class="rem">
-            <li>
-              <div class="when"><b>Fri 27</b>09:00</div>
-              <div class="what"><b>Pellucid Labs</b><span>One week late · INV-0094, €880</span></div>
-              <button class="skip" type="button">Skip</button>
-            </li>
-            <li>
-              <div class="when"><b>Sat 28</b>09:00</div>
-              <div class="what"><b>Northwind Studio</b><span>Two weeks late · INV-0093, €1,650</span></div>
-              <button class="skip" type="button">Skip</button>
-            </li>
-            <li>
-              <div class="when"><b>Wed 2</b>Dec</div>
-              <div class="what"><b>Ostra Coffee</b><span>Due in 3 days · INV-0096, €3,200</span></div>
-              <button class="skip" type="button">Skip</button>
-            </li>
-          </ul>
+        <!-- Money strip -->
+        <div class="money">
+          <div class="stat">
+            <div class="stat-label">Outstanding</div>
+            <div class="stat-value num">€15,180<span class="cents">.00</span></div>
+            <div class="stat-sub">6 open invoices · <b class="num" style="color:var(--late)">€8,350.00 overdue</b></div>
+
+            <div class="ageing">
+              <div class="ageing-bar" role="img" aria-label="Outstanding by age: €6,830 not yet due, €4,800 1 to 30 days late, €1,450 31 to 60 days late, €2,100 over 60 days late">
+                <span style="width:45%;background:var(--age-0)"></span>
+                <span style="width:31.6%;background:var(--age-1)"></span>
+                <span style="width:9.6%;background:var(--age-2)"></span>
+                <span style="width:13.8%;background:var(--age-3)"></span>
+              </div>
+              <ul class="ageing-legend num">
+                <li><span class="k"><i class="dot" style="background:var(--age-0)"></i>Not yet due</span><span class="v">€6,830</span></li>
+                <li><span class="k"><i class="dot" style="background:var(--age-1)"></i>1–30 days</span><span class="v">€4,800</span></li>
+                <li><span class="k"><i class="dot" style="background:var(--age-2)"></i>31–60 days</span><span class="v">€1,450</span></li>
+                <li><span class="k"><i class="dot" style="background:var(--age-3)"></i>60+ days</span><span class="v">€2,100</span></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="stat">
+            <div class="stat-label">Paid in November</div>
+            <div class="stat-value num">€12,000<span class="cents">.00</span></div>
+            <div class="stat-sub"><span class="delta num">+24.5%</span> on October · 4 invoices</div>
+            <div class="spark" role="img" aria-label="Paid per month: June €8,200, July €6,450, August €10,900, September €7,800, October €9,640, November €12,000">
+              <div><i style="height:68%"></i><small>Jun</small></div>
+              <div><i style="height:54%"></i><small>Jul</small></div>
+              <div><i style="height:91%"></i><small>Aug</small></div>
+              <div><i style="height:65%"></i><small>Sep</small></div>
+              <div><i style="height:80%"></i><small>Oct</small></div>
+              <div><i style="height:100%"></i><small>Nov</small></div>
+            </div>
+          </div>
+
+          <div class="stat">
+            <div class="stat-label">Average time to pay</div>
+            <div class="stat-value num">21 <span class="cents">days</span></div>
+            <div class="stat-sub">Your terms are 14 days · <b>4 days faster</b> than last quarter</div>
+            <dl class="pace">
+              <div><dt>Fastest</dt><dd>Northwind Studio</dd><dd class="num">6 days</dd></div>
+              <div><dt>Slowest</dt><dd>Bureau Lumen</dd><dd class="num" style="color:var(--late)">63+ days</dd></div>
+            </dl>
+          </div>
         </div>
 
-        <div class="rem-group" style="padding-bottom:12px">
-          <h3>Sent</h3>
-          <ul class="rem">
-            <li>
-              <div class="when"><b>23 Nov</b>09:00</div>
-              <div class="what"><b>Halden &amp; Co.</b><span>Two weeks late · INV-0091</span>
-                <q>Sorry for the delay, the transfer goes out Friday. — Ines</q></div>
-              <span class="tag paused"><svg class="i" aria-hidden="true"><use href="#i-pause"/></svg>Paused to 28 Nov</span>
-            </li>
-            <li>
-              <div class="when"><b>21 Nov</b>09:00</div>
-              <div class="what"><b>Northwind Studio</b><span>Final notice · INV-0087</span></div>
-              <span class="tag"><svg class="i" aria-hidden="true"><use href="#i-eye"/></svg>Opened 3×</span>
-            </li>
-            <li>
-              <div class="when"><b>21 Nov</b>09:00</div>
-              <div class="what"><b>Pellucid Labs</b><span>1 day late · INV-0094</span></div>
-              <span class="tag"><svg class="i" aria-hidden="true"><use href="#i-eye"/></svg>Opened</span>
-            </li>
-            <li>
-              <div class="when"><b>18 Nov</b>14:20</div>
-              <div class="what"><b>Brightline Health</b><span>Thank-you receipt · INV-0090</span></div>
-              <span class="tag ok"><svg class="i" aria-hidden="true"><use href="#i-send"/></svg>Delivered</span>
-            </li>
-          </ul>
+        <div class="grid-2">
+          <!-- Late clients -->
+          <section aria-labelledby="late-h">
+            <div class="sec-head">
+              <div>
+                <h2 id="late-h">Late clients</h2>
+                <p>Sorted by days overdue</p>
+              </div>
+              <a class="link" href="#">All clients</a>
+            </div>
+            <ul class="late-list">
+              <li>
+                <span class="co" style="background:#3c4a63" aria-hidden="true">BL</span>
+                <div>
+                  <div class="late-name">Bureau Lumen</div>
+                  <div class="late-meta">TL-2026-038 · Website redesign, phase 2 · Inès Moreau</div>
+                  <div class="days" aria-hidden="true"><i style="width:100%;background:var(--age-3)"></i></div>
+                  <div class="late-note"><svg><use href="#i-alert"/></svg>5 reminders sent, none opened since 2 Nov</div>
+                </div>
+                <div class="late-amt num">
+                  <strong>€2,100.00</strong>
+                  <span class="badge b-late">63 days late</span>
+                </div>
+              </li>
+              <li>
+                <span class="co" style="background:#8a5a2b" aria-hidden="true">OC</span>
+                <div>
+                  <div class="late-name">Ostro Coffee Roasters</div>
+                  <div class="late-meta">TL-2026-041 · Packaging illustrations · Luca Bianchi</div>
+                  <div class="days" aria-hidden="true"><i style="width:60%;background:var(--age-2)"></i></div>
+                  <div class="late-note"><svg><use href="#i-eye"/></svg>Last reminder opened twice on 16 Nov</div>
+                </div>
+                <div class="late-amt num">
+                  <strong>€1,450.00</strong>
+                  <span class="badge b-late">38 days late</span>
+                </div>
+              </li>
+              <li>
+                <span class="co" style="background:#2f6b5a" aria-hidden="true">H&amp;</span>
+                <div>
+                  <div class="late-name">Halden &amp; Co</div>
+                  <div class="late-meta">TL-2026-043 · Brand guidelines · Sofia Lindqvist</div>
+                  <div class="days" aria-hidden="true"><i style="width:30%;background:var(--age-1)"></i></div>
+                  <div class="late-note"><svg><use href="#i-reply"/></svg>Replied: promised payment Fri 27 Nov</div>
+                </div>
+                <div class="late-amt num">
+                  <strong>€4,800.00</strong>
+                  <span class="badge b-late">19 days late</span>
+                </div>
+              </li>
+            </ul>
+          </section>
+
+          <!-- Reminders -->
+          <section aria-labelledby="rem-h">
+            <div class="sec-head">
+              <div>
+                <h2 id="rem-h">Reminders</h2>
+                <p>Tally follows up for you, on weekdays at 09:00</p>
+              </div>
+              <a class="link" href="#">Edit schedule</a>
+            </div>
+
+            <div class="rem-policy" aria-label="Reminder schedule">
+              <span class="step">3 days before</span><span class="arrow">→</span>
+              <span class="step">Due date</span><span class="arrow">→</span>
+              <span class="step">+7, +14, +30, +60 days</span><span class="arrow">→</span>
+              <span class="step">Final notice</span>
+            </div>
+
+            <div class="rem-hold">
+              <div class="rem-when"><b>Thu 26 Nov</b>09:00</div>
+              <div>
+                <div class="rem-what"><div class="t">Final notice to Bureau Lumen</div>
+                <div class="s">TL-2026-038 · €2,100.00 · adds the €40 late-payment fee. Final notices wait for your OK.</div></div>
+                <div class="row">
+                  <button class="btn btn-sm btn-primary">Approve and schedule</button>
+                  <button class="btn btn-sm">Review email</button>
+                  <button class="btn btn-sm">Skip</button>
+                </div>
+              </div>
+            </div>
+
+            <div class="rem-group">Coming up</div>
+            <ul class="rem">
+              <li>
+                <div class="rem-when"><b>Tue 1 Dec</b>09:00</div>
+                <div class="rem-what"><div class="t">Maison Arlo · 7 days late</div><div class="s">TL-2026-045 · €980.00, only if still unpaid</div></div>
+                <span class="badge b-sent"><svg><use href="#i-clock"/></svg>Scheduled</span>
+              </li>
+              <li>
+                <div class="rem-when"><b>Mon 7 Dec</b>09:00</div>
+                <div class="rem-what"><div class="t">Halden &amp; Co · 30 days late</div><div class="s">TL-2026-043 · moved from Saturday 5 Dec</div></div>
+                <span class="badge b-sent"><svg><use href="#i-clock"/></svg>Scheduled</span>
+              </li>
+            </ul>
+
+            <div class="rem-group">Sent</div>
+            <ul class="rem">
+              <li>
+                <div class="rem-when"><b>Today</b>09:02</div>
+                <div class="rem-what"><div class="t">Maison Arlo · due today</div><div class="s">TL-2026-045 · to Hugo Lefèvre</div></div>
+                <span class="badge b-view"><svg><use href="#i-eye"/></svg>Opened 10:14</span>
+              </li>
+              <li>
+                <div class="rem-when"><b>Thu 19 Nov</b>09:00</div>
+                <div class="rem-what"><div class="t">Halden &amp; Co · 14 days late</div><div class="s">TL-2026-043 · to Sofia Lindqvist</div>
+                  <blockquote><span>Reply, 19 Nov 11:40</span>“Sorry Camille, it’s with finance. You’ll have it Friday 27th.”</blockquote>
+                </div>
+                <span class="badge b-paid"><svg><use href="#i-reply"/></svg>Replied</span>
+              </li>
+              <li>
+                <div class="rem-when"><b>Mon 16 Nov</b>09:00</div>
+                <div class="rem-what"><div class="t">Ostro Coffee Roasters · 30 days late</div><div class="s">TL-2026-041 · to Luca Bianchi</div></div>
+                <span class="badge b-view"><svg><use href="#i-eye"/></svg>Opened ×2</span>
+              </li>
+            </ul>
+          </section>
         </div>
-      </section>
+
+        <!-- Recent invoices -->
+        <section class="invoices" aria-labelledby="inv-h">
+          <div class="sec-head" style="border-bottom:0;padding-bottom:4px">
+            <h2 id="inv-h">Recent invoices</h2>
+            <nav class="tabs" aria-label="Filter invoices">
+              <a href="#" aria-current="true">All</a>
+              <a href="#">Open</a>
+              <a href="#">Overdue</a>
+              <a href="#">Paid</a>
+              <a href="#">Drafts</a>
+            </nav>
+          </div>
+          <table>
+            <thead>
+              <tr>
+                <th scope="col">Client</th>
+                <th scope="col">Invoice</th>
+                <th scope="col">Issued</th>
+                <th scope="col">Due</th>
+                <th scope="col">Status</th>
+                <th scope="col" class="t-right">Amount</th>
+                <th scope="col"><span class="sr-only">Actions</span></th>
+              </tr>
+            </thead>
+            <tbody class="num">
+              <tr>
+                <td class="c-client"><div class="client"><span class="co" style="background:#4b6b3a" aria-hidden="true">VH</span><div>Verdant Health<small>Onboarding illustrations</small></div></div></td>
+                <td class="c-no inv-no">TL-2026-047</td>
+                <td class="c-issued muted">20 Nov</td>
+                <td class="c-due muted">20 Dec</td>
+                <td class="c-status"><span class="badge b-view"><svg><use href="#i-eye"/></svg>Viewed</span></td>
+                <td class="c-amt t-right amt">€3,600.00</td>
+                <td class="c-act t-right"><a class="row-act" href="#" aria-label="More actions for TL-2026-047"><svg><use href="#i-more"/></svg></a></td>
+              </tr>
+              <tr>
+                <td class="c-client"><div class="client"><span class="co" style="background:#5a4a7a" aria-hidden="true">PL</span><div>Pine Labs<small>Pitch deck, Series A</small></div></div></td>
+                <td class="c-no inv-no">TL-2026-046</td>
+                <td class="c-issued muted">14 Nov</td>
+                <td class="c-due muted">14 Dec</td>
+                <td class="c-status"><span class="badge b-sent"><svg><use href="#i-send"/></svg>Sent</span></td>
+                <td class="c-amt t-right amt">€2,250.00</td>
+                <td class="c-act t-right"><a class="row-act" href="#" aria-label="More actions for TL-2026-046"><svg><use href="#i-more"/></svg></a></td>
+              </tr>
+              <tr>
+                <td class="c-client"><div class="client"><span class="co" style="background:#9b4d5f" aria-hidden="true">MA</span><div>Maison Arlo<small>Menu and signage</small></div></div></td>
+                <td class="c-no inv-no">TL-2026-045</td>
+                <td class="c-issued muted">10 Nov</td>
+                <td class="c-due muted">24 Nov</td>
+                <td class="c-status"><span class="badge b-soon"><svg><use href="#i-clock"/></svg>Due today</span></td>
+                <td class="c-amt t-right amt">€980.00</td>
+                <td class="c-act t-right"><a class="row-act" href="#" aria-label="More actions for TL-2026-045"><svg><use href="#i-more"/></svg></a></td>
+              </tr>
+              <tr>
+                <td class="c-client"><div class="client"><span class="co" style="background:#2b2b28" aria-hidden="true">NS</span><div>Northwind Studio<small>Product site, November retainer</small></div></div></td>
+                <td class="c-no inv-no">TL-2026-044</td>
+                <td class="c-issued muted">4 Nov</td>
+                <td class="c-due muted">18 Nov</td>
+                <td class="c-status"><span class="badge b-paid"><svg><use href="#i-check"/></svg>Paid 10 Nov</span></td>
+                <td class="c-amt t-right amt">€5,400.00</td>
+                <td class="c-act t-right"><a class="row-act" href="#" aria-label="More actions for TL-2026-044"><svg><use href="#i-more"/></svg></a></td>
+              </tr>
+              <tr>
+                <td class="c-client"><div class="client"><span class="co" style="background:#2f6b5a" aria-hidden="true">H&amp;</span><div>Halden &amp; Co<small>Brand guidelines</small></div></div></td>
+                <td class="c-no inv-no">TL-2026-043</td>
+                <td class="c-issued muted">22 Oct</td>
+                <td class="c-due muted">5 Nov</td>
+                <td class="c-status"><span class="badge b-late"><svg><use href="#i-alert"/></svg>19 days late</span></td>
+                <td class="c-amt t-right amt">€4,800.00</td>
+                <td class="c-act t-right"><a class="row-act" href="#" aria-label="More actions for TL-2026-043"><svg><use href="#i-more"/></svg></a></td>
+              </tr>
+              <tr>
+                <td class="c-client"><div class="client"><span class="co" style="background:#b07a3a" aria-hidden="true">KW</span><div>Kettle &amp; Wren<small>Instagram templates</small></div></div></td>
+                <td class="c-no inv-no">TL-2026-042</td>
+                <td class="c-issued muted">16 Oct</td>
+                <td class="c-due muted">30 Oct</td>
+                <td class="c-status"><span class="badge b-paid"><svg><use href="#i-check"/></svg>Paid 12 Nov</span></td>
+                <td class="c-amt t-right amt">€1,200.00</td>
+                <td class="c-act t-right"><a class="row-act" href="#" aria-label="More actions for TL-2026-042"><svg><use href="#i-more"/></svg></a></td>
+              </tr>
+              <tr>
+                <td class="c-client"><div class="client"><span class="co" style="background:#8a5a2b" aria-hidden="true">OC</span><div>Ostro Coffee Roasters<small>Packaging illustrations</small></div></div></td>
+                <td class="c-no inv-no">TL-2026-041</td>
+                <td class="c-issued muted">3 Oct</td>
+                <td class="c-due muted">17 Oct</td>
+                <td class="c-status"><span class="badge b-late"><svg><use href="#i-alert"/></svg>38 days late</span></td>
+                <td class="c-amt t-right amt">€1,450.00</td>
+                <td class="c-act t-right"><a class="row-act" href="#" aria-label="More actions for TL-2026-041"><svg><use href="#i-more"/></svg></a></td>
+              </tr>
+              <tr>
+                <td class="c-client"><div class="client"><span class="co" style="background:#5a4a7a" aria-hidden="true">PL</span><div>Pine Labs<small>Brand workshop</small></div></div></td>
+                <td class="c-no inv-no">TL-2026-040</td>
+                <td class="c-issued muted">1 Oct</td>
+                <td class="c-due muted">15 Oct</td>
+                <td class="c-status"><span class="badge b-paid"><svg><use href="#i-check"/></svg>Paid 4 Nov</span></td>
+                <td class="c-amt t-right amt">€3,150.00</td>
+                <td class="c-act t-right"><a class="row-act" href="#" aria-label="More actions for TL-2026-040"><svg><use href="#i-more"/></svg></a></td>
+              </tr>
+            </tbody>
+          </table>
+          <div class="table-foot">
+            <span>Showing 8 of 47 invoices this year</span>
+            <a class="link" href="#">View all invoices</a>
+          </div>
+        </section>
+
       </div>
-    </div>
-  </main>
+    </main>
+  </div>
 </div>
-
-<script>
-  // Invoice filter tabs
-  (function () {
-    var tabs = document.querySelectorAll('.tabs [role="tab"]');
-    var rows = document.querySelectorAll('#invoices tbody tr');
-    var count = document.getElementById('inv-count');
-    function apply(filter) {
-      var shown = 0;
-      rows.forEach(function (r) {
-        var match = filter === 'all' ? !r.hasAttribute('data-more') : r.dataset.s === filter;
-        r.hidden = !match;
-        if (match) shown++;
-      });
-      count.textContent = filter === 'all' ? 'Showing ' + shown + ' of ' + rows.length : shown + ' invoices';
-    }
-    tabs.forEach(function (t, i) {
-      t.addEventListener('click', function () {
-        tabs.forEach(function (o) { o.setAttribute('aria-selected', String(o === t)); });
-        apply(t.dataset.filter);
-      });
-      t.addEventListener('keydown', function (e) {
-        var d = e.key === 'ArrowRight' ? 1 : e.key === 'ArrowLeft' ? -1 : 0;
-        if (!d) return;
-        var n = tabs[(i + d + tabs.length) % tabs.length];
-        n.focus(); n.click();
-      });
-    });
-  })();
-
-  // Skip / undo a scheduled reminder
-  document.querySelectorAll('.skip').forEach(function (b) {
-    b.addEventListener('click', function () {
-      var li = b.closest('li');
-      var skipped = li.classList.toggle('skipped');
-      b.textContent = skipped ? 'Undo' : 'Skip';
-    });
-  });
-</script>
 </body>
 </html>

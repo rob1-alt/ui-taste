@@ -11,6 +11,14 @@ References are evidence for a decision, never a template. Never copy a brand's l
 
 ## Workflow
 
+**Start with one call** (from this skill's folder, or with its full path):
+
+```bash
+python3 scripts/start.py landing "<the product and the brief, in a few words>"     # or pricing, dashboard, other
+```
+
+It prints the rules for that kind of page, the review checklist and the three closest library screens with their measured tokens, and writes `refs.png` with those screens side by side. Open `refs.png` (one Read) and do not reopen the reference files it already printed. Then the shortest good path is: decide the concept, write the whole page in one Write, `shot.py`, open `review.png`, fix everything in one pass, shoot once more.
+
 Work in few steps: every tool call you can make independently goes in the same message (read the two or three reference files you need together, run `find_refs.py --sheet` once rather than opening each screenshot, open `review.png` rather than each shot). Run commands with paths relative to this skill's folder, one command per call, without shell variables or `cd … &&` chains.
 
 ### 1. Inspect the project first
@@ -56,6 +64,8 @@ Apply the decision with the project's components and tokens. Keep to these defau
 
 A landing page must not look like the last one you built, nor like the current AI look (cream, serif with an italic word, mono micro-labels, pills; see `references/anti-slop.md`). Follow `references/landing-concepts.md`: collect the real assets first (product screens at full fidelity, photos, customer and partner logos, people), then find the raw material (the product's edge, its own medium, the customer's world, the brand's tension), propose three concepts from three different directions (poster, colour field, the product is the page, one worked example, docs as the landing, near-nothing, object and photography, editorial, illustrated world, brutalist, quiet product-first, image sandwich), recommend one, give it one signature move nobody else would make, and carry it through every section. Quiet product-first and the image sandwich are the defaults to resist: use them only when they clearly fit, never as two of the three concepts. The image sandwich has its own recipe in `references/landing-recipe.md` and a template in `assets/landing-hero/`. Give the page a ground, not just flat sections: pick a background family from `references/backgrounds.md` (painting, photo as field, duotone of the brand's own photos, material, the customer's technical paper, halftone, colour field) and alternate strong and quiet grounds. Before calling a landing done, run the Distinctiveness checks in `references/anti-slop.md`.
 
+Pricing, about, product and careers pages are marketing too: they get one concept and one signature move from the product's world (an invoicing tool's plans can be invoices), not three identical cards with the middle one dark.
+
 Photos, artworks, illustrations and 3D belong to the client: never generate or fake them. Use the images the brand already has, design image slots with art direction for the rest (`data-slot`, ratio, tone, brief), show a calm placeholder while a slot is empty, and say which slots wait for what. When the client places their files, run `scripts/slots.py` on the page, look at each image, and adapt crop, text colour, veil and accent to it. When there is nothing yet, or the direction wants a painting or an engraving, borrow a public-domain work with `scripts/find_art.py` (The Met, the Cleveland Museum of Art, CC0 only): crop the scan, cut its foreground with `backdrop.py` if it should pass in front of the product, veil behind the text, credit it on the page, and tell the user it is a stand-in they can keep. See `references/imagery.md`.
 
 ### 4. Review what you rendered
@@ -88,6 +98,7 @@ Only add screens that teach a decision, and write the note: what to learn, not a
 
 ## Files
 
+- `scripts/start.py`: the first call for any screen: the rules for that page type, the checklist and the closest references in one go.
 - `scripts/find_refs.py`: search the library.
 - `scripts/shot.py`: render your page at 1440 and 390, and set its fold beside a library reference.
 - `scripts/capture.py`: add or refresh screens.

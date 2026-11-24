@@ -6,15 +6,15 @@ import type { Compare as C } from "@/lib/compare";
 const NOTES: Record<string, { without: string; with: string }> = {
   landing: {
     without: "A good page, and the 2025 default: cream, a serif headline with one word in italics, a pill badge, an invoice card on the right, then a row of statistics it made up.",
-    with: "One vermilion field, a heavy grotesk headline in the customer's own words, and one invoice followed from day 0 to the day it is paid: each section is a date, each date its own colour.",
+    with: "A vermilion field, a heavy grotesk headline, and one real invoice (VAT, reverse charge, IBAN) with the reminder Tally just sent pinned to it. Below, the same invoice is followed by date: sent, overdue, paid.",
   },
   pricing: {
     without: "Serif on cream again, three cards, the middle one dark with a badge. Correct and familiar.",
-    with: "Each plan is an invoice Tally sends you: amount due, from, billed to, line items, total. The headline states the deal in the product's terms.",
+    with: "Pricing, itemised: each plan is an invoice, with billed to, line items and the total set as large as a price. A pricing page with a concept from the product itself.",
   },
   dashboard: {
     without: "The closest pair. A competent dashboard: totals, a split bar, late clients, a reminder feed.",
-    with: "Same parts, one decision more: the money sits in one dark band read as a sentence, the late clients sorted by amount, the reminders that need a human flagged. Dashboards are where models are already strongest.",
+    with: "Same parts, one decision more: late money split by age, each late client shows what was already tried, and the one final notice that needs your OK waits at the top of the reminders. Dashboards are where models are already strongest.",
   },
 };
 const TITLE: Record<string, string> = { landing: "Landing page", pricing: "Pricing page", dashboard: "Dashboard" };
