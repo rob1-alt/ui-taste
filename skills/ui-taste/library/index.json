@@ -10593,6 +10593,67 @@
     }
   },
   {
+    "id": "13322566869-landing",
+    "site": "+13322566869",
+    "url": "https://13322566869.com",
+    "type": "landing",
+    "tags": [
+      "red",
+      "giant-caps-split-by-portrait",
+      "phone-number-name",
+      "digital-producer"
+    ],
+    "note": "'FACE TO FACE' in huge red caps split around a portrait, with the site named after a phone number. A producer's site whose headline is a promise of contact.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/13322566869-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/13322566869-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Digital Producer - Specialised in Design",
+      "fonts": [
+        "FoundersGrotesk-Light",
+        "FoundersGrotesk-Medium",
+        "HelveticaNeue-Thin"
+      ],
+      "type": {
+        "h1": null,
+        "h2": null,
+        "h3": null,
+        "body": {
+          "font": "FoundersGrotesk-Light",
+          "size": 15,
+          "weight": "400",
+          "lineHeight": 1.1,
+          "letterSpacing": "-0.18px",
+          "color": "rgb(255, 255, 255)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#ffffff",
+          "#ff2443"
+        ],
+        "text": [
+          "#ffffff",
+          "#000000",
+          "#ff2443"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": null
+    }
+  },
+  {
     "id": "032c-landing",
     "site": "032c",
     "url": "https://032c.com",
@@ -15960,6 +16021,78 @@
     }
   },
   {
+    "id": "awp-landing",
+    "site": "AWP",
+    "url": "https://awp.work/en",
+    "type": "landing",
+    "tags": [
+      "olive-and-white",
+      "giant-serif-wordmark",
+      "inline-statement-header",
+      "brand-studio"
+    ],
+    "note": "A dense statement runs across the top in small type, then 'AWP' in a huge serif over a green photo, with packaging shots below. A studio wordmark set as large as a poster.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/awp-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/awp-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "AWP — Branding & Packaging Design Studio in Montreal",
+      "fonts": [
+        "StudioProMD-web",
+        "StudioProSB-web",
+        "RhymesSBI-web"
+      ],
+      "type": {
+        "h1": {
+          "font": "StudioProMD-web",
+          "size": 18,
+          "weight": "400",
+          "lineHeight": 1.02,
+          "letterSpacing": "-0.36px",
+          "color": "rgb(15, 14, 14)"
+        },
+        "h2": {
+          "font": "StudioProMD-web",
+          "size": 16,
+          "weight": "500",
+          "lineHeight": 1.2,
+          "letterSpacing": "normal",
+          "color": "rgb(15, 14, 14)"
+        },
+        "h3": null,
+        "body": {
+          "font": "StudioProSB-web",
+          "size": 32,
+          "weight": "400",
+          "lineHeight": 1.02,
+          "letterSpacing": "-0.36px",
+          "color": "rgb(15, 14, 14)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#ffffff"
+        ],
+        "text": [
+          "#0f0e0e"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": null
+    }
+  },
+  {
     "id": "axiom-landing",
     "site": "Axiom",
     "url": "https://axiom.co",
@@ -18468,6 +18601,85 @@
       },
       "buttons": [],
       "contentWidth": 1368
+    }
+  },
+  {
+    "id": "br-studio-landing",
+    "site": "BR Studio",
+    "url": "https://br.studio/en",
+    "type": "landing",
+    "tags": [
+      "periwinkle",
+      "asterisk-mark",
+      "large-statement",
+      "colourful-project-tiles",
+      "brand-studio"
+    ],
+    "note": "A periwinkle page with a long statement starting with an asterisk, then bright product tiles (Bubble trouble, Just add fizz). A brand studio that lets one unusual background colour carry it.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/br-studio-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/br-studio-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "BR Studio | Home",
+      "fonts": [
+        "BRType"
+      ],
+      "type": {
+        "h1": {
+          "font": "BRType",
+          "size": 100,
+          "weight": "400",
+          "lineHeight": 1,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        },
+        "h2": {
+          "font": "BRType",
+          "size": 16,
+          "weight": "400",
+          "lineHeight": 1,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        },
+        "h3": {
+          "font": "BRType",
+          "size": 16,
+          "weight": "700",
+          "lineHeight": 1,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        },
+        "body": {
+          "font": "BRType",
+          "size": 24,
+          "weight": "400",
+          "lineHeight": 1.2,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        }
+      },
+      "colors": {
+        "background": "#7195ff",
+        "surfaces": [
+          "#000000",
+          "#7195ff"
+        ],
+        "text": [
+          "#000000"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": null
     }
   },
   {
@@ -29756,6 +29968,76 @@
     }
   },
   {
+    "id": "fabra-comunicaci-n-landing",
+    "site": "Fabra Comunicación",
+    "url": "https://fabracomunicacion.com",
+    "type": "landing",
+    "tags": [
+      "light",
+      "giant-wordmark",
+      "bw-studio-photo",
+      "big-caps-menu",
+      "communication-agency"
+    ],
+    "note": "'FABRA' in huge black type above a black-and-white studio photo, then a black menu panel listing sections in large caps. An agency whose nav is half the homepage.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/fabra-comunicaci-n-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/fabra-comunicaci-n-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Fabra",
+      "fonts": [
+        "SohneMonoBuch",
+        "SohneBreitBuch",
+        "Times New Roman"
+      ],
+      "type": {
+        "h1": null,
+        "h2": {
+          "font": "SohneBreitBuch",
+          "size": 36,
+          "weight": "100",
+          "lineHeight": 1.3,
+          "letterSpacing": "normal",
+          "color": "rgb(51, 51, 51)"
+        },
+        "h3": null,
+        "body": {
+          "font": "SohneBreitBuch",
+          "size": 32,
+          "weight": "100",
+          "lineHeight": 1.28,
+          "letterSpacing": "normal",
+          "color": "rgb(51, 51, 51)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#000000",
+          "#ffffff"
+        ],
+        "text": [
+          "#333333",
+          "#808080",
+          "#ffffff",
+          "#878787"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": null
+    }
+  },
+  {
     "id": "fabric-landing",
     "site": "Fabric",
     "url": "https://fabric.so",
@@ -32661,6 +32943,81 @@
       },
       "buttons": [],
       "contentWidth": 1180
+    }
+  },
+  {
+    "id": "fora-landing",
+    "site": "Fora",
+    "url": "https://www.fora-concept.com",
+    "type": "landing",
+    "tags": [
+      "light",
+      "serif-split-wordmark",
+      "colour-tiles",
+      "strategy-studio"
+    ],
+    "note": "'FO RA' in a large serif split over two lines, beside rust, lilac and photo tiles in a grid. A strategy studio with a clean modular colour system.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/fora-landing-desktop.jpg",
+        "width": 1440,
+        "height": 900
+      },
+      "mobile": {
+        "file": "screens/fora-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "FORA",
+      "fonts": [
+        "Theinhardt",
+        "Theinhardt Medium"
+      ],
+      "type": {
+        "h1": {
+          "font": "Theinhardt",
+          "size": 15,
+          "weight": "400",
+          "lineHeight": 1.33,
+          "letterSpacing": "0.36px",
+          "color": "rgb(0, 0, 0)"
+        },
+        "h2": {
+          "font": "Theinhardt",
+          "size": 23,
+          "weight": "400",
+          "lineHeight": 1.3,
+          "letterSpacing": "0.36px",
+          "color": "rgb(0, 0, 0)"
+        },
+        "h3": null,
+        "body": {
+          "font": "Theinhardt",
+          "size": 15,
+          "weight": "400",
+          "lineHeight": 1.33,
+          "letterSpacing": "0.36px",
+          "color": "rgb(0, 0, 0)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#a9553c",
+          "#ddbdea",
+          "#245752",
+          "#ffffff",
+          "#a04d35"
+        ],
+        "text": [
+          "#000000"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": 950
     }
   },
   {
@@ -40326,6 +40683,63 @@
     }
   },
   {
+    "id": "iconwerk-landing",
+    "site": "iconwerk",
+    "url": "https://www.iconwerk.com",
+    "type": "landing",
+    "tags": [
+      "light",
+      "icon-tiles-grid",
+      "product-shots",
+      "logo-row",
+      "icon-designer"
+    ],
+    "note": "A grid of icons in context (on a remote, a phone, a fabric tag, a car) mixed with flat icon tiles, then client logos. An icon designer showing icons living on real objects.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/iconwerk-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/iconwerk-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "iconwerk",
+      "fonts": [
+        "Arial",
+        "__Graphik_5",
+        "__iconwerkdings_5"
+      ],
+      "type": {
+        "h1": null,
+        "h2": null,
+        "h3": null,
+        "body": {
+          "font": "__Graphik_5",
+          "size": 22,
+          "weight": "600",
+          "lineHeight": 1.18,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [],
+        "text": [
+          "#000000"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": 1600
+    }
+  },
+  {
     "id": "ideogram-landing",
     "site": "Ideogram",
     "url": "https://ideogram.ai",
@@ -42949,6 +43363,89 @@
     }
   },
   {
+    "id": "jules-andrieu-landing",
+    "site": "Jules Andrieu",
+    "url": "https://jsandrieu.com",
+    "type": "landing",
+    "tags": [
+      "light",
+      "giant-serif-name",
+      "small-portrait",
+      "centred-bio",
+      "designer"
+    ],
+    "note": "A tiny portrait above the name in a huge thin serif, then a centred serif bio. A designer's site with the restraint of a book title page.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/jules-andrieu-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/jules-andrieu-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Jules Andrieu - Senior Creative Product Designer",
+      "fonts": [
+        "ABC Arizona Flare Variable Unlicensed Trial Variable Regular",
+        "sans-serif",
+        "Circular Std Bold"
+      ],
+      "type": {
+        "h1": {
+          "font": "ABC Arizona Flare Variable Unlicensed Trial Variable Regular",
+          "size": 279,
+          "weight": "400",
+          "lineHeight": 0.75,
+          "letterSpacing": "-13.9446px",
+          "color": "rgb(29, 29, 29)"
+        },
+        "h2": {
+          "font": "ABC Arizona Flare Variable Unlicensed Trial Variable Regular",
+          "size": 42,
+          "weight": "400",
+          "lineHeight": 1.31,
+          "letterSpacing": "normal",
+          "color": "rgb(26, 26, 26)"
+        },
+        "h3": {
+          "font": "ABC Arizona Flare Variable Unlicensed Trial Variable Regular",
+          "size": 45,
+          "weight": "400",
+          "lineHeight": 1.2,
+          "letterSpacing": "-1.8px",
+          "color": "rgb(255, 255, 255)"
+        },
+        "body": {
+          "font": "Circular Std Bold",
+          "size": 18,
+          "weight": "700",
+          "lineHeight": 1.2,
+          "letterSpacing": "normal",
+          "color": "rgba(27, 27, 27, 0.9)"
+        }
+      },
+      "colors": {
+        "background": "#f1f0ec",
+        "surfaces": [
+          "#f1f0ec",
+          "#fdfefc"
+        ],
+        "text": [
+          "#1a1a1a",
+          "#1b1b1b",
+          "#1d1d1d"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": null
+    }
+  },
+  {
     "id": "july-fund-landing",
     "site": "July Fund",
     "url": "https://july.fund",
@@ -43320,6 +43817,106 @@
     }
   },
   {
+    "id": "karol-ortyl-landing",
+    "site": "Karol Ortyl",
+    "url": "https://www.karolortyl.com",
+    "type": "landing",
+    "tags": [
+      "dark",
+      "hand-drawn-wordmark",
+      "highlighted-labels",
+      "sticker-renders",
+      "designer"
+    ],
+    "note": "A hand-drawn outlined name, highlighted label words ('fun-doing designer at large'), then 3D sticker-like renders around project screens. A product designer with a playful scrapbook energy.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/karol-ortyl-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/karol-ortyl-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Karol Ortyl",
+      "fonts": [
+        "Roboto Condensed",
+        "sans-serif",
+        "Funnel Sans"
+      ],
+      "type": {
+        "h1": null,
+        "h2": null,
+        "h3": null,
+        "body": {
+          "font": "Roboto Condensed",
+          "size": 13,
+          "weight": "400",
+          "lineHeight": 1.2,
+          "letterSpacing": "1.04px",
+          "color": "rgb(179, 191, 201)"
+        }
+      },
+      "colors": {
+        "background": "#000000",
+        "surfaces": [
+          "#000000",
+          "#434343",
+          "#f2c230",
+          "#151a1c",
+          "#2f2f2f"
+        ],
+        "text": [
+          "#ffffff",
+          "#f2f2f2",
+          "#8f99a1",
+          "#000000"
+        ]
+      },
+      "buttons": [
+        {
+          "label": "HOME",
+          "bg": "#0b0e0f",
+          "color": "#000000",
+          "radius": "17px 8px 8px 17px",
+          "height": 36,
+          "paddingX": 13,
+          "font": "sans-serif",
+          "size": 12,
+          "weight": "400"
+        },
+        {
+          "label": "ABOUT",
+          "bg": "#151a1c",
+          "color": "#0000ee",
+          "radius": "8px",
+          "height": 36,
+          "paddingX": 10,
+          "font": "sans-serif",
+          "size": 12,
+          "weight": "400"
+        },
+        {
+          "label": "CONTACT",
+          "bg": "#151a1c",
+          "color": "#0000ee",
+          "radius": "8px 17px 17px 8px",
+          "height": 36,
+          "paddingX": 10,
+          "font": "sans-serif",
+          "size": 12,
+          "weight": "400"
+        }
+      ],
+      "contentWidth": 1000
+    }
+  },
+  {
     "id": "kevin-hipke-landing",
     "site": "Kevin Hipke",
     "url": "https://kevinhipke.com",
@@ -43390,6 +43987,58 @@
           "weight": "400"
         }
       ],
+      "contentWidth": null
+    }
+  },
+  {
+    "id": "khegai-landing",
+    "site": "Khegai",
+    "url": "https://khegai.com",
+    "type": "landing",
+    "tags": [
+      "black-and-pink",
+      "giant-pink-wordmark",
+      "film-stills",
+      "ai-producer"
+    ],
+    "note": "'khegai' in huge pink letters cropped at the top over black, then cinematic film stills in a grid. A creative producer whose name is the loudest thing on the page.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/khegai-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/khegai-landing-mobile.jpg",
+        "width": 390,
+        "height": 2415
+      }
+    },
+    "tokens": {
+      "title": "Sofia Khegai",
+      "fonts": [
+        "Oswald",
+        "Decima",
+        "Times New Roman"
+      ],
+      "type": {
+        "h1": null,
+        "h2": null,
+        "h3": null,
+        "body": null
+      },
+      "colors": {
+        "background": "#000000",
+        "surfaces": [
+          "#000000"
+        ],
+        "text": [
+          "#ffffff",
+          "#fd8dd8"
+        ]
+      },
+      "buttons": [],
       "contentWidth": null
     }
   },
@@ -49104,6 +49753,89 @@
     }
   },
   {
+    "id": "mimosa-landing",
+    "site": "mimosa",
+    "url": "https://mimosaagency.com",
+    "type": "landing",
+    "tags": [
+      "light",
+      "blurred-gradient-wordmark",
+      "colour-swatch-row",
+      "serif-grey-paragraph",
+      "studio"
+    ],
+    "note": "'mimosa' as a blurred rainbow gradient wordmark, then a row of colour swatch cards and a paragraph fading from black to grey. A studio identity made of colour and blur.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/mimosa-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/mimosa-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Creative and Branding Agency in Berlin | mimosa",
+      "fonts": [
+        "PP Mori",
+        "Soehne Breit"
+      ],
+      "type": {
+        "h1": {
+          "font": "PP Mori",
+          "size": 28,
+          "weight": "400",
+          "lineHeight": 0.71,
+          "letterSpacing": "normal",
+          "color": "rgb(23, 23, 23)"
+        },
+        "h2": {
+          "font": "PP Mori",
+          "size": 13,
+          "weight": "400",
+          "lineHeight": 2.77,
+          "letterSpacing": "-0.13px",
+          "color": "rgb(23, 23, 23)"
+        },
+        "h3": {
+          "font": "PP Mori",
+          "size": 13,
+          "weight": "400",
+          "lineHeight": 1.38,
+          "letterSpacing": "-0.13px",
+          "color": "rgb(23, 23, 23)"
+        },
+        "body": {
+          "font": "PP Mori",
+          "size": 13,
+          "weight": "400",
+          "lineHeight": 1.54,
+          "letterSpacing": "-0.13px",
+          "color": "rgb(118, 118, 115)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#000000",
+          "#f3f3f3"
+        ],
+        "text": [
+          "#171717",
+          "#767673",
+          "#8f8f8c",
+          "#666666"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": 1344
+    }
+  },
+  {
     "id": "minimal-gallery-landing",
     "site": "Minimal Gallery",
     "url": "https://minimal.gallery",
@@ -52625,6 +53357,127 @@
     }
   },
   {
+    "id": "nonspace-landing",
+    "site": "Nonspace®",
+    "url": "https://www.nonspace.no",
+    "type": "landing",
+    "tags": [
+      "light",
+      "giant-bold-wordmark",
+      "dark-green-video-card",
+      "blue-link-words",
+      "brand-agency"
+    ],
+    "note": "'NONSPACE' set huge in heavy black, then a dark green video card 'Where all ide_' typing itself, and a statement with key words in blue. A Nordic agency with a single strong wordmark and a typing card.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/nonspace-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/nonspace-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Brand experience-byrå i Bergen og Trondheim | Nonspace®",
+      "fonts": [
+        "fontsMed",
+        "fontsReg",
+        "fontsBd"
+      ],
+      "type": {
+        "h1": {
+          "font": "fontsMed",
+          "size": 18,
+          "weight": "400",
+          "lineHeight": 1.5,
+          "letterSpacing": "normal",
+          "color": "rgb(26, 26, 26)"
+        },
+        "h2": {
+          "font": "fontsMed",
+          "size": 28,
+          "weight": "500",
+          "lineHeight": 1.2,
+          "letterSpacing": "normal",
+          "color": "rgb(26, 26, 26)"
+        },
+        "h3": {
+          "font": "fontsMed",
+          "size": 24,
+          "weight": "500",
+          "lineHeight": 1.2,
+          "letterSpacing": "normal",
+          "color": "rgb(26, 26, 26)"
+        },
+        "body": {
+          "font": "fontsMed",
+          "size": 48,
+          "weight": "500",
+          "lineHeight": 1.2,
+          "letterSpacing": "normal",
+          "color": "rgb(26, 26, 26)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#ffffff",
+          "#0500f7",
+          "#1a1a1a",
+          "#f5f5fe",
+          "#e5e5e5"
+        ],
+        "text": [
+          "#1a1a1a",
+          "#ffffff",
+          "#000000",
+          "#0500f7"
+        ]
+      },
+      "buttons": [
+        {
+          "label": "EN",
+          "bg": "#1a1a1a",
+          "color": "#ffffff",
+          "radius": "9999px",
+          "height": 35,
+          "paddingX": 16,
+          "font": "fontsMed",
+          "size": 16,
+          "weight": "500"
+        },
+        {
+          "label": "",
+          "bg": "#e5e5e5",
+          "color": "#1a1a1a",
+          "radius": "9999px",
+          "height": 34,
+          "paddingX": 18,
+          "font": "fontsMed",
+          "size": 16,
+          "weight": "400"
+        },
+        {
+          "label": "",
+          "bg": "#e5e5e5",
+          "color": "#1a1a1a",
+          "radius": "9999px",
+          "height": 34,
+          "paddingX": 18,
+          "font": "fontsMed",
+          "size": 16,
+          "weight": "400"
+        }
+      ],
+      "contentWidth": 640
+    }
+  },
+  {
     "id": "normal-computing-landing",
     "site": "Normal Computing",
     "url": "https://www.normalcomputing.com",
@@ -53904,6 +54757,73 @@
       },
       "buttons": [],
       "contentWidth": null
+    }
+  },
+  {
+    "id": "ofform-landing",
+    "site": "Ofform",
+    "url": "https://offormdesign.com",
+    "type": "landing",
+    "tags": [
+      "dark-to-light",
+      "hand-and-poster-photo",
+      "serif-wordmark-project",
+      "studio"
+    ],
+    "note": "A photo of hands holding a printed poster in the dark, then projects as large photos with plain captions and a bold statement. An art-direction studio leading with physical print.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/ofform-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/ofform-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Ofform Studio",
+      "fonts": [
+        "Suisse Intl Medium",
+        "sans-serif"
+      ],
+      "type": {
+        "h1": {
+          "font": "Suisse Intl Medium",
+          "size": 65,
+          "weight": "500",
+          "lineHeight": 0.98,
+          "letterSpacing": "-1.3px",
+          "color": "rgb(0, 0, 0)"
+        },
+        "h2": null,
+        "h3": {
+          "font": "Suisse Intl Medium",
+          "size": 24,
+          "weight": "500",
+          "lineHeight": 1.3,
+          "letterSpacing": "normal",
+          "color": "rgb(255, 255, 255)"
+        },
+        "body": null
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#ffffff",
+          "#f5f5f5"
+        ],
+        "text": [
+          "#000000",
+          "#ababab",
+          "#ffffff"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": 1040
     }
   },
   {
@@ -71525,6 +72445,77 @@
       },
       "buttons": [],
       "contentWidth": 1416
+    }
+  },
+  {
+    "id": "studio-gd-landing",
+    "site": "Studio GD",
+    "url": "https://www.studiogd.dk",
+    "type": "landing",
+    "tags": [
+      "lilac",
+      "gradient-stripes",
+      "parallelogram-logo",
+      "large-grey-statement",
+      "motion-studio"
+    ],
+    "note": "A lilac block of horizontal gradient stripes behind a blue 'CPH' parallelogram, then a long statement in grey with the first words in black. A motion studio whose hero is a moving stripe field.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/studio-gd-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/studio-gd-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Ideas in movement™",
+      "fonts": [
+        "Die Grotesk A",
+        "sans-serif",
+        "Die Grotesk C"
+      ],
+      "type": {
+        "h1": {
+          "font": "Die Grotesk C",
+          "size": 75,
+          "weight": "900",
+          "lineHeight": 1,
+          "letterSpacing": "-1.125px",
+          "color": "rgb(189, 189, 189)"
+        },
+        "h2": {
+          "font": "Die Grotesk A",
+          "size": 14,
+          "weight": "500",
+          "lineHeight": 1.2,
+          "letterSpacing": "0.21px",
+          "color": "rgb(0, 0, 0)"
+        },
+        "h3": null,
+        "body": null
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#ffffff",
+          "#141725",
+          "#000000"
+        ],
+        "text": [
+          "#969696",
+          "#bdbdbd",
+          "#000000",
+          "#ffffff"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": null
     }
   },
   {
