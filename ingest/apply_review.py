@@ -88,6 +88,8 @@ def main() -> None:
     lock.close()
 
     src = json.loads(SOURCES.read_text())
+    gone = {entries[i]["url"] for i in drop_ids}  # a screen dropped on a later pass leaves sources too
+    src = [e for e in src if e["url"] not in gone]
     have = {e["url"] for e in src}
     for i, (tags, note) in keep_ids.items():
         e = entries[i]
