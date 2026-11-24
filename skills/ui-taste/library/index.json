@@ -12146,6 +12146,92 @@
     }
   },
   {
+    "id": "akuto-studio-landing",
+    "site": "Akuto Studio",
+    "url": "https://akutostudio.com",
+    "type": "landing",
+    "tags": [
+      "light",
+      "giant-caps-headline",
+      "product-on-rock-texture",
+      "orange-accent",
+      "music-hardware"
+    ],
+    "note": "'CHORD MACHINE' in huge black caps over a white device laid on crumpled stone, then 'NEW WAYS OF PLAYING CHORDS' with the last word in orange. A synth sold like a sculpture, its name set as loud as the object.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/akuto-studio-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/akuto-studio-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Akuto Studio · Chord Machine AKT-0.1",
+      "fonts": [
+        "lausanne"
+      ],
+      "type": {
+        "h1": {
+          "font": "lausanne",
+          "size": 29,
+          "weight": "700",
+          "lineHeight": 0.71,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        },
+        "h2": {
+          "font": "lausanne",
+          "size": 93,
+          "weight": "700",
+          "lineHeight": 0.91,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        },
+        "h3": null,
+        "body": {
+          "font": "lausanne",
+          "size": 17,
+          "weight": "700",
+          "lineHeight": 1.19,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#ffffff",
+          "#ff3500"
+        ],
+        "text": [
+          "#000000",
+          "#ff3500",
+          "#ffffff"
+        ]
+      },
+      "buttons": [
+        {
+          "label": "PRE-ORDER",
+          "bg": "#ff3500",
+          "color": "#ffffff",
+          "radius": "86.1905px",
+          "height": 46,
+          "paddingX": 26,
+          "font": "lausanne",
+          "size": 17,
+          "weight": "400"
+        }
+      ],
+      "contentWidth": null
+    }
+  },
+  {
     "id": "alan-landing",
     "site": "Alan",
     "url": "https://alan.com",
@@ -37221,6 +37307,86 @@
     }
   },
   {
+    "id": "herzog-law-landing",
+    "site": "HERZOG.law",
+    "url": "https://herzog.law/en",
+    "type": "landing",
+    "tags": [
+      "light",
+      "salmon-wordmark",
+      "glass-render",
+      "numbered-services",
+      "law-firm"
+    ],
+    "note": "'HERZOG.law' in a huge salmon wordmark over a glassy 3D shape, then numbered services in the same salmon. A law firm with a contemporary art identity.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/herzog-law-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/herzog-law-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Lawyers for inheritance law and litigation – HERZOG.law",
+      "fonts": [
+        "NeueMontreal"
+      ],
+      "type": {
+        "h1": {
+          "font": "NeueMontreal",
+          "size": 24,
+          "weight": "400",
+          "lineHeight": 1.17,
+          "letterSpacing": "normal",
+          "color": "rgb(245, 105, 85)"
+        },
+        "h2": {
+          "font": "NeueMontreal",
+          "size": 24,
+          "weight": "400",
+          "lineHeight": 1.17,
+          "letterSpacing": "normal",
+          "color": "rgb(245, 105, 85)"
+        },
+        "h3": {
+          "font": "NeueMontreal",
+          "size": 24,
+          "weight": "400",
+          "lineHeight": 1.17,
+          "letterSpacing": "normal",
+          "color": "rgb(245, 105, 85)"
+        },
+        "body": {
+          "font": "NeueMontreal",
+          "size": 24,
+          "weight": "400",
+          "lineHeight": 1.17,
+          "letterSpacing": "normal",
+          "color": "rgb(245, 105, 85)"
+        }
+      },
+      "colors": {
+        "background": "#d8e3e6",
+        "surfaces": [
+          "#ebedee",
+          "#ffffff",
+          "#4b110d"
+        ],
+        "text": [
+          "#f56955"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": null
+    }
+  },
+  {
     "id": "hex-landing",
     "site": "Hex",
     "url": "https://hex.tech",
@@ -45947,6 +46113,67 @@
       },
       "buttons": [],
       "contentWidth": null
+    }
+  },
+  {
+    "id": "madebywater-landing",
+    "site": "Madebywater",
+    "url": "http://madebywater.com",
+    "type": "landing",
+    "tags": [
+      "light",
+      "giant-registered-wordmark",
+      "device-renders",
+      "tile-grid",
+      "product-studio"
+    ],
+    "note": "'MADEBYWATER®' set huge in black, then product UIs rendered on dark devices and a grid of small device tiles. A product studio showing screens as objects on plinths.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/madebywater-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/madebywater-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Madebywater - Madebywater",
+      "fonts": [
+        "SuisseIntl-Book",
+        "Inter",
+        "Satoshi-Variable"
+      ],
+      "type": {
+        "h1": null,
+        "h2": null,
+        "h3": null,
+        "body": {
+          "font": "Inter",
+          "size": 76,
+          "weight": "400",
+          "lineHeight": 1.21,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#ffffff",
+          "#1e1001"
+        ],
+        "text": [
+          "#777777",
+          "#000000"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": 1440
     }
   },
   {
@@ -69190,6 +69417,88 @@
       },
       "buttons": [],
       "contentWidth": 1416
+    }
+  },
+  {
+    "id": "studio-office-landing",
+    "site": "Studio Office",
+    "url": "https://www.studio-office.fun",
+    "type": "landing",
+    "tags": [
+      "beige",
+      "heavy-rounded-display",
+      "line-icons",
+      "rounded-panels",
+      "coworking"
+    ],
+    "note": "'STUDIO OFFICE' in a chunky rounded display with a sun replacing the O, then rounded outlined panels with line icons ('Good vibes', 'Inspiration'). A coworking space with the charm of a 70s cafe menu.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/studio-office-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/studio-office-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Studio Office | An office you can studio in",
+      "fonts": [
+        "Oswald",
+        "Tiro Tamil"
+      ],
+      "type": {
+        "h1": {
+          "font": "Tiro Tamil",
+          "size": 29,
+          "weight": "400",
+          "lineHeight": 1.2,
+          "letterSpacing": "-0.288px",
+          "color": "rgb(29, 23, 5)"
+        },
+        "h2": {
+          "font": "Oswald",
+          "size": 16,
+          "weight": "700",
+          "lineHeight": 1,
+          "letterSpacing": "1.6px",
+          "color": "rgb(29, 23, 5)"
+        },
+        "h3": {
+          "font": "Oswald",
+          "size": 48,
+          "weight": "700",
+          "lineHeight": 1.1,
+          "letterSpacing": "-1.44px",
+          "color": "rgb(29, 23, 5)"
+        },
+        "body": {
+          "font": "Oswald",
+          "size": 48,
+          "weight": "700",
+          "lineHeight": 1.1,
+          "letterSpacing": "-1.44px",
+          "color": "rgb(29, 23, 5)"
+        }
+      },
+      "colors": {
+        "background": "#767f64",
+        "surfaces": [
+          "#d8d1bd",
+          "#1d1705",
+          "#767f64"
+        ],
+        "text": [
+          "#1d1705",
+          "#d8d1bd"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": null
     }
   },
   {

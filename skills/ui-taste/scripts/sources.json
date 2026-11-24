@@ -11307,5 +11307,57 @@
    "padel"
   ],
   "note": "A macro of a padel racket's holes with a neon yellow headline, then rackets on pastel tiles with neon buttons. Sports gear where one fluorescent colour carries the brand."
+ },
+ {
+  "site": "Akuto Studio",
+  "type": "landing",
+  "url": "https://akutostudio.com",
+  "tags": [
+   "light",
+   "giant-caps-headline",
+   "product-on-rock-texture",
+   "orange-accent",
+   "music-hardware"
+  ],
+  "note": "'CHORD MACHINE' in huge black caps over a white device laid on crumpled stone, then 'NEW WAYS OF PLAYING CHORDS' with the last word in orange. A synth sold like a sculpture, its name set as loud as the object."
+ },
+ {
+  "site": "HERZOG.law",
+  "type": "landing",
+  "url": "https://herzog.law/en",
+  "tags": [
+   "light",
+   "salmon-wordmark",
+   "glass-render",
+   "numbered-services",
+   "law-firm"
+  ],
+  "note": "'HERZOG.law' in a huge salmon wordmark over a glassy 3D shape, then numbered services in the same salmon. A law firm with a contemporary art identity."
+ },
+ {
+  "site": "Madebywater",
+  "type": "landing",
+  "url": "http://madebywater.com",
+  "tags": [
+   "light",
+   "giant-registered-wordmark",
+   "device-renders",
+   "tile-grid",
+   "product-studio"
+  ],
+  "note": "'MADEBYWATER®' set huge in black, then product UIs rendered on dark devices and a grid of small device tiles. A product studio showing screens as objects on plinths."
+ },
+ {
+  "site": "Studio Office",
+  "type": "landing",
+  "url": "https://www.studio-office.fun",
+  "tags": [
+   "beige",
+   "heavy-rounded-display",
+   "line-icons",
+   "rounded-panels",
+   "coworking"
+  ],
+  "note": "'STUDIO OFFICE' in a chunky rounded display with a sun replacing the O, then rounded outlined panels with line icons ('Good vibes', 'Inspiration'). A coworking space with the charm of a 70s cafe menu."
  }
 ]
