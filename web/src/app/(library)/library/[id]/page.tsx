@@ -16,7 +16,7 @@ export async function generateMetadata({ params }: Params): Promise<Metadata> {
   const it = getItem(id);
   if (!it) return {};
   const title = `${it.site} ${libTypeLabel(it.type).toLowerCase()}`;
-  return { title, description: it.note, openGraph: { title: `${title} · taster`, description: it.note, type: "article" } };
+  return { title, description: it.note, alternates: { canonical: `/library/${it.id}` }, openGraph: { title: `${title} · taster`, description: it.note, type: "article", url: `/library/${it.id}`, siteName: "taster" } };
 }
 
 export default async function Page({ params }: Params) {

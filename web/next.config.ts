@@ -13,6 +13,8 @@ const config: NextConfig = {
   },
   async redirects() {
     return [
+      // one address: the Vercel hostname and the bare domain go to www.uitaste.dev, path kept
+      { source: "/:path*", has: [{ type: "host", value: "ui-taste-six.vercel.app" }], destination: "https://www.uitaste.dev/:path*", permanent: true },
       { source: "/index.html", destination: "/", permanent: true },
       { source: "/library.html", destination: "/library", permanent: true },
       { source: "/site/:path*", destination: "/:path*", permanent: false },

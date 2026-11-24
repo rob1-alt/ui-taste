@@ -586,3 +586,50 @@ body { background: #fff; }
 
 /* images carry width/height attributes for layout stability; the CSS sizes them by width */
 .switch img, .art-ref img { height: auto; }
+
+/* =================== v10: phones =================== */
+@media (max-width: 720px) {
+  /* hero: the word must read at a glance, so the pages outside it step further back */
+  .mosaic.in .tile.off { opacity: 0.09; }
+  .mosaic.in .tile:not(.off) { box-shadow: 0 0 0 1px rgb(255 255 255 / 0.5); }
+  .hero h1 { font-size: clamp(40px, 11.5vw, 56px); line-height: 0.88; }
+  .hero-foot { padding: 24px 16px 28px; gap: 20px; }
+  .hero-side { gap: 16px; }
+  .tile-info { font-size: 11px; }
+  .hero .actions { display: grid; grid-template-columns: 1fr auto; }
+  .hero .btn-lg { height: 48px; padding: 0 18px; }
+
+  /* the construction grid and its crosshairs are a desktop idea: on a phone they are noise */
+  .bg-grid, .measured::after, .numbers::after, .index::after, .method::after, .review::after, .install::after, .foot::after { display: none; }
+  .stats .stat, .line, .row a, .filters, .fix-list, .all-checks { background: transparent; }
+
+  /* numbers: one per row, the figure beside its label */
+  .stats { grid-template-columns: 1fr; }
+  .stat, .stat + .stat, .stat:nth-child(2n) { padding: 22px 0 24px; border-left: 0; display: grid; grid-template-columns: 112px minmax(0, 1fr); column-gap: 16px; row-gap: 6px; }
+  .stat-n { font-size: 56px; grid-row: span 3; }
+  .stat-k, .stat p, .stat-viz, .stat-btn { grid-column: 2; }
+  .stat p { max-width: none; }
+
+  /* index filters: one scrolling row instead of a wall of chips */
+  .filters { flex-wrap: nowrap; overflow-x: auto; scrollbar-width: none; margin: 0 -16px 12px; padding: 0 16px; }
+  .filters::-webkit-scrollbar { display: none; }
+  .filters button { flex-shrink: 0; }
+
+  /* fix the slop: the demo first, so a tick shows its effect right above the list */
+  .fixer { gap: 20px; }
+  .demo-frame { order: -1; }
+  .fs-n { font-size: 64px; }
+  .demo { min-height: 0; padding-bottom: 20px; }
+  .d-nav { padding: 14px 16px; }
+  .d-hero { padding: 22px 16px 18px; }
+  .d-h1 { font-size: 30px; }
+  .d-sub { font-size: 14px; }
+  .d-cards { gap: 8px; padding: 0 12px; }
+  .d-card { padding: 14px 8px; border-radius: 14px; font-size: 11px; }
+  .d-card b { font-size: 12.5px; }
+  .d-card p { font-size: 11px; }
+  .d-ico { font-size: 22px; }
+  .demo-bar span { font-size: 9px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+}
+.on-touch { display: none; }
+@media (hover: none) { .on-hover { display: none; } .on-touch { display: inline; } }

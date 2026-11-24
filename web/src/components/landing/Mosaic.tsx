@@ -17,7 +17,7 @@ type Letters = [string, number, number][];
 type Word = { minCols: number; maxCols?: number; minRows: number; aspect: number; letters: (co: number, ro: number) => Letters; pad: (cols: number, rows: number) => [number, number] };
 const WORD: Record<"wide" | "tall", Word> = {
   wide: { minCols: 39, minRows: 7, aspect: 507 / 260, letters: (co, ro) => [["T", ro, 5 + co], ["A", ro, 11 + co], ["S", ro, 17 + co], ["T", ro, 23 + co], ["E", ro, 29 + co]], pad: (cols, rows) => [Math.floor((cols - 39) / 2), Math.floor((rows - 7) / 2)] },
-  tall: { minCols: 13, maxCols: 15, minRows: 21, aspect: 1.08, letters: (co, ro) => [["T", ro, 1 + co], ["A", ro, 7 + co], ["S", 7 + ro, 1 + co], ["T", 7 + ro, 7 + co], ["E", 14 + ro, 4 + co]], pad: (cols, rows) => [Math.floor((cols - 13) / 2), Math.floor((rows - 21) / 2)] },
+  tall: { minCols: 13, maxCols: 13, minRows: 21, aspect: 1.08, letters: (co, ro) => [["T", ro, 1 + co], ["A", ro, 7 + co], ["S", 7 + ro, 1 + co], ["T", 7 + ro, 7 + co], ["E", 14 + ro, 4 + co]], pad: (cols, rows) => [Math.floor((cols - 13) / 2), Math.floor((rows - 21) / 2)] },
 };
 const STAR = ["stripe-press-landing", "playdate-landing", "kagi-pricing", "hey-landing", "lindy-landing", "netlify-landing", "duolingo-landing", "oatly-landing", "glossier-landing", "panic-landing", "cosmos-landing", "anthropic-landing", "basecamp-landing", "tailscale-landing", "mailchimp-landing", "notion-landing"];
 const esc = (s: unknown) => String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[c] as string);
@@ -165,7 +165,7 @@ export function Mosaic({ tiles }: { tiles: Tile[] }) {
         <div className="hero-side">
           <p className="tile-info" id="tile-info" aria-live="polite">
             <span className="ti-n" ref={nRef}><span className="n-all">{tiles.length}</span></span>
-            <span ref={textRef}>pages, one per tile. Hover any of them.</span>
+            <span ref={textRef}>pages, one per tile. <span className="on-hover">Hover</span><span className="on-touch">Tap</span> any of them.</span>
           </p>
           <div className="actions">
             <Link className="btn btn-ink btn-lg" href="/library">Browse the library</Link>
