@@ -178,7 +178,7 @@ def remove_banners(page: Page) -> None:
     )
 
 
-def tidy_page(page: Page) -> None:
+def tidy_page(page: Page, max_height: int = 6000) -> None:
     for label in REFUSE_LABELS:
         try:
             btn = page.get_by_role("button", name=label, exact=True)
@@ -192,13 +192,14 @@ def tidy_page(page: Page) -> None:
     remove_banners(page)
     # Scroll down and back so lazy images and reveal animations settle.
     page.evaluate(
-        """async () => {
+        """async (maxH) => {
           const step = innerHeight * 0.8;
-          for (let y = 0; y < Math.min(document.body.scrollHeight, 6000); y += step) {
+          for (let y = 0; y < Math.min(document.body.scrollHeight, maxH); y += step) {
             scrollTo(0, y); await new Promise(r => setTimeout(r, 120));
           }
           scrollTo(0, 0);
-        }"""
+        }""",
+        max_height,  # only what the screenshot keeps (plus one screen for lazy loads)
     )
     page.wait_for_timeout(2500)  # let entrance animations finish
     # Some banners only appear once the visitor scrolls.
@@ -206,7 +207,11 @@ def tidy_page(page: Page) -> None:
 
 
 def shoot(page: Page, max_height: int, max_width: int, out: Path) -> tuple[int, int]:
-    png = page.screenshot(full_page=True, animations="disabled")
+    # Render only the part that is kept: a 12000px page rendered whole, then cropped, cost
+    # most of the CPU of a capture on a 2-core machine.
+    full_h = page.evaluate("() => Math.max(document.documentElement.scrollHeight, document.body ? document.body.scrollHeight : 0)")
+    clip = {"x": 0, "y": 0, "width": max_width, "height": max(1, min(full_h, max_height))}
+    png = page.screenshot(full_page=True, clip=clip, animations="disabled")
     img = Image.open(io.BytesIO(png)).convert("RGB")
     # Pages that overflow sideways would otherwise come out wider than the screen.
     if img.height > max_height or img.width > max_width:
@@ -238,6 +243,19 @@ LAUNCH_ARGS = [
     "--renderer-process-limit=2", "--js-flags=--max-old-space-size=384",
     "--disable-background-networking", "--disable-features=Translate,MediaRouter",
 ]
+# Analytics, session replay and chat widgets: they keep the network busy (networkidle never
+# comes) and the chat bubbles end up on the screenshot. Resolved to nothing, at no cost per request.
+BLOCKED_HOSTS = [
+    "google-analytics.com", "*.google-analytics.com", "googletagmanager.com", "*.googletagmanager.com",
+    "*.doubleclick.net", "connect.facebook.net", "*.hotjar.com", "*.hotjar.io", "*.fullstory.com",
+    "*.segment.com", "*.segment.io", "*.mixpanel.com", "*.amplitude.com", "*.heap.io", "*.heapanalytics.com",
+    "*.clarity.ms", "*.posthog.com", "*.intercom.io", "*.intercomcdn.com", "widget.intercom.io",
+    "*.crisp.chat", "*.drift.com", "*.driftt.com", "js.hs-scripts.com", "js.usemessages.com",
+    "js.hs-analytics.net", "*.tawk.to", "*.zdassets.com", "*.zopim.com", "static.ads-twitter.com",
+    "snap.licdn.com", "*.tiktok.com", "*.bing.com", "*.reddit.com", "*.linkedin.com", "*.quora.com",
+    "*.sentry.io", "*.datadoghq-browser-agent.com", "*.newrelic.com", "*.nr-data.net",
+]
+LAUNCH_ARGS.append("--host-resolver-rules=" + ", ".join(f"MAP {h} ~NOTFOUND" for h in BLOCKED_HOSTS))
 RESTART_EVERY = 8  # a long-lived browser keeps growing; a fresh one every few sites stays small
 
 
@@ -278,10 +296,11 @@ def capture(entry: dict, browser) -> dict:
         try:
             page.goto(url, wait_until="domcontentloaded", timeout=45000)
             try:
-                page.wait_for_load_state("networkidle", timeout=12000)
+                page.wait_for_load_state("load", timeout=15000)
+                page.wait_for_load_state("networkidle", timeout=6000)
             except Exception:
                 pass
-            tidy_page(page)
+            tidy_page(page, max_h + viewport["height"])
             if name == "desktop":
                 result["tokens"] = page.evaluate(TOKENS_JS)
             file = SCREENS / f"{sid}-{name}.jpg"

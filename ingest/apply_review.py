@@ -64,12 +64,13 @@ def main() -> None:
             staged |= {x["id"]: x for x in json.loads(st.read_text())}
     lock = open(INDEX.with_suffix(".lock"), "w")
     fcntl.flock(lock, fcntl.LOCK_EX)
-    idx = json.loads(INDEX.read_text())
-    have_ids = {x["id"] for x in idx}
-    idx += [x for i, x in staged.items() if i not in have_ids and i in entries]
-    ids = {x["id"] for x in idx}
     drop_ids = {resolve(s): r for s, r in drop.items() if resolve(s)}
     keep_ids = {resolve(s): v for s, v in keep.items() if resolve(s)}
+    idx = json.loads(INDEX.read_text())
+    have_ids = {x["id"] for x in idx}
+    # only kept screens enter the library; a batch can be reviewed in several passes
+    idx += [x for i, x in staged.items() if i not in have_ids and i in keep_ids]
+    ids = {x["id"] for x in idx} | set(staged)
     unknown = [s for s in list(keep) + list(drop) if not resolve(s)]
     if unknown:
         sys.exit(f"unknown slugs: {unknown}")
