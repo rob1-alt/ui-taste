@@ -9709,5 +9709,84 @@
    "tennis"
   ],
   "note": "A player sitting on a bench against a red clay court wall, a serif paragraph about the state of the sport, then the products on white. A tennis brand shot like a magazine story, products after the mood."
+ },
+ {
+  "site": "Adaline",
+  "type": "landing",
+  "url": "https://www.adaline.ai",
+  "tags": [
+   "cream",
+   "painterly-landscape",
+   "mono-labels",
+   "ascii-texture",
+   "ai-agents"
+  ],
+  "note": "A painted valley and cliffs fill the product section, with a faint ASCII trace beside a small headline. An agent-monitoring tool takes the calm of a landscape painting instead of a dashboard."
+ },
+ {
+  "site": "GOOD Meat",
+  "type": "landing",
+  "url": "https://goodmeat.co",
+  "tags": [
+   "orange",
+   "split-hero",
+   "supermarket-photo",
+   "heavy-headline",
+   "food-tech"
+  ],
+  "note": "A full orange block with 'GOOD Meat at the butchery.' next to a photo of a shopper at the meat counter. Lab-grown meat sold as already normal, in a real shop."
+ },
+ {
+  "site": "Clue Perfumery",
+  "type": "landing",
+  "url": "https://www.clueperfumery.com",
+  "tags": [
+   "cream",
+   "giant-retro-script",
+   "flower-photo",
+   "serif-questions",
+   "perfume"
+  ],
+  "note": "A heavy retro script wordmark sits above a dandelion field photo with the bottle in it and the question 'Do you like butter?'. A perfume named for a scent leads with the scent's image and a playful question."
+ },
+ {
+  "site": "Florentine Kitchen Knives",
+  "type": "landing",
+  "url": "https://www.florentinekitchenknives.com",
+  "tags": [
+   "light",
+   "hands-photo",
+   "knife-on-colour",
+   "product-tiles",
+   "craft"
+  ],
+  "note": "Hands cutting tomatoes, then each knife laid on its own saturated background (red, blue). A craft brand pairs process photos with flat colour product shots."
+ },
+ {
+  "site": "SOHN",
+  "type": "landing",
+  "url": "http://sohnmusic.com",
+  "tags": [
+   "dark",
+   "golden-water-photo",
+   "yellow-mono-caps",
+   "album-release",
+   "video-embed"
+  ],
+  "note": "A full-width photo of golden light on water, the new album announced in yellow mono caps, then the film and a yellow sign-up block. A musician's release page in two colours taken from the cover."
+ },
+ {
+  "site": "worklife.",
+  "type": "landing",
+  "url": "https://www.worklife.vc",
+  "tags": [
+   "light",
+   "pinned-photos",
+   "drawn-strings",
+   "tan-panel",
+   "news-ticker",
+   "venture-fund"
+  ],
+  "note": "Four photos of people working from home hang on hand-drawn strings over a tan panel, beside a plain-spoken manifesto. A VC fund shows the life it invests in, scrapbook style."
  }
 ]

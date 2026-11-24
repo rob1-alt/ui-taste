@@ -808,3 +808,45 @@ https://huehaus.design	only the wordmark renders
 https://link-kit.com	sign-up modal
 https://honest.fi	only the hero renders
 https://www.tayte.co	work previews never load
+https://www.airvoir.com	bot wall (prefilter)
+https://os.foundation.app	broken (URLError) (prefilter)
+https://clay.earth	bot wall (prefilter)
+https://pad.dotincorp.com	redirects off-site (dotincorp.com:443) (prefilter)
+https://okbye.io	broken (URLError) (prefilter)
+https://opalcamera.com	redirects off-site (op.al) (prefilter)
+http://contempt.studio	bot wall (cloudflare) (prefilter)
+https://sneaker.de	sale takeover (prefilter)
+http://www.brandlab.no	broken (URLError) (prefilter)
+http://creativeda.sh	bot wall (prefilter)
+https://dekks.app	redirects off-site (maas.engineering) (prefilter)
+https://this.work	broken (URLError) (prefilter)
+https://ruigrokvanderwerven.com	broken (URLError) (prefilter)
+https://bir.ch	blank capture
+http://kaltpresse.de	blank capture
+https://of.domains	blank capture
+https://tars.pro	blank capture
+https://www.agora.xyz	generic
+https://www.amra.com	only the hero renders
+https://www.canvas.supply	discount popup
+https://www.commongoodcocktailhouse.com	only partly renders
+https://brand.dropbox.com	cookie modal
+https://www.tryenso.com	only the hero renders
+https://euveka.com	scroll-to-reveal, empty
+https://figr.design	generic
+https://www.hook.xyz	shutdown notice
+https://www.june.so	shutdown letter, not a landing
+https://usekernel.com	domain now a casino page
+https://lalospirits.com	age gate
+https://logical.so	generic
+https://www.new-gen.ai	generic
+https://www.pampam.city	generic
+https://regpit.com/de	generic saas
+https://revitin.com	black friday takeover
+https://sgustokmusic.org	only partly renders
+https://takeprofit.com	generic dark
+https://tatem.com	only the hero renders
+https://theinnerwebs.com	only the hero renders
+http://www.3kvc.com	only the hero renders
+https://tworobbers.com	generic commerce
+https://www.theplaya.solutions	capture hung
+https://www.varzea.co	capture failed
