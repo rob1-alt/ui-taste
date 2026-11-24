@@ -11837,19 +11837,6 @@
   "note": "A periwinkle page with a long statement starting with an asterisk, then bright product tiles (Bubble trouble, Just add fizz). A brand studio that lets one unusual background colour carry it."
  },
  {
-  "site": "Fabra Comunicación",
-  "type": "landing",
-  "url": "https://fabracomunicacion.com",
-  "tags": [
-   "light",
-   "giant-wordmark",
-   "bw-studio-photo",
-   "big-caps-menu",
-   "communication-agency"
-  ],
-  "note": "'FABRA' in huge black type above a black-and-white studio photo, then a black menu panel listing sections in large caps. An agency whose nav is half the homepage."
- },
- {
   "site": "Fora",
   "type": "landing",
   "url": "https://www.fora-concept.com",
@@ -11951,19 +11938,6 @@
   "note": "A photo of hands holding a printed poster in the dark, then projects as large photos with plain captions and a bold statement. An art-direction studio leading with physical print."
  },
  {
-  "site": "République Studio",
-  "type": "landing",
-  "url": "https://www.republique.studio",
-  "tags": [
-   "light",
-   "orange-poster-map",
-   "line-drawing",
-   "urban-project",
-   "architecture-graphic"
-  ],
-  "note": "An orange poster with a white line drawing of Paris arrondissements and handwritten-like labels. A studio project shown as a single printed poster."
- },
- {
   "site": "Studio GD",
   "type": "landing",
   "url": "https://www.studiogd.dk",
@@ -11975,5 +11949,18 @@
    "motion-studio"
   ],
   "note": "A lilac block of horizontal gradient stripes behind a blue 'CPH' parallelogram, then a long statement in grey with the first words in black. A motion studio whose hero is a moving stripe field."
+ },
+ {
+  "site": "République Studio",
+  "type": "landing",
+  "url": "https://www.republique.studio",
+  "tags": [
+   "light",
+   "orange-poster-map",
+   "line-drawing",
+   "urban-project",
+   "architecture-graphic"
+  ],
+  "note": "An orange poster with a white line drawing of Paris arrondissements and handwritten-like labels. A studio project shown as a single printed poster."
  }
 ]
