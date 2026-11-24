@@ -1,6 +1,7 @@
 // Numbers computed from the measured values of every page, at build time.
 import { lum } from "@/lib/format";
 import type { Item } from "@/lib/types";
+import { SectionHead } from "@/components/landing/SectionHead";
 
 const med = (arr: number[]) => { const s = arr.slice().sort((x, y) => x - y); return s.length ? s[Math.floor(s.length / 2)] : 0; };
 const pct = (n: number, d: number) => Math.round((n / d) * 100);
@@ -40,10 +41,7 @@ export function Stats({ items }: { items: Item[] }) {
   ];
   return (
     <section className="numbers" id="numbers">
-      <header className="head">
-        <h2>What <span className="n-all">{LIB.length}</span> good pages have in common</h2>
-        <p className="head-lede">Computed from the values measured on every page of the library. They are what the skill steers Claude toward, and a few of them are not what you would guess.</p>
-      </header>
+      <SectionHead n={4} label="Numbers" title={`What ${LIB.length} pages agree on`} lede="Computed from the values measured on every page of the library. They are what the skill steers Claude toward, and a few of them are not what you would guess." />
       <div className="stats" id="stats">
         {STATS.map((s) => (
           <div className="stat" key={s.k}>

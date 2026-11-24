@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { useState } from "react";
 import { libraryHref, opt, TYPE, typeLabel } from "@/lib/format";
+import { SectionHead } from "@/components/landing/SectionHead";
 
 export type Row = { id: string; site: string; type: string; note: string; thumb: string; font: string; pal: string[]; h1: number | null };
 const SHORT: Record<string, string> = { ...TYPE, landing: "Landing", product: "Product", "404": "404" };
@@ -18,10 +19,7 @@ export function IndexRows({ rows, sites }: { rows: Row[]; sites: number }) {
   const shown = expanded ? list : list.slice(0, PAGE);
   return (
     <section className="index" id="index">
-      <header className="head">
-        <h2>The index</h2>
-        <p className="head-lede"><span id="n-rows">{list.length}</span> pages from <span id="n-sites">{sites}</span> products, each on desktop and mobile, each with the values read from the live page.</p>
-      </header>
+      <SectionHead n={5} label="Index" title="Every page, measured" lede={<><span id="n-rows">{list.length}</span> pages from <span id="n-sites">{sites}</span> products, each on desktop and mobile, each with the values read from the live page.</>} />
       <div className="filters" id="filters" role="tablist" aria-label="Page type">
         {[["all", rows.length] as const, ...types.map((t) => [t, counts[t]] as const)].map(([t, n]) => (
           <button key={t} type="button" role="tab" data-type={t} aria-selected={t === type} onClick={() => { setType(t); setExpanded(false); }}>

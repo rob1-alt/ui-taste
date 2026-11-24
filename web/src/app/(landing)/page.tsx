@@ -15,6 +15,7 @@ import { cleanFont, isLight, opt, palette, typeLabel } from "@/lib/format";
 import { getLibrary, libraryCounts } from "@/lib/library";
 import { SPEC_IDS } from "@/lib/specs";
 import type { Tile } from "@/lib/types";
+import { SectionHead } from "@/components/landing/SectionHead";
 
 // a first row of strong, varied pages in the index; the rest follows alphabetically
 const FIRST = ["stripe-press-landing", "linear-pricing", "playdate-landing", "anthropic-landing", "teenage-engineering-landing", "obsidian-landing", "kagi-pricing", "pentagram-landing", "vercel-geist-overview", "lindy-landing", "hey-landing", "cognition-landing"];
@@ -94,10 +95,7 @@ export default function Landing() {
         <IndexRows rows={rows} sites={counts.sites} />
 
         <section className="review" id="review">
-          <header className="head">
-            <h2>Fix the slop</h2>
-            <p className="head-lede">This is the page agents build by default. Each line of the review checklist fixes one habit. Tick them, or let Claude do all of it.</p>
-          </header>
+          <SectionHead n={6} label="Review" title="Fix the slop" lede="This is the page agents build by default. Each line of the review checklist fixes one habit. Tick them, or let Claude do all of it." />
           <Fixer />
           <Checklist />
         </section>

@@ -3,6 +3,7 @@
 // The demos replay real data: the search results, tokens and image are the library's own.
 import { useEffect, useState } from "react";
 import { useInView } from "./useInView";
+import { SectionHead } from "@/components/landing/SectionHead";
 
 export type SearchHit = { id: string; site: string; type: string; why: string; thumb: string; pal: string[] };
 export type Measured = { id: string; site: string; thumb: string; chips: { x: number; y: number; label: string }[] };
@@ -103,10 +104,7 @@ export function Tools({ hits, measured, total }: { hits: SearchHit[]; measured: 
   ];
   return (
     <section className="toolset" id="tools">
-      <header className="head">
-        <h2>What it does</h2>
-        <p className="head-lede">Three tools Claude runs on its own, and a review it runs on everything it renders. Each one below replays real data from the library.</p>
-      </header>
+      <SectionHead n={2} label="Tools" title="Looks first. Builds second." lede="Three tools Claude runs on its own. Each demo below replays real data from the library: the search, the measurements, the image." />
       <div className="tool-rows">
         {rows.map((r) => (
           <article className="tool" key={r.k}>
