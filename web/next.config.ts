@@ -11,10 +11,6 @@ const config: NextConfig = {
     imageSizes: [96, 120, 150, 260, 360, 480, 720],
     minimumCacheTTL: 60 * 60 * 24 * 30,
   },
-  async headers() {
-    // the site is not meant to be found yet; drop this header with the noindex meta when launching
-    return [{ source: "/(.*)", headers: [{ key: "X-Robots-Tag", value: "noindex, nofollow" }] }];
-  },
   async redirects() {
     return [
       { source: "/index.html", destination: "/", permanent: true },

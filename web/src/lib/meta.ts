@@ -7,8 +7,7 @@ export const baseMetadata: Metadata = {
   metadataBase: new URL(BASE_URL),
   title: SITE_NAME,
   description: "taster, a Claude Code skill: real pages from products known for their design, measured on the live page, so the agent looks before it builds.",
-  // not meant to be found yet: remove with the X-Robots-Tag header in next.config.ts when launching
-  robots: { index: false, follow: false },
+  robots: { index: true, follow: true },
   icons: {
     icon: [{ url: "/brand/favicon.svg", type: "image/svg+xml" }, { url: "/brand/favicon-32.png", sizes: "32x32", type: "image/png" }],
     apple: "/brand/apple-touch-icon.png",

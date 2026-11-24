@@ -20,7 +20,7 @@ HN rewards a plain, specific post from the person who built the thing, a repo th
 - [ ] **CONTRIBUTING**: how to propose a site (the note must say what to learn, not describe), how to add a page type, how to run `site/build.py` and `readme_table.py`.
 - [ ] **Issues enabled**, a few good first issues open (sites to add, a page type, a `find_refs` improvement).
 - [ ] **Tag v0.1.0** and a GitHub Release with the video or a GIF.
-- [ ] **Site**: remove `noindex` when you are ready to be found; add an OG image (the logo on paper, 1200×630); add the GitHub link and the install block above the fold; show the plugin version.
+- [ ] **Site**: ~~remove `noindex`~~ (done, site indexable on uitaste.dev); add an OG image (the logo on paper, 1200×630); add the GitHub link and the install block above the fold; show the plugin version.
 - [ ] **Secrets and personal data**: grep for emails, tokens, `.vercel`, absolute `/home/rob/` paths in docs and in `index.json` (`find_refs` prints absolute paths; that is fine at runtime, not in committed docs).
 
 ## The post

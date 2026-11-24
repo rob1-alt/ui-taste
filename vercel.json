@@ -1,4 +1,9 @@
 {
-  "redirects": [{ "source": "/", "destination": "/site/", "permanent": false }],
-  "headers": [{ "source": "/(.*)", "headers": [{ "key": "X-Robots-Tag", "value": "noindex, nofollow" }] }]
+  "redirects": [
+    {
+      "source": "/",
+      "destination": "/site/",
+      "permanent": false
+    }
+  ]
 }
