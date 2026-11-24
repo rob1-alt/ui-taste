@@ -4,7 +4,8 @@
 #   ingest/commit_batch.sh "library: <n> landing pages (batch N: ...), <what the skill learned>"
 set -e
 cd "$(dirname "$0")/.."
-git add -u
+# only library paths: other work (web/, launch/) may be in progress in the same tree
+git add -u skills/ui-taste/library
 git add ingest site skills/ui-taste/references skills/ui-taste/scripts skills/ui-taste/SKILL.md README.md docs 2>/dev/null || true
 python3 - <<'PY' | xargs -r git add --
 import json, pathlib
