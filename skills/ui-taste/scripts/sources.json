@@ -11586,5 +11586,217 @@
    "ad-archive"
   ],
   "note": "Each entry is a campaign photo (billboards, hoardings) with a serif title and a short critical note. An advertising archive written like a museum label."
+ },
+ {
+  "site": "Arkitektkontoret Vest",
+  "type": "landing",
+  "url": "https://arkitektkontoretvest.no",
+  "tags": [
+   "beige",
+   "scattered-project-photos",
+   "project-years",
+   "architecture"
+  ],
+  "note": "Project photos of different sizes scattered down a beige page, each with its name and years in small grey type. An architecture office's work laid out like prints on a table."
+ },
+ {
+  "site": "basement.studio",
+  "type": "landing",
+  "url": "https://basement.studio",
+  "tags": [
+   "dark",
+   "arcade-room-photo",
+   "bold-statement",
+   "logo-wall-grid",
+   "studio"
+  ],
+  "note": "A dark photo of the studio's own arcade-like room, a blunt statement ('making cool shit that performs'), then a dense grid of client logos in black cells. A studio that shows its space and its clients, nothing else."
+ },
+ {
+  "site": "Bleed",
+  "type": "landing",
+  "url": "https://bleed.com",
+  "tags": [
+   "light",
+   "repeated-word-specimen",
+   "letter-a-column",
+   "design-studio"
+  ],
+  "note": "'Ambassaden' repeated in a column of growing weights, a single 'A' beside each line. A studio homepage that reads like a type specimen."
+ },
+ {
+  "site": "Company Policy",
+  "type": "landing",
+  "url": "https://www.companypolicy.studio",
+  "tags": [
+   "light",
+   "large-serif-statement",
+   "inline-logo-icon",
+   "italic-tagline",
+   "project-cards"
+  ],
+  "note": "One large serif paragraph with the company's blue logo set inline after its name and the tagline 'design brands that make you feel' in italic, then project cards. A studio whose statement is the whole hero."
+ },
+ {
+  "site": "Driftime®",
+  "type": "landing",
+  "url": "https://driftime.com",
+  "tags": [
+   "dark",
+   "giant-condensed-caps",
+   "device-mockups",
+   "orange-section-title",
+   "impact-studio"
+  ],
+  "note": "'THE GUIDE TO YOUR HERO™' in heavy condensed caps over black, project screens, then 'STRATEGY' in huge orange caps. An impact agency with the confidence of a sports brand."
+ },
+ {
+  "site": "ForAI",
+  "type": "landing",
+  "url": "https://forai.design",
+  "tags": [
+   "light",
+   "chrome-3d-renders",
+   "centred-title",
+   "ai-studio"
+  ],
+  "note": "A chrome 3D blob under 'Design ForAI', then selected works as silver renders on grey. A design studio for AI companies with a single material: chrome."
+ },
+ {
+  "site": "General Idea",
+  "type": "landing",
+  "url": "https://generalidea.agency",
+  "tags": [
+   "black-and-white",
+   "giant-condensed-type",
+   "cropped-letters",
+   "branding-agency"
+  ],
+  "note": "'ART&F' in huge condensed black letters cropped off the screen, then a short statement. An agency that lets one huge piece of type be the whole first screen."
+ },
+ {
+  "site": "Giorgos Papadakis",
+  "type": "landing",
+  "url": "https://giorgospapadakis.com",
+  "tags": [
+   "dark",
+   "outlined-monogram",
+   "inline-lines",
+   "designer"
+  ],
+  "note": "A huge monogram 'GP' drawn in parallel outline lines on black. A designer's identity shown as the hero, nothing else."
+ },
+ {
+  "site": "Inga Israel",
+  "type": "landing",
+  "url": "http://ingaisrael.de",
+  "tags": [
+   "light",
+   "illustration-grid",
+   "colourful-editorial-art",
+   "illustrator"
+  ],
+  "note": "A grid of bright editorial illustrations with tiny captions, no hero text. An illustrator lets the work fill the page."
+ },
+ {
+  "site": "Neverland Space",
+  "type": "landing",
+  "url": "http://neverlandspace.com",
+  "tags": [
+   "light",
+   "scattered-digital-art",
+   "serif-titles",
+   "online-exhibitions"
+  ],
+  "note": "Digital artworks scattered across white with serif titles and artist names beneath, one title struck through ('Never Say Never'). An online gallery hung like a salon wall."
+ },
+ {
+  "site": "newkid",
+  "type": "landing",
+  "url": "https://newkid.services",
+  "tags": [
+   "dark",
+   "bw-street-photo",
+   "highlighted-label",
+   "case-grid",
+   "creative-company"
+  ],
+  "note": "A black-and-white street photo with a small white label 'Meet newkid® — a creative company for brands who want to be somebody', then a case grid. A brand statement set as a caption on a photo."
+ },
+ {
+  "site": "Poch Studio",
+  "type": "landing",
+  "url": "https://poch.studio",
+  "tags": [
+   "dark",
+   "inline-icon-in-sentence",
+   "centred-statement",
+   "project-list"
+  ],
+  "note": "'We are Poch, a design studio of few friends with endless (∞) skills and ideas.' with a drawn infinity loop inside brackets. A studio that puts a doodle in the middle of its sentence."
+ },
+ {
+  "site": "Sam Thies",
+  "type": "landing",
+  "url": "https://samthies.com",
+  "tags": [
+   "light",
+   "road-photo-hero",
+   "mono-captions",
+   "photo-grid",
+   "photographer"
+  ],
+  "note": "A wide desert road through a windscreen, then a mosaic of small photos with mono captions. A photographer's site that opens on one road."
+ },
+ {
+  "site": "Shed",
+  "type": "landing",
+  "url": "https://shed.design",
+  "tags": [
+   "red-and-green",
+   "giant-white-caps",
+   "interior-photo",
+   "colour-architecture"
+  ],
+  "note": "'THIS IS SHED' in huge white caps over a photo of a red and green bathroom they designed. An interiors studio whose name sits inside its own work."
+ },
+ {
+  "site": "Studio Rodrigo",
+  "type": "landing",
+  "url": "http://studiorodrigo.com",
+  "tags": [
+   "light",
+   "glyph-wordmark",
+   "icon-letters",
+   "service-list",
+   "strategy-studio"
+  ],
+  "note": "'RODRIGO' spelled with icon-like glyphs (a starburst, a square, dots), then a statement and a ruled list of sectors. A studio name built from its own visual language."
+ },
+ {
+  "site": "The Avery Review",
+  "type": "landing",
+  "url": "http://averyreview.com",
+  "tags": [
+   "light",
+   "author-title-list",
+   "serif-and-caps",
+   "yellow-tab",
+   "essay-journal"
+  ],
+  "note": "The homepage is the issue's list of essays, each author in spaced caps and title in serif, with a yellow side tab. An architecture journal whose cover is its contents."
+ },
+ {
+  "site": "Tonemaki™",
+  "type": "landing",
+  "url": "https://www.tonemaki.com",
+  "tags": [
+   "dark-and-cream",
+   "giant-orange-caps",
+   "3d-mascot",
+   "start-button",
+   "branding-agency"
+  ],
+  "note": "'LEAVE GENERIC DESIGN BEHIND.' in heavy orange caps, a 3D cat mascot, then a big 3D 'START' button. An agency pitch with the energy of a game title screen."
  }
 ]

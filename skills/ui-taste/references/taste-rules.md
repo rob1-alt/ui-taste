@@ -167,6 +167,8 @@ The studios in the library (Bureau Borsche, Zak Group, Sagmeister, Gretel, Porto
 
 Take: for a portfolio, lead with one large piece of real work and its name, then an index (grid or text table). The studio's statement, if any, fits in one sentence.
 
+When the studio does write its sentence, it can carry a mark of the identity: Company Policy sets its blue logo inline after its name, Poch draws an infinity loop inside brackets in the middle of 'endless (∞) skills', newkid sets its whole pitch as a small white caption label on a street photo, and Studio Rodrigo spells its name with its own icon glyphs.
+
 Architecture offices push the same idea further: Spine Architects sets 'Spine Architects / Projects, About, Contact' as one huge headline, the name and the menu in the same line of type; Kaan's nav is set large as the page's main typography; Ted Synnott and Marazzi Reinhardt list each work as a ruled row (name, place, year, one photo), a catalogue raisonné rather than a showreel.
 
 ## 19. Personal sites: one sentence and one move

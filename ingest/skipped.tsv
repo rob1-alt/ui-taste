@@ -1280,3 +1280,44 @@ https://thenewworkproject.com	generic, modal, error or partial render
 https://tornqvistcoffee.com	generic, modal, error or partial render
 http://campbell-rey.com	only the first screen renders
 https://www.volkshaus.ch	only the first screen renders
+https://combo.nyc	broken (URLError) (prefilter)
+https://thisworks.co	broken (URLError) (prefilter)
+https://enshittification.caps-dstudio.com	broken (URLError) (prefilter)
+https://clasebcn.com	broken (RemoteDisconnected) (prefilter)
+https://www.studiothomas.co.uk	redirects off-site (gueststudio.co) (prefilter)
+https://ericandtodd.com	bot wall (cloudflare) (prefilter)
+https://jinsupark.com	broken (http 404) (prefilter)
+https://chrisshu.com	broken (http 404) (prefilter)
+http://groteskstudio.com	redirects off-site (grotesk.studio) (prefilter)
+https://hackie-techie.com	bot wall (cloudflare) (prefilter)
+https://storyhouseagency.co.uk	broken (URLError) (prefilter)
+http://www.gyormoore.com	redirects off-site (figma.com) (prefilter)
+https://www.designbyoffset.com	bot wall (prefilter)
+https://www.waxyweb.agency	bot wall (cloudflare) (prefilter)
+https://www.jasonbergh.com	generic, modal, error or partial render
+https://moxey.no	generic, modal, error or partial render
+http://mutanz.com	generic, modal, error or partial render
+https://www.letsplayfight.com	generic, modal, error or partial render
+http://tchilingarian.de	generic, modal, error or partial render
+https://www.seventeenagency.com	generic, modal, error or partial render
+http://www.chylak.com	generic, modal, error or partial render
+http://ofanother.com	generic, modal, error or partial render
+https://artem.vyraz.studio	generic, modal, error or partial render
+https://artemartemartem.com	generic, modal, error or partial render
+https://artemiilebedev.com	generic, modal, error or partial render
+http://beyondthispoint.design	generic, modal, error or partial render
+https://danilosierra.com	generic, modal, error or partial render
+https://www.eleken.co	generic, modal, error or partial render
+https://www.eltonjohn.com	generic, modal, error or partial render
+http://www.jamiexx.com	generic, modal, error or partial render
+https://kaiblamey.com	generic, modal, error or partial render
+https://melodydigital.co	generic, modal, error or partial render
+https://www.minwookshin.com	generic, modal, error or partial render
+https://newapology.com	generic, modal, error or partial render
+http://nudot.com.tw	generic, modal, error or partial render
+https://www.philipreadman.com	generic, modal, error or partial render
+https://www.rorystiff.co.uk	generic, modal, error or partial render
+https://stagecrew.studio	generic, modal, error or partial render
+http://sundaysupply.co	generic, modal, error or partial render
+https://www.voyeurverite.com	generic, modal, error or partial render
+https://greymac.com	capture failed

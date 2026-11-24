@@ -15051,6 +15051,55 @@
     }
   },
   {
+    "id": "arkitektkontoret-vest-landing",
+    "site": "Arkitektkontoret Vest",
+    "url": "https://arkitektkontoretvest.no",
+    "type": "landing",
+    "tags": [
+      "beige",
+      "scattered-project-photos",
+      "project-years",
+      "architecture"
+    ],
+    "note": "Project photos of different sizes scattered down a beige page, each with its name and years in small grey type. An architecture office's work laid out like prints on a table.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/arkitektkontoret-vest-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/arkitektkontoret-vest-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Arkitektkontoret Vest",
+      "fonts": [
+        "bastardo"
+      ],
+      "type": {
+        "h1": null,
+        "h2": null,
+        "h3": null,
+        "body": null
+      },
+      "colors": {
+        "background": "#f5f2ed",
+        "surfaces": [
+          "#f5f2ed"
+        ],
+        "text": [
+          "#343434"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": null
+    }
+  },
+  {
     "id": "asana-landing",
     "site": "Asana",
     "url": "https://asana.com",
@@ -16554,6 +16603,89 @@
     }
   },
   {
+    "id": "basement-studio-landing",
+    "site": "basement.studio",
+    "url": "https://basement.studio",
+    "type": "landing",
+    "tags": [
+      "dark",
+      "arcade-room-photo",
+      "bold-statement",
+      "logo-wall-grid",
+      "studio"
+    ],
+    "note": "A dark photo of the studio's own arcade-like room, a blunt statement ('making cool shit that performs'), then a dense grid of client logos in black cells. A studio that shows its space and its clients, nothing else.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/basement-studio-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/basement-studio-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "basement.studio | We make cool shit that performs.",
+      "fonts": [
+        "Geist",
+        "Geist Mono"
+      ],
+      "type": {
+        "h1": {
+          "font": "Geist",
+          "size": 87,
+          "weight": "600",
+          "lineHeight": 0.9,
+          "letterSpacing": "-3.48px",
+          "color": "rgb(230, 230, 230)"
+        },
+        "h2": {
+          "font": "Geist",
+          "size": 24,
+          "weight": "600",
+          "lineHeight": 1,
+          "letterSpacing": "-0.72px",
+          "color": "rgb(117, 117, 117)"
+        },
+        "h3": {
+          "font": "Geist",
+          "size": 20,
+          "weight": "600",
+          "lineHeight": 1,
+          "letterSpacing": "-0.4px",
+          "color": "rgb(230, 230, 230)"
+        },
+        "body": {
+          "font": "Geist",
+          "size": 13,
+          "weight": "600",
+          "lineHeight": 1.23,
+          "letterSpacing": "normal",
+          "color": "rgb(230, 230, 230)"
+        }
+      },
+      "colors": {
+        "background": "#000000",
+        "surfaces": [
+          "#000000",
+          "#ff4d00"
+        ],
+        "text": [
+          "#e6e6e6",
+          "#757575",
+          "#c4c4c4",
+          "#ff4d00"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": null
+    }
+  },
+  {
     "id": "baseten-landing",
     "site": "Baseten",
     "url": "https://www.baseten.co",
@@ -17595,6 +17727,71 @@
       },
       "buttons": [],
       "contentWidth": 1080
+    }
+  },
+  {
+    "id": "bleed-landing",
+    "site": "Bleed",
+    "url": "https://bleed.com",
+    "type": "landing",
+    "tags": [
+      "light",
+      "repeated-word-specimen",
+      "letter-a-column",
+      "design-studio"
+    ],
+    "note": "'Ambassaden' repeated in a column of growing weights, a single 'A' beside each line. A studio homepage that reads like a type specimen.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/bleed-landing-desktop.jpg",
+        "width": 1440,
+        "height": 900
+      },
+      "mobile": {
+        "file": "screens/bleed-landing-mobile.jpg",
+        "width": 390,
+        "height": 844
+      }
+    },
+    "tokens": {
+      "title": "Bleed Design Studio",
+      "fonts": [
+        "IBM Plex Mono",
+        "sans-serif",
+        "SuisseIntl-Medium-WebXL ¶"
+      ],
+      "type": {
+        "h1": {
+          "font": "SuisseIntl-Medium-WebXL ¶",
+          "size": 22,
+          "weight": "400",
+          "lineHeight": 1,
+          "letterSpacing": "normal",
+          "color": "rgb(255, 255, 255)"
+        },
+        "h2": null,
+        "h3": null,
+        "body": {
+          "font": "IBM Plex Mono",
+          "size": 13,
+          "weight": "400",
+          "lineHeight": 1.4,
+          "letterSpacing": "normal",
+          "color": "rgb(255, 255, 255)"
+        }
+      },
+      "colors": {
+        "background": "#000000",
+        "surfaces": [
+          "#000000"
+        ],
+        "text": [
+          "#ffffff"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": null
     }
   },
   {
@@ -22560,6 +22757,77 @@
     }
   },
   {
+    "id": "company-policy-landing",
+    "site": "Company Policy",
+    "url": "https://www.companypolicy.studio",
+    "type": "landing",
+    "tags": [
+      "light",
+      "large-serif-statement",
+      "inline-logo-icon",
+      "italic-tagline",
+      "project-cards"
+    ],
+    "note": "One large serif paragraph with the company's blue logo set inline after its name and the tagline 'design brands that make you feel' in italic, then project cards. A studio whose statement is the whole hero.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/company-policy-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/company-policy-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Company Policy",
+      "fonts": [
+        "Zichtbaar",
+        "Fkrastergrotesktrial blended",
+        "Kleischll"
+      ],
+      "type": {
+        "h1": null,
+        "h2": {
+          "font": "Kleischll",
+          "size": 60,
+          "weight": "300",
+          "lineHeight": 1.05,
+          "letterSpacing": "-2.988px",
+          "color": "rgb(0, 0, 0)"
+        },
+        "h3": null,
+        "body": {
+          "font": "Zichtbaar",
+          "size": 20,
+          "weight": "600",
+          "lineHeight": 0.9,
+          "letterSpacing": "normal",
+          "color": "rgb(54, 103, 246)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#000000",
+          "#ffffff",
+          "#1f1d1e",
+          "#f6f6f6"
+        ],
+        "text": [
+          "#999999",
+          "#000000",
+          "#3667f6"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": null
+    }
+  },
+  {
     "id": "config-landing",
     "site": "Config",
     "url": "https://config.com",
@@ -26872,6 +27140,81 @@
       },
       "buttons": [],
       "contentWidth": 1040
+    }
+  },
+  {
+    "id": "driftime-landing",
+    "site": "Driftime®",
+    "url": "https://driftime.com",
+    "type": "landing",
+    "tags": [
+      "dark",
+      "giant-condensed-caps",
+      "device-mockups",
+      "orange-section-title",
+      "impact-studio"
+    ],
+    "note": "'THE GUIDE TO YOUR HERO™' in heavy condensed caps over black, project screens, then 'STRATEGY' in huge orange caps. An impact agency with the confidence of a sports brand.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/driftime-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/driftime-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Home | Driftime® - The Guide to your Hero™",
+      "fonts": [
+        "Geist",
+        "landour"
+      ],
+      "type": {
+        "h1": {
+          "font": "landour",
+          "size": 120,
+          "weight": "800",
+          "lineHeight": 0.9,
+          "letterSpacing": "normal",
+          "color": "lab(95.8929 0.0439584 2.67313)"
+        },
+        "h2": {
+          "font": "Geist",
+          "size": 24,
+          "weight": "400",
+          "lineHeight": 1.5,
+          "letterSpacing": "normal",
+          "color": "lab(95.8929 0.0439584 2.67313)"
+        },
+        "h3": {
+          "font": "Geist",
+          "size": 30,
+          "weight": "500",
+          "lineHeight": 1.4,
+          "letterSpacing": "-0.6px",
+          "color": "lab(95.8929 0.0439584 2.67313)"
+        },
+        "body": {
+          "font": "Geist",
+          "size": 24,
+          "weight": "400",
+          "lineHeight": 1.5,
+          "letterSpacing": "normal",
+          "color": "oklch(0.9215 0.0676 76.95)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [],
+        "text": []
+      },
+      "buttons": [],
+      "contentWidth": 1600
     }
   },
   {
@@ -32321,6 +32664,100 @@
     }
   },
   {
+    "id": "forai-landing",
+    "site": "ForAI",
+    "url": "https://forai.design",
+    "type": "landing",
+    "tags": [
+      "light",
+      "chrome-3d-renders",
+      "centred-title",
+      "ai-studio"
+    ],
+    "note": "A chrome 3D blob under 'Design ForAI', then selected works as silver renders on grey. A design studio for AI companies with a single material: chrome.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/forai-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/forai-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "ForAI | AI-Focused Design Studio",
+      "fonts": [
+        "Geist",
+        "Funnel Display Light",
+        "Geist Mono"
+      ],
+      "type": {
+        "h1": {
+          "font": "Funnel Display Light",
+          "size": 96,
+          "weight": "400",
+          "lineHeight": 1.2,
+          "letterSpacing": "-2.304px",
+          "color": "rgb(0, 0, 0)"
+        },
+        "h2": {
+          "font": "Funnel Display Light",
+          "size": 64,
+          "weight": "400",
+          "lineHeight": 1.2,
+          "letterSpacing": "-1.536px",
+          "color": "rgb(0, 0, 0)"
+        },
+        "h3": {
+          "font": "Geist",
+          "size": 14,
+          "weight": "400",
+          "lineHeight": 1.2,
+          "letterSpacing": "-0.448px",
+          "color": "rgb(0, 0, 0)"
+        },
+        "body": {
+          "font": "Funnel Display Medium",
+          "size": 20,
+          "weight": "400",
+          "lineHeight": 1,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#ffffff",
+          "#eeeeee",
+          "#000000"
+        ],
+        "text": [
+          "#000000",
+          "#ffffff"
+        ]
+      },
+      "buttons": [
+        {
+          "label": "Contact",
+          "bg": "#000000",
+          "color": "#0000ee",
+          "radius": "48px",
+          "height": 36,
+          "paddingX": 16,
+          "font": "sans-serif",
+          "size": 12,
+          "weight": "400"
+        }
+      ],
+      "contentWidth": 1440
+    }
+  },
+  {
     "id": "forms-landing",
     "site": "Forms",
     "url": "https://forms.supply",
@@ -33907,6 +34344,63 @@
     }
   },
   {
+    "id": "general-idea-landing",
+    "site": "General Idea",
+    "url": "https://generalidea.agency",
+    "type": "landing",
+    "tags": [
+      "black-and-white",
+      "giant-condensed-type",
+      "cropped-letters",
+      "branding-agency"
+    ],
+    "note": "'ART&F' in huge condensed black letters cropped off the screen, then a short statement. An agency that lets one huge piece of type be the whole first screen.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/general-idea-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/general-idea-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "General Idea - Luxury & Fashion Branding Agency",
+      "fonts": [
+        "teka"
+      ],
+      "type": {
+        "h1": null,
+        "h2": null,
+        "h3": null,
+        "body": {
+          "font": "teka",
+          "size": 46,
+          "weight": "700",
+          "lineHeight": 1,
+          "letterSpacing": "-2%",
+          "color": "rgb(0, 0, 0)"
+        }
+      },
+      "colors": {
+        "background": "#b1b1b1",
+        "surfaces": [
+          "#000000"
+        ],
+        "text": [
+          "#000000",
+          "#9c9c9c"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": null
+    }
+  },
+  {
     "id": "general-purpose-landing",
     "site": "General Purpose",
     "url": "https://generalpurpose.directory",
@@ -34303,6 +34797,62 @@
       },
       "buttons": [],
       "contentWidth": 1120
+    }
+  },
+  {
+    "id": "giorgos-papadakis-landing",
+    "site": "Giorgos Papadakis",
+    "url": "https://giorgospapadakis.com",
+    "type": "landing",
+    "tags": [
+      "dark",
+      "outlined-monogram",
+      "inline-lines",
+      "designer"
+    ],
+    "note": "A huge monogram 'GP' drawn in parallel outline lines on black. A designer's identity shown as the hero, nothing else.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/giorgos-papadakis-landing-desktop.jpg",
+        "width": 1440,
+        "height": 901
+      },
+      "mobile": {
+        "file": "screens/giorgos-papadakis-landing-mobile.jpg",
+        "width": 390,
+        "height": 845
+      }
+    },
+    "tokens": {
+      "title": "Giorgos Papadakis",
+      "fonts": [
+        "neue-haas-unica"
+      ],
+      "type": {
+        "h1": null,
+        "h2": null,
+        "h3": null,
+        "body": {
+          "font": "neue-haas-unica",
+          "size": 20,
+          "weight": "500",
+          "lineHeight": 1.3,
+          "letterSpacing": "0.2px",
+          "color": "rgb(233, 233, 233)"
+        }
+      },
+      "colors": {
+        "background": "#181818",
+        "surfaces": [],
+        "text": [
+          "#e9e9e9",
+          "#707070",
+          "#181818"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": 840
     }
   },
   {
@@ -40375,6 +40925,86 @@
           "font": "alliance",
           "size": 14,
           "weight": "500"
+        }
+      ],
+      "contentWidth": 1440
+    }
+  },
+  {
+    "id": "inga-israel-landing",
+    "site": "Inga Israel",
+    "url": "http://ingaisrael.de",
+    "type": "landing",
+    "tags": [
+      "light",
+      "illustration-grid",
+      "colourful-editorial-art",
+      "illustrator"
+    ],
+    "note": "A grid of bright editorial illustrations with tiny captions, no hero text. An illustrator lets the work fill the page.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/inga-israel-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/inga-israel-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Inga Israel — Editorial & Corporate Illustration, Berlin",
+      "fonts": [
+        "Whyte",
+        "Canela"
+      ],
+      "type": {
+        "h1": null,
+        "h2": {
+          "font": "Whyte",
+          "size": 40,
+          "weight": "700",
+          "lineHeight": 1.2,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        },
+        "h3": null,
+        "body": {
+          "font": "Whyte",
+          "size": 42,
+          "weight": "700",
+          "lineHeight": 1.6,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#ffffff",
+          "#c4a1a3",
+          "#a4908a",
+          "#737fac",
+          "#c09a92"
+        ],
+        "text": [
+          "#000000"
+        ]
+      },
+      "buttons": [
+        {
+          "label": "Zurück zum Shop",
+          "bg": "#00deee",
+          "color": "#000000",
+          "radius": "0px",
+          "height": 64,
+          "paddingX": 29,
+          "font": "Whyte",
+          "size": 21,
+          "weight": "400"
         }
       ],
       "contentWidth": 1440
@@ -51416,6 +52046,71 @@
     }
   },
   {
+    "id": "neverland-space-landing",
+    "site": "Neverland Space",
+    "url": "http://neverlandspace.com",
+    "type": "landing",
+    "tags": [
+      "light",
+      "scattered-digital-art",
+      "serif-titles",
+      "online-exhibitions"
+    ],
+    "note": "Digital artworks scattered across white with serif titles and artist names beneath, one title struck through ('Never Say Never'). An online gallery hung like a salon wall.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/neverland-space-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/neverland-space-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Neverland Space",
+      "fonts": [
+        "NeuzeitSLT-BookHeavy",
+        "NeuzeitSLT-Book",
+        "GT Sectra Bold"
+      ],
+      "type": {
+        "h1": {
+          "font": "GT Sectra Bold",
+          "size": 50,
+          "weight": "400",
+          "lineHeight": 1,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        },
+        "h2": null,
+        "h3": null,
+        "body": {
+          "font": "NeuzeitSLT-Book",
+          "size": 20,
+          "weight": "400",
+          "lineHeight": 1.3,
+          "letterSpacing": "1px",
+          "color": "rgb(0, 0, 0)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#ffffff"
+        ],
+        "text": [
+          "#000000"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": 1400
+    }
+  },
+  {
     "id": "newcoin-landing",
     "site": "Newcoin",
     "url": "https://www.newcoin.org",
@@ -51481,6 +52176,67 @@
         "text": [
           "#000000",
           "#ffffff"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": null
+    }
+  },
+  {
+    "id": "newkid-landing",
+    "site": "newkid",
+    "url": "https://newkid.services",
+    "type": "landing",
+    "tags": [
+      "dark",
+      "bw-street-photo",
+      "highlighted-label",
+      "case-grid",
+      "creative-company"
+    ],
+    "note": "A black-and-white street photo with a small white label 'Meet newkid® — a creative company for brands who want to be somebody', then a case grid. A brand statement set as a caption on a photo.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/newkid-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/newkid-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "newkid",
+      "fonts": [
+        "Replica Regular"
+      ],
+      "type": {
+        "h1": null,
+        "h2": null,
+        "h3": null,
+        "body": {
+          "font": "Replica Regular",
+          "size": 22,
+          "weight": "400",
+          "lineHeight": 1.15,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        }
+      },
+      "colors": {
+        "background": "#000000",
+        "surfaces": [
+          "#000000",
+          "#ffffff",
+          "#222222"
+        ],
+        "text": [
+          "#7f7f7f",
+          "#ffffff",
+          "#000000"
         ]
       },
       "buttons": [],
@@ -58321,6 +59077,126 @@
     }
   },
   {
+    "id": "poch-studio-landing",
+    "site": "Poch Studio",
+    "url": "https://poch.studio",
+    "type": "landing",
+    "tags": [
+      "dark",
+      "inline-icon-in-sentence",
+      "centred-statement",
+      "project-list"
+    ],
+    "note": "'We are Poch, a design studio of few friends with endless (∞) skills and ideas.' with a drawn infinity loop inside brackets. A studio that puts a doodle in the middle of its sentence.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/poch-studio-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/poch-studio-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Poch Studio",
+      "fonts": [
+        "Season Sans SemiBold",
+        "sans-serif",
+        "Season Mix Regular"
+      ],
+      "type": {
+        "h1": {
+          "font": "Season Mix Regular",
+          "size": 50,
+          "weight": "420",
+          "lineHeight": 1,
+          "letterSpacing": "normal",
+          "color": "rgb(255, 255, 255)"
+        },
+        "h2": null,
+        "h3": {
+          "font": "Season Mix Regular",
+          "size": 25,
+          "weight": "420",
+          "lineHeight": 1.1,
+          "letterSpacing": "normal",
+          "color": "rgb(255, 255, 255)"
+        },
+        "body": {
+          "font": "Lacquer",
+          "size": 14,
+          "weight": "400",
+          "lineHeight": 1,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        }
+      },
+      "colors": {
+        "background": "#000000",
+        "surfaces": [
+          "#000000",
+          "#ffffff",
+          "#fff6c6"
+        ],
+        "text": [
+          "#ffffff",
+          "#000000"
+        ]
+      },
+      "buttons": [
+        {
+          "label": "Get Started",
+          "bg": "#fff6c6",
+          "color": "#0000ee",
+          "radius": "100px",
+          "height": 42,
+          "paddingX": 15,
+          "font": "sans-serif",
+          "size": 12,
+          "weight": "400"
+        },
+        {
+          "label": "See Full Case",
+          "bg": "#ffffff",
+          "color": "#0000ee",
+          "radius": "100px",
+          "height": 30,
+          "paddingX": 10,
+          "font": "sans-serif",
+          "size": 12,
+          "weight": "400"
+        },
+        {
+          "label": "See Full Case",
+          "bg": "#ffffff",
+          "color": "#0000ee",
+          "radius": "100px",
+          "height": 30,
+          "paddingX": 10,
+          "font": "sans-serif",
+          "size": 12,
+          "weight": "400"
+        },
+        {
+          "label": "See Full Case",
+          "bg": "#ffffff",
+          "color": "#0000ee",
+          "radius": "100px",
+          "height": 30,
+          "paddingX": 10,
+          "font": "sans-serif",
+          "size": 12,
+          "weight": "400"
+        }
+      ],
+      "contentWidth": 796
+    }
+  },
+  {
     "id": "polar-landing",
     "site": "Polar",
     "url": "https://polar.sh",
@@ -64609,6 +65485,66 @@
     }
   },
   {
+    "id": "sam-thies-landing",
+    "site": "Sam Thies",
+    "url": "https://samthies.com",
+    "type": "landing",
+    "tags": [
+      "light",
+      "road-photo-hero",
+      "mono-captions",
+      "photo-grid",
+      "photographer"
+    ],
+    "note": "A wide desert road through a windscreen, then a mosaic of small photos with mono captions. A photographer's site that opens on one road.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/sam-thies-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3356
+      },
+      "mobile": {
+        "file": "screens/sam-thies-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Australian Film Maker & Photographer | Sam Thies",
+      "fonts": [
+        "Quadrant Text Mono"
+      ],
+      "type": {
+        "h1": null,
+        "h2": null,
+        "h3": null,
+        "body": {
+          "font": "Quadrant Text Mono",
+          "size": 12,
+          "weight": "400",
+          "lineHeight": 1.3,
+          "letterSpacing": "-0.24px",
+          "color": "rgb(43, 39, 40)"
+        }
+      },
+      "colors": {
+        "background": "#121212",
+        "surfaces": [
+          "#f5f5f5",
+          "#fffcf8",
+          "#121212"
+        ],
+        "text": [
+          "#2b2728",
+          "#ffffff"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": null
+    }
+  },
+  {
     "id": "samuels-associates-landing",
     "site": "Samuels & Associates",
     "url": "https://www.samuelsre.com",
@@ -66291,6 +67227,80 @@
       },
       "buttons": [],
       "contentWidth": 1440
+    }
+  },
+  {
+    "id": "shed-landing",
+    "site": "Shed",
+    "url": "https://shed.design",
+    "type": "landing",
+    "tags": [
+      "red-and-green",
+      "giant-white-caps",
+      "interior-photo",
+      "colour-architecture"
+    ],
+    "note": "'THIS IS SHED' in huge white caps over a photo of a red and green bathroom they designed. An interiors studio whose name sits inside its own work.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/shed-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/shed-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Shed | Home",
+      "fonts": [
+        "SequelWeb",
+        "OwnersWeb",
+        "RecklessWeb"
+      ],
+      "type": {
+        "h1": {
+          "font": "OwnersWeb",
+          "size": 231,
+          "weight": "600",
+          "lineHeight": 0.9,
+          "letterSpacing": "-2.313px",
+          "color": "rgb(255, 255, 255)"
+        },
+        "h2": {
+          "font": "SequelWeb",
+          "size": 11,
+          "weight": "400",
+          "lineHeight": 1.24,
+          "letterSpacing": "0.108px",
+          "color": "rgb(28, 28, 28)"
+        },
+        "h3": null,
+        "body": {
+          "font": "SequelWeb",
+          "size": 54,
+          "weight": "500",
+          "lineHeight": 1,
+          "letterSpacing": "-1.08px",
+          "color": "rgb(28, 28, 28)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#ffffff"
+        ],
+        "text": [
+          "#1c1c1c",
+          "#ffffff",
+          "#000000"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": 1297
     }
   },
   {
@@ -70600,6 +71610,96 @@
     }
   },
   {
+    "id": "studio-rodrigo-landing",
+    "site": "Studio Rodrigo",
+    "url": "http://studiorodrigo.com",
+    "type": "landing",
+    "tags": [
+      "light",
+      "glyph-wordmark",
+      "icon-letters",
+      "service-list",
+      "strategy-studio"
+    ],
+    "note": "'RODRIGO' spelled with icon-like glyphs (a starburst, a square, dots), then a statement and a ruled list of sectors. A studio name built from its own visual language.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/studio-rodrigo-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/studio-rodrigo-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Studio Rodrigo | Designing products & services to make life better.",
+      "fonts": [
+        "aktiv-grotesk"
+      ],
+      "type": {
+        "h1": {
+          "font": "aktiv-grotesk",
+          "size": 72,
+          "weight": "400",
+          "lineHeight": 1.15,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        },
+        "h2": {
+          "font": "aktiv-grotesk",
+          "size": 36,
+          "weight": "400",
+          "lineHeight": 1.15,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        },
+        "h3": {
+          "font": "aktiv-grotesk",
+          "size": 56,
+          "weight": "400",
+          "lineHeight": 1.15,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        },
+        "body": {
+          "font": "aktiv-grotesk",
+          "size": 36,
+          "weight": "400",
+          "lineHeight": 1.15,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#ffffff"
+        ],
+        "text": [
+          "#000000"
+        ]
+      },
+      "buttons": [
+        {
+          "label": "What we do  ➝",
+          "bg": "#ffffff",
+          "color": "#000000",
+          "radius": "100px",
+          "height": 65,
+          "paddingX": 24,
+          "font": "aktiv-grotesk",
+          "size": 24,
+          "weight": "400"
+        }
+      ],
+      "contentWidth": 1480
+    }
+  },
+  {
     "id": "stytch-landing",
     "site": "Stytch",
     "url": "https://stytch.com",
@@ -74359,6 +75459,79 @@
     }
   },
   {
+    "id": "the-avery-review-landing",
+    "site": "The Avery Review",
+    "url": "http://averyreview.com",
+    "type": "landing",
+    "tags": [
+      "light",
+      "author-title-list",
+      "serif-and-caps",
+      "yellow-tab",
+      "essay-journal"
+    ],
+    "note": "The homepage is the issue's list of essays, each author in spaced caps and title in serif, with a yellow side tab. An architecture journal whose cover is its contents.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/the-avery-review-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/the-avery-review-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "The Avery Review | home",
+      "fonts": [
+        "Maria Pro",
+        "Perpetua"
+      ],
+      "type": {
+        "h1": {
+          "font": "Maria Pro",
+          "size": 54,
+          "weight": "400",
+          "lineHeight": "normal",
+          "letterSpacing": "-1px",
+          "color": "rgb(0, 0, 51)"
+        },
+        "h2": {
+          "font": "Perpetua",
+          "size": 54,
+          "weight": "400",
+          "lineHeight": "normal",
+          "letterSpacing": "-1px",
+          "color": "rgb(0, 0, 51)"
+        },
+        "h3": {
+          "font": "Maria Pro",
+          "size": 54,
+          "weight": "400",
+          "lineHeight": "normal",
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 51)"
+        },
+        "body": null
+      },
+      "colors": {
+        "background": "#f6f6f6",
+        "surfaces": [
+          "#ffffff",
+          "#ffcc00"
+        ],
+        "text": [
+          "#000033"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": null
+    }
+  },
+  {
     "id": "the-beams-landing",
     "site": "The Beams",
     "url": "https://thebeamslondon.com",
@@ -75947,6 +77120,157 @@
         }
       ],
       "contentWidth": 1600
+    }
+  },
+  {
+    "id": "tonemaki-landing",
+    "site": "Tonemaki™",
+    "url": "https://www.tonemaki.com",
+    "type": "landing",
+    "tags": [
+      "dark-and-cream",
+      "giant-orange-caps",
+      "3d-mascot",
+      "start-button",
+      "branding-agency"
+    ],
+    "note": "'LEAVE GENERIC DESIGN BEHIND.' in heavy orange caps, a 3D cat mascot, then a big 3D 'START' button. An agency pitch with the energy of a game title screen.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/tonemaki-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/tonemaki-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Tonemaki | Kinetic Identity — Strategy, 3D, Motion & Web",
+      "fonts": [
+        "Tonemaki"
+      ],
+      "type": {
+        "h1": {
+          "font": "Tonemaki",
+          "size": 140,
+          "weight": "700",
+          "lineHeight": 0.8,
+          "letterSpacing": "-2.88px",
+          "color": "rgb(255, 113, 69)"
+        },
+        "h2": {
+          "font": "Tonemaki",
+          "size": 18,
+          "weight": "500",
+          "lineHeight": 1.25,
+          "letterSpacing": "-0.525px",
+          "color": "rgb(218, 214, 200)"
+        },
+        "h3": {
+          "font": "Tonemaki",
+          "size": 18,
+          "weight": "700",
+          "lineHeight": 1.25,
+          "letterSpacing": "-0.7px",
+          "color": "rgb(255, 251, 234)"
+        },
+        "body": {
+          "font": "Tonemaki",
+          "size": 16,
+          "weight": "500",
+          "lineHeight": 1.33,
+          "letterSpacing": "normal",
+          "color": "rgb(87, 87, 87)"
+        }
+      },
+      "colors": {
+        "background": "#141414",
+        "surfaces": [
+          "#fffbea",
+          "#141414",
+          "#50ff6c",
+          "#dad6c8"
+        ],
+        "text": [
+          "#dad6c8",
+          "#141414",
+          "#575757",
+          "#fffbea"
+        ]
+      },
+      "buttons": [
+        {
+          "label": "",
+          "bg": "#dad6c8",
+          "color": "#141414",
+          "radius": "1.75px",
+          "height": 44,
+          "paddingX": 0,
+          "font": "Tonemaki",
+          "size": 14,
+          "weight": "400"
+        },
+        {
+          "label": "Vision",
+          "bg": "#141414",
+          "color": "#bbbaad",
+          "radius": "0px",
+          "height": 35,
+          "paddingX": 14,
+          "font": "Tonemaki",
+          "size": 14,
+          "weight": "400"
+        },
+        {
+          "label": "Work",
+          "bg": "#141414",
+          "color": "#bbbaad",
+          "radius": "0px",
+          "height": 35,
+          "paddingX": 14,
+          "font": "Tonemaki",
+          "size": 14,
+          "weight": "400"
+        },
+        {
+          "label": "Pricing",
+          "bg": "#141414",
+          "color": "#bbbaad",
+          "radius": "0px",
+          "height": 35,
+          "paddingX": 14,
+          "font": "Tonemaki",
+          "size": 14,
+          "weight": "400"
+        },
+        {
+          "label": "L\nL\no\no\ng\ng\ni\ni\nn\nn",
+          "bg": "#141414",
+          "color": "#fffbea",
+          "radius": "42px",
+          "height": 37,
+          "paddingX": 18,
+          "font": "Tonemaki",
+          "size": 14,
+          "weight": "400"
+        },
+        {
+          "label": "J\nJ\nu\nu\nm\nm\np\np\n T\nT\no\no\n P\nP\nr\nr\no\no\nc\n",
+          "bg": "#50ff6c",
+          "color": "#000000",
+          "radius": "42px",
+          "height": 40,
+          "paddingX": 21,
+          "font": "Tonemaki",
+          "size": 20,
+          "weight": "400"
+        }
+      ],
+      "contentWidth": 1440
     }
   },
   {
