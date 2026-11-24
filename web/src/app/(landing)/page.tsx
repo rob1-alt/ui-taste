@@ -14,6 +14,8 @@ import { Logo } from "@/components/Logo";
 import { cleanFont, isLight, opt, palette, typeLabel } from "@/lib/format";
 import { getLibrary, libraryCounts } from "@/lib/library";
 import { getSpecimens } from "@/lib/specimens";
+import { getCompare } from "@/lib/compare";
+import { Compare } from "@/components/landing/Compare";
 import type { Tile } from "@/lib/types";
 import { Head } from "@/components/landing/Head";
 
@@ -34,6 +36,7 @@ export default function Landing() {
     return { id: it.id, site: it.site, type: it.type, note: it.note, thumb: it.screens.desktop?.thumb || "", font: cleanFont(it.fonts[0]), pal: palette(it, 5), h1: h1?.size || null };
   });
   const specimens = getSpecimens();
+  const compare = getCompare();
   const directions = getDirections(LIB);
   // the search demo replays what find_refs returns for dark pricing pages
   const hits: SearchHit[] = ["clerk-pricing", "linear-pricing", "vercel-pricing"].map((id) => LIB.find((x) => x.id === id)).filter(Boolean).map((it) => ({
@@ -60,6 +63,7 @@ export default function Landing() {
           <nav className="nav" aria-label="Sections">
             <a href="#measured">Measured</a>
             <a href="#tools">Tools</a>
+            <a href="#compare">Compare</a>
             <a href="#directions">Directions</a>
             <a href="#numbers">Numbers</a>
             <a href="#index">Index</a>
@@ -87,6 +91,8 @@ export default function Landing() {
         </section>
 
         <Tools hits={hits} measured={measured} total={LIB.length} />
+
+        {compare && <Compare data={compare} />}
 
         {directions.length > 0 && <Directions list={directions} />}
 

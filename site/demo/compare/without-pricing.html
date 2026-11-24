@@ -1,0 +1,303 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Pricing – Tally, invoicing for freelancers and small studios</title>
+<meta name="description" content="Tally pricing: Solo is free, Studio is €12/month, Team is €29/month. Invoicing with automatic reminders and bank matching.">
+<meta name="theme-color" content="#f5f1e8">
+<meta property="og:title" content="Tally pricing">
+<meta property="og:description" content="Start free. Upgrade when invoicing starts taking your time.">
+<meta property="og:type" content="website">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%2317160f'/%3E%3Cpath d='M9 9v14M14 9v14M19 9v14M24 9v14M6.5 21.5l19-11' stroke='%23f5f1e8' stroke-width='2.4' stroke-linecap='round' fill='none'/%3E%3C/svg%3E">
+<style>
+:root {
+  --paper: #f5f1e8;
+  --paper-2: #ece6d8;
+  --ink: #17160f;
+  --ink-2: #4a473c;
+  --ink-3: #6f6b5d;
+  --line: #d9d2c0;
+  --accent: #c2410c;
+  --accent-ink: #ffb48a;
+  --ok: #2f6b4a;
+  --radius: 14px;
+  --serif: "Iowan Old Style", "Palatino Linotype", Palatino, "Book Antiqua", Georgia, serif;
+  --sans: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --paper: #14130e;
+    --paper-2: #1d1b14;
+    --ink: #f1ece0;
+    --ink-2: #c4bfae;
+    --ink-3: #928d7d;
+    --line: #2e2b21;
+    --accent: #ff8a4c;
+    --accent-ink: #c2410c;
+    --ok: #7cc59a;
+  }
+}
+*, *::before, *::after { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body {
+  margin: 0;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--sans);
+  font-size: 1rem;
+  line-height: 1.55;
+  -webkit-font-smoothing: antialiased;
+}
+a { color: inherit; }
+:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; border-radius: 4px; }
+.wrap { width: min(1080px, 100% - 2.5rem); margin-inline: auto; }
+.skip {
+  position: absolute; left: 1rem; top: -4rem; background: var(--ink); color: var(--paper);
+  padding: .6rem 1rem; border-radius: 8px; z-index: 10; text-decoration: none;
+}
+.skip:focus { top: 1rem; }
+
+/* Header */
+header.site { padding: 1.5rem 0; }
+header.site .wrap { display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
+.brand { display: inline-flex; align-items: center; gap: .6rem; text-decoration: none; font-family: var(--serif); font-size: 1.4rem; font-weight: 700; letter-spacing: -.01em; }
+.brand svg { width: 28px; height: 28px; display: block; }
+nav.top { display: flex; align-items: center; gap: 1.5rem; font-size: .95rem; }
+nav.top a { text-decoration: none; color: var(--ink-2); }
+nav.top a:hover { color: var(--ink); }
+nav.top .btn { color: var(--paper); }
+@media (max-width: 520px) { nav.top a:not(.btn) { display: none; } }
+
+/* Buttons */
+.btn {
+  display: inline-flex; align-items: center; justify-content: center;
+  min-height: 44px; padding: .65rem 1.25rem; border-radius: 999px;
+  font: 600 .95rem/1 var(--sans); text-decoration: none; cursor: pointer;
+  border: 1.5px solid var(--ink); background: var(--ink); color: var(--paper);
+  transition: transform .15s ease, background-color .15s ease, color .15s ease;
+}
+.btn:hover { transform: translateY(-1px); }
+.btn:active { transform: translateY(0); }
+.btn.ghost { background: transparent; color: var(--ink); }
+.btn.ghost:hover { background: var(--ink); color: var(--paper); }
+
+/* Hero */
+.hero { padding: clamp(2.5rem, 7vw, 5rem) 0 clamp(2rem, 5vw, 3.5rem); }
+.eyebrow { font-size: .8rem; font-weight: 600; letter-spacing: .12em; text-transform: uppercase; color: var(--accent); margin: 0 0 1rem; }
+h1 {
+  font-family: var(--serif); font-weight: 700; letter-spacing: -.02em;
+  font-size: clamp(2.4rem, 6.5vw, 4.4rem); line-height: 1.04; margin: 0; max-width: 14ch;
+}
+.lede { font-size: clamp(1.05rem, 2vw, 1.25rem); color: var(--ink-2); max-width: 46ch; margin: 1.25rem 0 0; }
+
+/* Plans */
+.plans { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.25rem; align-items: stretch; padding: 0; margin: 0; list-style: none; }
+.plan {
+  display: flex; flex-direction: column;
+  background: var(--paper-2); border: 1px solid var(--line); border-radius: var(--radius);
+  padding: 1.75rem 1.6rem 1.6rem;
+}
+.plan h2 { font-family: var(--serif); font-size: 1.6rem; margin: 0; letter-spacing: -.01em; }
+.plan .for { margin: .25rem 0 0; color: var(--ink-3); font-size: .95rem; min-height: 3em; }
+.price { display: flex; align-items: baseline; gap: .4rem; margin: 1.5rem 0 .2rem; }
+.price .amount { font-family: var(--serif); font-size: 3.4rem; line-height: 1; font-weight: 700; letter-spacing: -.03em; font-variant-numeric: lining-nums; }
+.price .per { color: var(--ink-3); font-size: .95rem; }
+.plan .note { margin: 0 0 1.5rem; color: var(--ink-3); font-size: .9rem; }
+.plan .btn { width: 100%; }
+.features { list-style: none; margin: 1.6rem 0 0; padding: 1.4rem 0 0; border-top: 1px solid var(--line); display: grid; gap: .7rem; font-size: .96rem; }
+.features li { display: grid; grid-template-columns: 1.25rem 1fr; gap: .6rem; align-items: start; }
+.features svg { width: 1.1rem; height: 1.1rem; margin-top: .22rem; color: var(--ok); }
+.features .lead { font-weight: 600; color: var(--ink); grid-template-columns: 1fr; }
+
+.plan.featured { background: var(--ink); color: var(--paper); border-color: var(--ink); position: relative; }
+.plan.featured .for, .plan.featured .price .per, .plan.featured .note { color: color-mix(in srgb, var(--paper) 68%, transparent); }
+.plan.featured .features { border-color: color-mix(in srgb, var(--paper) 22%, transparent); }
+.plan.featured .features svg { color: var(--accent-ink); }
+.plan.featured .features .lead { color: var(--paper); }
+.plan.featured .btn { background: var(--accent); border-color: var(--accent); color: #1a0d05; }
+.plan.featured .btn:hover { background: #ff9d66; border-color: #ff9d66; }
+.badge {
+  position: absolute; top: -.8rem; left: 1.6rem;
+  background: var(--accent); color: #1a0d05; font-size: .75rem; font-weight: 700;
+  letter-spacing: .06em; text-transform: uppercase; padding: .3rem .7rem; border-radius: 999px;
+}
+@media (prefers-color-scheme: dark) {
+  .plan.featured { background: #f1ece0; color: #17160f; border-color: #f1ece0; }
+  .plan.featured .for, .plan.featured .price .per, .plan.featured .note { color: #5c584a; }
+  .plan.featured .features { border-color: #d9d2c0; }
+  .plan.featured .features svg { color: #2f6b4a; }
+  .plan.featured .features .lead { color: #17160f; }
+  .plan.featured .btn { background: #17160f; border-color: #17160f; color: #f1ece0; }
+  .plan.featured .btn:hover { background: #2e2b21; border-color: #2e2b21; }
+}
+.fineprint { margin: 1.5rem 0 0; color: var(--ink-3); font-size: .9rem; }
+
+@media (max-width: 880px) {
+  .plans { grid-template-columns: 1fr; max-width: 30rem; }
+  .plan .for { min-height: 0; }
+  .plan.featured { order: -1; }
+  .badge { top: -.8rem; }
+}
+
+/* FAQ */
+.faq { padding: clamp(3.5rem, 8vw, 6rem) 0; }
+.faq .grid { display: grid; grid-template-columns: 1fr 1.6fr; gap: clamp(1.5rem, 5vw, 4rem); }
+.faq h2 { font-family: var(--serif); font-size: clamp(1.9rem, 4vw, 2.6rem); line-height: 1.1; letter-spacing: -.02em; margin: 0; }
+.faq .aside { color: var(--ink-2); margin: .9rem 0 0; max-width: 28ch; }
+.faq .aside a { color: var(--accent); text-underline-offset: 3px; }
+details { border-top: 1px solid var(--line); }
+details:last-child { border-bottom: 1px solid var(--line); }
+summary {
+  list-style: none; cursor: pointer; display: flex; justify-content: space-between; align-items: center; gap: 1rem;
+  padding: 1.15rem 0; font-weight: 600; font-size: 1.05rem; min-height: 44px;
+}
+summary::-webkit-details-marker { display: none; }
+summary::after {
+  content: ""; flex: none; width: .6rem; height: .6rem;
+  border-right: 2px solid var(--ink-2); border-bottom: 2px solid var(--ink-2);
+  transform: rotate(45deg) translateY(-2px); transition: transform .2s ease;
+}
+details[open] summary::after { transform: rotate(225deg) translateY(-2px); }
+details p { margin: 0 0 1.25rem; color: var(--ink-2); max-width: 60ch; }
+@media (max-width: 760px) { .faq .grid { grid-template-columns: 1fr; } }
+
+/* CTA band + footer */
+.band { border-top: 1px solid var(--line); padding: clamp(2.5rem, 6vw, 4rem) 0; }
+.band .wrap { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 1.5rem; }
+.band p { font-family: var(--serif); font-size: clamp(1.4rem, 3vw, 2rem); letter-spacing: -.01em; margin: 0; max-width: 24ch; line-height: 1.15; }
+footer { padding: 0 0 2.5rem; color: var(--ink-3); font-size: .88rem; }
+footer .wrap { display: flex; flex-wrap: wrap; justify-content: space-between; gap: .75rem 2rem; }
+footer nav { display: flex; gap: 1.25rem; flex-wrap: wrap; }
+footer a { text-decoration: none; }
+footer a:hover { color: var(--ink); text-decoration: underline; }
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { transition: none !important; }
+}
+</style>
+</head>
+<body>
+<a class="skip" href="#plans">Skip to plans</a>
+
+<header class="site">
+  <div class="wrap">
+    <a class="brand" href="/" aria-label="Tally home">
+      <svg viewBox="0 0 32 32" aria-hidden="true"><rect width="32" height="32" rx="8" fill="currentColor"/><path d="M9 9v14M14 9v14M19 9v14M24 9v14M6.5 21.5l19-11" stroke="var(--paper)" stroke-width="2.4" stroke-linecap="round" fill="none"/></svg>
+      Tally
+    </a>
+    <nav class="top" aria-label="Primary">
+      <a href="#faq">FAQ</a>
+      <a href="/login">Log in</a>
+      <a class="btn" href="/signup">Start free</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section class="hero">
+    <div class="wrap">
+      <p class="eyebrow">Pricing</p>
+      <h1>Free until invoicing becomes your job.</h1>
+      <p class="lede">Send your first invoices on Solo at no cost. When chasing late payments starts eating your week, Tally takes it over.</p>
+    </div>
+  </section>
+
+  <section aria-label="Plans" id="plans">
+    <div class="wrap">
+      <ul class="plans">
+        <li class="plan">
+          <h2>Solo</h2>
+          <p class="for">For freelancers just getting started.</p>
+          <div class="price"><span class="amount">€0</span><span class="per">free forever</span></div>
+          <p class="note">No card required.</p>
+          <a class="btn ghost" href="/signup?plan=solo">Start free</a>
+          <ul class="features">
+            <li class="lead">Includes</li>
+            <li><svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 10.5l4 4 8-9"/></svg><span>5 invoices per month</span></li>
+          </ul>
+        </li>
+
+        <li class="plan featured">
+          <span class="badge">Most popular</span>
+          <h2>Studio</h2>
+          <p class="for">For busy freelancers who want to stop chasing payments.</p>
+          <div class="price"><span class="amount">€12</span><span class="per">per month</span></div>
+          <p class="note">Cancel anytime.</p>
+          <a class="btn" href="/signup?plan=studio">Choose Studio</a>
+          <ul class="features">
+            <li class="lead">Everything in Solo, plus</li>
+            <li><svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 10.5l4 4 8-9"/></svg><span>Unlimited invoices</span></li>
+            <li><svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 10.5l4 4 8-9"/></svg><span>Automatic reminders</span></li>
+            <li><svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 10.5l4 4 8-9"/></svg><span>Bank matching</span></li>
+          </ul>
+        </li>
+
+        <li class="plan">
+          <h2>Team</h2>
+          <p class="for">For small studios billing together.</p>
+          <div class="price"><span class="amount">€29</span><span class="per">per month</span></div>
+          <p class="note">Cancel anytime.</p>
+          <a class="btn ghost" href="/signup?plan=team">Choose Team</a>
+          <ul class="features">
+            <li class="lead">Everything in Studio, plus</li>
+            <li><svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 10.5l4 4 8-9"/></svg><span>5 seats</span></li>
+            <li><svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 10.5l4 4 8-9"/></svg><span>Client portal</span></li>
+          </ul>
+        </li>
+      </ul>
+      <p class="fineprint">Prices in euros, billed monthly.</p>
+    </div>
+  </section>
+
+  <section class="faq" id="faq" aria-labelledby="faq-title">
+    <div class="wrap grid">
+      <div>
+        <h2 id="faq-title">Questions, answered.</h2>
+        <p class="aside">Something missing? <a href="mailto:hello@tally.example">Write to us</a> and a person will reply.</p>
+      </div>
+      <div>
+        <details>
+          <summary>What happens when I reach 5 invoices on Solo?</summary>
+          <p>You can keep using Tally, but you won't be able to create more invoices until the next month, or until you upgrade to Studio. Your existing invoices and clients stay untouched.</p>
+        </details>
+        <details>
+          <summary>What does bank matching do?</summary>
+          <p>Tally compares incoming payments with your open invoices and marks them as paid, so you don't have to reconcile by hand. Automatic reminders stop as soon as an invoice is matched.</p>
+        </details>
+        <details>
+          <summary>How do automatic reminders work?</summary>
+          <p>When an invoice goes overdue, Tally emails your client a polite reminder for you. You stay in control of when they go out and what they say.</p>
+        </details>
+        <details>
+          <summary>Who counts as a seat on Team?</summary>
+          <p>Each person who signs in to your Tally workspace uses one seat. Team includes five. Your clients don't take a seat: they use the client portal for free.</p>
+        </details>
+        <details>
+          <summary>Can I change or cancel my plan?</summary>
+          <p>Yes. Switch between plans or cancel from your account settings at any time. There's no contract, and you can always go back to Solo.</p>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <section class="band">
+    <div class="wrap">
+      <p>Send your first invoice in a few minutes.</p>
+      <a class="btn" href="/signup">Start free</a>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <span>© 2026 Tally</span>
+    <nav aria-label="Footer">
+      <a href="/terms">Terms</a>
+      <a href="/privacy">Privacy</a>
+      <a href="mailto:hello@tally.example">Contact</a>
+    </nav>
+  </div>
+</footer>
+</body>
+</html>
