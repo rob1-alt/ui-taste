@@ -8,8 +8,8 @@ export const BASE_URL = process.env.NEXT_PUBLIC_SITE_URL || (process.env.NODE_EN
 
 export const baseMetadata: Metadata = {
   metadataBase: new URL(BASE_URL),
-  title: SITE_NAME,
-  description: "ui taste, a Claude Code skill: real pages from products known for their design, measured on the live page, so the agent looks before it builds.",
+  title: "ui taste: real, measured UI references for Claude Code and AI coding agents",
+  description: "An open-source skill for Claude Code, Codex and Cursor: a library of real web pages from products known for their design, measured on the live page, a reference search and an anti-slop review, so your agent builds interfaces that do not look generated.",
   robots: { index: true, follow: true },
   alternates: { canonical: "/" },
   openGraph: { siteName: SITE_NAME, type: "website", url: "/" },

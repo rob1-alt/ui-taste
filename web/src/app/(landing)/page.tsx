@@ -15,6 +15,9 @@ import { cleanFont, isLight, opt, palette, typeLabel } from "@/lib/format";
 import { getLibrary, libraryCounts } from "@/lib/library";
 import { getSpecimens } from "@/lib/specimens";
 import { getCompare } from "@/lib/compare";
+import { FAQ } from "@/lib/faq";
+import { BASE_URL } from "@/lib/meta";
+import { typeMetas } from "@/lib/seo";
 import { Compare } from "@/components/landing/Compare";
 import type { Tile } from "@/lib/types";
 import { Head } from "@/components/landing/Head";
@@ -69,6 +72,7 @@ export default function Landing() {
             <a href="#index">Index</a>
             <a href="#review">Review</a>
             <a href="#install">Install</a>
+            <Link href="/examples">Examples</Link>
           </nav>
           <div className="tools">
             <button type="button" className="measure-toggle" id="measure" aria-pressed="false">Measure <kbd>M</kbd></button>
@@ -106,6 +110,14 @@ export default function Landing() {
           <Checklist />
         </section>
 
+        <section className="faq" id="faq">
+          <h2 className="faq-h">Questions</h2>
+          <div className="faq-list">
+            {FAQ.map(([q, a]) => <details key={q}><summary>{q}</summary><p>{a}</p></details>)}
+          </div>
+          <p className="faq-more">Browse by page type: {typeMetas(LIB).slice(0, 8).map((t, i) => <span key={t.slug}>{i ? ", " : ""}<Link href={`/examples/${t.slug}`}>{t.plural}</Link></span>)}, or <Link href="/examples">every page type and pattern</Link>.</p>
+        </section>
+
         <Install />
       </main>
 
@@ -118,6 +130,13 @@ export default function Landing() {
         </dl>
       </footer>
 
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify([
+        { "@context": "https://schema.org", "@type": "SoftwareApplication", name: "ui taste", applicationCategory: "DeveloperApplication", operatingSystem: "macOS, Linux, Windows",
+          description: "An open-source skill for AI coding agents: a library of real web pages measured on the live page, a reference search and an anti-slop review.",
+          url: BASE_URL, downloadUrl: "https://github.com/rob1-alt/ui-taste", license: "https://github.com/rob1-alt/ui-taste", isAccessibleForFree: true, offers: { "@type": "Offer", price: "0", priceCurrency: "USD" } },
+        { "@context": "https://schema.org", "@type": "WebSite", name: "ui taste", url: BASE_URL },
+        { "@context": "https://schema.org", "@type": "FAQPage", mainEntity: FAQ.map(([q, a]) => ({ "@type": "Question", name: q, acceptedAnswer: { "@type": "Answer", text: a } })) },
+      ]) }} />
       <div className="measure-layer" id="measure-layer" aria-hidden="true" />
       <div className="toast" id="toast" role="status" aria-live="polite" />
       <Effects />

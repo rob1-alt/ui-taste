@@ -14,6 +14,8 @@ type Props = {
   onTag?: (t: string) => void;
   tagHref?: (t: string) => string;
   nav: React.ReactNode; // prev / next / close controls, supplied by the host
+  asPage?: boolean;     // the standalone page carries the h1; inside the dialog it is an h2
+  more?: React.ReactNode;
 };
 
 function Scale({ it }: { it: Item }) {
@@ -45,7 +47,8 @@ function Swatches({ label, list }: { label: string; list: (string | undefined)[]
   );
 }
 
-export function DetailView({ item: it, shot, onShot, onTag, tagHref, nav }: Props) {
+export function DetailView({ item: it, shot, onShot, onTag, tagHref, nav, asPage, more }: Props) {
+  const H = asPage ? "h1" : "h2";
   const s = it.screens[shot] || it.screens.desktop || it.screens.mobile!;
   const c = it.colors || {};
   const cmd = `python3 scripts/find_refs.py "${it.site.toLowerCase()} ${it.type}"`;
@@ -53,7 +56,7 @@ export function DetailView({ item: it, shot, onShot, onTag, tagHref, nav }: Prop
     <>
       <div className="d-top">
         <div className="d-heading">
-          <h2 id="d-title">{it.site}</h2>
+          <H id="d-title">{it.site}{asPage ? <span className="visually-hidden"> {libTypeLabel(it.type).toLowerCase()} design reference</span> : null}</H>
           <span className="d-type" id="d-type">{libTypeLabel(it.type)}</span>
         </div>
         <div className="segmented" role="group" aria-label="Screen">
@@ -98,6 +101,7 @@ export function DetailView({ item: it, shot, onShot, onTag, tagHref, nav }: Prop
             </div></section>
           )}
           {it.contentWidth ? <section><h3>Content width</h3><p className="note" style={{ fontFamily: "var(--mono)", fontSize: 14 }}>{it.contentWidth}px</p></section> : null}
+          {more}
           <section><h3>Use it in Claude</h3><div className="cmd"><code>find_refs.py &quot;{it.site.toLowerCase()} {it.type}&quot;</code><CopyButton text={cmd} /></div></section>
         </aside>
       </div>

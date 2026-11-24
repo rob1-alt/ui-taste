@@ -413,3 +413,23 @@ h1 { font-size: clamp(56px, 7vw, 112px); line-height: 0.86; }
 .detail-page .d-info { position: sticky; top: 121px; max-height: calc(100dvh - 121px); overflow: auto; }
 .d-nav a.icon-btn { display: inline-flex; align-items: center; justify-content: center; text-decoration: none; }
 @media (max-width: 900px) { .detail-page .d-info { position: static; max-height: none; overflow: visible; } }
+
+/* ---------- example pages (/examples, /patterns) ---------- */
+.ex .intro h1 { font-size: clamp(44px, 6vw, 88px); }
+.ex-crumbs { padding-top: 28px; font-size: 12px; color: var(--text-muted); display: flex; gap: 8px; flex-wrap: wrap; }
+.ex-crumbs > span + span::before { content: "/"; margin-right: 8px; color: var(--border-strong); }
+.ex-crumbs a:hover { color: var(--text); }
+.ex-figures { margin: 0 0 40px; max-width: 70ch; font-size: 17px; line-height: 1.6; color: var(--text); }
+.ex-figures b { font-weight: 600; }
+.ex-grid { list-style: none; margin: 0; padding: 0 0 72px; }
+.ex-grid .card { display: block; }
+.ex-note { margin: 8px 0 0; font-size: 14px; line-height: 1.5; color: var(--text-muted); display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+.ex-related { padding: 40px 0; border-top: 1px solid var(--border); }
+.ex-related h2 { margin: 0 0 18px; font-size: 22px; }
+.ex-related ul { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 8px 24px; }
+.ex-related li { display: flex; justify-content: space-between; gap: 12px; font-size: 15px; padding: 6px 0; border-bottom: 1px solid var(--border); }
+.ex-related li a:hover { text-decoration: underline; text-underline-offset: 3px; }
+.ex-related li span { color: var(--text-muted); font-size: 13px; }
+.ex-cta { padding: 48px 0 96px; border-top: 1px solid var(--border); max-width: 70ch; }
+.ex-cta h2 { margin: 0 0 12px; font-size: 26px; }
+.ex-cta p { margin: 0; color: var(--text-muted); font-size: 16px; line-height: 1.6; }
