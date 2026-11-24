@@ -115,6 +115,8 @@ Museums, magazines, publishers and studios in the library (Whitney, Tate, Cooper
 
 Take: when the product is content, design the frame, not a hero. Let each item bring its own colour and image, keep the chrome to one brand colour and one type voice, and give dates, places and prices a consistent small metadata style.
 
+Catalogues and galleries follow the same rule. Heroicons puts the search field and the full icon grid in the first screen under one line of headline; Hoverstat's hero is today's pick, big in a browser frame with a one-line review; Minimal Gallery keeps its chrome black and its type small so the thumbnails bring all the colour. The generic version (Lucide, Iconoir, One Page Love) wraps the same inventory in a stats row, a promo bar and a plain directory grid.
+
 ## 16. Deep tech shows the machine, at its real scale
 
 The aerospace, energy and chip companies in the library (SpaceX, Relativity, Hermeus, Stoke, K2, Oklo, Extropic, Span) never draw their product. They photograph it: a rocket stage on a crane with workers below, an engine test, a macro of a chip surface, a reactor building at night. The type is either tiny inside the photograph (Hermeus) or as loud as the machine (Stoke), never in between.

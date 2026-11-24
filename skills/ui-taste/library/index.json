@@ -29242,6 +29242,92 @@
     }
   },
   {
+    "id": "heroicons-landing",
+    "site": "Heroicons",
+    "url": "https://heroicons.com",
+    "type": "landing",
+    "tags": [
+      "light",
+      "search-first",
+      "icon-grid",
+      "filter-tabs",
+      "product-is-the-hero"
+    ],
+    "note": "One line of headline, then the search field and the full icon grid sit right in the first screen. A catalogue lets the inventory be the hero instead of describing it.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/heroicons-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/heroicons-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Heroicons",
+      "fonts": [
+        "Inter var"
+      ],
+      "type": {
+        "h1": {
+          "font": "Inter var",
+          "size": 36,
+          "weight": "800",
+          "lineHeight": 1.11,
+          "letterSpacing": "-0.9px",
+          "color": "rgb(15, 23, 42)"
+        },
+        "h2": {
+          "font": "Inter var",
+          "size": 16,
+          "weight": "400",
+          "lineHeight": 1.5,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        },
+        "h3": null,
+        "body": {
+          "font": "Inter var",
+          "size": 13,
+          "weight": "400",
+          "lineHeight": 1.85,
+          "letterSpacing": "normal",
+          "color": "rgb(100, 116, 139)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#f8fafc",
+          "#ffffff",
+          "#f1f5f9"
+        ],
+        "text": [
+          "#64748b",
+          "#0f172a"
+        ]
+      },
+      "buttons": [
+        {
+          "label": "v2.1.5",
+          "bg": "#f1f5f9",
+          "color": "#64748b",
+          "radius": "9999px",
+          "height": 30,
+          "paddingX": 10,
+          "font": "Inter var",
+          "size": 12,
+          "weight": "600"
+        }
+      ],
+      "contentWidth": 1280
+    }
+  },
+  {
     "id": "hex-landing",
     "site": "Hex",
     "url": "https://hex.tech",
@@ -29755,6 +29841,111 @@
     }
   },
   {
+    "id": "hoverstat-landing",
+    "site": "Hoverstat",
+    "url": "https://www.hoverstat.es",
+    "type": "landing",
+    "tags": [
+      "light",
+      "gallery",
+      "browser-frame-hero",
+      "serif-display",
+      "editorial-feed"
+    ],
+    "note": "Today's pick shown big inside a browser window, with its date and a one-line review under it, then an archive feed of smaller picks. A gallery's hero is the latest thing it chose.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/hoverstat-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/hoverstat-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "HOVERSTAT.ES | The home of alternative web-design.",
+      "fonts": [
+        "Fakt",
+        "-apple-system"
+      ],
+      "type": {
+        "h1": null,
+        "h2": null,
+        "h3": null,
+        "body": {
+          "font": "Fakt",
+          "size": 19,
+          "weight": "400",
+          "lineHeight": 1.4,
+          "letterSpacing": "0.336px",
+          "color": "rgb(0, 0, 0)"
+        }
+      },
+      "colors": {
+        "background": "#f1f1f1",
+        "surfaces": [
+          "#d6d6d6",
+          "#ffffff"
+        ],
+        "text": [
+          "#000000",
+          "#711bff"
+        ]
+      },
+      "buttons": [
+        {
+          "label": "HOVERSTAT.ES",
+          "bg": "#d6d6d6",
+          "color": "#000000",
+          "radius": "186.2px",
+          "height": 36,
+          "paddingX": 15,
+          "font": "Fakt",
+          "size": 19,
+          "weight": "300"
+        },
+        {
+          "label": "ARCHIVE",
+          "bg": "#d6d6d6",
+          "color": "#000000",
+          "radius": "186.2px",
+          "height": 36,
+          "paddingX": 15,
+          "font": "Fakt",
+          "size": 19,
+          "weight": "300"
+        },
+        {
+          "label": "SUBMIT",
+          "bg": "#d6d6d6",
+          "color": "#000000",
+          "radius": "186.2px",
+          "height": 36,
+          "paddingX": 15,
+          "font": "Fakt",
+          "size": 19,
+          "weight": "300"
+        },
+        {
+          "label": "?",
+          "bg": "#d6d6d6",
+          "color": "#000000",
+          "radius": "186.2px",
+          "height": 36,
+          "paddingX": 15,
+          "font": "Fakt",
+          "size": 19,
+          "weight": "300"
+        }
+      ],
+      "contentWidth": 1280
+    }
+  },
+  {
     "id": "hugging-face-landing",
     "site": "Hugging Face",
     "url": "https://huggingface.co",
@@ -29899,6 +30090,119 @@
       },
       "buttons": [],
       "contentWidth": 1280
+    }
+  },
+  {
+    "id": "humaaans-landing",
+    "site": "Humaaans",
+    "url": "https://www.humaaans.com",
+    "type": "landing",
+    "tags": [
+      "light",
+      "giant-wordmark",
+      "serif-wordmark",
+      "illustration-brand",
+      "characters-around-wordmark"
+    ],
+    "note": "The illustrated people run, leap and stride around a huge serif wordmark, so the hero is a sample of the product. An illustration kit shows its figures in action, never a static grid.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/humaaans-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/humaaans-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Humaaans: Mix-&-Match illustration library",
+      "fonts": [
+        "Recoleta",
+        "system-ui"
+      ],
+      "type": {
+        "h1": {
+          "font": "Recoleta",
+          "size": 120,
+          "weight": "900",
+          "lineHeight": 1,
+          "letterSpacing": "normal",
+          "color": "rgb(39, 17, 45)"
+        },
+        "h2": {
+          "font": "Recoleta",
+          "size": 68,
+          "weight": "900",
+          "lineHeight": 1.06,
+          "letterSpacing": "normal",
+          "color": "rgb(39, 17, 45)"
+        },
+        "h3": {
+          "font": "Recoleta",
+          "size": 32,
+          "weight": "300",
+          "lineHeight": 1.19,
+          "letterSpacing": "normal",
+          "color": "rgb(39, 17, 45)"
+        },
+        "body": null
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#eefafa",
+          "#000000",
+          "#fafafa",
+          "#ffffff",
+          "#2b44ff"
+        ],
+        "text": [
+          "#27112d",
+          "#ffffff",
+          "#333333",
+          "#2b44ff"
+        ]
+      },
+      "buttons": [
+        {
+          "label": "Use with Blush",
+          "bg": "#2b44ff",
+          "color": "#ffffff",
+          "radius": "58px",
+          "height": 56,
+          "paddingX": 40,
+          "font": "Recoleta",
+          "size": 18,
+          "weight": "700"
+        },
+        {
+          "label": "Download",
+          "bg": "#ffffff",
+          "color": "#2b44ff",
+          "radius": "58px",
+          "height": 56,
+          "paddingX": 40,
+          "font": "Recoleta",
+          "size": 18,
+          "weight": "700"
+        },
+        {
+          "label": "Made with Webflow",
+          "bg": "#2b44ff",
+          "color": "#ffffff",
+          "radius": "80px",
+          "height": 40,
+          "paddingX": 16,
+          "font": "Recoleta",
+          "size": 13,
+          "weight": "300"
+        }
+      ],
+      "contentWidth": 1400
     }
   },
   {
@@ -36347,6 +36651,151 @@
         }
       ],
       "contentWidth": 1376
+    }
+  },
+  {
+    "id": "minimal-gallery-landing",
+    "site": "Minimal Gallery",
+    "url": "https://minimal.gallery",
+    "type": "landing",
+    "tags": [
+      "dark",
+      "gallery",
+      "work-grid",
+      "filter-tabs",
+      "chrome-recedes"
+    ],
+    "note": "Black chrome, small type and filter pills, then a three-column grid of colourful site thumbnails. A gallery stays dark and quiet so the work it collects carries all the colour.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/minimal-gallery-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3561
+      },
+      "mobile": {
+        "file": "screens/minimal-gallery-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Minimal Gallery – Hand-picked web design inspiration, premium templates, tools and more",
+      "fonts": [
+        "Inter"
+      ],
+      "type": {
+        "h1": {
+          "font": "Inter",
+          "size": 36,
+          "weight": "510",
+          "lineHeight": 1.12,
+          "letterSpacing": "-1.152px",
+          "color": "rgb(255, 255, 255)"
+        },
+        "h2": null,
+        "h3": {
+          "font": "Inter",
+          "size": 17,
+          "weight": "400",
+          "lineHeight": 1.4,
+          "letterSpacing": "-0.17px",
+          "color": "rgb(255, 255, 255)"
+        },
+        "body": {
+          "font": "Inter",
+          "size": 17,
+          "weight": "400",
+          "lineHeight": 1.4,
+          "letterSpacing": "-0.17px",
+          "color": "rgb(179, 179, 179)"
+        }
+      },
+      "colors": {
+        "background": "#000000",
+        "surfaces": [
+          "#1a1a1a",
+          "#000000",
+          "#1f1f1f",
+          "#2c2c2c",
+          "#181818"
+        ],
+        "text": [
+          "#b3b3b3",
+          "#ffffff",
+          "#939393",
+          "#d9d9d9"
+        ]
+      },
+      "buttons": [
+        {
+          "label": "Submit",
+          "bg": "#242424",
+          "color": "#b3b3b3",
+          "radius": "60px",
+          "height": 34,
+          "paddingX": 12,
+          "font": "Inter",
+          "size": 17,
+          "weight": "400"
+        },
+        {
+          "label": "",
+          "bg": "#2c2c2c",
+          "color": "#d8d8d8",
+          "radius": "50%",
+          "height": 45,
+          "paddingX": 0,
+          "font": "Inter",
+          "size": 17,
+          "weight": "400"
+        },
+        {
+          "label": "AI",
+          "bg": "#1f1f1f",
+          "color": "#b3b3b3",
+          "radius": "60px",
+          "height": 34,
+          "paddingX": 12,
+          "font": "Inter",
+          "size": 17,
+          "weight": "400"
+        },
+        {
+          "label": "Portfolio",
+          "bg": "#1f1f1f",
+          "color": "#b3b3b3",
+          "radius": "60px",
+          "height": 34,
+          "paddingX": 12,
+          "font": "Inter",
+          "size": 17,
+          "weight": "400"
+        },
+        {
+          "label": "Personal",
+          "bg": "#1f1f1f",
+          "color": "#b3b3b3",
+          "radius": "60px",
+          "height": 34,
+          "paddingX": 12,
+          "font": "Inter",
+          "size": 17,
+          "weight": "400"
+        },
+        {
+          "label": "Startup",
+          "bg": "#1f1f1f",
+          "color": "#b3b3b3",
+          "radius": "60px",
+          "height": 34,
+          "paddingX": 12,
+          "font": "Inter",
+          "size": 17,
+          "weight": "400"
+        }
+      ],
+      "contentWidth": null
     }
   },
   {

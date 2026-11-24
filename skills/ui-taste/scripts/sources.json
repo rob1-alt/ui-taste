@@ -8348,5 +8348,57 @@
    "warm-grey"
   ],
   "note": "A flat illustration of a synth keyboard, a watch and paper clips made of the icon style, then a live toolbar (weight, size, colour) over the icon grid. The product's style becomes the scene."
+ },
+ {
+  "site": "Heroicons",
+  "type": "landing",
+  "url": "https://heroicons.com",
+  "tags": [
+   "light",
+   "search-first",
+   "icon-grid",
+   "filter-tabs",
+   "product-is-the-hero"
+  ],
+  "note": "One line of headline, then the search field and the full icon grid sit right in the first screen. A catalogue lets the inventory be the hero instead of describing it."
+ },
+ {
+  "site": "Hoverstat",
+  "type": "landing",
+  "url": "https://www.hoverstat.es",
+  "tags": [
+   "light",
+   "gallery",
+   "browser-frame-hero",
+   "serif-display",
+   "editorial-feed"
+  ],
+  "note": "Today's pick shown big inside a browser window, with its date and a one-line review under it, then an archive feed of smaller picks. A gallery's hero is the latest thing it chose."
+ },
+ {
+  "site": "Humaaans",
+  "type": "landing",
+  "url": "https://www.humaaans.com",
+  "tags": [
+   "light",
+   "giant-wordmark",
+   "serif-wordmark",
+   "illustration-brand",
+   "characters-around-wordmark"
+  ],
+  "note": "The illustrated people run, leap and stride around a huge serif wordmark, so the hero is a sample of the product. An illustration kit shows its figures in action, never a static grid."
+ },
+ {
+  "site": "Minimal Gallery",
+  "type": "landing",
+  "url": "https://minimal.gallery",
+  "tags": [
+   "dark",
+   "gallery",
+   "work-grid",
+   "filter-tabs",
+   "chrome-recedes"
+  ],
+  "note": "Black chrome, small type and filter pills, then a three-column grid of colourful site thumbnails. A gallery stays dark and quiet so the work it collects carries all the colour."
  }
 ]
