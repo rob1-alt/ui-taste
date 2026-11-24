@@ -222,6 +222,46 @@ def shoot(page: Page, max_height: int, max_width: int, out: Path) -> tuple[int, 
     return img.size
 
 
+def lower_part_empty(path: Path, viewport_h: int) -> bool:
+    """True when everything below the first screen is one flat colour: scroll-revealed content
+    that a full-page screenshot never triggers (GSAP ScrollTrigger, reveal-on-view)."""
+    from PIL import ImageFilter, ImageStat
+    img = Image.open(path).convert("L")
+    if img.height < viewport_h * 2:
+        return False
+    rest = img.crop((0, viewport_h, img.width, img.height))
+    rest = rest.resize((360, max(1, int(rest.height * 360 / rest.width))))
+    # Edge density, not variance: an empty gradient background has no edges. Calibrated on the
+    # library: every real landing scores above 1.9 except one-screen pages; The InnerWebs scored 1.4.
+    return ImageStat.Stat(rest.filter(ImageFilter.FIND_EDGES)).mean[0] < 1.6
+
+
+def shoot_stitched(page: Page, max_height: int, max_width: int, out: Path) -> tuple[int, int]:
+    """Scroll one screen at a time and paste each viewport shot, so reveal-on-scroll content is
+    on screen when it is photographed. Fixed and sticky elements are hidden after the first frame."""
+    vh = page.viewport_size["height"]
+    page.evaluate("window.scrollTo(0, 0)")
+    total = min(max_height, page.evaluate("() => document.documentElement.scrollHeight"))
+    canvas = Image.new("RGB", (max_width, total), "white")
+    y, first = 0, True
+    while y < total:
+        page.evaluate(f"window.scrollTo(0, {y})")
+        page.wait_for_timeout(700)
+        if not first:
+            page.evaluate("""() => { for (const el of document.querySelectorAll('body *')) {
+                const s = getComputedStyle(el);
+                if (s.position === 'fixed' || s.position === 'sticky') el.style.visibility = 'hidden'; } }""")
+        shot = Image.open(io.BytesIO(page.screenshot(animations="disabled"))).convert("RGB")
+        real_y = page.evaluate("() => window.scrollY")
+        canvas.paste(shot.crop((0, 0, min(shot.width, max_width), min(vh, total - real_y))), (0, real_y))
+        first = False
+        if real_y + vh >= total or real_y < y - 5:  # bottom reached, or the page refuses to scroll
+            break
+        y = real_y + vh
+    canvas.save(out, "JPEG", quality=JPEG_QUALITY, optimize=True, progressive=True)
+    return canvas.size
+
+
 def wait_for_memory(min_mb: int = 700, max_wait_s: int = 600) -> None:
     """Small machines: before each site, wait until enough RAM is free instead of being killed."""
     import time
@@ -340,6 +380,8 @@ def capture(entry: dict, browser) -> dict:
                 result["tokens"] = page.evaluate(TOKENS_JS)
             file = SCREENS / f"{sid}-{name}.jpg"
             w, h = shoot(page, max_h, viewport["width"], file)
+            if lower_part_empty(file, viewport["height"]):
+                w, h = shoot_stitched(page, max_h, viewport["width"], file)
             result["screens"][name] = {"file": f"screens/{file.name}", "width": w, "height": h}
         finally:
             ctx.close()
