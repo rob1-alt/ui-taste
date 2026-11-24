@@ -4,7 +4,6 @@ import Link from "next/link";
 import { useEffect, useRef, useState } from "react";
 import { libraryHref } from "@/lib/format";
 import type { Direction } from "@/lib/directions";
-import { SectionHead } from "@/components/landing/SectionHead";
 
 export function Directions({ list }: { list: Direction[] }) {
   const [i, setI] = useState(0);
@@ -20,7 +19,7 @@ export function Directions({ list }: { list: Direction[] }) {
   const cur = list[i];
   return (
     <section className="directions" id="directions">
-      <SectionHead n={3} label="Directions" title={`${N} directions, 3 concepts`} lede="Instead of the one average page every model makes, the skill drafts three concepts from three different directions, each with its own references from the library, and builds the one you pick." />
+      <p className="drum-intro">Not one average page. The skill drafts <b>three concepts</b> from three of these <b>{N} directions</b>, each with its own references from the library, and builds the one you pick.</p>
       <div className="drum" onPointerEnter={stop}>
         <button type="button" className="drum-arrow" aria-label="Previous direction" onClick={() => go(-1)}>←</button>
         <ol className="drum-list" aria-live="polite">

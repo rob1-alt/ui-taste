@@ -3,7 +3,7 @@
 // The demos replay real data: the search results, tokens and image are the library's own.
 import { useEffect, useState } from "react";
 import { useInView } from "./useInView";
-import { SectionHead } from "@/components/landing/SectionHead";
+import { Head } from "./Head";
 
 export type SearchHit = { id: string; site: string; type: string; why: string; thumb: string; pal: string[] };
 export type Measured = { id: string; site: string; thumb: string; chips: { x: number; y: number; label: string }[] };
@@ -98,24 +98,23 @@ function SlotDemo() {
 
 export function Tools({ hits, measured, total }: { hits: SearchHit[]; measured: Measured; total: number }) {
   const rows = [
-    { k: "Reference", h: "Looks before it builds", p: "Claude searches the library for the one question it has to settle, a pricing table, an empty state, a dark hero, and opens the screenshot before deciding. One strong reference is enough; three is the limit.", chip: "scripts/find_refs.py", demo: <SearchDemo hits={hits} total={total} /> },
-    { k: "Measure", h: "Reads the numbers off the live page", p: "Every page is captured on desktop and mobile, then read from the browser's computed styles: fonts, sizes, line heights, colours, buttons. Point it at any site and it joins your library the same way.", chip: "scripts/capture.py", demo: <MeasureDemo m={measured} /> },
-    { k: "Images", h: "Leaves room for your pictures", p: "It does not invent photos or art. It lays out image slots with a brief, ratio and tone; you drop in the real files, and it measures them and adapts the crop, the veil and the text colour.", chip: "scripts/slots.py", demo: <SlotDemo /> },
+    { k: "find_refs.py", h: "It looks before it builds.", p: "For the one question it has to settle, a pricing table, an empty state, a dark hero, Claude searches the library and opens the screenshot before deciding. One strong reference is enough. Three is the limit.", demo: <SearchDemo hits={hits} total={total} /> },
+    { k: "capture.py", h: "It reads the numbers off the live page.", p: "Every page is captured on desktop and mobile, then read from the browser's computed styles: fonts, sizes, line heights, colours, buttons. Point it at any site and it joins your library the same way.", demo: <MeasureDemo m={measured} /> },
+    { k: "slots.py", h: "It leaves room for your pictures.", p: "It does not invent photos or art. It lays out image slots with a brief, a ratio and a tone. You drop in the real files, and it measures them and adapts the crop, the veil and the text colour.", demo: <SlotDemo /> },
   ];
   return (
     <section className="toolset" id="tools">
-      <SectionHead n={2} label="Tools" title="Looks first. Builds second." lede="Three tools Claude runs on its own. Each demo below replays real data from the library: the search, the measurements, the image." />
-      <div className="tool-rows">
-        {rows.map((r) => (
-          <article className="tool" key={r.k}>
-            <div className="tool-demo">{r.demo}</div>
-            <div className="tool-text">
-              <span className="tool-k">{r.k}</span>
+      <Head title={<>Looks first.<br />Builds second.</>}>Three things Claude does on its own before and after it writes a line of CSS. Each one below replays real data from the library.</Head>
+      <div className="figs">
+        {rows.map((r, i) => (
+          <figure className="fig" key={r.k}>
+            <div className="fig-demo">{r.demo}</div>
+            <figcaption className="fig-cap">
+              <span className="fig-n">Fig. {i + 1}<em>{r.k}</em></span>
               <h3>{r.h}</h3>
               <p>{r.p}</p>
-              <code>{r.chip}</code>
-            </div>
-          </article>
+            </figcaption>
+          </figure>
         ))}
       </div>
     </section>

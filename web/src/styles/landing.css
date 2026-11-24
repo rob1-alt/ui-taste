@@ -794,3 +794,71 @@ body { background: #fff; }
   .sh-guide { display: none; }
   .sh-lede { display: block; font-size: 16px; }
 }
+
+/* =================== v13: under the hero, less template =================== */
+/* the construction grid, rails, crosshairs and numbered eyebrows go: a plain white page under the black hero */
+.bg-grid, .bg-coord { display: none !important; }
+.measured, .numbers, .index, .method, .review, .install, .foot, .toolset, .directions { border-left: 0 !important; border-right: 0 !important; }
+.measured::before, .numbers::before, .index::before, .review::before, .install::before, .foot::before, .toolset::before, .directions::before,
+.measured::after, .numbers::after, .index::after, .review::after, .install::after, .foot::after { content: none !important; }
+.measured h2::before { content: none; }
+.stats .stat, .line, .row a, .filters, .fix-list, .all-checks { background: transparent; }
+section { padding-top: 160px; }
+
+/* plain head */
+.ph { margin-bottom: 56px; display: grid; grid-template-columns: minmax(0, 7fr) minmax(0, 5fr); gap: 56px; align-items: end; }
+.ph h2 { margin: 0; font-size: clamp(56px, 7.4vw, 124px); line-height: 0.84; font-stretch: 62%; font-weight: 800; text-transform: uppercase; letter-spacing: -0.01em; }
+.ph p { margin: 0; font-size: 18px; line-height: 1.55; color: var(--ink-2); max-width: 40ch; }
+.ph-small h2 { font-size: clamp(40px, 4.4vw, 72px); }
+
+/* tools as figures: the demo is the material, the caption is a sentence */
+.figs { display: grid; gap: 120px; }
+.fig { margin: 0; display: grid; grid-template-columns: minmax(0, 7fr) minmax(0, 5fr); gap: 56px; align-items: center; }
+.fig:nth-child(even) .fig-demo { order: 2; }
+.fig-demo { background: #0e0e0e; border-radius: 14px; padding: 56px 40px; display: grid; place-items: center; min-height: 440px; }
+.fig-cap { display: grid; gap: 16px; align-content: center; }
+.fig-n { font-size: 14px; color: var(--muted); }
+.fig-n em { font-style: normal; color: var(--ink); margin-left: 10px; font-family: ui-monospace, "SF Mono", Menlo, monospace; font-size: 13px; }
+.fig h3 { margin: 0; font-size: clamp(30px, 2.8vw, 42px); line-height: 1.05; font-stretch: 100%; font-weight: 600; letter-spacing: -0.025em; text-wrap: balance; }
+.fig p { margin: 0; font-size: 17px; line-height: 1.6; color: var(--ink-2); max-width: 42ch; }
+
+/* directions: the drum is the title */
+.drum-intro { margin: 0 0 32px; font-size: 18px; line-height: 1.55; color: var(--ink-2); max-width: 56ch; }
+.drum-intro b { color: var(--ink); font-weight: 600; }
+.drum-0 { border-top: 0; border-bottom: 0; padding: 0 0 10px; font-size: clamp(56px, 8.2vw, 132px); }
+
+/* numbers: one paragraph */
+.nums-lead { margin: 0 0 28px; font-size: 18px; color: var(--ink-2); display: flex; align-items: baseline; gap: 18px; }
+.nums-big { font-size: clamp(96px, 14vw, 240px); line-height: 0.8; font-stretch: 62%; font-weight: 800; color: var(--ink); letter-spacing: -0.02em; }
+.nums { margin: 0; font-size: clamp(28px, 3.3vw, 50px); line-height: 1.22; font-weight: 500; letter-spacing: -0.02em; color: var(--ink); max-width: 30ch; max-width: none; text-wrap: pretty; }
+.nb { color: var(--red); font-weight: 600; font-variant-numeric: tabular-nums; }
+.nums-btn { display: inline-flex; align-items: center; vertical-align: 0.12em; padding: 0 14px; border-radius: 6px; background: var(--ink); color: #fff; font-size: 13px; font-weight: 600; letter-spacing: 0; }
+.nums-note { margin: 28px 0 0; font-size: 14px; color: var(--muted); }
+
+/* install: the agents, with their marks */
+.agents li { display: grid; justify-items: center; gap: 12px; padding: 26px 12px 22px; text-transform: none; font-size: 13px; font-weight: 500; font-stretch: 100%; letter-spacing: 0; color: var(--ink); }
+.agents li:last-child { color: var(--ink); font-weight: 500; text-transform: none; }
+.agents svg { width: 28px; height: 28px; fill: currentColor; }
+.agents-note { margin: 12px 0 0; font-size: 13px; color: var(--muted); }
+
+@media (max-width: 1080px) {
+  .ph, .fig { grid-template-columns: 1fr; gap: 24px; }
+  .fig:nth-child(even) .fig-demo { order: 0; }
+  .fig-demo { min-height: 0; padding: 28px; }
+  .figs { gap: 72px; }
+}
+@media (max-width: 720px) {
+  section { padding-top: 104px; }
+  .ph { margin-bottom: 32px; }
+  .ph h2 { font-size: clamp(44px, 13vw, 64px); }
+  .ph p, .drum-intro { font-size: 16px; }
+  .fig-demo { padding: 14px; border-radius: 10px; }
+  .fig h3 { font-size: 28px; }
+  .fig p { font-size: 16px; }
+  .drum-list .drum-0 { font-size: clamp(48px, 15vw, 72px); }
+  .nums-lead { flex-direction: column; gap: 8px; }
+  .nums { font-size: 26px; }
+  .nums-btn { font-size: 11px; padding: 0 10px; }
+}
+/* the current direction may take two lines rather than be cut */
+.drum-list .drum-0 { white-space: normal; text-overflow: clip; text-wrap: balance; }
