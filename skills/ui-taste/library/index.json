@@ -10986,6 +10986,73 @@
     }
   },
   {
+    "id": "70materia-landing",
+    "site": "70Materia",
+    "url": "https://70materia.com",
+    "type": "landing",
+    "tags": [
+      "light",
+      "material-macro",
+      "terrazzo",
+      "illustrated-scientist",
+      "recycled-material"
+    ],
+    "note": "Macro photos of a terrazzo-like surface alternate with a hand-drawn scientist at his flasks. A material made from waste is shown both as texture and as the lab story behind it.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/70materia-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/70materia-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "70Materia",
+      "fonts": [
+        "Matter",
+        "Matter Mono"
+      ],
+      "type": {
+        "h1": null,
+        "h2": {
+          "font": "Matter",
+          "size": 15,
+          "weight": "400",
+          "lineHeight": 1.2,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        },
+        "h3": null,
+        "body": {
+          "font": "Matter",
+          "size": 20,
+          "weight": "400",
+          "lineHeight": 1.2,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#000000",
+          "#ffffff"
+        ],
+        "text": [
+          "#ffffff",
+          "#000000"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": null
+    }
+  },
+  {
     "id": "a-journal-on-how-to-wow-people-landing",
     "site": "A Journal on How to Wow People",
     "url": "https://www.ajournalon.co",
@@ -16466,6 +16533,129 @@
     }
   },
   {
+    "id": "blok-landing",
+    "site": "Blok",
+    "url": "https://blok.so",
+    "type": "landing",
+    "tags": [
+      "light",
+      "face-grid",
+      "community-wall",
+      "centered-headline",
+      "product-row"
+    ],
+    "note": "Under 'Your attention is sacred', a wall of dozens of small photos of members holding their phones away. A focus product shows its community as the proof.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/blok-landing-desktop.jpg",
+        "width": 1440,
+        "height": 2136
+      },
+      "mobile": {
+        "file": "screens/blok-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "The #1 Screen Time Product | Blok",
+      "fonts": [
+        "SF Pro Display"
+      ],
+      "type": {
+        "h1": {
+          "font": "SF Pro Display",
+          "size": 48,
+          "weight": "500",
+          "lineHeight": 1.1,
+          "letterSpacing": "-0.96px",
+          "color": "rgb(20, 20, 20)"
+        },
+        "h2": null,
+        "h3": {
+          "font": "SF Pro Display",
+          "size": 16,
+          "weight": "500",
+          "lineHeight": 1.25,
+          "letterSpacing": "-0.16px",
+          "color": "rgb(20, 20, 20)"
+        },
+        "body": {
+          "font": "SF Pro Display",
+          "size": 22,
+          "weight": "400",
+          "lineHeight": 1.5,
+          "letterSpacing": "normal",
+          "color": "rgb(115, 115, 115)"
+        }
+      },
+      "colors": {
+        "background": "#f8f8f8",
+        "surfaces": [
+          "#f5f5f5",
+          "#ffffff",
+          "#f8f8f8",
+          "#141414",
+          "#e2e2e2"
+        ],
+        "text": [
+          "#525252",
+          "#737373",
+          "#141414",
+          "#c4c4c4"
+        ]
+      },
+      "buttons": [
+        {
+          "label": "Download",
+          "bg": "#141414",
+          "color": "#ffffff",
+          "radius": "3.35544e+07px",
+          "height": 48,
+          "paddingX": 28,
+          "font": "SF Pro Display",
+          "size": 16,
+          "weight": "500"
+        },
+        {
+          "label": "Shop",
+          "bg": "#ffffff",
+          "color": "#141414",
+          "radius": "3.35544e+07px",
+          "height": 50,
+          "paddingX": 28,
+          "font": "SF Pro Display",
+          "size": 16,
+          "weight": "500"
+        },
+        {
+          "label": "Download",
+          "bg": "#141414",
+          "color": "#ffffff",
+          "radius": "3.35544e+07px",
+          "height": 48,
+          "paddingX": 28,
+          "font": "SF Pro Display",
+          "size": 16,
+          "weight": "500"
+        },
+        {
+          "label": "Shop",
+          "bg": "#ffffff",
+          "color": "#141414",
+          "radius": "3.35544e+07px",
+          "height": 50,
+          "paddingX": 28,
+          "font": "SF Pro Display",
+          "size": 16,
+          "weight": "500"
+        }
+      ],
+      "contentWidth": 1152
+    }
+  },
+  {
     "id": "bluesky-landing",
     "site": "Bluesky",
     "url": "https://bsky.social",
@@ -18420,6 +18610,100 @@
       },
       "buttons": [],
       "contentWidth": 1280
+    }
+  },
+  {
+    "id": "carne-landing",
+    "site": "CARNE",
+    "url": "http://www.carnehamburguesas.com/en",
+    "type": "landing",
+    "tags": [
+      "light",
+      "condensed-caps",
+      "burger-photo",
+      "giant-serif-name",
+      "restaurant"
+    ],
+    "note": "'IT'S AN OPINION IN YOUR MOUTH' in tall condensed caps next to a cut-out burger, then the chef's name split huge in a serif. A burger chain designed like a fashion magazine.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/carne-landing-desktop.jpg",
+        "width": 1440,
+        "height": 2583
+      },
+      "mobile": {
+        "file": "screens/carne-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "CARNE – Hamburguesas",
+      "fonts": [
+        "Dia",
+        "Roswell"
+      ],
+      "type": {
+        "h1": null,
+        "h2": null,
+        "h3": {
+          "font": "Roswell",
+          "size": 45,
+          "weight": "700",
+          "lineHeight": 1.4,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        },
+        "body": {
+          "font": "Dia",
+          "size": 23,
+          "weight": "400",
+          "lineHeight": 1.2,
+          "letterSpacing": "normal",
+          "color": "rgb(54, 54, 54)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#8bc44a",
+          "#f5f6f7",
+          "#ffffff",
+          "#000000"
+        ],
+        "text": [
+          "#363636",
+          "#ffffff",
+          "#212121",
+          "#000000"
+        ]
+      },
+      "buttons": [
+        {
+          "label": "Read more",
+          "bg": "#000000",
+          "color": "#f5f5f5",
+          "radius": "0px",
+          "height": 38,
+          "paddingX": 32,
+          "font": "Dia",
+          "size": 15,
+          "weight": "700"
+        },
+        {
+          "label": "Go back up",
+          "bg": "#ffffff",
+          "color": "#363636",
+          "radius": "0px",
+          "height": 50,
+          "paddingX": 0,
+          "font": "Dia",
+          "size": 15,
+          "weight": "400"
+        }
+      ],
+      "contentWidth": null
     }
   },
   {
@@ -26567,6 +26851,90 @@
     }
   },
   {
+    "id": "faculty-ai-landing",
+    "site": "Faculty AI",
+    "url": "https://faculty.ai",
+    "type": "landing",
+    "tags": [
+      "dark-to-light",
+      "giant-wordmark",
+      "orange-workwear-photo",
+      "portrait-grid",
+      "ai-services"
+    ],
+    "note": "The name in huge thin type over a photo of workers in orange workwear, then a grid of customer portraits under 'Perspectives from the frontline of AI'. Applied AI shown through people in the field.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/faculty-ai-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/faculty-ai-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Faculty AI - Frontier AI for the frontlines | Faculty",
+      "fonts": [
+        "Arial",
+        "interTight",
+        "facultyGlyphic"
+      ],
+      "type": {
+        "h1": {
+          "font": "facultyGlyphic",
+          "size": 32,
+          "weight": "400",
+          "lineHeight": 1.3,
+          "letterSpacing": "normal",
+          "color": "rgb(252, 252, 252)"
+        },
+        "h2": {
+          "font": "facultyGlyphic",
+          "size": 57,
+          "weight": "400",
+          "lineHeight": 1.1,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        },
+        "h3": {
+          "font": "facultyGlyphic",
+          "size": 32,
+          "weight": "400",
+          "lineHeight": 1.3,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        },
+        "body": {
+          "font": "facultyGlyphic",
+          "size": 18,
+          "weight": "400",
+          "lineHeight": 1.4,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        }
+      },
+      "colors": {
+        "background": "#ececec",
+        "surfaces": [
+          "#d7d58d",
+          "#ffffff",
+          "#fcfcfc"
+        ],
+        "text": [
+          "#000000",
+          "#ffffff",
+          "#fcfcfc"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": 1280
+    }
+  },
+  {
     "id": "fairphone-landing",
     "site": "Fairphone",
     "url": "https://www.fairphone.com",
@@ -29566,6 +29934,147 @@
         }
       ],
       "contentWidth": 1416
+    }
+  },
+  {
+    "id": "furrend-landing",
+    "site": "Furrend",
+    "url": "https://furrend.xyz",
+    "type": "landing",
+    "tags": [
+      "orange",
+      "chunky-display",
+      "pet-stories",
+      "rounded-panels",
+      "magazine"
+    ],
+    "note": "An orange page with chunky display headings, a featured story of a flower-market cat, then rounded panels of stories and animal profiles. A pet magazine with the warmth of a children's book.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/furrend-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/furrend-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Animal Stories, History & Culture | Furrend",
+      "fonts": [
+        "Inter",
+        "catalpaultrablack"
+      ],
+      "type": {
+        "h1": {
+          "font": "catalpaultrablack",
+          "size": 52,
+          "weight": "400",
+          "lineHeight": 1.08,
+          "letterSpacing": "-1px",
+          "color": "rgb(255, 248, 240)"
+        },
+        "h2": {
+          "font": "catalpaultrablack",
+          "size": 62,
+          "weight": "400",
+          "lineHeight": 1,
+          "letterSpacing": "normal",
+          "color": "rgb(255, 75, 0)"
+        },
+        "h3": {
+          "font": "catalpaultrablack",
+          "size": 25,
+          "weight": "400",
+          "lineHeight": 1.1,
+          "letterSpacing": "normal",
+          "color": "rgb(255, 75, 0)"
+        },
+        "body": {
+          "font": "Inter",
+          "size": 14,
+          "weight": "600",
+          "lineHeight": "normal",
+          "letterSpacing": "1.632px",
+          "color": "rgba(255, 248, 240, 0.78)"
+        }
+      },
+      "colors": {
+        "background": "#ff4b00",
+        "surfaces": [
+          "#ffffff",
+          "#d63f00",
+          "#ff4b00",
+          "#fff8f0"
+        ],
+        "text": [
+          "#616161",
+          "#ff4b00",
+          "#fff8f0",
+          "#000000"
+        ]
+      },
+      "buttons": [
+        {
+          "label": "Read the story",
+          "bg": "#fff8f0",
+          "color": "#d63f00",
+          "radius": "25px",
+          "height": 43,
+          "paddingX": 24,
+          "font": "Inter",
+          "size": 15,
+          "weight": "700"
+        },
+        {
+          "label": "Read more",
+          "bg": "#ff4b00",
+          "color": "#ffffff",
+          "radius": "23px",
+          "height": 46,
+          "paddingX": 12,
+          "font": "Inter",
+          "size": 18,
+          "weight": "500"
+        },
+        {
+          "label": "Read more",
+          "bg": "#ff4b00",
+          "color": "#ffffff",
+          "radius": "23px",
+          "height": 46,
+          "paddingX": 12,
+          "font": "Inter",
+          "size": 18,
+          "weight": "500"
+        },
+        {
+          "label": "Read more",
+          "bg": "#ff4b00",
+          "color": "#ffffff",
+          "radius": "23px",
+          "height": 46,
+          "paddingX": 12,
+          "font": "Inter",
+          "size": 18,
+          "weight": "500"
+        },
+        {
+          "label": "Read more",
+          "bg": "#ff4b00",
+          "color": "#ffffff",
+          "radius": "23px",
+          "height": 46,
+          "paddingX": 12,
+          "font": "Inter",
+          "size": 18,
+          "weight": "500"
+        }
+      ],
+      "contentWidth": 1296
     }
   },
   {
@@ -47007,6 +47516,57 @@
     }
   },
   {
+    "id": "open-landing",
+    "site": "Open",
+    "url": "https://o-p-e-n.com",
+    "type": "landing",
+    "tags": [
+      "orange",
+      "lips-close-up",
+      "spaced-wordmark",
+      "bw-portrait",
+      "wellness"
+    ],
+    "note": "A huge close-up of open lips with the name 'Op e n' spaced across the mouth, then a black-and-white portrait. A mindfulness studio shows breath, not calm stock imagery.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/open-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/open-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Guided Meditation | Mindfulness | Breathwork | Open Breathwork & Meditation",
+      "fonts": [
+        "Monument Grotesk Semi-Mono",
+        "Monument Grotesk Regular"
+      ],
+      "type": {
+        "h1": null,
+        "h2": null,
+        "h3": null,
+        "body": null
+      },
+      "colors": {
+        "background": "#000000",
+        "surfaces": [
+          "#000000"
+        ],
+        "text": [
+          "#eeece7"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": null
+    }
+  },
+  {
     "id": "operate-landing",
     "site": "Operate",
     "url": "https://operate.so",
@@ -47781,6 +48341,79 @@
       },
       "buttons": [],
       "contentWidth": null
+    }
+  },
+  {
+    "id": "packbags-landing",
+    "site": "PACKBAGS",
+    "url": "https://packbags.nl",
+    "type": "landing",
+    "tags": [
+      "light",
+      "dense-product-collage",
+      "bold-captions",
+      "red-wordmark",
+      "modular-bags"
+    ],
+    "note": "Bags photographed in use, in studios and on boats, packed into an irregular grid with bold black captions. A modular bag brand presented like a zine spread.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/packbags-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/packbags-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "PACK BAGS",
+      "fonts": [
+        "NeueHaasDisplayRoman",
+        "NeueHaasDisplayMedium",
+        "NeueHaasDisplayBold"
+      ],
+      "type": {
+        "h1": {
+          "font": "NeueHaasDisplayRoman",
+          "size": 22,
+          "weight": "700",
+          "lineHeight": 1.3,
+          "letterSpacing": "0.055px",
+          "color": "rgb(0, 0, 0)"
+        },
+        "h2": null,
+        "h3": {
+          "font": "NeueHaasDisplayMedium",
+          "size": 16,
+          "weight": "700",
+          "lineHeight": 1.5,
+          "letterSpacing": "-0.235694px",
+          "color": "rgb(0, 0, 0)"
+        },
+        "body": {
+          "font": "NeueHaasDisplayBold",
+          "size": 43,
+          "weight": "700",
+          "lineHeight": 0.8,
+          "letterSpacing": "-0.648px",
+          "color": "rgb(0, 0, 0)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#ffffff"
+        ],
+        "text": [
+          "#000000"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": 960
     }
   },
   {
@@ -60522,6 +61155,98 @@
     }
   },
   {
+    "id": "stop-landing",
+    "site": "Stop",
+    "url": "https://www.juststop.io",
+    "type": "landing",
+    "tags": [
+      "cream",
+      "red-serif",
+      "open-letter",
+      "big-red-panel",
+      "email-tool"
+    ],
+    "note": "'Tell sales emails to just stop', then a full red panel with an open letter 'Dear Salespeople, ...' signed 'Everyone'. An email blocker's pitch written as a letter to the people it blocks.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/stop-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/stop-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Tell sales emails to just stop | Stop",
+      "fonts": [
+        "SF Pro Display",
+        "Lastik"
+      ],
+      "type": {
+        "h1": {
+          "font": "Lastik",
+          "size": 160,
+          "weight": "500",
+          "lineHeight": 1,
+          "letterSpacing": "-4px",
+          "color": "rgb(230, 0, 0)"
+        },
+        "h2": {
+          "font": "Lastik",
+          "size": 112,
+          "weight": "400",
+          "lineHeight": 1,
+          "letterSpacing": "-2.8px",
+          "color": "rgb(255, 253, 241)"
+        },
+        "h3": {
+          "font": "Lastik",
+          "size": 112,
+          "weight": "400",
+          "lineHeight": 1,
+          "letterSpacing": "-2.8px",
+          "color": "rgb(255, 253, 241)"
+        },
+        "body": {
+          "font": "Lastik",
+          "size": 40,
+          "weight": "400",
+          "lineHeight": 1.38,
+          "letterSpacing": "normal",
+          "color": "rgb(255, 253, 241)"
+        }
+      },
+      "colors": {
+        "background": "#fffdf1",
+        "surfaces": [
+          "#e60000"
+        ],
+        "text": [
+          "#fffdf1",
+          "#e60000"
+        ]
+      },
+      "buttons": [
+        {
+          "label": "Sign up",
+          "bg": "#e60000",
+          "color": "#fffdf1",
+          "radius": "9999px",
+          "height": 44,
+          "paddingX": 24,
+          "font": "SF Pro Display",
+          "size": 16,
+          "weight": "500"
+        }
+      ],
+      "contentWidth": 1280
+    }
+  },
+  {
     "id": "storybook-landing",
     "site": "Storybook",
     "url": "https://storybook.js.org",
@@ -65740,6 +66465,136 @@
     }
   },
   {
+    "id": "tone-landing",
+    "site": "Tone",
+    "url": "https://t-o-n-e.com",
+    "type": "landing",
+    "tags": [
+      "dark",
+      "photo-palettes",
+      "colour-swatches",
+      "filter-pills",
+      "tool"
+    ],
+    "note": "Landscape photos each with the three colours extracted below them, filterable by Desert, Ocean, Rock. A palette tool whose homepage is the tool's output.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/tone-landing-desktop.jpg",
+        "width": 1440,
+        "height": 1048
+      },
+      "mobile": {
+        "file": "screens/tone-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Tone – Color Inspiration",
+      "fonts": [
+        "neue-haas-grotesk-text",
+        "system-ui"
+      ],
+      "type": {
+        "h1": null,
+        "h2": null,
+        "h3": null,
+        "body": {
+          "font": "neue-haas-grotesk-text",
+          "size": 16,
+          "weight": "400",
+          "lineHeight": 1.2,
+          "letterSpacing": "normal",
+          "color": "rgba(242, 242, 242, 0.85)"
+        }
+      },
+      "colors": {
+        "background": "#121212",
+        "surfaces": [
+          "#f2f2f2",
+          "#e5e9eb",
+          "#a85634",
+          "#d0b38b",
+          "#6295cd"
+        ],
+        "text": [
+          "#f2f2f2",
+          "#121212"
+        ]
+      },
+      "buttons": [
+        {
+          "label": "",
+          "bg": "#e5e9eb",
+          "color": "#000000",
+          "radius": "0px",
+          "height": 32,
+          "paddingX": 6,
+          "font": "neue-haas-grotesk-text",
+          "size": 16,
+          "weight": "400"
+        },
+        {
+          "label": "",
+          "bg": "#cfc1b0",
+          "color": "#000000",
+          "radius": "0px",
+          "height": 32,
+          "paddingX": 6,
+          "font": "neue-haas-grotesk-text",
+          "size": 16,
+          "weight": "400"
+        },
+        {
+          "label": "",
+          "bg": "#46a0b9",
+          "color": "#000000",
+          "radius": "0px",
+          "height": 32,
+          "paddingX": 6,
+          "font": "neue-haas-grotesk-text",
+          "size": 16,
+          "weight": "400"
+        },
+        {
+          "label": "",
+          "bg": "#a85634",
+          "color": "#000000",
+          "radius": "0px",
+          "height": 32,
+          "paddingX": 6,
+          "font": "neue-haas-grotesk-text",
+          "size": 16,
+          "weight": "400"
+        },
+        {
+          "label": "",
+          "bg": "#d9d7d4",
+          "color": "#000000",
+          "radius": "0px",
+          "height": 32,
+          "paddingX": 6,
+          "font": "neue-haas-grotesk-text",
+          "size": 16,
+          "weight": "400"
+        },
+        {
+          "label": "",
+          "bg": "#4b403a",
+          "color": "#000000",
+          "radius": "0px",
+          "height": 32,
+          "paddingX": 6,
+          "font": "neue-haas-grotesk-text",
+          "size": 16,
+          "weight": "400"
+        }
+      ],
+      "contentWidth": 1600
+    }
+  },
+  {
     "id": "toormix-landing",
     "site": "Toormix",
     "url": "https://www.toormix.com",
@@ -67862,6 +68717,101 @@
         }
       ],
       "contentWidth": 1120
+    }
+  },
+  {
+    "id": "vazzi-landing",
+    "site": "Vazzi",
+    "url": "https://vazzi.fun",
+    "type": "landing",
+    "tags": [
+      "teal",
+      "giant-yellow-wordmark",
+      "glossy-liquid",
+      "tiny-people",
+      "serif-statement"
+    ],
+    "note": "A huge yellow hand-drawn wordmark over a glossy liquid surface with tiny figures sliding on it. A personal-care product made playful through scale.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/vazzi-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/vazzi-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Vazzi — Natural Water-Based Lubricant Made in Montreal 💦",
+      "fonts": [
+        "Nimbus Sans L",
+        "Cardinal Fruit",
+        "Nimbus Sans Cond"
+      ],
+      "type": {
+        "h1": {
+          "font": "Cardinal Fruit",
+          "size": 49,
+          "weight": "400",
+          "lineHeight": 1.1,
+          "letterSpacing": "-0.97428px",
+          "color": "rgb(255, 255, 255)"
+        },
+        "h2": {
+          "font": "Nimbus Sans Cond",
+          "size": 173,
+          "weight": "400",
+          "lineHeight": 1,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        },
+        "h3": {
+          "font": "Cardinal Fruit",
+          "size": 81,
+          "weight": "400",
+          "lineHeight": 1,
+          "letterSpacing": "-2.42586px",
+          "color": "rgb(0, 0, 0)"
+        },
+        "body": {
+          "font": "Cardinal Fruit",
+          "size": 34,
+          "weight": "400",
+          "lineHeight": 1,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        }
+      },
+      "colors": {
+        "background": "#dedcd4",
+        "surfaces": [
+          "#ffeb33",
+          "#fdf186"
+        ],
+        "text": [
+          "#000000",
+          "#ffffff",
+          "#646464"
+        ]
+      },
+      "buttons": [
+        {
+          "label": "Shop lube",
+          "bg": "#ffeb33",
+          "color": "#000000",
+          "radius": "0px",
+          "height": 60,
+          "paddingX": 10,
+          "font": "Nimbus Sans Cond",
+          "size": 44,
+          "weight": "400"
+        }
+      ],
+      "contentWidth": 1400
     }
   },
   {

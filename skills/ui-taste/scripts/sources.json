@@ -9788,5 +9788,135 @@
    "venture-fund"
   ],
   "note": "Four photos of people working from home hang on hand-drawn strings over a tan panel, beside a plain-spoken manifesto. A VC fund shows the life it invests in, scrapbook style."
+ },
+ {
+  "site": "70Materia",
+  "type": "landing",
+  "url": "https://70materia.com",
+  "tags": [
+   "light",
+   "material-macro",
+   "terrazzo",
+   "illustrated-scientist",
+   "recycled-material"
+  ],
+  "note": "Macro photos of a terrazzo-like surface alternate with a hand-drawn scientist at his flasks. A material made from waste is shown both as texture and as the lab story behind it."
+ },
+ {
+  "site": "Blok",
+  "type": "landing",
+  "url": "https://blok.so",
+  "tags": [
+   "light",
+   "face-grid",
+   "community-wall",
+   "centered-headline",
+   "product-row"
+  ],
+  "note": "Under 'Your attention is sacred', a wall of dozens of small photos of members holding their phones away. A focus product shows its community as the proof."
+ },
+ {
+  "site": "CARNE",
+  "type": "landing",
+  "url": "http://www.carnehamburguesas.com/en",
+  "tags": [
+   "light",
+   "condensed-caps",
+   "burger-photo",
+   "giant-serif-name",
+   "restaurant"
+  ],
+  "note": "'IT'S AN OPINION IN YOUR MOUTH' in tall condensed caps next to a cut-out burger, then the chef's name split huge in a serif. A burger chain designed like a fashion magazine."
+ },
+ {
+  "site": "Faculty AI",
+  "type": "landing",
+  "url": "https://faculty.ai",
+  "tags": [
+   "dark-to-light",
+   "giant-wordmark",
+   "orange-workwear-photo",
+   "portrait-grid",
+   "ai-services"
+  ],
+  "note": "The name in huge thin type over a photo of workers in orange workwear, then a grid of customer portraits under 'Perspectives from the frontline of AI'. Applied AI shown through people in the field."
+ },
+ {
+  "site": "Furrend",
+  "type": "landing",
+  "url": "https://furrend.xyz",
+  "tags": [
+   "orange",
+   "chunky-display",
+   "pet-stories",
+   "rounded-panels",
+   "magazine"
+  ],
+  "note": "An orange page with chunky display headings, a featured story of a flower-market cat, then rounded panels of stories and animal profiles. A pet magazine with the warmth of a children's book."
+ },
+ {
+  "site": "Open",
+  "type": "landing",
+  "url": "https://o-p-e-n.com",
+  "tags": [
+   "orange",
+   "lips-close-up",
+   "spaced-wordmark",
+   "bw-portrait",
+   "wellness"
+  ],
+  "note": "A huge close-up of open lips with the name 'Op e n' spaced across the mouth, then a black-and-white portrait. A mindfulness studio shows breath, not calm stock imagery."
+ },
+ {
+  "site": "PACKBAGS",
+  "type": "landing",
+  "url": "https://packbags.nl",
+  "tags": [
+   "light",
+   "dense-product-collage",
+   "bold-captions",
+   "red-wordmark",
+   "modular-bags"
+  ],
+  "note": "Bags photographed in use, in studios and on boats, packed into an irregular grid with bold black captions. A modular bag brand presented like a zine spread."
+ },
+ {
+  "site": "Stop",
+  "type": "landing",
+  "url": "https://www.juststop.io",
+  "tags": [
+   "cream",
+   "red-serif",
+   "open-letter",
+   "big-red-panel",
+   "email-tool"
+  ],
+  "note": "'Tell sales emails to just stop', then a full red panel with an open letter 'Dear Salespeople, ...' signed 'Everyone'. An email blocker's pitch written as a letter to the people it blocks."
+ },
+ {
+  "site": "Tone",
+  "type": "landing",
+  "url": "https://t-o-n-e.com",
+  "tags": [
+   "dark",
+   "photo-palettes",
+   "colour-swatches",
+   "filter-pills",
+   "tool"
+  ],
+  "note": "Landscape photos each with the three colours extracted below them, filterable by Desert, Ocean, Rock. A palette tool whose homepage is the tool's output."
+ },
+ {
+  "site": "Vazzi",
+  "type": "landing",
+  "url": "https://vazzi.fun",
+  "tags": [
+   "teal",
+   "giant-yellow-wordmark",
+   "glossy-liquid",
+   "tiny-people",
+   "serif-statement"
+  ],
+  "note": "A huge yellow hand-drawn wordmark over a glossy liquid surface with tiny figures sliding on it. A personal-care product made playful through scale."
  }
 ]

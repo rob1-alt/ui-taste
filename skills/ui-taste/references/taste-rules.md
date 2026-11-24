@@ -90,6 +90,7 @@ Several strong pages carry emphasis with one device used on a few words: a yello
 Take: choose one emphasis device for the whole site and use it on two or three words per page at most. An italic serif word in an accent colour is the current generated default (see `anti-slop.md`); reach for another device.
 
 The device can carry a whole identity when it is applied everywhere. Oma Appel, a small jam maker, sets its name and every heading in red and mirrors it upside down below itself; Operate frames its entire page with green football-pitch lines and puts its sales product on the field; Benjamin Righetti's bio is one sentence where each role takes a different blue. One trick, applied without exception, beats five tasteful details.
+The trick can be a genre of writing: Stop, an email blocker, fills a full red panel with an open letter 'Dear Salespeople, ...' signed 'Everyone', so the pitch is addressed to the people it blocks.
 
 ## 12. Pricing turns units into outcomes
 
