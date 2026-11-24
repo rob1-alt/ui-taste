@@ -10515,6 +10515,84 @@
     }
   },
   {
+    "id": "dot-connect-landing",
+    "site": "(dot)connect",
+    "url": "https://dotconnect.vc",
+    "type": "landing",
+    "tags": [
+      "light",
+      "coin-stack-illustrations",
+      "orange-dots",
+      "grey-sphere",
+      "venture-studio"
+    ],
+    "note": "A grey sphere with a dotted mushroom cloud, then offers illustrated as stacks and pyramids of orange coins. A venture studio draws its idea of growth instead of showing logos.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/dot-connect-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/dot-connect-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "(dot)connect",
+      "fonts": [
+        "AeonikPro",
+        "DotConnect"
+      ],
+      "type": {
+        "h1": {
+          "font": "AeonikPro",
+          "size": 72,
+          "weight": "500",
+          "lineHeight": 1,
+          "letterSpacing": "-1.8px",
+          "color": "rgb(0, 16, 17)"
+        },
+        "h2": {
+          "font": "AeonikPro",
+          "size": 36,
+          "weight": "500",
+          "lineHeight": 1.1,
+          "letterSpacing": "-0.45px",
+          "color": "rgb(0, 16, 17)"
+        },
+        "h3": null,
+        "body": {
+          "font": "AeonikPro",
+          "size": 21,
+          "weight": "400",
+          "lineHeight": 1.5,
+          "letterSpacing": "normal",
+          "color": "rgb(15, 30, 31)"
+        }
+      },
+      "colors": {
+        "background": "#fcfbf8",
+        "surfaces": [
+          "#fcfbf8",
+          "#ededea",
+          "#f0f0ee",
+          "#001011",
+          "#fd5321"
+        ],
+        "text": [
+          "#0f1e1f",
+          "#001011",
+          "#fcfbf8"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": 1600
+    }
+  },
+  {
     "id": "032c-landing",
     "site": "032c",
     "url": "https://032c.com",
@@ -12800,6 +12878,96 @@
         }
       ],
       "contentWidth": null
+    }
+  },
+  {
+    "id": "andrey-sudarikov-landing",
+    "site": "Andrey Sudarikov",
+    "url": "https://sudarikov.space",
+    "type": "landing",
+    "tags": [
+      "light",
+      "painting-hero",
+      "mono-bio",
+      "yellow-portrait",
+      "artist"
+    ],
+    "note": "A wide sci-fi painting fills the hero, then a mono-set bio beside a portrait of the artist in a yellow suit holding a light. An artist's site that is a painting and a page of text.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/andrey-sudarikov-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/andrey-sudarikov-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "SUDARIKOV.SPACE - Gravity and Desire Art Archive",
+      "fonts": [
+        "Inter",
+        "JetBrains Mono"
+      ],
+      "type": {
+        "h1": null,
+        "h2": {
+          "font": "Inter",
+          "size": 75,
+          "weight": "900",
+          "lineHeight": 0.88,
+          "letterSpacing": "normal",
+          "color": "rgb(37, 30, 24)"
+        },
+        "h3": {
+          "font": "Inter",
+          "size": 75,
+          "weight": "900",
+          "lineHeight": 0.88,
+          "letterSpacing": "normal",
+          "color": "rgb(37, 30, 24)"
+        },
+        "body": {
+          "font": "JetBrains Mono",
+          "size": 9,
+          "weight": "400",
+          "lineHeight": "normal",
+          "letterSpacing": "5.4px",
+          "color": "rgb(135, 120, 110)"
+        }
+      },
+      "colors": {
+        "background": "#f5f2ed",
+        "surfaces": [
+          "#f7f5f0",
+          "#111111",
+          "#f6f5f3",
+          "#dad6d2",
+          "#f5f2ed"
+        ],
+        "text": [
+          "#251e18",
+          "#87786e",
+          "#ffffff"
+        ]
+      },
+      "buttons": [
+        {
+          "label": "↑",
+          "bg": "#f5f2ed",
+          "color": "#251e18",
+          "radius": "999px",
+          "height": 42,
+          "paddingX": 6,
+          "font": "Inter",
+          "size": 20,
+          "weight": "400"
+        }
+      ],
+      "contentWidth": 1440
     }
   },
   {
@@ -26268,6 +26436,148 @@
         }
       ],
       "contentWidth": 1440
+    }
+  },
+  {
+    "id": "drop-dead-generous-landing",
+    "site": "Drop Dead Generous",
+    "url": "https://www.dropdeadgenerous.org",
+    "type": "landing",
+    "tags": [
+      "yellow",
+      "glitched-headline",
+      "inline-highlights",
+      "arrows",
+      "grants"
+    ],
+    "note": "A glitched caps headline on yellow, then one long caps sentence where '00 grants', 'talks' and 'dispatches' are highlighted in colour with arrows between them. A grant programme's whole process in one sentence.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/drop-dead-generous-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/drop-dead-generous-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Drop Dead Generous | Global Generosity Experiment",
+      "fonts": [
+        "Inter",
+        "Silkscreen",
+        "Jacquard 12"
+      ],
+      "type": {
+        "h1": {
+          "font": "Inter",
+          "size": 80,
+          "weight": "400",
+          "lineHeight": 1.07,
+          "letterSpacing": "0.8px",
+          "color": "rgb(44, 44, 44)"
+        },
+        "h2": {
+          "font": "Inter",
+          "size": 80,
+          "weight": "400",
+          "lineHeight": 1.07,
+          "letterSpacing": "0.8px",
+          "color": "rgb(44, 44, 44)"
+        },
+        "h3": {
+          "font": "Inter",
+          "size": 15,
+          "weight": "400",
+          "lineHeight": 1.3,
+          "letterSpacing": "-0.15px",
+          "color": "rgb(44, 44, 44)"
+        },
+        "body": {
+          "font": "Inter",
+          "size": 16,
+          "weight": "400",
+          "lineHeight": 1.3,
+          "letterSpacing": "normal",
+          "color": "rgb(44, 44, 44)"
+        }
+      },
+      "colors": {
+        "background": "#f1f1f2",
+        "surfaces": [
+          "#f1f1f2",
+          "#fcff51",
+          "#ffffff",
+          "#616161",
+          "#000000"
+        ],
+        "text": [
+          "#2c2c2c",
+          "#ffffff",
+          "#000000"
+        ]
+      },
+      "buttons": [
+        {
+          "label": "",
+          "bg": "#000000",
+          "color": "#ffffff",
+          "radius": "4px",
+          "height": 38,
+          "paddingX": 13,
+          "font": "Inter",
+          "size": 16,
+          "weight": "400"
+        },
+        {
+          "label": "💸\nGrants",
+          "bg": "#ffffff",
+          "color": "#2c2c2c",
+          "radius": "4px",
+          "height": 38,
+          "paddingX": 13,
+          "font": "Inter",
+          "size": 16,
+          "weight": "400"
+        },
+        {
+          "label": "📣\nTalks",
+          "bg": "#ffffff",
+          "color": "#2c2c2c",
+          "radius": "4px",
+          "height": 38,
+          "paddingX": 13,
+          "font": "Inter",
+          "size": 16,
+          "weight": "400"
+        },
+        {
+          "label": "👀\nDispatches",
+          "bg": "#ffffff",
+          "color": "#2c2c2c",
+          "radius": "4px",
+          "height": 38,
+          "paddingX": 13,
+          "font": "Inter",
+          "size": 16,
+          "weight": "400"
+        },
+        {
+          "label": "Subscribe on Substack",
+          "bg": "#616161",
+          "color": "#ffffff",
+          "radius": "4px",
+          "height": 38,
+          "paddingX": 16,
+          "font": "Inter",
+          "size": 18,
+          "weight": "400"
+        }
+      ],
+      "contentWidth": 1600
     }
   },
   {
@@ -43772,6 +44082,107 @@
     }
   },
   {
+    "id": "living-house-landing",
+    "site": "Living House",
+    "url": "https://livinghouse.nz",
+    "type": "landing",
+    "tags": [
+      "light",
+      "giant-headline",
+      "green-house-photos",
+      "low-cost-housing"
+    ],
+    "note": "'Living House' set huge above photos of green timber houses, then 'Houses that give more than they take' in the same huge type. Affordable housing presented with the confidence of a manifesto.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/living-house-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/living-house-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Living House",
+      "fonts": [
+        "DieGrotesk"
+      ],
+      "type": {
+        "h1": null,
+        "h2": null,
+        "h3": {
+          "font": "DieGrotesk",
+          "size": 176,
+          "weight": "500",
+          "lineHeight": 0.82,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        },
+        "body": {
+          "font": "DieGrotesk",
+          "size": 36,
+          "weight": "500",
+          "lineHeight": 1.1,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#ffffff",
+          "#f2f2f2",
+          "#000000",
+          "#3c5444",
+          "#6e7d60"
+        ],
+        "text": [
+          "#000000"
+        ]
+      },
+      "buttons": [
+        {
+          "label": "Play",
+          "bg": "#ffffff",
+          "color": "#000000",
+          "radius": "90px",
+          "height": 42,
+          "paddingX": 42,
+          "font": "DieGrotesk",
+          "size": 14,
+          "weight": "400"
+        },
+        {
+          "label": "Learn More",
+          "bg": "#ffffff",
+          "color": "#000000",
+          "radius": "90px",
+          "height": 42,
+          "paddingX": 42,
+          "font": "DieGrotesk",
+          "size": 14,
+          "weight": "400"
+        },
+        {
+          "label": "Subscribe for updates",
+          "bg": "#ffffff",
+          "color": "#000000",
+          "radius": "90px",
+          "height": 42,
+          "paddingX": 42,
+          "font": "DieGrotesk",
+          "size": 14,
+          "weight": "400"
+        }
+      ],
+      "contentWidth": 1280
+    }
+  },
+  {
     "id": "locomotive-landing",
     "site": "Locomotive",
     "url": "https://locomotive.ca",
@@ -45215,6 +45626,80 @@
         }
       ],
       "contentWidth": 1600
+    }
+  },
+  {
+    "id": "mammoth-brands-landing",
+    "site": "Mammoth Brands",
+    "url": "https://mammothbrands.com",
+    "type": "landing",
+    "tags": [
+      "grey",
+      "giant-white-caps",
+      "white-shape",
+      "serif-subhead",
+      "holding-company"
+    ],
+    "note": "Huge white caps 'MAMMOTH BRANDS' over grey with one big white abstract shape below, then a serif 'Create Things People Like More'. A holding company with almost nothing but a name and a shape.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/mammoth-brands-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/mammoth-brands-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Mammoth Brands",
+      "fonts": [
+        "fontNeueMontreal",
+        "fontSanomat"
+      ],
+      "type": {
+        "h1": {
+          "font": "fontSanomat",
+          "size": 115,
+          "weight": "600",
+          "lineHeight": 1.05,
+          "letterSpacing": "-2.304px",
+          "color": "rgb(255, 255, 255)"
+        },
+        "h2": {
+          "font": "fontSanomat",
+          "size": 115,
+          "weight": "600",
+          "lineHeight": 1.05,
+          "letterSpacing": "-2.304px",
+          "color": "rgb(255, 255, 255)"
+        },
+        "h3": null,
+        "body": {
+          "font": "fontNeueMontreal",
+          "size": 36,
+          "weight": "400",
+          "lineHeight": 1,
+          "letterSpacing": "-0.72px",
+          "color": "rgb(255, 255, 255)"
+        }
+      },
+      "colors": {
+        "background": "#818181",
+        "surfaces": [
+          "#ffffff",
+          "#818181"
+        ],
+        "text": [
+          "#ffffff",
+          "#818181"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": 1400
     }
   },
   {
@@ -49029,6 +49514,74 @@
         }
       ],
       "contentWidth": 1600
+    }
+  },
+  {
+    "id": "neon-rated-landing",
+    "site": "NEON Rated",
+    "url": "http://neonrated.com",
+    "type": "landing",
+    "tags": [
+      "dark",
+      "film-still-hero",
+      "condensed-caps-titles",
+      "release-rows",
+      "film-distributor"
+    ],
+    "note": "Each film is a full still with its title in big condensed caps, then rows 'In theaters' and 'Coming soon'. A film distributor whose site is a lobby of posters.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/neon-rated-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/neon-rated-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "NEON",
+      "fonts": [
+        "Focal",
+        "Girott"
+      ],
+      "type": {
+        "h1": {
+          "font": "Girott",
+          "size": 160,
+          "weight": "700",
+          "lineHeight": 0.9,
+          "letterSpacing": "-4.8px",
+          "color": "rgb(255, 255, 255)"
+        },
+        "h2": null,
+        "h3": null,
+        "body": {
+          "font": "Focal",
+          "size": 14,
+          "weight": "400",
+          "lineHeight": 1.2,
+          "letterSpacing": "-0.16px",
+          "color": "rgb(0, 0, 0)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#f3f3f3",
+          "#000000",
+          "#ffffff"
+        ],
+        "text": [
+          "#ffffff",
+          "#000000"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": 900
     }
   },
   {
@@ -64332,6 +64885,78 @@
     }
   },
   {
+    "id": "silver-gore-landing",
+    "site": "Silver Gore",
+    "url": "https://www.silvergore.com",
+    "type": "landing",
+    "tags": [
+      "dark",
+      "gothic-red-wordmark",
+      "water-photo",
+      "tour-dates-box",
+      "band"
+    ],
+    "note": "A red gothic wordmark over sparkling water, then tour dates in a heavy-bordered black box with ticket buttons. A band site where the poster and the gig list are the whole page.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/silver-gore-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/silver-gore-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Silver Gore",
+      "fonts": [
+        "ocr-b-std",
+        "Obviously"
+      ],
+      "type": {
+        "h1": {
+          "font": "ocr-b-std",
+          "size": 16,
+          "weight": "400",
+          "lineHeight": 1.5,
+          "letterSpacing": "-2.24px",
+          "color": "rgb(255, 0, 60)"
+        },
+        "h2": null,
+        "h3": {
+          "font": "ocr-b-std",
+          "size": 16,
+          "weight": "400",
+          "lineHeight": 1.5,
+          "letterSpacing": "-2.24px",
+          "color": "rgb(180, 180, 188)"
+        },
+        "body": {
+          "font": "ocr-b-std",
+          "size": 12,
+          "weight": "400",
+          "lineHeight": 1.33,
+          "letterSpacing": "-2.24px",
+          "color": "rgb(255, 0, 60)"
+        }
+      },
+      "colors": {
+        "background": "#000000",
+        "surfaces": [
+          "#000000"
+        ],
+        "text": [
+          "#000000"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": 960
+    }
+  },
+  {
     "id": "sketch-landing",
     "site": "Sketch",
     "url": "https://www.sketch.com",
@@ -71584,6 +72209,73 @@
     }
   },
   {
+    "id": "the-new-industrials-landing",
+    "site": "The New Industrials",
+    "url": "https://thenewindustrials.com",
+    "type": "landing",
+    "tags": [
+      "orange",
+      "slab-headline",
+      "ruled-editorial-grid",
+      "serif-body",
+      "essay"
+    ],
+    "note": "A huge slab serif title on orange inside thin ruled frames with publication metadata, then the essay in serif. A long read designed like a printed broadsheet.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/the-new-industrials-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/the-new-industrials-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "The New Industrials by Raw Materials",
+      "fonts": [
+        "albraBook",
+        "supplyMono",
+        "bizUdMincho"
+      ],
+      "type": {
+        "h1": {
+          "font": "supplyMono",
+          "size": 16,
+          "weight": "300",
+          "lineHeight": 1,
+          "letterSpacing": "normal",
+          "color": "rgb(17, 17, 17)"
+        },
+        "h2": null,
+        "h3": null,
+        "body": {
+          "font": "supplyMono",
+          "size": 16,
+          "weight": "300",
+          "lineHeight": 1,
+          "letterSpacing": "normal",
+          "color": "rgb(17, 17, 17)"
+        }
+      },
+      "colors": {
+        "background": "#ff8126",
+        "surfaces": [
+          "#111111"
+        ],
+        "text": [
+          "#111111",
+          "#cbcbcb"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": 1042
+    }
+  },
+  {
     "id": "the-pudding-landing",
     "site": "The Pudding",
     "url": "https://pudding.cool",
@@ -71654,6 +72346,80 @@
       },
       "buttons": [],
       "contentWidth": 1280
+    }
+  },
+  {
+    "id": "the-reach-landing",
+    "site": "The Reach",
+    "url": "https://thereach.travel",
+    "type": "landing",
+    "tags": [
+      "light",
+      "surf-photo",
+      "spaced-caps",
+      "serif-italic-tagline",
+      "travel"
+    ],
+    "note": "A surfer on a dark wave with 'THE REACH' in widely spaced caps, then 'Travel, edited.' A travel company with one photo and two words.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/the-reach-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/the-reach-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "The Reach",
+      "fonts": [
+        "Bradford",
+        "TWK Everett"
+      ],
+      "type": {
+        "h1": null,
+        "h2": {
+          "font": "Bradford",
+          "size": 14,
+          "weight": "400",
+          "lineHeight": 1.3,
+          "letterSpacing": "normal",
+          "color": "rgb(108, 101, 90)"
+        },
+        "h3": {
+          "font": "Bradford",
+          "size": 50,
+          "weight": "400",
+          "lineHeight": 1.2,
+          "letterSpacing": "-1.5px",
+          "color": "rgb(151, 84, 40)"
+        },
+        "body": {
+          "font": "Bradford",
+          "size": 36,
+          "weight": "400",
+          "lineHeight": 1.1,
+          "letterSpacing": "-0.72px",
+          "color": "rgb(151, 84, 40)"
+        }
+      },
+      "colors": {
+        "background": "#e1dfd5",
+        "surfaces": [
+          "#975428",
+          "#e1dfd5"
+        ],
+        "text": [
+          "#6c655a",
+          "#975428"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": null
     }
   },
   {
@@ -76146,6 +76912,156 @@
         }
       ],
       "contentWidth": 1180
+    }
+  },
+  {
+    "id": "waste-space-landing",
+    "site": "waste.space",
+    "url": "https://waste.space",
+    "type": "landing",
+    "tags": [
+      "light",
+      "dense-thumbnail-grid",
+      "tiny-images",
+      "archive"
+    ],
+    "note": "Hundreds of tiny images in a tight grid: buildings, shoes, faces, objects. A moodboard archive where the density is the design.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/waste-space-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/waste-space-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "waste.space",
+      "fonts": [
+        "SuisseIntlMono"
+      ],
+      "type": {
+        "h1": null,
+        "h2": {
+          "font": "SuisseIntlMono",
+          "size": 12,
+          "weight": "400",
+          "lineHeight": 1.33,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        },
+        "h3": null,
+        "body": null
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#ffffff"
+        ],
+        "text": []
+      },
+      "buttons": [],
+      "contentWidth": null
+    }
+  },
+  {
+    "id": "watts-pet-landing",
+    "site": "Watts Pet",
+    "url": "https://wattspet.com",
+    "type": "landing",
+    "tags": [
+      "orange",
+      "giant-wordmark",
+      "dog-photo",
+      "product-bags",
+      "pet-food"
+    ],
+    "note": "A huge white wordmark over a dog photo, then orange product bags with clear names ('Better Dailies'). A pet supplement brand loud enough to read across a shop.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/watts-pet-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/watts-pet-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Watts Pet | Real Meat. Targeted Function. Better Each Day.",
+      "fonts": [
+        "Degular"
+      ],
+      "type": {
+        "h1": {
+          "font": "Degular",
+          "size": 48,
+          "weight": "700",
+          "lineHeight": 1,
+          "letterSpacing": "normal",
+          "color": "rgb(255, 255, 255)"
+        },
+        "h2": {
+          "font": "Degular",
+          "size": 48,
+          "weight": "700",
+          "lineHeight": 1,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        },
+        "h3": {
+          "font": "Degular",
+          "size": 48,
+          "weight": "700",
+          "lineHeight": 1,
+          "letterSpacing": "normal",
+          "color": "rgb(255, 255, 255)"
+        },
+        "body": {
+          "font": "Degular",
+          "size": 14,
+          "weight": "600",
+          "lineHeight": 1,
+          "letterSpacing": "normal",
+          "color": "rgb(25, 25, 25)"
+        }
+      },
+      "colors": {
+        "background": "#000000",
+        "surfaces": [
+          "#000000",
+          "#ffffff",
+          "#f1f1f1",
+          "#c03800"
+        ],
+        "text": [
+          "#191919",
+          "#000000",
+          "#f1f1f1",
+          "#ffffff"
+        ]
+      },
+      "buttons": [
+        {
+          "label": "Shop Watts",
+          "bg": "#c03800",
+          "color": "#f1f1f1",
+          "radius": "1440px",
+          "height": 42,
+          "paddingX": 24,
+          "font": "Degular",
+          "size": 16,
+          "weight": "600"
+        }
+      ],
+      "contentWidth": 1200
     }
   },
   {
