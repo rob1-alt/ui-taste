@@ -19909,60 +19909,6 @@
     }
   },
   {
-    "id": "campbell-rey-landing",
-    "site": "Campbell–Rey",
-    "url": "http://campbell-rey.com",
-    "type": "landing",
-    "tags": [
-      "dark",
-      "large-serif-paragraph",
-      "floral-texture",
-      "design-atelier"
-    ],
-    "note": "A huge serif paragraph introducing the atelier fills a dark screen over a faint floral texture. An interiors studio that leads with a sentence set like a book jacket.",
-    "captured": "2026-11-24",
-    "screens": {
-      "desktop": {
-        "file": "screens/campbell-rey-landing-desktop.jpg",
-        "width": 1440,
-        "height": 900
-      },
-      "mobile": {
-        "file": "screens/campbell-rey-landing-mobile.jpg",
-        "width": 390,
-        "height": 844
-      }
-    },
-    "tokens": {
-      "title": "Campbell-Rey",
-      "fonts": [
-        "Schnyder Cond M"
-      ],
-      "type": {
-        "h1": null,
-        "h2": null,
-        "h3": null,
-        "body": {
-          "font": "Schnyder Cond M",
-          "size": 80,
-          "weight": "400",
-          "lineHeight": 1,
-          "letterSpacing": "normal",
-          "color": "rgb(255, 255, 255)"
-        }
-      },
-      "colors": {
-        "background": "#000000",
-        "surfaces": [],
-        "text": [
-          "#ffffff"
-        ]
-      },
-      "buttons": [],
-      "contentWidth": null
-    }
-  },
-  {
     "id": "capacities-landing",
     "site": "Capacities",
     "url": "https://capacities.io",
@@ -79422,57 +79368,6 @@
         }
       ],
       "contentWidth": 1110
-    }
-  },
-  {
-    "id": "volkshaus-landing",
-    "site": "Volkshaus",
-    "url": "https://www.volkshaus.ch",
-    "type": "landing",
-    "tags": [
-      "light",
-      "colour-crowd-illustration",
-      "stacked-caps-nav",
-      "seal-badge",
-      "venue"
-    ],
-    "note": "A crowd of people drawn in pink, yellow, blue and green fills the page beside 'VOLKSHAUS' and a stacked nav, with a round 'seit 1910' seal. A historic venue drawn as its audience.",
-    "captured": "2026-11-24",
-    "screens": {
-      "desktop": {
-        "file": "screens/volkshaus-landing-desktop.jpg",
-        "width": 1440,
-        "height": 900
-      },
-      "mobile": {
-        "file": "screens/volkshaus-landing-mobile.jpg",
-        "width": 390,
-        "height": 844
-      }
-    },
-    "tokens": {
-      "title": "Volkshaus Zürich",
-      "fonts": [
-        "Nunito Sans",
-        "GT-Haptik"
-      ],
-      "type": {
-        "h1": null,
-        "h2": null,
-        "h3": null,
-        "body": null
-      },
-      "colors": {
-        "background": "#ffffff",
-        "surfaces": [
-          "#ffffff"
-        ],
-        "text": [
-          "#000000"
-        ]
-      },
-      "buttons": [],
-      "contentWidth": 1230
     }
   },
   {

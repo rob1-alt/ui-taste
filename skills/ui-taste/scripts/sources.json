@@ -11475,18 +11475,6 @@
   "note": "Saturated project images (neon portraits, a purple voting campaign, game key art) set in a staggered two-column grid on black. A designer whose work is loud enough to need no frame."
  },
  {
-  "site": "Campbell–Rey",
-  "type": "landing",
-  "url": "http://campbell-rey.com",
-  "tags": [
-   "dark",
-   "large-serif-paragraph",
-   "floral-texture",
-   "design-atelier"
-  ],
-  "note": "A huge serif paragraph introducing the atelier fills a dark screen over a faint floral texture. An interiors studio that leads with a sentence set like a book jacket."
- },
- {
   "site": "Haus Steuermann",
   "type": "landing",
   "url": "http://steuermann.haus",
@@ -11585,19 +11573,6 @@
    "consultancy"
   ],
   "note": "One long statement of what the consultancy does, then project tiles with title and one line each. A studio site that is a clear sentence and a grid."
- },
- {
-  "site": "Volkshaus",
-  "type": "landing",
-  "url": "https://www.volkshaus.ch",
-  "tags": [
-   "light",
-   "colour-crowd-illustration",
-   "stacked-caps-nav",
-   "seal-badge",
-   "venue"
-  ],
-  "note": "A crowd of people drawn in pink, yellow, blue and green fills the page beside 'VOLKSHAUS' and a stacked nav, with a round 'seit 1910' seal. A historic venue drawn as its audience."
  },
  {
   "site": "Why",
