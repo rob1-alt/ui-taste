@@ -1,273 +1,511 @@
 [
  {
-  "site": "Stripe Terminal",
-  "url": "https://stripe.com/terminal",
+  "site": "CSS Tricks",
+  "url": "https://css-tricks.com",
   "type": "landing",
   "tags": [],
   "note": ""
  },
  {
-  "site": "Stripe Billing",
-  "url": "https://stripe.com/billing",
+  "site": "Codrops",
+  "url": "https://tympanus.net/codrops",
   "type": "landing",
   "tags": [],
   "note": ""
  },
  {
-  "site": "Mercury Raise",
-  "url": "https://mercury.com/raise",
+  "site": "Sidebar",
+  "url": "https://sidebar.io",
   "type": "landing",
   "tags": [],
   "note": ""
  },
  {
-  "site": "Ramp Travel",
-  "url": "https://ramp.com/travel",
+  "site": "Hacker News",
+  "url": "https://news.ycombinator.com",
   "type": "landing",
   "tags": [],
   "note": ""
  },
  {
-  "site": "Brex Empower",
-  "url": "https://www.brex.com/product/empower",
+  "site": "Lobsters",
+  "url": "https://lobste.rs",
   "type": "landing",
   "tags": [],
   "note": ""
  },
  {
-  "site": "Rippling Spend",
-  "url": "https://www.rippling.com/spend",
+  "site": "Daring Fireball",
+  "url": "https://daringfireball.net",
   "type": "landing",
   "tags": [],
   "note": ""
  },
  {
-  "site": "Notion AI",
-  "url": "https://www.notion.com/product/ai",
+  "site": "Six Colors",
+  "url": "https://sixcolors.com",
   "type": "landing",
   "tags": [],
   "note": ""
  },
  {
-  "site": "Notion Projects",
-  "url": "https://www.notion.com/product/projects",
+  "site": "MacStories",
+  "url": "https://www.macstories.net",
   "type": "landing",
   "tags": [],
   "note": ""
  },
  {
-  "site": "Figma Make",
-  "url": "https://www.figma.com/make",
+  "site": "Ars Technica",
+  "url": "https://arstechnica.com",
   "type": "landing",
   "tags": [],
   "note": ""
  },
  {
-  "site": "Figma Buzz",
-  "url": "https://www.figma.com/buzz",
+  "site": "Increment",
+  "url": "https://increment.com",
   "type": "landing",
   "tags": [],
   "note": ""
  },
  {
-  "site": "Framer AI",
-  "url": "https://www.framer.com/ai",
+  "site": "Works That Work",
+  "url": "https://worksthatwork.com",
   "type": "landing",
   "tags": [],
   "note": ""
  },
  {
-  "site": "Webflow Analyze",
-  "url": "https://webflow.com/analyze",
+  "site": "Eye on Design",
+  "url": "https://eyeondesign.aiga.org",
   "type": "landing",
   "tags": [],
   "note": ""
  },
  {
-  "site": "Spline AI",
-  "url": "https://spline.design/ai",
+  "site": "Dezeen",
+  "url": "https://www.dezeen.com",
   "type": "landing",
   "tags": [],
   "note": ""
  },
  {
-  "site": "Rive Runtimes",
-  "url": "https://rive.app/runtimes",
+  "site": "Designboom",
+  "url": "https://www.designboom.com",
   "type": "landing",
   "tags": [],
   "note": ""
  },
  {
-  "site": "Mobbin Flows",
-  "url": "https://mobbin.com/flows",
+  "site": "Wallpaper",
+  "url": "https://www.wallpaper.com",
   "type": "landing",
   "tags": [],
   "note": ""
  },
  {
-  "site": "Are.na Blog",
-  "url": "https://www.are.na/editorial",
+  "site": "Creative Review",
+  "url": "https://www.creativereview.co.uk",
   "type": "landing",
   "tags": [],
   "note": ""
  },
  {
-  "site": "Readwise Ghostreader",
-  "url": "https://readwise.io/ghostreader",
+  "site": "Typeroom",
+  "url": "https://www.typeroom.eu",
   "type": "landing",
   "tags": [],
   "note": ""
  },
  {
-  "site": "Things Mac",
-  "url": "https://culturedcode.com/things/mac",
+  "site": "Klim Fonts",
+  "url": "https://klim.co.nz/fonts",
   "type": "landing",
   "tags": [],
   "note": ""
  },
  {
-  "site": "Craft Assistant",
-  "url": "https://www.craft.do/ai",
+  "site": "Fontwerk",
+  "url": "https://fontwerk.com",
   "type": "landing",
   "tags": [],
   "note": ""
  },
  {
-  "site": "Superhuman AI",
-  "url": "https://superhuman.com/ai",
+  "site": "Sharp Type",
+  "url": "https://sharptype.co",
   "type": "landing",
   "tags": [],
   "note": ""
  },
  {
-  "site": "Shortwave AI",
-  "url": "https://www.shortwave.com/ai",
+  "site": "Dinamo Fonts",
+  "url": "https://abcdinamo.com/typefaces",
   "type": "landing",
   "tags": [],
   "note": ""
  },
  {
-  "site": "Clay Claygent",
-  "url": "https://www.clay.com/claygent",
+  "site": "Pangram Fonts",
+  "url": "https://pangrampangram.com/collections/all",
   "type": "landing",
   "tags": [],
   "note": ""
  },
  {
-  "site": "Attio Workflows",
-  "url": "https://attio.com/platform/workflows",
+  "site": "Monotype",
+  "url": "https://www.monotype.com",
   "type": "landing",
   "tags": [],
   "note": ""
  },
  {
-  "site": "Fathom Video",
-  "url": "https://fathom.video",
+  "site": "Type Network",
+  "url": "https://typenetwork.com",
   "type": "landing",
   "tags": [],
   "note": ""
  },
  {
-  "site": "tldraw Computer",
-  "url": "https://computer.tldraw.com",
+  "site": "Typotheque",
+  "url": "https://www.typotheque.com",
   "type": "landing",
   "tags": [],
   "note": ""
  },
  {
-  "site": "Excalidraw Plus",
-  "url": "https://plus.excalidraw.com",
+  "site": "Hoefler&Co",
+  "url": "https://www.typography.com",
   "type": "landing",
   "tags": [],
   "note": ""
  },
  {
-  "site": "Whimsical AI",
-  "url": "https://whimsical.com/ai",
+  "site": "Frere-Jones",
+  "url": "https://frerejones.com",
   "type": "landing",
   "tags": [],
   "note": ""
  },
  {
-  "site": "Miro Canvas",
-  "url": "https://miro.com/ai",
+  "site": "Village",
+  "url": "https://vllg.com",
   "type": "landing",
   "tags": [],
   "note": ""
  },
  {
-  "site": "Pitch Presentations",
-  "url": "https://pitch.com/presentation-maker",
+  "site": "Occupant Fonts",
+  "url": "https://occupantfonts.com",
   "type": "landing",
   "tags": [],
   "note": ""
  },
  {
-  "site": "Gamma Docs",
-  "url": "https://gamma.app/docs",
+  "site": "TypeTogether",
+  "url": "https://www.type-together.com",
   "type": "landing",
   "tags": [],
   "note": ""
  },
  {
-  "site": "Typefully Pro",
-  "url": "https://typefully.com/pricing",
+  "site": "Fontsmith",
+  "url": "https://www.fontsmith.com",
   "type": "landing",
   "tags": [],
   "note": ""
  },
  {
-  "site": "Buffer",
-  "url": "https://buffer.com",
+  "site": "Kilotype",
+  "url": "https://www.kilotype.de",
   "type": "landing",
   "tags": [],
   "note": ""
  },
  {
-  "site": "Hypefury",
-  "url": "https://hypefury.com",
+  "site": "Optimo",
+  "url": "https://optimo.ch",
   "type": "landing",
   "tags": [],
   "note": ""
  },
  {
-  "site": "Beehiiv Ads",
-  "url": "https://www.beehiiv.com/features/ad-network",
+  "site": "Atipo",
+  "url": "https://www.atipofoundry.com",
   "type": "landing",
   "tags": [],
   "note": ""
  },
  {
-  "site": "Substack Notes",
-  "url": "https://substack.com/notes",
+  "site": "NaN",
+  "url": "https://www.nan.xyz",
   "type": "landing",
   "tags": [],
   "note": ""
  },
  {
-  "site": "Gumroad Discover",
-  "url": "https://gumroad.com/discover",
+  "site": "Blaze Type",
+  "url": "https://blazetype.eu",
   "type": "landing",
   "tags": [],
   "note": ""
  },
  {
-  "site": "Lemon Squeezy",
-  "url": "https://www.lemonsqueezy.com",
+  "site": "Tightype",
+  "url": "https://tightype.com",
   "type": "landing",
   "tags": [],
   "note": ""
  },
  {
-  "site": "Paddle Billing",
-  "url": "https://www.paddle.com/billing",
+  "site": "Studio Feixen",
+  "url": "https://studiofeixen.ch",
   "type": "landing",
   "tags": [],
   "note": ""
  },
  {
-  "site": "Polar Benefits",
-  "url": "https://polar.sh/features/benefits",
+  "site": "Dia Studio Type",
+  "url": "https://www.dia.tv/type",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "Order Type",
+  "url": "https://order.design/type",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "Collletttivo",
+  "url": "https://www.collletttivo.it",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "Uncut",
+  "url": "https://uncut.wtf",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "Google Fonts Knowledge",
+  "url": "https://fonts.google.com/knowledge",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "Typekit Practice",
+  "url": "https://practicaltypography.com",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "Butterick Typography",
+  "url": "https://practicaltypography.com/fonts",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "Rasmus Andersson",
+  "url": "https://rsms.me",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "Inter Font",
+  "url": "https://rsms.me/inter",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "JetBrains Mono",
+  "url": "https://www.jetbrains.com/lp/mono",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "Commit Mono",
+  "url": "https://commitmono.com",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "Berkeley Mono",
+  "url": "https://usgraphics.com/products/berkeley-mono",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "Monaspace",
+  "url": "https://monaspace.githubnext.com",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "Recursive",
+  "url": "https://www.recursive.design",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "Font Awesome",
+  "url": "https://fontawesome.com",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "Phosphor Icons",
+  "url": "https://phosphoricons.com",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "Lucide",
+  "url": "https://lucide.dev",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "Heroicons",
+  "url": "https://heroicons.com",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "Iconoir",
+  "url": "https://iconoir.com",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "Tabler Icons",
+  "url": "https://tabler.io/icons",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "Streamline",
+  "url": "https://www.streamlinehq.com",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "Humaaans",
+  "url": "https://www.humaaans.com",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "Blush",
+  "url": "https://blush.design",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "Unsplash",
+  "url": "https://unsplash.com",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "Cosmos Collections",
+  "url": "https://www.cosmos.so/explore",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "Pinterest Design",
+  "url": "https://newsroom.pinterest.com",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "Dribbble",
+  "url": "https://dribbble.com",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "Behance",
+  "url": "https://www.behance.net",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "Layers Design",
+  "url": "https://layers.to/explore",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "Siteinspire",
+  "url": "https://www.siteinspire.com",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "One Page Love",
+  "url": "https://onepagelove.com",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "Minimal Gallery",
+  "url": "https://minimal.gallery",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "Httpster",
+  "url": "https://httpster.net",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "Hoverstat",
+  "url": "https://www.hoverstat.es",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "Brutalist Websites",
+  "url": "https://brutalistwebsites.com",
   "type": "landing",
   "tags": [],
   "note": ""
