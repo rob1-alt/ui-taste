@@ -8,7 +8,7 @@ export function LibraryBar({ search, actions, onHome }: { search?: React.ReactNo
   return (
     <header className="bar">
       <div className="bar-inner">
-        <Link className="brand" href="/" aria-label="taster home"><Logo /></Link>
+        <Link className="brand" href="/" aria-label="ui taste home"><Logo /></Link>
         <Link className="crumb" href="/library" id="lib-home" onClick={onHome}>Library</Link>
         {search}
         <div className="bar-actions" style={search ? undefined : { marginLeft: "auto" }}>

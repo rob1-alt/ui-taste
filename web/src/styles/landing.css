@@ -52,9 +52,9 @@ h1, h2, .wordmark, .foot-mark {
 .btn-line { box-shadow: inset 0 0 0 1.5px var(--ink); }
 .btn-line:hover { background: var(--ink); color: #fff; }
 
-/* the taster logo, painted in currentColor through a mask so it follows the theme */
-.logo { display: inline-block; width: 98px; height: 26px; background: currentColor; -webkit-mask: url("/brand/taster-logo-mask.svg") center / contain no-repeat; mask: url("/brand/taster-logo-mask.svg") center / contain no-repeat; vertical-align: middle; }
-.logo-xl { width: 100%; height: auto; aspect-ratio: 392 / 104; display: block; }
+/* the ui taste logo, painted in currentColor through a mask so it follows the theme */
+.logo { display: inline-block; width: 120px; height: 26px; background: currentColor; -webkit-mask: url("/brand/uitaste-logo-mask.svg") center / contain no-repeat; mask: url("/brand/uitaste-logo-mask.svg") center / contain no-repeat; vertical-align: middle; }
+.logo-xl { width: 100%; height: auto; aspect-ratio: 482 / 104; display: block; }
 
 /* ---------- masthead ---------- */
 .masthead { position: sticky; top: 0; z-index: 20; background: #0e0e0e; color: #fff; }

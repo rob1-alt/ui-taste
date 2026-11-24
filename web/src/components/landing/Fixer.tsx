@@ -81,7 +81,7 @@ export function Fixer() {
             <div className="d-card"><span className="d-ico">🎯</span><b>Easy to Use</b><p>An intuitive interface anyone can use.</p><strong>One list of who is late</strong></div>
           </div>
         </div>
-        <p className="demo-note"><b>About the visuals.</b> The sky and hills here are drawn placeholders, the kind you would generate or shoot. taster does not make your visuals: it gives Claude the layout ideas (where the product sits, how the scene frames it, what goes on top), and the images come from you or an image model.</p>
+        <p className="demo-note"><b>About the visuals.</b> The sky and hills here are drawn placeholders, the kind you would generate or shoot. ui taste does not make your visuals: it gives Claude the layout ideas (where the product sits, how the scene frames it, what goes on top), and the images come from you or an image model.</p>
       </div>
     </div>
   );

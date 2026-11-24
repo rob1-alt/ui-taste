@@ -81,8 +81,8 @@ a { color: inherit; }
   max-width: 1600px; margin: 0 auto; padding: 0 32px;
   height: 60px; display: flex; align-items: center; gap: 24px;
 }
-/* the taster logo, painted in currentColor through a mask so it follows the theme */
-.logo { display: inline-block; width: 98px; height: 26px; background: currentColor; -webkit-mask: url("/brand/taster-logo-mask.svg") center / contain no-repeat; mask: url("/brand/taster-logo-mask.svg") center / contain no-repeat; vertical-align: middle; }
+/* the ui taste logo, painted in currentColor through a mask so it follows the theme */
+.logo { display: inline-block; width: 120px; height: 26px; background: currentColor; -webkit-mask: url("/brand/uitaste-logo-mask.svg") center / contain no-repeat; mask: url("/brand/uitaste-logo-mask.svg") center / contain no-repeat; vertical-align: middle; }
 .brand {
   display: inline-flex; align-items: center; gap: 10px;
   font-weight: 600; font-size: 16px; letter-spacing: -0.01em; text-decoration: none;

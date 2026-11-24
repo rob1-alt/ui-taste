@@ -6,7 +6,7 @@ import { getItem } from "@/lib/library";
 
 export const size = { width: 1200, height: 630 };
 export const contentType = "image/png";
-export const alt = "A page from the taster library";
+export const alt = "A page from the ui taste library";
 
 export default async function OpenGraph({ params }: { params: Promise<{ id: string }> }) {
   const { id } = await params;
@@ -27,7 +27,7 @@ export default async function OpenGraph({ params }: { params: Promise<{ id: stri
           </div>
           <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between" }}>
             <div style={{ display: "flex", gap: 8 }}>{pal.map((c) => <div key={c} style={{ width: 36, height: 36, borderRadius: 6, background: c, border: "1px solid rgba(255,255,255,.2)" }} />)}</div>
-            <div style={{ fontSize: 28, fontWeight: 800, letterSpacing: -1 }}>taster</div>
+            <div style={{ fontSize: 28, fontWeight: 800, letterSpacing: -1 }}>ui taste</div>
           </div>
         </div>
       </div>

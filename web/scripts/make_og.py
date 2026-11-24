@@ -48,7 +48,7 @@ body{{width:1200px;height:630px;background:#0e0e0e;color:#fff;font-family:Archiv
 .foot{{position:absolute;left:40px;right:40px;bottom:34px;display:flex;align-items:flex-end;justify-content:space-between;gap:40px}}
 h1{{font-stretch:62%;font-weight:800;text-transform:uppercase;font-size:66px;line-height:.86;letter-spacing:-.01em;max-width:800px}}
 .side{{display:grid;gap:14px;justify-items:end;text-align:right}}
-.logo{{width:170px;height:45px;background:#fff;-webkit-mask:url(file://{ROOT}/site/brand/taster-logo-mask.svg) center/contain no-repeat}}
+.logo{{width:209px;height:45px;background:#fff;-webkit-mask:url(file://{ROOT}/site/brand/uitaste-logo-mask.svg) center/contain no-repeat}}
 .n{{font-stretch:125%;font-size:13px;font-weight:600;letter-spacing:.03em;text-transform:uppercase;color:#a7a7a3}}
 .n b{{color:#ff3d1f}}
 </style></head><body>

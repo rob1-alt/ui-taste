@@ -6,8 +6,8 @@ import "@/styles/library.css";
 
 export const metadata: Metadata = {
   ...baseMetadata,
-  title: { default: "taster · library", template: "%s · taster" },
-  description: "The taster library: real screens from products known for their design, with the tokens measured on each live page.",
+  title: { default: "ui taste · library", template: "%s · ui taste" },
+  description: "The ui taste library: real screens from products known for their design, with the tokens measured on each live page.",
   alternates: { canonical: "/library" },
   openGraph: { ...baseMetadata.openGraph, url: "/library" },
 };
