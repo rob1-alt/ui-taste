@@ -11460,5 +11460,156 @@
    "brand-strategy"
   ],
   "note": "Teal cyanotype images cropped into ovals and circles around a long serif statement with 'quality' in italic. A brand consultancy with a print-process texture instead of stock imagery."
+ },
+ {
+  "site": "Ben Silvertown",
+  "type": "landing",
+  "url": "http://bensilvertown.com",
+  "tags": [
+   "dark",
+   "colour-project-tiles",
+   "staggered-grid",
+   "neon-art",
+   "designer-portfolio"
+  ],
+  "note": "Saturated project images (neon portraits, a purple voting campaign, game key art) set in a staggered two-column grid on black. A designer whose work is loud enough to need no frame."
+ },
+ {
+  "site": "Campbell–Rey",
+  "type": "landing",
+  "url": "http://campbell-rey.com",
+  "tags": [
+   "dark",
+   "large-serif-paragraph",
+   "floral-texture",
+   "design-atelier"
+  ],
+  "note": "A huge serif paragraph introducing the atelier fills a dark screen over a faint floral texture. An interiors studio that leads with a sentence set like a book jacket."
+ },
+ {
+  "site": "Haus Steuermann",
+  "type": "landing",
+  "url": "http://steuermann.haus",
+  "tags": [
+   "light",
+   "sea-photo",
+   "west-east-labels",
+   "two-column-text",
+   "holiday-house"
+  ],
+  "note": "A wide photo of the shore with 'West' and 'Ost' set at its edges, then the house's story in two narrow columns with small photos. A holiday house sold as a quiet monograph."
+ },
+ {
+  "site": "Josef Lueger",
+  "type": "landing",
+  "url": "http://josef.online",
+  "tags": [
+   "light",
+   "blue-serif-italic",
+   "radio-list",
+   "raumrezepte",
+   "consultant"
+  ],
+  "note": "Three phrases ('Josef, schau ums Eck.') as blue radio options, then a long statement in blue serif italic. A spatial consultant's site made of one blue and one voice."
+ },
+ {
+  "site": "LAMAS",
+  "type": "landing",
+  "url": "http://lamas.us",
+  "tags": [
+   "light",
+   "letters-around-photo",
+   "wood-ceiling",
+   "architecture"
+  ],
+  "note": "The letters L, A, M, A, S placed around the corners of a timber ceiling photo, then interiors with captions. An architecture studio using its name as a frame."
+ },
+ {
+  "site": "Lu Yu",
+  "type": "landing",
+  "url": "http://luyu.co",
+  "tags": [
+   "dark",
+   "lilac-display-serif",
+   "mixed-colour-headline",
+   "portfolio",
+   "designer"
+  ],
+  "note": "'MADE WITH LOVE & PURPOSE' in a sharp display serif, the second line in lilac, over black, then a project list with years. A designer's identity built from one typeface choice."
+ },
+ {
+  "site": "Northernism",
+  "type": "landing",
+  "url": "https://northernism.com",
+  "tags": [
+   "light",
+   "object-photos",
+   "vertical-nav-list",
+   "editorial-shop"
+  ],
+  "note": "Single objects (a teapot, brass hands, a magazine) photographed on white with a slim vertical nav list. A design shop laid out like a catalogue page."
+ },
+ {
+  "site": "Pressures & Perspectives",
+  "type": "landing",
+  "url": "http://pressuresandperspectives.com",
+  "tags": [
+   "light",
+   "line-portraits",
+   "pastel-panels",
+   "serif-story-titles",
+   "mental-health"
+  ],
+  "note": "Each story is a panel with a hand-drawn line portrait of the person and a serif title. A mental health storytelling site that draws its people instead of photographing them."
+ },
+ {
+  "site": "PRIORY",
+  "type": "landing",
+  "url": "http://priorypriory.com",
+  "tags": [
+   "pastel",
+   "mirrored-wordmark",
+   "pink-and-lilac-panels",
+   "fashion-photos"
+  ],
+  "note": "'PRIORY' set mirrored in white over a lilac panel, then fashion photos on pastel pink and lilac blocks. A fashion label with a soft colour-block grid."
+ },
+ {
+  "site": "Stereo Associates",
+  "type": "landing",
+  "url": "https://stereo.associates",
+  "tags": [
+   "light",
+   "large-statement",
+   "project-tile-grid",
+   "consultancy"
+  ],
+  "note": "One long statement of what the consultancy does, then project tiles with title and one line each. A studio site that is a clear sentence and a grid."
+ },
+ {
+  "site": "Volkshaus",
+  "type": "landing",
+  "url": "https://www.volkshaus.ch",
+  "tags": [
+   "light",
+   "colour-crowd-illustration",
+   "stacked-caps-nav",
+   "seal-badge",
+   "venue"
+  ],
+  "note": "A crowd of people drawn in pink, yellow, blue and green fills the page beside 'VOLKSHAUS' and a stacked nav, with a round 'seit 1910' seal. A historic venue drawn as its audience."
+ },
+ {
+  "site": "Why",
+  "type": "landing",
+  "url": "http://www.why.design",
+  "tags": [
+   "cream",
+   "campaign-photos",
+   "serif-titles",
+   "curator-notes",
+   "ad-archive"
+  ],
+  "note": "Each entry is a campaign photo (billboards, hoardings) with a serif title and a short critical note. An advertising archive written like a museum label."
  }
 ]

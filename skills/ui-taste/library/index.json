@@ -17215,6 +17215,73 @@
     }
   },
   {
+    "id": "ben-silvertown-landing",
+    "site": "Ben Silvertown",
+    "url": "http://bensilvertown.com",
+    "type": "landing",
+    "tags": [
+      "dark",
+      "colour-project-tiles",
+      "staggered-grid",
+      "neon-art",
+      "designer-portfolio"
+    ],
+    "note": "Saturated project images (neon portraits, a purple voting campaign, game key art) set in a staggered two-column grid on black. A designer whose work is loud enough to need no frame.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/ben-silvertown-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/ben-silvertown-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Ben Silvertown - Work ? 2019",
+      "fonts": [
+        "Plain-Regular",
+        "Open Sans",
+        "LouizeDisplay"
+      ],
+      "type": {
+        "h1": null,
+        "h2": null,
+        "h3": {
+          "font": "FoundersGroteskMono",
+          "size": 16,
+          "weight": "400",
+          "lineHeight": 1.5,
+          "letterSpacing": "normal",
+          "color": "rgb(41, 42, 44)"
+        },
+        "body": {
+          "font": "Plain-Regular",
+          "size": 0,
+          "weight": "400",
+          "lineHeight": NaN,
+          "letterSpacing": "normal",
+          "color": "rgb(112, 112, 112)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#000000",
+          "#ffffff"
+        ],
+        "text": [
+          "#ffffff"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": 1250
+    }
+  },
+  {
     "id": "benjamin-righetti-landing",
     "site": "Benjamin Righetti",
     "url": "https://benjaminrighetti.com",
@@ -19839,6 +19906,60 @@
         }
       ],
       "contentWidth": 980
+    }
+  },
+  {
+    "id": "campbell-rey-landing",
+    "site": "Campbell–Rey",
+    "url": "http://campbell-rey.com",
+    "type": "landing",
+    "tags": [
+      "dark",
+      "large-serif-paragraph",
+      "floral-texture",
+      "design-atelier"
+    ],
+    "note": "A huge serif paragraph introducing the atelier fills a dark screen over a faint floral texture. An interiors studio that leads with a sentence set like a book jacket.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/campbell-rey-landing-desktop.jpg",
+        "width": 1440,
+        "height": 900
+      },
+      "mobile": {
+        "file": "screens/campbell-rey-landing-mobile.jpg",
+        "width": 390,
+        "height": 844
+      }
+    },
+    "tokens": {
+      "title": "Campbell-Rey",
+      "fonts": [
+        "Schnyder Cond M"
+      ],
+      "type": {
+        "h1": null,
+        "h2": null,
+        "h3": null,
+        "body": {
+          "font": "Schnyder Cond M",
+          "size": 80,
+          "weight": "400",
+          "lineHeight": 1,
+          "letterSpacing": "normal",
+          "color": "rgb(255, 255, 255)"
+        }
+      },
+      "colors": {
+        "background": "#000000",
+        "surfaces": [],
+        "text": [
+          "#ffffff"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": null
     }
   },
   {
@@ -36602,6 +36723,88 @@
     }
   },
   {
+    "id": "haus-steuermann-landing",
+    "site": "Haus Steuermann",
+    "url": "http://steuermann.haus",
+    "type": "landing",
+    "tags": [
+      "light",
+      "sea-photo",
+      "west-east-labels",
+      "two-column-text",
+      "holiday-house"
+    ],
+    "note": "A wide photo of the shore with 'West' and 'Ost' set at its edges, then the house's story in two narrow columns with small photos. A holiday house sold as a quiet monograph.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/haus-steuermann-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/haus-steuermann-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Haus Steuermann",
+      "fonts": [
+        "NeueHaasGroteskDisp W01",
+        "NeueHaasGroteskText W01",
+        "NHaasGroteskDSW01-45Lt"
+      ],
+      "type": {
+        "h1": {
+          "font": "NeueHaasGroteskDisp W01",
+          "size": 37,
+          "weight": "400",
+          "lineHeight": 1.16,
+          "letterSpacing": "1px",
+          "color": "rgb(55, 55, 65)"
+        },
+        "h2": {
+          "font": "NeueHaasGroteskDisp W01",
+          "size": 26,
+          "weight": "400",
+          "lineHeight": 1.23,
+          "letterSpacing": "1px",
+          "color": "rgb(55, 55, 65)"
+        },
+        "h3": {
+          "font": "NeueHaasGroteskText W01",
+          "size": 15,
+          "weight": "400",
+          "lineHeight": 1.47,
+          "letterSpacing": "1px",
+          "color": "rgb(55, 55, 65)"
+        },
+        "body": {
+          "font": "NeueHaasGroteskText W01",
+          "size": 19,
+          "weight": "400",
+          "lineHeight": 1.47,
+          "letterSpacing": "normal",
+          "color": "rgb(108, 117, 127)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#ffffff",
+          "#efeff2"
+        ],
+        "text": [
+          "#6c757f",
+          "#373741"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": 1280
+    }
+  },
+  {
     "id": "headspace-landing",
     "site": "Headspace",
     "url": "https://www.headspace.com",
@@ -42089,6 +42292,87 @@
     }
   },
   {
+    "id": "josef-lueger-landing",
+    "site": "Josef Lueger",
+    "url": "http://josef.online",
+    "type": "landing",
+    "tags": [
+      "light",
+      "blue-serif-italic",
+      "radio-list",
+      "raumrezepte",
+      "consultant"
+    ],
+    "note": "Three phrases ('Josef, schau ums Eck.') as blue radio options, then a long statement in blue serif italic. A spatial consultant's site made of one blue and one voice.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/josef-lueger-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/josef-lueger-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "josef - raumrezepte",
+      "fonts": [
+        "FaktPro",
+        "FinancierDisplayWeb"
+      ],
+      "type": {
+        "h1": {
+          "font": "FinancierDisplayWeb",
+          "size": 50,
+          "weight": "400",
+          "lineHeight": 1.2,
+          "letterSpacing": "2px",
+          "color": "rgb(30, 92, 255)"
+        },
+        "h2": {
+          "font": "FaktPro",
+          "size": 20,
+          "weight": "400",
+          "lineHeight": 1.7,
+          "letterSpacing": "4px",
+          "color": "rgb(255, 255, 255)"
+        },
+        "h3": {
+          "font": "FaktPro",
+          "size": 23,
+          "weight": "400",
+          "lineHeight": 1.1,
+          "letterSpacing": "normal",
+          "color": "rgb(30, 92, 255)"
+        },
+        "body": {
+          "font": "FinancierDisplayWeb",
+          "size": 48,
+          "weight": "400",
+          "lineHeight": 1.08,
+          "letterSpacing": "1.92px",
+          "color": "rgb(30, 92, 255)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#ffffff",
+          "#1e5cff"
+        ],
+        "text": [
+          "#1e5cff",
+          "#ffffff"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": 800
+    }
+  },
+  {
     "id": "july-fund-landing",
     "site": "July Fund",
     "url": "https://july.fund",
@@ -43396,6 +43680,72 @@
         }
       ],
       "contentWidth": 1536
+    }
+  },
+  {
+    "id": "lamas-landing",
+    "site": "LAMAS",
+    "url": "http://lamas.us",
+    "type": "landing",
+    "tags": [
+      "light",
+      "letters-around-photo",
+      "wood-ceiling",
+      "architecture"
+    ],
+    "note": "The letters L, A, M, A, S placed around the corners of a timber ceiling photo, then interiors with captions. An architecture studio using its name as a frame.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/lamas-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3171
+      },
+      "mobile": {
+        "file": "screens/lamas-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "LAMAS Architecture | Residential Architects in Toronto, ON",
+      "fonts": [
+        "Helvetica Neue",
+        "Syne"
+      ],
+      "type": {
+        "h1": null,
+        "h2": {
+          "font": "Syne",
+          "size": 42,
+          "weight": "400",
+          "lineHeight": 0.93,
+          "letterSpacing": "-0.8448px",
+          "color": "rgb(0, 0, 0)"
+        },
+        "h3": null,
+        "body": {
+          "font": "Helvetica Neue",
+          "size": 22,
+          "weight": "400",
+          "lineHeight": 1.4,
+          "letterSpacing": "0.13728px",
+          "color": "rgb(0, 0, 0)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#ffffff",
+          "#e7d9cb",
+          "#000000"
+        ],
+        "text": [
+          "#000000"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": null
     }
   },
   {
@@ -46030,6 +46380,69 @@
         }
       ],
       "contentWidth": null
+    }
+  },
+  {
+    "id": "lu-yu-landing",
+    "site": "Lu Yu",
+    "url": "http://luyu.co",
+    "type": "landing",
+    "tags": [
+      "dark",
+      "lilac-display-serif",
+      "mixed-colour-headline",
+      "portfolio",
+      "designer"
+    ],
+    "note": "'MADE WITH LOVE & PURPOSE' in a sharp display serif, the second line in lilac, over black, then a project list with years. A designer's identity built from one typeface choice.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/lu-yu-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/lu-yu-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Lu Yu Portfolio - Home",
+      "fonts": [
+        "patron",
+        "CosiTimes-Bold",
+        "Patron-Medium"
+      ],
+      "type": {
+        "h1": null,
+        "h2": null,
+        "h3": null,
+        "body": {
+          "font": "patron",
+          "size": 18,
+          "weight": "400",
+          "lineHeight": 1.67,
+          "letterSpacing": "normal",
+          "color": "rgb(41, 42, 44)"
+        }
+      },
+      "colors": {
+        "background": "#cba5ea",
+        "surfaces": [
+          "#2c2c30",
+          "#090809"
+        ],
+        "text": [
+          "#717073",
+          "#a1a0a1",
+          "#ffffff",
+          "#cba5ea"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": 1500
     }
   },
   {
@@ -51573,6 +51986,83 @@
       },
       "buttons": [],
       "contentWidth": 1530
+    }
+  },
+  {
+    "id": "northernism-landing",
+    "site": "Northernism",
+    "url": "https://northernism.com",
+    "type": "landing",
+    "tags": [
+      "light",
+      "object-photos",
+      "vertical-nav-list",
+      "editorial-shop"
+    ],
+    "note": "Single objects (a teapot, brass hands, a magazine) photographed on white with a slim vertical nav list. A design shop laid out like a catalogue page.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/northernism-landing-desktop.jpg",
+        "width": 1440,
+        "height": 2664
+      },
+      "mobile": {
+        "file": "screens/northernism-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Online gallery selling curated artworks, design objects & unique finds – Northernism",
+      "fonts": [
+        "soleil",
+        "kepler-std"
+      ],
+      "type": {
+        "h1": {
+          "font": "soleil",
+          "size": 45,
+          "weight": "700",
+          "lineHeight": 1.13,
+          "letterSpacing": "normal",
+          "color": "rgb(19, 19, 19)"
+        },
+        "h2": {
+          "font": "soleil",
+          "size": 24,
+          "weight": "700",
+          "lineHeight": 1.25,
+          "letterSpacing": "normal",
+          "color": "rgb(19, 19, 19)"
+        },
+        "h3": {
+          "font": "soleil",
+          "size": 18,
+          "weight": "700",
+          "lineHeight": 1,
+          "letterSpacing": "2.16px",
+          "color": "rgb(19, 19, 19)"
+        },
+        "body": null
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#ffffff",
+          "#f3e7db",
+          "#c9c9c9",
+          "#000000"
+        ],
+        "text": [
+          "#131313",
+          "#6e6e6e",
+          "#272727",
+          "#000000"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": 780
     }
   },
   {
@@ -59139,6 +59629,89 @@
     }
   },
   {
+    "id": "pressures-perspectives-landing",
+    "site": "Pressures & Perspectives",
+    "url": "http://pressuresandperspectives.com",
+    "type": "landing",
+    "tags": [
+      "light",
+      "line-portraits",
+      "pastel-panels",
+      "serif-story-titles",
+      "mental-health"
+    ],
+    "note": "Each story is a panel with a hand-drawn line portrait of the person and a serif title. A mental health storytelling site that draws its people instead of photographing them.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/pressures-perspectives-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/pressures-perspectives-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Pressures & Perspectives – Sharing original stories about mental health within the creative industries.",
+      "fonts": [
+        "Source Serif Pro",
+        "nantes_bold"
+      ],
+      "type": {
+        "h1": {
+          "font": "nantes_bold",
+          "size": 40,
+          "weight": "700",
+          "lineHeight": 1.4,
+          "letterSpacing": "normal",
+          "color": "rgb(39, 36, 32)"
+        },
+        "h2": {
+          "font": "nantes_bold",
+          "size": 24,
+          "weight": "700",
+          "lineHeight": 1.2,
+          "letterSpacing": "normal",
+          "color": "rgb(39, 36, 32)"
+        },
+        "h3": {
+          "font": "nantes_bold",
+          "size": 19,
+          "weight": "700",
+          "lineHeight": 1.4,
+          "letterSpacing": "normal",
+          "color": "rgb(255, 255, 255)"
+        },
+        "body": {
+          "font": "Source Serif Pro",
+          "size": 18,
+          "weight": "400",
+          "lineHeight": 1.63,
+          "letterSpacing": "normal",
+          "color": "rgb(102, 102, 102)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#ffffff",
+          "#fff2ed",
+          "#f3f3f3",
+          "#272420"
+        ],
+        "text": [
+          "#666666",
+          "#272420"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": 1200
+    }
+  },
+  {
     "id": "primary-paper-landing",
     "site": "Primary Paper",
     "url": "https://primary-paper.com",
@@ -59184,6 +59757,54 @@
         "text": [
           "#000000",
           "#ffffff"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": null
+    }
+  },
+  {
+    "id": "priory-landing",
+    "site": "PRIORY",
+    "url": "http://priorypriory.com",
+    "type": "landing",
+    "tags": [
+      "pastel",
+      "mirrored-wordmark",
+      "pink-and-lilac-panels",
+      "fashion-photos"
+    ],
+    "note": "'PRIORY' set mirrored in white over a lilac panel, then fashion photos on pastel pink and lilac blocks. A fashion label with a soft colour-block grid.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/priory-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/priory-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "PRIORY",
+      "fonts": [
+        "LifeEF RegularItalic",
+        "LifeEF Regular"
+      ],
+      "type": {
+        "h1": null,
+        "h2": null,
+        "h3": null,
+        "body": null
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [],
+        "text": [
+          "#fafafa"
         ]
       },
       "buttons": [],
@@ -68944,6 +69565,75 @@
         }
       ],
       "contentWidth": 1328
+    }
+  },
+  {
+    "id": "stereo-associates-landing",
+    "site": "Stereo Associates",
+    "url": "https://stereo.associates",
+    "type": "landing",
+    "tags": [
+      "light",
+      "large-statement",
+      "project-tile-grid",
+      "consultancy"
+    ],
+    "note": "One long statement of what the consultancy does, then project tiles with title and one line each. A studio site that is a clear sentence and a grid.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/stereo-associates-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/stereo-associates-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Work - STEREO ASSOCIATES",
+      "fonts": [
+        "Basis Grotesque"
+      ],
+      "type": {
+        "h1": null,
+        "h2": null,
+        "h3": {
+          "font": "Basis Grotesque",
+          "size": 30,
+          "weight": "400",
+          "lineHeight": 1.3,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        },
+        "body": {
+          "font": "Basis Grotesque",
+          "size": 50,
+          "weight": "400",
+          "lineHeight": 1.2,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#ffffff",
+          "#ededed",
+          "#f5f5f5",
+          "#0056a7"
+        ],
+        "text": [
+          "#212121",
+          "#000000",
+          "#008000",
+          "#1863dc"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": null
     }
   },
   {
@@ -78735,6 +79425,57 @@
     }
   },
   {
+    "id": "volkshaus-landing",
+    "site": "Volkshaus",
+    "url": "https://www.volkshaus.ch",
+    "type": "landing",
+    "tags": [
+      "light",
+      "colour-crowd-illustration",
+      "stacked-caps-nav",
+      "seal-badge",
+      "venue"
+    ],
+    "note": "A crowd of people drawn in pink, yellow, blue and green fills the page beside 'VOLKSHAUS' and a stacked nav, with a round 'seit 1910' seal. A historic venue drawn as its audience.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/volkshaus-landing-desktop.jpg",
+        "width": 1440,
+        "height": 900
+      },
+      "mobile": {
+        "file": "screens/volkshaus-landing-mobile.jpg",
+        "width": 390,
+        "height": 844
+      }
+    },
+    "tokens": {
+      "title": "Volkshaus Zürich",
+      "fonts": [
+        "Nunito Sans",
+        "GT-Haptik"
+      ],
+      "type": {
+        "h1": null,
+        "h2": null,
+        "h3": null,
+        "body": null
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#ffffff"
+        ],
+        "text": [
+          "#000000"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": 1230
+    }
+  },
+  {
     "id": "walker-art-center-landing",
     "site": "Walker Art Center",
     "url": "https://walkerart.org",
@@ -79719,6 +80460,68 @@
         }
       ],
       "contentWidth": 1200
+    }
+  },
+  {
+    "id": "why-landing",
+    "site": "Why",
+    "url": "http://www.why.design",
+    "type": "landing",
+    "tags": [
+      "cream",
+      "campaign-photos",
+      "serif-titles",
+      "curator-notes",
+      "ad-archive"
+    ],
+    "note": "Each entry is a campaign photo (billboards, hoardings) with a serif title and a short critical note. An advertising archive written like a museum label.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/why-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/why-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Why? Design",
+      "fonts": [
+        "Lyontext web Italic",
+        "Graphik"
+      ],
+      "type": {
+        "h1": null,
+        "h2": null,
+        "h3": null,
+        "body": {
+          "font": "Graphik",
+          "size": 17,
+          "weight": "400",
+          "lineHeight": 1.29,
+          "letterSpacing": "normal",
+          "color": "rgb(26, 27, 31)"
+        }
+      },
+      "colors": {
+        "background": "#f9f9f2",
+        "surfaces": [
+          "#f9f9f2",
+          "#c9c7c5"
+        ],
+        "text": [
+          "#1a1b1f",
+          "#ed3a38",
+          "#1363f8",
+          "#222222"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": null
     }
   },
   {

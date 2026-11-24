@@ -1250,3 +1250,31 @@ https://pawelszczypinski.com	only partly renders
 https://www.withsisterhood.com	sparse, generic
 https://www.techleap.nl	generic
 https://www.uninterrupted.com	only partly renders
+https://www.eirdis.com	broken (URLError) (prefilter)
+https://sefikmujkic.com	broken (http 404) (prefilter)
+https://jthorburn.com	broken (http 404) (prefilter)
+https://thisiswahba.com	broken (URLError) (prefilter)
+https://www.reachpartners.ch/en	broken (http 404) (prefilter)
+http://www.maker-park.org	capture failed
+http://metadevelopment.eu	generic, modal, error or partial render
+http://www.randco.com	generic, modal, error or partial render
+https://www.vankusik.com	generic, modal, error or partial render
+https://www.ayr.com	generic, modal, error or partial render
+http://blok.im	generic, modal, error or partial render
+http://www.brilliant.co	generic, modal, error or partial render
+https://charles-simon.com	generic, modal, error or partial render
+https://designobjekt.se	generic, modal, error or partial render
+https://doweljones.com	generic, modal, error or partial render
+https://www.weareenvoy.com	generic, modal, error or partial render
+http://hood.network	generic, modal, error or partial render
+http://www.jaunedechrome.com	generic, modal, error or partial render
+http://joandso.com	generic, modal, error or partial render
+http://julius.fm	generic, modal, error or partial render
+http://olderbrother.us	generic, modal, error or partial render
+http://oykun.com	generic, modal, error or partial render
+http://postevand.com	generic, modal, error or partial render
+http://resourcela.com	generic, modal, error or partial render
+http://sessionjapan.com	generic, modal, error or partial render
+http://www.studio-eastwood.nl	generic, modal, error or partial render
+https://thenewworkproject.com	generic, modal, error or partial render
+https://tornqvistcoffee.com	generic, modal, error or partial render
