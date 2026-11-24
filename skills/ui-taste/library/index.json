@@ -17072,6 +17072,68 @@
     }
   },
   {
+    "id": "bestand-landing",
+    "site": "Bestand",
+    "url": "https://bestand.org",
+    "type": "landing",
+    "tags": [
+      "grey",
+      "line-drawing-building",
+      "monospace",
+      "event-table",
+      "boxed-layout"
+    ],
+    "note": "A line drawing of the venue inside a ruled box, then events as a monospace table of names and dates. A small music association built like a printed flyer.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/bestand-landing-desktop.jpg",
+        "width": 1440,
+        "height": 1443
+      },
+      "mobile": {
+        "file": "screens/bestand-landing-mobile.jpg",
+        "width": 390,
+        "height": 1984
+      }
+    },
+    "tokens": {
+      "title": "Bestand",
+      "fonts": [
+        "klartextMono"
+      ],
+      "type": {
+        "h1": {
+          "font": "klartextMono",
+          "size": 36,
+          "weight": "400",
+          "lineHeight": 1.11,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        },
+        "h2": null,
+        "h3": null,
+        "body": {
+          "font": "klartextMono",
+          "size": 24,
+          "weight": "400",
+          "lineHeight": 1.25,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        }
+      },
+      "colors": {
+        "background": "#dcdcdc",
+        "surfaces": [],
+        "text": [
+          "#000000"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": null
+    }
+  },
+  {
     "id": "bezi-landing",
     "site": "Bezi",
     "url": "https://www.bezi.com",
@@ -22286,6 +22348,82 @@
     }
   },
   {
+    "id": "contemporary-hum-landing",
+    "site": "Contemporary Hum",
+    "url": "https://contemporaryhum.com",
+    "type": "landing",
+    "tags": [
+      "olive",
+      "condensed-caps-headline",
+      "stats-panel",
+      "archive-state",
+      "arts-journal"
+    ],
+    "note": "An olive stats panel (180+ publications, 1,100+ listings) beside a heavy condensed headline announcing the journal's closing, then articles as plain rows. A publication's last page that turns itself into an archive.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/contemporary-hum-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/contemporary-hum-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Contemporary Hum",
+      "fonts": [
+        "neuehaas-web",
+        "quadrant-web",
+        "soehne-web"
+      ],
+      "type": {
+        "h1": {
+          "font": "neuehaas-web",
+          "size": 18,
+          "weight": "500",
+          "lineHeight": 1.4,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        },
+        "h2": {
+          "font": "neuehaas-web",
+          "size": 12,
+          "weight": "500",
+          "lineHeight": 1,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        },
+        "h3": null,
+        "body": {
+          "font": "quadrant-web",
+          "size": 18,
+          "weight": "400",
+          "lineHeight": 1.6,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        }
+      },
+      "colors": {
+        "background": "#f0f1ec",
+        "surfaces": [
+          "#f0f1ec",
+          "#737017",
+          "#231f20"
+        ],
+        "text": [
+          "#000000",
+          "#ffffff"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": null
+    }
+  },
+  {
     "id": "contra-landing",
     "site": "Contra",
     "url": "https://contra.com",
@@ -24967,6 +25105,133 @@
         }
       ],
       "contentWidth": 1020
+    }
+  },
+  {
+    "id": "developments-landing",
+    "site": "Developments",
+    "url": "https://developments.media",
+    "type": "landing",
+    "tags": [
+      "light",
+      "serif-number-headline",
+      "line-illustration",
+      "round-chip-nav",
+      "design-studio"
+    ],
+    "note": "A numbered serif masthead '43. FOUNDING FATHERS BASE DESIGN'S DEVELOPMENTS' around a dense line drawing, with round chips as nav. A studio's newsletter designed like a book cover.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/developments-landing-desktop.jpg",
+        "width": 1440,
+        "height": 900
+      },
+      "mobile": {
+        "file": "screens/developments-landing-mobile.jpg",
+        "width": 390,
+        "height": 844
+      }
+    },
+    "tokens": {
+      "title": "Developments",
+      "fonts": [
+        "FolioBT-Book",
+        "FolioBT-Light"
+      ],
+      "type": {
+        "h1": null,
+        "h2": null,
+        "h3": null,
+        "body": {
+          "font": "FolioBT-Book",
+          "size": 18,
+          "weight": "400",
+          "lineHeight": 1.1,
+          "letterSpacing": "normal",
+          "color": "rgb(255, 255, 255)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#000000",
+          "#ffffff"
+        ],
+        "text": [
+          "#ffffff",
+          "#000000"
+        ]
+      },
+      "buttons": [
+        {
+          "label": "",
+          "bg": "#ffffff",
+          "color": "#000000",
+          "radius": "19.2px",
+          "height": 67,
+          "paddingX": 14,
+          "font": "FolioBT-Book",
+          "size": 12,
+          "weight": "400"
+        },
+        {
+          "label": "REFERENCES",
+          "bg": "#ffffff",
+          "color": "#000000",
+          "radius": "19.2px",
+          "height": 36,
+          "paddingX": 14,
+          "font": "FolioBT-Book",
+          "size": 12,
+          "weight": "400"
+        },
+        {
+          "label": "DEVELOPMENT",
+          "bg": "#ffffff",
+          "color": "#000000",
+          "radius": "19.2px",
+          "height": 36,
+          "paddingX": 14,
+          "font": "FolioBT-Book",
+          "size": 12,
+          "weight": "400"
+        },
+        {
+          "label": "STRATEGY",
+          "bg": "#ffffff",
+          "color": "#000000",
+          "radius": "19.2px",
+          "height": 36,
+          "paddingX": 14,
+          "font": "FolioBT-Book",
+          "size": 12,
+          "weight": "400"
+        },
+        {
+          "label": "ADVICE",
+          "bg": "#ffffff",
+          "color": "#000000",
+          "radius": "19.2px",
+          "height": 36,
+          "paddingX": 14,
+          "font": "FolioBT-Book",
+          "size": 12,
+          "weight": "400"
+        },
+        {
+          "label": "MANAGEMENT",
+          "bg": "#ffffff",
+          "color": "#000000",
+          "radius": "19.2px",
+          "height": 36,
+          "paddingX": 14,
+          "font": "FolioBT-Book",
+          "size": 12,
+          "weight": "400"
+        }
+      ],
+      "contentWidth": null
     }
   },
   {
@@ -27737,6 +28002,111 @@
         }
       ],
       "contentWidth": 1530
+    }
+  },
+  {
+    "id": "endless-tools-landing",
+    "site": "Endless Tools",
+    "url": "https://endlesstools.io",
+    "type": "landing",
+    "tags": [
+      "dark",
+      "scattered-3d-objects",
+      "hand-drawn-arrows",
+      "circled-words",
+      "design-tool"
+    ],
+    "note": "3D objects (a cow, a statue, a spiral) scattered around hand-drawn arrows and circled labels explaining the flow, then the app UI. A design tool explained by sketches over its own outputs.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/endless-tools-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/endless-tools-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Endless Tools",
+      "fonts": [
+        "Inter"
+      ],
+      "type": {
+        "h1": {
+          "font": "Inter",
+          "size": 42,
+          "weight": "500",
+          "lineHeight": 1.1,
+          "letterSpacing": "-1.26px",
+          "color": "rgb(255, 255, 255)"
+        },
+        "h2": {
+          "font": "Inter",
+          "size": 24,
+          "weight": "500",
+          "lineHeight": 1.08,
+          "letterSpacing": "-0.72px",
+          "color": "rgb(255, 255, 255)"
+        },
+        "h3": {
+          "font": "Inter",
+          "size": 24,
+          "weight": "500",
+          "lineHeight": 1.08,
+          "letterSpacing": "-0.72px",
+          "color": "rgb(255, 255, 255)"
+        },
+        "body": {
+          "font": "Inter",
+          "size": 14,
+          "weight": "400",
+          "lineHeight": 1.29,
+          "letterSpacing": "normal",
+          "color": "rgb(149, 149, 149)"
+        }
+      },
+      "colors": {
+        "background": "#000000",
+        "surfaces": [
+          "#ffffff",
+          "#ff13b1",
+          "#353535"
+        ],
+        "text": [
+          "#959595",
+          "#ffffff",
+          "#0a0a0a"
+        ]
+      },
+      "buttons": [
+        {
+          "label": "Start for free",
+          "bg": "#ffffff",
+          "color": "#0a0a0a",
+          "radius": "3.35544e+07px",
+          "height": 35,
+          "paddingX": 20,
+          "font": "Inter",
+          "size": 12,
+          "weight": "500"
+        },
+        {
+          "label": "Start exploring",
+          "bg": "#ff13b1",
+          "color": "#ffffff",
+          "radius": "3.35544e+07px",
+          "height": 36,
+          "paddingX": 20,
+          "font": "Inter",
+          "size": 12,
+          "weight": "500"
+        }
+      ],
+      "contentWidth": 1300
     }
   },
   {
@@ -30672,6 +31042,83 @@
       },
       "buttons": [],
       "contentWidth": 1112
+    }
+  },
+  {
+    "id": "fishbird-landing",
+    "site": "Fishbird",
+    "url": "https://www.fishbird.org",
+    "type": "landing",
+    "tags": [
+      "olive",
+      "vintage-photo",
+      "big-white-sentence",
+      "charity"
+    ],
+    "note": "A black-and-white photo of a boy and his dog on olive, then 'Quiet your mind, the birds are singing.' in big white type. A brand built on one old photo and one sentence.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/fishbird-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/fishbird-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Fishbird",
+      "fonts": [
+        "sans-serif",
+        "Akzidenz-Grotesk Pro Medium",
+        "GT Alpina Regular"
+      ],
+      "type": {
+        "h1": {
+          "font": "Akzidenz-Grotesk Pro Medium",
+          "size": 100,
+          "weight": "400",
+          "lineHeight": 0.9,
+          "letterSpacing": "-4px",
+          "color": "rgb(255, 255, 255)"
+        },
+        "h2": null,
+        "h3": {
+          "font": "Akzidenz-Grotesk Pro Medium",
+          "size": 32,
+          "weight": "400",
+          "lineHeight": 0.9,
+          "letterSpacing": "-1.28px",
+          "color": "rgb(255, 252, 212)"
+        },
+        "body": {
+          "font": "GT Alpina Regular",
+          "size": 16,
+          "weight": "500",
+          "lineHeight": "normal",
+          "letterSpacing": "-0.25px",
+          "color": "rgb(51, 51, 51)"
+        }
+      },
+      "colors": {
+        "background": "#000000",
+        "surfaces": [
+          "#444624",
+          "#000000",
+          "#a9b3ad",
+          "#93989d"
+        ],
+        "text": [
+          "#fffcd4",
+          "#000000",
+          "#ffffff"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": null
     }
   },
   {
@@ -37622,6 +38069,88 @@
     }
   },
   {
+    "id": "how-many-plants-landing",
+    "site": "How Many Plants",
+    "url": "https://howmanyplants.com",
+    "type": "landing",
+    "tags": [
+      "cream",
+      "illustrated-shelf-letters",
+      "botanical-drawings",
+      "typewriter-copy",
+      "plant-guide"
+    ],
+    "note": "The title spelled across illustrated shelves, each letter sitting among drawn plants and pots, then guides in typewriter text. A plant guide whose logo is a bookcase.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/how-many-plants-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/how-many-plants-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "How Many Plants - Indoor and House Plant Resource",
+      "fonts": [
+        "Hellenictypewriter",
+        "Chromatica"
+      ],
+      "type": {
+        "h1": {
+          "font": "Hellenictypewriter",
+          "size": 28,
+          "weight": "500",
+          "lineHeight": 1.14,
+          "letterSpacing": "normal",
+          "color": "rgb(34, 34, 34)"
+        },
+        "h2": {
+          "font": "Hellenictypewriter",
+          "size": 36,
+          "weight": "500",
+          "lineHeight": 1.33,
+          "letterSpacing": "normal",
+          "color": "rgb(34, 34, 34)"
+        },
+        "h3": {
+          "font": "Chromatica",
+          "size": 36,
+          "weight": "500",
+          "lineHeight": 0.89,
+          "letterSpacing": "normal",
+          "color": "rgb(249, 245, 241)"
+        },
+        "body": {
+          "font": "Chromatica",
+          "size": 20,
+          "weight": "400",
+          "lineHeight": 1.6,
+          "letterSpacing": "normal",
+          "color": "rgb(34, 34, 34)"
+        }
+      },
+      "colors": {
+        "background": "#f9f5f1",
+        "surfaces": [
+          "#fffef9",
+          "#f9f5f1",
+          "#bfb33b",
+          "#e8d1eb"
+        ],
+        "text": [
+          "#222222"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": 1440
+    }
+  },
+  {
     "id": "how-how-landing",
     "site": "How&How",
     "url": "https://how.studio",
@@ -40442,6 +40971,89 @@
         }
       ],
       "contentWidth": null
+    }
+  },
+  {
+    "id": "jason-pontin-landing",
+    "site": "Jason Pontin",
+    "url": "https://www.jasonpontin.com",
+    "type": "landing",
+    "tags": [
+      "red-orange",
+      "giant-wordmark-with-symbol",
+      "essay-teaser",
+      "circle-drawing",
+      "writer"
+    ],
+    "note": "'PONTIN' in huge black type with the O replaced by a target-like eye, on red-orange, then featured essays. A writer's site as bold as a magazine cover.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/jason-pontin-landing-desktop.jpg",
+        "width": 1440,
+        "height": 900
+      },
+      "mobile": {
+        "file": "screens/jason-pontin-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Home | Jason Pontin",
+      "fonts": [
+        "Haas Grot Text Web",
+        "Haas Grot Disp Web",
+        "miller-text"
+      ],
+      "type": {
+        "h1": {
+          "font": "Haas Grot Text Web",
+          "size": 16,
+          "weight": "400",
+          "lineHeight": 1.5,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        },
+        "h2": {
+          "font": "Haas Grot Text Web",
+          "size": 14,
+          "weight": "700",
+          "lineHeight": 1.4,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        },
+        "h3": {
+          "font": "Haas Grot Disp Web",
+          "size": 64,
+          "weight": "600",
+          "lineHeight": 0.95,
+          "letterSpacing": "-1.6px",
+          "color": "rgb(0, 0, 0)"
+        },
+        "body": {
+          "font": "Haas Grot Disp Web",
+          "size": 36,
+          "weight": "600",
+          "lineHeight": 1,
+          "letterSpacing": "-0.16px",
+          "color": "rgb(0, 0, 0)"
+        }
+      },
+      "colors": {
+        "background": "#ff472e",
+        "surfaces": [
+          "#ebebe8",
+          "#ff472e",
+          "#ffffff"
+        ],
+        "text": [
+          "#000000",
+          "#ff472e"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": 1440
     }
   },
   {
@@ -50251,6 +50863,89 @@
     }
   },
   {
+    "id": "noerd-landing",
+    "site": "Noerd",
+    "url": "https://noerd.se",
+    "type": "landing",
+    "tags": [
+      "cream",
+      "heavy-condensed-statement",
+      "bw-case-photos",
+      "pill-buttons",
+      "creative-agency"
+    ],
+    "note": "'noerd is a service for companies that want to work with independent creatives.' in heavy condensed type, between full-width case photos with their titles. A statement set as large as the work.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/noerd-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/noerd-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Noerd – Organizing free creativity",
+      "fonts": [
+        "__gravity_ed6cdd",
+        "__cigars_d2eb5f",
+        "Times New Roman"
+      ],
+      "type": {
+        "h1": {
+          "font": "__gravity_ed6cdd",
+          "size": 18,
+          "weight": "400",
+          "lineHeight": 0.6,
+          "letterSpacing": "normal",
+          "color": "color(display-p3 0.117647 0.105882 0.105882)"
+        },
+        "h2": {
+          "font": "__gravity_ed6cdd",
+          "size": 14,
+          "weight": "500",
+          "lineHeight": 1.36,
+          "letterSpacing": "normal",
+          "color": "color(display-p3 0.117647 0.105882 0.105882)"
+        },
+        "h3": null,
+        "body": {
+          "font": "__cigars_d2eb5f",
+          "size": 27,
+          "weight": "300",
+          "lineHeight": 1.19,
+          "letterSpacing": "normal",
+          "color": "color(display-p3 0.117647 0.105882 0.105882)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#f7ffa0"
+        ],
+        "text": []
+      },
+      "buttons": [
+        {
+          "label": "See what they say",
+          "bg": "#f7ffa0",
+          "color": null,
+          "radius": "9999px",
+          "height": 52,
+          "paddingX": 40,
+          "font": "__gravity_ed6cdd",
+          "size": 14,
+          "weight": "500"
+        }
+      ],
+      "contentWidth": 1280
+    }
+  },
+  {
     "id": "normal-computing-landing",
     "site": "Normal Computing",
     "url": "https://www.normalcomputing.com",
@@ -52072,6 +52767,133 @@
         ]
       },
       "buttons": [],
+      "contentWidth": null
+    }
+  },
+  {
+    "id": "omse-landing",
+    "site": "OMSE",
+    "url": "https://www.omse.co",
+    "type": "landing",
+    "tags": [
+      "light",
+      "giant-logo-shape",
+      "pink-event-cards",
+      "season-filter",
+      "design-org"
+    ],
+    "note": "A giant black rounded logo shape crops off the page above a grid of talks and pink event cards with dates. A design association that is all poster.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/omse-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/omse-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "OMSE",
+      "fonts": [
+        "Gattica"
+      ],
+      "type": {
+        "h1": null,
+        "h2": null,
+        "h3": null,
+        "body": {
+          "font": "Gattica",
+          "size": 20,
+          "weight": "400",
+          "lineHeight": 1.2,
+          "letterSpacing": "-0.48px",
+          "color": "rgb(0, 0, 0)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#ffffff",
+          "#eaeaea",
+          "#000000"
+        ],
+        "text": [
+          "#000000",
+          "#ffffff"
+        ]
+      },
+      "buttons": [
+        {
+          "label": "New work",
+          "bg": "#eaeaea",
+          "color": "#000000",
+          "radius": "12px",
+          "height": 40,
+          "paddingX": 12,
+          "font": "Gattica",
+          "size": 20,
+          "weight": "700"
+        },
+        {
+          "label": "Feature",
+          "bg": "#eaeaea",
+          "color": "#000000",
+          "radius": "12px",
+          "height": 40,
+          "paddingX": 12,
+          "font": "Gattica",
+          "size": 20,
+          "weight": "700"
+        },
+        {
+          "label": "Interview",
+          "bg": "#eaeaea",
+          "color": "#000000",
+          "radius": "12px",
+          "height": 40,
+          "paddingX": 12,
+          "font": "Gattica",
+          "size": 20,
+          "weight": "700"
+        },
+        {
+          "label": "Talks",
+          "bg": "#eaeaea",
+          "color": "#000000",
+          "radius": "12px",
+          "height": 40,
+          "paddingX": 12,
+          "font": "Gattica",
+          "size": 20,
+          "weight": "700"
+        },
+        {
+          "label": "Awards",
+          "bg": "#eaeaea",
+          "color": "#000000",
+          "radius": "12px",
+          "height": 40,
+          "paddingX": 12,
+          "font": "Gattica",
+          "size": 20,
+          "weight": "700"
+        },
+        {
+          "label": "Jobs",
+          "bg": "#eaeaea",
+          "color": "#000000",
+          "radius": "12px",
+          "height": 40,
+          "paddingX": 12,
+          "font": "Gattica",
+          "size": 20,
+          "weight": "700"
+        }
+      ],
       "contentWidth": null
     }
   },
@@ -56695,6 +57517,114 @@
         }
       ],
       "contentWidth": 912
+    }
+  },
+  {
+    "id": "polymer-workshop-landing",
+    "site": "POLYMER WORKSHOP®",
+    "url": "https://www.polymer.ws",
+    "type": "landing",
+    "tags": [
+      "dark",
+      "product-macro",
+      "rider-photo",
+      "minimal-chrome",
+      "cycling"
+    ],
+    "note": "A macro of a carbon handlebar beside a rider on gravel, then a motion-blur film still. Cycling parts sold like a fashion campaign.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/polymer-workshop-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/polymer-workshop-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "POLYMER WORKSHOP®",
+      "fonts": [
+        "__pitch_b7a5a3",
+        "__milligram_8e8180"
+      ],
+      "type": {
+        "h1": null,
+        "h2": {
+          "font": "__milligram_8e8180",
+          "size": 30,
+          "weight": "400",
+          "lineHeight": 1,
+          "letterSpacing": "normal",
+          "color": "rgb(255, 255, 255)"
+        },
+        "h3": {
+          "font": "__pitch_b7a5a3",
+          "size": 13,
+          "weight": "400",
+          "lineHeight": 1.25,
+          "letterSpacing": "1.3px",
+          "color": "rgb(255, 255, 255)"
+        },
+        "body": {
+          "font": "__pitch_b7a5a3",
+          "size": 13,
+          "weight": "400",
+          "lineHeight": 1.25,
+          "letterSpacing": "1.3px",
+          "color": "rgb(68, 68, 68)"
+        }
+      },
+      "colors": {
+        "background": "#f0f0f0",
+        "surfaces": [
+          "#9b9793",
+          "#444444",
+          "#ffffff"
+        ],
+        "text": [
+          "#ffffff"
+        ]
+      },
+      "buttons": [
+        {
+          "label": "",
+          "bg": "#ffffff",
+          "color": "#000000",
+          "radius": "15px",
+          "height": 36,
+          "paddingX": 0,
+          "font": "__milligram_8e8180",
+          "size": 16,
+          "weight": "400"
+        },
+        {
+          "label": "",
+          "bg": "#ffffff",
+          "color": "#000000",
+          "radius": "15px",
+          "height": 36,
+          "paddingX": 0,
+          "font": "__milligram_8e8180",
+          "size": 16,
+          "weight": "400"
+        },
+        {
+          "label": "",
+          "bg": "#ffffff",
+          "color": "#000000",
+          "radius": "15px",
+          "height": 36,
+          "paddingX": 0,
+          "font": "__milligram_8e8180",
+          "size": 16,
+          "weight": "400"
+        }
+      ],
+      "contentWidth": null
     }
   },
   {
@@ -65782,6 +66712,80 @@
     }
   },
   {
+    "id": "sol-landing",
+    "site": "Sol",
+    "url": "https://solreader.com",
+    "type": "landing",
+    "tags": [
+      "orange",
+      "product-render-hero",
+      "press-logo-strip",
+      "spec-list",
+      "wearable"
+    ],
+    "note": "A pair of reading glasses rendered in warm orange light with 'The world's first wearable e-reader.', then press logos and a numbered spec list. Hardware with one strong render and plain facts.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/sol-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/sol-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Sol | Illuminate Your Mind",
+      "fonts": [
+        "Beausite Regular",
+        "Times Now",
+        "Beausite Medium"
+      ],
+      "type": {
+        "h1": {
+          "font": "Beausite Regular",
+          "size": 60,
+          "weight": "400",
+          "lineHeight": 1.1,
+          "letterSpacing": "normal",
+          "color": "rgb(251, 254, 249)"
+        },
+        "h2": {
+          "font": "Beausite Regular",
+          "size": 14,
+          "weight": "400",
+          "lineHeight": 1,
+          "letterSpacing": "normal",
+          "color": "rgb(251, 254, 249)"
+        },
+        "h3": null,
+        "body": {
+          "font": "Beausite Regular",
+          "size": 36,
+          "weight": "400",
+          "lineHeight": 1.2,
+          "letterSpacing": "normal",
+          "color": "rgb(251, 254, 249)"
+        }
+      },
+      "colors": {
+        "background": "#141414",
+        "surfaces": [
+          "#141414"
+        ],
+        "text": [
+          "#fbfef9",
+          "#858585"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": 1300
+    }
+  },
+  {
     "id": "sorare-landing",
     "site": "Sorare",
     "url": "https://sorare.com",
@@ -69283,6 +70287,80 @@
     }
   },
   {
+    "id": "superhi-basic-income-landing",
+    "site": "SuperHi Basic Income",
+    "url": "https://www.superhibasicincome.com",
+    "type": "landing",
+    "tags": [
+      "blue",
+      "line-icons",
+      "colour-split-hero",
+      "experiment-copy",
+      "grant-programme"
+    ],
+    "note": "Electric blue panel on the left, a plain explanation on the right with three line icons ('US $1,000 a month', a laptop, a membership). A grant programme explained as a tidy offer sheet.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/superhi-basic-income-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/superhi-basic-income-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "SuperHi Basic Income – Applications now closed",
+      "fonts": [
+        "Basis",
+        "DDC"
+      ],
+      "type": {
+        "h1": null,
+        "h2": {
+          "font": "DDC",
+          "size": 24,
+          "weight": "400",
+          "lineHeight": 1,
+          "letterSpacing": "normal",
+          "color": "rgb(255, 255, 255)"
+        },
+        "h3": {
+          "font": "Basis",
+          "size": 24,
+          "weight": "500",
+          "lineHeight": 1.67,
+          "letterSpacing": "normal",
+          "color": "rgb(39, 39, 230)"
+        },
+        "body": {
+          "font": "Basis",
+          "size": 16,
+          "weight": "400",
+          "lineHeight": 1.5,
+          "letterSpacing": "normal",
+          "color": "rgb(39, 39, 230)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#ffffff",
+          "#2727e6"
+        ],
+        "text": [
+          "#2727e6",
+          "#ffffff"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": 960
+    }
+  },
+  {
     "id": "superhuman-landing",
     "site": "Superhuman",
     "url": "https://superhuman.com",
@@ -71711,6 +72789,84 @@
     }
   },
   {
+    "id": "termino-landing",
+    "site": "TERMINO",
+    "url": "https://termino.gmbh",
+    "type": "landing",
+    "tags": [
+      "light",
+      "kitchen-photo",
+      "bracketed-mono-labels",
+      "modular-product-row"
+    ],
+    "note": "A warm kitchen photo, then each module photographed alone on grey with labels in brackets '[EXPLORE KITCHENS ↗]'. A modular system shown as parts.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/termino-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/termino-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "TERMINO | Modular Aluminium Kitchen Systems",
+      "fonts": [
+        "ABC Monument Grotesk Mono",
+        "ABC Monument Grotesk"
+      ],
+      "type": {
+        "h1": {
+          "font": "ABC Monument Grotesk",
+          "size": 60,
+          "weight": "700",
+          "lineHeight": 0.93,
+          "letterSpacing": "normal",
+          "color": "rgb(32, 32, 32)"
+        },
+        "h2": {
+          "font": "ABC Monument Grotesk",
+          "size": 14,
+          "weight": "800",
+          "lineHeight": 1.43,
+          "letterSpacing": "0.42px",
+          "color": "rgb(32, 32, 32)"
+        },
+        "h3": {
+          "font": "ABC Monument Grotesk",
+          "size": 40,
+          "weight": "400",
+          "lineHeight": 1.15,
+          "letterSpacing": "normal",
+          "color": "rgb(32, 32, 32)"
+        },
+        "body": {
+          "font": "ABC Monument Grotesk",
+          "size": 40,
+          "weight": "400",
+          "lineHeight": 1.15,
+          "letterSpacing": "normal",
+          "color": "rgb(32, 32, 32)"
+        }
+      },
+      "colors": {
+        "background": "#f9faf7",
+        "surfaces": [
+          "#f9faf7"
+        ],
+        "text": [
+          "#202020"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": null
+    }
+  },
+  {
     "id": "tetuhi-landing",
     "site": "TeTuhi",
     "url": "https://tetuhi.art",
@@ -72342,6 +73498,79 @@
         "text": [
           "#6c655a",
           "#975428"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": null
+    }
+  },
+  {
+    "id": "the-summer-drive-landing",
+    "site": "The Summer Drive",
+    "url": "https://www.thesummerdrive.com",
+    "type": "landing",
+    "tags": [
+      "cream-and-blue",
+      "giant-condensed-caps",
+      "illustrated-car",
+      "serif-tickets",
+      "event"
+    ],
+    "note": "'THE SUMMER DRIVE' in huge blue condensed caps, a drawn vintage convertible, and two serif ticket options. A one-night company event designed like a vintage road-trip poster.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/the-summer-drive-landing-desktop.jpg",
+        "width": 1440,
+        "height": 2807
+      },
+      "mobile": {
+        "file": "screens/the-summer-drive-landing-mobile.jpg",
+        "width": 390,
+        "height": 2304
+      }
+    },
+    "tokens": {
+      "title": "Drive Capital | The Summer Drive",
+      "fonts": [
+        "Founders Grotesk",
+        "Editorial New"
+      ],
+      "type": {
+        "h1": {
+          "font": "Founders Grotesk",
+          "size": 38,
+          "weight": "300",
+          "lineHeight": 1,
+          "letterSpacing": "-0.760032px",
+          "color": "rgb(0, 110, 255)"
+        },
+        "h2": null,
+        "h3": {
+          "font": "Editorial New",
+          "size": 120,
+          "weight": "100",
+          "lineHeight": 1,
+          "letterSpacing": "-2.3999px",
+          "color": "rgb(0, 110, 255)"
+        },
+        "body": {
+          "font": "Founders Grotesk",
+          "size": 18,
+          "weight": "300",
+          "lineHeight": 0.95,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 110, 255)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#fff8f1",
+          "#000000"
+        ],
+        "text": [
+          "#006eff"
         ]
       },
       "buttons": [],
@@ -73968,6 +75197,94 @@
         }
       ],
       "contentWidth": 1512
+    }
+  },
+  {
+    "id": "twotwo-landing",
+    "site": "TWOTWO",
+    "url": "https://twotwo-official.com",
+    "type": "landing",
+    "tags": [
+      "grey",
+      "product-macro-hero",
+      "neon-yellow-accent",
+      "product-tiles",
+      "padel"
+    ],
+    "note": "A macro of a padel racket's holes with a neon yellow headline, then rackets on pastel tiles with neon buttons. Sports gear where one fluorescent colour carries the brand.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/twotwo-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/twotwo-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "TWOTWO - A Social Athletics Company",
+      "fonts": [
+        "WhyteBook",
+        "WhyteRegular",
+        "WhyteInktrapRegular"
+      ],
+      "type": {
+        "h1": {
+          "font": "WhyteRegular",
+          "size": 72,
+          "weight": "400",
+          "lineHeight": 1.15,
+          "letterSpacing": "normal",
+          "color": "rgb(227, 252, 3)"
+        },
+        "h2": {
+          "font": "WhyteRegular",
+          "size": 32,
+          "weight": "400",
+          "lineHeight": 1.1,
+          "letterSpacing": "normal",
+          "color": "rgb(50, 50, 50)"
+        },
+        "h3": null,
+        "body": {
+          "font": "WhyteBook",
+          "size": 16,
+          "weight": "400",
+          "lineHeight": 1.4,
+          "letterSpacing": "normal",
+          "color": "rgb(50, 50, 50)"
+        }
+      },
+      "colors": {
+        "background": "#e6e6e6",
+        "surfaces": [
+          "#e6e6e6",
+          "#e3fc03"
+        ],
+        "text": [
+          "#323232",
+          "#000000",
+          "#e3fc03"
+        ]
+      },
+      "buttons": [
+        {
+          "label": "Shop Now",
+          "bg": "#e3fc03",
+          "color": "#000000",
+          "radius": "50px",
+          "height": 46,
+          "paddingX": 0,
+          "font": "WhyteBook",
+          "size": 16,
+          "weight": "400"
+        }
+      ],
+      "contentWidth": 768
     }
   },
   {

@@ -11114,5 +11114,198 @@
    "rural-coliving"
   ],
   "note": "Photos of Galician hills and paths placed on a grid marked with small crosses, captions in mono. A rural coliving project laid out like a field notebook."
+ },
+ {
+  "site": "Bestand",
+  "type": "landing",
+  "url": "https://bestand.org",
+  "tags": [
+   "grey",
+   "line-drawing-building",
+   "monospace",
+   "event-table",
+   "boxed-layout"
+  ],
+  "note": "A line drawing of the venue inside a ruled box, then events as a monospace table of names and dates. A small music association built like a printed flyer."
+ },
+ {
+  "site": "Endless Tools",
+  "type": "landing",
+  "url": "https://endlesstools.io",
+  "tags": [
+   "dark",
+   "scattered-3d-objects",
+   "hand-drawn-arrows",
+   "circled-words",
+   "design-tool"
+  ],
+  "note": "3D objects (a cow, a statue, a spiral) scattered around hand-drawn arrows and circled labels explaining the flow, then the app UI. A design tool explained by sketches over its own outputs."
+ },
+ {
+  "site": "Fishbird",
+  "type": "landing",
+  "url": "https://www.fishbird.org",
+  "tags": [
+   "olive",
+   "vintage-photo",
+   "big-white-sentence",
+   "charity"
+  ],
+  "note": "A black-and-white photo of a boy and his dog on olive, then 'Quiet your mind, the birds are singing.' in big white type. A brand built on one old photo and one sentence."
+ },
+ {
+  "site": "Noerd",
+  "type": "landing",
+  "url": "https://noerd.se",
+  "tags": [
+   "cream",
+   "heavy-condensed-statement",
+   "bw-case-photos",
+   "pill-buttons",
+   "creative-agency"
+  ],
+  "note": "'noerd is a service for companies that want to work with independent creatives.' in heavy condensed type, between full-width case photos with their titles. A statement set as large as the work."
+ },
+ {
+  "site": "OMSE",
+  "type": "landing",
+  "url": "https://www.omse.co",
+  "tags": [
+   "light",
+   "giant-logo-shape",
+   "pink-event-cards",
+   "season-filter",
+   "design-org"
+  ],
+  "note": "A giant black rounded logo shape crops off the page above a grid of talks and pink event cards with dates. A design association that is all poster."
+ },
+ {
+  "site": "POLYMER WORKSHOP®",
+  "type": "landing",
+  "url": "https://www.polymer.ws",
+  "tags": [
+   "dark",
+   "product-macro",
+   "rider-photo",
+   "minimal-chrome",
+   "cycling"
+  ],
+  "note": "A macro of a carbon handlebar beside a rider on gravel, then a motion-blur film still. Cycling parts sold like a fashion campaign."
+ },
+ {
+  "site": "Sol",
+  "type": "landing",
+  "url": "https://solreader.com",
+  "tags": [
+   "orange",
+   "product-render-hero",
+   "press-logo-strip",
+   "spec-list",
+   "wearable"
+  ],
+  "note": "A pair of reading glasses rendered in warm orange light with 'The world's first wearable e-reader.', then press logos and a numbered spec list. Hardware with one strong render and plain facts."
+ },
+ {
+  "site": "TERMINO",
+  "type": "landing",
+  "url": "https://termino.gmbh",
+  "tags": [
+   "light",
+   "kitchen-photo",
+   "bracketed-mono-labels",
+   "modular-product-row"
+  ],
+  "note": "A warm kitchen photo, then each module photographed alone on grey with labels in brackets '[EXPLORE KITCHENS ↗]'. A modular system shown as parts."
+ },
+ {
+  "site": "Contemporary Hum",
+  "type": "landing",
+  "url": "https://contemporaryhum.com",
+  "tags": [
+   "olive",
+   "condensed-caps-headline",
+   "stats-panel",
+   "archive-state",
+   "arts-journal"
+  ],
+  "note": "An olive stats panel (180+ publications, 1,100+ listings) beside a heavy condensed headline announcing the journal's closing, then articles as plain rows. A publication's last page that turns itself into an archive."
+ },
+ {
+  "site": "Developments",
+  "type": "landing",
+  "url": "https://developments.media",
+  "tags": [
+   "light",
+   "serif-number-headline",
+   "line-illustration",
+   "round-chip-nav",
+   "design-studio"
+  ],
+  "note": "A numbered serif masthead '43. FOUNDING FATHERS BASE DESIGN'S DEVELOPMENTS' around a dense line drawing, with round chips as nav. A studio's newsletter designed like a book cover."
+ },
+ {
+  "site": "How Many Plants",
+  "type": "landing",
+  "url": "https://howmanyplants.com",
+  "tags": [
+   "cream",
+   "illustrated-shelf-letters",
+   "botanical-drawings",
+   "typewriter-copy",
+   "plant-guide"
+  ],
+  "note": "The title spelled across illustrated shelves, each letter sitting among drawn plants and pots, then guides in typewriter text. A plant guide whose logo is a bookcase."
+ },
+ {
+  "site": "Jason Pontin",
+  "type": "landing",
+  "url": "https://www.jasonpontin.com",
+  "tags": [
+   "red-orange",
+   "giant-wordmark-with-symbol",
+   "essay-teaser",
+   "circle-drawing",
+   "writer"
+  ],
+  "note": "'PONTIN' in huge black type with the O replaced by a target-like eye, on red-orange, then featured essays. A writer's site as bold as a magazine cover."
+ },
+ {
+  "site": "SuperHi Basic Income",
+  "type": "landing",
+  "url": "https://www.superhibasicincome.com",
+  "tags": [
+   "blue",
+   "line-icons",
+   "colour-split-hero",
+   "experiment-copy",
+   "grant-programme"
+  ],
+  "note": "Electric blue panel on the left, a plain explanation on the right with three line icons ('US $1,000 a month', a laptop, a membership). A grant programme explained as a tidy offer sheet."
+ },
+ {
+  "site": "The Summer Drive",
+  "type": "landing",
+  "url": "https://www.thesummerdrive.com",
+  "tags": [
+   "cream-and-blue",
+   "giant-condensed-caps",
+   "illustrated-car",
+   "serif-tickets",
+   "event"
+  ],
+  "note": "'THE SUMMER DRIVE' in huge blue condensed caps, a drawn vintage convertible, and two serif ticket options. A one-night company event designed like a vintage road-trip poster."
+ },
+ {
+  "site": "TWOTWO",
+  "type": "landing",
+  "url": "https://twotwo-official.com",
+  "tags": [
+   "grey",
+   "product-macro-hero",
+   "neon-yellow-accent",
+   "product-tiles",
+   "padel"
+  ],
+  "note": "A macro of a padel racket's holes with a neon yellow headline, then rackets on pastel tiles with neon buttons. Sports gear where one fluorescent colour carries the brand."
  }
 ]

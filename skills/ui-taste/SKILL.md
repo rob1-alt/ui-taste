@@ -11,6 +11,8 @@ References are evidence for a decision, never a template. Never copy a brand's l
 
 ## Workflow
 
+Work in few steps: every tool call you can make independently goes in the same message (read the two or three reference files you need together, run `find_refs.py --sheet` once rather than opening each screenshot, open `review.png` rather than each shot). Run commands with paths relative to this skill's folder, one command per call, without shell variables or `cd … &&` chains.
+
 ### 1. Inspect the project first
 
 Before looking anywhere else, read what the project already decided:
@@ -25,13 +27,13 @@ The project's system wins over any reference. If there is no system at all, or i
 Search the library when outside evidence can settle a specific question: how dense a pricing table should be, how a changelog entry is laid out, what a dark hero needs to stay readable, how a docs sidebar groups pages.
 
 ```bash
-python3 scripts/find_refs.py "pricing page with comparison table"
+python3 scripts/find_refs.py "pricing page with comparison table" --sheet refs.png
 python3 scripts/find_refs.py "changelog" --platform both
 python3 scripts/find_refs.py "dark landing hero" --limit 2
 python3 scripts/find_refs.py --list          # what the library covers
 ```
 
-Each result gives the screenshot paths (open them with the Read tool: look at them, do not guess), the patterns, why the screen is in the library, and the tokens measured on the live page (fonts, h1/h2/body sizes, line heights, background and text colours, button radius, height and padding, content width).
+Each result gives the screenshot paths, and `--sheet refs.png` puts the tops of all results side by side in one image: open that with the Read tool (look, do not guess). Each result also gives the patterns, why the screen is in the library, and the tokens measured on the live page (fonts, h1/h2/body sizes, line heights, background and text colours, button radius, height and padding, content width).
 
 - One strong reference is enough; three is the maximum. More references blur the decision.
 - Say which reference you used and which decision it settled ("Linear's pricing: plan names as plain text, the price as the only large element").
@@ -64,13 +66,13 @@ Render the screen and look at it. This step is not optional and is where most of
 python3 scripts/shot.py index.html --ref <the library id you leaned on>     # or a dev-server URL
 ```
 
-It writes the desktop (1440) and mobile (390) first screens, the full page, and `vs-<id>.png`: your fold beside the reference's fold at the same scale. Open them all with the Read tool. If Playwright is missing, install it (`pip install playwright pillow && python3 -m playwright install chromium`); only if that is impossible say plainly that the page was not reviewed.
+It writes `review.png`, one image with your fold beside the reference's fold at the same scale, then your whole page at 1440 and at 390. Open that one file with the Read tool; the full-size shots sit next to it if a detail needs a closer look. If Playwright is missing, install it (`pip install playwright pillow && python3 -m playwright install chromium`); only if that is impossible say plainly that the page was not reviewed.
 
 Then two passes, and at least one round of changes:
 1. **The bar.** Look at the side-by-side. If a designer had to pick one of the two folds, would they pick yours? If not, name what the reference does that yours does not (the headline is twice as big, the image takes the fold, one colour is used with conviction, the product is real and dense) and change the page. A tidy page that loses the side-by-side is not done.
 2. **The checklist.** Go through `references/anti-slop.md` and fix every item that applies.
 
-Shoot again after the changes. Report what you saw, what you changed, and the final side-by-side.
+Make every change one review calls for in one pass (one Write of the file, or one edit script), then shoot again. Two rounds are usually enough. Report what you saw, what you changed, and the final side-by-side.
 
 ## Adding screens to the library
 

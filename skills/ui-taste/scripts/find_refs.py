@@ -5,6 +5,7 @@ Find UI references in the ui-taste library.
     python3 find_refs.py "pricing page with comparison table"
     python3 find_refs.py "dark hero" --platform mobile --limit 2
     python3 find_refs.py --list            # what the library covers
+    python3 find_refs.py "pricing page" --sheet refs.png   # also one image with every result, to open in one Read
 
 Prints up to --limit screens (3 by default), best match first, each with the
 absolute path of its screenshots (open them with the Read tool to see them),
@@ -153,6 +154,7 @@ def main() -> int:
     ap.add_argument("--platform", choices=["desktop", "mobile", "both"], default="desktop")
     ap.add_argument("--limit", type=int, default=3)
     ap.add_argument("--list", action="store_true", help="summarise what the library covers")
+    ap.add_argument("--sheet", metavar="PNG", help="also write the results side by side in one image (open it in one Read)")
     args = ap.parse_args()
 
     if not INDEX.exists():
@@ -178,7 +180,40 @@ def main() -> int:
         print()
     if best < 6:
         print("Nothing in the library answers this exactly: treat the screens above as loose references.")
+    if args.sheet:
+        sheet(ranked[: args.limit], args.platform, Path(args.sheet))
     return 0
+
+
+def sheet(items: list, platform: str, out: Path) -> None:
+    """The results side by side, top of each page, labelled: one image instead of one Read per screen."""
+    try:
+        from PIL import Image, ImageDraw
+    except ImportError:
+        print("(--sheet needs Pillow: pip install pillow; open the screenshots above instead)")
+        return
+    name = "mobile" if platform == "mobile" else "desktop"
+    W, H = (300, 900) if name == "mobile" else (720, 900)
+    cells = []
+    for it in items:
+        scr = (it.get("screens") or {}).get(name)
+        if not scr:
+            continue
+        im = Image.open(LIBRARY / scr["file"]).convert("RGB")
+        im = im.crop((0, 0, im.width, min(im.height, round(im.width * H / W))))
+        cells.append((it["id"], im.resize((W, round(im.height * W / im.width)))))
+    if not cells:
+        return
+    pad, top = 16, 28
+    canvas = Image.new("RGB", (len(cells) * (W + pad) + pad, H + top + pad), "white")
+    d = ImageDraw.Draw(canvas)
+    for k, (iid, im) in enumerate(cells):
+        x = pad + k * (W + pad)
+        d.text((x, 8), iid, fill="black")
+        canvas.paste(im, (x, top))
+    out.parent.mkdir(parents=True, exist_ok=True)
+    canvas.save(out)
+    print(f"sheet: {out.resolve()}  (top of each page, left to right in the order above)")
 
 
 if __name__ == "__main__":
