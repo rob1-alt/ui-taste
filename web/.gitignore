@@ -7,6 +7,7 @@ next-env.d.ts
 public/thumbs
 public/screens
 public/brand
+public/demo
 public/tally-sky.svg
 public/tally-hills.svg
 public/work

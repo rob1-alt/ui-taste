@@ -6,14 +6,16 @@ import { IndexRows, type Row } from "@/components/landing/IndexRows";
 import { Mosaic } from "@/components/landing/Mosaic";
 import { Specimens } from "@/components/landing/Specimens";
 import { Stats } from "@/components/landing/Stats";
+import { Tools, type SearchHit, type Measured } from "@/components/landing/Tools";
+import { Directions } from "@/components/landing/Directions";
+import { Install } from "@/components/landing/Install";
+import { getDirections } from "@/lib/directions";
 import { Logo } from "@/components/Logo";
-import { cleanFont, isLight, palette } from "@/lib/format";
+import { cleanFont, isLight, opt, palette, typeLabel } from "@/lib/format";
 import { getLibrary, libraryCounts } from "@/lib/library";
 import { SPEC_IDS } from "@/lib/specs";
 import type { Tile } from "@/lib/types";
 
-const INSTALL_PLUGIN = "/plugin marketplace add rob1-alt/ui-taste\n/plugin install ui-taste@ui-taste";
-const INSTALL_GIT = "git clone https://github.com/rob1-alt/ui-taste.git\ncp -r ui-taste/skills/ui-taste ~/.claude/skills/";
 // a first row of strong, varied pages in the index; the rest follows alphabetically
 const FIRST = ["stripe-press-landing", "linear-pricing", "playdate-landing", "anthropic-landing", "teenage-engineering-landing", "obsidian-landing", "kagi-pricing", "pentagram-landing", "vercel-geist-overview", "lindy-landing", "hey-landing", "cognition-landing"];
 
@@ -31,6 +33,19 @@ export default function Landing() {
     return { id: it.id, site: it.site, type: it.type, note: it.note, thumb: it.screens.desktop?.thumb || "", font: cleanFont(it.fonts[0]), pal: palette(it, 5), h1: h1?.size || null };
   });
   const specimens = LIB.filter((it) => SPEC_IDS.includes(it.id));
+  const directions = getDirections(LIB);
+  // the search demo replays what find_refs returns for dark pricing pages
+  const hits: SearchHit[] = ["clerk-pricing", "linear-pricing", "vercel-pricing"].map((id) => LIB.find((x) => x.id === id)).filter(Boolean).map((it) => ({
+    id: it!.id, site: it!.site, type: typeLabel(it!.type), why: it!.note.split(/(?<=\.)\s/)[0], thumb: opt(it!.screens.desktop!.thumb, 360), pal: palette(it!, 4),
+  }));
+  const lp = LIB.find((x) => x.id === "linear-pricing")!;
+  const h1 = lp.typeScale.h1, body = lp.typeScale.body, btn = lp.buttons[1] || lp.buttons[0];
+  const measured: Measured = { id: lp.id, site: lp.site, thumb: opt(lp.screens.desktop!.thumb, 720), chips: [
+    ...(h1 ? [{ x: 4, y: 9, label: `h1 ${cleanFont(h1.font)} ${h1.size}/${h1.lineHeight} w${h1.weight}` }] : []),
+    ...(body ? [{ x: 22, y: 30, label: `body ${body.size}/${body.lineHeight}` }] : []),
+    { x: 56, y: 44, label: `bg ${lp.colors.background}` },
+    ...(btn ? [{ x: 24, y: 68, label: `button ${btn.height}px · r ${parseInt(btn.radius)} · ${btn.bg}` }] : []),
+  ] };
 
   return (
     <>
@@ -43,9 +58,10 @@ export default function Landing() {
           <Link className="wordmark" href="/"><Logo /></Link>
           <nav className="nav" aria-label="Sections">
             <a href="#measured">Measured</a>
+            <a href="#tools">Tools</a>
+            <a href="#directions">Directions</a>
             <a href="#numbers">Numbers</a>
             <a href="#index">Index</a>
-            <a href="#method">Method</a>
             <a href="#review">Review</a>
             <a href="#install">Install</a>
           </nav>
@@ -69,57 +85,13 @@ export default function Landing() {
           </div>
         </section>
 
+        <Tools hits={hits} measured={measured} total={LIB.length} />
+
+        <Directions list={directions} />
+
         <Stats items={LIB} />
 
         <IndexRows rows={rows} sites={counts.sites} />
-
-        <section className="method" id="method">
-          <header className="head">
-            <h2>How Claude uses it</h2>
-            <p className="head-lede">Four steps, every time it builds or reviews an interface.</p>
-          </header>
-          <ol className="lines">
-            <li className="line">
-              <span className="line-n">01</span>
-              <h3 className="line-word">Inspect</h3>
-              <p className="line-text">Read the project&apos;s own system first. The project always wins over any reference; if there is no system, the skill writes one down before building on it.</p>
-              <div className="line-art art-files" aria-hidden="true">
-                <span>DESIGN.md</span><span>tailwind.config.ts</span><span>globals.css</span><span>components/ui/</span>
-              </div>
-            </li>
-            <li className="line">
-              <span className="line-n">02</span>
-              <h3 className="line-word">Reference</h3>
-              <p className="line-text">Search the library only to settle a concrete question. One strong screen is enough, three is the limit, and Claude opens the screenshot before it decides.</p>
-              <div className="line-art art-ref" aria-hidden="true">
-                {/* eslint-disable-next-line @next/next/no-img-element */}
-                <img src="/thumbs/linear-pricing-desktop.jpg" alt="" width={720} height={500} />
-                <span>“linear pricing” → plain columns, one filled button</span>
-              </div>
-            </li>
-            <li className="line">
-              <span className="line-n">03</span>
-              <h3 className="line-word">Build</h3>
-              <p className="line-text">Apply the decision with the project&apos;s components and tokens: one type family, a real scale, neutral surfaces and one accent, real content only.</p>
-              <div className="line-art art-tokens" aria-hidden="true">
-                <i style={{ background: "#0e0e0e" }} /><i style={{ background: "#3d3d3b" }} /><i style={{ background: "#e8e8e5" }} /><i style={{ background: "#ffffff" }} /><i style={{ background: "#ff3d1f" }} />
-                <b>Aa</b><b>Aa</b><b>Aa</b>
-              </div>
-            </li>
-            <li className="line">
-              <span className="line-n">04</span>
-              <h3 className="line-word">Review</h3>
-              <p className="line-text">Render at 1440 and 390 pixels, look at the result, run the checklist below and fix what it finds. A screen nobody looked at is not reviewed.</p>
-              <div className="line-art art-frames" aria-hidden="true">
-                <span className="f-desk">1440</span><span className="f-mob">390</span>
-              </div>
-            </li>
-          </ol>
-          <figure className="sheet">
-            <figcaption>What a search returns</figcaption>
-            <pre><span className="k">$</span>{' python3 scripts/find_refs.py "linear pricing" --limit 1\n\n'}<span className="h">Linear · pricing</span>{"\n"}<span className="k">url</span>{"        https://linear.app/pricing\n"}<span className="k">patterns</span>{"   dark, pricing-4-tier, comparison-table, billing-toggle-per-plan\n"}<span className="k">why</span>{"        Four plans in plain columns with no card boxes: name, price,\n           one line, a checklist. Only the Business button is filled.\n"}<span className="k">type</span>{"       h1 Inter Variable 48/1 w510 · body 15/1.6\n"}<span className="k">colours</span>{"    "}<i style={{ background: "#08090a" }} />{"#08090a  "}<i style={{ background: "#5e6ad2" }} />{"#5e6ad2  "}<i style={{ background: "#f7f8f8" }} />{"#f7f8f8\n"}<span className="k">button</span>{'     "Sign up" #e5e5e6 · radius 9999 · height 32 · padding 12'}</pre>
-          </figure>
-        </section>
 
         <section className="review" id="review">
           <header className="head">
@@ -130,18 +102,7 @@ export default function Landing() {
           <Checklist />
         </section>
 
-        <section className="install" id="install">
-          <div className="install-card">
-            <div>
-              <h2>Install</h2>
-              <p>Two commands in Claude Code. Then ask for a pricing page, a dashboard that looks generic, or a design system for a project that has none.</p>
-            </div>
-            <div className="cmds">
-              <div className="cmd"><pre>{INSTALL_PLUGIN}</pre><button type="button" className="copy" data-copy={INSTALL_PLUGIN}>Copy</button></div>
-              <div className="cmd"><pre>{INSTALL_GIT}</pre><button type="button" className="copy" data-copy={INSTALL_GIT}>Copy</button></div>
-            </div>
-          </div>
-        </section>
+        <Install />
       </main>
 
       <footer className="foot">
