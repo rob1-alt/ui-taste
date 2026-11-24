@@ -631,3 +631,44 @@ https://hkipf.org.hk	feedback widget over text, plain
 https://www.isidor.ai	generic
 https://www.milamend.com	sale banner
 https://www.slash.com	generic dark fintech
+https://www.withdelphi.com	redirects off-site (delphi.co) (prefilter)
+https://heritage-research.org	broken (URLError) (prefilter)
+https://saporienatura.it	broken (URLError) (prefilter)
+http://tra.co.nz	redirects off-site (theresearchagency.com) (prefilter)
+http://www.re-form.dk	broken (URLError) (prefilter)
+https://grafik.nz	redirects off-site (grafik.co.nz) (prefilter)
+https://typefaces.jonaspelzer.com	redirects off-site (jonastype.com) (prefilter)
+http://madebyrens.nl	bot wall (prefilter)
+https://albumcolors.com	bot wall (cloudflare) (prefilter)
+https://www.thatsbettering.com	region or age gate (prefilter)
+https://crosswire.io	broken (URLError) (prefilter)
+https://softglossary.space	broken (http 404) (prefilter)
+https://index.app	broken (URLError) (prefilter)
+https://kitskinkind.com.au	blank capture
+https://ridealso.com	november sale banner
+https://antimetal.com	generic serif saas
+https://carterogunsola.com	only the hero renders
+https://sandbox.cloudflare.com	a docs page, not a landing
+https://www.greenlock.io	generic
+https://www.kalokyeung.com	only partly renders
+https://www.litbix.com	only partly renders
+http://minimalgoods.co	cookie modal
+https://onlines.com.ar	bot wall
+https://planetarium.dk	generic
+https://useportal.net	generic
+https://projectsimply.com	images never load
+https://rig.ai	generic
+http://museumatlarge.com	almost empty capture
+https://happyring.fiftyseven.co	capture failed
+https://www.elwyn.co	only partly renders
+https://editorialnew.com	desktop mostly empty
+https://illuminating-radioactivity.com	only the hero renders
+https://imprint.co	generic fintech
+https://lab46.de/en	generic commerce
+https://layer9.com	generic dark saas
+https://www.originbrand.io	videos render black
+https://outrider.org	generic
+https://persona.co	only the hero renders
+https://philipphafner.com	only the hero renders
+https://www.thursdayschild.global	mostly black
+https://www.valerian.studio	work images never load

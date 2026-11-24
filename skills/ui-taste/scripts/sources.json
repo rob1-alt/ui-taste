@@ -9150,5 +9150,150 @@
    "teal"
   ],
   "note": "Red, teal and blue blocks tile the page, each holding an exhibition photo, its dates and a short title. An art centre whose layout is itself a coloured composition."
+ },
+ {
+  "site": "Bou",
+  "type": "landing",
+  "url": "https://wearebou.com",
+  "tags": [
+   "light",
+   "product-packaging-hero",
+   "tilted-wrappers",
+   "studio",
+   "colour-burst"
+  ],
+  "note": "Candy bar wrappers in every flavour colour fill the hero, tilted and overlapping, with the studio's one-line pitch over them. A brand studio leads with a pile of the packaging it made."
+ },
+ {
+  "site": "CHCKN",
+  "type": "landing",
+  "url": "https://chckn.app",
+  "tags": [
+   "light",
+   "phone-in-hand",
+   "people-queue",
+   "centered-headline",
+   "loyalty"
+  ],
+  "note": "A hand holds the phone with the check-in card, and a row of real customers stands in a queue along the bottom of the page. A loyalty tool shows the line of people it serves."
+ },
+ {
+  "site": "DecideAI",
+  "type": "landing",
+  "url": "https://decideai.xyz",
+  "tags": [
+   "dark",
+   "barcode-texture",
+   "giant-wordmark",
+   "numbered-sections",
+   "mono-labels"
+  ],
+  "note": "Barcode-like vertical bars mark three numbered themes, then the name runs off the page in giant black type on white. An AI data company uses a data texture instead of a neural glow."
+ },
+ {
+  "site": "Fictional",
+  "type": "landing",
+  "url": "https://fictional-typeface.com",
+  "tags": [
+   "cream",
+   "specimen",
+   "comic-bursts",
+   "stickers",
+   "colour-panels",
+   "playful"
+  ],
+  "note": "The typeface name surrounded by comic 'BANG' and 'KABOOM' bursts and sticker labels, then weight lists on purple and yellow panels. A cartoonish face sold in its own comic-book world."
+ },
+ {
+  "site": "GASS Records",
+  "type": "landing",
+  "url": "https://www.gass.zone",
+  "tags": [
+   "red-and-green",
+   "release-list",
+   "giant-rows",
+   "stacked-type",
+   "record-label",
+   "op-art"
+  ],
+  "note": "Each release is a full-width row with a chunky outlined 'RELEASE' label and the title in huge type, alternating red and green, under an op-art header. A record label's homepage is its discography, set like a festival poster."
+ },
+ {
+  "site": "xmcp",
+  "type": "landing",
+  "url": "https://xmcp.dev",
+  "tags": [
+   "light",
+   "blackletter-headline",
+   "docs-layout",
+   "metrics-panel",
+   "dev-tool"
+  ],
+  "note": "'The TypeScript MCP framework' set in blackletter, beside a live metrics panel of tool calls. A developer framework uses one unexpected typeface to stand out from every other docs-style homepage."
+ },
+ {
+  "site": "Cabalar Meat Co.",
+  "type": "landing",
+  "url": "https://www.eatcabalar.com",
+  "tags": [
+   "light",
+   "green-type",
+   "kitchen-photo",
+   "hours-in-hero",
+   "restaurant"
+  ],
+  "note": "A photo of the cooks at work, then the whole pitch in large green text with the opening hours set beside it at the same weight. A butcher-burger spot treats its hours as headline information."
+ },
+ {
+  "site": "Fantasy Dreams",
+  "type": "landing",
+  "url": "https://the-fantasy-dreams.club",
+  "tags": [
+   "light",
+   "bw-photos",
+   "tiny-type",
+   "band",
+   "lyrics-text"
+  ],
+  "note": "A blurred black-and-white street photo, then tiny type columns with lyrics, credits and show dates beside small band photos. A band site that reads like a liner note."
+ },
+ {
+  "site": "Kyiv Cannabis Club",
+  "type": "landing",
+  "url": "https://kyivcc.de",
+  "tags": [
+   "green",
+   "heavy-caps",
+   "sticker-cta",
+   "flag-colours",
+   "manifesto"
+  ],
+  "note": "Heavy condensed caps stacked on two greens, the call to action a tilted white sticker 'BECOME A MEMBER'. A social club's site written as a protest poster."
+ },
+ {
+  "site": "Provider Studio",
+  "type": "landing",
+  "url": "http://provider.studio",
+  "tags": [
+   "beige",
+   "giant-caps-name",
+   "serif-italic",
+   "hotel-branding",
+   "object-photos"
+  ],
+  "note": "The name in giant caps across the top, one serif sentence with an italic clause, then photos of the room keys, menus and perfumes it designed. A hotel branding studio shows the objects a guest touches."
+ },
+ {
+  "site": "Sociotype",
+  "type": "landing",
+  "url": "https://www.socio-type.com",
+  "tags": [
+   "light",
+   "macro-photo",
+   "giant-wordmark",
+   "specimen",
+   "featured-typeface"
+  ],
+  "note": "A blurred macro photo of plants under the giant name, then the featured face 'Avec' as a large specimen with a Moholy-Nagy quote set in it. A foundry whose homepage is a rotating feature."
  }
 ]

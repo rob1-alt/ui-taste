@@ -122,7 +122,7 @@ Museums, magazines, publishers and studios in the library (Whitney, Tate, Cooper
 Take: when the product is content, design the frame, not a hero. Let each item bring its own colour and image, keep the chrome to one brand colour and one type voice, and give dates, places and prices a consistent small metadata style.
 
 Catalogues and galleries follow the same rule. Heroicons puts the search field and the full icon grid in the first screen under one line of headline; Hoverstat's hero is today's pick, big in a browser frame with a one-line review; Minimal Gallery keeps its chrome black and its type small so the thumbnails bring all the colour. The generic version (Lucide, Iconoir, One Page Love) wraps the same inventory in a stats row, a promo bar and a plain directory grid.
-Material Archiv opens on a dense grid of material swatches under one search bar, every tile a sample; Anècdota, a small olive oil producer, lists every shop that sells it beside a satellite map instead of testimonials.
+Material Archiv opens on a dense grid of material swatches under one search bar, every tile a sample; Anècdota, a small olive oil producer, lists every shop that sells it beside a satellite map instead of testimonials. Gass Records makes its homepage the discography itself: one full-width row per release, the title in huge type, rows alternating red and green like a festival bill.
 
 ## 16. Deep tech shows the machine, at its real scale
 

@@ -16394,6 +16394,89 @@
     }
   },
   {
+    "id": "bou-landing",
+    "site": "Bou",
+    "url": "https://wearebou.com",
+    "type": "landing",
+    "tags": [
+      "light",
+      "product-packaging-hero",
+      "tilted-wrappers",
+      "studio",
+      "colour-burst"
+    ],
+    "note": "Candy bar wrappers in every flavour colour fill the hero, tilted and overlapping, with the studio's one-line pitch over them. A brand studio leads with a pile of the packaging it made.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/bou-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/bou-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Bou – The Brand Company",
+      "fonts": [
+        "StabilGrotesk",
+        "Arial"
+      ],
+      "type": {
+        "h1": {
+          "font": "StabilGrotesk",
+          "size": 42,
+          "weight": "300",
+          "lineHeight": 1.1,
+          "letterSpacing": "normal",
+          "color": "rgb(255, 255, 255)"
+        },
+        "h2": {
+          "font": "StabilGrotesk",
+          "size": 42,
+          "weight": "300",
+          "lineHeight": 1.1,
+          "letterSpacing": "normal",
+          "color": "rgb(10, 10, 10)"
+        },
+        "h3": {
+          "font": "StabilGrotesk",
+          "size": 17,
+          "weight": "600",
+          "lineHeight": 1.4,
+          "letterSpacing": "normal",
+          "color": "rgb(10, 10, 10)"
+        },
+        "body": {
+          "font": "StabilGrotesk",
+          "size": 30,
+          "weight": "300",
+          "lineHeight": 1.1,
+          "letterSpacing": "normal",
+          "color": "rgb(10, 10, 10)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#ffffff",
+          "#0a0a0a",
+          "#ebebeb",
+          "#000000"
+        ],
+        "text": [
+          "#ffffff",
+          "#0a0a0a"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": 1368
+    }
+  },
+  {
     "id": "brex-landing",
     "site": "Brex",
     "url": "https://www.brex.com",
@@ -17436,6 +17519,141 @@
     }
   },
   {
+    "id": "cabalar-meat-co-landing",
+    "site": "Cabalar Meat Co.",
+    "url": "https://www.eatcabalar.com",
+    "type": "landing",
+    "tags": [
+      "light",
+      "green-type",
+      "kitchen-photo",
+      "hours-in-hero",
+      "restaurant"
+    ],
+    "note": "A photo of the cooks at work, then the whole pitch in large green text with the opening hours set beside it at the same weight. A butcher-burger spot treats its hours as headline information.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/cabalar-meat-co-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/cabalar-meat-co-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Home | Cabalar Meat Co.",
+      "fonts": [
+        "__neueMontreal_870d2a",
+        "obviously-condensed",
+        "obviously-narrow"
+      ],
+      "type": {
+        "h1": null,
+        "h2": null,
+        "h3": {
+          "font": "obviously-condensed",
+          "size": 160,
+          "weight": "900",
+          "lineHeight": 1,
+          "letterSpacing": "normal",
+          "color": "rgb(2, 90, 60)"
+        },
+        "body": {
+          "font": "__neueMontreal_870d2a",
+          "size": 60,
+          "weight": "400",
+          "lineHeight": 1,
+          "letterSpacing": "normal",
+          "color": "rgb(2, 90, 60)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#ffffff",
+          "#025a3c"
+        ],
+        "text": [
+          "#025a3c",
+          "#ffffff"
+        ]
+      },
+      "buttons": [
+        {
+          "label": "EXPLORE",
+          "bg": "#025a3c",
+          "color": "#ffffff",
+          "radius": "9999px",
+          "height": 64,
+          "paddingX": 40,
+          "font": "__neueMontreal_870d2a",
+          "size": 20,
+          "weight": "400"
+        },
+        {
+          "label": "ORDER ONLINE",
+          "bg": "#ffffff",
+          "color": "#025a3c",
+          "radius": "9999px",
+          "height": 64,
+          "paddingX": 40,
+          "font": "__neueMontreal_870d2a",
+          "size": 20,
+          "weight": "400"
+        },
+        {
+          "label": "CONTACT",
+          "bg": "#ffffff",
+          "color": "#025a3c",
+          "radius": "9999px",
+          "height": 64,
+          "paddingX": 40,
+          "font": "__neueMontreal_870d2a",
+          "size": 20,
+          "weight": "400"
+        },
+        {
+          "label": "ABOUT",
+          "bg": "#ffffff",
+          "color": "#ffffff",
+          "radius": "16px",
+          "height": 68,
+          "paddingX": 32,
+          "font": "__neueMontreal_870d2a",
+          "size": 16,
+          "weight": "400"
+        },
+        {
+          "label": "FARMS & FRIENDS",
+          "bg": "#ffffff",
+          "color": "#ffffff",
+          "radius": "16px",
+          "height": 68,
+          "paddingX": 32,
+          "font": "__neueMontreal_870d2a",
+          "size": 16,
+          "weight": "400"
+        },
+        {
+          "label": "MENU",
+          "bg": "#ffffff",
+          "color": "#ffffff",
+          "radius": "16px",
+          "height": 68,
+          "paddingX": 32,
+          "font": "__neueMontreal_870d2a",
+          "size": 16,
+          "weight": "400"
+        }
+      ],
+      "contentWidth": 1024
+    }
+  },
+  {
     "id": "cal-com-landing",
     "site": "Cal.com",
     "url": "https://cal.com",
@@ -18116,6 +18334,95 @@
         }
       ],
       "contentWidth": 1440
+    }
+  },
+  {
+    "id": "chckn-landing",
+    "site": "CHCKN",
+    "url": "https://chckn.app",
+    "type": "landing",
+    "tags": [
+      "light",
+      "phone-in-hand",
+      "people-queue",
+      "centered-headline",
+      "loyalty"
+    ],
+    "note": "A hand holds the phone with the check-in card, and a row of real customers stands in a queue along the bottom of the page. A loyalty tool shows the line of people it serves.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/chckn-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/chckn-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "CHCKN | Customer intelligence. Made simple.",
+      "fonts": [
+        "Noto Serif JP",
+        "sans-serif",
+        "Inter Display"
+      ],
+      "type": {
+        "h1": {
+          "font": "Inter Display",
+          "size": 58,
+          "weight": "600",
+          "lineHeight": 1,
+          "letterSpacing": "-2px",
+          "color": "rgb(0, 0, 0)"
+        },
+        "h2": {
+          "font": "Inter Display",
+          "size": 44,
+          "weight": "600",
+          "lineHeight": 1.1,
+          "letterSpacing": "-1.32px",
+          "color": "rgb(0, 0, 0)"
+        },
+        "h3": null,
+        "body": {
+          "font": "DM Sans",
+          "size": 24,
+          "weight": "500",
+          "lineHeight": 1.2,
+          "letterSpacing": "-0.72px",
+          "color": "rgb(0, 0, 0)"
+        }
+      },
+      "colors": {
+        "background": "#f6f6f4",
+        "surfaces": [
+          "#f6f6f4",
+          "#f7f4ee",
+          "#000000"
+        ],
+        "text": [
+          "#000000",
+          "#545454",
+          "#ffffff"
+        ]
+      },
+      "buttons": [
+        {
+          "label": "Start free",
+          "bg": "#000000",
+          "color": "#0000ee",
+          "radius": "80px",
+          "height": 54,
+          "paddingX": 24,
+          "font": "sans-serif",
+          "size": 12,
+          "weight": "400"
+        }
+      ],
+      "contentWidth": 1400
     }
   },
   {
@@ -21424,6 +21731,60 @@
       },
       "buttons": [],
       "contentWidth": 1280
+    }
+  },
+  {
+    "id": "decideai-landing",
+    "site": "DecideAI",
+    "url": "https://decideai.xyz",
+    "type": "landing",
+    "tags": [
+      "dark",
+      "barcode-texture",
+      "giant-wordmark",
+      "numbered-sections",
+      "mono-labels"
+    ],
+    "note": "Barcode-like vertical bars mark three numbered themes, then the name runs off the page in giant black type on white. An AI data company uses a data texture instead of a neural glow.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/decideai-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/decideai-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Decide AI",
+      "fonts": [
+        "PP Neue Montreal"
+      ],
+      "type": {
+        "h1": null,
+        "h2": null,
+        "h3": null,
+        "body": null
+      },
+      "colors": {
+        "background": "#030303",
+        "surfaces": [
+          "#ffffff",
+          "#c1c1c1",
+          "#030303"
+        ],
+        "text": [
+          "#030303",
+          "#ffffff",
+          "#73ffb9"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": 896
     }
   },
   {
@@ -25724,6 +26085,78 @@
     }
   },
   {
+    "id": "fantasy-dreams-landing",
+    "site": "Fantasy Dreams",
+    "url": "https://the-fantasy-dreams.club",
+    "type": "landing",
+    "tags": [
+      "light",
+      "bw-photos",
+      "tiny-type",
+      "band",
+      "lyrics-text"
+    ],
+    "note": "A blurred black-and-white street photo, then tiny type columns with lyrics, credits and show dates beside small band photos. A band site that reads like a liner note.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/fantasy-dreams-landing-desktop.jpg",
+        "width": 1440,
+        "height": 1529
+      },
+      "mobile": {
+        "file": "screens/fantasy-dreams-landing-mobile.jpg",
+        "width": 390,
+        "height": 2216
+      }
+    },
+    "tokens": {
+      "title": "Fantasy Dreams rockt dich kaputt",
+      "fonts": [
+        "Inter var experimental"
+      ],
+      "type": {
+        "h1": {
+          "font": "Inter var experimental",
+          "size": 16,
+          "weight": "400",
+          "lineHeight": 1.5,
+          "letterSpacing": "-0.176px",
+          "color": "rgb(0, 0, 0)"
+        },
+        "h2": {
+          "font": "Inter var experimental",
+          "size": 16,
+          "weight": "400",
+          "lineHeight": 1.5,
+          "letterSpacing": "-0.176px",
+          "color": "rgb(0, 0, 0)"
+        },
+        "h3": null,
+        "body": {
+          "font": "Inter var experimental",
+          "size": 16,
+          "weight": "400",
+          "lineHeight": 1.5,
+          "letterSpacing": "-0.176px",
+          "color": "rgb(0, 0, 0)"
+        }
+      },
+      "colors": {
+        "background": "#f5f5f5",
+        "surfaces": [
+          "#ffffff",
+          "#f5f5f5"
+        ],
+        "text": [
+          "#000000"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": null
+    }
+  },
+  {
     "id": "fathom-landing",
     "site": "Fathom",
     "url": "https://usefathom.com",
@@ -25862,6 +26295,111 @@
         }
       ],
       "contentWidth": 880
+    }
+  },
+  {
+    "id": "fictional-landing",
+    "site": "Fictional",
+    "url": "https://fictional-typeface.com",
+    "type": "landing",
+    "tags": [
+      "cream",
+      "specimen",
+      "comic-bursts",
+      "stickers",
+      "colour-panels",
+      "playful"
+    ],
+    "note": "The typeface name surrounded by comic 'BANG' and 'KABOOM' bursts and sticker labels, then weight lists on purple and yellow panels. A cartoonish face sold in its own comic-book world.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/fictional-landing-desktop.jpg",
+        "width": 1440,
+        "height": 2670
+      },
+      "mobile": {
+        "file": "screens/fictional-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Fictional – A friendly & quirky typeface with a cartoonesque character",
+      "fonts": [
+        "Fictional"
+      ],
+      "type": {
+        "h1": {
+          "font": "Fictional",
+          "size": 202,
+          "weight": "400",
+          "lineHeight": 1.2,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        },
+        "h2": null,
+        "h3": null,
+        "body": {
+          "font": "Fictional",
+          "size": 37,
+          "weight": "400",
+          "lineHeight": 1.3,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#8a53ff",
+          "#ffe9ce",
+          "#fd4b38",
+          "#ffd80c",
+          "#ffffff"
+        ],
+        "text": [
+          "#ffffff",
+          "#000000",
+          "#0500a3"
+        ]
+      },
+      "buttons": [
+        {
+          "label": "↖",
+          "bg": "#ffffff",
+          "color": "#666666",
+          "radius": "15px",
+          "height": 60,
+          "paddingX": 0,
+          "font": "Fictional",
+          "size": 40,
+          "weight": "400"
+        },
+        {
+          "label": "T",
+          "bg": "#dddddd",
+          "color": "#000000",
+          "radius": "15px",
+          "height": 60,
+          "paddingX": 0,
+          "font": "Fictional",
+          "size": 40,
+          "weight": "400"
+        },
+        {
+          "label": "GET IT HERE",
+          "bg": "#fd4b38",
+          "color": "#ffffff",
+          "radius": "10px",
+          "height": 40,
+          "paddingX": 29,
+          "font": "Fictional",
+          "size": 22,
+          "weight": "400"
+        }
+      ],
+      "contentWidth": null
     }
   },
   {
@@ -28117,6 +28655,73 @@
         }
       ],
       "contentWidth": 806
+    }
+  },
+  {
+    "id": "gass-records-landing",
+    "site": "GASS Records",
+    "url": "https://www.gass.zone",
+    "type": "landing",
+    "tags": [
+      "red-and-green",
+      "release-list",
+      "giant-rows",
+      "stacked-type",
+      "record-label",
+      "op-art"
+    ],
+    "note": "Each release is a full-width row with a chunky outlined 'RELEASE' label and the title in huge type, alternating red and green, under an op-art header. A record label's homepage is its discography, set like a festival poster.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/gass-records-landing-desktop.jpg",
+        "width": 1440,
+        "height": 2365
+      },
+      "mobile": {
+        "file": "screens/gass-records-landing-mobile.jpg",
+        "width": 390,
+        "height": 1407
+      }
+    },
+    "tokens": {
+      "title": "GASS Records",
+      "fonts": [
+        "neue-haas-grotesk-display",
+        "Perfetto",
+        "hwt-bulletin"
+      ],
+      "type": {
+        "h1": null,
+        "h2": null,
+        "h3": null,
+        "body": {
+          "font": "neue-haas-grotesk-display",
+          "size": 16,
+          "weight": "400",
+          "lineHeight": 1.5,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 34, 11)"
+        }
+      },
+      "colors": {
+        "background": "#00220b",
+        "surfaces": [
+          "#ff0000",
+          "#00220b",
+          "#ffbb90",
+          "#d2bad8",
+          "#ffffff"
+        ],
+        "text": [
+          "#00220b",
+          "#afcdda",
+          "#000000",
+          "#d2bad8"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": null
     }
   },
   {
@@ -35376,6 +35981,82 @@
       },
       "buttons": [],
       "contentWidth": 1400
+    }
+  },
+  {
+    "id": "kyiv-cannabis-club-landing",
+    "site": "Kyiv Cannabis Club",
+    "url": "https://kyivcc.de",
+    "type": "landing",
+    "tags": [
+      "green",
+      "heavy-caps",
+      "sticker-cta",
+      "flag-colours",
+      "manifesto"
+    ],
+    "note": "Heavy condensed caps stacked on two greens, the call to action a tilted white sticker 'BECOME A MEMBER'. A social club's site written as a protest poster.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/kyiv-cannabis-club-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/kyiv-cannabis-club-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Berlin-based cannabis social club with Ukrainian roots",
+      "fonts": [
+        "KTF Concrete",
+        "Arial Black"
+      ],
+      "type": {
+        "h1": {
+          "font": "KTF Concrete",
+          "size": 112,
+          "weight": "700",
+          "lineHeight": 0.93,
+          "letterSpacing": "0.1px",
+          "color": "rgb(0, 0, 0)"
+        },
+        "h2": {
+          "font": "KTF Concrete",
+          "size": 96,
+          "weight": "700",
+          "lineHeight": 0.99,
+          "letterSpacing": "0.1px",
+          "color": "rgb(0, 0, 0)"
+        },
+        "h3": null,
+        "body": {
+          "font": "Arial Black",
+          "size": 30,
+          "weight": "900",
+          "lineHeight": 1,
+          "letterSpacing": "-1.5px",
+          "color": "rgb(0, 0, 0)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#7baa27",
+          "#00664e",
+          "#000000",
+          "#347e3d"
+        ],
+        "text": [
+          "#000000",
+          "#ffffff"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": 890
     }
   },
   {
@@ -49150,6 +49831,87 @@
     }
   },
   {
+    "id": "provider-studio-landing",
+    "site": "Provider Studio",
+    "url": "http://provider.studio",
+    "type": "landing",
+    "tags": [
+      "beige",
+      "giant-caps-name",
+      "serif-italic",
+      "hotel-branding",
+      "object-photos"
+    ],
+    "note": "The name in giant caps across the top, one serif sentence with an italic clause, then photos of the room keys, menus and perfumes it designed. A hotel branding studio shows the objects a guest touches.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/provider-studio-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/provider-studio-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Provider Studio — Brand & Scent Design for Boutique Hotels",
+      "fonts": [
+        "Italian Garamond",
+        "Isola"
+      ],
+      "type": {
+        "h1": {
+          "font": "Italian Garamond",
+          "size": 32,
+          "weight": "400",
+          "lineHeight": 1.1,
+          "letterSpacing": "-0.64px",
+          "color": "rgb(31, 31, 31)"
+        },
+        "h2": {
+          "font": "Isola",
+          "size": 14,
+          "weight": "700",
+          "lineHeight": 1.2,
+          "letterSpacing": "normal",
+          "color": "rgb(31, 31, 31)"
+        },
+        "h3": {
+          "font": "Isola",
+          "size": 14,
+          "weight": "700",
+          "lineHeight": 1.2,
+          "letterSpacing": "normal",
+          "color": "rgb(31, 31, 31)"
+        },
+        "body": {
+          "font": "Italian Garamond",
+          "size": 16,
+          "weight": "400",
+          "lineHeight": 1.2,
+          "letterSpacing": "normal",
+          "color": "rgb(31, 31, 31)"
+        }
+      },
+      "colors": {
+        "background": "#ece8e1",
+        "surfaces": [
+          "#ece8e1",
+          "#1f1f1f"
+        ],
+        "text": [
+          "#1f1f1f",
+          "#ece8e1"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": null
+    }
+  },
+  {
     "id": "public-landing",
     "site": "Public",
     "url": "https://public.com",
@@ -55619,6 +56381,71 @@
           "#ffffff",
           "#252525",
           "#ff0000"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": null
+    }
+  },
+  {
+    "id": "sociotype-landing",
+    "site": "Sociotype",
+    "url": "https://www.socio-type.com",
+    "type": "landing",
+    "tags": [
+      "light",
+      "macro-photo",
+      "giant-wordmark",
+      "specimen",
+      "featured-typeface"
+    ],
+    "note": "A blurred macro photo of plants under the giant name, then the featured face 'Avec' as a large specimen with a Moholy-Nagy quote set in it. A foundry whose homepage is a rotating feature.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/sociotype-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/sociotype-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Sociotype - Homepage",
+      "fonts": [
+        "Main Onsite"
+      ],
+      "type": {
+        "h1": null,
+        "h2": {
+          "font": "Main Onsite",
+          "size": 40,
+          "weight": "400",
+          "lineHeight": 1.13,
+          "letterSpacing": "0.6px",
+          "color": "rgb(255, 255, 255)"
+        },
+        "h3": null,
+        "body": {
+          "font": "Main Onsite",
+          "size": 14,
+          "weight": "400",
+          "lineHeight": 1.29,
+          "letterSpacing": "0.56px",
+          "color": "rgb(255, 255, 255)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#ffffff"
+        ],
+        "text": [
+          "#000000",
+          "#ffffff"
         ]
       },
       "buttons": [],
@@ -66048,6 +66875,105 @@
       }
     },
     "tokens": null
+  },
+  {
+    "id": "xmcp-landing",
+    "site": "xmcp",
+    "url": "https://xmcp.dev",
+    "type": "landing",
+    "tags": [
+      "light",
+      "blackletter-headline",
+      "docs-layout",
+      "metrics-panel",
+      "dev-tool"
+    ],
+    "note": "'The TypeScript MCP framework' set in blackletter, beside a live metrics panel of tool calls. A developer framework uses one unexpected typeface to stand out from every other docs-style homepage.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/xmcp-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/xmcp-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "xmcp — The TypeScript MCP framework",
+      "fonts": [
+        "Geist Mono",
+        "Geist",
+        "EB Garamond"
+      ],
+      "type": {
+        "h1": {
+          "font": "siteDisplay",
+          "size": 40,
+          "weight": "500",
+          "lineHeight": 1.12,
+          "letterSpacing": "-2px",
+          "color": "rgb(23, 23, 23)"
+        },
+        "h2": {
+          "font": "Geist",
+          "size": 14,
+          "weight": "550",
+          "lineHeight": 1.46,
+          "letterSpacing": "normal",
+          "color": "rgb(23, 23, 23)"
+        },
+        "h3": {
+          "font": "Geist",
+          "size": 13,
+          "weight": "550",
+          "lineHeight": 1.44,
+          "letterSpacing": "normal",
+          "color": "rgb(23, 23, 23)"
+        },
+        "body": {
+          "font": "Geist",
+          "size": 14,
+          "weight": "450",
+          "lineHeight": 1.6,
+          "letterSpacing": "normal",
+          "color": "rgb(23, 23, 23)"
+        }
+      },
+      "colors": {
+        "background": "#fdfdfc",
+        "surfaces": [
+          "#ffffff",
+          "#fdfdfc",
+          "#000000",
+          "#171717",
+          "#8f8f8f"
+        ],
+        "text": [
+          "#525252",
+          "#8f8f8f",
+          "#171717",
+          "#032f62"
+        ]
+      },
+      "buttons": [
+        {
+          "label": "Documentation",
+          "bg": "#fdfdfc",
+          "color": "#8f8f8f",
+          "radius": "999px",
+          "height": 28,
+          "paddingX": 11,
+          "font": "Geist",
+          "size": 13,
+          "weight": "450"
+        }
+      ],
+      "contentWidth": 1440
+    }
   },
   {
     "id": "y-combinator-landing",
