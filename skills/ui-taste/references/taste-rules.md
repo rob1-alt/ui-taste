@@ -116,6 +116,7 @@ The sample words are copy, not filler. Displaay sets "Extra chewy!" and "Post In
 Take: write the specimen text for the face's use and mood, never a pangram, and choose the hero word for its letterforms.
 
 A single typeface can be sold through a story instead of a grid: PP Neue Montreal is written as an "Official Travel Guide" to the city it is named after, with postcards, street photos and mixed-colour italic lines ("Out with the old, in with the Neue"), and the weights list only arrives under the story.
+Mass Driver and Nikolas Type keep the catalogue but write a sentence per face ('Choose Your Own Adventure', 'Sagittarius A* 17h 45m 40.0409s', 'At Casa di Solare, フォント forever'), so the index itself sells each typeface.
 
 ## 15. Content-led sites lead with the content
 

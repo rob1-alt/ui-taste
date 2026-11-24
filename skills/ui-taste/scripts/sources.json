@@ -9476,5 +9476,121 @@
    "studio"
   ],
   "note": "A blue network map of labelled nodes fills the hero, then a plain table of projects with client and discipline. A data-design studio leads with a visualization and lists its work as data."
+ },
+ {
+  "site": "Bureau Tonalli",
+  "type": "landing",
+  "url": "https://www.bureautonalli.com",
+  "tags": [
+   "dark",
+   "bw-sculpture-photo",
+   "red-macro",
+   "material-photos",
+   "studio"
+  ],
+  "note": "A black-and-white sculpture on a plinth, then a full-width red macro texture and a cloth-bound dictionary in raking light. A studio shows its taste through materials, not case studies."
+ },
+ {
+  "site": "Eleven Plants for Dum-Dums & Cool Ppl",
+  "type": "landing",
+  "url": "http://www.elevenplantsfordumdums.com",
+  "tags": [
+   "green",
+   "poster-type",
+   "numbered-list",
+   "botanical-ovals",
+   "serif-display"
+  ],
+  "note": "A green poster with a numbered list of eleven plants and their Latin names between two botanical drawings in ovals, then each plant on its own cream page. A list article designed as a printed poster series."
+ },
+ {
+  "site": "JARCOS",
+  "type": "landing",
+  "url": "https://jarcos.work",
+  "tags": [
+   "light",
+   "giant-wordmark",
+   "3d-object-in-letter",
+   "black-index",
+   "colour-blocks"
+  ],
+  "note": "The name in huge black type with a vivid 3D object sitting inside the O, then a black index of capabilities and clients. One rendered object turns a plain wordmark into the hero."
+ },
+ {
+  "site": "Mass-Driver™",
+  "type": "landing",
+  "url": "https://mass-driver.com",
+  "tags": [
+   "light",
+   "specimen-tiles",
+   "dot-matrix-display",
+   "catalogue-grid",
+   "olive-and-grey"
+  ],
+  "note": "A dotted display face fills the hero, then each typeface is a tile with its own sample sentence in olive, slate and black. A foundry catalogue where every tile writes copy for its face."
+ },
+ {
+  "site": "Pillowtalk",
+  "type": "landing",
+  "url": "https://talkpillowtalk.com",
+  "tags": [
+   "dark",
+   "warped-serif",
+   "photo-hero",
+   "lavender-section",
+   "phone-in-hand"
+  ],
+  "note": "A wavy, warped serif headline floats over a soft photo of a person, then a lavender section of phones in hands. A journaling app makes its headline look like a dream."
+ },
+ {
+  "site": "Sunrise Robotics",
+  "type": "landing",
+  "url": "https://sunriserobotics.co",
+  "tags": [
+   "dark-to-coral",
+   "line-texture",
+   "large-statement",
+   "colour-block",
+   "robotics"
+  ],
+  "note": "A black hero fading into fine horizontal lines, then a full coral block with the mission in large light type. Robotics presented with two colours and one texture, no robot."
+ },
+ {
+  "site": "X – The Moonshot Company",
+  "type": "landing",
+  "url": "https://x.company",
+  "tags": [
+   "dark",
+   "staircase-tile-grid",
+   "project-thumbnails",
+   "small-headline"
+  ],
+  "note": "A small intro line, then a staircase of square tiles, each a project (a self-driving car, a balloon, a robot arm) on its own colour. A lab shows its range as a growing grid, not a list."
+ },
+ {
+  "site": "Nikolas Type",
+  "type": "landing",
+  "url": "https://www.nikolastype.com",
+  "tags": [
+   "light",
+   "specimen-rows",
+   "sample-sentences",
+   "multilingual",
+   "ruled-list"
+  ],
+  "note": "Each typeface is one ruled row with a sample sentence in its own voice, Japanese and German mixed in ('At Casa di Solare, フォント forever'). A foundry index where the copy shows what each face is for."
+ },
+ {
+  "site": "Titan",
+  "type": "landing",
+  "url": "https://www.titan.com",
+  "tags": [
+   "dark-to-cream",
+   "giant-serif-wordmark",
+   "overhead-office-photo",
+   "stats-row",
+   "finance"
+  ],
+  "note": "The name in a huge serif over an overhead photo of people working, then plain stats on cream (.2 Billion, 10,000+, SEC, 2017). A wealth manager for tech workers shows the office and four facts."
  }
 ]

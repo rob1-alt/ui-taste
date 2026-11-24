@@ -17624,6 +17624,73 @@
     }
   },
   {
+    "id": "bureau-tonalli-landing",
+    "site": "Bureau Tonalli",
+    "url": "https://www.bureautonalli.com",
+    "type": "landing",
+    "tags": [
+      "dark",
+      "bw-sculpture-photo",
+      "red-macro",
+      "material-photos",
+      "studio"
+    ],
+    "note": "A black-and-white sculpture on a plinth, then a full-width red macro texture and a cloth-bound dictionary in raking light. A studio shows its taste through materials, not case studies.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/bureau-tonalli-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/bureau-tonalli-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Bureau Tonalli | CGI Studio Paris | Creative Direction & CGI Production",
+      "fonts": [
+        "Helvetica Neue Light",
+        "Helvetica Neue Medium",
+        "sans-serif"
+      ],
+      "type": {
+        "h1": {
+          "font": "Helvetica Neue Bold",
+          "size": 12,
+          "weight": "700",
+          "lineHeight": 1.4,
+          "letterSpacing": "normal",
+          "color": "rgb(255, 255, 255)"
+        },
+        "h2": null,
+        "h3": null,
+        "body": {
+          "font": "Helvetica Neue Light",
+          "size": 14,
+          "weight": "300",
+          "lineHeight": 1.1,
+          "letterSpacing": "normal",
+          "color": "rgb(255, 255, 255)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#000000",
+          "#ffffff"
+        ],
+        "text": [
+          "#ffffff"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": null
+    }
+  },
+  {
     "id": "buttondown-landing",
     "site": "Buttondown",
     "url": "https://buttondown.com",
@@ -24582,6 +24649,89 @@
       },
       "buttons": [],
       "contentWidth": 1568
+    }
+  },
+  {
+    "id": "eleven-plants-for-dum-dums-cool-ppl-landing",
+    "site": "Eleven Plants for Dum-Dums & Cool Ppl",
+    "url": "http://www.elevenplantsfordumdums.com",
+    "type": "landing",
+    "tags": [
+      "green",
+      "poster-type",
+      "numbered-list",
+      "botanical-ovals",
+      "serif-display"
+    ],
+    "note": "A green poster with a numbered list of eleven plants and their Latin names between two botanical drawings in ovals, then each plant on its own cream page. A list article designed as a printed poster series.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/eleven-plants-for-dum-dums-cool-ppl-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/eleven-plants-for-dum-dums-cool-ppl-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Eleven Plants for Dum-Dums & Cool Ppl",
+      "fonts": [
+        "Styrenea web",
+        "Dum dum",
+        "Inknut Antiqua"
+      ],
+      "type": {
+        "h1": {
+          "font": "Styrenea web",
+          "size": 82,
+          "weight": "700",
+          "lineHeight": 1.22,
+          "letterSpacing": "normal",
+          "color": "rgb(250, 243, 211)"
+        },
+        "h2": {
+          "font": "Styrenea web",
+          "size": 16,
+          "weight": "700",
+          "lineHeight": 2.25,
+          "letterSpacing": "2px",
+          "color": "rgb(68, 113, 74)"
+        },
+        "h3": {
+          "font": "bookmania",
+          "size": 180,
+          "weight": "400",
+          "lineHeight": 1,
+          "letterSpacing": "normal",
+          "color": "rgb(68, 113, 74)"
+        },
+        "body": {
+          "font": "Styrenea web",
+          "size": 15,
+          "weight": "400",
+          "lineHeight": 1.6,
+          "letterSpacing": "normal",
+          "color": "rgb(68, 113, 74)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#faf3d3",
+          "#62b16f"
+        ],
+        "text": [
+          "#325637",
+          "#44714a",
+          "#faf3d3"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": 1200
     }
   },
   {
@@ -35313,6 +35463,93 @@
     }
   },
   {
+    "id": "jarcos-landing",
+    "site": "JARCOS",
+    "url": "https://jarcos.work",
+    "type": "landing",
+    "tags": [
+      "light",
+      "giant-wordmark",
+      "3d-object-in-letter",
+      "black-index",
+      "colour-blocks"
+    ],
+    "note": "The name in huge black type with a vivid 3D object sitting inside the O, then a black index of capabilities and clients. One rendered object turns a plain wordmark into the hero.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/jarcos-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/jarcos-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "JARCOS",
+      "fonts": [
+        "Inter Display",
+        "sans-serif"
+      ],
+      "type": {
+        "h1": {
+          "font": "Inter Display",
+          "size": 12,
+          "weight": "600",
+          "lineHeight": 1.3,
+          "letterSpacing": "-0.12px",
+          "color": "rgb(0, 0, 0)"
+        },
+        "h2": {
+          "font": "Inter Display",
+          "size": 12,
+          "weight": "600",
+          "lineHeight": 1.3,
+          "letterSpacing": "-0.12px",
+          "color": "rgb(255, 255, 255)"
+        },
+        "h3": null,
+        "body": {
+          "font": "Inter Display",
+          "size": 12,
+          "weight": "600",
+          "lineHeight": 1.3,
+          "letterSpacing": "-0.12px",
+          "color": "rgb(0, 0, 0)"
+        }
+      },
+      "colors": {
+        "background": "#000000",
+        "surfaces": [
+          "#000000",
+          "#ffffff"
+        ],
+        "text": [
+          "#ffffff",
+          "#808080",
+          "#000000"
+        ]
+      },
+      "buttons": [
+        {
+          "label": "Pop up a message",
+          "bg": "#000000",
+          "color": "#000000",
+          "radius": "4px",
+          "height": 36,
+          "paddingX": 12,
+          "font": "sans-serif",
+          "size": 12,
+          "weight": "400"
+        }
+      ],
+      "contentWidth": null
+    }
+  },
+  {
     "id": "jason-santa-maria-landing",
     "site": "Jason Santa Maria",
     "url": "https://jasonsantamaria.com",
@@ -40386,6 +40623,90 @@
     }
   },
   {
+    "id": "mass-driver-landing",
+    "site": "Mass-Driver™",
+    "url": "https://mass-driver.com",
+    "type": "landing",
+    "tags": [
+      "light",
+      "specimen-tiles",
+      "dot-matrix-display",
+      "catalogue-grid",
+      "olive-and-grey"
+    ],
+    "note": "A dotted display face fills the hero, then each typeface is a tile with its own sample sentence in olive, slate and black. A foundry catalogue where every tile writes copy for its face.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/mass-driver-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/mass-driver-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Mass-Driver",
+      "fonts": [
+        "MD UI VF"
+      ],
+      "type": {
+        "h1": {
+          "font": "MD UI VF",
+          "size": 32,
+          "weight": "600",
+          "lineHeight": 1,
+          "letterSpacing": "normal",
+          "color": "rgb(24, 23, 22)"
+        },
+        "h2": {
+          "font": "MD UI VF",
+          "size": 16,
+          "weight": "600",
+          "lineHeight": 1.2,
+          "letterSpacing": "normal",
+          "color": "rgb(24, 23, 22)"
+        },
+        "h3": {
+          "font": "MD UI VF",
+          "size": 32,
+          "weight": "350",
+          "lineHeight": 1,
+          "letterSpacing": "normal",
+          "color": "rgb(24, 23, 22)"
+        },
+        "body": {
+          "font": "MD UI VF",
+          "size": 16,
+          "weight": "400",
+          "lineHeight": 1,
+          "letterSpacing": "normal",
+          "color": "rgb(24, 23, 22)"
+        }
+      },
+      "colors": {
+        "background": "#efeeed",
+        "surfaces": [
+          "#080808",
+          "#1d1c1b",
+          "#c2bdb7",
+          "#83a5a5",
+          "#696247"
+        ],
+        "text": [
+          "#181716",
+          "#efeeed",
+          "#86817b"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": null
+    }
+  },
+  {
     "id": "mastodon-landing",
     "site": "Mastodon",
     "url": "https://joinmastodon.org",
@@ -44084,6 +44405,80 @@
       },
       "buttons": [],
       "contentWidth": 910
+    }
+  },
+  {
+    "id": "nikolas-type-landing",
+    "site": "Nikolas Type",
+    "url": "https://www.nikolastype.com",
+    "type": "landing",
+    "tags": [
+      "light",
+      "specimen-rows",
+      "sample-sentences",
+      "multilingual",
+      "ruled-list"
+    ],
+    "note": "Each typeface is one ruled row with a sample sentence in its own voice, Japanese and German mixed in ('At Casa di Solare, フォント forever'). A foundry index where the copy shows what each face is for.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/nikolas-type-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/nikolas-type-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Nikolas Type - Independent Type Foundry",
+      "fonts": [
+        "Absolut Grotesk Variable"
+      ],
+      "type": {
+        "h1": null,
+        "h2": {
+          "font": "Absolut Grotesk Variable",
+          "size": 14,
+          "weight": "700",
+          "lineHeight": 1.5,
+          "letterSpacing": "0.5px",
+          "color": "rgb(16, 16, 16)"
+        },
+        "h3": {
+          "font": "Absolut Grotesk Variable",
+          "size": 12,
+          "weight": "400",
+          "lineHeight": 1.5,
+          "letterSpacing": "0.3px",
+          "color": "rgb(16, 16, 16)"
+        },
+        "body": {
+          "font": "Absolut Grotesk Variable",
+          "size": 15,
+          "weight": "400",
+          "lineHeight": 1.6,
+          "letterSpacing": "normal",
+          "color": "rgb(16, 16, 16)"
+        }
+      },
+      "colors": {
+        "background": "#faf9f7",
+        "surfaces": [
+          "#faf9f7",
+          "#101010"
+        ],
+        "text": [
+          "#101010",
+          "#71706f",
+          "#faf9f7"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": null
     }
   },
   {
@@ -48298,6 +48693,98 @@
         }
       ],
       "contentWidth": null
+    }
+  },
+  {
+    "id": "pillowtalk-landing",
+    "site": "Pillowtalk",
+    "url": "https://talkpillowtalk.com",
+    "type": "landing",
+    "tags": [
+      "dark",
+      "warped-serif",
+      "photo-hero",
+      "lavender-section",
+      "phone-in-hand"
+    ],
+    "note": "A wavy, warped serif headline floats over a soft photo of a person, then a lavender section of phones in hands. A journaling app makes its headline look like a dream.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/pillowtalk-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/pillowtalk-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "pillowtalk",
+      "fonts": [
+        "ABCDiatype"
+      ],
+      "type": {
+        "h1": {
+          "font": "ABCDiatype",
+          "size": 160,
+          "weight": "700",
+          "lineHeight": 1.2,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        },
+        "h2": {
+          "font": "ABCDiatype",
+          "size": 48,
+          "weight": "400",
+          "lineHeight": 1.2,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        },
+        "h3": {
+          "font": "ABCDiatype",
+          "size": 28,
+          "weight": "400",
+          "lineHeight": 1.2,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        },
+        "body": {
+          "font": "ABCDiatype",
+          "size": 18,
+          "weight": "300",
+          "lineHeight": 1.2,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        }
+      },
+      "colors": {
+        "background": "#000000",
+        "surfaces": [
+          "#a3a5f8",
+          "#231b18",
+          "#e3ff92"
+        ],
+        "text": [
+          "#000000"
+        ]
+      },
+      "buttons": [
+        {
+          "label": "try it free",
+          "bg": "#e3ff92",
+          "color": "#000000",
+          "radius": "50px",
+          "height": 38,
+          "paddingX": 40,
+          "font": "ABCDiatype",
+          "size": 12,
+          "weight": "400"
+        }
+      ],
+      "contentWidth": 1440
     }
   },
   {
@@ -60186,6 +60673,102 @@
     }
   },
   {
+    "id": "sunrise-robotics-landing",
+    "site": "Sunrise Robotics",
+    "url": "https://sunriserobotics.co",
+    "type": "landing",
+    "tags": [
+      "dark-to-coral",
+      "line-texture",
+      "large-statement",
+      "colour-block",
+      "robotics"
+    ],
+    "note": "A black hero fading into fine horizontal lines, then a full coral block with the mission in large light type. Robotics presented with two colours and one texture, no robot.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/sunrise-robotics-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/sunrise-robotics-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Sunrise Robotics - Intelligent robotics transforming manufacturing.",
+      "fonts": [
+        "Universal Sans Display"
+      ],
+      "type": {
+        "h1": {
+          "font": "Universal Sans Display",
+          "size": 58,
+          "weight": "400",
+          "lineHeight": 1.05,
+          "letterSpacing": "normal",
+          "color": "rgb(229, 229, 223)"
+        },
+        "h2": {
+          "font": "Universal Sans Display",
+          "size": 36,
+          "weight": "400",
+          "lineHeight": 1.08,
+          "letterSpacing": "normal",
+          "color": "rgb(25, 25, 19)"
+        },
+        "h3": {
+          "font": "Universal Sans Display",
+          "size": 20,
+          "weight": "400",
+          "lineHeight": 1.2,
+          "letterSpacing": "normal",
+          "color": "rgb(14, 14, 8)"
+        },
+        "body": {
+          "font": "Universal Sans Display",
+          "size": 16,
+          "weight": "400",
+          "lineHeight": 1.19,
+          "letterSpacing": "0.048px",
+          "color": "rgb(14, 14, 8)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#e5e5df",
+          "#fa6147",
+          "#ffffff",
+          "#0e0e08"
+        ],
+        "text": [
+          "#e5e5df",
+          "#191913",
+          "#fa6147",
+          "#0e0e08"
+        ]
+      },
+      "buttons": [
+        {
+          "label": "Read more",
+          "bg": "#fa6147",
+          "color": "#e5e5df",
+          "radius": "9999px",
+          "height": 42,
+          "paddingX": 20,
+          "font": "Universal Sans Display",
+          "size": 20,
+          "weight": "400"
+        }
+      ],
+      "contentWidth": 1520
+    }
+  },
+  {
     "id": "sunsama-landing",
     "site": "Sunsama",
     "url": "https://www.sunsama.com",
@@ -63757,6 +64340,112 @@
         }
       ],
       "contentWidth": 1440
+    }
+  },
+  {
+    "id": "titan-landing",
+    "site": "Titan",
+    "url": "https://www.titan.com",
+    "type": "landing",
+    "tags": [
+      "dark-to-cream",
+      "giant-serif-wordmark",
+      "overhead-office-photo",
+      "stats-row",
+      "finance"
+    ],
+    "note": "The name in a huge serif over an overhead photo of people working, then plain stats on cream (.2 Billion, 10,000+, SEC, 2017). A wealth manager for tech workers shows the office and four facts.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/titan-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/titan-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Titan | Wealth Management for Tech Professionals",
+      "fonts": [
+        "neueMontreal"
+      ],
+      "type": {
+        "h1": {
+          "font": "neueMontreal",
+          "size": 24,
+          "weight": "400",
+          "lineHeight": 1.25,
+          "letterSpacing": "normal",
+          "color": "rgb(253, 254, 250)"
+        },
+        "h2": {
+          "font": "neueMontreal",
+          "size": 24,
+          "weight": "400",
+          "lineHeight": 1.25,
+          "letterSpacing": "normal",
+          "color": "rgb(18, 16, 14)"
+        },
+        "h3": {
+          "font": "neueMontreal",
+          "size": 20,
+          "weight": "400",
+          "lineHeight": 1.38,
+          "letterSpacing": "normal",
+          "color": "rgb(89, 87, 85)"
+        },
+        "body": {
+          "font": "neueMontreal",
+          "size": 12,
+          "weight": "400",
+          "lineHeight": 1.25,
+          "letterSpacing": "normal",
+          "color": "rgb(135, 135, 132)"
+        }
+      },
+      "colors": {
+        "background": "#fdfefa",
+        "surfaces": [
+          "#12100e",
+          "#fdfefa",
+          "#1d1b19"
+        ],
+        "text": [
+          "#12100e",
+          "#e2e2de",
+          "#878784",
+          "#fdfefa"
+        ]
+      },
+      "buttons": [
+        {
+          "label": "Get started",
+          "bg": "#fdfefa",
+          "color": null,
+          "radius": "3.35544e+07px",
+          "height": 52,
+          "paddingX": 24,
+          "font": "neueMontreal",
+          "size": 16,
+          "weight": "400"
+        },
+        {
+          "label": "Learn more",
+          "bg": "#1d1b19",
+          "color": "#f6f7f3",
+          "radius": "3.35544e+07px",
+          "height": 52,
+          "paddingX": 24,
+          "font": "neueMontreal",
+          "size": 16,
+          "weight": "400"
+        }
+      ],
+      "contentWidth": 1024
     }
   },
   {
@@ -68009,6 +68698,83 @@
         }
       ],
       "contentWidth": 1472
+    }
+  },
+  {
+    "id": "x-the-moonshot-company-landing",
+    "site": "X – The Moonshot Company",
+    "url": "https://x.company",
+    "type": "landing",
+    "tags": [
+      "dark",
+      "staircase-tile-grid",
+      "project-thumbnails",
+      "small-headline"
+    ],
+    "note": "A small intro line, then a staircase of square tiles, each a project (a self-driving car, a balloon, a robot arm) on its own colour. A lab shows its range as a growing grid, not a list.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/x-the-moonshot-company-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/x-the-moonshot-company-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Home - Google X",
+      "fonts": [
+        "Google Sans"
+      ],
+      "type": {
+        "h1": {
+          "font": "Google Sans",
+          "size": 40,
+          "weight": "500",
+          "lineHeight": 1.2,
+          "letterSpacing": "-1px",
+          "color": "rgb(250, 250, 250)"
+        },
+        "h2": {
+          "font": "Google Sans",
+          "size": 26,
+          "weight": "500",
+          "lineHeight": 1.77,
+          "letterSpacing": "-0.4px",
+          "color": "rgb(0, 0, 0)"
+        },
+        "h3": null,
+        "body": {
+          "font": "Google Sans",
+          "size": 24,
+          "weight": "400",
+          "lineHeight": 1.38,
+          "letterSpacing": "-0.4px",
+          "color": "rgb(172, 172, 172)"
+        }
+      },
+      "colors": {
+        "background": "#fafafa",
+        "surfaces": [
+          "#000000",
+          "#282c3d",
+          "#f0f0f0",
+          "#95edca",
+          "#5976f0"
+        ],
+        "text": [
+          "#fafafa",
+          "#000000",
+          "#acacac",
+          "#ffffff"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": null
     }
   },
   {

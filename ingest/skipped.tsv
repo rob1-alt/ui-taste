@@ -699,3 +699,48 @@ https://kiselevvv.xyz	only the hero renders
 https://www.wist.chat	generic
 https://www.xapobank.com	legal notice modal
 https://www.yihui.work	only partly renders
+https://neobi.it	broken (URLError) (prefilter)
+https://www.noshade.eu	bot wall (prefilter)
+https://limonoslo.no	redirects off-site (limon.no) (prefilter)
+https://moondeliverscakes.com	broken (http 525) (prefilter)
+https://mainfra.me	redirects off-site (mainframe.app) (prefilter)
+https://fortheloveofbread.com	broken (URLError) (prefilter)
+https://www.munropartners.com.au	redirects off-site (munropartners.com) (prefilter)
+https://www.withremark.com	redirects off-site (remark.ai) (prefilter)
+https://coolstuff.app	bot wall (cloudflare) (prefilter)
+https://www.bastardatype.com	blank capture
+https://convicts.nyc	blank capture
+https://physicsofbeauty.art	blank capture
+https://acctual.com	generic saas
+https://boringdice.app	only the hero renders
+https://www.careofchan.com	only the hero renders
+https://cntrl.site	security check inside the page
+https://creme.com	holding page
+https://cushion.so	generic saas
+https://www.davidfiz.com	bot wall
+https://www.gtheimagineers.com	only the hero renders
+https://grndwrk.studio	only partly renders
+https://fayemi.design	only partly renders
+http://www.jeanbedez.com	only the hero renders
+https://kyoso.com	generic dark saas
+https://newaesthetic.xyz	only the hero renders
+https://ogon.es	only the hero renders
+https://www.pimpinella.cooking	cursor blob covers the text
+https://pool.day	generic
+https://runway.com	promo banner, generic
+https://www.unevenobjects.com	only the hero renders
+https://www.valar.com	only partly renders
+https://adcker.com	blank capture
+https://her.melbourne	almost empty
+https://www.inselhombroich.de	almost empty
+https://michaelgatt.com	sound gate, black
+https://amourliquide.com	desktop only partly renders
+https://www.bonsound.com/en	generic tiles
+https://chiaraluzzana.com	sound gate, only the hero
+https://exactly.ai	generic
+https://www.gionatannese.com	only the hero renders
+https://www.osmo.supply	generic
+https://pipe.com	only the hero renders
+https://raworkshop.org	password page
+https://www.spotstravel.co	text stuck mid-fade
+https://waabi.ai	scroll animation leaves the page scattered
