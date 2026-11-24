@@ -9918,5 +9918,183 @@
    "serif-statement"
   ],
   "note": "A huge yellow hand-drawn wordmark over a glossy liquid surface with tiny figures sliding on it. A personal-care product made playful through scale."
+ },
+ {
+  "site": "Augen",
+  "type": "landing",
+  "url": "https://augen.pro",
+  "tags": [
+   "light",
+   "profile-portrait",
+   "white-space",
+   "pill-tags",
+   "wearable-ai"
+  ],
+  "note": "A soft profile portrait fading into white with 'Beyond Humanware' in small type and three pill tags. A wearable AI device sold through the person, not the hardware."
+ },
+ {
+  "site": "Calmaria",
+  "type": "landing",
+  "url": "https://calmaria.app",
+  "tags": [
+   "light",
+   "grey-and-black-sentence",
+   "gradient-sun-phones",
+   "breathing-app"
+  ],
+  "note": "A long sentence where the first clause is black and the rest fades to grey, then two phones each showing one gradient sun. A breathing app whose copy breathes out."
+ },
+ {
+  "site": "Color Selector",
+  "type": "landing",
+  "url": "https://www.color-selector.com",
+  "tags": [
+   "dark",
+   "vertical-colour-stripes",
+   "named-colours",
+   "list-index",
+   "tool"
+  ],
+  "note": "Vertical stripes of named colours (burnt orange, soft butter, uranus) run down the right of the hero, then the whole palette as a list of coloured rows. A colour tool whose layout is the colour list itself."
+ },
+ {
+  "site": "Config",
+  "type": "landing",
+  "url": "https://config.com",
+  "tags": [
+   "light",
+   "exploded-hardware-render",
+   "heavy-headline",
+   "blue-gradient-section",
+   "hardware-saas"
+  ],
+  "note": "An exploded render of a device (case, board, buttons) under a heavy headline, then a blue gradient section with the product. Software for hardware teams leads with the hardware."
+ },
+ {
+  "site": "Electronic Materials Office®",
+  "type": "landing",
+  "url": "https://electronicmaterialsoffice.com",
+  "tags": [
+   "dark",
+   "product-photography",
+   "red-accent",
+   "kickstarter",
+   "keyboard"
+  ],
+  "note": "A mechanical keyboard photographed in black with one red key, the name 'Altar II' in a serif, and a red Kickstarter strip. A small hardware maker shoots its object like a luxury watch."
+ },
+ {
+  "site": "Flow Computing",
+  "type": "landing",
+  "url": "https://flow-computing.com",
+  "tags": [
+   "light",
+   "white-3d-render",
+   "grey-headline-fade",
+   "chip",
+   "deep-tech"
+  ],
+  "note": "A white chip render on white, the headline's second sentence fading to grey. A CPU startup made calm and architectural, no neon."
+ },
+ {
+  "site": "Found color",
+  "type": "landing",
+  "url": "https://foundcolor.co",
+  "tags": [
+   "light",
+   "scattered-photos",
+   "outlined-type",
+   "colour-essay"
+  ],
+  "note": "Found colour photographs (blue doors, yellow walls) scattered on grey around an outlined title. A photo essay laid out like pinned prints."
+ },
+ {
+  "site": "I Miss the Office",
+  "type": "landing",
+  "url": "https://imisstheoffice.eu",
+  "tags": [
+   "peach",
+   "isometric-illustration",
+   "one-screen-toy",
+   "sound-toggle"
+  ],
+  "note": "One screen: an isometric office in line drawing with a few coloured objects and a colleague counter. A one-joke site that is the whole experience in a single view."
+ },
+ {
+  "site": "Materium",
+  "type": "landing",
+  "url": "http://materiumideas.com",
+  "tags": [
+   "pink",
+   "illustrated-chair-hero",
+   "furniture-photos",
+   "video-button"
+  ],
+  "note": "A flat pink illustration of a chair and window behind 'Say hello to materium!', then soft-lit furniture photos on white. A furniture brand starts with a drawing before the product."
+ },
+ {
+  "site": "Newcoin",
+  "type": "landing",
+  "url": "https://www.newcoin.org",
+  "tags": [
+   "light",
+   "research-paper-layout",
+   "world-map-drawing",
+   "multilingual-index",
+   "serif-free"
+  ],
+  "note": "The page reads like a paper: dense justified text, a small world map drawing and a multilingual index in the corner. A protocol presented as a thesis, not a token."
+ },
+ {
+  "site": "NIZO",
+  "type": "landing",
+  "url": "https://nizo.co",
+  "tags": [
+   "light",
+   "grid-lines",
+   "red-dot",
+   "film-studies",
+   "spec-table"
+  ],
+  "note": "Thin grid lines frame a spec table, one red dot as the record button, then each film made with the app as a 'Study' with its filmmaker. A camera app whose showcase is a numbered series of films."
+ },
+ {
+  "site": "Odyssey",
+  "type": "landing",
+  "url": "https://odyssey.systems",
+  "tags": [
+   "dark",
+   "robot-arms-photo",
+   "serif-display",
+   "globe-render",
+   "world-models"
+  ],
+  "note": "White robot arms reaching in the dark under a serif headline, then a chrome globe labelled 'World Model'. An AI lab mixes documentary hardware with one symbolic object."
+ },
+ {
+  "site": "Robin Capital",
+  "type": "landing",
+  "url": "https://robincap.com",
+  "tags": [
+   "dark",
+   "engraved-bird",
+   "serif-wordmark",
+   "red-ink",
+   "venture-fund"
+  ],
+  "note": "A red engraved robin on near-black beside a spaced serif wordmark, the about text in two serif columns. A one-person fund with the look of a private bookplate."
+ },
+ {
+  "site": "Specify Launch Week",
+  "type": "landing",
+  "url": "https://specifyapp.com/launchweek",
+  "tags": [
+   "dark",
+   "3d-icon-tiles",
+   "timeline",
+   "launch-week",
+   "event-state"
+  ],
+  "note": "Glowing 3D icon tiles across the top, then each day's launch on a vertical timeline with its own icon. A launch week page that stays as the record once the week is over."
  }
 ]

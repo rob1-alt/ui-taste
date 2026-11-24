@@ -15032,6 +15032,89 @@
     }
   },
   {
+    "id": "augen-landing",
+    "site": "Augen",
+    "url": "https://augen.pro",
+    "type": "landing",
+    "tags": [
+      "light",
+      "profile-portrait",
+      "white-space",
+      "pill-tags",
+      "wearable-ai"
+    ],
+    "note": "A soft profile portrait fading into white with 'Beyond Humanware' in small type and three pill tags. A wearable AI device sold through the person, not the hardware.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/augen-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/augen-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Augen Pro",
+      "fonts": [
+        "PP Neue Montreal"
+      ],
+      "type": {
+        "h1": {
+          "font": "PP Neue Montreal",
+          "size": 27,
+          "weight": "350",
+          "lineHeight": 1.2,
+          "letterSpacing": "-0.54px",
+          "color": "rgb(15, 16, 18)"
+        },
+        "h2": {
+          "font": "PP Neue Montreal",
+          "size": 14,
+          "weight": "350",
+          "lineHeight": 1.2,
+          "letterSpacing": "-0.28px",
+          "color": "rgb(15, 16, 18)"
+        },
+        "h3": {
+          "font": "PP Neue Montreal",
+          "size": 16,
+          "weight": "350",
+          "lineHeight": 1.2,
+          "letterSpacing": "-0.32px",
+          "color": "rgb(242, 242, 244)"
+        },
+        "body": {
+          "font": "PP Neue Montreal",
+          "size": 27,
+          "weight": "350",
+          "lineHeight": 1.2,
+          "letterSpacing": "-0.54px",
+          "color": "rgb(15, 16, 18)"
+        }
+      },
+      "colors": {
+        "background": "#efefef",
+        "surfaces": [
+          "#0f1012",
+          "#fdfdfd",
+          "#efefef",
+          "#1d1e20"
+        ],
+        "text": [
+          "#0f1012",
+          "#0071e3",
+          "#f2f2f4"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": 808
+    }
+  },
+  {
     "id": "augment-code-landing",
     "site": "Augment Code",
     "url": "https://www.augmentcode.com",
@@ -18537,6 +18620,102 @@
     }
   },
   {
+    "id": "calmaria-landing",
+    "site": "Calmaria",
+    "url": "https://calmaria.app",
+    "type": "landing",
+    "tags": [
+      "light",
+      "grey-and-black-sentence",
+      "gradient-sun-phones",
+      "breathing-app"
+    ],
+    "note": "A long sentence where the first clause is black and the rest fades to grey, then two phones each showing one gradient sun. A breathing app whose copy breathes out.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/calmaria-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/calmaria-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Calmaria — a quiet place to breathe",
+      "fonts": [
+        "SF Pro Display"
+      ],
+      "type": {
+        "h1": {
+          "font": "SF Pro Display",
+          "size": 68,
+          "weight": "500",
+          "lineHeight": 1.07,
+          "letterSpacing": "-2.04px",
+          "color": "rgba(17, 17, 17, 0.28)"
+        },
+        "h2": {
+          "font": "SF Pro Display",
+          "size": 44,
+          "weight": "500",
+          "lineHeight": 1.12,
+          "letterSpacing": "-1.1px",
+          "color": "rgba(17, 17, 17, 0.28)"
+        },
+        "h3": null,
+        "body": {
+          "font": "SF Pro Display",
+          "size": 20,
+          "weight": "500",
+          "lineHeight": 1.38,
+          "letterSpacing": "-0.2px",
+          "color": "rgba(17, 17, 17, 0.5)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#0e0e10",
+          "#ffffff",
+          "#111111"
+        ],
+        "text": [
+          "#111111",
+          "#ffffff"
+        ]
+      },
+      "buttons": [
+        {
+          "label": "Start breathing now",
+          "bg": "#111111",
+          "color": "#ffffff",
+          "radius": "999px",
+          "height": 38,
+          "paddingX": 18,
+          "font": "SF Pro Display",
+          "size": 16,
+          "weight": "500"
+        },
+        {
+          "label": "Download for iOS",
+          "bg": "#111111",
+          "color": "#ffffff",
+          "radius": "22px",
+          "height": 48,
+          "paddingX": 22,
+          "font": "SF Pro Display",
+          "size": 18,
+          "weight": "500"
+        }
+      ],
+      "contentWidth": 980
+    }
+  },
+  {
     "id": "capacities-landing",
     "site": "Capacities",
     "url": "https://capacities.io",
@@ -20759,6 +20938,104 @@
     }
   },
   {
+    "id": "color-selector-landing",
+    "site": "Color Selector",
+    "url": "https://www.color-selector.com",
+    "type": "landing",
+    "tags": [
+      "dark",
+      "vertical-colour-stripes",
+      "named-colours",
+      "list-index",
+      "tool"
+    ],
+    "note": "Vertical stripes of named colours (burnt orange, soft butter, uranus) run down the right of the hero, then the whole palette as a list of coloured rows. A colour tool whose layout is the colour list itself.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/color-selector-landing-desktop.jpg",
+        "width": 1440,
+        "height": 900
+      },
+      "mobile": {
+        "file": "screens/color-selector-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Color Selector",
+      "fonts": [
+        "Titling Gothic FB Nrm Reg",
+        "Titling Gothic FB Wd Med",
+        "Titling Gothic FB Nrm Med"
+      ],
+      "type": {
+        "h1": {
+          "font": "Titling Gothic FB Wd Med",
+          "size": 68,
+          "weight": "500",
+          "lineHeight": 0.97,
+          "letterSpacing": "-3.4px",
+          "color": "rgb(245, 245, 233)"
+        },
+        "h2": {
+          "font": "Titling Gothic FB Wd Med",
+          "size": 32,
+          "weight": "500",
+          "lineHeight": 1.25,
+          "letterSpacing": "1.6px",
+          "color": "rgb(255, 255, 255)"
+        },
+        "h3": {
+          "font": "Titling Gothic FB Wd Med",
+          "size": 12,
+          "weight": "500",
+          "lineHeight": 1,
+          "letterSpacing": "1px",
+          "color": "rgb(255, 255, 255)"
+        },
+        "body": {
+          "font": "Titling Gothic FB Nrm Reg",
+          "size": 14,
+          "weight": "400",
+          "lineHeight": 1.29,
+          "letterSpacing": "0.5px",
+          "color": "rgb(255, 255, 255)"
+        }
+      },
+      "colors": {
+        "background": "#262727",
+        "surfaces": [
+          "#b6acc4",
+          "#ead29a",
+          "#c77440",
+          "#bedbd8",
+          "#72bdbb"
+        ],
+        "text": [
+          "#ffffff",
+          "#000000",
+          "#262727"
+        ]
+      },
+      "buttons": [
+        {
+          "label": "Sign up !",
+          "bg": "#ffffff",
+          "color": "#262727",
+          "radius": "6px",
+          "height": 34,
+          "paddingX": 20,
+          "font": "Titling Gothic FB Nrm Reg",
+          "size": 14,
+          "weight": "400"
+        }
+      ],
+      "contentWidth": 880
+    }
+  },
+  {
     "id": "commercial-type-landing",
     "site": "Commercial Type",
     "url": "https://commercialtype.com",
@@ -20973,6 +21250,91 @@
       },
       "buttons": [],
       "contentWidth": 900
+    }
+  },
+  {
+    "id": "config-landing",
+    "site": "Config",
+    "url": "https://config.com",
+    "type": "landing",
+    "tags": [
+      "light",
+      "exploded-hardware-render",
+      "heavy-headline",
+      "blue-gradient-section",
+      "hardware-saas"
+    ],
+    "note": "An exploded render of a device (case, board, buttons) under a heavy headline, then a blue gradient section with the product. Software for hardware teams leads with the hardware.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/config-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/config-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Config – Superpowers for Hardware Teams",
+      "fonts": [
+        "Inter var"
+      ],
+      "type": {
+        "h1": {
+          "font": "Inter var",
+          "size": 88,
+          "weight": "700",
+          "lineHeight": 0.93,
+          "letterSpacing": "-4.4px",
+          "color": "rgb(20, 20, 32)"
+        },
+        "h2": {
+          "font": "Inter var",
+          "size": 64,
+          "weight": "700",
+          "lineHeight": 1,
+          "letterSpacing": "-3.2px",
+          "color": "rgb(255, 255, 255)"
+        },
+        "h3": null,
+        "body": {
+          "font": "Inter var",
+          "size": 18,
+          "weight": "400",
+          "lineHeight": 1.78,
+          "letterSpacing": "normal",
+          "color": "rgba(20, 20, 32, 0.6)"
+        }
+      },
+      "colors": {
+        "background": "#fafafb",
+        "surfaces": [
+          "#2f80ed",
+          "#fafafb"
+        ],
+        "text": [
+          "#141420",
+          "#ffffff"
+        ]
+      },
+      "buttons": [
+        {
+          "label": "Get started",
+          "bg": "#2f80ed",
+          "color": "#ffffff",
+          "radius": "10px",
+          "height": 42,
+          "paddingX": 20,
+          "font": "Inter var",
+          "size": 16,
+          "weight": "500"
+        }
+      ],
+      "contentWidth": 1440
     }
   },
   {
@@ -25334,6 +25696,84 @@
     }
   },
   {
+    "id": "electronic-materials-office-landing",
+    "site": "Electronic Materials Office®",
+    "url": "https://electronicmaterialsoffice.com",
+    "type": "landing",
+    "tags": [
+      "dark",
+      "product-photography",
+      "red-accent",
+      "kickstarter",
+      "keyboard"
+    ],
+    "note": "A mechanical keyboard photographed in black with one red key, the name 'Altar II' in a serif, and a red Kickstarter strip. A small hardware maker shoots its object like a luxury watch.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/electronic-materials-office-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/electronic-materials-office-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Altar II - EMO®",
+      "fonts": [
+        "GT Flexa Text",
+        "GT Flexa Mono",
+        "GT Flexa"
+      ],
+      "type": {
+        "h1": {
+          "font": "Tobias-Web",
+          "size": 83,
+          "weight": "300",
+          "lineHeight": 0.8,
+          "letterSpacing": "-6px",
+          "color": "color(display-p3 1 1 1)"
+        },
+        "h2": {
+          "font": "GT Flexa",
+          "size": 65,
+          "weight": "400",
+          "lineHeight": 0.98,
+          "letterSpacing": "-4px",
+          "color": "color(display-p3 1 1 1)"
+        },
+        "h3": {
+          "font": "GT Flexa",
+          "size": 64,
+          "weight": "400",
+          "lineHeight": 1.2,
+          "letterSpacing": "-6.4px",
+          "color": "color(display-p3 1 1 1)"
+        },
+        "body": {
+          "font": "GT Flexa Text",
+          "size": 30,
+          "weight": "400",
+          "lineHeight": 1.2,
+          "letterSpacing": "normal",
+          "color": "color(display-p3 0.427 0.427 0.427)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#1b1b1b"
+        ],
+        "text": []
+      },
+      "buttons": [],
+      "contentWidth": null
+    }
+  },
+  {
     "id": "elektron-landing",
     "site": "Elektron",
     "url": "https://www.elektron.se",
@@ -28830,6 +29270,90 @@
     }
   },
   {
+    "id": "flow-computing-landing",
+    "site": "Flow Computing",
+    "url": "https://flow-computing.com",
+    "type": "landing",
+    "tags": [
+      "light",
+      "white-3d-render",
+      "grey-headline-fade",
+      "chip",
+      "deep-tech"
+    ],
+    "note": "A white chip render on white, the headline's second sentence fading to grey. A CPU startup made calm and architectural, no neon.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/flow-computing-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/flow-computing-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Flow Computing is the enabler of next generation SuperCPUs | Flow",
+      "fonts": [
+        "regular",
+        "bold",
+        "sans-ul"
+      ],
+      "type": {
+        "h1": {
+          "font": "regular",
+          "size": 90,
+          "weight": "400",
+          "lineHeight": 0.95,
+          "letterSpacing": "-5%",
+          "color": "rgb(133, 133, 133)"
+        },
+        "h2": {
+          "font": "regular",
+          "size": 50,
+          "weight": "400",
+          "lineHeight": 0.95,
+          "letterSpacing": "-2.5px",
+          "color": "rgb(79, 79, 79)"
+        },
+        "h3": {
+          "font": "bold",
+          "size": 16,
+          "weight": "400",
+          "lineHeight": 1.25,
+          "letterSpacing": "-0.8px",
+          "color": "rgb(0, 0, 0)"
+        },
+        "body": {
+          "font": "regular",
+          "size": 16,
+          "weight": "400",
+          "lineHeight": 1.25,
+          "letterSpacing": "normal",
+          "color": "rgb(79, 79, 79)"
+        }
+      },
+      "colors": {
+        "background": "#f4f4f4",
+        "surfaces": [
+          "#ffffff",
+          "#000000"
+        ],
+        "text": [
+          "#ffffff",
+          "#858585",
+          "#4f4f4f",
+          "#000000"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": null
+    }
+  },
+  {
     "id": "fly-by-jing-landing",
     "site": "Fly by Jing",
     "url": "https://flybyjing.com",
@@ -29296,6 +29820,53 @@
       },
       "buttons": [],
       "contentWidth": 1180
+    }
+  },
+  {
+    "id": "found-color-landing",
+    "site": "Found color",
+    "url": "https://foundcolor.co",
+    "type": "landing",
+    "tags": [
+      "light",
+      "scattered-photos",
+      "outlined-type",
+      "colour-essay"
+    ],
+    "note": "Found colour photographs (blue doors, yellow walls) scattered on grey around an outlined title. A photo essay laid out like pinned prints.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/found-color-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/found-color-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "FOUND COLOR schemes for web and UI",
+      "fonts": [
+        "Surt Light"
+      ],
+      "type": {
+        "h1": null,
+        "h2": null,
+        "h3": null,
+        "body": null
+      },
+      "colors": {
+        "background": "#e9eaeb",
+        "surfaces": [],
+        "text": [
+          "#000000"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": null
     }
   },
   {
@@ -35243,6 +35814,54 @@
           "weight": "500"
         }
       ],
+      "contentWidth": null
+    }
+  },
+  {
+    "id": "i-miss-the-office-landing",
+    "site": "I Miss the Office",
+    "url": "https://imisstheoffice.eu",
+    "type": "landing",
+    "tags": [
+      "peach",
+      "isometric-illustration",
+      "one-screen-toy",
+      "sound-toggle"
+    ],
+    "note": "One screen: an isometric office in line drawing with a few coloured objects and a colleague counter. A one-joke site that is the whole experience in a single view.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/i-miss-the-office-landing-desktop.jpg",
+        "width": 1440,
+        "height": 900
+      },
+      "mobile": {
+        "file": "screens/i-miss-the-office-landing-mobile.jpg",
+        "width": 390,
+        "height": 844
+      }
+    },
+    "tokens": {
+      "title": "Reichenbergerstr 121",
+      "fonts": [
+        "-apple-system"
+      ],
+      "type": {
+        "h1": null,
+        "h2": null,
+        "h3": null,
+        "body": null
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [],
+        "text": [
+          "#212529",
+          "#000000"
+        ]
+      },
+      "buttons": [],
       "contentWidth": null
     }
   },
@@ -42269,6 +42888,78 @@
     }
   },
   {
+    "id": "materium-landing",
+    "site": "Materium",
+    "url": "http://materiumideas.com",
+    "type": "landing",
+    "tags": [
+      "pink",
+      "illustrated-chair-hero",
+      "furniture-photos",
+      "video-button"
+    ],
+    "note": "A flat pink illustration of a chair and window behind 'Say hello to materium!', then soft-lit furniture photos on white. A furniture brand starts with a drawing before the product.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/materium-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/materium-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Materium – Work, Live, and the In-Between",
+      "fonts": [
+        "Niveau Grotesk",
+        "Univers CE"
+      ],
+      "type": {
+        "h1": {
+          "font": "Univers CE",
+          "size": 40,
+          "weight": "700",
+          "lineHeight": "normal",
+          "letterSpacing": "normal",
+          "color": "rgb(255, 255, 255)"
+        },
+        "h2": {
+          "font": "Niveau Grotesk",
+          "size": 80,
+          "weight": "700",
+          "lineHeight": 1,
+          "letterSpacing": "normal",
+          "color": "rgb(255, 255, 255)"
+        },
+        "h3": null,
+        "body": {
+          "font": "Univers CE",
+          "size": 20,
+          "weight": "400",
+          "lineHeight": 1.5,
+          "letterSpacing": "normal",
+          "color": "rgb(255, 255, 255)"
+        }
+      },
+      "colors": {
+        "background": "#f5f5f5",
+        "surfaces": [
+          "#ccb8ab"
+        ],
+        "text": [
+          "#ffffff",
+          "#262527"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": null
+    }
+  },
+  {
     "id": "maze-landing",
     "site": "Maze",
     "url": "https://maze.co",
@@ -45635,6 +46326,78 @@
     }
   },
   {
+    "id": "newcoin-landing",
+    "site": "Newcoin",
+    "url": "https://www.newcoin.org",
+    "type": "landing",
+    "tags": [
+      "light",
+      "research-paper-layout",
+      "world-map-drawing",
+      "multilingual-index",
+      "serif-free"
+    ],
+    "note": "The page reads like a paper: dense justified text, a small world map drawing and a multilingual index in the corner. A protocol presented as a thesis, not a token.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/newcoin-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/newcoin-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Newcoin | Newcoin",
+      "fonts": [
+        "Newfoundation Whyte"
+      ],
+      "type": {
+        "h1": {
+          "font": "Newfoundation Whyte",
+          "size": 21,
+          "weight": "300",
+          "lineHeight": 1.2,
+          "letterSpacing": "-0.42336px",
+          "color": "rgb(255, 255, 255)"
+        },
+        "h2": {
+          "font": "Newfoundation Whyte",
+          "size": 60,
+          "weight": "300",
+          "lineHeight": 1.05,
+          "letterSpacing": "-2.4192px",
+          "color": "rgb(0, 0, 0)"
+        },
+        "h3": null,
+        "body": {
+          "font": "Newfoundation Whyte",
+          "size": 17,
+          "weight": "300",
+          "lineHeight": 1.35,
+          "letterSpacing": "-0.112px",
+          "color": "rgb(0, 0, 0)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#000000"
+        ],
+        "text": [
+          "#000000",
+          "#ffffff"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": null
+    }
+  },
+  {
     "id": "niklas-ros-n-landing",
     "site": "Niklas Rosén",
     "url": "https://www.niklasrosen.se",
@@ -45778,6 +46541,88 @@
       },
       "buttons": [],
       "contentWidth": null
+    }
+  },
+  {
+    "id": "nizo-landing",
+    "site": "NIZO",
+    "url": "https://nizo.co",
+    "type": "landing",
+    "tags": [
+      "light",
+      "grid-lines",
+      "red-dot",
+      "film-studies",
+      "spec-table"
+    ],
+    "note": "Thin grid lines frame a spec table, one red dot as the record button, then each film made with the app as a 'Study' with its filmmaker. A camera app whose showcase is a numbered series of films.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/nizo-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/nizo-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Jonas Lindström – Study 01 • NIZO",
+      "fonts": [
+        "GT-Walsheim-Regular",
+        "GT-Walsheim-Medium",
+        "GT-Walsheim-Bold"
+      ],
+      "type": {
+        "h1": {
+          "font": "GT-Walsheim-Regular",
+          "size": 15,
+          "weight": "400",
+          "lineHeight": 1,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        },
+        "h2": {
+          "font": "GT-Walsheim-Medium",
+          "size": 45,
+          "weight": "400",
+          "lineHeight": 1,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        },
+        "h3": {
+          "font": "GT-Walsheim-Regular",
+          "size": 19,
+          "weight": "400",
+          "lineHeight": "normal",
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        },
+        "body": {
+          "font": "GT-Walsheim-Regular",
+          "size": 20,
+          "weight": "400",
+          "lineHeight": 1.25,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#000000",
+          "#fe443a"
+        ],
+        "text": [
+          "#000000",
+          "#fe443a"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": 1350
     }
   },
   {
@@ -46707,6 +47552,71 @@
         }
       ],
       "contentWidth": 672
+    }
+  },
+  {
+    "id": "odyssey-landing",
+    "site": "Odyssey",
+    "url": "https://odyssey.systems",
+    "type": "landing",
+    "tags": [
+      "dark",
+      "robot-arms-photo",
+      "serif-display",
+      "globe-render",
+      "world-models"
+    ],
+    "note": "White robot arms reaching in the dark under a serif headline, then a chrome globe labelled 'World Model'. An AI lab mixes documentary hardware with one symbolic object.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/odyssey-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/odyssey-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Odyssey",
+      "fonts": [
+        "NeueBit Bold",
+        "Geist",
+        "sans-serif"
+      ],
+      "type": {
+        "h1": null,
+        "h2": null,
+        "h3": null,
+        "body": {
+          "font": "Geist",
+          "size": 14,
+          "weight": "400",
+          "lineHeight": 1.2,
+          "letterSpacing": "normal",
+          "color": "rgba(232, 239, 234, 0.5)"
+        }
+      },
+      "colors": {
+        "background": "#090909",
+        "surfaces": [
+          "#090909",
+          "#ffffff",
+          "#0054ff",
+          "#e8efea"
+        ],
+        "text": [
+          "#e8efea",
+          "#0054ff",
+          "#ffffff",
+          "#090909"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": 1200
     }
   },
   {
@@ -56282,6 +57192,82 @@
     }
   },
   {
+    "id": "robin-capital-landing",
+    "site": "Robin Capital",
+    "url": "https://robincap.com",
+    "type": "landing",
+    "tags": [
+      "dark",
+      "engraved-bird",
+      "serif-wordmark",
+      "red-ink",
+      "venture-fund"
+    ],
+    "note": "A red engraved robin on near-black beside a spaced serif wordmark, the about text in two serif columns. A one-person fund with the look of a private bookplate.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/robin-capital-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/robin-capital-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Robin Capital",
+      "fonts": [
+        "Futura PT Book",
+        "sans-serif",
+        "Ivy Mode Light"
+      ],
+      "type": {
+        "h1": {
+          "font": "Ivy Mode Light",
+          "size": 55,
+          "weight": "400",
+          "lineHeight": 1.2,
+          "letterSpacing": "6.6px",
+          "color": "rgb(255, 255, 255)"
+        },
+        "h2": {
+          "font": "Ivy Mode Light",
+          "size": 40,
+          "weight": "400",
+          "lineHeight": 1.2,
+          "letterSpacing": "3.2px",
+          "color": "rgb(255, 255, 255)"
+        },
+        "h3": null,
+        "body": {
+          "font": "Futura LT Pro Book",
+          "size": 16,
+          "weight": "400",
+          "lineHeight": 1,
+          "letterSpacing": "2.56px",
+          "color": "rgb(255, 255, 255)"
+        }
+      },
+      "colors": {
+        "background": "#000000",
+        "surfaces": [
+          "#000000",
+          "#ffffff",
+          "#cc194a"
+        ],
+        "text": [
+          "#ffffff",
+          "#cc194a"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": 1100
+    }
+  },
+  {
     "id": "robin-sloan-landing",
     "site": "Robin Sloan",
     "url": "https://www.robinsloan.com",
@@ -60250,6 +61236,150 @@
         }
       ],
       "contentWidth": 1400
+    }
+  },
+  {
+    "id": "specify-launch-week-landing",
+    "site": "Specify Launch Week",
+    "url": "https://specifyapp.com/launchweek",
+    "type": "landing",
+    "tags": [
+      "dark",
+      "3d-icon-tiles",
+      "timeline",
+      "launch-week",
+      "event-state"
+    ],
+    "note": "Glowing 3D icon tiles across the top, then each day's launch on a vertical timeline with its own icon. A launch week page that stays as the record once the week is over.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/specify-launch-week-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3192
+      },
+      "mobile": {
+        "file": "screens/specify-launch-week-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Specify Launch Week",
+      "fonts": [
+        "Inter",
+        "sans-serif",
+        "Inter-Medium"
+      ],
+      "type": {
+        "h1": {
+          "font": "Inter-Bold",
+          "size": 56,
+          "weight": "700",
+          "lineHeight": 1.14,
+          "letterSpacing": "-1px",
+          "color": "rgb(255, 255, 255)"
+        },
+        "h2": {
+          "font": "Inter-Bold",
+          "size": 48,
+          "weight": "700",
+          "lineHeight": 1.17,
+          "letterSpacing": "-1px",
+          "color": "rgb(255, 255, 255)"
+        },
+        "h3": null,
+        "body": {
+          "font": "Inter-Medium",
+          "size": 14,
+          "weight": "500",
+          "lineHeight": 1.71,
+          "letterSpacing": "normal",
+          "color": "rgb(255, 255, 255)"
+        }
+      },
+      "colors": {
+        "background": "#151718",
+        "surfaces": [
+          "#151718",
+          "#202425",
+          "#2b2f31",
+          "#624de3"
+        ],
+        "text": [
+          "#ffffff",
+          "#8673fd"
+        ]
+      },
+      "buttons": [
+        {
+          "label": "Sign in",
+          "bg": "#151718",
+          "color": "#0000ee",
+          "radius": "8px",
+          "height": 32,
+          "paddingX": 16,
+          "font": "sans-serif",
+          "size": 12,
+          "weight": "400"
+        },
+        {
+          "label": "Book a demo",
+          "bg": "#624de3",
+          "color": "#000000",
+          "radius": "8px",
+          "height": 32,
+          "paddingX": 16,
+          "font": "sans-serif",
+          "size": 12,
+          "weight": "400"
+        },
+        {
+          "label": "Follow Specify on Twitter",
+          "bg": "#151718",
+          "color": "#0000ee",
+          "radius": "8px",
+          "height": 48,
+          "paddingX": 16,
+          "font": "sans-serif",
+          "size": 12,
+          "weight": "400"
+        },
+        {
+          "label": "Read announcement",
+          "bg": "#151718",
+          "color": "#0000ee",
+          "radius": "8px",
+          "height": 44,
+          "paddingX": 16,
+          "font": "sans-serif",
+          "size": 12,
+          "weight": "400"
+        },
+        {
+          "label": "Learn more",
+          "bg": "#202425",
+          "color": "#0000ee",
+          "radius": "8px",
+          "height": 44,
+          "paddingX": 16,
+          "font": "sans-serif",
+          "size": 12,
+          "weight": "400"
+        },
+        {
+          "label": "Join the launch",
+          "bg": "#151718",
+          "color": "#0000ee",
+          "radius": "8px",
+          "height": 44,
+          "paddingX": 16,
+          "font": "sans-serif",
+          "size": 12,
+          "weight": "400"
+        }
+      ],
+      "contentWidth": 1440
     }
   },
   {
