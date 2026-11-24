@@ -109,6 +109,8 @@ The sample words are copy, not filler. Displaay sets "Extra chewy!" and "Post In
 
 Take: write the specimen text for the face's use and mood, never a pangram, and choose the hero word for its letterforms.
 
+A single typeface can be sold through a story instead of a grid: PP Neue Montreal is written as an "Official Travel Guide" to the city it is named after, with postcards, street photos and mixed-colour italic lines ("Out with the old, in with the Neue"), and the weights list only arrives under the story.
+
 ## 15. Content-led sites lead with the content
 
 Museums, magazines, publishers and studios in the library (Whitney, Tate, Cooper Hewitt, Walker, The Pudding, Rest of World, Works in Progress, Apartamento, Supergiant, Annapurna) put the thing itself first: the artwork, the essay's own chart, the cover, the game's key art. The identity lives in two or three strong moves around it (a wordmark, one colour for UI chrome, a type treatment) and never competes with the content.
@@ -122,6 +124,8 @@ Catalogues and galleries follow the same rule. Heroicons puts the search field a
 The aerospace, energy and chip companies in the library (SpaceX, Relativity, Hermeus, Stoke, K2, Oklo, Extropic, Span) never draw their product. They photograph it: a rocket stage on a crane with workers below, an engine test, a macro of a chip surface, a reactor building at night. The type is either tiny inside the photograph (Hermeus) or as loud as the machine (Stoke), never in between.
 
 Take: for hard tech, the documentary photograph of the real object is the brand. Decide the type's role against it: a caption, or a shout.
+
+Three variants from the curated galleries: Normal Computing pairs nature texture (dark sea, desert sand) with its red ASIC board shot on white, and the same red marks the key words of the text; Tequs lights its heat pump in a black void like a monolith, the way a luxury brand shoots a bag; Enode shows an EV charging under a forest carport with two tiny live labels pinned on the photo (charging, 11.2 kW), so the software appears only as annotations on the real home it controls.
 
 ## 17. Luxury is space and the object, not ornament
 

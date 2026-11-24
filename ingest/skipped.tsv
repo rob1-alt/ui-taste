@@ -530,3 +530,32 @@ https://atom.finance	broken (http 404) (prefilter)
 https://allagi.music	redirects off-site (allagi.webflow.io) (prefilter)
 https://www.kometatype.com	bot wall (prefilter)
 https://www.flowlife.com	sale takeover (prefilter)
+http://protipmarketing.com/en	bot wall (cloudflare) (prefilter)
+https://oracal.world	broken (http 404) (prefilter)
+https://www.sellx.com	broken (URLError) (prefilter)
+https://www.gardenintel.com	broken (URLError) (prefilter)
+https://thebanshies.com/fr	redirects off-site (thebanxhies.com) (prefilter)
+https://trulytype.com	blank capture
+https://ardor.cloud/retro-computer	bot wall on desktop
+https://cozyjournal.app	black friday banner, recapture after sale
+https://causal.so	generic ai canvas hero
+https://www.danielvignal.com	generic photo grid portfolio
+https://www.diffusion.studio	generic dark dev tool
+https://gettakecontrol.app/en	generic app hero
+https://milkinside.com	webgl, only the hero renders
+https://www.riseplasma.com	webgl, only the hero renders
+https://shop.robinhood.com	only the hero renders
+https://kommakomma.is	studio pattern already covered
+https://www.semiconbio.com	news popup over hero
+https://bobbi.space	generic text cv
+https://www.cantor8.io	generic
+https://celticseasalt.com	spin-to-win modal
+https://giolabs.lu	seasonal promo hero
+https://ordernchaos.aiziza.com	only the hero renders
+https://www.originalsin.co	generic commerce grid
+https://www.sonderdays.com	generic directory
+https://spek.app	generic saas
+https://www.thebrinkagency.com	generic
+https://www.dailydispatch.app	only the hero renders
+https://www.untillabs.com	only the hero renders
+https://screentune.app	capture failed

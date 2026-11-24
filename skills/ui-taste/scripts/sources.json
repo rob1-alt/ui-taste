@@ -8400,5 +8400,311 @@
    "chrome-recedes"
   ],
   "note": "Black chrome, small type and filter pills, then a three-column grid of colourful site thumbnails. A gallery stays dark and quiet so the work it collects carries all the colour."
+ },
+ {
+  "site": "A Journal on How to Wow People",
+  "type": "landing",
+  "url": "https://www.ajournalon.co",
+  "tags": [
+   "dark",
+   "object-photo",
+   "serif-statement",
+   "centered-serif-paragraph",
+   "magazine"
+  ],
+  "note": "A black page with the printed issue photographed mid-flip, then one centred serif paragraph that says what the magazine is. A print publication sells the object and its voice, nothing else."
+ },
+ {
+  "site": "Buena Dev",
+  "type": "landing",
+  "url": "https://buena.com/dev",
+  "tags": [
+   "light",
+   "code-background",
+   "monospace",
+   "hex-dump-hero",
+   "quiet-wordmark"
+  ],
+  "note": "The hero is a hex dump in grey mono with the line 'Technology real estate runs on.' set beside it, as quiet as the data. An engineering page for a proptech shows the raw bytes instead of a dashboard."
+ },
+ {
+  "site": "Enode",
+  "type": "landing",
+  "url": "https://enode.com",
+  "tags": [
+   "light",
+   "pale-green",
+   "documentary-photo",
+   "product-in-situ",
+   "logo-grid",
+   "dot-grid"
+  ],
+  "note": "An EV charging under a carport in a forest, with tiny live labels (charging, 11.2 kW) pinned on the photo. Energy software shown as the real home it controls, the UI reduced to two annotations."
+ },
+ {
+  "site": "Furniture Connect",
+  "type": "landing",
+  "url": "https://www.furnitureconnect.com",
+  "tags": [
+   "light",
+   "condensed-caps-headline",
+   "3d-object-tiles",
+   "colour-tiles",
+   "stat-cards"
+  ],
+  "note": "Heavy condensed caps headline, then four product tiles in saturated colours, each with one 3D furniture object. A B2B catalogue tool borrows the playful colour of a toy shop for its feature cards."
+ },
+ {
+  "site": "Hemispherical Stacks",
+  "type": "landing",
+  "url": "https://hemstacks.antikythera.org",
+  "tags": [
+   "dark",
+   "bg-duotone",
+   "purple-duotone",
+   "terminal-text",
+   "research-journal"
+  ],
+  "note": "A purple duotone photograph of a model cityscape fills the screen with mono essay credits overlaid like a terminal. A think tank's journal looks like an archive document, not a website."
+ },
+ {
+  "site": "Holographik Space",
+  "type": "landing",
+  "url": "https://holographik.space",
+  "tags": [
+   "dark",
+   "full-bleed-photo",
+   "centered-headline",
+   "event-programme",
+   "venue"
+  ],
+  "note": "Each event is a full-bleed photo of the room with its title centred large over it, stacked down the page. A venue's homepage is its programme, every night given a whole screen."
+ },
+ {
+  "site": "LinkLetter",
+  "type": "landing",
+  "url": "http://linkletter.press",
+  "tags": [
+   "light",
+   "serif-headline",
+   "hand-drawn-underline",
+   "ribbon-illustration",
+   "orange-accent"
+  ],
+  "note": "A serif headline with a hand-drawn underline, then a huge orange ribbon looping around a paper envelope. One oversized illustrated object carries the whole brand of a reading tool."
+ },
+ {
+  "site": "Normal Computing",
+  "type": "landing",
+  "url": "https://www.normalcomputing.com",
+  "tags": [
+   "dark-to-light",
+   "serif-headline",
+   "sea-photo",
+   "stats-row",
+   "red-hardware",
+   "mono-labels"
+  ],
+  "note": "A serif headline over dark sea water with a mono stats row, then the red ASIC board photographed on white with red highlighted words in the text. Deep tech pairs nature texture with the real board, and one red carries both."
+ },
+ {
+  "site": "PP Neue Montreal",
+  "type": "landing",
+  "url": "https://neuemontreal.com",
+  "tags": [
+   "red",
+   "specimen",
+   "travel-guide",
+   "postcards",
+   "giant-type",
+   "colour-script-type"
+  ],
+  "note": "The specimen is written as an 'Official Travel Guide' to Montreal, with postcards, city photos and mixed-colour italic display lines. A typeface sold through a story about the city it is named after."
+ },
+ {
+  "site": "Tequs",
+  "type": "landing",
+  "url": "https://www.tequs.com",
+  "tags": [
+   "dark",
+   "product-object-hero",
+   "hardware-photo",
+   "lit-object",
+   "engineering-specs"
+  ],
+  "note": "The heat pump stands lit in a black void like a monolith, headline and CO2 numbers small beside it, then a second shot of the unit in a raking light. Industrial hardware photographed with the drama of a luxury object."
+ },
+ {
+  "site": "The Content Architecture",
+  "type": "landing",
+  "url": "https://www.contentarchitecture.dev",
+  "tags": [
+   "light",
+   "beige",
+   "spiral-text",
+   "giant-numerals",
+   "mono-labels",
+   "developer-kit"
+  ],
+  "note": "Text spirals into a vortex beside the headline, and '~00 hours lost per project' is set as a giant numeral. A dev starter kit made to look like a design publication, with the cost of not using it as the biggest number."
+ },
+ {
+  "site": "Union Boulangerie",
+  "type": "landing",
+  "url": "https://unionboulangerie.com/en",
+  "tags": [
+   "blue",
+   "photo-hero",
+   "handwritten-type",
+   "mixed-type",
+   "bakery"
+  ],
+  "note": "A baker loading bread in the oven fills the hero, then a full electric-blue block with caps and handwritten words mixed in the same line. A local shop with the energy of a zine: one loud colour and a hand-drawn voice."
+ },
+ {
+  "site": "Click Therapeutics",
+  "type": "landing",
+  "url": "https://www.clicktherapeutics.com",
+  "tags": [
+   "light",
+   "split-hero",
+   "moire-pattern",
+   "mint-accent",
+   "giant-headline"
+  ],
+  "note": "The headline 'Where science meets software.' is split across the hero, its last word pushed to the far corner, with a mint moiré circle between. A health company shows precision through a generative pattern, not stock lab photos."
+ },
+ {
+  "site": "Denmu",
+  "type": "landing",
+  "url": "https://denmu.com",
+  "tags": [
+   "dark",
+   "chrome-wordmark",
+   "3d-type",
+   "kanji",
+   "y2k",
+   "manifesto-caps"
+  ],
+  "note": "A chrome, glowing 3D wordmark mixing Latin and kanji fills the hero, then a manifesto in caps over the chrome tubes. A collectibles brand makes its logo the main 3D object."
+ },
+ {
+  "site": "LouieLouie",
+  "type": "landing",
+  "url": "https://www.louielouie.co.nz",
+  "tags": [
+   "light",
+   "scattered-numbers",
+   "colour-tags",
+   "data-as-hero",
+   "playful"
+  ],
+  "note": "The hero is a field of scattered numbers in small colour tags at random sizes, the largest '100' sitting at the bottom. A studio shows a number cloud instead of a showreel, data as decoration."
+ },
+ {
+  "site": "Van Gogh Museum",
+  "type": "landing",
+  "url": "https://www.vangoghmuseum.nl/en",
+  "tags": [
+   "light",
+   "yellow-block",
+   "painting-hero",
+   "museum",
+   "serif-free"
+  ],
+  "note": "A sunflower-yellow block holds the headline and two buttons next to the Sunflowers painting itself. A museum takes its UI colour from its most famous work."
+ },
+ {
+  "site": "Aspen Search",
+  "type": "landing",
+  "url": "https://www.aspensearch.com",
+  "tags": [
+   "light",
+   "halftone-texture",
+   "giant-headline",
+   "mint-accent",
+   "block-grid",
+   "mono-labels"
+  ],
+  "note": "Giant 'Aspen' and 'Search' and 'PLACING WINNERS.' blocks alternate with grey halftone textures and one mint panel. A recruiting firm for quants looks like a Swiss poster grid, not a staffing agency."
+ },
+ {
+  "site": "COVEO Music",
+  "type": "landing",
+  "url": "https://coveomusic.com",
+  "tags": [
+   "light",
+   "script-background",
+   "floating-objects",
+   "serif-italic",
+   "photo-collage"
+  ],
+  "note": "Album covers and objects fly in an arc over a faint handwritten script, then a serif italic 'Storytelling'. A musician's site arranges artefacts like a mood board in motion."
+ },
+ {
+  "site": "Gleb Kuznetsov",
+  "type": "landing",
+  "url": "https://glebich.com",
+  "tags": [
+   "light",
+   "soft-3d",
+   "iridescent-render",
+   "large-statement",
+   "personal"
+  ],
+  "note": "Soft white 3D renders with iridescent highlights and a large statement 'For decades, people learned the language of machines. Now machines learn ours.' A designer's site is a calm exhibition of renders."
+ },
+ {
+  "site": "Kevin Hipke",
+  "type": "landing",
+  "url": "https://kevinhipke.com",
+  "tags": [
+   "dark",
+   "giant-name",
+   "split-wordmark",
+   "bw-portrait",
+   "work-grid",
+   "personal"
+  ],
+  "note": "First and last name set huge at the two edges of the screen over a black-and-white portrait, then a dark grid of brand work. A personal site where the name is the layout."
+ },
+ {
+  "site": "Layer",
+  "type": "landing",
+  "url": "https://layer.com",
+  "tags": [
+   "dark",
+   "serif-headline",
+   "artwork-in-room",
+   "now-viewing-list",
+   "gallery"
+  ],
+  "note": "A digital artwork shown on a screen inside a dark room, then a 'You're viewing' strip of works with small thumbnails. Digital art presented in situ, as an object in a space."
+ },
+ {
+  "site": "Overbrowsing",
+  "type": "landing",
+  "url": "https://overbrowsing.com",
+  "tags": [
+   "brown",
+   "low-carbon",
+   "plain-text",
+   "research",
+   "grid-aware"
+  ],
+  "note": "Plain text on brown with a live 'grid-aware mode' notice and a carbon counter in the header; even the 404 section is 'Emissions not found'. A research project about web emissions designs with the fewest bytes and shows it."
+ },
+ {
+  "site": "SevenGrid",
+  "type": "landing",
+  "url": "https://sevengrid.app",
+  "tags": [
+   "dark",
+   "app-phone-hero",
+   "live-date-copy",
+   "colour-dots",
+   "qr-code"
+  ],
+  "note": "'It's week 48. Six days of this week are still open.' is computed from today, under a phone showing the habit grid. App copy that knows the date makes a generic phone hero feel alive."
  }
 ]
