@@ -26,7 +26,7 @@ npm run build    # static landing, /library, one page per screen
 
 ## Deploying on Vercel
 
-In the project settings, set **Root Directory** to `web` and keep "Include files outside the root directory" on (the build reads `../site` and `../skills`). The `noindex` header and meta are set in `next.config.ts` and `src/lib/meta.ts`: remove both when launching.
+In the project settings, set **Root Directory** to `web` and keep "Include files outside the root directory" on (the build reads `../site` and `../skills`).
 
 ## Where things are
 
