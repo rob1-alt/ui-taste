@@ -8063,5 +8063,109 @@
    "playful"
   ],
   "note": "The page is a fake desktop OS: windows, a dock, and the hedgehog mascot illustrated on the product window. The brand's whole site behaves like an operating system."
+ },
+ {
+  "site": "Mercury Raise",
+  "type": "landing",
+  "url": "https://mercury.com/raise",
+  "tags": [
+   "dark",
+   "landscape-photo-field",
+   "desk-in-nature",
+   "email-capture-hero",
+   "product-ui-below"
+  ],
+  "note": "A desk and chair placed on a mountain meadow at dusk fill the hero, the headline small and centred above. Mercury's signature: the office moved into a landscape, then the real product on dark."
+ },
+ {
+  "site": "Figma Buzz",
+  "type": "landing",
+  "url": "https://www.figma.com/buzz",
+  "tags": [
+   "light",
+   "flat-brand-shapes",
+   "template-grid",
+   "magenta-section",
+   "real-asset-examples"
+  ],
+  "note": "Big flat brand shapes in orange, black and green frame the editor full of real social templates, then a magenta section with finished assets. The product's output fills the page."
+ },
+ {
+  "site": "Spline AI",
+  "type": "landing",
+  "url": "https://spline.design/ai",
+  "tags": [
+   "dark",
+   "3d-object-grid",
+   "generated-output-wall",
+   "prompt-box",
+   "product-is-the-output"
+  ],
+  "note": "A prompt box over a grid of generated 3D objects (axolotl, chameleon, guitar, samurai helmet) on black. A 3D generator proven by a shelf of what it made."
+ },
+ {
+  "site": "Are.na Blog",
+  "type": "landing",
+  "url": "https://www.are.na/editorial",
+  "tags": [
+   "light",
+   "editorial-grid",
+   "art-and-object-photography",
+   "minimal-chrome",
+   "small-serif-title"
+  ],
+  "note": "A plain small title then a loose grid of editorial images: an illustrated cover, a book with a red ribbon, a woman with an egg-shaped lamp. Community editorial with almost no chrome."
+ },
+ {
+  "site": "Jason Santa Maria",
+  "type": "landing",
+  "url": "https://jasonsantamaria.com",
+  "tags": [
+   "light",
+   "serif-bio-as-hero",
+   "portrait",
+   "type-design-section",
+   "newspaper-rules"
+  ],
+  "note": "A large serif paragraph of who he is beside a round portrait, then sections separated by rules (About me, Type design) with his own typefaces. A personal site that reads like a book page."
+ },
+ {
+  "site": "Ethan Marcotte",
+  "type": "landing",
+  "url": "https://ethanmarcotte.com",
+  "tags": [
+   "red-field",
+   "illustrated-logo",
+   "serif-greeting",
+   "journal-list",
+   "poster-tiles"
+  ],
+  "note": "A deep red field with a hand-drawn logo, a serif 'Hi, I'm Ethan' with linked words, then his journal and book covers as poster tiles ('YOU DESERVE A TECH UNION'). Warm, political, typographic."
+ },
+ {
+  "site": "Jen Simmons",
+  "type": "landing",
+  "url": "https://jensimmons.com",
+  "tags": [
+   "light-grey",
+   "scattered-letter-name",
+   "red-overlay-blocks",
+   "greyscale-photo",
+   "layout-as-signature"
+  ],
+  "note": "Her name broken into letters scattered over a grid, red translucent blocks and a greyscale photo overlapping: a CSS layout expert whose homepage is a layout experiment."
+ },
+ {
+  "site": "Piccalilli",
+  "type": "landing",
+  "url": "https://piccalil.li",
+  "tags": [
+   "yellow-field",
+   "serif-masthead",
+   "highlighted-headline",
+   "course-posters",
+   "ruled-newspaper"
+  ],
+  "note": "A big serif masthead and ruled header like a newspaper, then a yellow hero where every line of the headline sits on its own white highlight strip, and courses as poster tiles. An independent publisher with a strong print voice."
  }
 ]

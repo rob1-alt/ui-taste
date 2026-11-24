@@ -36,3 +36,5 @@ Agency and studio sites built on WebGL often capture as black or empty (Resn, Lu
 Commerce, fashion, hotels and media sites block headless capture often (about 70% of batch 8: bot walls, region and age modals, sale takeovers). Prefer product, studio, lab and indie sites, and retry commerce outside sale weeks.
 
 Batch 10 (French tech, mobility, bikes, wearables) kept 7 of 50: mobility and sports-hardware sites hide behind region selectors and sale takeovers. Lean the queue toward studios, foundries, indie software, personal sites and dev tools.
+
+Feature sub-pages of companies already in the library (stripe.com/billing, notion.com/product/ai) rarely teach anything new: queue a company's homepage once, not its sub-pages.

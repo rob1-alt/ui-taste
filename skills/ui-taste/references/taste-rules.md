@@ -141,4 +141,4 @@ Take: for a portfolio, lead with one large piece of real work and its name, then
 
 The strongest personal sites in the library (Rauno, Lynn Fisher, Maggie Appleton, Robin Sloan, Tobias van Schneider) each do one thing: a single sentence over a yellow circle, a book's title page, a garden of growing notes, an orange pamphlet, a manifesto poster. None of them has a hero, a services grid and a testimonials row.
 
-Take: for a personal or portfolio site, write the one sentence that says who you are, choose one metaphor or one shape, and let the index of work follow plainly.
+Take: for a personal or portfolio site, write the one sentence that says who you are, choose one metaphor or one shape, and let the index of work follow plainly. When the person's craft is the web itself, the homepage can demonstrate it: Jen Simmons scatters her name across a layout grid with overlapping red blocks.

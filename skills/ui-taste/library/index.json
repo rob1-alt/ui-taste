@@ -13644,6 +13644,78 @@
     }
   },
   {
+    "id": "are-na-blog-landing",
+    "site": "Are.na Blog",
+    "url": "https://www.are.na/editorial",
+    "type": "landing",
+    "tags": [
+      "light",
+      "editorial-grid",
+      "art-and-object-photography",
+      "minimal-chrome",
+      "small-serif-title"
+    ],
+    "note": "A plain small title then a loose grid of editorial images: an illustrated cover, a book with a red ribbon, a woman with an egg-shaped lamp. Community editorial with almost no chrome.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/are-na-blog-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/are-na-blog-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Are.na Editorial",
+      "fonts": [
+        "areal",
+        "Times New Roman"
+      ],
+      "type": {
+        "h1": null,
+        "h2": {
+          "font": "areal",
+          "size": 13,
+          "weight": "400",
+          "lineHeight": 1.35,
+          "letterSpacing": "normal",
+          "color": "rgb(153, 153, 153)"
+        },
+        "h3": null,
+        "body": {
+          "font": "Times New Roman",
+          "size": 16,
+          "weight": "400",
+          "lineHeight": 1,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#ffffff",
+          "#ededed",
+          "#f7f7f7",
+          "#999999",
+          "#00075f"
+        ],
+        "text": [
+          "#696969",
+          "#000000",
+          "#333333",
+          "#ffffff"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": null
+    }
+  },
+  {
     "id": "area-17-landing",
     "site": "Area 17",
     "url": "https://area17.com",
@@ -22490,6 +22562,93 @@
     }
   },
   {
+    "id": "ethan-marcotte-landing",
+    "site": "Ethan Marcotte",
+    "url": "https://ethanmarcotte.com",
+    "type": "landing",
+    "tags": [
+      "red-field",
+      "illustrated-logo",
+      "serif-greeting",
+      "journal-list",
+      "poster-tiles"
+    ],
+    "note": "A deep red field with a hand-drawn logo, a serif 'Hi, I'm Ethan' with linked words, then his journal and book covers as poster tiles ('YOU DESERVE A TECH UNION'). Warm, political, typographic.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/ethan-marcotte-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/ethan-marcotte-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Welcome to Ethan Marcotte’s website — Ethan Marcotte",
+      "fonts": [
+        "Untitled Sans",
+        "Cambon",
+        "Vesterbro"
+      ],
+      "type": {
+        "h1": {
+          "font": "Cambon",
+          "size": 38,
+          "weight": "400",
+          "lineHeight": 1.1,
+          "letterSpacing": "normal",
+          "color": "rgb(255, 255, 255)"
+        },
+        "h2": {
+          "font": "Untitled Sans",
+          "size": 24,
+          "weight": "700",
+          "lineHeight": 1.5,
+          "letterSpacing": "normal",
+          "color": "rgb(34, 34, 34)"
+        },
+        "h3": {
+          "font": "Untitled Sans",
+          "size": 13,
+          "weight": "600",
+          "lineHeight": 1.5,
+          "letterSpacing": "1.3px",
+          "color": "rgb(34, 34, 34)"
+        },
+        "body": {
+          "font": "Cambon",
+          "size": 38,
+          "weight": "400",
+          "lineHeight": 1.1,
+          "letterSpacing": "normal",
+          "color": "rgb(255, 255, 255)"
+        }
+      },
+      "colors": {
+        "background": "#fff8f4",
+        "surfaces": [
+          "#951c25",
+          "#dc2034",
+          "#bd222e",
+          "#fff8f4",
+          "#000000"
+        ],
+        "text": [
+          "#222222",
+          "#ffffff",
+          "#bd222e",
+          "#fff7f4"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": null
+    }
+  },
+  {
     "id": "every-landing",
     "site": "Every",
     "url": "https://every.to",
@@ -23853,6 +24012,122 @@
         }
       ],
       "contentWidth": 1131
+    }
+  },
+  {
+    "id": "figma-buzz-landing",
+    "site": "Figma Buzz",
+    "url": "https://www.figma.com/buzz",
+    "type": "landing",
+    "tags": [
+      "light",
+      "flat-brand-shapes",
+      "template-grid",
+      "magenta-section",
+      "real-asset-examples"
+    ],
+    "note": "Big flat brand shapes in orange, black and green frame the editor full of real social templates, then a magenta section with finished assets. The product's output fills the page.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/figma-buzz-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/figma-buzz-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Figma Buzz: Create & Share On-Brand Assets Instantly",
+      "fonts": [
+        "figmaSans",
+        "figmaMono"
+      ],
+      "type": {
+        "h1": {
+          "font": "figmaSans",
+          "size": 86,
+          "weight": "400",
+          "lineHeight": 0.95,
+          "letterSpacing": "-1.72px",
+          "color": "rgb(0, 0, 0)"
+        },
+        "h2": {
+          "font": "figmaSans",
+          "size": 56,
+          "weight": "400",
+          "lineHeight": 1.1,
+          "letterSpacing": "-0.84px",
+          "color": "rgb(0, 0, 0)"
+        },
+        "h3": {
+          "font": "figmaSans",
+          "size": 32,
+          "weight": "400",
+          "lineHeight": 1.3,
+          "letterSpacing": "-0.32px",
+          "color": "rgb(0, 0, 0)"
+        },
+        "body": {
+          "font": "figmaSans",
+          "size": 18,
+          "weight": "330",
+          "lineHeight": 1.4,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#ffffff",
+          "#e28cf8",
+          "#000000"
+        ],
+        "text": [
+          "#000000",
+          "#ffffff"
+        ]
+      },
+      "buttons": [
+        {
+          "label": "Get started for free",
+          "bg": "#000000",
+          "color": "#ffffff",
+          "radius": "8px",
+          "height": 46,
+          "paddingX": 22,
+          "font": "figmaSans",
+          "size": 18,
+          "weight": "330"
+        },
+        {
+          "label": "Get started",
+          "bg": "#000000",
+          "color": "#ffffff",
+          "radius": "8px",
+          "height": 46,
+          "paddingX": 22,
+          "font": "figmaSans",
+          "size": 16,
+          "weight": "400"
+        },
+        {
+          "label": "",
+          "bg": "#000000",
+          "color": "#ffffff",
+          "radius": "9999px",
+          "height": 36,
+          "paddingX": 0,
+          "font": "figmaSans",
+          "size": 14,
+          "weight": "400"
+        }
+      ],
+      "contentWidth": 780
     }
   },
   {
@@ -30843,6 +31118,142 @@
     }
   },
   {
+    "id": "jason-santa-maria-landing",
+    "site": "Jason Santa Maria",
+    "url": "https://jasonsantamaria.com",
+    "type": "landing",
+    "tags": [
+      "light",
+      "serif-bio-as-hero",
+      "portrait",
+      "type-design-section",
+      "newspaper-rules"
+    ],
+    "note": "A large serif paragraph of who he is beside a round portrait, then sections separated by rules (About me, Type design) with his own typefaces. A personal site that reads like a book page.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/jason-santa-maria-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/jason-santa-maria-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Jason Santa Maria",
+      "fonts": [
+        "Roslindale",
+        "HEX Franklin"
+      ],
+      "type": {
+        "h1": null,
+        "h2": {
+          "font": "HEX Franklin",
+          "size": 40,
+          "weight": "700",
+          "lineHeight": 1.3,
+          "letterSpacing": "0.48px",
+          "color": "rgb(51, 51, 51)"
+        },
+        "h3": {
+          "font": "HEX Franklin",
+          "size": 24,
+          "weight": "700",
+          "lineHeight": 1.5,
+          "letterSpacing": "normal",
+          "color": "rgb(51, 51, 51)"
+        },
+        "body": {
+          "font": "Roslindale",
+          "size": 50,
+          "weight": "400",
+          "lineHeight": 1.19,
+          "letterSpacing": "normal",
+          "color": "rgb(51, 51, 51)"
+        }
+      },
+      "colors": {
+        "background": "#f2f2ef",
+        "surfaces": [
+          "#ffffff"
+        ],
+        "text": [
+          "#333333"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": 1380
+    }
+  },
+  {
+    "id": "jen-simmons-landing",
+    "site": "Jen Simmons",
+    "url": "https://jensimmons.com",
+    "type": "landing",
+    "tags": [
+      "light-grey",
+      "scattered-letter-name",
+      "red-overlay-blocks",
+      "greyscale-photo",
+      "layout-as-signature"
+    ],
+    "note": "Her name broken into letters scattered over a grid, red translucent blocks and a greyscale photo overlapping: a CSS layout expert whose homepage is a layout experiment.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/jen-simmons-landing-desktop.jpg",
+        "width": 1440,
+        "height": 926
+      },
+      "mobile": {
+        "file": "screens/jen-simmons-landing-mobile.jpg",
+        "width": 390,
+        "height": 1063
+      }
+    },
+    "tokens": {
+      "title": "Home",
+      "fonts": [
+        "Avenir"
+      ],
+      "type": {
+        "h1": {
+          "font": "Avenir",
+          "size": 49,
+          "weight": "700",
+          "lineHeight": "normal",
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        },
+        "h2": null,
+        "h3": null,
+        "body": {
+          "font": "Avenir",
+          "size": 18,
+          "weight": "400",
+          "lineHeight": "normal",
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        }
+      },
+      "colors": {
+        "background": "#e4e4d5",
+        "surfaces": [
+          "#d55349"
+        ],
+        "text": [
+          "#000000"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": null
+    }
+  },
+  {
     "id": "jitter-landing",
     "site": "Jitter",
     "url": "https://jitter.video",
@@ -35352,6 +35763,115 @@
         },
         {
           "label": "Apply now",
+          "bg": "#5266eb",
+          "color": "#ffffff",
+          "radius": "32px",
+          "height": 40,
+          "paddingX": 20,
+          "font": "arcadia",
+          "size": 16,
+          "weight": "420"
+        }
+      ],
+      "contentWidth": 1376
+    }
+  },
+  {
+    "id": "mercury-raise-landing",
+    "site": "Mercury Raise",
+    "url": "https://mercury.com/raise",
+    "type": "landing",
+    "tags": [
+      "dark",
+      "landscape-photo-field",
+      "desk-in-nature",
+      "email-capture-hero",
+      "product-ui-below"
+    ],
+    "note": "A desk and chair placed on a mountain meadow at dusk fill the hero, the headline small and centred above. Mercury's signature: the office moved into a landscape, then the real product on dark.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/mercury-raise-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/mercury-raise-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Online Business Banking For Startups, Small Businesses & Scaling Companies",
+      "fonts": [
+        "arcadia",
+        "arcadiaDisplay"
+      ],
+      "type": {
+        "h1": {
+          "font": "arcadiaDisplay",
+          "size": 49,
+          "weight": "480",
+          "lineHeight": 1.1,
+          "letterSpacing": "normal",
+          "color": "rgb(237, 237, 243)"
+        },
+        "h2": {
+          "font": "arcadiaDisplay",
+          "size": 42,
+          "weight": "480",
+          "lineHeight": 1.15,
+          "letterSpacing": "0.42px",
+          "color": "rgb(237, 237, 243)"
+        },
+        "h3": {
+          "font": "arcadia",
+          "size": 16,
+          "weight": "400",
+          "lineHeight": 1.5,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        },
+        "body": {
+          "font": "arcadia",
+          "size": 14,
+          "weight": "420",
+          "lineHeight": 1,
+          "letterSpacing": "0.07px",
+          "color": "rgb(237, 237, 243)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#171721",
+          "#1e1e2a",
+          "#272735",
+          "#5266eb",
+          "#cdddff"
+        ],
+        "text": [
+          "#c3c3cc",
+          "#ededf3",
+          "#f4f5f9",
+          "#ffffff"
+        ]
+      },
+      "buttons": [
+        {
+          "label": "Open account",
+          "bg": "#5266eb",
+          "color": "#ffffff",
+          "radius": "32px",
+          "height": 32,
+          "paddingX": 16,
+          "font": "arcadia",
+          "size": 14,
+          "weight": "420"
+        },
+        {
+          "label": "Open account",
           "bg": "#5266eb",
           "color": "#ffffff",
           "radius": "32px",
@@ -41030,6 +41550,84 @@
         }
       ],
       "contentWidth": 1512
+    }
+  },
+  {
+    "id": "piccalilli-landing",
+    "site": "Piccalilli",
+    "url": "https://piccalil.li",
+    "type": "landing",
+    "tags": [
+      "yellow-field",
+      "serif-masthead",
+      "highlighted-headline",
+      "course-posters",
+      "ruled-newspaper"
+    ],
+    "note": "A big serif masthead and ruled header like a newspaper, then a yellow hero where every line of the headline sits on its own white highlight strip, and courses as poster tiles. An independent publisher with a strong print voice.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/piccalilli-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/piccalilli-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Piccalilli - level up your front-end development skills",
+      "fonts": [
+        "Rosart",
+        "Moderat",
+        "Family"
+      ],
+      "type": {
+        "h1": {
+          "font": "Moderat",
+          "size": 92,
+          "weight": "700",
+          "lineHeight": 1,
+          "letterSpacing": "-1.38292px",
+          "color": "color(display-p3 0.094118 0.086275 0.090196)"
+        },
+        "h2": {
+          "font": "Moderat",
+          "size": 41,
+          "weight": "700",
+          "lineHeight": 1.1,
+          "letterSpacing": "-0.614611px",
+          "color": "color(display-p3 0.094118 0.086275 0.090196)"
+        },
+        "h3": {
+          "font": "Moderat",
+          "size": 31,
+          "weight": "700",
+          "lineHeight": 1.1,
+          "letterSpacing": "-0.47184px",
+          "color": "color(display-p3 0.094118 0.086275 0.090196)"
+        },
+        "body": {
+          "font": "Rosart",
+          "size": 21,
+          "weight": "400",
+          "lineHeight": 1.3,
+          "letterSpacing": "normal",
+          "color": "color(display-p3 0.094118 0.086275 0.090196)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [],
+        "text": [
+          "#4a4847"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": 1040
     }
   },
   {
@@ -49897,6 +50495,103 @@
           "paddingX": 20,
           "font": "Geist",
           "size": 16,
+          "weight": "500"
+        }
+      ],
+      "contentWidth": 1416
+    }
+  },
+  {
+    "id": "spline-ai-landing",
+    "site": "Spline AI",
+    "url": "https://spline.design/ai",
+    "type": "landing",
+    "tags": [
+      "dark",
+      "3d-object-grid",
+      "generated-output-wall",
+      "prompt-box",
+      "product-is-the-output"
+    ],
+    "note": "A prompt box over a grid of generated 3D objects (axolotl, chameleon, guitar, samurai helmet) on black. A 3D generator proven by a shelf of what it made.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/spline-ai-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/spline-ai-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "AI 3D Model Generator: Text and Image to 3D | Spline",
+      "fonts": [
+        "Geist",
+        "Spline Sans",
+        "Geist Mono"
+      ],
+      "type": {
+        "h1": {
+          "font": "Geist",
+          "size": 64,
+          "weight": "450",
+          "lineHeight": 1.13,
+          "letterSpacing": "-3.84px",
+          "color": "rgba(255, 255, 255, 0.9)"
+        },
+        "h2": {
+          "font": "Geist",
+          "size": 56,
+          "weight": "450",
+          "lineHeight": 1.14,
+          "letterSpacing": "-3.36px",
+          "color": "rgba(255, 255, 255, 0.9)"
+        },
+        "h3": {
+          "font": "Geist",
+          "size": 17,
+          "weight": "450",
+          "lineHeight": 1.41,
+          "letterSpacing": "-0.34px",
+          "color": "rgba(255, 255, 255, 0.9)"
+        },
+        "body": {
+          "font": "Geist",
+          "size": 18,
+          "weight": "400",
+          "lineHeight": 1.56,
+          "letterSpacing": "normal",
+          "color": "rgb(138, 138, 138)"
+        }
+      },
+      "colors": {
+        "background": "#000000",
+        "surfaces": [
+          "#000000",
+          "#101010",
+          "#eeeeee"
+        ],
+        "text": [
+          "#8a8a8a",
+          "#ffffff",
+          "#eeeeee",
+          "#000000"
+        ]
+      },
+      "buttons": [
+        {
+          "label": "Start building",
+          "bg": "#eeeeee",
+          "color": "#000000",
+          "radius": "999px",
+          "height": 34,
+          "paddingX": 14,
+          "font": "Geist",
+          "size": 14,
           "weight": "500"
         }
       ],
