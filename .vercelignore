@@ -8,4 +8,4 @@ skills/ui-taste/SKILL.md
 site/build.py
 *.lock
 capture.log
-examples
+/examples
