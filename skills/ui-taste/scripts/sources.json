@@ -8706,5 +8706,227 @@
    "qr-code"
   ],
   "note": "'It's week 48. Six days of this week are still open.' is computed from today, under a phone showing the habit grid. App copy that knows the date makes a generic phone hero feel alive."
+ },
+ {
+  "site": "Beacon",
+  "type": "landing",
+  "url": "https://findyourbeacon.app",
+  "tags": [
+   "dark-navy",
+   "serif-italic",
+   "calculator-hero",
+   "fintech",
+   "step-cards"
+  ],
+  "note": "'Find your financial independence date.' in a serif with the key words in italic, then three numbered steps and a live calculator that returns a date. A finance tool promises one concrete output and lets you compute it on the page."
+ },
+ {
+  "site": "Neusicht",
+  "type": "landing",
+  "url": "https://www.neusicht.com",
+  "tags": [
+   "light",
+   "portrait-grid",
+   "tiny-text",
+   "clinic",
+   "swiss-layout"
+  ],
+  "note": "Four large studio portraits of the doctors fill the page, with the practice's address and hours in tiny type at the top. A medical practice sells trust through faces at full size, not stock icons."
+ },
+ {
+  "site": "Portrait",
+  "type": "landing",
+  "url": "https://portrait.so",
+  "tags": [
+   "light",
+   "soft-gradient",
+   "serif-italic",
+   "username-claim",
+   "floating-photos"
+  ],
+  "note": "A soft pastel gradient, 'forever' in serif italic, and the hero CTA is a field prefilled 'portrait.so/robert' to claim your name. A personal-page product puts the URL you will own in the hero."
+ },
+ {
+  "site": "1×1",
+  "type": "landing",
+  "url": "https://1x1.systems",
+  "tags": [
+   "light",
+   "product-photo-hero",
+   "line-drawings",
+   "diy-objects",
+   "plain-catalogue"
+  ],
+  "note": "A sunset photo of a wooden lamp, then each product shown as a thin wireframe drawing with one coloured part. A DIY furniture brand shows its pieces as assembly drawings, the way you will build them."
+ },
+ {
+  "site": "Cassette Music",
+  "type": "landing",
+  "url": "https://www.cassettemusic.com",
+  "tags": [
+   "dark",
+   "giant-wordmark",
+   "yellow-on-black",
+   "equalizer-bars",
+   "collage",
+   "mono-text"
+  ],
+  "note": "A heavy yellow 'CASSETTE' spans the top, then equalizer bars made of yellow strips and a cut-paper collage of a cassette. A music agency turns its name and a sound meter into the whole identity."
+ },
+ {
+  "site": "Chronically Online Magazine",
+  "type": "landing",
+  "url": "https://com.manychat.com",
+  "tags": [
+   "dark",
+   "mono-headline",
+   "illustration-grid",
+   "colour-art",
+   "magazine"
+  ],
+  "note": "Mono caps title and each story with its own vivid commissioned illustration in a rounded tile on black. An online magazine whose grid is a wall of art, one style per writer."
+ },
+ {
+  "site": "Early Studies",
+  "type": "landing",
+  "url": "https://www.earlystudies.com",
+  "tags": [
+   "dark",
+   "stacked-frames",
+   "business-card",
+   "one-screen",
+   "mono-caps"
+  ],
+  "note": "One screen: a skull logo, the name and the address in caps inside stacked outlined frames, like a card on a pile. A secretive company says only who and where."
+ },
+ {
+  "site": "Jaytel",
+  "type": "landing",
+  "url": "https://jay.tel",
+  "tags": [
+   "peach",
+   "cv-timeline",
+   "small-type",
+   "pixel-commit-grid",
+   "personal"
+  ],
+  "note": "A peach page of small type listing past roles, products and press, with a now-playing track and a pixel grid of 'clanker commits'. A designer's CV made personal by two live details."
+ },
+ {
+  "site": "March 2004",
+  "type": "landing",
+  "url": "https://march2004.com",
+  "tags": [
+   "light",
+   "cover-art-grid",
+   "music",
+   "dense-grid",
+   "playlist"
+  ],
+  "note": "A dense grid of record-cover-like artworks, each a track of a playlist with a mini player. A music project lets the covers be the page."
+ },
+ {
+  "site": "Microsoft AI",
+  "type": "landing",
+  "url": "https://microsoft.ai",
+  "tags": [
+   "light",
+   "painterly-gradient",
+   "serif-display",
+   "centered-hero",
+   "news-cards"
+  ],
+  "note": "A painterly gradient of orange, blue and green with a centred serif 'Humanist Superintelligence', and the same paintings on every news card. An AI lab takes a warm, brushed palette instead of the usual dark neon."
+ },
+ {
+  "site": "Old Tom Capital",
+  "type": "landing",
+  "url": "https://www.oldtomcapital.com",
+  "tags": [
+   "light",
+   "bw-landscape",
+   "photo-hero",
+   "beige",
+   "finance"
+  ],
+  "note": "A black-and-white photo of rolling golf links with a tiny figure, headline at the bottom left, then beige panels. A golf investment firm sells the landscape, not the sport."
+ },
+ {
+  "site": "Savate Specimen",
+  "type": "landing",
+  "url": "https://plombtype.com/savate",
+  "tags": [
+   "blue",
+   "specimen",
+   "3d-character",
+   "giant-numerals",
+   "yellow-display"
+  ],
+  "note": "A toy-like boxer figure stands behind the typeface name in yellow, the weights listed on both sides, then '1825' set huge. A display face sold with a mascot that shares its character."
+ },
+ {
+  "site": "Date of Birth",
+  "type": "landing",
+  "url": "https://www.dateofbirth.com.au",
+  "tags": [
+   "light",
+   "giant-wordmark",
+   "condensed-caps",
+   "product-photo",
+   "caps-statement"
+  ],
+  "note": "The studio name in heavy condensed caps spans the whole width, then a pink product shot and one caps claim 'No agency has put more new brands on Australian retail shelves.' A packaging studio shows one bold claim and the packs."
+ },
+ {
+  "site": "GT Standard Minisite",
+  "type": "landing",
+  "url": "https://gt-standard.com",
+  "tags": [
+   "red",
+   "specimen",
+   "bezier-glyph",
+   "numbered-sections",
+   "green-panels"
+  ],
+  "note": "A giant 'a' drawn with its bezier points visible, numbered 'design, system, platform', on red then green panels of styles. A type system sold by showing how its letters are built."
+ },
+ {
+  "site": "Mutebox",
+  "type": "landing",
+  "url": "https://www.bymutebox.com",
+  "tags": [
+   "light",
+   "product-photo",
+   "warm-interior-light",
+   "editorial-whitespace",
+   "small-type"
+  ],
+  "note": "Acoustic booths photographed in warm raking light, a butterfly on stone for calm, and tiny type in large white margins. An office product sold through mood and light, like furniture."
+ },
+ {
+  "site": "NKORA",
+  "type": "landing",
+  "url": "https://nkora.co.uk",
+  "tags": [
+   "olive",
+   "thin-caps",
+   "coffee-photo",
+   "photo-grid",
+   "locations-chips"
+  ],
+  "note": "'CONSIDERED CUPS' in thin caps over a close-up pour, then an olive block with the story in thin caps and shop photos. A coffee chain builds its brand from one thin typeface and one olive."
+ },
+ {
+  "site": "RUX Software",
+  "type": "landing",
+  "url": "https://ruxsoftware.com",
+  "tags": [
+   "light",
+   "halftone-photo",
+   "orange-duotone",
+   "heavy-headline",
+   "industrial"
+  ],
+  "note": "A heavy black headline over an orange halftone image of oil pumps and machinery. Enterprise software for rental and service companies shows their industrial world, printed like a poster."
  }
 ]

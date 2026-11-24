@@ -10784,6 +10784,66 @@
     }
   },
   {
+    "id": "1-1-landing",
+    "site": "1×1",
+    "url": "https://1x1.systems",
+    "type": "landing",
+    "tags": [
+      "light",
+      "product-photo-hero",
+      "line-drawings",
+      "diy-objects",
+      "plain-catalogue"
+    ],
+    "note": "A sunset photo of a wooden lamp, then each product shown as a thin wireframe drawing with one coloured part. A DIY furniture brand shows its pieces as assembly drawings, the way you will build them.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/1-1-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/1-1-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "1×1 Systems",
+      "fonts": [
+        "StyreneB"
+      ],
+      "type": {
+        "h1": null,
+        "h2": null,
+        "h3": null,
+        "body": {
+          "font": "StyreneB",
+          "size": 44,
+          "weight": "400",
+          "lineHeight": 1.27,
+          "letterSpacing": "normal",
+          "color": "rgb(32, 32, 32)"
+        }
+      },
+      "colors": {
+        "background": "#fafafa",
+        "surfaces": [
+          "#505050",
+          "#fafafa"
+        ],
+        "text": [
+          "#202020",
+          "#fafafa",
+          "#979797"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": null
+    }
+  },
+  {
     "id": "205tf-landing",
     "site": "205TF",
     "url": "https://www.205.tf",
@@ -15241,6 +15301,113 @@
     }
   },
   {
+    "id": "beacon-landing",
+    "site": "Beacon",
+    "url": "https://findyourbeacon.app",
+    "type": "landing",
+    "tags": [
+      "dark-navy",
+      "serif-italic",
+      "calculator-hero",
+      "fintech",
+      "step-cards"
+    ],
+    "note": "'Find your financial independence date.' in a serif with the key words in italic, then three numbered steps and a live calculator that returns a date. A finance tool promises one concrete output and lets you compute it on the page.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/beacon-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/beacon-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Beacon | Net Worth Tracker & Financial Independence Dashboard",
+      "fonts": [
+        "Inter",
+        "Playfair Display",
+        "ui-monospace"
+      ],
+      "type": {
+        "h1": {
+          "font": "Playfair Display",
+          "size": 96,
+          "weight": "400",
+          "lineHeight": 1.02,
+          "letterSpacing": "-0.48px",
+          "color": "rgb(255, 255, 255)"
+        },
+        "h2": {
+          "font": "Playfair Display",
+          "size": 48,
+          "weight": "400",
+          "lineHeight": 1.1,
+          "letterSpacing": "normal",
+          "color": "rgb(13, 27, 46)"
+        },
+        "h3": {
+          "font": "Playfair Display",
+          "size": 30,
+          "weight": "400",
+          "lineHeight": 1.05,
+          "letterSpacing": "-1.05px",
+          "color": "rgb(247, 248, 250)"
+        },
+        "body": {
+          "font": "Inter",
+          "size": 16,
+          "weight": "300",
+          "lineHeight": 1.7,
+          "letterSpacing": "normal",
+          "color": "rgba(255, 255, 255, 0.45)"
+        }
+      },
+      "colors": {
+        "background": "#0d1b2e",
+        "surfaces": [
+          "#f4f6f8",
+          "#ffffff"
+        ],
+        "text": [
+          "#ffffff",
+          "#f7f8fa",
+          "#0d1b2e",
+          "#6b7394"
+        ]
+      },
+      "buttons": [
+        {
+          "label": "Get your date",
+          "bg": "#ffffff",
+          "color": "#0d1b2e",
+          "radius": "4px",
+          "height": 36,
+          "paddingX": 22,
+          "font": "Inter",
+          "size": 13,
+          "weight": "600"
+        },
+        {
+          "label": "Get your date",
+          "bg": "#ffffff",
+          "color": "#0d1b2e",
+          "radius": "4px",
+          "height": 52,
+          "paddingX": 36,
+          "font": "Inter",
+          "size": 16,
+          "weight": "600"
+        }
+      ],
+      "contentWidth": 1180
+    }
+  },
+  {
     "id": "bear-landing",
     "site": "Bear",
     "url": "https://bear.app",
@@ -17650,6 +17817,232 @@
         }
       ],
       "contentWidth": null
+    }
+  },
+  {
+    "id": "cassette-music-landing",
+    "site": "Cassette Music",
+    "url": "https://www.cassettemusic.com",
+    "type": "landing",
+    "tags": [
+      "dark",
+      "giant-wordmark",
+      "yellow-on-black",
+      "equalizer-bars",
+      "collage",
+      "mono-text"
+    ],
+    "note": "A heavy yellow 'CASSETTE' spans the top, then equalizer bars made of yellow strips and a cut-paper collage of a cassette. A music agency turns its name and a sound meter into the whole identity.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/cassette-music-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/cassette-music-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Cassette - A Music Curation Agency",
+      "fonts": [
+        "Apercu Mono Pro",
+        "Apercu Pro"
+      ],
+      "type": {
+        "h1": {
+          "font": "Apercu Pro",
+          "size": 60,
+          "weight": "400",
+          "lineHeight": 1.2,
+          "letterSpacing": "normal",
+          "color": "rgb(245, 244, 240)"
+        },
+        "h2": {
+          "font": "Apercu Pro",
+          "size": 37,
+          "weight": "400",
+          "lineHeight": 1.2,
+          "letterSpacing": "normal",
+          "color": "rgb(245, 244, 240)"
+        },
+        "h3": null,
+        "body": {
+          "font": "Apercu Mono Pro",
+          "size": 13,
+          "weight": "400",
+          "lineHeight": 1.3,
+          "letterSpacing": "normal",
+          "color": "rgb(245, 244, 240)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#19181a",
+          "#000000",
+          "#f0e226",
+          "#f5f4f0"
+        ],
+        "text": [
+          "#f5f4f0",
+          "#19181a",
+          "#000000",
+          "#d9d7ce"
+        ]
+      },
+      "buttons": [
+        {
+          "label": "ABOUT",
+          "bg": "#f0e226",
+          "color": "#000000",
+          "radius": "900px",
+          "height": 32,
+          "paddingX": 13,
+          "font": "Apercu Mono Pro",
+          "size": 13,
+          "weight": "400"
+        },
+        {
+          "label": "CLIENTS",
+          "bg": "#f0e226",
+          "color": "#000000",
+          "radius": "900px",
+          "height": 32,
+          "paddingX": 13,
+          "font": "Apercu Mono Pro",
+          "size": 13,
+          "weight": "400"
+        },
+        {
+          "label": "TEAM",
+          "bg": "#f0e226",
+          "color": "#000000",
+          "radius": "900px",
+          "height": 32,
+          "paddingX": 13,
+          "font": "Apercu Mono Pro",
+          "size": 13,
+          "weight": "400"
+        },
+        {
+          "label": "SERVICES",
+          "bg": "#f0e226",
+          "color": "#000000",
+          "radius": "900px",
+          "height": 32,
+          "paddingX": 13,
+          "font": "Apercu Mono Pro",
+          "size": 13,
+          "weight": "400"
+        },
+        {
+          "label": "CONTACT",
+          "bg": "#f0e226",
+          "color": "#000000",
+          "radius": "900px",
+          "height": 32,
+          "paddingX": 13,
+          "font": "Apercu Mono Pro",
+          "size": 13,
+          "weight": "400"
+        },
+        {
+          "label": "WHY",
+          "bg": "#f0e226",
+          "color": "#000000",
+          "radius": "900px",
+          "height": 32,
+          "paddingX": 13,
+          "font": "Apercu Mono Pro",
+          "size": 13,
+          "weight": "400"
+        }
+      ],
+      "contentWidth": 1440
+    }
+  },
+  {
+    "id": "chronically-online-magazine-landing",
+    "site": "Chronically Online Magazine",
+    "url": "https://com.manychat.com",
+    "type": "landing",
+    "tags": [
+      "dark",
+      "mono-headline",
+      "illustration-grid",
+      "colour-art",
+      "magazine"
+    ],
+    "note": "Mono caps title and each story with its own vivid commissioned illustration in a rounded tile on black. An online magazine whose grid is a wall of art, one style per writer.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/chronically-online-magazine-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/chronically-online-magazine-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Chronically Online Magazine",
+      "fonts": [
+        "Rooftop",
+        "CoFo Sans Mono"
+      ],
+      "type": {
+        "h1": null,
+        "h2": {
+          "font": "CoFo Sans Mono",
+          "size": 31,
+          "weight": "400",
+          "lineHeight": 1.2,
+          "letterSpacing": "-0.54px",
+          "color": "rgb(255, 255, 255)"
+        },
+        "h3": null,
+        "body": {
+          "font": "CoFo Sans Mono",
+          "size": 14,
+          "weight": "400",
+          "lineHeight": 1.2,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        }
+      },
+      "colors": {
+        "background": "#000000",
+        "surfaces": [
+          "#0057ff",
+          "#ff4b00",
+          "#ffffff"
+        ],
+        "text": [
+          "#ffffff",
+          "#000000"
+        ]
+      },
+      "buttons": [
+        {
+          "label": "JOIN US",
+          "bg": "#ff4b00",
+          "color": "#ffffff",
+          "radius": "18px",
+          "height": 45,
+          "paddingX": 4,
+          "font": "Rooftop",
+          "size": 14,
+          "weight": "400"
+        }
+      ],
+      "contentWidth": 1260
     }
   },
   {
@@ -20371,6 +20764,93 @@
     }
   },
   {
+    "id": "date-of-birth-landing",
+    "site": "Date of Birth",
+    "url": "https://www.dateofbirth.com.au",
+    "type": "landing",
+    "tags": [
+      "light",
+      "giant-wordmark",
+      "condensed-caps",
+      "product-photo",
+      "caps-statement"
+    ],
+    "note": "The studio name in heavy condensed caps spans the whole width, then a pink product shot and one caps claim 'No agency has put more new brands on Australian retail shelves.' A packaging studio shows one bold claim and the packs.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/date-of-birth-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/date-of-birth-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Branding & Design Agency Melbourne | Date Of Birth",
+      "fonts": [
+        "Nb Akademie",
+        "Founders Grotesk X Condensed",
+        "Founders Grotesk Condensed"
+      ],
+      "type": {
+        "h1": null,
+        "h2": {
+          "font": "Founders Grotesk X Condensed",
+          "size": 70,
+          "weight": "600",
+          "lineHeight": 0.95,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        },
+        "h3": {
+          "font": "Nb Akademie",
+          "size": 30,
+          "weight": "700",
+          "lineHeight": 1.2,
+          "letterSpacing": "-1.35px",
+          "color": "rgb(0, 0, 0)"
+        },
+        "body": {
+          "font": "Nb Akademie",
+          "size": 18,
+          "weight": "600",
+          "lineHeight": 1.21,
+          "letterSpacing": "-0.5px",
+          "color": "rgb(0, 0, 0)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#f5f5f7",
+          "#ffffff",
+          "#d7d7d7"
+        ],
+        "text": [
+          "#000000"
+        ]
+      },
+      "buttons": [
+        {
+          "label": "Contact",
+          "bg": "#d7d7d7",
+          "color": "#000000",
+          "radius": "99px",
+          "height": 42,
+          "paddingX": 20,
+          "font": "Nb Akademie",
+          "size": 14,
+          "weight": "400"
+        }
+      ],
+      "contentWidth": 1280
+    }
+  },
+  {
     "id": "day-ai-landing",
     "site": "Day.ai",
     "url": "https://day.ai",
@@ -22796,6 +23276,72 @@
         }
       ],
       "contentWidth": 1440
+    }
+  },
+  {
+    "id": "early-studies-landing",
+    "site": "Early Studies",
+    "url": "https://www.earlystudies.com",
+    "type": "landing",
+    "tags": [
+      "dark",
+      "stacked-frames",
+      "business-card",
+      "one-screen",
+      "mono-caps"
+    ],
+    "note": "One screen: a skull logo, the name and the address in caps inside stacked outlined frames, like a card on a pile. A secretive company says only who and where.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/early-studies-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/early-studies-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Early Studies",
+      "fonts": [
+        "ABC Diatype Black",
+        "Boogy Brut Light",
+        "ABC Diatype Bold"
+      ],
+      "type": {
+        "h1": {
+          "font": "ABC Diatype Black",
+          "size": 92,
+          "weight": "700",
+          "lineHeight": 0.96,
+          "letterSpacing": "-1.836px",
+          "color": "rgb(176, 176, 176)"
+        },
+        "h2": null,
+        "h3": null,
+        "body": {
+          "font": "ABC Diatype Bold",
+          "size": 42,
+          "weight": "300",
+          "lineHeight": 1,
+          "letterSpacing": "-0.423px",
+          "color": "rgb(176, 176, 176)"
+        }
+      },
+      "colors": {
+        "background": "#242424",
+        "surfaces": [
+          "#242424"
+        ],
+        "text": [
+          "#b0b0b0"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": null
     }
   },
   {
@@ -28870,6 +29416,103 @@
     }
   },
   {
+    "id": "gt-standard-minisite-landing",
+    "site": "GT Standard Minisite",
+    "url": "https://gt-standard.com",
+    "type": "landing",
+    "tags": [
+      "red",
+      "specimen",
+      "bezier-glyph",
+      "numbered-sections",
+      "green-panels"
+    ],
+    "note": "A giant 'a' drawn with its bezier points visible, numbered 'design, system, platform', on red then green panels of styles. A type system sold by showing how its letters are built.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/gt-standard-minisite-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/gt-standard-minisite-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "GT Standard",
+      "fonts": [
+        "GT Standard",
+        "GT Standard Mono",
+        "GT Standard Minisite"
+      ],
+      "type": {
+        "h1": {
+          "font": "GT Standard",
+          "size": 200,
+          "weight": "400",
+          "lineHeight": 1,
+          "letterSpacing": "-5px",
+          "color": "rgb(0, 0, 0)"
+        },
+        "h2": {
+          "font": "GT Standard",
+          "size": 50,
+          "weight": "400",
+          "lineHeight": 1,
+          "letterSpacing": "-0.499998px",
+          "color": "rgb(0, 0, 0)"
+        },
+        "h3": {
+          "font": "GT Standard",
+          "size": 18,
+          "weight": "400",
+          "lineHeight": 1.24,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        },
+        "body": {
+          "font": "GT Standard",
+          "size": 18,
+          "weight": "400",
+          "lineHeight": 1.24,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#ff3500",
+          "#ffffff",
+          "#0b6e49",
+          "#eaeaea"
+        ],
+        "text": [
+          "#000000",
+          "#ffffff",
+          "#ff3500"
+        ]
+      },
+      "buttons": [
+        {
+          "label": "standard",
+          "bg": "#ff3500",
+          "color": "#000000",
+          "radius": "6px 6px 0px 0px",
+          "height": 30,
+          "paddingX": 0,
+          "font": "GT Standard",
+          "size": 18,
+          "weight": "400"
+        }
+      ],
+      "contentWidth": null
+    }
+  },
+  {
     "id": "gumroad-landing",
     "site": "Gumroad",
     "url": "https://gumroad.com",
@@ -32859,6 +33502,80 @@
       },
       "buttons": [],
       "contentWidth": 1380
+    }
+  },
+  {
+    "id": "jaytel-landing",
+    "site": "Jaytel",
+    "url": "https://jay.tel",
+    "type": "landing",
+    "tags": [
+      "peach",
+      "cv-timeline",
+      "small-type",
+      "pixel-commit-grid",
+      "personal"
+    ],
+    "note": "A peach page of small type listing past roles, products and press, with a now-playing track and a pixel grid of 'clanker commits'. A designer's CV made personal by two live details.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/jaytel-landing-desktop.jpg",
+        "width": 1440,
+        "height": 1987
+      },
+      "mobile": {
+        "file": "screens/jaytel-landing-mobile.jpg",
+        "width": 390,
+        "height": 2146
+      }
+    },
+    "tokens": {
+      "title": "Jaytel",
+      "fonts": [
+        "J"
+      ],
+      "type": {
+        "h1": {
+          "font": "J",
+          "size": 17,
+          "weight": "400",
+          "lineHeight": 1.41,
+          "letterSpacing": "0.25px",
+          "color": "rgb(0, 0, 0)"
+        },
+        "h2": {
+          "font": "J",
+          "size": 17,
+          "weight": "400",
+          "lineHeight": 1.41,
+          "letterSpacing": "0.25px",
+          "color": "rgb(89, 76, 55)"
+        },
+        "h3": null,
+        "body": {
+          "font": "J",
+          "size": 17,
+          "weight": "400",
+          "lineHeight": 1.41,
+          "letterSpacing": "0.25px",
+          "color": "rgb(89, 76, 55)"
+        }
+      },
+      "colors": {
+        "background": "#f6d29a",
+        "surfaces": [
+          "#f6d29a",
+          "#000000"
+        ],
+        "text": [
+          "#594c37",
+          "#000000",
+          "#f6d29a"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": 656
     }
   },
   {
@@ -37456,6 +38173,65 @@
     }
   },
   {
+    "id": "march-2004-landing",
+    "site": "March 2004",
+    "url": "https://march2004.com",
+    "type": "landing",
+    "tags": [
+      "light",
+      "cover-art-grid",
+      "music",
+      "dense-grid",
+      "playlist"
+    ],
+    "note": "A dense grid of record-cover-like artworks, each a track of a playlist with a mini player. A music project lets the covers be the page.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/march-2004-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/march-2004-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "March 2004",
+      "fonts": [
+        "Octave_Regular"
+      ],
+      "type": {
+        "h1": null,
+        "h2": null,
+        "h3": null,
+        "body": {
+          "font": "Octave_Regular",
+          "size": 12,
+          "weight": "400",
+          "lineHeight": "normal",
+          "letterSpacing": "normal",
+          "color": "rgb(33, 33, 33)"
+        }
+      },
+      "colors": {
+        "background": "#fafafa",
+        "surfaces": [
+          "#eaeaea",
+          "#fafafa"
+        ],
+        "text": [
+          "#212121",
+          "#bbbbbb"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": null
+    }
+  },
+  {
     "id": "mastodon-landing",
     "site": "Mastodon",
     "url": "https://joinmastodon.org",
@@ -38027,6 +38803,103 @@
         }
       ],
       "contentWidth": 1376
+    }
+  },
+  {
+    "id": "microsoft-ai-landing",
+    "site": "Microsoft AI",
+    "url": "https://microsoft.ai",
+    "type": "landing",
+    "tags": [
+      "light",
+      "painterly-gradient",
+      "serif-display",
+      "centered-hero",
+      "news-cards"
+    ],
+    "note": "A painterly gradient of orange, blue and green with a centred serif 'Humanist Superintelligence', and the same paintings on every news card. An AI lab takes a warm, brushed palette instead of the usual dark neon.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/microsoft-ai-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/microsoft-ai-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Home | Microsoft AI",
+      "fonts": [
+        "Segoe Sans Text",
+        "Segoe Sans",
+        "Segoe Serif"
+      ],
+      "type": {
+        "h1": {
+          "font": "Segoe Serif",
+          "size": 80,
+          "weight": "400",
+          "lineHeight": 1.04,
+          "letterSpacing": "-4.01521px",
+          "color": "rgb(250, 248, 243)"
+        },
+        "h2": {
+          "font": "Segoe Serif",
+          "size": 27,
+          "weight": "400",
+          "lineHeight": 1.19,
+          "letterSpacing": "-1.08px",
+          "color": "rgb(25, 25, 25)"
+        },
+        "h3": {
+          "font": "Segoe Serif",
+          "size": 36,
+          "weight": "400",
+          "lineHeight": 1.2,
+          "letterSpacing": "-0.72px",
+          "color": "rgb(25, 25, 25)"
+        },
+        "body": {
+          "font": "Segoe Sans Text",
+          "size": 14,
+          "weight": "400",
+          "lineHeight": 1.21,
+          "letterSpacing": "normal",
+          "color": "rgba(25, 25, 25, 0.7)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#faf8f3",
+          "#738b9c",
+          "#fef9ed",
+          "#f7ecd9"
+        ],
+        "text": [
+          "#191919",
+          "#faf8f3",
+          "#5d524b"
+        ]
+      },
+      "buttons": [
+        {
+          "label": "Explore models",
+          "bg": "#fef9ed",
+          "color": "#191919",
+          "radius": "1000px",
+          "height": 34,
+          "paddingX": 20,
+          "font": "Segoe Sans",
+          "size": 14,
+          "weight": "400"
+        }
+      ],
+      "contentWidth": 1600
     }
   },
   {
@@ -39649,6 +40522,80 @@
     }
   },
   {
+    "id": "mutebox-landing",
+    "site": "Mutebox",
+    "url": "https://www.bymutebox.com",
+    "type": "landing",
+    "tags": [
+      "light",
+      "product-photo",
+      "warm-interior-light",
+      "editorial-whitespace",
+      "small-type"
+    ],
+    "note": "Acoustic booths photographed in warm raking light, a butterfly on stone for calm, and tiny type in large white margins. An office product sold through mood and light, like furniture.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/mutebox-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/mutebox-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Mutebox",
+      "fonts": [
+        "OldschoolGrotesk Medium",
+        "OldschoolGrotesk Regular"
+      ],
+      "type": {
+        "h1": {
+          "font": "OldschoolGrotesk Regular",
+          "size": 13,
+          "weight": "400",
+          "lineHeight": 2,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        },
+        "h2": {
+          "font": "OldschoolGrotesk Medium",
+          "size": 20,
+          "weight": "400",
+          "lineHeight": 1.25,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        },
+        "h3": null,
+        "body": {
+          "font": "OldschoolGrotesk Medium",
+          "size": 20,
+          "weight": "400",
+          "lineHeight": 1.25,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#ffffff",
+          "#000000"
+        ],
+        "text": [
+          "#000000",
+          "#ffffff"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": null
+    }
+  },
+  {
     "id": "mux-landing",
     "site": "Mux",
     "url": "https://www.mux.com",
@@ -40537,6 +41484,155 @@
         }
       ],
       "contentWidth": 1276
+    }
+  },
+  {
+    "id": "neusicht-landing",
+    "site": "Neusicht",
+    "url": "https://www.neusicht.com",
+    "type": "landing",
+    "tags": [
+      "light",
+      "portrait-grid",
+      "tiny-text",
+      "clinic",
+      "swiss-layout"
+    ],
+    "note": "Four large studio portraits of the doctors fill the page, with the practice's address and hours in tiny type at the top. A medical practice sells trust through faces at full size, not stock icons.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/neusicht-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/neusicht-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Augenarzt Linz - Neusicht",
+      "fonts": [
+        "Saans"
+      ],
+      "type": {
+        "h1": {
+          "font": "Saans",
+          "size": 39,
+          "weight": "500",
+          "lineHeight": 1.2,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        },
+        "h2": {
+          "font": "Saans",
+          "size": 39,
+          "weight": "500",
+          "lineHeight": 1,
+          "letterSpacing": "normal",
+          "color": "rgb(177, 177, 177)"
+        },
+        "h3": {
+          "font": "Saans",
+          "size": 30,
+          "weight": "500",
+          "lineHeight": 1.13,
+          "letterSpacing": "normal",
+          "color": "rgb(255, 255, 255)"
+        },
+        "body": {
+          "font": "Saans",
+          "size": 16,
+          "weight": "500",
+          "lineHeight": 1.19,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#f0f0f0"
+        ],
+        "text": [
+          "#000000",
+          "#ffffff"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": null
+    }
+  },
+  {
+    "id": "nkora-landing",
+    "site": "NKORA",
+    "url": "https://nkora.co.uk",
+    "type": "landing",
+    "tags": [
+      "olive",
+      "thin-caps",
+      "coffee-photo",
+      "photo-grid",
+      "locations-chips"
+    ],
+    "note": "'CONSIDERED CUPS' in thin caps over a close-up pour, then an olive block with the story in thin caps and shop photos. A coffee chain builds its brand from one thin typeface and one olive.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/nkora-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/nkora-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "NKORA — Speciality coffee",
+      "fonts": [
+        "NKORA V4 Regular",
+        "sans-serif",
+        "Quicksand"
+      ],
+      "type": {
+        "h1": {
+          "font": "NKORA V4 Regular",
+          "size": 80,
+          "weight": "400",
+          "lineHeight": 1,
+          "letterSpacing": "normal",
+          "color": "rgb(254, 245, 179)"
+        },
+        "h2": null,
+        "h3": null,
+        "body": {
+          "font": "NKORA V4 Regular",
+          "size": 18,
+          "weight": "400",
+          "lineHeight": 1.6,
+          "letterSpacing": "normal",
+          "color": "rgb(254, 245, 179)"
+        }
+      },
+      "colors": {
+        "background": "#24201a",
+        "surfaces": [
+          "#24201a",
+          "#6f7531",
+          "#fef5b3"
+        ],
+        "text": [
+          "#fef5b3",
+          "#000000",
+          "#6f7531"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": 1200
     }
   },
   {
@@ -41546,6 +42642,123 @@
       },
       "buttons": [],
       "contentWidth": 1512
+    }
+  },
+  {
+    "id": "old-tom-capital-landing",
+    "site": "Old Tom Capital",
+    "url": "https://www.oldtomcapital.com",
+    "type": "landing",
+    "tags": [
+      "light",
+      "bw-landscape",
+      "photo-hero",
+      "beige",
+      "finance"
+    ],
+    "note": "A black-and-white photo of rolling golf links with a tiny figure, headline at the bottom left, then beige panels. A golf investment firm sells the landscape, not the sport.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/old-tom-capital-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/old-tom-capital-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Old Tom Capital | Golf's Institutional Platform",
+      "fonts": [
+        "Messinasans"
+      ],
+      "type": {
+        "h1": {
+          "font": "Messinasans",
+          "size": 120,
+          "weight": "400",
+          "lineHeight": 0.85,
+          "letterSpacing": "-4px",
+          "color": "rgb(237, 236, 233)"
+        },
+        "h2": {
+          "font": "Messinasans",
+          "size": 24,
+          "weight": "400",
+          "lineHeight": 1.1,
+          "letterSpacing": "-0.2px",
+          "color": "rgb(38, 37, 28)"
+        },
+        "h3": {
+          "font": "Messinasans",
+          "size": 15,
+          "weight": "400",
+          "lineHeight": 1.2,
+          "letterSpacing": "-0.5px",
+          "color": "rgb(237, 236, 233)"
+        },
+        "body": {
+          "font": "Messinasans",
+          "size": 24,
+          "weight": "400",
+          "lineHeight": 1.1,
+          "letterSpacing": "-0.2px",
+          "color": "rgb(38, 37, 28)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#1c1c17",
+          "#efede7",
+          "#dad6c8",
+          "#ffffff"
+        ],
+        "text": [
+          "#726a4f",
+          "#26251c",
+          "#edece9"
+        ]
+      },
+      "buttons": [
+        {
+          "label": "EXPLORE THE PLATFORM",
+          "bg": "#dad6c8",
+          "color": "#26251c",
+          "radius": "900px",
+          "height": 40,
+          "paddingX": 16,
+          "font": "Messinasans",
+          "size": 11,
+          "weight": "600"
+        },
+        {
+          "label": "INVEST WITH US",
+          "bg": "#dad6c8",
+          "color": "#26251c",
+          "radius": "900px",
+          "height": 40,
+          "paddingX": 16,
+          "font": "Messinasans",
+          "size": 11,
+          "weight": "600"
+        },
+        {
+          "label": "EXPLORE INSIGHTS",
+          "bg": "#dad6c8",
+          "color": "#26251c",
+          "radius": "900px",
+          "height": 40,
+          "paddingX": 16,
+          "font": "Messinasans",
+          "size": 11,
+          "weight": "600"
+        }
+      ],
+      "contentWidth": 1000
     }
   },
   {
@@ -45937,6 +47150,93 @@
         }
       ],
       "contentWidth": null
+    }
+  },
+  {
+    "id": "portrait-landing",
+    "site": "Portrait",
+    "url": "https://portrait.so",
+    "type": "landing",
+    "tags": [
+      "light",
+      "soft-gradient",
+      "serif-italic",
+      "username-claim",
+      "floating-photos"
+    ],
+    "note": "A soft pastel gradient, 'forever' in serif italic, and the hero CTA is a field prefilled 'portrait.so/robert' to claim your name. A personal-page product puts the URL you will own in the hero.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/portrait-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/portrait-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Portrait – Your forever space for everything you are.",
+      "fonts": [
+        "__switzer_c2a0a8",
+        "__openRundeLatin_a561d0",
+        "__basierCircle_9ca3f5"
+      ],
+      "type": {
+        "h1": {
+          "font": "__basierCircle_9ca3f5",
+          "size": 76,
+          "weight": "500",
+          "lineHeight": 1,
+          "letterSpacing": "-3.81472px",
+          "color": "rgb(8, 48, 76)"
+        },
+        "h2": {
+          "font": "__basierCircle_9ca3f5",
+          "size": 49,
+          "weight": "500",
+          "lineHeight": 1.04,
+          "letterSpacing": "-1.56252px",
+          "color": "rgb(8, 48, 76)"
+        },
+        "h3": {
+          "font": "__basierCircle_9ca3f5",
+          "size": 36,
+          "weight": "600",
+          "lineHeight": 1.25,
+          "letterSpacing": "-0.45px",
+          "color": "rgb(8, 48, 76)"
+        },
+        "body": {
+          "font": "__switzer_c2a0a8",
+          "size": 18,
+          "weight": "400",
+          "lineHeight": 1.5,
+          "letterSpacing": "normal",
+          "color": "oklab(0.298238 -0.0285446 -0.0598798 / 0.7)"
+        }
+      },
+      "colors": {
+        "background": "#f7f7f7",
+        "surfaces": [
+          "#ffffff",
+          "#eeeeee",
+          "#e8f1ff",
+          "#2c2c2c",
+          "#dff3ff"
+        ],
+        "text": [
+          "#353535",
+          "#797979",
+          "#08304c",
+          "#2c2c2c"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": 1536
     }
   },
   {
@@ -50490,6 +51790,87 @@
     }
   },
   {
+    "id": "rux-software-landing",
+    "site": "RUX Software",
+    "url": "https://ruxsoftware.com",
+    "type": "landing",
+    "tags": [
+      "light",
+      "halftone-photo",
+      "orange-duotone",
+      "heavy-headline",
+      "industrial"
+    ],
+    "note": "A heavy black headline over an orange halftone image of oil pumps and machinery. Enterprise software for rental and service companies shows their industrial world, printed like a poster.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/rux-software-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/rux-software-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "RUX | Equipment Rental, Field Service, and Asset Management Software",
+      "fonts": [
+        "VC Nudge"
+      ],
+      "type": {
+        "h1": {
+          "font": "VC Nudge",
+          "size": 80,
+          "weight": "700",
+          "lineHeight": 1.1,
+          "letterSpacing": "-0.8px",
+          "color": "rgb(41, 26, 2)"
+        },
+        "h2": {
+          "font": "VC Nudge",
+          "size": 60,
+          "weight": "700",
+          "lineHeight": 1,
+          "letterSpacing": "-0.6px",
+          "color": "rgb(41, 26, 2)"
+        },
+        "h3": {
+          "font": "VC Nudge",
+          "size": 30,
+          "weight": "700",
+          "lineHeight": 1.1,
+          "letterSpacing": "-0.3px",
+          "color": "rgb(236, 233, 228)"
+        },
+        "body": {
+          "font": "VC Nudge",
+          "size": 21,
+          "weight": "600",
+          "lineHeight": 1.3,
+          "letterSpacing": "-0.21px",
+          "color": "rgb(41, 26, 2)"
+        }
+      },
+      "colors": {
+        "background": "#ece9e4",
+        "surfaces": [
+          "#000000",
+          "#ece9e4",
+          "#291a02"
+        ],
+        "text": [
+          "#291a02",
+          "#ece9e4"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": 1440
+    }
+  },
+  {
     "id": "sagmeister-walsh-landing",
     "site": "Sagmeister Walsh",
     "url": "https://sagmeister.com",
@@ -50769,6 +52150,102 @@
         }
       ],
       "contentWidth": 1280
+    }
+  },
+  {
+    "id": "savate-specimen-landing",
+    "site": "Savate Specimen",
+    "url": "https://plombtype.com/savate",
+    "type": "landing",
+    "tags": [
+      "blue",
+      "specimen",
+      "3d-character",
+      "giant-numerals",
+      "yellow-display"
+    ],
+    "note": "A toy-like boxer figure stands behind the typeface name in yellow, the weights listed on both sides, then '1825' set huge. A display face sold with a mascot that shares its character.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/savate-specimen-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/savate-specimen-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Savate — Plomb Type",
+      "fonts": [
+        "Baudricourt",
+        "Savate"
+      ],
+      "type": {
+        "h1": {
+          "font": "Baudricourt",
+          "size": 16,
+          "weight": "350",
+          "lineHeight": "normal",
+          "letterSpacing": "0.32px",
+          "color": "rgb(255, 251, 115)"
+        },
+        "h2": {
+          "font": "Savate",
+          "size": 204,
+          "weight": "700",
+          "lineHeight": "normal",
+          "letterSpacing": "normal",
+          "color": "rgb(255, 251, 115)"
+        },
+        "h3": {
+          "font": "Baudricourt",
+          "size": 12,
+          "weight": "400",
+          "lineHeight": "normal",
+          "letterSpacing": "0.24px",
+          "color": "rgb(0, 0, 0)"
+        },
+        "body": {
+          "font": "Savate",
+          "size": 199,
+          "weight": "800",
+          "lineHeight": 0.85,
+          "letterSpacing": "normal",
+          "color": "rgb(25, 184, 70)"
+        }
+      },
+      "colors": {
+        "background": "#6bbcff",
+        "surfaces": [
+          "#6bbcff",
+          "#ffffff",
+          "#fffb73"
+        ],
+        "text": [
+          "#fffb73",
+          "#6bbcff",
+          "#ff1f3d",
+          "#01283f"
+        ]
+      },
+      "buttons": [
+        {
+          "label": "GET THE FONT!",
+          "bg": "#fffb73",
+          "color": "#ff1f3d",
+          "radius": "7.1928px",
+          "height": 55,
+          "paddingX": 11,
+          "font": "Baudricourt",
+          "size": 22,
+          "weight": "700"
+        }
+      ],
+      "contentWidth": 1344
     }
   },
   {

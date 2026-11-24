@@ -1,0 +1,397 @@
+[
+ {
+  "id": "mercury-landing",
+  "site": "Mercury",
+  "url": "https://mercury.com",
+  "img": "/demo/specimens/mercury-landing.jpg",
+  "stage": "#e9e6df",
+  "bg": "#171721",
+  "fonts": [
+   "arcadiaDisplay",
+   "arcadia"
+  ],
+  "head": {
+   "box": [
+    384,
+    141,
+    672,
+    59
+   ],
+   "font": "arcadiaDisplay",
+   "size": 49,
+   "lh": 1.1,
+   "weight": "480",
+   "ls": "normal",
+   "color": "#ededf3",
+   "text": "Radically different banking"
+  },
+  "button": {
+   "box": [
+    701,
+    311,
+    146,
+    40
+   ],
+   "label": "Open account",
+   "h": 40,
+   "radius": "32px",
+   "bg": "#5266eb",
+   "color": "#ffffff",
+   "font": "arcadia",
+   "size": 16,
+   "weight": "420",
+   "px": "20px"
+  },
+  "body": {
+   "box": [
+    384,
+    210,
+    672,
+    57
+   ],
+   "font": "arcadia",
+   "size": 21,
+   "lh": 1.35,
+   "weight": "360",
+   "color": "#c3c3cc"
+  },
+  "marks": [
+   {
+    "kind": "head",
+    "box": [
+     26.67,
+     14.1,
+     46.67,
+     5.9
+    ],
+    "label": "arcadiaDisplay 49/1.1 w480"
+   },
+   {
+    "kind": "button",
+    "box": [
+     48.68,
+     31.1,
+     10.14,
+     4.0
+    ],
+    "label": "40px · r 32px · #5266eb"
+   },
+   {
+    "kind": "body",
+    "box": [
+     26.67,
+     21.0,
+     46.67,
+     5.7
+    ],
+    "label": "body 21/1.35 · #c3c3cc"
+   }
+  ]
+ },
+ {
+  "id": "dia-landing",
+  "site": "Dia",
+  "url": "https://www.diabrowser.com",
+  "img": "/demo/specimens/dia-landing.jpg",
+  "stage": "#f3e6b5",
+  "bg": "#fbfaf6",
+  "fonts": [
+   "Exposure VAR"
+  ],
+  "head": {
+   "box": [
+    378,
+    113,
+    684,
+    47
+   ],
+   "font": "Exposure VAR",
+   "size": 39,
+   "lh": 1.1,
+   "weight": "500",
+   "ls": "-1.55172px",
+   "color": "#ffffff",
+   "text": "More than a browser. A better workday."
+  },
+  "button": null,
+  "body": null,
+  "marks": [
+   {
+    "kind": "head",
+    "box": [
+     26.25,
+     11.3,
+     47.5,
+     4.7
+    ],
+    "label": "Exposure VAR 39/1.1 w500"
+   }
+  ]
+ },
+ {
+  "id": "granola-landing",
+  "site": "Granola",
+  "url": "https://www.granola.ai",
+  "img": "/demo/specimens/granola-landing.jpg",
+  "stage": "#e7ebdc",
+  "bg": "#ffffff",
+  "fonts": [
+   "quadrant",
+   "melange"
+  ],
+  "head": {
+   "box": [
+    120,
+    302,
+    517,
+    354
+   ],
+   "font": "quadrant",
+   "size": 86,
+   "lh": 0.93,
+   "weight": "400",
+   "ls": "-1.728px",
+   "color": "#292929",
+   "text": "The AI notepad for back-to-back meetings"
+  },
+  "button": {
+   "box": [
+    120,
+    761,
+    206,
+    56
+   ],
+   "label": "Download for free",
+   "h": 56,
+   "radius": "3.35544e+07px",
+   "bg": "#5b6f00",
+   "color": "#fcfcf8",
+   "font": "melange",
+   "size": 16,
+   "weight": "430",
+   "px": "24px"
+  },
+  "body": {
+   "box": [
+    120,
+    673,
+    247,
+    56
+   ],
+   "font": "melange",
+   "size": 20,
+   "lh": 1.4,
+   "weight": "400",
+   "color": "#0e0f0c"
+  },
+  "marks": [
+   {
+    "kind": "head",
+    "box": [
+     8.33,
+     30.2,
+     35.9,
+     35.4
+    ],
+    "label": "quadrant 86/0.93 w400"
+   },
+   {
+    "kind": "button",
+    "box": [
+     8.33,
+     76.1,
+     14.31,
+     5.6
+    ],
+    "label": "56px · r 3.35544e+07px · #5b6f00"
+   },
+   {
+    "kind": "body",
+    "box": [
+     8.33,
+     67.3,
+     17.15,
+     5.6
+    ],
+    "label": "body 20/1.4 · #0e0f0c"
+   }
+  ]
+ },
+ {
+  "id": "superhuman-landing",
+  "site": "Superhuman",
+  "url": "https://superhuman.com",
+  "img": "/demo/specimens/superhuman-landing.jpg",
+  "stage": "#dfe3f3",
+  "bg": "#ffffff",
+  "fonts": [
+   "Super Sans VF"
+  ],
+  "head": {
+   "box": [
+    417,
+    163,
+    607,
+    138
+   ],
+   "font": "Super Sans VF",
+   "size": 64,
+   "lh": 0.96,
+   "weight": "440",
+   "ls": "normal",
+   "color": "#ffffff",
+   "text": "Superpowers, everywhere you work"
+  },
+  "button": {
+   "box": [
+    613,
+    400,
+    214,
+    50
+   ],
+   "label": "Get Superhuman",
+   "h": 50,
+   "radius": "12px",
+   "bg": "#000000",
+   "color": "#ffffff",
+   "font": "Super Sans VF",
+   "size": 16,
+   "weight": "360",
+   "px": "16px"
+  },
+  "body": {
+   "box": [
+    438,
+    319,
+    564,
+    31
+   ],
+   "font": "Super Sans VF",
+   "size": 26,
+   "lh": 1.3,
+   "weight": "360",
+   "color": "#ffffff"
+  },
+  "marks": [
+   {
+    "kind": "head",
+    "box": [
+     28.96,
+     16.3,
+     42.15,
+     13.8
+    ],
+    "label": "Super Sans VF 64/0.96 w440"
+   },
+   {
+    "kind": "button",
+    "box": [
+     42.57,
+     40.0,
+     14.86,
+     5.0
+    ],
+    "label": "50px · r 12px · #000000"
+   },
+   {
+    "kind": "body",
+    "box": [
+     30.42,
+     31.9,
+     39.17,
+     3.1
+    ],
+    "label": "body 26/1.3 · #ffffff"
+   }
+  ]
+ },
+ {
+  "id": "resend-landing",
+  "site": "Resend",
+  "url": "https://resend.com",
+  "img": "/demo/specimens/resend-landing.jpg",
+  "stage": "#1a1a1a",
+  "bg": "#000000",
+  "fonts": [
+   "domaine",
+   "Inter Website"
+  ],
+  "head": {
+   "box": [
+    168,
+    333,
+    403,
+    229
+   ],
+   "font": "domaine",
+   "size": 96,
+   "lh": 1,
+   "weight": "400",
+   "ls": "-0.96px",
+   "color": "#f0f0f0",
+   "text": "Email for\ndevelopers"
+  },
+  "button": {
+   "box": [
+    168,
+    650,
+    133,
+    48
+   ],
+   "label": "Get started",
+   "h": 48,
+   "radius": "16px",
+   "bg": "#000000",
+   "color": "#ffffff",
+   "font": "Inter Website",
+   "size": 16,
+   "weight": "600",
+   "px": "20px"
+  },
+  "body": {
+   "box": [
+    168,
+    567,
+    455,
+    48
+   ],
+   "font": "Inter Website",
+   "size": 18,
+   "lh": 1.5,
+   "weight": "400",
+   "color": "#a1a4a5"
+  },
+  "marks": [
+   {
+    "kind": "head",
+    "box": [
+     11.67,
+     33.3,
+     27.99,
+     22.9
+    ],
+    "label": "domaine 96/1 w400"
+   },
+   {
+    "kind": "button",
+    "box": [
+     11.67,
+     65.0,
+     9.24,
+     4.8
+    ],
+    "label": "48px · r 16px · #000000"
+   },
+   {
+    "kind": "body",
+    "box": [
+     11.67,
+     56.7,
+     31.6,
+     4.8
+    ],
+    "label": "body 18/1.5 · #a1a4a5"
+   }
+  ]
+ }
+]
