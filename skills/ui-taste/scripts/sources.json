@@ -8167,5 +8167,186 @@
    "ruled-newspaper"
   ],
   "note": "A big serif masthead and ruled header like a newspaper, then a yellow hero where every line of the headline sits on its own white highlight strip, and courses as poster tiles. An independent publisher with a strong print voice."
+ },
+ {
+  "site": "CSS Tricks",
+  "type": "landing",
+  "url": "https://css-tricks.com",
+  "tags": [
+   "light",
+   "pastel-gradient-cards",
+   "condensed-headlines",
+   "community-avatars",
+   "blob-hero",
+   "playful-editorial"
+  ],
+  "note": "A soft blob hero ringed with contributor avatars, then article cards with pastel gradient edges and tall condensed headlines. A tech publication with a crafted, human look."
+ },
+ {
+  "site": "Sidebar",
+  "type": "landing",
+  "url": "https://sidebar.io",
+  "tags": [
+   "light",
+   "orange-day-blocks",
+   "giant-date-numerals",
+   "daily-link-list",
+   "newsletter-signup"
+  ],
+  "note": "Each day of links is introduced by a full orange block with the date set huge in outlined numerals ('11/24 Tuesday'). A daily link list given rhythm by its own calendar."
+ },
+ {
+  "site": "Eye on Design",
+  "type": "landing",
+  "url": "https://eyeondesign.aiga.org",
+  "tags": [
+   "light",
+   "giant-icon-hero",
+   "green-and-black",
+   "magazine-grid",
+   "typography-thumbnails"
+  ],
+  "note": "A huge green and black eye graphic fills the lead story, then a grid where type specimens ('Ciao') sit next to photos. A design magazine whose covers are typographic."
+ },
+ {
+  "site": "Designboom",
+  "type": "landing",
+  "url": "https://www.designboom.com",
+  "tags": [
+   "light",
+   "full-bleed-photo-lead",
+   "lowercase-wordmark",
+   "yellow-feature-band",
+   "illustrated-chapter"
+  ],
+  "note": "A full-width photo of a soft textile creature with a lowercase headline over it, then a bright yellow band with an illustrated 'states of motion' chapter. Architecture and design news with art-directed chapters."
+ },
+ {
+  "site": "Typotheque",
+  "type": "landing",
+  "url": "https://www.typotheque.com",
+  "tags": [
+   "dark-to-colour",
+   "stacked-specimen-hero",
+   "colour-category-tiles",
+   "blog-specimens"
+  ],
+  "note": "'Nara Slab' stacked five times in shrinking sizes as the hero, then colour tiles for each category (variable fonts, superfamilies, global scripts). The specimen is the hero."
+ },
+ {
+  "site": "Village",
+  "type": "landing",
+  "url": "https://vllg.com",
+  "tags": [
+   "light",
+   "specimen-list-as-nav",
+   "each-name-in-its-face",
+   "gradient-letter",
+   "foundry-index"
+  ],
+  "note": "The font list is the homepage: each family's name set in itself (Esperanza, Cosmica Mono, Obbligato...) as a stack of ruled lines, next to one big gradient letter. An index that is also the specimen."
+ },
+ {
+  "site": "Optimo",
+  "type": "landing",
+  "url": "https://optimo.ch",
+  "tags": [
+   "light",
+   "red-display-type",
+   "kinetic-letter-collage",
+   "black-band",
+   "specimen-blocks"
+  ],
+  "note": "'Antique Mono Legacy' in big red letters, then a black band of letters sliding and overlapping ('mica', 'itmica'), then colour blocks per family. A Swiss foundry with movement."
+ },
+ {
+  "site": "NaN",
+  "type": "landing",
+  "url": "https://www.nan.xyz",
+  "tags": [
+   "lime-field",
+   "giant-heavy-sample",
+   "type-tester-controls",
+   "mono-intro",
+   "hand-drawn-scribbles"
+  ],
+  "note": "A lime green page with a monospace intro crossed by a hand-drawn scribble, then 'Little Flying Elephant' in a huge heavy sample with live tester controls. Playful and loud."
+ },
+ {
+  "site": "Tightype",
+  "type": "landing",
+  "url": "https://tightype.com",
+  "tags": [
+   "light",
+   "mixed-glyph-specimen",
+   "arrows-and-symbols",
+   "grey-cards",
+   "typographic-poem"
+  ],
+  "note": "Each family is a grey card where its name is set as a poem of glyphs, arrows, brackets and numbers ('Atelier ↳ Giotti / Ⅲ “World” Heritage / [Ionic] 4M'). The character set shown off as copy."
+ },
+ {
+  "site": "Collletttivo",
+  "type": "landing",
+  "url": "https://www.collletttivo.it",
+  "tags": [
+   "light",
+   "giant-cropped-letter",
+   "orange-field",
+   "open-source-foundry",
+   "ag-grid"
+  ],
+  "note": "One huge cropped 'C' on an orange field and a small grid of 'Ag' samples. An open-source foundry with a single typographic move."
+ },
+ {
+  "site": "Uncut",
+  "type": "landing",
+  "url": "https://uncut.wtf",
+  "tags": [
+   "light-grey",
+   "giant-blob-wordmark",
+   "category-counts",
+   "list-ui",
+   "minimal"
+  ],
+  "note": "A huge, soft, blobby wordmark across the top, then the catalogue as four big rows with counts (Sans serif 66, Serif 27, Monospace 23, Display 47). Navigation as the page."
+ },
+ {
+  "site": "JetBrains Mono",
+  "type": "landing",
+  "url": "https://www.jetbrains.com/lp/mono",
+  "tags": [
+   "dark",
+   "mono-headline-with-cursor",
+   "code-sample",
+   "giant-letter-comparison",
+   "annotated-specimen"
+  ],
+  "note": "'JetBrains Mono. A typeface for developers_' set in the font with a blinking cursor, then giant 'An' and 'Src:' specimens annotated with what each design choice fixes. A specimen that explains its decisions."
+ },
+ {
+  "site": "Recursive",
+  "type": "landing",
+  "url": "https://www.recursive.design",
+  "tags": [
+   "dark-to-light",
+   "kinetic-letter-grid",
+   "variable-axis-sliders",
+   "code-comment-layout"
+  ],
+  "note": "The word 'recursive' set in a grid where every letter shifts weight and slant, then a page laid out like code comments with live sliders for each variable axis. The font's axes are the interaction."
+ },
+ {
+  "site": "Phosphor Icons",
+  "type": "landing",
+  "url": "https://phosphoricons.com",
+  "tags": [
+   "light",
+   "illustrated-desk-objects",
+   "icon-customiser",
+   "search-bar",
+   "warm-grey"
+  ],
+  "note": "A flat illustration of a synth keyboard, a watch and paper clips made of the icon style, then a live toolbar (weight, size, colour) over the icon grid. The product's style becomes the scene."
  }
 ]

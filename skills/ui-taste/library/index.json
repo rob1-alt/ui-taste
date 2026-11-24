@@ -18545,6 +18545,71 @@
     }
   },
   {
+    "id": "collletttivo-landing",
+    "site": "Collletttivo",
+    "url": "https://www.collletttivo.it",
+    "type": "landing",
+    "tags": [
+      "light",
+      "giant-cropped-letter",
+      "orange-field",
+      "open-source-foundry",
+      "ag-grid"
+    ],
+    "note": "One huge cropped 'C' on an orange field and a small grid of 'Ag' samples. An open-source foundry with a single typographic move.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/collletttivo-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/collletttivo-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Collletttivo · CLT",
+      "fonts": [
+        "Ronzino"
+      ],
+      "type": {
+        "h1": {
+          "font": "Ronzino",
+          "size": 23,
+          "weight": "400",
+          "lineHeight": 1.2,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        },
+        "h2": null,
+        "h3": null,
+        "body": {
+          "font": "Ronzino",
+          "size": 13,
+          "weight": "400",
+          "lineHeight": 1.5,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#fcfdfe",
+          "#000000"
+        ],
+        "text": [
+          "#000000"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": 800
+    }
+  },
+  {
     "id": "commercial-type-landing",
     "site": "Commercial Type",
     "url": "https://commercialtype.com",
@@ -19575,6 +19640,128 @@
     }
   },
   {
+    "id": "css-tricks-landing",
+    "site": "CSS Tricks",
+    "url": "https://css-tricks.com",
+    "type": "landing",
+    "tags": [
+      "light",
+      "pastel-gradient-cards",
+      "condensed-headlines",
+      "community-avatars",
+      "blob-hero",
+      "playful-editorial"
+    ],
+    "note": "A soft blob hero ringed with contributor avatars, then article cards with pastel gradient edges and tall condensed headlines. A tech publication with a crafted, human look.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/css-tricks-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/css-tricks-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "CSS-Tricks - Learning for front-end designers and developers",
+      "fonts": [
+        "Iowan Old Style",
+        "NewTitle",
+        "SFMono-Regular"
+      ],
+      "type": {
+        "h1": {
+          "font": "NewTitle",
+          "size": 92,
+          "weight": "800",
+          "lineHeight": 1,
+          "letterSpacing": "normal",
+          "color": "rgb(17, 17, 17)"
+        },
+        "h2": {
+          "font": "NewTitle",
+          "size": 65,
+          "weight": "800",
+          "lineHeight": 1,
+          "letterSpacing": "normal",
+          "color": "rgb(17, 17, 17)"
+        },
+        "h3": {
+          "font": "NewTitle",
+          "size": 49,
+          "weight": "800",
+          "lineHeight": 1,
+          "letterSpacing": "normal",
+          "color": "rgb(17, 17, 17)"
+        },
+        "body": {
+          "font": "Iowan Old Style",
+          "size": 23,
+          "weight": "800",
+          "lineHeight": 1.55,
+          "letterSpacing": "normal",
+          "color": "rgb(17, 17, 17)"
+        }
+      },
+      "colors": {
+        "background": "#fff2df",
+        "surfaces": [
+          "#ffffff",
+          "#1d2327",
+          "#000000",
+          "#fff2df",
+          "#5e5e5e"
+        ],
+        "text": [
+          "#111111",
+          "#777777",
+          "#474747",
+          "#ffffff"
+        ]
+      },
+      "buttons": [
+        {
+          "label": "LATEST ARTICLES",
+          "bg": "#5e5e5e",
+          "color": "#ffffff",
+          "radius": "4px",
+          "height": 62,
+          "paddingX": 29,
+          "font": "NewTitle",
+          "size": 38,
+          "weight": "700"
+        },
+        {
+          "label": "MEMBERSHIPS",
+          "bg": "#5e5e5e",
+          "color": "#ffffff",
+          "radius": "4px",
+          "height": 36,
+          "paddingX": 29,
+          "font": "NewTitle",
+          "size": 38,
+          "weight": "700"
+        },
+        {
+          "label": "Back to Top\n⌃",
+          "bg": "#ffffff",
+          "color": "#111111",
+          "radius": "0px 8px",
+          "height": 45,
+          "paddingX": 0,
+          "font": "Iowan Old Style",
+          "size": 19,
+          "weight": "400"
+        }
+      ],
+      "contentWidth": 1600
+    }
+  },
+  {
     "id": "cursor-landing",
     "site": "Cursor",
     "url": "https://cursor.com",
@@ -20541,6 +20728,103 @@
         }
       ],
       "contentWidth": 1400
+    }
+  },
+  {
+    "id": "designboom-landing",
+    "site": "Designboom",
+    "url": "https://www.designboom.com",
+    "type": "landing",
+    "tags": [
+      "light",
+      "full-bleed-photo-lead",
+      "lowercase-wordmark",
+      "yellow-feature-band",
+      "illustrated-chapter"
+    ],
+    "note": "A full-width photo of a soft textile creature with a lowercase headline over it, then a bright yellow band with an illustrated 'states of motion' chapter. Architecture and design news with art-directed chapters.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/designboom-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/designboom-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "designboom magazine | your first source for architecture, design & art news",
+      "fonts": [
+        "FormaDJRText",
+        "OO Theran"
+      ],
+      "type": {
+        "h1": {
+          "font": "FormaDJRText",
+          "size": 28,
+          "weight": "700",
+          "lineHeight": 1,
+          "letterSpacing": "-0.6048px",
+          "color": "rgb(0, 0, 0)"
+        },
+        "h2": {
+          "font": "FormaDJRText",
+          "size": 44,
+          "weight": "700",
+          "lineHeight": 1,
+          "letterSpacing": "-0.9504px",
+          "color": "rgb(0, 0, 0)"
+        },
+        "h3": {
+          "font": "FormaDJRText",
+          "size": 21,
+          "weight": "500",
+          "lineHeight": 1,
+          "letterSpacing": "-0.532924px",
+          "color": "rgb(0, 0, 0)"
+        },
+        "body": {
+          "font": "FormaDJRText",
+          "size": 58,
+          "weight": "700",
+          "lineHeight": 1,
+          "letterSpacing": "-1.24416px",
+          "color": "rgb(255, 255, 255)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#090909",
+          "#ffff00",
+          "#ffffff",
+          "#f2f2f2",
+          "#000000"
+        ],
+        "text": [
+          "#000000",
+          "#ffffff",
+          "#090909"
+        ]
+      },
+      "buttons": [
+        {
+          "label": "HIGHLIGHTS",
+          "bg": "#000000",
+          "color": "#ffffff",
+          "radius": "0px",
+          "height": 34,
+          "paddingX": 12,
+          "font": "OO Theran",
+          "size": 18,
+          "weight": "400"
+        }
+      ],
+      "contentWidth": 1020
     }
   },
   {
@@ -23049,6 +23333,83 @@
       },
       "buttons": [],
       "contentWidth": 1440
+    }
+  },
+  {
+    "id": "eye-on-design-landing",
+    "site": "Eye on Design",
+    "url": "https://eyeondesign.aiga.org",
+    "type": "landing",
+    "tags": [
+      "light",
+      "giant-icon-hero",
+      "green-and-black",
+      "magazine-grid",
+      "typography-thumbnails"
+    ],
+    "note": "A huge green and black eye graphic fills the lead story, then a grid where type specimens ('Ciao') sit next to photos. A design magazine whose covers are typographic.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/eye-on-design-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/eye-on-design-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Eye on Design – AIGA Eye on Design",
+      "fonts": [
+        "ChapeauBold",
+        "ChapeauMedium",
+        "ChapeauBlack"
+      ],
+      "type": {
+        "h1": {
+          "font": "ChapeauMedium",
+          "size": 16,
+          "weight": "400",
+          "lineHeight": 1.5,
+          "letterSpacing": "0.5px",
+          "color": "rgb(0, 0, 0)"
+        },
+        "h2": null,
+        "h3": {
+          "font": "ChapeauBold",
+          "size": 24,
+          "weight": "400",
+          "lineHeight": 1.2,
+          "letterSpacing": "1px",
+          "color": "rgb(0, 0, 0)"
+        },
+        "body": {
+          "font": "MaisonNeueMedium",
+          "size": 14,
+          "weight": "400",
+          "lineHeight": 1.5,
+          "letterSpacing": "0.5px",
+          "color": "rgb(82, 75, 72)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#ffffff",
+          "#ff8c8c"
+        ],
+        "text": [
+          "#000000",
+          "#524b48",
+          "#ffffff",
+          "#ff8c8c"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": null
     }
   },
   {
@@ -31254,6 +31615,109 @@
     }
   },
   {
+    "id": "jetbrains-mono-landing",
+    "site": "JetBrains Mono",
+    "url": "https://www.jetbrains.com/lp/mono",
+    "type": "landing",
+    "tags": [
+      "dark",
+      "mono-headline-with-cursor",
+      "code-sample",
+      "giant-letter-comparison",
+      "annotated-specimen"
+    ],
+    "note": "'JetBrains Mono. A typeface for developers_' set in the font with a blinking cursor, then giant 'An' and 'Src:' specimens annotated with what each design choice fixes. A specimen that explains its decisions.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/jetbrains-mono-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/jetbrains-mono-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "JetBrains Mono: A free and open source typeface for developers | JetBrains: Developer Tools for Professionals and Teams",
+      "fonts": [
+        "JetBrainsMono",
+        "JetBrains Sans",
+        "JetBrainsMonoItalic"
+      ],
+      "type": {
+        "h1": null,
+        "h2": {
+          "font": "JetBrainsMono",
+          "size": 50,
+          "weight": "500",
+          "lineHeight": 1.28,
+          "letterSpacing": "normal",
+          "color": "rgb(255, 255, 255)"
+        },
+        "h3": {
+          "font": "JetBrainsMono",
+          "size": 36,
+          "weight": "400",
+          "lineHeight": 1.25,
+          "letterSpacing": "normal",
+          "color": "rgb(255, 255, 255)"
+        },
+        "body": {
+          "font": "JetBrainsMono",
+          "size": 13,
+          "weight": "400",
+          "lineHeight": 1.5,
+          "letterSpacing": "0.26px",
+          "color": "rgb(205, 205, 205)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#1a1b1e",
+          "#27282c",
+          "#167dff",
+          "#19191c",
+          "#4ca6ff"
+        ],
+        "text": [
+          "#a9b7c6",
+          "#ffffff",
+          "#cdcdcd",
+          "#ffc66d"
+        ]
+      },
+      "buttons": [
+        {
+          "label": "Download font",
+          "bg": "#167dff",
+          "color": "#ffffff",
+          "radius": "24px",
+          "height": 32,
+          "paddingX": 16,
+          "font": "JetBrainsMono",
+          "size": 13,
+          "weight": "400"
+        },
+        {
+          "label": "Download font",
+          "bg": "#167dff",
+          "color": "#ffffff",
+          "radius": "24px",
+          "height": 69,
+          "paddingX": 32,
+          "font": "JetBrainsMono",
+          "size": 13,
+          "weight": "400"
+        }
+      ],
+      "contentWidth": 1276
+    }
+  },
+  {
     "id": "jitter-landing",
     "site": "Jitter",
     "url": "https://jitter.video",
@@ -37813,6 +38277,83 @@
     }
   },
   {
+    "id": "nan-landing",
+    "site": "NaN",
+    "url": "https://www.nan.xyz",
+    "type": "landing",
+    "tags": [
+      "lime-field",
+      "giant-heavy-sample",
+      "type-tester-controls",
+      "mono-intro",
+      "hand-drawn-scribbles"
+    ],
+    "note": "A lime green page with a monospace intro crossed by a hand-drawn scribble, then 'Little Flying Elephant' in a huge heavy sample with live tester controls. Playful and loud.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/nan-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/nan-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Home",
+      "fonts": [
+        "NaN Holo Mono",
+        "NaN Holo",
+        "NaN-Icons"
+      ],
+      "type": {
+        "h1": {
+          "font": "NaN Holo Mono",
+          "size": 24,
+          "weight": "300",
+          "lineHeight": 1.5,
+          "letterSpacing": "normal",
+          "color": "rgb(38, 38, 38)"
+        },
+        "h2": {
+          "font": "NaN Holo Mono",
+          "size": 32,
+          "weight": "400",
+          "lineHeight": 1.2,
+          "letterSpacing": "normal",
+          "color": "rgb(38, 38, 38)"
+        },
+        "h3": null,
+        "body": {
+          "font": "NaN Holo Mono",
+          "size": 45,
+          "weight": "300",
+          "lineHeight": 1.2,
+          "letterSpacing": "normal",
+          "color": "rgb(38, 38, 38)"
+        }
+      },
+      "colors": {
+        "background": "#262626",
+        "surfaces": [
+          "#b7ffb4",
+          "#00ff00",
+          "#262626",
+          "#0000ff"
+        ],
+        "text": [
+          "#262626",
+          "#b7ffb4"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": 1440
+    }
+  },
+  {
     "id": "nelson-clouds-collage",
     "site": "Nelson",
     "url": "(reference supplied by the user, no live URL)",
@@ -39664,6 +40205,63 @@
     }
   },
   {
+    "id": "optimo-landing",
+    "site": "Optimo",
+    "url": "https://optimo.ch",
+    "type": "landing",
+    "tags": [
+      "light",
+      "red-display-type",
+      "kinetic-letter-collage",
+      "black-band",
+      "specimen-blocks"
+    ],
+    "note": "'Antique Mono Legacy' in big red letters, then a black band of letters sliding and overlapping ('mica', 'itmica'), then colour blocks per family. A Swiss foundry with movement.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/optimo-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/optimo-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Optimo",
+      "fonts": [
+        "Plain Interface"
+      ],
+      "type": {
+        "h1": null,
+        "h2": null,
+        "h3": null,
+        "body": null
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#000000",
+          "#f7f5f2",
+          "#ff4d00",
+          "#eeebe2",
+          "#ffffff"
+        ],
+        "text": [
+          "#111111",
+          "#999999",
+          "#000000",
+          "#ee1f25"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": null
+    }
+  },
+  {
     "id": "orbit-halftone-duotone",
     "site": "Orbit",
     "url": "(reference supplied by the user, no live URL)",
@@ -41432,6 +42030,102 @@
         }
       ],
       "contentWidth": 1560
+    }
+  },
+  {
+    "id": "phosphor-icons-landing",
+    "site": "Phosphor Icons",
+    "url": "https://phosphoricons.com",
+    "type": "landing",
+    "tags": [
+      "light",
+      "illustrated-desk-objects",
+      "icon-customiser",
+      "search-bar",
+      "warm-grey"
+    ],
+    "note": "A flat illustration of a synth keyboard, a watch and paper clips made of the icon style, then a live toolbar (weight, size, colour) over the icon grid. The product's style becomes the scene.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/phosphor-icons-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/phosphor-icons-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Phosphor Icons",
+      "fonts": [
+        "Arial",
+        "Manrope",
+        "IBM Plex Mono"
+      ],
+      "type": {
+        "h1": null,
+        "h2": {
+          "font": "Manrope",
+          "size": 40,
+          "weight": "400",
+          "lineHeight": 1.3,
+          "letterSpacing": "normal",
+          "color": "rgb(60, 64, 43)"
+        },
+        "h3": null,
+        "body": {
+          "font": "Arial",
+          "size": 12,
+          "weight": "400",
+          "lineHeight": 1.33,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#eeeae3",
+          "#c4e456",
+          "#343330",
+          "#ffffff",
+          "#000000"
+        ],
+        "text": [
+          "#3c402b",
+          "#656461",
+          "#ffffff",
+          "#c4e456"
+        ]
+      },
+      "buttons": [
+        {
+          "label": "Get started",
+          "bg": "#ffffff",
+          "color": "#3c402b",
+          "radius": "8px",
+          "height": 56,
+          "paddingX": 28,
+          "font": "Manrope",
+          "size": 16,
+          "weight": "600"
+        },
+        {
+          "label": "Explore icons",
+          "bg": "#ffffff",
+          "color": "#3c402b",
+          "radius": "8px",
+          "height": 56,
+          "paddingX": 28,
+          "font": "Manrope",
+          "size": 16,
+          "weight": "600"
+        }
+      ],
+      "contentWidth": 1366
     }
   },
   {
@@ -45805,6 +46499,106 @@
     }
   },
   {
+    "id": "recursive-landing",
+    "site": "Recursive",
+    "url": "https://www.recursive.design",
+    "type": "landing",
+    "tags": [
+      "dark-to-light",
+      "kinetic-letter-grid",
+      "variable-axis-sliders",
+      "code-comment-layout"
+    ],
+    "note": "The word 'recursive' set in a grid where every letter shifts weight and slant, then a page laid out like code comments with live sliders for each variable axis. The font's axes are the interaction.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/recursive-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/recursive-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Recursive Sans & Mono",
+      "fonts": [
+        "RecVF"
+      ],
+      "type": {
+        "h1": null,
+        "h2": {
+          "font": "RecVF",
+          "size": 16,
+          "weight": "800",
+          "lineHeight": 3,
+          "letterSpacing": "normal",
+          "color": "rgb(33, 37, 41)"
+        },
+        "h3": {
+          "font": "RecVF",
+          "size": 20,
+          "weight": "800",
+          "lineHeight": 1.2,
+          "letterSpacing": "normal",
+          "color": "rgb(33, 37, 41)"
+        },
+        "body": {
+          "font": "RecVF",
+          "size": 15,
+          "weight": "400",
+          "lineHeight": 1.5,
+          "letterSpacing": "normal",
+          "color": "rgb(33, 37, 41)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#000000",
+          "#ffffff",
+          "#f2f2f3",
+          "#0050ff",
+          "#303236"
+        ],
+        "text": [
+          "#000000",
+          "#212529",
+          "#ffffff",
+          "#61646b"
+        ]
+      },
+      "buttons": [
+        {
+          "label": "Get Recursive",
+          "bg": "#0050ff",
+          "color": "#ffffff",
+          "radius": "999px",
+          "height": 34,
+          "paddingX": 16,
+          "font": "RecVF",
+          "size": 15,
+          "weight": "700"
+        },
+        {
+          "label": "",
+          "bg": "#ffffff",
+          "color": "#000000",
+          "radius": "999px",
+          "height": 32,
+          "paddingX": 6,
+          "font": "RecVF",
+          "size": 32,
+          "weight": "300"
+        }
+      ],
+      "contentWidth": 1440
+    }
+  },
+  {
     "id": "reddit-inc-landing",
     "site": "Reddit Inc",
     "url": "https://www.redditinc.com",
@@ -49055,6 +49849,90 @@
         }
       ],
       "contentWidth": 855
+    }
+  },
+  {
+    "id": "sidebar-landing",
+    "site": "Sidebar",
+    "url": "https://sidebar.io",
+    "type": "landing",
+    "tags": [
+      "light",
+      "orange-day-blocks",
+      "giant-date-numerals",
+      "daily-link-list",
+      "newsletter-signup"
+    ],
+    "note": "Each day of links is introduced by a full orange block with the date set huge in outlined numerals ('11/24 Tuesday'). A daily link list given rhythm by its own calendar.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/sidebar-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/sidebar-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Sidebar",
+      "fonts": [
+        "avenir next",
+        "IBM Plex Mono"
+      ],
+      "type": {
+        "h1": null,
+        "h2": null,
+        "h3": {
+          "font": "IBM Plex Mono",
+          "size": 56,
+          "weight": "700",
+          "lineHeight": 0.7,
+          "letterSpacing": "normal",
+          "color": "rgb(56, 61, 63)"
+        },
+        "body": {
+          "font": "avenir next",
+          "size": 16,
+          "weight": "400",
+          "lineHeight": 1.6,
+          "letterSpacing": "normal",
+          "color": "rgb(56, 61, 63)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#f36c3d",
+          "#f5906e",
+          "#f2f2f2",
+          "#ffffff",
+          "#fff3bf"
+        ],
+        "text": [
+          "#383d3f",
+          "#4c595f",
+          "#79878e",
+          "#ffffff"
+        ]
+      },
+      "buttons": [
+        {
+          "label": "SUBSCRIBE",
+          "bg": "#f36c3d",
+          "color": "#ffffff",
+          "radius": "4px",
+          "height": 38,
+          "paddingX": 12,
+          "font": "IBM Plex Mono",
+          "size": 16,
+          "weight": "400"
+        }
+      ],
+      "contentWidth": null
     }
   },
   {
@@ -55253,6 +56131,64 @@
     }
   },
   {
+    "id": "tightype-landing",
+    "site": "Tightype",
+    "url": "https://tightype.com",
+    "type": "landing",
+    "tags": [
+      "light",
+      "mixed-glyph-specimen",
+      "arrows-and-symbols",
+      "grey-cards",
+      "typographic-poem"
+    ],
+    "note": "Each family is a grey card where its name is set as a poem of glyphs, arrows, brackets and numbers ('Atelier ↳ Giotti / Ⅲ “World” Heritage / [Ionic] 4M'). The character set shown off as copy.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/tightype-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/tightype-landing-mobile.jpg",
+        "width": 390,
+        "height": 2214
+      }
+    },
+    "tokens": {
+      "title": "TIGHTYPE",
+      "fonts": [
+        "Macan"
+      ],
+      "type": {
+        "h1": null,
+        "h2": {
+          "font": "Macan",
+          "size": 12,
+          "weight": "400",
+          "lineHeight": 1.44,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        },
+        "h3": null,
+        "body": null
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#f5f5f6",
+          "#ffffff"
+        ],
+        "text": [
+          "#000000"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": null
+    }
+  },
+  {
     "id": "tinybird-landing",
     "site": "Tinybird",
     "url": "https://www.tinybird.co",
@@ -56287,6 +57223,129 @@
     }
   },
   {
+    "id": "typotheque-landing",
+    "site": "Typotheque",
+    "url": "https://www.typotheque.com",
+    "type": "landing",
+    "tags": [
+      "dark-to-colour",
+      "stacked-specimen-hero",
+      "colour-category-tiles",
+      "blog-specimens"
+    ],
+    "note": "'Nara Slab' stacked five times in shrinking sizes as the hero, then colour tiles for each category (variable fonts, superfamilies, global scripts). The specimen is the hero.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/typotheque-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/typotheque-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Typotheque type foundry - unique, high quality fonts for print and screens",
+      "fonts": [
+        "november",
+        "fedrasans_l_wdthwght_ital0wdth100wght400",
+        "fedraserif_l_wght_ital0wght400"
+      ],
+      "type": {
+        "h1": null,
+        "h2": {
+          "font": "november",
+          "size": 40,
+          "weight": "700",
+          "lineHeight": 1.2,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        },
+        "h3": {
+          "font": "november",
+          "size": 20,
+          "weight": "700",
+          "lineHeight": 1.2,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        },
+        "body": {
+          "font": "november",
+          "size": 16,
+          "weight": "400",
+          "lineHeight": 1.5,
+          "letterSpacing": "0.16px",
+          "color": "rgb(255, 255, 255)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#ffffff",
+          "#000000",
+          "#ff6600",
+          "#ffbacf",
+          "#00b6de"
+        ],
+        "text": [
+          "#000000",
+          "#999999",
+          "#ffffff"
+        ]
+      },
+      "buttons": [
+        {
+          "label": "",
+          "bg": "#f8f8f8",
+          "color": "#000000",
+          "radius": "9999px",
+          "height": 60,
+          "paddingX": 0,
+          "font": "november",
+          "size": 13,
+          "weight": "400"
+        },
+        {
+          "label": "Log In",
+          "bg": "#f8f8f8",
+          "color": "#000000",
+          "radius": "9999px",
+          "height": 60,
+          "paddingX": 0,
+          "font": "november",
+          "size": 13,
+          "weight": "400"
+        },
+        {
+          "label": "",
+          "bg": "#f8f8f8",
+          "color": "#000000",
+          "radius": "9999px",
+          "height": 60,
+          "paddingX": 0,
+          "font": "november",
+          "size": 13,
+          "weight": "400"
+        },
+        {
+          "label": "View All Posts",
+          "bg": "#f8f8f8",
+          "color": "#000000",
+          "radius": "0px",
+          "height": 60,
+          "paddingX": 0,
+          "font": "november",
+          "size": 13,
+          "weight": "400"
+        }
+      ],
+      "contentWidth": 1280
+    }
+  },
+  {
     "id": "udio-landing",
     "site": "Udio",
     "url": "https://www.udio.com",
@@ -56498,6 +57557,78 @@
       },
       "buttons": [],
       "contentWidth": 1190
+    }
+  },
+  {
+    "id": "uncut-landing",
+    "site": "Uncut",
+    "url": "https://uncut.wtf",
+    "type": "landing",
+    "tags": [
+      "light-grey",
+      "giant-blob-wordmark",
+      "category-counts",
+      "list-ui",
+      "minimal"
+    ],
+    "note": "A huge, soft, blobby wordmark across the top, then the catalogue as four big rows with counts (Sans serif 66, Serif 27, Monospace 23, Display 47). Navigation as the page.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/uncut-landing-desktop.jpg",
+        "width": 1440,
+        "height": 1652
+      },
+      "mobile": {
+        "file": "screens/uncut-landing-mobile.jpg",
+        "width": 390,
+        "height": 953
+      }
+    },
+    "tokens": {
+      "title": "Welcome to UNCUT.wtf",
+      "fonts": [
+        "UncutSansWeb"
+      ],
+      "type": {
+        "h1": {
+          "font": "UncutSansWeb",
+          "size": 24,
+          "weight": "400",
+          "lineHeight": 1.2,
+          "letterSpacing": "normal",
+          "color": "rgb(2, 2, 3)"
+        },
+        "h2": {
+          "font": "UncutSansWeb",
+          "size": 61,
+          "weight": "400",
+          "lineHeight": 0.96,
+          "letterSpacing": "-0.918px",
+          "color": "rgb(2, 2, 3)"
+        },
+        "h3": null,
+        "body": {
+          "font": "UncutSansWeb",
+          "size": 24,
+          "weight": "400",
+          "lineHeight": 1.2,
+          "letterSpacing": "normal",
+          "color": "rgb(2, 2, 3)"
+        }
+      },
+      "colors": {
+        "background": "#b7b7b7",
+        "surfaces": [
+          "#b7b7b7",
+          "#c4c4c4"
+        ],
+        "text": [
+          "#020203"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": null
     }
   },
   {
@@ -57685,6 +58816,81 @@
           "#ededed",
           "#52a8ff",
           "#0a0a0a"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": null
+    }
+  },
+  {
+    "id": "village-landing",
+    "site": "Village",
+    "url": "https://vllg.com",
+    "type": "landing",
+    "tags": [
+      "light",
+      "specimen-list-as-nav",
+      "each-name-in-its-face",
+      "gradient-letter",
+      "foundry-index"
+    ],
+    "note": "The font list is the homepage: each family's name set in itself (Esperanza, Cosmica Mono, Obbligato...) as a stack of ruled lines, next to one big gradient letter. An index that is also the specimen.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/village-landing-desktop.jpg",
+        "width": 1440,
+        "height": 1909
+      },
+      "mobile": {
+        "file": "screens/village-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Labor and Wait",
+      "fonts": [
+        "Netherlandish Onion Regular",
+        "Cosmica Regular",
+        "Esperanza Stencil Roman"
+      ],
+      "type": {
+        "h1": {
+          "font": "Netherlandish Onion Regular",
+          "size": 12,
+          "weight": "400",
+          "lineHeight": 1.5,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        },
+        "h2": {
+          "font": "Netherlandish Onion Regular",
+          "size": 12,
+          "weight": "400",
+          "lineHeight": 1.5,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        },
+        "h3": null,
+        "body": {
+          "font": "Cosmica Regular",
+          "size": 14,
+          "weight": "400",
+          "lineHeight": 1.5,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        }
+      },
+      "colors": {
+        "background": "#fdfdfd",
+        "surfaces": [
+          "#000000"
+        ],
+        "text": [
+          "#000000",
+          "#ffffff",
+          "#424242"
         ]
       },
       "buttons": [],

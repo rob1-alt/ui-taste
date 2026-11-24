@@ -103,6 +103,8 @@ The type foundries in the library (Commercial Type, Grilli Type, Pangram Pangram
 
 Take: when the thing you sell is visual (fonts, templates, themes, photos), give each item its own poster before any list or table, and let the item's own character set the tile's colour and image.
 
+Three more ways the foundries do it: the index set in itself (Village lists each family's name in that family, one ruled line each), the character set written as copy (Tightype turns each name into a poem of glyphs, arrows and brackets), and the specimen that explains its decisions (JetBrains Mono annotates a giant 'An' with what each choice fixes; Recursive gives every variable axis a live slider).
+
 The sample words are copy, not filler. Displaay sets "Extra chewy!" and "Post Internet" in the faces they describe; Production Type lists its serif as publishing sentences ("In Quarto Book Club", "Deluxe edition, 472 pages"); Swiss Typefaces picks "star" for the letters that show the face best; Bureau Brut's manifesto is set in its own serif. When the faces differ enough, the colour can go: 205TF and OH no Type are black and white only and still read as posters.
 
 Take: write the specimen text for the face's use and mood, never a pangram, and choose the hero word for its letterforms.
