@@ -1,126 +1,273 @@
 [
  {
-  "site": "Quanta",
-  "url": "https://www.quantamagazine.org",
+  "site": "Stripe Terminal",
+  "url": "https://stripe.com/terminal",
   "type": "landing",
   "tags": [],
   "note": ""
  },
  {
-  "site": "Nautilus",
-  "url": "https://nautil.us",
+  "site": "Stripe Billing",
+  "url": "https://stripe.com/billing",
   "type": "landing",
   "tags": [],
   "note": ""
  },
  {
-  "site": "Kottke",
-  "url": "https://kottke.org",
+  "site": "Mercury Raise",
+  "url": "https://mercury.com/raise",
   "type": "landing",
   "tags": [],
   "note": ""
  },
  {
-  "site": "Craig Mod",
-  "url": "https://craigmod.com",
+  "site": "Ramp Travel",
+  "url": "https://ramp.com/travel",
   "type": "landing",
   "tags": [],
   "note": ""
  },
  {
-  "site": "Robin Sloan",
-  "url": "https://www.robinsloan.com",
+  "site": "Brex Empower",
+  "url": "https://www.brex.com/product/empower",
   "type": "landing",
   "tags": [],
   "note": ""
  },
  {
-  "site": "Frank Chimero",
-  "url": "https://frankchimero.com",
+  "site": "Rippling Spend",
+  "url": "https://www.rippling.com/spend",
   "type": "landing",
   "tags": [],
   "note": ""
  },
  {
-  "site": "Paul Graham",
-  "url": "https://paulgraham.com",
+  "site": "Notion AI",
+  "url": "https://www.notion.com/product/ai",
   "type": "landing",
   "tags": [],
   "note": ""
  },
  {
-  "site": "Maggie Appleton",
-  "url": "https://maggieappleton.com",
+  "site": "Notion Projects",
+  "url": "https://www.notion.com/product/projects",
   "type": "landing",
   "tags": [],
   "note": ""
  },
  {
-  "site": "Josh Comeau",
-  "url": "https://www.joshwcomeau.com",
+  "site": "Figma Make",
+  "url": "https://www.figma.com/make",
   "type": "landing",
   "tags": [],
   "note": ""
  },
  {
-  "site": "Lynn Fisher",
-  "url": "https://lynnandtonic.com",
+  "site": "Figma Buzz",
+  "url": "https://www.figma.com/buzz",
   "type": "landing",
   "tags": [],
   "note": ""
  },
  {
-  "site": "Rauno",
-  "url": "https://rauno.me",
+  "site": "Framer AI",
+  "url": "https://www.framer.com/ai",
   "type": "landing",
   "tags": [],
   "note": ""
  },
  {
-  "site": "Emil Kowalski",
-  "url": "https://emilkowal.ski",
+  "site": "Webflow Analyze",
+  "url": "https://webflow.com/analyze",
   "type": "landing",
   "tags": [],
   "note": ""
  },
  {
-  "site": "Paco Coursey",
-  "url": "https://paco.me",
+  "site": "Spline AI",
+  "url": "https://spline.design/ai",
   "type": "landing",
   "tags": [],
   "note": ""
  },
  {
-  "site": "Brian Lovin",
-  "url": "https://brianlovin.com",
+  "site": "Rive Runtimes",
+  "url": "https://rive.app/runtimes",
   "type": "landing",
   "tags": [],
   "note": ""
  },
  {
-  "site": "Lee Robinson",
-  "url": "https://leerob.com",
+  "site": "Mobbin Flows",
+  "url": "https://mobbin.com/flows",
   "type": "landing",
   "tags": [],
   "note": ""
  },
  {
-  "site": "Bret Victor",
-  "url": "https://worrydream.com",
+  "site": "Are.na Blog",
+  "url": "https://www.are.na/editorial",
   "type": "landing",
   "tags": [],
   "note": ""
  },
  {
-  "site": "Tobias van Schneider",
-  "url": "https://vanschneider.com",
+  "site": "Readwise Ghostreader",
+  "url": "https://readwise.io/ghostreader",
   "type": "landing",
   "tags": [],
   "note": ""
  },
  {
-  "site": "Linus Lee",
-  "url": "https://thesephist.com",
+  "site": "Things Mac",
+  "url": "https://culturedcode.com/things/mac",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "Craft Assistant",
+  "url": "https://www.craft.do/ai",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "Superhuman AI",
+  "url": "https://superhuman.com/ai",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "Shortwave AI",
+  "url": "https://www.shortwave.com/ai",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "Clay Claygent",
+  "url": "https://www.clay.com/claygent",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "Attio Workflows",
+  "url": "https://attio.com/platform/workflows",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "Fathom Video",
+  "url": "https://fathom.video",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "tldraw Computer",
+  "url": "https://computer.tldraw.com",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "Excalidraw Plus",
+  "url": "https://plus.excalidraw.com",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "Whimsical AI",
+  "url": "https://whimsical.com/ai",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "Miro Canvas",
+  "url": "https://miro.com/ai",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "Pitch Presentations",
+  "url": "https://pitch.com/presentation-maker",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "Gamma Docs",
+  "url": "https://gamma.app/docs",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "Typefully Pro",
+  "url": "https://typefully.com/pricing",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "Buffer",
+  "url": "https://buffer.com",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "Hypefury",
+  "url": "https://hypefury.com",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "Beehiiv Ads",
+  "url": "https://www.beehiiv.com/features/ad-network",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "Substack Notes",
+  "url": "https://substack.com/notes",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "Gumroad Discover",
+  "url": "https://gumroad.com/discover",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "Lemon Squeezy",
+  "url": "https://www.lemonsqueezy.com",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "Paddle Billing",
+  "url": "https://www.paddle.com/billing",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "Polar Benefits",
+  "url": "https://polar.sh/features/benefits",
   "type": "landing",
   "tags": [],
   "note": ""
