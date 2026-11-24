@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 
 export const SITE_NAME = "ui taste";
 // The one address the site answers to. Canonical links, the sitemap and Open Graph URLs are built from it,
@@ -14,7 +14,14 @@ export const baseMetadata: Metadata = {
   alternates: { canonical: "/" },
   openGraph: { siteName: SITE_NAME, type: "website", url: "/" },
   icons: {
-    icon: [{ url: "/brand/favicon.svg", type: "image/svg+xml" }, { url: "/brand/favicon-32.png", sizes: "32x32", type: "image/png" }],
+    icon: [
+      { url: "/favicon.ico", sizes: "48x48" },
+      { url: "/brand/favicon.svg", type: "image/svg+xml" },
+      { url: "/brand/favicon-48.png", sizes: "48x48", type: "image/png" },
+      { url: "/brand/favicon-192.png", sizes: "192x192", type: "image/png" },
+    ],
     apple: "/brand/apple-touch-icon.png",
   },
 };
+
+export const baseViewport: Viewport = { themeColor: "#0e0e0e" };

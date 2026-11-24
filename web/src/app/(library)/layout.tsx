@@ -1,9 +1,10 @@
 import type { Metadata } from "next";
 import { THEME_INIT } from "@/components/library/ThemeToggle";
 import { archivo, instrument } from "@/lib/fonts";
-import { baseMetadata } from "@/lib/meta";
+import { baseMetadata, baseViewport } from "@/lib/meta";
 import "@/styles/library.css";
 
+export const viewport = baseViewport;
 export const metadata: Metadata = {
   ...baseMetadata,
   title: { default: "ui taste · library", template: "%s · ui taste" },
