@@ -1,405 +1,5 @@
 [
  {
-  "site": "Palmer",
-  "url": "https://www.palmer-dinnerware.com",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
-  "site": "I TYPE NY",
-  "url": "https://i-type-ny.groznov.co",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
-  "site": "neobi",
-  "url": "https://neobi.it",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
-  "site": "Tokoro Capital",
-  "url": "https://tokorocapital.com",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
-  "site": "AND2ES",
-  "url": "https://www.and2es.com",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
-  "site": "DICE Conference",
-  "url": "http://dice.berlin",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
-  "site": "JuneShine",
-  "url": "https://juneshine.com",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
-  "site": "Xanvier Allison",
-  "url": "https://xanvierallison.com",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
-  "site": "Nomad Labs",
-  "url": "https://nomadlabs.es",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
-  "site": "Modeinspect",
-  "url": "https://modeinspect.com",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
-  "site": "Kvistly",
-  "url": "https://kvistly.com",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
-  "site": "Daily Four",
-  "url": "https://dailyfour.app",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
-  "site": "Nothing",
-  "url": "https://intl.nothing.tech",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
-  "site": "Capital",
-  "url": "https://capital.xyz",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
-  "site": "Aino",
-  "url": "https://aino.agency",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
-  "site": "No Shade",
-  "url": "https://www.noshade.eu",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
-  "site": "Limon",
-  "url": "https://limonoslo.no",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
-  "site": "Joshua Baker",
-  "url": "https://www.joshuabaker.com",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
-  "site": "BSWT",
-  "url": "https://bswt.tv",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
-  "site": "Orion",
-  "url": "https://orion.tube",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
-  "site": "Composer",
-  "url": "https://www.composer.trade",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
-  "site": "New Genre",
-  "url": "https://newgenre.studio",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
-  "site": "Moscow Music School",
-  "url": "http://moscowmusicschool.ru",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
-  "site": "Moon Delivers Cakes",
-  "url": "https://moondeliverscakes.com",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
-  "site": "Kiara Di Gregorio",
-  "url": "https://kiaradigregorio.com",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
-  "site": "Goodside",
-  "url": "https://www.goodside.studio",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
-  "site": "Mainframe",
-  "url": "https://mainfra.me",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
-  "site": "Shader Gradient",
-  "url": "https://www.shadergradient.co",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
-  "site": "suvrees studio – watch_001",
-  "url": "https://suvreesstudio.de",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
-  "site": "July Fund",
-  "url": "https://july.fund",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
-  "site": "Tayte.co",
-  "url": "https://www.tayte.co",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
-  "site": "Antfood",
-  "url": "http://www.antfood.com",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
-  "site": "For The Love Of Bread",
-  "url": "https://fortheloveofbread.com",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
-  "site": "Samuel Räikkönen",
-  "url": "https://honest.fi",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
-  "site": "Boc.Studio",
-  "url": "https://boc.studio",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
-  "site": "Essential",
-  "url": "http://essential.com",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
-  "site": "Composio",
-  "url": "https://composio.dev",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
-  "site": "Offsuit",
-  "url": "https://offsuit.app",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
-  "site": "Temper Studio",
-  "url": "https://temper.studio",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
-  "site": "Munro Partners",
-  "url": "https://www.munropartners.com.au",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
-  "site": "Huehaus Studio",
-  "url": "https://huehaus.design",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
-  "site": "Espen Andersen",
-  "url": "https://www.easound.no",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
-  "site": "Sgrappa",
-  "url": "https://www.sgrappa.com",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
-  "site": "Gabriel Beaugonin",
-  "url": "https://www.gabrielbeaugonin.com",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
-  "site": "House of Yellow",
-  "url": "https://houseofyellow.nl",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
-  "site": "DeepJudge",
-  "url": "https://www.deepjudge.ai",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
-  "site": "Remark",
-  "url": "https://www.withremark.com",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
-  "site": "Link Kit",
-  "url": "https://link-kit.com",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
-  "site": "Cool Stuff",
-  "url": "https://coolstuff.app",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
-  "site": "Gufram",
-  "url": "https://gufram.it/en",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
   "site": "Tiny",
   "url": "https://www.tinycapital.com",
   "type": "landing",
@@ -408,32 +8,8 @@
   "via": "minimal.gallery"
  },
  {
-  "site": "Poch Studio",
-  "url": "https://poch.studio",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
-  "site": "Elton John",
-  "url": "https://www.eltonjohn.com",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
   "site": "GOOD Meat",
   "url": "https://goodmeat.co",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
-  "site": "Philip Readman",
-  "url": "https://www.philipreadman.com",
   "type": "landing",
   "tags": [],
   "note": "",
@@ -480,32 +56,8 @@
   "via": "minimal.gallery"
  },
  {
-  "site": "Moxey",
-  "url": "https://moxey.no",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
-  "site": "Foreignrap",
-  "url": "http://www.foreignrap.com",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
   "site": "Florentine Kitchen Knives",
   "url": "https://www.florentinekitchenknives.com",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
-  "site": "Company Policy",
-  "url": "https://www.companypolicy.studio",
   "type": "landing",
   "tags": [],
   "note": "",
@@ -536,14 +88,6 @@
   "via": "minimal.gallery"
  },
  {
-  "site": "Danilo Sierra",
-  "url": "https://danilosierra.com",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
   "site": "1979 Radio",
   "url": "http://www.1979.fm",
   "type": "landing",
@@ -554,14 +98,6 @@
  {
   "site": "LALO Tequila",
   "url": "https://lalospirits.com",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
-  "site": "Artem Morozov",
-  "url": "https://artem.vyraz.studio",
   "type": "landing",
   "tags": [],
   "note": "",
@@ -600,14 +136,6 @@
   "via": "minimal.gallery"
  },
  {
-  "site": "Seventeen",
-  "url": "https://www.seventeenagency.com",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
   "site": "SOHN",
   "url": "http://sohnmusic.com",
   "type": "landing",
@@ -618,14 +146,6 @@
  {
   "site": "TWO ROBBERS",
   "url": "https://tworobbers.com",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
-  "site": "Jason Bergh",
-  "url": "https://www.jasonbergh.com",
   "type": "landing",
   "tags": [],
   "note": "",
@@ -680,22 +200,6 @@
   "via": "minimal.gallery"
  },
  {
-  "site": "Kai Blamey",
-  "url": "https://kaiblamey.com",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
-  "site": "Eleken",
-  "url": "https://www.eleken.co",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
   "site": "Canvas",
   "url": "https://www.canvas.supply",
   "type": "landing",
@@ -720,32 +224,8 @@
   "via": "minimal.gallery"
  },
  {
-  "site": "New Apology",
-  "url": "https://newapology.com",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
-  "site": "Intermusica",
-  "url": "http://intermusica.co.uk",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
   "site": "frant",
   "url": "https://frantvodka.com",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
-  "site": "Jacob Ince",
-  "url": "https://jacobince.com",
   "type": "landing",
   "tags": [],
   "note": "",
@@ -784,30 +264,6 @@
   "via": "minimal.gallery"
  },
  {
-  "site": "Melody Digital",
-  "url": "https://melodydigital.co",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
-  "site": "Tobias Van Schneider Mixtapes",
-  "url": "http://www.vanschneider.com/mixtapes",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
-  "site": "Minwook Shin",
-  "url": "https://www.minwookshin.com",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
   "site": "Figr",
   "url": "https://figr.design",
   "type": "landing",
@@ -840,32 +296,8 @@
   "via": "minimal.gallery"
  },
  {
-  "site": "Jamie xx",
-  "url": "http://www.jamiexx.com",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
   "site": "Common Good Cocktail House",
   "url": "https://www.commongoodcocktailhouse.com",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
-  "site": "Sam Thies",
-  "url": "https://samthies.com",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
-  "site": "Nudot Studio",
-  "url": "http://nudot.com.tw",
   "type": "landing",
   "tags": [],
   "note": "",
@@ -904,32 +336,8 @@
   "via": "minimal.gallery"
  },
  {
-  "site": "Shed",
-  "url": "https://shed.design",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
   "site": "Sobieski",
   "url": "http://sobieskivodka.com/en-en",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
-  "site": "Graham McDonnell",
-  "url": "https://greymac.com",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
-  "site": "STAGECREW",
-  "url": "https://stagecrew.studio",
   "type": "landing",
   "tags": [],
   "note": "",
@@ -976,24 +384,8 @@
   "via": "minimal.gallery"
  },
  {
-  "site": "Driftime®",
-  "url": "https://driftime.com",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
   "site": "Kaltpresse",
   "url": "http://kaltpresse.de",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
-  "site": "Giorgos Papadakis",
-  "url": "https://giorgospapadakis.com",
   "type": "landing",
   "tags": [],
   "note": "",
@@ -1024,32 +416,8 @@
   "via": "minimal.gallery"
  },
  {
-  "site": "basement.studio",
-  "url": "https://basement.studio",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
   "site": "morningbaker6am",
   "url": "http://www.morningbaker6am.com",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
-  "site": "Rory Stiff",
-  "url": "https://www.rorystiff.co.uk",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
-  "site": "Arkitektkontoret Vest",
-  "url": "https://arkitektkontoretvest.no",
   "type": "landing",
   "tags": [],
   "note": "",
@@ -1072,32 +440,8 @@
   "via": "minimal.gallery"
  },
  {
-  "site": "Bleed",
-  "url": "https://bleed.com",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
   "site": "CARNE",
   "url": "http://www.carnehamburguesas.com/en",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
-  "site": "Artemii Lebedev",
-  "url": "https://artemiilebedev.com",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
-  "site": "Playfight",
-  "url": "https://www.letsplayfight.com",
   "type": "landing",
   "tags": [],
   "note": "",
@@ -1136,32 +480,8 @@
   "via": "minimal.gallery"
  },
  {
-  "site": "newkid",
-  "url": "https://newkid.services",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
   "site": "Oliver Brewing Co",
   "url": "http://oliverbrewingco.com",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
-  "site": "Félix Péault",
-  "url": "https://www.felixpeault.com",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
-  "site": "Voyeur Vérité",
-  "url": "https://www.voyeurverite.com",
   "type": "landing",
   "tags": [],
   "note": "",
@@ -1176,32 +496,8 @@
   "via": "minimal.gallery"
  },
  {
-  "site": "ForAI",
-  "url": "https://forai.design",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
   "site": "Aim",
   "url": "https://timestwelve.xyz/aim",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
-  "site": "General Idea",
-  "url": "https://generalidea.agency",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
-  "site": "Artem Shcherbakov",
-  "url": "https://artemartemartem.com",
   "type": "landing",
   "tags": [],
   "note": "",
@@ -1218,30 +514,6 @@
  {
   "site": "70Materia",
   "url": "https://70materia.com",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
-  "site": "Tonemaki™",
-  "url": "https://www.tonemaki.com",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
-  "site": "Mattia Saggiomo",
-  "url": "https://mattiasaggiomo.com",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
-  "site": "Walter Schupfer Management",
-  "url": "https://wschupfer.com",
   "type": "landing",
   "tags": [],
   "note": "",
@@ -1288,30 +560,6 @@
   "via": "minimal.gallery"
  },
  {
-  "site": "Studio Gruhl",
-  "url": "https://www.studiogruhl.com",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
-  "site": "Eirdís Ragnarsdóttir",
-  "url": "https://www.eirdis.com",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
-  "site": "Fabra Comunicación",
-  "url": "https://fabracomunicacion.com",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
   "site": "SaveDay",
   "url": "https://www.save.day",
   "type": "landing",
@@ -1344,22 +592,6 @@
   "via": "minimal.gallery"
  },
  {
-  "site": "Ofform",
-  "url": "https://offormdesign.com",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
-  "site": "Ekaterina Busygina",
-  "url": "https://ekaterinabusygina.com",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
   "site": "The Data & Trust Alliance",
   "url": "https://dataandtrustalliance.org",
   "type": "landing",
@@ -1384,22 +616,6 @@
   "via": "minimal.gallery"
  },
  {
-  "site": "Studio GD",
-  "url": "https://www.studiogd.dk",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
-  "site": "Konolee",
-  "url": "https://konolee.com",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
   "site": "Faculty AI",
   "url": "https://faculty.ai",
   "type": "landing",
@@ -1408,56 +624,8 @@
   "via": "minimal.gallery"
  },
  {
-  "site": "Ang Studio®",
-  "url": "https://ang-studio.com",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
-  "site": "Tillmann Franzen",
-  "url": "https://tillmannfranzen.com",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
-  "site": "Extraordinary Things",
-  "url": "https://extraordinarythings.co",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
   "site": "MULTI",
   "url": "https://www.multivault.com",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
-  "site": "P.S",
-  "url": "https://presence.supply",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
-  "site": "+13322566869",
-  "url": "https://13322566869.com",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
-  "site": "Karol Ortyl",
-  "url": "https://www.karolortyl.com",
   "type": "landing",
   "tags": [],
   "note": "",
@@ -1496,22 +664,6 @@
   "via": "minimal.gallery"
  },
  {
-  "site": "Constant",
-  "url": "https://weareconstant.com",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
-  "site": "Claudiu Angheloni",
-  "url": "https://claudiuangheloni.com",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
   "site": "CODEX",
   "url": "https://www.codex.io",
   "type": "landing",
@@ -1522,30 +674,6 @@
  {
   "site": "Talgh®",
   "url": "https://talgh.co",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
-  "site": "BR Studio",
-  "url": "https://br.studio/en",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
-  "site": "Marianna von Fedak",
-  "url": "https://mariannavonfedak.com",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
-  "site": "Sefik Mujkic",
-  "url": "https://sefikmujkic.com",
   "type": "landing",
   "tags": [],
   "note": "",
@@ -1568,22 +696,6 @@
   "via": "minimal.gallery"
  },
  {
-  "site": "République Studio",
-  "url": "https://www.republique.studio",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
-  "site": "Belen Jones",
-  "url": "https://www.belenjones.com",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
   "site": "Ctrl",
   "url": "https://ctrl.xyz",
   "type": "landing",
@@ -1594,30 +706,6 @@
  {
   "site": "Mezmo",
   "url": "https://www.mezmo.com",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
-  "site": "James Thorburn",
-  "url": "https://jthorburn.com",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
-  "site": "Anatoly Ivanov",
-  "url": "https://anatoly.design",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
-  "site": "Grid9 Studio",
-  "url": "https://www.grid9.ru",
   "type": "landing",
   "tags": [],
   "note": "",
@@ -1656,30 +744,6 @@
   "via": "minimal.gallery"
  },
  {
-  "site": "AWP",
-  "url": "https://awp.work/en",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
-  "site": "Maximilian Kaspar",
-  "url": "https://www.maximiliankaspar.com",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
-  "site": "Double You Management",
-  "url": "https://doubleyoumanagement.net",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
   "site": "Hona",
   "url": "https://hona.ai",
   "type": "landing",
@@ -1696,32 +760,8 @@
   "via": "minimal.gallery"
  },
  {
-  "site": "iconwerk",
-  "url": "https://www.iconwerk.com",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
   "site": "SIMPLE COMPLEX",
   "url": "https://simplecomplex.com",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
-  "site": "Jules Andrieu",
-  "url": "https://jsandrieu.com",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
-  "site": "Hyper Effekt",
-  "url": "https://hypereffekt.com/pl",
   "type": "landing",
   "tags": [],
   "note": "",
@@ -1760,22 +800,6 @@
   "via": "minimal.gallery"
  },
  {
-  "site": "smalltribe",
-  "url": "https://smalltribe.studio",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
-  "site": "Masahito Leo Takeuchi",
-  "url": "https://ma5a.com",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
   "site": "Makelog",
   "url": "https://www.makelog.com",
   "type": "landing",
@@ -1792,40 +816,8 @@
   "via": "minimal.gallery"
  },
  {
-  "site": "Nonspace®",
-  "url": "https://www.nonspace.no",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
-  "site": "Artem Yavorovskyi",
-  "url": "https://yavorovskyiartem.com",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
-  "site": "EY Doberman",
-  "url": "https://doberman.co",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
   "site": "Airvoir",
   "url": "https://www.airvoir.com",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
-  "site": "Nav Chatterji",
-  "url": "https://www.navchatterji.com",
   "type": "landing",
   "tags": [],
   "note": "",
@@ -1848,22 +840,6 @@
   "via": "minimal.gallery"
  },
  {
-  "site": "mimosa",
-  "url": "https://mimosaagency.com",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
-  "site": "This is Wahba",
-  "url": "https://thisiswahba.com",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
   "site": "FoundationOS",
   "url": "https://os.foundation.app",
   "type": "landing",
@@ -1874,22 +850,6 @@
  {
   "site": "Punch List",
   "url": "https://punchlist.com",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
-  "site": "Fora",
-  "url": "https://www.fora-concept.com",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
-  "site": "Tomasz Szmajda",
-  "url": "https://itomdev.com",
   "type": "landing",
   "tags": [],
   "note": "",
@@ -1920,30 +880,6 @@
   "via": "minimal.gallery"
  },
  {
-  "site": "Anagram Club",
-  "url": "https://anagram.club",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
-  "site": "Khegai",
-  "url": "https://khegai.com",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
-  "site": "Zentto Design Studio",
-  "url": "https://zentto.com/en",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
   "site": "Config",
   "url": "https://config.com",
   "type": "landing",
@@ -1960,32 +896,8 @@
   "via": "minimal.gallery"
  },
  {
-  "site": "Milkshake",
-  "url": "https://milkshake.app",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
   "site": "TERRA",
   "url": "https://myterra.ai",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
-  "site": "Delt",
-  "url": "https://www.delt.net",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
-  "site": "McLane Teitel",
-  "url": "https://www.mc1ane.com",
   "type": "landing",
   "tags": [],
   "note": "",
@@ -2016,64 +928,8 @@
   "via": "minimal.gallery"
  },
  {
-  "site": "BLOND",
-  "url": "https://blond.cc",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
-  "site": "Reach Partners AG",
-  "url": "https://www.reachpartners.ch/en",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
-  "site": "Robert Feasley",
-  "url": "https://rfeasley.io",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
-  "site": "REF Digital Agency",
-  "url": "https://ref.digital",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
   "site": "Stools & Co",
   "url": "https://arnoldcircusstool.com",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
-  "site": "Born & Bred",
-  "url": "https://bornandbredbrand.com",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
-  "site": "Bruno Cisco",
-  "url": "https://brunocis.co",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
-  "site": "Fromanother",
-  "url": "https://www.fromanother.love",
   "type": "landing",
   "tags": [],
   "note": "",
@@ -2096,30 +952,6 @@
   "via": "minimal.gallery"
  },
  {
-  "site": "HammerAlbrecht",
-  "url": "https://www.hammeralbrecht.design",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
-  "site": "NoGood",
-  "url": "https://nogood.studio",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
-  "site": "Metajive",
-  "url": "https://www.metajive.com",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
   "site": "Moving Parts",
   "url": "https://movingparts.io",
   "type": "landing",
@@ -2130,22 +962,6 @@
  {
   "site": "Dot Pad",
   "url": "https://pad.dotincorp.com",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
-  "site": "BURO",
-  "url": "http://madeinburo.com",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
-  "site": "Loli Laboureau",
-  "url": "http://www.lolilaboureau.com",
   "type": "landing",
   "tags": [],
   "note": "",
@@ -2168,48 +984,8 @@
   "via": "minimal.gallery"
  },
  {
-  "site": "Combo",
-  "url": "https://combo.nyc",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
-  "site": "Stephan Mann",
-  "url": "https://www.stvxmvnn.com",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
-  "site": "Otherkind",
-  "url": "https://www.otherkind.design",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
   "site": "Ok Bye",
   "url": "https://okbye.io",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
-  "site": "This Works",
-  "url": "https://thisworks.co",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
-  "site": "enSHITtified UX",
-  "url": "https://enshittification.caps-dstudio.com",
   "type": "landing",
   "tags": [],
   "note": "",
@@ -2240,22 +1016,6 @@
   "via": "minimal.gallery"
  },
  {
-  "site": "Clase",
-  "url": "https://clasebcn.com",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
-  "site": "Isa De Burgh",
-  "url": "https://isadeburgh.com",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
   "site": "I Miss the Office",
   "url": "https://imisstheoffice.eu",
   "type": "landing",
@@ -2272,56 +1032,8 @@
   "via": "minimal.gallery"
  },
  {
-  "site": "Studio Thomas",
-  "url": "https://www.studiothomas.co.uk",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
-  "site": "Chus Retro OS Portfolio",
-  "url": "http://chusmargallo.space",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
-  "site": "KO Collective",
-  "url": "https://www.ko-collective.com",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
   "site": "Medusa",
   "url": "https://medusajs.com",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
-  "site": "Eric&Todd",
-  "url": "https://ericandtodd.com",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
-  "site": "Jin Su Park",
-  "url": "https://jinsupark.com",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
-  "site": "Truecolor",
-  "url": "https://truecolorfilms.com",
   "type": "landing",
   "tags": [],
   "note": "",
@@ -2336,48 +1048,8 @@
   "via": "minimal.gallery"
  },
  {
-  "site": "Greenspace",
-  "url": "http://www.thegreenspace.com",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
-  "site": "Bajgart Office",
-  "url": "https://bajgartoffice.com",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
   "site": "Materium",
   "url": "http://materiumideas.com",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
-  "site": "George&Harrison",
-  "url": "http://www.georgeandharrison.nl",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
-  "site": "iamrobin",
-  "url": "https://iamrob.in",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
-  "site": "Vogelhaus",
-  "url": "https://www.vogel.haus",
   "type": "landing",
   "tags": [],
   "note": "",
@@ -2400,72 +1072,8 @@
   "via": "minimal.gallery"
  },
  {
-  "site": "Kurppa Hosk",
-  "url": "https://kurppahosk.com",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
-  "site": "Chris Shu",
-  "url": "https://chrisshu.com",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
-  "site": "Foolscap Studio",
-  "url": "http://foolscapstudio.com.au",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
-  "site": "Ysabella Nicole Alvarez",
-  "url": "https://www.ysabella.me",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
-  "site": "CubiFlow",
-  "url": "https://www.cubiflow.com",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
   "site": "Found color",
   "url": "https://foundcolor.co",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
-  "site": "Grotesk Studio",
-  "url": "http://groteskstudio.com",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
-  "site": "Hackie Techie",
-  "url": "https://hackie-techie.com",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
-  "site": "Mock Studio",
-  "url": "https://mock.nyc",
   "type": "landing",
   "tags": [],
   "note": "",
@@ -2488,64 +1096,8 @@
   "via": "minimal.gallery"
  },
  {
-  "site": "Jackson Alexander",
-  "url": "https://jacksonalexander.com.au",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
-  "site": "Bodeyco",
-  "url": "https://www.bodeyco.com",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
-  "site": "René Coignard",
-  "url": "https://renecoignard.com",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
-  "site": "equipo.exe",
-  "url": "https://equipo-exe.com",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
   "site": "Refresh",
   "url": "https://refresh.study",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
-  "site": "Firma",
-  "url": "https://www.wearefirma.com",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
-  "site": "Chloe Schumacher",
-  "url": "https://chloeschumacher.com",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
-  "site": "StoryHouse",
-  "url": "https://storyhouseagency.co.uk",
   "type": "landing",
   "tags": [],
   "note": "",
@@ -2576,64 +1128,8 @@
   "via": "minimal.gallery"
  },
  {
-  "site": "Gyor Moore",
-  "url": "http://www.gyormoore.com",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
-  "site": "Primal",
-  "url": "https://www.studioprimal.com",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
-  "site": "Over-Stimulated",
-  "url": "https://www.over-stimulated.com",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
-  "site": "Offset",
-  "url": "https://www.designbyoffset.com",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
-  "site": "Subdivision",
-  "url": "https://www.subdivision.work",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
   "site": "Brandlab",
   "url": "http://www.brandlab.no",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
-  "site": "Marko Jotic",
-  "url": "https://markojotic.com",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
-  "site": "WaxyWeb",
-  "url": "https://www.waxyweb.agency",
   "type": "landing",
   "tags": [],
   "note": "",
@@ -2656,56 +1152,8 @@
   "via": "minimal.gallery"
  },
  {
-  "site": "Karl Anders",
-  "url": "https://www.karlanders.io",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
-  "site": "Digital Meadow",
-  "url": "https://digitalmeadow.studio",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
-  "site": "STUDIO NEWDAYS",
-  "url": "https://newdays.work",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
   "site": "UZIK",
   "url": "http://www.uzik.com",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
-  "site": "Arnob Mukherjee",
-  "url": "https://iamarnob.com",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
-  "site": "paysages studio",
-  "url": "https://paysages.studio",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
-  "site": "For Good Design Lab",
-  "url": "https://www.forgooddesignlab.com",
   "type": "landing",
   "tags": [],
   "note": "",
@@ -2728,48 +1176,8 @@
   "via": "minimal.gallery"
  },
  {
-  "site": "EVERY GAY",
-  "url": "https://every.gay",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
-  "site": "Temporal",
-  "url": "https://www.temporal.xyz",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
   "site": "Robin Capital",
   "url": "https://robincap.com",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
-  "site": "Bedow",
-  "url": "http://www.bedow.se",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
-  "site": "Dang Nguyen",
-  "url": "https://dagn.space",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
-  "site": "Super Keen",
-  "url": "https://www.superkeen.studio",
   "type": "landing",
   "tags": [],
   "note": "",
@@ -2784,56 +1192,8 @@
   "via": "minimal.gallery"
  },
  {
-  "site": "Wonderland",
-  "url": "https://www.wonderlandindustry.com",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
-  "site": "Angibaud Samuel",
-  "url": "https://www.samuelangibaud.com",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
-  "site": "Emele Collab",
-  "url": "https://emelecollab.com",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
   "site": "Ditto",
   "url": "https://www.ditto.com",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
-  "site": "Mambo Mambo",
-  "url": "http://mambomambo.ca/en",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
-  "site": "Shirley Wang",
-  "url": "https://shirley-wang.com",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
-  "site": "Durup",
-  "url": "https://www.durup.com",
   "type": "landing",
   "tags": [],
   "note": "",
@@ -2848,72 +1208,8 @@
   "via": "minimal.gallery"
  },
  {
-  "site": "Studio C",
-  "url": "http://www.studioc.dk",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
-  "site": "Teardwn",
-  "url": "https://teardwn.com",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
-  "site": "Bejamas",
-  "url": "https://bejamas.com",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
   "site": "Capcho",
   "url": "http://www.capcho.com",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
-  "site": "check land kindleysides",
-  "url": "http://checklandkindleysides.com",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
-  "site": "Ella Thomas",
-  "url": "https://ellaethomas.com",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
-  "site": "Groth",
-  "url": "https://www.groth.studio",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
-  "site": "DesignStudio",
-  "url": "https://www.wearedesignstudio.com",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
-  "site": "Marius Balaj",
-  "url": "https://balajmarius.com",
   "type": "landing",
   "tags": [],
   "note": "",
@@ -2928,88 +1224,8 @@
   "via": "minimal.gallery"
  },
  {
-  "site": "Dreimorgen",
-  "url": "http://dreimorgen.com",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
-  "site": "Jon Way Studio",
-  "url": "https://www.jonway.studio",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
-  "site": "Arturistic",
-  "url": "https://arturistic.world",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
-  "site": "Alphabet",
-  "url": "http://www.madebyalphabet.com",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
-  "site": "Jason Reynolds",
-  "url": "https://jsnrynlds.xyz",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
   "site": "SPACE10",
   "url": "https://space10.com",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
-  "site": "Loaf Creative",
-  "url": "http://www.loafcreative.com",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
-  "site": "Rachel Chen",
-  "url": "https://www.rachelchen.tech",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
-  "site": "UNStudio",
-  "url": "https://www.unstudio.com",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
-  "site": "Deux Huit Huit",
-  "url": "https://deuxhuithuit.com",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
-  "site": "Linus Rogge",
-  "url": "https://linusrogge.com",
   "type": "landing",
   "tags": [],
   "note": "",
@@ -3024,88 +1240,8 @@
   "via": "minimal.gallery"
  },
  {
-  "site": "SofaKnows",
-  "url": "https://sofaknows.com",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
-  "site": "LimeIQ",
-  "url": "https://limeiq.com",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
-  "site": "Assembly",
-  "url": "http://assemblylondon.com",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
-  "site": "Dandy Weng",
-  "url": "https://www.dandyweng.com",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
-  "site": "Folio Blue",
-  "url": "https://www.folio.blue",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
-  "site": "Huddle",
-  "url": "https://www.huddle.works",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
-  "site": "Bielke + Yang",
-  "url": "http://bielkeyang.com",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
-  "site": "George Badea",
-  "url": "https://georgebadea.com",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
   "site": "GV",
   "url": "https://www.gv.com",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
-  "site": "Tiffany Devos",
-  "url": "https://tiffanydevos.be",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
-  "site": "L’Étude",
-  "url": "https://letude.group",
   "type": "landing",
   "tags": [],
   "note": "",
@@ -3120,80 +1256,8 @@
   "via": "minimal.gallery"
  },
  {
-  "site": "Matt Rothenberg",
-  "url": "https://mattrothenberg.com",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
-  "site": "Andrew Alford Creative",
-  "url": "https://andrewalfordcreative.com",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
-  "site": "Ivan Ageev",
-  "url": "https://ivanageev.com",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
-  "site": "Early Works",
-  "url": "https://www.early.works",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
-  "site": "Los Feliz Engineering",
-  "url": "https://lfe.org",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
-  "site": "Monika Michalczyk",
-  "url": "https://www.monikamichalczyk.com",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
-  "site": "Cregg Paris",
-  "url": "https://www.cregg-paris.com",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
   "site": "ENKO",
   "url": "https://www.enko.ag",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
-  "site": "Josh Jamili",
-  "url": "https://joshjamili.com",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
-  "site": "MURMURE",
-  "url": "https://murmure.me",
   "type": "landing",
   "tags": [],
   "note": "",
@@ -3272,13 +1336,6 @@
  {
   "site": "Mela",
   "url": "https://mela.recipes",
-  "type": "landing",
-  "tags": [],
-  "note": ""
- },
- {
-  "site": "Paprika",
-  "url": "https://www.paprikaapp.com",
   "type": "landing",
   "tags": [],
   "note": ""
@@ -3384,13 +1441,6 @@
  {
   "site": "Tiller",
   "url": "https://tiller.com",
-  "type": "landing",
-  "tags": [],
-  "note": ""
- },
- {
-  "site": "Origin",
-  "url": "https://www.useorigin.com",
   "type": "landing",
   "tags": [],
   "note": ""
@@ -3753,24 +1803,8 @@
   "via": "minimal.gallery"
  },
  {
-  "site": "Index Georgia",
-  "url": "https://index-georgia.com",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
   "site": "POV Budapest",
   "url": "https://www.povbudapest.com",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
-  "site": "Apossible",
-  "url": "https://apossible.com",
   "type": "landing",
   "tags": [],
   "note": "",
@@ -3793,14 +1827,6 @@
   "via": "minimal.gallery"
  },
  {
-  "site": "Qude",
-  "url": "https://qude.audio",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
   "site": "OG Feed",
   "url": "https://ogfeed.com",
   "type": "landing",
@@ -3809,24 +1835,8 @@
   "via": "minimal.gallery"
  },
  {
-  "site": "Alphamark™",
-  "url": "https://alphamark.design",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
   "site": "Nofilter.space",
   "url": "https://www.nofilter.space",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
-  "site": "Louis Ansa",
-  "url": "https://louisansa.com",
   "type": "landing",
   "tags": [],
   "note": "",
@@ -3857,24 +1867,8 @@
   "via": "minimal.gallery"
  },
  {
-  "site": "ITP Renewables",
-  "url": "https://itprenewables.com",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
   "site": "Driessen Architectuur",
   "url": "https://driessenarchitectuur.nl",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
-  "site": "Manuel Moreale",
-  "url": "https://manuelmoreale.com",
   "type": "landing",
   "tags": [],
   "note": "",
@@ -4033,24 +2027,8 @@
   "via": "minimal.gallery"
  },
  {
-  "site": "Advance-Copy",
-  "url": "http://advance-copy.com",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
   "site": "Orbi",
   "url": "https://heyorbi.com",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
-  "site": "Crucible Moments",
-  "url": "https://www.cruciblemoments.com",
   "type": "landing",
   "tags": [],
   "note": "",
@@ -4073,22 +2051,6 @@
   "via": "minimal.gallery"
  },
  {
-  "site": "Perform—Produce",
-  "url": "https://performproduce.com",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
-  "site": "PROWL",
-  "url": "https://www.prowlstud.io",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
   "site": "Anuc Home",
   "url": "https://www.anuchome.com",
   "type": "landing",
@@ -4105,24 +2067,8 @@
   "via": "minimal.gallery"
  },
  {
-  "site": "The Peers Project",
-  "url": "https://thepeersproject.com",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
   "site": "General Purpose",
   "url": "https://generalpurpose.directory",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
-  "site": "Radio Null Rewind",
-  "url": "https://2022.madebynull.com",
   "type": "landing",
   "tags": [],
   "note": "",
@@ -4209,14 +2155,6 @@
   "via": "minimal.gallery"
  },
  {
-  "site": "BFF Südwind",
-  "url": "https://suedwind.bff.de",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
   "site": "Comanches",
   "url": "https://comancheindians.tilda.ws/en",
   "type": "landing",
@@ -4265,32 +2203,8 @@
   "via": "minimal.gallery"
  },
  {
-  "site": "Shot on iPhone in Black & White",
-  "url": "https://shotoniphone.lorenzobocchi.com",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
   "site": "UFO Timeline",
   "url": "https://ufotimeline.com",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
-  "site": "Lost Memories",
-  "url": "https://lostmemories.space",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
-  "site": "Monolith Studio",
-  "url": "https://monolithstudio.com",
   "type": "landing",
   "tags": [],
   "note": "",
@@ -4307,14 +2221,6 @@
  {
   "site": "10 Things",
   "url": "https://300.yourmajesty.co",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
-  "site": "Elena Borisova",
-  "url": "https://elenaborisova.life",
   "type": "landing",
   "tags": [],
   "note": "",
@@ -4347,14 +2253,6 @@
  {
   "site": "Xapo Bank",
   "url": "https://www.xapobank.com",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
-  "site": "ANDMADE Inc.",
-  "url": "https://andmade.jp",
   "type": "landing",
   "tags": [],
   "note": "",
@@ -4425,22 +2323,6 @@
   "via": "minimal.gallery"
  },
  {
-  "site": "Moe Amaya",
-  "url": "https://moeamaya.com",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
-  "site": "Anna Erdelen",
-  "url": "https://www.erdelen.com",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
   "site": "Hasko",
   "url": "https://www.hasko.com",
   "type": "landing",
@@ -4481,14 +2363,6 @@
   "via": "minimal.gallery"
  },
  {
-  "site": "Rennan Correia",
-  "url": "https://www.rennancorreia.com",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
   "site": "Places to Read",
   "url": "https://www.placestoread.xyz",
   "type": "landing",
@@ -4513,24 +2387,8 @@
   "via": "minimal.gallery"
  },
  {
-  "site": "Yihui Hu",
-  "url": "https://www.yihui.work",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
   "site": "Mimo",
   "url": "https://www.mimohq.com",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
-  "site": "Gusta",
-  "url": "https://gusta.studio",
   "type": "landing",
   "tags": [],
   "note": "",
@@ -4563,22 +2421,6 @@
  {
   "site": "Mud",
   "url": "https://moremud.co",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
-  "site": "Schema",
-  "url": "https://www.schemadesign.com",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
-  "site": "DreamHouse Productions",
-  "url": "https://dreamhouseproductions.net",
   "type": "landing",
   "tags": [],
   "note": "",
@@ -4625,22 +2467,6 @@
   "via": "minimal.gallery"
  },
  {
-  "site": "Rich Stapleton",
-  "url": "https://richstapleton.com",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
-  "site": "FOLLYWOOD",
-  "url": "https://www.follywood.nl",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
   "site": "New Aesthetic",
   "url": "https://newaesthetic.xyz",
   "type": "landing",
@@ -4651,14 +2477,6 @@
  {
   "site": "Acctual",
   "url": "https://acctual.com",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
-  "site": "Bureau Tonalli",
-  "url": "https://www.bureautonalli.com",
   "type": "landing",
   "tags": [],
   "note": "",
@@ -4713,14 +2531,6 @@
   "via": "minimal.gallery"
  },
  {
-  "site": "Minorstep",
-  "url": "https://minorstep.com",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
   "site": "USELESS",
   "url": "https://useless.london",
   "type": "landing",
@@ -4769,22 +2579,6 @@
   "via": "minimal.gallery"
  },
  {
-  "site": "Convicts",
-  "url": "https://convicts.nyc",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
-  "site": "G!theimagineers",
-  "url": "https://www.gtheimagineers.com",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
   "site": "Pimpinella",
   "url": "https://www.pimpinella.cooking",
   "type": "landing",
@@ -4803,14 +2597,6 @@
  {
   "site": "Deltaboard",
   "url": "https://www.delta-board.com",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
-  "site": "Studio 12",
-  "url": "https://studio12.paris",
   "type": "landing",
   "tags": [],
   "note": "",
@@ -4913,14 +2699,6 @@
   "via": "minimal.gallery"
  },
  {
-  "site": "Chiara Luzzana",
-  "url": "https://chiaraluzzana.com",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
   "site": "Amour Liquide",
   "url": "https://amourliquide.com",
   "type": "landing",
@@ -4947,14 +2725,6 @@
  {
   "site": "Studio Chen",
   "url": "https://www.studiochen.co",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
-  "site": "Tome Brand Studio",
-  "url": "https://www.tomebrandstudio.com",
   "type": "landing",
   "tags": [],
   "note": "",
@@ -5001,14 +2771,6 @@
   "via": "minimal.gallery"
  },
  {
-  "site": "Adcker",
-  "url": "https://adcker.com",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
   "site": "Bonsound",
   "url": "https://www.bonsound.com/en",
   "type": "landing",
@@ -5035,14 +2797,6 @@
  {
   "site": "Chromecki Jesche-Chromecki",
   "url": "https://www.urologie-chromecki.at",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
-  "site": "LOMO-12",
-  "url": "https://lomo-12.com",
   "type": "landing",
   "tags": [],
   "note": "",
@@ -5097,14 +2851,6 @@
   "via": "minimal.gallery"
  },
  {
-  "site": "The Raum Objects",
-  "url": "https://www.the-raum-objects.com",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
   "site": "Bia Formations",
   "url": "https://biaformations.com",
   "type": "landing",
@@ -5115,14 +2861,6 @@
  {
   "site": "The Nue Co",
   "url": "https://www.thenueco.com",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
-  "site": "Hugo Ahlberg",
-  "url": "https://hugoahlberg.com",
   "type": "landing",
   "tags": [],
   "note": "",
@@ -5153,14 +2891,6 @@
   "via": "minimal.gallery"
  },
  {
-  "site": "Camille Mormal",
-  "url": "https://camillemormal.com",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
   "site": "Documenta",
   "url": "http://www.documenta.de",
   "type": "landing",
@@ -5171,14 +2901,6 @@
  {
   "site": "Feels",
   "url": "http://feels.com",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
-  "site": "Atlason",
-  "url": "http://atlason.com",
   "type": "landing",
   "tags": [],
   "note": "",
@@ -5201,32 +2923,8 @@
   "via": "minimal.gallery"
  },
  {
-  "site": "TK Creative",
-  "url": "https://tkcreative.ca",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
-  "site": "Danielle Levitt",
-  "url": "https://www.daniellelevitt.com",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
   "site": "Integrated Podiatry Clinic",
   "url": "http://integratedpodiatry.com.au",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
-  "site": "Typical Mitul",
-  "url": "https://typicalmitul.com",
   "type": "landing",
   "tags": [],
   "note": "",
@@ -5241,56 +2939,8 @@
   "via": "minimal.gallery"
  },
  {
-  "site": "Staffan Sundström",
-  "url": "https://staffansundstrom.com",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
-  "site": "Pihlmann",
-  "url": "https://pihlmann.dk",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
-  "site": "Andrey Krauzov",
-  "url": "https://andreykrauzov.com",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
-  "site": "Blank Architects",
-  "url": "https://blank.su/en",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
-  "site": "Richie Talboy",
-  "url": "https://richietalboy.com",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
   "site": "Gavin Maddock",
   "url": "https://www.gavinmaddock.com",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
-  "site": "archive",
-  "url": "https://optikarchiv.com",
   "type": "landing",
   "tags": [],
   "note": "",
@@ -5305,40 +2955,8 @@
   "via": "minimal.gallery"
  },
  {
-  "site": "Julia Johnson",
-  "url": "https://www.juliajohnson.com",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
   "site": "RickPro",
   "url": "https://rikpro.tilda.ws",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
-  "site": "Conrad Stel",
-  "url": "https://conradstel.com",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
-  "site": "Austen",
-  "url": "https://austen.fun",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
-  "site": "Emile Ducke",
-  "url": "https://emileducke.de",
   "type": "landing",
   "tags": [],
   "note": "",
@@ -5361,46 +2979,6 @@
   "via": "minimal.gallery"
  },
  {
-  "site": "Patrick Miller",
-  "url": "https://patrickmiller.se",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
-  "site": "Hanbury",
-  "url": "https://www.hanbury.design",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
-  "site": "naaro",
-  "url": "https://www.naaro.com",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
-  "site": "Inpuls",
-  "url": "https://www.in-puls.com",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
-  "site": "Cecile Bortoletti",
-  "url": "http://cecile-bortoletti.com",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
   "site": "Potiropoulos+Partners Architecture",
   "url": "https://www.potiropoulos.gr",
   "type": "landing",
@@ -5409,24 +2987,8 @@
   "via": "minimal.gallery"
  },
  {
-  "site": "StudioChevojon",
-  "url": "https://studiochevojon.com",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
   "site": "SemiCreative",
   "url": "https://www.semicreative.co.nz",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
-  "site": "Rickard Sund",
-  "url": "http://rickardsund.com",
   "type": "landing",
   "tags": [],
   "note": "",
@@ -5449,24 +3011,8 @@
   "via": "minimal.gallery"
  },
  {
-  "site": "Jimmy Linus",
-  "url": "https://jimmylinus.com",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
   "site": "Elijah Gall",
   "url": "https://www.elijahgall.com",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
-  "site": "Eric Petschek",
-  "url": "https://ericpetschek.com",
   "type": "landing",
   "tags": [],
   "note": "",
@@ -5481,56 +3027,8 @@
   "via": "minimal.gallery"
  },
  {
-  "site": "RSI Studio",
-  "url": "http://www.rsi.studio",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
-  "site": "Snøhetta",
-  "url": "https://www.snohetta.com",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
-  "site": "Jonty Davies",
-  "url": "http://jontydavies.com",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
-  "site": "VINICIUS SIEGA",
-  "url": "https://viniciussiega.com",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
-  "site": "YO YO YO",
-  "url": "https://yoyoyo.photos",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
   "site": "OHM.",
   "url": "https://ohm.studio",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
-  "site": "Josefine Laul",
-  "url": "https://www.josefinelaul.com",
   "type": "landing",
   "tags": [],
   "note": "",
@@ -5545,32 +3043,8 @@
   "via": "minimal.gallery"
  },
  {
-  "site": "Flavio&Frank",
-  "url": "https://www.flavioefrank.it",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
   "site": "Studio RHE",
   "url": "https://www.studiorhe.com",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
-  "site": "Dexter Navy",
-  "url": "http://dexternavy.com",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
-  "site": "Sara Marandi",
-  "url": "http://www.saramarandi.com",
   "type": "landing",
   "tags": [],
   "note": "",
@@ -5585,40 +3059,8 @@
   "via": "minimal.gallery"
  },
  {
-  "site": "David Gomez-Maestre",
-  "url": "https://davidgomezmaestre.com",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
   "site": "The Beams",
   "url": "https://thebeamslondon.com",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
-  "site": "Tom Bird",
-  "url": "http://bytombird.com",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
-  "site": "Zaha Hadid’s 520W28",
-  "url": "https://520w28.artmilitonian.com",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
-  "site": "Rafal Klos",
-  "url": "http://rafalklos.com",
   "type": "landing",
   "tags": [],
   "note": "",
@@ -5633,40 +3075,8 @@
   "via": "minimal.gallery"
  },
  {
-  "site": "Sacha Maric",
-  "url": "http://sachamaric.com",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
   "site": "Bureau EA",
   "url": "https://www.bureau-ea.com",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
-  "site": "Axel Wyart",
-  "url": "http://axelwyart.com",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
-  "site": "Sébastien El Idrissi Studio",
-  "url": "https://seis.studio",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
-  "site": "Jack Davison",
-  "url": "http://www.jackdavison.co.uk",
   "type": "landing",
   "tags": [],
   "note": "",
@@ -5681,40 +3091,8 @@
   "via": "minimal.gallery"
  },
  {
-  "site": "Kyle Johnson",
-  "url": "https://kjphotos.com",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
   "site": "MANNA",
   "url": "https://www.mannaarchitects.com",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
-  "site": "Michael Chichi",
-  "url": "http://michaelchichi.com",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
-  "site": "Ben Mingo",
-  "url": "http://www.benmingo.com",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
-  "site": "Marcus Eriksson",
-  "url": "http://themarcus.com",
   "type": "landing",
   "tags": [],
   "note": "",
@@ -5729,24 +3107,8 @@
   "via": "minimal.gallery"
  },
  {
-  "site": "Jeremy P. Beasley",
-  "url": "http://jeremypbeasley.com",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
   "site": "The Cradle",
   "url": "https://www.the-cradle.de",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
-  "site": "Sean Fennessy",
-  "url": "http://www.seanfennessy.com.au",
   "type": "landing",
   "tags": [],
   "note": "",
@@ -5761,56 +3123,8 @@
   "via": "minimal.gallery"
  },
  {
-  "site": "4 years of Unsplash",
-  "url": "http://1460.unsplash.com",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
   "site": "WAKA-WAKA",
   "url": "https://wakawaka.world",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
-  "site": "Zissou",
-  "url": "http://zissou.com",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
-  "site": "Studio Brophy",
-  "url": "https://studiobrophy.com",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
-  "site": "Liam Ricketts",
-  "url": "http://www.liamricketts.com",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
-  "site": "Lunneryd Arkitekter",
-  "url": "https://www.lunneryd.com",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
-  "site": "Leigh Simpson",
-  "url": "http://leighsimpson.com",
   "type": "landing",
   "tags": [],
   "note": "",
@@ -5825,40 +3139,8 @@
   "via": "minimal.gallery"
  },
  {
-  "site": "Matthias Weingaertner",
-  "url": "http://matthiasweingaertner.com",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
-  "site": "Oxford House",
-  "url": "http://www.oxfordhouse.nl",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
   "site": "ARM Architecture",
   "url": "https://armarchitecture.com.au",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
-  "site": "Leandro Farina",
-  "url": "http://www.leandrofarina.com",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
-  "site": "Carl Kleiner",
-  "url": "http://www.carlkleiner.com",
   "type": "landing",
   "tags": [],
   "note": "",
@@ -5873,56 +3155,8 @@
   "via": "minimal.gallery"
  },
  {
-  "site": "Guillame Tomasi",
-  "url": "http://www.guillaumetomasi.com",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
-  "site": "Barrault Pressacco",
-  "url": "https://barraultpressacco.com",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
-  "site": "Tim Flach",
-  "url": "http://timflach.com",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
   "site": "Building Blocks",
   "url": "https://building-blocks.io",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
-  "site": "Tudor Prisacariu",
-  "url": "http://tudorprisacariu.com",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
-  "site": "Groep D.Deco",
-  "url": "https://groepddeco.be",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
-  "site": "Terring Photo",
-  "url": "http://terringphoto.com",
   "type": "landing",
   "tags": [],
   "note": "",
@@ -5963,14 +3197,6 @@
  {
   "site": "PART Architects",
   "url": "http://part.archi",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
-  "site": "Daniel Boddam",
-  "url": "https://www.danielboddam.com",
   "type": "landing",
   "tags": [],
   "note": "",
@@ -6049,14 +3275,6 @@
   "via": "minimal.gallery"
  },
  {
-  "site": "Mikhail Riches",
-  "url": "http://www.mikhailriches.com",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
   "site": "McGinlay Bell",
   "url": "http://mcginlaybell.com",
   "type": "landing",
@@ -6083,14 +3301,6 @@
  {
   "site": "Carrot",
   "url": "https://carrot.tech",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
-  "site": "Angela Moore",
-  "url": "http://angela-moore.co.uk",
   "type": "landing",
   "tags": [],
   "note": "",
@@ -6163,14 +3373,6 @@
  {
   "site": "WE MAKE THINGS",
   "url": "https://wemakethings.de",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
-  "site": "APA",
-  "url": "http://www.aparchitecture.fr/en",
   "type": "landing",
   "tags": [],
   "note": "",
@@ -6273,14 +3475,6 @@
   "via": "minimal.gallery"
  },
  {
-  "site": "GLYF",
-  "url": "https://glyf.ru/en",
-  "type": "landing",
-  "tags": [],
-  "note": "",
-  "via": "minimal.gallery"
- },
- {
   "site": "124m2",
   "url": "http://124m2.no",
   "type": "landing",
@@ -6291,6 +3485,4852 @@
  {
   "site": "We are huntly",
   "url": "http://wearehuntly.com.au",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Daylight",
+  "id": "daylight-godaylight-landing",
+  "url": "https://godaylight.com",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "Offsuit Games",
+  "url": "https://offsuit.app",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Nothing",
+  "url": "https://intl.nothing.tech",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "DICE Conference",
+  "url": "http://dice.berlin",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Shader Gradient",
+  "url": "https://www.shadergradient.co",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Moscow Music School",
+  "url": "http://moscowmusicschool.ru",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Espen Andersen",
+  "url": "https://www.easound.no",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "I TYPE NY",
+  "url": "https://i-type-ny.groznov.co",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Tokoro Capital",
+  "url": "https://tokorocapital.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Daily Four",
+  "url": "https://dailyfour.app",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Palmer",
+  "url": "https://www.palmer-dinnerware.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Capital",
+  "url": "https://capital.xyz",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "JuneShine",
+  "url": "https://juneshine.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Modeinspect",
+  "url": "https://modeinspect.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Kvistly",
+  "url": "https://kvistly.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Composer",
+  "url": "https://www.composer.trade",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "July Fund",
+  "url": "https://july.fund",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Essential",
+  "url": "http://essential.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "suvrees studio – watch_001",
+  "url": "https://suvreesstudio.de",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "DeepJudge",
+  "url": "https://www.deepjudge.ai",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Composio",
+  "url": "https://composio.dev",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Temper Studio",
+  "url": "https://temper.studio",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Sgrappa",
+  "url": "https://www.sgrappa.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Link Kit",
+  "url": "https://link-kit.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Gufram",
+  "url": "https://gufram.it/en",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "LuxHome",
+  "url": "http://www.luxhome.be",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Unlikely Studio",
+  "url": "https://book.unlikely.studio",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Pupil",
+  "url": "https://pupil.co",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "MetaLab",
+  "url": "https://metalab.co",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Anagrama",
+  "url": "https://www.anagrama.ro",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Pupil",
+  "url": "https://hellopupil.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "State",
+  "url": "http://www.s-t-a-t-e.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "wild",
+  "url": "http://wild.as",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Zeyra Glow",
+  "url": "https://zeyraglow.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "In My Shoes",
+  "url": "https://inmysho.es",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Spyker Cars",
+  "url": "https://spykercars.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "ESR Bespoke",
+  "url": "https://www.esrbespoke.au",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "The Reach",
+  "url": "https://thereach.travel",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "United Flags of Fashion",
+  "url": "https://uff.cfda.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Driftime Impact Report",
+  "url": "https://2025.driftime.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Onœra",
+  "url": "https://onoera.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Watts Pet",
+  "url": "https://wattspet.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Eternal Blue",
+  "url": "https://eternalblue.co.nz",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Buena",
+  "url": "https://buena.com/en/home",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Duft und Kultur",
+  "url": "https://www.duftundkultur.com/en-de",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Wwake",
+  "url": "https://wwake.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Iceberg",
+  "url": "https://www.icebergdoc.org",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Cecilie Bahnsen",
+  "url": "https://ceciliebahnsen.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Serotoninn",
+  "url": "https://serotoninn.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Cofactr",
+  "url": "https://www.cofactr.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "The Print Loft",
+  "url": "https://www.theprintloft.art",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Icebug",
+  "url": "https://www.icebug.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Longbow",
+  "url": "https://longbowmotors.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Blank Inside",
+  "url": "https://blankinside.co.uk",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Andrey Sudarikov",
+  "url": "https://sudarikov.space",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "108™ Supply",
+  "url": "https://108.supply",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Kosbiotic",
+  "url": "https://kosbiotic.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Drop Dead Generous",
+  "url": "https://www.dropdeadgenerous.org",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Belledonne Paris",
+  "url": "https://belledonne.com/en",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Gardinex",
+  "url": "https://www.gardinex.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Agronomy Workshop",
+  "url": "https://agronomywork.shop",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Odd Ritual",
+  "url": "https://oddritualgolf.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Molo",
+  "url": "https://www.molo.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Bécane",
+  "url": "https://www.becaneparis.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "52 Obsessions",
+  "url": "https://www.thomasmoes.com/52obsessions",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Jump Factory",
+  "url": "https://jumpfactory.ch",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "KALSTORE®",
+  "url": "https://kal-store.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Vemvem",
+  "url": "https://vemvem.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Hyll",
+  "url": "https://www.hyllhotel.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Artifacts",
+  "url": "https://artifacts.is",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "GATE108 3D",
+  "url": "https://gate108.cc",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "waste.space",
+  "url": "https://waste.space",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "No Fear",
+  "url": "https://www.nofear.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Mammoth Brands",
+  "url": "https://mammothbrands.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Main Rose",
+  "url": "https://mainrose.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "The New Industrials",
+  "url": "https://thenewindustrials.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Roxoseco Rural",
+  "url": "https://www.roxoseco.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "(dot)connect",
+  "url": "https://dotconnect.vc",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Grids Gallery",
+  "url": "https://gridsgallery.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Damso",
+  "url": "https://damso.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Nike After Dark Tour",
+  "url": "https://afterdarktour.nike.com/en/home",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Living House",
+  "url": "https://livinghouse.nz",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Silver Gore",
+  "url": "https://www.silvergore.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Short Sentence",
+  "url": "https://shortsentence.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "sapiens",
+  "url": "https://sapiens.website",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "NEON Rated",
+  "url": "http://neonrated.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Plants to the Rescue",
+  "url": "https://plantstotherescue.co",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Osklen",
+  "url": "https://www.osklen.com.br",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Burkinow: Bissiri",
+  "url": "https://burkinow.com/en#a",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Emmpo",
+  "url": "https://emmpo.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Samsøe Samsøe CPHFW25",
+  "url": "https://cphfw25.samsoe.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Holycoin",
+  "url": "https://www.holycoin.net",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Yoga Studio Unity",
+  "url": "https://studiounity.tilda.ws",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Burner",
+  "url": "https://burner.pro",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "FREITAG",
+  "url": "https://freitag.ch",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Samsøe Samsøe",
+  "url": "https://www.samsoe.com/en-SE",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Waitless",
+  "url": "https://wt.ls",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "InstaGallery v1.0",
+  "url": "https://www.insta.gallery",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Grace Walker",
+  "url": "https://www.gracewalker.ca",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "855-HOW-TO-QUIT",
+  "url": "https://855-how-to-quit.org",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "The Lasting Petals of Palestine",
+  "url": "https://lastingpetals.org",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Grids",
+  "url": "https://www.grids.bio",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Leya",
+  "url": "https://www.leya.law",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "1991 Books",
+  "url": "https://1991books.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Hipo",
+  "url": "https://hipolabs.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Forms",
+  "url": "https://forms.supply",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Gelée",
+  "url": "https://geleegelee.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "ZETR",
+  "url": "https://www.zetr.com.au",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Hurdle",
+  "url": "https://hurdle.studio",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Relogate",
+  "url": "https://www.relogate.me",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "RRE",
+  "url": "https://rre.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "ODA ®",
+  "url": "https://www.oda.services",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Nathan Martell",
+  "url": "https://nathanmartell.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "IESSI",
+  "url": "https://iessi.fr",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "StickerImage",
+  "url": "https://www.stickerimage.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "BodyStack",
+  "url": "https://www.bodystack.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Thick Pickle",
+  "url": "https://thickpickle.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "demoday",
+  "url": "https://www.demoday.today",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Meat",
+  "url": "https://meat.studio",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Hello Robo",
+  "url": "https://www.hellorobo.co",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "LEÓN ROMERO",
+  "url": "https://leonromero.work",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "GARBO STUDIOS",
+  "url": "https://garbo-studios.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Grok Ventures",
+  "url": "https://grok.ventures",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Alexis Bardini",
+  "url": "https://www.alexisbardini.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Loughlin Joseph",
+  "url": "https://www.loughlinjoseph.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Para",
+  "url": "https://para.co",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Anton Repponen",
+  "url": "https://repponen.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Tola",
+  "url": "https://invoice.tolahq.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Suno AI",
+  "url": "https://www.suno.ai",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "FineTune",
+  "url": "https://finetune.co",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "SLIDES",
+  "url": "https://www.slides.agency",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Walkie Talkie",
+  "url": "https://walkie-talkie.io",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Daybox",
+  "url": "https://usedaybox.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Corners",
+  "url": "https://www.cornersnewyork.co",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Define American",
+  "url": "https://defineamerican.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "AusHydro",
+  "url": "https://aushydro.au",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Pedro Duarte",
+  "url": "https://ped.ro",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Manner",
+  "url": "https://manner.co",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Slowness",
+  "url": "https://slowness.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "OMSE",
+  "url": "https://www.omse.co",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Murray’s Cheese",
+  "url": "https://www.murrayscheese.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Jim Schachterle",
+  "url": "https://jschachterle.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Avara",
+  "url": "https://avara.xyz",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Endless Tools",
+  "url": "https://endlesstools.io",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Andermatt",
+  "url": "https://andermatt-realestate.ch",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Noerd",
+  "url": "https://noerd.se",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "amo",
+  "url": "https://amo.co",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Hemanth Soni",
+  "url": "https://hem.so",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Revølve Studio",
+  "url": "https://www.revolvestudio.co/index.html",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Only 8%",
+  "url": "https://only8.org",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "BrewDistrict24",
+  "url": "https://brewdistrict24.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Art+Tech Report",
+  "url": "https://www.arttechreport.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "POLYMER WORKSHOP®",
+  "url": "https://www.polymer.ws",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "TERMINO",
+  "url": "https://termino.gmbh",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Freelance Things",
+  "url": "https://www.freelancethings.co",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "The Interview Kit",
+  "url": "https://www.theinterviewkit.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Fishbird",
+  "url": "https://www.fishbird.org",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Sol",
+  "url": "https://solreader.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "REV",
+  "url": "https://revofficial.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Bestand",
+  "url": "https://bestand.org",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Pam",
+  "url": "https://thisispam.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Akuto Studio",
+  "url": "https://akutostudio.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Butter.Bingo",
+  "url": "https://butter.bingo",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "LAS Art Foundation",
+  "url": "https://www.las-art.foundation",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Studio Office",
+  "url": "https://www.studio-office.fun",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Palette Supply",
+  "url": "https://palette.supply",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "YUANN",
+  "url": "https://yuannstudio.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Sid Store",
+  "url": "https://store.sidlee.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Post Familiar Wine",
+  "url": "https://postfamiliar.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Eclipse",
+  "url": "https://www.eclipse.builders",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Terminal™",
+  "url": "https://terminal27.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Flying Papers",
+  "url": "https://www.flyingpapers.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Empty Shelf Design Studio",
+  "url": "https://emptyshelf.design",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "HERZOG.law",
+  "url": "https://herzog.law/en",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Fever",
+  "url": "https://fever.acervo.studio",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Madebywater",
+  "url": "http://madebywater.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Stellar Development",
+  "url": "https://www.stellardevelopment.eu",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Glassworks",
+  "url": "https://glassworks.io",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "SEEN: ③nline",
+  "url": "https://www.seen.space",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "mellow",
+  "url": "https://mellow.dev",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Suvorova Katya",
+  "url": "https://suvorovabrand.fun",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "33 LETTERS FOR UKRAINE",
+  "url": "https://www.33lettersforukraine.net",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Title Pages",
+  "url": "https://www.title.org.uk",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Good Garms",
+  "url": "https://www.goodgarms.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Minimalissimo Supply",
+  "url": "https://minimalissimo.shop",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "THE ROGER",
+  "url": "https://theroger.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "FEED THE 3OO",
+  "url": "https://3oo.store",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "SuperHi Basic Income",
+  "url": "https://www.superhibasicincome.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Nils Schekorr",
+  "url": "https://schekorr.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Hotel Gilbert",
+  "url": "https://www.hotel-gilbert.at",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Jason Pontin",
+  "url": "https://www.jasonpontin.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Cards Against Humanity",
+  "url": "https://www.cardsagainsthumanity.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Sal Parausco – Wears for The Modern Entity",
+  "url": "https://www.salparasuco.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Nomen Nescio",
+  "url": "https://nomennescio.fi",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Contemporary Hum",
+  "url": "https://contemporaryhum.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "PXR Legal",
+  "url": "https://pxr-legal.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "AATHER",
+  "url": "https://aather.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "The Summer Drive",
+  "url": "https://www.thesummerdrive.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Davis Row",
+  "url": "https://www.davisrow.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "TWOTWO",
+  "url": "https://twotwo-official.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Vacation®",
+  "url": "https://www.vacation.inc",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Developments",
+  "url": "https://developments.media",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Relieve Furniture",
+  "url": "https://relievefurniture.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "How Many Plants",
+  "url": "https://howmanyplants.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Female Faces",
+  "url": "https://www.femalefaces.org",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Commonry",
+  "url": "https://www.commonry.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Augusto Lopes",
+  "url": "https://www.augustolopes.design",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Fabo Toth",
+  "url": "https://fabototh.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Victor Martinez",
+  "url": "https://www.victormartz.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Varyer",
+  "url": "https://www.varyer.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Humane by Design",
+  "url": "https://humanebydesign.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Karst",
+  "url": "https://www.karststonepaper.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Glein",
+  "url": "https://www.glein.wien",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "The Internet Warriors",
+  "url": "https://theinternetwarriors.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Windmill",
+  "url": "https://windmillair.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Noel’s Fun Facts",
+  "url": "https://noel.fun",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "UNINTERRUPTED",
+  "url": "https://www.uninterrupted.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Houses Of",
+  "url": "https://housesof.world",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Sisterhood",
+  "url": "https://www.withsisterhood.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Rouser",
+  "url": "https://www.rouserlab.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Pawel Szczypinski",
+  "url": "https://pawelszczypinski.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Input",
+  "url": "https://www.inputmag.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Techleap",
+  "url": "https://www.techleap.nl",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Cobo",
+  "url": "https://www.cobosrl.co",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Goldsworthy",
+  "url": "https://goldsworthystudio.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Collage Crafting",
+  "url": "https://collagecrafting.com/en",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Sydney Dance Company",
+  "url": "https://www.sydneydancecompany.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "International Associate Clubs",
+  "url": "https://www.iacworldwide.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Michelberger",
+  "url": "https://www.michelbergerhotel.com/en",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Saint Kate",
+  "url": "https://www.saintkatearts.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Okalpha",
+  "url": "https://www.okalpha.co",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Samuels & Associates",
+  "url": "https://www.samuelsre.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Mihan Aromatics",
+  "url": "https://www.mihanaromatics.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Simon Phipps",
+  "url": "https://www.simonphipps.co.uk",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "246 Queen",
+  "url": "http://246.co.nz",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Bayport",
+  "url": "https://bayport.com.au",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "A Year of Conscious Practice",
+  "url": "http://ayearofconsciouspractice.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "QVARTZ",
+  "url": "https://qvartz.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Appointed",
+  "url": "https://www.appntd.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Törnqvist",
+  "url": "https://tornqvistcoffee.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "One World One Face",
+  "url": "https://oneworldoneface.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Charles Simon",
+  "url": "https://charles-simon.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Josef Lueger",
+  "url": "http://josef.online",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Maker Park",
+  "url": "http://www.maker-park.org",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Anne Thai",
+  "url": "http://annethai.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Stereo Associates",
+  "url": "https://stereo.associates",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "PRIORY",
+  "url": "http://priorypriory.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Envoy",
+  "url": "https://www.weareenvoy.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Vankůšik",
+  "url": "https://www.vankusik.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "The New Work Project",
+  "url": "https://thenewworkproject.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Jaune de Chrome",
+  "url": "http://www.jaunedechrome.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Pressures & Perspectives",
+  "url": "http://pressuresandperspectives.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Beaubourg",
+  "url": "http://beaubourg-paris.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Studio Eastwood",
+  "url": "http://www.studio-eastwood.nl",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Justin Schueler",
+  "url": "http://justinschueler.de",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Campbell–Rey",
+  "url": "http://campbell-rey.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Volkshaus",
+  "url": "https://www.volkshaus.ch",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Resourcela",
+  "url": "http://resourcela.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Hood Network",
+  "url": "http://hood.network",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Oykun",
+  "url": "http://oykun.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Postevand",
+  "url": "http://postevand.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "LAMAS",
+  "url": "http://lamas.us",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "A-dam",
+  "url": "https://www.adamunderwear.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "10×16",
+  "url": "http://10x16.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Designobjekt",
+  "url": "https://designobjekt.se",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Artifact Property",
+  "url": "http://www.artifactproperty.co.nz",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Dowel Jones",
+  "url": "https://doweljones.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Steve Fraschini",
+  "url": "http://stevefraschini.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Blok",
+  "url": "http://blok.im",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Gabe Ferreira",
+  "url": "http://gabeferraeira.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Ruin",
+  "url": "http://ruinmag.in",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "CITADELA",
+  "url": "http://citadela.io",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "olderbrother",
+  "url": "http://olderbrother.us",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Haus Steuermann",
+  "url": "http://steuermann.haus",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Session Japan",
+  "url": "http://sessionjapan.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "REST",
+  "url": "https://iwantrest.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Brilliant Bicycles",
+  "url": "http://www.brilliant.co",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "AYR",
+  "url": "https://www.ayr.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "tung",
+  "url": "http://madebytung.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "JO&SO",
+  "url": "http://joandso.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Meta Development",
+  "url": "http://metadevelopment.eu",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Filip Nordin",
+  "url": "http://www.filipnordin.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Northernism",
+  "url": "https://northernism.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Julius Gehrig",
+  "url": "http://julius.fm",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Why",
+  "url": "http://www.why.design",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Andrea Brugi",
+  "url": "https://andreabrugi.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Lu Yu",
+  "url": "http://luyu.co",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Ben Silvertown",
+  "url": "http://bensilvertown.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "R+Co",
+  "url": "http://www.randco.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Neverland Space",
+  "url": "http://neverlandspace.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Beyond this point",
+  "url": "http://beyondthispoint.design",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Sunday Supply Co.",
+  "url": "http://sundaysupply.co",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Studio Rodrigo",
+  "url": "http://studiorodrigo.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "The Avery Review",
+  "url": "http://averyreview.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Rimma Tchilingarian",
+  "url": "http://tchilingarian.de",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Inga Israel",
+  "url": "http://ingaisrael.de",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "BKKR",
+  "url": "http://www.bkkr.co",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Y7K",
+  "url": "http://y7k.com/de",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Another",
+  "url": "http://ofanother.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Mutanz",
+  "url": "http://mutanz.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Zofia Chylak",
+  "url": "http://www.chylak.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Poch Studio",
+  "url": "https://poch.studio",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Elton John",
+  "url": "https://www.eltonjohn.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Philip Readman",
+  "url": "https://www.philipreadman.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Moxey",
+  "url": "https://moxey.no",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Foreignrap",
+  "url": "http://www.foreignrap.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Company Policy",
+  "url": "https://www.companypolicy.studio",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Danilo Sierra",
+  "url": "https://danilosierra.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Artem Morozov",
+  "url": "https://artem.vyraz.studio",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Seventeen",
+  "url": "https://www.seventeenagency.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Jason Bergh",
+  "url": "https://www.jasonbergh.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Kai Blamey",
+  "url": "https://kaiblamey.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Eleken",
+  "url": "https://www.eleken.co",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "New Apology",
+  "url": "https://newapology.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Intermusica",
+  "url": "http://intermusica.co.uk",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Jacob Ince",
+  "url": "https://jacobince.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Melody Digital",
+  "url": "https://melodydigital.co",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Tobias Van Schneider Mixtapes",
+  "url": "http://www.vanschneider.com/mixtapes",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Minwook Shin",
+  "url": "https://www.minwookshin.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Jamie xx",
+  "url": "http://www.jamiexx.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Sam Thies",
+  "url": "https://samthies.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Nudot Studio",
+  "url": "http://nudot.com.tw",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Shed",
+  "url": "https://shed.design",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Graham McDonnell",
+  "url": "https://greymac.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "STAGECREW",
+  "url": "https://stagecrew.studio",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Driftime®",
+  "url": "https://driftime.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Giorgos Papadakis",
+  "url": "https://giorgospapadakis.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "basement.studio",
+  "url": "https://basement.studio",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Rory Stiff",
+  "url": "https://www.rorystiff.co.uk",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Arkitektkontoret Vest",
+  "url": "https://arkitektkontoretvest.no",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Bleed",
+  "url": "https://bleed.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Artemii Lebedev",
+  "url": "https://artemiilebedev.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Playfight",
+  "url": "https://www.letsplayfight.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "newkid",
+  "url": "https://newkid.services",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Félix Péault",
+  "url": "https://www.felixpeault.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Voyeur Vérité",
+  "url": "https://www.voyeurverite.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "ForAI",
+  "url": "https://forai.design",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "General Idea",
+  "url": "https://generalidea.agency",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Artem Shcherbakov",
+  "url": "https://artemartemartem.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Tonemaki™",
+  "url": "https://www.tonemaki.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Mattia Saggiomo",
+  "url": "https://mattiasaggiomo.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Walter Schupfer Management",
+  "url": "https://wschupfer.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Studio Gruhl",
+  "url": "https://www.studiogruhl.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Eirdís Ragnarsdóttir",
+  "url": "https://www.eirdis.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Fabra Comunicación",
+  "url": "https://fabracomunicacion.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Ofform",
+  "url": "https://offormdesign.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Ekaterina Busygina",
+  "url": "https://ekaterinabusygina.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Studio GD",
+  "url": "https://www.studiogd.dk",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Konolee",
+  "url": "https://konolee.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Ang Studio®",
+  "url": "https://ang-studio.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Tillmann Franzen",
+  "url": "https://tillmannfranzen.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Extraordinary Things",
+  "url": "https://extraordinarythings.co",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "P.S",
+  "url": "https://presence.supply",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "+13322566869",
+  "url": "https://13322566869.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Karol Ortyl",
+  "url": "https://www.karolortyl.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Constant",
+  "url": "https://weareconstant.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Claudiu Angheloni",
+  "url": "https://claudiuangheloni.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "BR Studio",
+  "url": "https://br.studio/en",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Marianna von Fedak",
+  "url": "https://mariannavonfedak.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Sefik Mujkic",
+  "url": "https://sefikmujkic.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "République Studio",
+  "url": "https://www.republique.studio",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Belen Jones",
+  "url": "https://www.belenjones.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "James Thorburn",
+  "url": "https://jthorburn.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Anatoly Ivanov",
+  "url": "https://anatoly.design",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Grid9 Studio",
+  "url": "https://www.grid9.ru",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "AWP",
+  "url": "https://awp.work/en",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Maximilian Kaspar",
+  "url": "https://www.maximiliankaspar.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Double You Management",
+  "url": "https://doubleyoumanagement.net",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "iconwerk",
+  "url": "https://www.iconwerk.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Jules Andrieu",
+  "url": "https://jsandrieu.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Hyper Effekt",
+  "url": "https://hypereffekt.com/pl",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "smalltribe",
+  "url": "https://smalltribe.studio",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Masahito Leo Takeuchi",
+  "url": "https://ma5a.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Nonspace®",
+  "url": "https://www.nonspace.no",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Artem Yavorovskyi",
+  "url": "https://yavorovskyiartem.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "EY Doberman",
+  "url": "https://doberman.co",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Nav Chatterji",
+  "url": "https://www.navchatterji.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "mimosa",
+  "url": "https://mimosaagency.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "This is Wahba",
+  "url": "https://thisiswahba.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Fora",
+  "url": "https://www.fora-concept.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Tomasz Szmajda",
+  "url": "https://itomdev.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Anagram Club",
+  "url": "https://anagram.club",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Khegai",
+  "url": "https://khegai.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Zentto Design Studio",
+  "url": "https://zentto.com/en",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Milkshake",
+  "url": "https://milkshake.app",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Delt",
+  "url": "https://www.delt.net",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "McLane Teitel",
+  "url": "https://www.mc1ane.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "BLOND",
+  "url": "https://blond.cc",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Reach Partners AG",
+  "url": "https://www.reachpartners.ch/en",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Robert Feasley",
+  "url": "https://rfeasley.io",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "REF Digital Agency",
+  "url": "https://ref.digital",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Born & Bred",
+  "url": "https://bornandbredbrand.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Bruno Cisco",
+  "url": "https://brunocis.co",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Fromanother",
+  "url": "https://www.fromanother.love",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "HammerAlbrecht",
+  "url": "https://www.hammeralbrecht.design",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "NoGood",
+  "url": "https://nogood.studio",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Metajive",
+  "url": "https://www.metajive.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "BURO",
+  "url": "http://madeinburo.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Loli Laboureau",
+  "url": "http://www.lolilaboureau.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Combo",
+  "url": "https://combo.nyc",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Stephan Mann",
+  "url": "https://www.stvxmvnn.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Otherkind",
+  "url": "https://www.otherkind.design",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "This Works",
+  "url": "https://thisworks.co",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "enSHITtified UX",
+  "url": "https://enshittification.caps-dstudio.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Clase",
+  "url": "https://clasebcn.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Isa De Burgh",
+  "url": "https://isadeburgh.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Studio Thomas",
+  "url": "https://www.studiothomas.co.uk",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Chus Retro OS Portfolio",
+  "url": "http://chusmargallo.space",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "KO Collective",
+  "url": "https://www.ko-collective.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Eric&Todd",
+  "url": "https://ericandtodd.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Jin Su Park",
+  "url": "https://jinsupark.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Truecolor",
+  "url": "https://truecolorfilms.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Greenspace",
+  "url": "http://www.thegreenspace.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Bajgart Office",
+  "url": "https://bajgartoffice.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "George&Harrison",
+  "url": "http://www.georgeandharrison.nl",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "iamrobin",
+  "url": "https://iamrob.in",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Vogelhaus",
+  "url": "https://www.vogel.haus",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Kurppa Hosk",
+  "url": "https://kurppahosk.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Chris Shu",
+  "url": "https://chrisshu.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Foolscap Studio",
+  "url": "http://foolscapstudio.com.au",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Ysabella Nicole Alvarez",
+  "url": "https://www.ysabella.me",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "CubiFlow",
+  "url": "https://www.cubiflow.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Grotesk Studio",
+  "url": "http://groteskstudio.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Hackie Techie",
+  "url": "https://hackie-techie.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Mock Studio",
+  "url": "https://mock.nyc",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Jackson Alexander",
+  "url": "https://jacksonalexander.com.au",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Bodeyco",
+  "url": "https://www.bodeyco.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "René Coignard",
+  "url": "https://renecoignard.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "equipo.exe",
+  "url": "https://equipo-exe.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Firma",
+  "url": "https://www.wearefirma.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Chloe Schumacher",
+  "url": "https://chloeschumacher.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "StoryHouse",
+  "url": "https://storyhouseagency.co.uk",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Gyor Moore",
+  "url": "http://www.gyormoore.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Primal",
+  "url": "https://www.studioprimal.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Over-Stimulated",
+  "url": "https://www.over-stimulated.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Offset",
+  "url": "https://www.designbyoffset.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Subdivision",
+  "url": "https://www.subdivision.work",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Marko Jotic",
+  "url": "https://markojotic.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "WaxyWeb",
+  "url": "https://www.waxyweb.agency",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Karl Anders",
+  "url": "https://www.karlanders.io",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Digital Meadow",
+  "url": "https://digitalmeadow.studio",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "STUDIO NEWDAYS",
+  "url": "https://newdays.work",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Arnob Mukherjee",
+  "url": "https://iamarnob.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "paysages studio",
+  "url": "https://paysages.studio",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "For Good Design Lab",
+  "url": "https://www.forgooddesignlab.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "EVERY GAY",
+  "url": "https://every.gay",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Temporal",
+  "url": "https://www.temporal.xyz",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Bedow",
+  "url": "http://www.bedow.se",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Dang Nguyen",
+  "url": "https://dagn.space",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Super Keen",
+  "url": "https://www.superkeen.studio",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Wonderland",
+  "url": "https://www.wonderlandindustry.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Angibaud Samuel",
+  "url": "https://www.samuelangibaud.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Emele Collab",
+  "url": "https://emelecollab.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Mambo Mambo",
+  "url": "http://mambomambo.ca/en",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Shirley Wang",
+  "url": "https://shirley-wang.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Durup",
+  "url": "https://www.durup.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Studio C",
+  "url": "http://www.studioc.dk",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Teardwn",
+  "url": "https://teardwn.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Bejamas",
+  "url": "https://bejamas.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "check land kindleysides",
+  "url": "http://checklandkindleysides.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Ella Thomas",
+  "url": "https://ellaethomas.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Groth",
+  "url": "https://www.groth.studio",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "DesignStudio",
+  "url": "https://www.wearedesignstudio.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Marius Balaj",
+  "url": "https://balajmarius.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Dreimorgen",
+  "url": "http://dreimorgen.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Jon Way Studio",
+  "url": "https://www.jonway.studio",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Arturistic",
+  "url": "https://arturistic.world",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Alphabet",
+  "url": "http://www.madebyalphabet.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Jason Reynolds",
+  "url": "https://jsnrynlds.xyz",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Loaf Creative",
+  "url": "http://www.loafcreative.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Rachel Chen",
+  "url": "https://www.rachelchen.tech",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "UNStudio",
+  "url": "https://www.unstudio.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Deux Huit Huit",
+  "url": "https://deuxhuithuit.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Linus Rogge",
+  "url": "https://linusrogge.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "SofaKnows",
+  "url": "https://sofaknows.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "LimeIQ",
+  "url": "https://limeiq.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Assembly",
+  "url": "http://assemblylondon.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Dandy Weng",
+  "url": "https://www.dandyweng.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Folio Blue",
+  "url": "https://www.folio.blue",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Huddle",
+  "url": "https://www.huddle.works",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Bielke + Yang",
+  "url": "http://bielkeyang.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "George Badea",
+  "url": "https://georgebadea.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Tiffany Devos",
+  "url": "https://tiffanydevos.be",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "L’Étude",
+  "url": "https://letude.group",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Matt Rothenberg",
+  "url": "https://mattrothenberg.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Andrew Alford Creative",
+  "url": "https://andrewalfordcreative.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Ivan Ageev",
+  "url": "https://ivanageev.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Early Works",
+  "url": "https://www.early.works",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Los Feliz Engineering",
+  "url": "https://lfe.org",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Monika Michalczyk",
+  "url": "https://www.monikamichalczyk.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Cregg Paris",
+  "url": "https://www.cregg-paris.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Josh Jamili",
+  "url": "https://joshjamili.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "MURMURE",
+  "url": "https://murmure.me",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Paprika",
+  "url": "https://www.paprikaapp.com",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "Origin",
+  "url": "https://www.useorigin.com",
+  "type": "landing",
+  "tags": [],
+  "note": ""
+ },
+ {
+  "site": "Index Georgia",
+  "url": "https://index-georgia.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Apossible",
+  "url": "https://apossible.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Qude",
+  "url": "https://qude.audio",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Alphamark™",
+  "url": "https://alphamark.design",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Louis Ansa",
+  "url": "https://louisansa.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "ITP Renewables",
+  "url": "https://itprenewables.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Manuel Moreale",
+  "url": "https://manuelmoreale.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Advance-Copy",
+  "url": "http://advance-copy.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Crucible Moments",
+  "url": "https://www.cruciblemoments.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Perform—Produce",
+  "url": "https://performproduce.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "PROWL",
+  "url": "https://www.prowlstud.io",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "The Peers Project",
+  "url": "https://thepeersproject.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Radio Null Rewind",
+  "url": "https://2022.madebynull.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "BFF Südwind",
+  "url": "https://suedwind.bff.de",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Shot on iPhone in Black & White",
+  "url": "https://shotoniphone.lorenzobocchi.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Lost Memories",
+  "url": "https://lostmemories.space",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Monolith Studio",
+  "url": "https://monolithstudio.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Elena Borisova",
+  "url": "https://elenaborisova.life",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "ANDMADE Inc.",
+  "url": "https://andmade.jp",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Moe Amaya",
+  "url": "https://moeamaya.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Anna Erdelen",
+  "url": "https://www.erdelen.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Rennan Correia",
+  "url": "https://www.rennancorreia.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Yihui Hu",
+  "url": "https://www.yihui.work",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Gusta",
+  "url": "https://gusta.studio",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Schema",
+  "url": "https://www.schemadesign.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "DreamHouse Productions",
+  "url": "https://dreamhouseproductions.net",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Rich Stapleton",
+  "url": "https://richstapleton.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "FOLLYWOOD",
+  "url": "https://www.follywood.nl",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Bureau Tonalli",
+  "url": "https://www.bureautonalli.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Minorstep",
+  "url": "https://minorstep.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Convicts",
+  "url": "https://convicts.nyc",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "G!theimagineers",
+  "url": "https://www.gtheimagineers.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Studio 12",
+  "url": "https://studio12.paris",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Chiara Luzzana",
+  "url": "https://chiaraluzzana.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Tome Brand Studio",
+  "url": "https://www.tomebrandstudio.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Adcker",
+  "url": "https://adcker.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "LOMO-12",
+  "url": "https://lomo-12.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "The Raum Objects",
+  "url": "https://www.the-raum-objects.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Hugo Ahlberg",
+  "url": "https://hugoahlberg.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Camille Mormal",
+  "url": "https://camillemormal.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Atlason",
+  "url": "http://atlason.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "TK Creative",
+  "url": "https://tkcreative.ca",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Danielle Levitt",
+  "url": "https://www.daniellelevitt.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Typical Mitul",
+  "url": "https://typicalmitul.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Staffan Sundström",
+  "url": "https://staffansundstrom.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Pihlmann",
+  "url": "https://pihlmann.dk",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Andrey Krauzov",
+  "url": "https://andreykrauzov.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Blank Architects",
+  "url": "https://blank.su/en",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Richie Talboy",
+  "url": "https://richietalboy.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "archive",
+  "url": "https://optikarchiv.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Julia Johnson",
+  "url": "https://www.juliajohnson.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Conrad Stel",
+  "url": "https://conradstel.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Austen",
+  "url": "https://austen.fun",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Emile Ducke",
+  "url": "https://emileducke.de",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Patrick Miller",
+  "url": "https://patrickmiller.se",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Hanbury",
+  "url": "https://www.hanbury.design",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "naaro",
+  "url": "https://www.naaro.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Inpuls",
+  "url": "https://www.in-puls.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Cecile Bortoletti",
+  "url": "http://cecile-bortoletti.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "StudioChevojon",
+  "url": "https://studiochevojon.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Rickard Sund",
+  "url": "http://rickardsund.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Jimmy Linus",
+  "url": "https://jimmylinus.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Eric Petschek",
+  "url": "https://ericpetschek.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "RSI Studio",
+  "url": "http://www.rsi.studio",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Snøhetta",
+  "url": "https://www.snohetta.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Jonty Davies",
+  "url": "http://jontydavies.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "VINICIUS SIEGA",
+  "url": "https://viniciussiega.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "YO YO YO",
+  "url": "https://yoyoyo.photos",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Josefine Laul",
+  "url": "https://www.josefinelaul.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Flavio&Frank",
+  "url": "https://www.flavioefrank.it",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Dexter Navy",
+  "url": "http://dexternavy.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Sara Marandi",
+  "url": "http://www.saramarandi.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "David Gomez-Maestre",
+  "url": "https://davidgomezmaestre.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Tom Bird",
+  "url": "http://bytombird.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Zaha Hadid’s 520W28",
+  "url": "https://520w28.artmilitonian.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Rafal Klos",
+  "url": "http://rafalklos.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Sacha Maric",
+  "url": "http://sachamaric.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Axel Wyart",
+  "url": "http://axelwyart.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Sébastien El Idrissi Studio",
+  "url": "https://seis.studio",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Jack Davison",
+  "url": "http://www.jackdavison.co.uk",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Kyle Johnson",
+  "url": "https://kjphotos.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Michael Chichi",
+  "url": "http://michaelchichi.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Ben Mingo",
+  "url": "http://www.benmingo.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Marcus Eriksson",
+  "url": "http://themarcus.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Jeremy P. Beasley",
+  "url": "http://jeremypbeasley.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Sean Fennessy",
+  "url": "http://www.seanfennessy.com.au",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "4 years of Unsplash",
+  "url": "http://1460.unsplash.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Zissou",
+  "url": "http://zissou.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Studio Brophy",
+  "url": "https://studiobrophy.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Liam Ricketts",
+  "url": "http://www.liamricketts.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Lunneryd Arkitekter",
+  "url": "https://www.lunneryd.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Leigh Simpson",
+  "url": "http://leighsimpson.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Matthias Weingaertner",
+  "url": "http://matthiasweingaertner.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Oxford House",
+  "url": "http://www.oxfordhouse.nl",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Leandro Farina",
+  "url": "http://www.leandrofarina.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Carl Kleiner",
+  "url": "http://www.carlkleiner.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Guillame Tomasi",
+  "url": "http://www.guillaumetomasi.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Barrault Pressacco",
+  "url": "https://barraultpressacco.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Tim Flach",
+  "url": "http://timflach.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Tudor Prisacariu",
+  "url": "http://tudorprisacariu.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Groep D.Deco",
+  "url": "https://groepddeco.be",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Terring Photo",
+  "url": "http://terringphoto.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Daniel Boddam",
+  "url": "https://www.danielboddam.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Mikhail Riches",
+  "url": "http://www.mikhailriches.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Angela Moore",
+  "url": "http://angela-moore.co.uk",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "APA",
+  "url": "http://www.aparchitecture.fr/en",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "GLYF",
+  "url": "https://glyf.ru/en",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Schema",
+  "url": "https://www.schema.supply",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Kirill Zakharov",
+  "url": "https://kirillz.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Somehow",
+  "url": "https://somehow.com",
+  "type": "landing",
+  "tags": [],
+  "note": "",
+  "via": "minimal.gallery"
+ },
+ {
+  "site": "Versett",
+  "url": "http://versett.com",
   "type": "landing",
   "tags": [],
   "note": "",

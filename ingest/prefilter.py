@@ -42,6 +42,17 @@ def norm(url: str) -> str:
     return (p.netloc.lower().removeprefix("www.") + p.path.rstrip("/")).lower()
 
 
+SHARED_HOSTS = {"github.io", "vercel.app", "netlify.app", "framer.website", "webflow.io", "notion.site",
+                "cargo.site", "carrd.co", "substack.com", "medium.com", "co.uk", "com.au", "co.jp", "com.br"}
+
+
+def domain(url: str) -> str:
+    host = urlparse(url if "://" in url else "https://" + url).netloc.lower().removeprefix("www.")
+    parts = host.split(".")
+    two = ".".join(parts[-2:])
+    return ".".join(parts[-3:]) if two in SHARED_HOSTS and len(parts) > 2 else two
+
+
 def seen() -> set[str]:
     out = {norm(e["url"]) for e in json.loads(SOURCES.read_text()) if e.get("url")}
     if SKIPPED.exists():
@@ -81,10 +92,23 @@ def check(entry: dict) -> tuple[dict, str | None]:
 def main() -> int:
     path, dry = Path(sys.argv[1]), "--dry-run" in sys.argv
     batch, known = json.loads(path.read_text()), seen()
-    fresh = [e for e in batch if norm(e["url"]) not in known]
+    # same company on another subdomain or path (intl.nothing.tech vs nothing.tech): skip too
+    lib_domains = {domain(e["url"]) for e in json.loads(SOURCES.read_text()) if e.get("url")}
+    fresh = [e for e in batch if norm(e["url"]) not in known
+             and (domain(e["url"]) not in lib_domains or domain(e["url"]) in SHARED_HOSTS)]
     with ThreadPoolExecutor(16) as ex:
         res = list(ex.map(check, fresh))
     keep = [e for e, why in res if not why]
+    # Two sites with the same name (Daylight Computer, Daylight solar) must not share an id:
+    # the capture would overwrite the library's screens.
+    taken = {x["id"] for x in json.loads((ROOT / "skills/ui-taste/library/index.json").read_text())}
+    for e in keep:
+        sid = e.get("id") or re.sub(r"[^a-z0-9]+", "-", f"{e['site']}-{e['type']}".lower()).strip("-")
+        if sid in taken:
+            host = urlparse(e["url"]).netloc.removeprefix("www.").split(".")[0]
+            e["id"] = re.sub(r"[^a-z0-9]+", "-", f"{e['site']}-{host}-{e['type']}".lower()).strip("-")
+            print(f"id    {sid} is taken, using {e['id']}")
+        taken.add(e.get("id") or sid)
     drop = [(e, why) for e, why in res if why]
     for e, why in drop:
         print(f"drop  {e['url']}  {why}")

@@ -33,6 +33,7 @@ from playwright.sync_api import Page, sync_playwright
 ROOT = Path(__file__).resolve().parent.parent
 LIBRARY = ROOT / "library"
 SCREENS = LIBRARY / "screens"
+LIBRARY_IDS: set = set()
 INDEX = Path(os.environ["UI_TASTE_INDEX"]) if os.environ.get("UI_TASTE_INDEX") else LIBRARY / "index.json"
 # ingest/capture_parallel.sh sets UI_TASTE_INDEX to a staging index per batch, so a capture can run
 # while the previous batch is reviewed; ingest/apply_review.py merges the kept screens.
@@ -356,6 +357,8 @@ def main() -> int:
         ap.error("give a url with --site and --type, or --batch")
 
     failed = []
+    global LIBRARY_IDS
+    LIBRARY_IDS = {x["id"] for x in json.loads((LIBRARY / "index.json").read_text())} if (LIBRARY / "index.json").exists() else set()
     with sync_playwright() as p:
         browser = p.chromium.launch(args=LAUNCH_ARGS)
         for n, entry in enumerate(entries):
@@ -364,6 +367,11 @@ def main() -> int:
                 browser = p.chromium.launch(args=LAUNCH_ARGS)
             wait_for_memory()
             label = entry.get("id") or entry["url"]
+            sid = entry.get("id") or slug(f"{entry['site']}-{entry['type']}")
+            if INDEX != LIBRARY / "index.json" and sid in LIBRARY_IDS:
+                failed.append(label)
+                print(f"FAIL  {label}: id {sid} is already in the library, give the entry its own id", file=sys.stderr, flush=True)
+                continue
             try:
                 item = capture(entry, browser)
                 save_item(item)

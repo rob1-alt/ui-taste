@@ -3,7 +3,8 @@
 Build the capture queue from a human-curated gallery instead of hand-written lists:
 minimal.gallery (WordPress, ~3000 hand-picked sites, tagged by kind).
 
-    python3 ingest/gallery_queue.py [--tags startup,saas,...] [--max 400]
+    python3 ingest/gallery_queue.py [--tags startup,saas,...] [--per-tag 120] [--max 400]
+    python3 ingest/gallery_queue.py --all --max 800   (whole gallery, newest first, minus weak tags)
         -> appends new entries to ingest/queue.json (newest picks first, interleaved
            across tags so a batch is not 50 agencies), skipping every URL already in
            sources.json, skipped.tsv or the queue.
@@ -33,8 +34,10 @@ UA = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) Chrome/131.0 Safari/537.36
 OFFLINE = 48
 # product-side kinds first; agencies and portfolios are plentiful, keep them a minority
 DEFAULT_TAGS = ["startup", "saas", "ai", "tools", "app", "product", "software", "type-foundry",
-                "science", "research", "programming", "platform", "finance", "branding",
-                "museum-gallery", "editorial", "music", "food-drink", "personal", "agency"]
+                "science", "research", "programming", "platform", "finance", "branding", "code-library",
+                "b2b", "security", "audio", "museum-gallery", "editorial", "magazine", "publisher",
+                "catalogue", "music", "food-drink", "festival-conference", "education", "healthcare",
+                "environmental", "architecture-interior-design", "games-gaming", "book", "directory"]
 SKIP_HOSTS = r"(instagram|behance|dribbble|cargo\.site|readymag|framer\.website|webflow\.io|notion\.site)"
 
 
@@ -49,17 +52,23 @@ def tag_ids() -> dict[str, int]:
     return {t["slug"]: t["id"] for t in tags}
 
 
-def posts(tag: int, limit: int) -> list[dict]:
+WEAK_TAGS = ["personal", "agency", "portfolio", "production-studio", "photography"]
+# Batches 20-22: personal and studio sites were mostly scroll-driven pages that capture as a
+# hero and an empty page. Posts carrying one of these tags are left out.
+
+
+def posts(tag: int, limit: int, weak: set[int] = frozenset()) -> list[dict]:
     out, page = [], 1
     while len(out) < limit:
         try:
-            batch = json.loads(get(f"{API}/posts?tags={tag}&categories_exclude={OFFLINE}&per_page=100"
-                                   f"&page={page}&_fields=link,title"))
+            by_tag = f"tags={tag}&" if tag else ""
+            batch = json.loads(get(f"{API}/posts?{by_tag}categories_exclude={OFFLINE}&per_page=100"
+                                   f"&page={page}&_fields=link,title,tags"))
         except Exception:
             break
         if not batch:
             break
-        out += batch; page += 1
+        out += [p for p in batch if not weak & set(p.get("tags", []))]; page += 1
     return out[:limit]
 
 
@@ -79,10 +88,15 @@ def main() -> int:
     args = sys.argv[1:]
     want = args[args.index("--tags") + 1].split(",") if "--tags" in args else DEFAULT_TAGS
     cap = int(args[args.index("--max") + 1]) if "--max" in args else 400
+    per_tag = int(args[args.index("--per-tag") + 1]) if "--per-tag" in args else 120
     ids = tag_ids()
-    per_tag = [posts(ids[t], 120) for t in want if t in ids]
+    weak = {ids[t] for t in WEAK_TAGS if t in ids}
+    if "--all" in args:  # every non-offline post, untagged ones included, minus the weak tags
+        lists = [posts(0, 5000, weak)]
+    else:
+        lists = [posts(ids[t], per_tag, weak) for t in want if t in ids]
     order, done = [], set()
-    for row in zip_longest(*per_tag):  # interleave: newest of each tag, then the next...
+    for row in zip_longest(*lists):  # interleave: newest of each tag, then the next...
         for p in row:
             if p and p["link"] not in done:
                 done.add(p["link"]); order.append(p)
