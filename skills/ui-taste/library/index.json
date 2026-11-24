@@ -12739,6 +12739,159 @@
     }
   },
   {
+    "id": "anthropic-research-landing",
+    "site": "Anthropic Research",
+    "url": "https://www.anthropic.com/research",
+    "type": "landing",
+    "tags": [
+      "light",
+      "research-index",
+      "topic-tabs",
+      "art-paired-papers",
+      "marbled-artwork"
+    ],
+    "note": "A plain statement of what the research teams study, topic tabs with paper counts, then each paper paired with an artwork (a black hole in marbled blue and gold). Research made browsable by art.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/anthropic-research-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/anthropic-research-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Research \\ Anthropic",
+      "fonts": [
+        "anthropicSans",
+        "anthropicMono"
+      ],
+      "type": {
+        "h1": {
+          "font": "anthropicSans",
+          "size": 42,
+          "weight": "600",
+          "lineHeight": 1.12,
+          "letterSpacing": "normal",
+          "color": "rgb(20, 20, 19)"
+        },
+        "h2": {
+          "font": "anthropicSans",
+          "size": 21,
+          "weight": "700",
+          "lineHeight": 1.25,
+          "letterSpacing": "normal",
+          "color": "rgb(20, 20, 19)"
+        },
+        "h3": {
+          "font": "anthropicSans",
+          "size": 16,
+          "weight": "700",
+          "lineHeight": 1.3,
+          "letterSpacing": "normal",
+          "color": "rgb(20, 20, 19)"
+        },
+        "body": {
+          "font": "anthropicSans",
+          "size": 13,
+          "weight": "400",
+          "lineHeight": 1.54,
+          "letterSpacing": "0.13px",
+          "color": "rgb(94, 93, 89)"
+        }
+      },
+      "colors": {
+        "background": "#faf9f5",
+        "surfaces": [
+          "#faf9f5",
+          "#141413",
+          "#e8e6dc",
+          "#f5f4ed",
+          "#262624"
+        ],
+        "text": [
+          "#5e5d59",
+          "#141413",
+          "#87867f",
+          "#3d3d3a"
+        ]
+      },
+      "buttons": [
+        {
+          "label": "News",
+          "bg": "#f5f4ed",
+          "color": "#3d3d3a",
+          "radius": "999999px",
+          "height": 28,
+          "paddingX": 16,
+          "font": "anthropicSans",
+          "size": 13,
+          "weight": "400"
+        },
+        {
+          "label": "Research",
+          "bg": "#e8e6dc",
+          "color": "#30302e",
+          "radius": "999999px",
+          "height": 28,
+          "paddingX": 16,
+          "font": "anthropicSans",
+          "size": 13,
+          "weight": "400"
+        },
+        {
+          "label": "Policy",
+          "bg": "#f5f4ed",
+          "color": "#3d3d3a",
+          "radius": "999999px",
+          "height": 28,
+          "paddingX": 16,
+          "font": "anthropicSans",
+          "size": 13,
+          "weight": "400"
+        },
+        {
+          "label": "Commitments",
+          "bg": "#f5f4ed",
+          "color": "#3d3d3a",
+          "radius": "999999px",
+          "height": 28,
+          "paddingX": 16,
+          "font": "anthropicSans",
+          "size": 13,
+          "weight": "400"
+        },
+        {
+          "label": "Company",
+          "bg": "#f5f4ed",
+          "color": "#3d3d3a",
+          "radius": "999999px",
+          "height": 28,
+          "paddingX": 16,
+          "font": "anthropicSans",
+          "size": 13,
+          "weight": "400"
+        },
+        {
+          "label": "Try Claude",
+          "bg": "#f5f4ed",
+          "color": "#3d3d3a",
+          "radius": "999999px",
+          "height": 28,
+          "paddingX": 16,
+          "font": "anthropicSans",
+          "size": 13,
+          "weight": "400"
+        }
+      ],
+      "contentWidth": 650
+    }
+  },
+  {
     "id": "anytype-landing",
     "site": "Anytype",
     "url": "https://anytype.io",
@@ -13055,6 +13208,100 @@
       },
       "mobile": {
         "file": "screens/arc-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "A farewell to Arc",
+      "fonts": [
+        "ABC Oracle",
+        "-apple-system",
+        "Exposure VAR"
+      ],
+      "type": {
+        "h1": {
+          "font": "Exposure VAR",
+          "size": 76,
+          "weight": "600",
+          "lineHeight": 1.13,
+          "letterSpacing": "-2.432px",
+          "color": "rgb(255, 255, 255)"
+        },
+        "h2": {
+          "font": "ABC Oracle",
+          "size": 38,
+          "weight": "350",
+          "lineHeight": 1.29,
+          "letterSpacing": "-1.14px",
+          "color": "rgb(255, 255, 255)"
+        },
+        "h3": {
+          "font": "ABC Oracle",
+          "size": 16,
+          "weight": "350",
+          "lineHeight": "normal",
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        },
+        "body": {
+          "font": "ABC Oracle",
+          "size": 21,
+          "weight": "350",
+          "lineHeight": 1.42,
+          "letterSpacing": "-0.63px",
+          "color": "rgb(255, 255, 255)"
+        }
+      },
+      "colors": {
+        "background": "#0b0b0b",
+        "surfaces": [
+          "#0b0b0b",
+          "#ffffff"
+        ],
+        "text": [
+          "#ffffff",
+          "#000000"
+        ]
+      },
+      "buttons": [
+        {
+          "label": "Download Dia",
+          "bg": "#0b0b0b",
+          "color": "#ffffff",
+          "radius": "12px",
+          "height": 60,
+          "paddingX": 24,
+          "font": "ABC Oracle",
+          "size": 18,
+          "weight": "350"
+        }
+      ],
+      "contentWidth": 666
+    }
+  },
+  {
+    "id": "arc-boosts-landing",
+    "site": "Arc Boosts",
+    "url": "https://arc.net/boosts",
+    "type": "landing",
+    "tags": [
+      "dark",
+      "letter-as-landing",
+      "sunset-announcement",
+      "signed-by-founder",
+      "app-icon"
+    ],
+    "note": "The product's farewell as the homepage: the app icon, 'A farewell to Arc', a dated sunset, then a long letter signed by hand. Ending a product with a letter instead of a banner.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/arc-boosts-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/arc-boosts-landing-mobile.jpg",
         "width": 390,
         "height": 2600
       }
@@ -34216,6 +34463,155 @@
     }
   },
   {
+    "id": "lynn-fisher-landing",
+    "site": "Lynn Fisher",
+    "url": "https://lynnandtonic.com",
+    "type": "landing",
+    "tags": [
+      "paper-texture",
+      "woodcut-type",
+      "table-of-contents-nav",
+      "roman-numerals",
+      "book-title-page"
+    ],
+    "note": "The homepage is a book's title page: her name in a woodcut display face on textured paper and a dotted-leader table of contents with roman numerals (About I, Work II...). One analogue metaphor, carried fully.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/lynn-fisher-landing-desktop.jpg",
+        "width": 1440,
+        "height": 900
+      },
+      "mobile": {
+        "file": "screens/lynn-fisher-landing-mobile.jpg",
+        "width": 390,
+        "height": 844
+      }
+    },
+    "tokens": {
+      "title": "Lynn Fisher",
+      "fonts": [
+        "SydoniaAtramentiquaLight",
+        "SydoniaAtramentiquaRegular",
+        "SydoniaAtramentiquaBold"
+      ],
+      "type": {
+        "h1": {
+          "font": "Hubano-Rough",
+          "size": 96,
+          "weight": "300",
+          "lineHeight": 1,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        },
+        "h2": {
+          "font": "SydoniaAtramentiquaBold",
+          "size": 24,
+          "weight": "300",
+          "lineHeight": 1.2,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        },
+        "h3": null,
+        "body": null
+      },
+      "colors": {
+        "background": "#e4e2d7",
+        "surfaces": [],
+        "text": [
+          "#000000"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": null
+    }
+  },
+  {
+    "id": "maggie-appleton-landing",
+    "site": "Maggie Appleton",
+    "url": "https://maggieappleton.com",
+    "type": "landing",
+    "tags": [
+      "light",
+      "serif-display",
+      "digital-garden",
+      "growth-stage-labels",
+      "essay-cards",
+      "warm-paper"
+    ],
+    "note": "A large serif sentence ('Maggie makes visual essays about programming, design, and anthropology'), then 'The Garden' with essays and notes labelled by how grown they are. A personal site organised as a garden.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/maggie-appleton-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/maggie-appleton-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Maggie Appleton",
+      "fonts": [
+        "Canela Text",
+        "Lato",
+        "Times New Roman"
+      ],
+      "type": {
+        "h1": {
+          "font": "Canela Deck",
+          "size": 82,
+          "weight": "400",
+          "lineHeight": 1.1,
+          "letterSpacing": "normal",
+          "color": "rgb(53, 53, 52)"
+        },
+        "h2": {
+          "font": "Lato",
+          "size": 29,
+          "weight": "300",
+          "lineHeight": 1.6,
+          "letterSpacing": "normal",
+          "color": "rgb(74, 74, 70)"
+        },
+        "h3": {
+          "font": "Lato",
+          "size": 22,
+          "weight": "600",
+          "lineHeight": 1.5,
+          "letterSpacing": "normal",
+          "color": "rgb(74, 74, 70)"
+        },
+        "body": {
+          "font": "Lato",
+          "size": 15,
+          "weight": "400",
+          "lineHeight": 1.5,
+          "letterSpacing": "normal",
+          "color": "rgb(142, 143, 148)"
+        }
+      },
+      "colors": {
+        "background": "#f6f5f1",
+        "surfaces": [
+          "#fcfbf7",
+          "#f6f5f1"
+        ],
+        "text": [
+          "#4a4a46",
+          "#8e8f94",
+          "#353534",
+          "#960462"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": 1420
+    }
+  },
+  {
     "id": "magic-patterns-landing",
     "site": "Magic Patterns",
     "url": "https://www.magicpatterns.com",
@@ -42443,6 +42839,148 @@
     }
   },
   {
+    "id": "posthog-max-landing",
+    "site": "PostHog Max",
+    "url": "https://posthog.com/max",
+    "type": "landing",
+    "tags": [
+      "light-green",
+      "desktop-os-chrome",
+      "hedgehog-mascot",
+      "window-ui",
+      "playful"
+    ],
+    "note": "The page is a fake desktop OS: windows, a dock, and the hedgehog mascot illustrated on the product window. The brand's whole site behaves like an operating system.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/posthog-max-landing-desktop.jpg",
+        "width": 1440,
+        "height": 900
+      },
+      "mobile": {
+        "file": "screens/posthog-max-landing-mobile.jpg",
+        "width": 390,
+        "height": 844
+      }
+    },
+    "tokens": {
+      "title": "PostHog AI – The AI agent for your product data",
+      "fonts": [
+        "RoundHog",
+        "Comic Sans MS"
+      ],
+      "type": {
+        "h1": {
+          "font": "RoundHog",
+          "size": 36,
+          "weight": "700",
+          "lineHeight": 1.11,
+          "letterSpacing": "normal",
+          "color": "rgb(55, 65, 81)"
+        },
+        "h2": {
+          "font": "RoundHog",
+          "size": 30,
+          "weight": "700",
+          "lineHeight": 1.2,
+          "letterSpacing": "-0.75px",
+          "color": "rgb(55, 65, 81)"
+        },
+        "h3": {
+          "font": "RoundHog",
+          "size": 16,
+          "weight": "700",
+          "lineHeight": 1.5,
+          "letterSpacing": "normal",
+          "color": "rgb(55, 65, 81)"
+        },
+        "body": {
+          "font": "RoundHog",
+          "size": 18,
+          "weight": "500",
+          "lineHeight": 1.56,
+          "letterSpacing": "normal",
+          "color": "rgb(55, 65, 81)"
+        }
+      },
+      "colors": {
+        "background": "#eeefe9",
+        "surfaces": [
+          "#d3dac6",
+          "#fdfdf8",
+          "#ffffff",
+          "#cbd5b9",
+          "#e5e7e0"
+        ],
+        "text": [
+          "#65675e",
+          "#374151",
+          "#111111",
+          "#ffffff"
+        ]
+      },
+      "buttons": [
+        {
+          "label": "Get started – free",
+          "bg": "#cd8407",
+          "color": "#23251d",
+          "radius": "6px",
+          "height": 32,
+          "paddingX": 0,
+          "font": "RoundHog",
+          "size": 16,
+          "weight": "400"
+        },
+        {
+          "label": "Get started – free",
+          "bg": "#cd8407",
+          "color": "#111111",
+          "radius": "6px",
+          "height": 36,
+          "paddingX": 0,
+          "font": "RoundHog",
+          "size": 15,
+          "weight": "500"
+        },
+        {
+          "label": "Conversion",
+          "bg": "#e5e7e0",
+          "color": "#111111",
+          "radius": "6px 6px 0px 0px",
+          "height": 41,
+          "paddingX": 8,
+          "font": "RoundHog",
+          "size": 14,
+          "weight": "600"
+        },
+        {
+          "label": "Is the new onboarding ready for more use",
+          "bg": "#e5e7e0",
+          "color": "#111111",
+          "radius": "9999px",
+          "height": 30,
+          "paddingX": 12,
+          "font": "RoundHog",
+          "size": 14,
+          "weight": "500"
+        },
+        {
+          "label": "Which renewing accounts need a closer lo",
+          "bg": "#e5e7e0",
+          "color": "#111111",
+          "radius": "9999px",
+          "height": 30,
+          "paddingX": 12,
+          "font": "RoundHog",
+          "size": 14,
+          "weight": "500"
+        }
+      ],
+      "contentWidth": 1424
+    }
+  },
+  {
     "id": "prisma-landing",
     "site": "Prisma",
     "url": "https://www.prisma.io",
@@ -43321,6 +43859,91 @@
     "tokens": null
   },
   {
+    "id": "quanta-landing",
+    "site": "Quanta",
+    "url": "https://www.quantamagazine.org",
+    "type": "landing",
+    "tags": [
+      "light",
+      "commissioned-illustration-hero",
+      "magazine-grid",
+      "serif-headlines",
+      "science-editorial"
+    ],
+    "note": "Each story leads with a commissioned illustration (a DNA ribbon repaired by tiny technicians on a workbench), then a calm grid of illustrated stories. Science made inviting by art direction, not stock photos.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/quanta-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/quanta-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Science and Math News | Quanta Magazine",
+      "fonts": [
+        "Merriweather",
+        "Pangram",
+        "sans-serif"
+      ],
+      "type": {
+        "h1": {
+          "font": "Pangram",
+          "size": 40,
+          "weight": "700",
+          "lineHeight": 1.15,
+          "letterSpacing": "normal",
+          "color": "rgb(26, 26, 26)"
+        },
+        "h2": {
+          "font": "Pangram",
+          "size": 22,
+          "weight": "700",
+          "lineHeight": 1.4,
+          "letterSpacing": "normal",
+          "color": "rgb(26, 26, 26)"
+        },
+        "h3": {
+          "font": "Noe Display",
+          "size": 45,
+          "weight": "700",
+          "lineHeight": 1.05,
+          "letterSpacing": "normal",
+          "color": "rgb(26, 26, 26)"
+        },
+        "body": {
+          "font": "Pangram",
+          "size": 10,
+          "weight": "400",
+          "lineHeight": 1.88,
+          "letterSpacing": "normal",
+          "color": "rgb(26, 26, 26)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#1a1a1a",
+          "#ffffff",
+          "#262626"
+        ],
+        "text": [
+          "#1a1a1a",
+          "#6b6b6b",
+          "#767676",
+          "#ffffff"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": 1229
+    }
+  },
+  {
     "id": "quo-landing",
     "site": "Quo",
     "url": "https://www.quo.com",
@@ -43868,6 +44491,80 @@
           "weight": "400"
         }
       ],
+      "contentWidth": null
+    }
+  },
+  {
+    "id": "rauno-landing",
+    "site": "Rauno",
+    "url": "https://rauno.me",
+    "type": "landing",
+    "tags": [
+      "light-grey",
+      "giant-yellow-circle",
+      "one-sentence-bio",
+      "sans-display",
+      "interactive-detail"
+    ],
+    "note": "One sentence ('Rauno Freiberg is an Estonian interaction designer working with Vercel and Devouring Details') set large over a big yellow circle. A portfolio reduced to a sentence and a shape.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/rauno-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/rauno-landing-mobile.jpg",
+        "width": 390,
+        "height": 844
+      }
+    },
+    "tokens": {
+      "title": "Rauno Freiberg",
+      "fonts": [
+        "X"
+      ],
+      "type": {
+        "h1": {
+          "font": "X",
+          "size": 32,
+          "weight": "500",
+          "lineHeight": "normal",
+          "letterSpacing": "normal",
+          "color": "rgb(23, 23, 23)"
+        },
+        "h2": null,
+        "h3": {
+          "font": "X",
+          "size": 720,
+          "weight": "400",
+          "lineHeight": "normal",
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        },
+        "body": {
+          "font": "X",
+          "size": 85,
+          "weight": "400",
+          "lineHeight": "normal",
+          "letterSpacing": "normal",
+          "color": "rgb(23, 23, 23)"
+        }
+      },
+      "colors": {
+        "background": "#ededed",
+        "surfaces": [
+          "#ffffff",
+          "#ffff02"
+        ],
+        "text": [
+          "#000000",
+          "#171717",
+          "#6f6f6f"
+        ]
+      },
+      "buttons": [],
       "contentWidth": null
     }
   },
@@ -45850,6 +46547,80 @@
     }
   },
   {
+    "id": "robin-sloan-landing",
+    "site": "Robin Sloan",
+    "url": "https://www.robinsloan.com",
+    "type": "landing",
+    "tags": [
+      "orange-field",
+      "condensed-display-wordmark",
+      "personal-site",
+      "dense-link-directory",
+      "newsletter-first"
+    ],
+    "note": "A full orange page with his name in an orange condensed display face as the masthead, then a dense two-column directory of everything he has made. A personal site that reads like a pamphlet.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/robin-sloan-landing-desktop.jpg",
+        "width": 1440,
+        "height": 2266
+      },
+      "mobile": {
+        "file": "screens/robin-sloan-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Robin Sloan",
+      "fonts": [
+        "Trade Gothic Next",
+        "Kyrios"
+      ],
+      "type": {
+        "h1": {
+          "font": "Kyrios",
+          "size": 84,
+          "weight": "400",
+          "lineHeight": 0.83,
+          "letterSpacing": "normal",
+          "color": "oklch(0.7 0.195 37)"
+        },
+        "h2": null,
+        "h3": {
+          "font": "Trade Gothic Next",
+          "size": 14,
+          "weight": "700",
+          "lineHeight": 2,
+          "letterSpacing": "normal",
+          "color": "oklch(0.7 0.195 37)"
+        },
+        "body": {
+          "font": "Trade Gothic Next",
+          "size": 18,
+          "weight": "400",
+          "lineHeight": 1.6,
+          "letterSpacing": "normal",
+          "color": "rgba(0, 0, 0, 0.95)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#f5f5f5",
+          "#f5faff"
+        ],
+        "text": [
+          "#000000",
+          "#f5faff"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": null
+    }
+  },
+  {
     "id": "rogo-landing",
     "site": "Rogo",
     "url": "https://rogo.ai",
@@ -47229,6 +48000,101 @@
       },
       "buttons": [],
       "contentWidth": 1152
+    }
+  },
+  {
+    "id": "sentry-seer-landing",
+    "site": "Sentry Seer",
+    "url": "https://sentry.io/product/seer",
+    "type": "landing",
+    "tags": [
+      "dark-purple",
+      "illustrated-mascot-scene",
+      "pink-squiggle-dividers",
+      "video-hero",
+      "conversational-headings"
+    ],
+    "note": "A purple illustrated scene of a robot debugging on a stage, then sections separated by hand-drawn pink squiggles ('New issue at 2am. PR is ready for review.'). A dev tool with a cartoon world and a sense of humour.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/sentry-seer-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/sentry-seer-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Seer: Debug faster at every stage of development | Sentry",
+      "fonts": [
+        "Rubik"
+      ],
+      "type": {
+        "h1": {
+          "font": "Rubik",
+          "size": 40,
+          "weight": "500",
+          "lineHeight": 1.25,
+          "letterSpacing": "normal",
+          "color": "rgb(255, 255, 255)"
+        },
+        "h2": {
+          "font": "Rubik",
+          "size": 32,
+          "weight": "700",
+          "lineHeight": 1.25,
+          "letterSpacing": "normal",
+          "color": "rgb(24, 18, 37)"
+        },
+        "h3": {
+          "font": "Rubik",
+          "size": 24,
+          "weight": "500",
+          "lineHeight": 1.25,
+          "letterSpacing": "normal",
+          "color": "rgb(255, 255, 255)"
+        },
+        "body": {
+          "font": "Rubik",
+          "size": 18,
+          "weight": "400",
+          "lineHeight": 1.56,
+          "letterSpacing": "normal",
+          "color": "rgba(255, 255, 255, 0.9)"
+        }
+      },
+      "colors": {
+        "background": "#1f1633",
+        "surfaces": [
+          "#1f1633",
+          "#ffffff",
+          "#e91e63"
+        ],
+        "text": [
+          "#181225",
+          "#ffffff",
+          "#1f1633",
+          "#4e2a9a"
+        ]
+      },
+      "buttons": [
+        {
+          "label": "",
+          "bg": "#e91e63",
+          "color": "#ffffff",
+          "radius": "999px",
+          "height": 56,
+          "paddingX": 32,
+          "font": "Rubik",
+          "size": 16,
+          "weight": "400"
+        }
+      ],
+      "contentWidth": 1440
     }
   },
   {
@@ -53874,6 +54740,92 @@
         }
       ],
       "contentWidth": null
+    }
+  },
+  {
+    "id": "tobias-van-schneider-landing",
+    "site": "Tobias van Schneider",
+    "url": "https://vanschneider.com",
+    "type": "landing",
+    "tags": [
+      "dark",
+      "heavy-condensed-caps",
+      "engraving-ornament",
+      "manifesto-headline",
+      "red-badge",
+      "portrait"
+    ],
+    "note": "'I CREATE; THEREFORE I AM' in heavy condensed caps under a small engraved ornament, a red studio badge and a black-and-white portrait. A designer's site as a manifesto poster.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/tobias-van-schneider-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/tobias-van-schneider-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Tobias van Schneider — Creative Direction - House of van Schneider",
+      "fonts": [
+        "Inter",
+        "MaisonNeue-Book",
+        "MaisonNeue-Medium"
+      ],
+      "type": {
+        "h1": {
+          "font": "Inter",
+          "size": 130,
+          "weight": "400",
+          "lineHeight": 0.9,
+          "letterSpacing": "-4.194px",
+          "color": "rgb(0, 0, 0)"
+        },
+        "h2": null,
+        "h3": null,
+        "body": {
+          "font": "Inter",
+          "size": 20,
+          "weight": "400",
+          "lineHeight": 0.9,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        }
+      },
+      "colors": {
+        "background": "#afafaf",
+        "surfaces": [
+          "#ffffff",
+          "#020202",
+          "#d10202",
+          "#e00808",
+          "#000000"
+        ],
+        "text": [
+          "#5f5f5f",
+          "#ffffff",
+          "#93ab89",
+          "#929292"
+        ]
+      },
+      "buttons": [
+        {
+          "label": "NEW\nTHE DESK IS LIVE  ·  ESSAYS ON DESIG",
+          "bg": "#e00808",
+          "color": "#ffffff",
+          "radius": "999px",
+          "height": 32,
+          "paddingX": 4,
+          "font": "Inter",
+          "size": 18,
+          "weight": "400"
+        }
+      ],
+      "contentWidth": 1540
     }
   },
   {

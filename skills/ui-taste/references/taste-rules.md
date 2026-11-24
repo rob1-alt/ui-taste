@@ -136,3 +136,9 @@ Take: an event page has states (announce, early bird, live, recap) and each need
 The studios in the library (Bureau Borsche, Zak Group, Sagmeister, Gretel, Porto Rocha, Locomotive) skip the claim. The first screen is the work: a mosaic of identities in situ, one project as one big photograph with its name, or a plain index of clients. The studio's own voice is a single line or a caption.
 
 Take: for a portfolio, lead with one large piece of real work and its name, then an index (grid or text table). The studio's statement, if any, fits in one sentence.
+
+## 19. Personal sites: one sentence and one move
+
+The strongest personal sites in the library (Rauno, Lynn Fisher, Maggie Appleton, Robin Sloan, Tobias van Schneider) each do one thing: a single sentence over a yellow circle, a book's title page, a garden of growing notes, an orange pamphlet, a manifesto poster. None of them has a hero, a services grid and a testimonials row.
+
+Take: for a personal or portfolio site, write the one sentence that says who you are, choose one metaphor or one shape, and let the index of work follow plainly.

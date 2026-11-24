@@ -44,6 +44,7 @@ A signature move is one decision that would look wrong on any other product's si
 - Type made from the product's world: Shield AI sets the aircraft's name in giant ghost letters behind the headline with HUD numerals around it; Lightmatter draws a custom face for its chips; Stoke shouts in extended caps as loud as an engine test.
 - The tagline set across the image, poster-style: A24 writes each film's line huge in white over its still, cropped at the edges; Loewe crops its wordmark at the top of the page.
 - The live product as the header: NTS opens on its two radio channels playing now.
+- One analogue metaphor, carried fully: Lynn Fisher's homepage is a book's title page with a dotted-leader table of contents in roman numerals; Maggie Appleton labels notes by how grown they are, like plants; PostHog's site is a whole desktop OS.
 - The wordmark as a frame: SFMOMA crops its letters into the corners of the hero photograph; The Verge runs its wordmark vertically down the page edge.
 - The page is a toy: Hey Studio's homepage is a game of Pong you play before you read anything.
 - Two colours for everything: Varda uses only orange and navy, as duotone photos, fields and text.

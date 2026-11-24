@@ -7931,5 +7931,137 @@
    "magazine-grid"
   ],
   "note": "A full-width photo with the essay's question as the headline ('Is mental illness universal?'), then a calm grid of essays and videos, each with a photograph and mono metadata. Ideas magazine with photography doing the hook."
+ },
+ {
+  "site": "Quanta",
+  "type": "landing",
+  "url": "https://www.quantamagazine.org",
+  "tags": [
+   "light",
+   "commissioned-illustration-hero",
+   "magazine-grid",
+   "serif-headlines",
+   "science-editorial"
+  ],
+  "note": "Each story leads with a commissioned illustration (a DNA ribbon repaired by tiny technicians on a workbench), then a calm grid of illustrated stories. Science made inviting by art direction, not stock photos."
+ },
+ {
+  "site": "Robin Sloan",
+  "type": "landing",
+  "url": "https://www.robinsloan.com",
+  "tags": [
+   "orange-field",
+   "condensed-display-wordmark",
+   "personal-site",
+   "dense-link-directory",
+   "newsletter-first"
+  ],
+  "note": "A full orange page with his name in an orange condensed display face as the masthead, then a dense two-column directory of everything he has made. A personal site that reads like a pamphlet."
+ },
+ {
+  "site": "Maggie Appleton",
+  "type": "landing",
+  "url": "https://maggieappleton.com",
+  "tags": [
+   "light",
+   "serif-display",
+   "digital-garden",
+   "growth-stage-labels",
+   "essay-cards",
+   "warm-paper"
+  ],
+  "note": "A large serif sentence ('Maggie makes visual essays about programming, design, and anthropology'), then 'The Garden' with essays and notes labelled by how grown they are. A personal site organised as a garden."
+ },
+ {
+  "site": "Lynn Fisher",
+  "type": "landing",
+  "url": "https://lynnandtonic.com",
+  "tags": [
+   "paper-texture",
+   "woodcut-type",
+   "table-of-contents-nav",
+   "roman-numerals",
+   "book-title-page"
+  ],
+  "note": "The homepage is a book's title page: her name in a woodcut display face on textured paper and a dotted-leader table of contents with roman numerals (About I, Work II...). One analogue metaphor, carried fully."
+ },
+ {
+  "site": "Rauno",
+  "type": "landing",
+  "url": "https://rauno.me",
+  "tags": [
+   "light-grey",
+   "giant-yellow-circle",
+   "one-sentence-bio",
+   "sans-display",
+   "interactive-detail"
+  ],
+  "note": "One sentence ('Rauno Freiberg is an Estonian interaction designer working with Vercel and Devouring Details') set large over a big yellow circle. A portfolio reduced to a sentence and a shape."
+ },
+ {
+  "site": "Tobias van Schneider",
+  "type": "landing",
+  "url": "https://vanschneider.com",
+  "tags": [
+   "dark",
+   "heavy-condensed-caps",
+   "engraving-ornament",
+   "manifesto-headline",
+   "red-badge",
+   "portrait"
+  ],
+  "note": "'I CREATE; THEREFORE I AM' in heavy condensed caps under a small engraved ornament, a red studio badge and a black-and-white portrait. A designer's site as a manifesto poster."
+ },
+ {
+  "site": "Arc Boosts",
+  "type": "landing",
+  "url": "https://arc.net/boosts",
+  "tags": [
+   "dark",
+   "letter-as-landing",
+   "sunset-announcement",
+   "signed-by-founder",
+   "app-icon"
+  ],
+  "note": "The product's farewell as the homepage: the app icon, 'A farewell to Arc', a dated sunset, then a long letter signed by hand. Ending a product with a letter instead of a banner."
+ },
+ {
+  "site": "Anthropic Research",
+  "type": "landing",
+  "url": "https://www.anthropic.com/research",
+  "tags": [
+   "light",
+   "research-index",
+   "topic-tabs",
+   "art-paired-papers",
+   "marbled-artwork"
+  ],
+  "note": "A plain statement of what the research teams study, topic tabs with paper counts, then each paper paired with an artwork (a black hole in marbled blue and gold). Research made browsable by art."
+ },
+ {
+  "site": "Sentry Seer",
+  "type": "landing",
+  "url": "https://sentry.io/product/seer",
+  "tags": [
+   "dark-purple",
+   "illustrated-mascot-scene",
+   "pink-squiggle-dividers",
+   "video-hero",
+   "conversational-headings"
+  ],
+  "note": "A purple illustrated scene of a robot debugging on a stage, then sections separated by hand-drawn pink squiggles ('New issue at 2am. PR is ready for review.'). A dev tool with a cartoon world and a sense of humour."
+ },
+ {
+  "site": "PostHog Max",
+  "type": "landing",
+  "url": "https://posthog.com/max",
+  "tags": [
+   "light-green",
+   "desktop-os-chrome",
+   "hedgehog-mascot",
+   "window-ui",
+   "playful"
+  ],
+  "note": "The page is a fake desktop OS: windows, a dock, and the hedgehog mascot illustrated on the product window. The brand's whole site behaves like an operating system."
  }
 ]
