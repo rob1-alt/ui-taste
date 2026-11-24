@@ -977,3 +977,48 @@ https://theoutline.com	only the hero renders
 https://ulyssesdesanti.com	only partly renders
 https://waterworksproject.nl	only partly renders
 https://websiteheadlines.com	italic-serif default, plain directory
+https://armarchitecture.com.au	redirects off-site (arm.studio) (prefilter)
+https://building-blocks.io	redirects off-site (yococinoporti.co) (prefilter)
+https://mapfurniture.com	broken (URLError) (prefilter)
+https://phase3.uk	redirects off-site (tyenmasten.com) (prefilter)
+http://normcph.com	broken (http 454) (prefilter)
+http://hjelle.no	redirects off-site (lkhjelle.no) (prefilter)
+https://arrival.com	broken (TimeoutError) (prefilter)
+http://124m2.no	broken (URLError) (prefilter)
+https://book.unlikely.studio	redirects off-site (unlikely.technology) (prefilter)
+https://metalab.co	redirects off-site (metalab.com) (prefilter)
+https://www.anagrama.ro	redirects off-site (interkorp.com) (prefilter)
+https://hellopupil.com	redirects off-site (pupil.co) (prefilter)
+https://www.theflatironbuilding.com	generic, broken or partial render
+https://alpinejs.dev	generic, broken or partial render
+https://bassbcn.com	generic, broken or partial render
+https://codesandbox.io	generic, broken or partial render
+https://godaylight.com	generic, broken or partial render
+https://www.djangoproject.com	generic, broken or partial render
+http://dossierindustries.co	generic, broken or partial render
+https://driessenarchitectuur.nl	generic, broken or partial render
+https://elixir-lang.org	generic, broken or partial render
+https://elm-lang.org	generic, broken or partial render
+https://fastapi.tiangolo.com	generic, broken or partial render
+https://www.fieldstudiesflora.com	generic, broken or partial render
+https://go.dev	generic, broken or partial render
+https://www.gradio.app	generic, broken or partial render
+https://jupyter.org	generic, broken or partial render
+https://laravel.com	generic, broken or partial render
+https://marimo.io	generic, broken or partial render
+https://menkind.co	generic, broken or partial render
+https://nuxt.com	generic, broken or partial render
+https://otonove.studiokhi.com	generic, broken or partial render
+https://oxc.rs	generic, broken or partial render
+https://www.phoenixframework.org	generic, broken or partial render
+https://pydantic.dev	generic, broken or partial render
+https://qwik.dev	generic, broken or partial render
+https://rubyonrails.org	generic, broken or partial render
+https://rolldown.rs	generic, broken or partial render
+https://www.solidjs.com	generic, broken or partial render
+https://stackblitz.com	generic, broken or partial render
+https://streamlit.io	generic, broken or partial render
+https://www.studioplato.co	generic, broken or partial render
+http://torquetorque.net	generic, broken or partial render
+https://railroadladies.com	generic, broken or partial render
+https://ziglang.org	generic, broken or partial render

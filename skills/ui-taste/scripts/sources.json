@@ -10343,5 +10343,148 @@
    "recommendations"
   ],
   "note": "A plain table of films with year, director, country and genre in red type. A film list as a single sortable table, nothing else."
+ },
+ {
+  "site": "Astral",
+  "type": "landing",
+  "url": "https://astral.sh",
+  "tags": [
+   "light",
+   "lime-pixel-chevron",
+   "heavy-caps",
+   "olive-panels",
+   "benchmark-bars",
+   "dev-tool"
+  ],
+  "note": "A giant lime pixel-art chevron sits behind 'NEXT-GEN PYTHON TOOLING', then olive panels with live benchmark bars (0.16s vs 3.25s). A Python toolchain with the attitude of a game, its speed shown as a race."
+ },
+ {
+  "site": "Gleam",
+  "type": "landing",
+  "url": "https://gleam.run",
+  "tags": [
+   "cream-and-pink",
+   "star-mascot",
+   "friendly-copy",
+   "pink-sponsor-band",
+   "code-samples"
+  ],
+  "note": "A smiling pink star mascot beside 'Gleam is a friendly language', a full pink band for sponsors, then code on dark. A programming language that leads with warmth instead of benchmarks."
+ },
+ {
+  "site": "Rust",
+  "type": "landing",
+  "url": "https://www.rust-lang.org",
+  "tags": [
+   "light",
+   "colour-band-sections",
+   "serif-wordmark",
+   "yellow-cta",
+   "domain-cards"
+  ],
+  "note": "Each section is a full-width colour band (teal 'Why Rust?', purple 'Build it in Rust', red 'Get involved'). A language homepage where colour alone separates the chapters."
+ },
+ {
+  "site": "Htmx",
+  "type": "landing",
+  "url": "https://htmx.org",
+  "tags": [
+   "light",
+   "plain-document",
+   "black-banner",
+   "code-first",
+   "brutalist-dev"
+  ],
+  "note": "A black banner with the logo, then the homepage is a plain document: intro, motivation, quick start, a book cover. A library whose plainness is its argument."
+ },
+ {
+  "site": "POV Budapest",
+  "type": "landing",
+  "url": "https://www.povbudapest.com",
+  "tags": [
+   "cream-and-red",
+   "giant-condensed-caps",
+   "circle-logo",
+   "stage-photo",
+   "festival"
+  ],
+  "note": "'POINT OF VIEW' in giant red condensed caps around a circled logo, then a stage photo over walls of text. A conference that looks like a gig poster."
+ },
+ {
+  "site": "Primary Paper",
+  "type": "landing",
+  "url": "https://primary-paper.com",
+  "tags": [
+   "light",
+   "documentary-photo-hero",
+   "exhibition-grid",
+   "magazine-covers",
+   "photography"
+  ],
+  "note": "A woman standing in a canoe at sunset fills the hero, then exhibition installation shots and a row of issue covers. A photography magazine whose site is a gallery wall."
+ },
+ {
+  "site": "Off Mute",
+  "type": "landing",
+  "url": "https://offmute.basedesign.com",
+  "tags": [
+   "light",
+   "giant-wordmark-with-symbols",
+   "episode-list",
+   "dot-matrix-titles",
+   "podcast"
+  ],
+  "note": "'Base OFF MUTE' set huge with custom glyphs, then the podcast as a ruled list of episodes with dot-matrix subtitles and durations. A podcast homepage that is its episode list."
+ },
+ {
+  "site": "Odyssee",
+  "type": "landing",
+  "url": "https://www.odysseeclinic.com.au",
+  "tags": [
+   "light",
+   "skin-close-ups",
+   "serif-statement",
+   "clinic",
+   "editorial-portraits"
+  ],
+  "note": "Large soft close-ups of skin and lips, then a serif paragraph about a personalised approach. An aesthetic clinic photographed like a beauty campaign."
+ },
+ {
+  "site": "Show And Tell",
+  "type": "landing",
+  "url": "https://showandtellpresents.com",
+  "tags": [
+   "yellow",
+   "tilted-colour-cards",
+   "giant-type",
+   "comedy-shows"
+  ],
+  "note": "The three words of the name on tilted coloured cards (green, pink, blue) over yellow. A comedy promoter whose logo is a playful pile of cards."
+ },
+ {
+  "site": "Trippin",
+  "type": "landing",
+  "url": "https://trippin.world",
+  "tags": [
+   "light",
+   "magazine-layout",
+   "pill-tags",
+   "city-guides",
+   "travel-editorial"
+  ],
+  "note": "A big photo feature with its headline in white, a stack of small stories with city pill tags, then a row of destinations. A travel magazine with a clean newspaper rhythm."
+ },
+ {
+  "site": "Institute of Health",
+  "type": "landing",
+  "url": "https://www.instituteofhealth.com",
+  "tags": [
+   "dark-to-light",
+   "microscope-photo",
+   "course-cards",
+   "big-number",
+   "education"
+  ],
+  "note": "A dark macro photo of a microscope with a big course count '966', then rounded course cards. Medical education sold through the lab, not smiling stock."
  }
 ]

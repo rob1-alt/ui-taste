@@ -14966,6 +14966,94 @@
     }
   },
   {
+    "id": "astral-landing",
+    "site": "Astral",
+    "url": "https://astral.sh",
+    "type": "landing",
+    "tags": [
+      "light",
+      "lime-pixel-chevron",
+      "heavy-caps",
+      "olive-panels",
+      "benchmark-bars",
+      "dev-tool"
+    ],
+    "note": "A giant lime pixel-art chevron sits behind 'NEXT-GEN PYTHON TOOLING', then olive panels with live benchmark bars (0.16s vs 3.25s). A Python toolchain with the attitude of a game, its speed shown as a race.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/astral-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/astral-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Astral: High-performance Python tooling",
+      "fonts": [
+        "Alliance Text",
+        "Alliance Platt",
+        "Roboto Mono"
+      ],
+      "type": {
+        "h1": {
+          "font": "Alliance Platt",
+          "size": 100,
+          "weight": "500",
+          "lineHeight": 1.05,
+          "letterSpacing": "-1px",
+          "color": "rgb(38, 18, 48)"
+        },
+        "h2": {
+          "font": "Alliance Platt",
+          "size": 48,
+          "weight": "500",
+          "lineHeight": 1.05,
+          "letterSpacing": "-0.48px",
+          "color": "rgb(38, 18, 48)"
+        },
+        "h3": {
+          "font": "Alliance Platt",
+          "size": 48,
+          "weight": "500",
+          "lineHeight": 1.05,
+          "letterSpacing": "-0.48px",
+          "color": "rgb(38, 18, 48)"
+        },
+        "body": {
+          "font": "Alliance Text",
+          "size": 20,
+          "weight": "400",
+          "lineHeight": 1.5,
+          "letterSpacing": "0.2px",
+          "color": "rgb(38, 18, 48)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#78876e",
+          "#f4f4f1",
+          "#d7ff64",
+          "#ffffff",
+          "#261230"
+        ],
+        "text": [
+          "#261230",
+          "#ffffff",
+          "#30173d",
+          "#d7ff64"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": 1520
+    }
+  },
+  {
     "id": "astranis-landing",
     "site": "Astranis",
     "url": "https://www.astranis.com",
@@ -32253,6 +32341,97 @@
     }
   },
   {
+    "id": "gleam-landing",
+    "site": "Gleam",
+    "url": "https://gleam.run",
+    "type": "landing",
+    "tags": [
+      "cream-and-pink",
+      "star-mascot",
+      "friendly-copy",
+      "pink-sponsor-band",
+      "code-samples"
+    ],
+    "note": "A smiling pink star mascot beside 'Gleam is a friendly language', a full pink band for sponsors, then code on dark. A programming language that leads with warmth instead of benchmarks.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/gleam-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/gleam-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Gleam programming language",
+      "fonts": [
+        "Outfit",
+        "monospace",
+        "Lexend"
+      ],
+      "type": {
+        "h1": null,
+        "h2": {
+          "font": "Lexend",
+          "size": 27,
+          "weight": "400",
+          "lineHeight": "normal",
+          "letterSpacing": "normal",
+          "color": "rgb(21, 21, 21)"
+        },
+        "h3": {
+          "font": "Lexend",
+          "size": 24,
+          "weight": "400",
+          "lineHeight": "normal",
+          "letterSpacing": "normal",
+          "color": "rgb(21, 21, 21)"
+        },
+        "body": {
+          "font": "Outfit",
+          "size": 22,
+          "weight": "400",
+          "lineHeight": 1.3,
+          "letterSpacing": "0.5px",
+          "color": "rgb(240, 238, 255)"
+        }
+      },
+      "colors": {
+        "background": "#292d3e",
+        "surfaces": [
+          "#fffbe8",
+          "#ffaff3",
+          "#ffffff",
+          "#584355"
+        ],
+        "text": [
+          "#f0eeff",
+          "#151515",
+          "#d4d4d4",
+          "#9ce7ff"
+        ]
+      },
+      "buttons": [
+        {
+          "label": "Try Gleam",
+          "bg": "#584355",
+          "color": "#fefefc",
+          "radius": "100px",
+          "height": 50,
+          "paddingX": 40,
+          "font": "Lexend",
+          "size": 24,
+          "weight": "400"
+        }
+      ],
+      "contentWidth": null
+    }
+  },
+  {
     "id": "gleb-kuznetsov-landing",
     "site": "Gleb Kuznetsov",
     "url": "https://glebich.com",
@@ -36099,6 +36278,83 @@
     }
   },
   {
+    "id": "htmx-landing",
+    "site": "Htmx",
+    "url": "https://htmx.org",
+    "type": "landing",
+    "tags": [
+      "light",
+      "plain-document",
+      "black-banner",
+      "code-first",
+      "brutalist-dev"
+    ],
+    "note": "A black banner with the logo, then the homepage is a plain document: intro, motivation, quick start, a book cover. A library whose plainness is its argument.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/htmx-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/htmx-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "</> htmx - high power tools for html",
+      "fonts": [
+        "-apple-system",
+        "monospace"
+      ],
+      "type": {
+        "h1": {
+          "font": "-apple-system",
+          "size": 32,
+          "weight": "600",
+          "lineHeight": 1,
+          "letterSpacing": "normal",
+          "color": "rgb(17, 17, 17)"
+        },
+        "h2": {
+          "font": "-apple-system",
+          "size": 24,
+          "weight": "600",
+          "lineHeight": 1,
+          "letterSpacing": "normal",
+          "color": "rgb(17, 17, 17)"
+        },
+        "h3": null,
+        "body": {
+          "font": "-apple-system",
+          "size": 16,
+          "weight": "400",
+          "lineHeight": 1.5,
+          "letterSpacing": "normal",
+          "color": "rgb(17, 17, 17)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#1f2329",
+          "#f5f5f5",
+          "#ffffff"
+        ],
+        "text": [
+          "#111111",
+          "#3366cc",
+          "#98c379",
+          "#848da1"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": 640
+    }
+  },
+  {
     "id": "hugging-face-landing",
     "site": "Hugging Face",
     "url": "https://huggingface.co",
@@ -37432,6 +37688,94 @@
           "font": "WhyteMonoV1",
           "size": 12,
           "weight": "600"
+        }
+      ],
+      "contentWidth": 1440
+    }
+  },
+  {
+    "id": "institute-of-health-landing",
+    "site": "Institute of Health",
+    "url": "https://www.instituteofhealth.com",
+    "type": "landing",
+    "tags": [
+      "dark-to-light",
+      "microscope-photo",
+      "course-cards",
+      "big-number",
+      "education"
+    ],
+    "note": "A dark macro photo of a microscope with a big course count '966', then rounded course cards. Medical education sold through the lab, not smiling stock.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/institute-of-health-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/institute-of-health-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Institute of Health",
+      "fonts": [
+        "Lay Grotesk"
+      ],
+      "type": {
+        "h1": {
+          "font": "Lay Grotesk",
+          "size": 58,
+          "weight": "500",
+          "lineHeight": 1,
+          "letterSpacing": "-0.216px",
+          "color": "rgb(241, 241, 241)"
+        },
+        "h2": {
+          "font": "Lay Grotesk",
+          "size": 50,
+          "weight": "500",
+          "lineHeight": 1,
+          "letterSpacing": "normal",
+          "color": "rgb(36, 36, 36)"
+        },
+        "h3": null,
+        "body": {
+          "font": "Lay Grotesk",
+          "size": 15,
+          "weight": "500",
+          "lineHeight": 1.5,
+          "letterSpacing": "normal",
+          "color": "rgb(36, 36, 36)"
+        }
+      },
+      "colors": {
+        "background": "#e6e6e6",
+        "surfaces": [
+          "#ffffff",
+          "#e6e6e6",
+          "#242424",
+          "#f1f1f1"
+        ],
+        "text": [
+          "#242424",
+          "#f1f1f1",
+          "#ffffff"
+        ]
+      },
+      "buttons": [
+        {
+          "label": "All Courses",
+          "bg": "#242424",
+          "color": "#f1f1f1",
+          "radius": "4px",
+          "height": 65,
+          "paddingX": 12,
+          "font": "Lay Grotesk",
+          "size": 13,
+          "weight": "400"
         }
       ],
       "contentWidth": 1440
@@ -48783,6 +49127,86 @@
     }
   },
   {
+    "id": "odyssee-landing",
+    "site": "Odyssee",
+    "url": "https://www.odysseeclinic.com.au",
+    "type": "landing",
+    "tags": [
+      "light",
+      "skin-close-ups",
+      "serif-statement",
+      "clinic",
+      "editorial-portraits"
+    ],
+    "note": "Large soft close-ups of skin and lips, then a serif paragraph about a personalised approach. An aesthetic clinic photographed like a beauty campaign.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/odyssee-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/odyssee-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Odyssée",
+      "fonts": [
+        "baselGrotesk",
+        "psTimes"
+      ],
+      "type": {
+        "h1": {
+          "font": "psTimes",
+          "size": 18,
+          "weight": "400",
+          "lineHeight": 1.1,
+          "letterSpacing": "0.39px",
+          "color": "rgb(255, 255, 255)"
+        },
+        "h2": {
+          "font": "psTimes",
+          "size": 48,
+          "weight": "400",
+          "lineHeight": 1,
+          "letterSpacing": "normal",
+          "color": "rgb(30, 48, 94)"
+        },
+        "h3": {
+          "font": "psTimes",
+          "size": 18,
+          "weight": "400",
+          "lineHeight": 1.1,
+          "letterSpacing": "normal",
+          "color": "rgb(30, 48, 94)"
+        },
+        "body": {
+          "font": "baselGrotesk",
+          "size": 15,
+          "weight": "400",
+          "lineHeight": 1.3,
+          "letterSpacing": "normal",
+          "color": "rgb(30, 48, 94)"
+        }
+      },
+      "colors": {
+        "background": "#fffcf8",
+        "surfaces": [
+          "#fffcf8"
+        ],
+        "text": [
+          "#ffffff",
+          "#1e305e"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": 1400
+    }
+  },
+  {
     "id": "odyssey-landing",
     "site": "Odyssey",
     "url": "https://odyssey.systems",
@@ -48845,6 +49269,65 @@
       },
       "buttons": [],
       "contentWidth": 1200
+    }
+  },
+  {
+    "id": "off-mute-landing",
+    "site": "Off Mute",
+    "url": "https://offmute.basedesign.com",
+    "type": "landing",
+    "tags": [
+      "light",
+      "giant-wordmark-with-symbols",
+      "episode-list",
+      "dot-matrix-titles",
+      "podcast"
+    ],
+    "note": "'Base OFF MUTE' set huge with custom glyphs, then the podcast as a ruled list of episodes with dot-matrix subtitles and durations. A podcast homepage that is its episode list.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/off-mute-landing-desktop.jpg",
+        "width": 1440,
+        "height": 900
+      },
+      "mobile": {
+        "file": "screens/off-mute-landing-mobile.jpg",
+        "width": 390,
+        "height": 1955
+      }
+    },
+    "tokens": {
+      "title": "Base Off Mute",
+      "fonts": [
+        "halTimezoneMono",
+        "abcDiatype"
+      ],
+      "type": {
+        "h1": null,
+        "h2": null,
+        "h3": null,
+        "body": {
+          "font": "abcDiatype",
+          "size": 16,
+          "weight": "500",
+          "lineHeight": 1.28,
+          "letterSpacing": "normal",
+          "color": "rgb(241, 241, 241)"
+        }
+      },
+      "colors": {
+        "background": "#f1f1f1",
+        "surfaces": [
+          "#f1f1f1"
+        ],
+        "text": [
+          "#f1f1f1",
+          "#000000"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": null
     }
   },
   {
@@ -54510,6 +54993,91 @@
     }
   },
   {
+    "id": "pov-budapest-landing",
+    "site": "POV Budapest",
+    "url": "https://www.povbudapest.com",
+    "type": "landing",
+    "tags": [
+      "cream-and-red",
+      "giant-condensed-caps",
+      "circle-logo",
+      "stage-photo",
+      "festival"
+    ],
+    "note": "'POINT OF VIEW' in giant red condensed caps around a circled logo, then a stage photo over walls of text. A conference that looks like a gig poster.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/pov-budapest-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/pov-budapest-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "POV Budapest",
+      "fonts": [
+        "Stabilgrotesk",
+        "Abcvariable",
+        "Abcgravity Semicondensed"
+      ],
+      "type": {
+        "h1": null,
+        "h2": null,
+        "h3": {
+          "font": "Abcgravity Extracondensed",
+          "size": 56,
+          "weight": "400",
+          "lineHeight": 1,
+          "letterSpacing": "normal",
+          "color": "rgb(255, 255, 255)"
+        },
+        "body": null
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#fdf7ec",
+          "#ffffff",
+          "#ff451c"
+        ],
+        "text": [
+          "#ffffff",
+          "#ffe3dd"
+        ]
+      },
+      "buttons": [
+        {
+          "label": "Live",
+          "bg": "#ff451c",
+          "color": "#ffffff",
+          "radius": "40px",
+          "height": 56,
+          "paddingX": 24,
+          "font": "Stabilgrotesk",
+          "size": 24,
+          "weight": "400"
+        },
+        {
+          "label": "Tickets",
+          "bg": "#ff451c",
+          "color": "#ffffff",
+          "radius": "40px",
+          "height": 56,
+          "paddingX": 24,
+          "font": "Stabilgrotesk",
+          "size": 24,
+          "weight": "400"
+        }
+      ],
+      "contentWidth": 1140
+    }
+  },
+  {
     "id": "pp-neue-montreal-landing",
     "site": "PP Neue Montreal",
     "url": "https://neuemontreal.com",
@@ -54605,6 +55173,58 @@
         }
       ],
       "contentWidth": 1600
+    }
+  },
+  {
+    "id": "primary-paper-landing",
+    "site": "Primary Paper",
+    "url": "https://primary-paper.com",
+    "type": "landing",
+    "tags": [
+      "light",
+      "documentary-photo-hero",
+      "exhibition-grid",
+      "magazine-covers",
+      "photography"
+    ],
+    "note": "A woman standing in a canoe at sunset fills the hero, then exhibition installation shots and a row of issue covers. A photography magazine whose site is a gallery wall.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/primary-paper-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/primary-paper-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "PRIMARY PAPER",
+      "fonts": [
+        "Neuehaasdisplay Roman",
+        "Arial"
+      ],
+      "type": {
+        "h1": null,
+        "h2": null,
+        "h3": null,
+        "body": null
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#ffffff"
+        ],
+        "text": [
+          "#000000",
+          "#ffffff"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": null
     }
   },
   {
@@ -59068,6 +59688,137 @@
     }
   },
   {
+    "id": "rust-landing",
+    "site": "Rust",
+    "url": "https://www.rust-lang.org",
+    "type": "landing",
+    "tags": [
+      "light",
+      "colour-band-sections",
+      "serif-wordmark",
+      "yellow-cta",
+      "domain-cards"
+    ],
+    "note": "Each section is a full-width colour band (teal 'Why Rust?', purple 'Build it in Rust', red 'Get involved'). A language homepage where colour alone separates the chapters.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/rust-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3490
+      },
+      "mobile": {
+        "file": "screens/rust-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Rust Programming Language",
+      "fonts": [
+        "Fira Sans",
+        "Alfa Slab One"
+      ],
+      "type": {
+        "h1": {
+          "font": "Alfa Slab One",
+          "size": 96,
+          "weight": "300",
+          "lineHeight": 1.2,
+          "letterSpacing": "1px",
+          "color": "rgb(0, 0, 0)"
+        },
+        "h2": {
+          "font": "Fira Sans",
+          "size": 36,
+          "weight": "300",
+          "lineHeight": 1.25,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        },
+        "h3": {
+          "font": "Fira Sans",
+          "size": 36,
+          "weight": "600",
+          "lineHeight": 1.3,
+          "letterSpacing": "normal",
+          "color": "rgb(255, 255, 255)"
+        },
+        "body": {
+          "font": "Fira Sans",
+          "size": 27,
+          "weight": "400",
+          "lineHeight": 1.6,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#2e2459",
+          "#0b7261",
+          "#a72145",
+          "#ffc832",
+          "#ffffff"
+        ],
+        "text": [
+          "#ffffff",
+          "#000000",
+          "#2a3439",
+          "#4299bf"
+        ]
+      },
+      "buttons": [
+        {
+          "label": "BUILDING TOOLS",
+          "bg": "#a72145",
+          "color": "#ffffff",
+          "radius": "4px",
+          "height": 41,
+          "paddingX": 30,
+          "font": "Fira Sans",
+          "size": 14,
+          "weight": "600"
+        },
+        {
+          "label": "WRITING WEB APPS",
+          "bg": "#a72145",
+          "color": "#ffffff",
+          "radius": "4px",
+          "height": 41,
+          "paddingX": 30,
+          "font": "Fira Sans",
+          "size": 14,
+          "weight": "600"
+        },
+        {
+          "label": "WORKING ON SERVERS",
+          "bg": "#a72145",
+          "color": "#ffffff",
+          "radius": "4px",
+          "height": 41,
+          "paddingX": 30,
+          "font": "Fira Sans",
+          "size": 14,
+          "weight": "600"
+        },
+        {
+          "label": "STARTING WITH EMBEDDED",
+          "bg": "#a72145",
+          "color": "#ffffff",
+          "radius": "4px",
+          "height": 41,
+          "paddingX": 30,
+          "font": "Fira Sans",
+          "size": 14,
+          "weight": "600"
+        }
+      ],
+      "contentWidth": 1296
+    }
+  },
+  {
     "id": "rux-software-landing",
     "site": "RUX Software",
     "url": "https://ruxsoftware.com",
@@ -61011,6 +61762,68 @@
         }
       ],
       "contentWidth": 855
+    }
+  },
+  {
+    "id": "show-and-tell-landing",
+    "site": "Show And Tell",
+    "url": "https://showandtellpresents.com",
+    "type": "landing",
+    "tags": [
+      "yellow",
+      "tilted-colour-cards",
+      "giant-type",
+      "comedy-shows"
+    ],
+    "note": "The three words of the name on tilted coloured cards (green, pink, blue) over yellow. A comedy promoter whose logo is a playful pile of cards.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/show-and-tell-landing-desktop.jpg",
+        "width": 1440,
+        "height": 900
+      },
+      "mobile": {
+        "file": "screens/show-and-tell-landing-mobile.jpg",
+        "width": 390,
+        "height": 844
+      }
+    },
+    "tokens": {
+      "title": "Home - Show And Tell: Promoting live comedy shows across the UK & North America",
+      "fonts": [
+        "Raisonne",
+        "cursive"
+      ],
+      "type": {
+        "h1": {
+          "font": "Raisonne",
+          "size": 23,
+          "weight": "400",
+          "lineHeight": 1.2,
+          "letterSpacing": "normal",
+          "color": "rgb(27, 15, 55)"
+        },
+        "h2": null,
+        "h3": null,
+        "body": null
+      },
+      "colors": {
+        "background": "#ffff99",
+        "surfaces": [
+          "#006dff",
+          "#f6aa9f",
+          "#1aae7a",
+          "#ffff99",
+          "#1b0f37"
+        ],
+        "text": [
+          "#1b0f37",
+          "#ffff99"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": null
     }
   },
   {
@@ -69422,6 +70235,111 @@
         }
       ],
       "contentWidth": 1440
+    }
+  },
+  {
+    "id": "trippin-landing",
+    "site": "Trippin",
+    "url": "https://trippin.world",
+    "type": "landing",
+    "tags": [
+      "light",
+      "magazine-layout",
+      "pill-tags",
+      "city-guides",
+      "travel-editorial"
+    ],
+    "note": "A big photo feature with its headline in white, a stack of small stories with city pill tags, then a row of destinations. A travel magazine with a clean newspaper rhythm.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/trippin-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/trippin-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Trippin | Local Travel Guides, Resources, Films, Podcasts, Experiences",
+      "fonts": [
+        "ABC Marfa Regular",
+        "ABC Marfa Light"
+      ],
+      "type": {
+        "h1": {
+          "font": "ABC Marfa Regular",
+          "size": 16,
+          "weight": "400",
+          "lineHeight": 1.5,
+          "letterSpacing": "normal",
+          "color": "rgb(10, 10, 10)"
+        },
+        "h2": {
+          "font": "ABC Marfa Regular",
+          "size": 24,
+          "weight": "400",
+          "lineHeight": 1.46,
+          "letterSpacing": "-0.5px",
+          "color": "rgb(10, 10, 10)"
+        },
+        "h3": {
+          "font": "ABC Marfa Regular",
+          "size": 12,
+          "weight": "400",
+          "lineHeight": 1.29,
+          "letterSpacing": "normal",
+          "color": "rgb(10, 10, 10)"
+        },
+        "body": {
+          "font": "ABC Marfa Regular",
+          "size": 21,
+          "weight": "400",
+          "lineHeight": 1.43,
+          "letterSpacing": "normal",
+          "color": "rgb(255, 255, 255)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#ffffff",
+          "#000000"
+        ],
+        "text": [
+          "#0a0a0a",
+          "#ffffff",
+          "#000000"
+        ]
+      },
+      "buttons": [
+        {
+          "label": "Nearby",
+          "bg": "#000000",
+          "color": "#ffffff",
+          "radius": "60px",
+          "height": 28,
+          "paddingX": 15,
+          "font": "ABC Marfa Regular",
+          "size": 16,
+          "weight": "400"
+        },
+        {
+          "label": "See All",
+          "bg": "#000000",
+          "color": "#ffffff",
+          "radius": "60px",
+          "height": 28,
+          "paddingX": 15,
+          "font": "ABC Marfa Regular",
+          "size": 16,
+          "weight": "400"
+        }
+      ],
+      "contentWidth": 925
     }
   },
   {
