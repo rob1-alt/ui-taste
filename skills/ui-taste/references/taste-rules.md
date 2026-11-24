@@ -130,3 +130,9 @@ Take: for a premium brand, spend the budget on the photograph and on space, cut 
 The conference pages in the library change with the date. GitHub Universe, after the event, says "thanks-for-joining-us/" and "see-you-next-year/" (section titles written as URL paths, in the audience's own syntax); Config sells the next edition with a stage photograph and the early-bird price set as large as the headline, the full price struck through; Next.js Conf turns the agenda into a plain table with speakers' roles in mono caps.
 
 Take: an event page has states (announce, early bird, live, recap) and each needs its own first screen. Sell the room with one photograph, make the deadline or price the biggest number, and treat the agenda as data in a table, not speaker cards.
+
+## 18. A studio's site is its work, at full size
+
+The studios in the library (Bureau Borsche, Zak Group, Sagmeister, Gretel, Porto Rocha, Locomotive) skip the claim. The first screen is the work: a mosaic of identities in situ, one project as one big photograph with its name, or a plain index of clients. The studio's own voice is a single line or a caption.
+
+Take: for a portfolio, lead with one large piece of real work and its name, then an index (grid or text table). The studio's statement, if any, fits in one sentence.

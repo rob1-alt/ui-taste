@@ -7700,5 +7700,236 @@
    "photo-hero"
   ],
   "note": "Halftone portraits with blue pixel blocks, then the sessions as a plain table with speakers in mono caps. A conference agenda is data: a table with roles in mono beats speaker cards."
+ },
+ {
+  "site": "Locomotive Work",
+  "type": "landing",
+  "url": "https://locomotive.ca/en/work",
+  "tags": [
+   "light",
+   "studio",
+   "text-index",
+   "client-list",
+   "three-column-index",
+   "thumbnail-list"
+  ],
+  "note": "The work page is a plain three-column text index (client, sector, city) of a hundred projects, with a thumbnail list on mobile. A studio confident enough to show its work as a table."
+ },
+ {
+  "site": "Bureau Borsche",
+  "type": "landing",
+  "url": "https://bureauborsche.com",
+  "tags": [
+   "light",
+   "studio",
+   "image-grid",
+   "photo-captions-on-image",
+   "dense-mosaic",
+   "typographic-work"
+  ],
+  "note": "A dense mosaic of their identities shot in situ (book covers, a football club crest, Birkenstock spines), each tile captioned in tiny grey bars on the image. The work is the only voice."
+ },
+ {
+  "site": "Zak Group",
+  "type": "landing",
+  "url": "https://zak.group",
+  "tags": [
+   "light",
+   "studio",
+   "blue-tab-nav",
+   "editorial-captions",
+   "object-photography",
+   "client-names-in-copy"
+  ],
+  "note": "A blue tab bar for navigation, a short paragraph that names the clients inline (CHANEL, Nike, Phaidon), then each project as one big object photo with a black caption block over it. Editorial restraint."
+ },
+ {
+  "site": "Sagmeister Walsh",
+  "type": "landing",
+  "url": "https://sagmeister.com",
+  "tags": [
+   "dark",
+   "studio",
+   "full-portfolio-grid",
+   "artist-portraits",
+   "gallery-photography"
+  ],
+  "note": "The founder's painted face is the first tile in a dense grid of installations, objects and exhibitions on black. A designer's site that behaves like a gallery wall."
+ },
+ {
+  "site": "Porto Rocha",
+  "type": "landing",
+  "url": "https://portorocha.com",
+  "tags": [
+   "light",
+   "studio",
+   "live-clock-and-date",
+   "news-feed-columns",
+   "work-thumbnails",
+   "newspaper-layout"
+  ],
+  "note": "The homepage starts with the studio's city and a live date and time, then runs as a newspaper of studio news in columns with work thumbnails. A studio presented as a publication."
+ },
+ {
+  "site": "Gretel",
+  "type": "landing",
+  "url": "https://gretelny.com",
+  "tags": [
+   "light",
+   "studio",
+   "statement-first",
+   "large-photo-project",
+   "serif-free",
+   "editorial-project-titles"
+  ],
+  "note": "One plain statement ('We create clarity...') then 'New Work: Philadelphia Museum of Art' with a big photograph and the project title large. Each project leads with one image and its name."
+ },
+ {
+  "site": "Teenage Engineering OP-1",
+  "type": "landing",
+  "url": "https://teenage.engineering/products/op-1",
+  "tags": [
+   "light-grey",
+   "product-object-hero",
+   "top-down-render",
+   "lowercase-headline",
+   "specimen-layout"
+  ],
+  "note": "The synthesizer rendered top-down, life-size on grey, under a lowercase line ('the beauty of evolution'), then tiny dense spec text. The object is the page."
+ },
+ {
+  "site": "Analogue 3D",
+  "type": "landing",
+  "url": "https://www.analogue.co/3d",
+  "tags": [
+   "dark",
+   "product-object-hero",
+   "console-and-cartridges",
+   "white-studio-photo",
+   "one-button"
+  ],
+  "note": "The console and its cartridges float on black around 'The Future is here', then a white studio photograph of the console. Two moves: the object on black, the object on white."
+ },
+ {
+  "site": "Playdate Catalog",
+  "type": "landing",
+  "url": "https://play.date/games",
+  "tags": [
+   "light",
+   "pixel-art-catalog",
+   "game-cover-cards",
+   "category-chips",
+   "1-bit-graphics",
+   "yellow-accent"
+  ],
+  "note": "A game store laid out like a carousel of 1-bit cover art in yellow and black boxes. The console's monochrome screen becomes the brand's whole graphic language."
+ },
+ {
+  "site": "Panic Software",
+  "type": "landing",
+  "url": "https://panic.com/transmit",
+  "tags": [
+   "grey-and-yellow",
+   "giant-3d-icon",
+   "heavy-italic-caps",
+   "witty-copy",
+   "colour-blocks"
+  ],
+  "note": "The app's 3D truck icon huge over 'TRANSMIT 5' in heavy italic caps, then a yellow band ('MORE SERVERS.'). Indie Mac software with toy-like icons and a wink in the copy."
+ },
+ {
+  "site": "Teenage Engineering Field",
+  "type": "landing",
+  "url": "https://teenage.engineering/products/field-system",
+  "tags": [
+   "dark-to-grey",
+   "product-macro-photo",
+   "lowercase-type",
+   "tiny-icon-nav",
+   "red-button-detail"
+  ],
+  "note": "A dark macro of the device's surface, then each product photographed on pale grey with its red button as the only colour, all copy lowercase. Product photography as the brand."
+ },
+ {
+  "site": "Moog",
+  "type": "landing",
+  "url": "https://www.moogmusic.com",
+  "tags": [
+   "dark",
+   "heritage-instrument-photo",
+   "cinematic-scene",
+   "desk-in-a-field",
+   "warm-light"
+  ],
+  "note": "The synthesizer close up in warm studio light, then a desk with the instrument standing alone in a field at dusk. Heritage gear staged like a film."
+ },
+ {
+  "site": "Boiler Room",
+  "type": "landing",
+  "url": "https://boilerroom.tv",
+  "tags": [
+   "dark",
+   "heavy-caps-wordmark",
+   "crowd-photography",
+   "yellow-cta",
+   "event-first"
+  ],
+  "note": "A heavy wordmark and one yellow 'Find an event' button over dark club crowd photography. Club culture led by the crowd, not the DJ."
+ },
+ {
+  "site": "Society",
+  "type": "landing",
+  "url": "https://www.society-magazine.fr",
+  "tags": [
+   "light",
+   "magazine-cover-layout",
+   "heavy-serif-masthead",
+   "portrait-photography",
+   "french-editorial",
+   "coloured-backdrops"
+  ],
+  "note": "A heavy serif masthead with an activist line beside it, then portraits shot on saturated colour backdrops (a blue face, a yellow wall) in a magazine grid. A French magazine that keeps print's photography."
+ },
+ {
+  "site": "Air Mail",
+  "type": "landing",
+  "url": "https://airmail.news",
+  "tags": [
+   "light",
+   "newspaper-masthead",
+   "airmail-red-accents",
+   "issue-number",
+   "serif-headlines",
+   "collage-photos"
+  ],
+  "note": "An airmail-envelope red logo, serif headlines in columns and a big issue number (No 384) in the sidebar. The weekly's metaphor (a letter from abroad) carried into the chrome."
+ },
+ {
+  "site": "The Browser",
+  "type": "landing",
+  "url": "https://thebrowser.com",
+  "tags": [
+   "light",
+   "hand-drawn-illustration",
+   "newsletter-landing",
+   "star-quotes",
+   "cream-and-orange",
+   "sample-edition"
+  ],
+  "note": "A hand-drawn giraffe reading among bookshelves next to a plain pitch and an orange button, then reader quotes with stars and a sample edition. A newsletter sold by its voice."
+ },
+ {
+  "site": "Aeon",
+  "type": "landing",
+  "url": "https://aeon.co",
+  "tags": [
+   "light",
+   "essay-cards",
+   "large-photo-lead",
+   "serif-headlines",
+   "mono-metadata",
+   "magazine-grid"
+  ],
+  "note": "A full-width photo with the essay's question as the headline ('Is mental illness universal?'), then a calm grid of essays and videos, each with a photograph and mono metadata. Ideas magazine with photography doing the hook."
  }
 ]
