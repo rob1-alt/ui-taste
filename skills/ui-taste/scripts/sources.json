@@ -10486,5 +10486,184 @@
    "education"
   ],
   "note": "A dark macro photo of a microscope with a big course count '966', then rounded course cards. Medical education sold through the lab, not smiling stock."
+ },
+ {
+  "site": "Backyard",
+  "type": "landing",
+  "url": "https://www.samara.com/backyard",
+  "tags": [
+   "light",
+   "inline-pictograms",
+   "giant-sentence",
+   "house-photos",
+   "adu"
+  ],
+  "note": "'Backyard [house icon] is the elegant, effortless ADU designed for [house icon] your next chapter.' with little house photos set inline between the words. A product shown inside the sentence that sells it."
+ },
+ {
+  "site": "Deltaboard",
+  "type": "landing",
+  "url": "https://www.delta-board.com",
+  "tags": [
+   "light",
+   "floating-objects",
+   "inline-brand-arrows",
+   "orange-accent",
+   "climbing-gear"
+  ],
+  "note": "Wooden climbing holds float across a pale hero, then a long sentence where each product name is orange with an arrow ('Deltaboard ↦'). Product names become links inside the pitch."
+ },
+ {
+  "site": "Documenta",
+  "type": "landing",
+  "url": "http://www.documenta.de",
+  "tags": [
+   "light",
+   "video-still-hero",
+   "giant-lowercase-wordmark",
+   "news-row",
+   "art-exhibition"
+  ],
+  "note": "A grainy archival video still fills the hero with 'documenta' in huge white lowercase, then a plain news row. An art institution with almost no chrome."
+ },
+ {
+  "site": "ilovecreatives",
+  "type": "landing",
+  "url": "http://www.ilovecreatives.com",
+  "tags": [
+   "light",
+   "giant-serif-wordmark",
+   "photo-hero",
+   "inline-pills",
+   "course-cards"
+  ],
+  "note": "The name set huge in a thin serif over a photo of a woman in a cap, then a sentence where 'creative skills' and 'community' are pills inside the text. A school whose copy is styled like its students' work."
+ },
+ {
+  "site": "In Common With",
+  "type": "landing",
+  "url": "https://www.incommonwith.com",
+  "tags": [
+   "light",
+   "orange-block",
+   "interior-photo",
+   "lighting-catalogue"
+  ],
+  "note": "A warm interior with a pendant lamp beside a full orange block, then products on beige. A lighting brand sets one saturated colour against quiet rooms."
+ },
+ {
+  "site": "Integrated Podiatry Clinic",
+  "type": "landing",
+  "url": "http://integratedpodiatry.com.au",
+  "tags": [
+   "grey",
+   "feet-photo",
+   "serif-display",
+   "soft-copy",
+   "clinic"
+  ],
+  "note": "Two bare feet against grey under 'Put your feet in good hands' in a thin serif, then a gentle question in centred serif. A podiatry clinic made warm and a little funny."
+ },
+ {
+  "site": "Paris Agreement",
+  "type": "landing",
+  "url": "http://which-countries-signed-paris-agreement.com",
+  "tags": [
+   "peach",
+   "condensed-caps-list",
+   "data-as-layout",
+   "single-question"
+  ],
+  "note": "'WHICH COUNTRIES SIGNED THE PARIS AGREEMENT?' then the answer is the page: every country in condensed caps, growing larger down the list. A data question answered by typography alone."
+ },
+ {
+  "site": "Places to Read",
+  "type": "landing",
+  "url": "https://www.placestoread.xyz",
+  "tags": [
+   "light",
+   "green-table",
+   "coordinates",
+   "search",
+   "directory"
+  ],
+  "note": "A single table of parks good for reading, with city, country, feature and map coordinates in green mono. A directory that is one well-set table."
+ },
+ {
+  "site": "Super16",
+  "type": "landing",
+  "url": "http://super16.dk",
+  "tags": [
+   "dark",
+   "crowd-photo",
+   "serif-italic",
+   "film-school",
+   "danish"
+  ],
+  "note": "A graduating class crowded in front of a cinema with 'Årgang #13 dimitterer.' in large white serif italic over them. A film school leads with its people on graduation night."
+ },
+ {
+  "site": "TR Studio",
+  "type": "landing",
+  "url": "https://trstudio.co.uk",
+  "tags": [
+   "light",
+   "corner-letters",
+   "house-photo",
+   "beige",
+   "architecture"
+  ],
+  "note": "The letters T, R and S sit in three corners of a full photo of a timber house. A studio's initials used as a frame instead of a logo."
+ },
+ {
+  "site": "Typography Ireland",
+  "type": "landing",
+  "url": "http://typography.ie",
+  "tags": [
+   "light",
+   "red-block",
+   "underlined-labels",
+   "event-list",
+   "typography"
+  ],
+  "note": "A red block with the mission in white, then a list of symposia and lectures, each labelled with an underlined category. A typography society that is all type and one red."
+ },
+ {
+  "site": "Fry Reglet",
+  "type": "landing",
+  "url": "https://fryreglet.com",
+  "tags": [
+   "dark-blue",
+   "deep-blue-hero",
+   "serif-tagline",
+   "cobalt-block",
+   "architectural-products"
+  ],
+  "note": "A deep blue night-like hero with one small serif line 'The Craft of Precision', then a cobalt block next to a building photo. Architectural trim products sold with the calm of a luxury brand."
+ },
+ {
+  "site": "The Beams",
+  "type": "landing",
+  "url": "https://thebeamslondon.com",
+  "tags": [
+   "light",
+   "repeated-stacked-wordmark",
+   "dark-video",
+   "venue-teaser"
+  ],
+  "note": "'Centre For New Culture' repeated in overlapping outline lines like a stack of echoes, then a dark video still. A venue not yet open shows its name vibrating with anticipation."
+ },
+ {
+  "site": "Vero International",
+  "type": "landing",
+  "url": "https://verointernational.com",
+  "tags": [
+   "light",
+   "giant-wordmark-over-photo",
+   "product-strip",
+   "neon-green-pro-band",
+   "furniture"
+  ],
+  "note": "The name in huge white type over a pink plaster wall photo, then a product strip with each piece cut out, and a grey band with a neon-green graffiti 'VERO PRO' logo. A furniture brand that mixes Italian craft with street graphics."
  }
 ]

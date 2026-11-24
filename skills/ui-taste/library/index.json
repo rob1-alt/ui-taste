@@ -15618,6 +15618,126 @@
     }
   },
   {
+    "id": "backyard-landing",
+    "site": "Backyard",
+    "url": "https://www.samara.com/backyard",
+    "type": "landing",
+    "tags": [
+      "light",
+      "inline-pictograms",
+      "giant-sentence",
+      "house-photos",
+      "adu"
+    ],
+    "note": "'Backyard [house icon] is the elegant, effortless ADU designed for [house icon] your next chapter.' with little house photos set inline between the words. A product shown inside the sentence that sells it.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/backyard-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/backyard-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Backyard homes and ADUs - Samara",
+      "fonts": [
+        "regola-light",
+        "regola-book",
+        "regola-regular"
+      ],
+      "type": {
+        "h1": {
+          "font": "regola-light",
+          "size": 96,
+          "weight": "400",
+          "lineHeight": 1,
+          "letterSpacing": "-5.76029px",
+          "color": "rgb(255, 255, 255)"
+        },
+        "h2": {
+          "font": "regola-book",
+          "size": 18,
+          "weight": "300",
+          "lineHeight": 1.33,
+          "letterSpacing": "-0.18px",
+          "color": "rgb(0, 0, 0)"
+        },
+        "h3": {
+          "font": "regola-light",
+          "size": 23,
+          "weight": "400",
+          "lineHeight": 1.25,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        },
+        "body": {
+          "font": "regola-book",
+          "size": 14,
+          "weight": "300",
+          "lineHeight": 1.29,
+          "letterSpacing": "-0.14px",
+          "color": "rgba(0, 0, 0, 0.4)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#d3d3d3",
+          "#ffffff",
+          "#030508",
+          "#f7f7f0",
+          "#545657"
+        ],
+        "text": [
+          "#000000",
+          "#ffffff",
+          "#0096f7"
+        ]
+      },
+      "buttons": [
+        {
+          "label": "Get started",
+          "bg": "#0096f7",
+          "color": "#ffffff",
+          "radius": "24px",
+          "height": 45,
+          "paddingX": 18,
+          "font": "regola-book",
+          "size": 15,
+          "weight": "300"
+        },
+        {
+          "label": "Learn more",
+          "bg": "#ffffff",
+          "color": "#000000",
+          "radius": "12px",
+          "height": 46,
+          "paddingX": 18,
+          "font": "regola-regular",
+          "size": 14,
+          "weight": "400"
+        },
+        {
+          "label": "Explore models",
+          "bg": "#000000",
+          "color": "#ffffff",
+          "radius": "12px",
+          "height": 44,
+          "paddingX": 24,
+          "font": "regola-regular",
+          "size": 14,
+          "weight": "400"
+        }
+      ],
+      "contentWidth": 1600
+    }
+  },
+  {
     "id": "barbican-landing",
     "site": "Barbican",
     "url": "https://www.barbican.org.uk",
@@ -23631,6 +23751,104 @@
     }
   },
   {
+    "id": "deltaboard-landing",
+    "site": "Deltaboard",
+    "url": "https://www.delta-board.com",
+    "type": "landing",
+    "tags": [
+      "light",
+      "floating-objects",
+      "inline-brand-arrows",
+      "orange-accent",
+      "climbing-gear"
+    ],
+    "note": "Wooden climbing holds float across a pale hero, then a long sentence where each product name is orange with an arrow ('Deltaboard ↦'). Product names become links inside the pitch.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/deltaboard-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/deltaboard-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Climbing Hangboard | Drill-Free Training - Deltaboard",
+      "fonts": [
+        "Switzer",
+        "Montserrat"
+      ],
+      "type": {
+        "h1": {
+          "font": "Switzer",
+          "size": 100,
+          "weight": "700",
+          "lineHeight": 1,
+          "letterSpacing": "-2.4px",
+          "color": "rgb(255, 255, 255)"
+        },
+        "h2": {
+          "font": "Switzer",
+          "size": 30,
+          "weight": "500",
+          "lineHeight": 1.3,
+          "letterSpacing": "-0.8px",
+          "color": "rgb(35, 35, 35)"
+        },
+        "h3": {
+          "font": "Switzer",
+          "size": 28,
+          "weight": "500",
+          "lineHeight": 1.2,
+          "letterSpacing": "-1.1008px",
+          "color": "rgb(35, 35, 35)"
+        },
+        "body": {
+          "font": "Switzer",
+          "size": 54,
+          "weight": "500",
+          "lineHeight": 1,
+          "letterSpacing": "-1.6px",
+          "color": "rgb(23, 23, 23)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#ffffff",
+          "#f7f7f7",
+          "#232323",
+          "#fb613c",
+          "#005bd3"
+        ],
+        "text": [
+          "#232323",
+          "#171717",
+          "#ffffff",
+          "#fc4c00"
+        ]
+      },
+      "buttons": [
+        {
+          "label": "EXPLORE OUR PRODUCTS",
+          "bg": "#ffffff",
+          "color": "#232323",
+          "radius": "60px",
+          "height": 48,
+          "paddingX": 25,
+          "font": "Montserrat",
+          "size": 14,
+          "weight": "300"
+        }
+      ],
+      "contentWidth": 1600
+    }
+  },
+  {
     "id": "demande-sp-ciale-landing",
     "site": "Demande Spéciale",
     "url": "https://demandespeciale.ca/en",
@@ -25047,6 +25265,152 @@
           "paddingX": 12,
           "font": "GT Standard",
           "size": 14,
+          "weight": "400"
+        }
+      ],
+      "contentWidth": 1440
+    }
+  },
+  {
+    "id": "documenta-landing",
+    "site": "Documenta",
+    "url": "http://www.documenta.de",
+    "type": "landing",
+    "tags": [
+      "light",
+      "video-still-hero",
+      "giant-lowercase-wordmark",
+      "news-row",
+      "art-exhibition"
+    ],
+    "note": "A grainy archival video still fills the hero with 'documenta' in huge white lowercase, then a plain news row. An art institution with almost no chrome.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/documenta-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/documenta-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "documenta | documenta",
+      "fonts": [
+        "OPS documenta grotesk",
+        "OPS documenta variable",
+        "Degree Twothousandtwentysix"
+      ],
+      "type": {
+        "h1": null,
+        "h2": {
+          "font": "OPS documenta variable",
+          "size": 72,
+          "weight": "400",
+          "lineHeight": 1.2,
+          "letterSpacing": "normal",
+          "color": "rgb(16, 16, 16)"
+        },
+        "h3": {
+          "font": "OPS documenta variable",
+          "size": 29,
+          "weight": "400",
+          "lineHeight": 1.2,
+          "letterSpacing": "normal",
+          "color": "rgb(16, 16, 16)"
+        },
+        "body": {
+          "font": "OPS documenta grotesk",
+          "size": 12,
+          "weight": "400",
+          "lineHeight": "normal",
+          "letterSpacing": "normal",
+          "color": "rgb(77, 77, 77)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#ffffff",
+          "#1e001e",
+          "#e5e5e5",
+          "#000000"
+        ],
+        "text": [
+          "#101010",
+          "#484848",
+          "#eaeaea",
+          "#1a1a1a"
+        ]
+      },
+      "buttons": [
+        {
+          "label": "©",
+          "bg": "#000000",
+          "color": "#ffffff",
+          "radius": "50%",
+          "height": 40,
+          "paddingX": 14,
+          "font": "OPS documenta grotesk",
+          "size": 16,
+          "weight": "400"
+        },
+        {
+          "label": "",
+          "bg": "#000000",
+          "color": "#ffffff",
+          "radius": "50%",
+          "height": 40,
+          "paddingX": 13,
+          "font": "OPS documenta grotesk",
+          "size": 16,
+          "weight": "400"
+        },
+        {
+          "label": "About the organization",
+          "bg": "#e5e5e5",
+          "color": "#1a1a1a",
+          "radius": "44px",
+          "height": 40,
+          "paddingX": 14,
+          "font": "OPS documenta grotesk",
+          "size": 16,
+          "weight": "400"
+        },
+        {
+          "label": "All news",
+          "bg": "#e5e5e5",
+          "color": "#1a1a1a",
+          "radius": "44px",
+          "height": 40,
+          "paddingX": 14,
+          "font": "OPS documenta grotesk",
+          "size": 16,
+          "weight": "400"
+        },
+        {
+          "label": "",
+          "bg": "#e5e5e5",
+          "color": "#1a1a1a",
+          "radius": "44px",
+          "height": 44,
+          "paddingX": 12,
+          "font": "OPS documenta grotesk",
+          "size": 16,
+          "weight": "400"
+        },
+        {
+          "label": "",
+          "bg": "#e5e5e5",
+          "color": "#1a1a1a",
+          "radius": "44px",
+          "height": 44,
+          "paddingX": 12,
+          "font": "OPS documenta grotesk",
+          "size": 16,
           "weight": "400"
         }
       ],
@@ -30847,6 +31211,84 @@
         }
       ],
       "contentWidth": 1300
+    }
+  },
+  {
+    "id": "fry-reglet-landing",
+    "site": "Fry Reglet",
+    "url": "https://fryreglet.com",
+    "type": "landing",
+    "tags": [
+      "dark-blue",
+      "deep-blue-hero",
+      "serif-tagline",
+      "cobalt-block",
+      "architectural-products"
+    ],
+    "note": "A deep blue night-like hero with one small serif line 'The Craft of Precision', then a cobalt block next to a building photo. Architectural trim products sold with the calm of a luxury brand.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/fry-reglet-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/fry-reglet-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Fry Reglet | The Craft of Precision",
+      "fonts": [
+        "Avenir Next Regular",
+        "Avenir Next Thin",
+        "Avenir Next Bold"
+      ],
+      "type": {
+        "h1": {
+          "font": "baskerville-display-pt",
+          "size": 48,
+          "weight": "700",
+          "lineHeight": 0.96,
+          "letterSpacing": "-1px",
+          "color": "rgb(255, 255, 255)"
+        },
+        "h2": null,
+        "h3": {
+          "font": "baskerville-display-pt",
+          "size": 48,
+          "weight": "700",
+          "lineHeight": 0.96,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 87, 184)"
+        },
+        "body": {
+          "font": "Avenir Next Thin",
+          "size": 24,
+          "weight": "300",
+          "lineHeight": 1.5,
+          "letterSpacing": "-0.2px",
+          "color": "rgb(255, 255, 255)"
+        }
+      },
+      "colors": {
+        "background": "#fafcfe",
+        "surfaces": [
+          "#0057b8",
+          "#fafcfe",
+          "#ffffff",
+          "#cccccc"
+        ],
+        "text": [
+          "#ffffff",
+          "#000000",
+          "#cccccc"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": 1440
     }
   },
   {
@@ -37294,6 +37736,190 @@
     }
   },
   {
+    "id": "ilovecreatives-landing",
+    "site": "ilovecreatives",
+    "url": "http://www.ilovecreatives.com",
+    "type": "landing",
+    "tags": [
+      "light",
+      "giant-serif-wordmark",
+      "photo-hero",
+      "inline-pills",
+      "course-cards"
+    ],
+    "note": "The name set huge in a thin serif over a photo of a woman in a cap, then a sentence where 'creative skills' and 'community' are pills inside the text. A school whose copy is styled like its students' work.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/ilovecreatives-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/ilovecreatives-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "ilovecreatives",
+      "fonts": [
+        "SuisseRegular",
+        "Arial",
+        "romana"
+      ],
+      "type": {
+        "h1": null,
+        "h2": {
+          "font": "SuisseRegular",
+          "size": 54,
+          "weight": "100",
+          "lineHeight": 1.05,
+          "letterSpacing": "-2.16px",
+          "color": "rgb(0, 0, 0)"
+        },
+        "h3": {
+          "font": "Arial",
+          "size": 32,
+          "weight": "100",
+          "lineHeight": 1.1,
+          "letterSpacing": "-0.64px",
+          "color": "rgb(34, 34, 34)"
+        },
+        "body": {
+          "font": "SuisseRegular",
+          "size": 18,
+          "weight": "100",
+          "lineHeight": 1.4,
+          "letterSpacing": "-0.36px",
+          "color": "rgb(255, 255, 255)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#ffffff",
+          "#000000",
+          "#f0f0f0"
+        ],
+        "text": [
+          "#222222",
+          "#000000",
+          "#ffffff"
+        ]
+      },
+      "buttons": [
+        {
+          "label": "✹creative skills",
+          "bg": "#ffffff",
+          "color": "#000000",
+          "radius": "1458px",
+          "height": 67,
+          "paddingX": 8,
+          "font": "SuisseRegular",
+          "size": 49,
+          "weight": "100"
+        },
+        {
+          "label": "community.",
+          "bg": "#ffffff",
+          "color": "#000000",
+          "radius": "1603.8px",
+          "height": 57,
+          "paddingX": 8,
+          "font": "romana",
+          "size": 53,
+          "weight": "100"
+        }
+      ],
+      "contentWidth": 1444
+    }
+  },
+  {
+    "id": "in-common-with-landing",
+    "site": "In Common With",
+    "url": "https://www.incommonwith.com",
+    "type": "landing",
+    "tags": [
+      "light",
+      "orange-block",
+      "interior-photo",
+      "lighting-catalogue"
+    ],
+    "note": "A warm interior with a pendant lamp beside a full orange block, then products on beige. A lighting brand sets one saturated colour against quiet rooms.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/in-common-with-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/in-common-with-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "In Common With",
+      "fonts": [
+        "Mier A",
+        "Caslon Ionic"
+      ],
+      "type": {
+        "h1": {
+          "font": "Mier A",
+          "size": 14,
+          "weight": "400",
+          "lineHeight": 1.2,
+          "letterSpacing": "normal",
+          "color": "rgb(248, 247, 241)"
+        },
+        "h2": {
+          "font": "Mier A",
+          "size": 14,
+          "weight": "400",
+          "lineHeight": 1.2,
+          "letterSpacing": "normal",
+          "color": "rgb(74, 10, 5)"
+        },
+        "h3": {
+          "font": "Mier A",
+          "size": 26,
+          "weight": "400",
+          "lineHeight": 1.2,
+          "letterSpacing": "normal",
+          "color": "rgb(74, 10, 5)"
+        },
+        "body": {
+          "font": "Mier A",
+          "size": 14,
+          "weight": "400",
+          "lineHeight": 1.2,
+          "letterSpacing": "normal",
+          "color": "rgb(248, 247, 241)"
+        }
+      },
+      "colors": {
+        "background": "#fafaf9",
+        "surfaces": [
+          "#441100",
+          "#dcd8d0",
+          "#f8f7f1",
+          "#fafaf9",
+          "#4a0a05"
+        ],
+        "text": [
+          "#4a0a05",
+          "#f8f7f1",
+          "#fafaf9"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": 1392
+    }
+  },
+  {
     "id": "increase-landing",
     "site": "Increase",
     "url": "https://increase.com",
@@ -37877,6 +38503,84 @@
         }
       ],
       "contentWidth": 1440
+    }
+  },
+  {
+    "id": "integrated-podiatry-clinic-landing",
+    "site": "Integrated Podiatry Clinic",
+    "url": "http://integratedpodiatry.com.au",
+    "type": "landing",
+    "tags": [
+      "grey",
+      "feet-photo",
+      "serif-display",
+      "soft-copy",
+      "clinic"
+    ],
+    "note": "Two bare feet against grey under 'Put your feet in good hands' in a thin serif, then a gentle question in centred serif. A podiatry clinic made warm and a little funny.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/integrated-podiatry-clinic-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/integrated-podiatry-clinic-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Home - Integrated Podiatry Clinic",
+      "fonts": [
+        "Roboto",
+        "GTSpectra"
+      ],
+      "type": {
+        "h1": {
+          "font": "Roboto",
+          "size": 16,
+          "weight": "400",
+          "lineHeight": 1.35,
+          "letterSpacing": "normal",
+          "color": "rgb(80, 87, 89)"
+        },
+        "h2": {
+          "font": "Roboto",
+          "size": 13,
+          "weight": "700",
+          "lineHeight": 1.35,
+          "letterSpacing": "1.28px",
+          "color": "rgb(80, 87, 89)"
+        },
+        "h3": {
+          "font": "GTSpectra",
+          "size": 120,
+          "weight": "400",
+          "lineHeight": 1.1,
+          "letterSpacing": "normal",
+          "color": "rgb(234, 235, 235)"
+        },
+        "body": {
+          "font": "GTSpectra",
+          "size": 23,
+          "weight": "400",
+          "lineHeight": 1.35,
+          "letterSpacing": "normal",
+          "color": "rgb(80, 87, 89)"
+        }
+      },
+      "colors": {
+        "background": "#ebecec",
+        "surfaces": [],
+        "text": [
+          "#505759",
+          "#eaebeb"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": 900
     }
   },
   {
@@ -51946,6 +52650,79 @@
     }
   },
   {
+    "id": "paris-agreement-landing",
+    "site": "Paris Agreement",
+    "url": "http://which-countries-signed-paris-agreement.com",
+    "type": "landing",
+    "tags": [
+      "peach",
+      "condensed-caps-list",
+      "data-as-layout",
+      "single-question"
+    ],
+    "note": "'WHICH COUNTRIES SIGNED THE PARIS AGREEMENT?' then the answer is the page: every country in condensed caps, growing larger down the list. A data question answered by typography alone.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/paris-agreement-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/paris-agreement-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Paris Agreement",
+      "fonts": [
+        "Oswald",
+        "Roboto",
+        "Cardo"
+      ],
+      "type": {
+        "h1": null,
+        "h2": {
+          "font": "Oswald",
+          "size": 100,
+          "weight": "700",
+          "lineHeight": 1,
+          "letterSpacing": "-2px",
+          "color": "rgb(255, 255, 255)"
+        },
+        "h3": {
+          "font": "Cardo",
+          "size": 38,
+          "weight": "300",
+          "lineHeight": 1.4,
+          "letterSpacing": "normal",
+          "color": "rgb(86, 72, 65)"
+        },
+        "body": {
+          "font": "Oswald",
+          "size": 19,
+          "weight": "700",
+          "lineHeight": 1.08,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        }
+      },
+      "colors": {
+        "background": "#ffcaab",
+        "surfaces": [],
+        "text": [
+          "#000000",
+          "#ffffff",
+          "#564841",
+          "#ff3e3e"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": 900
+    }
+  },
+  {
     "id": "partiful-landing",
     "site": "Partiful",
     "url": "https://partiful.com",
@@ -53392,6 +54169,78 @@
         }
       ],
       "contentWidth": 1440
+    }
+  },
+  {
+    "id": "places-to-read-landing",
+    "site": "Places to Read",
+    "url": "https://www.placestoread.xyz",
+    "type": "landing",
+    "tags": [
+      "light",
+      "green-table",
+      "coordinates",
+      "search",
+      "directory"
+    ],
+    "note": "A single table of parks good for reading, with city, country, feature and map coordinates in green mono. A directory that is one well-set table.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/places-to-read-landing-desktop.jpg",
+        "width": 1440,
+        "height": 2641
+      },
+      "mobile": {
+        "file": "screens/places-to-read-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Places to Read",
+      "fonts": [
+        "__montrealMedium_0d29d0",
+        "Times New Roman"
+      ],
+      "type": {
+        "h1": {
+          "font": "__montrealMedium_0d29d0",
+          "size": 48,
+          "weight": "400",
+          "lineHeight": 1,
+          "letterSpacing": "normal",
+          "color": "rgb(38, 126, 92)"
+        },
+        "h2": {
+          "font": "__montrealMedium_0d29d0",
+          "size": 16,
+          "weight": "400",
+          "lineHeight": 1.5,
+          "letterSpacing": "normal",
+          "color": "rgb(38, 126, 92)"
+        },
+        "h3": null,
+        "body": {
+          "font": "__montrealMedium_0d29d0",
+          "size": 16,
+          "weight": "400",
+          "lineHeight": 1.5,
+          "letterSpacing": "normal",
+          "color": "rgb(38, 126, 92)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#b0d9c8"
+        ],
+        "text": [
+          "#267e5c"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": 1536
     }
   },
   {
@@ -66143,6 +66992,78 @@
     }
   },
   {
+    "id": "super16-landing",
+    "site": "Super16",
+    "url": "http://super16.dk",
+    "type": "landing",
+    "tags": [
+      "dark",
+      "crowd-photo",
+      "serif-italic",
+      "film-school",
+      "danish"
+    ],
+    "note": "A graduating class crowded in front of a cinema with 'Årgang #13 dimitterer.' in large white serif italic over them. A film school leads with its people on graduation night.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/super16-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/super16-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Super16 - En uddannelse i film og fællesskab",
+      "fonts": [
+        "Inclusive Sans",
+        "Arial",
+        "Times newer roman"
+      ],
+      "type": {
+        "h1": {
+          "font": "Times newer roman",
+          "size": 108,
+          "weight": "400",
+          "lineHeight": 1.13,
+          "letterSpacing": "normal",
+          "color": "rgb(255, 255, 255)"
+        },
+        "h2": null,
+        "h3": {
+          "font": "Times newer roman",
+          "size": 58,
+          "weight": "400",
+          "lineHeight": 1.1,
+          "letterSpacing": "normal",
+          "color": "rgb(255, 255, 255)"
+        },
+        "body": {
+          "font": "Inclusive Sans",
+          "size": 17,
+          "weight": "400",
+          "lineHeight": 1.35,
+          "letterSpacing": "normal",
+          "color": "rgb(255, 255, 255)"
+        }
+      },
+      "colors": {
+        "background": "#000000",
+        "surfaces": [],
+        "text": [
+          "#ffffff",
+          "#f2c900"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": 670
+    }
+  },
+  {
     "id": "supergiant-games-landing",
     "site": "Supergiant Games",
     "url": "https://www.supergiantgames.com",
@@ -68735,6 +69656,78 @@
     }
   },
   {
+    "id": "the-beams-landing",
+    "site": "The Beams",
+    "url": "https://thebeamslondon.com",
+    "type": "landing",
+    "tags": [
+      "light",
+      "repeated-stacked-wordmark",
+      "dark-video",
+      "venue-teaser"
+    ],
+    "note": "'Centre For New Culture' repeated in overlapping outline lines like a stack of echoes, then a dark video still. A venue not yet open shows its name vibrating with anticipation.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/the-beams-landing-desktop.jpg",
+        "width": 1440,
+        "height": 2482
+      },
+      "mobile": {
+        "file": "screens/the-beams-landing-mobile.jpg",
+        "width": 390,
+        "height": 1762
+      }
+    },
+    "tokens": {
+      "title": "Homepage - The Beams",
+      "fonts": [
+        "NeueHaas-web"
+      ],
+      "type": {
+        "h1": {
+          "font": "NeueHaas-web",
+          "size": 160,
+          "weight": "400",
+          "lineHeight": 0.9,
+          "letterSpacing": "-4.8px",
+          "color": "rgb(0, 0, 0)"
+        },
+        "h2": {
+          "font": "NeueHaas-web",
+          "size": 95,
+          "weight": "400",
+          "lineHeight": 0.9,
+          "letterSpacing": "-2.85714px",
+          "color": "rgb(0, 0, 0)"
+        },
+        "h3": null,
+        "body": {
+          "font": "NeueHaas-web",
+          "size": 38,
+          "weight": "400",
+          "lineHeight": 1,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#ffffff",
+          "#f5f5f5"
+        ],
+        "text": [
+          "#000000",
+          "#ffffff"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": null
+    }
+  },
+  {
     "id": "the-browser-landing",
     "site": "The Browser",
     "url": "https://thebrowser.com",
@@ -70085,6 +71078,77 @@
     "tokens": null
   },
   {
+    "id": "tr-studio-landing",
+    "site": "TR Studio",
+    "url": "https://trstudio.co.uk",
+    "type": "landing",
+    "tags": [
+      "light",
+      "corner-letters",
+      "house-photo",
+      "beige",
+      "architecture"
+    ],
+    "note": "The letters T, R and S sit in three corners of a full photo of a timber house. A studio's initials used as a frame instead of a logo.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/tr-studio-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/tr-studio-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Home • TR Studio",
+      "fonts": [
+        "Dia",
+        "ABC"
+      ],
+      "type": {
+        "h1": {
+          "font": "Dia",
+          "size": 40,
+          "weight": "400",
+          "lineHeight": 1.1,
+          "letterSpacing": "normal",
+          "color": "rgb(255, 255, 255)"
+        },
+        "h2": {
+          "font": "Dia",
+          "size": 40,
+          "weight": "400",
+          "lineHeight": 1.1,
+          "letterSpacing": "normal",
+          "color": "rgb(255, 255, 255)"
+        },
+        "h3": null,
+        "body": {
+          "font": "ABC",
+          "size": 26,
+          "weight": "400",
+          "lineHeight": 1.38,
+          "letterSpacing": "normal",
+          "color": "rgb(46, 14, 18)"
+        }
+      },
+      "colors": {
+        "background": "#eae7e1",
+        "surfaces": [],
+        "text": [
+          "#2e0e12",
+          "#ffffff"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": 1600
+    }
+  },
+  {
     "id": "trigger-dev-landing",
     "site": "Trigger.dev",
     "url": "https://trigger.dev",
@@ -70831,6 +71895,73 @@
       },
       "buttons": [],
       "contentWidth": 1128
+    }
+  },
+  {
+    "id": "typography-ireland-landing",
+    "site": "Typography Ireland",
+    "url": "http://typography.ie",
+    "type": "landing",
+    "tags": [
+      "light",
+      "red-block",
+      "underlined-labels",
+      "event-list",
+      "typography"
+    ],
+    "note": "A red block with the mission in white, then a list of symposia and lectures, each labelled with an underlined category. A typography society that is all type and one red.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/typography-ireland-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/typography-ireland-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Typography Ireland",
+      "fonts": [
+        "Deckard-Bold",
+        "ff-spinoza-web-pro"
+      ],
+      "type": {
+        "h1": null,
+        "h2": {
+          "font": "Deckard-Bold",
+          "size": 34,
+          "weight": "400",
+          "lineHeight": 1.26,
+          "letterSpacing": "normal",
+          "color": "rgb(255, 255, 255)"
+        },
+        "h3": {
+          "font": "Deckard-Bold",
+          "size": 34,
+          "weight": "400",
+          "lineHeight": 1.15,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        },
+        "body": null
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#ff3b3b",
+          "#ffffff"
+        ],
+        "text": [
+          "#000000",
+          "#ffffff"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": null
     }
   },
   {
@@ -72705,6 +73836,84 @@
           "#ededed",
           "#52a8ff",
           "#0a0a0a"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": null
+    }
+  },
+  {
+    "id": "vero-international-landing",
+    "site": "Vero International",
+    "url": "https://verointernational.com",
+    "type": "landing",
+    "tags": [
+      "light",
+      "giant-wordmark-over-photo",
+      "product-strip",
+      "neon-green-pro-band",
+      "furniture"
+    ],
+    "note": "The name in huge white type over a pink plaster wall photo, then a product strip with each piece cut out, and a grey band with a neon-green graffiti 'VERO PRO' logo. A furniture brand that mixes Italian craft with street graphics.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/vero-international-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3408
+      },
+      "mobile": {
+        "file": "screens/vero-international-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Vero International – Vero International s.r.l.",
+      "fonts": [
+        "Neue Haas Unica"
+      ],
+      "type": {
+        "h1": null,
+        "h2": {
+          "font": "Neue Haas Unica",
+          "size": 72,
+          "weight": "700",
+          "lineHeight": 0.9,
+          "letterSpacing": "-3.6px",
+          "color": "rgb(52, 52, 52)"
+        },
+        "h3": {
+          "font": "Neue Haas Unica",
+          "size": 30,
+          "weight": "700",
+          "lineHeight": 0.91,
+          "letterSpacing": "-1.4976px",
+          "color": "rgb(52, 52, 52)"
+        },
+        "body": {
+          "font": "Neue Haas Unica",
+          "size": 14,
+          "weight": "700",
+          "lineHeight": 0.96,
+          "letterSpacing": "-0.57024px",
+          "color": "rgb(255, 255, 255)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#f7f7f7",
+          "#727271",
+          "#ffffff",
+          "#51e1a4",
+          "#343434"
+        ],
+        "text": [
+          "#ffffff",
+          "#343434",
+          "#51e1a4",
+          "#727271"
         ]
       },
       "buttons": [],
