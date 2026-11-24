@@ -10830,5 +10830,148 @@
    "architecture"
   ],
   "note": "A forest photo beside a timber facade, then projects as a list of small black-and-white photos with place and year. An architecture office that treats its work as an archive."
+ },
+ {
+  "site": "855-HOW-TO-QUIT",
+  "type": "landing",
+  "url": "https://855-how-to-quit.org",
+  "tags": [
+   "grey",
+   "pill-as-letter",
+   "condensed-caps",
+   "pill-list",
+   "public-health"
+  ],
+  "note": "'855-HOW-TO-QUIT-( )' with a real orange pill inside the brackets, then testimonials listed with each pill's imprint code. A helpline that turns the pill's own markings into its identity."
+ },
+ {
+  "site": "Burner",
+  "type": "landing",
+  "url": "https://burner.pro",
+  "tags": [
+   "light",
+   "serif-headline",
+   "inline-card-images",
+   "coloured-chain-cards",
+   "crypto-card"
+  ],
+  "note": "'The easiest way to gift [card] crypto. Tap [card] it, load it, gift it.' with the product cards set inline in the serif sentence, then cards on rocks and clouds per chain. Crypto made giftable by staying physical and plain."
+ },
+ {
+  "site": "Corners",
+  "type": "landing",
+  "url": "https://www.cornersnewyork.co",
+  "tags": [
+   "light",
+   "rock-photo",
+   "giant-wordmark",
+   "stacked-info-rows",
+   "art-store"
+  ],
+  "note": "A large photo of a grey rock sits on the wordmark 'Corners', with the address and opening hours in ruled rows. A small art store whose hero is one found object."
+ },
+ {
+  "site": "Forms",
+  "type": "landing",
+  "url": "https://forms.supply",
+  "tags": [
+   "light",
+   "giant-wordmark",
+   "3d-white-icons",
+   "big-tab-buttons",
+   "framer-resource"
+  ],
+  "note": "'FORMS' in huge black letters with two big grey buttons (Watch, Play), then white 3D form icons on grey. A resource page that is all wordmark and two choices."
+ },
+ {
+  "site": "GARBO STUDIOS",
+  "type": "landing",
+  "url": "https://garbo-studios.com",
+  "tags": [
+   "light",
+   "project-strip",
+   "giant-condensed-name",
+   "ruled-nav",
+   "studio"
+  ],
+  "note": "A strip of four project images, the name in heavy condensed caps, then About, Services, Contact as huge ruled rows. A studio where the menu is the page."
+ },
+ {
+  "site": "Meat",
+  "type": "landing",
+  "url": "https://meat.studio",
+  "tags": [
+   "dark",
+   "product-cut-outs",
+   "giant-wordmark-behind",
+   "world-clocks",
+   "studio"
+  ],
+  "note": "Cut-out objects from the studio's projects float over a giant 'MEAT', with Beijing and Toronto clocks in the header. A studio for two cities that shows its things, not its people."
+ },
+ {
+  "site": "ODA ®",
+  "type": "landing",
+  "url": "https://www.oda.services",
+  "tags": [
+   "dark",
+   "giant-rounded-wordmark",
+   "project-table",
+   "year-columns",
+   "design-office"
+  ],
+  "note": "A huge rounded grey 'ODA' over black, then projects as a dense table of years, clients and disciplines. An office for one designer set like a typeface specimen."
+ },
+ {
+  "site": "Relogate",
+  "type": "landing",
+  "url": "https://www.relogate.me",
+  "tags": [
+   "mint",
+   "country-cards",
+   "engraved-seals",
+   "serif-headline",
+   "immigration"
+  ],
+  "note": "Each destination is a card with its engraved national seal, the visa names as pills, a time and a price ('From 6 months, starting at €12000'). Immigration services shown as clear products."
+ },
+ {
+  "site": "SLIDES",
+  "type": "landing",
+  "url": "https://www.slides.agency",
+  "tags": [
+   "light",
+   "giant-condensed-headline",
+   "photo-tiles",
+   "presentation-agency"
+  ],
+  "note": "'BAD SLIDES KILL GOOD IDEAS' in a huge condensed headline, then full-colour client photos. A presentation agency sells with one line of opinion."
+ },
+ {
+  "site": "Walkie Talkie",
+  "type": "landing",
+  "url": "https://walkie-talkie.io",
+  "tags": [
+   "yellow",
+   "lcd-display",
+   "face-cut-outs",
+   "wavy-text-border",
+   "inline-emoji-icons",
+   "app"
+  ],
+  "note": "A big LCD showing the frequency 32.48 surrounded by cut-out laughing mouths, then a wavy band of text and a sentence with icons inline. A voice chat app that looks like a toy radio."
+ },
+ {
+  "site": "Yoga Studio Unity",
+  "type": "landing",
+  "url": "https://studiounity.tilda.ws",
+  "tags": [
+   "pink",
+   "retro-display-type",
+   "orange-flowers",
+   "photo-cards",
+   "wellness"
+  ],
+  "note": "Orange retro display caps on pink with hand-drawn flowers and hearts, around photos of a class. A yoga studio with the cheer of a 70s poster, not the beige calm of the genre."
  }
 ]

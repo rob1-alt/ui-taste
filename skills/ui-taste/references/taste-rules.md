@@ -19,6 +19,7 @@ Better still, let it work. Vapi's hero starts a real voice call, Firecrawl's her
 The smallest version is the product's output, in the hero, already personal. Beacon's promise is a date ("Find your financial independence date") and the page has the calculator that returns it; Portrait's sign-up field is prefilled with the URL you will own (portrait.so/robert); SevenGrid's copy is computed from today ("It's week 48. Six days of this week are still open."). One concrete output beats three feature cards.
 
 Product inside the sentence: Backyard sets little photos of its houses inline between the words of its headline ('Backyard [house] is the elegant, effortless ADU designed for [house] your next chapter'); Deltaboard writes each product name in orange with an arrow inside one long pitch sentence, so the paragraph doubles as the menu.
+Burner does it with its crypto cards ('The easiest way to gift [card] crypto. Tap [card] it, load it, gift it.'); 855-HOW-TO-QUIT puts a real pill inside the brackets of its name.
 
 Two more: Stable Audio writes its prompt as a sentence whose words are coloured, editable chips ("A driving trap track with percussion, synth bass and flute, 140 BPM, 1:00"), so the hero teaches the prompt grammar by example; Micrtype, a one-typeface foundry, puts the licence picker, price and pay button in the first screen next to the digits: for a single product, buying is the landing page.
 

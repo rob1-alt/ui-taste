@@ -1097,3 +1097,41 @@ https://www.studiowok.com	generic, broken or partial render
 http://trahanarchitects.com	generic, broken or partial render
 http://www.vmdo.com	generic, broken or partial render
 http://wearehuntly.com.au	generic, broken or partial render
+https://www.murrayscheese.com	bot wall (prefilter)
+https://avara.xyz	bot wall (cloudflare) (prefilter)
+https://www.revolvestudio.co/index.html	broken (URLError) (prefilter)
+https://butter.bingo	broken (URLError) (prefilter)
+https://store.sidlee.com	broken (http 504) (prefilter)
+https://www.eclipse.builders	redirects off-site (eclipse.xyz) (prefilter)
+https://www.flyingpapers.com	broken (URLError) (prefilter)
+https://emptyshelf.design	redirects off-site (connelly.work) (prefilter)
+https://www.seen.space	broken (URLError) (prefilter)
+https://www.33lettersforukraine.net	broken (URLError) (prefilter)
+https://minimalissimo.shop	broken (URLError) (prefilter)
+https://theroger.com	redirects off-site (on.com) (prefilter)
+https://3oo.store	broken (URLError) (prefilter)
+https://iessi.fr	generic, broken or partial render
+https://plantstotherescue.co	generic, broken or partial render
+https://cphfw25.samsoe.com	generic, broken or partial render
+https://thickpickle.com	generic, broken or partial render
+https://www.alexisbardini.com	generic, broken or partial render
+https://repponen.com	generic, broken or partial render
+https://aushydro.au	generic, broken or partial render
+https://burkinow.com/en#a	generic, broken or partial render
+https://usedaybox.com	generic, broken or partial render
+https://defineamerican.com	generic, broken or partial render
+https://finetune.co	generic, broken or partial render
+https://freitag.ch	generic, broken or partial render
+https://geleegelee.com	generic, broken or partial render
+https://www.gracewalker.ca	generic, broken or partial render
+https://www.grids.bio	generic, broken or partial render
+https://www.hellorobo.co	generic, broken or partial render
+https://hipolabs.com	generic, broken or partial render
+https://hurdle.studio	generic, broken or partial render
+https://leonromero.work	generic, broken or partial render
+https://www.loughlinjoseph.com	generic, broken or partial render
+https://nathanmartell.com	generic, broken or partial render
+https://para.co	generic, broken or partial render
+https://rre.com	generic, broken or partial render
+https://www.samsoe.com/en-SE	generic, broken or partial render
+https://lastingpetals.org	capture failed
