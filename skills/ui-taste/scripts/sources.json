@@ -15857,5 +15857,101 @@
    "link-tiles"
   ],
   "note": "A product designer fills the page with a bento of red, blue, yellow and black tiles (links, projects, blog posts, a big T logo) under a grey portrait: a Bauhaus palette as the whole system."
+ },
+ {
+  "site": "all i possess",
+  "type": "landing",
+  "url": "https://allipossess.com",
+  "tags": [
+   "object-register",
+   "cutout-grid",
+   "mono-caption",
+   "art-project"
+  ],
+  "note": "An online installation lists every object one person owns as cut-out photos in a white grid, with one mono paragraph explaining the rule: the inventory is the artwork and the interface."
+ },
+ {
+  "site": "Bek Stone",
+  "type": "landing",
+  "url": "https://bek.is",
+  "tags": [
+   "overlapping-collage",
+   "serif-headline",
+   "photo-scraps",
+   "personal-brand"
+  ],
+  "note": "A designer stacks photos and scraps in an overlapping collage under one bold serif line ('Every step more humane than the last'): a moodboard as the homepage."
+ },
+ {
+  "site": "Jeremiah Shoaf",
+  "type": "landing",
+  "url": "https://www.jeremiahshoaf.com",
+  "tags": [
+   "serif-display",
+   "gold-ampersand",
+   "clients-as-prose",
+   "green-ground"
+  ],
+  "note": "The maker of Typewolf sets his name and 'Design & Art Direction' in a condensed serif with a gold italic ampersand on deep green, then clients, agencies and writing as comma-separated prose."
+ },
+ {
+  "site": "Julie Bonnemoy",
+  "type": "landing",
+  "url": "https://www.juliebonnemoy.com",
+  "tags": [
+   "inline-emoji-icons",
+   "dense-case-grid",
+   "bold-titles",
+   "freelance"
+  ],
+  "note": "A senior designer writes her pitch with small icons between the words (♡ festival, ⚡ success) and fills the rest with a dense grid of bold case covers."
+ },
+ {
+  "site": "Julien Renau",
+  "type": "landing",
+  "url": "http://julienrenau.com",
+  "tags": [
+   "lettered-index",
+   "tech-strips",
+   "awards-line",
+   "creative-technologist"
+  ],
+  "note": "A creative technologist labels projects A, B, C, D, each a row with a strip of screens and a running line of technologies and awards: the index reads like a spec sheet."
+ },
+ {
+  "site": "Monumento",
+  "type": "landing",
+  "url": "http://www.monumento.co",
+  "tags": [
+   "line-drawing",
+   "facade-illustration",
+   "serif-caps",
+   "studio-address"
+  ],
+  "note": "A creative office draws its own building as a line illustration under a serif-caps paragraph with phone and address inline: the studio as a place you could visit."
+ },
+ {
+  "site": "No Ideas Party",
+  "type": "landing",
+  "url": "http://noideas.party",
+  "tags": [
+   "event-poster-home",
+   "giant-type",
+   "gold-object",
+   "announcement"
+  ],
+  "note": "A studio turns its homepage into the invitation for its second birthday: giant black and white type, a gold saxophone and the address: the site as a poster for one evening."
+ },
+ {
+  "site": "Xtian Miller",
+  "type": "landing",
+  "url": "http://xtian.design",
+  "tags": [
+   "poster-grid",
+   "side-projects",
+   "dark-ground",
+   "generator-tools"
+  ],
+  "note": "A graphic designer opens on a grid of typographic posters, then his side tools (a satirical title generator, an animation toolkit) as cards: the hobbies are presented like products."
  }
 ]
