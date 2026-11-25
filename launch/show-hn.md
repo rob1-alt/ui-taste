@@ -1,4 +1,4 @@
-# Show HN launch checklist · taster
+# Show HN launch checklist · ui taste
 
 HN rewards a plain, specific post from the person who built the thing, a repo that works in two minutes, and a founder who answers every comment for a day. Everything below serves that.
 
@@ -23,7 +23,40 @@ HN rewards a plain, specific post from the person who built the thing, a repo th
 - [ ] **Site**: ~~remove `noindex`~~ (done, site indexable on uitaste.dev); add an OG image (the logo on paper, 1200×630); add the GitHub link and the install block above the fold; show the plugin version.
 - [ ] **Secrets and personal data**: grep for emails, tokens, `.vercel`, absolute `/home/rob/` paths in docs and in `index.json` (`find_refs` prints absolute paths; that is fine at runtime, not in committed docs).
 
-## The post
+## Ready to post (draft, 2026-11-25)
+
+**Title** (75 chars):
+
+    Show HN: Ui taste – real, measured UI references so coding agents stop building slop
+
+Alternatives:
+- `Show HN: Ui taste – 1,266 measured web pages and a render-and-compare loop for agents`
+- `Show HN: Ui taste – a Claude Code skill that makes the agent look at what it built`
+
+**URL**: https://github.com/rob1-alt/ui-taste (the repo, not the site; the site goes in the comment).
+
+**Text field**: leave empty (a Show HN with a URL takes no text; the context goes in the first comment).
+
+**First comment** (post within a minute):
+
+> Hi HN, I built this because every page my agents built looked the same: purple gradient, three centred cards, Inter. Lately it is a new default: cream background, a serif headline with one word in italics, mono uppercase labels, pill badges.
+>
+> ui taste is a Claude Code skill. It has three parts:
+>
+> - A library of 1,266 real pages (1,124 landings, plus pricing, dashboards, docs and design systems), captured at 1440 and 390. For each page it stores the tokens read from the live page's computed styles: fonts, type scale, colours, radii, button sizes, widths.
+> - A search that returns the 2-3 closest pages, with a contact sheet, so the agent looks at real screens before choosing a direction.
+> - A review loop. The agent renders what it built with Playwright, puts its first screen next to the reference it used, asks itself which one a designer would pick, then fixes the page against an anti-slop checklist.
+>
+> The test I trust most is on the site: same prompt, same model (Opus 5.5), one run each, nothing edited. Without the skill, the model does not look at what it built. I also ran it without the skill but told it to render the page and iterate until it was excellent and not generic. It took 40/32/27 steps against the skill's 24/18/16, and ended up polishing the same cream-and-serif page. Taking more time did not get it away from the default. Looking at real references did.
+>
+> Limits: it needs Chromium (about 1 GB). Captures fail on bot walls. It works best in Claude Code today, although the scripts and the Markdown rules work by hand. The dashboard gap is the smallest: models are already decent at dashboards.
+>
+> Site with the comparison: https://www.uitaste.dev. I would love to know which sites and page types are missing.
+
+**Prepared answers** for the likely threads are below in "Timing and mechanics". Add this one:
+- "Why not just tell the model to iterate?" → we tried, see the "told to iterate" switch on the site: more steps, same look.
+
+## The post (original notes)
 
 - [ ] **Title** (≤ 80 chars, factual, no superlatives, no "AI-powered"):
   - `Show HN: Taster – a Claude Code skill that stops generated UIs from looking generated`
