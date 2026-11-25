@@ -1915,3 +1915,32 @@ https://public-image.co	one screen, empty below
 https://www.rayraylab.com	broken (screenshot timeout)
 https://lemma.studio	broken (screenshot timeout)
 https://www.helloelva.com	broken (navigation during capture)
+https://mathisgarcia.com	broken (URLError) (prefilter)
+https://www.camilarosa.net	bot wall (cloudflare) (prefilter)
+https://www.carlhauser.com	broken (http 301) (prefilter)
+https://www.joshdring.com	bot wall (cloudflare) (prefilter)
+https://9point8.agency	hero only: desktop ends after the green video tile; rest of 
+https://boandco.studio	hero only: orange product band; then empty rules with no con
+http://fordenicol.com	hero only: huge wordmark over a photo; desktop capture ends 
+https://www.jkane.co	desktop capture ends after the card-UI hero; blank below; mo
+https://www.labud.nyc	hero only: pink full-screen intro with services line; nothin
+https://middlename.co.uk	placeholder name; short one-screen page with stock-like card
+https://mikkisindhunata.com	hero only: dark video hero with slider controls; black below
+https://www.monotonomo.com	three-row principles list with standard heading and start-pr
+https://www.notestoself.club	parked domain page: domain may be for sale
+https://serge-d.com/oto-fukei	hero only: big title and short paragraph; desktop empty belo
+https://special-offer.studio	hero only: luxury brand campaign hero; black below; brand mi
+https://pointer.click	hero only: single window mockup; blank below on desktop
+http://swedenmodels.se	model directory with portrait cards and add-to-shortlist but
+http://thecolourclub.com.au	mostly empty: tiny copy and coloured nav tiles; rest of the 
+https://truetoform.design	coming-soon holding page with a halftone image; no content
+https://verde.io	developer portfolio with green hero and standard work cards 
+https://1til1landskab.dk/en	blank
+https://adero.netlify.app	blank
+https://studio-otto.com	blank
+https://wonderlandams.com	blank
+https://builders-club.com	standard image grid
+https://folder.studio	desktop short, partial
+https://vastmix.com	fashion template
+https://www.vitorcardoso.com	full-bleed stills, already covered
+http://weareunder.design	large blank gap, partial

@@ -14300,5 +14300,175 @@
    "years"
   ],
   "note": "A studio's hero is its client list in large serif names separated by dots (Microsoft. Autostore. Xiaomi. Google.), then a full table of projects with client and year."
+ },
+ {
+  "site": "Andrea Dominici",
+  "type": "landing",
+  "url": "https://andreadominici.com",
+  "tags": [
+   "bold-poster-hero",
+   "stripes",
+   "scattered-letters",
+   "filter-tags",
+   "freelance-designer"
+  ],
+  "note": "An Italian freelance designer leads with one bold black-and-white poster of curved stripes, then filters (Branding, UI/UX, Editorial, Coding) over the work: one strong graphic sets the bar."
+ },
+ {
+  "site": "Bureau Cool",
+  "type": "landing",
+  "url": "https://bureau.cool",
+  "tags": [
+   "mono-caps",
+   "traffic-log",
+   "project-titles",
+   "shop-button"
+  ],
+  "note": "A boutique studio sets everything in mono caps: its name, a live 'recent traffic' log of visitor cities, then projects as big two-line titles (NIKE / AIRLAB MILAN): a terminal aesthetic for a design studio."
+ },
+ {
+  "site": "Deadwater",
+  "type": "landing",
+  "url": "http://www.deadwater.fr",
+  "tags": [
+   "condensed-giant-wordmark",
+   "client-list",
+   "dark-mode",
+   "french-studio"
+  ],
+  "note": "'DEADWATER' in giant condensed caps on black, then its clients as a condensed list with year and service: one typeface does the whole page."
+ },
+ {
+  "site": "ESSESI",
+  "type": "landing",
+  "url": "https://essesi.com",
+  "tags": [
+   "object-archive",
+   "tiny-thumbnails",
+   "white-space",
+   "product-design"
+  ],
+  "note": "A product studio's homepage is a wide grid of tiny object photos on white with small names, lots of space between them: a museum drawer of everything it made."
+ },
+ {
+  "site": "Fathom",
+  "type": "landing",
+  "url": "https://www.fathom.company",
+  "tags": [
+   "typewritten-letter",
+   "rename-announcement",
+   "signatures",
+   "paper"
+  ],
+  "note": "Fathom announces it is now Direct Message with a typewritten letter on paper (date, numbered beliefs, list of disciplines, two signatures): a rename told as a letter, nothing else."
+ },
+ {
+  "site": "Maria Nualart",
+  "type": "landing",
+  "url": "https://marianualart.com",
+  "tags": [
+   "dark-film-stills",
+   "small-captions",
+   "fashion-photographer",
+   "editorial"
+  ],
+  "note": "A photographer's site is a sequence of dark film stills with small italic captions: the mood of the work sets the page."
+ },
+ {
+  "site": "Mister",
+  "type": "landing",
+  "url": "https://mister.studio",
+  "tags": [
+   "text-only-columns",
+   "output-counts",
+   "client-list",
+   "new-site-2027"
+  ],
+  "note": "A strategy and design practice runs the whole homepage as small text columns: bio, client list, capabilities and output counted ('246 websites, 162 logos, 22 names'): numbers as the portfolio."
+ },
+ {
+  "site": "Nicolas Bussière",
+  "type": "landing",
+  "url": "https://www.nicolasbussiere.com",
+  "tags": [
+   "italic-caps",
+   "photo-hero",
+   "magenta-bar",
+   "product-photos",
+   "ux-designer"
+  ],
+  "note": "A designer's name and 'MULTI-DISCIPLINARY DESIGNER' in italic caps over a black and white photo, with a magenta 'available for new projects' bar, then products on grey."
+ },
+ {
+  "site": "P22\n\na",
+  "type": "landing",
+  "url": "http://p22.studio",
+  "tags": [
+   "sky-photo",
+   "serif-question",
+   "product-studio",
+   "rounded-cards"
+  ],
+  "note": "A digital design and engineering studio opens on a photo of clouds with one question ('What does it mean to build the kind of future we'd like to inhabit?'): a question instead of a claim."
+ },
+ {
+  "site": "punkt",
+  "type": "landing",
+  "url": "http://punkt.com",
+  "tags": [
+   "dense-grid",
+   "colourful-thumbnails",
+   "graphic-design",
+   "full-bleed-hero"
+  ],
+  "note": "A graphic design studio puts one blue object photo on top and then a dense grid of colourful posters, books and identities: volume and colour carry it."
+ },
+ {
+  "site": "Shuka",
+  "type": "landing",
+  "url": "https://shuka.design",
+  "tags": [
+   "brand-collage",
+   "big-paragraph",
+   "illustration",
+   "ai-personas"
+  ],
+  "note": "A brand studio shows one client (Freenow) as a collage of red applications and then a long plain paragraph about testing brands with AI personas: work and method, no hero claim."
+ },
+ {
+  "site": "Singular Forms",
+  "type": "landing",
+  "url": "https://www.singularforms.com",
+  "tags": [
+   "quiet-text",
+   "phone-mockup",
+   "black-and-white-photos",
+   "independent-practice"
+  ],
+  "note": "An independent practice writes one quiet paragraph, then one phone mockup on grey and black and white texture photos: calm in every element."
+ },
+ {
+  "site": "Strictua",
+  "type": "landing",
+  "url": "http://www.strictua.com",
+  "tags": [
+   "photo-hero",
+   "serif-light",
+   "films-and-campaigns",
+   "category-filters"
+  ],
+  "note": "A film studio for brands sets 'film for adventurous brands' in light letters over a desk photo, then a pale statement and filters by sector: a light voice over strong imagery."
+ },
+ {
+  "site": "Xicons Studio",
+  "type": "landing",
+  "url": "https://www.xicons.studio",
+  "tags": [
+   "icon-construction-grid",
+   "large-sans",
+   "testimonial-quote",
+   "icon-design"
+  ],
+  "note": "An icon studio shows the construction grid next to the finished icon (Firefox, adidas) and quotes the client in large type: the craft shown at the level of the pixel."
  }
 ]

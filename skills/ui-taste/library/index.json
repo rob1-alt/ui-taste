@@ -13978,6 +13978,79 @@
     }
   },
   {
+    "id": "andrea-dominici-landing",
+    "site": "Andrea Dominici",
+    "url": "https://andreadominici.com",
+    "type": "landing",
+    "tags": [
+      "bold-poster-hero",
+      "stripes",
+      "scattered-letters",
+      "filter-tags",
+      "freelance-designer"
+    ],
+    "note": "An Italian freelance designer leads with one bold black-and-white poster of curved stripes, then filters (Branding, UI/UX, Editorial, Coding) over the work: one strong graphic sets the bar.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/andrea-dominici-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/andrea-dominici-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "andreadominici.c",
+      "fonts": [
+        "neue-haas-grotesk-text"
+      ],
+      "type": {
+        "h1": {
+          "font": "neue-haas-grotesk-text",
+          "size": 14,
+          "weight": "500",
+          "lineHeight": 1,
+          "letterSpacing": "0.08px",
+          "color": "rgb(32, 32, 32)"
+        },
+        "h2": {
+          "font": "neue-haas-grotesk-text",
+          "size": 14,
+          "weight": "500",
+          "lineHeight": 1.2,
+          "letterSpacing": "0.15px",
+          "color": "rgb(32, 32, 32)"
+        },
+        "h3": null,
+        "body": {
+          "font": "neue-haas-grotesk-text",
+          "size": 14,
+          "weight": "400",
+          "lineHeight": 1.2,
+          "letterSpacing": "0.08px",
+          "color": "rgb(84, 84, 84)"
+        }
+      },
+      "colors": {
+        "background": "#fafafa",
+        "surfaces": [
+          "#000000"
+        ],
+        "text": [
+          "#202020",
+          "#545454",
+          "#ffffff"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": null
+    }
+  },
+  {
     "id": "andrew-herzog-landing",
     "site": "Andrew Herzog",
     "url": "https://andrewherzog.com",
@@ -21826,6 +21899,71 @@
     }
   },
   {
+    "id": "bureau-cool-landing",
+    "site": "Bureau Cool",
+    "url": "https://bureau.cool",
+    "type": "landing",
+    "tags": [
+      "mono-caps",
+      "traffic-log",
+      "project-titles",
+      "shop-button"
+    ],
+    "note": "A boutique studio sets everything in mono caps: its name, a live 'recent traffic' log of visitor cities, then projects as big two-line titles (NIKE / AIRLAB MILAN): a terminal aesthetic for a design studio.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/bureau-cool-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/bureau-cool-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Bureau Cool",
+      "fonts": [
+        "ArialMonospaced-Bold",
+        "CentSchbookMonoBTWXX-Rg"
+      ],
+      "type": {
+        "h1": null,
+        "h2": null,
+        "h3": {
+          "font": "CentSchbookMonoBTWXX-Rg",
+          "size": 72,
+          "weight": "400",
+          "lineHeight": 1,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        },
+        "body": {
+          "font": "ArialMonospaced-Bold",
+          "size": 69,
+          "weight": "400",
+          "lineHeight": 1,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        }
+      },
+      "colors": {
+        "background": "#dedede",
+        "surfaces": [
+          "#dedede"
+        ],
+        "text": [
+          "#000000",
+          "#ffffff"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": 1440
+    }
+  },
+  {
     "id": "bureau-daniel-groner-landing",
     "site": "Bureau Daniel Groner",
     "url": "http://www.danielgroner.com",
@@ -28268,6 +28406,100 @@
     }
   },
   {
+    "id": "deadwater-landing",
+    "site": "Deadwater",
+    "url": "http://www.deadwater.fr",
+    "type": "landing",
+    "tags": [
+      "condensed-giant-wordmark",
+      "client-list",
+      "dark-mode",
+      "french-studio"
+    ],
+    "note": "'DEADWATER' in giant condensed caps on black, then its clients as a condensed list with year and service: one typeface does the whole page.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/deadwater-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/deadwater-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "DEADWATER - Studio de design et développement web sur-mesure",
+      "fonts": [
+        "Inter-dcbae5534c949be2",
+        "Humane-e7e4f97560e0ec4c"
+      ],
+      "type": {
+        "h1": {
+          "font": "Inter-dcbae5534c949be2",
+          "size": 14,
+          "weight": "400",
+          "lineHeight": 1.5,
+          "letterSpacing": "normal",
+          "color": "rgb(207, 207, 207)"
+        },
+        "h2": {
+          "font": "Inter-dcbae5534c949be2",
+          "size": 32,
+          "weight": "300",
+          "lineHeight": 1.25,
+          "letterSpacing": "normal",
+          "color": "rgb(207, 207, 207)"
+        },
+        "h3": {
+          "font": "Inter-dcbae5534c949be2",
+          "size": 24,
+          "weight": "300",
+          "lineHeight": 1.5,
+          "letterSpacing": "normal",
+          "color": "rgb(207, 207, 207)"
+        },
+        "body": {
+          "font": "Inter-dcbae5534c949be2",
+          "size": 40,
+          "weight": "300",
+          "lineHeight": 1.3,
+          "letterSpacing": "-0.8px",
+          "color": "rgb(255, 255, 255)"
+        }
+      },
+      "colors": {
+        "background": "#111111",
+        "surfaces": [
+          "#000000",
+          "#cfcfcf"
+        ],
+        "text": [
+          "#ffffff",
+          "#cfcfcf",
+          "#616161",
+          "#111111"
+        ]
+      },
+      "buttons": [
+        {
+          "label": "Switch to English",
+          "bg": "#cfcfcf",
+          "color": "#111111",
+          "radius": "4px",
+          "height": 44,
+          "paddingX": 20,
+          "font": "Inter-dcbae5534c949be2",
+          "size": 14,
+          "weight": "400"
+        }
+      ],
+      "contentWidth": 691
+    }
+  },
+  {
     "id": "decagon-landing",
     "site": "Decagon",
     "url": "https://decagon.ai",
@@ -33997,6 +34229,62 @@
     }
   },
   {
+    "id": "essesi-landing",
+    "site": "ESSESI",
+    "url": "https://essesi.com",
+    "type": "landing",
+    "tags": [
+      "object-archive",
+      "tiny-thumbnails",
+      "white-space",
+      "product-design"
+    ],
+    "note": "A product studio's homepage is a wide grid of tiny object photos on white with small names, lots of space between them: a museum drawer of everything it made.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/essesi-landing-desktop.jpg",
+        "width": 1440,
+        "height": 2108
+      },
+      "mobile": {
+        "file": "screens/essesi-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "ALBERTO ESSESI | ESSESI",
+      "fonts": [
+        "Scto Grotesk A"
+      ],
+      "type": {
+        "h1": null,
+        "h2": null,
+        "h3": null,
+        "body": {
+          "font": "Scto Grotesk A",
+          "size": 10,
+          "weight": "400",
+          "lineHeight": 1.5,
+          "letterSpacing": "0.75px",
+          "color": "rgb(33, 30, 30)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#f6f6f6"
+        ],
+        "text": [
+          "#211e1e"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": 1500
+    }
+  },
+  {
     "id": "etched-landing",
     "site": "Etched",
     "url": "https://www.etched.com",
@@ -35779,6 +36067,63 @@
         }
       ],
       "contentWidth": 880
+    }
+  },
+  {
+    "id": "fathom-fathom-landing",
+    "site": "Fathom",
+    "url": "https://www.fathom.company",
+    "type": "landing",
+    "tags": [
+      "typewritten-letter",
+      "rename-announcement",
+      "signatures",
+      "paper"
+    ],
+    "note": "Fathom announces it is now Direct Message with a typewritten letter on paper (date, numbered beliefs, list of disciplines, two signatures): a rename told as a letter, nothing else.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/fathom-fathom-landing-desktop.jpg",
+        "width": 1440,
+        "height": 1633
+      },
+      "mobile": {
+        "file": "screens/fathom-fathom-landing-mobile.jpg",
+        "width": 390,
+        "height": 844
+      }
+    },
+    "tokens": {
+      "title": "Fathom",
+      "fonts": [
+        "monumnent-grotesk-mono"
+      ],
+      "type": {
+        "h1": null,
+        "h2": null,
+        "h3": null,
+        "body": {
+          "font": "monumnent-grotesk-mono",
+          "size": 20,
+          "weight": "400",
+          "lineHeight": 1.3,
+          "letterSpacing": "normal",
+          "color": "rgb(15, 15, 14)"
+        }
+      },
+      "colors": {
+        "background": "#efebe6",
+        "surfaces": [
+          "#0f0f0e",
+          "#efebe6"
+        ],
+        "text": [
+          "#0f0f0e"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": 1280
     }
   },
   {
@@ -56599,6 +56944,62 @@
     }
   },
   {
+    "id": "maria-nualart-landing",
+    "site": "Maria Nualart",
+    "url": "https://marianualart.com",
+    "type": "landing",
+    "tags": [
+      "dark-film-stills",
+      "small-captions",
+      "fashion-photographer",
+      "editorial"
+    ],
+    "note": "A photographer's site is a sequence of dark film stills with small italic captions: the mood of the work sets the page.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/maria-nualart-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/maria-nualart-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Maria Nualart",
+      "fonts": [
+        "DenimINKWD"
+      ],
+      "type": {
+        "h1": null,
+        "h2": null,
+        "h3": null,
+        "body": {
+          "font": "DenimINKWD",
+          "size": 14,
+          "weight": "500",
+          "lineHeight": 1,
+          "letterSpacing": "-0.18px",
+          "color": "rgb(255, 255, 255)"
+        }
+      },
+      "colors": {
+        "background": "#000000",
+        "surfaces": [
+          "#ffffff"
+        ],
+        "text": [
+          "#ffffff"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": null
+    }
+  },
+  {
     "id": "marko-jotic-landing",
     "site": "Marko Jotic",
     "url": "https://markojotic.com",
@@ -58590,6 +58991,74 @@
           "#ffffff",
           "#000000",
           "#f2e429"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": null
+    }
+  },
+  {
+    "id": "mister-landing",
+    "site": "Mister",
+    "url": "https://mister.studio",
+    "type": "landing",
+    "tags": [
+      "text-only-columns",
+      "output-counts",
+      "client-list",
+      "new-site-2027"
+    ],
+    "note": "A strategy and design practice runs the whole homepage as small text columns: bio, client list, capabilities and output counted ('246 websites, 162 logos, 22 names'): numbers as the portfolio.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/mister-landing-desktop.jpg",
+        "width": 1440,
+        "height": 900
+      },
+      "mobile": {
+        "file": "screens/mister-landing-mobile.jpg",
+        "width": 390,
+        "height": 1714
+      }
+    },
+    "tokens": {
+      "title": "Mister – Brand, Digital and Strategy Practice, UK",
+      "fonts": [
+        "KMR Waldenburg",
+        "Arial",
+        "KMR Waldenburg Medium"
+      ],
+      "type": {
+        "h1": {
+          "font": "KMR Waldenburg",
+          "size": 34,
+          "weight": "700",
+          "lineHeight": 1.17,
+          "letterSpacing": "-0.37999px",
+          "color": "rgb(0, 0, 0)"
+        },
+        "h2": null,
+        "h3": null,
+        "body": {
+          "font": "KMR Waldenburg",
+          "size": 50,
+          "weight": "400",
+          "lineHeight": 1.17,
+          "letterSpacing": "-0.37999px",
+          "color": "rgb(255, 255, 255)"
+        }
+      },
+      "colors": {
+        "background": "#efefef",
+        "surfaces": [
+          "#000000",
+          "#efefef",
+          "#111111"
+        ],
+        "text": [
+          "#000000",
+          "#ffffff"
         ]
       },
       "buttons": [],
@@ -61801,6 +62270,92 @@
           "#7f7f7f",
           "#ffffff",
           "#000000"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": null
+    }
+  },
+  {
+    "id": "nicolas-bussi-re-landing",
+    "site": "Nicolas Bussière",
+    "url": "https://www.nicolasbussiere.com",
+    "type": "landing",
+    "tags": [
+      "italic-caps",
+      "photo-hero",
+      "magenta-bar",
+      "product-photos",
+      "ux-designer"
+    ],
+    "note": "A designer's name and 'MULTI-DISCIPLINARY DESIGNER' in italic caps over a black and white photo, with a magenta 'available for new projects' bar, then products on grey.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/nicolas-bussi-re-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/nicolas-bussi-re-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Nicolas Bussière — Multidisciplinary Designer",
+      "fonts": [
+        "Times New Roman",
+        "Favorit",
+        "ArizonaFlare"
+      ],
+      "type": {
+        "h1": {
+          "font": "Times New Roman",
+          "size": 16,
+          "weight": "400",
+          "lineHeight": 1,
+          "letterSpacing": "normal",
+          "color": "rgb(255, 255, 255)"
+        },
+        "h2": {
+          "font": "ArizonaFlare",
+          "size": 48,
+          "weight": "400",
+          "lineHeight": 1.25,
+          "letterSpacing": "normal",
+          "color": "rgb(17, 18, 19)"
+        },
+        "h3": {
+          "font": "ArizonaFlare",
+          "size": 32,
+          "weight": "400",
+          "lineHeight": 1.25,
+          "letterSpacing": "normal",
+          "color": "rgb(17, 18, 19)"
+        },
+        "body": {
+          "font": "Times New Roman",
+          "size": 16,
+          "weight": "400",
+          "lineHeight": 1,
+          "letterSpacing": "normal",
+          "color": "rgb(255, 255, 255)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#111213",
+          "#000000",
+          "#bcbcbc",
+          "#424242",
+          "#ff5aeb"
+        ],
+        "text": [
+          "#111213",
+          "#ffffff",
+          "#888888"
         ]
       },
       "buttons": [],
@@ -66020,6 +66575,63 @@
       },
       "buttons": [],
       "contentWidth": null
+    }
+  },
+  {
+    "id": "p22-a-landing",
+    "site": "P22\n\na",
+    "url": "http://p22.studio",
+    "type": "landing",
+    "tags": [
+      "sky-photo",
+      "serif-question",
+      "product-studio",
+      "rounded-cards"
+    ],
+    "note": "A digital design and engineering studio opens on a photo of clouds with one question ('What does it mean to build the kind of future we'd like to inhabit?'): a question instead of a claim.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/p22-a-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/p22-a-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "P22 Studio: Digital Design and Engineering",
+      "fonts": [
+        "Octave"
+      ],
+      "type": {
+        "h1": null,
+        "h2": null,
+        "h3": null,
+        "body": {
+          "font": "Octave",
+          "size": 52,
+          "weight": "400",
+          "lineHeight": 1.05,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        }
+      },
+      "colors": {
+        "background": "#ededed",
+        "surfaces": [
+          "#ededed",
+          "#f9f9f9"
+        ],
+        "text": [
+          "#000000"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": 656
     }
   },
   {
@@ -72671,6 +73283,68 @@
       },
       "buttons": [],
       "contentWidth": 800
+    }
+  },
+  {
+    "id": "punkt-landing",
+    "site": "punkt",
+    "url": "http://punkt.com",
+    "type": "landing",
+    "tags": [
+      "dense-grid",
+      "colourful-thumbnails",
+      "graphic-design",
+      "full-bleed-hero"
+    ],
+    "note": "A graphic design studio puts one blue object photo on top and then a dense grid of colourful posters, books and identities: volume and colour carry it.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/punkt-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/punkt-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "",
+      "fonts": [
+        "Helvetica Neue LT W05 55 Roman",
+        "Helvetica Neue LT W05 66 Md It",
+        "Arial"
+      ],
+      "type": {
+        "h1": null,
+        "h2": null,
+        "h3": null,
+        "body": {
+          "font": "Helvetica Neue LT W05 55 Roman",
+          "size": 16,
+          "weight": "400",
+          "lineHeight": 1.2,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        }
+      },
+      "colors": {
+        "background": "#fefefe",
+        "surfaces": [
+          "#ffe500",
+          "#2147e6",
+          "#f5d309",
+          "#73202b",
+          "#c5ccce"
+        ],
+        "text": [
+          "#101010"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": 1440
     }
   },
   {
@@ -79441,6 +80115,78 @@
     }
   },
   {
+    "id": "shuka-landing",
+    "site": "Shuka",
+    "url": "https://shuka.design",
+    "type": "landing",
+    "tags": [
+      "brand-collage",
+      "big-paragraph",
+      "illustration",
+      "ai-personas"
+    ],
+    "note": "A brand studio shows one client (Freenow) as a collage of red applications and then a long plain paragraph about testing brands with AI personas: work and method, no hero claim.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/shuka-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/shuka-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Shuka ★ Brand Bureau",
+      "fonts": [
+        "Gertrude Feb Regular",
+        "sans-serif",
+        "Gertrude Feb Bold"
+      ],
+      "type": {
+        "h1": {
+          "font": "Gertrude Feb Regular",
+          "size": 52,
+          "weight": "400",
+          "lineHeight": 1.08,
+          "letterSpacing": "-1.04px",
+          "color": "rgb(42, 42, 42)"
+        },
+        "h2": null,
+        "h3": {
+          "font": "Gertrude Feb Regular",
+          "size": 52,
+          "weight": "400",
+          "lineHeight": 1.08,
+          "letterSpacing": "-1.04px",
+          "color": "rgb(42, 42, 42)"
+        },
+        "body": {
+          "font": "Gertrude Feb Bold",
+          "size": 52,
+          "weight": "400",
+          "lineHeight": 0.96,
+          "letterSpacing": "-1.04px",
+          "color": "rgb(42, 42, 42)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#ffffff"
+        ],
+        "text": [
+          "#2a2a2a"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": null
+    }
+  },
+  {
     "id": "side-stage-ventures-landing",
     "site": "Side Stage Ventures",
     "url": "https://www.sidestage.vc",
@@ -80017,6 +80763,106 @@
         ]
       },
       "buttons": [],
+      "contentWidth": null
+    }
+  },
+  {
+    "id": "singular-forms-landing",
+    "site": "Singular Forms",
+    "url": "https://www.singularforms.com",
+    "type": "landing",
+    "tags": [
+      "quiet-text",
+      "phone-mockup",
+      "black-and-white-photos",
+      "independent-practice"
+    ],
+    "note": "An independent practice writes one quiet paragraph, then one phone mockup on grey and black and white texture photos: calm in every element.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/singular-forms-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/singular-forms-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Singular Forms",
+      "fonts": [
+        "Neue Montreal Regular",
+        "sans-serif",
+        "Metro Sans Regular"
+      ],
+      "type": {
+        "h1": null,
+        "h2": null,
+        "h3": {
+          "font": "Neue Montreal Regular",
+          "size": 18,
+          "weight": "400",
+          "lineHeight": 1.2,
+          "letterSpacing": "normal",
+          "color": "rgb(43, 43, 43)"
+        },
+        "body": {
+          "font": "Neue Montreal Regular",
+          "size": 18,
+          "weight": "400",
+          "lineHeight": 1.2,
+          "letterSpacing": "normal",
+          "color": "rgb(43, 43, 43)"
+        }
+      },
+      "colors": {
+        "background": "#f9f9f8",
+        "surfaces": [
+          "#f9f9f8"
+        ],
+        "text": [
+          "#2b2b2b",
+          "#9c9c9c"
+        ]
+      },
+      "buttons": [
+        {
+          "label": "Visual Studies",
+          "bg": "#f9f9f8",
+          "color": "#0000ee",
+          "radius": "30px",
+          "height": 38,
+          "paddingX": 16,
+          "font": "sans-serif",
+          "size": 12,
+          "weight": "400"
+        },
+        {
+          "label": "Design & Strategy",
+          "bg": "#f9f9f8",
+          "color": "#0000ee",
+          "radius": "30px",
+          "height": 38,
+          "paddingX": 16,
+          "font": "sans-serif",
+          "size": 12,
+          "weight": "400"
+        },
+        {
+          "label": "Editorial Writing",
+          "bg": "#f9f9f8",
+          "color": "#0000ee",
+          "radius": "30px",
+          "height": 38,
+          "paddingX": 16,
+          "font": "sans-serif",
+          "size": 12,
+          "weight": "400"
+        }
+      ],
       "contentWidth": null
     }
   },
@@ -83443,6 +84289,64 @@
         }
       ],
       "contentWidth": null
+    }
+  },
+  {
+    "id": "strictua-landing",
+    "site": "Strictua",
+    "url": "http://www.strictua.com",
+    "type": "landing",
+    "tags": [
+      "photo-hero",
+      "serif-light",
+      "films-and-campaigns",
+      "category-filters"
+    ],
+    "note": "A film studio for brands sets 'film for adventurous brands' in light letters over a desk photo, then a pale statement and filters by sector: a light voice over strong imagery.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/strictua-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/strictua-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Strictua | Brand Films and Campaigns, Heerlen",
+      "fonts": [
+        "Campton-Book",
+        "Open Sans",
+        "Campton-Bold"
+      ],
+      "type": {
+        "h1": null,
+        "h2": null,
+        "h3": null,
+        "body": {
+          "font": "Campton-Book",
+          "size": 65,
+          "weight": "400",
+          "lineHeight": 1.08,
+          "letterSpacing": "normal",
+          "color": "rgb(41, 42, 44)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#eae6e4"
+        ],
+        "text": [
+          "#ffffff"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": 1230
     }
   },
   {
@@ -97502,6 +98406,63 @@
       }
     },
     "tokens": null
+  },
+  {
+    "id": "xicons-studio-landing",
+    "site": "Xicons Studio",
+    "url": "https://www.xicons.studio",
+    "type": "landing",
+    "tags": [
+      "icon-construction-grid",
+      "large-sans",
+      "testimonial-quote",
+      "icon-design"
+    ],
+    "note": "An icon studio shows the construction grid next to the finished icon (Firefox, adidas) and quotes the client in large type: the craft shown at the level of the pixel.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/xicons-studio-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/xicons-studio-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Xicons® – Icon Design Services",
+      "fonts": [
+        "IBM Plex Sans"
+      ],
+      "type": {
+        "h1": {
+          "font": "IBM Plex Sans",
+          "size": 88,
+          "weight": "400",
+          "lineHeight": 1,
+          "letterSpacing": "normal",
+          "color": "rgb(18, 18, 18)"
+        },
+        "h2": null,
+        "h3": null,
+        "body": null
+      },
+      "colors": {
+        "background": "#262626",
+        "surfaces": [
+          "#ffffff"
+        ],
+        "text": [
+          "#121212",
+          "#161616"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": 1440
+    }
   },
   {
     "id": "xmcp-landing",
