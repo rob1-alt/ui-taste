@@ -15125,5 +15125,125 @@
    "known-for-list"
   ],
   "note": "An engineer-DJ sets her name in warped display type with 'ENGINEER BY DAY / DJ BY NIGHT' at the corners of a portrait, and lists clubs and radios as an underlined 'known for' list."
+ },
+ {
+  "site": "Dima Hamayunau",
+  "type": "landing",
+  "url": "https://hamayunau.com",
+  "tags": [
+   "year-index",
+   "serif-intro",
+   "product-list",
+   "quiet-text"
+  ],
+  "note": "A product designer writes two serif lines, then lists every product he shipped under its year in a thin column with a Work / Products filter: a decade readable at a glance, nothing else."
+ },
+ {
+  "site": "Filippos Fragkogiannis",
+  "type": "landing",
+  "url": "https://filipposfragkogiannis.com",
+  "tags": [
+   "big-title",
+   "monogram-block",
+   "dark-bio",
+   "freelance"
+  ],
+  "note": "A graphic designer centres 'Graphic Designer & Art Director' huge on black, then a boxed ATH monogram for Athens and a long bio with coloured links: the city as the mark."
+ },
+ {
+  "site": "Igor Mahr",
+  "type": "landing",
+  "url": "https://igma.im",
+  "tags": [
+   "outline-wordmark",
+   "pill-tags",
+   "project-list",
+   "availability-chip"
+  ],
+  "note": "A designer stretches an outlined wordmark across the top, puts 'Currently booked for Sep 2026' in a chip, and lists projects as rows with year and pill tags: availability as status, work as a list."
+ },
+ {
+  "site": "Joshua Kaplan",
+  "type": "landing",
+  "url": "https://www.joshuakaplan.com",
+  "tags": [
+   "data-table",
+   "status-pills",
+   "patents",
+   "numbered-codes"
+  ],
+  "note": "A designer and advisor turns his career into one dense table: codes (C-04, P-11, S-37), roles, years and green 'Acquired' / 'Now' pills, patents included: the homepage as a ledger of outcomes."
+ },
+ {
+  "site": "Luke Mitchell",
+  "type": "landing",
+  "url": "https://www.interroban.gg",
+  "tags": [
+   "pink-duotone",
+   "cv-columns",
+   "handwritten-name",
+   "product-lead"
+  ],
+  "note": "A product design lead tints one workshop photo pink under a hand-lettered name, then lays out roles, clients, skills and recognition as four columns: the CV is the homepage, set calmly."
+ },
+ {
+  "site": "Marina Suvorova",
+  "type": "landing",
+  "url": "https://marinasuvorova.com",
+  "tags": [
+   "two-doors",
+   "mono-type",
+   "art-sales",
+   "sparse"
+  ],
+  "note": "An artist's homepage is two doors side by side, AVAILABLE ART and CUSTOM ART, each with one line and a link: the two ways to buy are the whole navigation."
+ },
+ {
+  "site": "Michael Wandelmaier",
+  "type": "landing",
+  "url": "http://wandelmaier.com",
+  "tags": [
+   "pill-headline",
+   "flow-diagram",
+   "serif-bio",
+   "photo-strip"
+  ],
+  "note": "A design leader mixes words and coloured pills into one headline ('everyday ideas', 'work – 2025'), and draws his approach as a small flow from People & Purpose to Product."
+ },
+ {
+  "site": "Moritz Ebeling",
+  "type": "landing",
+  "url": "https://moritzebeling.com",
+  "tags": [
+   "pixel-wordmark",
+   "black-hero",
+   "project-captions",
+   "digital-systems"
+  ],
+  "note": "A designer sets his name in a blocky pixel face filling a black screen, then shows each project as photos with a one-line caption and URL: one typographic identity, plain work below."
+ },
+ {
+  "site": "Ryan Miyoshi",
+  "type": "landing",
+  "url": "https://ryry.io",
+  "tags": [
+   "big-name",
+   "tiny-archive-lists",
+   "case-viewer",
+   "lavender"
+  ],
+  "note": "A design leader sets his name large, then an archive of tiny text columns, then a lavender case viewer with the screens in a side rail: scale contrast between the name and the record."
+ },
+ {
+  "site": "Ryan Stephen",
+  "type": "landing",
+  "url": "https://www.ryanstephen.co",
+  "tags": [
+   "prototype-photos",
+   "hand-held",
+   "image-wall",
+   "product-designer"
+  ],
+  "note": "A prototyper shows his work as a wall of phones held in hands outdoors, interfaces caught in use: the photos prove the prototypes run."
  }
 ]

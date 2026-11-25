@@ -31686,6 +31686,102 @@
     }
   },
   {
+    "id": "dima-hamayunau-landing",
+    "site": "Dima Hamayunau",
+    "url": "https://hamayunau.com",
+    "type": "landing",
+    "tags": [
+      "year-index",
+      "serif-intro",
+      "product-list",
+      "quiet-text"
+    ],
+    "note": "A product designer writes two serif lines, then lists every product he shipped under its year in a thin column with a Work / Products filter: a decade readable at a glance, nothing else.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/dima-hamayunau-landing-desktop.jpg",
+        "width": 1440,
+        "height": 1929
+      },
+      "mobile": {
+        "file": "screens/dima-hamayunau-landing-mobile.jpg",
+        "width": 390,
+        "height": 1969
+      }
+    },
+    "tokens": {
+      "title": "Dima Hamayunau ⋅ Product Designer",
+      "fonts": [
+        "System Sans-Serif",
+        "Wremena"
+      ],
+      "type": {
+        "h1": {
+          "font": "System Sans-Serif",
+          "size": 16,
+          "weight": "400",
+          "lineHeight": 1.5,
+          "letterSpacing": "normal",
+          "color": "rgb(26, 26, 24)"
+        },
+        "h2": {
+          "font": "System Sans-Serif",
+          "size": 16,
+          "weight": "400",
+          "lineHeight": 1.5,
+          "letterSpacing": "normal",
+          "color": "rgb(140, 140, 140)"
+        },
+        "h3": null,
+        "body": {
+          "font": "Wremena",
+          "size": 36,
+          "weight": "400",
+          "lineHeight": 1.11,
+          "letterSpacing": "-1.44px",
+          "color": "rgb(26, 26, 24)"
+        }
+      },
+      "colors": {
+        "background": "#fafafa",
+        "surfaces": [
+          "#fafafa",
+          "#e6e6e6"
+        ],
+        "text": [
+          "#1a1a18",
+          "#8c8c8c"
+        ]
+      },
+      "buttons": [
+        {
+          "label": "About",
+          "bg": "#e6e6e6",
+          "color": "#1a1a18",
+          "radius": "9999px",
+          "height": 40,
+          "paddingX": 12,
+          "font": "System Sans-Serif",
+          "size": 16,
+          "weight": "400"
+        },
+        {
+          "label": "Book a call",
+          "bg": "#e6e6e6",
+          "color": "#1a1a18",
+          "radius": "9999px",
+          "height": 40,
+          "paddingX": 12,
+          "font": "System Sans-Serif",
+          "size": 16,
+          "weight": "400"
+        }
+      ],
+      "contentWidth": 640
+    }
+  },
+  {
     "id": "dinamo-landing",
     "site": "Dinamo",
     "url": "https://abcdinamo.com",
@@ -38609,6 +38705,98 @@
       },
       "buttons": [],
       "contentWidth": null
+    }
+  },
+  {
+    "id": "filippos-fragkogiannis-landing",
+    "site": "Filippos Fragkogiannis",
+    "url": "https://filipposfragkogiannis.com",
+    "type": "landing",
+    "tags": [
+      "big-title",
+      "monogram-block",
+      "dark-bio",
+      "freelance"
+    ],
+    "note": "A graphic designer centres 'Graphic Designer & Art Director' huge on black, then a boxed ATH monogram for Athens and a long bio with coloured links: the city as the mark.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/filippos-fragkogiannis-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/filippos-fragkogiannis-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Filippos Fragkogiannis – Freelance Graphic Designer in Athens",
+      "fonts": [
+        "KarlsbaderGrotesk-400",
+        "KarlsbaderGrotesk-500",
+        "Times New Roman"
+      ],
+      "type": {
+        "h1": {
+          "font": "AutreDisplay-Regular",
+          "size": 200,
+          "weight": "400",
+          "lineHeight": 0.7,
+          "letterSpacing": "-6px",
+          "color": "rgb(255, 255, 255)"
+        },
+        "h2": {
+          "font": "KarlsbaderGrotesk-400",
+          "size": 20,
+          "weight": "400",
+          "lineHeight": 1.2,
+          "letterSpacing": "-0.6px",
+          "color": "rgb(255, 255, 255)"
+        },
+        "h3": {
+          "font": "KarlsbaderGrotesk-400",
+          "size": 20,
+          "weight": "400",
+          "lineHeight": 1.1,
+          "letterSpacing": "-0.6px",
+          "color": "rgb(255, 255, 255)"
+        },
+        "body": {
+          "font": "KarlsbaderGrotesk-400",
+          "size": 20,
+          "weight": "400",
+          "lineHeight": 1.2,
+          "letterSpacing": "-0.6px",
+          "color": "rgb(255, 255, 255)"
+        }
+      },
+      "colors": {
+        "background": "#000000",
+        "surfaces": [
+          "#000000"
+        ],
+        "text": [
+          "#ffffff",
+          "#ccffcc"
+        ]
+      },
+      "buttons": [
+        {
+          "label": "Submit a Project Request",
+          "bg": "#000000",
+          "color": "#ffffff",
+          "radius": "100px",
+          "height": 36,
+          "paddingX": 10,
+          "font": "KarlsbaderGrotesk-400",
+          "size": 20,
+          "weight": "400"
+        }
+      ],
+      "contentWidth": 1440
     }
   },
   {
@@ -49411,6 +49599,118 @@
     }
   },
   {
+    "id": "igor-mahr-landing",
+    "site": "Igor Mahr",
+    "url": "https://igma.im",
+    "type": "landing",
+    "tags": [
+      "outline-wordmark",
+      "pill-tags",
+      "project-list",
+      "availability-chip"
+    ],
+    "note": "A designer stretches an outlined wordmark across the top, puts 'Currently booked for Sep 2026' in a chip, and lists projects as rows with year and pill tags: availability as status, work as a list.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/igor-mahr-landing-desktop.jpg",
+        "width": 1440,
+        "height": 1747
+      },
+      "mobile": {
+        "file": "screens/igor-mahr-landing-mobile.jpg",
+        "width": 390,
+        "height": 1332
+      }
+    },
+    "tokens": {
+      "title": "Igor Mahr :: Design and Development",
+      "fonts": [
+        "Magnat Head",
+        "gokil",
+        "SegoeUIEmoji"
+      ],
+      "type": {
+        "h1": {
+          "font": "gokil",
+          "size": 176,
+          "weight": "300",
+          "lineHeight": 1.35,
+          "letterSpacing": "normal",
+          "color": "rgba(255, 0, 0, 0)"
+        },
+        "h2": {
+          "font": "Magnat Head",
+          "size": 48,
+          "weight": "300",
+          "lineHeight": "normal",
+          "letterSpacing": "normal",
+          "color": "rgb(43, 12, 125)"
+        },
+        "h3": null,
+        "body": {
+          "font": "Magnat Head",
+          "size": 15,
+          "weight": "300",
+          "lineHeight": 1.5,
+          "letterSpacing": "normal",
+          "color": "rgb(43, 12, 125)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#f8eaff",
+          "#f0faff",
+          "#fff4f0",
+          "#fcfbe4",
+          "#fff1f1"
+        ],
+        "text": [
+          "#2b0c7d",
+          "#270e78",
+          "#2d147c"
+        ]
+      },
+      "buttons": [
+        {
+          "label": "Works",
+          "bg": "#f1edff",
+          "color": "#2b0c7d",
+          "radius": "100px",
+          "height": 43,
+          "paddingX": 14,
+          "font": "Magnat Head",
+          "size": 18,
+          "weight": "400"
+        },
+        {
+          "label": "About",
+          "bg": "#ffffff",
+          "color": "#2b0c7d",
+          "radius": "100px",
+          "height": 43,
+          "paddingX": 14,
+          "font": "Magnat Head",
+          "size": 18,
+          "weight": "400"
+        },
+        {
+          "label": "Feed",
+          "bg": "#ffffff",
+          "color": "#2b0c7d",
+          "radius": "100px",
+          "height": 43,
+          "paddingX": 14,
+          "font": "Magnat Head",
+          "size": 18,
+          "weight": "400"
+        }
+      ],
+      "contentWidth": null
+    }
+  },
+  {
     "id": "ilovecreatives-landing",
     "site": "ilovecreatives",
     "url": "http://www.ilovecreatives.com",
@@ -52506,6 +52806,75 @@
       },
       "buttons": [],
       "contentWidth": 800
+    }
+  },
+  {
+    "id": "joshua-kaplan-landing",
+    "site": "Joshua Kaplan",
+    "url": "https://www.joshuakaplan.com",
+    "type": "landing",
+    "tags": [
+      "data-table",
+      "status-pills",
+      "patents",
+      "numbered-codes"
+    ],
+    "note": "A designer and advisor turns his career into one dense table: codes (C-04, P-11, S-37), roles, years and green 'Acquired' / 'Now' pills, patents included: the homepage as a ledger of outcomes.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/joshua-kaplan-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/joshua-kaplan-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Joshua Kaplan © 2026",
+      "fonts": [
+        "Helvetica Now Text",
+        "Arial"
+      ],
+      "type": {
+        "h1": null,
+        "h2": {
+          "font": "Helvetica Now Text",
+          "size": 13,
+          "weight": "700",
+          "lineHeight": 1.23,
+          "letterSpacing": "normal",
+          "color": "rgba(0, 0, 0, 0.8)"
+        },
+        "h3": null,
+        "body": {
+          "font": "Helvetica Now Text",
+          "size": 13,
+          "weight": "700",
+          "lineHeight": 1.23,
+          "letterSpacing": "normal",
+          "color": "rgba(0, 0, 0, 0.8)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#4af2ac",
+          "#dca7ff",
+          "#cdff8c",
+          "#f3ff79",
+          "#c0edfe"
+        ],
+        "text": [
+          "#000000",
+          "#999999"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": null
     }
   },
   {
@@ -58178,6 +58547,86 @@
     }
   },
   {
+    "id": "luke-mitchell-landing",
+    "site": "Luke Mitchell",
+    "url": "https://www.interroban.gg",
+    "type": "landing",
+    "tags": [
+      "pink-duotone",
+      "cv-columns",
+      "handwritten-name",
+      "product-lead"
+    ],
+    "note": "A product design lead tints one workshop photo pink under a hand-lettered name, then lays out roles, clients, skills and recognition as four columns: the CV is the homepage, set calmly.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/luke-mitchell-landing-desktop.jpg",
+        "width": 1440,
+        "height": 2073
+      },
+      "mobile": {
+        "file": "screens/luke-mitchell-landing-mobile.jpg",
+        "width": 390,
+        "height": 2277
+      }
+    },
+    "tokens": {
+      "title": "Luke Mitchell",
+      "fonts": [
+        "Taurus Grotesk",
+        "Pitch",
+        "PicNic"
+      ],
+      "type": {
+        "h1": {
+          "font": "PicNic",
+          "size": 35,
+          "weight": "400",
+          "lineHeight": 1.3,
+          "letterSpacing": "normal",
+          "color": "rgb(74, 67, 86)"
+        },
+        "h2": {
+          "font": "Taurus Grotesk",
+          "size": 18,
+          "weight": "600",
+          "lineHeight": 1.3,
+          "letterSpacing": "normal",
+          "color": "rgb(74, 67, 86)"
+        },
+        "h3": {
+          "font": "Taurus Grotesk",
+          "size": 18,
+          "weight": "600",
+          "lineHeight": 1.3,
+          "letterSpacing": "normal",
+          "color": "rgb(74, 67, 86)"
+        },
+        "body": {
+          "font": "Taurus Grotesk",
+          "size": 18,
+          "weight": "400",
+          "lineHeight": 1.5,
+          "letterSpacing": "normal",
+          "color": "rgb(74, 67, 86)"
+        }
+      },
+      "colors": {
+        "background": "#ffc8d5",
+        "surfaces": [
+          "#ffc8d5",
+          "#4a4356"
+        ],
+        "text": [
+          "#4a4356"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": null
+    }
+  },
+  {
     "id": "luma-landing",
     "site": "Luma",
     "url": "https://lu.ma",
@@ -59469,6 +59918,58 @@
     }
   },
   {
+    "id": "marina-suvorova-landing",
+    "site": "Marina Suvorova",
+    "url": "https://marinasuvorova.com",
+    "type": "landing",
+    "tags": [
+      "two-doors",
+      "mono-type",
+      "art-sales",
+      "sparse"
+    ],
+    "note": "An artist's homepage is two doors side by side, AVAILABLE ART and CUSTOM ART, each with one line and a link: the two ways to buy are the whole navigation.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/marina-suvorova-landing-desktop.jpg",
+        "width": 1440,
+        "height": 900
+      },
+      "mobile": {
+        "file": "screens/marina-suvorova-landing-mobile.jpg",
+        "width": 390,
+        "height": 844
+      }
+    },
+    "tokens": {
+      "title": "Marina Suvorova — Interior Art, Custom Artwork",
+      "fonts": [
+        "MS",
+        "Times New Roman",
+        "Roboto"
+      ],
+      "type": {
+        "h1": null,
+        "h2": null,
+        "h3": null,
+        "body": null
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#ffffff"
+        ],
+        "text": [
+          "#111111",
+          "#030303"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": null
+    }
+  },
+  {
     "id": "marko-jotic-landing",
     "site": "Marko Jotic",
     "url": "https://markojotic.com",
@@ -60685,6 +61186,80 @@
       },
       "buttons": [],
       "contentWidth": 1536
+    }
+  },
+  {
+    "id": "michael-wandelmaier-landing",
+    "site": "Michael Wandelmaier",
+    "url": "http://wandelmaier.com",
+    "type": "landing",
+    "tags": [
+      "pill-headline",
+      "flow-diagram",
+      "serif-bio",
+      "photo-strip"
+    ],
+    "note": "A design leader mixes words and coloured pills into one headline ('everyday ideas', 'work – 2025'), and draws his approach as a small flow from People & Purpose to Product.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/michael-wandelmaier-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/michael-wandelmaier-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Michael Wandelmaier - Product Design & Strategy",
+      "fonts": [
+        "PolySans",
+        "Canela Web"
+      ],
+      "type": {
+        "h1": {
+          "font": "PolySans",
+          "size": 24,
+          "weight": "100",
+          "lineHeight": 1.33,
+          "letterSpacing": "normal",
+          "color": "rgb(255, 255, 255)"
+        },
+        "h2": {
+          "font": "PolySans",
+          "size": 24,
+          "weight": "100",
+          "lineHeight": 1.33,
+          "letterSpacing": "normal",
+          "color": "rgb(255, 255, 255)"
+        },
+        "h3": null,
+        "body": {
+          "font": "PolySans",
+          "size": 24,
+          "weight": "100",
+          "lineHeight": 1.33,
+          "letterSpacing": "normal",
+          "color": "rgb(255, 255, 255)"
+        }
+      },
+      "colors": {
+        "background": "#191816",
+        "surfaces": [
+          "#fbcbcb",
+          "#f27851",
+          "#34a847"
+        ],
+        "text": [
+          "#ffffff",
+          "#000000"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": null
     }
   },
   {
@@ -62636,6 +63211,73 @@
       },
       "buttons": [],
       "contentWidth": 1440
+    }
+  },
+  {
+    "id": "moritz-ebeling-landing",
+    "site": "Moritz Ebeling",
+    "url": "https://moritzebeling.com",
+    "type": "landing",
+    "tags": [
+      "pixel-wordmark",
+      "black-hero",
+      "project-captions",
+      "digital-systems"
+    ],
+    "note": "A designer sets his name in a blocky pixel face filling a black screen, then shows each project as photos with a one-line caption and URL: one typographic identity, plain work below.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/moritz-ebeling-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/moritz-ebeling-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Moritz Ebeling",
+      "fonts": [
+        "Arial"
+      ],
+      "type": {
+        "h1": {
+          "font": "Arial",
+          "size": 12,
+          "weight": "400",
+          "lineHeight": 1.3,
+          "letterSpacing": "normal",
+          "color": "rgb(255, 255, 255)"
+        },
+        "h2": null,
+        "h3": null,
+        "body": {
+          "font": "Arial",
+          "size": 12,
+          "weight": "400",
+          "lineHeight": 1.3,
+          "letterSpacing": "normal",
+          "color": "rgb(255, 255, 255)"
+        }
+      },
+      "colors": {
+        "background": "#000000",
+        "surfaces": [
+          "#f5f5f5",
+          "#ffffff",
+          "#000000",
+          "#333333"
+        ],
+        "text": [
+          "#000000",
+          "#ffffff"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": null
     }
   },
   {
@@ -80951,6 +81593,137 @@
       },
       "buttons": [],
       "contentWidth": 1440
+    }
+  },
+  {
+    "id": "ryan-miyoshi-landing",
+    "site": "Ryan Miyoshi",
+    "url": "https://ryry.io",
+    "type": "landing",
+    "tags": [
+      "big-name",
+      "tiny-archive-lists",
+      "case-viewer",
+      "lavender"
+    ],
+    "note": "A design leader sets his name large, then an archive of tiny text columns, then a lavender case viewer with the screens in a side rail: scale contrast between the name and the record.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/ryan-miyoshi-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/ryan-miyoshi-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Ryan Miyoshi",
+      "fonts": [
+        "interyry"
+      ],
+      "type": {
+        "h1": {
+          "font": "interyry",
+          "size": 101,
+          "weight": "700",
+          "lineHeight": 0.9,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        },
+        "h2": {
+          "font": "interyry",
+          "size": 11,
+          "weight": "700",
+          "lineHeight": 1.1,
+          "letterSpacing": "0.22px",
+          "color": "rgb(0, 0, 0)"
+        },
+        "h3": null,
+        "body": {
+          "font": "interyry",
+          "size": 21,
+          "weight": "700",
+          "lineHeight": 1.1,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#cccfdd",
+          "#ffffff",
+          "#c5c5c5",
+          "#000000"
+        ],
+        "text": [
+          "#000000"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": null
+    }
+  },
+  {
+    "id": "ryan-stephen-landing",
+    "site": "Ryan Stephen",
+    "url": "https://www.ryanstephen.co",
+    "type": "landing",
+    "tags": [
+      "prototype-photos",
+      "hand-held",
+      "image-wall",
+      "product-designer"
+    ],
+    "note": "A prototyper shows his work as a wall of phones held in hands outdoors, interfaces caught in use: the photos prove the prototypes run.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/ryan-stephen-landing-desktop.jpg",
+        "width": 1440,
+        "height": 1680
+      },
+      "mobile": {
+        "file": "screens/ryan-stephen-landing-mobile.jpg",
+        "width": 390,
+        "height": 1798
+      }
+    },
+    "tokens": {
+      "title": "Ryan Stephen",
+      "fonts": [
+        "sans-serif",
+        "system-ui"
+      ],
+      "type": {
+        "h1": null,
+        "h2": null,
+        "h3": null,
+        "body": {
+          "font": "system-ui",
+          "size": 16,
+          "weight": "500",
+          "lineHeight": 1.2,
+          "letterSpacing": "normal",
+          "color": "rgb(64, 64, 64)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#ffffff"
+        ],
+        "text": [
+          "#404040",
+          "#8b8b94"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": 900
     }
   },
   {
