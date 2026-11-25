@@ -12555,6 +12555,143 @@
     }
   },
   {
+    "id": "ahmed-yasser-landing",
+    "site": "Ahmed Yasser",
+    "url": "https://ahmdyassr.com",
+    "type": "landing",
+    "tags": [
+      "dark-grid",
+      "labelled-tiles",
+      "follow-buttons",
+      "mixed-media"
+    ],
+    "note": "A designer's homepage is a dark grid of project tiles, each with a small label bar and year like a file browser: every kind of work (music, apps, film) in one consistent frame.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/ahmed-yasser-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/ahmed-yasser-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Ahmed Yasser — Designer & Developer",
+      "fonts": [
+        "TronicaMono"
+      ],
+      "type": {
+        "h1": null,
+        "h2": {
+          "font": "TronicaMono",
+          "size": 13,
+          "weight": "400",
+          "lineHeight": 1.2,
+          "letterSpacing": "normal",
+          "color": "rgb(250, 250, 250)"
+        },
+        "h3": null,
+        "body": {
+          "font": "TronicaMono",
+          "size": 13,
+          "weight": "400",
+          "lineHeight": 1,
+          "letterSpacing": "0.26px",
+          "color": "rgb(255, 255, 255)"
+        }
+      },
+      "colors": {
+        "background": "#141414",
+        "surfaces": [
+          "#141414",
+          "#2b2b2b",
+          "#3d3d3d",
+          "#242424",
+          "#858585"
+        ],
+        "text": [
+          "#b0b0b0",
+          "#575757",
+          "#fafafa",
+          "#7a7a7a"
+        ]
+      },
+      "buttons": [
+        {
+          "label": "INFO",
+          "bg": "#3d3d3d",
+          "color": "#b0b0b0",
+          "radius": "6px",
+          "height": 32,
+          "paddingX": 8,
+          "font": "TronicaMono",
+          "size": 13,
+          "weight": "400"
+        },
+        {
+          "label": "INFO",
+          "bg": "#3d3d3d",
+          "color": "#b0b0b0",
+          "radius": "6px",
+          "height": 32,
+          "paddingX": 8,
+          "font": "TronicaMono",
+          "size": 13,
+          "weight": "400"
+        },
+        {
+          "label": "FOLLOW",
+          "bg": "#3d3d3d",
+          "color": "#b0b0b0",
+          "radius": "6px",
+          "height": 32,
+          "paddingX": 8,
+          "font": "TronicaMono",
+          "size": 13,
+          "weight": "400"
+        },
+        {
+          "label": "FOLLOW",
+          "bg": "#3d3d3d",
+          "color": "#b0b0b0",
+          "radius": "6px",
+          "height": 32,
+          "paddingX": 8,
+          "font": "TronicaMono",
+          "size": 13,
+          "weight": "400"
+        },
+        {
+          "label": "INFO",
+          "bg": "#3d3d3d",
+          "color": "#b0b0b0",
+          "radius": "6px",
+          "height": 32,
+          "paddingX": 8,
+          "font": "TronicaMono",
+          "size": 13,
+          "weight": "400"
+        },
+        {
+          "label": "INFO",
+          "bg": "#3d3d3d",
+          "color": "#b0b0b0",
+          "radius": "6px",
+          "height": 32,
+          "paddingX": 8,
+          "font": "TronicaMono",
+          "size": 13,
+          "weight": "400"
+        }
+      ],
+      "contentWidth": 1600
+    }
+  },
+  {
     "id": "aino-landing",
     "site": "Aino",
     "url": "https://aino.agency",
@@ -13125,6 +13262,69 @@
         }
       ],
       "contentWidth": 1280
+    }
+  },
+  {
+    "id": "alex-naghavi-landing",
+    "site": "Alex Naghavi",
+    "url": "https://www.alexnaghavi.com",
+    "type": "landing",
+    "tags": [
+      "centred-bio",
+      "dark-editorial",
+      "phone-and-print",
+      "creative-director"
+    ],
+    "note": "A creative director centres a short bio on near-black, then pairs a phone screen with a printed index book in a dark grid: product and print shown with the same weight.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/alex-naghavi-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/alex-naghavi-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Alex Naghavi — Award-Winning Creative Director",
+      "fonts": [
+        "ABC Diatype Bold",
+        "ABC Diatype Regular",
+        "sans-serif"
+      ],
+      "type": {
+        "h1": null,
+        "h2": null,
+        "h3": null,
+        "body": {
+          "font": "ABC Diatype Bold",
+          "size": 14,
+          "weight": "400",
+          "lineHeight": 1.2,
+          "letterSpacing": "-0.42px",
+          "color": "rgb(242, 242, 242)"
+        }
+      },
+      "colors": {
+        "background": "#191616",
+        "surfaces": [
+          "#191616",
+          "#f2f2f2",
+          "#ffffff"
+        ],
+        "text": [
+          "#191616",
+          "#f2f2f2",
+          "#acacac",
+          "#ffffff"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": null
     }
   },
   {
@@ -17175,6 +17375,105 @@
     }
   },
   {
+    "id": "atilla-ta-k-ran-landing",
+    "site": "Atilla Taşkıran",
+    "url": "https://atillataskiran.com",
+    "type": "landing",
+    "tags": [
+      "monospace-text",
+      "availability-note",
+      "work-play-video",
+      "testimonials"
+    ],
+    "note": "A software designer writes a short mono intro with 'availability is very limited', a cyan 'Work / Play' video block and a column of client quotes: few elements, all specific.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/atilla-ta-k-ran-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/atilla-ta-k-ran-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Atilla Taşkıran – Software Designer Shaping Apps for Simplicity, Purpose & Beauty",
+      "fonts": [
+        "JetBrains Mono Regular",
+        "JetBrains Mono SemiBold",
+        "sans-serif"
+      ],
+      "type": {
+        "h1": {
+          "font": "JetBrains Mono SemiBold",
+          "size": 15,
+          "weight": "600",
+          "lineHeight": 1.3,
+          "letterSpacing": "normal",
+          "color": "rgb(18, 20, 31)"
+        },
+        "h2": null,
+        "h3": {
+          "font": "JetBrains Mono SemiBold",
+          "size": 15,
+          "weight": "400",
+          "lineHeight": 1.5,
+          "letterSpacing": "normal",
+          "color": "rgb(18, 20, 31)"
+        },
+        "body": {
+          "font": "JetBrains Mono SemiBold",
+          "size": 15,
+          "weight": "400",
+          "lineHeight": 1.5,
+          "letterSpacing": "normal",
+          "color": "rgb(255, 255, 255)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#ffffff",
+          "#12141f",
+          "#ff0000"
+        ],
+        "text": [
+          "#12141f",
+          "#ffffff",
+          "#1f212b"
+        ]
+      },
+      "buttons": [
+        {
+          "label": "About",
+          "bg": "#12141f",
+          "color": "#0000ee",
+          "radius": "100px",
+          "height": 29,
+          "paddingX": 15,
+          "font": "sans-serif",
+          "size": 12,
+          "weight": "400"
+        },
+        {
+          "label": "Email me",
+          "bg": "#12141f",
+          "color": "#0000ee",
+          "radius": "100px",
+          "height": 30,
+          "paddingX": 15,
+          "font": "sans-serif",
+          "size": 12,
+          "weight": "400"
+        }
+      ],
+      "contentWidth": null
+    }
+  },
+  {
     "id": "attio-landing",
     "site": "Attio",
     "url": "https://attio.com",
@@ -20801,6 +21100,70 @@
         ],
         "text": [
           "#000000"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": null
+    }
+  },
+  {
+    "id": "bradley-ziffer-landing",
+    "site": "Bradley Ziffer",
+    "url": "https://bradleyziffer.com",
+    "type": "landing",
+    "tags": [
+      "serif-intro",
+      "highlighted-words",
+      "inline-glyphs",
+      "recent-adventures"
+    ],
+    "note": "'Hello, we should design software paradigms that embody wisdom ✻ and feel natural' with 'software paradigms' highlighted in blue: a designer's belief as the first line, then 'Recent adventures'.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/bradley-ziffer-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/bradley-ziffer-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "bradley | a builder",
+      "fonts": [
+        "Plus Jakarta Sans",
+        "Crimson Pro",
+        "sans-serif"
+      ],
+      "type": {
+        "h1": null,
+        "h2": null,
+        "h3": null,
+        "body": {
+          "font": "Inter",
+          "size": 48,
+          "weight": "400",
+          "lineHeight": 1.09,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#ffffff",
+          "#44ccff",
+          "#99eeff",
+          "#0f1111"
+        ],
+        "text": [
+          "#0f1111",
+          "#0047cc",
+          "#ffffff",
+          "#fffdf7"
         ]
       },
       "buttons": [],
@@ -28072,6 +28435,183 @@
     }
   },
   {
+    "id": "dan-tase-landing",
+    "site": "Dan Tase",
+    "url": "https://www.dantase.com",
+    "type": "landing",
+    "tags": [
+      "serif-italic",
+      "founding-designer",
+      "company-paragraphs",
+      "blue-highlight"
+    ],
+    "note": "'Founding Product Designer for startups learning to walk' in serif with an italic 'for', then each company as a paragraph whose first sentence is in blue: a CV as short stories.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/dan-tase-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/dan-tase-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Dan Tase - Founding Product Designer",
+      "fonts": [
+        "Graphik Regular",
+        "Signifier Light",
+        "Graphik Medium"
+      ],
+      "type": {
+        "h1": {
+          "font": "Signifier Light",
+          "size": 100,
+          "weight": "300",
+          "lineHeight": 1.1,
+          "letterSpacing": "-2px",
+          "color": "rgb(0, 0, 0)"
+        },
+        "h2": {
+          "font": "Graphik Regular",
+          "size": 46,
+          "weight": "400",
+          "lineHeight": 1.2,
+          "letterSpacing": "-0.4608px",
+          "color": "rgb(0, 0, 0)"
+        },
+        "h3": null,
+        "body": {
+          "font": "Graphik Regular",
+          "size": 20,
+          "weight": "400",
+          "lineHeight": 1.5,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [],
+        "text": [
+          "#000000",
+          "#3b38b3"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": 1440
+    }
+  },
+  {
+    "id": "daniel-martin-landing",
+    "site": "Daniel Martin",
+    "url": "https://dm.works",
+    "type": "landing",
+    "tags": [
+      "brutalist-labels",
+      "pixel-wordmark",
+      "coloured-tabs",
+      "colour-blocks",
+      "madrid"
+    ],
+    "note": "A Madrid designer's site is a stack of coloured label bars (Intro, Archive, About), a pixel-font name, and projects as coloured blocks with counts: the UI looks like a filing system.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/daniel-martin-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/daniel-martin-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Daniel Martin is a graphic designer with a focus on Brand Identity, Art Direction and Product Design",
+      "fonts": [
+        "dm500"
+      ],
+      "type": {
+        "h1": null,
+        "h2": {
+          "font": "dm500",
+          "size": 56,
+          "weight": "400",
+          "lineHeight": 1,
+          "letterSpacing": "normal",
+          "color": "rgb(23, 23, 23)"
+        },
+        "h3": null,
+        "body": null
+      },
+      "colors": {
+        "background": "#171717",
+        "surfaces": [
+          "#171717",
+          "#c5cdd9",
+          "#8a9bb3",
+          "#ffffff",
+          "#e6a2fc"
+        ],
+        "text": [
+          "#171717"
+        ]
+      },
+      "buttons": [
+        {
+          "label": "INTRO",
+          "bg": "#8a9bb3",
+          "color": "#171717",
+          "radius": "16px 16px 0px 0px",
+          "height": 47,
+          "paddingX": 16,
+          "font": "dm500",
+          "size": 32,
+          "weight": "500"
+        },
+        {
+          "label": "ARCHIVE",
+          "bg": "#93950b",
+          "color": "#171717",
+          "radius": "16px",
+          "height": 47,
+          "paddingX": 16,
+          "font": "dm500",
+          "size": 32,
+          "weight": "500"
+        },
+        {
+          "label": "ABOUT",
+          "bg": "#0271f2",
+          "color": "#171717",
+          "radius": "16px",
+          "height": 47,
+          "paddingX": 16,
+          "font": "dm500",
+          "size": 32,
+          "weight": "500"
+        },
+        {
+          "label": "CONTACT",
+          "bg": "#854f40",
+          "color": "#171717",
+          "radius": "16px",
+          "height": 47,
+          "paddingX": 16,
+          "font": "dm500",
+          "size": 32,
+          "weight": "500"
+        }
+      ],
+      "contentWidth": null
+    }
+  },
+  {
     "id": "daniella-marynova-landing",
     "site": "Daniella Marynova",
     "url": "https://hellodani.co",
@@ -33942,6 +34482,78 @@
       },
       "buttons": [],
       "contentWidth": 1152
+    }
+  },
+  {
+    "id": "emre-kayganaci-landing",
+    "site": "Emre Kayganaci",
+    "url": "https://www.emrekayganaci.com",
+    "type": "landing",
+    "tags": [
+      "object-catalogue",
+      "rounded-cards",
+      "new-badges",
+      "product-designer"
+    ],
+    "note": "'Objects, tools and experiences. Made with curiosity, care and a little magic.' Then each object on a rounded grey card with orange 'new' badges: a designer's work as a product catalogue.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/emre-kayganaci-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3464
+      },
+      "mobile": {
+        "file": "screens/emre-kayganaci-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Emre Kayganaci — Industrial Designer in London",
+      "fonts": [
+        "APK Protocol Medium Trial",
+        "sans-serif",
+        "APK Protocol Regular"
+      ],
+      "type": {
+        "h1": {
+          "font": "APK Protocol Medium Trial",
+          "size": 44,
+          "weight": "500",
+          "lineHeight": 1.33,
+          "letterSpacing": "-0.64px",
+          "color": "rgb(232, 232, 232)"
+        },
+        "h2": {
+          "font": "APK Protocol Medium Trial",
+          "size": 18,
+          "weight": "400",
+          "lineHeight": 1.4,
+          "letterSpacing": "normal",
+          "color": "rgb(51, 51, 51)"
+        },
+        "h3": null,
+        "body": {
+          "font": "APK Protocol Regular",
+          "size": 16,
+          "weight": "400",
+          "lineHeight": 1.44,
+          "letterSpacing": "-0.64px",
+          "color": "rgb(0, 0, 0)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#ffffff"
+        ],
+        "text": [
+          "#e8e8e8"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": 900
     }
   },
   {
@@ -44080,6 +44692,69 @@
     }
   },
   {
+    "id": "harry-atkins-landing",
+    "site": "Harry Atkins",
+    "url": "https://harryjatkins.com",
+    "type": "landing",
+    "tags": [
+      "giant-initials",
+      "spread-across",
+      "index-grid",
+      "captions"
+    ],
+    "note": "A designer spreads his initials 'H' and 'A' to the two edges of the page, then an index of every project as small thumbnails with names: two letters frame the archive.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/harry-atkins-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3436
+      },
+      "mobile": {
+        "file": "screens/harry-atkins-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Harry Atkins — Independent Developer",
+      "fonts": [
+        "SoehneBuch"
+      ],
+      "type": {
+        "h1": null,
+        "h2": null,
+        "h3": null,
+        "body": {
+          "font": "SoehneBuch",
+          "size": 12,
+          "weight": "400",
+          "lineHeight": 1,
+          "letterSpacing": "-0.28px",
+          "color": "rgb(153, 153, 153)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#f7f7f7",
+          "#ffffff",
+          "#afb2c0",
+          "#949494",
+          "#f82e2a"
+        ],
+        "text": [
+          "#999999",
+          "#292929",
+          "#c4c4c4",
+          "#0000ee"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": null
+    }
+  },
+  {
     "id": "harry-bissett-landing",
     "site": "Harry Bissett",
     "url": "https://harry.cool",
@@ -50174,6 +50849,67 @@
     }
   },
   {
+    "id": "jason-briscoe-landing",
+    "site": "Jason Briscoe",
+    "url": "https://jasonbriscoe.com",
+    "type": "landing",
+    "tags": [
+      "huge-bio-text",
+      "personal-facts",
+      "founder",
+      "no-images"
+    ],
+    "note": "A founder's homepage is his bio set huge across the first screen ('Born in Toronto. HYROX athlete... Played the bagpipes professionally'): personal facts as the hook.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/jason-briscoe-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3265
+      },
+      "mobile": {
+        "file": "screens/jason-briscoe-landing-mobile.jpg",
+        "width": 390,
+        "height": 1672
+      }
+    },
+    "tokens": {
+      "title": "Jason Briscoe",
+      "fonts": [
+        "Inter"
+      ],
+      "type": {
+        "h1": {
+          "font": "Inter",
+          "size": 114,
+          "weight": "500",
+          "lineHeight": 1.05,
+          "letterSpacing": "-5.112px",
+          "color": "rgb(17, 17, 17)"
+        },
+        "h2": null,
+        "h3": null,
+        "body": {
+          "font": "Inter",
+          "size": 114,
+          "weight": "500",
+          "lineHeight": 1.05,
+          "letterSpacing": "-5.112px",
+          "color": "rgb(17, 17, 17)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [],
+        "text": [
+          "#111111"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": null
+    }
+  },
+  {
     "id": "jason-pontin-landing",
     "site": "Jason Pontin",
     "url": "https://www.jasonpontin.com",
@@ -50326,6 +51062,115 @@
       },
       "buttons": [],
       "contentWidth": 1380
+    }
+  },
+  {
+    "id": "jay-darvishian-landing",
+    "site": "Jay Darvishian",
+    "url": "https://www.jdarvi.com",
+    "type": "landing",
+    "tags": [
+      "tabbed-nav",
+      "full-bleed-monogram",
+      "image-collage",
+      "jewellery"
+    ],
+    "note": "A creative director overlays a white monogram on a black and white jewellery photo, then a collage of images with tab-like nav at the top: moodboard as homepage.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/jay-darvishian-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/jay-darvishian-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "jay k darvishian",
+      "fonts": [
+        "neue-haas-grotesk-display"
+      ],
+      "type": {
+        "h1": null,
+        "h2": null,
+        "h3": null,
+        "body": null
+      },
+      "colors": {
+        "background": "#101820",
+        "surfaces": [
+          "#f9f9f9",
+          "#ffffff",
+          "#101820"
+        ],
+        "text": [
+          "#101820",
+          "#000000",
+          "#ffffff"
+        ]
+      },
+      "buttons": [
+        {
+          "label": "𓏲 jay k darvishian",
+          "bg": "#101820",
+          "color": "#ffffff",
+          "radius": "0px",
+          "height": 32,
+          "paddingX": 24,
+          "font": "neue-haas-grotesk-display",
+          "size": 13,
+          "weight": "600"
+        },
+        {
+          "label": "𓇴 exploration",
+          "bg": "#ffffff",
+          "color": "#000000",
+          "radius": "0px",
+          "height": 32,
+          "paddingX": 24,
+          "font": "neue-haas-grotesk-display",
+          "size": 13,
+          "weight": "600"
+        },
+        {
+          "label": "𓈝 index",
+          "bg": "#ffffff",
+          "color": "#000000",
+          "radius": "0px",
+          "height": 32,
+          "paddingX": 24,
+          "font": "neue-haas-grotesk-display",
+          "size": 13,
+          "weight": "600"
+        },
+        {
+          "label": "𓅭 info",
+          "bg": "#ffffff",
+          "color": "#000000",
+          "radius": "0px",
+          "height": 32,
+          "paddingX": 12,
+          "font": "neue-haas-grotesk-display",
+          "size": 13,
+          "weight": "600"
+        },
+        {
+          "label": "Open Archive\nResearch Inspired Jewelry B",
+          "bg": "#f9f9f9",
+          "color": "#101820",
+          "radius": "2px",
+          "height": 36,
+          "paddingX": 4,
+          "font": "neue-haas-grotesk-display",
+          "size": 12,
+          "weight": "600"
+        }
+      ],
+      "contentWidth": 1080
     }
   },
   {
@@ -51077,6 +51922,63 @@
           "#1a1a1a",
           "#1b1b1b",
           "#1d1d1d"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": null
+    }
+  },
+  {
+    "id": "julien-vallon-landing",
+    "site": "Julien Vallon",
+    "url": "https://www.julienvallon.com",
+    "type": "landing",
+    "tags": [
+      "editorial-photography",
+      "magazine-covers",
+      "pale-ground",
+      "photographer"
+    ],
+    "note": "A photographer shows full magazine covers and editorial spreads on a pale ground with small italic captions: the published page is the proof.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/julien-vallon-landing-desktop.jpg",
+        "width": 1440,
+        "height": 1851
+      },
+      "mobile": {
+        "file": "screens/julien-vallon-landing-mobile.jpg",
+        "width": 390,
+        "height": 2003
+      }
+    },
+    "tokens": {
+      "title": "Julien Vallon — Artiste visuel & Auteur-réalisateur",
+      "fonts": [
+        "Pantasia Regular"
+      ],
+      "type": {
+        "h1": null,
+        "h2": null,
+        "h3": null,
+        "body": {
+          "font": "Pantasia Regular",
+          "size": 16,
+          "weight": "400",
+          "lineHeight": 1.25,
+          "letterSpacing": "1.6px",
+          "color": "rgb(0, 0, 0)"
+        }
+      },
+      "colors": {
+        "background": "#f5f5f5",
+        "surfaces": [
+          "#f5f5f5"
+        ],
+        "text": [
+          "#000000",
+          "#ffffff"
         ]
       },
       "buttons": [],
@@ -58107,6 +59009,64 @@
     }
   },
   {
+    "id": "matija-gabrilo-landing",
+    "site": "Matija Gabrilo",
+    "url": "https://mgabrilo.work",
+    "type": "landing",
+    "tags": [
+      "sparse-index",
+      "tiny-metadata",
+      "large-images",
+      "art-direction"
+    ],
+    "note": "An art director lists projects with tiny metadata columns (client, discipline, year) and one large image each, with a lot of white space: an index that breathes.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/matija-gabrilo-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/matija-gabrilo-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Practice of Matija Gabrilo",
+      "fonts": [
+        "publicoMono",
+        "UN_11"
+      ],
+      "type": {
+        "h1": null,
+        "h2": null,
+        "h3": null,
+        "body": {
+          "font": "publicoMono",
+          "size": 11,
+          "weight": "400",
+          "lineHeight": 1.25,
+          "letterSpacing": "0.55px",
+          "color": "rgb(15, 15, 16)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#ffffff",
+          "#d9d9d9"
+        ],
+        "text": [
+          "#0f0f10"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": null
+    }
+  },
+  {
     "id": "maze-landing",
     "site": "Maze",
     "url": "https://maze.co",
@@ -60994,6 +61954,86 @@
     }
   },
   {
+    "id": "muradov-design-landing",
+    "site": "Muradov Design",
+    "url": "https://www.muradov.design",
+    "type": "landing",
+    "tags": [
+      "glitch-type",
+      "dark-mode",
+      "framed-mockup",
+      "purple",
+      "visual-designer"
+    ],
+    "note": "A visual designer's name and title are scrambled into glitch characters ('=2O2F DA+A#*N2') above a framed purple UI mockup: one typographic effect sets the tone.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/muradov-design-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/muradov-design-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Muradov – Web Developer and Visual Designer",
+      "fonts": [
+        "Fraktion Mono",
+        "Telegraf"
+      ],
+      "type": {
+        "h1": {
+          "font": "Telegraf",
+          "size": 141,
+          "weight": "400",
+          "lineHeight": 0.84,
+          "letterSpacing": "-2.8125px",
+          "color": "rgb(248, 247, 244)"
+        },
+        "h2": {
+          "font": "Telegraf",
+          "size": 21,
+          "weight": "400",
+          "lineHeight": 1.2,
+          "letterSpacing": "-0.421875px",
+          "color": "rgb(248, 247, 244)"
+        },
+        "h3": {
+          "font": "Telegraf",
+          "size": 99,
+          "weight": "400",
+          "lineHeight": 0.74,
+          "letterSpacing": "-5.9658px",
+          "color": "rgb(248, 247, 244)"
+        },
+        "body": {
+          "font": "Fraktion Mono",
+          "size": 21,
+          "weight": "400",
+          "lineHeight": 1.2,
+          "letterSpacing": "-0.84375px",
+          "color": "rgba(248, 247, 244, 0.75)"
+        }
+      },
+      "colors": {
+        "background": "#000000",
+        "surfaces": [
+          "#000000",
+          "#582fcd"
+        ],
+        "text": [
+          "#f8f7f4"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": 1440
+    }
+  },
+  {
     "id": "murmure-landing",
     "site": "MURMURE",
     "url": "https://murmure.me",
@@ -61903,6 +62943,107 @@
         ]
       },
       "buttons": [],
+      "contentWidth": null
+    }
+  },
+  {
+    "id": "natalya-nechaeva-landing",
+    "site": "Natalya Nechaeva",
+    "url": "https://nnechaeva.com",
+    "type": "landing",
+    "tags": [
+      "serif-caps-name",
+      "dark-green",
+      "portrait",
+      "expertise-pills",
+      "coach"
+    ],
+    "note": "An executive coach's site: her name in big serif caps on dark green with a portrait in the middle, then 'EXPERT FIELDS' as rows of outlined pills: an editorial look for a personal service.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/natalya-nechaeva-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/natalya-nechaeva-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Natalya Nechaeva",
+      "fonts": [
+        "Roboto",
+        "Viaoda Libre",
+        "Times New Roman"
+      ],
+      "type": {
+        "h1": {
+          "font": "Roboto",
+          "size": 12,
+          "weight": "400",
+          "lineHeight": 1.33,
+          "letterSpacing": "normal",
+          "color": "rgb(248, 247, 238)"
+        },
+        "h2": {
+          "font": "Roboto",
+          "size": 12,
+          "weight": "400",
+          "lineHeight": 1.58,
+          "letterSpacing": "normal",
+          "color": "rgb(248, 247, 238)"
+        },
+        "h3": {
+          "font": "Roboto",
+          "size": 20,
+          "weight": "400",
+          "lineHeight": 1.2,
+          "letterSpacing": "normal",
+          "color": "rgb(147, 177, 166)"
+        },
+        "body": null
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#041211",
+          "#93b1a6",
+          "#ffffff"
+        ],
+        "text": [
+          "#93b1a6",
+          "#f8f7ee",
+          "#ffffff",
+          "#041211"
+        ]
+      },
+      "buttons": [
+        {
+          "label": "GET A CONSULTATION",
+          "bg": "#93b1a6",
+          "color": "#041211",
+          "radius": "30px",
+          "height": 48,
+          "paddingX": 0,
+          "font": "Roboto",
+          "size": 12,
+          "weight": "500"
+        },
+        {
+          "label": "",
+          "bg": "#041211",
+          "color": "#000000",
+          "radius": "0px",
+          "height": 40,
+          "paddingX": 0,
+          "font": "Arial",
+          "size": 13,
+          "weight": "400"
+        }
+      ],
       "contentWidth": null
     }
   },
@@ -68867,6 +70008,65 @@
           "weight": "400"
         }
       ],
+      "contentWidth": null
+    }
+  },
+  {
+    "id": "patrick-johnson-landing",
+    "site": "Patrick Johnson",
+    "url": "https://patrickjohnson.work",
+    "type": "landing",
+    "tags": [
+      "giant-initials",
+      "dense-thumbnail-grid",
+      "availability",
+      "new-orleans"
+    ],
+    "note": "A designer spreads 'P' and 'J' to the page edges with tiny info between them, then a dense grid of square thumbnails: initials and a contact sheet.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/patrick-johnson-landing-desktop.jpg",
+        "width": 1440,
+        "height": 1245
+      },
+      "mobile": {
+        "file": "screens/patrick-johnson-landing-mobile.jpg",
+        "width": 390,
+        "height": 977
+      }
+    },
+    "tokens": {
+      "title": "Patrick Johnson",
+      "fonts": [
+        "Helvetica Now"
+      ],
+      "type": {
+        "h1": {
+          "font": "Helvetica Now",
+          "size": 14,
+          "weight": "400",
+          "lineHeight": 1.25,
+          "letterSpacing": "-0.175px",
+          "color": "rgb(13, 13, 13)"
+        },
+        "h2": null,
+        "h3": null,
+        "body": null
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#ffffff",
+          "#0d0d0d"
+        ],
+        "text": [
+          "#0d0d0d",
+          "#767676",
+          "#ffffff"
+        ]
+      },
+      "buttons": [],
       "contentWidth": null
     }
   },
@@ -86305,6 +87505,67 @@
     }
   },
   {
+    "id": "studio-embed-landing",
+    "site": "studio embed.",
+    "url": "https://studioembed.com",
+    "type": "landing",
+    "tags": [
+      "results-in-captions",
+      "founder-quotes",
+      "phone-screens",
+      "founding-designer"
+    ],
+    "note": "A founding designer studio shows each app as phone screens with results in grey ('6M Series A, 100k+ users') and a founder's quote beside it: outcome and voice next to the UI.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/studio-embed-landing-desktop.jpg",
+        "width": 1440,
+        "height": 2840
+      },
+      "mobile": {
+        "file": "screens/studio-embed-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "studio embed.",
+      "fonts": [
+        "Inter Tight"
+      ],
+      "type": {
+        "h1": {
+          "font": "Inter Tight",
+          "size": 21,
+          "weight": "390",
+          "lineHeight": 1.13,
+          "letterSpacing": "normal",
+          "color": "rgb(35, 35, 35)"
+        },
+        "h2": null,
+        "h3": null,
+        "body": {
+          "font": "Inter Tight",
+          "size": 16,
+          "weight": "400",
+          "lineHeight": 1.33,
+          "letterSpacing": "0.2px",
+          "color": "rgb(35, 35, 35)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [],
+        "text": [
+          "#232323"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": null
+    }
+  },
+  {
     "id": "studio-freight-landing",
     "site": "Studio Freight",
     "url": "https://www.studiofreight.com",
@@ -92854,6 +94115,64 @@
         }
       ],
       "contentWidth": 1024
+    }
+  },
+  {
+    "id": "tjorven-stein-landing",
+    "site": "Tjorven Stein",
+    "url": "https://www.tjorvenstein.com",
+    "type": "landing",
+    "tags": [
+      "3d-pill-stack",
+      "clients-as-objects",
+      "sky-gradient",
+      "embossed-names"
+    ],
+    "note": "A designer stacks soft 3D pills against a blue sky with a sun, each pill embossed with a client or project name: the client list as a sculpture.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/tjorven-stein-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/tjorven-stein-landing-mobile.jpg",
+        "width": 390,
+        "height": 1993
+      }
+    },
+    "tokens": {
+      "title": "Tjorven Stein",
+      "fonts": [
+        "Stempel Garamond LT Std"
+      ],
+      "type": {
+        "h1": null,
+        "h2": null,
+        "h3": null,
+        "body": {
+          "font": "Stempel Garamond LT Std",
+          "size": 43,
+          "weight": "400",
+          "lineHeight": 1.5,
+          "letterSpacing": "6.48px",
+          "color": "rgb(187, 187, 187)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#cccccc",
+          "#e8e8e8"
+        ],
+        "text": [
+          "#bbbbbb",
+          "#d8d8d8"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": null
     }
   },
   {
@@ -99912,6 +101231,67 @@
       },
       "buttons": [],
       "contentWidth": 1526
+    }
+  },
+  {
+    "id": "yevhen-yurchuk-landing",
+    "site": "Yevhen Yurchuk",
+    "url": "https://yevhenyurchuk.com",
+    "type": "landing",
+    "tags": [
+      "project-table",
+      "watch-ui",
+      "icon-design",
+      "available-for-work"
+    ],
+    "note": "A designer from Ukraine pairs a dense table of personal projects (year, type) with large renders of Apple Watch interfaces and icons: small, precise UI work shown huge.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/yevhen-yurchuk-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/yevhen-yurchuk-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Yevhen Yurchuk",
+      "fonts": [
+        "Inter"
+      ],
+      "type": {
+        "h1": null,
+        "h2": null,
+        "h3": null,
+        "body": {
+          "font": "Inter",
+          "size": 13,
+          "weight": "400",
+          "lineHeight": 1.2,
+          "letterSpacing": "normal",
+          "color": "rgb(51, 51, 51)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#ffffff",
+          "#f2f2f2",
+          "#000000"
+        ],
+        "text": [
+          "#000000",
+          "#333333",
+          "#ffffff",
+          "#15ab61"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": null
     }
   },
   {

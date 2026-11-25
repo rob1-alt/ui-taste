@@ -14641,5 +14641,224 @@
    "brand-creative"
   ],
   "note": "A brand creative opens with 'I turn brands into cultural forces.' and his role, then large photo cards for Nike and others on black: a direct statement and big imagery."
+ },
+ {
+  "site": "Ahmed Yasser",
+  "type": "landing",
+  "url": "https://ahmdyassr.com",
+  "tags": [
+   "dark-grid",
+   "labelled-tiles",
+   "follow-buttons",
+   "mixed-media"
+  ],
+  "note": "A designer's homepage is a dark grid of project tiles, each with a small label bar and year like a file browser: every kind of work (music, apps, film) in one consistent frame."
+ },
+ {
+  "site": "Alex Naghavi",
+  "type": "landing",
+  "url": "https://www.alexnaghavi.com",
+  "tags": [
+   "centred-bio",
+   "dark-editorial",
+   "phone-and-print",
+   "creative-director"
+  ],
+  "note": "A creative director centres a short bio on near-black, then pairs a phone screen with a printed index book in a dark grid: product and print shown with the same weight."
+ },
+ {
+  "site": "Atilla Taşkıran",
+  "type": "landing",
+  "url": "https://atillataskiran.com",
+  "tags": [
+   "monospace-text",
+   "availability-note",
+   "work-play-video",
+   "testimonials"
+  ],
+  "note": "A software designer writes a short mono intro with 'availability is very limited', a cyan 'Work / Play' video block and a column of client quotes: few elements, all specific."
+ },
+ {
+  "site": "Bradley Ziffer",
+  "type": "landing",
+  "url": "https://bradleyziffer.com",
+  "tags": [
+   "serif-intro",
+   "highlighted-words",
+   "inline-glyphs",
+   "recent-adventures"
+  ],
+  "note": "'Hello, we should design software paradigms that embody wisdom ✻ and feel natural' with 'software paradigms' highlighted in blue: a designer's belief as the first line, then 'Recent adventures'."
+ },
+ {
+  "site": "Dan Tase",
+  "type": "landing",
+  "url": "https://www.dantase.com",
+  "tags": [
+   "serif-italic",
+   "founding-designer",
+   "company-paragraphs",
+   "blue-highlight"
+  ],
+  "note": "'Founding Product Designer for startups learning to walk' in serif with an italic 'for', then each company as a paragraph whose first sentence is in blue: a CV as short stories."
+ },
+ {
+  "site": "Daniel Martin",
+  "type": "landing",
+  "url": "https://dm.works",
+  "tags": [
+   "brutalist-labels",
+   "pixel-wordmark",
+   "coloured-tabs",
+   "colour-blocks",
+   "madrid"
+  ],
+  "note": "A Madrid designer's site is a stack of coloured label bars (Intro, Archive, About), a pixel-font name, and projects as coloured blocks with counts: the UI looks like a filing system."
+ },
+ {
+  "site": "Emre Kayganaci",
+  "type": "landing",
+  "url": "https://www.emrekayganaci.com",
+  "tags": [
+   "object-catalogue",
+   "rounded-cards",
+   "new-badges",
+   "product-designer"
+  ],
+  "note": "'Objects, tools and experiences. Made with curiosity, care and a little magic.' Then each object on a rounded grey card with orange 'new' badges: a designer's work as a product catalogue."
+ },
+ {
+  "site": "Harry Atkins",
+  "type": "landing",
+  "url": "https://harryjatkins.com",
+  "tags": [
+   "giant-initials",
+   "spread-across",
+   "index-grid",
+   "captions"
+  ],
+  "note": "A designer spreads his initials 'H' and 'A' to the two edges of the page, then an index of every project as small thumbnails with names: two letters frame the archive."
+ },
+ {
+  "site": "Jason Briscoe",
+  "type": "landing",
+  "url": "https://jasonbriscoe.com",
+  "tags": [
+   "huge-bio-text",
+   "personal-facts",
+   "founder",
+   "no-images"
+  ],
+  "note": "A founder's homepage is his bio set huge across the first screen ('Born in Toronto. HYROX athlete... Played the bagpipes professionally'): personal facts as the hook."
+ },
+ {
+  "site": "Jay Darvishian",
+  "type": "landing",
+  "url": "https://www.jdarvi.com",
+  "tags": [
+   "tabbed-nav",
+   "full-bleed-monogram",
+   "image-collage",
+   "jewellery"
+  ],
+  "note": "A creative director overlays a white monogram on a black and white jewellery photo, then a collage of images with tab-like nav at the top: moodboard as homepage."
+ },
+ {
+  "site": "Julien Vallon",
+  "type": "landing",
+  "url": "https://www.julienvallon.com",
+  "tags": [
+   "editorial-photography",
+   "magazine-covers",
+   "pale-ground",
+   "photographer"
+  ],
+  "note": "A photographer shows full magazine covers and editorial spreads on a pale ground with small italic captions: the published page is the proof."
+ },
+ {
+  "site": "Matija Gabrilo",
+  "type": "landing",
+  "url": "https://mgabrilo.work",
+  "tags": [
+   "sparse-index",
+   "tiny-metadata",
+   "large-images",
+   "art-direction"
+  ],
+  "note": "An art director lists projects with tiny metadata columns (client, discipline, year) and one large image each, with a lot of white space: an index that breathes."
+ },
+ {
+  "site": "Muradov Design",
+  "type": "landing",
+  "url": "https://www.muradov.design",
+  "tags": [
+   "glitch-type",
+   "dark-mode",
+   "framed-mockup",
+   "purple",
+   "visual-designer"
+  ],
+  "note": "A visual designer's name and title are scrambled into glitch characters ('=2O2F DA+A#*N2') above a framed purple UI mockup: one typographic effect sets the tone."
+ },
+ {
+  "site": "Natalya Nechaeva",
+  "type": "landing",
+  "url": "https://nnechaeva.com",
+  "tags": [
+   "serif-caps-name",
+   "dark-green",
+   "portrait",
+   "expertise-pills",
+   "coach"
+  ],
+  "note": "An executive coach's site: her name in big serif caps on dark green with a portrait in the middle, then 'EXPERT FIELDS' as rows of outlined pills: an editorial look for a personal service."
+ },
+ {
+  "site": "Patrick Johnson",
+  "type": "landing",
+  "url": "https://patrickjohnson.work",
+  "tags": [
+   "giant-initials",
+   "dense-thumbnail-grid",
+   "availability",
+   "new-orleans"
+  ],
+  "note": "A designer spreads 'P' and 'J' to the page edges with tiny info between them, then a dense grid of square thumbnails: initials and a contact sheet."
+ },
+ {
+  "site": "studio embed.",
+  "type": "landing",
+  "url": "https://studioembed.com",
+  "tags": [
+   "results-in-captions",
+   "founder-quotes",
+   "phone-screens",
+   "founding-designer"
+  ],
+  "note": "A founding designer studio shows each app as phone screens with results in grey ('6M Series A, 100k+ users') and a founder's quote beside it: outcome and voice next to the UI."
+ },
+ {
+  "site": "Tjorven Stein",
+  "type": "landing",
+  "url": "https://www.tjorvenstein.com",
+  "tags": [
+   "3d-pill-stack",
+   "clients-as-objects",
+   "sky-gradient",
+   "embossed-names"
+  ],
+  "note": "A designer stacks soft 3D pills against a blue sky with a sun, each pill embossed with a client or project name: the client list as a sculpture."
+ },
+ {
+  "site": "Yevhen Yurchuk",
+  "type": "landing",
+  "url": "https://yevhenyurchuk.com",
+  "tags": [
+   "project-table",
+   "watch-ui",
+   "icon-design",
+   "available-for-work"
+  ],
+  "note": "A designer from Ukraine pairs a dense table of personal projects (year, type) with large renders of Apple Watch interfaces and icons: small, precise UI work shown huge."
  }
 ]

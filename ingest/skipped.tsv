@@ -1981,3 +1981,45 @@ https://ohira.design	desktop sparse, partial
 https://pixelwrld.co	desktop empty below
 https://tomrobin.co	dark portfolio template
 https://tonyyanchen.com	mobile text collides
+https://tinonyman.com	broken (TimeoutError) (prefilter)
+https://nighot.com	bot wall (cloudflare) (prefilter)
+https://www.vakarenko-anastasia.com	broken (URLError) (prefilter)
+https://andrewmanuilov.com	bot wall (cloudflare) (prefilter)
+https://lohxt.space	broken (http 525) (prefilter)
+https://freelance.lsvs.cloud	redirects off-site (lisovskiy.work) (prefilter)
+https://www.quigley.work	broken (URLError) (prefilter)
+https://lcortez.com	redirects off-site (cortez.io) (prefilter)
+https://mrncst.design	broken (URLError) (prefilter)
+https://groteskcph.dk	broken (http 454) (prefilter)
+https://www.shiftwalk.studio	bot wall (cloudflare) (prefilter)
+https://simon.studio	redirects off-site (soup.work) (prefilter)
+https://chester.how	blocked (http 429) (prefilter)
+https://www.alexkalashnikov.com	broken (URLError) (prefilter)
+https://www.0100011001010111.com	broken (URLError) (prefilter)
+https://www.ayushwanjari.com	hero only: desktop content stops near the first screen; empt
+https://denise-agency.com	mostly white page with one small line of text; hero only; no
+https://ferdinand.cc	product-render gallery on grey tiles with almost no copy; te
+https://flayks.com	Cloudflare security verification page; bot wall
+https://gavril.design	parked domain page ;"This domain may be for sale";; not a re
+https://www.ivanduzhak.com	standard designer portfolio hero with grey case cards; Webfl
+https://www.marckuiper.com	dark Framer-style hero with two CTAs and a monitor mockup; t
+https://mattcolangelo.com	newsletter-style modal covers the page content
+https://pierre.io	hero only: 3D hero then empty white below on desktop
+https://prateekkeshari.com	dark minimal personal template with work list and recent-wor
+https://romaingranai.xyz	hero only: one huge ONE wordmark over empty black page
+https://www.getseth.com	Access Denied error page
+https://synchrodogs.com	hero only: cut-off orange wordmark then empty brown band
+https://www.unobtrusive.design	typical product-designer case-study layout with phone mockup
+https://urfd.net	near-blank page with one small line illustration and no copy
+https://ustinov.design	centred Hey I'm name headline over phone carousel case cards
+https://antonstallboerger.com	blank
+https://www.chloeyan.me	blank
+https://nelson.co	blank
+https://www.lovefrom.com	blank
+https://bierman.io	blank
+https://roko-g.work	blank
+https://arifhuda.com	dark device-render template
+https://www.danhighbrown.com	desktop short, partial
+https://www.erickvelasco.com	dark portfolio, nothing new
+https://www.fabianschultz.com	personal ledger, already covered
+https://jonaspelzer.com	desktop short, partial
