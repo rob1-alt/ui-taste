@@ -14656,6 +14656,63 @@
     }
   },
   {
+    "id": "andre-pahl-landing",
+    "site": "Andre Pahl",
+    "url": "http://andrepahl.com",
+    "type": "landing",
+    "tags": [
+      "sticky-note-about",
+      "poster-screens",
+      "grid",
+      "interaction-designer"
+    ],
+    "note": "An interaction designer puts his about text on a yellow sticky note in the corner, over a grid of loud poster-like website screens: one paper-note gesture, the work does the rest.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/andre-pahl-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/andre-pahl-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "André Pahl",
+      "fonts": [
+        "helvetica"
+      ],
+      "type": {
+        "h1": null,
+        "h2": null,
+        "h3": null,
+        "body": {
+          "font": "helvetica",
+          "size": 15,
+          "weight": "400",
+          "lineHeight": 1.47,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#fffd95",
+          "#ffffff"
+        ],
+        "text": [
+          "#000000"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": null
+    }
+  },
+  {
     "id": "andrea-dominici-landing",
     "site": "Andrea Dominici",
     "url": "https://andreadominici.com",
@@ -15089,6 +15146,66 @@
         ],
         "text": [
           "#ffffff"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": null
+    }
+  },
+  {
+    "id": "anekdote-landing",
+    "site": "Anekdote",
+    "url": "https://anekdote.co",
+    "type": "landing",
+    "tags": [
+      "directory-index",
+      "giant-wordmark",
+      "category-tags",
+      "brands-products-toggle"
+    ],
+    "note": "A handpicked directory of independent brands sets 'Anekdote' huge, then lists hundreds of brands in four columns with grey category tags and a Brands / Products toggle: the list is the product.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/anekdote-landing-desktop.jpg",
+        "width": 1440,
+        "height": 2474
+      },
+      "mobile": {
+        "file": "screens/anekdote-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Anekdote",
+      "fonts": [
+        "Helvetica"
+      ],
+      "type": {
+        "h1": null,
+        "h2": null,
+        "h3": null,
+        "body": {
+          "font": "Helvetica",
+          "size": 16,
+          "weight": "400",
+          "lineHeight": 1.43,
+          "letterSpacing": "normal",
+          "color": "rgb(32, 37, 54)"
+        }
+      },
+      "colors": {
+        "background": "#202536",
+        "surfaces": [
+          "#d1d2d1",
+          "#212535"
+        ],
+        "text": [
+          "#202536",
+          "#797979",
+          "#d1d2d1",
+          "#212535"
         ]
       },
       "buttons": [],
@@ -20642,6 +20759,70 @@
           "#2a549c",
           "#ffffff",
           "#b4caf3"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": null
+    }
+  },
+  {
+    "id": "benoit-challand-landing",
+    "site": "Benoit Challand",
+    "url": "http://www.benoitchalland.com",
+    "type": "landing",
+    "tags": [
+      "upcoming-shows",
+      "text-first",
+      "numbered-works",
+      "artist"
+    ],
+    "note": "An artist opens on '(upcoming shows)' and '(previous shows)' with dates, places and curators, then a numbered grid of works: the calendar comes before the pictures.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/benoit-challand-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/benoit-challand-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Benoit Challand",
+      "fonts": [
+        "Inter"
+      ],
+      "type": {
+        "h1": null,
+        "h2": {
+          "font": "Inter",
+          "size": 20,
+          "weight": "300",
+          "lineHeight": 1.25,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        },
+        "h3": null,
+        "body": {
+          "font": "Inter",
+          "size": 36,
+          "weight": "300",
+          "lineHeight": 1.11,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#ffffff"
+        ],
+        "text": [
+          "#000000",
+          "#8a8a8a"
         ]
       },
       "buttons": [],
@@ -56533,6 +56714,74 @@
     }
   },
   {
+    "id": "kim-walker-landing",
+    "site": "Kim Walker",
+    "url": "http://www.walker.kim",
+    "type": "landing",
+    "tags": [
+      "inline-logo-chips",
+      "superscript-dates",
+      "sabbatical-note",
+      "coloured-links"
+    ],
+    "note": "A staff product designer writes her bio with company logos inline, superscript year ranges ('2020→26') and a note that she is on sabbatical building her own apps: status, history and links in one paragraph.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/kim-walker-landing-desktop.jpg",
+        "width": 1440,
+        "height": 1421
+      },
+      "mobile": {
+        "file": "screens/kim-walker-landing-mobile.jpg",
+        "width": 390,
+        "height": 1333
+      }
+    },
+    "tokens": {
+      "title": "Kim Walker — Product Designer",
+      "fonts": [
+        "visuelt-regular",
+        "Recoleta",
+        "Material Symbols Outlined"
+      ],
+      "type": {
+        "h1": {
+          "font": "Recoleta",
+          "size": 67,
+          "weight": "100",
+          "lineHeight": 1.1,
+          "letterSpacing": "-0.3px",
+          "color": "rgb(0, 0, 0)"
+        },
+        "h2": null,
+        "h3": null,
+        "body": {
+          "font": "Recoleta",
+          "size": 67,
+          "weight": "100",
+          "lineHeight": 1.1,
+          "letterSpacing": "-0.3px",
+          "color": "rgb(0, 0, 0)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#ffffff"
+        ],
+        "text": [
+          "#000000",
+          "#dda0dd",
+          "#3cb371",
+          "#87ceeb"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": null
+    }
+  },
+  {
     "id": "klad-syndicate-landing",
     "site": "Klad Syndicate",
     "url": "https://klad.design",
@@ -64288,6 +64537,87 @@
       },
       "buttons": [],
       "contentWidth": 1536
+    }
+  },
+  {
+    "id": "michael-evensen-landing",
+    "site": "Michael Evensen",
+    "url": "http://www.michaelevensen.com",
+    "type": "landing",
+    "tags": [
+      "single-case-home",
+      "in-depth-retrospective",
+      "serif-body",
+      "app-screens"
+    ],
+    "note": "A product designer makes the homepage one in-depth retrospective ('Building SoundCloud'), with serif body copy and the app screens of the time: one story told fully instead of ten thumbnails.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/michael-evensen-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/michael-evensen-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Michael Nino Evensen — Product Designer and Developer",
+      "fonts": [
+        "lemonde-journal",
+        "Metric-Bold",
+        "Metric-Regular"
+      ],
+      "type": {
+        "h1": {
+          "font": "Metric-Bold",
+          "size": 100,
+          "weight": "400",
+          "lineHeight": 0.9,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        },
+        "h2": {
+          "font": "Metric-Bold",
+          "size": 36,
+          "weight": "400",
+          "lineHeight": 1.2,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        },
+        "h3": {
+          "font": "Metric-Regular",
+          "size": 22,
+          "weight": "400",
+          "lineHeight": 1.74,
+          "letterSpacing": "normal",
+          "color": "rgb(150, 150, 150)"
+        },
+        "body": {
+          "font": "lemonde-journal",
+          "size": 22,
+          "weight": "400",
+          "lineHeight": 1.74,
+          "letterSpacing": "normal",
+          "color": "rgb(66, 66, 66)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#d8d8d8"
+        ],
+        "text": [
+          "#424242",
+          "#000000",
+          "#969696"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": 1500
     }
   },
   {
@@ -90655,6 +90985,87 @@
     }
   },
   {
+    "id": "sonja-kaufmann-landing",
+    "site": "Sonja Kaufmann",
+    "url": "http://sonjaka.de",
+    "type": "landing",
+    "tags": [
+      "yellow-dots",
+      "highlighter-chips",
+      "german",
+      "consultant"
+    ],
+    "note": "A marketing consultant sets a yellow dotted panel with her name in a white box, and references as yellow highlighter blobs: a cheerful two-colour system for a one-person service page.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/sonja-kaufmann-landing-desktop.jpg",
+        "width": 1440,
+        "height": 2428
+      },
+      "mobile": {
+        "file": "screens/sonja-kaufmann-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Sonja Kaufmann · Freelance Digital Marketing Consultant",
+      "fonts": [
+        "Roboto",
+        "Quicksand"
+      ],
+      "type": {
+        "h1": {
+          "font": "Quicksand",
+          "size": 48,
+          "weight": "700",
+          "lineHeight": 1.2,
+          "letterSpacing": "-1px",
+          "color": "rgb(34, 34, 34)"
+        },
+        "h2": {
+          "font": "Quicksand",
+          "size": 24,
+          "weight": "700",
+          "lineHeight": 1.4,
+          "letterSpacing": "-1px",
+          "color": "rgb(34, 34, 34)"
+        },
+        "h3": {
+          "font": "Quicksand",
+          "size": 20,
+          "weight": "700",
+          "lineHeight": 1.4,
+          "letterSpacing": "-1px",
+          "color": "rgb(34, 34, 34)"
+        },
+        "body": {
+          "font": "Roboto",
+          "size": 18,
+          "weight": "300",
+          "lineHeight": 1.6,
+          "letterSpacing": "normal",
+          "color": "rgb(34, 34, 34)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#ffffff",
+          "#63a6c8",
+          "#fff76e"
+        ],
+        "text": [
+          "#ffffff",
+          "#222222"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": 960
+    }
+  },
+  {
     "id": "sorare-landing",
     "site": "Sorare",
     "url": "https://sorare.com",
@@ -100647,6 +101058,72 @@
     }
   },
   {
+    "id": "tim-brack-landing",
+    "site": "Tim Brack",
+    "url": "http://www.timbrack.de",
+    "type": "landing",
+    "tags": [
+      "grey-emphasis",
+      "huge-sentence",
+      "lowercase",
+      "art-director"
+    ],
+    "note": "An art director writes 'hi. my name is tim.' in huge lowercase black type with the key words in grey, and the contact line the same size: the sentence is the design.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/tim-brack-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/tim-brack-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "tim brack, senior art director",
+      "fonts": [
+        "Grotesk-Bold"
+      ],
+      "type": {
+        "h1": {
+          "font": "Grotesk-Bold",
+          "size": 170,
+          "weight": "400",
+          "lineHeight": 0.88,
+          "letterSpacing": "-3.4px",
+          "color": "rgb(255, 255, 255)"
+        },
+        "h2": {
+          "font": "Grotesk-Bold",
+          "size": 320,
+          "weight": "400",
+          "lineHeight": 0.8,
+          "letterSpacing": "-9.6px",
+          "color": "rgb(0, 0, 0)"
+        },
+        "h3": null,
+        "body": null
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#ffffff",
+          "#222222"
+        ],
+        "text": [
+          "#ffffff",
+          "#000000",
+          "#999999"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": null
+    }
+  },
+  {
     "id": "tinybird-landing",
     "site": "Tinybird",
     "url": "https://www.tinybird.co",
@@ -106851,6 +107328,80 @@
         }
       ],
       "contentWidth": 1410
+    }
+  },
+  {
+    "id": "weightshift-landing",
+    "site": "Weightshift",
+    "url": "http://weightshift.com",
+    "type": "landing",
+    "tags": [
+      "archive-notice",
+      "serif-headline",
+      "project-ledger",
+      "product-studio"
+    ],
+    "note": "A product studio keeps its old site with a line on top, 'This version is an archive for posterity', then a ledger of projects by year, client and scope: an honest archive that still sells.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/weightshift-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/weightshift-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Weightshift • Product design, direction & strategy • San Francisco, CA",
+      "fonts": [
+        "ScandiaWebRegular",
+        "Mirador-Bold"
+      ],
+      "type": {
+        "h1": {
+          "font": "Mirador-Bold",
+          "size": 64,
+          "weight": "400",
+          "lineHeight": 1,
+          "letterSpacing": "-0.88px",
+          "color": "rgb(68, 68, 68)"
+        },
+        "h2": {
+          "font": "Mirador-Bold",
+          "size": 50,
+          "weight": "400",
+          "lineHeight": 1,
+          "letterSpacing": "-0.88px",
+          "color": "rgb(68, 68, 68)"
+        },
+        "h3": {
+          "font": "ScandiaWebRegular",
+          "size": 30,
+          "weight": "400",
+          "lineHeight": 1.15,
+          "letterSpacing": "-0.88px",
+          "color": "rgb(235, 235, 232)"
+        },
+        "body": null
+      },
+      "colors": {
+        "background": "#ebebe8",
+        "surfaces": [
+          "#ffffff"
+        ],
+        "text": [
+          "#666666",
+          "#333333",
+          "#444444",
+          "#ebebe8"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": null
     }
   },
   {

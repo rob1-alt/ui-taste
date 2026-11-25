@@ -16145,5 +16145,101 @@
    "design-system"
   ],
   "note": "A designer makes his homepage the site's own living style guide: logo, four named colours (Ink, Accent, Sand, Sky), type scale, then projects."
+ },
+ {
+  "site": "Andre Pahl",
+  "type": "landing",
+  "url": "http://andrepahl.com",
+  "tags": [
+   "sticky-note-about",
+   "poster-screens",
+   "grid",
+   "interaction-designer"
+  ],
+  "note": "An interaction designer puts his about text on a yellow sticky note in the corner, over a grid of loud poster-like website screens: one paper-note gesture, the work does the rest."
+ },
+ {
+  "site": "Anekdote",
+  "type": "landing",
+  "url": "https://anekdote.co",
+  "tags": [
+   "directory-index",
+   "giant-wordmark",
+   "category-tags",
+   "brands-products-toggle"
+  ],
+  "note": "A handpicked directory of independent brands sets 'Anekdote' huge, then lists hundreds of brands in four columns with grey category tags and a Brands / Products toggle: the list is the product."
+ },
+ {
+  "site": "Benoit Challand",
+  "type": "landing",
+  "url": "http://www.benoitchalland.com",
+  "tags": [
+   "upcoming-shows",
+   "text-first",
+   "numbered-works",
+   "artist"
+  ],
+  "note": "An artist opens on '(upcoming shows)' and '(previous shows)' with dates, places and curators, then a numbered grid of works: the calendar comes before the pictures."
+ },
+ {
+  "site": "Kim Walker",
+  "type": "landing",
+  "url": "http://www.walker.kim",
+  "tags": [
+   "inline-logo-chips",
+   "superscript-dates",
+   "sabbatical-note",
+   "coloured-links"
+  ],
+  "note": "A staff product designer writes her bio with company logos inline, superscript year ranges ('2020→26') and a note that she is on sabbatical building her own apps: status, history and links in one paragraph."
+ },
+ {
+  "site": "Michael Evensen",
+  "type": "landing",
+  "url": "http://www.michaelevensen.com",
+  "tags": [
+   "single-case-home",
+   "in-depth-retrospective",
+   "serif-body",
+   "app-screens"
+  ],
+  "note": "A product designer makes the homepage one in-depth retrospective ('Building SoundCloud'), with serif body copy and the app screens of the time: one story told fully instead of ten thumbnails."
+ },
+ {
+  "site": "Sonja Kaufmann",
+  "type": "landing",
+  "url": "http://sonjaka.de",
+  "tags": [
+   "yellow-dots",
+   "highlighter-chips",
+   "german",
+   "consultant"
+  ],
+  "note": "A marketing consultant sets a yellow dotted panel with her name in a white box, and references as yellow highlighter blobs: a cheerful two-colour system for a one-person service page."
+ },
+ {
+  "site": "Tim Brack",
+  "type": "landing",
+  "url": "http://www.timbrack.de",
+  "tags": [
+   "grey-emphasis",
+   "huge-sentence",
+   "lowercase",
+   "art-director"
+  ],
+  "note": "An art director writes 'hi. my name is tim.' in huge lowercase black type with the key words in grey, and the contact line the same size: the sentence is the design."
+ },
+ {
+  "site": "Weightshift",
+  "type": "landing",
+  "url": "http://weightshift.com",
+  "tags": [
+   "archive-notice",
+   "serif-headline",
+   "project-ledger",
+   "product-studio"
+  ],
+  "note": "A product studio keeps its old site with a line on top, 'This version is an archive for posterity', then a ledger of projects by year, client and scope: an honest archive that still sells."
  }
 ]

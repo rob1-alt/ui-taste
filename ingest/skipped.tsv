@@ -2389,3 +2389,53 @@ http://lippzahnschirm.com	photo columns, little to learn
 http://saulfougnier.com	desktop stops after one tile
 http://this.design	desktop hero only: strip then black
 https://timothyachumba.com	dark product-designer layout, common
+http://www.leannebentley.co.uk	broken (URLError) (prefilter)
+http://charlesdeluvio.com	redirects off-site (deluvio.com) (prefilter)
+http://www.sylviaprats.com	broken (URLError) (prefilter)
+http://nikasimovich.com	redirects off-site (nikafisher.com) (prefilter)
+http://admirhadzic.com	broken (URLError) (prefilter)
+http://www.mrkylemac.com	broken (http 526) (prefilter)
+http://dow-smith.com	redirects off-site (jakedowsmith.com) (prefilter)
+http://www.tavanovincent.com	redirects off-site (glevsky.com) (prefilter)
+http://www.putput.dk	broken (URLError) (prefilter)
+http://pierre.graphics	redirects off-site (pierrepicouleau.com) (prefilter)
+http://christopherireland.net	redirects off-site (christopherirelandcreative.com) (prefilter)
+http://www.dejan-markovic.com	redirects off-site (dejan.works) (prefilter)
+http://doamaral.com/#/index	redirects off-site (andre.work) (prefilter)
+http://www.eduardonunes.me/index.php#index.php	blocked (http 403) (prefilter)
+http://robinclediere.com/streak	broken (http 404) (prefilter)
+http://www.davidmcg.co.uk	broken (URLError) (prefilter)
+http://www.timboelaars.nl	redirects off-site (timboelaars.com) (prefilter)
+http://www.karimartin.cz	broken (URLError) (prefilter)
+http://alessandroscarpellini.it/logos	plain logo grid under a centred intro; no designed moment
+http://brian-baker.com	password gate; page is a black screen with a password field
+http://carrillo.co.uk	domain parking page (domain for sale
+http://www.danieleckler.com	dark bio page with emoji headline and plain link list
+http://dutchcouragecreative.com	embedded YouTube reel shows a bot-check error; strong wordma
+http://elirousso.com	dark text-only list of projects with generic visit buttons
+http://triner.de	IONOS domain-registrar ad page; not the person's site
+http://helene-chataigner.com	gambling slot ad page; not the person's site
+http://www.istvanvasil.com	site hijacked by gambling ad; only a small text block surviv
+https://jeremiebattaglia.com/en	only a cropped hero glyph then an empty white page
+http://lynnschmidt.de	photo grid with black unloaded tiles in the lower half
+http://karalevich.com	centred statement and Shopify card; standard case-study temp
+http://mike-guss.com	text-only intro beside a grey panel of dashes; nothing disti
+http://yehteh.com	broken image icon under the heading; page empty below the he
+http://pieter-de-jong.nl	standard webdeveloper portfolio; centred name and thumbnail 
+http://seanjklassen.com	dark page of dense paragraph text with no visual design
+http://www.sidneylim.com	grid of gradient placeholder tiles; reads as placeholder art
+http://tcyk.com.au	single hero image then an empty page
+http://tinaschueler.com	blue-bordered intro card and project cards; standard UX port
+http://www.alexandrerochet.com	blank
+http://brockkenzler.com	blank
+http://davidbastian.red	blank
+http://emanuelezenoni.com	blank
+http://hassler.io	blank
+http://leilamcglew.com	blank
+http://moodwood.ch	blank
+http://musterfirma.org	blank
+http://jordansowers.com	lower capture empty
+http://www.katrin.cool	one short screen of cards, black below
+http://paulgacon.com	archive grid with mono captions, already covered
+http://studio-laucke-siebein.com	desktop hero only
+http://studiomh.co.uk	colour bento tiles, common
