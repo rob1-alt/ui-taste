@@ -12855,6 +12855,62 @@
     }
   },
   {
+    "id": "aku-landing",
+    "site": "AKU",
+    "url": "http://aku.co",
+    "type": "landing",
+    "tags": [
+      "caps-project-list",
+      "centred",
+      "tallinn",
+      "typographic-index"
+    ],
+    "note": "A Tallinn design bureau's homepage is one paragraph and then its projects as a centred list of large caps names (with small '(with sound)' notes): the client list read like a poem.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/aku-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/aku-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "AKU – AKU is a design studio based in Tallinn, Estonia. We develop strategies, create concepts and implement solutions across different media.",
+      "fonts": [
+        "GT-America-Light"
+      ],
+      "type": {
+        "h1": {
+          "font": "GT-America-Light",
+          "size": 40,
+          "weight": "400",
+          "lineHeight": 1.4,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        },
+        "h2": null,
+        "h3": null,
+        "body": null
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#ffffff"
+        ],
+        "text": [
+          "#000000"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": null
+    }
+  },
+  {
     "id": "akuto-studio-landing",
     "site": "Akuto Studio",
     "url": "https://akutostudio.com",
@@ -17165,6 +17221,66 @@
     }
   },
   {
+    "id": "b-reel-landing",
+    "site": "B-Reel",
+    "url": "http://www.b-reel.com",
+    "type": "landing",
+    "tags": [
+      "3d-inflated-letters",
+      "umbrella-icon",
+      "big-sans",
+      "design-studio"
+    ],
+    "note": "B-Reel shows its name as inflated 3D letters in a sky-blue square, then 'Feels Like' huge: the studio presents itself through one soft object.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/b-reel-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/b-reel-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "B-REEL — B-Reel",
+      "fonts": [
+        "Work Sans",
+        "brIcons"
+      ],
+      "type": {
+        "h1": null,
+        "h2": null,
+        "h3": null,
+        "body": {
+          "font": "Work Sans",
+          "size": 22,
+          "weight": "500",
+          "lineHeight": 1.3,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#ffffff",
+          "#bcbcbd"
+        ],
+        "text": [
+          "#000000",
+          "#0000ff",
+          "#ffffff"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": 1440
+    }
+  },
+  {
     "id": "backyard-landing",
     "site": "Backyard",
     "url": "https://www.samara.com/backyard",
@@ -21372,6 +21488,81 @@
     }
   },
   {
+    "id": "bureau-daniel-groner-landing",
+    "site": "Bureau Daniel Groner",
+    "url": "http://www.danielgroner.com",
+    "type": "landing",
+    "tags": [
+      "big-paragraph",
+      "heavy-caps-heading",
+      "work-cards",
+      "berlin"
+    ],
+    "note": "A Berlin bureau writes its whole intro as one big paragraph and labels the work 'THE WORK WE DO' in heavy caps: two type sizes and nothing else.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/bureau-daniel-groner-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/bureau-daniel-groner-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Bureau Daniel Groner - design and web development",
+      "fonts": [
+        "DiaBold"
+      ],
+      "type": {
+        "h1": {
+          "font": "DiaBold",
+          "size": 84,
+          "weight": "700",
+          "lineHeight": 1.05,
+          "letterSpacing": "normal",
+          "color": "rgb(34, 34, 34)"
+        },
+        "h2": {
+          "font": "DiaBold",
+          "size": 141,
+          "weight": "700",
+          "lineHeight": "normal",
+          "letterSpacing": "normal",
+          "color": "rgb(34, 34, 34)"
+        },
+        "h3": {
+          "font": "DiaBold",
+          "size": 43,
+          "weight": "700",
+          "lineHeight": 1,
+          "letterSpacing": "normal",
+          "color": "rgb(34, 34, 34)"
+        },
+        "body": {
+          "font": "DiaBold",
+          "size": 43,
+          "weight": "700",
+          "lineHeight": "normal",
+          "letterSpacing": "normal",
+          "color": "rgb(34, 34, 34)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [],
+        "text": [
+          "#222222"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": 1512
+    }
+  },
+  {
     "id": "bureau-for-visual-affairs-landing",
     "site": "Bureau for Visual Affairs",
     "url": "https://bureau-va.com",
@@ -23016,6 +23207,85 @@
         }
       ],
       "contentWidth": 1440
+    }
+  },
+  {
+    "id": "cetrucflotte-landing",
+    "site": "Cetrucflotte",
+    "url": "https://cetrucflotte.com",
+    "type": "landing",
+    "tags": [
+      "cyan-waves",
+      "orange-headline",
+      "lifebuoy",
+      "houses-and-print"
+    ],
+    "note": "'A crew of designers cruising between web, print and photography' on a cyan field of drawn waves with a lifebuoy: the nautical name becomes the page's world.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/cetrucflotte-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/cetrucflotte-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Cetrucflotte – Graphic design, screens and fine bubbles",
+      "fonts": [
+        "Aileron"
+      ],
+      "type": {
+        "h1": {
+          "font": "Aileron",
+          "size": 64,
+          "weight": "900",
+          "lineHeight": 1.1,
+          "letterSpacing": "normal",
+          "color": "rgb(37, 37, 37)"
+        },
+        "h2": {
+          "font": "Aileron",
+          "size": 16,
+          "weight": "700",
+          "lineHeight": 1.2,
+          "letterSpacing": "0.4px",
+          "color": "rgb(233, 85, 0)"
+        },
+        "h3": {
+          "font": "Aileron",
+          "size": 42,
+          "weight": "700",
+          "lineHeight": 1.2,
+          "letterSpacing": "normal",
+          "color": "rgb(255, 255, 255)"
+        },
+        "body": {
+          "font": "Aileron",
+          "size": 20,
+          "weight": "400",
+          "lineHeight": 1.4,
+          "letterSpacing": "normal",
+          "color": "rgb(37, 37, 37)"
+        }
+      },
+      "colors": {
+        "background": "#a7ecf8",
+        "surfaces": [
+          "#a7ecf8",
+          "#ffffff"
+        ],
+        "text": [
+          "#252525",
+          "#e95500"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": null
     }
   },
   {
@@ -26434,6 +26704,61 @@
         }
       ],
       "contentWidth": 1160
+    }
+  },
+  {
+    "id": "creanet-landing",
+    "site": "Creanet",
+    "url": "http://www.creanet.es",
+    "type": "landing",
+    "tags": [
+      "editorial-grid",
+      "print-catalogues",
+      "book-design",
+      "collage-portraits"
+    ],
+    "note": "A print and editorial studio shows catalogues and books as spreads in a grid with short captions on pale mint: the page reads like its own portfolio book.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/creanet-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/creanet-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "creanet — Branding and Graphic Design",
+      "fonts": [
+        "Sans"
+      ],
+      "type": {
+        "h1": null,
+        "h2": null,
+        "h3": null,
+        "body": {
+          "font": "Sans",
+          "size": 13,
+          "weight": "400",
+          "lineHeight": 1.15,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [],
+        "text": [
+          "#000000",
+          "#e63856"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": null
     }
   },
   {
@@ -33635,6 +33960,72 @@
           "#524b48",
           "#ffffff",
           "#ff8c8c"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": null
+    }
+  },
+  {
+    "id": "fabian-fred-landing",
+    "site": "Fabian&Fred",
+    "url": "http://www.fabianfred.com",
+    "type": "landing",
+    "tags": [
+      "welcome-line",
+      "film-catalogue",
+      "thumbnail-grid",
+      "animation-studio"
+    ],
+    "note": "An animation studio: 'Welcome. We are a studio for film and animation.' then a grid of film stills with titles and production status: the slate of films is the homepage.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/fabian-fred-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/fabian-fred-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Fabian&Fred",
+      "fonts": [
+        "theinhardtlight-webfont",
+        "Times New Roman",
+        "theinhardtbold-webfont"
+      ],
+      "type": {
+        "h1": {
+          "font": "theinhardtbold-webfont",
+          "size": 43,
+          "weight": "300",
+          "lineHeight": 1.1,
+          "letterSpacing": "-0.432px",
+          "color": "rgb(0, 0, 0)"
+        },
+        "h2": null,
+        "h3": null,
+        "body": {
+          "font": "theinhardtlight-webfont",
+          "size": 17,
+          "weight": "300",
+          "lineHeight": 1.7,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#ffffff"
+        ],
+        "text": [
+          "#000000",
+          "#020202"
         ]
       },
       "buttons": [],
@@ -45658,6 +46049,78 @@
     }
   },
   {
+    "id": "hyperkit-landing",
+    "site": "Hyperkit",
+    "url": "http://www.hyperkit.co.uk",
+    "type": "landing",
+    "tags": [
+      "photo-hero",
+      "big-paragraph",
+      "plain-type",
+      "london-studio"
+    ],
+    "note": "A London graphic studio puts one photographed sign on a brick wall and then two large paragraphs about its curiosity: one image and the voice.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/hyperkit-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/hyperkit-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Hyperkit",
+      "fonts": [
+        "FTAktual"
+      ],
+      "type": {
+        "h1": null,
+        "h2": {
+          "font": "FTAktual",
+          "size": 46,
+          "weight": "300",
+          "lineHeight": 1.2,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        },
+        "h3": {
+          "font": "FTAktual",
+          "size": 46,
+          "weight": "300",
+          "lineHeight": 1.35,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        },
+        "body": {
+          "font": "FTAktual",
+          "size": 16,
+          "weight": "300",
+          "lineHeight": 1.35,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        }
+      },
+      "colors": {
+        "background": "#f1f1f1",
+        "surfaces": [
+          "#f1f1f1",
+          "#ffffff",
+          "#000000"
+        ],
+        "text": [
+          "#000000"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": null
+    }
+  },
+  {
     "id": "i-miss-the-office-landing",
     "site": "I Miss the Office",
     "url": "https://imisstheoffice.eu",
@@ -51086,6 +51549,78 @@
         }
       ],
       "contentWidth": 1520
+    }
+  },
+  {
+    "id": "larssen-amaral-landing",
+    "site": "Larssen & Amaral",
+    "url": "http://www.larssenamaral.no",
+    "type": "landing",
+    "tags": [
+      "inline-icons",
+      "big-headline",
+      "purple-gradient-card",
+      "numbered-services"
+    ],
+    "note": "'Shaping ✎ tomorrow's ✸ brands ✌.' with small glyphs inside the headline, a purple gradient card for one case, then numbered services: icons used as punctuation.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/larssen-amaral-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3151
+      },
+      "mobile": {
+        "file": "screens/larssen-amaral-landing-mobile.jpg",
+        "width": 390,
+        "height": 2223
+      }
+    },
+    "tokens": {
+      "title": "Larssen Amaral - Shaping ✎ tomorrow's ✹ brands ✌",
+      "fonts": [
+        "Graphik",
+        "Itczapfdingbats"
+      ],
+      "type": {
+        "h1": {
+          "font": "Graphik",
+          "size": 115,
+          "weight": "500",
+          "lineHeight": 1,
+          "letterSpacing": "-4.608px",
+          "color": "rgb(0, 0, 0)"
+        },
+        "h2": {
+          "font": "Graphik",
+          "size": 14,
+          "weight": "600",
+          "lineHeight": 1.1,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        },
+        "h3": null,
+        "body": {
+          "font": "Graphik",
+          "size": 36,
+          "weight": "500",
+          "lineHeight": 1.2,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#00d12a",
+          "#000000"
+        ],
+        "text": [
+          "#000000"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": 686
     }
   },
   {
@@ -68272,6 +68807,82 @@
     }
   },
   {
+    "id": "pleid-landing",
+    "site": "Pleid.",
+    "url": "http://www.pleid.st",
+    "type": "landing",
+    "tags": [
+      "cgi-imagery",
+      "ticker-nav",
+      "italic-caps",
+      "sage-green",
+      "madrid-lab"
+    ],
+    "note": "A Madrid CGI lab mixes upright and italic caps in its description over ticker rows of its name, then large CGI scenes of moss and stones on sage: the imagery is the palette.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/pleid-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/pleid-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Pleid St.",
+      "fonts": [
+        "Space Grotesk",
+        "Inter",
+        "PPNeueMachina-InktrapRegularItalic"
+      ],
+      "type": {
+        "h1": {
+          "font": "PPNeueMachina-InktrapUltralight",
+          "size": 36,
+          "weight": "400",
+          "lineHeight": 1.22,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        },
+        "h2": {
+          "font": "PPNeueMachina-InktrapMedium",
+          "size": 20,
+          "weight": "400",
+          "lineHeight": 1.65,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        },
+        "h3": null,
+        "body": {
+          "font": "Space Grotesk",
+          "size": 18,
+          "weight": "300",
+          "lineHeight": 1.33,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#dddfd6",
+          "#000000",
+          "#1e1001"
+        ],
+        "text": [
+          "#000000",
+          "#ffffff"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": 1230
+    }
+  },
+  {
     "id": "poch-studio-landing",
     "site": "Poch Studio",
     "url": "https://poch.studio",
@@ -82672,6 +83283,69 @@
     }
   },
   {
+    "id": "studio-picnic-landing",
+    "site": "Studio Picnic",
+    "url": "http://www.studiopicnic.co",
+    "type": "landing",
+    "tags": [
+      "work-by-line",
+      "stacked-slabs",
+      "full-colour-blocks",
+      "serif-wordmarks"
+    ],
+    "note": "'Work by Studio Picnic' and then a single column of full-colour slabs, one per identity (a pink serif 'Ruth' on orange): one project per screen.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/studio-picnic-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/studio-picnic-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "",
+      "fonts": [
+        "moderatregular"
+      ],
+      "type": {
+        "h1": {
+          "font": "moderatregular",
+          "size": 30,
+          "weight": "400",
+          "lineHeight": 1.12,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        },
+        "h2": {
+          "font": "moderatregular",
+          "size": 20,
+          "weight": "400",
+          "lineHeight": 1.68,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        },
+        "h3": null,
+        "body": null
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#ffffff"
+        ],
+        "text": [
+          "#000000"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": null
+    }
+  },
+  {
     "id": "studio-rodrigo-landing",
     "site": "Studio Rodrigo",
     "url": "http://studiorodrigo.com",
@@ -82759,6 +83433,66 @@
         }
       ],
       "contentWidth": 1480
+    }
+  },
+  {
+    "id": "studiopucky-landing",
+    "site": "studiopucky",
+    "url": "http://puckey.studio",
+    "type": "landing",
+    "tags": [
+      "interactive-demos",
+      "caption-links",
+      "experimental",
+      "colour-images"
+    ],
+    "note": "An experimental interactive practice lists its projects as large images with a one-line invitation each ('Explore live radio worldwide by rotating the globe'): verbs instead of titles.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/studiopucky-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/studiopucky-landing-mobile.jpg",
+        "width": 390,
+        "height": 2202
+      }
+    },
+    "tokens": {
+      "title": "Studio Puckey",
+      "fonts": [
+        "lars"
+      ],
+      "type": {
+        "h1": null,
+        "h2": {
+          "font": "lars",
+          "size": 27,
+          "weight": "400",
+          "lineHeight": 1.15,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        },
+        "h3": null,
+        "body": null
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#40a598",
+          "#0004ff",
+          "#00ff00"
+        ],
+        "text": [
+          "#000000",
+          "#40a598",
+          "#0004ff"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": 1100
     }
   },
   {
@@ -90873,6 +91607,84 @@
     }
   },
   {
+    "id": "under-after-landing",
+    "site": "Under After",
+    "url": "http://underafter.com",
+    "type": "landing",
+    "tags": [
+      "dense-services-index",
+      "founder-bio",
+      "work-grid",
+      "nyc-studio"
+    ],
+    "note": "A New York brand studio fits the bio, the founder, the full services list and availability into the first screen as small columns, then a grid of work: everything a founder asks, answered above the fold.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/under-after-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/under-after-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Under After | New York Brand Strategy & Identity Studio",
+      "fonts": [
+        "Dazzed",
+        "Arial",
+        "SF Mono"
+      ],
+      "type": {
+        "h1": {
+          "font": "Dazzed",
+          "size": 27,
+          "weight": "400",
+          "lineHeight": 1.1,
+          "letterSpacing": "-1.35px",
+          "color": "rgb(255, 255, 255)"
+        },
+        "h2": {
+          "font": "SF Mono",
+          "size": 10,
+          "weight": "400",
+          "lineHeight": 1.4,
+          "letterSpacing": "1.2px",
+          "color": "rgb(108, 107, 105)"
+        },
+        "h3": null,
+        "body": {
+          "font": "Dazzed",
+          "size": 27,
+          "weight": "400",
+          "lineHeight": 1.5,
+          "letterSpacing": "-1.35px",
+          "color": "rgb(0, 0, 0)"
+        }
+      },
+      "colors": {
+        "background": "#f4f3ed",
+        "surfaces": [
+          "#f4f3ed",
+          "#ffffff",
+          "#3a3d3d",
+          "#222222"
+        ],
+        "text": [
+          "#222222",
+          "#3a3d3d",
+          "#ffffff",
+          "#6c6b69"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": 880
+    }
+  },
+  {
     "id": "unfun-landing",
     "site": "unfun",
     "url": "https://unfun.de",
@@ -91657,6 +92469,70 @@
         "surfaces": [
           "#ffce01",
           "#000000"
+        ],
+        "text": [
+          "#000000",
+          "#ffffff"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": null
+    }
+  },
+  {
+    "id": "vander-brand-landing",
+    "site": "Vander Brand",
+    "url": "http://www.vanderbrand.com",
+    "type": "landing",
+    "tags": [
+      "product-photography",
+      "big-images",
+      "small-captions",
+      "cans-and-fashion"
+    ],
+    "note": "A brand studio fills the page with big product photographs (cans in snow, a purple tag, a building) with tiny captions: the photography carries the identity work.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/vander-brand-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/vander-brand-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Vanderbrand",
+      "fonts": [
+        "SuisseIntl"
+      ],
+      "type": {
+        "h1": {
+          "font": "SuisseIntl",
+          "size": 24,
+          "weight": "400",
+          "lineHeight": 1.2,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        },
+        "h2": null,
+        "h3": null,
+        "body": {
+          "font": "SuisseIntl",
+          "size": 13,
+          "weight": "400",
+          "lineHeight": 1.23,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#ffffff"
         ],
         "text": [
           "#000000",

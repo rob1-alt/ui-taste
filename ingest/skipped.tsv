@@ -1806,3 +1806,35 @@ http://sgustokstudio.com	blank
 http://studiovedet.com	blank
 http://equalparts.studio	desktop pink and empty below the hero
 http://any.studio	broken (page timeout)
+http://www.odopod.com	broken (http 503) (prefilter)
+http://hingston.net	redirects off-site (hingston.studio) (prefilter)
+http://milkshak.es	redirects off-site (milkshake.studio) (prefilter)
+http://wearefounded.com	redirects off-site (founded.design) (prefilter)
+http://pollenlondon.com	redirects off-site (pollen.design) (prefilter)
+http://www.hatchinc.co	redirects off-site (wearehatch.co.uk) (prefilter)
+http://www.panic.lv/en	redirects off-site (panicstudio.tv) (prefilter)
+http://www.collectif-yay.com/en	broken (http 404) (prefilter)
+http://www.lunargravity.be	broken (URLError) (prefilter)
+http://2xelliott.co.uk	broken (http 526) (prefilter)
+http://youngandhungry.co	redirects off-site (boundlesslabs.io) (prefilter)
+http://www.aperto.de/de	bot wall (prefilter)
+http://56.digital	hero only: desktop capture is a small nav and one card with 
+https://www.acolorbright.com	studio page with one large textured illustration and a plain
+http://akeolab.com	cPanel "SORRY!" parked/error page; not the studio site
+http://www.bolden.nl	"We craft impactful branding" with grey service card grid; S
+http://www.cartelle.nl	hero only: a black and white hero then empty grey and black 
+http://fatkingfilms.com	hero only: a robot image and tiny quote; then a black band; 
+http://konst-teknik.se	hero only: a large orange book cover photo and empty space b
+http://method.digital	dark forest video-style hero; navy block and "We excite mind
+http://monikersf.com	hero only: a dark photo with a small emblem; then black belo
+http://okfoc.us	plain unstyled text stub with a few links and an email; near
+http://richards.partners	strategy agency with a stock-like image; book card and stat 
+http://ruban.io	wide-tracked wordmark; one centred line and a single photo; 
+http://studiorufusisback.be	Dutch web-design blog listing with article cards; reads as a
+http://studiouna.de	German dark studio hero with a standard headline; logo row a
+http://www.thisistaste.de	parked domain page ;"Diese Domain wurde geparkt";
+http://mapprojectoffice.com	blank
+http://ustwo.com	blank
+http://www.alonzofelix.com	thin, one framed image
+https://www.armourylondon.com	hero and footer only, partial
+http://hungry.at	plain agency page

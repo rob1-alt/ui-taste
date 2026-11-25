@@ -13886,5 +13886,162 @@
    "dark-video-section"
   ],
   "note": "A studio sets 'The Unmistakably Original® Design Studio' as words in pills with a pixel face, under a 3D handheld console: retro game cues carry the voice."
+ },
+ {
+  "site": "AKU",
+  "type": "landing",
+  "url": "http://aku.co",
+  "tags": [
+   "caps-project-list",
+   "centred",
+   "tallinn",
+   "typographic-index"
+  ],
+  "note": "A Tallinn design bureau's homepage is one paragraph and then its projects as a centred list of large caps names (with small '(with sound)' notes): the client list read like a poem."
+ },
+ {
+  "site": "B-Reel",
+  "type": "landing",
+  "url": "http://www.b-reel.com",
+  "tags": [
+   "3d-inflated-letters",
+   "umbrella-icon",
+   "big-sans",
+   "design-studio"
+  ],
+  "note": "B-Reel shows its name as inflated 3D letters in a sky-blue square, then 'Feels Like' huge: the studio presents itself through one soft object."
+ },
+ {
+  "site": "Bureau Daniel Groner",
+  "type": "landing",
+  "url": "http://www.danielgroner.com",
+  "tags": [
+   "big-paragraph",
+   "heavy-caps-heading",
+   "work-cards",
+   "berlin"
+  ],
+  "note": "A Berlin bureau writes its whole intro as one big paragraph and labels the work 'THE WORK WE DO' in heavy caps: two type sizes and nothing else."
+ },
+ {
+  "site": "Cetrucflotte",
+  "type": "landing",
+  "url": "https://cetrucflotte.com",
+  "tags": [
+   "cyan-waves",
+   "orange-headline",
+   "lifebuoy",
+   "houses-and-print"
+  ],
+  "note": "'A crew of designers cruising between web, print and photography' on a cyan field of drawn waves with a lifebuoy: the nautical name becomes the page's world."
+ },
+ {
+  "site": "Creanet",
+  "type": "landing",
+  "url": "http://www.creanet.es",
+  "tags": [
+   "editorial-grid",
+   "print-catalogues",
+   "book-design",
+   "collage-portraits"
+  ],
+  "note": "A print and editorial studio shows catalogues and books as spreads in a grid with short captions on pale mint: the page reads like its own portfolio book."
+ },
+ {
+  "site": "Fabian&Fred",
+  "type": "landing",
+  "url": "http://www.fabianfred.com",
+  "tags": [
+   "welcome-line",
+   "film-catalogue",
+   "thumbnail-grid",
+   "animation-studio"
+  ],
+  "note": "An animation studio: 'Welcome. We are a studio for film and animation.' then a grid of film stills with titles and production status: the slate of films is the homepage."
+ },
+ {
+  "site": "Hyperkit",
+  "type": "landing",
+  "url": "http://www.hyperkit.co.uk",
+  "tags": [
+   "photo-hero",
+   "big-paragraph",
+   "plain-type",
+   "london-studio"
+  ],
+  "note": "A London graphic studio puts one photographed sign on a brick wall and then two large paragraphs about its curiosity: one image and the voice."
+ },
+ {
+  "site": "Larssen & Amaral",
+  "type": "landing",
+  "url": "http://www.larssenamaral.no",
+  "tags": [
+   "inline-icons",
+   "big-headline",
+   "purple-gradient-card",
+   "numbered-services"
+  ],
+  "note": "'Shaping ✎ tomorrow's ✸ brands ✌.' with small glyphs inside the headline, a purple gradient card for one case, then numbered services: icons used as punctuation."
+ },
+ {
+  "site": "Pleid.",
+  "type": "landing",
+  "url": "http://www.pleid.st",
+  "tags": [
+   "cgi-imagery",
+   "ticker-nav",
+   "italic-caps",
+   "sage-green",
+   "madrid-lab"
+  ],
+  "note": "A Madrid CGI lab mixes upright and italic caps in its description over ticker rows of its name, then large CGI scenes of moss and stones on sage: the imagery is the palette."
+ },
+ {
+  "site": "Studio Picnic",
+  "type": "landing",
+  "url": "http://www.studiopicnic.co",
+  "tags": [
+   "work-by-line",
+   "stacked-slabs",
+   "full-colour-blocks",
+   "serif-wordmarks"
+  ],
+  "note": "'Work by Studio Picnic' and then a single column of full-colour slabs, one per identity (a pink serif 'Ruth' on orange): one project per screen."
+ },
+ {
+  "site": "studiopucky",
+  "type": "landing",
+  "url": "http://puckey.studio",
+  "tags": [
+   "interactive-demos",
+   "caption-links",
+   "experimental",
+   "colour-images"
+  ],
+  "note": "An experimental interactive practice lists its projects as large images with a one-line invitation each ('Explore live radio worldwide by rotating the globe'): verbs instead of titles."
+ },
+ {
+  "site": "Under After",
+  "type": "landing",
+  "url": "http://underafter.com",
+  "tags": [
+   "dense-services-index",
+   "founder-bio",
+   "work-grid",
+   "nyc-studio"
+  ],
+  "note": "A New York brand studio fits the bio, the founder, the full services list and availability into the first screen as small columns, then a grid of work: everything a founder asks, answered above the fold."
+ },
+ {
+  "site": "Vander Brand",
+  "type": "landing",
+  "url": "http://www.vanderbrand.com",
+  "tags": [
+   "product-photography",
+   "big-images",
+   "small-captions",
+   "cans-and-fashion"
+  ],
+  "note": "A brand studio fills the page with big product photographs (cans in snow, a purple tag, a building) with tiny captions: the photography carries the identity work."
  }
 ]
