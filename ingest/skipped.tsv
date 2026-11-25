@@ -1460,3 +1460,41 @@ https://www.juliajohnson.com	partial render, empty colour blocks
 https://monolithstudio.com	desktop empty below the intro
 https://patrickmiller.se	empty below the carousel
 https://qude.audio	empty video block, partial
+https://www.schema.supply	redirects off-site (tpasports.net) (prefilter)
+https://somehow.com	broken (URLError) (prefilter)
+https://rod-zha.com	broken (http 404) (prefilter)
+https://shelbykay.dev	bot wall (cloudflare) (prefilter)
+http://angela-moore.co.uk	desktop shows one photo then empty white and black block; he
+http://axelwyart.com	Access Denied on both captures
+https://barraultpressacco.com	desktop mostly empty; one image and tiny nav; hero only
+https://www.danielboddam.com	desktop hero split ARCHITECTURE/FURNITURE then empty below; 
+https://davidgomezmaestre.com	mobile is unstyled plain HTML link list; desktop one green b
+http://dexternavy.com	desktop one photo then empty; mobile tiny; hero only
+https://ericpetschek.com	desktop interior photo then empty below; hero only
+https://www.flavioefrank.it	desktop hero only; empty below the first screen; mobile albu
+https://groepddeco.be	desktop mostly white with small logo and one image; hero onl
+http://www.guillaumetomasi.com	scattered collage with scroll-to-navigate cue; scroll engine
+https://www.in-puls.com	cookie-style security wall ;"couldn't verify the security of
+http://www.jackdavison.co.uk	desktop portrait photos then empty; hero only
+http://jeremypbeasley.com	stock WordPress blog layout; default theme
+https://jimmylinus.com	photographer template portfolio with hero image and Vogue gr
+https://www.lunneryd.com	full-screen hero Ljuset then black; hero only
+http://rafalklos.com	stat tiles; card grid and template-style strategy copy
+http://rickardsund.com	portrait photo then empty; hero only
+http://www.saramarandi.com	typographic name list fills first screen; empty below; hero 
+https://studiobrophy.com	huge STUDIO BROPHY type over one photo; hero only
+https://viniciussiega.com	full-screen ARQUIVO hero; empty below; hero only
+https://yoyoyo.photos	dumpster rental local-service template with orange CTA
+https://520w28.artmilitonian.com	desktop mostly empty white with logo; hero only
+http://leighsimpson.com	blank
+http://sachamaric.com	blank
+http://timflach.com	blank
+http://tudorprisacariu.com	plain photo-series grid
+http://matthiasweingaertner.com	photo portfolio, nothing new
+http://www.leandrofarina.com	photo portfolio, nothing new
+http://www.seanfennessy.com.au	scattered photos, already covered
+https://kjphotos.com	staggered photos, already covered
+http://cecile-bortoletti.com	desktop partial render
+https://www.josefinelaul.com	hero only
+http://bytombird.com	desktop images not loaded
+http://zissou.com	mobile empty, partial

@@ -12462,5 +12462,93 @@
    "client-logos"
   ],
   "note": "An industrial design studio mixes work, news, 'projections' (yellow cards) and client logos in one bento grid of equal cards: the homepage is a board of what the studio is doing."
+ },
+ {
+  "site": "4 years of Unsplash",
+  "type": "landing",
+  "url": "http://1460.unsplash.com",
+  "tags": [
+   "annual-letter",
+   "large-text",
+   "dark-mode",
+   "filmstrip",
+   "muted-asides"
+  ],
+  "note": "A company anniversary told as a letter in large white type on black, with asides in grey inside the sentences ('(and we're looking for a few more)') and photos on a filmstrip between paragraphs: the update reads like a note from the founders."
+ },
+ {
+  "site": "APA",
+  "type": "landing",
+  "url": "http://www.aparchitecture.fr/en",
+  "tags": [
+   "wordmark-over-photo",
+   "architecture",
+   "photo-grid",
+   "minimal-type"
+  ],
+  "note": "A carpentry and architecture practice sets its three letters in thin white over a photo of its own building, then only photos: the wordmark sits on the work."
+ },
+ {
+  "site": "Ben Mingo",
+  "type": "landing",
+  "url": "http://www.benmingo.com",
+  "tags": [
+   "contact-sheet",
+   "file-names",
+   "tiny-thumbnails",
+   "index-grid",
+   "art-director"
+  ],
+  "note": "An art director shows the whole archive as a contact sheet of tiny thumbnails labelled with their file names: the index is the portfolio, browsed like a folder."
+ },
+ {
+  "site": "Marcus Eriksson",
+  "type": "landing",
+  "url": "http://themarcus.com",
+  "tags": [
+   "custom-wordmark",
+   "ligatures",
+   "scattered-photos",
+   "grey-field"
+  ],
+  "note": "A photographer's name drawn as a custom wordmark with swashes and ligatures over a grey field of scattered photos of different sizes: one typographic object gives a plain photo page its identity."
+ },
+ {
+  "site": "Mikhail Riches",
+  "type": "landing",
+  "url": "http://www.mikhailriches.com",
+  "tags": [
+   "big-number",
+   "photo-hero",
+   "sustainability",
+   "project-cards",
+   "testimonial"
+  ],
+  "note": "An architecture practice leads with '535 Homes Delivered' as a huge number over a photo of residents: the proof is a count of homes, not a slogan."
+ },
+ {
+  "site": "Snøhetta",
+  "type": "landing",
+  "url": "https://www.snohetta.com",
+  "tags": [
+   "statement",
+   "photo-strip",
+   "discipline-list",
+   "news",
+   "events-calendar"
+  ],
+  "note": "Snøhetta's homepage is one sentence, a strip of project photos, its four disciplines as a large list, then news and an events calendar: a global practice that reads as an institution, not a portfolio."
+ },
+ {
+  "site": "Terring Photo",
+  "type": "landing",
+  "url": "http://terringphoto.com",
+  "tags": [
+   "scattered-collage",
+   "photo-wall",
+   "documentary",
+   "varied-sizes"
+  ],
+  "note": "A documentary photographer fills the page with photos of every size scattered edge to edge: the density of the collage is the voice."
  }
 ]

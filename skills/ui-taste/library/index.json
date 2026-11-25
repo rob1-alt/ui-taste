@@ -11125,6 +11125,64 @@
     }
   },
   {
+    "id": "4-years-of-unsplash-landing",
+    "site": "4 years of Unsplash",
+    "url": "http://1460.unsplash.com",
+    "type": "landing",
+    "tags": [
+      "annual-letter",
+      "large-text",
+      "dark-mode",
+      "filmstrip",
+      "muted-asides"
+    ],
+    "note": "A company anniversary told as a letter in large white type on black, with asides in grey inside the sentences ('(and we're looking for a few more)') and photos on a filmstrip between paragraphs: the update reads like a note from the founders.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/4-years-of-unsplash-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/4-years-of-unsplash-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "4 years of Unsplash | 1460 days later",
+      "fonts": [
+        "-apple-system",
+        "courier"
+      ],
+      "type": {
+        "h1": null,
+        "h2": null,
+        "h3": null,
+        "body": {
+          "font": "-apple-system",
+          "size": 21,
+          "weight": "400",
+          "lineHeight": 1.6,
+          "letterSpacing": "normal",
+          "color": "rgb(254, 254, 254)"
+        }
+      },
+      "colors": {
+        "background": "#000000",
+        "surfaces": [],
+        "text": [
+          "#fefefe",
+          "#ffffff",
+          "#f5f5f5"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": 1600
+    }
+  },
+  {
     "id": "70materia-landing",
     "site": "70Materia",
     "url": "https://70materia.com",
@@ -14204,6 +14262,80 @@
       },
       "buttons": [],
       "contentWidth": null
+    }
+  },
+  {
+    "id": "apa-landing",
+    "site": "APA",
+    "url": "http://www.aparchitecture.fr/en",
+    "type": "landing",
+    "tags": [
+      "wordmark-over-photo",
+      "architecture",
+      "photo-grid",
+      "minimal-type"
+    ],
+    "note": "A carpentry and architecture practice sets its three letters in thin white over a photo of its own building, then only photos: the wordmark sits on the work.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/apa-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/apa-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "APA",
+      "fonts": [
+        "walsheim"
+      ],
+      "type": {
+        "h1": {
+          "font": "walsheim",
+          "size": 224,
+          "weight": "400",
+          "lineHeight": 1.3,
+          "letterSpacing": "22.4px",
+          "color": "rgb(255, 255, 255)"
+        },
+        "h2": null,
+        "h3": {
+          "font": "walsheim",
+          "size": 24,
+          "weight": "400",
+          "lineHeight": 1.3,
+          "letterSpacing": "normal",
+          "color": "rgb(51, 51, 51)"
+        },
+        "body": {
+          "font": "walsheim",
+          "size": 28,
+          "weight": "400",
+          "lineHeight": 1.3,
+          "letterSpacing": "normal",
+          "color": "rgb(51, 51, 51)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#ff4b46",
+          "#ffffff"
+        ],
+        "text": [
+          "#333333",
+          "#9b9b96",
+          "#000000",
+          "#ff4b46"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": 1000
     }
   },
   {
@@ -17748,6 +17880,64 @@
         }
       ],
       "contentWidth": 1536
+    }
+  },
+  {
+    "id": "ben-mingo-landing",
+    "site": "Ben Mingo",
+    "url": "http://www.benmingo.com",
+    "type": "landing",
+    "tags": [
+      "contact-sheet",
+      "file-names",
+      "tiny-thumbnails",
+      "index-grid",
+      "art-director"
+    ],
+    "note": "An art director shows the whole archive as a contact sheet of tiny thumbnails labelled with their file names: the index is the portfolio, browsed like a folder.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/ben-mingo-landing-desktop.jpg",
+        "width": 1440,
+        "height": 900
+      },
+      "mobile": {
+        "file": "screens/ben-mingo-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Ben Mingo — Designer and Partner at Mouthwash",
+      "fonts": [
+        "h"
+      ],
+      "type": {
+        "h1": {
+          "font": "h",
+          "size": 12,
+          "weight": "400",
+          "lineHeight": 1.17,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        },
+        "h2": null,
+        "h3": null,
+        "body": null
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#000000",
+          "#ffffff"
+        ],
+        "text": [
+          "#000000"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": null
     }
   },
   {
@@ -50561,6 +50751,65 @@
     }
   },
   {
+    "id": "marcus-eriksson-landing",
+    "site": "Marcus Eriksson",
+    "url": "http://themarcus.com",
+    "type": "landing",
+    "tags": [
+      "custom-wordmark",
+      "ligatures",
+      "scattered-photos",
+      "grey-field"
+    ],
+    "note": "A photographer's name drawn as a custom wordmark with swashes and ligatures over a grey field of scattered photos of different sizes: one typographic object gives a plain photo page its identity.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/marcus-eriksson-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/marcus-eriksson-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Marcus Eriksson — Image, Film, Sound & Design",
+      "fonts": [
+        "ME Inter"
+      ],
+      "type": {
+        "h1": {
+          "font": "ME Inter",
+          "size": 32,
+          "weight": "700",
+          "lineHeight": "normal",
+          "letterSpacing": "-0.6px",
+          "color": "rgb(29, 29, 29)"
+        },
+        "h2": null,
+        "h3": null,
+        "body": null
+      },
+      "colors": {
+        "background": "#e0e0e0",
+        "surfaces": [
+          "#e0e0e0",
+          "#1d1d1d",
+          "#ffffff"
+        ],
+        "text": [
+          "#e0e0e0",
+          "#1d1d1d"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": 990
+    }
+  },
+  {
     "id": "marko-jotic-landing",
     "site": "Marko Jotic",
     "url": "https://markojotic.com",
@@ -51722,6 +51971,103 @@
       },
       "buttons": [],
       "contentWidth": null
+    }
+  },
+  {
+    "id": "mikhail-riches-landing",
+    "site": "Mikhail Riches",
+    "url": "http://www.mikhailriches.com",
+    "type": "landing",
+    "tags": [
+      "big-number",
+      "photo-hero",
+      "sustainability",
+      "project-cards",
+      "testimonial"
+    ],
+    "note": "An architecture practice leads with '535 Homes Delivered' as a huge number over a photo of residents: the proof is a count of homes, not a slogan.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/mikhail-riches-landing-desktop.jpg",
+        "width": 1440,
+        "height": 2829
+      },
+      "mobile": {
+        "file": "screens/mikhail-riches-landing-mobile.jpg",
+        "width": 390,
+        "height": 2519
+      }
+    },
+    "tokens": {
+      "title": "Mikhail Riches | Sustainable Architecture | London",
+      "fonts": [
+        "Univers",
+        "Roboto"
+      ],
+      "type": {
+        "h1": {
+          "font": "Univers",
+          "size": 50,
+          "weight": "400",
+          "lineHeight": 1.12,
+          "letterSpacing": "-1px",
+          "color": "rgb(28, 28, 28)"
+        },
+        "h2": {
+          "font": "Univers",
+          "size": 37,
+          "weight": "400",
+          "lineHeight": 1.03,
+          "letterSpacing": "-0.8px",
+          "color": "rgb(28, 28, 28)"
+        },
+        "h3": {
+          "font": "Univers",
+          "size": 37,
+          "weight": "400",
+          "lineHeight": 1.03,
+          "letterSpacing": "-0.8px",
+          "color": "rgb(252, 252, 252)"
+        },
+        "body": {
+          "font": "Univers",
+          "size": 21,
+          "weight": "200",
+          "lineHeight": 1.33,
+          "letterSpacing": "normal",
+          "color": "rgba(28, 28, 28, 0.85)"
+        }
+      },
+      "colors": {
+        "background": "#fcfcfc",
+        "surfaces": [
+          "#fcfcfc",
+          "#1c1c1c",
+          "#000000",
+          "#ffffff"
+        ],
+        "text": [
+          "#fcfcfc",
+          "#1c1c1c",
+          "#008000",
+          "#1863dc"
+        ]
+      },
+      "buttons": [
+        {
+          "label": "SEND",
+          "bg": "#1c1c1c",
+          "color": "#fcfcfc",
+          "radius": "0px",
+          "height": 40,
+          "paddingX": 0,
+          "font": "Roboto",
+          "size": 16,
+          "weight": "300"
+        }
+      ],
+      "contentWidth": 800
     }
   },
   {
@@ -72036,6 +72382,100 @@
     }
   },
   {
+    "id": "sn-hetta-landing",
+    "site": "Snøhetta",
+    "url": "https://www.snohetta.com",
+    "type": "landing",
+    "tags": [
+      "statement",
+      "photo-strip",
+      "discipline-list",
+      "news",
+      "events-calendar"
+    ],
+    "note": "Snøhetta's homepage is one sentence, a strip of project photos, its four disciplines as a large list, then news and an events calendar: a global practice that reads as an institution, not a portfolio.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/sn-hetta-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/sn-hetta-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Snøhetta",
+      "fonts": [
+        "Dovre"
+      ],
+      "type": {
+        "h1": {
+          "font": "Dovre",
+          "size": 60,
+          "weight": "300",
+          "lineHeight": 1.03,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        },
+        "h2": {
+          "font": "Dovre",
+          "size": 22,
+          "weight": "300",
+          "lineHeight": 1.45,
+          "letterSpacing": "normal",
+          "color": "rgb(148, 148, 148)"
+        },
+        "h3": {
+          "font": "Dovre",
+          "size": 22,
+          "weight": "300",
+          "lineHeight": 1.45,
+          "letterSpacing": "normal",
+          "color": "rgb(117, 117, 117)"
+        },
+        "body": {
+          "font": "Dovre",
+          "size": 18,
+          "weight": "300",
+          "lineHeight": 1.33,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#ffffff",
+          "#f2f2f2"
+        ],
+        "text": [
+          "#000000",
+          "#949494",
+          "#757575",
+          "#ffffff"
+        ]
+      },
+      "buttons": [
+        {
+          "label": "",
+          "bg": "#f2f2f2",
+          "color": "#000000",
+          "radius": "16px",
+          "height": 48,
+          "paddingX": 0,
+          "font": "Dovre",
+          "size": 22,
+          "weight": "300"
+        }
+      ],
+      "contentWidth": null
+    }
+  },
+  {
     "id": "society-landing",
     "site": "Society",
     "url": "https://www.society-magazine.fr",
@@ -79013,6 +79453,84 @@
         ],
         "text": [
           "#202020"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": null
+    }
+  },
+  {
+    "id": "terring-photo-landing",
+    "site": "Terring Photo",
+    "url": "http://terringphoto.com",
+    "type": "landing",
+    "tags": [
+      "scattered-collage",
+      "photo-wall",
+      "documentary",
+      "varied-sizes"
+    ],
+    "note": "A documentary photographer fills the page with photos of every size scattered edge to edge: the density of the collage is the voice.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/terring-photo-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/terring-photo-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Björn Terring — Photographer",
+      "fonts": [
+        "Space Mono",
+        "CaslonTwoTwentyFour-Medium"
+      ],
+      "type": {
+        "h1": {
+          "font": "CaslonTwoTwentyFour-Medium",
+          "size": 52,
+          "weight": "400",
+          "lineHeight": 0.95,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        },
+        "h2": {
+          "font": "Space Mono",
+          "size": 13,
+          "weight": "400",
+          "lineHeight": 1,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        },
+        "h3": {
+          "font": "CaslonTwoTwentyFour-Medium",
+          "size": 52,
+          "weight": "400",
+          "lineHeight": 1,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        },
+        "body": {
+          "font": "Space Mono",
+          "size": 13,
+          "weight": "400",
+          "lineHeight": "normal",
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#000000"
+        ],
+        "text": [
+          "#bbbbbb"
         ]
       },
       "buttons": [],
