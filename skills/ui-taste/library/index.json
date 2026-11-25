@@ -62931,6 +62931,64 @@
     }
   },
   {
+    "id": "matthew-vernon-landing",
+    "site": "Matthew Vernon",
+    "url": "http://matthewvernon.co",
+    "type": "landing",
+    "tags": [
+      "window-canvas",
+      "desktop-metaphor",
+      "background-picker",
+      "electric-blue"
+    ],
+    "note": "A founder-designer's homepage is one electric-blue canvas of draggable windows (videos, a text file, a #opepen tile) with a 'Choose Background Color' slider: the portfolio as a desktop you can rearrange.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/matthew-vernon-landing-desktop.jpg",
+        "width": 1440,
+        "height": 900
+      },
+      "mobile": {
+        "file": "screens/matthew-vernon-landing-mobile.jpg",
+        "width": 390,
+        "height": 844
+      }
+    },
+    "tokens": {
+      "title": "Matthew Vernon",
+      "fonts": [
+        "Suisse Intl"
+      ],
+      "type": {
+        "h1": null,
+        "h2": null,
+        "h3": null,
+        "body": {
+          "font": "Suisse Intl",
+          "size": 20,
+          "weight": "500",
+          "lineHeight": 1.5,
+          "letterSpacing": "normal",
+          "color": "rgb(255, 255, 255)"
+        }
+      },
+      "colors": {
+        "background": "#3300ff",
+        "surfaces": [
+          "#000000",
+          "#0a0a28",
+          "#ffffff"
+        ],
+        "text": [
+          "#ffffff"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": 1296
+    }
+  },
+  {
     "id": "max-batt-landing",
     "site": "Max Batt",
     "url": "https://maxbatt.com",

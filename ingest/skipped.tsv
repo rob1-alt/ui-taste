@@ -2312,3 +2312,14 @@ https://jeannebataille.com	desktop hero only, collage then empty
 https://maxkaplun.com	desktop stops after the intro
 http://paulbergman.nl	short page, one image and one line
 https://regis.digital	duplicate of Regis Biron, already in the library
+http://dennisadelmann.de	redirects off-site (dennisadelmann.com) (prefilter)
+http://www.joecoleporter.co.uk	broken (http 404) (prefilter)
+http://www.josephmark.com.au	redirects off-site (josephmark.studio) (prefilter)
+http://www.ouiwill.com	redirects off-site (ouiwill.com:443) (prefilter)
+http://bradleytaunt.com	bot wall (prefilter)
+http://willanderson.co	broken (URLError) (prefilter)
+https://12ft.studio/lab	desktop hero only: cards then empty
+https://www.zacharyallott.com	desktop hero only: image grid then empty
+https://www.iamjelena.com	not captured
+https://bruno-simon.com	WebGL, not captured
+https://23d.one	not captured

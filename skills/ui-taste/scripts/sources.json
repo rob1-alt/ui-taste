@@ -15953,5 +15953,17 @@
    "generator-tools"
   ],
   "note": "A graphic designer opens on a grid of typographic posters, then his side tools (a satirical title generator, an animation toolkit) as cards: the hobbies are presented like products."
+ },
+ {
+  "site": "Matthew Vernon",
+  "type": "landing",
+  "url": "http://matthewvernon.co",
+  "tags": [
+   "window-canvas",
+   "desktop-metaphor",
+   "background-picker",
+   "electric-blue"
+  ],
+  "note": "A founder-designer's homepage is one electric-blue canvas of draggable windows (videos, a text file, a #opepen tile) with a 'Choose Background Color' slider: the portfolio as a desktop you can rearrange."
  }
 ]
