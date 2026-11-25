@@ -1692,3 +1692,41 @@ https://praesens.co	desktop empty below the hero
 https://www.almond.studio	desktop empty below the first screen
 https://thishe.re	standard agency layout
 https://www.xxix.co	desktop mostly empty
+https://studio-push.com	blocked (http 403) (prefilter)
+https://benoitb.work	broken (URLError) (prefilter)
+http://www.uppercase.studio	broken (URLError) (prefilter)
+https://regrets-only.com	redirects off-site (regretsonly.com) (prefilter)
+http://rallyinteractive.com	broken (URLError) (prefilter)
+https://yard.agency	redirects off-site (yard.me) (prefilter)
+https://shewasonly.co.uk	redirects off-site (extract.studio) (prefilter)
+http://www.fairedsgn.com	redirects off-site (fiftythousandfeet.com) (prefilter)
+http://thesoftlandings.com	broken (URLError) (prefilter)
+http://actualsource.work	broken (RemoteDisconnected) (prefilter)
+https://www.fwbagency.com	redirects off-site (fwbdept.com) (prefilter)
+https://www.tentwenty.me	redirects off-site (tentwenty.com) (prefilter)
+http://www.dayy.de	redirects off-site (dayy.com) (prefilter)
+http://noideas.biz	redirects off-site (noideas.website) (prefilter)
+https://companyrecordlabel.com	redirects off-site (store.carparkrecords.com) (prefilter)
+http://adasokol.com	holding page: "Oops! The website is currently under lock and
+https://anyother.name	copy and layout duplicate anti-landing ;same studio template
+https://datalands.co	bot wall: "We couldn't verify the security of your connectio
+https://designsystemchecklist.com	cream page with a 0/10 progress checklist and a footer CTA; 
+https://www.elsewhen.com	Applied AI consultancy template: space photo hero; logo stri
+http://glare.la	Access Denied ;Edgesuite; on both captures
+https://wadeandleta.com	Access Denied on both captures
+https://humen.co	Access Denied on both captures
+https://noi.international	sparse black page: two short bio lines and one small work bo
+https://www.okok.services	hero only: a black page with the OKOK wordmark and a footer 
+https://phantom.land	blank: black viewport with tiny nav and a bottom pill; nothi
+https://www.tomorrowbureau.io	hero only: one product photo with nav pills; nothing below t
+https://xtencil.com	freelancer template: "Partner Creativo" centred headline; ye
+https://www.bureaubordeaux.com	blank
+https://nonymous.com	blank
+https://anti.as	desktop sparse, partial
+https://designbytoko.com	plain studio layout
+https://eighthday.co.uk	plain text page
+https://www.newtab-studio.com	desktop hero only
+https://www.octaveoctave.com	standard agency layout
+https://otk.studio	desktop partial render
+https://www.wolfwhale.com	dark serif agency template
+https://wolvesnotsheep.us	dark text page, nothing new

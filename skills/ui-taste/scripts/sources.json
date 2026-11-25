@@ -13420,5 +13420,153 @@
    "brooklyn"
   ],
   "note": "An artist-owned sonic branding studio: 'YOUTOOCANWOO' in condensed caps, one centred sentence ('your partner in music and sound'), then client tiles (Paramount, NBC, Verizon) with the list of sound work under each."
+ },
+ {
+  "site": "Andrew Herzog",
+  "type": "landing",
+  "url": "https://andrewherzog.com",
+  "tags": [
+   "footnoted-bio",
+   "underlined-links",
+   "work-grid",
+   "tags",
+   "artist"
+  ],
+  "note": "An artist's studio page writes the bio as one paragraph with numbered footnotes and underlined phrases, then a grid of works with small coloured tags: an academic voice turned into the layout."
+ },
+ {
+  "site": "Currently",
+  "type": "landing",
+  "url": "https://currently.studio",
+  "tags": [
+   "gallery-photos",
+   "mixed-grid",
+   "small-studio",
+   "exhibition"
+  ],
+  "note": "'Currently is a small design studio.' One line, then installation photos and identity work in a mixed grid: a studio shows its work hung on walls."
+ },
+ {
+  "site": "Daly",
+  "type": "landing",
+  "url": "https://daly.nyc",
+  "tags": [
+   "giant-wordmark",
+   "orange-and-magenta",
+   "updates-list",
+   "comms-agency",
+   "substack"
+  ],
+  "note": "A comms agency sets 'Daly.' huge in red on orange with a magenta dot, then a magenta block of 'Daly updates!' (clients, launches, a Substack): news as the second fold."
+ },
+ {
+  "site": "Hexagon Agency",
+  "type": "landing",
+  "url": "https://hexagon.agency",
+  "tags": [
+   "serif-sentence",
+   "inline-logos",
+   "case-cards",
+   "ukrainian-studio"
+  ],
+  "note": "A digital agency writes 'creating Brands, Websites and Apps' in serif with tiny client logos set after each word: the sentence is also the client list."
+ },
+ {
+  "site": "Homage",
+  "type": "landing",
+  "url": "https://www.homage.se",
+  "tags": [
+   "giant-statement",
+   "boxed-words",
+   "black-and-white",
+   "stockholm"
+  ],
+  "note": "A hybrid agency's homepage is one huge statement and paragraphs where key words ('Physical', 'digital', 'process', 'run', 'bake') sit in small outlined boxes: the boxes make long copy scannable."
+ },
+ {
+  "site": "Lit Create",
+  "type": "landing",
+  "url": "https://litcreate.com",
+  "tags": [
+   "dark-mode",
+   "pink-card",
+   "green-wordmark",
+   "case-thumbnails"
+  ],
+  "note": "A brand studio puts one client's wordmark on a pale pink card on black as the hero, then case thumbnails with long captions: the latest launch as the front page."
+ },
+ {
+  "site": "Metric",
+  "type": "landing",
+  "url": "https://www.metricdesign.no",
+  "tags": [
+   "banknotes",
+   "wayfinding",
+   "museum",
+   "case-tiles",
+   "norwegian-studio"
+  ],
+  "note": "A Norwegian design studio shows the national banknotes it designed, museum wayfinding and conference identity in a plain grid: the weight of the commissions carries a quiet layout."
+ },
+ {
+  "site": "Onwards",
+  "type": "landing",
+  "url": "https://onwards.agency",
+  "tags": [
+   "lime-field",
+   "big-sentence",
+   "brand-collage",
+   "italic-detail",
+   "branding-studio"
+  ],
+  "note": "'A branding studio for the businesses of tomorrow' on lime, then a bright collage of a cereal brand: one sentence, one loud piece of work."
+ },
+ {
+  "site": "Reform Collective",
+  "type": "landing",
+  "url": "https://www.reformcollective.com",
+  "tags": [
+   "giant-wordmark-over-photo",
+   "serif-italic",
+   "featured-work",
+   "startup-branding"
+  ],
+  "note": "A wordmark set huge over a photo of a blue and orange sofa, then 'Our featured Work' with an italic serif word: big confident type with soft materials."
+ },
+ {
+  "site": "Sing-Sing",
+  "type": "landing",
+  "url": "https://www.sing-sing.co",
+  "tags": [
+   "striped-lines",
+   "serif-repeated-name",
+   "photo",
+   "la-studio"
+  ],
+  "note": "A Los Angeles studio repeats its name 'Sing Sing' at the two edges in serif, below a block of thin horizontal stripes, around one dance photo: the name is used as a pair."
+ },
+ {
+  "site": "The Jacky Winter Group",
+  "type": "landing",
+  "url": "https://www.jackywinter.com",
+  "tags": [
+   "coloured-tile-nav",
+   "icons",
+   "full-bleed-photos",
+   "illustration-agency"
+  ],
+  "note": "An illustration agency's homepage starts with eight coloured tiles, each a section (Artists, Places, Ventures) with a simple outline icon, then full-bleed photos: the navigation is the hero."
+ },
+ {
+  "site": "Zeus Jones",
+  "type": "landing",
+  "url": "https://zeusjones.com",
+  "tags": [
+   "serif-statement",
+   "underlined-words",
+   "italic",
+   "recent-work-carousel"
+  ],
+  "note": "A brand innovation firm writes 'Brands grow when they mean more to the world.' in serif with 'grow', 'mean more' underlined and 'the world' in italics: emphasis does the design."
  }
 ]
