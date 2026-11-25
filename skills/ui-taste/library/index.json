@@ -11611,6 +11611,75 @@
     }
   },
   {
+    "id": "a-savage-landing",
+    "site": "A. Savage",
+    "url": "https://a-savage.com",
+    "type": "landing",
+    "tags": [
+      "colour-bar-nav",
+      "serif-statement",
+      "one-screen",
+      "artist"
+    ],
+    "note": "An artist writes one dry serif sentence ('living and working, but not in New York City') next to a photo, and makes the navigation five full-width colour bars: the menu is the layout.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/a-savage-landing-desktop.jpg",
+        "width": 1440,
+        "height": 900
+      },
+      "mobile": {
+        "file": "screens/a-savage-landing-mobile.jpg",
+        "width": 390,
+        "height": 844
+      }
+    },
+    "tokens": {
+      "title": "A. Savage",
+      "fonts": [
+        "Basis Grotesque",
+        "Leitura"
+      ],
+      "type": {
+        "h1": {
+          "font": "Leitura",
+          "size": 43,
+          "weight": "400",
+          "lineHeight": 1.25,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        },
+        "h2": null,
+        "h3": {
+          "font": "Basis Grotesque",
+          "size": 17,
+          "weight": "500",
+          "lineHeight": 1.2,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        },
+        "body": null
+      },
+      "colors": {
+        "background": "#faf5eb",
+        "surfaces": [
+          "#faf5eb",
+          "#00a560",
+          "#e7bd1a",
+          "#000000",
+          "#d7771a"
+        ],
+        "text": [
+          "#000000",
+          "#faf5eb"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": null
+    }
+  },
+  {
     "id": "a24-landing",
     "site": "A24",
     "url": "https://a24films.com",
@@ -16818,6 +16887,78 @@
     }
   },
   {
+    "id": "arnaud-alves-landing",
+    "site": "Arnaud Alves",
+    "url": "https://arnaudalves.fr",
+    "type": "landing",
+    "tags": [
+      "client-table",
+      "confidential-rows",
+      "agency-column",
+      "availability-dot"
+    ],
+    "note": "A product designer lists every job as client / agency / type / year, greying out the confidential ones instead of hiding them: fifteen years in one honest table under a colour wheel.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/arnaud-alves-landing-desktop.jpg",
+        "width": 1440,
+        "height": 2351
+      },
+      "mobile": {
+        "file": "screens/arnaud-alves-landing-mobile.jpg",
+        "width": 390,
+        "height": 2145
+      }
+    },
+    "tokens": {
+      "title": "Arnaud Alves — Independent​ Web & Product Designer",
+      "fonts": [
+        "Haas Grot Disp Web"
+      ],
+      "type": {
+        "h1": {
+          "font": "Haas Grot Disp Web",
+          "size": 24,
+          "weight": "400",
+          "lineHeight": 1.33,
+          "letterSpacing": "0.72px",
+          "color": "rgb(0, 0, 0)"
+        },
+        "h2": {
+          "font": "Haas Grot Disp Web",
+          "size": 24,
+          "weight": "400",
+          "lineHeight": 1.33,
+          "letterSpacing": "0.72px",
+          "color": "rgb(0, 0, 0)"
+        },
+        "h3": null,
+        "body": {
+          "font": "Haas Grot Disp Web",
+          "size": 24,
+          "weight": "400",
+          "lineHeight": 1.33,
+          "letterSpacing": "0.72px",
+          "color": "rgb(0, 0, 0)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#ffffff",
+          "#128a09"
+        ],
+        "text": [
+          "#1a1a1a",
+          "#000000"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": 980
+    }
+  },
+  {
     "id": "artem-militonian-landing",
     "site": "Artem Militonian",
     "url": "https://artmilitonian.com",
@@ -18207,6 +18348,86 @@
       },
       "buttons": [],
       "contentWidth": 1440
+    }
+  },
+  {
+    "id": "b-k-w-landing",
+    "site": "B.K.W.",
+    "url": "http://benkwallace.com",
+    "type": "landing",
+    "tags": [
+      "mono-dense",
+      "dark-columns",
+      "project-carousels",
+      "random-button"
+    ],
+    "note": "A graphic designer packs bio, experience and colophon into a narrow mono column on black, each project a small carousel with a counter, plus a 'Random' button: a dense desk, not a showcase.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/b-k-w-landing-desktop.jpg",
+        "width": 1440,
+        "height": 900
+      },
+      "mobile": {
+        "file": "screens/b-k-w-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "B.K.W.",
+      "fonts": [
+        "Areal",
+        "Areal-Italic"
+      ],
+      "type": {
+        "h1": {
+          "font": "Areal",
+          "size": 15,
+          "weight": "400",
+          "lineHeight": 1.44,
+          "letterSpacing": "normal",
+          "color": "rgb(191, 191, 191)"
+        },
+        "h2": {
+          "font": "Areal",
+          "size": 15,
+          "weight": "500",
+          "lineHeight": 1.44,
+          "letterSpacing": "normal",
+          "color": "rgb(191, 191, 191)"
+        },
+        "h3": {
+          "font": "Areal",
+          "size": 15,
+          "weight": "400",
+          "lineHeight": 1.44,
+          "letterSpacing": "normal",
+          "color": "rgb(191, 191, 191)"
+        },
+        "body": {
+          "font": "Areal",
+          "size": 15,
+          "weight": "400",
+          "lineHeight": 1.44,
+          "letterSpacing": "normal",
+          "color": "rgb(191, 191, 191)"
+        }
+      },
+      "colors": {
+        "background": "#151515",
+        "surfaces": [
+          "#151515",
+          "#bfbfbf"
+        ],
+        "text": [
+          "#bfbfbf",
+          "#ffffff"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": 1280
     }
   },
   {
@@ -28922,6 +29143,71 @@
     }
   },
   {
+    "id": "daniel-see-landing",
+    "site": "Daniel See",
+    "url": "https://www.danielsee.com",
+    "type": "landing",
+    "tags": [
+      "menu-as-hero",
+      "numbered-nav",
+      "serif-italic-pairs",
+      "portrait"
+    ],
+    "note": "A creative director's hero is the menu itself, numbered and centred, each word paired with an italic descriptor ('WORK & Project Highlights'), over a dim portrait.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/daniel-see-landing-desktop.jpg",
+        "width": 1440,
+        "height": 2005
+      },
+      "mobile": {
+        "file": "screens/daniel-see-landing-mobile.jpg",
+        "width": 390,
+        "height": 1015
+      }
+    },
+    "tokens": {
+      "title": "Daniel See — Principal National Creative Director",
+      "fonts": [
+        "neue-haas-grotesk-text",
+        "Canela web",
+        "neue-haas-grotesk-display"
+      ],
+      "type": {
+        "h1": {
+          "font": "Canela web",
+          "size": 186,
+          "weight": "100",
+          "lineHeight": 0.9,
+          "letterSpacing": "-7.2px",
+          "color": "rgba(219, 216, 214, 0.2)"
+        },
+        "h2": {
+          "font": "neue-haas-grotesk-text",
+          "size": 14,
+          "weight": "700",
+          "lineHeight": 1.63,
+          "letterSpacing": "normal",
+          "color": "rgb(219, 216, 214)"
+        },
+        "h3": null,
+        "body": null
+      },
+      "colors": {
+        "background": "#000000",
+        "surfaces": [
+          "#7d2f21"
+        ],
+        "text": [
+          "#dbd8d6"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": null
+    }
+  },
+  {
     "id": "daniel-triendl-landing",
     "site": "Daniel Triendl",
     "url": "https://www.danieltriendl.com",
@@ -34477,6 +34763,114 @@
       },
       "buttons": [],
       "contentWidth": 1180
+    }
+  },
+  {
+    "id": "egstad-landing",
+    "site": "Egstad",
+    "url": "https://www.egstad.com",
+    "type": "landing",
+    "tags": [
+      "giant-wordmark",
+      "face-bubble",
+      "dense-columns",
+      "greige"
+    ],
+    "note": "A designer sets EGSTAD across the page with his face in a circle biting into the letters, then three dense columns of text: one funny image, then plain reading.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/egstad-landing-desktop.jpg",
+        "width": 1440,
+        "height": 1294
+      },
+      "mobile": {
+        "file": "screens/egstad-landing-mobile.jpg",
+        "width": 390,
+        "height": 1463
+      }
+    },
+    "tokens": {
+      "title": "Egstad • Graphic Designer & Developer",
+      "fonts": [
+        "EG Metaphor",
+        "System85",
+        "Times New Roman"
+      ],
+      "type": {
+        "h1": {
+          "font": "EG Metaphor",
+          "size": 399,
+          "weight": "400",
+          "lineHeight": 1,
+          "letterSpacing": "normal",
+          "color": "rgb(37, 36, 34)"
+        },
+        "h2": {
+          "font": "EG Metaphor",
+          "size": 59,
+          "weight": "400",
+          "lineHeight": 0.97,
+          "letterSpacing": "-3.2318px",
+          "color": "rgb(37, 36, 34)"
+        },
+        "h3": null,
+        "body": {
+          "font": "EG Metaphor",
+          "size": 15,
+          "weight": "400",
+          "lineHeight": 1.34,
+          "letterSpacing": "normal",
+          "color": "rgb(37, 36, 34)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#e2e0d9",
+          "#252422"
+        ],
+        "text": [
+          "#252422",
+          "#e2e0d9"
+        ]
+      },
+      "buttons": [
+        {
+          "label": "INSTAGRAM",
+          "bg": "#252422",
+          "color": "#e2e0d9",
+          "radius": "1440px",
+          "height": 36,
+          "paddingX": 30,
+          "font": "System85",
+          "size": 12,
+          "weight": "400"
+        },
+        {
+          "label": "ARE.NA",
+          "bg": "#252422",
+          "color": "#e2e0d9",
+          "radius": "1440px",
+          "height": 36,
+          "paddingX": 30,
+          "font": "System85",
+          "size": 12,
+          "weight": "400"
+        },
+        {
+          "label": "TWITTER",
+          "bg": "#252422",
+          "color": "#e2e0d9",
+          "radius": "1440px",
+          "height": 36,
+          "paddingX": 30,
+          "font": "System85",
+          "size": 12,
+          "weight": "400"
+        }
+      ],
+      "contentWidth": null
     }
   },
   {
@@ -42318,6 +42712,63 @@
         }
       ],
       "contentWidth": 1400
+    }
+  },
+  {
+    "id": "george-kedenburg-iii-landing",
+    "site": "George Kedenburg III",
+    "url": "https://gk3.website",
+    "type": "landing",
+    "tags": [
+      "under-construction",
+      "scattered-gifs",
+      "joke",
+      "temporary-home"
+    ],
+    "note": "A designer's temporary homepage is a white field of cones, workers and 'Under Construction' clip art with the links in tiny mono: an unfinished site turned into a joke.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/george-kedenburg-iii-landing-desktop.jpg",
+        "width": 1440,
+        "height": 900
+      },
+      "mobile": {
+        "file": "screens/george-kedenburg-iii-landing-mobile.jpg",
+        "width": 390,
+        "height": 844
+      }
+    },
+    "tokens": {
+      "title": "George Kedenburg III",
+      "fonts": [
+        "Courier New"
+      ],
+      "type": {
+        "h1": null,
+        "h2": null,
+        "h3": null,
+        "body": {
+          "font": "Courier New",
+          "size": 12,
+          "weight": "400",
+          "lineHeight": 1.4,
+          "letterSpacing": "normal",
+          "color": "rgb(17, 17, 17)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#ffffff"
+        ],
+        "text": [
+          "#111111",
+          "#0000ee"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": null
     }
   },
   {
@@ -55503,6 +55954,69 @@
     }
   },
   {
+    "id": "le-journal-de-louis-olivier-brassard-landing",
+    "site": "Le journal de Louis-Olivier Brassard",
+    "url": "https://journal.loupbrun.ca",
+    "type": "landing",
+    "tags": [
+      "journal-home",
+      "numbered-notes",
+      "pale-green",
+      "french"
+    ],
+    "note": "A writer-designer makes the homepage his journal: one paragraph of intro with hashtag links and the latest numbered notes (#164 Gadgétisme décisionnel) in a ruled list.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/le-journal-de-louis-olivier-brassard-landing-desktop.jpg",
+        "width": 1440,
+        "height": 1263
+      },
+      "mobile": {
+        "file": "screens/le-journal-de-louis-olivier-brassard-landing-mobile.jpg",
+        "width": 390,
+        "height": 1489
+      }
+    },
+    "tokens": {
+      "title": "Le journal de Louis-Olivier Brassard",
+      "fonts": [
+        "soehne-web"
+      ],
+      "type": {
+        "h1": null,
+        "h2": {
+          "font": "soehne-web",
+          "size": 40,
+          "weight": "700",
+          "lineHeight": 0.88,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        },
+        "h3": null,
+        "body": {
+          "font": "soehne-web",
+          "size": 26,
+          "weight": "400",
+          "lineHeight": 1.12,
+          "letterSpacing": "-0.396px",
+          "color": "rgb(0, 0, 0)"
+        }
+      },
+      "colors": {
+        "background": "#e0e6dd",
+        "surfaces": [],
+        "text": [
+          "#000000",
+          "#37542f",
+          "#758e69"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": 898
+    }
+  },
+  {
     "id": "le-kollektiv-landing",
     "site": "LE KOLLEKTIV",
     "url": "https://www.lekollektiv.ch",
@@ -59963,6 +60477,54 @@
         "text": [
           "#111111",
           "#030303"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": null
+    }
+  },
+  {
+    "id": "mario-guay-landing",
+    "site": "Mario Guay",
+    "url": "https://marioguay.com",
+    "type": "landing",
+    "tags": [
+      "scattered-collage",
+      "loose-layout",
+      "poster-work",
+      "green-label"
+    ],
+    "note": "A designer scatters posters and photos at different sizes and offsets down a white page, with one green 'About': the arrangement feels like a pinboard, not a grid.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/mario-guay-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/mario-guay-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Mario Guay - Independent Art and Design Director.",
+      "fonts": [
+        "helvetica neue"
+      ],
+      "type": {
+        "h1": null,
+        "h2": null,
+        "h3": null,
+        "body": null
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [],
+        "text": [
+          "#ffffff",
+          "#00ff00"
         ]
       },
       "buttons": [],
@@ -85070,6 +85632,82 @@
     }
   },
   {
+    "id": "simone-s-computer-landing",
+    "site": "Simone’s Computer",
+    "url": "https://simone.computer",
+    "type": "landing",
+    "tags": [
+      "retro-desktop",
+      "os-window",
+      "icon-nav",
+      "wallpaper"
+    ],
+    "note": "A personal site is a 90s desktop: a Packard Bell wallpaper and one window whose icons (About, Projects, Guestbook, Trash) are the navigation.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/simone-s-computer-landing-desktop.jpg",
+        "width": 1440,
+        "height": 900
+      },
+      "mobile": {
+        "file": "screens/simone-s-computer-landing-mobile.jpg",
+        "width": 390,
+        "height": 844
+      }
+    },
+    "tokens": {
+      "title": "Simone's Computer",
+      "fonts": [
+        "Arial",
+        "-apple-system"
+      ],
+      "type": {
+        "h1": null,
+        "h2": null,
+        "h3": null,
+        "body": null
+      },
+      "colors": {
+        "background": "#000000",
+        "surfaces": [
+          "#a1a3ca",
+          "#ffffff"
+        ],
+        "text": [
+          "#010601",
+          "#c7c7df",
+          "#5b57a1"
+        ]
+      },
+      "buttons": [
+        {
+          "label": "About this website",
+          "bg": "#a1a3ca",
+          "color": "#010601",
+          "radius": "0px",
+          "height": 35,
+          "paddingX": 8,
+          "font": "Arial",
+          "size": 16,
+          "weight": "400"
+        },
+        {
+          "label": "Last updated November 20",
+          "bg": "#a1a3ca",
+          "color": "#010601",
+          "radius": "0px",
+          "height": 35,
+          "paddingX": 8,
+          "font": "Arial",
+          "size": 16,
+          "weight": "400"
+        }
+      ],
+      "contentWidth": 640
+    }
+  },
+  {
     "id": "sing-sing-landing",
     "site": "Sing-Sing",
     "url": "https://www.sing-sing.co",
@@ -89324,6 +89962,76 @@
         }
       ],
       "contentWidth": 1440
+    }
+  },
+  {
+    "id": "stu-ohler-landing",
+    "site": "Stu Ohler",
+    "url": "https://stuohler.com",
+    "type": "landing",
+    "tags": [
+      "wordmark-with-mascot",
+      "billboard-photo",
+      "work-on-request",
+      "design-leader"
+    ],
+    "note": "A design leader puts his face-mark inside his wordmark, shows one billboard photo and writes 'Work samples are available upon request': confident restraint instead of a case grid.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/stu-ohler-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/stu-ohler-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Stu Ohler | Design Director & Brand/Digital Design Leader",
+      "fonts": [
+        "Neue Montreal Variable"
+      ],
+      "type": {
+        "h1": null,
+        "h2": {
+          "font": "Neue Montreal Variable",
+          "size": 20,
+          "weight": "700",
+          "lineHeight": 1,
+          "letterSpacing": "0.08px",
+          "color": "rgb(0, 0, 0)"
+        },
+        "h3": {
+          "font": "Neue Montreal Variable",
+          "size": 20,
+          "weight": "700",
+          "lineHeight": 1,
+          "letterSpacing": "0.08px",
+          "color": "rgb(0, 0, 0)"
+        },
+        "body": {
+          "font": "Neue Montreal Variable",
+          "size": 20,
+          "weight": "400",
+          "lineHeight": 1,
+          "letterSpacing": "0.08px",
+          "color": "rgb(0, 0, 0)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#ffffff"
+        ],
+        "text": [
+          "#000000"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": 940
     }
   },
   {
@@ -98044,6 +98752,54 @@
     }
   },
   {
+    "id": "tyler-mcrobert-landing",
+    "site": "Tyler McRobert",
+    "url": "https://tylermcrobert.com",
+    "type": "landing",
+    "tags": [
+      "numbered-clients",
+      "one-sentence-page",
+      "circled-numbers",
+      "text-only"
+    ],
+    "note": "A designer's homepage is one line of clients with circled numbers (① Nike Circularity ② Bridget Baker…): the index is the whole page.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/tyler-mcrobert-landing-desktop.jpg",
+        "width": 1440,
+        "height": 900
+      },
+      "mobile": {
+        "file": "screens/tyler-mcrobert-landing-mobile.jpg",
+        "width": 390,
+        "height": 844
+      }
+    },
+    "tokens": {
+      "title": "Tyler McRobert - Designer & Creative Developer",
+      "fonts": [
+        "Suisse"
+      ],
+      "type": {
+        "h1": null,
+        "h2": null,
+        "h3": null,
+        "body": null
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [],
+        "text": [
+          "#000000",
+          "#ffffff"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": 1456
+    }
+  },
+  {
     "id": "typefully-landing",
     "site": "Typefully",
     "url": "https://typefully.com",
@@ -103212,6 +103968,76 @@
       },
       "buttons": [],
       "contentWidth": null
+    }
+  },
+  {
+    "id": "xavier-valarino-landing",
+    "site": "Xavier Valarino",
+    "url": "http://xavier.valarino.com",
+    "type": "landing",
+    "tags": [
+      "debug-toggles",
+      "statement",
+      "cyan-link",
+      "colophon"
+    ],
+    "note": "A designer writes 'Think of it like color registration' under his statement and leaves live toggles in the footer (Columns, Baseline, Elements OFF): the grid can be switched on to prove it.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/xavier-valarino-landing-desktop.jpg",
+        "width": 1440,
+        "height": 1774
+      },
+      "mobile": {
+        "file": "screens/xavier-valarino-landing-mobile.jpg",
+        "width": 390,
+        "height": 1924
+      }
+    },
+    "tokens": {
+      "title": "XV | Product Design",
+      "fonts": [
+        "Inter",
+        "Uxum Grotesque"
+      ],
+      "type": {
+        "h1": {
+          "font": "Uxum Grotesque",
+          "size": 80,
+          "weight": "300",
+          "lineHeight": 1.04,
+          "letterSpacing": "-1.1983px",
+          "color": "rgb(0, 156, 221)"
+        },
+        "h2": {
+          "font": "Uxum Grotesque",
+          "size": 29,
+          "weight": "600",
+          "lineHeight": 1.04,
+          "letterSpacing": "-0.349359px",
+          "color": "rgb(27, 30, 35)"
+        },
+        "h3": null,
+        "body": {
+          "font": "Uxum Grotesque",
+          "size": 57,
+          "weight": "300",
+          "lineHeight": 1.04,
+          "letterSpacing": "-0.998586px",
+          "color": "rgb(27, 30, 35)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [],
+        "text": [
+          "#1b1e23",
+          "#009cdd"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": 1560
     }
   },
   {

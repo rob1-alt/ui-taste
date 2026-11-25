@@ -15245,5 +15245,149 @@
    "product-designer"
   ],
   "note": "A prototyper shows his work as a wall of phones held in hands outdoors, interfaces caught in use: the photos prove the prototypes run."
+ },
+ {
+  "site": "A. Savage",
+  "type": "landing",
+  "url": "https://a-savage.com",
+  "tags": [
+   "colour-bar-nav",
+   "serif-statement",
+   "one-screen",
+   "artist"
+  ],
+  "note": "An artist writes one dry serif sentence ('living and working, but not in New York City') next to a photo, and makes the navigation five full-width colour bars: the menu is the layout."
+ },
+ {
+  "site": "Arnaud Alves",
+  "type": "landing",
+  "url": "https://arnaudalves.fr",
+  "tags": [
+   "client-table",
+   "confidential-rows",
+   "agency-column",
+   "availability-dot"
+  ],
+  "note": "A product designer lists every job as client / agency / type / year, greying out the confidential ones instead of hiding them: fifteen years in one honest table under a colour wheel."
+ },
+ {
+  "site": "B.K.W.",
+  "type": "landing",
+  "url": "http://benkwallace.com",
+  "tags": [
+   "mono-dense",
+   "dark-columns",
+   "project-carousels",
+   "random-button"
+  ],
+  "note": "A graphic designer packs bio, experience and colophon into a narrow mono column on black, each project a small carousel with a counter, plus a 'Random' button: a dense desk, not a showcase."
+ },
+ {
+  "site": "Daniel See",
+  "type": "landing",
+  "url": "https://www.danielsee.com",
+  "tags": [
+   "menu-as-hero",
+   "numbered-nav",
+   "serif-italic-pairs",
+   "portrait"
+  ],
+  "note": "A creative director's hero is the menu itself, numbered and centred, each word paired with an italic descriptor ('WORK & Project Highlights'), over a dim portrait."
+ },
+ {
+  "site": "Egstad",
+  "type": "landing",
+  "url": "https://www.egstad.com",
+  "tags": [
+   "giant-wordmark",
+   "face-bubble",
+   "dense-columns",
+   "greige"
+  ],
+  "note": "A designer sets EGSTAD across the page with his face in a circle biting into the letters, then three dense columns of text: one funny image, then plain reading."
+ },
+ {
+  "site": "George Kedenburg III",
+  "type": "landing",
+  "url": "https://gk3.website",
+  "tags": [
+   "under-construction",
+   "scattered-gifs",
+   "joke",
+   "temporary-home"
+  ],
+  "note": "A designer's temporary homepage is a white field of cones, workers and 'Under Construction' clip art with the links in tiny mono: an unfinished site turned into a joke."
+ },
+ {
+  "site": "Le journal de Louis-Olivier Brassard",
+  "type": "landing",
+  "url": "https://journal.loupbrun.ca",
+  "tags": [
+   "journal-home",
+   "numbered-notes",
+   "pale-green",
+   "french"
+  ],
+  "note": "A writer-designer makes the homepage his journal: one paragraph of intro with hashtag links and the latest numbered notes (#164 Gadgétisme décisionnel) in a ruled list."
+ },
+ {
+  "site": "Mario Guay",
+  "type": "landing",
+  "url": "https://marioguay.com",
+  "tags": [
+   "scattered-collage",
+   "loose-layout",
+   "poster-work",
+   "green-label"
+  ],
+  "note": "A designer scatters posters and photos at different sizes and offsets down a white page, with one green 'About': the arrangement feels like a pinboard, not a grid."
+ },
+ {
+  "site": "Simone’s Computer",
+  "type": "landing",
+  "url": "https://simone.computer",
+  "tags": [
+   "retro-desktop",
+   "os-window",
+   "icon-nav",
+   "wallpaper"
+  ],
+  "note": "A personal site is a 90s desktop: a Packard Bell wallpaper and one window whose icons (About, Projects, Guestbook, Trash) are the navigation."
+ },
+ {
+  "site": "Stu Ohler",
+  "type": "landing",
+  "url": "https://stuohler.com",
+  "tags": [
+   "wordmark-with-mascot",
+   "billboard-photo",
+   "work-on-request",
+   "design-leader"
+  ],
+  "note": "A design leader puts his face-mark inside his wordmark, shows one billboard photo and writes 'Work samples are available upon request': confident restraint instead of a case grid."
+ },
+ {
+  "site": "Tyler McRobert",
+  "type": "landing",
+  "url": "https://tylermcrobert.com",
+  "tags": [
+   "numbered-clients",
+   "one-sentence-page",
+   "circled-numbers",
+   "text-only"
+  ],
+  "note": "A designer's homepage is one line of clients with circled numbers (① Nike Circularity ② Bridget Baker…): the index is the whole page."
+ },
+ {
+  "site": "Xavier Valarino",
+  "type": "landing",
+  "url": "http://xavier.valarino.com",
+  "tags": [
+   "debug-toggles",
+   "statement",
+   "cyan-link",
+   "colophon"
+  ],
+  "note": "A designer writes 'Think of it like color registration' under his statement and leaves live toggles in the footer (Columns, Baseline, Elements OFF): the grid can be switched on to prove it."
  }
 ]
