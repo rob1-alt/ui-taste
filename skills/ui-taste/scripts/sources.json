@@ -14043,5 +14043,92 @@
    "cans-and-fashion"
   ],
   "note": "A brand studio fills the page with big product photographs (cans in snow, a purple tag, a building) with tiny captions: the photography carries the identity work."
+ },
+ {
+  "site": "Deutsche & Japaner",
+  "type": "landing",
+  "url": "http://deutscheundjapaner.com",
+  "tags": [
+   "dark-mode",
+   "product-photo-hero",
+   "fashion-identities",
+   "selected-projects"
+  ],
+  "note": "A Berlin identity studio: one dark product photo as the hero, a short statement, then fashion and sportswear identities (Reebok, Calvin Klein) in a dense dark grid: the client level speaks first."
+ },
+ {
+  "site": "En Ville",
+  "type": "landing",
+  "url": "http://envilleintown.com",
+  "tags": [
+   "identity-in-use",
+   "photo-grid",
+   "short-captions",
+   "service-tags",
+   "london"
+  ],
+  "note": "An identity studio shows each project photographed in use (a shop window, a bakery's bag, a signage arch) with a two-line caption and small service tags: the work lives on the street."
+ },
+ {
+  "site": "Janos Koos",
+  "type": "landing",
+  "url": "http://www.janoskoos.com",
+  "tags": [
+   "giant-sentence",
+   "underlined-words",
+   "selected-works",
+   "design-director"
+  ],
+  "note": "A design director writes his intro as one huge sentence with 'London, UK', '14 years', 'brands', 'experiences', 'products' underlined as links: the bio is the navigation."
+ },
+ {
+  "site": "Nelson Cash",
+  "type": "landing",
+  "url": "http://www.nelsoncash.com",
+  "tags": [
+   "condensed-caps",
+   "green-gradient",
+   "dark-mode",
+   "client-row",
+   "case-tags"
+  ],
+  "note": "'TECHNOLOGY & CULTURE' in heavy condensed caps on black with a green gradient pill between the words, then a row of client names and cases with green tags."
+ },
+ {
+  "site": "Oh My!",
+  "type": "landing",
+  "url": "http://ohmy.io",
+  "tags": [
+   "serif-and-sans",
+   "poster-collage",
+   "featured-projects",
+   "new-tags"
+  ],
+  "note": "A brand studio introduces itself in a sans label and a serif line ('A design studio for ambitious teams who care about getting things right'), then a collage of posters and a grid of projects with small 'new' tags."
+ },
+ {
+  "site": "POST",
+  "type": "landing",
+  "url": "http://www.deliveredbypost.com",
+  "tags": [
+   "serif-over-photo",
+   "full-bleed-photos",
+   "product-shots",
+   "hospitality"
+  ],
+  "note": "A studio's sentence ('Delivering design that speaks clearly, passionately, and purposefully') sits in serif over a photo of a café front, then full-bleed product shots: the work as a sequence of photographs."
+ },
+ {
+  "site": "Skrekkogle",
+  "type": "landing",
+  "url": "http://skrekkogle.com",
+  "tags": [
+   "strikethrough",
+   "tense-change",
+   "red-corrections",
+   "closed-studio",
+   "underlined-links"
+  ],
+  "note": "A tiny Oslo studio that closed edits its own intro: 'is' struck through and 'was' in red, 'do' crossed out for 'did', 'like' for 'liked': the end of the studio told with corrections."
  }
 ]

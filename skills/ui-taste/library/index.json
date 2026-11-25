@@ -28993,6 +28993,72 @@
     }
   },
   {
+    "id": "deutsche-japaner-landing",
+    "site": "Deutsche & Japaner",
+    "url": "http://deutscheundjapaner.com",
+    "type": "landing",
+    "tags": [
+      "dark-mode",
+      "product-photo-hero",
+      "fashion-identities",
+      "selected-projects"
+    ],
+    "note": "A Berlin identity studio: one dark product photo as the hero, a short statement, then fashion and sportswear identities (Reebok, Calvin Klein) in a dense dark grid: the client level speaks first.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/deutsche-japaner-landing-desktop.jpg",
+        "width": 1440,
+        "height": 2657
+      },
+      "mobile": {
+        "file": "screens/deutsche-japaner-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Deutsche & Japaner",
+      "fonts": [
+        "DJ Sans"
+      ],
+      "type": {
+        "h1": {
+          "font": "DJ Sans",
+          "size": 16,
+          "weight": "400",
+          "lineHeight": 1.5,
+          "letterSpacing": "normal",
+          "color": "oklch(1 0 0 / 0.9)"
+        },
+        "h2": {
+          "font": "DJ Sans",
+          "size": 16,
+          "weight": "400",
+          "lineHeight": 1.38,
+          "letterSpacing": "0.32px",
+          "color": "oklch(1 0 0 / 0.55)"
+        },
+        "h3": null,
+        "body": {
+          "font": "DJ Sans",
+          "size": 30,
+          "weight": "400",
+          "lineHeight": 1.2,
+          "letterSpacing": "0.6px",
+          "color": "oklch(1 0 0 / 0.9)"
+        }
+      },
+      "colors": {
+        "background": "#000000",
+        "surfaces": [],
+        "text": []
+      },
+      "buttons": [],
+      "contentWidth": 1600
+    }
+  },
+  {
     "id": "developments-landing",
     "site": "Developments",
     "url": "https://developments.media",
@@ -32678,6 +32744,79 @@
       },
       "buttons": [],
       "contentWidth": 1152
+    }
+  },
+  {
+    "id": "en-ville-landing",
+    "site": "En Ville",
+    "url": "http://envilleintown.com",
+    "type": "landing",
+    "tags": [
+      "identity-in-use",
+      "photo-grid",
+      "short-captions",
+      "service-tags",
+      "london"
+    ],
+    "note": "An identity studio shows each project photographed in use (a shop window, a bakery's bag, a signage arch) with a two-line caption and small service tags: the work lives on the street.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/en-ville-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/en-ville-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "En Ville",
+      "fonts": [
+        "National",
+        "Fortescue"
+      ],
+      "type": {
+        "h1": {
+          "font": "Fortescue",
+          "size": 72,
+          "weight": "400",
+          "lineHeight": 12.5,
+          "letterSpacing": "-0.72px",
+          "color": "rgb(0, 0, 0)"
+        },
+        "h2": {
+          "font": "Fortescue",
+          "size": 40,
+          "weight": "400",
+          "lineHeight": 1.15,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        },
+        "h3": {
+          "font": "National",
+          "size": 30,
+          "weight": "400",
+          "lineHeight": "normal",
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        },
+        "body": null
+      },
+      "colors": {
+        "background": "#f9f9fb",
+        "surfaces": [
+          "#f9f9fb",
+          "#ffffff"
+        ],
+        "text": [
+          "#000000"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": null
     }
   },
   {
@@ -48333,6 +48472,61 @@
     }
   },
   {
+    "id": "janos-koos-landing",
+    "site": "Janos Koos",
+    "url": "http://www.janoskoos.com",
+    "type": "landing",
+    "tags": [
+      "giant-sentence",
+      "underlined-words",
+      "selected-works",
+      "design-director"
+    ],
+    "note": "A design director writes his intro as one huge sentence with 'London, UK', '14 years', 'brands', 'experiences', 'products' underlined as links: the bio is the navigation.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/janos-koos-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/janos-koos-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Works by Janos Koos — Freelance Design Director based in London, UK.",
+      "fonts": [
+        "Roobert"
+      ],
+      "type": {
+        "h1": {
+          "font": "Roobert",
+          "size": 96,
+          "weight": "500",
+          "lineHeight": 0.96,
+          "letterSpacing": "-1.5px",
+          "color": "rgb(0, 0, 0)"
+        },
+        "h2": null,
+        "h3": null,
+        "body": null
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [],
+        "text": [
+          "#000000",
+          "#ffffff"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": null
+    }
+  },
+  {
     "id": "jaqueline-grob-landing",
     "site": "Jaqueline Grob",
     "url": "https://jackygrob.com",
@@ -60029,6 +60223,82 @@
     "tokens": null
   },
   {
+    "id": "nelson-cash-landing",
+    "site": "Nelson Cash",
+    "url": "http://www.nelsoncash.com",
+    "type": "landing",
+    "tags": [
+      "condensed-caps",
+      "green-gradient",
+      "dark-mode",
+      "client-row",
+      "case-tags"
+    ],
+    "note": "'TECHNOLOGY & CULTURE' in heavy condensed caps on black with a green gradient pill between the words, then a row of client names and cases with green tags.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/nelson-cash-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/nelson-cash-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Nelson Cash",
+      "fonts": [
+        "General Sans"
+      ],
+      "type": {
+        "h1": {
+          "font": "General Sans",
+          "size": 27,
+          "weight": "500",
+          "lineHeight": 1.1,
+          "letterSpacing": "normal",
+          "color": "rgb(255, 255, 255)"
+        },
+        "h2": null,
+        "h3": {
+          "font": "General Sans",
+          "size": 29,
+          "weight": "500",
+          "lineHeight": 1.2,
+          "letterSpacing": "normal",
+          "color": "rgb(255, 255, 255)"
+        },
+        "body": {
+          "font": "General Sans",
+          "size": 22,
+          "weight": "500",
+          "lineHeight": 1.6,
+          "letterSpacing": "normal",
+          "color": "rgb(255, 255, 255)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#1d1c1a",
+          "#5ef34e",
+          "#1dddff",
+          "#82d311",
+          "#80ff31"
+        ],
+        "text": [
+          "#ffffff",
+          "#1d1c1a"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": 1460
+    }
+  },
+  {
     "id": "neon-landing",
     "site": "Neon",
     "url": "https://neon.com",
@@ -62856,6 +63126,95 @@
         ]
       },
       "buttons": [],
+      "contentWidth": null
+    }
+  },
+  {
+    "id": "oh-my-landing",
+    "site": "Oh My!",
+    "url": "http://ohmy.io",
+    "type": "landing",
+    "tags": [
+      "serif-and-sans",
+      "poster-collage",
+      "featured-projects",
+      "new-tags"
+    ],
+    "note": "A brand studio introduces itself in a sans label and a serif line ('A design studio for ambitious teams who care about getting things right'), then a collage of posters and a grid of projects with small 'new' tags.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/oh-my-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/oh-my-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "A design & technology studio — OHMY",
+      "fonts": [
+        "Times New Roman",
+        "__serifExtraLight_adc15a",
+        "__sansRegular_0ef258"
+      ],
+      "type": {
+        "h1": {
+          "font": "__sansBook_71407d",
+          "size": 40,
+          "weight": "400",
+          "lineHeight": 1.35,
+          "letterSpacing": "normal",
+          "color": "rgb(30, 30, 30)"
+        },
+        "h2": {
+          "font": "__sansBook_71407d",
+          "size": 40,
+          "weight": "400",
+          "lineHeight": 1,
+          "letterSpacing": "normal",
+          "color": "rgb(30, 30, 30)"
+        },
+        "h3": null,
+        "body": {
+          "font": "__sansRegular_0ef258",
+          "size": 11,
+          "weight": "400",
+          "lineHeight": 1.18,
+          "letterSpacing": "0.44px",
+          "color": "rgb(30, 30, 30)"
+        }
+      },
+      "colors": {
+        "background": "#f9f6f4",
+        "surfaces": [
+          "#1e1e1e",
+          "#f9f6f4",
+          "#323231",
+          "#ff704d",
+          "#ede9e7"
+        ],
+        "text": [
+          "#1e1e1e",
+          "#f9f6f4"
+        ]
+      },
+      "buttons": [
+        {
+          "label": "SCHEDULE A CALL",
+          "bg": "#323231",
+          "color": "#f9f6f4",
+          "radius": "24px",
+          "height": 48,
+          "paddingX": 24,
+          "font": "__sansRegular_0ef258",
+          "size": 11,
+          "weight": "400"
+        }
+      ],
       "contentWidth": null
     }
   },
@@ -69836,6 +70195,79 @@
       },
       "buttons": [],
       "contentWidth": 1536
+    }
+  },
+  {
+    "id": "post-landing",
+    "site": "POST",
+    "url": "http://www.deliveredbypost.com",
+    "type": "landing",
+    "tags": [
+      "serif-over-photo",
+      "full-bleed-photos",
+      "product-shots",
+      "hospitality"
+    ],
+    "note": "A studio's sentence ('Delivering design that speaks clearly, passionately, and purposefully') sits in serif over a photo of a café front, then full-bleed product shots: the work as a sequence of photographs.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/post-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/post-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "POST | deliveredbypost.com",
+      "fonts": [
+        "monument",
+        "affairs",
+        "mars"
+      ],
+      "type": {
+        "h1": {
+          "font": "monument",
+          "size": 16,
+          "weight": "400",
+          "lineHeight": 1.3,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        },
+        "h2": {
+          "font": "affairs",
+          "size": 62,
+          "weight": "400",
+          "lineHeight": 1.3,
+          "letterSpacing": "-1.55px",
+          "color": "rgb(255, 255, 255)"
+        },
+        "h3": null,
+        "body": {
+          "font": "monument",
+          "size": 32,
+          "weight": "400",
+          "lineHeight": 1.5,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#000000",
+          "#ffffff"
+        ],
+        "text": [
+          "#ffffff"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": null
     }
   },
   {
@@ -78893,6 +79325,71 @@
         }
       ],
       "contentWidth": 1400
+    }
+  },
+  {
+    "id": "skrekkogle-landing",
+    "site": "Skrekkogle",
+    "url": "http://skrekkogle.com",
+    "type": "landing",
+    "tags": [
+      "strikethrough",
+      "tense-change",
+      "red-corrections",
+      "closed-studio",
+      "underlined-links"
+    ],
+    "note": "A tiny Oslo studio that closed edits its own intro: 'is' struck through and 'was' in red, 'do' crossed out for 'did', 'like' for 'liked': the end of the studio told with corrections.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/skrekkogle-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/skrekkogle-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Skrekkøgle ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲ ▲",
+      "fonts": [
+        "PT Sans Narrow"
+      ],
+      "type": {
+        "h1": {
+          "font": "PT Sans Narrow",
+          "size": 128,
+          "weight": "700",
+          "lineHeight": 0.8,
+          "letterSpacing": "normal",
+          "color": "rgb(34, 34, 34)"
+        },
+        "h2": null,
+        "h3": {
+          "font": "PT Sans Narrow",
+          "size": 40,
+          "weight": "700",
+          "lineHeight": 1.4,
+          "letterSpacing": "normal",
+          "color": "rgb(34, 34, 34)"
+        },
+        "body": null
+      },
+      "colors": {
+        "background": "#fdfdfc",
+        "surfaces": [
+          "#ffffff"
+        ],
+        "text": [
+          "#222222",
+          "#ff0000"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": null
     }
   },
   {

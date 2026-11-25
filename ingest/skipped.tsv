@@ -1838,3 +1838,46 @@ http://ustwo.com	blank
 http://www.alonzofelix.com	thin, one framed image
 https://www.armourylondon.com	hero and footer only, partial
 http://hungry.at	plain agency page
+http://www.rankandfile.de	broken (http 404) (prefilter)
+http://www.raffaelstueken.de	broken (http 526) (prefilter)
+http://www.belancio.com	bot wall (prefilter)
+http://www.hochburg.net	redirects off-site (hochburg.design) (prefilter)
+https://www.openpurpose.com	redirects off-site (s.engineering) (prefilter)
+https://twomuch.studio	sale takeover (prefilter)
+https://www.norgram.co/home	broken (http 404) (prefilter)
+https://aimpie.design	broken (URLError) (prefilter)
+https://sssister.com	broken (URLError) (prefilter)
+https://www.anothercodeproject.eu	redirects off-site (anothercodeproject.xyz) (prefilter)
+https://www.thisisresidence.co	redirects off-site (residence.co) (prefilter)
+https://henrikandsofia.com	broken (URLError) (prefilter)
+https://www.humanastudio.com	broken (http 402) (prefilter)
+http://animade.tv	hero only: single centred hero and footer; empty white below
+http://www.atthestudio.nl	registrar/parked page ;TransIP "Reserved!" domain page;; not
+http://www.avec.us	mostly empty desktop capture: sparse text fragments; large b
+http://c100studio.com	mostly empty desktop: one product image on white; rest blank
+http://www.counterform.com	scattered grey image fragments; desktop largely blank; mobil
+http://www.folchstudio.com	desktop mostly a blurred black smear; unloaded; mobile is a 
+http://forbrands.pl	image grid of brand mockups with no headline or copy visible
+http://kurzgesagt.org	hero only on desktop: navy space hero then empty white below
+http://www.mobydigg.de	B2B growth agency: three-column service copy; stock kitchen 
+http://noord.ch	hero only: mission statement and yellow glitch band; desktop
+http://www.plasticbionic.com	hero only on desktop: two 3D renders then empty white below
+https://madebyshore.com	hero only: one timber building photo; desktop empty below; m
+http://studiojubilee.com	text-only shell: one paragraph and footer; no work shown
+http://www.thewoork.co	error page: cPanel "SORRY!" hosting error; not the studio si
+http://www.uacstudios.com	hero only: intro text and one project image; desktop empty b
+http://volume7.io	SaaS-style agency template: hero headline; client logo strip
+http://www.weareempire.co.uk	wrong site: gambling affiliate listing ;Curacao casinos not 
+http://www.wondersauce.com	black background with large sans headline and pill CTA; gene
+http://chilli.be/en	blank
+http://www.formdusche.de	blank
+http://kittokatsu.de	blank
+http://www.maddisongraphic.com	blank
+http://www.neue.no	blank
+http://basics09.de	images captured blurred, not loaded
+http://day-studio.com	desktop sparse below the hero
+http://esseninternational.com	desktop mostly black, partial
+http://paprika.com	generic
+http://sociodesign.co.uk	one screen, black below
+http://studiobrave.com.au	black tiles, media not loaded
+http://weareadaptable.com	broken (screenshot timeout)
