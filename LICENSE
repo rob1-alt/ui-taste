@@ -19,10 +19,3 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-
----
-
-This license covers the code, the scripts, the skill's written references and
-the library metadata (tags, notes, measured tokens). It does not cover the
-screenshots in skills/ui-taste/library/screens/ or site/thumbs/: each one
-belongs to the company that made the page it shows. See "Rights" in README.md.
