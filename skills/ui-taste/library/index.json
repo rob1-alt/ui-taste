@@ -12420,6 +12420,78 @@
     }
   },
   {
+    "id": "afrika-landing",
+    "site": "Afrika",
+    "url": "http://afrika.to",
+    "type": "landing",
+    "tags": [
+      "giant-wordmark",
+      "blue-links",
+      "project-grid",
+      "captions",
+      "swiss"
+    ],
+    "note": "A Vienna design studio: 'Afrika' in big black grotesk, a two-line description and two plain blue links, then projects with captions in the same size: Swiss restraint where the links are the only colour.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/afrika-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/afrika-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Afrika",
+      "fonts": [
+        "Afrika Regular",
+        "Helvetica",
+        "Afrika Light"
+      ],
+      "type": {
+        "h1": {
+          "font": "Helvetica",
+          "size": 202,
+          "weight": "700",
+          "lineHeight": 1,
+          "letterSpacing": "-4.032px",
+          "color": "rgba(0, 0, 0, 0.98)"
+        },
+        "h2": null,
+        "h3": {
+          "font": "Afrika Regular",
+          "size": 45,
+          "weight": "400",
+          "lineHeight": 1,
+          "letterSpacing": "normal",
+          "color": "rgba(0, 0, 0, 0.98)"
+        },
+        "body": {
+          "font": "Afrika Light",
+          "size": 158,
+          "weight": "400",
+          "lineHeight": 1,
+          "letterSpacing": "-6.336px",
+          "color": "rgba(0, 0, 0, 0.98)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [],
+        "text": [
+          "#000000",
+          "#0000ff"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": null
+    }
+  },
+  {
     "id": "after-party-landing",
     "site": "After Party",
     "url": "https://afterparty.studio",
@@ -16522,6 +16594,90 @@
         }
       ],
       "contentWidth": 1536
+    }
+  },
+  {
+    "id": "athletics-landing",
+    "site": "Athletics",
+    "url": "http://athleticsnyc.com",
+    "type": "landing",
+    "tags": [
+      "giant-3d-letter",
+      "serif-statement",
+      "lettered-specialties",
+      "dark-mode"
+    ],
+    "note": "A brand innovation studio renders its initial 'A' as a big green 3D form on black, then a serif statement and its specialties as a huge serif list with A, B, C markers.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/athletics-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/athletics-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Athletics | A brand studio",
+      "fonts": [
+        "Söhne",
+        "Feature Deck"
+      ],
+      "type": {
+        "h1": {
+          "font": "Feature Deck",
+          "size": 116,
+          "weight": "300",
+          "lineHeight": 1.05,
+          "letterSpacing": "-0.99px",
+          "color": "rgb(255, 255, 255)"
+        },
+        "h2": {
+          "font": "Feature Deck",
+          "size": 82,
+          "weight": "300",
+          "lineHeight": 1.1,
+          "letterSpacing": "-1.44px",
+          "color": "rgb(255, 255, 255)"
+        },
+        "h3": {
+          "font": "Feature Deck",
+          "size": 72,
+          "weight": "300",
+          "lineHeight": 1.1,
+          "letterSpacing": "normal",
+          "color": "rgb(255, 255, 255)"
+        },
+        "body": {
+          "font": "Söhne",
+          "size": 17,
+          "weight": "300",
+          "lineHeight": 1.3,
+          "letterSpacing": "normal",
+          "color": "rgb(255, 255, 255)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#1d1d1d",
+          "#000000",
+          "#ffffff",
+          "#180d43",
+          "#fd7348"
+        ],
+        "text": [
+          "#ffffff",
+          "#1d1d1d",
+          "#000000"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": 922
     }
   },
   {
@@ -20788,6 +20944,70 @@
       },
       "buttons": [],
       "contentWidth": 1440
+    }
+  },
+  {
+    "id": "buero-ags-landing",
+    "site": "Buero AGS",
+    "url": "https://buero-ags.com",
+    "type": "landing",
+    "tags": [
+      "poster-hero",
+      "grey-field",
+      "short-page",
+      "imprint"
+    ],
+    "note": "A visual communication studio's homepage is one of its posters ('Science is beautiful') on grey with a short paragraph and contact details: one piece of work stands for the practice.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/buero-ags-landing-desktop.jpg",
+        "width": 1440,
+        "height": 1139
+      },
+      "mobile": {
+        "file": "screens/buero-ags-landing-mobile.jpg",
+        "width": 390,
+        "height": 1014
+      }
+    },
+    "tokens": {
+      "title": "Buero AGS — Graphic Design, Branding, Typography. Vienna Wien, Austria",
+      "fonts": [
+        "Graphik Web"
+      ],
+      "type": {
+        "h1": {
+          "font": "Graphik Web",
+          "size": 86,
+          "weight": "400",
+          "lineHeight": 1.1,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        },
+        "h2": null,
+        "h3": null,
+        "body": {
+          "font": "Graphik Web",
+          "size": 18,
+          "weight": "400",
+          "lineHeight": 1.4,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#eeeeee",
+          "#ffffff"
+        ],
+        "text": [
+          "#000000"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": null
     }
   },
   {
@@ -36480,6 +36700,111 @@
     }
   },
   {
+    "id": "for-the-people-landing",
+    "site": "For The People",
+    "url": "http://forthepeople.agency",
+    "type": "landing",
+    "tags": [
+      "manifesto-type",
+      "custom-display-face",
+      "orange-gradient",
+      "serif-question"
+    ],
+    "note": "'PEOPLE DESERVE BETTER BRANDS' in a custom display face on black, then an orange gradient with a serif question ('So what makes a better brand?'): a manifesto then a conversation.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/for-the-people-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/for-the-people-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "For The People",
+      "fonts": [
+        "Personality Type Regular",
+        "Founders Grotesk Regular",
+        "sans-serif"
+      ],
+      "type": {
+        "h1": null,
+        "h2": null,
+        "h3": null,
+        "body": {
+          "font": "Founders Grotesk Regular",
+          "size": 16,
+          "weight": "400",
+          "lineHeight": 1.47,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#ffffff",
+          "#000000"
+        ],
+        "text": [
+          "#ffffff",
+          "#000000"
+        ]
+      },
+      "buttons": [
+        {
+          "label": "Better brands",
+          "bg": "#f0f0f0",
+          "color": "#0000ee",
+          "radius": "4px",
+          "height": 29,
+          "paddingX": 10,
+          "font": "sans-serif",
+          "size": 12,
+          "weight": "400"
+        },
+        {
+          "label": "How we work",
+          "bg": "#f0f0f0",
+          "color": "#0000ee",
+          "radius": "4px",
+          "height": 29,
+          "paddingX": 10,
+          "font": "sans-serif",
+          "size": 12,
+          "weight": "400"
+        },
+        {
+          "label": "Our work",
+          "bg": "#f0f0f0",
+          "color": "#0000ee",
+          "radius": "4px",
+          "height": 29,
+          "paddingX": 10,
+          "font": "sans-serif",
+          "size": 12,
+          "weight": "400"
+        },
+        {
+          "label": "Get in touch",
+          "bg": "#f0f0f0",
+          "color": "#0000ee",
+          "radius": "4px",
+          "height": 29,
+          "paddingX": 10,
+          "font": "sans-serif",
+          "size": 12,
+          "weight": "400"
+        }
+      ],
+      "contentWidth": null
+    }
+  },
+  {
     "id": "fora-landing",
     "site": "Fora",
     "url": "https://www.fora-concept.com",
@@ -41469,6 +41794,168 @@
       },
       "buttons": [],
       "contentWidth": 1397
+    }
+  },
+  {
+    "id": "handsome-frank-landing",
+    "site": "Handsome Frank",
+    "url": "http://handsomefrank.com",
+    "type": "landing",
+    "tags": [
+      "illustration-hero",
+      "heavy-display",
+      "artist-roster",
+      "new-tags"
+    ],
+    "note": "An illustration agency: 'Home to the world's greatest illustrators' in heavy display over an illustration, then the roster as a grid with 'New' tags: the artists are the product.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/handsome-frank-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/handsome-frank-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Handsome Frank | Home to the world's greatest Illustrators",
+      "fonts": [
+        "Retail Display",
+        "Nikkei"
+      ],
+      "type": {
+        "h1": {
+          "font": "Retail Display",
+          "size": 168,
+          "weight": "900",
+          "lineHeight": 1,
+          "letterSpacing": "normal",
+          "color": "rgb(255, 255, 255)"
+        },
+        "h2": {
+          "font": "Retail Display",
+          "size": 88,
+          "weight": "900",
+          "lineHeight": 1,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        },
+        "h3": {
+          "font": "Retail Display",
+          "size": 36,
+          "weight": "900",
+          "lineHeight": 1,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        },
+        "body": {
+          "font": "Retail Display",
+          "size": 28,
+          "weight": "900",
+          "lineHeight": 1.5,
+          "letterSpacing": "normal",
+          "color": "rgb(255, 255, 255)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#ffffff",
+          "#b77542",
+          "#574a3d",
+          "#b39135",
+          "#3c322e"
+        ],
+        "text": [
+          "#000000",
+          "#ffffff"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": 1536
+    }
+  },
+  {
+    "id": "happen-studio-landing",
+    "site": "happen.studio",
+    "url": "http://www.happen-studio.de",
+    "type": "landing",
+    "tags": [
+      "gold-object",
+      "navy-field",
+      "index-menu",
+      "project-grid"
+    ],
+    "note": "A studio shows one gold 3D fist on navy with a small ruled index menu at the side, then a calm grid of packaging and identity: a single object as the signature.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/happen-studio-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/happen-studio-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "happen.studio",
+      "fonts": [
+        "Circular-Book",
+        "minion-pro"
+      ],
+      "type": {
+        "h1": {
+          "font": "minion-pro",
+          "size": 57,
+          "weight": "400",
+          "lineHeight": "normal",
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        },
+        "h2": {
+          "font": "Circular-Book",
+          "size": 76,
+          "weight": "400",
+          "lineHeight": "normal",
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        },
+        "h3": {
+          "font": "Circular-Book",
+          "size": 29,
+          "weight": "400",
+          "lineHeight": "normal",
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        },
+        "body": {
+          "font": "minion-pro",
+          "size": 25,
+          "weight": "400",
+          "lineHeight": "normal",
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#ffffff",
+          "#ffde79"
+        ],
+        "text": [
+          "#000000"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": null
     }
   },
   {
@@ -58853,6 +59340,132 @@
     }
   },
   {
+    "id": "naranjo-etxeberria-landing",
+    "site": "Naranjo Etxeberria",
+    "url": "http://naranjoetxeberria.com",
+    "type": "landing",
+    "tags": [
+      "tabular-index",
+      "archive-grid",
+      "black-and-white",
+      "dense"
+    ],
+    "note": "A studio's homepage is a table header (project, category, year) above a dense black and white grid of every project: a catalogue, not a showcase.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/naranjo-etxeberria-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/naranjo-etxeberria-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Work © 2026 N-E",
+      "fonts": [
+        "AkkuratMonoLLWeb-Regular"
+      ],
+      "type": {
+        "h1": null,
+        "h2": null,
+        "h3": null,
+        "body": {
+          "font": "AkkuratMonoLLWeb-Regular",
+          "size": 12,
+          "weight": "400",
+          "lineHeight": 1.67,
+          "letterSpacing": "normal",
+          "color": "rgb(255, 255, 255)"
+        }
+      },
+      "colors": {
+        "background": "#000000",
+        "surfaces": [
+          "#666666",
+          "#000000"
+        ],
+        "text": [
+          "#ffffff",
+          "#666666"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": null
+    }
+  },
+  {
+    "id": "negative-landing",
+    "site": "Negative",
+    "url": "http://negativelabs.com",
+    "type": "landing",
+    "tags": [
+      "circular-type",
+      "beige",
+      "client-table",
+      "service-tags"
+    ],
+    "note": "A studio sets its name and 'Selected Projects' on a circle on beige, then lists clients in a ruled table with sector and services: one typographic gesture, then plain data.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/negative-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/negative-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Negative — Work",
+      "fonts": [
+        "Helvetica"
+      ],
+      "type": {
+        "h1": null,
+        "h2": {
+          "font": "Helvetica",
+          "size": 30,
+          "weight": "400",
+          "lineHeight": 1.2,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        },
+        "h3": {
+          "font": "Helvetica",
+          "size": 18,
+          "weight": "400",
+          "lineHeight": 1.5,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        },
+        "body": {
+          "font": "Helvetica",
+          "size": 30,
+          "weight": "400",
+          "lineHeight": 1.2,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        }
+      },
+      "colors": {
+        "background": "#ddc8bc",
+        "surfaces": [],
+        "text": [
+          "#000000"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": null
+    }
+  },
+  {
     "id": "nelson-clouds-collage",
     "site": "Nelson",
     "url": "(reference supplied by the user, no live URL)",
@@ -62806,6 +63419,62 @@
     }
   },
   {
+    "id": "oof-landing",
+    "site": "oof.",
+    "url": "https://oof.studio",
+    "type": "landing",
+    "tags": [
+      "project-table",
+      "blue-links",
+      "year-client-service",
+      "austere"
+    ],
+    "note": "A development studio's homepage is only a table of projects by year, client and service with blue links: the most austere portfolio possible, and it works.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/oof-landing-desktop.jpg",
+        "width": 1440,
+        "height": 900
+      },
+      "mobile": {
+        "file": "screens/oof-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "oof.",
+      "fonts": [
+        "haptik"
+      ],
+      "type": {
+        "h1": {
+          "font": "haptik",
+          "size": 54,
+          "weight": "700",
+          "lineHeight": 1,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 255)"
+        },
+        "h2": null,
+        "h3": null,
+        "body": null
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#ffffff"
+        ],
+        "text": [
+          "#0000ff"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": null
+    }
+  },
+  {
     "id": "open-landing",
     "site": "Open",
     "url": "https://o-p-e-n.com",
@@ -65204,6 +65873,95 @@
           "paddingX": 8,
           "font": "Arial",
           "size": 16,
+          "weight": "400"
+        }
+      ],
+      "contentWidth": null
+    }
+  },
+  {
+    "id": "pellmell-landing",
+    "site": "PellMell.",
+    "url": "http://www.pellmell.fr",
+    "type": "landing",
+    "tags": [
+      "giant-lowercase-wordmark",
+      "director-roster",
+      "grey-names",
+      "production-company"
+    ],
+    "note": "A production company: 'pellmell' in a huge lowercase wordmark, then 'Our Directors' as a large grey list with a red dot on the active one: the roster as navigation.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/pellmell-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/pellmell-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "pellmell",
+      "fonts": [
+        "season"
+      ],
+      "type": {
+        "h1": {
+          "font": "season",
+          "size": 10,
+          "weight": "400",
+          "lineHeight": 1.1,
+          "letterSpacing": "normal",
+          "color": "rgb(17, 17, 17)"
+        },
+        "h2": {
+          "font": "season",
+          "size": 24,
+          "weight": "650",
+          "lineHeight": 1.2,
+          "letterSpacing": "normal",
+          "color": "rgb(53, 54, 58)"
+        },
+        "h3": null,
+        "body": {
+          "font": "season",
+          "size": 40,
+          "weight": "400",
+          "lineHeight": 1.1,
+          "letterSpacing": "normal",
+          "color": "rgb(255, 255, 255)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#ffffff",
+          "#111111",
+          "#35363a",
+          "#000000",
+          "#2b2b2b"
+        ],
+        "text": [
+          "#959697",
+          "#111111",
+          "#f6f6f4",
+          "#35363a"
+        ]
+      },
+      "buttons": [
+        {
+          "label": "Go to homepage",
+          "bg": "#111111",
+          "color": "#35363a",
+          "radius": "8px",
+          "height": 42,
+          "paddingX": 0,
+          "font": "season",
+          "size": 10,
           "weight": "400"
         }
       ],
@@ -67634,6 +68392,67 @@
     }
   },
   {
+    "id": "point-landing",
+    "site": "Point",
+    "url": "http://www.point.studio/#intro",
+    "type": "landing",
+    "tags": [
+      "giant-wordmark-over-photo",
+      "x-mark",
+      "featured-work",
+      "brand-studio"
+    ],
+    "note": "'× POINT' set huge over a photo, then one sentence about purpose and a grid of featured work: the mark is a multiplication sign, the brand is the point.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/point-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/point-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Point Studio | Brand identity and web design studio, London",
+      "fonts": [
+        "Inter Tight"
+      ],
+      "type": {
+        "h1": null,
+        "h2": null,
+        "h3": {
+          "font": "Inter Tight",
+          "size": 32,
+          "weight": "400",
+          "lineHeight": 1.4,
+          "letterSpacing": "normal",
+          "color": "rgb(229, 227, 217)"
+        },
+        "body": null
+      },
+      "colors": {
+        "background": "#f9f8f4",
+        "surfaces": [
+          "#f9f8f4",
+          "#000000",
+          "#1d1d1d"
+        ],
+        "text": [
+          "#222222",
+          "#fdfdfd",
+          "#ffffff",
+          "#dfdfdf"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": null
+    }
+  },
+  {
     "id": "polar-landing",
     "site": "Polar",
     "url": "https://polar.sh",
@@ -69456,6 +70275,85 @@
           "weight": "400"
         }
       ],
+      "contentWidth": null
+    }
+  },
+  {
+    "id": "prolog-landing",
+    "site": "prolog",
+    "url": "http://prolog.work",
+    "type": "landing",
+    "tags": [
+      "hand-drawn-mascots",
+      "serif-copy",
+      "german-agency",
+      "project-columns"
+    ],
+    "note": "A Basel web agency pairs German serif copy with line drawings of small mascots (a square in sunglasses, a triangle) walking across the page: drawing brings warmth to a technical offer.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/prolog-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/prolog-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Prolog – Digitalagentur in Basel",
+      "fonts": [
+        "Alpina",
+        "Zirkon"
+      ],
+      "type": {
+        "h1": {
+          "font": "Alpina",
+          "size": 40,
+          "weight": "300",
+          "lineHeight": 1.1,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        },
+        "h2": {
+          "font": "Zirkon",
+          "size": 14,
+          "weight": "500",
+          "lineHeight": 1.2,
+          "letterSpacing": "-0.28px",
+          "color": "rgb(0, 0, 0)"
+        },
+        "h3": {
+          "font": "Zirkon",
+          "size": 20,
+          "weight": "700",
+          "lineHeight": 1.2,
+          "letterSpacing": "-0.6px",
+          "color": "rgb(0, 0, 0)"
+        },
+        "body": {
+          "font": "Alpina",
+          "size": 40,
+          "weight": "300",
+          "lineHeight": 1.1,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#ff5c02",
+          "#ffffff"
+        ],
+        "text": [
+          "#000000"
+        ]
+      },
+      "buttons": [],
       "contentWidth": null
     }
   },
@@ -88243,6 +89141,103 @@
       }
     },
     "tokens": null
+  },
+  {
+    "id": "toyfight-landing",
+    "site": "Toyfight",
+    "url": "http://toyfight.co",
+    "type": "landing",
+    "tags": [
+      "pill-words",
+      "pixel-type",
+      "3d-console",
+      "dark-video-section"
+    ],
+    "note": "A studio sets 'The Unmistakably Original® Design Studio' as words in pills with a pixel face, under a 3D handheld console: retro game cues carry the voice.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/toyfight-landing-desktop.jpg",
+        "width": 1440,
+        "height": 2987
+      },
+      "mobile": {
+        "file": "screens/toyfight-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "ToyFight",
+      "fonts": [
+        "SpeziaCondensed",
+        "FKRasterGrotesk",
+        "SpeziaMono"
+      ],
+      "type": {
+        "h1": {
+          "font": "SpeziaCondensed",
+          "size": 36,
+          "weight": "400",
+          "lineHeight": 1.5,
+          "letterSpacing": "normal",
+          "color": "rgb(13, 13, 14)"
+        },
+        "h2": {
+          "font": "FKRasterGrotesk",
+          "size": 12,
+          "weight": "400",
+          "lineHeight": 1.6,
+          "letterSpacing": "normal",
+          "color": "rgb(250, 246, 239)"
+        },
+        "h3": {
+          "font": "FKRasterGrotesk",
+          "size": 33,
+          "weight": "400",
+          "lineHeight": 1.1,
+          "letterSpacing": "-0.652857px",
+          "color": "rgb(13, 13, 14)"
+        },
+        "body": {
+          "font": "FKRasterGrotesk",
+          "size": 11,
+          "weight": "400",
+          "lineHeight": 1,
+          "letterSpacing": "0.88px",
+          "color": "rgb(241, 237, 231)"
+        }
+      },
+      "colors": {
+        "background": "#faf6ef",
+        "surfaces": [
+          "#0d0d0e",
+          "#f1ede7",
+          "#faf6ef",
+          "#ffd8f5",
+          "#e9e3f3"
+        ],
+        "text": [
+          "#0d0d0e",
+          "#faf6ef",
+          "#f1ede7"
+        ]
+      },
+      "buttons": [
+        {
+          "label": "T:\n\\\n\nTOY\n\nFIGHT",
+          "bg": "#0d0d0e",
+          "color": "#f1ede7",
+          "radius": "4px",
+          "height": 38,
+          "paddingX": 0,
+          "font": "SpeziaCondensed",
+          "size": 18,
+          "weight": "400"
+        }
+      ],
+      "contentWidth": 876
+    }
   },
   {
     "id": "tr-studio-landing",

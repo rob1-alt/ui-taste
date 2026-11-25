@@ -1765,3 +1765,44 @@ https://www.coderesolution.com	dark serif agency template
 http://www.pathh.co	sparse, mobile black
 http://www.polytechnic.works	grey placeholders, partial
 https://stuur.men	grey placeholder blocks, partial
+http://www.anyways.co	broken (URLError) (prefilter)
+http://nicer.io	redirects off-site (nicer.com) (prefilter)
+http://aloof.co	redirects off-site (aloof.studio) (prefilter)
+http://onlystudio.co.uk	redirects off-site (onlystudio.com) (prefilter)
+http://www.welikesmall.com	redirects off-site (thinkingbox.com) (prefilter)
+http://neversitstill.tv	redirects off-site (neversitstill.com) (prefilter)
+http://www.not-studio.com	redirects off-site (not.studio) (prefilter)
+http://www.paulleichtfried.com	redirects off-site (leichtfried.com) (prefilter)
+http://www.bukwild.com	redirects off-site (goodness.inc) (prefilter)
+http://www.divisionparis.com	redirects off-site (division.global) (prefilter)
+http://www.stinkdigital.com	redirects off-site (stinkstudios.com) (prefilter)
+http://weareclubhouse.com	redirects off-site (clubhouse.studio) (prefilter)
+http://www.anonymous.paris	broken (URLError) (prefilter)
+http://www.tim-kaufmann.net	redirects off-site (kaufmann-koop.de) (prefilter)
+http://disko.graphics	broken (URLError) (prefilter)
+http://www.impossible-bureau.com	broken (http 402) (prefilter)
+http://www.mus-kat.de	redirects off-site (muskat.design) (prefilter)
+http://www.amateur.rocks	hero only: one black screen with a rotating object; empty be
+https://andreribeiro.co	hero only: portrait and name on first screen; nothing below 
+http://andrewspencer.co	short text-only personal page; desktop mostly empty below th
+https://appico.com	Access Denied error page ;both captures;
+https://designbyatlas.com	brand consultancy: standard intro paragraph and two-column p
+https://www.axiomzen.co	centered headline; CTA pill; stat tiles ;founded; businesses
+http://b14.dk	scattered images with large empty gaps; lazy-loaded tiles no
+http://www.enjoytheweather.com	hero only: one black screen with contact details; empty belo
+http://forwardcreatives.com	hero only: bottle photo on black; mostly empty below on desk
+http://funkhaus.us	hero only: one photo with a caption; empty white below on de
+https://humaan.com	big sans headline over a stack of overlapping product mockup
+http://www.kollor.com	Websupport parked-domain placeholder ;"Nothing to see here y
+http://www.north2.net	desktop hero only; white below; mobile shows a security veri
+https://thefutureforward.com	grid of studio project tiles with names on photos; standard 
+https://ueno.co	serif intro line; three-photo strip; logo marquee and about 
+https://www.useallfive.com	sans headline; logo marquee and featured-work block with ser
+http://variable.io	dark studio with centered Solutions and Selected Works card 
+http://www.werklig.com	hero only: full-bleed video still with title overlay; black 
+https://yummygum.com	Cloudflare "Performing security verification" bot wall on de
+http://e-i-b.com	blank
+http://sgustokstudio.com	blank
+http://studiovedet.com	blank
+http://equalparts.studio	desktop pink and empty below the hero
+http://any.studio	broken (page timeout)

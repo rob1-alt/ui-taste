@@ -13729,5 +13729,162 @@
    "caps-statement"
   ],
   "note": "'ZERO' set huge with a white circle as the O's twin, then a 3D sneaker and 'WE BUILD BREAK THROUGH BRANDS.' in caps: the mark and one render carry the page."
+ },
+ {
+  "site": "Afrika",
+  "type": "landing",
+  "url": "http://afrika.to",
+  "tags": [
+   "giant-wordmark",
+   "blue-links",
+   "project-grid",
+   "captions",
+   "swiss"
+  ],
+  "note": "A Vienna design studio: 'Afrika' in big black grotesk, a two-line description and two plain blue links, then projects with captions in the same size: Swiss restraint where the links are the only colour."
+ },
+ {
+  "site": "Athletics",
+  "type": "landing",
+  "url": "http://athleticsnyc.com",
+  "tags": [
+   "giant-3d-letter",
+   "serif-statement",
+   "lettered-specialties",
+   "dark-mode"
+  ],
+  "note": "A brand innovation studio renders its initial 'A' as a big green 3D form on black, then a serif statement and its specialties as a huge serif list with A, B, C markers."
+ },
+ {
+  "site": "Buero AGS",
+  "type": "landing",
+  "url": "https://buero-ags.com",
+  "tags": [
+   "poster-hero",
+   "grey-field",
+   "short-page",
+   "imprint"
+  ],
+  "note": "A visual communication studio's homepage is one of its posters ('Science is beautiful') on grey with a short paragraph and contact details: one piece of work stands for the practice."
+ },
+ {
+  "site": "For The People",
+  "type": "landing",
+  "url": "http://forthepeople.agency",
+  "tags": [
+   "manifesto-type",
+   "custom-display-face",
+   "orange-gradient",
+   "serif-question"
+  ],
+  "note": "'PEOPLE DESERVE BETTER BRANDS' in a custom display face on black, then an orange gradient with a serif question ('So what makes a better brand?'): a manifesto then a conversation."
+ },
+ {
+  "site": "Handsome Frank",
+  "type": "landing",
+  "url": "http://handsomefrank.com",
+  "tags": [
+   "illustration-hero",
+   "heavy-display",
+   "artist-roster",
+   "new-tags"
+  ],
+  "note": "An illustration agency: 'Home to the world's greatest illustrators' in heavy display over an illustration, then the roster as a grid with 'New' tags: the artists are the product."
+ },
+ {
+  "site": "happen.studio",
+  "type": "landing",
+  "url": "http://www.happen-studio.de",
+  "tags": [
+   "gold-object",
+   "navy-field",
+   "index-menu",
+   "project-grid"
+  ],
+  "note": "A studio shows one gold 3D fist on navy with a small ruled index menu at the side, then a calm grid of packaging and identity: a single object as the signature."
+ },
+ {
+  "site": "Naranjo Etxeberria",
+  "type": "landing",
+  "url": "http://naranjoetxeberria.com",
+  "tags": [
+   "tabular-index",
+   "archive-grid",
+   "black-and-white",
+   "dense"
+  ],
+  "note": "A studio's homepage is a table header (project, category, year) above a dense black and white grid of every project: a catalogue, not a showcase."
+ },
+ {
+  "site": "Negative",
+  "type": "landing",
+  "url": "http://negativelabs.com",
+  "tags": [
+   "circular-type",
+   "beige",
+   "client-table",
+   "service-tags"
+  ],
+  "note": "A studio sets its name and 'Selected Projects' on a circle on beige, then lists clients in a ruled table with sector and services: one typographic gesture, then plain data."
+ },
+ {
+  "site": "oof.",
+  "type": "landing",
+  "url": "https://oof.studio",
+  "tags": [
+   "project-table",
+   "blue-links",
+   "year-client-service",
+   "austere"
+  ],
+  "note": "A development studio's homepage is only a table of projects by year, client and service with blue links: the most austere portfolio possible, and it works."
+ },
+ {
+  "site": "PellMell.",
+  "type": "landing",
+  "url": "http://www.pellmell.fr",
+  "tags": [
+   "giant-lowercase-wordmark",
+   "director-roster",
+   "grey-names",
+   "production-company"
+  ],
+  "note": "A production company: 'pellmell' in a huge lowercase wordmark, then 'Our Directors' as a large grey list with a red dot on the active one: the roster as navigation."
+ },
+ {
+  "site": "Point",
+  "type": "landing",
+  "url": "http://www.point.studio/#intro",
+  "tags": [
+   "giant-wordmark-over-photo",
+   "x-mark",
+   "featured-work",
+   "brand-studio"
+  ],
+  "note": "'× POINT' set huge over a photo, then one sentence about purpose and a grid of featured work: the mark is a multiplication sign, the brand is the point."
+ },
+ {
+  "site": "prolog",
+  "type": "landing",
+  "url": "http://prolog.work",
+  "tags": [
+   "hand-drawn-mascots",
+   "serif-copy",
+   "german-agency",
+   "project-columns"
+  ],
+  "note": "A Basel web agency pairs German serif copy with line drawings of small mascots (a square in sunglasses, a triangle) walking across the page: drawing brings warmth to a technical offer."
+ },
+ {
+  "site": "Toyfight",
+  "type": "landing",
+  "url": "http://toyfight.co",
+  "tags": [
+   "pill-words",
+   "pixel-type",
+   "3d-console",
+   "dark-video-section"
+  ],
+  "note": "A studio sets 'The Unmistakably Original® Design Studio' as words in pills with a pixel face, under a 3D handheld console: retro game cues carry the voice."
  }
 ]
