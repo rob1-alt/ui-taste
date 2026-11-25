@@ -13066,5 +13066,159 @@
    "rooms"
   ],
   "note": "A Leipzig coworking house says 'Ein Haus, kein Büro.' over a photo of the room, then 'Raum für Fokus.' in grey with the facts (eight desks, workshops, dinners): a space sold by its rooms."
+ },
+ {
+  "site": "ADBC",
+  "type": "landing",
+  "url": "https://www.adbc.studio",
+  "tags": [
+   "giant-wordmark",
+   "photo-hero",
+   "danish-copy",
+   "alphabet-play",
+   "events-agency"
+  ],
+  "note": "A Danish events agency sets 'ADBC' huge over a photo and explains the name as a riff on the alphabet ('Alfa. Delta. Beta. Chi... 2026 AD and 100.000 BC'): the name's story is the intro."
+ },
+ {
+  "site": "Alt-Border",
+  "type": "landing",
+  "url": "https://www.alt-border.com",
+  "tags": [
+   "inline-images",
+   "big-sentence",
+   "feed",
+   "fashion-beauty",
+   "art-direction"
+  ],
+  "note": "An art direction studio writes its intro as one big sentence with small images set inline between the words, then a feed of work: the sentence is the moodboard."
+ },
+ {
+  "site": "Bureau for Visual Affairs",
+  "type": "landing",
+  "url": "https://bureau-va.com",
+  "tags": [
+   "yellow-header",
+   "giant-name",
+   "asymmetric-grid",
+   "job-post-card",
+   "fashion-tech"
+  ],
+  "note": "A creative technology studio puts its long name huge on pale yellow, then an asymmetric grid of client sites and objects with a small 'designers wanted' card dropped in: the hiring note lives in the work."
+ },
+ {
+  "site": "edition.studio",
+  "type": "landing",
+  "url": "https://edition.studio",
+  "tags": [
+   "script-wordmark",
+   "rotated-type",
+   "collage",
+   "black-and-white",
+   "red-dot"
+  ],
+  "note": "A studio mixes a giant script word ('Empreinte'), type rotated 90 degrees and black-and-white product shots in a loose collage with one red dot: a layout that reads like a printed specimen."
+ },
+ {
+  "site": "From Form",
+  "type": "landing",
+  "url": "https://fromform.nl",
+  "tags": [
+   "mono-labels",
+   "photo-hero",
+   "tomato-pattern",
+   "film-and-design",
+   "yellow-tags"
+  ],
+  "note": "An independent studio for film and design spreads its name across the nav in mono caps and shows one project as a repeated tomato pattern, with mono tag chips below: playful repetition carries the work."
+ },
+ {
+  "site": "Klad Syndicate",
+  "type": "landing",
+  "url": "https://klad.design",
+  "tags": [
+   "world-map",
+   "giant-type",
+   "stats-row",
+   "tool-lists",
+   "chinese-heading"
+  ],
+  "note": "A design syndicate sets huge cropped type over a black world map, then dense lists (industries, tools, stack) and a stats row ('0M+ raised'): an agency that shows its range as a spec sheet."
+ },
+ {
+  "site": "Opening Line",
+  "type": "landing",
+  "url": "https://openingline.co",
+  "tags": [
+   "blue-field",
+   "serif-statement",
+   "hand-drawn-swirl",
+   "copywriting"
+  ],
+  "note": "A brand voice studio on solid blue: 'Every brand has a voice' in serif with a hand-drawn swirl and the word 'bland' circled: a copywriting studio shows its point with a pen mark."
+ },
+ {
+  "site": "Panthalassa",
+  "type": "landing",
+  "url": "https://panthalassa.tv",
+  "tags": [
+   "giant-serif",
+   "navy",
+   "pill-lists",
+   "ocean",
+   "production-company"
+  ],
+  "note": "An ocean production company: a giant serif wordmark on a dark photo, then its work, creators and clients as rows of outlined pills on navy: the roster is the page."
+ },
+ {
+  "site": "School",
+  "type": "landing",
+  "url": "https://schoooool.com",
+  "tags": [
+   "desktop-metaphor",
+   "widgets",
+   "pixel-art",
+   "greeting",
+   "creative-studio"
+  ],
+  "note": "'Hi, Lincoln. School is (y)our creative studio.' The homepage is a desktop of small widgets (a colour wheel, a clock, a pixel drawing, a chessboard, a poll): the studio as a playground to click."
+ },
+ {
+  "site": "The Workshop Survival Guide",
+  "type": "landing",
+  "url": "https://www.workshopsurvival.com",
+  "tags": [
+   "book-landing",
+   "yellow-and-pink",
+   "stickers",
+   "reviews",
+   "authors"
+  ],
+  "note": "A book about running workshops: yellow cards, a 3D book with round stickers ('18,000 copies sold', 'start with a skeleton'), then the two authors and reader reviews on pink cards: a book sold like a friendly product."
+ },
+ {
+  "site": "Traffic Productions",
+  "type": "landing",
+  "url": "https://www.traffic.productions",
+  "tags": [
+   "giant-sentence",
+   "ruled-boxes",
+   "lettered-list",
+   "production-house"
+  ],
+  "note": "A production house writes what it is as one huge sentence inside a thin ruled box, then lists clients as lettered rows (A, B...) with a photo each: the grid lines give a plain page its rigour."
+ },
+ {
+  "site": "Twohy Design Works",
+  "type": "landing",
+  "url": "https://www.twohydesign.works",
+  "tags": [
+   "orange-caps",
+   "wireframe-boxes",
+   "video",
+   "personal-essay",
+   "zero-to-one"
+  ],
+  "note": "A one-person design partner sets 'ZERO-TO-ONE DESIGN, BRAND, AND STRATEGY FOR AMBITIOUS TOYS AND SERIOUS BUSINESS' in orange wide caps, then a story ('My very first memory') about computers: the pitch and the person in one scroll."
  }
 ]

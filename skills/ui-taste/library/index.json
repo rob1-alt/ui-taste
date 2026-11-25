@@ -12150,6 +12150,76 @@
     }
   },
   {
+    "id": "adbc-landing",
+    "site": "ADBC",
+    "url": "https://www.adbc.studio",
+    "type": "landing",
+    "tags": [
+      "giant-wordmark",
+      "photo-hero",
+      "danish-copy",
+      "alphabet-play",
+      "events-agency"
+    ],
+    "note": "A Danish events agency sets 'ADBC' huge over a photo and explains the name as a riff on the alphabet ('Alfa. Delta. Beta. Chi... 2026 AD and 100.000 BC'): the name's story is the intro.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/adbc-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/adbc-landing-mobile.jpg",
+        "width": 390,
+        "height": 2220
+      }
+    },
+    "tokens": {
+      "title": "ADBC",
+      "fonts": [
+        "Untitled Sans",
+        "Untitled Serif"
+      ],
+      "type": {
+        "h1": null,
+        "h2": {
+          "font": "Untitled Sans",
+          "size": 72,
+          "weight": "400",
+          "lineHeight": 1.05,
+          "letterSpacing": "-3.6px",
+          "color": "rgb(17, 17, 17)"
+        },
+        "h3": {
+          "font": "Untitled Sans",
+          "size": 24,
+          "weight": "400",
+          "lineHeight": 1.25,
+          "letterSpacing": "normal",
+          "color": "rgb(17, 17, 17)"
+        },
+        "body": {
+          "font": "Untitled Serif",
+          "size": 18,
+          "weight": "400",
+          "lineHeight": 1.25,
+          "letterSpacing": "normal",
+          "color": "rgb(17, 17, 17)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [],
+        "text": [
+          "#111111"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": 768
+    }
+  },
+  {
     "id": "aeon-landing",
     "site": "Aeon",
     "url": "https://aeon.co",
@@ -13139,6 +13209,65 @@
         }
       ],
       "contentWidth": 1440
+    }
+  },
+  {
+    "id": "alt-border-landing",
+    "site": "Alt-Border",
+    "url": "https://www.alt-border.com",
+    "type": "landing",
+    "tags": [
+      "inline-images",
+      "big-sentence",
+      "feed",
+      "fashion-beauty",
+      "art-direction"
+    ],
+    "note": "An art direction studio writes its intro as one big sentence with small images set inline between the words, then a feed of work: the sentence is the moodboard.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/alt-border-landing-desktop.jpg",
+        "width": 1440,
+        "height": 2565
+      },
+      "mobile": {
+        "file": "screens/alt-border-landing-mobile.jpg",
+        "width": 390,
+        "height": 2327
+      }
+    },
+    "tokens": {
+      "title": "Alt–Border — Multidisciplinary Art Direction Studio",
+      "fonts": [
+        "Neuehaasdisplay",
+        "Inferi",
+        "Suisseintl"
+      ],
+      "type": {
+        "h1": {
+          "font": "Inferi",
+          "size": 34,
+          "weight": "200",
+          "lineHeight": 0.69,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        },
+        "h2": null,
+        "h3": null,
+        "body": null
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#ffffff"
+        ],
+        "text": [
+          "#000000"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": null
     }
   },
   {
@@ -20958,6 +21087,106 @@
       },
       "buttons": [],
       "contentWidth": null
+    }
+  },
+  {
+    "id": "bureau-for-visual-affairs-landing",
+    "site": "Bureau for Visual Affairs",
+    "url": "https://bureau-va.com",
+    "type": "landing",
+    "tags": [
+      "yellow-header",
+      "giant-name",
+      "asymmetric-grid",
+      "job-post-card",
+      "fashion-tech"
+    ],
+    "note": "A creative technology studio puts its long name huge on pale yellow, then an asymmetric grid of client sites and objects with a small 'designers wanted' card dropped in: the hiring note lives in the work.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/bureau-for-visual-affairs-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/bureau-for-visual-affairs-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Bureau for Visual Affairs",
+      "fonts": [
+        "Saans",
+        "Saans Medium"
+      ],
+      "type": {
+        "h1": {
+          "font": "Saans Medium",
+          "size": 139,
+          "weight": "570",
+          "lineHeight": 0.96,
+          "letterSpacing": "normal",
+          "color": "rgb(51, 53, 58)"
+        },
+        "h2": {
+          "font": "Saans",
+          "size": 18,
+          "weight": "380",
+          "lineHeight": 1.4,
+          "letterSpacing": "0.54px",
+          "color": "rgb(51, 53, 58)"
+        },
+        "h3": null,
+        "body": {
+          "font": "Saans",
+          "size": 27,
+          "weight": "380",
+          "lineHeight": 1.2,
+          "letterSpacing": "normal",
+          "color": "rgb(51, 53, 58)"
+        }
+      },
+      "colors": {
+        "background": "#dbdbdb",
+        "surfaces": [
+          "#dbdbdb",
+          "#f2f2f2",
+          "#f9ffc6",
+          "#ffffff",
+          "#000000"
+        ],
+        "text": [
+          "#33353a",
+          "#ffffff"
+        ]
+      },
+      "buttons": [
+        {
+          "label": "",
+          "bg": "#ffffff",
+          "color": "#000000",
+          "radius": "24px",
+          "height": 48,
+          "paddingX": 0,
+          "font": "Saans",
+          "size": 16,
+          "weight": "400"
+        },
+        {
+          "label": "Job Description →",
+          "bg": "#000000",
+          "color": "#ffffff",
+          "radius": "24px",
+          "height": 48,
+          "paddingX": 30,
+          "font": "Saans",
+          "size": 16,
+          "weight": "400"
+        }
+      ],
+      "contentWidth": 1080
     }
   },
   {
@@ -30766,6 +30995,66 @@
     }
   },
   {
+    "id": "edition-studio-landing",
+    "site": "edition.studio",
+    "url": "https://edition.studio",
+    "type": "landing",
+    "tags": [
+      "script-wordmark",
+      "rotated-type",
+      "collage",
+      "black-and-white",
+      "red-dot"
+    ],
+    "note": "A studio mixes a giant script word ('Empreinte'), type rotated 90 degrees and black-and-white product shots in a loose collage with one red dot: a layout that reads like a printed specimen.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/edition-studio-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/edition-studio-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "edition.studio | CREATIVE SERVICES FOR ALL",
+      "fonts": [
+        "Syndicat Grotesk 80"
+      ],
+      "type": {
+        "h1": null,
+        "h2": null,
+        "h3": null,
+        "body": {
+          "font": "Syndicat Grotesk 80",
+          "size": 16,
+          "weight": "300",
+          "lineHeight": 1.25,
+          "letterSpacing": "0.8px",
+          "color": "rgb(86, 86, 86)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#ffffff",
+          "#565656",
+          "#ff261f"
+        ],
+        "text": [
+          "#565656",
+          "#ffffff"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": null
+    }
+  },
+  {
     "id": "effect-landing",
     "site": "Effect",
     "url": "https://effect.website",
@@ -36295,6 +36584,115 @@
         }
       ],
       "contentWidth": null
+    }
+  },
+  {
+    "id": "from-form-landing",
+    "site": "From Form",
+    "url": "https://fromform.nl",
+    "type": "landing",
+    "tags": [
+      "mono-labels",
+      "photo-hero",
+      "tomato-pattern",
+      "film-and-design",
+      "yellow-tags"
+    ],
+    "note": "An independent studio for film and design spreads its name across the nav in mono caps and shows one project as a repeated tomato pattern, with mono tag chips below: playful repetition carries the work.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/from-form-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/from-form-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "From Form - Studio for Film and Design",
+      "fonts": [
+        "pressura--mono",
+        "pressura--bold"
+      ],
+      "type": {
+        "h1": {
+          "font": "pressura--bold",
+          "size": 30,
+          "weight": "400",
+          "lineHeight": 1,
+          "letterSpacing": "2.95px",
+          "color": "rgb(223, 223, 215)"
+        },
+        "h2": {
+          "font": "pressura--bold",
+          "size": 30,
+          "weight": "400",
+          "lineHeight": 1,
+          "letterSpacing": "2.95px",
+          "color": "rgb(223, 223, 215)"
+        },
+        "h3": {
+          "font": "pressura--bold",
+          "size": 35,
+          "weight": "400",
+          "lineHeight": 1,
+          "letterSpacing": "1.12px",
+          "color": "rgb(29, 29, 27)"
+        },
+        "body": {
+          "font": "pressura--bold",
+          "size": 30,
+          "weight": "400",
+          "lineHeight": 1,
+          "letterSpacing": "2.95px",
+          "color": "rgb(223, 223, 215)"
+        }
+      },
+      "colors": {
+        "background": "#deded6",
+        "surfaces": [
+          "#1d1d1b",
+          "#dfdfd7",
+          "#deded6",
+          "#efc766",
+          "#417ac7"
+        ],
+        "text": [
+          "#417ac7",
+          "#dfdfd7",
+          "#1d1d1b",
+          "#000000"
+        ]
+      },
+      "buttons": [
+        {
+          "label": "MENU",
+          "bg": "#efc766",
+          "color": "#1d1d1b",
+          "radius": "2.5px",
+          "height": 30,
+          "paddingX": 7,
+          "font": "pressura--bold",
+          "size": 20,
+          "weight": "400"
+        },
+        {
+          "label": "SUBSCRIBE",
+          "bg": "#417ac7",
+          "color": "#000000",
+          "radius": "2.5px",
+          "height": 30,
+          "paddingX": 8,
+          "font": "pressura--bold",
+          "size": 20,
+          "weight": "400"
+        }
+      ],
+      "contentWidth": 690
     }
   },
   {
@@ -47952,6 +48350,82 @@
         }
       ],
       "contentWidth": 1536
+    }
+  },
+  {
+    "id": "klad-syndicate-landing",
+    "site": "Klad Syndicate",
+    "url": "https://klad.design",
+    "type": "landing",
+    "tags": [
+      "world-map",
+      "giant-type",
+      "stats-row",
+      "tool-lists",
+      "chinese-heading"
+    ],
+    "note": "A design syndicate sets huge cropped type over a black world map, then dense lists (industries, tools, stack) and a stats row ('0M+ raised'): an agency that shows its range as a spec sheet.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/klad-syndicate-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/klad-syndicate-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Multidisciplinary Design Syndicate – KLAD",
+      "fonts": [
+        "Helvetica Now Display"
+      ],
+      "type": {
+        "h1": {
+          "font": "Helvetica Now Display",
+          "size": 151,
+          "weight": "400",
+          "lineHeight": 0.9,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        },
+        "h2": {
+          "font": "Helvetica Now Display",
+          "size": 151,
+          "weight": "400",
+          "lineHeight": 0.9,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        },
+        "h3": {
+          "font": "Helvetica Now Display",
+          "size": 40,
+          "weight": "400",
+          "lineHeight": 1.14,
+          "letterSpacing": "-0.4px",
+          "color": "rgb(0, 0, 0)"
+        },
+        "body": {
+          "font": "Helvetica Now Display",
+          "size": 13,
+          "weight": "400",
+          "lineHeight": 1.14,
+          "letterSpacing": "-0.13px",
+          "color": "rgb(0, 0, 0)"
+        }
+      },
+      "colors": {
+        "background": "#e6e6e6",
+        "surfaces": [],
+        "text": [
+          "#000000"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": 1440
     }
   },
   {
@@ -60884,6 +61358,78 @@
     }
   },
   {
+    "id": "opening-line-landing",
+    "site": "Opening Line",
+    "url": "https://openingline.co",
+    "type": "landing",
+    "tags": [
+      "blue-field",
+      "serif-statement",
+      "hand-drawn-swirl",
+      "copywriting"
+    ],
+    "note": "A brand voice studio on solid blue: 'Every brand has a voice' in serif with a hand-drawn swirl and the word 'bland' circled: a copywriting studio shows its point with a pen mark.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/opening-line-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/opening-line-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Opening Line — Brand strategy, tone of voice and copywriting studio",
+      "fonts": [
+        "Matter",
+        "Signifier"
+      ],
+      "type": {
+        "h1": null,
+        "h2": {
+          "font": "Signifier",
+          "size": 120,
+          "weight": "400",
+          "lineHeight": 1.01,
+          "letterSpacing": "normal",
+          "color": "rgb(255, 255, 255)"
+        },
+        "h3": {
+          "font": "Matter",
+          "size": 18,
+          "weight": "400",
+          "lineHeight": 1.39,
+          "letterSpacing": "normal",
+          "color": "rgb(255, 255, 255)"
+        },
+        "body": {
+          "font": "Matter",
+          "size": 12,
+          "weight": "400",
+          "lineHeight": 1.33,
+          "letterSpacing": "normal",
+          "color": "rgb(3, 51, 153)"
+        }
+      },
+      "colors": {
+        "background": "#033399",
+        "surfaces": [
+          "#e5ecff"
+        ],
+        "text": [
+          "#ffffff",
+          "#033399"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": 1140
+    }
+  },
+  {
     "id": "operate-landing",
     "site": "Operate",
     "url": "https://operate.so",
@@ -62297,6 +62843,97 @@
       },
       "buttons": [],
       "contentWidth": 845
+    }
+  },
+  {
+    "id": "panthalassa-landing",
+    "site": "Panthalassa",
+    "url": "https://panthalassa.tv",
+    "type": "landing",
+    "tags": [
+      "giant-serif",
+      "navy",
+      "pill-lists",
+      "ocean",
+      "production-company"
+    ],
+    "note": "An ocean production company: a giant serif wordmark on a dark photo, then its work, creators and clients as rows of outlined pills on navy: the roster is the page.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/panthalassa-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/panthalassa-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Home - Panthalassa",
+      "fonts": [
+        "Beausite",
+        "Simplon BP Mono"
+      ],
+      "type": {
+        "h1": null,
+        "h2": {
+          "font": "Beausite",
+          "size": 28,
+          "weight": "400",
+          "lineHeight": 1.25,
+          "letterSpacing": "normal",
+          "color": "rgb(5, 28, 44)"
+        },
+        "h3": {
+          "font": "Beausite",
+          "size": 18,
+          "weight": "400",
+          "lineHeight": 1.25,
+          "letterSpacing": "normal",
+          "color": "rgb(244, 249, 252)"
+        },
+        "body": {
+          "font": "Beausite",
+          "size": 28,
+          "weight": "400",
+          "lineHeight": 1.21,
+          "letterSpacing": "normal",
+          "color": "rgb(185, 217, 235)"
+        }
+      },
+      "colors": {
+        "background": "#f4f9fc",
+        "surfaces": [
+          "#000000",
+          "#afd8eb",
+          "#051c2c",
+          "#b9d9eb",
+          "#bad9ea"
+        ],
+        "text": [
+          "#051c2c",
+          "#b9d9eb",
+          "#f4f9fc",
+          "#4a5464"
+        ]
+      },
+      "buttons": [
+        {
+          "label": "Play",
+          "bg": "#bad9ea",
+          "color": "#ffffff",
+          "radius": "100%",
+          "height": 48,
+          "paddingX": 15,
+          "font": "Beausite",
+          "size": 16,
+          "weight": "400"
+        }
+      ],
+      "contentWidth": 1280
     }
   },
   {
@@ -72930,6 +73567,71 @@
           "#878787",
           "#333333",
           "#ffffff"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": null
+    }
+  },
+  {
+    "id": "school-landing",
+    "site": "School",
+    "url": "https://schoooool.com",
+    "type": "landing",
+    "tags": [
+      "desktop-metaphor",
+      "widgets",
+      "pixel-art",
+      "greeting",
+      "creative-studio"
+    ],
+    "note": "'Hi, Lincoln. School is (y)our creative studio.' The homepage is a desktop of small widgets (a colour wheel, a clock, a pixel drawing, a chessboard, a poll): the studio as a playground to click.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/school-landing-desktop.jpg",
+        "width": 1440,
+        "height": 2945
+      },
+      "mobile": {
+        "file": "screens/school-landing-mobile.jpg",
+        "width": 390,
+        "height": 1019
+      }
+    },
+    "tokens": {
+      "title": "(Y)our creative studio | School",
+      "fonts": [
+        "IBM Plex Mono",
+        "helvetica"
+      ],
+      "type": {
+        "h1": null,
+        "h2": null,
+        "h3": {
+          "font": "helvetica",
+          "size": 24,
+          "weight": "400",
+          "lineHeight": 1.4,
+          "letterSpacing": "normal",
+          "color": "rgb(255, 255, 255)"
+        },
+        "body": null
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#f9f9f9",
+          "#ffffff",
+          "#000000",
+          "#ededed",
+          "#fafafa"
+        ],
+        "text": [
+          "#303030",
+          "#ffffff",
+          "#aaaaaa",
+          "#808080"
         ]
       },
       "buttons": [],
@@ -83646,6 +84348,82 @@
     }
   },
   {
+    "id": "the-workshop-survival-guide-landing",
+    "site": "The Workshop Survival Guide",
+    "url": "https://www.workshopsurvival.com",
+    "type": "landing",
+    "tags": [
+      "book-landing",
+      "yellow-and-pink",
+      "stickers",
+      "reviews",
+      "authors"
+    ],
+    "note": "A book about running workshops: yellow cards, a 3D book with round stickers ('18,000 copies sold', 'start with a skeleton'), then the two authors and reader reviews on pink cards: a book sold like a friendly product.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/the-workshop-survival-guide-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/the-workshop-survival-guide-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "The Workshop Survival Guide",
+      "fonts": [
+        "ui-sans-serif"
+      ],
+      "type": {
+        "h1": {
+          "font": "ui-sans-serif",
+          "size": 69,
+          "weight": "700",
+          "lineHeight": 1,
+          "letterSpacing": "normal",
+          "color": "rgb(33, 33, 37)"
+        },
+        "h2": {
+          "font": "ui-sans-serif",
+          "size": 85,
+          "weight": "400",
+          "lineHeight": 1,
+          "letterSpacing": "normal",
+          "color": "rgb(33, 33, 37)"
+        },
+        "h3": null,
+        "body": {
+          "font": "ui-sans-serif",
+          "size": 24,
+          "weight": "400",
+          "lineHeight": 1.25,
+          "letterSpacing": "normal",
+          "color": "rgb(33, 33, 37)"
+        }
+      },
+      "colors": {
+        "background": "#ece7db",
+        "surfaces": [
+          "#ece7db",
+          "#f6be0c",
+          "#ffffff",
+          "#f3a3d5",
+          "#42a853"
+        ],
+        "text": [
+          "#212125",
+          "#ff542f"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": null
+    }
+  },
+  {
     "id": "things-landing",
     "site": "Things",
     "url": "https://culturedcode.com/things/",
@@ -84780,6 +85558,84 @@
     }
   },
   {
+    "id": "traffic-productions-landing",
+    "site": "Traffic Productions",
+    "url": "https://www.traffic.productions",
+    "type": "landing",
+    "tags": [
+      "giant-sentence",
+      "ruled-boxes",
+      "lettered-list",
+      "production-house"
+    ],
+    "note": "A production house writes what it is as one huge sentence inside a thin ruled box, then lists clients as lettered rows (A, B...) with a photo each: the grid lines give a plain page its rigour.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/traffic-productions-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/traffic-productions-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Home | Traffic Productions",
+      "fonts": [
+        "Suisse"
+      ],
+      "type": {
+        "h1": {
+          "font": "Suisse",
+          "size": 84,
+          "weight": "400",
+          "lineHeight": 0.93,
+          "letterSpacing": "-2.51986px",
+          "color": "rgb(21, 21, 21)"
+        },
+        "h2": {
+          "font": "Suisse",
+          "size": 18,
+          "weight": "400",
+          "lineHeight": 1,
+          "letterSpacing": "-0.36px",
+          "color": "rgb(21, 21, 21)"
+        },
+        "h3": {
+          "font": "Suisse",
+          "size": 18,
+          "weight": "400",
+          "lineHeight": 1,
+          "letterSpacing": "-0.36px",
+          "color": "rgb(21, 21, 21)"
+        },
+        "body": {
+          "font": "Suisse",
+          "size": 54,
+          "weight": "400",
+          "lineHeight": 0.96,
+          "letterSpacing": "-1.62px",
+          "color": "rgb(21, 21, 21)"
+        }
+      },
+      "colors": {
+        "background": "#f3f3f3",
+        "surfaces": [
+          "#f3f3f3",
+          "#151515"
+        ],
+        "text": [
+          "#151515"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": null
+    }
+  },
+  {
     "id": "tribehouse-landing",
     "site": "tribehouse",
     "url": "https://tribehouse.space",
@@ -85403,6 +86259,92 @@
         }
       ],
       "contentWidth": 1512
+    }
+  },
+  {
+    "id": "twohy-design-works-landing",
+    "site": "Twohy Design Works",
+    "url": "https://www.twohydesign.works",
+    "type": "landing",
+    "tags": [
+      "orange-caps",
+      "wireframe-boxes",
+      "video",
+      "personal-essay",
+      "zero-to-one"
+    ],
+    "note": "A one-person design partner sets 'ZERO-TO-ONE DESIGN, BRAND, AND STRATEGY FOR AMBITIOUS TOYS AND SERIOUS BUSINESS' in orange wide caps, then a story ('My very first memory') about computers: the pitch and the person in one scroll.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/twohy-design-works-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/twohy-design-works-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Twohy Design Works",
+      "fonts": [
+        "Public Sans",
+        "ES Nein",
+        "Blair ITC"
+      ],
+      "type": {
+        "h1": {
+          "font": "Blair ITC",
+          "size": 52,
+          "weight": "800",
+          "lineHeight": 0.9,
+          "letterSpacing": "normal",
+          "color": "rgb(255, 61, 0)"
+        },
+        "h2": {
+          "font": "ES Nein",
+          "size": 176,
+          "weight": "800",
+          "lineHeight": 0.9,
+          "letterSpacing": "normal",
+          "color": "rgb(255, 61, 0)"
+        },
+        "h3": {
+          "font": "ES Nein",
+          "size": 152,
+          "weight": "800",
+          "lineHeight": 0.8,
+          "letterSpacing": "normal",
+          "color": "rgb(255, 61, 0)"
+        },
+        "body": {
+          "font": "Public Sans",
+          "size": 20,
+          "weight": "400",
+          "lineHeight": 1.5,
+          "letterSpacing": "normal",
+          "color": "rgb(29, 28, 26)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#ffffff",
+          "#000000",
+          "#1d1c1a",
+          "#ff3d00"
+        ],
+        "text": [
+          "#1d1c1a",
+          "#ff3d00",
+          "#ffffff",
+          "#4a5464"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": 1600
     }
   },
   {

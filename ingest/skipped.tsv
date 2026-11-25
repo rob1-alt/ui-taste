@@ -1615,3 +1615,40 @@ https://salt-press.com	desktop cut after the first block
 https://sensa.co	dark and mostly empty
 https://studio-pic.com	desktop empty below the index
 https://curatr.paris/en	broken (navigation during capture)
+https://ineo.dk	broken (http 454) (prefilter)
+https://theyoucollective.com	broken (RemoteDisconnected) (prefilter)
+https://madebystudio.family	broken (URLError) (prefilter)
+https://www.studio.institute	broken (URLError) (prefilter)
+https://relaystudio.co	redirects off-site (relay.studio) (prefilter)
+https://www.behalfof.us	broken (URLError) (prefilter)
+https://fidele-editions.com/en	broken (http 404) (prefilter)
+https://www.loveandmoney.agency	redirects off-site (loveandmoney.com) (prefilter)
+https://datagif.fr	bot wall (cloudflare) (prefilter)
+https://arcade.la	black mono storytelling studio; desktop tail is a dark panel
+https://bakkenbaeck.com	logo strip plus card grid of projects and "design and techno
+https://dashdigital.studio	uppercase headline over a 2x2 case-study card grid; standard
+https://dissidence.tv	hero only: full-bleed image then black; no content rendered 
+https://etterstudio.com	dark space photo hero then plain white paragraph and image t
+http://jp.works	minimal portrait and short intro text; sparse with a large e
+https://look.inc	serif copy on white with a client-list text index; mostly em
+https://monolif.co	unstyled cluttered layout with default boxes and red overlay
+https://naau.agency	hero only: oversized logo and small header on white; black b
+https://productfornetzero.com	default hosting placeholder "CyberPanel Installed"; not a re
+https://www.protoeditions.co	hero only: full-bleed image with caption then black; nothing
+https://sangbleufaces.com	Chinese sports-broadcast template with banner; feature icons
+https://selfaware.studio	hero only: serif wordmark and small line on white; black bel
+https://www.sonderform.com	hero only: black hero with project row; rest of desktop and 
+https://thesupply.com/#m	hero only on desktop: large statement then empty dark area; 
+https://www.twistudio.fr	dark thumbnail index with small cards and nothing else disti
+https://www.zz2c.studio	hero only: small header; one image and empty white and black
+https://www.bualie.studio	blank
+https://emop-berlin.eu	blank
+https://headless.horse	blank
+https://www.jungcreative.de	blank
+https://www.minisuperstudio.com	blank
+https://www.stylesandpartners.com	blank
+https://videinfra.com	blank
+https://wrdlss.club	blank
+https://dayone-studio.com	sparse scattered thumbnails, mostly empty
+https://studiorotate.com	images captured blurred, not loaded
+https://say.studio	thumbnails missing, alt text shown
