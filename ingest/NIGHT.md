@@ -13,3 +13,5 @@ One iteration = one batch, closed end to end. Every iteration:
 9. **Schedule the next iteration** right away.
 
 Stop condition: 1000 landing pages in the library, or the user says stop. Every batch is committed and pushed, so a usage limit mid-batch loses at most the uncommitted batch; on wake, check `git status` and finish or discard what is half done (remove screens of entries not in sources.json) before taking a new batch.
+
+Notes from batches 40-57 (reached 1002 landings on 2026-11-25): once minimal.gallery's product tags were used up, sorting the rest of the queue by gallery tag (agencies first, personal and portfolio next, photography last) kept 10-18 sites per batch instead of 7. When a background waiter is killed for low memory, the nohup capture keeps running: check `pgrep -f "[c]apture.py --batch"` before restarting anything. Clean stray screens with `git clean`-style care: only untracked files, never `git rm` screens that are tracked but missing from index.json.
