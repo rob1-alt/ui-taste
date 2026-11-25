@@ -1,14 +1,14 @@
 {
   "name": "ui-taste",
-  "displayName": "UI taste",
+  "displayName": "ui taste",
   "version": "0.1.0",
-  "description": "UI taste for coding agents: a library of real screens from well-designed products (Linear, Stripe, Vercel, Anthropic, Cursor, Apple…) with the tokens measured on the live page, a reference search, and an anti-slop review of what the agent renders.",
+  "description": "ui taste for coding agents: a library of real screens from well-designed products (Linear, Stripe, Vercel, Anthropic, Cursor, Apple…) with the tokens measured on the live page, a reference search, and an anti-slop review of what the agent renders.",
   "author": {
     "name": "Robin Pautigny (Refine)",
     "email": "robin@getrefine.ai",
     "url": "https://getrefine.ai"
   },
-  "homepage": "https://github.com/rob1-alt/ui-taste",
+  "homepage": "https://www.uitaste.dev",
   "repository": "https://github.com/rob1-alt/ui-taste",
   "keywords": ["ui", "design", "frontend", "taste", "references", "design-system", "anti-slop"]
 }

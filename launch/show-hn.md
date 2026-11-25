@@ -23,6 +23,12 @@ HN rewards a plain, specific post from the person who built the thing, a repo th
 - [ ] **Site**: ~~remove `noindex`~~ (done, site indexable on uitaste.dev); add an OG image (the logo on paper, 1200×630); add the GitHub link and the install block above the fold; show the plugin version.
 - [ ] **Secrets and personal data**: grep for emails, tokens, `.vercel`, absolute `/home/rob/` paths in docs and in `index.json` (`find_refs` prints absolute paths; that is fine at runtime, not in committed docs).
 
+## Done on 2026-11-25
+
+- Rights: the repo stays public. `LICENSE` (MIT) covers code, references and metadata, not the screenshots; README "Rights" says so, offers removal on request, and points to `sources.json` for recapture.
+- Client work removed: `examples/relay-x/`, `examples/fleuret/`, `site/work/fleuret/`, the Relay X library entry and the Relay X video frames.
+- Naming: README title, plugin displayName and description say "ui taste"; plugin homepage and GitHub homepage are https://www.uitaste.dev.
+
 ## Ready to post (draft, 2026-11-25)
 
 **Title** (75 chars):
@@ -30,7 +36,7 @@ HN rewards a plain, specific post from the person who built the thing, a repo th
     Show HN: Ui taste – real, measured UI references so coding agents stop building slop
 
 Alternatives:
-- `Show HN: Ui taste – 1,266 measured web pages and a render-and-compare loop for agents`
+- `Show HN: Ui taste – 1,200 measured web pages and a render-and-compare loop for agents`
 - `Show HN: Ui taste – a Claude Code skill that makes the agent look at what it built`
 
 **URL**: https://github.com/rob1-alt/ui-taste (the repo, not the site; the site goes in the comment).
@@ -43,7 +49,7 @@ Alternatives:
 >
 > ui taste is a Claude Code skill. It has three parts:
 >
-> - A library of 1,266 real pages (1,124 landings, plus pricing, dashboards, docs and design systems), captured at 1440 and 390. For each page it stores the tokens read from the live page's computed styles: fonts, type scale, colours, radii, button sizes, widths.
+> - A library of over 1,200 real pages (mostly landings, plus pricing, dashboards, docs and design systems), captured at 1440 and 390. For each page it stores the tokens read from the live page's computed styles: fonts, type scale, colours, radii, button sizes, widths.
 > - A search that returns the 2-3 closest pages, with a contact sheet, so the agent looks at real screens before choosing a direction.
 > - A review loop. The agent renders what it built with Playwright, puts its first screen next to the reference it used, asks itself which one a designer would pick, then fixes the page against an anti-slop checklist.
 >

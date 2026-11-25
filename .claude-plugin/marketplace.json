@@ -6,18 +6,18 @@
     "email": "robin@getrefine.ai",
     "url": "https://getrefine.ai"
   },
-  "description": "UI taste for coding agents.",
+  "description": "ui taste for coding agents.",
   "plugins": [
     {
       "name": "ui-taste",
       "source": "./",
-      "displayName": "UI taste",
+      "displayName": "ui taste",
       "description": "Real screens from well-designed products, measured tokens, reference search and an anti-slop review.",
       "version": "0.1.0",
       "author": { "name": "Robin Pautigny (Refine)" },
       "category": "development",
       "tags": ["ui", "design", "frontend", "references"],
-      "homepage": "https://github.com/rob1-alt/ui-taste"
+      "homepage": "https://www.uitaste.dev"
     }
   ]
 }

@@ -11,7 +11,7 @@ npx remotion still src/index.ts Launch out/f.png --frame=520
 
 ## What to swap before publishing
 
-- `public/before.jpg`, `public/loud.jpg`, `public/after.jpg`: the three Relay X rounds (`examples/relay-x/`). They carry a client's brand. Get their OK or re-render the three from a fictional product and drop the files in.
+- `public/before.jpg`, `public/loud.jpg`, `public/after.jpg`: the three rounds of a worked example. The Relay X frames were removed (client brand): re-render the three from a fictional product (Tally, as on the site's comparison) and drop the files in.
 - `public/library.json`: regenerate with `python3 make_data.py` when the library grows. The mosaic shows 345 cells (23 × 15); more pages are simply not drawn.
 - The install commands in `Outro` (src/scenes.tsx) once the plugin is renamed taster.
 - `public/Archivo.ttf` is the OFL variable font used by the site. The terminal uses Liberation Mono from the system.
