@@ -14470,5 +14470,176 @@
    "icon-design"
   ],
   "note": "An icon studio shows the construction grid next to the finished icon (Firefox, adidas) and quotes the client in large type: the craft shown at the level of the pixel."
+ },
+ {
+  "site": "Ali Mamedov",
+  "type": "landing",
+  "url": "https://www.alimamedov.com",
+  "tags": [
+   "product-designer",
+   "app-screens",
+   "metrics-in-captions",
+   "store-badges"
+  ],
+  "note": "A product designer shows each app (Instories) with the growth figures in the caption (retention, revenue) and the store badges: shipped products with their numbers."
+ },
+ {
+  "site": "Andrei Rybin",
+  "type": "landing",
+  "url": "https://andreirybin.com",
+  "tags": [
+   "phone-screen-wall",
+   "labelled-cards",
+   "crypto-and-ai-apps",
+   "product-designer"
+  ],
+  "note": "A product designer lays out dozens of real app screens as labelled cards in a dense wall: volume of shipped UI as the argument."
+ },
+ {
+  "site": "Charlie Osborne",
+  "type": "landing",
+  "url": "https://www.charlieosborne.co",
+  "tags": [
+   "giant-name",
+   "orange-glow",
+   "black",
+   "selected-works-heading",
+   "saas-designer"
+  ],
+  "note": "'CHARLIE OSBORNE' across the full width over a black page with an orange glow, then 'Selected Works' just as big: two headlines and the work between them."
+ },
+ {
+  "site": "Daniella Marynova",
+  "type": "landing",
+  "url": "https://hellodani.co",
+  "tags": [
+   "flower-illustrations",
+   "serif-centred",
+   "soft-cards",
+   "product-designer"
+  ],
+  "note": "A product designer's hero is a centred serif line between two big flat flowers, then soft rounded cards of work: warmth through one illustration motif."
+ },
+ {
+  "site": "Diana Lu",
+  "type": "landing",
+  "url": "https://diana.lu",
+  "tags": [
+   "initial-illustration",
+   "coloured-arcs",
+   "line-figure",
+   "exhibition"
+  ],
+  "note": "An interaction designer turns her initials into big coloured arcs and dots with a line-drawn figure leaning on them, and calls the work an 'Exhibition this way': the name as a sculpture."
+ },
+ {
+  "site": "Koen Jansen",
+  "type": "landing",
+  "url": "https://www.koenjansen.com",
+  "tags": [
+   "plain-bio",
+   "current-employer",
+   "case-cards",
+   "amsterdam"
+  ],
+  "note": "'Designer based in Amsterdam. Currently working at Bakken & Bæck.' Two lines, then square case cards with roles and years: the plainest possible intro, well spaced."
+ },
+ {
+  "site": "Kyle Makischuk",
+  "type": "landing",
+  "url": "https://www.makischuk.com",
+  "tags": [
+   "custom-wordmark",
+   "project-table",
+   "roles-and-years",
+   "design-director"
+  ],
+  "note": "A design director's name in a heavy custom wordmark, one featured case, then a long table of projects with roles and years: the career as a ledger."
+ },
+ {
+  "site": "Lelism Archive",
+  "type": "landing",
+  "url": "https://www.lelism.com",
+  "tags": [
+   "giant-wordmark",
+   "centred-mono-list",
+   "numbered-index",
+   "archive"
+  ],
+  "note": "'LELISM' set across the full width, then the archive as a centred list of mono caps titles numbered at both edges: a table of contents as the homepage."
+ },
+ {
+  "site": "Noah Stokes",
+  "type": "landing",
+  "url": "https://noahstokes.com",
+  "tags": [
+   "green-field",
+   "footnotes",
+   "roles-list",
+   "speaking-events",
+   "design-leader"
+  ],
+  "note": "A design leader's homepage on green: a short bio, then columns of roles, speaking events and published work, with footnotes at the bottom: a CV laid out like a magazine page."
+ },
+ {
+  "site": "Oscar Pecher – STUDI(O)",
+  "type": "landing",
+  "url": "https://www.oscarpecher.com",
+  "tags": [
+   "black-and-white-photo",
+   "orange-pill",
+   "big-sentence",
+   "recent-projects"
+  ],
+  "note": "A studio leads with a black and white group portrait, an orange 'Studio' pill and one bold sentence, then recent projects: the people first, the work after."
+ },
+ {
+  "site": "Regis Biron",
+  "type": "landing",
+  "url": "https://regis.works",
+  "tags": [
+   "serif-paragraph",
+   "red-clock",
+   "project-table",
+   "capabilities-columns"
+  ],
+  "note": "A design engineer writes his intro in a large serif paragraph with a red clock sticker on top, then a table of projects with live-site buttons and capabilities in three columns."
+ },
+ {
+  "site": "seb-astian",
+  "type": "landing",
+  "url": "https://www.seb-astian.com",
+  "tags": [
+   "split-words",
+   "rule-lines",
+   "cream",
+   "stacked-cases",
+   "newsletter"
+  ],
+  "note": "A designer splits words across the page with a rule between them ('DE —— SIGN', 'SEB —— ASTIAN') on cream, then stacked case images: one typographic gesture repeated."
+ },
+ {
+  "site": "Stas Polyakov",
+  "type": "landing",
+  "url": "https://plkv.works",
+  "tags": [
+   "inline-logos",
+   "long-paragraph",
+   "company-names",
+   "product-designer"
+  ],
+  "note": "A product designer writes his career as paragraphs with tiny logos before every company name (Republic, Coinwatch, Yandex): the text reads like a CV with icons."
+ },
+ {
+  "site": "Thierry Ambraisse",
+  "type": "landing",
+  "url": "https://www.ambraisse.net",
+  "tags": [
+   "dark-mode",
+   "large-statement",
+   "photo-cards",
+   "brand-creative"
+  ],
+  "note": "A brand creative opens with 'I turn brands into cultural forces.' and his role, then large photo cards for Nike and others on black: a direct statement and big imagery."
  }
 ]

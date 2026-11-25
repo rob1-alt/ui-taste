@@ -13238,6 +13238,112 @@
     }
   },
   {
+    "id": "ali-mamedov-landing",
+    "site": "Ali Mamedov",
+    "url": "https://www.alimamedov.com",
+    "type": "landing",
+    "tags": [
+      "product-designer",
+      "app-screens",
+      "metrics-in-captions",
+      "store-badges"
+    ],
+    "note": "A product designer shows each app (Instories) with the growth figures in the caption (retention, revenue) and the store badges: shipped products with their numbers.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/ali-mamedov-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/ali-mamedov-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Ali Mamedov - Product Designer with 9 years of experience in mobile & web products",
+      "fonts": [
+        "system-ui",
+        "Cirka"
+      ],
+      "type": {
+        "h1": {
+          "font": "system-ui",
+          "size": 14,
+          "weight": "400",
+          "lineHeight": 1.43,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        },
+        "h2": {
+          "font": "Cirka",
+          "size": 40,
+          "weight": "500",
+          "lineHeight": 1.1,
+          "letterSpacing": "-0.4px",
+          "color": "rgb(0, 0, 0)"
+        },
+        "h3": null,
+        "body": {
+          "font": "system-ui",
+          "size": 14,
+          "weight": "400",
+          "lineHeight": 1.43,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#f5f5f5"
+        ],
+        "text": [
+          "#000000",
+          "#808080"
+        ]
+      },
+      "buttons": [
+        {
+          "label": "App Store",
+          "bg": "#f5f5f5",
+          "color": "#000000",
+          "radius": "100px",
+          "height": 36,
+          "paddingX": 14,
+          "font": "system-ui",
+          "size": 14,
+          "weight": "400"
+        },
+        {
+          "label": "Google Play",
+          "bg": "#f5f5f5",
+          "color": "#000000",
+          "radius": "100px",
+          "height": 36,
+          "paddingX": 14,
+          "font": "system-ui",
+          "size": 14,
+          "weight": "400"
+        },
+        {
+          "label": "Website",
+          "bg": "#f5f5f5",
+          "color": "#000000",
+          "radius": "100px",
+          "height": 36,
+          "paddingX": 14,
+          "font": "system-ui",
+          "size": 14,
+          "weight": "400"
+        }
+      ],
+      "contentWidth": 1280
+    }
+  },
+  {
     "id": "alice-bob-landing",
     "site": "Alice & Bob",
     "url": "https://alice-bob.com",
@@ -14048,6 +14154,78 @@
       },
       "buttons": [],
       "contentWidth": null
+    }
+  },
+  {
+    "id": "andrei-rybin-landing",
+    "site": "Andrei Rybin",
+    "url": "https://andreirybin.com",
+    "type": "landing",
+    "tags": [
+      "phone-screen-wall",
+      "labelled-cards",
+      "crypto-and-ai-apps",
+      "product-designer"
+    ],
+    "note": "A product designer lays out dozens of real app screens as labelled cards in a dense wall: volume of shipped UI as the argument.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/andrei-rybin-landing-desktop.jpg",
+        "width": 1440,
+        "height": 2815
+      },
+      "mobile": {
+        "file": "screens/andrei-rybin-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Andrei Rybin",
+      "fonts": [
+        "Inter",
+        "sans-serif",
+        ".SFNSText"
+      ],
+      "type": {
+        "h1": {
+          "font": "Inter",
+          "size": 24,
+          "weight": "400",
+          "lineHeight": 1.23,
+          "letterSpacing": "normal",
+          "color": "rgb(133, 133, 133)"
+        },
+        "h2": null,
+        "h3": null,
+        "body": {
+          "font": ".SFNSText",
+          "size": 12,
+          "weight": "400",
+          "lineHeight": 1.2,
+          "letterSpacing": "-0.2px",
+          "color": "rgb(0, 0, 0)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#ffffff",
+          "#000000",
+          "#0a0a0a",
+          "#2b2b2b",
+          "#292929"
+        ],
+        "text": [
+          "#8e8e90",
+          "#000000",
+          "#858585",
+          "#ffffff"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": 1600
     }
   },
   {
@@ -23833,6 +24011,75 @@
     }
   },
   {
+    "id": "charlie-osborne-landing",
+    "site": "Charlie Osborne",
+    "url": "https://www.charlieosborne.co",
+    "type": "landing",
+    "tags": [
+      "giant-name",
+      "orange-glow",
+      "black",
+      "selected-works-heading",
+      "saas-designer"
+    ],
+    "note": "'CHARLIE OSBORNE' across the full width over a black page with an orange glow, then 'Selected Works' just as big: two headlines and the work between them.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/charlie-osborne-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/charlie-osborne-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Charlie Osborne | Brand · Web · Product Designer",
+      "fonts": [
+        "Inter",
+        "Inter Display",
+        "sans-serif"
+      ],
+      "type": {
+        "h1": {
+          "font": "Inter Display",
+          "size": 46,
+          "weight": "600",
+          "lineHeight": 0.91,
+          "letterSpacing": "-0.46px",
+          "color": "rgb(255, 255, 255)"
+        },
+        "h2": null,
+        "h3": null,
+        "body": {
+          "font": "Inter Display",
+          "size": 12,
+          "weight": "600",
+          "lineHeight": 1.2,
+          "letterSpacing": "normal",
+          "color": "rgb(255, 255, 255)"
+        }
+      },
+      "colors": {
+        "background": "#000000",
+        "surfaces": [
+          "#000000",
+          "#ffffff"
+        ],
+        "text": [
+          "#ffffff",
+          "#b8b8b8",
+          "#000000"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": null
+    }
+  },
+  {
     "id": "chckn-landing",
     "site": "CHCKN",
     "url": "https://chckn.app",
@@ -27825,6 +28072,103 @@
     }
   },
   {
+    "id": "daniella-marynova-landing",
+    "site": "Daniella Marynova",
+    "url": "https://hellodani.co",
+    "type": "landing",
+    "tags": [
+      "flower-illustrations",
+      "serif-centred",
+      "soft-cards",
+      "product-designer"
+    ],
+    "note": "A product designer's hero is a centred serif line between two big flat flowers, then soft rounded cards of work: warmth through one illustration motif.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/daniella-marynova-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/daniella-marynova-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Daniella Marynova - Visual & Product Designer for SaaS, Fintech, AI, web3 and dev tools",
+      "fonts": [
+        "Inter",
+        "sans-serif",
+        "Libre Baskerville"
+      ],
+      "type": {
+        "h1": {
+          "font": "Libre Baskerville",
+          "size": 56,
+          "weight": "400",
+          "lineHeight": 1.2,
+          "letterSpacing": "-1px",
+          "color": "rgb(0, 0, 0)"
+        },
+        "h2": {
+          "font": "Libre Baskerville",
+          "size": 40,
+          "weight": "400",
+          "lineHeight": 1.3,
+          "letterSpacing": "-0.8px",
+          "color": "rgb(0, 0, 0)"
+        },
+        "h3": {
+          "font": "Libre Baskerville",
+          "size": 24,
+          "weight": "400",
+          "lineHeight": 1.5,
+          "letterSpacing": "-0.4px",
+          "color": "rgb(255, 255, 255)"
+        },
+        "body": {
+          "font": "Inter",
+          "size": 16,
+          "weight": "400",
+          "lineHeight": 1.4,
+          "letterSpacing": "-0.48px",
+          "color": "rgb(253, 30, 31)"
+        }
+      },
+      "colors": {
+        "background": "#f6f5f1",
+        "surfaces": [
+          "#f6f5f1",
+          "#e4e3dd",
+          "#0035d4",
+          "#000000",
+          "#fd1e1f"
+        ],
+        "text": [
+          "#000000",
+          "#ffffff",
+          "#fd1e1f"
+        ]
+      },
+      "buttons": [
+        {
+          "label": "Chat with me",
+          "bg": "#000000",
+          "color": "#0000ee",
+          "radius": "24px",
+          "height": 44,
+          "paddingX": 20,
+          "font": "sans-serif",
+          "size": 12,
+          "weight": "400"
+        }
+      ],
+      "contentWidth": 824
+    }
+  },
+  {
     "id": "danielle-levitt-landing",
     "site": "Danielle Levitt",
     "url": "https://www.daniellelevitt.com",
@@ -30028,6 +30372,90 @@
       },
       "buttons": [],
       "contentWidth": 1440
+    }
+  },
+  {
+    "id": "diana-lu-landing",
+    "site": "Diana Lu",
+    "url": "https://diana.lu",
+    "type": "landing",
+    "tags": [
+      "initial-illustration",
+      "coloured-arcs",
+      "line-figure",
+      "exhibition"
+    ],
+    "note": "An interaction designer turns her initials into big coloured arcs and dots with a line-drawn figure leaning on them, and calls the work an 'Exhibition this way': the name as a sculpture.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/diana-lu-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/diana-lu-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Diana Lu Portfolio",
+      "fonts": [
+        "sans-serif",
+        "GT Haptik Medium",
+        "GT Haptik Regular"
+      ],
+      "type": {
+        "h1": {
+          "font": "GT Haptik Medium",
+          "size": 146,
+          "weight": "400",
+          "lineHeight": 1.2,
+          "letterSpacing": "-4.38px",
+          "color": "rgb(0, 0, 0)"
+        },
+        "h2": {
+          "font": "Inter",
+          "size": 22,
+          "weight": "400",
+          "lineHeight": 1.2,
+          "letterSpacing": "-0.77px",
+          "color": "rgb(0, 0, 0)"
+        },
+        "h3": {
+          "font": "GT Haptik Medium",
+          "size": 24,
+          "weight": "400",
+          "lineHeight": 1.2,
+          "letterSpacing": "normal",
+          "color": "rgb(51, 51, 51)"
+        },
+        "body": {
+          "font": "GT Haptik Regular",
+          "size": 16,
+          "weight": "400",
+          "lineHeight": 1.3,
+          "letterSpacing": "normal",
+          "color": "rgb(51, 51, 51)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#f1f1f0",
+          "#e6e6e6",
+          "#ffffff"
+        ],
+        "text": [
+          "#333333",
+          "#000000",
+          "#373737",
+          "#3d98ec"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": 1560
     }
   },
   {
@@ -51928,6 +52356,73 @@
     }
   },
   {
+    "id": "koen-jansen-landing",
+    "site": "Koen Jansen",
+    "url": "https://www.koenjansen.com",
+    "type": "landing",
+    "tags": [
+      "plain-bio",
+      "current-employer",
+      "case-cards",
+      "amsterdam"
+    ],
+    "note": "'Designer based in Amsterdam. Currently working at Bakken & Bæck.' Two lines, then square case cards with roles and years: the plainest possible intro, well spaced.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/koen-jansen-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/koen-jansen-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Koen Jansen - Brand and Product Design",
+      "fonts": [
+        "Inter",
+        "sans-serif",
+        "Inter Variable"
+      ],
+      "type": {
+        "h1": {
+          "font": "Inter",
+          "size": 56,
+          "weight": "400",
+          "lineHeight": 1.2,
+          "letterSpacing": "-1.68px",
+          "color": "rgb(0, 0, 0)"
+        },
+        "h2": null,
+        "h3": null,
+        "body": {
+          "font": "Inter Variable",
+          "size": 14,
+          "weight": "400",
+          "lineHeight": 1.29,
+          "letterSpacing": "normal",
+          "color": "rgb(255, 255, 255)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#ffffff",
+          "#000000"
+        ],
+        "text": [
+          "#000000",
+          "#ffffff"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": null
+    }
+  },
+  {
     "id": "komoot-landing",
     "site": "Komoot",
     "url": "https://www.komoot.com",
@@ -52373,6 +52868,72 @@
       },
       "buttons": [],
       "contentWidth": 890
+    }
+  },
+  {
+    "id": "kyle-makischuk-landing",
+    "site": "Kyle Makischuk",
+    "url": "https://www.makischuk.com",
+    "type": "landing",
+    "tags": [
+      "custom-wordmark",
+      "project-table",
+      "roles-and-years",
+      "design-director"
+    ],
+    "note": "A design director's name in a heavy custom wordmark, one featured case, then a long table of projects with roles and years: the career as a ledger.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/kyle-makischuk-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/kyle-makischuk-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Kyle Makischuk | Portfolio",
+      "fonts": [
+        "Instrument Sans",
+        "Raleway",
+        "Lefty"
+      ],
+      "type": {
+        "h1": null,
+        "h2": null,
+        "h3": null,
+        "body": null
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#e6e6e6"
+        ],
+        "text": [
+          "#9c9c9c",
+          "#000000",
+          "#929292",
+          "#333333"
+        ]
+      },
+      "buttons": [
+        {
+          "label": "Oh Hello There . . .",
+          "bg": "#e6e6e6",
+          "color": "#000000",
+          "radius": "100px",
+          "height": 34,
+          "paddingX": 13,
+          "font": "Instrument Sans",
+          "size": 14,
+          "weight": "500"
+        }
+      ],
+      "contentWidth": 960
     }
   },
   {
@@ -53474,6 +54035,72 @@
         }
       ],
       "contentWidth": 1328
+    }
+  },
+  {
+    "id": "lelism-archive-landing",
+    "site": "Lelism Archive",
+    "url": "https://www.lelism.com",
+    "type": "landing",
+    "tags": [
+      "giant-wordmark",
+      "centred-mono-list",
+      "numbered-index",
+      "archive"
+    ],
+    "note": "'LELISM' set across the full width, then the archive as a centred list of mono caps titles numbered at both edges: a table of contents as the homepage.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/lelism-archive-landing-desktop.jpg",
+        "width": 1440,
+        "height": 999
+      },
+      "mobile": {
+        "file": "screens/lelism-archive-landing-mobile.jpg",
+        "width": 390,
+        "height": 850
+      }
+    },
+    "tokens": {
+      "title": "Lelism: Cross-Disciplinary Design",
+      "fonts": [
+        "Abcmonumentgrotesk",
+        "Abcmonumentgroteskmono",
+        "Arial"
+      ],
+      "type": {
+        "h1": {
+          "font": "Abcmonumentgroteskmono",
+          "size": 21,
+          "weight": "400",
+          "lineHeight": 0.92,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        },
+        "h2": null,
+        "h3": null,
+        "body": {
+          "font": "Abcmonumentgrotesk",
+          "size": 13,
+          "weight": "400",
+          "lineHeight": 1.13,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [],
+        "text": [
+          "#000000",
+          "#b1b1b1",
+          "#4d4d4d",
+          "#e0e0e0"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": null
     }
   },
   {
@@ -62661,6 +63288,86 @@
     }
   },
   {
+    "id": "noah-stokes-landing",
+    "site": "Noah Stokes",
+    "url": "https://noahstokes.com",
+    "type": "landing",
+    "tags": [
+      "green-field",
+      "footnotes",
+      "roles-list",
+      "speaking-events",
+      "design-leader"
+    ],
+    "note": "A design leader's homepage on green: a short bio, then columns of roles, speaking events and published work, with footnotes at the bottom: a CV laid out like a magazine page.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/noah-stokes-landing-desktop.jpg",
+        "width": 1440,
+        "height": 1952
+      },
+      "mobile": {
+        "file": "screens/noah-stokes-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Noah Stokes®",
+      "fonts": [
+        "Inter"
+      ],
+      "type": {
+        "h1": {
+          "font": "Inter",
+          "size": 120,
+          "weight": "500",
+          "lineHeight": 1,
+          "letterSpacing": "-7.2px",
+          "color": "rgb(255, 248, 222)"
+        },
+        "h2": {
+          "font": "Inter",
+          "size": 20,
+          "weight": "400",
+          "lineHeight": 1.35,
+          "letterSpacing": "-0.4px",
+          "color": "rgb(255, 248, 222)"
+        },
+        "h3": {
+          "font": "Inter",
+          "size": 20,
+          "weight": "600",
+          "lineHeight": 1.2,
+          "letterSpacing": "normal",
+          "color": "rgb(255, 248, 222)"
+        },
+        "body": {
+          "font": "Inter",
+          "size": 18,
+          "weight": "400",
+          "lineHeight": 1.39,
+          "letterSpacing": "normal",
+          "color": "rgb(255, 248, 222)"
+        }
+      },
+      "colors": {
+        "background": "#54ac77",
+        "surfaces": [
+          "#1a2920"
+        ],
+        "text": [
+          "#fff8de",
+          "#ffffff",
+          "#40cc78"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": null
+    }
+  },
+  {
     "id": "noerd-landing",
     "site": "Noerd",
     "url": "https://noerd.se",
@@ -66281,6 +66988,100 @@
       },
       "buttons": [],
       "contentWidth": null
+    }
+  },
+  {
+    "id": "oscar-pecher-studi-o-landing",
+    "site": "Oscar Pecher – STUDI(O)",
+    "url": "https://www.oscarpecher.com",
+    "type": "landing",
+    "tags": [
+      "black-and-white-photo",
+      "orange-pill",
+      "big-sentence",
+      "recent-projects"
+    ],
+    "note": "A studio leads with a black and white group portrait, an orange 'Studio' pill and one bold sentence, then recent projects: the people first, the work after.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/oscar-pecher-studi-o-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3061
+      },
+      "mobile": {
+        "file": "screens/oscar-pecher-studi-o-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Oscar Pecher",
+      "fonts": [
+        "Switzer",
+        "sans-serif"
+      ],
+      "type": {
+        "h1": {
+          "font": "Switzer",
+          "size": 60,
+          "weight": "600",
+          "lineHeight": 1,
+          "letterSpacing": "-1.8px",
+          "color": "rgb(255, 255, 255)"
+        },
+        "h2": {
+          "font": "Switzer",
+          "size": 40,
+          "weight": "600",
+          "lineHeight": 1,
+          "letterSpacing": "-2px",
+          "color": "rgb(0, 0, 0)"
+        },
+        "h3": {
+          "font": "Switzer",
+          "size": 30,
+          "weight": "600",
+          "lineHeight": 1,
+          "letterSpacing": "-0.9px",
+          "color": "rgb(255, 255, 255)"
+        },
+        "body": {
+          "font": "Switzer",
+          "size": 16,
+          "weight": "400",
+          "lineHeight": 1,
+          "letterSpacing": "normal",
+          "color": "rgb(255, 255, 255)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#ffffff",
+          "#ff6419",
+          "#171717",
+          "#000000"
+        ],
+        "text": [
+          "#ffffff",
+          "#000000"
+        ]
+      },
+      "buttons": [
+        {
+          "label": "",
+          "bg": "#ff6419",
+          "color": "#0000ee",
+          "radius": "24px",
+          "height": 38,
+          "paddingX": 16,
+          "font": "sans-serif",
+          "size": 12,
+          "weight": "400"
+        }
+      ],
+      "contentWidth": 1000
     }
   },
   {
@@ -75460,6 +76261,145 @@
     }
   },
   {
+    "id": "regis-biron-landing",
+    "site": "Regis Biron",
+    "url": "https://regis.works",
+    "type": "landing",
+    "tags": [
+      "serif-paragraph",
+      "red-clock",
+      "project-table",
+      "capabilities-columns"
+    ],
+    "note": "A design engineer writes his intro in a large serif paragraph with a red clock sticker on top, then a table of projects with live-site buttons and capabilities in three columns.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/regis-biron-landing-desktop.jpg",
+        "width": 1440,
+        "height": 1865
+      },
+      "mobile": {
+        "file": "screens/regis-biron-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Regis Biron | Design Engineer",
+      "fonts": [
+        "__montreal_6422b9",
+        "Material Symbols Outlined",
+        "__migra_892082"
+      ],
+      "type": {
+        "h1": null,
+        "h2": null,
+        "h3": {
+          "font": "__montreal_6422b9",
+          "size": 18,
+          "weight": "700",
+          "lineHeight": 1.56,
+          "letterSpacing": "normal",
+          "color": "rgb(42, 0, 72)"
+        },
+        "body": {
+          "font": "__migra_892082",
+          "size": 72,
+          "weight": "400",
+          "lineHeight": 1.15,
+          "letterSpacing": "normal",
+          "color": "rgb(42, 0, 72)"
+        }
+      },
+      "colors": {
+        "background": "#f6ebff",
+        "surfaces": [
+          "#f6ebff",
+          "#0500ff",
+          "#ff1b00",
+          "#ffffff",
+          "#2a0048"
+        ],
+        "text": [
+          "#f6ebff",
+          "#2a0048",
+          "#0500ff",
+          "#ffffff"
+        ]
+      },
+      "buttons": [
+        {
+          "label": "Live Site",
+          "bg": "#f6ebff",
+          "color": "#0500ff",
+          "radius": "6px",
+          "height": 34,
+          "paddingX": 12,
+          "font": "__montreal_6422b9",
+          "size": 18,
+          "weight": "400"
+        },
+        {
+          "label": "Live Site",
+          "bg": "#f6ebff",
+          "color": "#0500ff",
+          "radius": "6px",
+          "height": 34,
+          "paddingX": 12,
+          "font": "__montreal_6422b9",
+          "size": 18,
+          "weight": "400"
+        },
+        {
+          "label": "Live Site",
+          "bg": "#f6ebff",
+          "color": "#0500ff",
+          "radius": "6px",
+          "height": 34,
+          "paddingX": 12,
+          "font": "__montreal_6422b9",
+          "size": 18,
+          "weight": "400"
+        },
+        {
+          "label": "Live Site",
+          "bg": "#f6ebff",
+          "color": "#0500ff",
+          "radius": "6px",
+          "height": 34,
+          "paddingX": 12,
+          "font": "__montreal_6422b9",
+          "size": 18,
+          "weight": "400"
+        },
+        {
+          "label": "Live Site",
+          "bg": "#f6ebff",
+          "color": "#0500ff",
+          "radius": "6px",
+          "height": 34,
+          "paddingX": 12,
+          "font": "__montreal_6422b9",
+          "size": 18,
+          "weight": "400"
+        },
+        {
+          "label": "Live Site",
+          "bg": "#f6ebff",
+          "color": "#0500ff",
+          "radius": "6px",
+          "height": 34,
+          "paddingX": 12,
+          "font": "__montreal_6422b9",
+          "size": 18,
+          "weight": "400"
+        }
+      ],
+      "contentWidth": 725
+    }
+  },
+  {
     "id": "registered-commons-landing",
     "site": "Registered Commons",
     "url": "https://registered-commons.com",
@@ -79160,6 +80100,87 @@
         }
       ],
       "contentWidth": 1248
+    }
+  },
+  {
+    "id": "seb-astian-landing",
+    "site": "seb-astian",
+    "url": "https://www.seb-astian.com",
+    "type": "landing",
+    "tags": [
+      "split-words",
+      "rule-lines",
+      "cream",
+      "stacked-cases",
+      "newsletter"
+    ],
+    "note": "A designer splits words across the page with a rule between them ('DE —— SIGN', 'SEB —— ASTIAN') on cream, then stacked case images: one typographic gesture repeated.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/seb-astian-landing-desktop.jpg",
+        "width": 1440,
+        "height": 900
+      },
+      "mobile": {
+        "file": "screens/seb-astian-landing-mobile.jpg",
+        "width": 390,
+        "height": 1999
+      }
+    },
+    "tokens": {
+      "title": "Most Creative Designer In The World | seb-astian",
+      "fonts": [
+        "PP Fraktion Mono",
+        "Garamond LT LightCondensed",
+        "Devanagari Sangam MN"
+      ],
+      "type": {
+        "h1": {
+          "font": "Devanagari Sangam MN",
+          "size": 14,
+          "weight": "400",
+          "lineHeight": 1.5,
+          "letterSpacing": "normal",
+          "color": "rgb(13, 12, 12)"
+        },
+        "h2": null,
+        "h3": null,
+        "body": {
+          "font": "PP Fraktion Mono",
+          "size": 12,
+          "weight": "400",
+          "lineHeight": 1.5,
+          "letterSpacing": "normal",
+          "color": "rgb(13, 12, 12)"
+        }
+      },
+      "colors": {
+        "background": "#fffbee",
+        "surfaces": [
+          "#fffbee",
+          "#0d0c0c",
+          "#434343"
+        ],
+        "text": [
+          "#0d0c0c",
+          "#fffbee"
+        ]
+      },
+      "buttons": [
+        {
+          "label": "BOOK A FREE CALL",
+          "bg": "#0d0c0c",
+          "color": "#fffbee",
+          "radius": "0px",
+          "height": 32,
+          "paddingX": 24,
+          "font": "PP Fraktion Mono",
+          "size": 12,
+          "weight": "400"
+        }
+      ],
+      "contentWidth": null
     }
   },
   {
@@ -83524,6 +84545,110 @@
         }
       ],
       "contentWidth": 1440
+    }
+  },
+  {
+    "id": "stas-polyakov-landing",
+    "site": "Stas Polyakov",
+    "url": "https://plkv.works",
+    "type": "landing",
+    "tags": [
+      "inline-logos",
+      "long-paragraph",
+      "company-names",
+      "product-designer"
+    ],
+    "note": "A product designer writes his career as paragraphs with tiny logos before every company name (Republic, Coinwatch, Yandex): the text reads like a CV with icons.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/stas-polyakov-landing-desktop.jpg",
+        "width": 1440,
+        "height": 2188
+      },
+      "mobile": {
+        "file": "screens/stas-polyakov-landing-mobile.jpg",
+        "width": 390,
+        "height": 2314
+      }
+    },
+    "tokens": {
+      "title": "Stas Polyakov · Experience designer",
+      "fonts": [
+        "diatype"
+      ],
+      "type": {
+        "h1": null,
+        "h2": null,
+        "h3": null,
+        "body": {
+          "font": "diatype",
+          "size": 16,
+          "weight": "500",
+          "lineHeight": 1.25,
+          "letterSpacing": "-0.16px",
+          "color": "rgb(0, 0, 0)"
+        }
+      },
+      "colors": {
+        "background": "#f7f7f7",
+        "surfaces": [
+          "#f7f7f7",
+          "#ffffff",
+          "#000000"
+        ],
+        "text": [
+          "#ffffff",
+          "#000000"
+        ]
+      },
+      "buttons": [
+        {
+          "label": "",
+          "bg": "#ffffff",
+          "color": null,
+          "radius": "12px",
+          "height": 52,
+          "paddingX": 16,
+          "font": "diatype",
+          "size": 16,
+          "weight": "400"
+        },
+        {
+          "label": "",
+          "bg": "#ffffff",
+          "color": null,
+          "radius": "12px",
+          "height": 52,
+          "paddingX": 16,
+          "font": "diatype",
+          "size": 16,
+          "weight": "400"
+        },
+        {
+          "label": "",
+          "bg": "#ffffff",
+          "color": null,
+          "radius": "12px",
+          "height": 52,
+          "paddingX": 16,
+          "font": "diatype",
+          "size": 16,
+          "weight": "400"
+        },
+        {
+          "label": "",
+          "bg": "#ffffff",
+          "color": null,
+          "radius": "12px",
+          "height": 52,
+          "paddingX": 16,
+          "font": "diatype",
+          "size": 16,
+          "weight": "400"
+        }
+      ],
+      "contentWidth": 1400
     }
   },
   {
@@ -91092,6 +92217,79 @@
         "text": [
           "#212125",
           "#ff542f"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": null
+    }
+  },
+  {
+    "id": "thierry-ambraisse-landing",
+    "site": "Thierry Ambraisse",
+    "url": "https://www.ambraisse.net",
+    "type": "landing",
+    "tags": [
+      "dark-mode",
+      "large-statement",
+      "photo-cards",
+      "brand-creative"
+    ],
+    "note": "A brand creative opens with 'I turn brands into cultural forces.' and his role, then large photo cards for Nike and others on black: a direct statement and big imagery.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/thierry-ambraisse-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/thierry-ambraisse-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Thierry Ambraisse",
+      "fonts": [
+        "Helvetica Neue"
+      ],
+      "type": {
+        "h1": {
+          "font": "Helvetica Neue",
+          "size": 38,
+          "weight": "400",
+          "lineHeight": 1.17,
+          "letterSpacing": "0.7584px",
+          "color": "rgb(255, 255, 255)"
+        },
+        "h2": {
+          "font": "Helvetica Neue",
+          "size": 24,
+          "weight": "400",
+          "lineHeight": 1.21,
+          "letterSpacing": "0.48192px",
+          "color": "rgb(255, 255, 255)"
+        },
+        "h3": null,
+        "body": {
+          "font": "Helvetica Neue",
+          "size": 14,
+          "weight": "400",
+          "lineHeight": 1.4,
+          "letterSpacing": "0.6px",
+          "color": "rgb(255, 255, 255)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#141414",
+          "#000000"
+        ],
+        "text": [
+          "#ffffff",
+          "#bbb6ae",
+          "#f46d08"
         ]
       },
       "buttons": [],
