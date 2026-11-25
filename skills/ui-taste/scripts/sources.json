@@ -15965,5 +15965,89 @@
    "electric-blue"
   ],
   "note": "A founder-designer's homepage is one electric-blue canvas of draggable windows (videos, a text file, a #opepen tile) with a 'Choose Background Color' slider: the portfolio as a desktop you can rearrange."
+ },
+ {
+  "site": "Dafne",
+  "type": "landing",
+  "url": "https://www.dafne.work",
+  "tags": [
+   "letter-scatter",
+   "diagonal-rules",
+   "photo-collage",
+   "partnership"
+  ],
+  "note": "An art director and a photographer present their partnership as a collage of portraits with scattered pink letters, then short paragraphs joined by diagonal rules: the two practices meet on the page."
+ },
+ {
+  "site": "Damien Aistrope",
+  "type": "landing",
+  "url": "http://www.aistrope.com",
+  "tags": [
+   "rotated-type",
+   "contact-poster",
+   "dark-ground",
+   "staff-designer"
+  ],
+  "note": "A staff designer at Google rotates his name, title, phone and email 90 degrees in huge grey type down a black page: contact details set as a poster, the bio in small columns beside it."
+ },
+ {
+  "site": "human.jpg",
+  "type": "landing",
+  "url": "https://humanjpg.com",
+  "tags": [
+   "giant-contact-links",
+   "dense-cv",
+   "experience-years",
+   "dark-ground"
+  ],
+  "note": "A design principal makes Email ↗ Twitter ↗ Savee ↗ the giant type of the page, then a dense year-by-year CV that ends on 'World Chicken Hurling Champion': the joke at the bottom rewards reading."
+ },
+ {
+  "site": "Jacob Sutton",
+  "type": "landing",
+  "url": "http://jacobsutton.com",
+  "tags": [
+   "magazine-cover",
+   "photographer",
+   "centred-sequence",
+   "editorial"
+  ],
+  "note": "A photographer opens on one of his magazine covers (Numéro Homme) centred on grey, then single images in sequence: the most recognisable piece first, nothing around it."
+ },
+ {
+  "site": "Linda Huang",
+  "type": "landing",
+  "url": "http://www.linda-huang.com",
+  "tags": [
+   "book-cover-grid",
+   "grey-tiles",
+   "typewriter-nav",
+   "designer"
+  ],
+  "note": "A book cover designer shows only covers, each on its own grey tile in a three-column grid, with a typewriter-face nav: the work at the size a bookshop would show it."
+ },
+ {
+  "site": "Liz Wells",
+  "type": "landing",
+  "url": "http://www.lizvwells.com",
+  "tags": [
+   "photobooth-strip",
+   "hand-drawn-sprigs",
+   "centred-cv",
+   "dark-green"
+  ],
+  "note": "A product designer centres a photobooth strip under her name on dark green, with tiny hand-drawn sprigs dividing currently / previously / also: a CV made warm with two small graphic devices."
+ },
+ {
+  "site": "Mitchell Barton",
+  "type": "landing",
+  "url": "http://mitchellbarton.com",
+  "tags": [
+   "calendar-view",
+   "dated-works",
+   "colour-dots",
+   "artist"
+  ],
+  "note": "An artist shows his work in a calendar: months of dots coloured by status beside each dated print, with Month / List / Grid views: the practice as a daily log."
  }
 ]

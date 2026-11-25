@@ -29599,6 +29599,87 @@
     }
   },
   {
+    "id": "dafne-landing",
+    "site": "Dafne",
+    "url": "https://www.dafne.work",
+    "type": "landing",
+    "tags": [
+      "letter-scatter",
+      "diagonal-rules",
+      "photo-collage",
+      "partnership"
+    ],
+    "note": "An art director and a photographer present their partnership as a collage of portraits with scattered pink letters, then short paragraphs joined by diagonal rules: the two practices meet on the page.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/dafne-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/dafne-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Dafne",
+      "fonts": [
+        "sofia-pro",
+        "sofia-pro-condensed",
+        "Clearface"
+      ],
+      "type": {
+        "h1": {
+          "font": "sofia-pro",
+          "size": 28,
+          "weight": "600",
+          "lineHeight": 0.9,
+          "letterSpacing": "1.68px",
+          "color": "rgb(22, 19, 19)"
+        },
+        "h2": {
+          "font": "sofia-pro",
+          "size": 18,
+          "weight": "600",
+          "lineHeight": 0.8,
+          "letterSpacing": "normal",
+          "color": "rgb(27, 24, 24)"
+        },
+        "h3": {
+          "font": "sofia-pro-condensed",
+          "size": 17,
+          "weight": "400",
+          "lineHeight": 1.3,
+          "letterSpacing": "normal",
+          "color": "rgb(22, 19, 19)"
+        },
+        "body": {
+          "font": "sofia-pro-condensed",
+          "size": 14,
+          "weight": "400",
+          "lineHeight": 0,
+          "letterSpacing": "normal",
+          "color": "rgb(22, 19, 19)"
+        }
+      },
+      "colors": {
+        "background": "#f5f4f0",
+        "surfaces": [
+          "#f5f4f0"
+        ],
+        "text": [
+          "#161313",
+          "#71b783",
+          "#000000"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": 750
+    }
+  },
+  {
     "id": "daly-landing",
     "site": "Daly",
     "url": "https://daly.nyc",
@@ -29686,6 +29767,61 @@
           "weight": "400"
         }
       ],
+      "contentWidth": null
+    }
+  },
+  {
+    "id": "damien-aistrope-landing",
+    "site": "Damien Aistrope",
+    "url": "http://www.aistrope.com",
+    "type": "landing",
+    "tags": [
+      "rotated-type",
+      "contact-poster",
+      "dark-ground",
+      "staff-designer"
+    ],
+    "note": "A staff designer at Google rotates his name, title, phone and email 90 degrees in huge grey type down a black page: contact details set as a poster, the bio in small columns beside it.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/damien-aistrope-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/damien-aistrope-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Damien Aistrope. Designer, etc.",
+      "fonts": [
+        "VisbyCF"
+      ],
+      "type": {
+        "h1": null,
+        "h2": null,
+        "h3": null,
+        "body": {
+          "font": "VisbyCF",
+          "size": 14,
+          "weight": "400",
+          "lineHeight": 1.43,
+          "letterSpacing": "0.8px",
+          "color": "rgb(153, 153, 153)"
+        }
+      },
+      "colors": {
+        "background": "#000000",
+        "surfaces": [],
+        "text": [
+          "#999999",
+          "#777777"
+        ]
+      },
+      "buttons": [],
       "contentWidth": null
     }
   },
@@ -50189,6 +50325,70 @@
     }
   },
   {
+    "id": "human-jpg-landing",
+    "site": "human.jpg",
+    "url": "https://humanjpg.com",
+    "type": "landing",
+    "tags": [
+      "giant-contact-links",
+      "dense-cv",
+      "experience-years",
+      "dark-ground"
+    ],
+    "note": "A design principal makes Email ↗ Twitter ↗ Savee ↗ the giant type of the page, then a dense year-by-year CV that ends on 'World Chicken Hurling Champion': the joke at the bottom rewards reading.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/human-jpg-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3596
+      },
+      "mobile": {
+        "file": "screens/human-jpg-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Product Designer & Art Director from London — human.jpg",
+      "fonts": [
+        "Suisse"
+      ],
+      "type": {
+        "h1": null,
+        "h2": null,
+        "h3": {
+          "font": "Suisse",
+          "size": 20,
+          "weight": "400",
+          "lineHeight": 1.2,
+          "letterSpacing": "normal",
+          "color": "rgb(149, 149, 159)"
+        },
+        "body": {
+          "font": "Suisse",
+          "size": 20,
+          "weight": "400",
+          "lineHeight": 1.2,
+          "letterSpacing": "normal",
+          "color": "rgb(255, 255, 255)"
+        }
+      },
+      "colors": {
+        "background": "#0c0c0c",
+        "surfaces": [
+          "#000000"
+        ],
+        "text": [
+          "#ffffff",
+          "#95959f"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": null
+    }
+  },
+  {
     "id": "humane-by-design-landing",
     "site": "Humane by Design",
     "url": "https://humanebydesign.com",
@@ -53051,6 +53251,65 @@
         "background": "#ffffff",
         "surfaces": [
           "#ffffff"
+        ],
+        "text": [
+          "#000000",
+          "#ffffff"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": null
+    }
+  },
+  {
+    "id": "jacob-sutton-landing",
+    "site": "Jacob Sutton",
+    "url": "http://jacobsutton.com",
+    "type": "landing",
+    "tags": [
+      "magazine-cover",
+      "photographer",
+      "centred-sequence",
+      "editorial"
+    ],
+    "note": "A photographer opens on one of his magazine covers (Numéro Homme) centred on grey, then single images in sequence: the most recognisable piece first, nothing around it.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/jacob-sutton-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/jacob-sutton-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Jacob Sutton",
+      "fonts": [
+        "Plain"
+      ],
+      "type": {
+        "h1": {
+          "font": "Plain",
+          "size": 13,
+          "weight": "700",
+          "lineHeight": 1.54,
+          "letterSpacing": "2px",
+          "color": "rgb(0, 0, 0)"
+        },
+        "h2": null,
+        "h3": null,
+        "body": null
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#efefef",
+          "#222222",
+          "#fdfdfd"
         ],
         "text": [
           "#000000",
@@ -58616,6 +58875,62 @@
     }
   },
   {
+    "id": "linda-huang-landing",
+    "site": "Linda Huang",
+    "url": "http://www.linda-huang.com",
+    "type": "landing",
+    "tags": [
+      "book-cover-grid",
+      "grey-tiles",
+      "typewriter-nav",
+      "designer"
+    ],
+    "note": "A book cover designer shows only covers, each on its own grey tile in a three-column grid, with a typewriter-face nav: the work at the size a bookshop would show it.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/linda-huang-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/linda-huang-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Linda Huang",
+      "fonts": [
+        "monor"
+      ],
+      "type": {
+        "h1": {
+          "font": "monor",
+          "size": 30,
+          "weight": "400",
+          "lineHeight": 1.3,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        },
+        "h2": null,
+        "h3": null,
+        "body": null
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#f2f1ef"
+        ],
+        "text": [
+          "#000000"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": null
+    }
+  },
+  {
     "id": "lindy-landing",
     "site": "Lindy",
     "url": "https://www.lindy.ai",
@@ -59622,6 +59937,69 @@
         }
       ],
       "contentWidth": 1280
+    }
+  },
+  {
+    "id": "liz-wells-landing",
+    "site": "Liz Wells",
+    "url": "http://www.lizvwells.com",
+    "type": "landing",
+    "tags": [
+      "photobooth-strip",
+      "hand-drawn-sprigs",
+      "centred-cv",
+      "dark-green"
+    ],
+    "note": "A product designer centres a photobooth strip under her name on dark green, with tiny hand-drawn sprigs dividing currently / previously / also: a CV made warm with two small graphic devices.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/liz-wells-landing-desktop.jpg",
+        "width": 1440,
+        "height": 1974
+      },
+      "mobile": {
+        "file": "screens/liz-wells-landing-mobile.jpg",
+        "width": 390,
+        "height": 1846
+      }
+    },
+    "tokens": {
+      "title": "Liz Wells",
+      "fonts": [
+        "GT America Condensed"
+      ],
+      "type": {
+        "h1": {
+          "font": "GT America Condensed",
+          "size": 58,
+          "weight": "400",
+          "lineHeight": 0.9,
+          "letterSpacing": "-2.32px",
+          "color": "rgb(225, 224, 160)"
+        },
+        "h2": null,
+        "h3": null,
+        "body": {
+          "font": "GT America Condensed",
+          "size": 40,
+          "weight": "400",
+          "lineHeight": 1.07,
+          "letterSpacing": "normal",
+          "color": "rgb(225, 224, 160)"
+        }
+      },
+      "colors": {
+        "background": "#17371e",
+        "surfaces": [
+          "#ffffff"
+        ],
+        "text": [
+          "#e1e0a0"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": 1040
     }
   },
   {
@@ -64815,6 +65193,136 @@
       },
       "buttons": [],
       "contentWidth": 1024
+    }
+  },
+  {
+    "id": "mitchell-barton-landing",
+    "site": "Mitchell Barton",
+    "url": "http://mitchellbarton.com",
+    "type": "landing",
+    "tags": [
+      "calendar-view",
+      "dated-works",
+      "colour-dots",
+      "artist"
+    ],
+    "note": "An artist shows his work in a calendar: months of dots coloured by status beside each dated print, with Month / List / Grid views: the practice as a daily log.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/mitchell-barton-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/mitchell-barton-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Mitchell Barton",
+      "fonts": [
+        "OpenInto Mono"
+      ],
+      "type": {
+        "h1": null,
+        "h2": null,
+        "h3": null,
+        "body": {
+          "font": "OpenInto Mono",
+          "size": 17,
+          "weight": "400",
+          "lineHeight": 1.1,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#ffffff",
+          "#f4f4f4",
+          "#adff87",
+          "#fffb00",
+          "#f6ff7b"
+        ],
+        "text": [
+          "#000000",
+          "#00bb44",
+          "#ff0000",
+          "#0000ff"
+        ]
+      },
+      "buttons": [
+        {
+          "label": "3",
+          "bg": "#adff87",
+          "color": "#000000",
+          "radius": "50%",
+          "height": 35,
+          "paddingX": 0,
+          "font": "OpenInto Mono",
+          "size": 17,
+          "weight": "400"
+        },
+        {
+          "label": "4",
+          "bg": "#adff87",
+          "color": "#000000",
+          "radius": "50%",
+          "height": 35,
+          "paddingX": 0,
+          "font": "OpenInto Mono",
+          "size": 17,
+          "weight": "400"
+        },
+        {
+          "label": "6",
+          "bg": "#fffb00",
+          "color": "#000000",
+          "radius": "50%",
+          "height": 35,
+          "paddingX": 0,
+          "font": "OpenInto Mono",
+          "size": 17,
+          "weight": "400"
+        },
+        {
+          "label": "7",
+          "bg": "#fffb00",
+          "color": "#000000",
+          "radius": "50%",
+          "height": 35,
+          "paddingX": 0,
+          "font": "OpenInto Mono",
+          "size": 17,
+          "weight": "400"
+        },
+        {
+          "label": "2",
+          "bg": "#fffb00",
+          "color": "#000000",
+          "radius": "50%",
+          "height": 35,
+          "paddingX": 0,
+          "font": "OpenInto Mono",
+          "size": 17,
+          "weight": "400"
+        },
+        {
+          "label": "3",
+          "bg": "#fffb00",
+          "color": "#000000",
+          "radius": "50%",
+          "height": 35,
+          "paddingX": 0,
+          "font": "OpenInto Mono",
+          "size": 17,
+          "weight": "400"
+        }
+      ],
+      "contentWidth": null
     }
   },
   {
