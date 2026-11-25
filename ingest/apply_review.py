@@ -42,6 +42,8 @@ def main() -> None:
         for e in json.loads(Path(b).read_text()):
             entries[e.get("id") or slug(f"{e['site']}-{e['type']}")] = e
     by_slug = {slug(e["site"]): i for i, e in entries.items()}
+    # ids that prefilter made distinct ("temporal-temporal-landing") are named without the type suffix
+    by_slug.update({i.removesuffix(f"-{e['type']}"): i for i, e in entries.items()})
 
     keep, drop = {}, {}
     for line in notes.read_text().splitlines():

@@ -17321,6 +17321,67 @@
     }
   },
   {
+    "id": "bedow-landing",
+    "site": "Bedow",
+    "url": "http://www.bedow.se",
+    "type": "landing",
+    "tags": [
+      "line-drawing-hero",
+      "serif-body",
+      "project-list",
+      "pale-pink",
+      "swedish-studio"
+    ],
+    "note": "The hero is the studio's letters drawn as thin lines on pale pink, big enough to be a texture; the intro is one serif sentence and the work follows in plain rows.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/bedow-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/bedow-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Bedow – A strategic design and branding studio based in Stockholm, Sweden",
+      "fonts": [
+        "Bedow-Text-Head",
+        "Bedow-Display-Hand",
+        "Bedow-Text-Hand"
+      ],
+      "type": {
+        "h1": null,
+        "h2": null,
+        "h3": null,
+        "body": {
+          "font": "Bedow-Text-Hand",
+          "size": 36,
+          "weight": "400",
+          "lineHeight": 1.1,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#ffffff",
+          "#fafafa",
+          "#3cb97a"
+        ],
+        "text": [
+          "#000000"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": 1260
+    }
+  },
+  {
     "id": "bee-landing",
     "site": "Bee",
     "url": "https://www.bee.computer",
@@ -17882,6 +17943,82 @@
       },
       "buttons": [],
       "contentWidth": 1400
+    }
+  },
+  {
+    "id": "bielke-yang-landing",
+    "site": "Bielke + Yang",
+    "url": "http://bielkeyang.com",
+    "type": "landing",
+    "tags": [
+      "norwegian-serif",
+      "statement",
+      "photo-card-strip",
+      "navy-section",
+      "ampersand-logo"
+    ],
+    "note": "A Norwegian studio writes its belief in a serif sentence in its own language, then a strip of photo cards that are questions ('Hvordan kan vi jobbe sammen?'): the cards ask instead of sell.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/bielke-yang-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/bielke-yang-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Bielke&Yang",
+      "fonts": [
+        "ABC Rom Mono",
+        "Deckard",
+        "Martina Plantijn"
+      ],
+      "type": {
+        "h1": {
+          "font": "Martina Plantijn",
+          "size": 56,
+          "weight": "400",
+          "lineHeight": 1.2,
+          "letterSpacing": "-1.12003px",
+          "color": "rgb(0, 0, 0)"
+        },
+        "h2": {
+          "font": "Deckard",
+          "size": 24,
+          "weight": "400",
+          "lineHeight": 1.3,
+          "letterSpacing": "normal",
+          "color": "rgb(255, 255, 255)"
+        },
+        "h3": null,
+        "body": {
+          "font": "Deckard",
+          "size": 24,
+          "weight": "400",
+          "lineHeight": 1.3,
+          "letterSpacing": "normal",
+          "color": "rgb(255, 255, 255)"
+        }
+      },
+      "colors": {
+        "background": "#fffefb",
+        "surfaces": [
+          "#0e1527",
+          "#ffffff",
+          "#000000"
+        ],
+        "text": [
+          "#ffffff",
+          "#000000"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": null
     }
   },
   {
@@ -27770,6 +27907,112 @@
     }
   },
   {
+    "id": "dreimorgen-landing",
+    "site": "Dreimorgen",
+    "url": "http://dreimorgen.com",
+    "type": "landing",
+    "tags": [
+      "mono-labels",
+      "editorial-cards",
+      "german-copy",
+      "purple-button",
+      "project-filters"
+    ],
+    "note": "An Offenbach studio sets nav and labels in mono and its work as cards with a coloured poster on the left and full text on the right: the grid reads like a journal, with filters by discipline.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/dreimorgen-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/dreimorgen-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Designagentur für Frankfurt und Rhein-Main · Dreimorgen",
+      "fonts": [
+        "GT Walsheim",
+        "Silka Mono"
+      ],
+      "type": {
+        "h1": {
+          "font": "GT Walsheim",
+          "size": 72,
+          "weight": "500",
+          "lineHeight": 1.08,
+          "letterSpacing": "-2.52px",
+          "color": "rgb(0, 0, 0)"
+        },
+        "h2": {
+          "font": "GT Walsheim",
+          "size": 42,
+          "weight": "500",
+          "lineHeight": 1.33,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        },
+        "h3": {
+          "font": "GT Walsheim",
+          "size": 28,
+          "weight": "500",
+          "lineHeight": 1.29,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        },
+        "body": {
+          "font": "GT Walsheim",
+          "size": 33,
+          "weight": "500",
+          "lineHeight": 1.5,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        }
+      },
+      "colors": {
+        "background": "#f9f8f5",
+        "surfaces": [
+          "#e8e5df",
+          "#eeede8",
+          "#6e17c7",
+          "#ffffff"
+        ],
+        "text": [
+          "#000000",
+          "#ffffff"
+        ]
+      },
+      "buttons": [
+        {
+          "label": "Zum Inhalt springen",
+          "bg": "#f9f8f5",
+          "color": "#000000",
+          "radius": "0px",
+          "height": 34,
+          "paddingX": 16,
+          "font": "GT Walsheim",
+          "size": 16,
+          "weight": "400"
+        },
+        {
+          "label": "Projekt anfragen",
+          "bg": "#6e17c7",
+          "color": "#ffffff",
+          "radius": "0px",
+          "height": 49,
+          "paddingX": 24,
+          "font": "Silka Mono",
+          "size": 17,
+          "weight": "400"
+        }
+      ],
+      "contentWidth": 1440
+    }
+  },
+  {
     "id": "driftime-landing",
     "site": "Driftime®",
     "url": "https://driftime.com",
@@ -28680,6 +28923,91 @@
     }
   },
   {
+    "id": "early-works-landing",
+    "site": "Early Works",
+    "url": "https://www.early.works",
+    "type": "landing",
+    "tags": [
+      "line-drawing",
+      "centred-serif",
+      "areas-of-work",
+      "product-cards",
+      "venture-studio"
+    ],
+    "note": "A venture studio's hero is one centred serif sentence wrapped in a pen drawing, then the companies it built as product screens with an 'ongoing' chip: the work is shown as live products.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/early-works-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/early-works-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Early Works",
+      "fonts": [
+        "soehne",
+        "-apple-system",
+        "featureDeck"
+      ],
+      "type": {
+        "h1": {
+          "font": "featureDeck",
+          "size": 78,
+          "weight": "300",
+          "lineHeight": 1,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        },
+        "h2": {
+          "font": "featureDeck",
+          "size": 78,
+          "weight": "300",
+          "lineHeight": 1,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        },
+        "h3": {
+          "font": "soehne",
+          "size": 18,
+          "weight": "700",
+          "lineHeight": 1.25,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        },
+        "body": {
+          "font": "soehne",
+          "size": 24,
+          "weight": "400",
+          "lineHeight": 1.33,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#ffffff",
+          "#000000",
+          "#cee92e",
+          "#81caf2",
+          "#ff551f"
+        ],
+        "text": [
+          "#000000",
+          "#0901ff"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": 1280
+    }
+  },
+  {
     "id": "effect-landing",
     "site": "Effect",
     "url": "https://effect.website",
@@ -29160,6 +29488,77 @@
         }
       ],
       "contentWidth": 1440
+    }
+  },
+  {
+    "id": "ella-thomas-landing",
+    "site": "Ella Thomas",
+    "url": "https://ellaethomas.com",
+    "type": "landing",
+    "tags": [
+      "painting-wall",
+      "image-only",
+      "tiny-nav",
+      "artist"
+    ],
+    "note": "A painter's site is a dense wall of painting thumbnails with a tiny serif name and nav on the left: no hero, no statement, the work at once.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/ella-thomas-landing-desktop.jpg",
+        "width": 1440,
+        "height": 1736
+      },
+      "mobile": {
+        "file": "screens/ella-thomas-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Ella Thomas — Painter",
+      "fonts": [
+        "timesNewerRoman"
+      ],
+      "type": {
+        "h1": {
+          "font": "timesNewerRoman",
+          "size": 16,
+          "weight": "400",
+          "lineHeight": 1.5,
+          "letterSpacing": "normal",
+          "color": "rgb(26, 26, 26)"
+        },
+        "h2": {
+          "font": "timesNewerRoman",
+          "size": 12,
+          "weight": "400",
+          "lineHeight": 1.33,
+          "letterSpacing": "2.4px",
+          "color": "rgb(26, 26, 26)"
+        },
+        "h3": null,
+        "body": {
+          "font": "timesNewerRoman",
+          "size": 12,
+          "weight": "400",
+          "lineHeight": 1.33,
+          "letterSpacing": "0.3px",
+          "color": "rgb(115, 115, 115)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#ffffff"
+        ],
+        "text": [
+          "#737373",
+          "#1a1a1a"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": 1152
     }
   },
   {
@@ -33357,6 +33756,84 @@
     }
   },
   {
+    "id": "for-good-design-lab-landing",
+    "site": "For Good Design Lab",
+    "url": "https://www.forgooddesignlab.com",
+    "type": "landing",
+    "tags": [
+      "serif-statement",
+      "italic-swear",
+      "large-photos",
+      "client-labels"
+    ],
+    "note": "A one-line serif statement with an italic 'unfuck the world', then large photographs of client founders and products, each labelled with the brand: one word of attitude, then the work.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/for-good-design-lab-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/for-good-design-lab-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "For Good Design Lab",
+      "fonts": [
+        "Soehne",
+        "Signifier"
+      ],
+      "type": {
+        "h1": {
+          "font": "Signifier",
+          "size": 51,
+          "weight": "300",
+          "lineHeight": 1.1,
+          "letterSpacing": "-1.01728px",
+          "color": "rgb(0, 0, 0)"
+        },
+        "h2": null,
+        "h3": {
+          "font": "Soehne",
+          "size": 25,
+          "weight": "400",
+          "lineHeight": 1.3,
+          "letterSpacing": "-0.50976px",
+          "color": "rgb(255, 255, 255)"
+        },
+        "body": null
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#ffffff",
+          "#000000"
+        ],
+        "text": [
+          "#000000",
+          "#ffffff"
+        ]
+      },
+      "buttons": [
+        {
+          "label": "",
+          "bg": "#000000",
+          "color": "#000000",
+          "radius": "1440px",
+          "height": 64,
+          "paddingX": 0,
+          "font": "Soehne",
+          "size": 16,
+          "weight": "400"
+        }
+      ],
+      "contentWidth": 1080
+    }
+  },
+  {
     "id": "fora-landing",
     "site": "Fora",
     "url": "https://www.fora-concept.com",
@@ -37161,6 +37638,76 @@
       },
       "buttons": [],
       "contentWidth": 720
+    }
+  },
+  {
+    "id": "groth-landing",
+    "site": "Groth",
+    "url": "https://www.groth.studio",
+    "type": "landing",
+    "tags": [
+      "giant-wordmark",
+      "trademark",
+      "cream",
+      "orange-sidebar",
+      "project-rows",
+      "architecture-product"
+    ],
+    "note": "A huge bold 'Groth™' with a cube line drawing, the latest research item in an orange side card, then projects as big renders with status chips ('in progress'): an architecture studio that looks like a product brand.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/groth-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/groth-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Hospitality & Interior Design – Barcelona & NYC | Groth Studio",
+      "fonts": [
+        "PP Neue Montreal",
+        "GT America Mono LCG",
+        "PP Object Sans"
+      ],
+      "type": {
+        "h1": null,
+        "h2": {
+          "font": "PP Neue Montreal",
+          "size": 30,
+          "weight": "500",
+          "lineHeight": 1.06,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        },
+        "h3": null,
+        "body": {
+          "font": "GT America Mono LCG",
+          "size": 10,
+          "weight": "400",
+          "lineHeight": 1.4,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#dfddc7",
+          "#bf551a",
+          "#ffffff",
+          "#000000"
+        ],
+        "text": [
+          "#000000"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": null
     }
   },
   {
@@ -73702,6 +74249,60 @@
     }
   },
   {
+    "id": "studio-c-landing",
+    "site": "Studio C",
+    "url": "http://www.studioc.dk",
+    "type": "landing",
+    "tags": [
+      "masonry-photos",
+      "brand-wordmarks",
+      "signage",
+      "minimal-header"
+    ],
+    "note": "A branding studio's homepage is a masonry of identities photographed in use (signage, bottles, screens) with a one-line header: the brands seen in the world, not on mockups.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/studio-c-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/studio-c-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Studio C — Front",
+      "fonts": [
+        "New Rail Alphabet"
+      ],
+      "type": {
+        "h1": null,
+        "h2": {
+          "font": "New Rail Alphabet",
+          "size": 17,
+          "weight": "300",
+          "lineHeight": 1.25,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        },
+        "h3": null,
+        "body": null
+      },
+      "colors": {
+        "background": "#eff1f4",
+        "surfaces": [],
+        "text": [
+          "#000000"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": null
+    }
+  },
+  {
     "id": "studio-freight-landing",
     "site": "Studio Freight",
     "url": "https://www.studiofreight.com",
@@ -76526,6 +77127,67 @@
         }
       ],
       "contentWidth": 1440
+    }
+  },
+  {
+    "id": "teardwn-landing",
+    "site": "Teardwn",
+    "url": "https://teardwn.com",
+    "type": "landing",
+    "tags": [
+      "collage",
+      "painted-sky",
+      "stickers",
+      "speech-bubble",
+      "long-copy",
+      "copywriter"
+    ],
+    "note": "A fractional copy chief builds the page as a collage (painted sky, a Chuck Norris cut-out, speech bubbles) and then writes a long story in mono: the joke earns the reading of the copy.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/teardwn-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/teardwn-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Teardwn: Fractional Chief of Copy for DTC & eCommerce brands",
+      "fonts": [
+        "Space Mono",
+        "Lato",
+        "NationalPark-Variable"
+      ],
+      "type": {
+        "h1": null,
+        "h2": null,
+        "h3": null,
+        "body": {
+          "font": "Monofett",
+          "size": 16,
+          "weight": "400",
+          "lineHeight": 1.4,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        }
+      },
+      "colors": {
+        "background": "#e0e0ff",
+        "surfaces": [
+          "#e0e0ff"
+        ],
+        "text": [
+          "#000000",
+          "#0000ee"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": null
     }
   },
   {
@@ -81309,6 +81971,120 @@
           "paddingX": 24,
           "font": "Serial Blur",
           "size": 16,
+          "weight": "400"
+        }
+      ],
+      "contentWidth": 1440
+    }
+  },
+  {
+    "id": "unstudio-landing",
+    "site": "UNStudio",
+    "url": "https://www.unstudio.com",
+    "type": "landing",
+    "tags": [
+      "giant-caps",
+      "purple-photo-overlay",
+      "statement",
+      "office-clocks"
+    ],
+    "note": "An architecture practice: huge caps over a purple-tinted drawing photo, then a long grey statement and its seven offices as small clocks with city names: the world map turned into a row of times.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/unstudio-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/unstudio-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Explore Beyond Architecture | UNS",
+      "fonts": [
+        "helvetica",
+        "sans-serif"
+      ],
+      "type": {
+        "h1": {
+          "font": "helvetica",
+          "size": 132,
+          "weight": "900",
+          "lineHeight": 0.9,
+          "letterSpacing": "normal",
+          "color": "rgb(246, 246, 246)"
+        },
+        "h2": {
+          "font": "helvetica",
+          "size": 88,
+          "weight": "900",
+          "lineHeight": 1,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        },
+        "h3": {
+          "font": "helvetica",
+          "size": 48,
+          "weight": "500",
+          "lineHeight": 0.95,
+          "letterSpacing": "normal",
+          "color": "rgb(246, 246, 246)"
+        },
+        "body": {
+          "font": "helvetica",
+          "size": 14,
+          "weight": "500",
+          "lineHeight": 1.3,
+          "letterSpacing": "normal",
+          "color": "rgb(246, 246, 246)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#f6f6f6",
+          "#000000"
+        ],
+        "text": [
+          "#000000",
+          "#f6f6f6"
+        ]
+      },
+      "buttons": [
+        {
+          "label": "PROJECTS",
+          "bg": "#000000",
+          "color": "#f6f6f6",
+          "radius": "16px",
+          "height": 32,
+          "paddingX": 12,
+          "font": "helvetica",
+          "size": 14,
+          "weight": "400"
+        },
+        {
+          "label": "SERVICES",
+          "bg": "#000000",
+          "color": "#f6f6f6",
+          "radius": "16px",
+          "height": 32,
+          "paddingX": 12,
+          "font": "helvetica",
+          "size": 14,
+          "weight": "400"
+        },
+        {
+          "label": "CAREERS",
+          "bg": "#000000",
+          "color": "#f6f6f6",
+          "radius": "16px",
+          "height": 32,
+          "paddingX": 12,
+          "font": "helvetica",
+          "size": 14,
           "weight": "400"
         }
       ],

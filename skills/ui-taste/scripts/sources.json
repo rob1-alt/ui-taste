@@ -12219,5 +12219,133 @@
    "phone-mockups"
   ],
   "note": "A designer's intro on a blue sticky note with an orange 'currently figuring out' tag and a ticker of skills, then the work as purple tiles: a playful header over an ordinary grid."
+ },
+ {
+  "site": "Bedow",
+  "type": "landing",
+  "url": "http://www.bedow.se",
+  "tags": [
+   "line-drawing-hero",
+   "serif-body",
+   "project-list",
+   "pale-pink",
+   "swedish-studio"
+  ],
+  "note": "The hero is the studio's letters drawn as thin lines on pale pink, big enough to be a texture; the intro is one serif sentence and the work follows in plain rows."
+ },
+ {
+  "site": "Bielke + Yang",
+  "type": "landing",
+  "url": "http://bielkeyang.com",
+  "tags": [
+   "norwegian-serif",
+   "statement",
+   "photo-card-strip",
+   "navy-section",
+   "ampersand-logo"
+  ],
+  "note": "A Norwegian studio writes its belief in a serif sentence in its own language, then a strip of photo cards that are questions ('Hvordan kan vi jobbe sammen?'): the cards ask instead of sell."
+ },
+ {
+  "site": "Dreimorgen",
+  "type": "landing",
+  "url": "http://dreimorgen.com",
+  "tags": [
+   "mono-labels",
+   "editorial-cards",
+   "german-copy",
+   "purple-button",
+   "project-filters"
+  ],
+  "note": "An Offenbach studio sets nav and labels in mono and its work as cards with a coloured poster on the left and full text on the right: the grid reads like a journal, with filters by discipline."
+ },
+ {
+  "site": "Early Works",
+  "type": "landing",
+  "url": "https://www.early.works",
+  "tags": [
+   "line-drawing",
+   "centred-serif",
+   "areas-of-work",
+   "product-cards",
+   "venture-studio"
+  ],
+  "note": "A venture studio's hero is one centred serif sentence wrapped in a pen drawing, then the companies it built as product screens with an 'ongoing' chip: the work is shown as live products."
+ },
+ {
+  "site": "Ella Thomas",
+  "type": "landing",
+  "url": "https://ellaethomas.com",
+  "tags": [
+   "painting-wall",
+   "image-only",
+   "tiny-nav",
+   "artist"
+  ],
+  "note": "A painter's site is a dense wall of painting thumbnails with a tiny serif name and nav on the left: no hero, no statement, the work at once."
+ },
+ {
+  "site": "For Good Design Lab",
+  "type": "landing",
+  "url": "https://www.forgooddesignlab.com",
+  "tags": [
+   "serif-statement",
+   "italic-swear",
+   "large-photos",
+   "client-labels"
+  ],
+  "note": "A one-line serif statement with an italic 'unfuck the world', then large photographs of client founders and products, each labelled with the brand: one word of attitude, then the work."
+ },
+ {
+  "site": "Groth",
+  "type": "landing",
+  "url": "https://www.groth.studio",
+  "tags": [
+   "giant-wordmark",
+   "trademark",
+   "cream",
+   "orange-sidebar",
+   "project-rows",
+   "architecture-product"
+  ],
+  "note": "A huge bold 'Groth™' with a cube line drawing, the latest research item in an orange side card, then projects as big renders with status chips ('in progress'): an architecture studio that looks like a product brand."
+ },
+ {
+  "site": "Studio C",
+  "type": "landing",
+  "url": "http://www.studioc.dk",
+  "tags": [
+   "masonry-photos",
+   "brand-wordmarks",
+   "signage",
+   "minimal-header"
+  ],
+  "note": "A branding studio's homepage is a masonry of identities photographed in use (signage, bottles, screens) with a one-line header: the brands seen in the world, not on mockups."
+ },
+ {
+  "site": "Teardwn",
+  "type": "landing",
+  "url": "https://teardwn.com",
+  "tags": [
+   "collage",
+   "painted-sky",
+   "stickers",
+   "speech-bubble",
+   "long-copy",
+   "copywriter"
+  ],
+  "note": "A fractional copy chief builds the page as a collage (painted sky, a Chuck Norris cut-out, speech bubbles) and then writes a long story in mono: the joke earns the reading of the copy."
+ },
+ {
+  "site": "UNStudio",
+  "type": "landing",
+  "url": "https://www.unstudio.com",
+  "tags": [
+   "giant-caps",
+   "purple-photo-overlay",
+   "statement",
+   "office-clocks"
+  ],
+  "note": "An architecture practice: huge caps over a purple-tinted drawing photo, then a long grey statement and its seven offices as small clocks with city names: the world map turned into a row of times."
  }
 ]
