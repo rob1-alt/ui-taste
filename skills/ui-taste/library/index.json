@@ -14825,6 +14825,58 @@
     }
   },
   {
+    "id": "archive-landing",
+    "site": "archive",
+    "url": "https://optikarchiv.com",
+    "type": "landing",
+    "tags": [
+      "year-headings",
+      "photo-grid",
+      "counts",
+      "travel-archive",
+      "index"
+    ],
+    "note": "A personal photo archive organised by year: each year is a huge numeral with the count of places at the right edge, then a tight grid of captioned photos. The numbers are the navigation.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/archive-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/archive-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Optikarchiv",
+      "fonts": [
+        "neue-haas-grotesk-text"
+      ],
+      "type": {
+        "h1": null,
+        "h2": null,
+        "h3": null,
+        "body": null
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#ffffff"
+        ],
+        "text": [
+          "#000000",
+          "#999999",
+          "#b3b3b3"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": null
+    }
+  },
+  {
     "id": "are-na-landing",
     "site": "Are.na",
     "url": "https://www.are.na",
@@ -16018,6 +16070,62 @@
       },
       "buttons": [],
       "contentWidth": 1480
+    }
+  },
+  {
+    "id": "austen-landing",
+    "site": "Austen",
+    "url": "https://austen.fun",
+    "type": "landing",
+    "tags": [
+      "object-grid",
+      "grey-cards",
+      "product-design",
+      "small-labels"
+    ],
+    "note": "A designer's objects each on its own grey card with a tiny label and a plus button, in a strict grid: the page is a shop-like catalogue of work.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/austen-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3528
+      },
+      "mobile": {
+        "file": "screens/austen-landing-mobile.jpg",
+        "width": 390,
+        "height": 844
+      }
+    },
+    "tokens": {
+      "title": "Austen — Work",
+      "fonts": [
+        "KMRWaldenburgBold"
+      ],
+      "type": {
+        "h1": null,
+        "h2": null,
+        "h3": null,
+        "body": {
+          "font": "KMRWaldenburgBold",
+          "size": 12,
+          "weight": "400",
+          "lineHeight": "normal",
+          "letterSpacing": "normal",
+          "color": "rgb(26, 26, 26)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#e6e6e6"
+        ],
+        "text": [
+          "#1a1a1a"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": null
     }
   },
   {
@@ -23677,6 +23785,75 @@
     }
   },
   {
+    "id": "conrad-stel-landing",
+    "site": "Conrad Stel",
+    "url": "https://conradstel.com",
+    "type": "landing",
+    "tags": [
+      "condensed-caps",
+      "dark-mode",
+      "giant-name",
+      "text-heavy",
+      "side-projects"
+    ],
+    "note": "A creative director's name in heavy condensed caps on black, then each venture (agency, studio, coffee) as a caps heading with a paragraph and one photo: a career told as a list of businesses.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/conrad-stel-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/conrad-stel-landing-mobile.jpg",
+        "width": 390,
+        "height": 1328
+      }
+    },
+    "tokens": {
+      "title": "Conrad Stel",
+      "fonts": [
+        "Editors Note Text",
+        "railroad-gothic-atf",
+        "Inter"
+      ],
+      "type": {
+        "h1": null,
+        "h2": {
+          "font": "tt-commons-pro",
+          "size": 20,
+          "weight": "600",
+          "lineHeight": 1.3,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        },
+        "h3": null,
+        "body": {
+          "font": "Editors Note Text",
+          "size": 16,
+          "weight": "400",
+          "lineHeight": 1.38,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        }
+      },
+      "colors": {
+        "background": "#000000",
+        "surfaces": [
+          "#000000",
+          "#ffffff",
+          "#ff0000"
+        ],
+        "text": [
+          "#000000",
+          "#ffffff"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": 1400
+    }
+  },
+  {
     "id": "contemporary-hum-landing",
     "site": "Contemporary Hum",
     "url": "https://contemporaryhum.com",
@@ -24943,6 +25120,82 @@
         }
       ],
       "contentWidth": 1300
+    }
+  },
+  {
+    "id": "danielle-levitt-landing",
+    "site": "Danielle Levitt",
+    "url": "https://www.daniellelevitt.com",
+    "type": "landing",
+    "tags": [
+      "giant-name",
+      "scattered-photos",
+      "overlapping-type",
+      "magenta",
+      "film-director"
+    ],
+    "note": "A director's name set huge in dark grey with portraits scattered over and around the letters, then contacts set large (studio, syndication): the agent's phone number is part of the design.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/danielle-levitt-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3149
+      },
+      "mobile": {
+        "file": "screens/danielle-levitt-landing-mobile.jpg",
+        "width": 390,
+        "height": 2258
+      }
+    },
+    "tokens": {
+      "title": "Film director and photographer — Danielle Levitt",
+      "fonts": [
+        "Helvetica Now Display",
+        "Helvetica Now Display Condensed"
+      ],
+      "type": {
+        "h1": {
+          "font": "Helvetica Now Display Condensed",
+          "size": 72,
+          "weight": "800",
+          "lineHeight": 0.95,
+          "letterSpacing": "-0.72px",
+          "color": "rgb(60, 56, 41)"
+        },
+        "h2": {
+          "font": "Helvetica Now Display",
+          "size": 29,
+          "weight": "800",
+          "lineHeight": 0.95,
+          "letterSpacing": "-0.288px",
+          "color": "rgb(60, 56, 41)"
+        },
+        "h3": null,
+        "body": {
+          "font": "Helvetica Now Display Condensed",
+          "size": 72,
+          "weight": "800",
+          "lineHeight": 0.95,
+          "letterSpacing": "-0.72px",
+          "color": "rgb(60, 56, 41)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#fbdada",
+          "#f07082"
+        ],
+        "text": [
+          "#3c3829",
+          "#f07082",
+          "#494c41",
+          "#000000"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": null
     }
   },
   {
@@ -29251,6 +29504,87 @@
       },
       "buttons": [],
       "contentWidth": 1568
+    }
+  },
+  {
+    "id": "elena-borisova-landing",
+    "site": "Elena Borisova",
+    "url": "https://elenaborisova.life",
+    "type": "landing",
+    "tags": [
+      "hand-drawn",
+      "scattered-letters",
+      "illustration-hero",
+      "therapist",
+      "grey-photo"
+    ],
+    "note": "A psychologist's site opens on a scribbled bird on a nest and the word 'forget' falling apart letter by letter: one drawing says what the therapy is about before any text.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/elena-borisova-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/elena-borisova-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Elena Borisova",
+      "fonts": [
+        "Lab Grotesque"
+      ],
+      "type": {
+        "h1": {
+          "font": "Lab Grotesque",
+          "size": 239,
+          "weight": "700",
+          "lineHeight": 0.8,
+          "letterSpacing": "-9.5616px",
+          "color": "rgb(34, 40, 43)"
+        },
+        "h2": {
+          "font": "Lab Grotesque",
+          "size": 68,
+          "weight": "500",
+          "lineHeight": 1,
+          "letterSpacing": "-2.03558px",
+          "color": "rgb(255, 255, 255)"
+        },
+        "h3": {
+          "font": "Lab Grotesque",
+          "size": 30,
+          "weight": "700",
+          "lineHeight": 1.2,
+          "letterSpacing": "-0.607104px",
+          "color": "rgb(34, 40, 43)"
+        },
+        "body": {
+          "font": "Lab Grotesque",
+          "size": 30,
+          "weight": "400",
+          "lineHeight": 1.2,
+          "letterSpacing": "-0.303552px",
+          "color": "rgba(34, 40, 43, 0.66)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#f4f4f4",
+          "#efefef"
+        ],
+        "text": [
+          "#ffffff",
+          "#ddd7d4",
+          "#22282b"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": null
     }
   },
   {
@@ -49010,6 +49344,78 @@
     }
   },
   {
+    "id": "lost-memories-landing",
+    "site": "Lost Memories",
+    "url": "https://lostmemories.space",
+    "type": "landing",
+    "tags": [
+      "found-photos",
+      "scattered-grid",
+      "archive",
+      "tiny-captions",
+      "handwritten-title"
+    ],
+    "note": "An archive of found snapshots laid out as a loose scattered grid with tiny date captions, the title handwritten in the middle: the layout feels like a box of prints on a table.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/lost-memories-landing-desktop.jpg",
+        "width": 1440,
+        "height": 2748
+      },
+      "mobile": {
+        "file": "screens/lost-memories-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Lost memories",
+      "fonts": [
+        "IBM Plex Mono",
+        "Gaegu"
+      ],
+      "type": {
+        "h1": {
+          "font": "Gaegu",
+          "size": 72,
+          "weight": "600",
+          "lineHeight": 1,
+          "letterSpacing": "normal",
+          "color": "rgb(255, 255, 255)"
+        },
+        "h2": {
+          "font": "IBM Plex Mono",
+          "size": 10,
+          "weight": "400",
+          "lineHeight": 1.5,
+          "letterSpacing": "normal",
+          "color": "oklab(0 0 0 / 0.4)"
+        },
+        "h3": null,
+        "body": {
+          "font": "IBM Plex Mono",
+          "size": 10,
+          "weight": "400",
+          "lineHeight": 1.5,
+          "letterSpacing": "normal",
+          "color": "oklab(0 0 0 / 0.4)"
+        }
+      },
+      "colors": {
+        "background": "#fafafa",
+        "surfaces": [
+          "#ffffff"
+        ],
+        "text": [
+          "#ffffff"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": null
+    }
+  },
+  {
     "id": "louielouie-landing",
     "site": "LouieLouie",
     "url": "https://www.louielouie.co.nz",
@@ -53056,6 +53462,78 @@
           "font": "Martian Mono Variable",
           "size": 18,
           "weight": "700"
+        }
+      ],
+      "contentWidth": null
+    }
+  },
+  {
+    "id": "murmure-landing",
+    "site": "MURMURE",
+    "url": "https://murmure.me",
+    "type": "landing",
+    "tags": [
+      "condensed-wordmark",
+      "dark-mode",
+      "dense-mosaic",
+      "work-wall"
+    ],
+    "note": "A screen-wide condensed wordmark over a dense black mosaic of every project as thumbnails of different sizes: the volume of work is the statement.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/murmure-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/murmure-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Murmure - Studio de direction artistique, de design graphique et numérique indépendant",
+      "fonts": [
+        "MonumentGrotesk",
+        "a",
+        "Murmure"
+      ],
+      "type": {
+        "h1": {
+          "font": "a",
+          "size": 0,
+          "weight": "400",
+          "lineHeight": NaN,
+          "letterSpacing": "-0.48px",
+          "color": "rgba(0, 0, 0, 0)"
+        },
+        "h2": null,
+        "h3": null,
+        "body": null
+      },
+      "colors": {
+        "background": "#121212",
+        "surfaces": [
+          "#353535",
+          "#f8f8f8"
+        ],
+        "text": [
+          "#a8a8a8",
+          "#f8f8f8"
+        ]
+      },
+      "buttons": [
+        {
+          "label": "Aléatoire",
+          "bg": "#353535",
+          "color": "#a8a8a8",
+          "radius": "4px",
+          "height": 29,
+          "paddingX": 8,
+          "font": "MonumentGrotesk",
+          "size": 14,
+          "weight": "400"
         }
       ],
       "contentWidth": null
@@ -60483,6 +60961,69 @@
     }
   },
   {
+    "id": "pihlmann-landing",
+    "site": "Pihlmann",
+    "url": "https://pihlmann.dk",
+    "type": "landing",
+    "tags": [
+      "full-bleed-photos",
+      "news-captions",
+      "mono-links",
+      "architecture",
+      "film-photos"
+    ],
+    "note": "An architecture office's home is a feed of news (a prize, a residence under construction, an exhibition) each as a full-width film photograph with a big caption and a mono link: the practice speaks through its latest events.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/pihlmann-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/pihlmann-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "pihlmann",
+      "fonts": [
+        "Helvetica Monospaced W1G",
+        "Helvetica Web"
+      ],
+      "type": {
+        "h1": {
+          "font": "Helvetica Monospaced W1G",
+          "size": 13,
+          "weight": "400",
+          "lineHeight": 1.2,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        },
+        "h2": null,
+        "h3": null,
+        "body": {
+          "font": "Helvetica Monospaced W1G",
+          "size": 13,
+          "weight": "400",
+          "lineHeight": 1.2,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        }
+      },
+      "colors": {
+        "background": "#f1f1f1",
+        "surfaces": [],
+        "text": [
+          "#000000"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": null
+    }
+  },
+  {
     "id": "pika-landing",
     "site": "Pika",
     "url": "https://pika.art",
@@ -63872,6 +64413,138 @@
         ]
       },
       "buttons": [],
+      "contentWidth": null
+    }
+  },
+  {
+    "id": "prowl-landing",
+    "site": "PROWL",
+    "url": "https://www.prowlstud.io",
+    "type": "landing",
+    "tags": [
+      "bento-grid",
+      "yellow-cards",
+      "news-and-work",
+      "industrial-design",
+      "client-logos"
+    ],
+    "note": "An industrial design studio mixes work, news, 'projections' (yellow cards) and client logos in one bento grid of equal cards: the homepage is a board of what the studio is doing.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/prowl-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/prowl-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "PROWL Studio",
+      "fonts": [
+        "Helvetica Neue LT Pro 55 Roman",
+        "sans-serif",
+        "Neue Haas Grotesk Display Pro 55 Roman"
+      ],
+      "type": {
+        "h1": null,
+        "h2": null,
+        "h3": null,
+        "body": {
+          "font": "Helvetica Neue LT Pro 55 Roman",
+          "size": 14,
+          "weight": "400",
+          "lineHeight": 1.02,
+          "letterSpacing": "normal",
+          "color": "rgb(245, 245, 245)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#ffffff",
+          "#f5f5f5",
+          "#000000",
+          "#ffff00"
+        ],
+        "text": [
+          "#333333",
+          "#000000",
+          "#ffffff",
+          "#f5f5f5"
+        ]
+      },
+      "buttons": [
+        {
+          "label": "PROWL",
+          "bg": "#000000",
+          "color": "#0000ee",
+          "radius": "50px",
+          "height": 37,
+          "paddingX": 0,
+          "font": "sans-serif",
+          "size": 12,
+          "weight": "400"
+        },
+        {
+          "label": "Index",
+          "bg": "#f5f5f5",
+          "color": "#0000ee",
+          "radius": "100px",
+          "height": 37,
+          "paddingX": 0,
+          "font": "sans-serif",
+          "size": 12,
+          "weight": "400"
+        },
+        {
+          "label": "Work",
+          "bg": "#f5f5f5",
+          "color": "#0000ee",
+          "radius": "100px",
+          "height": 37,
+          "paddingX": 0,
+          "font": "sans-serif",
+          "size": 12,
+          "weight": "400"
+        },
+        {
+          "label": "Studio",
+          "bg": "#f5f5f5",
+          "color": "#0000ee",
+          "radius": "100px",
+          "height": 37,
+          "paddingX": 0,
+          "font": "sans-serif",
+          "size": 12,
+          "weight": "400"
+        },
+        {
+          "label": "Projections",
+          "bg": "#f5f5f5",
+          "color": "#0000ee",
+          "radius": "100px",
+          "height": 37,
+          "paddingX": 0,
+          "font": "sans-serif",
+          "size": 12,
+          "weight": "400"
+        },
+        {
+          "label": "News",
+          "bg": "#f5f5f5",
+          "color": "#0000ee",
+          "radius": "100px",
+          "height": 37,
+          "paddingX": 0,
+          "font": "sans-serif",
+          "size": 12,
+          "weight": "400"
+        }
+      ],
       "contentWidth": null
     }
   },

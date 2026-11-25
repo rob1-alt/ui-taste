@@ -1415,3 +1415,48 @@ http://mambomambo.ca/en	rounded-card agency, generic
 https://shirley-wang.com	security error embed, partial
 https://www.superkeen.studio	desktop partial render
 http://www.madebyalphabet.com	broken (capture error: scrollTo is not a function)
+https://studiochevojon.com	broken (URLError) (prefilter)
+http://www.rsi.studio	broken (RemoteDisconnected) (prefilter)
+http://jontydavies.com	bot wall (cloudflare) (prefilter)
+https://seis.studio	redirects off-site (sebastienelidrissi.com) (prefilter)
+http://michaelchichi.com	broken (http 500) (prefilter)
+http://www.liamricketts.com	broken (URLError) (prefilter)
+http://www.oxfordhouse.nl	blocked (http 401) (prefilter)
+http://www.carlkleiner.com	redirects off-site (studiokleiner.com) (prefilter)
+https://glyf.ru/en	bot wall (prefilter)
+http://advance-copy.com	desktop mostly empty below the first screen; only the top re
+https://blank.su/en	standard architecture portfolio layout with project grid
+https://emileducke.de	photographer portfolio with snow photo and standard text col
+https://www.follywood.nl	interactive map app; black below the first screen
+https://www.hanbury.design	large monitor image then black below; hero only
+https://index-georgia.com	plain archive of street art with small grid and default type
+https://louisansa.com	lower half is grey placeholder blocks; images not loaded
+https://manuelmoreale.com	plain blog post text list; no designed layout
+https://minorstep.com	WebGL object only; black below the first screen
+https://www.naaro.com	single photo hero with logo; nothing rendered below
+https://www.useorigin.com	AI financial SaaS with phone mockup; logo strip and template
+https://www.paprikaapp.com	standard recipe-app SaaS page with device mockups
+https://2022.madebynull.com	mobile cookie consent box covers the page top; butterfly pro
+https://www.rennancorreia.com	GoDaddy parked domain page
+https://richstapleton.com	GoDaddy parked domain page; not the photographer site
+https://richietalboy.com	photo hero then black; hero only
+https://shotoniphone.lorenzobocchi.com	gallery app UI; black below the first screen
+https://staffansundstrom.com	text index fills the top; rest of desktop page empty white
+https://studio12.paris	interior photo hero then black; hero only
+https://thepeersproject.com	podcast agency SaaS template with orange block and logo row
+https://tkcreative.ca	interior studio with large photos; plain text and default la
+https://typicalmitul.com	photographer template with bold type; green CTA and tiled ph
+https://alphamark.design	blank
+https://andreykrauzov.com	blank
+https://suedwind.bff.de	blank
+https://camillemormal.com	blank
+https://www.cregg-paris.com	blank
+https://hugoahlberg.com	blank
+https://joshjamili.com	blank
+https://performproduce.com	blank
+https://apossible.com	desktop hero only
+http://atlason.com	desktop hero only
+https://www.juliajohnson.com	partial render, empty colour blocks
+https://monolithstudio.com	desktop empty below the intro
+https://patrickmiller.se	empty below the carousel
+https://qude.audio	empty video block, partial

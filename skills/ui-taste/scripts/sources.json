@@ -12347,5 +12347,120 @@
    "office-clocks"
   ],
   "note": "An architecture practice: huge caps over a purple-tinted drawing photo, then a long grey statement and its seven offices as small clocks with city names: the world map turned into a row of times."
+ },
+ {
+  "site": "archive",
+  "type": "landing",
+  "url": "https://optikarchiv.com",
+  "tags": [
+   "year-headings",
+   "photo-grid",
+   "counts",
+   "travel-archive",
+   "index"
+  ],
+  "note": "A personal photo archive organised by year: each year is a huge numeral with the count of places at the right edge, then a tight grid of captioned photos. The numbers are the navigation."
+ },
+ {
+  "site": "Austen",
+  "type": "landing",
+  "url": "https://austen.fun",
+  "tags": [
+   "object-grid",
+   "grey-cards",
+   "product-design",
+   "small-labels"
+  ],
+  "note": "A designer's objects each on its own grey card with a tiny label and a plus button, in a strict grid: the page is a shop-like catalogue of work."
+ },
+ {
+  "site": "Conrad Stel",
+  "type": "landing",
+  "url": "https://conradstel.com",
+  "tags": [
+   "condensed-caps",
+   "dark-mode",
+   "giant-name",
+   "text-heavy",
+   "side-projects"
+  ],
+  "note": "A creative director's name in heavy condensed caps on black, then each venture (agency, studio, coffee) as a caps heading with a paragraph and one photo: a career told as a list of businesses."
+ },
+ {
+  "site": "Danielle Levitt",
+  "type": "landing",
+  "url": "https://www.daniellelevitt.com",
+  "tags": [
+   "giant-name",
+   "scattered-photos",
+   "overlapping-type",
+   "magenta",
+   "film-director"
+  ],
+  "note": "A director's name set huge in dark grey with portraits scattered over and around the letters, then contacts set large (studio, syndication): the agent's phone number is part of the design."
+ },
+ {
+  "site": "Elena Borisova",
+  "type": "landing",
+  "url": "https://elenaborisova.life",
+  "tags": [
+   "hand-drawn",
+   "scattered-letters",
+   "illustration-hero",
+   "therapist",
+   "grey-photo"
+  ],
+  "note": "A psychologist's site opens on a scribbled bird on a nest and the word 'forget' falling apart letter by letter: one drawing says what the therapy is about before any text."
+ },
+ {
+  "site": "Lost Memories",
+  "type": "landing",
+  "url": "https://lostmemories.space",
+  "tags": [
+   "found-photos",
+   "scattered-grid",
+   "archive",
+   "tiny-captions",
+   "handwritten-title"
+  ],
+  "note": "An archive of found snapshots laid out as a loose scattered grid with tiny date captions, the title handwritten in the middle: the layout feels like a box of prints on a table."
+ },
+ {
+  "site": "MURMURE",
+  "type": "landing",
+  "url": "https://murmure.me",
+  "tags": [
+   "condensed-wordmark",
+   "dark-mode",
+   "dense-mosaic",
+   "work-wall"
+  ],
+  "note": "A screen-wide condensed wordmark over a dense black mosaic of every project as thumbnails of different sizes: the volume of work is the statement."
+ },
+ {
+  "site": "Pihlmann",
+  "type": "landing",
+  "url": "https://pihlmann.dk",
+  "tags": [
+   "full-bleed-photos",
+   "news-captions",
+   "mono-links",
+   "architecture",
+   "film-photos"
+  ],
+  "note": "An architecture office's home is a feed of news (a prize, a residence under construction, an exhibition) each as a full-width film photograph with a big caption and a mono link: the practice speaks through its latest events."
+ },
+ {
+  "site": "PROWL",
+  "type": "landing",
+  "url": "https://www.prowlstud.io",
+  "tags": [
+   "bento-grid",
+   "yellow-cards",
+   "news-and-work",
+   "industrial-design",
+   "client-logos"
+  ],
+  "note": "An industrial design studio mixes work, news, 'projections' (yellow cards) and client logos in one bento grid of equal cards: the homepage is a board of what the studio is doing."
  }
 ]
