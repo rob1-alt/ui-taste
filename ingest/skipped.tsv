@@ -1498,3 +1498,42 @@ http://cecile-bortoletti.com	desktop partial render
 https://www.josefinelaul.com	hero only
 http://bytombird.com	desktop images not loaded
 http://zissou.com	mobile empty, partial
+https://lowereast.com.au	redirects off-site (dolmios.com) (prefilter)
+https://misatostudio.com	broken (http 402) (prefilter)
+https://barkas.com	bot wall (cloudflare) (prefilter)
+https://www.nonverbaloriginals.com	broken (URLError) (prefilter)
+https://www.swipecircus.com	broken (URLError) (prefilter)
+https://phorm.uk	broken (URLError) (prefilter)
+https://www.nslt.studio	broken (URLError) (prefilter)
+https://www.fooror.com/en	broken (URLError) (prefilter)
+https://www.abgd.it	hero only: 100/100 type on grey; desktop empty below the fir
+https://lavoie.studio	photo strip then empty white below the first row; mostly emp
+https://brunosuraski.com	giant wordmark only; desktop empty below; mobile black
+https://caliper.studio	two-column studio intro with phone and gradient project tile
+https://www.commuting.to	single full-bleed window photo then blank; mobile black
+https://www.daylman.com	stuck on a boot-up loading terminal screen ;"Loading kernel.
+https://www.futuresnoops.com/en	orange gradient hero; 'Ask Us Anything' card grid and marque
+https://giantowl.co.uk	video still with oversized wordmark; desktop empty below; mo
+https://hilaryeden.com	dark film still with handwritten caption; desktop empty belo
+https://jacktheobald.com	logo strip; pill tags and standard grey case-study cards; a 
+https://kirillz.com	photo; bold bio headline and selected-work text; same bio te
+http://www.mclaneteitel.com	centred hero line then a cropped UI preview and black below;
+http://nils.io	plain resume-style list of roles with one device image; stan
+https://oliverbernotat.de	film still with logo-wall caption; desktop empty below the f
+https://www.project3.agency	grey page with one building photo and a blank grey area belo
+https://www.spacing.co	floating UI cards and sticky notes fill the first screen; de
+http://versett.com	dark photo hero with strategy statement and three-column ser
+https://eloyb.design	single screen with grey textured art and display type; deskt
+https://elliott.mangham.dev	blank
+https://hw-6890.com	blank
+https://jakubjakubik.com	blank
+https://www.marcellorossi.design	blank
+https://arvinleeuwis.com	blank
+https://composite.nyc	desktop partial render
+https://cultholdings.co	desktop dark and empty
+https://www.edoardolunardi.dev	mobile black below, partial
+https://leocalzoni.com	desktop black below the portrait
+https://lorenzocabra.xyz	desktop partial render
+http://mariecodina.com	identity grid, nothing new
+https://vladsavruk.com	sparse, mostly empty
+https://studiopingpong.com	broken (connection refused)

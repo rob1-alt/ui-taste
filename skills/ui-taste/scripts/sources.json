@@ -12550,5 +12550,215 @@
    "varied-sizes"
   ],
   "note": "A documentary photographer fills the page with photos of every size scattered edge to edge: the density of the collage is the voice."
+ },
+ {
+  "site": "Abhay Singh",
+  "type": "landing",
+  "url": "https://www.abhaysingh.in",
+  "tags": [
+   "offer-headline",
+   "case-cards",
+   "revenue-numbers",
+   "mono-results",
+   "brand-designer"
+  ],
+  "note": "A brand designer sells 'Design rescue for noteworthy brands' and each case card ends with the result in mono ('went from 0 to 40k revenue in five years'): the portfolio is a list of outcomes."
+ },
+ {
+  "site": "Abhijit Rout",
+  "type": "landing",
+  "url": "https://www.abhijitrout.in",
+  "tags": [
+   "product-render",
+   "screens-collage",
+   "spec-sheet",
+   "open-to-work"
+  ],
+  "note": "A designer opens on one rendered object on warm grey, then a pile of browser and phone windows with a type spec sheet pinned over them: the desk of work as the page."
+ },
+ {
+  "site": "Boris Verks",
+  "type": "landing",
+  "url": "https://borisverks.com",
+  "tags": [
+   "all-caps-intro",
+   "inline-icon",
+   "case-snippets",
+   "product-designer",
+   "blue-panels"
+  ],
+  "note": "A product designer's intro in large caps with a tiny icon set inside the sentence, then each project as real dashboard screens on a blue panel with a bullet list of what he did: the CV and the screens side by side."
+ },
+ {
+  "site": "Corentin Bernadou",
+  "type": "landing",
+  "url": "https://corentinbernadou.com",
+  "tags": [
+   "giant-initials",
+   "orange-on-black",
+   "repeated-list",
+   "developer"
+  ],
+  "note": "A creative developer sets two giant orange initials on black next to a column that repeats the project names down the page: a loop of titles instead of a grid."
+ },
+ {
+  "site": "Digital Solitude",
+  "type": "landing",
+  "url": "https://digitalsolitude.guillaumeslizewicz.com",
+  "tags": [
+   "concept-site",
+   "monospace",
+   "ascii-art",
+   "one-visitor"
+  ],
+  "note": "A site that can only be visited by one person at a time says so in a mono card with ASCII flowers, and explains how below: when the idea is the product, the page is only the idea and its rule."
+ },
+ {
+  "site": "Guillermo Folio",
+  "type": "landing",
+  "url": "https://www.guillermoseis.com",
+  "tags": [
+   "contact-header",
+   "app-screens",
+   "colour-tiles",
+   "product-design-lead"
+  ],
+  "note": "The header is the contact sheet itself (name, email, handle, city in four columns) and the work is phone screens on flat colour tiles: no hero, the details first."
+ },
+ {
+  "site": "Hardware Operations",
+  "type": "landing",
+  "url": "https://hardwareoperations.com",
+  "tags": [
+   "product-render",
+   "mono-text",
+   "services-list",
+   "client-logos",
+   "motion-designer"
+  ],
+  "note": "A 3D motion designer pairs one big render of an industrial object with mono paragraphs and a ruled services list: the render is the hero and the CV is set like a spec."
+ },
+ {
+  "site": "Harry Bissett",
+  "type": "landing",
+  "url": "https://harry.cool",
+  "tags": [
+   "purple-panel",
+   "real-product",
+   "archive-filters",
+   "ableton",
+   "product-designer"
+  ],
+  "note": "A product designer at Ableton shows the real Live screen on a laptop on a purple panel, then an archive grid with filters (branding, icon, print, 3D) and size toggle: shipped product first, side work after."
+ },
+ {
+  "site": "Jaqueline Grob",
+  "type": "landing",
+  "url": "https://jackygrob.com",
+  "tags": [
+   "giant-heading",
+   "parentheses",
+   "project-grid",
+   "contact-columns"
+  ],
+  "note": "'WORK(•2026)' set huge in mono-like caps between a three-column header (bio, contact, links) and the project grid: punctuation turns the section title into a mark."
+ },
+ {
+  "site": "Jon Howell",
+  "type": "landing",
+  "url": "https://www.jonhowell.com",
+  "tags": [
+   "3d-character",
+   "dark-mode",
+   "giant-year",
+   "case-cards",
+   "brand-designer"
+  ],
+  "note": "A brand designer's 3D avatar in a holographic jacket stands on black above '2026 Portfolio', then case cards for Robinhood, Meta, Dropbox: one rendered self-portrait instead of a photo."
+ },
+ {
+  "site": "Jonny Belton",
+  "type": "landing",
+  "url": "https://jonnybelton.co",
+  "tags": [
+   "essay-homepage",
+   "serif",
+   "avatar",
+   "design-leader"
+  ],
+  "note": "A VP of Design's homepage is an essay ('Execution is our cheap credit') under a small avatar and three lines of bio: the thinking is the portfolio."
+ },
+ {
+  "site": "Karl.Works",
+  "type": "landing",
+  "url": "https://karl.works",
+  "tags": [
+   "dense-text",
+   "mono",
+   "campaign-thumbnails",
+   "writing-first"
+  ],
+  "note": "A designer writes each project as a dense paragraph with thumbnails of the campaign beside it: reading first, images as evidence."
+ },
+ {
+  "site": "Lovably",
+  "type": "landing",
+  "url": "https://www.lovably.com",
+  "tags": [
+   "quiet-statement",
+   "captioned-grid",
+   "beige",
+   "architecture-clients"
+  ],
+  "note": "A brand studio puts one quiet sentence ('Lovably makes brands easy to understand.') high on an empty page, then a grid where every image carries a paragraph caption: calm and literate."
+ },
+ {
+  "site": "New Land",
+  "type": "landing",
+  "url": "https://newland.tv",
+  "tags": [
+   "editorial-production",
+   "full-bleed-film-still",
+   "news-feed",
+   "serif-headlines"
+  ],
+  "note": "A production company's homepage reads like a magazine: a full-bleed film still with credits, then news headlines in serif with dates: the company speaks through what it shot."
+ },
+ {
+  "site": "Sarthak Mishra",
+  "type": "landing",
+  "url": "https://sarthakmishra.com",
+  "tags": [
+   "bento",
+   "services-with-prices",
+   "writing-list",
+   "newsletter",
+   "orange-card"
+  ],
+  "note": "A designer's homepage as a dashboard of cards: an orange profile card, projects, services with prices ('Landing page from $750'), posts and a newsletter: the whole offer visible at once."
+ },
+ {
+  "site": "T For Troels",
+  "type": "landing",
+  "url": "https://www.tfortroels.com",
+  "tags": [
+   "giant-name",
+   "blurred-portrait",
+   "principles-list",
+   "brand-strategist"
+  ],
+  "note": "'T For Troels' set huge in two words spread across the page, a blurred portrait, then numbered principles: a strategist's name played as a phrase."
+ },
+ {
+  "site": "Will Phan",
+  "type": "landing",
+  "url": "https://willphan.com",
+  "tags": [
+   "dark-grid",
+   "product-screens",
+   "serif-intro",
+   "engineer-designer"
+  ],
+  "note": "A design engineer centres a two-line serif intro on black and then a tight grid of product tiles with one-line captions: the grid is the CV."
  }
 ]

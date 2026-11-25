@@ -11530,6 +11530,169 @@
     }
   },
   {
+    "id": "abhay-singh-landing",
+    "site": "Abhay Singh",
+    "url": "https://www.abhaysingh.in",
+    "type": "landing",
+    "tags": [
+      "offer-headline",
+      "case-cards",
+      "revenue-numbers",
+      "mono-results",
+      "brand-designer"
+    ],
+    "note": "A brand designer sells 'Design rescue for noteworthy brands' and each case card ends with the result in mono ('went from 0 to 40k revenue in five years'): the portfolio is a list of outcomes.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/abhay-singh-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/abhay-singh-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Abhay Singh",
+      "fonts": [
+        "Hanken Grotesk",
+        "sans-serif",
+        "Geist Mono"
+      ],
+      "type": {
+        "h1": {
+          "font": "Gabarito",
+          "size": 88,
+          "weight": "600",
+          "lineHeight": 0.95,
+          "letterSpacing": "-1.76px",
+          "color": "rgb(32, 42, 64)"
+        },
+        "h2": {
+          "font": "Gabarito",
+          "size": 64,
+          "weight": "600",
+          "lineHeight": 1,
+          "letterSpacing": "-1.28px",
+          "color": "rgb(255, 255, 255)"
+        },
+        "h3": {
+          "font": "Gabarito",
+          "size": 36,
+          "weight": "700",
+          "lineHeight": 1.1,
+          "letterSpacing": "-0.72px",
+          "color": "rgb(255, 255, 255)"
+        },
+        "body": {
+          "font": "Geist Mono",
+          "size": 16,
+          "weight": "500",
+          "lineHeight": 1.4,
+          "letterSpacing": "-0.32px",
+          "color": "rgb(255, 255, 255)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#ffffff",
+          "#0b1f3e",
+          "#edebfc",
+          "#fcfaf7",
+          "#0000ff"
+        ],
+        "text": [
+          "#ffffff",
+          "#202a40"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": 1440
+    }
+  },
+  {
+    "id": "abhijit-rout-landing",
+    "site": "Abhijit Rout",
+    "url": "https://www.abhijitrout.in",
+    "type": "landing",
+    "tags": [
+      "product-render",
+      "screens-collage",
+      "spec-sheet",
+      "open-to-work"
+    ],
+    "note": "A designer opens on one rendered object on warm grey, then a pile of browser and phone windows with a type spec sheet pinned over them: the desk of work as the page.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/abhijit-rout-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/abhijit-rout-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Abhijit Rout – Creative Designer",
+      "fonts": [
+        "Geist Pixel",
+        "sans-serif",
+        "Geist Pixel Square"
+      ],
+      "type": {
+        "h1": {
+          "font": "Geist Pixel",
+          "size": 14,
+          "weight": "400",
+          "lineHeight": 1.2,
+          "letterSpacing": "-0.28px",
+          "color": "rgb(0, 0, 0)"
+        },
+        "h2": null,
+        "h3": {
+          "font": "AS Therma Bold Condensed",
+          "size": 23,
+          "weight": "700",
+          "lineHeight": 1.2,
+          "letterSpacing": "0.23px",
+          "color": "rgb(0, 0, 0)"
+        },
+        "body": {
+          "font": "Geist Pixel",
+          "size": 14,
+          "weight": "400",
+          "lineHeight": 1.4,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        }
+      },
+      "colors": {
+        "background": "#f6f5f1",
+        "surfaces": [
+          "#f6f5f1",
+          "#e6e4e0",
+          "#ededed",
+          "#2a2a2a",
+          "#d1cec7"
+        ],
+        "text": [
+          "#000000",
+          "#474747",
+          "#f3f3f3"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": null
+    }
+  },
+  {
     "id": "ableton-landing",
     "site": "Ableton",
     "url": "https://www.ableton.com",
@@ -19123,6 +19286,87 @@
     }
   },
   {
+    "id": "boris-verks-landing",
+    "site": "Boris Verks",
+    "url": "https://borisverks.com",
+    "type": "landing",
+    "tags": [
+      "all-caps-intro",
+      "inline-icon",
+      "case-snippets",
+      "product-designer",
+      "blue-panels"
+    ],
+    "note": "A product designer's intro in large caps with a tiny icon set inside the sentence, then each project as real dashboard screens on a blue panel with a bullet list of what he did: the CV and the screens side by side.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/boris-verks-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/boris-verks-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Boris Verks – Product Designer",
+      "fonts": [
+        "Aptb",
+        "Arial"
+      ],
+      "type": {
+        "h1": {
+          "font": "Aptb",
+          "size": 52,
+          "weight": "400",
+          "lineHeight": 0.87,
+          "letterSpacing": "-0.5px",
+          "color": "rgb(51, 51, 51)"
+        },
+        "h2": {
+          "font": "Aptb",
+          "size": 16,
+          "weight": "500",
+          "lineHeight": 1.16,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        },
+        "h3": {
+          "font": "Aptb",
+          "size": 16,
+          "weight": "400",
+          "lineHeight": 1.2,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        },
+        "body": {
+          "font": "Aptb",
+          "size": 43,
+          "weight": "400",
+          "lineHeight": 0.98,
+          "letterSpacing": "-1px",
+          "color": "rgb(0, 0, 0)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#ffffff"
+        ],
+        "text": [
+          "#333333",
+          "#000000",
+          "#aaaaaa"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": null
+    }
+  },
+  {
     "id": "born-bred-landing",
     "site": "Born & Bred",
     "url": "https://bornandbredbrand.com",
@@ -24490,6 +24734,71 @@
     }
   },
   {
+    "id": "corentin-bernadou-landing",
+    "site": "Corentin Bernadou",
+    "url": "https://corentinbernadou.com",
+    "type": "landing",
+    "tags": [
+      "giant-initials",
+      "orange-on-black",
+      "repeated-list",
+      "developer"
+    ],
+    "note": "A creative developer sets two giant orange initials on black next to a column that repeats the project names down the page: a loop of titles instead of a grid.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/corentin-bernadou-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3057
+      },
+      "mobile": {
+        "file": "screens/corentin-bernadou-landing-mobile.jpg",
+        "width": 390,
+        "height": 844
+      }
+    },
+    "tokens": {
+      "title": "Corentin Bernadou · Freelance Developer",
+      "fonts": [
+        "H"
+      ],
+      "type": {
+        "h1": {
+          "font": "H",
+          "size": 11,
+          "weight": "600",
+          "lineHeight": 1.3,
+          "letterSpacing": "-0.228571px",
+          "color": "rgb(118, 118, 118)"
+        },
+        "h2": {
+          "font": "H",
+          "size": 11,
+          "weight": "600",
+          "lineHeight": 1.3,
+          "letterSpacing": "-0.228571px",
+          "color": "rgb(118, 118, 118)"
+        },
+        "h3": null,
+        "body": null
+      },
+      "colors": {
+        "background": "#070304",
+        "surfaces": [
+          "#ff4401"
+        ],
+        "text": [
+          "#767676",
+          "#6d6d6d",
+          "#858585"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": 779
+    }
+  },
+  {
     "id": "corners-landing",
     "site": "Corners",
     "url": "https://www.cornersnewyork.co",
@@ -27364,6 +27673,79 @@
         }
       ],
       "contentWidth": 1440
+    }
+  },
+  {
+    "id": "digital-solitude-landing",
+    "site": "Digital Solitude",
+    "url": "https://digitalsolitude.guillaumeslizewicz.com",
+    "type": "landing",
+    "tags": [
+      "concept-site",
+      "monospace",
+      "ascii-art",
+      "one-visitor"
+    ],
+    "note": "A site that can only be visited by one person at a time says so in a mono card with ASCII flowers, and explains how below: when the idea is the product, the page is only the idea and its rule.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/digital-solitude-landing-desktop.jpg",
+        "width": 1440,
+        "height": 1372
+      },
+      "mobile": {
+        "file": "screens/digital-solitude-landing-mobile.jpg",
+        "width": 390,
+        "height": 1266
+      }
+    },
+    "tokens": {
+      "title": "digitalsolitude",
+      "fonts": [
+        "Courier New"
+      ],
+      "type": {
+        "h1": {
+          "font": "Courier New",
+          "size": 24,
+          "weight": "400",
+          "lineHeight": 1.6,
+          "letterSpacing": "-0.5px",
+          "color": "rgb(0, 0, 0)"
+        },
+        "h2": null,
+        "h3": {
+          "font": "Courier New",
+          "size": 14,
+          "weight": "400",
+          "lineHeight": 1.6,
+          "letterSpacing": "0.3px",
+          "color": "rgb(102, 102, 102)"
+        },
+        "body": {
+          "font": "Courier New",
+          "size": 15,
+          "weight": "400",
+          "lineHeight": 1.6,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#fafafa"
+        ],
+        "text": [
+          "#333333",
+          "#000000",
+          "#666666",
+          "#999999"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": null
     }
   },
   {
@@ -38415,6 +38797,67 @@
     }
   },
   {
+    "id": "guillermo-folio-landing",
+    "site": "Guillermo Folio",
+    "url": "https://www.guillermoseis.com",
+    "type": "landing",
+    "tags": [
+      "contact-header",
+      "app-screens",
+      "colour-tiles",
+      "product-design-lead"
+    ],
+    "note": "The header is the contact sheet itself (name, email, handle, city in four columns) and the work is phone screens on flat colour tiles: no hero, the details first.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/guillermo-folio-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/guillermo-folio-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Home | Guillermo's Folio",
+      "fonts": [
+        "BananaGrotesk"
+      ],
+      "type": {
+        "h1": null,
+        "h2": null,
+        "h3": null,
+        "body": {
+          "font": "BananaGrotesk",
+          "size": 22,
+          "weight": "400",
+          "lineHeight": 1.37,
+          "letterSpacing": "normal",
+          "color": "rgb(12, 14, 30)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#bcbd80",
+          "#013dff",
+          "#f3edeb",
+          "#fdfff9",
+          "#420e58"
+        ],
+        "text": [
+          "#0c0e1e",
+          "#72748f"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": null
+    }
+  },
+  {
     "id": "gumroad-landing",
     "site": "Gumroad",
     "url": "https://gumroad.com",
@@ -38914,6 +39357,150 @@
           "#8a8a8a",
           "#f4f4f4",
           "#ffffff"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": null
+    }
+  },
+  {
+    "id": "hardware-operations-landing",
+    "site": "Hardware Operations",
+    "url": "https://hardwareoperations.com",
+    "type": "landing",
+    "tags": [
+      "product-render",
+      "mono-text",
+      "services-list",
+      "client-logos",
+      "motion-designer"
+    ],
+    "note": "A 3D motion designer pairs one big render of an industrial object with mono paragraphs and a ruled services list: the render is the hero and the CV is set like a spec.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/hardware-operations-landing-desktop.jpg",
+        "width": 1440,
+        "height": 2570
+      },
+      "mobile": {
+        "file": "screens/hardware-operations-landing-mobile.jpg",
+        "width": 390,
+        "height": 2571
+      }
+    },
+    "tokens": {
+      "title": "Vincent Wagner — Product Visualization & Animation",
+      "fonts": [
+        "Geist Mono",
+        "GT Pressura Extended"
+      ],
+      "type": {
+        "h1": null,
+        "h2": {
+          "font": "GT Pressura Extended",
+          "size": 52,
+          "weight": "400",
+          "lineHeight": 1.02,
+          "letterSpacing": "-1.5552px",
+          "color": "rgb(14, 14, 14)"
+        },
+        "h3": null,
+        "body": {
+          "font": "Geist Mono",
+          "size": 14,
+          "weight": "400",
+          "lineHeight": 1.55,
+          "letterSpacing": "normal",
+          "color": "rgb(26, 26, 26)"
+        }
+      },
+      "colors": {
+        "background": "#e4e2de",
+        "surfaces": [
+          "#e4e2de",
+          "#2cc956",
+          "#ff5343"
+        ],
+        "text": [
+          "#1a1a1a",
+          "#0e0e0e",
+          "#6a6862"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": null
+    }
+  },
+  {
+    "id": "harry-bissett-landing",
+    "site": "Harry Bissett",
+    "url": "https://harry.cool",
+    "type": "landing",
+    "tags": [
+      "purple-panel",
+      "real-product",
+      "archive-filters",
+      "ableton",
+      "product-designer"
+    ],
+    "note": "A product designer at Ableton shows the real Live screen on a laptop on a purple panel, then an archive grid with filters (branding, icon, print, 3D) and size toggle: shipped product first, side work after.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/harry-bissett-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/harry-bissett-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Harry Bissett - Product Designer",
+      "fonts": [
+        "__buch_d4a8d3",
+        "__mono_a0e1f5",
+        "ui-sans-serif"
+      ],
+      "type": {
+        "h1": {
+          "font": "__buch_d4a8d3",
+          "size": 20,
+          "weight": "400",
+          "lineHeight": 1.2,
+          "letterSpacing": "normal",
+          "color": "rgb(102, 56, 255)"
+        },
+        "h2": {
+          "font": "__buch_d4a8d3",
+          "size": 20,
+          "weight": "400",
+          "lineHeight": 1.2,
+          "letterSpacing": "normal",
+          "color": "rgb(102, 56, 255)"
+        },
+        "h3": null,
+        "body": {
+          "font": "__buch_d4a8d3",
+          "size": 20,
+          "weight": "400",
+          "lineHeight": 1.2,
+          "letterSpacing": "normal",
+          "color": "rgb(102, 56, 255)"
+        }
+      },
+      "colors": {
+        "background": "#caccce",
+        "surfaces": [
+          "#caccce",
+          "#6638ff"
+        ],
+        "text": [
+          "#6638ff",
+          "#caccce"
         ]
       },
       "buttons": [],
@@ -44346,6 +44933,109 @@
     }
   },
   {
+    "id": "jaqueline-grob-landing",
+    "site": "Jaqueline Grob",
+    "url": "https://jackygrob.com",
+    "type": "landing",
+    "tags": [
+      "giant-heading",
+      "parentheses",
+      "project-grid",
+      "contact-columns"
+    ],
+    "note": "'WORK(•2026)' set huge in mono-like caps between a three-column header (bio, contact, links) and the project grid: punctuation turns the section title into a mark.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/jaqueline-grob-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/jaqueline-grob-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Jaqueline Grob – Designer, Digital & Brand",
+      "fonts": [
+        "Neue Montreal Mono-d4836f5bd9bfd8a1",
+        "Neue Montreal-8aab9a3317ecfc09"
+      ],
+      "type": {
+        "h1": {
+          "font": "Neue Montreal-8aab9a3317ecfc09",
+          "size": 32,
+          "weight": "700",
+          "lineHeight": 1.15,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        },
+        "h2": {
+          "font": "Neue Montreal Mono-d4836f5bd9bfd8a1",
+          "size": 24,
+          "weight": "400",
+          "lineHeight": 1,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        },
+        "h3": {
+          "font": "Neue Montreal-8aab9a3317ecfc09",
+          "size": 20,
+          "weight": "500",
+          "lineHeight": 1.2,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        },
+        "body": {
+          "font": "Neue Montreal-8aab9a3317ecfc09",
+          "size": 28,
+          "weight": "500",
+          "lineHeight": 1.05,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#ededed",
+          "#ffffff"
+        ],
+        "text": [
+          "#000000",
+          "#767676"
+        ]
+      },
+      "buttons": [
+        {
+          "label": "Work",
+          "bg": "#ffffff",
+          "color": "#000000",
+          "radius": "9999px",
+          "height": 40,
+          "paddingX": 12,
+          "font": "Neue Montreal-8aab9a3317ecfc09",
+          "size": 28,
+          "weight": "500"
+        },
+        {
+          "label": "About",
+          "bg": "#ffffff",
+          "color": "#000000",
+          "radius": "9999px",
+          "height": 40,
+          "paddingX": 12,
+          "font": "Neue Montreal-8aab9a3317ecfc09",
+          "size": 28,
+          "weight": "500"
+        }
+      ],
+      "contentWidth": 1260
+    }
+  },
+  {
     "id": "jarcos-landing",
     "site": "JARCOS",
     "url": "https://jarcos.work",
@@ -44915,6 +45605,68 @@
     }
   },
   {
+    "id": "jon-howell-landing",
+    "site": "Jon Howell",
+    "url": "https://www.jonhowell.com",
+    "type": "landing",
+    "tags": [
+      "3d-character",
+      "dark-mode",
+      "giant-year",
+      "case-cards",
+      "brand-designer"
+    ],
+    "note": "A brand designer's 3D avatar in a holographic jacket stands on black above '2026 Portfolio', then case cards for Robinhood, Meta, Dropbox: one rendered self-portrait instead of a photo.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/jon-howell-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/jon-howell-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Jon Howell → Brand Experience Design Portfolio",
+      "fonts": [
+        "KH Teka Regular",
+        "KH Teka Medium",
+        "sans-serif"
+      ],
+      "type": {
+        "h1": null,
+        "h2": null,
+        "h3": null,
+        "body": {
+          "font": "KH Teka Regular",
+          "size": 20,
+          "weight": "400",
+          "lineHeight": 1.3,
+          "letterSpacing": "normal",
+          "color": "rgb(59, 59, 59)"
+        }
+      },
+      "colors": {
+        "background": "#000000",
+        "surfaces": [
+          "#000000",
+          "#ffffff"
+        ],
+        "text": [
+          "#e5e5e5",
+          "#3b3b3b",
+          "#707070"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": 768
+    }
+  },
+  {
     "id": "jonite-landing",
     "site": "Jonite",
     "url": "https://www.jonite.com",
@@ -45042,6 +45794,78 @@
         }
       ],
       "contentWidth": 720
+    }
+  },
+  {
+    "id": "jonny-belton-landing",
+    "site": "Jonny Belton",
+    "url": "https://jonnybelton.co",
+    "type": "landing",
+    "tags": [
+      "essay-homepage",
+      "serif",
+      "avatar",
+      "design-leader"
+    ],
+    "note": "A VP of Design's homepage is an essay ('Execution is our cheap credit') under a small avatar and three lines of bio: the thinking is the portfolio.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/jonny-belton-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/jonny-belton-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Jonny Belton",
+      "fonts": [
+        "Timeless Serif",
+        "Lora",
+        "-apple-system"
+      ],
+      "type": {
+        "h1": {
+          "font": "Lora",
+          "size": 29,
+          "weight": "600",
+          "lineHeight": 1.44,
+          "letterSpacing": "normal",
+          "color": "rgb(52, 52, 52)"
+        },
+        "h2": {
+          "font": "Lora",
+          "size": 24,
+          "weight": "600",
+          "lineHeight": 1.56,
+          "letterSpacing": "normal",
+          "color": "rgb(52, 52, 52)"
+        },
+        "h3": null,
+        "body": {
+          "font": "Timeless Serif",
+          "size": 17,
+          "weight": "400",
+          "lineHeight": 1.76,
+          "letterSpacing": "normal",
+          "color": "rgb(52, 52, 52)"
+        }
+      },
+      "colors": {
+        "background": "#fdfcf7",
+        "surfaces": [
+          "#fdfcf7"
+        ],
+        "text": [
+          "#343434"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": null
     }
   },
   {
@@ -45577,6 +46401,76 @@
         }
       ],
       "contentWidth": 1176
+    }
+  },
+  {
+    "id": "karl-works-landing",
+    "site": "Karl.Works",
+    "url": "https://karl.works",
+    "type": "landing",
+    "tags": [
+      "dense-text",
+      "mono",
+      "campaign-thumbnails",
+      "writing-first"
+    ],
+    "note": "A designer writes each project as a dense paragraph with thumbnails of the campaign beside it: reading first, images as evidence.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/karl-works-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/karl-works-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Karl.Works — Design & Direction",
+      "fonts": [
+        "IBM Plex Mono"
+      ],
+      "type": {
+        "h1": {
+          "font": "IBM Plex Mono",
+          "size": 11,
+          "weight": "400",
+          "lineHeight": 1.5,
+          "letterSpacing": "-0.44px",
+          "color": "rgb(23, 23, 23)"
+        },
+        "h2": {
+          "font": "IBM Plex Mono",
+          "size": 11,
+          "weight": "400",
+          "lineHeight": 1.5,
+          "letterSpacing": "-0.44px",
+          "color": "rgb(23, 23, 23)"
+        },
+        "h3": null,
+        "body": {
+          "font": "IBM Plex Mono",
+          "size": 11,
+          "weight": "400",
+          "lineHeight": 1.5,
+          "letterSpacing": "-0.44px",
+          "color": "rgb(23, 23, 23)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#f5f5f5"
+        ],
+        "text": [
+          "#171717"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": null
     }
   },
   {
@@ -49705,6 +50599,72 @@
           "weight": "400"
         }
       ],
+      "contentWidth": null
+    }
+  },
+  {
+    "id": "lovably-landing",
+    "site": "Lovably",
+    "url": "https://www.lovably.com",
+    "type": "landing",
+    "tags": [
+      "quiet-statement",
+      "captioned-grid",
+      "beige",
+      "architecture-clients"
+    ],
+    "note": "A brand studio puts one quiet sentence ('Lovably makes brands easy to understand.') high on an empty page, then a grid where every image carries a paragraph caption: calm and literate.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/lovably-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/lovably-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Lovably: Brand Strategy & Design, New York",
+      "fonts": [
+        "Scto Grotesk A"
+      ],
+      "type": {
+        "h1": {
+          "font": "Scto Grotesk A",
+          "size": 25,
+          "weight": "400",
+          "lineHeight": 1.4,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        },
+        "h2": null,
+        "h3": null,
+        "body": {
+          "font": "Scto Grotesk A",
+          "size": 15,
+          "weight": "400",
+          "lineHeight": 1.47,
+          "letterSpacing": "0.15px",
+          "color": "rgb(0, 0, 0)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#ffffff"
+        ],
+        "text": [
+          "#000000",
+          "#aaaaaa",
+          "#ffffff",
+          "#fe5000"
+        ]
+      },
+      "buttons": [],
       "contentWidth": null
     }
   },
@@ -55230,6 +56190,87 @@
       },
       "buttons": [],
       "contentWidth": 1400
+    }
+  },
+  {
+    "id": "new-land-landing",
+    "site": "New Land",
+    "url": "https://newland.tv",
+    "type": "landing",
+    "tags": [
+      "editorial-production",
+      "full-bleed-film-still",
+      "news-feed",
+      "serif-headlines"
+    ],
+    "note": "A production company's homepage reads like a magazine: a full-bleed film still with credits, then news headlines in serif with dates: the company speaks through what it shot.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/new-land-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/new-land-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "new—land",
+      "fonts": [
+        "UntitledSans",
+        "DiatypeMono"
+      ],
+      "type": {
+        "h1": {
+          "font": "UntitledSans",
+          "size": 10,
+          "weight": "500",
+          "lineHeight": 1.2,
+          "letterSpacing": "0.4px",
+          "color": "rgb(67, 127, 211)"
+        },
+        "h2": {
+          "font": "UntitledSans",
+          "size": 10,
+          "weight": "500",
+          "lineHeight": 1.2,
+          "letterSpacing": "0.4px",
+          "color": "rgb(17, 16, 16)"
+        },
+        "h3": {
+          "font": "UntitledSans",
+          "size": 24,
+          "weight": "400",
+          "lineHeight": 1.08,
+          "letterSpacing": "-0.72px",
+          "color": "rgb(17, 16, 16)"
+        },
+        "body": {
+          "font": "UntitledSans",
+          "size": 24,
+          "weight": "400",
+          "lineHeight": 1.08,
+          "letterSpacing": "-0.72px",
+          "color": "rgb(255, 255, 255)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#ffffff",
+          "#437fd3"
+        ],
+        "text": [
+          "#111010",
+          "#ffffff",
+          "#437fd3"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": null
     }
   },
   {
@@ -69698,6 +70739,151 @@
     }
   },
   {
+    "id": "sarthak-mishra-landing",
+    "site": "Sarthak Mishra",
+    "url": "https://sarthakmishra.com",
+    "type": "landing",
+    "tags": [
+      "bento",
+      "services-with-prices",
+      "writing-list",
+      "newsletter",
+      "orange-card"
+    ],
+    "note": "A designer's homepage as a dashboard of cards: an orange profile card, projects, services with prices ('Landing page from $750'), posts and a newsletter: the whole offer visible at once.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/sarthak-mishra-landing-desktop.jpg",
+        "width": 1440,
+        "height": 900
+      },
+      "mobile": {
+        "file": "screens/sarthak-mishra-landing-mobile.jpg",
+        "width": 390,
+        "height": 2069
+      }
+    },
+    "tokens": {
+      "title": "Sarthak Mishra - Designer who codes!",
+      "fonts": [
+        "Inter Variable"
+      ],
+      "type": {
+        "h1": {
+          "font": "Inter Variable",
+          "size": 37,
+          "weight": "700",
+          "lineHeight": 1,
+          "letterSpacing": "-0.932205px",
+          "color": "rgb(255, 255, 255)"
+        },
+        "h2": {
+          "font": "Inter Variable",
+          "size": 20,
+          "weight": "600",
+          "lineHeight": 1.4,
+          "letterSpacing": "-0.2px",
+          "color": "rgb(26, 26, 26)"
+        },
+        "h3": null,
+        "body": {
+          "font": "Inter Variable",
+          "size": 15,
+          "weight": "400",
+          "lineHeight": 1.45,
+          "letterSpacing": "normal",
+          "color": "rgb(255, 255, 255)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#f7f7f7",
+          "#ca3800",
+          "#ffffff",
+          "#ededed",
+          "#1a1a1a"
+        ],
+        "text": [
+          "#1a1a1a",
+          "#595959",
+          "#ffffff",
+          "#333333"
+        ]
+      },
+      "buttons": [
+        {
+          "label": "Let's work together",
+          "bg": "#ffffff",
+          "color": "#ca3800",
+          "radius": "6px",
+          "height": 36,
+          "paddingX": 14,
+          "font": "Inter Variable",
+          "size": 14,
+          "weight": "500"
+        },
+        {
+          "label": "All work",
+          "bg": "#ededed",
+          "color": "#333333",
+          "radius": "8px",
+          "height": 32,
+          "paddingX": 10,
+          "font": "Inter Variable",
+          "size": 14,
+          "weight": "500"
+        },
+        {
+          "label": "Hire me",
+          "bg": "#ededed",
+          "color": "#333333",
+          "radius": "8px",
+          "height": 32,
+          "paddingX": 10,
+          "font": "Inter Variable",
+          "size": 14,
+          "weight": "500"
+        },
+        {
+          "label": "All posts",
+          "bg": "#ededed",
+          "color": "#333333",
+          "radius": "8px",
+          "height": 32,
+          "paddingX": 10,
+          "font": "Inter Variable",
+          "size": 14,
+          "weight": "500"
+        },
+        {
+          "label": "All issues",
+          "bg": "#ededed",
+          "color": "#333333",
+          "radius": "8px",
+          "height": 32,
+          "paddingX": 10,
+          "font": "Inter Variable",
+          "size": 14,
+          "weight": "500"
+        },
+        {
+          "label": "Subscribe",
+          "bg": "#ca3800",
+          "color": "#ffffff",
+          "radius": "6px",
+          "height": 36,
+          "paddingX": 24,
+          "font": "Inter Variable",
+          "size": 16,
+          "weight": "500"
+        }
+      ],
+      "contentWidth": 1280
+    }
+  },
+  {
     "id": "savate-specimen-landing",
     "site": "Savate Specimen",
     "url": "https://plombtype.com/savate",
@@ -77567,6 +78753,82 @@
       }
     },
     "tokens": null
+  },
+  {
+    "id": "t-for-troels-landing",
+    "site": "T For Troels",
+    "url": "https://www.tfortroels.com",
+    "type": "landing",
+    "tags": [
+      "giant-name",
+      "blurred-portrait",
+      "principles-list",
+      "brand-strategist"
+    ],
+    "note": "'T For Troels' set huge in two words spread across the page, a blurred portrait, then numbered principles: a strategist's name played as a phrase.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/t-for-troels-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/t-for-troels-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Home | T for Troels",
+      "fonts": [
+        "UN_11ST_Regular"
+      ],
+      "type": {
+        "h1": {
+          "font": "UN_11ST_Regular",
+          "size": 230,
+          "weight": "400",
+          "lineHeight": 0.83,
+          "letterSpacing": "normal",
+          "color": "rgb(32, 32, 32)"
+        },
+        "h2": {
+          "font": "UN_11ST_Regular",
+          "size": 10,
+          "weight": "400",
+          "lineHeight": 1.6,
+          "letterSpacing": "normal",
+          "color": "rgb(179, 179, 179)"
+        },
+        "h3": {
+          "font": "UN_11ST_Regular",
+          "size": 14,
+          "weight": "400",
+          "lineHeight": 1.14,
+          "letterSpacing": "normal",
+          "color": "rgb(32, 32, 32)"
+        },
+        "body": {
+          "font": "UN_11ST_Regular",
+          "size": 10,
+          "weight": "400",
+          "lineHeight": 1.6,
+          "letterSpacing": "normal",
+          "color": "rgb(179, 179, 179)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [],
+        "text": [
+          "#202020",
+          "#b3b3b3"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": null
+    }
   },
   {
     "id": "tailscale-landing",
@@ -86175,6 +87437,75 @@
           "#ffffff",
           "#000000",
           "#212529"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": null
+    }
+  },
+  {
+    "id": "will-phan-landing",
+    "site": "Will Phan",
+    "url": "https://willphan.com",
+    "type": "landing",
+    "tags": [
+      "dark-grid",
+      "product-screens",
+      "serif-intro",
+      "engineer-designer"
+    ],
+    "note": "A design engineer centres a two-line serif intro on black and then a tight grid of product tiles with one-line captions: the grid is the CV.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/will-phan-landing-desktop.jpg",
+        "width": 1440,
+        "height": 1597
+      },
+      "mobile": {
+        "file": "screens/will-phan-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Will Phan",
+      "fonts": [
+        "__portfolioFont_6a2d65",
+        "__GeistSans_8adcd2",
+        "__Lusitana_23970c"
+      ],
+      "type": {
+        "h1": {
+          "font": "__portfolioFont_6a2d65",
+          "size": 13,
+          "weight": "335",
+          "lineHeight": 1.15,
+          "letterSpacing": "normal",
+          "color": "rgb(255, 255, 255)"
+        },
+        "h2": null,
+        "h3": null,
+        "body": {
+          "font": "__portfolioFont_6a2d65",
+          "size": 13,
+          "weight": "335",
+          "lineHeight": 1.38,
+          "letterSpacing": "0.13px",
+          "color": "rgb(255, 255, 255)"
+        }
+      },
+      "colors": {
+        "background": "#0f0f0f",
+        "surfaces": [
+          "#0f0f0f",
+          "#1a1a1a",
+          "#000000",
+          "#181818",
+          "#bfdbfe"
+        ],
+        "text": [
+          "#ffffff"
         ]
       },
       "buttons": [],
