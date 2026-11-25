@@ -14980,5 +14980,150 @@
    "oversized-name"
   ],
   "note": "A product designer sets his name huge on pink with a stretched dash and a rotated last letter, and lists projects with superscript year ranges and strikethrough 'UX developer': a CV set like a poster."
+ },
+ {
+  "site": "Ana Rita Morais",
+  "type": "landing",
+  "url": "https://anaritamorais.com",
+  "tags": [
+   "long-bio",
+   "serif-text",
+   "sage-ground",
+   "link-dense",
+   "index-sidebar"
+  ],
+  "note": "A design dean's homepage is her bio as a long serif text on sage green, every institution and project a link, with a tiny index of talks and writing at the side: the CV read as prose."
+ },
+ {
+  "site": "Daniel Triendl",
+  "type": "landing",
+  "url": "https://www.danieltriendl.com",
+  "tags": [
+   "illustration-masonry",
+   "about-card-in-grid",
+   "image-led",
+   "colourful"
+  ],
+  "note": "An illustrator fills the page with a masonry of his pictures and slips the about and newsletter in as cards inside the grid: no header section, the work is the page from the first pixel."
+ },
+ {
+  "site": "Dave Spengeler",
+  "type": "landing",
+  "url": "https://davespengeler.ch",
+  "tags": [
+   "giant-section-title",
+   "dark-ground",
+   "logo-tiles",
+   "german"
+  ],
+  "note": "A one-man studio states what it is in one line, then sets 'Ausgewählte Projekte' huge before a stack of logo tiles: one oversized heading does the work of a hero."
+ },
+ {
+  "site": "Hamish Smyth",
+  "type": "landing",
+  "url": "https://www.hamishsmyth.com",
+  "tags": [
+   "mono-columns",
+   "archive-statement",
+   "dark-photo-grid",
+   "dated-archive"
+  ],
+  "note": "A co-founder of Order keeps his old site as 'an archive of projects completed between 2009-2016', four mono columns of text then a loose dark grid of photographs: an archive that says it is one."
+ },
+ {
+  "site": "Lukas Guschlbauer",
+  "type": "landing",
+  "url": "https://www.der-lukas.net",
+  "tags": [
+   "first-case-open",
+   "memoji",
+   "role-table",
+   "product-designer"
+  ],
+  "note": "A product designer opens the first case study right on the homepage, text, role table and screens, under a one-sentence statement and a memoji: the work starts before any click."
+ },
+ {
+  "site": "Marco Cornacchia",
+  "type": "landing",
+  "url": "https://www.marco.fyi",
+  "tags": [
+   "i-think-list",
+   "bento-grid",
+   "product-fragments",
+   "building-now"
+  ],
+  "note": "A designer writes 'Marco is building Turf' then a list of 'I think…' beliefs, next to a bento of real product fragments (notes, inbox, pizza app): opinions beside the things they shaped."
+ },
+ {
+  "site": "Max Batt",
+  "type": "landing",
+  "url": "https://maxbatt.com",
+  "tags": [
+   "isometric-boxes",
+   "spaced-serif",
+   "role-labels",
+   "desktop-note"
+  ],
+  "note": "A design director draws three isometric boxes labelled educator / designer / advocate under a widely spaced serif name, with a polite note that the mobile site skips the fun parts."
+ },
+ {
+  "site": "Nathan Smith",
+  "type": "landing",
+  "url": "https://www.nathansmith.design",
+  "tags": [
+   "contact-as-hero",
+   "colour-blocks",
+   "big-grotesk",
+   "client-captions"
+  ],
+  "note": "A designer's hero is his phone number and '→EMAIL →INSTA' in big type, then colour blocks captioned with client and year: contact first, work as fields of colour."
+ },
+ {
+  "site": "PabloZarate™",
+  "type": "landing",
+  "url": "https://pablozarate.com",
+  "tags": [
+   "warped-type-banner",
+   "manifesto",
+   "red-accent",
+   "since-1999"
+  ],
+  "note": "A product designer warps 'DESIGN HAS A TASTE' into a black banner across the top, then writes plainly since 1999 with a few words in red: one typographic stunt, then a calm paragraph."
+ },
+ {
+  "site": "S.B-Studio.",
+  "type": "landing",
+  "url": "https://sb-studio.co",
+  "tags": [
+   "niche-positioning",
+   "serif-italic",
+   "beige-ground",
+   "giant-wordmark"
+  ],
+  "note": "A small studio says who it serves in the headline, 'Brand and web design for women-led businesses', with an italic accent and a huge cropped 'Studio' behind the work: the niche is the pitch."
+ },
+ {
+  "site": "Sylvan Hillebrand",
+  "type": "landing",
+  "url": "https://sylvanhillebrand.design",
+  "tags": [
+   "logo-wall",
+   "dark-panel",
+   "product-cards",
+   "designer-shop"
+  ],
+  "note": "A designer opens on a black wall of every logo he drew, then sells his own mockups and a yellow stencil as product cards: the logo grid is the portfolio, the shop sits right after."
+ },
+ {
+  "site": "Xtina Starr",
+  "type": "landing",
+  "url": "https://xtinastarr.com",
+  "tags": [
+   "double-life",
+   "warped-display",
+   "dark-editorial",
+   "known-for-list"
+  ],
+  "note": "An engineer-DJ sets her name in warped display type with 'ENGINEER BY DAY / DJ BY NIGHT' at the corners of a portrait, and lists clubs and radios as an underlined 'known for' list."
  }
 ]

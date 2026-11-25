@@ -2056,3 +2056,41 @@ https://junplaylist.com	hero only: poster collage strip, page one screen tall
 https://www.graz.io	case panel renders as an empty purple block
 https://www.seungmee-lee.com	near-empty page, index without content
 https://www.studio-kiln.com	project tiles render as empty orange boxes
+https://gav.space	redirects off-site (gavinatkinson.com) (prefilter)
+https://www.jamesthorburn.design	broken (URLError) (prefilter)
+https://www.lorenzorodriguez.dk	broken (URLError) (prefilter)
+https://antinomy.eu	broken (URLError) (prefilter)
+https://tobiasschmidt.me	broken (URLError) (prefilter)
+https://www.randomprojects.studio	broken (URLError) (prefilter)
+https://ryanmack.me	broken (http 402) (prefilter)
+http://callenneasmith.com	broken (TimeoutError) (prefilter)
+https://bigskillet.com	redirects off-site (brute.digital) (prefilter)
+https://yaremenko.design	hero image then black/empty page on desktop and mobile
+https://connellmccarthy.com	centred bio line over a laptop image and a thin thumbnail st
+https://www.cedric.design	Framer-style card sections (Software; Blog; Digital Products
+https://www.ijpowell.co.uk	monogram hero then black below on desktop and mobile; conten
+https://jant.fr	cookie consent covers the page; keyword-stuffed jewelry butt
+https://abbotts.dk	three fashion photos then black; cookie banner on mobile; co
+https://karinasirqueira.com	colour-block hero then empty black below; mobile identical; 
+https://www.madeleine-cooke.com	black hero with serif tagline and a coach portrait; familiar
+https://marioecg.com	striped gradient hero then black below; page content not ren
+https://www.n2.studio	plain bio with project card grid of coloured tiles; unremark
+https://nicholaschristowitz.com	green text panel with bio and a plain link list; nothing vis
+https://www.olivierguy.com	SaaS-style hero with CTA pair; four numbered service cards a
+https://onnoschwanen.com	single-column CV with a few project thumbnails; lots of whit
+https://www.ppolder.com	full-bleed photo hero only; grey page below on both viewport
+https://pixels.studio	dark product-UI mockups grid under a standard hero line; com
+https://samtaylor.design	intro text then near-empty white below on desktop; images on
+https://sashamikhedov.com	small centred text on grey then black below; nothing else re
+https://www.simonesniekers.com	gradient block with one portrait then black below; hero only
+https://stefanivujic.com	huge magenta statement hero; following copy faded out by scr
+https://wearewouq.com	creative director duo intro with generic copy over a standar
+https://brycecarrington.com	blank
+https://visualist.com	blank
+https://www.emmabackman.com	blank
+https://folkert.link	blank
+https://www.gareth-hughes.com	blank
+https://xiuxiuxiuxiuxiu.com	blank
+https://nordebrink.com	CV ledger, already covered by Fabian Schultz
+https://id-c.se	clean selected-work grid, nothing new
+https://kirill-k.com	plain two-column campaign grid

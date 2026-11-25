@@ -14095,6 +14095,72 @@
     }
   },
   {
+    "id": "ana-rita-morais-landing",
+    "site": "Ana Rita Morais",
+    "url": "https://anaritamorais.com",
+    "type": "landing",
+    "tags": [
+      "long-bio",
+      "serif-text",
+      "sage-ground",
+      "link-dense",
+      "index-sidebar"
+    ],
+    "note": "A design dean's homepage is her bio as a long serif text on sage green, every institution and project a link, with a tiny index of talks and writing at the side: the CV read as prose.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/ana-rita-morais-landing-desktop.jpg",
+        "width": 1440,
+        "height": 2269
+      },
+      "mobile": {
+        "file": "screens/ana-rita-morais-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Ana Rita Morais",
+      "fonts": [
+        "Everett-Medium",
+        "Open Sans",
+        "Everett-Regular"
+      ],
+      "type": {
+        "h1": null,
+        "h2": null,
+        "h3": null,
+        "body": {
+          "font": "Open Sans",
+          "size": 12,
+          "weight": "400",
+          "lineHeight": 1.67,
+          "letterSpacing": "normal",
+          "color": "rgb(38, 33, 33)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#cbd2cb",
+          "#ea763b",
+          "#175b9c",
+          "#cb3127",
+          "#b0a333"
+        ],
+        "text": [
+          "#262121",
+          "#0d6b38",
+          "#cb3127",
+          "#175b9c"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": 1230
+    }
+  },
+  {
     "id": "analogue-landing",
     "site": "Analogue",
     "url": "https://www.analogue.co",
@@ -28856,6 +28922,68 @@
     }
   },
   {
+    "id": "daniel-triendl-landing",
+    "site": "Daniel Triendl",
+    "url": "https://www.danieltriendl.com",
+    "type": "landing",
+    "tags": [
+      "illustration-masonry",
+      "about-card-in-grid",
+      "image-led",
+      "colourful"
+    ],
+    "note": "An illustrator fills the page with a masonry of his pictures and slips the about and newsletter in as cards inside the grid: no header section, the work is the page from the first pixel.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/daniel-triendl-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/daniel-triendl-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Daniel Triendl",
+      "fonts": [
+        "UniversalSans-425",
+        "Times New Roman",
+        "UniversalSans-625"
+      ],
+      "type": {
+        "h1": null,
+        "h2": null,
+        "h3": null,
+        "body": {
+          "font": "UniversalSans-625",
+          "size": 14,
+          "weight": "500",
+          "lineHeight": 1.21,
+          "letterSpacing": "-0.14px",
+          "color": "rgb(0, 0, 0)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#ffffff",
+          "#f2f2f2",
+          "#f298b1",
+          "#000000"
+        ],
+        "text": [
+          "#000000",
+          "#9b9b9b"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": null
+    }
+  },
+  {
     "id": "daniella-marynova-landing",
     "site": "Daniella Marynova",
     "url": "https://hellodani.co",
@@ -29113,6 +29241,84 @@
         }
       ],
       "contentWidth": 1280
+    }
+  },
+  {
+    "id": "dave-spengeler-landing",
+    "site": "Dave Spengeler",
+    "url": "https://davespengeler.ch",
+    "type": "landing",
+    "tags": [
+      "giant-section-title",
+      "dark-ground",
+      "logo-tiles",
+      "german"
+    ],
+    "note": "A one-man studio states what it is in one line, then sets 'Ausgewählte Projekte' huge before a stack of logo tiles: one oversized heading does the work of a hero.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/dave-spengeler-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/dave-spengeler-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Dave Spengeler | Webdesign & Webentwicklung Zug",
+      "fonts": [
+        "TWKLausanne"
+      ],
+      "type": {
+        "h1": {
+          "font": "TWKLausanne",
+          "size": 141,
+          "weight": "400",
+          "lineHeight": 0.9,
+          "letterSpacing": "-4.5825px",
+          "color": "rgb(204, 208, 215)"
+        },
+        "h2": {
+          "font": "TWKLausanne",
+          "size": 37,
+          "weight": "400",
+          "lineHeight": 1.35,
+          "letterSpacing": "normal",
+          "color": "rgb(255, 255, 255)"
+        },
+        "h3": {
+          "font": "TWKLausanne",
+          "size": 20,
+          "weight": "400",
+          "lineHeight": 1.15,
+          "letterSpacing": "normal",
+          "color": "rgb(145, 154, 160)"
+        },
+        "body": {
+          "font": "TWKLausanne",
+          "size": 37,
+          "weight": "400",
+          "lineHeight": 1.35,
+          "letterSpacing": "normal",
+          "color": "rgb(204, 208, 215)"
+        }
+      },
+      "colors": {
+        "background": "#1c1e21",
+        "surfaces": [],
+        "text": [
+          "#ccd0d7",
+          "#919aa0",
+          "#999999",
+          "#ffffff"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": 644
     }
   },
   {
@@ -44709,6 +44915,77 @@
     }
   },
   {
+    "id": "hamish-smyth-landing",
+    "site": "Hamish Smyth",
+    "url": "https://www.hamishsmyth.com",
+    "type": "landing",
+    "tags": [
+      "mono-columns",
+      "archive-statement",
+      "dark-photo-grid",
+      "dated-archive"
+    ],
+    "note": "A co-founder of Order keeps his old site as 'an archive of projects completed between 2009-2016', four mono columns of text then a loose dark grid of photographs: an archive that says it is one.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/hamish-smyth-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/hamish-smyth-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Hamish Smyth",
+      "fonts": [
+        "IBM Plex Mono",
+        "Times New Roman"
+      ],
+      "type": {
+        "h1": {
+          "font": "IBM Plex Mono",
+          "size": 11,
+          "weight": "400",
+          "lineHeight": 1.52,
+          "letterSpacing": "normal",
+          "color": "rgb(189, 189, 189)"
+        },
+        "h2": {
+          "font": "IBM Plex Mono",
+          "size": 11,
+          "weight": "400",
+          "lineHeight": 1.52,
+          "letterSpacing": "normal",
+          "color": "rgb(189, 189, 189)"
+        },
+        "h3": null,
+        "body": {
+          "font": "IBM Plex Mono",
+          "size": 11,
+          "weight": "400",
+          "lineHeight": 1.52,
+          "letterSpacing": "normal",
+          "color": "rgb(189, 189, 189)"
+        }
+      },
+      "colors": {
+        "background": "#1b1818",
+        "surfaces": [
+          "#000000"
+        ],
+        "text": [
+          "#bdbdbd"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": 1500
+    }
+  },
+  {
     "id": "handsome-frank-landing",
     "site": "Handsome Frank",
     "url": "http://handsomefrank.com",
@@ -57821,6 +58098,86 @@
     }
   },
   {
+    "id": "lukas-guschlbauer-landing",
+    "site": "Lukas Guschlbauer",
+    "url": "https://www.der-lukas.net",
+    "type": "landing",
+    "tags": [
+      "first-case-open",
+      "memoji",
+      "role-table",
+      "product-designer"
+    ],
+    "note": "A product designer opens the first case study right on the homepage, text, role table and screens, under a one-sentence statement and a memoji: the work starts before any click.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/lukas-guschlbauer-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/lukas-guschlbauer-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Lukas Guschlbauer - Lead Product Designer",
+      "fonts": [
+        "PP Neue Montreal",
+        "Inter"
+      ],
+      "type": {
+        "h1": {
+          "font": "PP Neue Montreal",
+          "size": 58,
+          "weight": "400",
+          "lineHeight": 1.15,
+          "letterSpacing": "-1.728px",
+          "color": "rgb(0, 0, 0)"
+        },
+        "h2": {
+          "font": "PP Neue Montreal",
+          "size": 48,
+          "weight": "400",
+          "lineHeight": 1.1,
+          "letterSpacing": "1px",
+          "color": "rgb(0, 0, 0)"
+        },
+        "h3": {
+          "font": "PP Neue Montreal",
+          "size": 11,
+          "weight": "400",
+          "lineHeight": 1,
+          "letterSpacing": "0.3px",
+          "color": "rgb(123, 123, 123)"
+        },
+        "body": {
+          "font": "PP Neue Montreal",
+          "size": 24,
+          "weight": "400",
+          "lineHeight": 1.25,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        }
+      },
+      "colors": {
+        "background": "#f3f2f3",
+        "surfaces": [
+          "#f3f2f3",
+          "#d6d1d1"
+        ],
+        "text": [
+          "#000000",
+          "#7b7b7b"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": null
+    }
+  },
+  {
     "id": "luma-landing",
     "site": "Luma",
     "url": "https://lu.ma",
@@ -58800,6 +59157,138 @@
     }
   },
   {
+    "id": "marco-cornacchia-landing",
+    "site": "Marco Cornacchia",
+    "url": "https://www.marco.fyi",
+    "type": "landing",
+    "tags": [
+      "i-think-list",
+      "bento-grid",
+      "product-fragments",
+      "building-now"
+    ],
+    "note": "A designer writes 'Marco is building Turf' then a list of 'I think…' beliefs, next to a bento of real product fragments (notes, inbox, pizza app): opinions beside the things they shaped.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/marco-cornacchia-landing-desktop.jpg",
+        "width": 1440,
+        "height": 2708
+      },
+      "mobile": {
+        "file": "screens/marco-cornacchia-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Marco Cornacchia—Product Designer in SF",
+      "fonts": [
+        "Graphik",
+        "Chirp",
+        "Maison Neue"
+      ],
+      "type": {
+        "h1": {
+          "font": "Graphik",
+          "size": 31,
+          "weight": "500",
+          "lineHeight": 1.25,
+          "letterSpacing": "-0.4px",
+          "color": "rgb(148, 148, 148)"
+        },
+        "h2": null,
+        "h3": null,
+        "body": null
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#f7f7f9",
+          "#ffffff",
+          "#eff0ff",
+          "#e92f48",
+          "#fffeff"
+        ],
+        "text": [
+          "#000000",
+          "#707070",
+          "#727272",
+          "#7e8389"
+        ]
+      },
+      "buttons": [
+        {
+          "label": "",
+          "bg": "#f2f2f2",
+          "color": "#333333",
+          "radius": "230px",
+          "height": 44,
+          "paddingX": 0,
+          "font": "Graphik",
+          "size": 14,
+          "weight": "400"
+        },
+        {
+          "label": "DotOS Notes\nMarco's Workspace",
+          "bg": "#eff0ff",
+          "color": "#333333",
+          "radius": "8px",
+          "height": 71,
+          "paddingX": 8,
+          "font": "Graphik",
+          "size": 14,
+          "weight": "400"
+        },
+        {
+          "label": "1-on-1 Meeting Notes\nMarco's Workspace",
+          "bg": "#ffffff",
+          "color": "#333333",
+          "radius": "8px",
+          "height": 71,
+          "paddingX": 8,
+          "font": "Graphik",
+          "size": 14,
+          "weight": "400"
+        },
+        {
+          "label": "Project Timeline\nMarco's Workspace",
+          "bg": "#ffffff",
+          "color": "#333333",
+          "radius": "8px",
+          "height": 71,
+          "paddingX": 8,
+          "font": "Graphik",
+          "size": 14,
+          "weight": "400"
+        },
+        {
+          "label": "Tasks\nMarco's Workspace",
+          "bg": "#ffffff",
+          "color": "#333333",
+          "radius": "8px",
+          "height": 71,
+          "paddingX": 8,
+          "font": "Graphik",
+          "size": 14,
+          "weight": "400"
+        },
+        {
+          "label": "Neo's Veterinarian Records\nMarco's Works",
+          "bg": "#ffffff",
+          "color": "#333333",
+          "radius": "8px",
+          "height": 71,
+          "paddingX": 8,
+          "font": "Graphik",
+          "size": 14,
+          "weight": "400"
+        }
+      ],
+      "contentWidth": 1400
+    }
+  },
+  {
     "id": "marco-koenig-landing",
     "site": "Marco Koenig",
     "url": "https://www.marcokoenig.de",
@@ -59515,6 +60004,92 @@
       },
       "buttons": [],
       "contentWidth": null
+    }
+  },
+  {
+    "id": "max-batt-landing",
+    "site": "Max Batt",
+    "url": "https://maxbatt.com",
+    "type": "landing",
+    "tags": [
+      "isometric-boxes",
+      "spaced-serif",
+      "role-labels",
+      "desktop-note"
+    ],
+    "note": "A design director draws three isometric boxes labelled educator / designer / advocate under a widely spaced serif name, with a polite note that the mobile site skips the fun parts.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/max-batt-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/max-batt-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Home - Max Batt, Designer",
+      "fonts": [
+        "Overpass",
+        "Self Regular",
+        "Self Italic"
+      ],
+      "type": {
+        "h1": {
+          "font": "self regular",
+          "size": 95,
+          "weight": "400",
+          "lineHeight": 1.16,
+          "letterSpacing": "17px",
+          "color": "rgb(0, 0, 0)"
+        },
+        "h2": {
+          "font": "Self Italic",
+          "size": 92,
+          "weight": "400",
+          "lineHeight": 0.57,
+          "letterSpacing": "normal",
+          "color": "rgb(160, 223, 160)"
+        },
+        "h3": {
+          "font": "Self Regular",
+          "size": 38,
+          "weight": "400",
+          "lineHeight": 1.33,
+          "letterSpacing": "normal",
+          "color": "rgb(14, 14, 14)"
+        },
+        "body": {
+          "font": "Overpass",
+          "size": 14,
+          "weight": "400",
+          "lineHeight": 1.54,
+          "letterSpacing": "normal",
+          "color": "rgb(14, 14, 14)"
+        }
+      },
+      "colors": {
+        "background": "#faf8f6",
+        "surfaces": [
+          "#faf8f6",
+          "#323131",
+          "#bbe2e2",
+          "#a0dfa0",
+          "#ffc0cb"
+        ],
+        "text": [
+          "#000000",
+          "#0e0e0e",
+          "#a0dfa0",
+          "#ffffff"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": 1440
     }
   },
   {
@@ -63496,6 +64071,79 @@
         }
       ],
       "contentWidth": null
+    }
+  },
+  {
+    "id": "nathan-smith-landing",
+    "site": "Nathan Smith",
+    "url": "https://www.nathansmith.design",
+    "type": "landing",
+    "tags": [
+      "contact-as-hero",
+      "colour-blocks",
+      "big-grotesk",
+      "client-captions"
+    ],
+    "note": "A designer's hero is his phone number and '→EMAIL →INSTA' in big type, then colour blocks captioned with client and year: contact first, work as fields of colour.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/nathan-smith-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/nathan-smith-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Nathan Smith",
+      "fonts": [
+        "Fk Display",
+        "Mabry pro"
+      ],
+      "type": {
+        "h1": {
+          "font": "Mabry pro",
+          "size": 80,
+          "weight": "400",
+          "lineHeight": 1,
+          "letterSpacing": "normal",
+          "color": "rgb(245, 244, 238)"
+        },
+        "h2": {
+          "font": "Fk Display",
+          "size": 24,
+          "weight": "400",
+          "lineHeight": 1.2,
+          "letterSpacing": "normal",
+          "color": "rgb(245, 244, 238)"
+        },
+        "h3": {
+          "font": "Fk Display",
+          "size": 14,
+          "weight": "400",
+          "lineHeight": 1.5,
+          "letterSpacing": "normal",
+          "color": "rgb(245, 244, 238)"
+        },
+        "body": null
+      },
+      "colors": {
+        "background": "#000000",
+        "surfaces": [
+          "#deeb52",
+          "#017051"
+        ],
+        "text": [
+          "#f5f4ee",
+          "#ffffff"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": 825
     }
   },
   {
@@ -69025,6 +69673,130 @@
       },
       "buttons": [],
       "contentWidth": 656
+    }
+  },
+  {
+    "id": "pablozarate-landing",
+    "site": "PabloZarate™",
+    "url": "https://pablozarate.com",
+    "type": "landing",
+    "tags": [
+      "warped-type-banner",
+      "manifesto",
+      "red-accent",
+      "since-1999"
+    ],
+    "note": "A product designer warps 'DESIGN HAS A TASTE' into a black banner across the top, then writes plainly since 1999 with a few words in red: one typographic stunt, then a calm paragraph.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/pablozarate-landing-desktop.jpg",
+        "width": 1440,
+        "height": 1844
+      },
+      "mobile": {
+        "file": "screens/pablozarate-landing-mobile.jpg",
+        "width": 390,
+        "height": 1736
+      }
+    },
+    "tokens": {
+      "title": "Designed by PabloZarate™",
+      "fonts": [
+        "neueHaasText",
+        "neueHaasDisplay",
+        "centuryStd"
+      ],
+      "type": {
+        "h1": {
+          "font": "neueHaasDisplay",
+          "size": 50,
+          "weight": "700",
+          "lineHeight": 1.1,
+          "letterSpacing": "normal",
+          "color": "rgb(38, 38, 38)"
+        },
+        "h2": null,
+        "h3": null,
+        "body": {
+          "font": "neueHaasDisplay",
+          "size": 32,
+          "weight": "400",
+          "lineHeight": 1.19,
+          "letterSpacing": "normal",
+          "color": "rgb(38, 38, 38)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#ffffff"
+        ],
+        "text": [
+          "#262626",
+          "#ff460c",
+          "#ffffff",
+          "#444444"
+        ]
+      },
+      "buttons": [
+        {
+          "label": "Pause background video",
+          "bg": "#ffffff",
+          "color": "#262626",
+          "radius": "0px",
+          "height": 50,
+          "paddingX": 16,
+          "font": "neueHaasText",
+          "size": 16,
+          "weight": "700"
+        },
+        {
+          "label": "",
+          "bg": "#ffffff",
+          "color": "#262626",
+          "radius": "3.35544e+07px",
+          "height": 44,
+          "paddingX": 0,
+          "font": "neueHaasText",
+          "size": 16,
+          "weight": "400"
+        },
+        {
+          "label": "",
+          "bg": "#ffffff",
+          "color": "#262626",
+          "radius": "3.35544e+07px",
+          "height": 44,
+          "paddingX": 0,
+          "font": "neueHaasText",
+          "size": 16,
+          "weight": "400"
+        },
+        {
+          "label": "",
+          "bg": "#ffffff",
+          "color": "#262626",
+          "radius": "3.35544e+07px",
+          "height": 44,
+          "paddingX": 0,
+          "font": "neueHaasText",
+          "size": 16,
+          "weight": "400"
+        },
+        {
+          "label": "",
+          "bg": "#ffffff",
+          "color": "#262626",
+          "radius": "3.35544e+07px",
+          "height": 44,
+          "paddingX": 0,
+          "font": "neueHaasText",
+          "size": 16,
+          "weight": "400"
+        }
+      ],
+      "contentWidth": 1408
     }
   },
   {
@@ -80239,6 +81011,82 @@
     }
   },
   {
+    "id": "s-b-studio-landing",
+    "site": "S.B-Studio.",
+    "url": "https://sb-studio.co",
+    "type": "landing",
+    "tags": [
+      "niche-positioning",
+      "serif-italic",
+      "beige-ground",
+      "giant-wordmark"
+    ],
+    "note": "A small studio says who it serves in the headline, 'Brand and web design for women-led businesses', with an italic accent and a huge cropped 'Studio' behind the work: the niche is the pitch.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/s-b-studio-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/s-b-studio-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "S.B-Studio Brand & Website Designer for Small Businesses | S.B-Studio",
+      "fonts": [
+        "maison-neue-4qzllb",
+        "Maison-Neue-Book",
+        "Maison-Neue"
+      ],
+      "type": {
+        "h1": {
+          "font": "Maison-Neue-Book",
+          "size": 37,
+          "weight": "400",
+          "lineHeight": 1,
+          "letterSpacing": "-0.36736px",
+          "color": "rgb(12, 11, 11)"
+        },
+        "h2": {
+          "font": "Maison-Neue-Book",
+          "size": 37,
+          "weight": "400",
+          "lineHeight": 1,
+          "letterSpacing": "-0.73472px",
+          "color": "rgb(12, 11, 11)"
+        },
+        "h3": null,
+        "body": {
+          "font": "maison-neue-4qzllb",
+          "size": 14,
+          "weight": "400",
+          "lineHeight": 1.2,
+          "letterSpacing": "-0.014272px",
+          "color": "rgb(12, 11, 11)"
+        }
+      },
+      "colors": {
+        "background": "#dccabc",
+        "surfaces": [
+          "#e0d9cc",
+          "#000000",
+          "#0c0b0b"
+        ],
+        "text": [
+          "#0c0b0b",
+          "#ffffff",
+          "#282829"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": 792
+    }
+  },
+  {
     "id": "sagmeister-walsh-landing",
     "site": "Sagmeister Walsh",
     "url": "https://sagmeister.com",
@@ -90571,6 +91419,120 @@
         }
       ],
       "contentWidth": 1440
+    }
+  },
+  {
+    "id": "sylvan-hillebrand-landing",
+    "site": "Sylvan Hillebrand",
+    "url": "https://sylvanhillebrand.design",
+    "type": "landing",
+    "tags": [
+      "logo-wall",
+      "dark-panel",
+      "product-cards",
+      "designer-shop"
+    ],
+    "note": "A designer opens on a black wall of every logo he drew, then sells his own mockups and a yellow stencil as product cards: the logo grid is the portfolio, the shop sits right after.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/sylvan-hillebrand-landing-desktop.jpg",
+        "width": 1440,
+        "height": 2340
+      },
+      "mobile": {
+        "file": "screens/sylvan-hillebrand-landing-mobile.jpg",
+        "width": 390,
+        "height": 1946
+      }
+    },
+    "tokens": {
+      "title": "Sylvan Hillebrand",
+      "fonts": [
+        "UniversWeb"
+      ],
+      "type": {
+        "h1": {
+          "font": "UniversWeb",
+          "size": 14,
+          "weight": "400",
+          "lineHeight": 1,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        },
+        "h2": {
+          "font": "UniversWeb",
+          "size": 14,
+          "weight": "400",
+          "lineHeight": 1,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        },
+        "h3": {
+          "font": "UniversWeb",
+          "size": 14,
+          "weight": "400",
+          "lineHeight": 1.3,
+          "letterSpacing": "normal",
+          "color": "rgba(0, 0, 0, 0.5)"
+        },
+        "body": {
+          "font": "UniversWeb",
+          "size": 14,
+          "weight": "400",
+          "lineHeight": 1.3,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#ffffff",
+          "#9e9e9e",
+          "#000000"
+        ],
+        "text": [
+          "#000000",
+          "#ffffff"
+        ]
+      },
+      "buttons": [
+        {
+          "label": "Close",
+          "bg": "#000000",
+          "color": "#ffffff",
+          "radius": "9999px",
+          "height": 32,
+          "paddingX": 16,
+          "font": "UniversWeb",
+          "size": 13,
+          "weight": "400"
+        },
+        {
+          "label": "Close",
+          "bg": "#000000",
+          "color": "#ffffff",
+          "radius": "9999px",
+          "height": 32,
+          "paddingX": 16,
+          "font": "UniversWeb",
+          "size": 13,
+          "weight": "400"
+        },
+        {
+          "label": "Close",
+          "bg": "#000000",
+          "color": "#ffffff",
+          "radius": "9999px",
+          "height": 32,
+          "paddingX": 16,
+          "font": "UniversWeb",
+          "size": 13,
+          "weight": "400"
+        }
+      ],
+      "contentWidth": 768
     }
   },
   {
@@ -101662,6 +102624,77 @@
         }
       ],
       "contentWidth": 1440
+    }
+  },
+  {
+    "id": "xtina-starr-landing",
+    "site": "Xtina Starr",
+    "url": "https://xtinastarr.com",
+    "type": "landing",
+    "tags": [
+      "double-life",
+      "warped-display",
+      "dark-editorial",
+      "known-for-list"
+    ],
+    "note": "An engineer-DJ sets her name in warped display type with 'ENGINEER BY DAY / DJ BY NIGHT' at the corners of a portrait, and lists clubs and radios as an underlined 'known for' list.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/xtina-starr-landing-desktop.jpg",
+        "width": 1440,
+        "height": 2748
+      },
+      "mobile": {
+        "file": "screens/xtina-starr-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Xtina Starr",
+      "fonts": [
+        "Neue Montreal"
+      ],
+      "type": {
+        "h1": {
+          "font": "Neue Montreal",
+          "size": 30,
+          "weight": "400",
+          "lineHeight": 1.1,
+          "letterSpacing": "normal",
+          "color": "rgb(230, 230, 230)"
+        },
+        "h2": {
+          "font": "Neue Montreal",
+          "size": 30,
+          "weight": "400",
+          "lineHeight": 1.1,
+          "letterSpacing": "normal",
+          "color": "rgb(230, 230, 230)"
+        },
+        "h3": null,
+        "body": {
+          "font": "Neue Montreal",
+          "size": 20,
+          "weight": "400",
+          "lineHeight": 1.1,
+          "letterSpacing": "normal",
+          "color": "rgb(229, 229, 229)"
+        }
+      },
+      "colors": {
+        "background": "#171717",
+        "surfaces": [
+          "#171717"
+        ],
+        "text": [
+          "#e5e5e5",
+          "#e6e6e6"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": 864
     }
   },
   {
