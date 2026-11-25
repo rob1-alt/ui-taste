@@ -14130,5 +14130,175 @@
    "underlined-links"
   ],
   "note": "A tiny Oslo studio that closed edits its own intro: 'is' struck through and 'was' in red, 'do' crossed out for 'did', 'like' for 'liked': the end of the studio told with corrections."
+ },
+ {
+  "site": "Alleyway Designs",
+  "type": "landing",
+  "url": "https://alleywaydesigns.com",
+  "tags": [
+   "friendly-voice",
+   "big-paragraph",
+   "scattered-client-names",
+   "service-columns"
+  ],
+  "note": "A branding studio opens with 'G'day.' and a big friendly paragraph, then scatters client names with their services across the page: the voice and the list do everything."
+ },
+ {
+  "site": "An Open Understanding",
+  "type": "landing",
+  "url": "https://www.anopenunderstanding.com",
+  "tags": [
+   "dark-mode",
+   "categorised-rows",
+   "horizontal-carousels",
+   "case-index"
+  ],
+  "note": "A studio sorts its work by sector (Cosmetics, Media, Travel, Sport, Tech) into horizontal rows of thumbnails on black: a streaming-app layout for a portfolio."
+ },
+ {
+  "site": "Berger & Föhr",
+  "type": "landing",
+  "url": "http://bergerfohr.com",
+  "tags": [
+   "monogram",
+   "founders-photo",
+   "pill-labels",
+   "logo-grid",
+   "identity-studio"
+  ],
+  "note": "An identity duo: a big 'B&F' monogram, a photo of the two of them in the studio, 'DESIGN' and 'ART' as huge pills, then a grid of marks: the people and the logos."
+ },
+ {
+  "site": "Brave People",
+  "type": "landing",
+  "url": "http://bravepeople.co",
+  "tags": [
+   "scattered-collage",
+   "caps-manifesto",
+   "inline-image",
+   "ai-native-studio"
+  ],
+  "note": "'BOLD IDEAS NEED BRAVE PEOPLE' in caps with a small image set inside the line, surrounded by scattered photos: a collage around one sentence."
+ },
+ {
+  "site": "CM.SUPPLY",
+  "type": "landing",
+  "url": "https://www.cm.supply",
+  "tags": [
+   "giant-logotype",
+   "wave-mark",
+   "case-grid",
+   "pink-panels"
+  ],
+  "note": "A studio's 'CM' logotype is drawn as one huge wave across the top, then cases on cream with pink panels: the mark is the hero image."
+ },
+ {
+  "site": "Duties XYZ",
+  "type": "landing",
+  "url": "https://www.duties.xyz",
+  "tags": [
+   "monospace-display",
+   "illustration",
+   "laptop-mockup",
+   "off-duty-status"
+  ],
+  "note": "'BRANDS AND WEBSITES FOR BRAVE COMPANIES' in a condensed mono display, with a live 'Currently: Off-duty' status and an illustrated case: a studio that shows when it's working."
+ },
+ {
+  "site": "Extract Studio",
+  "type": "landing",
+  "url": "https://extract.studio",
+  "tags": [
+   "giant-wordmark",
+   "serif-subline",
+   "colour-palette-card",
+   "recent-projects"
+  ],
+  "note": "'Extract' in heavy black type, a serif line under it, then a case shown as its colour palette with the codes: the brand system as the case image."
+ },
+ {
+  "site": "Fieldwork",
+  "type": "landing",
+  "url": "http://madebyfieldwork.com",
+  "tags": [
+   "full-bleed-illustrated-panels",
+   "serif-headlines",
+   "charity-and-books",
+   "manchester"
+  ],
+  "note": "A design and technology studio stacks full-width illustrated panels, each a project with a serif title ('The Future is Make Believe'): warm, story-led work for books and charities."
+ },
+ {
+  "site": "Pudding Studio",
+  "type": "landing",
+  "url": "https://www.pudding.studio",
+  "tags": [
+   "app-hero",
+   "disco-ball",
+   "phone-mockup",
+   "we-built-line"
+  ],
+  "note": "A product studio leads with its own app: 'Your voice was made to celebrate' with a disco ball inside the line and the app on a phone, then 'We built VOCIAL': the studio shows a product it shipped."
+ },
+ {
+  "site": "Réplica",
+  "type": "landing",
+  "url": "https://replica.studio",
+  "tags": [
+   "giant-wordmark",
+   "poster-wall",
+   "saturated-colour",
+   "music-identity"
+  ],
+  "note": "'Réplica' huge in white on black, then a wall of saturated festival posters: the identity system in volume."
+ },
+ {
+  "site": "Studio Ahremark",
+  "type": "landing",
+  "url": "https://www.studioahremark.com",
+  "tags": [
+   "coordinates",
+   "precision-and-heart",
+   "product-grid",
+   "dark-hero"
+  ],
+  "note": "A Swedish brand agency sets its coordinates and 'Precision & heart' on black, then a grid of soft product renders: a two-word promise."
+ },
+ {
+  "site": "Símon.com",
+  "type": "landing",
+  "url": "https://xn--smon-vpa.com",
+  "tags": [
+   "pill-words",
+   "colour-pills",
+   "numbered-index",
+   "years",
+   "computational-design"
+  ],
+  "note": "A computational design studio sets 'Visuals', 'Devised', 'Novel', 'Indulgence' as words in big coloured pills, then a numbered index of projects with years: the pills are the brand."
+ },
+ {
+  "site": "WEBERRUSS Studio",
+  "type": "landing",
+  "url": "https://weberruss.com",
+  "tags": [
+   "project-carousel",
+   "statement",
+   "news-grid",
+   "ai-and-culture"
+  ],
+  "note": "A studio's hero is a black carousel of project images with a counter (1/16), then one statement and a news grid about workshops and exhibitions: the studio as a cultural actor."
+ },
+ {
+  "site": "Yambo Studio",
+  "type": "landing",
+  "url": "https://www.yambo-studio.com",
+  "tags": [
+   "client-names-hero",
+   "serif-dots",
+   "project-table",
+   "years"
+  ],
+  "note": "A studio's hero is its client list in large serif names separated by dots (Microsoft. Autostore. Xiaomi. Google.), then a full table of projects with client and year."
  }
 ]

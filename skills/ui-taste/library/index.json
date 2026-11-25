@@ -13340,6 +13340,121 @@
     }
   },
   {
+    "id": "alleyway-designs-landing",
+    "site": "Alleyway Designs",
+    "url": "https://alleywaydesigns.com",
+    "type": "landing",
+    "tags": [
+      "friendly-voice",
+      "big-paragraph",
+      "scattered-client-names",
+      "service-columns"
+    ],
+    "note": "A branding studio opens with 'G'day.' and a big friendly paragraph, then scatters client names with their services across the page: the voice and the list do everything.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/alleyway-designs-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/alleyway-designs-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Alleyway Designs",
+      "fonts": [
+        "Diatype Variable",
+        "Alleyway Display Regular"
+      ],
+      "type": {
+        "h1": {
+          "font": "Diatype Variable",
+          "size": 36,
+          "weight": "400",
+          "lineHeight": 1.3,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        },
+        "h2": null,
+        "h3": null,
+        "body": null
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#000000",
+          "#ffffff"
+        ],
+        "text": [
+          "#000000",
+          "#ffffff"
+        ]
+      },
+      "buttons": [
+        {
+          "label": "Projects",
+          "bg": "#ffffff",
+          "color": "#000000",
+          "radius": "12947px",
+          "height": 31,
+          "paddingX": 13,
+          "font": "Diatype Variable",
+          "size": 17,
+          "weight": "400"
+        },
+        {
+          "label": "Studio + Services",
+          "bg": "#ffffff",
+          "color": "#000000",
+          "radius": "12947px",
+          "height": 31,
+          "paddingX": 13,
+          "font": "Diatype Variable",
+          "size": 17,
+          "weight": "400"
+        },
+        {
+          "label": "Shop Typefaces",
+          "bg": "#ffffff",
+          "color": "#000000",
+          "radius": "12947px",
+          "height": 31,
+          "paddingX": 13,
+          "font": "Diatype Variable",
+          "size": 17,
+          "weight": "400"
+        },
+        {
+          "label": "Contact",
+          "bg": "#ffffff",
+          "color": "#000000",
+          "radius": "12947px",
+          "height": 31,
+          "paddingX": 13,
+          "font": "Diatype Variable",
+          "size": 17,
+          "weight": "400"
+        },
+        {
+          "label": "Cart",
+          "bg": "#ffffff",
+          "color": "#000000",
+          "radius": "12947px",
+          "height": 31,
+          "paddingX": 13,
+          "font": "Diatype Variable",
+          "size": 17,
+          "weight": "400"
+        }
+      ],
+      "contentWidth": null
+    }
+  },
+  {
     "id": "alt-border-landing",
     "site": "Alt-Border",
     "url": "https://www.alt-border.com",
@@ -13599,6 +13714,78 @@
         }
       ],
       "contentWidth": 1024
+    }
+  },
+  {
+    "id": "an-open-understanding-landing",
+    "site": "An Open Understanding",
+    "url": "https://www.anopenunderstanding.com",
+    "type": "landing",
+    "tags": [
+      "dark-mode",
+      "categorised-rows",
+      "horizontal-carousels",
+      "case-index"
+    ],
+    "note": "A studio sorts its work by sector (Cosmetics, Media, Travel, Sport, Tech) into horizontal rows of thumbnails on black: a streaming-app layout for a portfolio.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/an-open-understanding-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3158
+      },
+      "mobile": {
+        "file": "screens/an-open-understanding-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "A Visual Identity Studio for any stage of your journey.",
+      "fonts": [
+        "Aeonik"
+      ],
+      "type": {
+        "h1": null,
+        "h2": {
+          "font": "Aeonik",
+          "size": 14,
+          "weight": "500",
+          "lineHeight": 1.36,
+          "letterSpacing": "normal",
+          "color": "rgb(255, 255, 255)"
+        },
+        "h3": {
+          "font": "Aeonik",
+          "size": 40,
+          "weight": "700",
+          "lineHeight": 1.2,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        },
+        "body": {
+          "font": "Aeonik",
+          "size": 14,
+          "weight": "500",
+          "lineHeight": 1.4,
+          "letterSpacing": "normal",
+          "color": "rgb(122, 122, 122)"
+        }
+      },
+      "colors": {
+        "background": "#232323",
+        "surfaces": [
+          "#000000"
+        ],
+        "text": [
+          "#7a7a7a",
+          "#ffffff",
+          "#515151"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": 1280
     }
   },
   {
@@ -18938,6 +19125,85 @@
     }
   },
   {
+    "id": "berger-f-hr-landing",
+    "site": "Berger & Föhr",
+    "url": "http://bergerfohr.com",
+    "type": "landing",
+    "tags": [
+      "monogram",
+      "founders-photo",
+      "pill-labels",
+      "logo-grid",
+      "identity-studio"
+    ],
+    "note": "An identity duo: a big 'B&F' monogram, a photo of the two of them in the studio, 'DESIGN' and 'ART' as huge pills, then a grid of marks: the people and the logos.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/berger-f-hr-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/berger-f-hr-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Berger & Föhr Design",
+      "fonts": [
+        "NeueHaasTextPro",
+        "NeueHaasDisplay55Roman"
+      ],
+      "type": {
+        "h1": null,
+        "h2": {
+          "font": "NeueHaasTextPro",
+          "size": 10,
+          "weight": "400",
+          "lineHeight": 1.2,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        },
+        "h3": null,
+        "body": {
+          "font": "NeueHaasTextPro",
+          "size": 19,
+          "weight": "400",
+          "lineHeight": 1.3,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#000000",
+          "#ececec"
+        ],
+        "text": [
+          "#000000",
+          "#ffffff"
+        ]
+      },
+      "buttons": [
+        {
+          "label": "Checkout",
+          "bg": "#000000",
+          "color": "#ffffff",
+          "radius": "3px",
+          "height": 32,
+          "paddingX": 32,
+          "font": "NeueHaasTextPro",
+          "size": 12,
+          "weight": "400"
+        }
+      ],
+      "contentWidth": null
+    }
+  },
+  {
     "id": "bestand-landing",
     "site": "Bestand",
     "url": "https://bestand.org",
@@ -20393,6 +20659,78 @@
         }
       ],
       "contentWidth": 720
+    }
+  },
+  {
+    "id": "brave-people-landing",
+    "site": "Brave People",
+    "url": "http://bravepeople.co",
+    "type": "landing",
+    "tags": [
+      "scattered-collage",
+      "caps-manifesto",
+      "inline-image",
+      "ai-native-studio"
+    ],
+    "note": "'BOLD IDEAS NEED BRAVE PEOPLE' in caps with a small image set inside the line, surrounded by scattered photos: a collage around one sentence.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/brave-people-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/brave-people-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Brave People | Product Design & AI Studio, Tampa & Nashville",
+      "fonts": [
+        "Montreal",
+        "Supply",
+        "Mori"
+      ],
+      "type": {
+        "h1": null,
+        "h2": {
+          "font": "Montreal",
+          "size": 72,
+          "weight": "400",
+          "lineHeight": 1.04,
+          "letterSpacing": "-1.584px",
+          "color": "rgb(255, 255, 255)"
+        },
+        "h3": null,
+        "body": {
+          "font": "Montreal",
+          "size": 72,
+          "weight": "400",
+          "lineHeight": 1.04,
+          "letterSpacing": "-1.584px",
+          "color": "rgb(255, 255, 255)"
+        }
+      },
+      "colors": {
+        "background": "#f9f9f9",
+        "surfaces": [
+          "#f9f9f9",
+          "#e9e8e5",
+          "#1f1f1f",
+          "#161615",
+          "#ffffff"
+        ],
+        "text": [
+          "#000000",
+          "#2a2a2a",
+          "#7d7b78",
+          "#ffffff"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": 698
     }
   },
   {
@@ -24482,6 +24820,85 @@
         "text": [
           "#131313",
           "#ffffff"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": null
+    }
+  },
+  {
+    "id": "cm-supply-landing",
+    "site": "CM.SUPPLY",
+    "url": "https://www.cm.supply",
+    "type": "landing",
+    "tags": [
+      "giant-logotype",
+      "wave-mark",
+      "case-grid",
+      "pink-panels"
+    ],
+    "note": "A studio's 'CM' logotype is drawn as one huge wave across the top, then cases on cream with pink panels: the mark is the hero image.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/cm-supply-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/cm-supply-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "CM.SUPPLY",
+      "fonts": [
+        "Untitled Sans Medium",
+        "sans-serif"
+      ],
+      "type": {
+        "h1": {
+          "font": "Untitled Sans Medium",
+          "size": 26,
+          "weight": "500",
+          "lineHeight": 1.1,
+          "letterSpacing": "-0.78px",
+          "color": "rgb(40, 40, 42)"
+        },
+        "h2": {
+          "font": "Untitled Sans Medium",
+          "size": 14,
+          "weight": "500",
+          "lineHeight": 1.1,
+          "letterSpacing": "-0.42px",
+          "color": "rgb(129, 130, 125)"
+        },
+        "h3": {
+          "font": "Untitled Sans Medium",
+          "size": 20,
+          "weight": "500",
+          "lineHeight": 1.1,
+          "letterSpacing": "-0.6px",
+          "color": "rgb(40, 40, 42)"
+        },
+        "body": {
+          "font": "Untitled Sans Medium",
+          "size": 16,
+          "weight": "500",
+          "lineHeight": 1.1,
+          "letterSpacing": "-0.48px",
+          "color": "rgb(40, 40, 42)"
+        }
+      },
+      "colors": {
+        "background": "#fffdfa",
+        "surfaces": [
+          "#fffdfa"
+        ],
+        "text": [
+          "#cccdcb",
+          "#28282a"
         ]
       },
       "buttons": [],
@@ -31807,6 +32224,127 @@
     }
   },
   {
+    "id": "duties-xyz-landing",
+    "site": "Duties XYZ",
+    "url": "https://www.duties.xyz",
+    "type": "landing",
+    "tags": [
+      "monospace-display",
+      "illustration",
+      "laptop-mockup",
+      "off-duty-status"
+    ],
+    "note": "'BRANDS AND WEBSITES FOR BRAVE COMPANIES' in a condensed mono display, with a live 'Currently: Off-duty' status and an illustrated case: a studio that shows when it's working.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/duties-xyz-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/duties-xyz-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Duties – Brand & Framer Studio, Oslo",
+      "fonts": [
+        "PP Neue Montreal SemiBold",
+        "sans-serif",
+        "AS Therma Medium Condensed"
+      ],
+      "type": {
+        "h1": {
+          "font": "AS Therma Medium Condensed",
+          "size": 160,
+          "weight": "500",
+          "lineHeight": 0.8,
+          "letterSpacing": "normal",
+          "color": "rgb(37, 37, 37)"
+        },
+        "h2": {
+          "font": "PP Neue Montreal SemiBold",
+          "size": 32,
+          "weight": "600",
+          "lineHeight": 1.1,
+          "letterSpacing": "normal",
+          "color": "rgb(37, 37, 37)"
+        },
+        "h3": null,
+        "body": {
+          "font": "PP Neue Montreal SemiBold",
+          "size": 14,
+          "weight": "600",
+          "lineHeight": 1,
+          "letterSpacing": "normal",
+          "color": "rgb(37, 37, 37)"
+        }
+      },
+      "colors": {
+        "background": "#f1f0ee",
+        "surfaces": [
+          "#f1f0ee",
+          "#d3d2ca",
+          "#252525",
+          "#ff5747"
+        ],
+        "text": [
+          "#252525",
+          "#646464"
+        ]
+      },
+      "buttons": [
+        {
+          "label": "",
+          "bg": "#252525",
+          "color": "#0000ee",
+          "radius": "6px",
+          "height": 40,
+          "paddingX": 12,
+          "font": "sans-serif",
+          "size": 12,
+          "weight": "400"
+        },
+        {
+          "label": "Services",
+          "bg": "#d3d2ca",
+          "color": "#0000ee",
+          "radius": "6px",
+          "height": 40,
+          "paddingX": 12,
+          "font": "sans-serif",
+          "size": 12,
+          "weight": "400"
+        },
+        {
+          "label": "Projects",
+          "bg": "#d3d2ca",
+          "color": "#0000ee",
+          "radius": "6px",
+          "height": 40,
+          "paddingX": 12,
+          "font": "sans-serif",
+          "size": 12,
+          "weight": "400"
+        },
+        {
+          "label": "Contact",
+          "bg": "#d3d2ca",
+          "color": "#0000ee",
+          "radius": "6px",
+          "height": 40,
+          "paddingX": 12,
+          "font": "sans-serif",
+          "size": 12,
+          "weight": "400"
+        }
+      ],
+      "contentWidth": 960
+    }
+  },
+  {
     "id": "e2b-landing",
     "site": "E2B",
     "url": "https://e2b.dev",
@@ -33958,6 +34496,84 @@
     }
   },
   {
+    "id": "extract-studio-landing",
+    "site": "Extract Studio",
+    "url": "https://extract.studio",
+    "type": "landing",
+    "tags": [
+      "giant-wordmark",
+      "serif-subline",
+      "colour-palette-card",
+      "recent-projects"
+    ],
+    "note": "'Extract' in heavy black type, a serif line under it, then a case shown as its colour palette with the codes: the brand system as the case image.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/extract-studio-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/extract-studio-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Branding and Design Agency | Extract Studio",
+      "fonts": [
+        "ABC Diatype",
+        "Feature Deck"
+      ],
+      "type": {
+        "h1": {
+          "font": "Feature Deck",
+          "size": 44,
+          "weight": "400",
+          "lineHeight": 1.25,
+          "letterSpacing": "normal",
+          "color": "rgb(7, 7, 7)"
+        },
+        "h2": {
+          "font": "ABC Diatype",
+          "size": 34,
+          "weight": "400",
+          "lineHeight": 1.25,
+          "letterSpacing": "normal",
+          "color": "rgb(7, 7, 7)"
+        },
+        "h3": {
+          "font": "ABC Diatype",
+          "size": 21,
+          "weight": "700",
+          "lineHeight": 1.25,
+          "letterSpacing": "normal",
+          "color": "rgb(7, 7, 7)"
+        },
+        "body": {
+          "font": "ABC Diatype",
+          "size": 21,
+          "weight": "400",
+          "lineHeight": 1.5,
+          "letterSpacing": "normal",
+          "color": "rgb(7, 7, 7)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#ffffff"
+        ],
+        "text": [
+          "#070707"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": null
+    }
+  },
+  {
     "id": "extropic-landing",
     "site": "Extropic",
     "url": "https://www.extropic.ai",
@@ -35268,6 +35884,74 @@
         }
       ],
       "contentWidth": null
+    }
+  },
+  {
+    "id": "fieldwork-landing",
+    "site": "Fieldwork",
+    "url": "http://madebyfieldwork.com",
+    "type": "landing",
+    "tags": [
+      "full-bleed-illustrated-panels",
+      "serif-headlines",
+      "charity-and-books",
+      "manchester"
+    ],
+    "note": "A design and technology studio stacks full-width illustrated panels, each a project with a serif title ('The Future is Make Believe'): warm, story-led work for books and charities.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/fieldwork-landing-desktop.jpg",
+        "width": 1440,
+        "height": 2577
+      },
+      "mobile": {
+        "file": "screens/fieldwork-landing-mobile.jpg",
+        "width": 390,
+        "height": 1808
+      }
+    },
+    "tokens": {
+      "title": "Fieldwork — A Design and Technology Studio",
+      "fonts": [
+        "Founders Grotesk",
+        "Maison Neue"
+      ],
+      "type": {
+        "h1": null,
+        "h2": {
+          "font": "Founders Grotesk",
+          "size": 40,
+          "weight": "600",
+          "lineHeight": 1,
+          "letterSpacing": "normal",
+          "color": "rgb(255, 255, 255)"
+        },
+        "h3": null,
+        "body": {
+          "font": "Founders Grotesk",
+          "size": 40,
+          "weight": "300",
+          "lineHeight": 1,
+          "letterSpacing": "normal",
+          "color": "rgb(255, 255, 255)"
+        }
+      },
+      "colors": {
+        "background": "#efece7",
+        "surfaces": [
+          "#eb80a8",
+          "#efece7"
+        ],
+        "text": [
+          "#ffffff",
+          "#3c3c3b",
+          "#1d1d1b",
+          "#eb80a8"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": 900
     }
   },
   {
@@ -71863,6 +72547,66 @@
     }
   },
   {
+    "id": "pudding-studio-landing",
+    "site": "Pudding Studio",
+    "url": "https://www.pudding.studio",
+    "type": "landing",
+    "tags": [
+      "app-hero",
+      "disco-ball",
+      "phone-mockup",
+      "we-built-line"
+    ],
+    "note": "A product studio leads with its own app: 'Your voice was made to celebrate' with a disco ball inside the line and the app on a phone, then 'We built VOCIAL': the studio shows a product it shipped.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/pudding-studio-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/pudding-studio-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Pudding Studio - Yes! We Deliver.",
+      "fonts": [
+        "HelveticaNeue",
+        "Arial",
+        "Vocial Sans"
+      ],
+      "type": {
+        "h1": null,
+        "h2": null,
+        "h3": null,
+        "body": {
+          "font": "HelveticaNeue",
+          "size": 20,
+          "weight": "400",
+          "lineHeight": 2,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#ffffff",
+          "#1c1c1e",
+          "#e5341f"
+        ],
+        "text": [
+          "#000000"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": null
+    }
+  },
+  {
     "id": "pulitzer-art-foundation-landing",
     "site": "Pulitzer Art Foundation",
     "url": "https://pulitzerarts.org",
@@ -76170,6 +76914,63 @@
       },
       "buttons": [],
       "contentWidth": 1440
+    }
+  },
+  {
+    "id": "r-plica-landing",
+    "site": "Réplica",
+    "url": "https://replica.studio",
+    "type": "landing",
+    "tags": [
+      "giant-wordmark",
+      "poster-wall",
+      "saturated-colour",
+      "music-identity"
+    ],
+    "note": "'Réplica' huge in white on black, then a wall of saturated festival posters: the identity system in volume.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/r-plica-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/r-plica-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Réplica",
+      "fonts": [
+        "FK Grotesk"
+      ],
+      "type": {
+        "h1": null,
+        "h2": {
+          "font": "FK Grotesk",
+          "size": 50,
+          "weight": "400",
+          "lineHeight": 1.2,
+          "letterSpacing": "-2.25px",
+          "color": "rgb(255, 255, 255)"
+        },
+        "h3": null,
+        "body": null
+      },
+      "colors": {
+        "background": "#000000",
+        "surfaces": [
+          "#ffffff"
+        ],
+        "text": [
+          "#ffffff",
+          "#000000"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": null
     }
   },
   {
@@ -83150,6 +83951,73 @@
     }
   },
   {
+    "id": "studio-ahremark-landing",
+    "site": "Studio Ahremark",
+    "url": "https://www.studioahremark.com",
+    "type": "landing",
+    "tags": [
+      "coordinates",
+      "precision-and-heart",
+      "product-grid",
+      "dark-hero"
+    ],
+    "note": "A Swedish brand agency sets its coordinates and 'Precision & heart' on black, then a grid of soft product renders: a two-word promise.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/studio-ahremark-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/studio-ahremark-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Studio Ahremark – Scandinavian Design Agency",
+      "fonts": [
+        "Plain"
+      ],
+      "type": {
+        "h1": {
+          "font": "Plain",
+          "size": 79,
+          "weight": "300",
+          "lineHeight": 0.91,
+          "letterSpacing": "normal",
+          "color": "rgb(255, 255, 255)"
+        },
+        "h2": {
+          "font": "Plain",
+          "size": 56,
+          "weight": "300",
+          "lineHeight": 1.05,
+          "letterSpacing": "normal",
+          "color": "rgb(63, 63, 63)"
+        },
+        "h3": null,
+        "body": null
+      },
+      "colors": {
+        "background": "#f6f6f6",
+        "surfaces": [
+          "#f6f6f6",
+          "#000000",
+          "#0a0909",
+          "#ffffff"
+        ],
+        "text": [
+          "#3f3f3f",
+          "#ffffff"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": null
+    }
+  },
+  {
     "id": "studio-augmenta-landing",
     "site": "Studio Augmenta",
     "url": "https://studioaugmenta.com",
@@ -85916,6 +86784,80 @@
       }
     },
     "tokens": null
+  },
+  {
+    "id": "s-mon-com-landing",
+    "site": "Símon.com",
+    "url": "https://xn--smon-vpa.com",
+    "type": "landing",
+    "tags": [
+      "pill-words",
+      "colour-pills",
+      "numbered-index",
+      "years",
+      "computational-design"
+    ],
+    "note": "A computational design studio sets 'Visuals', 'Devised', 'Novel', 'Indulgence' as words in big coloured pills, then a numbered index of projects with years: the pills are the brand.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/s-mon-com-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3113
+      },
+      "mobile": {
+        "file": "screens/s-mon-com-landing-mobile.jpg",
+        "width": 390,
+        "height": 2044
+      }
+    },
+    "tokens": {
+      "title": "Símon.com • Studio for computational design",
+      "fonts": [
+        "Tex Gyre Heros Regular",
+        "Editorial New Regular"
+      ],
+      "type": {
+        "h1": {
+          "font": "Editorial New Regular",
+          "size": 29,
+          "weight": "400",
+          "lineHeight": 1.44,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        },
+        "h2": {
+          "font": "Editorial New Regular",
+          "size": 29,
+          "weight": "400",
+          "lineHeight": 1.44,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        },
+        "h3": {
+          "font": "Tex Gyre Heros Regular",
+          "size": 67,
+          "weight": "400",
+          "lineHeight": "normal",
+          "letterSpacing": "-0.99792px",
+          "color": "rgb(0, 0, 0)"
+        },
+        "body": null
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#ffffff",
+          "#d6d0ff",
+          "#2ee571"
+        ],
+        "text": [
+          "#000000"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": null
+    }
   },
   {
     "id": "t-for-troels-landing",
@@ -94960,6 +95902,73 @@
     }
   },
   {
+    "id": "weberruss-studio-landing",
+    "site": "WEBERRUSS Studio",
+    "url": "https://weberruss.com",
+    "type": "landing",
+    "tags": [
+      "project-carousel",
+      "statement",
+      "news-grid",
+      "ai-and-culture"
+    ],
+    "note": "A studio's hero is a black carousel of project images with a counter (1/16), then one statement and a news grid about workshops and exhibitions: the studio as a cultural actor.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/weberruss-studio-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3210
+      },
+      "mobile": {
+        "file": "screens/weberruss-studio-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Studio for Design, Strategy and Communication → Frankfurt a.M.",
+      "fonts": [
+        "nimbussanl-reg-webfont",
+        "NimbusSanL-Reg-webfont",
+        "Times New Roman"
+      ],
+      "type": {
+        "h1": null,
+        "h2": {
+          "font": "nimbussanl-reg-webfont",
+          "size": 56,
+          "weight": "400",
+          "lineHeight": 1,
+          "letterSpacing": "-0.56px",
+          "color": "rgb(0, 0, 0)"
+        },
+        "h3": null,
+        "body": {
+          "font": "nimbussanl-reg-webfont",
+          "size": 24,
+          "weight": "400",
+          "lineHeight": 1.1,
+          "letterSpacing": "-0.12px",
+          "color": "rgb(0, 0, 0)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#000000",
+          "#ffffff"
+        ],
+        "text": [
+          "#000000",
+          "#ffffff"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": 1440
+    }
+  },
+  {
     "id": "webflow-landing",
     "site": "Webflow",
     "url": "https://webflow.com",
@@ -96681,6 +97690,69 @@
         }
       ],
       "contentWidth": 1440
+    }
+  },
+  {
+    "id": "yambo-studio-landing",
+    "site": "Yambo Studio",
+    "url": "https://www.yambo-studio.com",
+    "type": "landing",
+    "tags": [
+      "client-names-hero",
+      "serif-dots",
+      "project-table",
+      "years"
+    ],
+    "note": "A studio's hero is its client list in large serif names separated by dots (Microsoft. Autostore. Xiaomi. Google.), then a full table of projects with client and year.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/yambo-studio-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/yambo-studio-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Home | Yambo Studio",
+      "fonts": [
+        "Basis Grotesque Pro",
+        "Helvetica Neue"
+      ],
+      "type": {
+        "h1": null,
+        "h2": null,
+        "h3": null,
+        "body": {
+          "font": "Basis Grotesque Pro",
+          "size": 17,
+          "weight": "400",
+          "lineHeight": 1.4,
+          "letterSpacing": "-0.15262px",
+          "color": "rgb(124, 124, 124)"
+        }
+      },
+      "colors": {
+        "background": "#f8f8f8",
+        "surfaces": [
+          "#1a1a19",
+          "#a68aff",
+          "#47146e",
+          "#f8f8f8"
+        ],
+        "text": [
+          "#7c7c7c",
+          "#070707",
+          "#dedede",
+          "#f8f8f8"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": 1526
     }
   },
   {

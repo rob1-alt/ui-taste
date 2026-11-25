@@ -1881,3 +1881,37 @@ http://paprika.com	generic
 http://sociodesign.co.uk	one screen, black below
 http://studiobrave.com.au	black tiles, media not loaded
 http://weareadaptable.com	broken (screenshot timeout)
+https://arcades.studio	redirects off-site (brusselfaria.com) (prefilter)
+https://ritualer.tv	broken (http 454) (prefilter)
+https://www.hipractice.com	broken (URLError) (prefilter)
+https://tbpmx.com	redirects off-site (tbp.studio) (prefilter)
+https://livprojekt.com	blocked (http 403) (prefilter)
+http://www.yan-can.com	broken (http 404) (prefilter)
+http://fortnumfox.co.uk	broken (URLError) (prefilter)
+http://paack.fr	redirects off-site (studiopaack.fr) (prefilter)
+http://www.shimoni-illustration.com	redirects off-site (hipstoryart.com) (prefilter)
+http://adda-studio.de/projekte	redirects off-site (ts.domainname.de) (prefilter)
+https://alexezhov.com	broken (http 404) (prefilter)
+https://askphill.com	Shopify agency template: black hero; stacked stat cards and 
+https://becklyn.com	cookie consent panel covers the mobile page and sits over th
+https://concreteclub.studio	desktop capture is mostly empty white and black with tiny te
+https://first-things.studio	broken image icons in the client logo strip and a mostly emp
+https://www.thinkforever.com	large empty black block below the hero on desktop; media not
+https://madeinhaus.com	desktop is a yellow hero with a long empty field below; cont
+https://www.lagggom.com	desktop mostly empty below a short hero; and a floating badg
+https://www.openstatement.co	project images are blurred placeholders across the desktop c
+https://www.otherland.studio	AI-native product design partner template: highlighted headl
+https://www.savoirfaire.nyc	serif wordmark on black; desktop and mobile are almost entir
+https://www.studiolenzing.com	a bot-check notice sits in the middle of the desktop page
+https://studiomuscade.com	desktop has a short hero and product image; then mostly empt
+http://visualsoldiers.com	desktop hero only; empty below the first screen
+https://jacoblindblad.dk	blank
+https://tomorrow-happens.studio	blank
+http://www.sagmeisterwalsh.com/work	same studio as Sagmeister, already in the library
+https://www.ohmy.studio	same studio as OH MY, already in the library
+https://heydays.no	now part of Kurppa Hosk; bot-check embed
+https://intmagic.com	sparse
+https://public-image.co	one screen, empty below
+https://www.rayraylab.com	broken (screenshot timeout)
+https://lemma.studio	broken (screenshot timeout)
+https://www.helloelva.com	broken (navigation during capture)
