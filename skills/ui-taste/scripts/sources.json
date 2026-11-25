@@ -12937,5 +12937,134 @@
    "serif-italic-headings"
   ],
   "note": "A talent agency for stylists leads with one fashion photo and then sorts work into 'Editorial' and 'Appearances' with italic serif headings: the roster shown by context."
+ },
+ {
+  "site": "27b",
+  "type": "landing",
+  "url": "https://27-b.com",
+  "tags": [
+   "stickers",
+   "giant-wordmark",
+   "dark-mode",
+   "full-bleed-work",
+   "independent-studio"
+  ],
+  "note": "A studio sets '27b' huge on black under a pile of chrome and neon stickers ('100%', '©100 PRCNT'), then one client's work full height: the stickers say the attitude before any sentence."
+ },
+ {
+  "site": "DEEO",
+  "type": "landing",
+  "url": "https://deeo.studio",
+  "tags": [
+   "3d-letters",
+   "chrome",
+   "dark-mode",
+   "serif-statement",
+   "case-collage"
+  ],
+  "note": "The studio's letters rendered as tall chrome 3D blocks on black, then a serif statement and a red case collage: one rendered wordmark carries the whole hero."
+ },
+ {
+  "site": "Delicious Nuggets",
+  "type": "landing",
+  "url": "https://nuggets.earthalliance.org",
+  "tags": [
+   "giant-serif",
+   "climate",
+   "poster-grid",
+   "colourful-covers",
+   "badge"
+  ],
+  "note": "'Earth Alliance' in a huge serif with a round green 'Delicious Nuggets' badge, then a cascade of bold campaign posters (tl;dr of the IPCC report, 'Death to greenwashing'): climate communication sold through its loudest covers."
+ },
+ {
+  "site": "KONKAT",
+  "type": "landing",
+  "url": "https://konkat.studio",
+  "tags": [
+   "giant-letters",
+   "staggered-wordmark",
+   "dark-mode",
+   "lilac-cards",
+   "app-screens"
+  ],
+  "note": "'KONKAT' broken into giant white letters stepping down the page on black, then the work on lilac and white cards: the wordmark is set as a staircase."
+ },
+ {
+  "site": "LE KOLLEKTIV",
+  "type": "landing",
+  "url": "https://www.lekollektiv.ch",
+  "tags": [
+   "pink-wordmark",
+   "all-caps-text",
+   "odd-indents",
+   "manifesto",
+   "typewriter-tone"
+  ],
+  "note": "A two-person collective writes its intro in small caps with each line indented differently, like a typed letter, under a pink 'LE KOLLEKTIV' banner: the setting gives a short text a voice."
+ },
+ {
+  "site": "Old Friends",
+  "type": "landing",
+  "url": "https://www.oldfriends.studio",
+  "tags": [
+   "serif-italic",
+   "engineering-studio",
+   "testimonials-as-notes",
+   "3d-renders",
+   "local-time"
+  ],
+  "note": "An engineering studio says 'Old Friends is an engineering studio. We build custom websites for teams who value craft.' in serif italics, and shows testimonials as 'Notes from friends', a list of short messages with avatars."
+ },
+ {
+  "site": "Paseo",
+  "type": "landing",
+  "url": "https://paseo.studio",
+  "tags": [
+   "dense-grid",
+   "dark-mode",
+   "spanish-copy",
+   "quote-header",
+   "captions"
+  ],
+  "note": "A Spanish studio puts one sentence in the header ('Hay cosas que solo encuentran respuesta al caminar') and then a dense dark grid of all its work with small captions: one line, then volume."
+ },
+ {
+  "site": "Studio Hyperlink",
+  "type": "landing",
+  "url": "https://www.hyperlinknyc.com",
+  "tags": [
+   "serif-and-sans-wordmark",
+   "green-ticker",
+   "hand-drawn-arrow",
+   "case-cards",
+   "testimonial-cards"
+  ],
+  "note": "A studio's name set half serif, half bold sans, with a green 'now accepting projects' ticker on top and a hand-drawn arrow pointing to the work: small human marks on a clean page."
+ },
+ {
+  "site": "THE STUDIO",
+  "type": "landing",
+  "url": "https://www.the-studio.se",
+  "tags": [
+   "full-bleed-photo",
+   "identity-in-use",
+   "paper-samples",
+   "index"
+  ],
+  "note": "A Swedish studio's homepage is identity work photographed in use (a red tote on stairs, Gmund paper samples fanned out): the materials do the talking."
+ },
+ {
+  "site": "tribehouse",
+  "type": "landing",
+  "url": "https://tribehouse.space",
+  "tags": [
+   "coworking",
+   "photo-hero",
+   "german-copy",
+   "grey-statement",
+   "rooms"
+  ],
+  "note": "A Leipzig coworking house says 'Ein Haus, kein Büro.' over a photo of the room, then 'Raum für Fokus.' in grey with the facts (eight desks, workshops, dinners): a space sold by its rooms."
  }
 ]

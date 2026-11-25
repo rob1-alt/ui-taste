@@ -11206,6 +11206,79 @@
     }
   },
   {
+    "id": "27b-landing",
+    "site": "27b",
+    "url": "https://27-b.com",
+    "type": "landing",
+    "tags": [
+      "stickers",
+      "giant-wordmark",
+      "dark-mode",
+      "full-bleed-work",
+      "independent-studio"
+    ],
+    "note": "A studio sets '27b' huge on black under a pile of chrome and neon stickers ('100%', '©100 PRCNT'), then one client's work full height: the stickers say the attitude before any sentence.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/27b-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/27b-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "27b. Independent Creative Studio. Amsterdam & Los Angeles.",
+      "fonts": [
+        "Neue Haas Unica Pro Medium",
+        "sans-serif",
+        "Neue Haas Unica Pro Heavy"
+      ],
+      "type": {
+        "h1": {
+          "font": "Neue Haas Unica Pro Heavy",
+          "size": 60,
+          "weight": "800",
+          "lineHeight": 0.9,
+          "letterSpacing": "-2.4px",
+          "color": "rgb(94, 94, 94)"
+        },
+        "h2": null,
+        "h3": {
+          "font": "Neue Haas Unica Pro Medium",
+          "size": 13,
+          "weight": "400",
+          "lineHeight": 1,
+          "letterSpacing": "-0.26px",
+          "color": "rgb(255, 255, 255)"
+        },
+        "body": {
+          "font": "Neue Haas Unica Pro Medium",
+          "size": 13,
+          "weight": "500",
+          "lineHeight": 1,
+          "letterSpacing": "normal",
+          "color": "rgba(255, 255, 255, 0.4)"
+        }
+      },
+      "colors": {
+        "background": "#000000",
+        "surfaces": [
+          "#000000"
+        ],
+        "text": [
+          "#ffffff"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": null
+    }
+  },
+  {
     "id": "4-years-of-unsplash-landing",
     "site": "4 years of Unsplash",
     "url": "http://1460.unsplash.com",
@@ -26857,6 +26930,101 @@
     }
   },
   {
+    "id": "deeo-landing",
+    "site": "DEEO",
+    "url": "https://deeo.studio",
+    "type": "landing",
+    "tags": [
+      "3d-letters",
+      "chrome",
+      "dark-mode",
+      "serif-statement",
+      "case-collage"
+    ],
+    "note": "The studio's letters rendered as tall chrome 3D blocks on black, then a serif statement and a red case collage: one rendered wordmark carries the whole hero.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/deeo-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/deeo-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Deeo Studio – Brand, web, and digital experiences",
+      "fonts": [
+        "sans-serif",
+        "PP Neue Montreal Medium",
+        "PP Neue Montreal Book"
+      ],
+      "type": {
+        "h1": {
+          "font": "PP Editorial New Ultralight",
+          "size": 70,
+          "weight": "400",
+          "lineHeight": 1.06,
+          "letterSpacing": "-1.4px",
+          "color": "rgb(255, 255, 255)"
+        },
+        "h2": {
+          "font": "PP Neue Montreal Book",
+          "size": 16,
+          "weight": "400",
+          "lineHeight": 1,
+          "letterSpacing": "1.6px",
+          "color": "rgb(255, 255, 255)"
+        },
+        "h3": {
+          "font": "PP Neue Montreal Bold",
+          "size": 24,
+          "weight": "400",
+          "lineHeight": 1,
+          "letterSpacing": "normal",
+          "color": "rgb(255, 255, 255)"
+        },
+        "body": {
+          "font": "PP Neue Montreal Medium",
+          "size": 14,
+          "weight": "400",
+          "lineHeight": 0.8,
+          "letterSpacing": "0.42px",
+          "color": "rgb(255, 255, 255)"
+        }
+      },
+      "colors": {
+        "background": "#0d0d0d",
+        "surfaces": [
+          "#0d0d0d",
+          "#000000",
+          "#f0eba5"
+        ],
+        "text": [
+          "#ffffff",
+          "#000000"
+        ]
+      },
+      "buttons": [
+        {
+          "label": "LET'S TALK",
+          "bg": "#000000",
+          "color": "#0000ee",
+          "radius": "8px",
+          "height": 40,
+          "paddingX": 18,
+          "font": "sans-serif",
+          "size": 12,
+          "weight": "400"
+        }
+      ],
+      "contentWidth": 1200
+    }
+  },
+  {
     "id": "deepgram-landing",
     "site": "Deepgram",
     "url": "https://deepgram.com",
@@ -27027,6 +27195,67 @@
       },
       "buttons": [],
       "contentWidth": 1440
+    }
+  },
+  {
+    "id": "delicious-nuggets-landing",
+    "site": "Delicious Nuggets",
+    "url": "https://nuggets.earthalliance.org",
+    "type": "landing",
+    "tags": [
+      "giant-serif",
+      "climate",
+      "poster-grid",
+      "colourful-covers",
+      "badge"
+    ],
+    "note": "'Earth Alliance' in a huge serif with a round green 'Delicious Nuggets' badge, then a cascade of bold campaign posters (tl;dr of the IPCC report, 'Death to greenwashing'): climate communication sold through its loudest covers.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/delicious-nuggets-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/delicious-nuggets-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Delicious Nuggets by Earth Alliance",
+      "fonts": [
+        "Basis Grotesque"
+      ],
+      "type": {
+        "h1": null,
+        "h2": null,
+        "h3": null,
+        "body": {
+          "font": "Basis Grotesque",
+          "size": 49,
+          "weight": "400",
+          "lineHeight": 0.9,
+          "letterSpacing": "-1.2175px",
+          "color": "rgb(0, 0, 0)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#ffffff",
+          "#ffeb00",
+          "#0c1f2e",
+          "#ff05f8",
+          "#7d1534"
+        ],
+        "text": [
+          "#000000"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": 1050
     }
   },
   {
@@ -48213,6 +48442,73 @@
     }
   },
   {
+    "id": "konkat-landing",
+    "site": "KONKAT",
+    "url": "https://konkat.studio",
+    "type": "landing",
+    "tags": [
+      "giant-letters",
+      "staggered-wordmark",
+      "dark-mode",
+      "lilac-cards",
+      "app-screens"
+    ],
+    "note": "'KONKAT' broken into giant white letters stepping down the page on black, then the work on lilac and white cards: the wordmark is set as a staircase.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/konkat-landing-desktop.jpg",
+        "width": 1440,
+        "height": 2960
+      },
+      "mobile": {
+        "file": "screens/konkat-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Studio für konzeptionelles Design – KONKAT",
+      "fonts": [
+        "PPObjectSans-Regular",
+        "PPObjectSans-Heavy"
+      ],
+      "type": {
+        "h1": {
+          "font": "PPObjectSans-Heavy",
+          "size": 58,
+          "weight": "400",
+          "lineHeight": 1,
+          "letterSpacing": "-1.44px",
+          "color": "rgb(255, 255, 255)"
+        },
+        "h2": null,
+        "h3": null,
+        "body": {
+          "font": "PPObjectSans-Regular",
+          "size": 16,
+          "weight": "400",
+          "lineHeight": 1.5,
+          "letterSpacing": "0.3px",
+          "color": "rgb(255, 255, 255)"
+        }
+      },
+      "colors": {
+        "background": "#000000",
+        "surfaces": [
+          "#f1f1f1",
+          "#0000fe",
+          "#0000ff"
+        ],
+        "text": [
+          "#ffffff"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": null
+    }
+  },
+  {
     "id": "koyeb-landing",
     "site": "Koyeb",
     "url": "https://www.koyeb.com",
@@ -48920,6 +49216,59 @@
           "weight": "400"
         }
       ],
+      "contentWidth": null
+    }
+  },
+  {
+    "id": "le-kollektiv-landing",
+    "site": "LE KOLLEKTIV",
+    "url": "https://www.lekollektiv.ch",
+    "type": "landing",
+    "tags": [
+      "pink-wordmark",
+      "all-caps-text",
+      "odd-indents",
+      "manifesto",
+      "typewriter-tone"
+    ],
+    "note": "A two-person collective writes its intro in small caps with each line indented differently, like a typed letter, under a pink 'LE KOLLEKTIV' banner: the setting gives a short text a voice.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/le-kollektiv-landing-desktop.jpg",
+        "width": 1440,
+        "height": 900
+      },
+      "mobile": {
+        "file": "screens/le-kollektiv-landing-mobile.jpg",
+        "width": 390,
+        "height": 1118
+      }
+    },
+    "tokens": {
+      "title": "LE KOLLEKTIV",
+      "fonts": [
+        "Helvetica Neue"
+      ],
+      "type": {
+        "h1": null,
+        "h2": null,
+        "h3": null,
+        "body": null
+      },
+      "colors": {
+        "background": "#a5a6a8",
+        "surfaces": [
+          "#ffffff",
+          "#000000",
+          "#b67c9d"
+        ],
+        "text": [
+          "#000000",
+          "#ffffff"
+        ]
+      },
+      "buttons": [],
       "contentWidth": null
     }
   },
@@ -59618,6 +59967,76 @@
     }
   },
   {
+    "id": "old-friends-landing",
+    "site": "Old Friends",
+    "url": "https://www.oldfriends.studio",
+    "type": "landing",
+    "tags": [
+      "serif-italic",
+      "engineering-studio",
+      "testimonials-as-notes",
+      "3d-renders",
+      "local-time"
+    ],
+    "note": "An engineering studio says 'Old Friends is an engineering studio. We build custom websites for teams who value craft.' in serif italics, and shows testimonials as 'Notes from friends', a list of short messages with avatars.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/old-friends-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/old-friends-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Old Friends · Engineering Studio",
+      "fonts": [
+        "monumentGrotesk",
+        "victorSerif"
+      ],
+      "type": {
+        "h1": {
+          "font": "victorSerif",
+          "size": 47,
+          "weight": "500",
+          "lineHeight": 1.14,
+          "letterSpacing": "normal",
+          "color": "rgb(15, 15, 15)"
+        },
+        "h2": null,
+        "h3": null,
+        "body": {
+          "font": "monumentGrotesk",
+          "size": 14,
+          "weight": "400",
+          "lineHeight": 1.43,
+          "letterSpacing": "normal",
+          "color": "rgb(15, 15, 15)"
+        }
+      },
+      "colors": {
+        "background": "#d5d5d7",
+        "surfaces": [
+          "#f8f8fa",
+          "#ebebed",
+          "#baff00",
+          "#296ffc",
+          "#0f0f0f"
+        ],
+        "text": [
+          "#0f0f0f",
+          "#f8f8fa"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": 782
+    }
+  },
+  {
     "id": "old-tom-capital-landing",
     "site": "Old Tom Capital",
     "url": "https://www.oldtomcapital.com",
@@ -62566,6 +62985,93 @@
       },
       "buttons": [],
       "contentWidth": 1600
+    }
+  },
+  {
+    "id": "paseo-landing",
+    "site": "Paseo",
+    "url": "https://paseo.studio",
+    "type": "landing",
+    "tags": [
+      "dense-grid",
+      "dark-mode",
+      "spanish-copy",
+      "quote-header",
+      "captions"
+    ],
+    "note": "A Spanish studio puts one sentence in the header ('Hay cosas que solo encuentran respuesta al caminar') and then a dense dark grid of all its work with small captions: one line, then volume.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/paseo-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/paseo-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Paseo — Home",
+      "fonts": [
+        "neue-haas-grotesk-text",
+        "franklin",
+        "Arial"
+      ],
+      "type": {
+        "h1": {
+          "font": "franklin",
+          "size": 28,
+          "weight": "700",
+          "lineHeight": 1.05,
+          "letterSpacing": "-0.28px",
+          "color": "rgb(229, 229, 229)"
+        },
+        "h2": {
+          "font": "neue-haas-grotesk-text",
+          "size": 12,
+          "weight": "400",
+          "lineHeight": 1.2,
+          "letterSpacing": "0.24px",
+          "color": "rgb(229, 229, 229)"
+        },
+        "h3": null,
+        "body": {
+          "font": "franklin",
+          "size": 60,
+          "weight": "700",
+          "lineHeight": 1,
+          "letterSpacing": "-1.8px",
+          "color": "rgb(0, 0, 0)"
+        }
+      },
+      "colors": {
+        "background": "#855cff",
+        "surfaces": [
+          "#1a1a1a",
+          "#ffffff"
+        ],
+        "text": [
+          "#e5e5e5",
+          "#000000"
+        ]
+      },
+      "buttons": [
+        {
+          "label": "",
+          "bg": "#ffffff",
+          "color": "#e5e5e5",
+          "radius": "50px",
+          "height": 52,
+          "paddingX": 8,
+          "font": "Arial",
+          "size": 16,
+          "weight": "400"
+        }
+      ],
+      "contentWidth": null
     }
   },
   {
@@ -77914,6 +78420,81 @@
     }
   },
   {
+    "id": "studio-hyperlink-landing",
+    "site": "Studio Hyperlink",
+    "url": "https://www.hyperlinknyc.com",
+    "type": "landing",
+    "tags": [
+      "serif-and-sans-wordmark",
+      "green-ticker",
+      "hand-drawn-arrow",
+      "case-cards",
+      "testimonial-cards"
+    ],
+    "note": "A studio's name set half serif, half bold sans, with a green 'now accepting projects' ticker on top and a hand-drawn arrow pointing to the work: small human marks on a clean page.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/studio-hyperlink-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/studio-hyperlink-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Studio Hyperlink",
+      "fonts": [
+        "Haas",
+        "Times Dot"
+      ],
+      "type": {
+        "h1": {
+          "font": "Times Dot",
+          "size": 120,
+          "weight": "400",
+          "lineHeight": 0.52,
+          "letterSpacing": "-6px",
+          "color": "rgb(255, 255, 255)"
+        },
+        "h2": null,
+        "h3": {
+          "font": "Times Dot",
+          "size": 50,
+          "weight": "400",
+          "lineHeight": 1.1,
+          "letterSpacing": "-2.4984px",
+          "color": "rgb(0, 0, 0)"
+        },
+        "body": {
+          "font": "Haas",
+          "size": 24,
+          "weight": "400",
+          "lineHeight": 1.33,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#e62555",
+          "#00ff00",
+          "#ffffff"
+        ],
+        "text": [
+          "#000000",
+          "#ffffff"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": 1440
+    }
+  },
+  {
     "id": "studio-office-landing",
     "site": "Studio Office",
     "url": "https://www.studio-office.fun",
@@ -82832,6 +83413,68 @@
     }
   },
   {
+    "id": "the-studio-landing",
+    "site": "THE STUDIO",
+    "url": "https://www.the-studio.se",
+    "type": "landing",
+    "tags": [
+      "full-bleed-photo",
+      "identity-in-use",
+      "paper-samples",
+      "index"
+    ],
+    "note": "A Swedish studio's homepage is identity work photographed in use (a red tote on stairs, Gmund paper samples fanned out): the materials do the talking.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/the-studio-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/the-studio-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "The Studio",
+      "fonts": [
+        "The Studio Pro:Regular",
+        "ui-sans-serif",
+        "Arial"
+      ],
+      "type": {
+        "h1": null,
+        "h2": null,
+        "h3": null,
+        "body": {
+          "font": "The Studio Pro:Regular Italic",
+          "size": 15,
+          "weight": "400",
+          "lineHeight": 1.15,
+          "letterSpacing": "-0.0375px",
+          "color": "rgb(255, 255, 255)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#ffffff",
+          "#584623",
+          "#000030",
+          "#dec6ae"
+        ],
+        "text": [
+          "#000000",
+          "#ffffff"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": null
+    }
+  },
+  {
     "id": "the-summer-drive-landing",
     "site": "The Summer Drive",
     "url": "https://www.thesummerdrive.com",
@@ -84134,6 +84777,91 @@
       },
       "buttons": [],
       "contentWidth": 1600
+    }
+  },
+  {
+    "id": "tribehouse-landing",
+    "site": "tribehouse",
+    "url": "https://tribehouse.space",
+    "type": "landing",
+    "tags": [
+      "coworking",
+      "photo-hero",
+      "german-copy",
+      "grey-statement",
+      "rooms"
+    ],
+    "note": "A Leipzig coworking house says 'Ein Haus, kein Büro.' over a photo of the room, then 'Raum für Fokus.' in grey with the facts (eight desks, workshops, dinners): a space sold by its rooms.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/tribehouse-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/tribehouse-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Coworking und Events in Leipzig-Plagwitz | tribehouse",
+      "fonts": [
+        "sans"
+      ],
+      "type": {
+        "h1": {
+          "font": "sans",
+          "size": 132,
+          "weight": "700",
+          "lineHeight": 0.9,
+          "letterSpacing": "-5.28192px",
+          "color": "rgb(23, 23, 23)"
+        },
+        "h2": {
+          "font": "sans",
+          "size": 36,
+          "weight": "700",
+          "lineHeight": 1.1,
+          "letterSpacing": "-0.72px",
+          "color": "rgb(244, 244, 242)"
+        },
+        "h3": null,
+        "body": {
+          "font": "sans",
+          "size": 12,
+          "weight": "500",
+          "lineHeight": 1.2,
+          "letterSpacing": "0.71712px",
+          "color": "rgba(244, 244, 242, 0.6)"
+        }
+      },
+      "colors": {
+        "background": "#f4f4f2",
+        "surfaces": [
+          "#f4f4f2",
+          "#171717"
+        ],
+        "text": [
+          "#171717",
+          "#f4f4f2"
+        ]
+      },
+      "buttons": [
+        {
+          "label": "Kontakt",
+          "bg": "#f4f4f2",
+          "color": "#171717",
+          "radius": "999px",
+          "height": 36,
+          "paddingX": 14,
+          "font": "sans",
+          "size": 14,
+          "weight": "500"
+        }
+      ],
+      "contentWidth": 1440
     }
   },
   {

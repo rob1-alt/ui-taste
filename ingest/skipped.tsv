@@ -1571,3 +1571,47 @@ https://www.studionari.co.uk	desktop sparse, partial
 https://innoceanberlin.com	broken (capture over 120s)
 https://www.medusmo.com	broken (screenshot timeout)
 https://www.orchestraco.com	broken (screenshot timeout)
+https://www.skalecki.studio	redirects off-site (midlander.co) (prefilter)
+https://dops.digital	redirects off-site (dops.agency) (prefilter)
+https://spaces.loversmagazine.com	broken (http 404) (prefilter)
+https://www.simsam.studio	redirects off-site (officialpartner.work) (prefilter)
+https://modden.tv	broken (URLError) (prefilter)
+https://urgent.agency	broken (http 454) (prefilter)
+https://for-london.com	broken (RemoteDisconnected) (prefilter)
+https://www.weareteller.com	broken (http 404) (prefilter)
+https://rejiggle.co	broken (http 404) (prefilter)
+https://combination.studio	bot wall (cloudflare) (prefilter)
+https://caboodle.studio	clean case-study list with logo strip and product cards; sta
+https://www.devdifferent.io	dark SaaS-style pricing tiers and steps; template subscripti
+https://dokument.studio	mostly empty: small archive text and a logo; then a black bl
+https://www.doozy.studio	domain parked page ;"This domain may be for sale";
+https://www.hex.inc	large sans headline; client logo row and product screenshot 
+https://neverbeforeseen.co	boutique studio headline over fintech dashboard screenshots;
+https://newterritory.studio	grey photo case grid and service cards; standard studio temp
+https://non-standard.studio	blocked by Cloudflare security check
+https://olssonbarbieri.com	desktop covered by a boutique-award promo popup over the lis
+https://www.orchidea.agency	blocked by "couldn't verify the security of your connection"
+https://otherdays.studio	hero only: grey blobs on black and empty below the first scr
+https://www.ourlifeswork.com	dark dashboard gauge hero then standard client logo grid; Sa
+https://overmind.design	hero only: black screen with a clock and tiny text; nothing 
+https://thepatchsystem.com	bold blue conversion hero with cartoon illustrations; market
+https://piloteparis.com	hero only: orange fluid graphic and SCROLL; empty below the 
+https://playlist.studio	hero only on desktop: glowing wordmark and empty black below
+https://www.pong.design/en	large product-photo hero and project cards; studio template 
+https://www.presentstudio.co	grey photo placeholder and project cards under a standard st
+https://scholz-studio.com	mostly empty: giant S Z and a photo; then black below the fi
+https://studioblunt.com	hero only: grey brand statement and empty below the first sc
+https://www.tatatat.se	marketing-thinking copy and masonry photo grid; typical agen
+https://theworkshop.co	dark "brand and product design studio for early stage ventur
+https://wrs.design	motion-design studio with full-bleed imagery and a client li
+https://five-am.com	blank
+https://www.permanent.is	blank
+https://www.tasteinmotion.com	blank
+https://crush.enterprises	desktop mostly empty
+https://da-s.ie	standard agency grid
+https://www.therawmaterials.com	desktop partial render
+https://reboot.studio	text captured mid scroll-reveal
+https://salt-press.com	desktop cut after the first block
+https://sensa.co	dark and mostly empty
+https://studio-pic.com	desktop empty below the index
+https://curatr.paris/en	broken (navigation during capture)
