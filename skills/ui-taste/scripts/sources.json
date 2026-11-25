@@ -11962,5 +11962,262 @@
    "architecture-graphic"
   ],
   "note": "An orange poster with a white line drawing of Paris arrondissements and handwritten-like labels. A studio project shown as a single printed poster."
+ },
+ {
+  "site": "Bajgart Office",
+  "type": "landing",
+  "url": "https://bajgartoffice.com",
+  "tags": [
+   "serif-display",
+   "italic-accent",
+   "founder-studio",
+   "case-study-tiles",
+   "logo-strip"
+  ],
+  "note": "A one-person brand studio for startups sells the founder's terms in the hero (process + pricing, a 'book your intro call' button, '1 spot left'): the italic 'feeling' is the only flourish, the offer is the design."
+ },
+ {
+  "site": "BLOND",
+  "type": "landing",
+  "url": "https://blond.cc",
+  "tags": [
+   "giant-wordmark",
+   "photo-hero",
+   "product-render-grid",
+   "yellow-accent"
+  ],
+  "note": "The wordmark is set screen-wide in acid yellow over a plain photo of the office, then the page is only the objects they designed on grey: the studio shows the products, not its process."
+ },
+ {
+  "site": "Born & Bred",
+  "type": "landing",
+  "url": "https://bornandbredbrand.com",
+  "tags": [
+   "giant-wordmark",
+   "black-blocks",
+   "all-caps",
+   "red-accent",
+   "case-results"
+  ],
+  "note": "A wordmark as wide as the page, then black blocks with pixel marks and an 'OUR RESULTS' section: the agency speaks in outcomes and keeps one red accent for buttons."
+ },
+ {
+  "site": "Bruno Cisco",
+  "type": "landing",
+  "url": "https://brunocis.co",
+  "tags": [
+   "giant-name",
+   "manifesto",
+   "copywriter",
+   "serif-italic-accent",
+   "testimonial"
+  ],
+  "note": "A copywriter's site is the copy: the name huge, then one long paragraph in large type that ends on an italic 'Anything but skippable.' The writing is the portfolio."
+ },
+ {
+  "site": "Chloe Schumacher",
+  "type": "landing",
+  "url": "https://chloeschumacher.com",
+  "tags": [
+   "pink-field",
+   "object-grid",
+   "3d-icons",
+   "portfolio-tiles",
+   "no-copy"
+  ],
+  "note": "A product designer's work shown as a field of small rendered objects on flat pink, no captions: each tile is a project, the grid is the identity."
+ },
+ {
+  "site": "equipo.exe",
+  "type": "landing",
+  "url": "https://equipo-exe.com",
+  "tags": [
+   "editorial-serif",
+   "dense-text",
+   "team-directory",
+   "photo-pair",
+   "diagram"
+  ],
+  "note": "An architecture support team writes its positioning as one dense serif paragraph across the top, then a full team directory and a globe diagram: a text-first page that reads like a practice's brochure."
+ },
+ {
+  "site": "George&Harrison",
+  "type": "landing",
+  "url": "http://www.georgeandharrison.nl",
+  "tags": [
+   "yellow-nav-bar",
+   "serif-intro",
+   "full-bleed-projects",
+   "project-list"
+  ],
+  "note": "The nav is a yellow strip that sits under the first project image, not at the top: the work opens the page and the studio introduces itself after."
+ },
+ {
+  "site": "Greenspace",
+  "type": "landing",
+  "url": "http://www.thegreenspace.com",
+  "tags": [
+   "colour-blocks",
+   "pantone-labels",
+   "project-name-list",
+   "big-type-list"
+  ],
+  "note": "The hero is a row of Pantone colour chips with their names set vertically, then the selected projects are only client names in large grey type: an identity studio shows its palette work as the header."
+ },
+ {
+  "site": "iamrobin",
+  "type": "landing",
+  "url": "https://iamrob.in",
+  "tags": [
+   "monospace",
+   "personal-site",
+   "photo-strip",
+   "side-projects",
+   "blog-list"
+  ],
+  "note": "A design engineer's home is a plain bio with a bird mark, a photo strip and dated lists of side projects and posts: a personal site that is a log, not a showcase."
+ },
+ {
+  "site": "Isa De Burgh",
+  "type": "landing",
+  "url": "https://isadeburgh.com",
+  "tags": [
+   "giant-wordmark",
+   "client-type-wall",
+   "condensed-caps",
+   "collage",
+   "case-study"
+  ],
+  "note": "Client names set in condensed caps as a wall of type with small colour chips between them; then a case study collage with polaroids and stickers. The client list is the hero's second act."
+ },
+ {
+  "site": "KO Collective",
+  "type": "landing",
+  "url": "https://www.ko-collective.com",
+  "tags": [
+   "serif-wordmark",
+   "photo-grid",
+   "staggered-gallery",
+   "fashion",
+   "monospace-captions"
+  ],
+  "note": "A fashion production collective lets photography carry the page: a serif wordmark, then staggered full photos with small mono captions, nothing else."
+ },
+ {
+  "site": "Kurppa Hosk",
+  "type": "landing",
+  "url": "https://kurppahosk.com",
+  "tags": [
+   "dark-mode",
+   "brand-index",
+   "video-thumbnail-rows",
+   "line-illustration",
+   "holding-company"
+  ],
+  "note": "A brand agency lists clients as rows (name, one-line brief, thumbnails strip) on black: an index of brands instead of case study cards."
+ },
+ {
+  "site": "Loli Laboureau",
+  "type": "landing",
+  "url": "http://www.lolilaboureau.com",
+  "tags": [
+   "collage",
+   "sticker-graphics",
+   "photo-frames",
+   "red-and-blue",
+   "director"
+  ],
+  "note": "A director's site built from cut-outs: gilded frames, stickers, a yellow phone and hand lettering over film stills. The collage is the reel."
+ },
+ {
+  "site": "Marko Jotic",
+  "type": "landing",
+  "url": "https://markojotic.com",
+  "tags": [
+   "giant-name",
+   "dark-mode",
+   "phone-screens",
+   "product-designer"
+  ],
+  "note": "A product designer puts the name huge on black and then shows app screens at real size, row after row: the output is the page."
+ },
+ {
+  "site": "NoGood",
+  "type": "landing",
+  "url": "https://nogood.studio",
+  "tags": [
+   "lime-accent",
+   "illustration-hero",
+   "system-log",
+   "shop",
+   "logo-marquee",
+   "dark-grid"
+  ],
+  "note": "An illustrator's site in lime and black with a 'system log' sidebar (recent supporters, last commission, shop item) next to the hero illustration: the side column makes the site feel alive."
+ },
+ {
+  "site": "Otherkind",
+  "type": "landing",
+  "url": "https://www.otherkind.design",
+  "tags": [
+   "giant-serif-wordmark",
+   "small-text",
+   "client-list",
+   "team-cutouts"
+  ],
+  "note": "A huge heavy serif wordmark and everything else set tiny: client list with years, two project tiles, team cut-outs. The contrast in scale is the whole design."
+ },
+ {
+  "site": "REF Digital Agency",
+  "type": "landing",
+  "url": "https://ref.digital",
+  "tags": [
+   "wordmark-hero",
+   "beige-palette",
+   "project-carousel",
+   "3d-object",
+   "quiet-statement"
+  ],
+  "note": "Beige all the way down with a stencil-like REF wordmark, one project carousel and a scanned 3D plane: a calm agency page that keeps one odd object as its signature."
+ },
+ {
+  "site": "Stephan Mann",
+  "type": "landing",
+  "url": "https://www.stvxmvnn.com",
+  "tags": [
+   "serif-wordmark",
+   "german-copy",
+   "service-list",
+   "stickers",
+   "selected-work"
+  ],
+  "note": "A designer's name rewritten as STVXMVNN in a wide serif, with a selfie and German copy: the wordmark is the play, the service list stays plain."
+ },
+ {
+  "site": "Vogelhaus",
+  "type": "landing",
+  "url": "https://www.vogel.haus",
+  "tags": [
+   "night-sky-gradient",
+   "serif-headline",
+   "letter-card",
+   "polaroids",
+   "signatures",
+   "app-icons"
+  ],
+  "note": "A two-person app studio writes 'We are nerds.' as a signed letter on paper, framed by polaroids of the founders and a night-sky gradient: the manifesto is a letter, and the apps come after."
+ },
+ {
+  "site": "Ysabella Nicole Alvarez",
+  "type": "landing",
+  "url": "https://www.ysabella.me",
+  "tags": [
+   "sticky-notes",
+   "hand-drawn-avatar",
+   "tag-ticker",
+   "purple-tiles",
+   "phone-mockups"
+  ],
+  "note": "A designer's intro on a blue sticky note with an orange 'currently figuring out' tag and a ticker of skills, then the work as purple tiles: a playful header over an ordinary grid."
  }
 ]

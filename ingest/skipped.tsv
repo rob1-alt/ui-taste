@@ -1347,3 +1347,32 @@ https://tillmannfranzen.com	generic, modal or partial render
 https://itomdev.com	generic, modal or partial render
 https://wschupfer.com	generic, modal or partial render
 https://fabracomunicacion.com	menu overlay open over the page
+https://dagn.space	broken (URLError) (prefilter)
+https://www.wonderlandindustry.com	redirects off-site (toto-togel.com) (prefilter)
+https://www.wearedesignstudio.com	redirects off-site (design.studio) (prefilter)
+https://jsnrynlds.xyz	redirects off-site (jsnrynlds.com) (prefilter)
+http://www.loafcreative.com	redirects off-site (loaf.agency) (prefilter)
+https://limeiq.com	blocked (http 429) (prefilter)
+http://chusmargallo.space	blank, WebGL
+https://www.karlanders.io	blank
+https://www.over-stimulated.com	blank
+https://www.subdivision.work	blank, WebGL
+https://www.bodeyco.com	hero only, scroll-hijacked
+https://claudiuangheloni.com	hero only
+https://www.cubiflow.com	hero only
+http://foolscapstudio.com.au	hero only
+https://www.hammeralbrecht.design	partial render, lazy images
+https://www.mc1ane.com	hero only
+https://www.metajive.com	hero only
+https://mock.nyc	hero only on desktop
+https://renecoignard.com	hero only
+https://rfeasley.io	hero only
+https://truecolorfilms.com	hero only
+http://madeinburo.com	desktop partial render
+https://www.delt.net	desktop blank below hero
+https://www.wearefirma.com	one hero and one line, thin
+https://www.fromanother.love	WebGL blob and agency slogan, generic
+https://jacksonalexander.com.au	portfolio template
+https://www.studioprimal.com	dark portfolio template
+https://milkshake.app	SaaS template
+https://zentto.com/en	stat tile and quote card template

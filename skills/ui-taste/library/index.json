@@ -16318,6 +16318,108 @@
     }
   },
   {
+    "id": "bajgart-office-landing",
+    "site": "Bajgart Office",
+    "url": "https://bajgartoffice.com",
+    "type": "landing",
+    "tags": [
+      "serif-display",
+      "italic-accent",
+      "founder-studio",
+      "case-study-tiles",
+      "logo-strip"
+    ],
+    "note": "A one-person brand studio for startups sells the founder's terms in the hero (process + pricing, a 'book your intro call' button, '1 spot left'): the italic 'feeling' is the only flourish, the offer is the design.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/bajgart-office-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/bajgart-office-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Bajgart Design Office | Brand identity and websites for startups",
+      "fonts": [
+        "Saans Regular",
+        "sans-serif",
+        "Rhymes Text Light"
+      ],
+      "type": {
+        "h1": {
+          "font": "Rhymes Text Light",
+          "size": 72,
+          "weight": "300",
+          "lineHeight": 1,
+          "letterSpacing": "-4.32px",
+          "color": "rgb(0, 0, 0)"
+        },
+        "h2": {
+          "font": "Rhymes Text Light",
+          "size": 56,
+          "weight": "300",
+          "lineHeight": 1.05,
+          "letterSpacing": "-3.36px",
+          "color": "rgb(0, 0, 0)"
+        },
+        "h3": null,
+        "body": {
+          "font": "Rhymes Text Light",
+          "size": 56,
+          "weight": "300",
+          "lineHeight": 1.05,
+          "letterSpacing": "-3.36px",
+          "color": "rgb(0, 0, 0)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#ffffff",
+          "#f5f5f5",
+          "#f6f6f6",
+          "#000000",
+          "#189e48"
+        ],
+        "text": [
+          "#000000",
+          "#ffffff",
+          "#189e48"
+        ]
+      },
+      "buttons": [
+        {
+          "label": "Book your intro call",
+          "bg": "#000000",
+          "color": "#0000ee",
+          "radius": "50px",
+          "height": 40,
+          "paddingX": 16,
+          "font": "sans-serif",
+          "size": 12,
+          "weight": "400"
+        },
+        {
+          "label": "Book your intro call",
+          "bg": "#000000",
+          "color": "#0000ee",
+          "radius": "50px",
+          "height": 40,
+          "paddingX": 16,
+          "font": "sans-serif",
+          "size": 12,
+          "weight": "400"
+        }
+      ],
+      "contentWidth": 720
+    }
+  },
+  {
     "id": "barbican-landing",
     "site": "Barbican",
     "url": "https://www.barbican.org.uk",
@@ -18110,6 +18212,71 @@
     }
   },
   {
+    "id": "blond-landing",
+    "site": "BLOND",
+    "url": "https://blond.cc",
+    "type": "landing",
+    "tags": [
+      "giant-wordmark",
+      "photo-hero",
+      "product-render-grid",
+      "yellow-accent"
+    ],
+    "note": "The wordmark is set screen-wide in acid yellow over a plain photo of the office, then the page is only the objects they designed on grey: the studio shows the products, not its process.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/blond-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/blond-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "BLOND — Industrial Design and Product Design",
+      "fonts": [
+        "monumentGrotesk"
+      ],
+      "type": {
+        "h1": {
+          "font": "monumentGrotesk",
+          "size": 10,
+          "weight": "500",
+          "lineHeight": 1.5,
+          "letterSpacing": "normal",
+          "color": "rgb(29, 23, 23)"
+        },
+        "h2": null,
+        "h3": null,
+        "body": {
+          "font": "monumentGrotesk",
+          "size": 14,
+          "weight": "500",
+          "lineHeight": 1.2,
+          "letterSpacing": "-0.14px",
+          "color": "rgb(29, 23, 23)"
+        }
+      },
+      "colors": {
+        "background": "#f9f9f9",
+        "surfaces": [
+          "#f9f9f9",
+          "#e9fe79"
+        ],
+        "text": [
+          "#1d1717",
+          "#f9f9f9"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": null
+    }
+  },
+  {
     "id": "bluesky-landing",
     "site": "Bluesky",
     "url": "https://bsky.social",
@@ -18518,6 +18685,88 @@
       },
       "buttons": [],
       "contentWidth": 1095
+    }
+  },
+  {
+    "id": "born-bred-landing",
+    "site": "Born & Bred",
+    "url": "https://bornandbredbrand.com",
+    "type": "landing",
+    "tags": [
+      "giant-wordmark",
+      "black-blocks",
+      "all-caps",
+      "red-accent",
+      "case-results"
+    ],
+    "note": "A wordmark as wide as the page, then black blocks with pixel marks and an 'OUR RESULTS' section: the agency speaks in outcomes and keeps one red accent for buttons.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/born-bred-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/born-bred-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "San Francisco Creative Marketing Agency | Born & Bred",
+      "fonts": [
+        "Satoshi",
+        "Forma DJR Display"
+      ],
+      "type": {
+        "h1": {
+          "font": "Forma DJR Display",
+          "size": 75,
+          "weight": "700",
+          "lineHeight": 0.96,
+          "letterSpacing": "2.25px",
+          "color": "rgb(0, 0, 0)"
+        },
+        "h2": {
+          "font": "Forma DJR Display",
+          "size": 113,
+          "weight": "700",
+          "lineHeight": 0.89,
+          "letterSpacing": "3.375px",
+          "color": "rgb(255, 255, 255)"
+        },
+        "h3": {
+          "font": "Forma DJR Display",
+          "size": 15,
+          "weight": "500",
+          "lineHeight": 1.06,
+          "letterSpacing": "normal",
+          "color": "rgb(255, 255, 255)"
+        },
+        "body": {
+          "font": "Satoshi",
+          "size": 19,
+          "weight": "400",
+          "lineHeight": 1.4,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#000000",
+          "#ffffff",
+          "#ff0000"
+        ],
+        "text": [
+          "#000000",
+          "#ffffff"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": 1170
     }
   },
   {
@@ -19114,6 +19363,99 @@
         }
       ],
       "contentWidth": 1280
+    }
+  },
+  {
+    "id": "bruno-cisco-landing",
+    "site": "Bruno Cisco",
+    "url": "https://brunocis.co",
+    "type": "landing",
+    "tags": [
+      "giant-name",
+      "manifesto",
+      "copywriter",
+      "serif-italic-accent",
+      "testimonial"
+    ],
+    "note": "A copywriter's site is the copy: the name huge, then one long paragraph in large type that ends on an italic 'Anything but skippable.' The writing is the portfolio.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/bruno-cisco-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/bruno-cisco-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Bruno Cisco | ACD/CW",
+      "fonts": [
+        "Inter Tight"
+      ],
+      "type": {
+        "h1": {
+          "font": "Inter Tight",
+          "size": 76,
+          "weight": "500",
+          "lineHeight": 1.03,
+          "letterSpacing": "-1.5296px",
+          "color": "rgb(255, 255, 255)"
+        },
+        "h2": {
+          "font": "Inter Tight",
+          "size": 282,
+          "weight": "500",
+          "lineHeight": 1,
+          "letterSpacing": "-5.636px",
+          "color": "rgb(0, 0, 0)"
+        },
+        "h3": {
+          "font": "Inter Tight",
+          "size": 33,
+          "weight": "500",
+          "lineHeight": 1.15,
+          "letterSpacing": "-0.6656px",
+          "color": "rgb(0, 0, 0)"
+        },
+        "body": {
+          "font": "Inter Tight",
+          "size": 13,
+          "weight": "400",
+          "lineHeight": 1.2,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        }
+      },
+      "colors": {
+        "background": "#e9e9e9",
+        "surfaces": [
+          "#000000",
+          "#f5f5f5",
+          "#ffffff"
+        ],
+        "text": [
+          "#000000",
+          "#ffffff"
+        ]
+      },
+      "buttons": [
+        {
+          "label": "",
+          "bg": "#000000",
+          "color": "#ffffff",
+          "radius": "15.6px",
+          "height": 50,
+          "paddingX": 20,
+          "font": "Inter Tight",
+          "size": 12,
+          "weight": "700"
+        }
+      ],
+      "contentWidth": 1600
     }
   },
   {
@@ -21152,6 +21494,79 @@
         }
       ],
       "contentWidth": 1400
+    }
+  },
+  {
+    "id": "chloe-schumacher-landing",
+    "site": "Chloe Schumacher",
+    "url": "https://chloeschumacher.com",
+    "type": "landing",
+    "tags": [
+      "pink-field",
+      "object-grid",
+      "3d-icons",
+      "portfolio-tiles",
+      "no-copy"
+    ],
+    "note": "A product designer's work shown as a field of small rendered objects on flat pink, no captions: each tile is a project, the grid is the identity.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/chloe-schumacher-landing-desktop.jpg",
+        "width": 1440,
+        "height": 1614
+      },
+      "mobile": {
+        "file": "screens/chloe-schumacher-landing-mobile.jpg",
+        "width": 390,
+        "height": 1362
+      }
+    },
+    "tokens": {
+      "title": "Chloe Schumacher",
+      "fonts": [
+        "monospace",
+        "sans-serif",
+        "Apfel Grotezk"
+      ],
+      "type": {
+        "h1": null,
+        "h2": {
+          "font": "Abhaya Libre",
+          "size": 8,
+          "weight": "400",
+          "lineHeight": 1.2,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        },
+        "h3": null,
+        "body": {
+          "font": "Apfel Grotezk",
+          "size": 16,
+          "weight": "400",
+          "lineHeight": 1.4,
+          "letterSpacing": "0.32px",
+          "color": "rgb(0, 0, 0)"
+        }
+      },
+      "colors": {
+        "background": "#e88bba",
+        "surfaces": [
+          "#e88bba",
+          "#272822",
+          "#e0e0e0",
+          "#ff5f56",
+          "#ffbd2e"
+        ],
+        "text": [
+          "#f8f8f2",
+          "#000000",
+          "#e6db74",
+          "#f92672"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": null
     }
   },
   {
@@ -29321,6 +29736,72 @@
     }
   },
   {
+    "id": "equipo-exe-landing",
+    "site": "equipo.exe",
+    "url": "https://equipo-exe.com",
+    "type": "landing",
+    "tags": [
+      "editorial-serif",
+      "dense-text",
+      "team-directory",
+      "photo-pair",
+      "diagram"
+    ],
+    "note": "An architecture support team writes its positioning as one dense serif paragraph across the top, then a full team directory and a globe diagram: a text-first page that reads like a practice's brochure.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/equipo-exe-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3042
+      },
+      "mobile": {
+        "file": "screens/equipo-exe-landing-mobile.jpg",
+        "width": 390,
+        "height": 844
+      }
+    },
+    "tokens": {
+      "title": "Exe",
+      "fonts": [
+        "Selecta-Medium",
+        "RyhmesDisplay-Light"
+      ],
+      "type": {
+        "h1": {
+          "font": "RyhmesDisplay-Light",
+          "size": 23,
+          "weight": "400",
+          "lineHeight": 0.97,
+          "letterSpacing": "-0.58122px",
+          "color": "rgb(0, 0, 0)"
+        },
+        "h2": null,
+        "h3": null,
+        "body": {
+          "font": "RyhmesDisplay-Light",
+          "size": 24,
+          "weight": "400",
+          "lineHeight": 1,
+          "letterSpacing": "-0.599976px",
+          "color": "rgb(0, 0, 0)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#ffffff"
+        ],
+        "text": [
+          "#000000",
+          "#ffffff"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": null
+    }
+  },
+  {
     "id": "etched-landing",
     "site": "Etched",
     "url": "https://www.etched.com",
@@ -34835,6 +35316,80 @@
     }
   },
   {
+    "id": "george-harrison-landing",
+    "site": "George&Harrison",
+    "url": "http://www.georgeandharrison.nl",
+    "type": "landing",
+    "tags": [
+      "yellow-nav-bar",
+      "serif-intro",
+      "full-bleed-projects",
+      "project-list"
+    ],
+    "note": "The nav is a yellow strip that sits under the first project image, not at the top: the work opens the page and the studio introduces itself after.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/george-harrison-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/george-harrison-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "George&Harrison",
+      "fonts": [
+        "HelveticaNow",
+        "TimesNow"
+      ],
+      "type": {
+        "h1": {
+          "font": "TimesNow",
+          "size": 44,
+          "weight": "400",
+          "lineHeight": 1.04,
+          "letterSpacing": "-0.22px",
+          "color": "rgb(0, 0, 0)"
+        },
+        "h2": null,
+        "h3": {
+          "font": "HelveticaNow",
+          "size": 19,
+          "weight": "400",
+          "lineHeight": 1.26,
+          "letterSpacing": "-0.07125px",
+          "color": "rgb(0, 0, 0)"
+        },
+        "body": {
+          "font": "HelveticaNow",
+          "size": 19,
+          "weight": "400",
+          "lineHeight": 1.26,
+          "letterSpacing": "-0.07125px",
+          "color": "rgb(0, 0, 0)"
+        }
+      },
+      "colors": {
+        "background": "#f9f8f6",
+        "surfaces": [
+          "#edfe00",
+          "#f9f8f6",
+          "#e9e9e9"
+        ],
+        "text": [
+          "#000000",
+          "#ffffff"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": 1440
+    }
+  },
+  {
     "id": "ghost-landing",
     "site": "Ghost",
     "url": "https://ghost.org",
@@ -36179,6 +36734,58 @@
       },
       "buttons": [],
       "contentWidth": 1158
+    }
+  },
+  {
+    "id": "greenspace-landing",
+    "site": "Greenspace",
+    "url": "http://www.thegreenspace.com",
+    "type": "landing",
+    "tags": [
+      "colour-blocks",
+      "pantone-labels",
+      "project-name-list",
+      "big-type-list"
+    ],
+    "note": "The hero is a row of Pantone colour chips with their names set vertically, then the selected projects are only client names in large grey type: an identity studio shows its palette work as the header.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/greenspace-landing-desktop.jpg",
+        "width": 1440,
+        "height": 2238
+      },
+      "mobile": {
+        "file": "screens/greenspace-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Create Legacy | Greenspace",
+      "fonts": [
+        "haas_grotesk"
+      ],
+      "type": {
+        "h1": null,
+        "h2": null,
+        "h3": null,
+        "body": null
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#000000",
+          "#dddddd"
+        ],
+        "text": [
+          "#bebebe",
+          "#000000",
+          "#ffffff"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": null
     }
   },
   {
@@ -40613,6 +41220,79 @@
     }
   },
   {
+    "id": "iamrobin-landing",
+    "site": "iamrobin",
+    "url": "https://iamrob.in",
+    "type": "landing",
+    "tags": [
+      "monospace",
+      "personal-site",
+      "photo-strip",
+      "side-projects",
+      "blog-list"
+    ],
+    "note": "A design engineer's home is a plain bio with a bird mark, a photo strip and dated lists of side projects and posts: a personal site that is a log, not a showcase.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/iamrobin-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3067
+      },
+      "mobile": {
+        "file": "screens/iamrobin-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Robin Spielmann — Design Engineer and Frontend Developer",
+      "fonts": [
+        "apercu",
+        "Fira Mono",
+        "LiebeHeide"
+      ],
+      "type": {
+        "h1": {
+          "font": "apercu",
+          "size": 61,
+          "weight": "700",
+          "lineHeight": 1.08,
+          "letterSpacing": "-1.224px",
+          "color": "rgb(26, 25, 25)"
+        },
+        "h2": {
+          "font": "apercu",
+          "size": 15,
+          "weight": "700",
+          "lineHeight": 1.63,
+          "letterSpacing": "normal",
+          "color": "rgb(26, 25, 25)"
+        },
+        "h3": null,
+        "body": {
+          "font": "Fira Mono",
+          "size": 18,
+          "weight": "400",
+          "lineHeight": 1.63,
+          "letterSpacing": "normal",
+          "color": "rgb(26, 25, 25)"
+        }
+      },
+      "colors": {
+        "background": "#eae8e3",
+        "surfaces": [
+          "#1a1919"
+        ],
+        "text": [
+          "#1a1919"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": 1440
+    }
+  },
+  {
     "id": "iconwerk-landing",
     "site": "iconwerk",
     "url": "https://www.iconwerk.com",
@@ -42079,6 +42759,88 @@
         }
       ],
       "contentWidth": 1440
+    }
+  },
+  {
+    "id": "isa-de-burgh-landing",
+    "site": "Isa De Burgh",
+    "url": "https://isadeburgh.com",
+    "type": "landing",
+    "tags": [
+      "giant-wordmark",
+      "client-type-wall",
+      "condensed-caps",
+      "collage",
+      "case-study"
+    ],
+    "note": "Client names set in condensed caps as a wall of type with small colour chips between them; then a case study collage with polaroids and stickers. The client list is the hero's second act.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/isa-de-burgh-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/isa-de-burgh-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Isa de Burgh – CPG Brand Architect & Creative Director",
+      "fonts": [
+        "FoundersGroteskCondensedMedium",
+        "EditorialNewUltraLight",
+        "PPNeueMontrealBold"
+      ],
+      "type": {
+        "h1": {
+          "font": "FoundersGroteskCondensedMedium",
+          "size": 240,
+          "weight": "500",
+          "lineHeight": 0.82,
+          "letterSpacing": "-9.6px",
+          "color": "rgb(0, 0, 0)"
+        },
+        "h2": {
+          "font": "FoundersGroteskCondensedMedium",
+          "size": 128,
+          "weight": "500",
+          "lineHeight": 0.85,
+          "letterSpacing": "-5.12px",
+          "color": "rgb(0, 0, 0)"
+        },
+        "h3": {
+          "font": "FoundersGroteskCondensedMedium",
+          "size": 24,
+          "weight": "500",
+          "lineHeight": 0.8,
+          "letterSpacing": "-0.64px",
+          "color": "rgb(0, 0, 0)"
+        },
+        "body": {
+          "font": "FoundersGroteskCondensedMedium",
+          "size": 96,
+          "weight": "500",
+          "lineHeight": 0.8,
+          "letterSpacing": "-5.12px",
+          "color": "rgb(0, 0, 0)"
+        }
+      },
+      "colors": {
+        "background": "#fffefc",
+        "surfaces": [
+          "#000000",
+          "#333333"
+        ],
+        "text": [
+          "#000000",
+          "#ffffff"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": 1408
     }
   },
   {
@@ -44346,6 +45108,88 @@
     }
   },
   {
+    "id": "ko-collective-landing",
+    "site": "KO Collective",
+    "url": "https://www.ko-collective.com",
+    "type": "landing",
+    "tags": [
+      "serif-wordmark",
+      "photo-grid",
+      "staggered-gallery",
+      "fashion",
+      "monospace-captions"
+    ],
+    "note": "A fashion production collective lets photography carry the page: a serif wordmark, then staggered full photos with small mono captions, nothing else.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/ko-collective-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/ko-collective-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "KO Collective",
+      "fonts": [
+        "Ivory Mono LL"
+      ],
+      "type": {
+        "h1": {
+          "font": "Ivory Mono LL",
+          "size": 14,
+          "weight": "400",
+          "lineHeight": 1.18,
+          "letterSpacing": "-0.42px",
+          "color": "rgb(0, 0, 0)"
+        },
+        "h2": {
+          "font": "Ivory Mono LL",
+          "size": 22,
+          "weight": "400",
+          "lineHeight": 1.12,
+          "letterSpacing": "-1.32px",
+          "color": "rgba(0, 0, 0, 0.5)"
+        },
+        "h3": {
+          "font": "Ivory Mono LL",
+          "size": 14,
+          "weight": "400",
+          "lineHeight": 1.18,
+          "letterSpacing": "-0.42px",
+          "color": "rgba(0, 0, 0, 0.5)"
+        },
+        "body": {
+          "font": "Ivory Mono LL",
+          "size": 14,
+          "weight": "400",
+          "lineHeight": 1.18,
+          "letterSpacing": "-0.42px",
+          "color": "rgb(0, 0, 0)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#f2f2f2",
+          "#ffffff",
+          "#c0b590",
+          "#9fc2b2",
+          "#740a09"
+        ],
+        "text": [
+          "#000000"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": null
+    }
+  },
+  {
     "id": "komoot-landing",
     "site": "Komoot",
     "url": "https://www.komoot.com",
@@ -44582,6 +45426,72 @@
       },
       "buttons": [],
       "contentWidth": 1400
+    }
+  },
+  {
+    "id": "kurppa-hosk-landing",
+    "site": "Kurppa Hosk",
+    "url": "https://kurppahosk.com",
+    "type": "landing",
+    "tags": [
+      "dark-mode",
+      "brand-index",
+      "video-thumbnail-rows",
+      "line-illustration",
+      "holding-company"
+    ],
+    "note": "A brand agency lists clients as rows (name, one-line brief, thumbnails strip) on black: an index of brands instead of case study cards.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/kurppa-hosk-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/kurppa-hosk-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Kurppa Hosk – Brand Agency – Stockholm, Oslo, New York, Chicago, London",
+      "fonts": [
+        "teka",
+        "giga"
+      ],
+      "type": {
+        "h1": null,
+        "h2": {
+          "font": "teka",
+          "size": 18,
+          "weight": "400",
+          "lineHeight": 1.1,
+          "letterSpacing": "normal",
+          "color": "rgba(255, 255, 255, 0.87)"
+        },
+        "h3": null,
+        "body": {
+          "font": "teka",
+          "size": 18,
+          "weight": "400",
+          "lineHeight": 1.1,
+          "letterSpacing": "normal",
+          "color": "rgba(255, 255, 255, 0.87)"
+        }
+      },
+      "colors": {
+        "background": "#000000",
+        "surfaces": [
+          "#000000"
+        ],
+        "text": [
+          "#ffffff",
+          "#c6c6c6"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": null
     }
   },
   {
@@ -47141,6 +48051,124 @@
     }
   },
   {
+    "id": "loli-laboureau-landing",
+    "site": "Loli Laboureau",
+    "url": "http://www.lolilaboureau.com",
+    "type": "landing",
+    "tags": [
+      "collage",
+      "sticker-graphics",
+      "photo-frames",
+      "red-and-blue",
+      "director"
+    ],
+    "note": "A director's site built from cut-outs: gilded frames, stickers, a yellow phone and hand lettering over film stills. The collage is the reel.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/loli-laboureau-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/loli-laboureau-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Loli Laboureau",
+      "fonts": [
+        "Inter",
+        "sans-serif",
+        "Fragment Mono"
+      ],
+      "type": {
+        "h1": null,
+        "h2": null,
+        "h3": null,
+        "body": {
+          "font": "Inter",
+          "size": 15,
+          "weight": "600",
+          "lineHeight": 2,
+          "letterSpacing": "-0.15px",
+          "color": "rgb(0, 0, 0)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#ffffff",
+          "#ff0202",
+          "#ff0505"
+        ],
+        "text": [
+          "#000000",
+          "#999999"
+        ]
+      },
+      "buttons": [
+        {
+          "label": "HOME",
+          "bg": "#ffffff",
+          "color": "#0000ee",
+          "radius": "0px",
+          "height": 64,
+          "paddingX": 20,
+          "font": "sans-serif",
+          "size": 12,
+          "weight": "400"
+        },
+        {
+          "label": "FILMS",
+          "bg": "#ffffff",
+          "color": "#0000ee",
+          "radius": "0px",
+          "height": 64,
+          "paddingX": 20,
+          "font": "sans-serif",
+          "size": 12,
+          "weight": "400"
+        },
+        {
+          "label": "LAB AI",
+          "bg": "#ffffff",
+          "color": "#0000ee",
+          "radius": "0px",
+          "height": 64,
+          "paddingX": 20,
+          "font": "sans-serif",
+          "size": 12,
+          "weight": "400"
+        },
+        {
+          "label": "ABOUT ME",
+          "bg": "#ffffff",
+          "color": "#0000ee",
+          "radius": "0px",
+          "height": 64,
+          "paddingX": 20,
+          "font": "sans-serif",
+          "size": 12,
+          "weight": "400"
+        },
+        {
+          "label": "",
+          "bg": "#ff0505",
+          "color": "#000000",
+          "radius": "31px",
+          "height": 42,
+          "paddingX": 20,
+          "font": "sans-serif",
+          "size": 12,
+          "weight": "400"
+        }
+      ],
+      "contentWidth": null
+    }
+  },
+  {
     "id": "loom-landing",
     "site": "Loom",
     "url": "https://www.loom.com",
@@ -48577,6 +49605,67 @@
       },
       "buttons": [],
       "contentWidth": null
+    }
+  },
+  {
+    "id": "marko-jotic-landing",
+    "site": "Marko Jotic",
+    "url": "https://markojotic.com",
+    "type": "landing",
+    "tags": [
+      "giant-name",
+      "dark-mode",
+      "phone-screens",
+      "product-designer"
+    ],
+    "note": "A product designer puts the name huge on black and then shows app screens at real size, row after row: the output is the page.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/marko-jotic-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/marko-jotic-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Marko Jotic - Design generalist crafting user experiences, interfaces, animations, and visual interactions.",
+      "fonts": [
+        "Inter"
+      ],
+      "type": {
+        "h1": {
+          "font": "Inter",
+          "size": 216,
+          "weight": "700",
+          "lineHeight": 0.9,
+          "letterSpacing": "-10.8px",
+          "color": "rgb(250, 250, 250)"
+        },
+        "h2": null,
+        "h3": null,
+        "body": {
+          "font": "Inter",
+          "size": 16,
+          "weight": "400",
+          "lineHeight": 1.6,
+          "letterSpacing": "normal",
+          "color": "rgb(250, 250, 250)"
+        }
+      },
+      "colors": {
+        "background": "#080808",
+        "surfaces": [],
+        "text": [
+          "#fafafa"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": 1400
     }
   },
   {
@@ -53287,6 +54376,92 @@
     }
   },
   {
+    "id": "nogood-landing",
+    "site": "NoGood",
+    "url": "https://nogood.studio",
+    "type": "landing",
+    "tags": [
+      "lime-accent",
+      "illustration-hero",
+      "system-log",
+      "shop",
+      "logo-marquee",
+      "dark-grid"
+    ],
+    "note": "An illustrator's site in lime and black with a 'system log' sidebar (recent supporters, last commission, shop item) next to the hero illustration: the side column makes the site feel alive.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/nogood-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/nogood-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "NoGood",
+      "fonts": [
+        "Offbit-Bold",
+        "UntitledSans-Regular",
+        "Arial"
+      ],
+      "type": {
+        "h1": {
+          "font": "UntitledSans-Regular",
+          "size": 48,
+          "weight": "400",
+          "lineHeight": 1,
+          "letterSpacing": "-0.48px",
+          "color": "rgb(28, 28, 28)"
+        },
+        "h2": {
+          "font": "UntitledSans-Regular",
+          "size": 32,
+          "weight": "400",
+          "lineHeight": 1.1,
+          "letterSpacing": "-0.32px",
+          "color": "rgb(251, 250, 243)"
+        },
+        "h3": {
+          "font": "Offbit-Bold",
+          "size": 24,
+          "weight": "400",
+          "lineHeight": 1,
+          "letterSpacing": "0.8px",
+          "color": "rgb(251, 250, 243)"
+        },
+        "body": {
+          "font": "UntitledSans-Regular",
+          "size": 21,
+          "weight": "400",
+          "lineHeight": 1.46,
+          "letterSpacing": "-0.16px",
+          "color": "rgb(28, 28, 28)"
+        }
+      },
+      "colors": {
+        "background": "#fbfaf3",
+        "surfaces": [
+          "#1c1c1c",
+          "#d0fa66",
+          "#e9e5db",
+          "#4caf50"
+        ],
+        "text": [
+          "#1c1c1c",
+          "#fbfaf3",
+          "#d0fa66"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": null
+    }
+  },
+  {
     "id": "nonspace-landing",
     "site": "Nonspace®",
     "url": "https://www.nonspace.no",
@@ -56369,6 +57544,76 @@
           "#dddddd",
           "#5d5d5d",
           "#ffffff"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": null
+    }
+  },
+  {
+    "id": "otherkind-landing",
+    "site": "Otherkind",
+    "url": "https://www.otherkind.design",
+    "type": "landing",
+    "tags": [
+      "giant-serif-wordmark",
+      "small-text",
+      "client-list",
+      "team-cutouts"
+    ],
+    "note": "A huge heavy serif wordmark and everything else set tiny: client list with years, two project tiles, team cut-outs. The contrast in scale is the whole design.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/otherkind-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3072
+      },
+      "mobile": {
+        "file": "screens/otherkind-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Otherkind",
+      "fonts": [
+        "monument",
+        "monumentMono"
+      ],
+      "type": {
+        "h1": null,
+        "h2": {
+          "font": "monument",
+          "size": 14,
+          "weight": "500",
+          "lineHeight": 1.43,
+          "letterSpacing": "-0.2px",
+          "color": "rgb(0, 0, 0)"
+        },
+        "h3": {
+          "font": "monument",
+          "size": 14,
+          "weight": "500",
+          "lineHeight": 1.43,
+          "letterSpacing": "-0.2px",
+          "color": "rgb(0, 0, 0)"
+        },
+        "body": {
+          "font": "monument",
+          "size": 14,
+          "weight": "400",
+          "lineHeight": 1.43,
+          "letterSpacing": "-0.2px",
+          "color": "lab(48.496 0 0)"
+        }
+      },
+      "colors": {
+        "background": "#f7f7f7",
+        "surfaces": [],
+        "text": [
+          "#ffffff",
+          "#000000"
         ]
       },
       "buttons": [],
@@ -64063,6 +65308,88 @@
     }
   },
   {
+    "id": "ref-digital-agency-landing",
+    "site": "REF Digital Agency",
+    "url": "https://ref.digital",
+    "type": "landing",
+    "tags": [
+      "wordmark-hero",
+      "beige-palette",
+      "project-carousel",
+      "3d-object",
+      "quiet-statement"
+    ],
+    "note": "Beige all the way down with a stencil-like REF wordmark, one project carousel and a scanned 3D plane: a calm agency page that keeps one odd object as its signature.",
+    "captured": "2026-11-24",
+    "screens": {
+      "desktop": {
+        "file": "screens/ref-digital-agency-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/ref-digital-agency-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Move Fast. Build to Last | REF Digital Agency",
+      "fonts": [
+        "Aeonik",
+        "Habitus"
+      ],
+      "type": {
+        "h1": {
+          "font": "Habitus",
+          "size": 56,
+          "weight": "300",
+          "lineHeight": 1,
+          "letterSpacing": "-1.68px",
+          "color": "rgb(0, 0, 0)"
+        },
+        "h2": {
+          "font": "Aeonik",
+          "size": 12,
+          "weight": "400",
+          "lineHeight": 1.2,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        },
+        "h3": {
+          "font": "Habitus",
+          "size": 32,
+          "weight": "300",
+          "lineHeight": 1.1,
+          "letterSpacing": "-0.96px",
+          "color": "rgb(0, 0, 0)"
+        },
+        "body": {
+          "font": "Habitus",
+          "size": 14,
+          "weight": "300",
+          "lineHeight": 1.3,
+          "letterSpacing": "-0.14px",
+          "color": "rgb(0, 0, 0)"
+        }
+      },
+      "colors": {
+        "background": "#c4bab0",
+        "surfaces": [
+          "#c4bab0",
+          "#000000",
+          "#eeece7",
+          "#ffffff"
+        ],
+        "text": [
+          "#000000"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": null
+    }
+  },
+  {
     "id": "reflect-landing",
     "site": "Reflect",
     "url": "https://reflect.app",
@@ -71371,6 +72698,69 @@
         }
       ],
       "contentWidth": 1328
+    }
+  },
+  {
+    "id": "stephan-mann-landing",
+    "site": "Stephan Mann",
+    "url": "https://www.stvxmvnn.com",
+    "type": "landing",
+    "tags": [
+      "serif-wordmark",
+      "german-copy",
+      "service-list",
+      "stickers",
+      "selected-work"
+    ],
+    "note": "A designer's name rewritten as STVXMVNN in a wide serif, with a selfie and German copy: the wordmark is the play, the service list stays plain.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/stephan-mann-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/stephan-mann-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Stephan Mann | Art Direction Digital & Interactive Design",
+      "fonts": [
+        "Geist",
+        "sans-serif",
+        "Inter"
+      ],
+      "type": {
+        "h1": null,
+        "h2": null,
+        "h3": null,
+        "body": {
+          "font": "Geist",
+          "size": 16,
+          "weight": "500",
+          "lineHeight": 1,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#ffffff",
+          "#fff700",
+          "#0022ff",
+          "#000000"
+        ],
+        "text": [
+          "#000000",
+          "#ffffff"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": 850
     }
   },
   {
@@ -81616,6 +83006,82 @@
     }
   },
   {
+    "id": "vogelhaus-landing",
+    "site": "Vogelhaus",
+    "url": "https://www.vogel.haus",
+    "type": "landing",
+    "tags": [
+      "night-sky-gradient",
+      "serif-headline",
+      "letter-card",
+      "polaroids",
+      "signatures",
+      "app-icons"
+    ],
+    "note": "A two-person app studio writes 'We are nerds.' as a signed letter on paper, framed by polaroids of the founders and a night-sky gradient: the manifesto is a letter, and the apps come after.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/vogelhaus-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/vogelhaus-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Vogelhaus: App Design & Development Studio",
+      "fonts": [
+        "Inter Display",
+        "EB Garamond",
+        "IBM Plex Mono"
+      ],
+      "type": {
+        "h1": {
+          "font": "Instrument Serif",
+          "size": 80,
+          "weight": "400",
+          "lineHeight": 1,
+          "letterSpacing": "-1.6px",
+          "color": "rgb(255, 253, 250)"
+        },
+        "h2": {
+          "font": "Instrument Serif",
+          "size": 56,
+          "weight": "400",
+          "lineHeight": 1.3,
+          "letterSpacing": "normal",
+          "color": "rgba(0, 0, 0, 0.87)"
+        },
+        "h3": null,
+        "body": {
+          "font": "Inter Display",
+          "size": 20,
+          "weight": "500",
+          "lineHeight": 1.4,
+          "letterSpacing": "normal",
+          "color": "rgba(255, 253, 250, 0.6)"
+        }
+      },
+      "colors": {
+        "background": "#fffdfa",
+        "surfaces": [
+          "#fffdfa",
+          "#ffffff"
+        ],
+        "text": [
+          "#000000",
+          "#fffdfa"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": null
+    }
+  },
+  {
     "id": "walker-art-center-landing",
     "site": "Walker Art Center",
     "url": "https://walkerart.org",
@@ -83899,6 +85365,124 @@
           "font": "Lepka",
           "size": 14,
           "weight": "600"
+        }
+      ],
+      "contentWidth": null
+    }
+  },
+  {
+    "id": "ysabella-nicole-alvarez-landing",
+    "site": "Ysabella Nicole Alvarez",
+    "url": "https://www.ysabella.me",
+    "type": "landing",
+    "tags": [
+      "sticky-notes",
+      "hand-drawn-avatar",
+      "tag-ticker",
+      "purple-tiles",
+      "phone-mockups"
+    ],
+    "note": "A designer's intro on a blue sticky note with an orange 'currently figuring out' tag and a ticker of skills, then the work as purple tiles: a playful header over an ordinary grid.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/ysabella-nicole-alvarez-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/ysabella-nicole-alvarez-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "ysabella nicole alvarez",
+      "fonts": [
+        "IBM Plex Mono",
+        "Proxima Nova",
+        "Gelica Light"
+      ],
+      "type": {
+        "h1": {
+          "font": "Gelica Light",
+          "size": 28,
+          "weight": "400",
+          "lineHeight": 2,
+          "letterSpacing": "normal",
+          "color": "rgb(246, 247, 248)"
+        },
+        "h2": null,
+        "h3": null,
+        "body": {
+          "font": "IBM Plex Mono",
+          "size": 13,
+          "weight": "400",
+          "lineHeight": 1.5,
+          "letterSpacing": "normal",
+          "color": "rgb(255, 215, 201)"
+        }
+      },
+      "colors": {
+        "background": "#f7f6f6",
+        "surfaces": [
+          "#542eff",
+          "#6001d2",
+          "#efeeee",
+          "#ffffff",
+          "#151515"
+        ],
+        "text": [
+          "#f6f7f8",
+          "#ffd7c9",
+          "#bfff00",
+          "#ff5101"
+        ]
+      },
+      "buttons": [
+        {
+          "label": "work",
+          "bg": "#ff5101",
+          "color": "#ffd7c9",
+          "radius": "0px",
+          "height": 33,
+          "paddingX": 13,
+          "font": "IBM Plex Mono",
+          "size": 13,
+          "weight": "400"
+        },
+        {
+          "label": "garden",
+          "bg": "#ffd7c9",
+          "color": "#ff5101",
+          "radius": "0px",
+          "height": 33,
+          "paddingX": 13,
+          "font": "IBM Plex Mono",
+          "size": 13,
+          "weight": "400"
+        },
+        {
+          "label": "about",
+          "bg": "#ffd7c9",
+          "color": "#ff5101",
+          "radius": "0px",
+          "height": 33,
+          "paddingX": 13,
+          "font": "IBM Plex Mono",
+          "size": 13,
+          "weight": "400"
+        },
+        {
+          "label": "contact",
+          "bg": "#ffd7c9",
+          "color": "#ff5101",
+          "radius": "0px",
+          "height": 33,
+          "paddingX": 13,
+          "font": "IBM Plex Mono",
+          "size": 13,
+          "weight": "400"
         }
       ],
       "contentWidth": null
