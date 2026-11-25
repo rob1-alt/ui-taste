@@ -15593,5 +15593,173 @@
    "photographer"
   ],
   "note": "A photographer lists every project and book as a comma-separated run of big serif titles, each followed by a tiny thumbnail: the whole body of work in three paragraphs."
+ },
+ {
+  "site": "Abeer Seikaly",
+  "type": "landing",
+  "url": "https://abeerseikaly.com",
+  "tags": [
+   "questions-as-page",
+   "serif-list",
+   "cream-ground",
+   "research-practice"
+  ],
+  "note": "A designer-researcher's homepage is only the questions her practice asks ('What is a Home?'), in serif on cream, ending on 'More…?': the inquiry is the portfolio."
+ },
+ {
+  "site": "Christian Bauer",
+  "type": "landing",
+  "url": "https://bauerchristian.com",
+  "tags": [
+   "spaced-mono-nav",
+   "german",
+   "sticker-cards",
+   "colour-labels"
+  ],
+  "note": "A Berlin designer writes a long German sentence with an asterisk footnote, then spaced mono links (↓Arbeiten ↓Über* ↓Kont@kt) and project cards with coloured sticker labels: type details carry the voice."
+ },
+ {
+  "site": "Claire Arnold",
+  "type": "landing",
+  "url": "http://claire-arnold.com",
+  "tags": [
+   "centred-didone-list",
+   "project-titles",
+   "enter-gate",
+   "video-director"
+  ],
+  "note": "A video director lists every job as a centred Didone title ('Prada SS26 'I, I, I am' by Jordan Wolfson'): brand and collaborator names set like a fashion credit roll."
+ },
+ {
+  "site": "Drew Hamlet",
+  "type": "landing",
+  "url": "http://drewhamlet.com",
+  "tags": [
+   "poster-system",
+   "sports-team",
+   "home-away-pairs",
+   "work-led"
+  ],
+  "note": "A designer shows a sports team's matchday posters as pairs and strips, home and away: a system shown by its repetitions rather than one hero image."
+ },
+ {
+  "site": "Jennifer Heintz",
+  "type": "landing",
+  "url": "https://jenniferheintz.com",
+  "tags": [
+   "huge-serif-bio",
+   "circled-counts",
+   "recognition-list",
+   "personal-note"
+  ],
+  "note": "An internet designer's whole first screen is her bio in huge condensed serif ('She is also becoming a new mom'), then recognition as circled counts (⑥ Typewolf Site of the Day)."
+ },
+ {
+  "site": "Josh Sender",
+  "type": "landing",
+  "url": "https://joshsender.com",
+  "tags": [
+   "inline-icons",
+   "serif-bio",
+   "scattered-artworks",
+   "artist"
+  ],
+  "note": "An artist's bio puts a small icon before each organisation he runs, then artworks scattered at different sizes with italic captions: a gallery wall, not a grid."
+ },
+ {
+  "site": "Kay Schuttel",
+  "type": "landing",
+  "url": "http://kayschuttel.com",
+  "tags": [
+   "text-title-list",
+   "mono-tags",
+   "tiny-thumbnails",
+   "artist"
+  ],
+  "note": "An artist lists works as big light sans titles, each with a tiny thumbnail and mono tags (2024 TEXT + SOUND + PERFORMANCE): the title is the image."
+ },
+ {
+  "site": "Kevin van der Wijst",
+  "type": "landing",
+  "url": "https://kevinvanderwijst.nl",
+  "tags": [
+   "geometric-illustration",
+   "strikethrough-city",
+   "arched-portrait",
+   "colour-blocks"
+  ],
+  "note": "A designer opens on a loud geometric illustration and corrects his own bio with a strikethrough ('living in ~~Amsterdam~~ Valencia'): one small edit makes the copy human."
+ },
+ {
+  "site": "Pavel Kedich",
+  "type": "landing",
+  "url": "https://kedzich.com",
+  "tags": [
+   "long-read-portfolio",
+   "inline-icons",
+   "serif-headline",
+   "case-in-depth"
+  ],
+  "note": "A product designer arranges his work 'as a long read', with small glyphs marking each kind of work in the intro: the portfolio is an article with a reading time."
+ },
+ {
+  "site": "Rodrigo Núñez",
+  "type": "landing",
+  "url": "https://iamrodrek.com",
+  "tags": [
+   "justified-mono",
+   "blue-text",
+   "dense-lists",
+   "bilingual"
+  ],
+  "note": "A designer-developer sets his bio as a justified block of bold blue mono beside dense lists of works by year: a utilitarian page with one colour."
+ },
+ {
+  "site": "Rumsey Taylor",
+  "type": "landing",
+  "url": "http://rumz.org",
+  "tags": [
+   "essay-homepage",
+   "annotation-dots",
+   "serif-text",
+   "designer-writer"
+  ],
+  "note": "A designer-writer's homepage is an essay about his work with small red dots in the text that open notes: footnotes as the interaction."
+ },
+ {
+  "site": "Scott Sanders",
+  "type": "landing",
+  "url": "http://www.scottsanders.info",
+  "tags": [
+   "credits-per-project",
+   "colour-panels",
+   "case-stack",
+   "identity-design"
+  ],
+  "note": "A brand designer lists each project with its full team credits (Creative Director, Strategy, Designer) beside the panel: credit given is part of the case."
+ },
+ {
+  "site": "Stephen Wells",
+  "type": "landing",
+  "url": "https://www.stephen-wells.com",
+  "tags": [
+   "incomplete-works-title",
+   "photographer",
+   "full-bleed-portraits",
+   "date-range"
+  ],
+  "note": "A photographer titles his site 'Incomplete works: 1981—present' and lets full-bleed portraits follow: a range of dates instead of a tagline."
+ },
+ {
+  "site": "Tobias Ahlin",
+  "type": "landing",
+  "url": "https://tobiasahlin.com",
+  "tags": [
+   "striped-logo",
+   "name-staircase",
+   "blog-cards",
+   "css-teaching"
+  ],
+  "note": "A designer who teaches CSS draws his name as a striped outline staircase and makes the homepage a blog of CSS tips, each card illustrated with the technique it explains."
  }
 ]

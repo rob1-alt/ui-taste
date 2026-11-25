@@ -11753,6 +11753,64 @@
     }
   },
   {
+    "id": "abeer-seikaly-landing",
+    "site": "Abeer Seikaly",
+    "url": "https://abeerseikaly.com",
+    "type": "landing",
+    "tags": [
+      "questions-as-page",
+      "serif-list",
+      "cream-ground",
+      "research-practice"
+    ],
+    "note": "A designer-researcher's homepage is only the questions her practice asks ('What is a Home?'), in serif on cream, ending on 'More…?': the inquiry is the portfolio.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/abeer-seikaly-landing-desktop.jpg",
+        "width": 1440,
+        "height": 1595
+      },
+      "mobile": {
+        "file": "screens/abeer-seikaly-landing-mobile.jpg",
+        "width": 390,
+        "height": 1084
+      }
+    },
+    "tokens": {
+      "title": "Abeer Seikaly | a Jordanian interdisciplinary creative thinker and maker",
+      "fonts": [
+        "SangBleuKingdom",
+        "acumin-pro"
+      ],
+      "type": {
+        "h1": {
+          "font": "SangBleuKingdom",
+          "size": 45,
+          "weight": "400",
+          "lineHeight": 1.3,
+          "letterSpacing": "normal",
+          "color": "rgb(37, 37, 37)"
+        },
+        "h2": null,
+        "h3": null,
+        "body": null
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#f2ece6",
+          "#252525"
+        ],
+        "text": [
+          "#252525"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": null
+    }
+  },
+  {
     "id": "abhay-singh-landing",
     "site": "Abhay Singh",
     "url": "https://www.abhaysingh.in",
@@ -25348,6 +25406,86 @@
     }
   },
   {
+    "id": "christian-bauer-landing",
+    "site": "Christian Bauer",
+    "url": "https://bauerchristian.com",
+    "type": "landing",
+    "tags": [
+      "spaced-mono-nav",
+      "german",
+      "sticker-cards",
+      "colour-labels"
+    ],
+    "note": "A Berlin designer writes a long German sentence with an asterisk footnote, then spaced mono links (↓Arbeiten ↓Über* ↓Kont@kt) and project cards with coloured sticker labels: type details carry the voice.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/christian-bauer-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/christian-bauer-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Christian Bauer: Konzeptionist, UX/UI-Designer & Developer in Berlin",
+      "fonts": [
+        "Suisse Screen Monitor",
+        "Suisse Intl Mono"
+      ],
+      "type": {
+        "h1": {
+          "font": "Suisse Screen Monitor",
+          "size": 80,
+          "weight": "400",
+          "lineHeight": 1.2,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        },
+        "h2": {
+          "font": "Suisse Screen Monitor",
+          "size": 60,
+          "weight": "400",
+          "lineHeight": 1.2,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        },
+        "h3": {
+          "font": "Suisse Screen Monitor",
+          "size": 25,
+          "weight": "400",
+          "lineHeight": 1.15,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        },
+        "body": {
+          "font": "Suisse Screen Monitor",
+          "size": 80,
+          "weight": "400",
+          "lineHeight": 1.2,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#ffffff"
+        ],
+        "text": [
+          "#000000",
+          "#9957f4",
+          "#ff6200"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": null
+    }
+  },
+  {
     "id": "christopher-bailey-landing",
     "site": "Christopher Bailey",
     "url": "https://www.cpbailey.co.uk",
@@ -25481,6 +25619,85 @@
         }
       ],
       "contentWidth": 1260
+    }
+  },
+  {
+    "id": "claire-arnold-landing",
+    "site": "Claire Arnold",
+    "url": "http://claire-arnold.com",
+    "type": "landing",
+    "tags": [
+      "centred-didone-list",
+      "project-titles",
+      "enter-gate",
+      "video-director"
+    ],
+    "note": "A video director lists every job as a centred Didone title ('Prada SS26 'I, I, I am' by Jordan Wolfson'): brand and collaborator names set like a fashion credit roll.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/claire-arnold-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/claire-arnold-landing-mobile.jpg",
+        "width": 390,
+        "height": 844
+      }
+    },
+    "tokens": {
+      "title": "Claire Arnold",
+      "fonts": [
+        "baskerville-poster-pt",
+        "Sackers"
+      ],
+      "type": {
+        "h1": {
+          "font": "Sackers",
+          "size": 14,
+          "weight": "100",
+          "lineHeight": "normal",
+          "letterSpacing": "1.5px",
+          "color": "rgb(16, 16, 16)"
+        },
+        "h2": {
+          "font": "baskerville-poster-pt",
+          "size": 115,
+          "weight": "100",
+          "lineHeight": 0.87,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        },
+        "h3": {
+          "font": "Sackers",
+          "size": 10,
+          "weight": "700",
+          "lineHeight": 1.2,
+          "letterSpacing": "1.5px",
+          "color": "rgb(255, 255, 255)"
+        },
+        "body": {
+          "font": "baskerville-poster-pt",
+          "size": 40,
+          "weight": "400",
+          "lineHeight": "normal",
+          "letterSpacing": "0.005px",
+          "color": "rgb(255, 255, 255)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [],
+        "text": [
+          "#ffffff",
+          "#000000",
+          "#101010",
+          "#808080"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": 1240
     }
   },
   {
@@ -33695,6 +33912,54 @@
         }
       ],
       "contentWidth": 1440
+    }
+  },
+  {
+    "id": "drew-hamlet-landing",
+    "site": "Drew Hamlet",
+    "url": "http://drewhamlet.com",
+    "type": "landing",
+    "tags": [
+      "poster-system",
+      "sports-team",
+      "home-away-pairs",
+      "work-led"
+    ],
+    "note": "A designer shows a sports team's matchday posters as pairs and strips, home and away: a system shown by its repetitions rather than one hero image.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/drew-hamlet-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/drew-hamlet-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Drew Hamlet — Brand Designer",
+      "fonts": [
+        "Stack Sans Headline"
+      ],
+      "type": {
+        "h1": null,
+        "h2": null,
+        "h3": null,
+        "body": null
+      },
+      "colors": {
+        "background": "#9c641c",
+        "surfaces": [],
+        "text": [
+          "#ffffff",
+          "#e9e8e6"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": null
     }
   },
   {
@@ -53327,6 +53592,71 @@
     }
   },
   {
+    "id": "jennifer-heintz-landing",
+    "site": "Jennifer Heintz",
+    "url": "https://jenniferheintz.com",
+    "type": "landing",
+    "tags": [
+      "huge-serif-bio",
+      "circled-counts",
+      "recognition-list",
+      "personal-note"
+    ],
+    "note": "An internet designer's whole first screen is her bio in huge condensed serif ('She is also becoming a new mom'), then recognition as circled counts (⑥ Typewolf Site of the Day).",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/jennifer-heintz-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/jennifer-heintz-landing-mobile.jpg",
+        "width": 390,
+        "height": 975
+      }
+    },
+    "tokens": {
+      "title": "Jennifer Heintz — Internet Designer",
+      "fonts": [
+        "Editorial New",
+        "Neue Haas Grotesk Display Pro",
+        "Savate"
+      ],
+      "type": {
+        "h1": null,
+        "h2": {
+          "font": "Neue Haas Grotesk Display Pro",
+          "size": 109,
+          "weight": "300",
+          "lineHeight": 1.1,
+          "letterSpacing": "-3.26998px",
+          "color": "rgb(0, 0, 0)"
+        },
+        "h3": null,
+        "body": {
+          "font": "Editorial New",
+          "size": 109,
+          "weight": "200",
+          "lineHeight": 1.1,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#ffffff"
+        ],
+        "text": [
+          "#000000"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": null
+    }
+  },
+  {
     "id": "jetbrains-mono-landing",
     "site": "JetBrains Mono",
     "url": "https://www.jetbrains.com/lp/mono",
@@ -53914,6 +54244,61 @@
       },
       "buttons": [],
       "contentWidth": 800
+    }
+  },
+  {
+    "id": "josh-sender-landing",
+    "site": "Josh Sender",
+    "url": "https://joshsender.com",
+    "type": "landing",
+    "tags": [
+      "inline-icons",
+      "serif-bio",
+      "scattered-artworks",
+      "artist"
+    ],
+    "note": "An artist's bio puts a small icon before each organisation he runs, then artworks scattered at different sizes with italic captions: a gallery wall, not a grid.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/josh-sender-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/josh-sender-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Josh Sender",
+      "fonts": [
+        "Nimbus Doikayt"
+      ],
+      "type": {
+        "h1": null,
+        "h2": null,
+        "h3": null,
+        "body": {
+          "font": "Nimbus Doikayt",
+          "size": 46,
+          "weight": "400",
+          "lineHeight": 1.04,
+          "letterSpacing": "-0.46px",
+          "color": "rgb(22, 22, 29)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [],
+        "text": [
+          "#16161d",
+          "#ffffff"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": 684
     }
   },
   {
@@ -54667,6 +55052,55 @@
     }
   },
   {
+    "id": "kay-schuttel-landing",
+    "site": "Kay Schuttel",
+    "url": "http://kayschuttel.com",
+    "type": "landing",
+    "tags": [
+      "text-title-list",
+      "mono-tags",
+      "tiny-thumbnails",
+      "artist"
+    ],
+    "note": "An artist lists works as big light sans titles, each with a tiny thumbnail and mono tags (2024 TEXT + SOUND + PERFORMANCE): the title is the image.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/kay-schuttel-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3226
+      },
+      "mobile": {
+        "file": "screens/kay-schuttel-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Kay Schuttel",
+      "fonts": [
+        "forma-djr-display"
+      ],
+      "type": {
+        "h1": null,
+        "h2": null,
+        "h3": null,
+        "body": null
+      },
+      "colors": {
+        "background": "#f4f4f4",
+        "surfaces": [
+          "#ffffff"
+        ],
+        "text": [
+          "#000000"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": null
+    }
+  },
+  {
     "id": "kevin-hipke-landing",
     "site": "Kevin Hipke",
     "url": "https://kevinhipke.com",
@@ -54738,6 +55172,98 @@
         }
       ],
       "contentWidth": null
+    }
+  },
+  {
+    "id": "kevin-van-der-wijst-landing",
+    "site": "Kevin van der Wijst",
+    "url": "https://kevinvanderwijst.nl",
+    "type": "landing",
+    "tags": [
+      "geometric-illustration",
+      "strikethrough-city",
+      "arched-portrait",
+      "colour-blocks"
+    ],
+    "note": "A designer opens on a loud geometric illustration and corrects his own bio with a strikethrough ('living in ~~Amsterdam~~ Valencia'): one small edit makes the copy human.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/kevin-van-der-wijst-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/kevin-van-der-wijst-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Kevin van der Wijst — Digital Designer in Valencia",
+      "fonts": [
+        "Agrandir",
+        "Usans"
+      ],
+      "type": {
+        "h1": {
+          "font": "Usans",
+          "size": 100,
+          "weight": "750",
+          "lineHeight": 1.36,
+          "letterSpacing": "-5px",
+          "color": "rgb(255, 255, 255)"
+        },
+        "h2": null,
+        "h3": null,
+        "body": {
+          "font": "Usans",
+          "size": 100,
+          "weight": "400",
+          "lineHeight": 1.36,
+          "letterSpacing": "-5px",
+          "color": "rgb(255, 255, 255)"
+        }
+      },
+      "colors": {
+        "background": "#f9f7f2",
+        "surfaces": [
+          "#f9f7f2",
+          "#1144d1",
+          "#ffffff",
+          "#000000"
+        ],
+        "text": [
+          "#000000",
+          "#ffffff",
+          "#bbb9b5"
+        ]
+      },
+      "buttons": [
+        {
+          "label": "About",
+          "bg": "#ffffff",
+          "color": "#000000",
+          "radius": "32px",
+          "height": 64,
+          "paddingX": 25,
+          "font": "Usans",
+          "size": 32,
+          "weight": "750"
+        },
+        {
+          "label": "Connect",
+          "bg": "#000000",
+          "color": "#ffffff",
+          "radius": "32px",
+          "height": 64,
+          "paddingX": 25,
+          "font": "Usans",
+          "size": 32,
+          "weight": "750"
+        }
+      ],
+      "contentWidth": 1440
     }
   },
   {
@@ -73355,6 +73881,89 @@
     }
   },
   {
+    "id": "pavel-kedich-landing",
+    "site": "Pavel Kedich",
+    "url": "https://kedzich.com",
+    "type": "landing",
+    "tags": [
+      "long-read-portfolio",
+      "inline-icons",
+      "serif-headline",
+      "case-in-depth"
+    ],
+    "note": "A product designer arranges his work 'as a long read', with small glyphs marking each kind of work in the intro: the portfolio is an article with a reading time.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/pavel-kedich-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/pavel-kedich-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Pavel Kedzich — Senior Product Designer",
+      "fonts": [
+        "Suisse Intl",
+        "Martina Plantijn",
+        "Arial"
+      ],
+      "type": {
+        "h1": {
+          "font": "Martina Plantijn",
+          "size": 72,
+          "weight": "500",
+          "lineHeight": "normal",
+          "letterSpacing": "normal",
+          "color": "rgb(32, 32, 32)"
+        },
+        "h2": {
+          "font": "Suisse Intl",
+          "size": 18,
+          "weight": "500",
+          "lineHeight": 1.56,
+          "letterSpacing": "normal",
+          "color": "rgb(211, 72, 5)"
+        },
+        "h3": {
+          "font": "Martina Plantijn",
+          "size": 48,
+          "weight": "500",
+          "lineHeight": "normal",
+          "letterSpacing": "normal",
+          "color": "rgb(32, 32, 32)"
+        },
+        "body": {
+          "font": "Martina Plantijn",
+          "size": 18,
+          "weight": "500",
+          "lineHeight": 1.56,
+          "letterSpacing": "normal",
+          "color": "rgb(32, 32, 32)"
+        }
+      },
+      "colors": {
+        "background": "#f7f7f7",
+        "surfaces": [
+          "#f1f1f1",
+          "#ffffff"
+        ],
+        "text": [
+          "#595959",
+          "#202020",
+          "#d34805",
+          "#f7f7f7"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": null
+    }
+  },
+  {
     "id": "pellmell-landing",
     "site": "PellMell.",
     "url": "http://www.pellmell.fr",
@@ -82584,6 +83193,86 @@
     }
   },
   {
+    "id": "rodrigo-n-ez-landing",
+    "site": "Rodrigo Núñez",
+    "url": "https://iamrodrek.com",
+    "type": "landing",
+    "tags": [
+      "justified-mono",
+      "blue-text",
+      "dense-lists",
+      "bilingual"
+    ],
+    "note": "A designer-developer sets his bio as a justified block of bold blue mono beside dense lists of works by year: a utilitarian page with one colour.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/rodrigo-n-ez-landing-desktop.jpg",
+        "width": 1440,
+        "height": 900
+      },
+      "mobile": {
+        "file": "screens/rodrigo-n-ez-landing-mobile.jpg",
+        "width": 390,
+        "height": 2356
+      }
+    },
+    "tokens": {
+      "title": "Rodrigo Núñez | Freelance Web Designer & Web Developer Portfolio",
+      "fonts": [
+        "Monosten A",
+        "Euclid Flex"
+      ],
+      "type": {
+        "h1": {
+          "font": "Euclid Flex",
+          "size": 12,
+          "weight": "700",
+          "lineHeight": 1,
+          "letterSpacing": "0.36px",
+          "color": "rgb(0, 89, 244)"
+        },
+        "h2": {
+          "font": "Monosten A",
+          "size": 15,
+          "weight": "700",
+          "lineHeight": 1,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 89, 244)"
+        },
+        "h3": {
+          "font": "Monosten A",
+          "size": 15,
+          "weight": "700",
+          "lineHeight": 1,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 89, 244)"
+        },
+        "body": {
+          "font": "Euclid Flex",
+          "size": 28,
+          "weight": "600",
+          "lineHeight": "normal",
+          "letterSpacing": "normal",
+          "color": "rgb(0, 89, 244)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#f6f6f4"
+        ],
+        "text": [
+          "#6a6a6a",
+          "#0059f4",
+          "#000000"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": null
+    }
+  },
+  {
     "id": "rogo-landing",
     "site": "Rogo",
     "url": "https://rogo.ai",
@@ -82846,6 +83535,79 @@
         }
       ],
       "contentWidth": 1224
+    }
+  },
+  {
+    "id": "rumsey-taylor-landing",
+    "site": "Rumsey Taylor",
+    "url": "http://rumz.org",
+    "type": "landing",
+    "tags": [
+      "essay-homepage",
+      "annotation-dots",
+      "serif-text",
+      "designer-writer"
+    ],
+    "note": "A designer-writer's homepage is an essay about his work with small red dots in the text that open notes: footnotes as the interaction.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/rumsey-taylor-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3375
+      },
+      "mobile": {
+        "file": "screens/rumsey-taylor-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "rumz.org",
+      "fonts": [
+        "National 2 Light",
+        "Pitch Semibold"
+      ],
+      "type": {
+        "h1": {
+          "font": "Pitch Semibold",
+          "size": 17,
+          "weight": "400",
+          "lineHeight": 1.18,
+          "letterSpacing": "normal",
+          "color": "rgb(240, 112, 96)"
+        },
+        "h2": {
+          "font": "National 2 Light",
+          "size": 60,
+          "weight": "400",
+          "lineHeight": 1.17,
+          "letterSpacing": "normal",
+          "color": "rgba(0, 0, 0, 0.8)"
+        },
+        "h3": null,
+        "body": {
+          "font": "Pitch Semibold",
+          "size": 17,
+          "weight": "400",
+          "lineHeight": 1.18,
+          "letterSpacing": "normal",
+          "color": "rgba(0, 0, 0, 0.85)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#ffffff"
+        ],
+        "text": [
+          "#000000",
+          "#1765ff",
+          "#f07060"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": 1200
     }
   },
   {
@@ -84862,6 +85624,62 @@
       },
       "buttons": [],
       "contentWidth": 1140
+    }
+  },
+  {
+    "id": "scott-sanders-landing",
+    "site": "Scott Sanders",
+    "url": "http://www.scottsanders.info",
+    "type": "landing",
+    "tags": [
+      "credits-per-project",
+      "colour-panels",
+      "case-stack",
+      "identity-design"
+    ],
+    "note": "A brand designer lists each project with its full team credits (Creative Director, Strategy, Designer) beside the panel: credit given is part of the case.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/scott-sanders-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/scott-sanders-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "SCOTT SANDERS",
+      "fonts": [
+        "Lausanne by WELTKERN"
+      ],
+      "type": {
+        "h1": null,
+        "h2": null,
+        "h3": null,
+        "body": {
+          "font": "Lausanne by WELTKERN",
+          "size": 20,
+          "weight": "400",
+          "lineHeight": 1.25,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#ffffff"
+        ],
+        "text": [
+          "#000000"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": null
     }
   },
   {
@@ -89950,6 +90768,64 @@
       },
       "buttons": [],
       "contentWidth": 850
+    }
+  },
+  {
+    "id": "stephen-wells-landing",
+    "site": "Stephen Wells",
+    "url": "https://www.stephen-wells.com",
+    "type": "landing",
+    "tags": [
+      "incomplete-works-title",
+      "photographer",
+      "full-bleed-portraits",
+      "date-range"
+    ],
+    "note": "A photographer titles his site 'Incomplete works: 1981—present' and lets full-bleed portraits follow: a range of dates instead of a tagline.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/stephen-wells-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/stephen-wells-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Stephen Wells",
+      "fonts": [
+        "Moderat Light"
+      ],
+      "type": {
+        "h1": {
+          "font": "Moderat Light",
+          "size": 115,
+          "weight": "400",
+          "lineHeight": 0.95,
+          "letterSpacing": "-1.728px",
+          "color": "rgb(0, 0, 0)"
+        },
+        "h2": null,
+        "h3": null,
+        "body": null
+      },
+      "colors": {
+        "background": "#fcfcfc",
+        "surfaces": [
+          "#f2f2f2",
+          "#fcf7f7",
+          "#fcfcfc"
+        ],
+        "text": [
+          "#000000"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": null
     }
   },
   {
@@ -98270,6 +99146,90 @@
           "weight": "500"
         }
       ],
+      "contentWidth": null
+    }
+  },
+  {
+    "id": "tobias-ahlin-landing",
+    "site": "Tobias Ahlin",
+    "url": "https://tobiasahlin.com",
+    "type": "landing",
+    "tags": [
+      "striped-logo",
+      "name-staircase",
+      "blog-cards",
+      "css-teaching"
+    ],
+    "note": "A designer who teaches CSS draws his name as a striped outline staircase and makes the homepage a blog of CSS tips, each card illustrated with the technique it explains.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/tobias-ahlin-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/tobias-ahlin-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Tobias Ahlin",
+      "fonts": [
+        "Inter",
+        "Arial"
+      ],
+      "type": {
+        "h1": {
+          "font": "Inter",
+          "size": 11,
+          "weight": "800",
+          "lineHeight": 2.76,
+          "letterSpacing": "2.86px",
+          "color": "rgb(87, 75, 51)"
+        },
+        "h2": {
+          "font": "Inter",
+          "size": 15,
+          "weight": "400",
+          "lineHeight": 2.03,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        },
+        "h3": {
+          "font": "Inter",
+          "size": 46,
+          "weight": "800",
+          "lineHeight": 1.3,
+          "letterSpacing": "-0.3px",
+          "color": "rgb(38, 85, 93)"
+        },
+        "body": {
+          "font": "Inter",
+          "size": 16,
+          "weight": "400",
+          "lineHeight": 1.9,
+          "letterSpacing": "normal",
+          "color": "rgb(255, 255, 255)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#8e5ea2",
+          "#314964",
+          "#2b2f3c",
+          "#1f4954",
+          "#ffffff"
+        ],
+        "text": [
+          "#ffffff",
+          "#000000",
+          "#80bece"
+        ]
+      },
+      "buttons": [],
       "contentWidth": null
     }
   },
