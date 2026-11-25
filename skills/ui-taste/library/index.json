@@ -29563,6 +29563,90 @@
     }
   },
   {
+    "id": "dore-partnership-landing",
+    "site": "Dore Partnership",
+    "url": "https://dorepartnership.com",
+    "type": "landing",
+    "tags": [
+      "serif-on-navy",
+      "3d-objects",
+      "big-stats",
+      "executive-search"
+    ],
+    "note": "An executive search firm on deep navy: three serif words ('Intelligence. Trust. Process.') over a soft 3D scene, then four big orange numbers (clients, offices, cities, years): calm proof for a discreet business.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/dore-partnership-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/dore-partnership-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Dore Partnership | Executive Search for the Investment Industry",
+      "fonts": [
+        "Syne",
+        "Cormorant Garamond",
+        "JetBrains Mono"
+      ],
+      "type": {
+        "h1": {
+          "font": "Cormorant Garamond",
+          "size": 64,
+          "weight": "700",
+          "lineHeight": 1,
+          "letterSpacing": "-1.92px",
+          "color": "rgb(255, 255, 255)"
+        },
+        "h2": {
+          "font": "Cormorant Garamond",
+          "size": 49,
+          "weight": "300",
+          "lineHeight": 1.1,
+          "letterSpacing": "-1.4688px",
+          "color": "rgb(255, 255, 255)"
+        },
+        "h3": {
+          "font": "Syne",
+          "size": 23,
+          "weight": "700",
+          "lineHeight": "normal",
+          "letterSpacing": "-0.2304px",
+          "color": "rgb(255, 255, 255)"
+        },
+        "body": {
+          "font": "Nunito Sans",
+          "size": 17,
+          "weight": "400",
+          "lineHeight": 1.55,
+          "letterSpacing": "normal",
+          "color": "rgba(255, 255, 255, 0.75)"
+        }
+      },
+      "colors": {
+        "background": "#1a1a2e",
+        "surfaces": [
+          "#1a1a2e",
+          "#16213e",
+          "#f06c45"
+        ],
+        "text": [
+          "#ffffff",
+          "#9ca3af",
+          "#f06c45",
+          "#f3f4f6"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": 1440
+    }
+  },
+  {
     "id": "dothings-landing",
     "site": "DoThings",
     "url": "https://dothingsnyc.com",
@@ -30590,6 +30674,82 @@
         }
       ],
       "contentWidth": 1080
+    }
+  },
+  {
+    "id": "dunderville-landing",
+    "site": "Dunderville",
+    "url": "https://www.dunderville.se",
+    "type": "landing",
+    "tags": [
+      "condensed-caps",
+      "toy-scene-video",
+      "client-buttons",
+      "motion-studio",
+      "swedish"
+    ],
+    "note": "A Malmö motion studio: a condensed caps wordmark, a video still of a toy world, then clients as big boxed buttons ('PARKSTER', 'BRIO TOYS'): the work list as a set of switches.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/dunderville-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/dunderville-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Dunderville",
+      "fonts": [
+        "Times New Roman",
+        "GTPressuraMono",
+        "Plaak-CondensedBold"
+      ],
+      "type": {
+        "h1": {
+          "font": "Plaak-CondensedBold",
+          "size": 123,
+          "weight": "400",
+          "lineHeight": 0.88,
+          "letterSpacing": "-2.46125px",
+          "color": "rgb(48, 48, 48)"
+        },
+        "h2": {
+          "font": "Plaak-CondensedBold",
+          "size": 37,
+          "weight": "400",
+          "lineHeight": 1.15,
+          "letterSpacing": "-0.735179px",
+          "color": "rgb(48, 48, 48)"
+        },
+        "h3": null,
+        "body": {
+          "font": "Times New Roman",
+          "size": 13,
+          "weight": "400",
+          "lineHeight": 1.15,
+          "letterSpacing": "normal",
+          "color": "rgb(48, 48, 48)"
+        }
+      },
+      "colors": {
+        "background": "#e6e2dd",
+        "surfaces": [
+          "#303030",
+          "#e6e2dd"
+        ],
+        "text": [
+          "#303030",
+          "#e6e2dd",
+          "#000000"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": 1279
     }
   },
   {
@@ -42635,6 +42795,85 @@
     }
   },
   {
+    "id": "hey-low-landing",
+    "site": "Hey Low",
+    "url": "https://heylow.world",
+    "type": "landing",
+    "tags": [
+      "dark-grid-lines",
+      "script-crossed-wordmark",
+      "low-carbon",
+      "case-images"
+    ],
+    "note": "A design and code partner draws its name with a slash through it on a dark page divided by thin grid lines, and says its sites are 'clear, elegant, low-carbon': restraint as a stated value.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/hey-low-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/hey-low-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Heylow, a design & code partner",
+      "fonts": [
+        "EuclidCircularA",
+        "Arial"
+      ],
+      "type": {
+        "h1": {
+          "font": "EuclidCircularA",
+          "size": 27,
+          "weight": "400",
+          "lineHeight": 1.3,
+          "letterSpacing": "-0.25px",
+          "color": "rgb(168, 163, 161)"
+        },
+        "h2": {
+          "font": "EuclidCircularA",
+          "size": 11,
+          "weight": "400",
+          "lineHeight": 1.1,
+          "letterSpacing": "2px",
+          "color": "rgb(168, 163, 161)"
+        },
+        "h3": {
+          "font": "EuclidCircularA",
+          "size": 27,
+          "weight": "400",
+          "lineHeight": 1.3,
+          "letterSpacing": "-0.5px",
+          "color": "rgb(250, 248, 243)"
+        },
+        "body": {
+          "font": "EuclidCircularA",
+          "size": 15,
+          "weight": "400",
+          "lineHeight": 1.6,
+          "letterSpacing": "normal",
+          "color": "rgb(168, 163, 161)"
+        }
+      },
+      "colors": {
+        "background": "#0f0e0c",
+        "surfaces": [
+          "#0f0e0c"
+        ],
+        "text": [
+          "#a8a3a1",
+          "#faf8f3"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": 850
+    }
+  },
+  {
     "id": "hey-studio-landing",
     "site": "Hey Studio",
     "url": "https://heystudio.es",
@@ -49694,6 +49933,81 @@
     }
   },
   {
+    "id": "le-bon-site-landing",
+    "site": "Le bon site",
+    "url": "https://lebonsite.spintank.fr",
+    "type": "landing",
+    "tags": [
+      "yellow",
+      "sunburst-lines",
+      "serif",
+      "french-copy",
+      "framed-cards"
+    ],
+    "note": "A web studio offering 'le bon site' on yellow with thin sunburst rays behind white framed cards of French serif text: a cheerful page that still reads like a letter.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/le-bon-site-landing-desktop.jpg",
+        "width": 1440,
+        "height": 1914
+      },
+      "mobile": {
+        "file": "screens/le-bon-site-landing-mobile.jpg",
+        "width": 390,
+        "height": 1376
+      }
+    },
+    "tokens": {
+      "title": "Le bon site, par Spintank",
+      "fonts": [
+        "Plain",
+        "SangBleu",
+        "Arial"
+      ],
+      "type": {
+        "h1": {
+          "font": "SangBleu",
+          "size": 72,
+          "weight": "400",
+          "lineHeight": 1.21,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        },
+        "h2": {
+          "font": "SangBleu",
+          "size": 32,
+          "weight": "400",
+          "lineHeight": 1.41,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        },
+        "h3": null,
+        "body": {
+          "font": "SangBleu",
+          "size": 32,
+          "weight": "400",
+          "lineHeight": 1.41,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#fefc71",
+          "#ffffff",
+          "#ffed6b"
+        ],
+        "text": [
+          "#000000"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": null
+    }
+  },
+  {
     "id": "le-kollektiv-landing",
     "site": "LE KOLLEKTIV",
     "url": "https://www.lekollektiv.ch",
@@ -51192,6 +51506,78 @@
         }
       ],
       "contentWidth": 1392
+    }
+  },
+  {
+    "id": "little-troop-landing",
+    "site": "Little Troop",
+    "url": "https://littletroop.com",
+    "type": "landing",
+    "tags": [
+      "3d-object-hero",
+      "project-filters",
+      "dense-client-grid",
+      "brand-studio"
+    ],
+    "note": "A brand studio leads with one inflatable 3D object (a push-pin ball with its name), then checkbox filters and a dense grid of client work (MoMA, Clinique, Google): toy-like hero, serious roster.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/little-troop-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/little-troop-landing-mobile.jpg",
+        "width": 390,
+        "height": 844
+      }
+    },
+    "tokens": {
+      "title": "Little Troop",
+      "fonts": [
+        "Arial Narrow",
+        "Times Now"
+      ],
+      "type": {
+        "h1": null,
+        "h2": {
+          "font": "Arial Narrow",
+          "size": 16,
+          "weight": "400",
+          "lineHeight": 1,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        },
+        "h3": {
+          "font": "Arial Narrow",
+          "size": 14,
+          "weight": "400",
+          "lineHeight": 1.14,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        },
+        "body": {
+          "font": "Arial Narrow",
+          "size": 14,
+          "weight": "700",
+          "lineHeight": 1.14,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#ffffff"
+        ],
+        "text": [
+          "#000000",
+          "#ffffff"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": 1440
     }
   },
   {
@@ -56825,6 +57211,81 @@
         }
       ],
       "contentWidth": 1500
+    }
+  },
+  {
+    "id": "musotoku-landing",
+    "site": "Musotoku",
+    "url": "https://musotoku.com",
+    "type": "landing",
+    "tags": [
+      "product-hero",
+      "vertical-wordmark",
+      "mono-caps",
+      "green-cta",
+      "tattoo-tools"
+    ],
+    "note": "A maker of tattoo machines shows the machine on black like a hardware launch, a vertical wordmark down the side and mono caps ('UNLIMITED POWER FOR TATTOO'): a niche tool sold like a flagship device.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/musotoku-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/musotoku-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Musotoku - Designers and builders of tattoo tools",
+      "fonts": [
+        "Simplon Norm",
+        "Simplon Mono"
+      ],
+      "type": {
+        "h1": {
+          "font": "Simplon Norm",
+          "size": 42,
+          "weight": "400",
+          "lineHeight": 1.3,
+          "letterSpacing": "normal",
+          "color": "rgb(255, 255, 255)"
+        },
+        "h2": {
+          "font": "Simplon Mono",
+          "size": 76,
+          "weight": "700",
+          "lineHeight": 1.83,
+          "letterSpacing": "0.839985px",
+          "color": "rgb(0, 0, 0)"
+        },
+        "h3": null,
+        "body": {
+          "font": "Simplon Norm",
+          "size": 48,
+          "weight": "400",
+          "lineHeight": 1.1,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        }
+      },
+      "colors": {
+        "background": "#000000",
+        "surfaces": [
+          "#000000",
+          "#ffffff"
+        ],
+        "text": [
+          "#000000",
+          "#ffffff",
+          "#979797"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": 1527
     }
   },
   {
@@ -64808,6 +65269,71 @@
     }
   },
   {
+    "id": "pine-landing",
+    "site": "PINE",
+    "url": "https://pine.se",
+    "type": "landing",
+    "tags": [
+      "director-roster",
+      "serif-names",
+      "film-stills",
+      "dark-mode",
+      "production-company"
+    ],
+    "note": "A production company lists its directors' names in serif over a dark film still, then work as stills with credits: the roster is the hero.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/pine-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/pine-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "PINE",
+      "fonts": [
+        "Suisse Intl",
+        "Portrait"
+      ],
+      "type": {
+        "h1": null,
+        "h2": {
+          "font": "Suisse Intl",
+          "size": 16,
+          "weight": "400",
+          "lineHeight": 1.4,
+          "letterSpacing": "normal",
+          "color": "rgb(255, 255, 255)"
+        },
+        "h3": null,
+        "body": {
+          "font": "Suisse Intl",
+          "size": 16,
+          "weight": "400",
+          "lineHeight": 1.4,
+          "letterSpacing": "normal",
+          "color": "rgb(255, 255, 255)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#000000"
+        ],
+        "text": [
+          "#ffffff"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": null
+    }
+  },
+  {
     "id": "pitch-landing",
     "site": "Pitch",
     "url": "https://pitch.com",
@@ -65135,6 +65661,111 @@
         }
       ],
       "contentWidth": 1440
+    }
+  },
+  {
+    "id": "pizza-pizza-landing",
+    "site": "Pizza Pizza",
+    "url": "https://pizzapizza.io",
+    "type": "landing",
+    "tags": [
+      "red-field",
+      "inline-logo",
+      "big-sentence",
+      "two-pizza-rule",
+      "digital-studio"
+    ],
+    "note": "A digital product studio on full red starts its sentence with its logo ('[PIZZA PIZZA] is a digital product studio...') and explains its team size by the two-pizza rule: the name earns its joke.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/pizza-pizza-landing-desktop.jpg",
+        "width": 1440,
+        "height": 2713
+      },
+      "mobile": {
+        "file": "screens/pizza-pizza-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Pizza Pizza",
+      "fonts": [
+        "ABC Diatype"
+      ],
+      "type": {
+        "h1": {
+          "font": "ABC Diatype",
+          "size": 117,
+          "weight": "400",
+          "lineHeight": 0.95,
+          "letterSpacing": "-4.6656px",
+          "color": "rgb(0, 0, 0)"
+        },
+        "h2": {
+          "font": "ABC Diatype",
+          "size": 12,
+          "weight": "400",
+          "lineHeight": 1.83,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        },
+        "h3": {
+          "font": "ABC Diatype",
+          "size": 22,
+          "weight": "400",
+          "lineHeight": 1.18,
+          "letterSpacing": "-0.33px",
+          "color": "rgb(0, 0, 0)"
+        },
+        "body": {
+          "font": "ABC Diatype",
+          "size": 22,
+          "weight": "400",
+          "lineHeight": 1.18,
+          "letterSpacing": "-0.33px",
+          "color": "rgb(0, 0, 0)"
+        }
+      },
+      "colors": {
+        "background": "#1d1d1d",
+        "surfaces": [
+          "#1d1d1d",
+          "#e8001c",
+          "#ffffff",
+          "#000000"
+        ],
+        "text": [
+          "#000000",
+          "#ffffff"
+        ]
+      },
+      "buttons": [
+        {
+          "label": "Learn more →",
+          "bg": "#000000",
+          "color": "#ffffff",
+          "radius": "96px",
+          "height": 42,
+          "paddingX": 32,
+          "font": "ABC Diatype",
+          "size": 22,
+          "weight": "400"
+        },
+        {
+          "label": "Learn more →",
+          "bg": "#ffffff",
+          "color": "#000000",
+          "radius": "96px",
+          "height": 37,
+          "paddingX": 16,
+          "font": "ABC Diatype",
+          "size": 18,
+          "weight": "400"
+        }
+      ],
+      "contentWidth": 960
     }
   },
   {
@@ -76458,6 +77089,82 @@
     }
   },
   {
+    "id": "someone-others-landing",
+    "site": "Someone & Others",
+    "url": "https://someoneandothers.com",
+    "type": "landing",
+    "tags": [
+      "big-text",
+      "inline-emoji",
+      "cultural-intelligence",
+      "gen-z"
+    ],
+    "note": "A 'cultural intelligence studio' writes long paragraphs in large type with a small emoji face set inside the sentence ('we bet this guy 😉 had something to do with it'): the voice carries the page.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/someone-others-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/someone-others-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Someone & Others — Cultural Intelligence Studio",
+      "fonts": [
+        "SuisseIntl",
+        "Arial"
+      ],
+      "type": {
+        "h1": {
+          "font": "SuisseIntl",
+          "size": 86,
+          "weight": "400",
+          "lineHeight": 1.12,
+          "letterSpacing": "-2px",
+          "color": "rgb(10, 10, 10)"
+        },
+        "h2": {
+          "font": "SuisseIntl",
+          "size": 86,
+          "weight": "400",
+          "lineHeight": 1.12,
+          "letterSpacing": "-2px",
+          "color": "rgb(10, 10, 10)"
+        },
+        "h3": {
+          "font": "SuisseIntl",
+          "size": 40,
+          "weight": "200",
+          "lineHeight": 1.6,
+          "letterSpacing": "-0.3px",
+          "color": "rgb(0, 0, 0)"
+        },
+        "body": {
+          "font": "SuisseIntl",
+          "size": 86,
+          "weight": "400",
+          "lineHeight": 1.12,
+          "letterSpacing": "-2px",
+          "color": "rgb(10, 10, 10)"
+        }
+      },
+      "colors": {
+        "background": "#f0f0f0",
+        "surfaces": [],
+        "text": [
+          "#0a0a0a"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": 1400
+    }
+  },
+  {
     "id": "sorare-landing",
     "site": "Sorare",
     "url": "https://sorare.com",
@@ -76629,6 +77336,104 @@
         }
       ],
       "contentWidth": null
+    }
+  },
+  {
+    "id": "source-landing",
+    "site": "Source",
+    "url": "https://source.paris",
+    "type": "landing",
+    "tags": [
+      "right-aligned-headline",
+      "dark-mode",
+      "service-list",
+      "yellow-recruiting-bar",
+      "client-logos"
+    ],
+    "note": "A product studio sets 'Embrace Complexity, Order Chaos.' huge and right aligned on black, then a ruled list of services and a yellow bar recruiting senior designers: a dense agency page with one loud line.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/source-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/source-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Source.paris - Agence Product Design",
+      "fonts": [
+        "sans-serif",
+        "TWK Everett Medium",
+        "TWK Everett Regular"
+      ],
+      "type": {
+        "h1": {
+          "font": "GT America LCG Regular",
+          "size": 16,
+          "weight": "400",
+          "lineHeight": 1.4,
+          "letterSpacing": "normal",
+          "color": "rgb(255, 255, 255)"
+        },
+        "h2": {
+          "font": "TWK Everett Medium",
+          "size": 30,
+          "weight": "400",
+          "lineHeight": 1.2,
+          "letterSpacing": "normal",
+          "color": "rgb(255, 255, 255)"
+        },
+        "h3": {
+          "font": "TWK Everett Regular",
+          "size": 26,
+          "weight": "400",
+          "lineHeight": 1.2,
+          "letterSpacing": "normal",
+          "color": "rgb(15, 15, 15)"
+        },
+        "body": {
+          "font": "Inter",
+          "size": 16,
+          "weight": "400",
+          "lineHeight": 1.2,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        }
+      },
+      "colors": {
+        "background": "#0f0f0f",
+        "surfaces": [
+          "#0f0f0f",
+          "#f4ff45",
+          "#414b59",
+          "#efefef"
+        ],
+        "text": [
+          "#ffffff",
+          "#e8e8e8",
+          "#0f0f0f",
+          "#000000"
+        ]
+      },
+      "buttons": [
+        {
+          "label": "Contacter un expert",
+          "bg": "#414b59",
+          "color": "#000000",
+          "radius": "50px",
+          "height": 37,
+          "paddingX": 18,
+          "font": "sans-serif",
+          "size": 12,
+          "weight": "400"
+        }
+      ],
+      "contentWidth": 1200
     }
   },
   {
@@ -77510,6 +78315,87 @@
       },
       "buttons": [],
       "contentWidth": 1430
+    }
+  },
+  {
+    "id": "sprin-d-landing",
+    "site": "SPRIN-D",
+    "url": "https://www.sprind.org",
+    "type": "landing",
+    "tags": [
+      "federal-agency",
+      "dark-mode",
+      "challenge-cards",
+      "themes",
+      "innovation"
+    ],
+    "note": "Germany's agency for breakthrough innovation: 'A home for people with radical new ideas', then open challenges as coloured cards with deadlines ('AI-native chip design'): a public agency that reads like a lab.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/sprin-d-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/sprin-d-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "SPRIND – Federal Agency for Breakthrough Innovation",
+      "fonts": [
+        "GT America Standard",
+        "GT America Extended"
+      ],
+      "type": {
+        "h1": {
+          "font": "GT America Extended",
+          "size": 52,
+          "weight": "400",
+          "lineHeight": 1.04,
+          "letterSpacing": "normal",
+          "color": "rgb(255, 255, 255)"
+        },
+        "h2": {
+          "font": "GT America Standard",
+          "size": 18,
+          "weight": "400",
+          "lineHeight": 1.22,
+          "letterSpacing": "normal",
+          "color": "rgb(255, 255, 255)"
+        },
+        "h3": {
+          "font": "GT America Standard",
+          "size": 18,
+          "weight": "400",
+          "lineHeight": 1.22,
+          "letterSpacing": "normal",
+          "color": "rgb(255, 255, 255)"
+        },
+        "body": {
+          "font": "GT America Standard",
+          "size": 15,
+          "weight": "400",
+          "lineHeight": 1.27,
+          "letterSpacing": "normal",
+          "color": "rgb(118, 118, 118)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#000000"
+        ],
+        "text": [
+          "#ffffff",
+          "#767676",
+          "#000000"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": null
     }
   },
   {
@@ -78985,6 +79871,73 @@
     }
   },
   {
+    "id": "studio-chenchen-landing",
+    "site": "Studio Chenchen",
+    "url": "https://studiochenchen.com",
+    "type": "landing",
+    "tags": [
+      "multicolour-wordmark",
+      "collage-hero",
+      "red-section",
+      "caps-serif-mix"
+    ],
+    "note": "A brand studio's name in multicolour letters over a collage of food and characters, then a red block where caps sans and serif mix in one sentence: loud on purpose, for brands 'ready to make their mark'.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/studio-chenchen-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/studio-chenchen-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "StudioCC – My WordPress Blog",
+      "fonts": [
+        "Soehne Breit",
+        "-apple-system",
+        "PP Editorial"
+      ],
+      "type": {
+        "h1": {
+          "font": "PP Editorial",
+          "size": 120,
+          "weight": "200",
+          "lineHeight": 1,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        },
+        "h2": null,
+        "h3": {
+          "font": "Soehne Breit",
+          "size": 55,
+          "weight": "700",
+          "lineHeight": 1,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        },
+        "body": null
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#f62f2f",
+          "#000000"
+        ],
+        "text": [
+          "#000000",
+          "#ffffff"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": null
+    }
+  },
+  {
     "id": "studio-freight-landing",
     "site": "Studio Freight",
     "url": "https://www.studiofreight.com",
@@ -79279,6 +80232,84 @@
     }
   },
   {
+    "id": "studio-oker-landing",
+    "site": "Studio Oker",
+    "url": "https://oker.com",
+    "type": "landing",
+    "tags": [
+      "scrolling-words",
+      "phone-mockup",
+      "facts-table",
+      "feed",
+      "norwegian-studio"
+    ],
+    "note": "A Norwegian studio fills the hero with huge menu-like words (Bowls, Wok, Salmon) cropped at the edges around a phone saying 'Let's get started', then a facts table (founded, employees, clients) and a feed.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/studio-oker-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/studio-oker-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Studio Oker - Brand & design - Norway",
+      "fonts": [
+        "NextBookRegular",
+        "NextBookLight"
+      ],
+      "type": {
+        "h1": {
+          "font": "NextBookLight",
+          "size": 80,
+          "weight": "300",
+          "lineHeight": 1.13,
+          "letterSpacing": "-1.6px",
+          "color": "rgb(255, 255, 255)"
+        },
+        "h2": {
+          "font": "NextBookRegular",
+          "size": 32,
+          "weight": "300",
+          "lineHeight": 1.13,
+          "letterSpacing": "-0.64px",
+          "color": "rgb(255, 255, 255)"
+        },
+        "h3": {
+          "font": "NextBookRegular",
+          "size": 16,
+          "weight": "400",
+          "lineHeight": 1,
+          "letterSpacing": "-0.16px",
+          "color": "rgb(255, 255, 255)"
+        },
+        "body": {
+          "font": "NextBookRegular",
+          "size": 16,
+          "weight": "400",
+          "lineHeight": 1.25,
+          "letterSpacing": "-0.16px",
+          "color": "rgb(160, 160, 160)"
+        }
+      },
+      "colors": {
+        "background": "#101010",
+        "surfaces": [],
+        "text": [
+          "#ffffff",
+          "#a0a0a0"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": null
+    }
+  },
+  {
     "id": "studio-rodrigo-landing",
     "site": "Studio Rodrigo",
     "url": "http://studiorodrigo.com",
@@ -79366,6 +80397,87 @@
         }
       ],
       "contentWidth": 1480
+    }
+  },
+  {
+    "id": "stupid-studio-landing",
+    "site": "Stupid Studio",
+    "url": "https://stupid-studio.com",
+    "type": "landing",
+    "tags": [
+      "full-bleed-portrait",
+      "children-and-family",
+      "play-included",
+      "serif-statement"
+    ],
+    "note": "A creative partner for organisations that work with children leads with a portrait of a smiling girl and the line 'creative work for growing up', then cases like 'Play included': the audience shown, not described.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/stupid-studio-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/stupid-studio-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Stupid Studio",
+      "fonts": [
+        "PPObjectSans-Regular",
+        "Open Sans",
+        "PPObjectSans-Bold"
+      ],
+      "type": {
+        "h1": {
+          "font": "PPObjectSans-Bold",
+          "size": 42,
+          "weight": "400",
+          "lineHeight": 1.19,
+          "letterSpacing": "normal",
+          "color": "rgb(10, 2, 3)"
+        },
+        "h2": {
+          "font": "CooperBT-Light",
+          "size": 38,
+          "weight": "300",
+          "lineHeight": 1.26,
+          "letterSpacing": "normal",
+          "color": "rgb(10, 2, 3)"
+        },
+        "h3": {
+          "font": "PPObjectSans-Bold",
+          "size": 40,
+          "weight": "400",
+          "lineHeight": 1.25,
+          "letterSpacing": "normal",
+          "color": "rgb(10, 2, 3)"
+        },
+        "body": {
+          "font": "PPObjectSans-Regular",
+          "size": 40,
+          "weight": "400",
+          "lineHeight": 1.25,
+          "letterSpacing": "normal",
+          "color": "rgb(10, 2, 3)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#ffffff",
+          "#0a0203"
+        ],
+        "text": [
+          "#0a0203",
+          "#ffffff"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": null
     }
   },
   {
@@ -84572,6 +85684,64 @@
       },
       "buttons": [],
       "contentWidth": 952
+    }
+  },
+  {
+    "id": "this-studio-landing",
+    "site": "This Studio",
+    "url": "https://www.this-studio.co.uk",
+    "type": "landing",
+    "tags": [
+      "giant-word",
+      "black",
+      "poster-editions",
+      "red-captions"
+    ],
+    "note": "A studio's homepage is the word 'Work' set huge on black and its posters as numbered editions with red captions: the work as a series, not a grid.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/this-studio-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/this-studio-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "This Studio",
+      "fonts": [
+        "font",
+        "BWHaasText-75Bold"
+      ],
+      "type": {
+        "h1": null,
+        "h2": null,
+        "h3": null,
+        "body": {
+          "font": "font",
+          "size": 300,
+          "weight": "400",
+          "lineHeight": 0.58,
+          "letterSpacing": "normal",
+          "color": "rgb(255, 255, 255)"
+        }
+      },
+      "colors": {
+        "background": "#000000",
+        "surfaces": [
+          "#000000"
+        ],
+        "text": [
+          "#ffffff",
+          "#a5a5a5"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": null
     }
   },
   {
@@ -91583,6 +92753,94 @@
         }
       ],
       "contentWidth": null
+    }
+  },
+  {
+    "id": "youtoocanwoo-landing",
+    "site": "YouTooCanWoo",
+    "url": "https://youtoocanwoo.com",
+    "type": "landing",
+    "tags": [
+      "condensed-wordmark",
+      "music-and-sound",
+      "client-tiles",
+      "brooklyn"
+    ],
+    "note": "An artist-owned sonic branding studio: 'YOUTOOCANWOO' in condensed caps, one centred sentence ('your partner in music and sound'), then client tiles (Paramount, NBC, Verizon) with the list of sound work under each.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/youtoocanwoo-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/youtoocanwoo-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Our Work — YouTooCanWoo",
+      "fonts": [
+        "UntitledSans",
+        "FoundryGridnikWeb",
+        "Arial"
+      ],
+      "type": {
+        "h1": null,
+        "h2": {
+          "font": "UntitledSans",
+          "size": 80,
+          "weight": "200",
+          "lineHeight": 1.12,
+          "letterSpacing": "-1.6px",
+          "color": "rgb(0, 0, 0)"
+        },
+        "h3": {
+          "font": "FoundryGridnikWeb",
+          "size": 30,
+          "weight": "400",
+          "lineHeight": 1,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        },
+        "body": {
+          "font": "UntitledSans",
+          "size": 16,
+          "weight": "400",
+          "lineHeight": 1.5,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        }
+      },
+      "colors": {
+        "background": "#f5f4f1",
+        "surfaces": [
+          "#f5f4f1",
+          "#ffffff",
+          "#000000",
+          "#231f20"
+        ],
+        "text": [
+          "#000000",
+          "#f5f4f1"
+        ]
+      },
+      "buttons": [
+        {
+          "label": "Filter Work",
+          "bg": "#231f20",
+          "color": "#f5f4f1",
+          "radius": "0px",
+          "height": 63,
+          "paddingX": 32,
+          "font": "Arial",
+          "size": 13,
+          "weight": "400"
+        }
+      ],
+      "contentWidth": 1024
     }
   },
   {
