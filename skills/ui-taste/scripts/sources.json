@@ -14860,5 +14860,125 @@
    "available-for-work"
   ],
   "note": "A designer from Ukraine pairs a dense table of personal projects (year, type) with large renders of Apple Watch interfaces and icons: small, precise UI work shown huge."
+ },
+ {
+  "site": "Andy Rader",
+  "type": "landing",
+  "url": "https://www.andyrader.com",
+  "tags": [
+   "rotated-text",
+   "dark-monochrome",
+   "one-screen",
+   "text-only"
+  ],
+  "note": "A front-end developer turns his whole intro 90 degrees into a black column of big type: one screen, no images, and the rotation alone makes it memorable."
+ },
+ {
+  "site": "Artem Militonian",
+  "type": "landing",
+  "url": "https://artmilitonian.com",
+  "tags": [
+   "text-index",
+   "underlined-links",
+   "line-drawing",
+   "one-screen"
+  ],
+  "note": "A designer's homepage is one big sentence plus an 'index:' and 'links:' written as underlined prose over a faint line drawing: navigation as a paragraph, with honest asides like '(not active)'."
+ },
+ {
+  "site": "Charlie Pite",
+  "type": "landing",
+  "url": "https://charliepite.com",
+  "tags": [
+   "copywriter",
+   "dark-editorial",
+   "client-table",
+   "voice-first"
+  ],
+  "note": "A copywriter puts a cropped name over a staged photo, then lets the copy sell ('I know you're only here for the copy') above a ruled client / project / type table: the writing is the portfolio."
+ },
+ {
+  "site": "Christopher Bailey",
+  "type": "landing",
+  "url": "https://www.cpbailey.co.uk",
+  "tags": [
+   "index-table",
+   "big-grotesk",
+   "date-range-title",
+   "services-per-row"
+  ],
+  "note": "A brand designer titles the page 'Selected Works 19'—25'' and lists each client in a ruled table with the deliverables stacked beside it: the scope of each job readable without opening it."
+ },
+ {
+  "site": "Fidlerówna",
+  "type": "landing",
+  "url": "https://www.fidlerowna.com",
+  "tags": [
+   "psychedelic-wordmark",
+   "beige-ground",
+   "case-grid",
+   "product-photography"
+  ],
+  "note": "A studio pairs a bubbly 70s wordmark with a calm beige grid of staged product photographs: one loud element, everything else quiet and captioned."
+ },
+ {
+  "site": "ilovecreatives Studio",
+  "type": "landing",
+  "url": "https://www.ilovecreatives.studio",
+  "tags": [
+   "chrome-wordmark",
+   "3d-type",
+   "editorial-columns",
+   "case-grid"
+  ],
+  "note": "A design studio makes its wordmark a chrome 3D 'Studio' with a toy on the letters, then sets the pitch in three newspaper columns: one object of spectacle, the rest plain reading."
+ },
+ {
+  "site": "Marco Koenig",
+  "type": "landing",
+  "url": "https://www.marcokoenig.de",
+  "tags": [
+   "project-rows",
+   "grid-toggle",
+   "client-strips",
+   "minimal-white"
+  ],
+  "note": "A designer shows each client as a horizontal strip of tiles (packaging, app, pictograms) with a grid/list toggle: the range of one brand job reads in a single row."
+ },
+ {
+  "site": "Sayed Essam",
+  "type": "landing",
+  "url": "https://sydxcix.com",
+  "tags": [
+   "highlighted-word",
+   "stat-hero",
+   "numbered-case-list",
+   "product-designer"
+  ],
+  "note": "A product designer highlights one word of his statement in an ochre block, then states Product 1 / Team 5 / Scale 1,000x before a big numbered list of products: claims as counts, then names."
+ },
+ {
+  "site": "wowsuchnastya",
+  "type": "landing",
+  "url": "https://wowsuchnastya.com",
+  "tags": [
+   "cyrillic",
+   "strikethrough-copy",
+   "cutout-portrait",
+   "billboard-mockup"
+  ],
+  "note": "A Russian copywriter writes her CV twice, once plainly for grandma and once 'in corporate language', next to a cut-out portrait with angry marks and a billboard of her own slogan."
+ },
+ {
+  "site": "Zef’s Website",
+  "type": "landing",
+  "url": "https://zefs.website",
+  "tags": [
+   "pink-ground",
+   "superscript-dates",
+   "numbered-projects",
+   "oversized-name"
+  ],
+  "note": "A product designer sets his name huge on pink with a stretched dash and a rotated last letter, and lists projects with superscript year ranges and strikethrough 'UX developer': a CV set like a poster."
  }
 ]

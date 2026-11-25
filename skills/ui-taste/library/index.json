@@ -14654,6 +14654,76 @@
     }
   },
   {
+    "id": "andy-rader-landing",
+    "site": "Andy Rader",
+    "url": "https://www.andyrader.com",
+    "type": "landing",
+    "tags": [
+      "rotated-text",
+      "dark-monochrome",
+      "one-screen",
+      "text-only"
+    ],
+    "note": "A front-end developer turns his whole intro 90 degrees into a black column of big type: one screen, no images, and the rotation alone makes it memorable.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/andy-rader-landing-desktop.jpg",
+        "width": 1440,
+        "height": 900
+      },
+      "mobile": {
+        "file": "screens/andy-rader-landing-mobile.jpg",
+        "width": 390,
+        "height": 844
+      }
+    },
+    "tokens": {
+      "title": "Andy Rader is an experience designer",
+      "fonts": [
+        "Alte"
+      ],
+      "type": {
+        "h1": {
+          "font": "Alte",
+          "size": 12,
+          "weight": "700",
+          "lineHeight": 1.5,
+          "letterSpacing": "normal",
+          "color": "rgb(255, 255, 255)"
+        },
+        "h2": {
+          "font": "Alte",
+          "size": 12,
+          "weight": "400",
+          "lineHeight": 1.5,
+          "letterSpacing": "normal",
+          "color": "rgb(255, 255, 255)"
+        },
+        "h3": null,
+        "body": {
+          "font": "Alte",
+          "size": 41,
+          "weight": "700",
+          "lineHeight": 1.15,
+          "letterSpacing": "-1.4175px",
+          "color": "rgb(255, 255, 255)"
+        }
+      },
+      "colors": {
+        "background": "#000000",
+        "surfaces": [
+          "#000000"
+        ],
+        "text": [
+          "#ffffff"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": null
+    }
+  },
+  {
     "id": "annapurna-interactive-landing",
     "site": "Annapurna Interactive",
     "url": "https://annapurnainteractive.com",
@@ -16675,6 +16745,62 @@
         ],
         "text": [
           "#343434"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": null
+    }
+  },
+  {
+    "id": "artem-militonian-landing",
+    "site": "Artem Militonian",
+    "url": "https://artmilitonian.com",
+    "type": "landing",
+    "tags": [
+      "text-index",
+      "underlined-links",
+      "line-drawing",
+      "one-screen"
+    ],
+    "note": "A designer's homepage is one big sentence plus an 'index:' and 'links:' written as underlined prose over a faint line drawing: navigation as a paragraph, with honest asides like '(not active)'.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/artem-militonian-landing-desktop.jpg",
+        "width": 1440,
+        "height": 900
+      },
+      "mobile": {
+        "file": "screens/artem-militonian-landing-mobile.jpg",
+        "width": 390,
+        "height": 844
+      }
+    },
+    "tokens": {
+      "title": "Artem Militonian",
+      "fonts": [
+        "custom_87914"
+      ],
+      "type": {
+        "h1": null,
+        "h2": null,
+        "h3": null,
+        "body": {
+          "font": "custom_87914",
+          "size": 8,
+          "weight": "500",
+          "lineHeight": 1.13,
+          "letterSpacing": "normal",
+          "color": "rgb(40, 40, 40)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#ffffff"
+        ],
+        "text": [
+          "#000000"
         ]
       },
       "buttons": [],
@@ -24443,6 +24569,68 @@
     }
   },
   {
+    "id": "charlie-pite-landing",
+    "site": "Charlie Pite",
+    "url": "https://charliepite.com",
+    "type": "landing",
+    "tags": [
+      "copywriter",
+      "dark-editorial",
+      "client-table",
+      "voice-first"
+    ],
+    "note": "A copywriter puts a cropped name over a staged photo, then lets the copy sell ('I know you're only here for the copy') above a ruled client / project / type table: the writing is the portfolio.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/charlie-pite-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/charlie-pite-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Charlie Pite. I write.",
+      "fonts": [
+        "IBM Plex Sans",
+        "IBM Plex Mono"
+      ],
+      "type": {
+        "h1": {
+          "font": "IBM Plex Sans",
+          "size": 157,
+          "weight": "400",
+          "lineHeight": 0.83,
+          "letterSpacing": "-7.2px",
+          "color": "rgb(247, 247, 247)"
+        },
+        "h2": null,
+        "h3": null,
+        "body": {
+          "font": "IBM Plex Sans",
+          "size": 19,
+          "weight": "300",
+          "lineHeight": 1.37,
+          "letterSpacing": "-0.18px",
+          "color": "rgb(247, 247, 247)"
+        }
+      },
+      "colors": {
+        "background": "#101010",
+        "surfaces": [],
+        "text": [
+          "#f7f7f7"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": null
+    }
+  },
+  {
     "id": "chckn-landing",
     "site": "CHCKN",
     "url": "https://chckn.app",
@@ -24598,6 +24786,62 @@
           "#000000",
           "#e6db74",
           "#f92672"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": null
+    }
+  },
+  {
+    "id": "christopher-bailey-landing",
+    "site": "Christopher Bailey",
+    "url": "https://www.cpbailey.co.uk",
+    "type": "landing",
+    "tags": [
+      "index-table",
+      "big-grotesk",
+      "date-range-title",
+      "services-per-row"
+    ],
+    "note": "A brand designer titles the page 'Selected Works 19'—25'' and lists each client in a ruled table with the deliverables stacked beside it: the scope of each job readable without opening it.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/christopher-bailey-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/christopher-bailey-landing-mobile.jpg",
+        "width": 390,
+        "height": 2074
+      }
+    },
+    "tokens": {
+      "title": "Works | Christopher Bailey",
+      "fonts": [
+        "PPNeueMontreal"
+      ],
+      "type": {
+        "h1": null,
+        "h2": null,
+        "h3": null,
+        "body": {
+          "font": "PPNeueMontreal",
+          "size": 16,
+          "weight": "400",
+          "lineHeight": 1.5,
+          "letterSpacing": "-0.8px",
+          "color": "rgb(19, 19, 19)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#f9f7f6"
+        ],
+        "text": [
+          "#131313"
         ]
       },
       "buttons": [],
@@ -37272,6 +37516,75 @@
     }
   },
   {
+    "id": "fidler-wna-landing",
+    "site": "Fidlerówna",
+    "url": "https://www.fidlerowna.com",
+    "type": "landing",
+    "tags": [
+      "psychedelic-wordmark",
+      "beige-ground",
+      "case-grid",
+      "product-photography"
+    ],
+    "note": "A studio pairs a bubbly 70s wordmark with a calm beige grid of staged product photographs: one loud element, everything else quiet and captioned.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/fidler-wna-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/fidler-wna-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Fidlerówna",
+      "fonts": [
+        "SuisseIntl-Regular-WebM ¶",
+        "sans-serif"
+      ],
+      "type": {
+        "h1": null,
+        "h2": null,
+        "h3": {
+          "font": "SuisseIntl-Regular-WebM ¶",
+          "size": 21,
+          "weight": "400",
+          "lineHeight": 1.2,
+          "letterSpacing": "normal",
+          "color": "rgb(28, 28, 28)"
+        },
+        "body": {
+          "font": "SuisseIntl-Regular-WebM ¶",
+          "size": 12,
+          "weight": "400",
+          "lineHeight": 1.2,
+          "letterSpacing": "normal",
+          "color": "rgb(249, 246, 239)"
+        }
+      },
+      "colors": {
+        "background": "#f9f6ef",
+        "surfaces": [
+          "#f9f6ef",
+          "#ff8ae8",
+          "#ff7438",
+          "#1c1c1c",
+          "#0068ff"
+        ],
+        "text": [
+          "#1c1c1c",
+          "#ffffff"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": null
+    }
+  },
+  {
     "id": "fieldwork-landing",
     "site": "Fieldwork",
     "url": "http://madebyfieldwork.com",
@@ -48921,6 +49234,79 @@
     }
   },
   {
+    "id": "ilovecreatives-studio-landing",
+    "site": "ilovecreatives Studio",
+    "url": "https://www.ilovecreatives.studio",
+    "type": "landing",
+    "tags": [
+      "chrome-wordmark",
+      "3d-type",
+      "editorial-columns",
+      "case-grid"
+    ],
+    "note": "A design studio makes its wordmark a chrome 3D 'Studio' with a toy on the letters, then sets the pitch in three newspaper columns: one object of spectacle, the rest plain reading.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/ilovecreatives-studio-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/ilovecreatives-studio-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "ilovecreatives Studio — Design Agency",
+      "fonts": [
+        "Arial-Narrow",
+        "arial-narrow-ln2ixk",
+        "Adobe-Caslon-Pro"
+      ],
+      "type": {
+        "h1": null,
+        "h2": {
+          "font": "Arial-Narrow",
+          "size": 52,
+          "weight": "400",
+          "lineHeight": 1.2,
+          "letterSpacing": "-2.6px",
+          "color": "rgb(0, 0, 0)"
+        },
+        "h3": {
+          "font": "Arial-Narrow",
+          "size": 28,
+          "weight": "400",
+          "lineHeight": 0.9,
+          "letterSpacing": "-0.56px",
+          "color": "rgb(0, 0, 0)"
+        },
+        "body": {
+          "font": "Arial-Narrow",
+          "size": 16,
+          "weight": "400",
+          "lineHeight": 1.2,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#ffffff",
+          "#000000"
+        ],
+        "text": [
+          "#000000"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": null
+    }
+  },
+  {
     "id": "in-common-with-landing",
     "site": "In Common With",
     "url": "https://www.incommonwith.com",
@@ -58407,6 +58793,71 @@
         "text": [
           "#212121",
           "#bbbbbb"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": null
+    }
+  },
+  {
+    "id": "marco-koenig-landing",
+    "site": "Marco Koenig",
+    "url": "https://www.marcokoenig.de",
+    "type": "landing",
+    "tags": [
+      "project-rows",
+      "grid-toggle",
+      "client-strips",
+      "minimal-white"
+    ],
+    "note": "A designer shows each client as a horizontal strip of tiles (packaging, app, pictograms) with a grid/list toggle: the range of one brand job reads in a single row.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/marco-koenig-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/marco-koenig-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Marco Koenig",
+      "fonts": [
+        "TT Interphases Pro Medium",
+        "Fragment Mono",
+        "sans-serif"
+      ],
+      "type": {
+        "h1": {
+          "font": "TT Interphases Pro Medium",
+          "size": 24,
+          "weight": "500",
+          "lineHeight": 1.3,
+          "letterSpacing": "-0.48px",
+          "color": "rgb(0, 0, 0)"
+        },
+        "h2": null,
+        "h3": null,
+        "body": {
+          "font": "TT Interphases Pro Medium",
+          "size": 16,
+          "weight": "500",
+          "lineHeight": 1.2,
+          "letterSpacing": "-0.32px",
+          "color": "rgb(0, 0, 0)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#ffffff"
+        ],
+        "text": [
+          "#000000"
         ]
       },
       "buttons": [],
@@ -80782,6 +81233,81 @@
     }
   },
   {
+    "id": "sayed-essam-landing",
+    "site": "Sayed Essam",
+    "url": "https://sydxcix.com",
+    "type": "landing",
+    "tags": [
+      "highlighted-word",
+      "stat-hero",
+      "numbered-case-list",
+      "product-designer"
+    ],
+    "note": "A product designer highlights one word of his statement in an ochre block, then states Product 1 / Team 5 / Scale 1,000x before a big numbered list of products: claims as counts, then names.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/sayed-essam-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/sayed-essam-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Sayed Essam (Syd) - Product Designer & Design Lead",
+      "fonts": [
+        "Host Grotesk",
+        "Space Mono",
+        "sans-serif"
+      ],
+      "type": {
+        "h1": {
+          "font": "Host Grotesk",
+          "size": 78,
+          "weight": "600",
+          "lineHeight": 0.95,
+          "letterSpacing": "-2.7216px",
+          "color": "rgb(14, 14, 14)"
+        },
+        "h2": {
+          "font": "Host Grotesk",
+          "size": 56,
+          "weight": "600",
+          "lineHeight": 1,
+          "letterSpacing": "-1.96504px",
+          "color": "rgb(14, 14, 14)"
+        },
+        "h3": null,
+        "body": {
+          "font": "Inter",
+          "size": 16,
+          "weight": "400",
+          "lineHeight": 1.2,
+          "letterSpacing": "normal",
+          "color": "rgb(14, 14, 14)"
+        }
+      },
+      "colors": {
+        "background": "#f2f0eb",
+        "surfaces": [
+          "#f2f0eb",
+          "#876307",
+          "#0e0e0e"
+        ],
+        "text": [
+          "#0e0e0e",
+          "#f2f0eb"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": 1000
+    }
+  },
+  {
     "id": "scale-ai-landing",
     "site": "Scale AI",
     "url": "https://scale.com",
@@ -100819,6 +101345,64 @@
     }
   },
   {
+    "id": "wowsuchnastya-landing",
+    "site": "wowsuchnastya",
+    "url": "https://wowsuchnastya.com",
+    "type": "landing",
+    "tags": [
+      "cyrillic",
+      "strikethrough-copy",
+      "cutout-portrait",
+      "billboard-mockup"
+    ],
+    "note": "A Russian copywriter writes her CV twice, once plainly for grandma and once 'in corporate language', next to a cut-out portrait with angry marks and a billboard of her own slogan.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/wowsuchnastya-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/wowsuchnastya-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "wowsuchnastya",
+      "fonts": [
+        "tt",
+        "Times New Roman"
+      ],
+      "type": {
+        "h1": null,
+        "h2": {
+          "font": "tt",
+          "size": 56,
+          "weight": "400",
+          "lineHeight": 1,
+          "letterSpacing": "normal",
+          "color": "rgb(12, 12, 12)"
+        },
+        "h3": null,
+        "body": null
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#fcfcfc"
+        ],
+        "text": [
+          "#0c0c0c",
+          "#0d0d0d"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": 960
+    }
+  },
+  {
     "id": "x-the-moonshot-company-landing",
     "site": "X – The Moonshot Company",
     "url": "https://x.company",
@@ -101876,6 +102460,74 @@
       },
       "buttons": [],
       "contentWidth": 1100
+    }
+  },
+  {
+    "id": "zef-s-website-landing",
+    "site": "Zef’s Website",
+    "url": "https://zefs.website",
+    "type": "landing",
+    "tags": [
+      "pink-ground",
+      "superscript-dates",
+      "numbered-projects",
+      "oversized-name"
+    ],
+    "note": "A product designer sets his name huge on pink with a stretched dash and a rotated last letter, and lists projects with superscript year ranges and strikethrough 'UX developer': a CV set like a poster.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/zef-s-website-landing-desktop.jpg",
+        "width": 1440,
+        "height": 1556
+      },
+      "mobile": {
+        "file": "screens/zef-s-website-landing-mobile.jpg",
+        "width": 390,
+        "height": 1559
+      }
+    },
+    "tokens": {
+      "title": "Zef's Website",
+      "fonts": [
+        "Lausanne-300"
+      ],
+      "type": {
+        "h1": {
+          "font": "Lausanne-300",
+          "size": 144,
+          "weight": "400",
+          "lineHeight": 0.78,
+          "letterSpacing": "normal",
+          "color": "rgb(2, 3, 31)"
+        },
+        "h2": {
+          "font": "Lausanne-300",
+          "size": 20,
+          "weight": "400",
+          "lineHeight": "normal",
+          "letterSpacing": "normal",
+          "color": "rgb(2, 3, 31)"
+        },
+        "h3": null,
+        "body": {
+          "font": "Lausanne-300",
+          "size": 35,
+          "weight": "400",
+          "lineHeight": 1.1,
+          "letterSpacing": "normal",
+          "color": "rgb(2, 3, 31)"
+        }
+      },
+      "colors": {
+        "background": "#ffbcd8",
+        "surfaces": [],
+        "text": [
+          "#02031f"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": null
     }
   },
   {
