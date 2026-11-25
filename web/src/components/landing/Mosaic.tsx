@@ -1,6 +1,6 @@
 "use client";
-// The word TASTE spelled with the pages of the library. The grid fills the first screen: the column count is
-// chosen so the tiles stay close to a phone screen for the space the headline leaves. Imperative on purpose:
+// The word TASTE spelled with the pages of the library. The grid fills the first screen with a capped number of
+// columns (43-47 wide, 13 on phones) so the letters stay large; the tiles keep the shape of a page. Imperative on purpose:
 // 500 tiles, a torch following the pointer and swaps every two seconds are cheaper outside React's render loop.
 import Link from "next/link";
 import { useEffect, useRef } from "react";
@@ -16,7 +16,7 @@ const GLYPH: Record<string, string[]> = {
 type Letters = [string, number, number][];
 type Word = { minCols: number; maxCols?: number; minRows: number; aspect: number; letters: (co: number, ro: number) => Letters; pad: (cols: number, rows: number) => [number, number] };
 const WORD: Record<"wide" | "tall", Word> = {
-  wide: { minCols: 39, minRows: 7, aspect: 507 / 260, letters: (co, ro) => [["T", ro, 5 + co], ["A", ro, 11 + co], ["S", ro, 17 + co], ["T", ro, 23 + co], ["E", ro, 29 + co]], pad: (cols, rows) => [Math.floor((cols - 39) / 2), Math.floor((rows - 7) / 2)] },
+  wide: { minCols: 43, maxCols: 47, minRows: 7, aspect: 507 / 260, letters: (co, ro) => [["T", ro, 5 + co], ["A", ro, 11 + co], ["S", ro, 17 + co], ["T", ro, 23 + co], ["E", ro, 29 + co]], pad: (cols, rows) => [Math.floor((cols - 39) / 2), Math.floor((rows - 7) / 2)] },
   tall: { minCols: 13, maxCols: 13, minRows: 21, aspect: 1.08, letters: (co, ro) => [["T", ro, 1 + co], ["A", ro, 7 + co], ["S", 7 + ro, 1 + co], ["T", 7 + ro, 7 + co], ["E", 14 + ro, 4 + co]], pad: (cols, rows) => [Math.floor((cols - 13) / 2), Math.floor((rows - 21) / 2)] },
 };
 const STAR = ["stripe-press-landing", "playdate-landing", "kagi-pricing", "hey-landing", "lindy-landing", "netlify-landing", "duolingo-landing", "oatly-landing", "glossier-landing", "panic-landing", "cosmos-landing", "anthropic-landing", "basecamp-landing", "tailscale-landing", "mailchimp-landing", "notion-landing"];
@@ -42,8 +42,9 @@ export function Mosaic({ tiles }: { tiles: Tile[] }) {
       let best: { cols: number; rows: number; err: number } | null = null;
       for (let cols = word.minCols; cols <= (word.maxCols || 160); cols++) {
         const tw = (W - gap * (cols - 1)) / cols;
-        // capped grids (phones) take as many rows as the height allows; open grids take one cell per page
-        const rows = Math.max(word.minRows, word.maxCols ? Math.round((H + gap) / (tw * word.aspect + gap)) : Math.ceil(N / cols));
+        // the column count is capped so the word stays large however big the library grows: the grid takes as
+        // many rows as the height allows and shows a sample of the pages, not all of them
+        const rows = Math.max(word.minRows, Math.round((H + gap) / (tw * word.aspect + gap)));
         const th = (H - gap * (rows - 1)) / rows;
         const err = Math.abs(Math.log((th / tw) / word.aspect));
         if (!best || err < best.err) best = { cols, rows, err };
@@ -165,7 +166,7 @@ export function Mosaic({ tiles }: { tiles: Tile[] }) {
         <div className="hero-side">
           <p className="tile-info" id="tile-info" aria-live="polite">
             <span className="ti-n" ref={nRef}><span className="n-all">{tiles.length}</span></span>
-            <span ref={textRef}>pages, one per tile. <span className="on-hover">Hover</span><span className="on-touch">Tap</span> any of them.</span>
+            <span ref={textRef}>pages in the library. <span className="on-hover">Hover</span><span className="on-touch">Tap</span> any of them.</span>
           </p>
           <div className="actions">
             <Link className="btn btn-ink btn-lg" href="/library">Browse the library</Link>
