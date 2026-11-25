@@ -21,11 +21,14 @@ import { typeMetas } from "@/lib/seo";
 import { Compare } from "@/components/landing/Compare";
 import type { Tile } from "@/lib/types";
 import { Head } from "@/components/landing/Head";
+import { GitHubStars } from "@/components/GitHubStars";
+import { getStars } from "@/lib/github";
 
 // a first row of strong, varied pages in the index; the rest follows alphabetically
 const FIRST = ["stripe-press-landing", "linear-pricing", "playdate-landing", "anthropic-landing", "teenage-engineering-landing", "obsidian-landing", "kagi-pricing", "pentagram-landing", "vercel-geist-overview", "lindy-landing", "hey-landing", "cognition-landing"];
 
-export default function Landing() {
+export default async function Landing() {
+  const stars = await getStars();
   const LIB = getLibrary();
   const counts = libraryCounts(LIB);
   const tiles: Tile[] = LIB.map((it) => ({
@@ -62,7 +65,10 @@ export default function Landing() {
 
       <header className="masthead">
         <div className="masthead-inner">
-          <Link className="wordmark" href="/"><Logo /></Link>
+          <div className="brand">
+            <Link className="wordmark" href="/"><Logo /></Link>
+            <GitHubStars initial={stars} />
+          </div>
           <nav className="nav" aria-label="Sections">
             <a href="#measured">Measured</a>
             <a href="#tools">Tools</a>
