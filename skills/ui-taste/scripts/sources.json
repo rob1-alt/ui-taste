@@ -16241,5 +16241,89 @@
    "product-studio"
   ],
   "note": "A product studio keeps its old site with a line on top, 'This version is an archive for posterity', then a ledger of projects by year, client and scope: an honest archive that still sells."
+ },
+ {
+  "site": "Anton & Irene",
+  "type": "landing",
+  "url": "http://antonandirene.com",
+  "tags": [
+   "stat-grid",
+   "illustrated-figures",
+   "studio-counts",
+   "ux-books"
+  ],
+  "note": "A design studio opens on two faceless colour-blocked figures, then six counts (12 years, 2 offices, 2 books on UX, 147 projects, 56 awards, 15 years teaching): the record as numbers."
+ },
+ {
+  "site": "Dylan Fisher",
+  "type": "landing",
+  "url": "http://dylanfisher.com",
+  "tags": [
+   "year-ledger",
+   "client-url-collaborator",
+   "serif-text",
+   "developer"
+  ],
+  "note": "A web developer's homepage is a ledger by year: client, URL and 'with' the studio he built it for: credit to the designers built into every row."
+ },
+ {
+  "site": "Fabio Has",
+  "type": "landing",
+  "url": "http://fabiohas.com",
+  "tags": [
+   "stacked-heavy-titles",
+   "chrome-wordmark",
+   "greetings-line",
+   "dark"
+  ],
+  "note": "A designer stacks every project title in heavy condensed caps down the centre of a black page under a chrome wordmark: the list of names reads like a poster."
+ },
+ {
+  "site": "Marina Esmeraldo",
+  "type": "landing",
+  "url": "http://marinaesmeraldo.com",
+  "tags": [
+   "colour-band-nav",
+   "serif-links",
+   "shop-mentoring",
+   "illustrator"
+  ],
+  "note": "An illustrator makes the homepage a stack of full-width colour bands (lilac, yellow, orange), each one a section in thin serif: the navigation is her palette."
+ },
+ {
+  "site": "Maximilian Mauracher",
+  "type": "landing",
+  "url": "http://maximilianmauracher.com",
+  "tags": [
+   "question-and-pill",
+   "orange-pills",
+   "portrait",
+   "circular-design"
+  ],
+  "note": "A designer writes three questions ('How might we eliminate waste and close the loop?') each answered by an orange pill (Degrowth, Circular Economy, Design): the pills are the topics and the links."
+ },
+ {
+  "site": "Stefan Endress",
+  "type": "landing",
+  "url": "http://stefanendress.com",
+  "tags": [
+   "app-shell",
+   "timeline-cv",
+   "card-carousel",
+   "product-designer"
+  ],
+  "note": "A product designer builds the site like an app: a left sidebar (About, Work, Timeline, Blog), a carousel of work cards and a timeline CV with durations: the portfolio uses the conventions it ships."
+ },
+ {
+  "site": "Tudor Prisacariu",
+  "type": "landing",
+  "url": "http://bucharest.tudorprisacariu.com",
+  "tags": [
+   "book-project",
+   "yellow-system",
+   "map-of-walks",
+   "photographer"
+  ],
+  "note": "A photographer shows one book in yellow, then a yellow map dotted with the places of his 50 walking days and a long project text: one project presented through its method."
  }
 ]
