@@ -15157,6 +15157,62 @@
     }
   },
   {
+    "id": "anna-lomax-landing",
+    "site": "Anna Lomax",
+    "url": "http://annalomax.com",
+    "type": "landing",
+    "tags": [
+      "floating-collage",
+      "colour-panel",
+      "one-screen",
+      "set-designer"
+    ],
+    "note": "A set designer floats cut-out pictures of her work on a sage panel with Work / Index / Shop at the corners: one screen, the collage is the menu.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/anna-lomax-landing-desktop.jpg",
+        "width": 1440,
+        "height": 900
+      },
+      "mobile": {
+        "file": "screens/anna-lomax-landing-mobile.jpg",
+        "width": 390,
+        "height": 844
+      }
+    },
+    "tokens": {
+      "title": "Anna Lomax | British Artist, Designer & Set Designer, London",
+      "fonts": [
+        "Reader-Regular"
+      ],
+      "type": {
+        "h1": {
+          "font": "Reader-Regular",
+          "size": 16,
+          "weight": "700",
+          "lineHeight": 1.4,
+          "letterSpacing": "1.6px",
+          "color": "rgb(114, 92, 96)"
+        },
+        "h2": null,
+        "h3": null,
+        "body": null
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#8da39f"
+        ],
+        "text": [
+          "#725c60"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": null
+    }
+  },
+  {
     "id": "annapurna-interactive-landing",
     "site": "Annapurna Interactive",
     "url": "https://annapurnainteractive.com",
@@ -25582,6 +25638,63 @@
       },
       "buttons": [],
       "contentWidth": null
+    }
+  },
+  {
+    "id": "chris-corby-landing",
+    "site": "Chris Corby",
+    "url": "http://chris-corby.com",
+    "type": "landing",
+    "tags": [
+      "numbered-serif-list",
+      "availability-note",
+      "bracketed-ellipsis",
+      "web-developer"
+    ],
+    "note": "A web developer writes a short bio with a bracketed '[…]' for the studios he works with, a grey 'Currently exploring projects for winter + spring '26/'27', then a numbered serif list of clients.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/chris-corby-landing-desktop.jpg",
+        "width": 1440,
+        "height": 2930
+      },
+      "mobile": {
+        "file": "screens/chris-corby-landing-mobile.jpg",
+        "width": 390,
+        "height": 1603
+      }
+    },
+    "tokens": {
+      "title": "Chris Corby",
+      "fonts": [
+        "garamond-premier-pro",
+        "mt-grotesque",
+        "Arial"
+      ],
+      "type": {
+        "h1": null,
+        "h2": null,
+        "h3": null,
+        "body": {
+          "font": "mt-grotesque",
+          "size": 45,
+          "weight": "400",
+          "lineHeight": 1.48,
+          "letterSpacing": "normal",
+          "color": "rgb(35, 31, 32)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [],
+        "text": [
+          "#231f20",
+          "#a69b9e"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": 1600
     }
   },
   {
@@ -41489,6 +41602,70 @@
     }
   },
   {
+    "id": "for-office-use-only-landing",
+    "site": "For Office Use Only",
+    "url": "http://forofficeuseonly.com",
+    "type": "landing",
+    "tags": [
+      "stacked-name",
+      "vertical-nav",
+      "captioned-cases",
+      "studio"
+    ],
+    "note": "A studio stacks its name one word per line at the top-left, rotates Work / Info along the right edge, and gives each project a paragraph beside the image: a quiet editorial grid.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/for-office-use-only-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3338
+      },
+      "mobile": {
+        "file": "screens/for-office-use-only-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "For Office Use Only, digital design for art, culture, & architecture clients.",
+      "fonts": [
+        "NL",
+        "AC"
+      ],
+      "type": {
+        "h1": null,
+        "h2": {
+          "font": "NL",
+          "size": 24,
+          "weight": "400",
+          "lineHeight": 1,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        },
+        "h3": null,
+        "body": {
+          "font": "AC",
+          "size": 20,
+          "weight": "400",
+          "lineHeight": 1.4,
+          "letterSpacing": "normal",
+          "color": "rgb(74, 74, 74)"
+        }
+      },
+      "colors": {
+        "background": "#f2f2f2",
+        "surfaces": [],
+        "text": [
+          "#4a4a4a",
+          "#000000",
+          "#9b9b9b"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": 1280
+    }
+  },
+  {
     "id": "for-the-people-landing",
     "site": "For The People",
     "url": "http://forthepeople.agency",
@@ -46203,6 +46380,72 @@
           "weight": "400"
         }
       ],
+      "contentWidth": null
+    }
+  },
+  {
+    "id": "gt-walsheim-landing",
+    "site": "GT Walsheim",
+    "url": "http://gt-walsheim.com",
+    "type": "landing",
+    "tags": [
+      "quote-hero",
+      "typeface-microsite",
+      "poster-history",
+      "foundry"
+    ],
+    "note": "A type foundry presents a typeface with a quote from the poster artist who inspired it, set in the face itself, then his posters with dates and sizes: the font is sold through its history.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/gt-walsheim-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/gt-walsheim-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "GT Walsheim Font Family • Supports Latin and Cyrillic Languages • Exclusively available at Grilli Type • Download Free Trial Fonts",
+      "fonts": [
+        "GT-Walsheim-Medium",
+        "gt-walsheim-bold",
+        "gt-walsheim-medium"
+      ],
+      "type": {
+        "h1": null,
+        "h2": null,
+        "h3": {
+          "font": "gt-walsheim-bold",
+          "size": 64,
+          "weight": "500",
+          "lineHeight": 1.31,
+          "letterSpacing": "1.28px",
+          "color": "rgb(255, 255, 255)"
+        },
+        "body": {
+          "font": "gt-walsheim-medium",
+          "size": 122,
+          "weight": "500",
+          "lineHeight": 1.05,
+          "letterSpacing": "normal",
+          "color": "rgb(255, 255, 255)"
+        }
+      },
+      "colors": {
+        "background": "#000000",
+        "surfaces": [
+          "#000000",
+          "#ffffff"
+        ],
+        "text": [
+          "#ffffff"
+        ]
+      },
+      "buttons": [],
       "contentWidth": null
     }
   },
@@ -67852,6 +68095,73 @@
       },
       "buttons": [],
       "contentWidth": 825
+    }
+  },
+  {
+    "id": "nazis-goldmund-landing",
+    "site": "Nazis & Goldmund",
+    "url": "http://nazisundgoldmund.net",
+    "type": "landing",
+    "tags": [
+      "publisher-blue",
+      "serif-headline",
+      "article-grid",
+      "dated-posts"
+    ],
+    "note": "An Austrian publisher sets a long serif sentence in white on saturated blue, then dated articles in three columns: one colour and one face make the identity.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/nazis-goldmund-landing-desktop.jpg",
+        "width": 1440,
+        "height": 2914
+      },
+      "mobile": {
+        "file": "screens/nazis-goldmund-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Nazis & Goldmund",
+      "fonts": [
+        "Open Sans",
+        "PT Serif"
+      ],
+      "type": {
+        "h1": null,
+        "h2": null,
+        "h3": {
+          "font": "PT Serif",
+          "size": 36,
+          "weight": "700",
+          "lineHeight": 1.17,
+          "letterSpacing": "normal",
+          "color": "rgb(33, 33, 33)"
+        },
+        "body": {
+          "font": "PT Serif",
+          "size": 16,
+          "weight": "400",
+          "lineHeight": 1.5,
+          "letterSpacing": "normal",
+          "color": "rgb(33, 33, 33)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#011eff",
+          "#ffffff"
+        ],
+        "text": [
+          "#212121",
+          "#ffffff",
+          "#929292"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": 1280
     }
   },
   {
@@ -93561,6 +93871,76 @@
     }
   },
   {
+    "id": "studio-bruch-landing",
+    "site": "Studio Bruch",
+    "url": "http://studiobruch.com",
+    "type": "landing",
+    "tags": [
+      "embossed-mark",
+      "orange-field",
+      "client-strip",
+      "german"
+    ],
+    "note": "A studio shows an embossed orange print of a client's logo as the hero, a strip of interview thumbnails below and German statements on the same orange: one colour from first screen to last.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/studio-bruch-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/studio-bruch-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Studio Bruch",
+      "fonts": [
+        "GT Standard",
+        "ABC Daily Slab"
+      ],
+      "type": {
+        "h1": null,
+        "h2": {
+          "font": "ABC Daily Slab",
+          "size": 93,
+          "weight": "400",
+          "lineHeight": 1,
+          "letterSpacing": "-1.85104px",
+          "color": "rgb(33, 33, 33)"
+        },
+        "h3": null,
+        "body": {
+          "font": "ABC Daily Slab",
+          "size": 30,
+          "weight": "400",
+          "lineHeight": 0.9,
+          "letterSpacing": "normal",
+          "color": "rgb(236, 236, 236)"
+        }
+      },
+      "colors": {
+        "background": "#f46626",
+        "surfaces": [
+          "#ececec",
+          "#d8d8d8",
+          "#f46626",
+          "#000000"
+        ],
+        "text": [
+          "#000000",
+          "#919191",
+          "#ececec",
+          "#212121"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": 1580
+    }
+  },
+  {
     "id": "studio-c-landing",
     "site": "Studio C",
     "url": "http://www.studioc.dk",
@@ -104687,6 +105067,65 @@
     }
   },
   {
+    "id": "vedad-siljak-landing",
+    "site": "Vedad Siljak",
+    "url": "http://vedadsiljak.com",
+    "type": "landing",
+    "tags": [
+      "logo-grid",
+      "mark-on-context",
+      "black-blue-tiles",
+      "logo-designer"
+    ],
+    "note": "A logo designer shows each mark in its setting (a sign, a card, a phone) in a two-column grid of black and blue tiles: logos judged in use, not on white.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/vedad-siljak-landing-desktop.jpg",
+        "width": 1440,
+        "height": 2920
+      },
+      "mobile": {
+        "file": "screens/vedad-siljak-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Home - Vedad Siljak",
+      "fonts": [
+        "Open Sans",
+        "neue-haas-unica"
+      ],
+      "type": {
+        "h1": null,
+        "h2": null,
+        "h3": null,
+        "body": {
+          "font": "Open Sans",
+          "size": 18,
+          "weight": "400",
+          "lineHeight": 2.22,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        }
+      },
+      "colors": {
+        "background": "#000000",
+        "surfaces": [
+          "#ffffff"
+        ],
+        "text": [
+          "#000000",
+          "#a5a5a5",
+          "#020202"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": null
+    }
+  },
+  {
     "id": "vercel-landing",
     "site": "Vercel",
     "url": "https://vercel.com",
@@ -105194,6 +105633,88 @@
         }
       ],
       "contentWidth": null
+    }
+  },
+  {
+    "id": "viljami-s-design-landing",
+    "site": "Viljami S. Design",
+    "url": "https://viljamisdesign.com",
+    "type": "landing",
+    "tags": [
+      "style-guide-home",
+      "colour-swatches",
+      "type-specimen",
+      "design-system"
+    ],
+    "note": "A designer makes his homepage the site's own living style guide: logo, four named colours (Ink, Accent, Sand, Sky), type scale, then projects.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/viljami-s-design-landing-desktop.jpg",
+        "width": 1440,
+        "height": 2827
+      },
+      "mobile": {
+        "file": "screens/viljami-s-design-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Style Guide | viljamisdesign.com",
+      "fonts": [
+        "Arial"
+      ],
+      "type": {
+        "h1": {
+          "font": "Arial",
+          "size": 112,
+          "weight": "700",
+          "lineHeight": 0.95,
+          "letterSpacing": "-5.6px",
+          "color": "rgb(23, 32, 42)"
+        },
+        "h2": {
+          "font": "Arial",
+          "size": 32,
+          "weight": "700",
+          "lineHeight": 1.75,
+          "letterSpacing": "normal",
+          "color": "rgb(23, 32, 42)"
+        },
+        "h3": {
+          "font": "Arial",
+          "size": 19,
+          "weight": "700",
+          "lineHeight": 1.75,
+          "letterSpacing": "normal",
+          "color": "rgb(23, 32, 42)"
+        },
+        "body": {
+          "font": "Arial",
+          "size": 20,
+          "weight": "400",
+          "lineHeight": 1.75,
+          "letterSpacing": "normal",
+          "color": "rgb(23, 32, 42)"
+        }
+      },
+      "colors": {
+        "background": "#fbfbfa",
+        "surfaces": [
+          "#ffffff",
+          "#17202a",
+          "#ef4a35",
+          "#eadfcd",
+          "#cfe5ee"
+        ],
+        "text": [
+          "#17202a",
+          "#ffffff"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": 1120
     }
   },
   {

@@ -16049,5 +16049,101 @@
    "artist"
   ],
   "note": "An artist shows his work in a calendar: months of dots coloured by status beside each dated print, with Month / List / Grid views: the practice as a daily log."
+ },
+ {
+  "site": "Anna Lomax",
+  "type": "landing",
+  "url": "http://annalomax.com",
+  "tags": [
+   "floating-collage",
+   "colour-panel",
+   "one-screen",
+   "set-designer"
+  ],
+  "note": "A set designer floats cut-out pictures of her work on a sage panel with Work / Index / Shop at the corners: one screen, the collage is the menu."
+ },
+ {
+  "site": "Chris Corby",
+  "type": "landing",
+  "url": "http://chris-corby.com",
+  "tags": [
+   "numbered-serif-list",
+   "availability-note",
+   "bracketed-ellipsis",
+   "web-developer"
+  ],
+  "note": "A web developer writes a short bio with a bracketed '[…]' for the studios he works with, a grey 'Currently exploring projects for winter + spring '26/'27', then a numbered serif list of clients."
+ },
+ {
+  "site": "For Office Use Only",
+  "type": "landing",
+  "url": "http://forofficeuseonly.com",
+  "tags": [
+   "stacked-name",
+   "vertical-nav",
+   "captioned-cases",
+   "studio"
+  ],
+  "note": "A studio stacks its name one word per line at the top-left, rotates Work / Info along the right edge, and gives each project a paragraph beside the image: a quiet editorial grid."
+ },
+ {
+  "site": "GT Walsheim",
+  "type": "landing",
+  "url": "http://gt-walsheim.com",
+  "tags": [
+   "quote-hero",
+   "typeface-microsite",
+   "poster-history",
+   "foundry"
+  ],
+  "note": "A type foundry presents a typeface with a quote from the poster artist who inspired it, set in the face itself, then his posters with dates and sizes: the font is sold through its history."
+ },
+ {
+  "site": "Nazis & Goldmund",
+  "type": "landing",
+  "url": "http://nazisundgoldmund.net",
+  "tags": [
+   "publisher-blue",
+   "serif-headline",
+   "article-grid",
+   "dated-posts"
+  ],
+  "note": "An Austrian publisher sets a long serif sentence in white on saturated blue, then dated articles in three columns: one colour and one face make the identity."
+ },
+ {
+  "site": "Studio Bruch",
+  "type": "landing",
+  "url": "http://studiobruch.com",
+  "tags": [
+   "embossed-mark",
+   "orange-field",
+   "client-strip",
+   "german"
+  ],
+  "note": "A studio shows an embossed orange print of a client's logo as the hero, a strip of interview thumbnails below and German statements on the same orange: one colour from first screen to last."
+ },
+ {
+  "site": "Vedad Siljak",
+  "type": "landing",
+  "url": "http://vedadsiljak.com",
+  "tags": [
+   "logo-grid",
+   "mark-on-context",
+   "black-blue-tiles",
+   "logo-designer"
+  ],
+  "note": "A logo designer shows each mark in its setting (a sign, a card, a phone) in a two-column grid of black and blue tiles: logos judged in use, not on white."
+ },
+ {
+  "site": "Viljami S. Design",
+  "type": "landing",
+  "url": "https://viljamisdesign.com",
+  "tags": [
+   "style-guide-home",
+   "colour-swatches",
+   "type-specimen",
+   "design-system"
+  ],
+  "note": "A designer makes his homepage the site's own living style guide: logo, four named colours (Ink, Accent, Sand, Sky), type scale, then projects."
  }
 ]

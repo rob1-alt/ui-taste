@@ -2349,3 +2349,43 @@ http://www.stefanschuster.me	YouTube bot-check wall ("Sign in to confirm you're 
 http://www.thomasdudon.com	"Selected Works" with overlapping project thumbnails in a st
 http://pollystanton.com	blank
 http://tdr.io	blank
+http://joycewang.com	redirects off-site (joycewangstudio.com) (prefilter)
+http://hanspellejart.dk	broken (http 454) (prefilter)
+http://edenvidal.com	redirects off-site (weareunder.design) (prefilter)
+http://w-v.co	redirects off-site (amberwing.co) (prefilter)
+http://benpearce.nz	broken (URLError) (prefilter)
+http://www.alesnesetril.com	broken (http 404) (prefilter)
+https://www.davidtrubridge.com	sale takeover (prefilter)
+http://www.studiothick.com	broken (URLError) (prefilter)
+http://www.oursroux.com	redirects off-site (max77slot.autos) (prefilter)
+http://www.beatschweizer.com	plain photo thumbnail column; nothing distinctive
+http://caitoppermann.com	short text bio with small image pairs; default photographer 
+http://www.diano.xyz	studio case-study card grid; template-looking
+http://jasonsfetko.com	plain grey tile grid of posters; index only
+http://jeremymaurel.fr	only a small contact card on black; rest empty
+http://getcoleman.com	near-empty black page with one tiny paragraph and a slider l
+http://katrinemehl.com	bold pink hero then blank; content below does not render (he
+http://klosinski.net	bold hero then standard topic-card grid; business template l
+http://philipdibello.com	plain text statements and text list; little visual design
+https://rickyrauch.me	tilted screenshot then mostly blank white and black; sparse 
+http://seanwhipps.com	long plain bio text column with links; nothing visual
+http://www.simonepolga.com	centred serif text and black footer bar; sparse
+http://slava.kim	plain resume-style text list; no visual design
+http://estudiomendue.com	dense grid of video tiles; many unloaded players; index-like
+https://juzac.net	plain text CV-style list with links
+http://yuliserfaty.com	grey image placeholders unloaded; text index only
+http://19h47.fr	blank
+http://actualidea.com	blank
+http://eliastinchon.com	blank
+http://ludmillamaury.com	blank
+http://samwilliams.studio	blank
+http://www.sophiehustin.com	blank
+https://www.aaff.se	mockups on grey, common
+http://www.alessandroscarpellini.it	intro and mockups, common
+http://annarosa.com	desktop hero only
+http://cgthompson.com	hero only: one slide
+http://ansted.com	gallery page with newsletter form, plain
+http://lippzahnschirm.com	photo columns, little to learn
+http://saulfougnier.com	desktop stops after one tile
+http://this.design	desktop hero only: strip then black
+https://timothyachumba.com	dark product-designer layout, common
