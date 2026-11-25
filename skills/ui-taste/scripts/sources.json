@@ -15761,5 +15761,101 @@
    "css-teaching"
   ],
   "note": "A designer who teaches CSS draws his name as a striped outline staircase and makes the homepage a blog of CSS tips, each card illustrated with the technique it explains."
+ },
+ {
+  "site": "Alex Singh",
+  "type": "landing",
+  "url": "https://www.alexsingh.com",
+  "tags": [
+   "essay-only",
+   "black-ground",
+   "small-sans",
+   "manifesto"
+  ],
+  "note": "A designer's homepage is a short essay on black ('The opposite of the specialist is not the generalist, but the Liminist'): one idea argued in small type, nothing else on the page."
+ },
+ {
+  "site": "Angus Plunkett",
+  "type": "landing",
+  "url": "http://angusplunkett.com",
+  "tags": [
+   "staggered-images",
+   "image-counters",
+   "red-wordmark-work",
+   "offset-grid"
+  ],
+  "note": "A designer staggers projects left and right at different sizes, each with a caption and a '1/15' counter: the work sets the rhythm, the offsets keep a long page moving."
+ },
+ {
+  "site": "Ephraim Joseph",
+  "type": "landing",
+  "url": "https://ephraimjoseph.com",
+  "tags": [
+   "globe-with-cities",
+   "linked-bio",
+   "campaign-photos",
+   "creative-director"
+  ],
+  "note": "A creative director puts a glowing globe with his cities marked under a linked bio, then campaigns photographed in place: where he has worked becomes the hero image."
+ },
+ {
+  "site": "Matt Carvalho",
+  "type": "landing",
+  "url": "https://www.mattcarvalho.com",
+  "tags": [
+   "monogram-sculpture",
+   "orange-photo",
+   "brand-leadership",
+   "product-screens"
+  ],
+  "note": "A brand leader photographs his M© monogram as a giant sculpture with a figure beneath it: the mark staged at architectural scale instead of drawn flat."
+ },
+ {
+  "site": "Pierre Grosjean",
+  "type": "landing",
+  "url": "http://pierregrosjean.fr",
+  "tags": [
+   "pill-in-headline",
+   "colour-cards",
+   "french",
+   "webflow-expert"
+  ],
+  "note": "A French freelancer asks 'Besoin d'un petit coup de pouce ?' with a blue pill sitting between words, then colour-blocked project cards with lowercase names: playful copy, tidy cards."
+ },
+ {
+  "site": "Sylvain Julé",
+  "type": "landing",
+  "url": "https://sylvain-jule.fr/en",
+  "tags": [
+   "slideshow-players",
+   "tiny-header",
+   "screens-in-frames",
+   "bilingual"
+  ],
+  "note": "A designer-developer shows each website as a small slideshow with play / previous / fullscreen controls under a tiny two-line header: the work is presented in a viewer, not as mockups."
+ },
+ {
+  "site": "Tobias Thaden",
+  "type": "landing",
+  "url": "https://tobiasthaden.com",
+  "tags": [
+   "scattered-letters",
+   "strikethrough-stack",
+   "bw-photos",
+   "developer-bio"
+  ],
+  "note": "A developer scatters the letters of his name in red down the top, then lists his buzzwords with 'VueJS' struck through: a playful mark and an honest stack."
+ },
+ {
+  "site": "Vova Stegantsov",
+  "type": "landing",
+  "url": "https://unfinished.design",
+  "tags": [
+   "primary-bento",
+   "bauhaus-colours",
+   "portrait-hero",
+   "link-tiles"
+  ],
+  "note": "A product designer fills the page with a bento of red, blue, yellow and black tiles (links, projects, blog posts, a big T logo) under a grey portrait: a Bauhaus palette as the whole system."
  }
 ]

@@ -13525,6 +13525,60 @@
     }
   },
   {
+    "id": "alex-singh-landing",
+    "site": "Alex Singh",
+    "url": "https://www.alexsingh.com",
+    "type": "landing",
+    "tags": [
+      "essay-only",
+      "black-ground",
+      "small-sans",
+      "manifesto"
+    ],
+    "note": "A designer's homepage is a short essay on black ('The opposite of the specialist is not the generalist, but the Liminist'): one idea argued in small type, nothing else on the page.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/alex-singh-landing-desktop.jpg",
+        "width": 1440,
+        "height": 900
+      },
+      "mobile": {
+        "file": "screens/alex-singh-landing-mobile.jpg",
+        "width": 390,
+        "height": 2121
+      }
+    },
+    "tokens": {
+      "title": "The Liminist",
+      "fonts": [
+        "Untitled Sans"
+      ],
+      "type": {
+        "h1": null,
+        "h2": null,
+        "h3": null,
+        "body": {
+          "font": "Untitled Sans",
+          "size": 20,
+          "weight": "400",
+          "lineHeight": 1.4,
+          "letterSpacing": "normal",
+          "color": "rgb(209, 213, 219)"
+        }
+      },
+      "colors": {
+        "background": "#000000",
+        "surfaces": [],
+        "text": [
+          "#d1d5db"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": 768
+    }
+  },
+  {
     "id": "alfred-landing",
     "site": "Alfred",
     "url": "https://www.alfredapp.com",
@@ -14980,6 +15034,67 @@
         ],
         "text": [
           "#ffffff"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": null
+    }
+  },
+  {
+    "id": "angus-plunkett-landing",
+    "site": "Angus Plunkett",
+    "url": "http://angusplunkett.com",
+    "type": "landing",
+    "tags": [
+      "staggered-images",
+      "image-counters",
+      "red-wordmark-work",
+      "offset-grid"
+    ],
+    "note": "A designer staggers projects left and right at different sizes, each with a caption and a '1/15' counter: the work sets the rhythm, the offsets keep a long page moving.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/angus-plunkett-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/angus-plunkett-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "ANGUS PLUNKETT",
+      "fonts": [
+        "fugue_regular-webfont",
+        "Times New Roman",
+        "helvetica neue"
+      ],
+      "type": {
+        "h1": null,
+        "h2": null,
+        "h3": null,
+        "body": {
+          "font": "fugue_regular-webfont",
+          "size": 21,
+          "weight": "400",
+          "lineHeight": 1.15,
+          "letterSpacing": "normal",
+          "color": "rgb(15, 15, 15)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#ffffff"
+        ],
+        "text": [
+          "#0f0f0f",
+          "#8e8e8e",
+          "#878787",
+          "#ff0000"
         ]
       },
       "buttons": [],
@@ -36653,6 +36768,64 @@
         }
       ],
       "contentWidth": 1308
+    }
+  },
+  {
+    "id": "ephraim-joseph-landing",
+    "site": "Ephraim Joseph",
+    "url": "https://ephraimjoseph.com",
+    "type": "landing",
+    "tags": [
+      "globe-with-cities",
+      "linked-bio",
+      "campaign-photos",
+      "creative-director"
+    ],
+    "note": "A creative director puts a glowing globe with his cities marked under a linked bio, then campaigns photographed in place: where he has worked becomes the hero image.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/ephraim-joseph-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/ephraim-joseph-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Ephraim Joseph",
+      "fonts": [
+        "Helvetica Neue"
+      ],
+      "type": {
+        "h1": null,
+        "h2": null,
+        "h3": null,
+        "body": {
+          "font": "Helvetica Neue",
+          "size": 14,
+          "weight": "400",
+          "lineHeight": 1.4,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        }
+      },
+      "colors": {
+        "background": "#000000",
+        "surfaces": [
+          "#ffffff",
+          "#85817d",
+          "#000000"
+        ],
+        "text": [
+          "#ffffff"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": null
     }
   },
   {
@@ -62336,6 +62509,86 @@
     }
   },
   {
+    "id": "matt-carvalho-landing",
+    "site": "Matt Carvalho",
+    "url": "https://www.mattcarvalho.com",
+    "type": "landing",
+    "tags": [
+      "monogram-sculpture",
+      "orange-photo",
+      "brand-leadership",
+      "product-screens"
+    ],
+    "note": "A brand leader photographs his M© monogram as a giant sculpture with a figure beneath it: the mark staged at architectural scale instead of drawn flat.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/matt-carvalho-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/matt-carvalho-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "M© | Driving End-to-End Brand Growth for Global Clients",
+      "fonts": [
+        "Inter"
+      ],
+      "type": {
+        "h1": {
+          "font": "Inter",
+          "size": 76,
+          "weight": "500",
+          "lineHeight": 1.12,
+          "letterSpacing": "-3.0592px",
+          "color": "rgb(255, 255, 255)"
+        },
+        "h2": {
+          "font": "Inter",
+          "size": 51,
+          "weight": "500",
+          "lineHeight": 1.2,
+          "letterSpacing": "-2.0224px",
+          "color": "rgb(255, 255, 255)"
+        },
+        "h3": {
+          "font": "Inter",
+          "size": 42,
+          "weight": "500",
+          "lineHeight": 1.22,
+          "letterSpacing": "-1.6768px",
+          "color": "rgb(255, 255, 255)"
+        },
+        "body": {
+          "font": "Inter",
+          "size": 21,
+          "weight": "400",
+          "lineHeight": 1.3,
+          "letterSpacing": "-0.63552px",
+          "color": "rgb(222, 222, 222)"
+        }
+      },
+      "colors": {
+        "background": "#dedede",
+        "surfaces": [
+          "#000000",
+          "#ffffff"
+        ],
+        "text": [
+          "#dedede",
+          "#ffffff",
+          "#000000"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": null
+    }
+  },
+  {
     "id": "max-batt-landing",
     "site": "Max Batt",
     "url": "https://maxbatt.com",
@@ -74931,6 +75184,98 @@
       },
       "buttons": [],
       "contentWidth": 1040
+    }
+  },
+  {
+    "id": "pierre-grosjean-landing",
+    "site": "Pierre Grosjean",
+    "url": "http://pierregrosjean.fr",
+    "type": "landing",
+    "tags": [
+      "pill-in-headline",
+      "colour-cards",
+      "french",
+      "webflow-expert"
+    ],
+    "note": "A French freelancer asks 'Besoin d'un petit coup de pouce ?' with a blue pill sitting between words, then colour-blocked project cards with lowercase names: playful copy, tidy cards.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/pierre-grosjean-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/pierre-grosjean-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Pierre Grosjean • Directeur Artistique & Webflow Expert",
+      "fonts": [
+        "Syne variable"
+      ],
+      "type": {
+        "h1": {
+          "font": "Syne variable",
+          "size": 16,
+          "weight": "500",
+          "lineHeight": 1.2,
+          "letterSpacing": "3px",
+          "color": "rgb(237, 233, 217)"
+        },
+        "h2": {
+          "font": "Syne variable",
+          "size": 135,
+          "weight": "700",
+          "lineHeight": 0.9,
+          "letterSpacing": "normal",
+          "color": "rgb(255, 255, 255)"
+        },
+        "h3": null,
+        "body": null
+      },
+      "colors": {
+        "background": "#222222",
+        "surfaces": [
+          "#23395e",
+          "#f3e8da",
+          "#222222",
+          "#ffffff"
+        ],
+        "text": [
+          "#ede9d9",
+          "#ffffff",
+          "#d5131e",
+          "#23395e"
+        ]
+      },
+      "buttons": [
+        {
+          "label": "SUPERMALTER\n80+ MISSIONS & 5 STARS",
+          "bg": "#222222",
+          "color": "#ede9d9",
+          "radius": "0px",
+          "height": 60,
+          "paddingX": 0,
+          "font": "Syne variable",
+          "size": 16,
+          "weight": "600"
+        },
+        {
+          "label": "WEBFLOW EXPERT\nCERTIFIED PARTNER",
+          "bg": "#222222",
+          "color": "#ede9d9",
+          "radius": "0px",
+          "height": 60,
+          "paddingX": 0,
+          "font": "Syne variable",
+          "size": 16,
+          "weight": "600"
+        }
+      ],
+      "contentWidth": 1360
     }
   },
   {
@@ -94833,6 +95178,80 @@
     }
   },
   {
+    "id": "sylvain-jul-landing",
+    "site": "Sylvain Julé",
+    "url": "https://sylvain-jule.fr/en",
+    "type": "landing",
+    "tags": [
+      "slideshow-players",
+      "tiny-header",
+      "screens-in-frames",
+      "bilingual"
+    ],
+    "note": "A designer-developer shows each website as a small slideshow with play / previous / fullscreen controls under a tiny two-line header: the work is presented in a viewer, not as mockups.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/sylvain-jul-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/sylvain-jul-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Sylvain Julé",
+      "fonts": [
+        "Helvetica"
+      ],
+      "type": {
+        "h1": {
+          "font": "Helvetica",
+          "size": 30,
+          "weight": "400",
+          "lineHeight": 1.2,
+          "letterSpacing": "-0.3px",
+          "color": "rgb(0, 0, 0)"
+        },
+        "h2": {
+          "font": "Helvetica",
+          "size": 30,
+          "weight": "400",
+          "lineHeight": 1.2,
+          "letterSpacing": "-0.3px",
+          "color": "rgb(0, 0, 0)"
+        },
+        "h3": null,
+        "body": {
+          "font": "Helvetica",
+          "size": 20,
+          "weight": "400",
+          "lineHeight": 1.2,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#fafafa",
+          "#efefef",
+          "#434a50",
+          "#e3e3e3",
+          "#3a4146"
+        ],
+        "text": [
+          "#000000"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": 700
+    }
+  },
+  {
     "id": "sylvan-hillebrand-landing",
     "site": "Sylvan Hillebrand",
     "url": "https://sylvanhillebrand.design",
@@ -99231,6 +99650,67 @@
       },
       "buttons": [],
       "contentWidth": null
+    }
+  },
+  {
+    "id": "tobias-thaden-landing",
+    "site": "Tobias Thaden",
+    "url": "https://tobiasthaden.com",
+    "type": "landing",
+    "tags": [
+      "scattered-letters",
+      "strikethrough-stack",
+      "bw-photos",
+      "developer-bio"
+    ],
+    "note": "A developer scatters the letters of his name in red down the top, then lists his buzzwords with 'VueJS' struck through: a playful mark and an honest stack.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/tobias-thaden-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/tobias-thaden-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Tobias Thaden - Software Developer",
+      "fonts": [
+        "GT Walsheim"
+      ],
+      "type": {
+        "h1": {
+          "font": "GT Walsheim",
+          "size": 30,
+          "weight": "400",
+          "lineHeight": 1.7,
+          "letterSpacing": "normal",
+          "color": "rgb(255, 255, 255)"
+        },
+        "h2": null,
+        "h3": null,
+        "body": {
+          "font": "GT Walsheim",
+          "size": 30,
+          "weight": "400",
+          "lineHeight": 1.7,
+          "letterSpacing": "normal",
+          "color": "rgb(255, 255, 255)"
+        }
+      },
+      "colors": {
+        "background": "#000000",
+        "surfaces": [],
+        "text": [
+          "#ffffff"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": 900
     }
   },
   {
@@ -103909,6 +104389,71 @@
         "text": [
           "#000000",
           "#fffdfa"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": null
+    }
+  },
+  {
+    "id": "vova-stegantsov-landing",
+    "site": "Vova Stegantsov",
+    "url": "https://unfinished.design",
+    "type": "landing",
+    "tags": [
+      "primary-bento",
+      "bauhaus-colours",
+      "portrait-hero",
+      "link-tiles"
+    ],
+    "note": "A product designer fills the page with a bento of red, blue, yellow and black tiles (links, projects, blog posts, a big T logo) under a grey portrait: a Bauhaus palette as the whole system.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/vova-stegantsov-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/vova-stegantsov-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Vova Stegantsov - Digital product designer",
+      "fonts": [
+        "Inter",
+        "Inter Display",
+        "sans-serif"
+      ],
+      "type": {
+        "h1": null,
+        "h2": null,
+        "h3": null,
+        "body": {
+          "font": "Inter",
+          "size": 16,
+          "weight": "400",
+          "lineHeight": 1.5,
+          "letterSpacing": "normal",
+          "color": "rgb(255, 255, 255)"
+        }
+      },
+      "colors": {
+        "background": "#cccccc",
+        "surfaces": [
+          "#cccccc",
+          "#0062cc",
+          "#ffffff",
+          "#cc1800",
+          "#000000"
+        ],
+        "text": [
+          "#a5e5ff",
+          "#ffffff",
+          "#000000",
+          "#0062cc"
         ]
       },
       "buttons": [],
