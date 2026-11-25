@@ -10737,6 +10737,87 @@
     }
   },
   {
+    "id": "101-landing",
+    "site": "101",
+    "url": "https://101.at",
+    "type": "landing",
+    "tags": [
+      "typewriter-type",
+      "photo-hero",
+      "boxed-sentences",
+      "viennese-agency",
+      "german-copy"
+    ],
+    "note": "A Vienna agency sets everything in a typewriter face: '1 is 0 w/o the other 1.' over a sparkler photo, then its intro as separate boxed sentences with tiny dates, like index cards pinned to the page.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/101-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/101-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "1 is 0 w/o the other 1 - 101",
+      "fonts": [
+        "Arial",
+        "Monument Grotesk",
+        "Xanh Mono"
+      ],
+      "type": {
+        "h1": {
+          "font": "Monument Grotesk",
+          "size": 21,
+          "weight": "400",
+          "lineHeight": 1.3,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        },
+        "h2": {
+          "font": "Xanh Mono",
+          "size": 83,
+          "weight": "400",
+          "lineHeight": 1.3,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        },
+        "h3": {
+          "font": "Xanh Mono",
+          "size": 83,
+          "weight": "400",
+          "lineHeight": 1.3,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        },
+        "body": {
+          "font": "Monument Grotesk",
+          "size": 33,
+          "weight": "400",
+          "lineHeight": 1.3,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#f5f5f5"
+        ],
+        "text": [
+          "#000000",
+          "#ffffff"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": 1152
+    }
+  },
+  {
     "id": "1password-landing",
     "site": "1Password",
     "url": "https://1password.com",
@@ -12193,6 +12274,69 @@
         }
       ],
       "contentWidth": 1472
+    }
+  },
+  {
+    "id": "after-party-landing",
+    "site": "After Party",
+    "url": "https://afterparty.studio",
+    "type": "landing",
+    "tags": [
+      "giant-wordmark",
+      "blue",
+      "news-and-work-grid",
+      "category-labels",
+      "production-studio"
+    ],
+    "note": "A branded-entertainment studio sets its name in giant blue caps on grey, then mixes news, originals and commercials in one grid with coloured category labels: the studio as a channel.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/after-party-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/after-party-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "After Party Studios – Creative Production Company",
+      "fonts": [
+        "APS PP Mori"
+      ],
+      "type": {
+        "h1": {
+          "font": "APS PP Mori",
+          "size": 16,
+          "weight": "600",
+          "lineHeight": 1,
+          "letterSpacing": "1e-06px",
+          "color": "rgb(18, 15, 15)"
+        },
+        "h2": null,
+        "h3": null,
+        "body": {
+          "font": "APS PP Mori",
+          "size": 16,
+          "weight": "600",
+          "lineHeight": 1,
+          "letterSpacing": "1e-06px",
+          "color": "rgb(23, 79, 255)"
+        }
+      },
+      "colors": {
+        "background": "#f4f3f2",
+        "surfaces": [],
+        "text": [
+          "#120f0f",
+          "#174fff"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": null
     }
   },
   {
@@ -19611,6 +19755,111 @@
     }
   },
   {
+    "id": "brandson-digital-landing",
+    "site": "Brandson Digital",
+    "url": "https://www.brandson.digital",
+    "type": "landing",
+    "tags": [
+      "offer-sentence",
+      "founders",
+      "big-number",
+      "case-proof"
+    ],
+    "note": "'For companies about to be looked at': a studio that does the brand, the site and the deck for founders about to raise, with proof as a big number ('€12M+ raised by Osavul'): the audience and the moment in one line.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/brandson-digital-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/brandson-digital-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Brandson Digital: brand and product design studio",
+      "fonts": [
+        "interDisplay",
+        "departureMono"
+      ],
+      "type": {
+        "h1": {
+          "font": "interDisplay",
+          "size": 89,
+          "weight": "400",
+          "lineHeight": 1,
+          "letterSpacing": "-3.1248px",
+          "color": "rgb(10, 10, 10)"
+        },
+        "h2": {
+          "font": "interDisplay",
+          "size": 81,
+          "weight": "400",
+          "lineHeight": 1,
+          "letterSpacing": "-3.2256px",
+          "color": "rgb(10, 10, 10)"
+        },
+        "h3": {
+          "font": "interDisplay",
+          "size": 40,
+          "weight": "400",
+          "lineHeight": 1,
+          "letterSpacing": "-1.2px",
+          "color": "rgb(10, 10, 10)"
+        },
+        "body": {
+          "font": "interDisplay",
+          "size": 18,
+          "weight": "400",
+          "lineHeight": 1.45,
+          "letterSpacing": "normal",
+          "color": "rgb(92, 92, 92)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#111111",
+          "#1c4544",
+          "#0a0a0a"
+        ],
+        "text": [
+          "#5c5c5c",
+          "#ffffff",
+          "#0a0a0a"
+        ]
+      },
+      "buttons": [
+        {
+          "label": "Let's connect",
+          "bg": "#1c4544",
+          "color": "#ffffff",
+          "radius": "0px",
+          "height": 48,
+          "paddingX": 22,
+          "font": "interDisplay",
+          "size": 16,
+          "weight": "500"
+        },
+        {
+          "label": "Book a call",
+          "bg": "#1c4544",
+          "color": "#ffffff",
+          "radius": "0px",
+          "height": 48,
+          "paddingX": 22,
+          "font": "interDisplay",
+          "size": 16,
+          "weight": "500"
+        }
+      ],
+      "contentWidth": 720
+    }
+  },
+  {
     "id": "brex-landing",
     "site": "Brex",
     "url": "https://www.brex.com",
@@ -21814,6 +22063,105 @@
     }
   },
   {
+    "id": "casa-portufornia-landing",
+    "site": "Casa Portufornia",
+    "url": "https://casaportufornia.com",
+    "type": "landing",
+    "tags": [
+      "giant-serif-wordmark",
+      "photo-collage",
+      "ticker",
+      "accordion",
+      "retreat"
+    ],
+    "note": "A founders' retreat stacks a huge serif wordmark over holiday photos, a ticker of who comes (founders, brands, leadership teams), then the offer as an accordion: a place sold as a state of mind.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/casa-portufornia-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/casa-portufornia-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Casa Portufornia | Creative Hub for Branding, Storytelling & Innovation.",
+      "fonts": [
+        "Dazzed",
+        "Public Sans",
+        "DM Mono"
+      ],
+      "type": {
+        "h1": null,
+        "h2": {
+          "font": "Dazzed",
+          "size": 28,
+          "weight": "500",
+          "lineHeight": 1.36,
+          "letterSpacing": "normal",
+          "color": "rgb(27, 67, 32)"
+        },
+        "h3": {
+          "font": "Dazzed",
+          "size": 28,
+          "weight": "500",
+          "lineHeight": 1.36,
+          "letterSpacing": "normal",
+          "color": "rgb(27, 67, 32)"
+        },
+        "body": {
+          "font": "Dazzed",
+          "size": 28,
+          "weight": "400",
+          "lineHeight": 1.36,
+          "letterSpacing": "normal",
+          "color": "rgb(27, 67, 32)"
+        }
+      },
+      "colors": {
+        "background": "#ead9d9",
+        "surfaces": [
+          "#ead9d9",
+          "#315634"
+        ],
+        "text": [
+          "#1b4320",
+          "#315634",
+          "#ead9d9"
+        ]
+      },
+      "buttons": [
+        {
+          "label": "MENU",
+          "bg": "#ead9d9",
+          "color": "#1b4320",
+          "radius": "9999px",
+          "height": 48,
+          "paddingX": 24,
+          "font": "Dazzed",
+          "size": 18,
+          "weight": "500"
+        },
+        {
+          "label": "WORK WITH US",
+          "bg": "#315634",
+          "color": "#ead9d9",
+          "radius": "9999px",
+          "height": 48,
+          "paddingX": 24,
+          "font": "Public Sans",
+          "size": 18,
+          "weight": "400"
+        }
+      ],
+      "contentWidth": 672
+    }
+  },
+  {
     "id": "cash-app-landing",
     "site": "Cash App",
     "url": "https://cash.app",
@@ -22083,6 +22431,74 @@
           "weight": "400"
         }
       ],
+      "contentWidth": 1440
+    }
+  },
+  {
+    "id": "character-studio-landing",
+    "site": "Character Studio",
+    "url": "https://character.studio",
+    "type": "landing",
+    "tags": [
+      "dark-mode",
+      "product-screens",
+      "serif-statement",
+      "selected-work"
+    ],
+    "note": "A design studio shows the products it built (a ChatGPT marketing agent, an app on a phone) as real screens on black, with one serif line in the middle: 'Lasting companies have character.'",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/character-studio-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/character-studio-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Character",
+      "fonts": [
+        "kmrWaldenburg",
+        "kmrWaldenburgSemiCondensed",
+        "martinaPlantijn"
+      ],
+      "type": {
+        "h1": {
+          "font": "martinaPlantijn",
+          "size": 52,
+          "weight": "300",
+          "lineHeight": 1.06,
+          "letterSpacing": "-1.04px",
+          "color": "lab(86.0787 0.541478 1.39894)"
+        },
+        "h2": {
+          "font": "kmrWaldenburgSemiCondensed",
+          "size": 28,
+          "weight": "500",
+          "lineHeight": 1.45,
+          "letterSpacing": "-0.504px",
+          "color": "lab(86.0787 0.541478 1.39894)"
+        },
+        "h3": null,
+        "body": {
+          "font": "kmrWaldenburg",
+          "size": 14,
+          "weight": "400",
+          "lineHeight": 1.5,
+          "letterSpacing": "normal",
+          "color": "lab(58.2351 1.38357 3.51648)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [],
+        "text": []
+      },
+      "buttons": [],
       "contentWidth": 1440
     }
   },
@@ -25379,6 +25795,105 @@
     }
   },
   {
+    "id": "creech-landing",
+    "site": "Creech",
+    "url": "https://www.creech.co",
+    "type": "landing",
+    "tags": [
+      "full-bleed-work",
+      "catalogue-grid",
+      "captions",
+      "food-and-hospitality"
+    ],
+    "note": "A studio opens on one client's work full screen (the Cometeer logo over a coffee swirl), then a loose catalogue of photos with one-line captions per client: the latest piece as the hero.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/creech-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/creech-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Creech",
+      "fonts": [
+        "Universal Sans",
+        "MonotypeCenturyOldStyleProRegular"
+      ],
+      "type": {
+        "h1": null,
+        "h2": {
+          "font": "Universal Sans",
+          "size": 15,
+          "weight": "600",
+          "lineHeight": 1.47,
+          "letterSpacing": "0.32px",
+          "color": "rgb(0, 0, 0)"
+        },
+        "h3": {
+          "font": "Universal Sans",
+          "size": 16,
+          "weight": "300",
+          "lineHeight": 1.2,
+          "letterSpacing": "0.32px",
+          "color": "rgb(0, 0, 0)"
+        },
+        "body": {
+          "font": "Universal Sans",
+          "size": 15,
+          "weight": "300",
+          "lineHeight": 1.47,
+          "letterSpacing": "0.32px",
+          "color": "rgb(0, 0, 0)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#edd8a7",
+          "#f5c3d3",
+          "#31712c",
+          "#e9dc54",
+          "#e8ecfc"
+        ],
+        "text": [
+          "#000000",
+          "#ffffff"
+        ]
+      },
+      "buttons": [
+        {
+          "label": "INDEX +",
+          "bg": "#ffffff",
+          "color": "#000000",
+          "radius": "9999px",
+          "height": 36,
+          "paddingX": 16,
+          "font": "Universal Sans",
+          "size": 12,
+          "weight": "600"
+        },
+        {
+          "label": "CONTACT",
+          "bg": "#ffffff",
+          "color": "#000000",
+          "radius": "9999px",
+          "height": 36,
+          "paddingX": 16,
+          "font": "Universal Sans",
+          "size": 12,
+          "weight": "600"
+        }
+      ],
+      "contentWidth": null
+    }
+  },
+  {
     "id": "css-tricks-landing",
     "site": "CSS Tricks",
     "url": "https://css-tricks.com",
@@ -27880,6 +28395,116 @@
     }
   },
   {
+    "id": "dipsy-studio-landing",
+    "site": "Dipsy Studio",
+    "url": "https://eng.dipsy.team",
+    "type": "landing",
+    "tags": [
+      "giant-wordmark",
+      "semicolon",
+      "pink-gradient",
+      "pill-nav",
+      "cats",
+      "humour"
+    ],
+    "note": "';DIPSY' set huge with a semicolon, pill nav, then 'We are a family-owned digital studio' and an equation of 'creative approach + two cats + love for AI': humour carried by type and real photos of the cats.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/dipsy-studio-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/dipsy-studio-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Dipsy Design Studio I web, branding and neuro",
+      "fonts": [
+        "TeXGyreHerosCn",
+        "Times New Roman"
+      ],
+      "type": {
+        "h1": null,
+        "h2": null,
+        "h3": null,
+        "body": null
+      },
+      "colors": {
+        "background": "#ebebeb",
+        "surfaces": [
+          "#ebebeb",
+          "#ff5597",
+          "#ffffff"
+        ],
+        "text": [
+          "#000000"
+        ]
+      },
+      "buttons": [
+        {
+          "label": "ABOUT",
+          "bg": "#ffffff",
+          "color": "#000000",
+          "radius": "49px",
+          "height": 50,
+          "paddingX": 0,
+          "font": "TeXGyreHerosCn",
+          "size": 16,
+          "weight": "700"
+        },
+        {
+          "label": "PROJECTS",
+          "bg": "#ffffff",
+          "color": "#000000",
+          "radius": "49px",
+          "height": 50,
+          "paddingX": 0,
+          "font": "TeXGyreHerosCn",
+          "size": 16,
+          "weight": "700"
+        },
+        {
+          "label": "WHAT WE DO",
+          "bg": "#ffffff",
+          "color": "#000000",
+          "radius": "49px",
+          "height": 50,
+          "paddingX": 0,
+          "font": "TeXGyreHerosCn",
+          "size": 16,
+          "weight": "700"
+        },
+        {
+          "label": "TEAM",
+          "bg": "#ffffff",
+          "color": "#000000",
+          "radius": "49px",
+          "height": 50,
+          "paddingX": 0,
+          "font": "TeXGyreHerosCn",
+          "size": 16,
+          "weight": "700"
+        },
+        {
+          "label": "VIBE",
+          "bg": "#ffffff",
+          "color": "#000000",
+          "radius": "49px",
+          "height": 50,
+          "paddingX": 0,
+          "font": "TeXGyreHerosCn",
+          "size": 16,
+          "weight": "700"
+        }
+      ],
+      "contentWidth": null
+    }
+  },
+  {
     "id": "discord-landing",
     "site": "Discord",
     "url": "https://discord.com",
@@ -28477,6 +29102,85 @@
         }
       ],
       "contentWidth": 1440
+    }
+  },
+  {
+    "id": "dothings-landing",
+    "site": "DoThings",
+    "url": "https://dothingsnyc.com",
+    "type": "landing",
+    "tags": [
+      "serif-text",
+      "inline-images",
+      "beach-photo",
+      "beauty-and-real-estate"
+    ],
+    "note": "A creative agency for beauty and real estate writes its pitch as large serif lines with words set apart across the page over a beach photo: the copy is laid out like an ad, slow and sensual.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/dothings-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/dothings-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "DoThings Homepage",
+      "fonts": [
+        "the-sans",
+        "the-serif"
+      ],
+      "type": {
+        "h1": {
+          "font": "the-serif",
+          "size": 48,
+          "weight": "500",
+          "lineHeight": 1.28,
+          "letterSpacing": "-1.44px",
+          "color": "rgb(255, 255, 255)"
+        },
+        "h2": {
+          "font": "the-serif",
+          "size": 67,
+          "weight": "500",
+          "lineHeight": 1.28,
+          "letterSpacing": "-2.016px",
+          "color": "rgb(0, 0, 0)"
+        },
+        "h3": {
+          "font": "the-sans",
+          "size": 19,
+          "weight": "500",
+          "lineHeight": 1.15,
+          "letterSpacing": "-0.192px",
+          "color": "rgb(0, 0, 0)"
+        },
+        "body": {
+          "font": "the-serif",
+          "size": 67,
+          "weight": "500",
+          "lineHeight": 1.28,
+          "letterSpacing": "-2.016px",
+          "color": "rgb(0, 0, 0)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#000000"
+        ],
+        "text": [
+          "#ffffff",
+          "#000000"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": null
     }
   },
   {
@@ -36611,6 +37315,87 @@
     }
   },
   {
+    "id": "gentle-systems-landing",
+    "site": "Gentle Systems",
+    "url": "https://www.gentle.systems",
+    "type": "landing",
+    "tags": [
+      "lab-log",
+      "dates",
+      "prototypes",
+      "chat-bubble",
+      "r-and-d"
+    ],
+    "note": "A creative R&D studio's homepage is a dated log of experiments (3D-printed parts, simulations, a summer party) with a blue chat bubble note: a studio that shows its notebook.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/gentle-systems-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/gentle-systems-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Home | Gentle Systems",
+      "fonts": [
+        "Unica77_Reg"
+      ],
+      "type": {
+        "h1": {
+          "font": "Unica77_Reg",
+          "size": 41,
+          "weight": "400",
+          "lineHeight": 1.1,
+          "letterSpacing": "-0.621px",
+          "color": "rgb(43, 23, 3)"
+        },
+        "h2": {
+          "font": "Unica77_Reg",
+          "size": 13,
+          "weight": "400",
+          "lineHeight": 1.2,
+          "letterSpacing": "-0.063px",
+          "color": "rgb(43, 23, 3)"
+        },
+        "h3": {
+          "font": "Unica77_Reg",
+          "size": 13,
+          "weight": "400",
+          "lineHeight": 1.2,
+          "letterSpacing": "-0.063px",
+          "color": "rgb(43, 23, 3)"
+        },
+        "body": {
+          "font": "Unica77_Reg",
+          "size": 13,
+          "weight": "400",
+          "lineHeight": 1.2,
+          "letterSpacing": "-0.063px",
+          "color": "rgb(43, 23, 3)"
+        }
+      },
+      "colors": {
+        "background": "#f6f6f6",
+        "surfaces": [
+          "#eeeeee",
+          "#28a0f7"
+        ],
+        "text": [
+          "#2b1703",
+          "#f6f6f6",
+          "#66615a"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": null
+    }
+  },
+  {
     "id": "gentler-streak-landing",
     "site": "Gentler Streak",
     "url": "https://gentler.app",
@@ -37615,6 +38400,124 @@
         }
       ],
       "contentWidth": 696
+    }
+  },
+  {
+    "id": "gone-fishing-studio-landing",
+    "site": "Gone Fishing Studio",
+    "url": "https://www.gonefishing.studio",
+    "type": "landing",
+    "tags": [
+      "giant-wordmark",
+      "cream",
+      "site-screens",
+      "philosophy",
+      "dev-studio"
+    ],
+    "note": "A development studio sets 'GONE FISHING' huge on cream, then the sites it built as full screenshots with names: a dev shop whose portfolio is real web pages.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/gone-fishing-studio-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/gone-fishing-studio-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Gone Fishing Studio",
+      "fonts": [
+        "gerstner",
+        "plexMono"
+      ],
+      "type": {
+        "h1": {
+          "font": "gerstner",
+          "size": 18,
+          "weight": "400",
+          "lineHeight": 1.5,
+          "letterSpacing": "-0.18px",
+          "color": "rgb(0, 0, 0)"
+        },
+        "h2": {
+          "font": "gerstner",
+          "size": 20,
+          "weight": "500",
+          "lineHeight": 1.3,
+          "letterSpacing": "-0.2px",
+          "color": "rgb(0, 0, 0)"
+        },
+        "h3": {
+          "font": "gerstner",
+          "size": 18,
+          "weight": "500",
+          "lineHeight": 1.3,
+          "letterSpacing": "-0.18px",
+          "color": "rgb(0, 0, 0)"
+        },
+        "body": {
+          "font": "gerstner",
+          "size": 32,
+          "weight": "400",
+          "lineHeight": 1.2,
+          "letterSpacing": "-0.32px",
+          "color": "rgb(0, 0, 0)"
+        }
+      },
+      "colors": {
+        "background": "#fef7ee",
+        "surfaces": [
+          "#ffffff",
+          "#6b4e3a",
+          "#33342f",
+          "#6a2830",
+          "#d8b98f"
+        ],
+        "text": [
+          "#000000",
+          "#fef7ee"
+        ]
+      },
+      "buttons": [
+        {
+          "label": "CONTACT",
+          "bg": "#d97757",
+          "color": "#000000",
+          "radius": "3.35544e+07px",
+          "height": 43,
+          "paddingX": 22,
+          "font": "gerstner",
+          "size": 18,
+          "weight": "500"
+        },
+        {
+          "label": "CONTACT",
+          "bg": "#d97757",
+          "color": "#000000",
+          "radius": "3.35544e+07px",
+          "height": 43,
+          "paddingX": 22,
+          "font": "gerstner",
+          "size": 18,
+          "weight": "500"
+        },
+        {
+          "label": "View All",
+          "bg": "#000000",
+          "color": "#fef7ee",
+          "radius": "3.35544e+07px",
+          "height": 45,
+          "paddingX": 36,
+          "font": "gerstner",
+          "size": 16,
+          "weight": "500"
+        }
+      ],
+      "contentWidth": 940
     }
   },
   {
@@ -52767,6 +53670,71 @@
     }
   },
   {
+    "id": "microdot-rendering-imagination-landing",
+    "site": "Microdot — Rendering Imagination",
+    "url": "https://www.microdot.vision",
+    "type": "landing",
+    "tags": [
+      "dark-mode",
+      "film-still-hero",
+      "thumbnail-strip",
+      "reels"
+    ],
+    "note": "A production company's hero is a film still with a strip of thumbnails under it like a player's timeline, then reels named by director: the page behaves like the edit suite.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/microdot-rendering-imagination-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/microdot-rendering-imagination-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "MICRODOT",
+      "fonts": [
+        "__font_1c1708",
+        "Arial"
+      ],
+      "type": {
+        "h1": {
+          "font": "__font_1c1708",
+          "size": 14,
+          "weight": "400",
+          "lineHeight": 1.14,
+          "letterSpacing": "normal",
+          "color": "rgb(255, 255, 255)"
+        },
+        "h2": null,
+        "h3": null,
+        "body": {
+          "font": "__font_1c1708",
+          "size": 14,
+          "weight": "400",
+          "lineHeight": 1.14,
+          "letterSpacing": "normal",
+          "color": "rgb(255, 255, 255)"
+        }
+      },
+      "colors": {
+        "background": "#0d0d0d",
+        "surfaces": [
+          "#000000",
+          "#ffffff"
+        ],
+        "text": [
+          "#ffffff"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": null
+    }
+  },
+  {
     "id": "microsoft-ai-landing",
     "site": "Microsoft AI",
     "url": "https://microsoft.ai",
@@ -53256,6 +54224,93 @@
         }
       ],
       "contentWidth": null
+    }
+  },
+  {
+    "id": "minimum-studio-landing",
+    "site": "Minimum Studio",
+    "url": "https://www.minimum.studio",
+    "type": "landing",
+    "tags": [
+      "founder-voice",
+      "blue-text",
+      "sticker-icons",
+      "pricing-link",
+      "how-we-work"
+    ],
+    "note": "A studio for founders writes in blue small text with a dry voice ('you probably have 100+ ideas in your Notes app') and hand-drawn sticker icons in the margin: the tone is the brand.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/minimum-studio-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/minimum-studio-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Minimum Studio | We help founders go from zero to one",
+      "fonts": [
+        "aktivGrotesk",
+        "aeonik"
+      ],
+      "type": {
+        "h1": {
+          "font": "aeonik",
+          "size": 36,
+          "weight": "500",
+          "lineHeight": 1.11,
+          "letterSpacing": "normal",
+          "color": "rgb(67, 78, 223)"
+        },
+        "h2": {
+          "font": "aeonik",
+          "size": 30,
+          "weight": "500",
+          "lineHeight": 1.2,
+          "letterSpacing": "normal",
+          "color": "rgb(67, 78, 223)"
+        },
+        "h3": null,
+        "body": {
+          "font": "aktivGrotesk",
+          "size": 18,
+          "weight": "400",
+          "lineHeight": 1.56,
+          "letterSpacing": "normal",
+          "color": "rgb(67, 78, 223)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#ffffff",
+          "#e8e7e3",
+          "#434edf"
+        ],
+        "text": [
+          "#434edf",
+          "#ffffff"
+        ]
+      },
+      "buttons": [
+        {
+          "label": "Book a call",
+          "bg": "#434edf",
+          "color": "#ffffff",
+          "radius": "9999px",
+          "height": 36,
+          "paddingX": 4,
+          "font": "aktivGrotesk",
+          "size": 16,
+          "weight": "500"
+        }
+      ],
+      "contentWidth": 1200
     }
   },
   {
@@ -71661,6 +72716,126 @@
     }
   },
   {
+    "id": "secco-squared-landing",
+    "site": "Secco Squared",
+    "url": "https://www.seccosquared.com",
+    "type": "landing",
+    "tags": [
+      "orange",
+      "giant-wordmark",
+      "superscript",
+      "pixel-squares",
+      "performance-marketing"
+    ],
+    "note": "A performance marketing company: orange field, a giant 'Secco²' with the superscript, and a figure made of black squares that rises like a bar chart: the logo idea turned into the illustration system.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/secco-squared-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/secco-squared-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Secco Squared - Full-service omnichannel performance marketing company",
+      "fonts": [
+        "Lay Grotesk",
+        "Lay Grotesk Medium",
+        "serif"
+      ],
+      "type": {
+        "h1": {
+          "font": "Lay Grotesk Medium",
+          "size": 44,
+          "weight": "500",
+          "lineHeight": 0.98,
+          "letterSpacing": "-1.3176px",
+          "color": "rgb(20, 20, 20)"
+        },
+        "h2": {
+          "font": "Lay Grotesk",
+          "size": 88,
+          "weight": "500",
+          "lineHeight": 0.98,
+          "letterSpacing": "-2.64px",
+          "color": "rgb(33, 37, 41)"
+        },
+        "h3": {
+          "font": "Lay Grotesk Medium",
+          "size": 24,
+          "weight": "500",
+          "lineHeight": 1.2,
+          "letterSpacing": "-0.24px",
+          "color": "rgb(20, 20, 20)"
+        },
+        "body": {
+          "font": "Lay Grotesk",
+          "size": 24,
+          "weight": "400",
+          "lineHeight": 1.35,
+          "letterSpacing": "normal",
+          "color": "rgb(33, 37, 41)"
+        }
+      },
+      "colors": {
+        "background": "#efefef",
+        "surfaces": [
+          "#efefef",
+          "#1e1e1e",
+          "#ff4e27",
+          "#141414"
+        ],
+        "text": [
+          "#ededed",
+          "#141414",
+          "#ffffff",
+          "#212529"
+        ]
+      },
+      "buttons": [
+        {
+          "label": "Book a call\nwith our strategy team",
+          "bg": "#141414",
+          "color": "#ffffff",
+          "radius": "0px",
+          "height": 44,
+          "paddingX": 24,
+          "font": "Lay Grotesk Medium",
+          "size": 18,
+          "weight": "400"
+        },
+        {
+          "label": "Book a strategy call",
+          "bg": "#141414",
+          "color": "#ffffff",
+          "radius": "0px",
+          "height": 56,
+          "paddingX": 32,
+          "font": "Lay Grotesk Medium",
+          "size": 20,
+          "weight": "400"
+        },
+        {
+          "label": "Book a call\nwith our strategy team",
+          "bg": "#141414",
+          "color": "#ffffff",
+          "radius": "0px",
+          "height": 44,
+          "paddingX": 24,
+          "font": "Lay Grotesk Medium",
+          "size": 18,
+          "weight": "400"
+        }
+      ],
+      "contentWidth": 1440
+    }
+  },
+  {
     "id": "sentry-landing",
     "site": "Sentry",
     "url": "https://sentry.io/welcome/",
@@ -81435,6 +82610,78 @@
       },
       "buttons": [],
       "contentWidth": 1042
+    }
+  },
+  {
+    "id": "the-only-agency-landing",
+    "site": "The Only Agency",
+    "url": "https://www.theonly.agency",
+    "type": "landing",
+    "tags": [
+      "talent-agency",
+      "full-bleed-fashion",
+      "editorial-sections",
+      "serif-italic-headings"
+    ],
+    "note": "A talent agency for stylists leads with one fashion photo and then sorts work into 'Editorial' and 'Appearances' with italic serif headings: the roster shown by context.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/the-only-agency-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/the-only-agency-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "The Only Agency",
+      "fonts": [
+        "Abc favorit",
+        "Cochin"
+      ],
+      "type": {
+        "h1": {
+          "font": "Abc favorit",
+          "size": 14,
+          "weight": "400",
+          "lineHeight": 1.3,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        },
+        "h2": {
+          "font": "Cochin",
+          "size": 44,
+          "weight": "500",
+          "lineHeight": 1.1,
+          "letterSpacing": "-1.332px",
+          "color": "rgb(0, 0, 0)"
+        },
+        "h3": null,
+        "body": {
+          "font": "Abc favorit",
+          "size": 14,
+          "weight": "700",
+          "lineHeight": 1.5,
+          "letterSpacing": "normal",
+          "color": "rgb(255, 255, 255)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#ffffff"
+        ],
+        "text": [
+          "#000000",
+          "#ffffff"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": null
     }
   },
   {

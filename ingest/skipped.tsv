@@ -1537,3 +1537,37 @@ https://lorenzocabra.xyz	desktop partial render
 http://mariecodina.com	identity grid, nothing new
 https://vladsavruk.com	sparse, mostly empty
 https://studiopingpong.com	broken (connection refused)
+https://schoolofastonishingpursuits.com	redirects off-site (theasap.com) (prefilter)
+https://brandingthatslaps.com	redirects off-site (slapscreative.com) (prefilter)
+https://afterhoursstudio.com.au	redirects off-site (afterhours.studio) (prefilter)
+https://andagain.uk	broken (http 402) (prefilter)
+https://bymanifesto.com	bot wall (prefilter)
+https://www.thecombinationrule.com	broken (http 404) (prefilter)
+https://artone.studio	logo strip; stat tiles and "one monthly fee" SaaS-agency tem
+https://www.camronglobal.com	hero only: one screen of wordmark and photo; lower page empt
+https://www.cinedept.com	hero only: a single photo and tiny nav; black and empty belo
+http://dmcg.co	hero only: small object images on white; desktop empty below
+https://estudiodiir.com	hero only: short headline and one interior photo; then black
+https://exalt-studio.com	dark gradient hero with generic software-studio copy and log
+https://interise.co	"trusted partner" hero; client logo grid and boilerplate par
+https://lazyeight.design	cookie/analytics consent banner covers the hero; desktop mos
+https://maas.engineering	blank: emoji face; one button and no content on desktop
+https://massdelusion.agency/en	hero only: split DELUSION wordmark and a thin image strip; t
+https://noomoagency.com	hero only: large headline and 3D imagery; then empty lavende
+https://www.polecat.agency	hero only: isometric island illustration and short copy; the
+https://somehow.nl	blank: black page with only a tiny pill nav
+https://studioboum.com/en	hero only: full-bleed event photo with serif wordmark; black
+https://www.madebynull.com	hero only: small wordmark and blue pyramid; black below on d
+https://surimpression.studiokhi.com	hero only: large exhibition type and ghost wordmark; empty b
+https://www.tusaro.studio	grey placeholder boxes where media did not load over the her
+https://outpacestudios.com	blank
+https://pleasecallmechamp.com	blank
+https://www.elinandjude.com	black empty hero, partial
+https://geminiservic.es	plain client grid
+https://manuelmoreale.dev	mono bio and cards, generic
+https://www.rezo-zero.com	security error embed, generic
+https://studiolambert.co	plain studio layout
+https://www.studionari.co.uk	desktop sparse, partial
+https://innoceanberlin.com	broken (capture over 120s)
+https://www.medusmo.com	broken (screenshot timeout)
+https://www.orchestraco.com	broken (screenshot timeout)

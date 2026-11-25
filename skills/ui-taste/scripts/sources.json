@@ -12760,5 +12760,182 @@
    "engineer-designer"
   ],
   "note": "A design engineer centres a two-line serif intro on black and then a tight grid of product tiles with one-line captions: the grid is the CV."
+ },
+ {
+  "site": "101",
+  "type": "landing",
+  "url": "https://101.at",
+  "tags": [
+   "typewriter-type",
+   "photo-hero",
+   "boxed-sentences",
+   "viennese-agency",
+   "german-copy"
+  ],
+  "note": "A Vienna agency sets everything in a typewriter face: '1 is 0 w/o the other 1.' over a sparkler photo, then its intro as separate boxed sentences with tiny dates, like index cards pinned to the page."
+ },
+ {
+  "site": "After Party",
+  "type": "landing",
+  "url": "https://afterparty.studio",
+  "tags": [
+   "giant-wordmark",
+   "blue",
+   "news-and-work-grid",
+   "category-labels",
+   "production-studio"
+  ],
+  "note": "A branded-entertainment studio sets its name in giant blue caps on grey, then mixes news, originals and commercials in one grid with coloured category labels: the studio as a channel."
+ },
+ {
+  "site": "Brandson Digital",
+  "type": "landing",
+  "url": "https://www.brandson.digital",
+  "tags": [
+   "offer-sentence",
+   "founders",
+   "big-number",
+   "case-proof"
+  ],
+  "note": "'For companies about to be looked at': a studio that does the brand, the site and the deck for founders about to raise, with proof as a big number ('€12M+ raised by Osavul'): the audience and the moment in one line."
+ },
+ {
+  "site": "Casa Portufornia",
+  "type": "landing",
+  "url": "https://casaportufornia.com",
+  "tags": [
+   "giant-serif-wordmark",
+   "photo-collage",
+   "ticker",
+   "accordion",
+   "retreat"
+  ],
+  "note": "A founders' retreat stacks a huge serif wordmark over holiday photos, a ticker of who comes (founders, brands, leadership teams), then the offer as an accordion: a place sold as a state of mind."
+ },
+ {
+  "site": "Character Studio",
+  "type": "landing",
+  "url": "https://character.studio",
+  "tags": [
+   "dark-mode",
+   "product-screens",
+   "serif-statement",
+   "selected-work"
+  ],
+  "note": "A design studio shows the products it built (a ChatGPT marketing agent, an app on a phone) as real screens on black, with one serif line in the middle: 'Lasting companies have character.'"
+ },
+ {
+  "site": "Creech",
+  "type": "landing",
+  "url": "https://www.creech.co",
+  "tags": [
+   "full-bleed-work",
+   "catalogue-grid",
+   "captions",
+   "food-and-hospitality"
+  ],
+  "note": "A studio opens on one client's work full screen (the Cometeer logo over a coffee swirl), then a loose catalogue of photos with one-line captions per client: the latest piece as the hero."
+ },
+ {
+  "site": "Dipsy Studio",
+  "type": "landing",
+  "url": "https://eng.dipsy.team",
+  "tags": [
+   "giant-wordmark",
+   "semicolon",
+   "pink-gradient",
+   "pill-nav",
+   "cats",
+   "humour"
+  ],
+  "note": "';DIPSY' set huge with a semicolon, pill nav, then 'We are a family-owned digital studio' and an equation of 'creative approach + two cats + love for AI': humour carried by type and real photos of the cats."
+ },
+ {
+  "site": "DoThings",
+  "type": "landing",
+  "url": "https://dothingsnyc.com",
+  "tags": [
+   "serif-text",
+   "inline-images",
+   "beach-photo",
+   "beauty-and-real-estate"
+  ],
+  "note": "A creative agency for beauty and real estate writes its pitch as large serif lines with words set apart across the page over a beach photo: the copy is laid out like an ad, slow and sensual."
+ },
+ {
+  "site": "Gentle Systems",
+  "type": "landing",
+  "url": "https://www.gentle.systems",
+  "tags": [
+   "lab-log",
+   "dates",
+   "prototypes",
+   "chat-bubble",
+   "r-and-d"
+  ],
+  "note": "A creative R&D studio's homepage is a dated log of experiments (3D-printed parts, simulations, a summer party) with a blue chat bubble note: a studio that shows its notebook."
+ },
+ {
+  "site": "Gone Fishing Studio",
+  "type": "landing",
+  "url": "https://www.gonefishing.studio",
+  "tags": [
+   "giant-wordmark",
+   "cream",
+   "site-screens",
+   "philosophy",
+   "dev-studio"
+  ],
+  "note": "A development studio sets 'GONE FISHING' huge on cream, then the sites it built as full screenshots with names: a dev shop whose portfolio is real web pages."
+ },
+ {
+  "site": "Microdot — Rendering Imagination",
+  "type": "landing",
+  "url": "https://www.microdot.vision",
+  "tags": [
+   "dark-mode",
+   "film-still-hero",
+   "thumbnail-strip",
+   "reels"
+  ],
+  "note": "A production company's hero is a film still with a strip of thumbnails under it like a player's timeline, then reels named by director: the page behaves like the edit suite."
+ },
+ {
+  "site": "Minimum Studio",
+  "type": "landing",
+  "url": "https://www.minimum.studio",
+  "tags": [
+   "founder-voice",
+   "blue-text",
+   "sticker-icons",
+   "pricing-link",
+   "how-we-work"
+  ],
+  "note": "A studio for founders writes in blue small text with a dry voice ('you probably have 100+ ideas in your Notes app') and hand-drawn sticker icons in the margin: the tone is the brand."
+ },
+ {
+  "site": "Secco Squared",
+  "type": "landing",
+  "url": "https://www.seccosquared.com",
+  "tags": [
+   "orange",
+   "giant-wordmark",
+   "superscript",
+   "pixel-squares",
+   "performance-marketing"
+  ],
+  "note": "A performance marketing company: orange field, a giant 'Secco²' with the superscript, and a figure made of black squares that rises like a bar chart: the logo idea turned into the illustration system."
+ },
+ {
+  "site": "The Only Agency",
+  "type": "landing",
+  "url": "https://www.theonly.agency",
+  "tags": [
+   "talent-agency",
+   "full-bleed-fashion",
+   "editorial-sections",
+   "serif-italic-headings"
+  ],
+  "note": "A talent agency for stylists leads with one fashion photo and then sorts work into 'Editorial' and 'Appearances' with italic serif headings: the roster shown by context."
  }
 ]
