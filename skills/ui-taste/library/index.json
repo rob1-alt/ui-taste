@@ -13061,6 +13061,76 @@
     }
   },
   {
+    "id": "ajeeb-landing",
+    "site": "Ajeeb",
+    "url": "https://ajeeb.in",
+    "type": "landing",
+    "tags": [
+      "custom-display-face",
+      "dark-hero",
+      "type-as-list",
+      "creative-director"
+    ],
+    "note": "A creative director writes the whole hero in his own condensed display face, then lists projects in the same face, huge: the typeface carries the identity and the index.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/ajeeb-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/ajeeb-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Work ✦ Ajeeb",
+      "fonts": [
+        "Open Sans",
+        "Work Sans",
+        "Flextura7.2"
+      ],
+      "type": {
+        "h1": {
+          "font": "Flextura7.2",
+          "size": 100,
+          "weight": "400",
+          "lineHeight": 1.5,
+          "letterSpacing": "-2.6px",
+          "color": "rgb(99, 99, 99)"
+        },
+        "h2": null,
+        "h3": null,
+        "body": {
+          "font": "Open Sans",
+          "size": 93,
+          "weight": "400",
+          "lineHeight": 2.03,
+          "letterSpacing": "0.1px",
+          "color": "rgb(99, 99, 99)"
+        }
+      },
+      "colors": {
+        "background": "#161616",
+        "surfaces": [
+          "#020202",
+          "#eaeaea",
+          "#ffffff"
+        ],
+        "text": [
+          "#ffffff",
+          "#161616",
+          "#4c4c4c",
+          "#020202"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": null
+    }
+  },
+  {
     "id": "aku-landing",
     "site": "AKU",
     "url": "http://aku.co",
@@ -15076,6 +15146,79 @@
         "text": [
           "#ffffff",
           "#f4f4f4"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": null
+    }
+  },
+  {
+    "id": "anthony-kolber-landing",
+    "site": "Anthony Kolber",
+    "url": "http://www.kolber.info",
+    "type": "landing",
+    "tags": [
+      "raw-bullet-list",
+      "stack-per-project",
+      "blue-box",
+      "designer-developer"
+    ],
+    "note": "A designer-developer lists every project as a raw bullet run with role, stack (Kirby / PHP, React) and URL next to a blue box with his name: an honest technical CV, no images.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/anthony-kolber-landing-desktop.jpg",
+        "width": 1440,
+        "height": 2668
+      },
+      "mobile": {
+        "file": "screens/anthony-kolber-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Anthony Kolber, Internet, Graphic Design, Programming",
+      "fonts": [
+        "Union Regular"
+      ],
+      "type": {
+        "h1": {
+          "font": "Union Regular",
+          "size": 60,
+          "weight": "400",
+          "lineHeight": 1,
+          "letterSpacing": "-0.63px",
+          "color": "rgb(255, 255, 255)"
+        },
+        "h2": {
+          "font": "Union Regular",
+          "size": 15,
+          "weight": "400",
+          "lineHeight": 1.1,
+          "letterSpacing": "-0.1512px",
+          "color": "rgb(0, 0, 0)"
+        },
+        "h3": null,
+        "body": {
+          "font": "Union Regular",
+          "size": 29,
+          "weight": "400",
+          "lineHeight": 1.15,
+          "letterSpacing": "-0.63px",
+          "color": "rgb(0, 0, 0)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#0d00ff",
+          "#efefef"
+        ],
+        "text": [
+          "#000000",
+          "#0d00ff",
+          "#ffffff"
         ]
       },
       "buttons": [],
@@ -18107,6 +18250,71 @@
         ],
         "text": [
           "#1a1a1a"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": null
+    }
+  },
+  {
+    "id": "austen-ezzell-landing",
+    "site": "Austen Ezzell",
+    "url": "http://austenezzell.com",
+    "type": "landing",
+    "tags": [
+      "year-grid",
+      "yearly-redesign",
+      "versions-archive",
+      "chat-note"
+    ],
+    "note": "A designer redesigns his portfolio every year and makes the homepage a grey grid of years linking to each old version, with a chat bubble explaining it: the archive of versions is the work.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/austen-ezzell-landing-desktop.jpg",
+        "width": 1440,
+        "height": 1244
+      },
+      "mobile": {
+        "file": "screens/austen-ezzell-landing-mobile.jpg",
+        "width": 390,
+        "height": 2156
+      }
+    },
+    "tokens": {
+      "title": "Austen Ezzell - Design Practice",
+      "fonts": [
+        "Instrument Sans"
+      ],
+      "type": {
+        "h1": {
+          "font": "Instrument Sans",
+          "size": 40,
+          "weight": "400",
+          "lineHeight": 1,
+          "letterSpacing": "-0.8px",
+          "color": "rgb(220, 216, 217)"
+        },
+        "h2": null,
+        "h3": null,
+        "body": {
+          "font": "Instrument Sans",
+          "size": 14,
+          "weight": "400",
+          "lineHeight": 1.43,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        }
+      },
+      "colors": {
+        "background": "#b3b3b3",
+        "surfaces": [
+          "#000000"
+        ],
+        "text": [
+          "#000000",
+          "#ffffff",
+          "#dcd8d9"
         ]
       },
       "buttons": [],
@@ -25073,6 +25281,66 @@
           "#000000",
           "#e6db74",
           "#f92672"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": null
+    }
+  },
+  {
+    "id": "chris-hardy-landing",
+    "site": "Chris Hardy",
+    "url": "https://chrishardydesign.com",
+    "type": "landing",
+    "tags": [
+      "serif-italic-mix",
+      "furniture",
+      "editorial-cases",
+      "email-in-hero"
+    ],
+    "note": "A furniture designer sets 'Contemporary Sensibility' in mixed italic and roman over a table photo, then each piece as a centred title with one paragraph and two photos: a catalogue paced like a magazine.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/chris-hardy-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/chris-hardy-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Home Page - Chris Hardy Design",
+      "fonts": [
+        "Fakt-Pro-normal",
+        "Fakt-Pro-Normal",
+        "minion-3-display"
+      ],
+      "type": {
+        "h1": null,
+        "h2": null,
+        "h3": null,
+        "body": {
+          "font": "Fakt-Pro-Normal",
+          "size": 20,
+          "weight": "400",
+          "lineHeight": 1,
+          "letterSpacing": "-0.01125px",
+          "color": "rgb(0, 0, 0)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#ffffff"
+        ],
+        "text": [
+          "#000000",
+          "#060606",
+          "#828282"
         ]
       },
       "buttons": [],
@@ -33430,6 +33698,79 @@
     }
   },
   {
+    "id": "dries-bos-landing",
+    "site": "Dries Bos",
+    "url": "https://www.driesbos.com",
+    "type": "landing",
+    "tags": [
+      "browser-frame-drawing",
+      "project-table",
+      "line-art",
+      "creative-developer"
+    ],
+    "note": "A creative developer draws a line-art frame (a roof, a browser bar) around a ruled table of year / project / type with arrows: the illustration is the container, the table is the content.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/dries-bos-landing-desktop.jpg",
+        "width": 1440,
+        "height": 2312
+      },
+      "mobile": {
+        "file": "screens/dries-bos-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Dries Bos — Freelance Creative Developer and Web Designer",
+      "fonts": [
+        "Sohne Buch",
+        "myFont"
+      ],
+      "type": {
+        "h1": {
+          "font": "Sohne Buch",
+          "size": 20,
+          "weight": "400",
+          "lineHeight": 1.45,
+          "letterSpacing": "normal",
+          "color": "rgb(5, 2, 0)"
+        },
+        "h2": {
+          "font": "Sohne Buch",
+          "size": 20,
+          "weight": "400",
+          "lineHeight": 1.45,
+          "letterSpacing": "normal",
+          "color": "rgb(5, 2, 0)"
+        },
+        "h3": null,
+        "body": {
+          "font": "Sohne Buch",
+          "size": 20,
+          "weight": "400",
+          "lineHeight": 1.45,
+          "letterSpacing": "normal",
+          "color": "rgb(5, 2, 0)"
+        }
+      },
+      "colors": {
+        "background": "#d6d4cd",
+        "surfaces": [
+          "#e8e7e3",
+          "#dfddd8",
+          "#050200"
+        ],
+        "text": [
+          "#050200"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": null
+    }
+  },
+  {
     "id": "driftime-landing",
     "site": "Driftime®",
     "url": "https://driftime.com",
@@ -37899,6 +38240,56 @@
         "surfaces": [
           "#ffffff",
           "#f5f5f5"
+        ],
+        "text": [
+          "#000000"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": null
+    }
+  },
+  {
+    "id": "faris-kassim-landing",
+    "site": "Faris Kassim",
+    "url": "https://www.fariskassim.com",
+    "type": "landing",
+    "tags": [
+      "matrix-index",
+      "type-codes",
+      "ruled-cells",
+      "legend"
+    ],
+    "note": "A designer lays out projects as a ruled grid of cells, each with dots marked by type codes (WE, EX, PF) and a legend at the top-left: a map of the work by kind.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/faris-kassim-landing-desktop.jpg",
+        "width": 1440,
+        "height": 900
+      },
+      "mobile": {
+        "file": "screens/faris-kassim-landing-mobile.jpg",
+        "width": 390,
+        "height": 844
+      }
+    },
+    "tokens": {
+      "title": "Faris Kassim",
+      "fonts": [
+        "W"
+      ],
+      "type": {
+        "h1": null,
+        "h2": null,
+        "h3": null,
+        "body": null
+      },
+      "colors": {
+        "background": "#e5e5e5",
+        "surfaces": [
+          "#e5e5e5",
+          "#000000"
         ],
         "text": [
           "#000000"
@@ -42715,6 +43106,72 @@
     }
   },
   {
+    "id": "geoff-levy-landing",
+    "site": "Geoff Levy",
+    "url": "https://www.geofflevy.com",
+    "type": "landing",
+    "tags": [
+      "title-list-over-still",
+      "full-bleed-film",
+      "film-photo-tabs",
+      "director"
+    ],
+    "note": "A director overlays a list of film titles on one full-bleed still, with Film / Photo at the corners: the menu is the reel, the still changes with it.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/geoff-levy-landing-desktop.jpg",
+        "width": 1440,
+        "height": 900
+      },
+      "mobile": {
+        "file": "screens/geoff-levy-landing-mobile.jpg",
+        "width": 390,
+        "height": 844
+      }
+    },
+    "tokens": {
+      "title": "Geoff Sean Levy",
+      "fonts": [
+        "Roobert",
+        "ui-monospace",
+        "Arial"
+      ],
+      "type": {
+        "h1": null,
+        "h2": {
+          "font": "Roobert",
+          "size": 20,
+          "weight": "400",
+          "lineHeight": 1.2,
+          "letterSpacing": "normal",
+          "color": "rgb(255, 255, 255)"
+        },
+        "h3": null,
+        "body": {
+          "font": "Roobert",
+          "size": 16,
+          "weight": "400",
+          "lineHeight": 1.2,
+          "letterSpacing": "normal",
+          "color": "rgb(255, 255, 255)"
+        }
+      },
+      "colors": {
+        "background": "#000000",
+        "surfaces": [
+          "#000000",
+          "#ffffff"
+        ],
+        "text": [
+          "#ffffff"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": null
+    }
+  },
+  {
     "id": "george-kedenburg-iii-landing",
     "site": "George Kedenburg III",
     "url": "https://gk3.website",
@@ -46919,6 +47376,86 @@
         }
       ],
       "contentWidth": 1440
+    }
+  },
+  {
+    "id": "helena-zhang-landing",
+    "site": "Helena Zhang",
+    "url": "https://www.helenazhang.com",
+    "type": "landing",
+    "tags": [
+      "cartoon-avatar",
+      "article-cards",
+      "icon-illustrations",
+      "now-playing"
+    ],
+    "note": "An icon designer puts a cartoon avatar beside a short bio, then articles and case cards illustrated with her own icons, plus a 'Watching / Playing' line at the top: craft shown in every thumbnail.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/helena-zhang-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3487
+      },
+      "mobile": {
+        "file": "screens/helena-zhang-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Helena Zhang",
+      "fonts": [
+        "MaisonNeue",
+        "CooperBTLight"
+      ],
+      "type": {
+        "h1": {
+          "font": "CooperBTLight",
+          "size": 24,
+          "weight": "400",
+          "lineHeight": 1.33,
+          "letterSpacing": "-0.2px",
+          "color": "rgb(0, 0, 0)"
+        },
+        "h2": {
+          "font": "MaisonNeue",
+          "size": 13,
+          "weight": "400",
+          "lineHeight": "normal",
+          "letterSpacing": "-0.2px",
+          "color": "rgb(0, 0, 0)"
+        },
+        "h3": {
+          "font": "CooperBTLight",
+          "size": 24,
+          "weight": "400",
+          "lineHeight": 1.33,
+          "letterSpacing": "-0.2px",
+          "color": "rgb(0, 0, 0)"
+        },
+        "body": {
+          "font": "CooperBTLight",
+          "size": 32,
+          "weight": "400",
+          "lineHeight": 1.25,
+          "letterSpacing": "-0.2px",
+          "color": "rgb(0, 0, 0)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#000000",
+          "#ffffff"
+        ],
+        "text": [
+          "#000000",
+          "#363636"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": null
     }
   },
   {
@@ -51899,6 +52436,70 @@
     }
   },
   {
+    "id": "jacob-mckee-landing",
+    "site": "Jacob McKee",
+    "url": "https://jacobmckee.com",
+    "type": "landing",
+    "tags": [
+      "credits-table",
+      "timecodes",
+      "colorist",
+      "big-name"
+    ],
+    "note": "A colorist sets 'Jacob McKee Colorist' large and lists jobs as credits cells with director and timecode: the vocabulary of the trade as the layout.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/jacob-mckee-landing-desktop.jpg",
+        "width": 1440,
+        "height": 900
+      },
+      "mobile": {
+        "file": "screens/jacob-mckee-landing-mobile.jpg",
+        "width": 390,
+        "height": 844
+      }
+    },
+    "tokens": {
+      "title": "Jacob McKee — Home",
+      "fonts": [
+        "Theinhardt-Reg"
+      ],
+      "type": {
+        "h1": {
+          "font": "Theinhardt-Reg",
+          "size": 92,
+          "weight": "100",
+          "lineHeight": 1,
+          "letterSpacing": "-2.7px",
+          "color": "rgb(255, 255, 255)"
+        },
+        "h2": {
+          "font": "Theinhardt-Reg",
+          "size": 20,
+          "weight": "100",
+          "lineHeight": 1.08,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        },
+        "h3": null,
+        "body": null
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#ffffff"
+        ],
+        "text": [
+          "#000000",
+          "#ffffff"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": null
+    }
+  },
+  {
     "id": "jam-landing",
     "site": "Jam",
     "url": "https://jam.dev",
@@ -52912,6 +53513,62 @@
       },
       "buttons": [],
       "contentWidth": 1440
+    }
+  },
+  {
+    "id": "johnston-marklee-landing",
+    "site": "Johnston Marklee",
+    "url": "http://www.johnstonmarklee.com",
+    "type": "landing",
+    "tags": [
+      "shape-nav",
+      "white-on-black",
+      "architecture",
+      "building-plans"
+    ],
+    "note": "An architecture office's homepage is a black field of white building silhouettes, each a project link: the buildings as icons, no text needed.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/johnston-marklee-landing-desktop.jpg",
+        "width": 1440,
+        "height": 900
+      },
+      "mobile": {
+        "file": "screens/johnston-marklee-landing-mobile.jpg",
+        "width": 390,
+        "height": 844
+      }
+    },
+    "tokens": {
+      "title": "Johnston Marklee | Home",
+      "fonts": [
+        "F Grotesk Book"
+      ],
+      "type": {
+        "h1": null,
+        "h2": null,
+        "h3": null,
+        "body": {
+          "font": "F Grotesk Book",
+          "size": 16,
+          "weight": "400",
+          "lineHeight": 1.31,
+          "letterSpacing": "1.25px",
+          "color": "rgb(255, 255, 255)"
+        }
+      },
+      "colors": {
+        "background": "#000000",
+        "surfaces": [
+          "#000000"
+        ],
+        "text": [
+          "#ffffff"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": null
     }
   },
   {
@@ -60590,6 +61247,89 @@
       },
       "buttons": [],
       "contentWidth": 1400
+    }
+  },
+  {
+    "id": "marylou-faure-landing",
+    "site": "Marylou Faure",
+    "url": "https://maryloufaure.com",
+    "type": "landing",
+    "tags": [
+      "illustration-grid",
+      "client-logo-strip",
+      "saturated-colour",
+      "illustrator"
+    ],
+    "note": "An illustrator runs a strip of client logos under her bio, then each brand's work as a saturated grid of illustrations and products: who hired her, then what she made for them.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/marylou-faure-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/marylou-faure-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Marylou Faure - Artist & Illustrator",
+      "fonts": [
+        "Helvetica Now",
+        "Arial"
+      ],
+      "type": {
+        "h1": {
+          "font": "Helvetica Now",
+          "size": 12,
+          "weight": "400",
+          "lineHeight": 0,
+          "letterSpacing": "0.5px",
+          "color": "rgb(0, 0, 0)"
+        },
+        "h2": {
+          "font": "Helvetica Now",
+          "size": 40,
+          "weight": "400",
+          "lineHeight": 0.8,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        },
+        "h3": {
+          "font": "Helvetica Now",
+          "size": 12,
+          "weight": "400",
+          "lineHeight": 1.5,
+          "letterSpacing": "0.5px",
+          "color": "rgb(0, 0, 0)"
+        },
+        "body": {
+          "font": "Helvetica Now",
+          "size": 12,
+          "weight": "400",
+          "lineHeight": "normal",
+          "letterSpacing": "0.5px",
+          "color": "rgb(0, 0, 0)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#ffffff",
+          "#ff0000",
+          "#e7f2f7",
+          "#ffabe8",
+          "#8be2f9"
+        ],
+        "text": [
+          "#000000",
+          "#ffffff"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": 662
     }
   },
   {
@@ -70529,6 +71269,123 @@
     }
   },
   {
+    "id": "other-office-landing",
+    "site": "Other Office",
+    "url": "http://otheroffice.net",
+    "type": "landing",
+    "tags": [
+      "scattered-frames",
+      "desk-layout",
+      "labelled-corners",
+      "studio"
+    ],
+    "note": "A studio scatters framed thumbnails across a white page with labels at the corners (About, Contact, Instagram): the homepage as a desk with the work spread out.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/other-office-landing-desktop.jpg",
+        "width": 1440,
+        "height": 900
+      },
+      "mobile": {
+        "file": "screens/other-office-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Other Office | Home",
+      "fonts": [
+        "Lyon",
+        "Everett"
+      ],
+      "type": {
+        "h1": null,
+        "h2": null,
+        "h3": null,
+        "body": null
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#ffffff"
+        ],
+        "text": [
+          "#000000"
+        ]
+      },
+      "buttons": [
+        {
+          "label": "Other",
+          "bg": "#ffffff",
+          "color": "#000000",
+          "radius": "0px",
+          "height": 35,
+          "paddingX": 6,
+          "font": "Everett",
+          "size": 16,
+          "weight": "400"
+        },
+        {
+          "label": "Office",
+          "bg": "#ffffff",
+          "color": "#000000",
+          "radius": "0px",
+          "height": 35,
+          "paddingX": 6,
+          "font": "Everett",
+          "size": 16,
+          "weight": "400"
+        },
+        {
+          "label": "Twitter",
+          "bg": "#ffffff",
+          "color": "#000000",
+          "radius": "0px",
+          "height": 35,
+          "paddingX": 6,
+          "font": "Everett",
+          "size": 16,
+          "weight": "400"
+        },
+        {
+          "label": "@otheroffice_",
+          "bg": "#ffffff",
+          "color": "#000000",
+          "radius": "0px",
+          "height": 35,
+          "paddingX": 6,
+          "font": "Everett",
+          "size": 16,
+          "weight": "400"
+        },
+        {
+          "label": "Contact Us",
+          "bg": "#ffffff",
+          "color": "#000000",
+          "radius": "0px",
+          "height": 35,
+          "paddingX": 6,
+          "font": "Everett",
+          "size": 16,
+          "weight": "400"
+        },
+        {
+          "label": "info@otheroffice.net",
+          "bg": "#ffffff",
+          "color": "#000000",
+          "radius": "0px",
+          "height": 35,
+          "paddingX": 6,
+          "font": "Everett",
+          "size": 16,
+          "weight": "400"
+        }
+      ],
+      "contentWidth": null
+    }
+  },
+  {
     "id": "otherkind-landing",
     "site": "Otherkind",
     "url": "https://www.otherkind.design",
@@ -73001,6 +73858,53 @@
         }
       ],
       "contentWidth": 1440
+    }
+  },
+  {
+    "id": "petar-zeman-landing",
+    "site": "Petar Zeman",
+    "url": "https://zemanpetar.com",
+    "type": "landing",
+    "tags": [
+      "issue-number",
+      "big-serif",
+      "dark-folio",
+      "product-designer"
+    ],
+    "note": "A product designer titles his site 'folio Nº 04' in a huge serif on black: the portfolio as an issue in a series, with red links below.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/petar-zeman-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/petar-zeman-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Petar — Designer",
+      "fonts": [
+        "IBM Plex Sans"
+      ],
+      "type": {
+        "h1": null,
+        "h2": null,
+        "h3": null,
+        "body": null
+      },
+      "colors": {
+        "background": "#121110",
+        "surfaces": [],
+        "text": [
+          "#f0ebe6"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": 924
     }
   },
   {
@@ -76291,6 +77195,81 @@
     }
   },
   {
+    "id": "poulos-collective-landing",
+    "site": "Poulos Collective",
+    "url": "https://www.poulos.co",
+    "type": "landing",
+    "tags": [
+      "ask-me-anything",
+      "chat-input",
+      "testimonial-highlight",
+      "octopus-art"
+    ],
+    "note": "A product designer's hero is 'Ask me anything…' with a chat field and suggested questions, above highlighted testimonials and cases: an assistant as the first interaction.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/poulos-collective-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/poulos-collective-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Stefan Poulos | Design Systems Leader",
+      "fonts": [
+        "Inter",
+        "DM Serif Text",
+        "ui-monospace"
+      ],
+      "type": {
+        "h1": {
+          "font": "DM Serif Text",
+          "size": 48,
+          "weight": "500",
+          "lineHeight": 1.1,
+          "letterSpacing": "-0.96px",
+          "color": "rgb(28, 26, 23)"
+        },
+        "h2": null,
+        "h3": null,
+        "body": null
+      },
+      "colors": {
+        "background": "#fbfaf6",
+        "surfaces": [
+          "#ffffff",
+          "#f8f4ee",
+          "#1c1a17"
+        ],
+        "text": [
+          "#1c1a17",
+          "#6b665e",
+          "#ffffff",
+          "#fbfaf6"
+        ]
+      },
+      "buttons": [
+        {
+          "label": "",
+          "bg": "#1c1a17",
+          "color": "#fbfaf6",
+          "radius": "3.35544e+07px",
+          "height": 34,
+          "paddingX": 0,
+          "font": "Inter",
+          "size": 14,
+          "weight": "400"
+        }
+      ],
+      "contentWidth": null
+    }
+  },
+  {
     "id": "pov-budapest-landing",
     "site": "POV Budapest",
     "url": "https://www.povbudapest.com",
@@ -78475,6 +79454,81 @@
       },
       "buttons": [],
       "contentWidth": null
+    }
+  },
+  {
+    "id": "ralph-tharayil-landing",
+    "site": "Ralph Tharayil",
+    "url": "https://ralphtharayil.com",
+    "type": "landing",
+    "tags": [
+      "notes-app-nav",
+      "phone-mockup",
+      "writer",
+      "live-dot"
+    ],
+    "note": "A writer offers 'live access to my notebook' and shows it as an iPhone Notes app (Daily, Prose, Poems, Audio): the familiar UI becomes the navigation.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/ralph-tharayil-landing-desktop.jpg",
+        "width": 1440,
+        "height": 1253
+      },
+      "mobile": {
+        "file": "screens/ralph-tharayil-landing-mobile.jpg",
+        "width": 390,
+        "height": 1442
+      }
+    },
+    "tokens": {
+      "title": "Ralph Tharayil",
+      "fonts": [
+        "SuisseIntl",
+        "SuisseIntlItalic"
+      ],
+      "type": {
+        "h1": {
+          "font": "SuisseIntl",
+          "size": 28,
+          "weight": "700",
+          "lineHeight": 1.15,
+          "letterSpacing": "normal",
+          "color": "rgb(21, 20, 16)"
+        },
+        "h2": null,
+        "h3": {
+          "font": "SuisseIntl",
+          "size": 15,
+          "weight": "700",
+          "lineHeight": 1.3,
+          "letterSpacing": "normal",
+          "color": "rgb(161, 161, 161)"
+        },
+        "body": {
+          "font": "SuisseIntl",
+          "size": 16,
+          "weight": "400",
+          "lineHeight": 1.63,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        }
+      },
+      "colors": {
+        "background": "#fdfdfd",
+        "surfaces": [
+          "#f8f8f8",
+          "#a4d400"
+        ],
+        "text": [
+          "#151410",
+          "#000000",
+          "#a1a1a1",
+          "#a4d400"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": 1100
     }
   },
   {
@@ -97306,6 +98360,59 @@
     }
   },
   {
+    "id": "tom-parkes-landing",
+    "site": "Tom Parkes",
+    "url": "https://www.tparkes.com",
+    "type": "landing",
+    "tags": [
+      "inline-icons",
+      "grey-headline",
+      "case-cards",
+      "design-lead"
+    ],
+    "note": "A design lead drops small icons between the words of a grey headline, then large case cards: the sentence carries the personality, the cards stay plain.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/tom-parkes-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/tom-parkes-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Tom Parkes Digital and Brand Designer",
+      "fonts": [
+        "Instrumentsans",
+        "Arial"
+      ],
+      "type": {
+        "h1": null,
+        "h2": null,
+        "h3": null,
+        "body": null
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#f5ffbe"
+        ],
+        "text": [
+          "#0000ee",
+          "#333333",
+          "#222222",
+          "#000000"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": null
+    }
+  },
+  {
     "id": "tone-landing",
     "site": "Tone",
     "url": "https://t-o-n-e.com",
@@ -100806,6 +101913,68 @@
       },
       "buttons": [],
       "contentWidth": 1490
+    }
+  },
+  {
+    "id": "vasantha-yogananthan-landing",
+    "site": "Vasantha Yogananthan",
+    "url": "https://vasanthayogananthan.com",
+    "type": "landing",
+    "tags": [
+      "serif-index",
+      "inline-thumbnails",
+      "comma-list",
+      "photographer"
+    ],
+    "note": "A photographer lists every project and book as a comma-separated run of big serif titles, each followed by a tiny thumbnail: the whole body of work in three paragraphs.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/vasantha-yogananthan-landing-desktop.jpg",
+        "width": 1440,
+        "height": 900
+      },
+      "mobile": {
+        "file": "screens/vasantha-yogananthan-landing-mobile.jpg",
+        "width": 390,
+        "height": 1410
+      }
+    },
+    "tokens": {
+      "title": "Vasantha Yogananthan",
+      "fonts": [
+        "Schnyder Cond L Web",
+        "Lato"
+      ],
+      "type": {
+        "h1": null,
+        "h2": null,
+        "h3": {
+          "font": "Schnyder Cond L Web",
+          "size": 68,
+          "weight": "100",
+          "lineHeight": 1,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        },
+        "body": {
+          "font": "Lato",
+          "size": 10,
+          "weight": "400",
+          "lineHeight": "normal",
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        }
+      },
+      "colors": {
+        "background": "#f9f8f7",
+        "surfaces": [],
+        "text": [
+          "#000000"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": null
     }
   },
   {

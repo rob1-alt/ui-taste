@@ -15389,5 +15389,209 @@
    "colophon"
   ],
   "note": "A designer writes 'Think of it like color registration' under his statement and leaves live toggles in the footer (Columns, Baseline, Elements OFF): the grid can be switched on to prove it."
+ },
+ {
+  "site": "Ajeeb",
+  "type": "landing",
+  "url": "https://ajeeb.in",
+  "tags": [
+   "custom-display-face",
+   "dark-hero",
+   "type-as-list",
+   "creative-director"
+  ],
+  "note": "A creative director writes the whole hero in his own condensed display face, then lists projects in the same face, huge: the typeface carries the identity and the index."
+ },
+ {
+  "site": "Anthony Kolber",
+  "type": "landing",
+  "url": "http://www.kolber.info",
+  "tags": [
+   "raw-bullet-list",
+   "stack-per-project",
+   "blue-box",
+   "designer-developer"
+  ],
+  "note": "A designer-developer lists every project as a raw bullet run with role, stack (Kirby / PHP, React) and URL next to a blue box with his name: an honest technical CV, no images."
+ },
+ {
+  "site": "Austen Ezzell",
+  "type": "landing",
+  "url": "http://austenezzell.com",
+  "tags": [
+   "year-grid",
+   "yearly-redesign",
+   "versions-archive",
+   "chat-note"
+  ],
+  "note": "A designer redesigns his portfolio every year and makes the homepage a grey grid of years linking to each old version, with a chat bubble explaining it: the archive of versions is the work."
+ },
+ {
+  "site": "Chris Hardy",
+  "type": "landing",
+  "url": "https://chrishardydesign.com",
+  "tags": [
+   "serif-italic-mix",
+   "furniture",
+   "editorial-cases",
+   "email-in-hero"
+  ],
+  "note": "A furniture designer sets 'Contemporary Sensibility' in mixed italic and roman over a table photo, then each piece as a centred title with one paragraph and two photos: a catalogue paced like a magazine."
+ },
+ {
+  "site": "Dries Bos",
+  "type": "landing",
+  "url": "https://www.driesbos.com",
+  "tags": [
+   "browser-frame-drawing",
+   "project-table",
+   "line-art",
+   "creative-developer"
+  ],
+  "note": "A creative developer draws a line-art frame (a roof, a browser bar) around a ruled table of year / project / type with arrows: the illustration is the container, the table is the content."
+ },
+ {
+  "site": "Faris Kassim",
+  "type": "landing",
+  "url": "https://www.fariskassim.com",
+  "tags": [
+   "matrix-index",
+   "type-codes",
+   "ruled-cells",
+   "legend"
+  ],
+  "note": "A designer lays out projects as a ruled grid of cells, each with dots marked by type codes (WE, EX, PF) and a legend at the top-left: a map of the work by kind."
+ },
+ {
+  "site": "Geoff Levy",
+  "type": "landing",
+  "url": "https://www.geofflevy.com",
+  "tags": [
+   "title-list-over-still",
+   "full-bleed-film",
+   "film-photo-tabs",
+   "director"
+  ],
+  "note": "A director overlays a list of film titles on one full-bleed still, with Film / Photo at the corners: the menu is the reel, the still changes with it."
+ },
+ {
+  "site": "Helena Zhang",
+  "type": "landing",
+  "url": "https://www.helenazhang.com",
+  "tags": [
+   "cartoon-avatar",
+   "article-cards",
+   "icon-illustrations",
+   "now-playing"
+  ],
+  "note": "An icon designer puts a cartoon avatar beside a short bio, then articles and case cards illustrated with her own icons, plus a 'Watching / Playing' line at the top: craft shown in every thumbnail."
+ },
+ {
+  "site": "Jacob McKee",
+  "type": "landing",
+  "url": "https://jacobmckee.com",
+  "tags": [
+   "credits-table",
+   "timecodes",
+   "colorist",
+   "big-name"
+  ],
+  "note": "A colorist sets 'Jacob McKee Colorist' large and lists jobs as credits cells with director and timecode: the vocabulary of the trade as the layout."
+ },
+ {
+  "site": "Johnston Marklee",
+  "type": "landing",
+  "url": "http://www.johnstonmarklee.com",
+  "tags": [
+   "shape-nav",
+   "white-on-black",
+   "architecture",
+   "building-plans"
+  ],
+  "note": "An architecture office's homepage is a black field of white building silhouettes, each a project link: the buildings as icons, no text needed."
+ },
+ {
+  "site": "Marylou Faure",
+  "type": "landing",
+  "url": "https://maryloufaure.com",
+  "tags": [
+   "illustration-grid",
+   "client-logo-strip",
+   "saturated-colour",
+   "illustrator"
+  ],
+  "note": "An illustrator runs a strip of client logos under her bio, then each brand's work as a saturated grid of illustrations and products: who hired her, then what she made for them."
+ },
+ {
+  "site": "Other Office",
+  "type": "landing",
+  "url": "http://otheroffice.net",
+  "tags": [
+   "scattered-frames",
+   "desk-layout",
+   "labelled-corners",
+   "studio"
+  ],
+  "note": "A studio scatters framed thumbnails across a white page with labels at the corners (About, Contact, Instagram): the homepage as a desk with the work spread out."
+ },
+ {
+  "site": "Petar Zeman",
+  "type": "landing",
+  "url": "https://zemanpetar.com",
+  "tags": [
+   "issue-number",
+   "big-serif",
+   "dark-folio",
+   "product-designer"
+  ],
+  "note": "A product designer titles his site 'folio Nº 04' in a huge serif on black: the portfolio as an issue in a series, with red links below."
+ },
+ {
+  "site": "Poulos Collective",
+  "type": "landing",
+  "url": "https://www.poulos.co",
+  "tags": [
+   "ask-me-anything",
+   "chat-input",
+   "testimonial-highlight",
+   "octopus-art"
+  ],
+  "note": "A product designer's hero is 'Ask me anything…' with a chat field and suggested questions, above highlighted testimonials and cases: an assistant as the first interaction."
+ },
+ {
+  "site": "Ralph Tharayil",
+  "type": "landing",
+  "url": "https://ralphtharayil.com",
+  "tags": [
+   "notes-app-nav",
+   "phone-mockup",
+   "writer",
+   "live-dot"
+  ],
+  "note": "A writer offers 'live access to my notebook' and shows it as an iPhone Notes app (Daily, Prose, Poems, Audio): the familiar UI becomes the navigation."
+ },
+ {
+  "site": "Tom Parkes",
+  "type": "landing",
+  "url": "https://www.tparkes.com",
+  "tags": [
+   "inline-icons",
+   "grey-headline",
+   "case-cards",
+   "design-lead"
+  ],
+  "note": "A design lead drops small icons between the words of a grey headline, then large case cards: the sentence carries the personality, the cards stay plain."
+ },
+ {
+  "site": "Vasantha Yogananthan",
+  "type": "landing",
+  "url": "https://vasanthayogananthan.com",
+  "tags": [
+   "serif-index",
+   "inline-thumbnails",
+   "comma-list",
+   "photographer"
+  ],
+  "note": "A photographer lists every project and book as a comma-separated run of big serif titles, each followed by a tiny thumbnail: the whole body of work in three paragraphs."
  }
 ]
