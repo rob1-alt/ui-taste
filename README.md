@@ -454,6 +454,14 @@ Every screen is captured at 1440px (desktop, first 3600px) and 390px (mobile), w
 
 ![landing pages 34](docs/landing-34.jpg)
 
+![landing pages 35](docs/landing-35.jpg)
+
+![landing pages 36](docs/landing-36.jpg)
+
+![landing pages 37](docs/landing-37.jpg)
+
+![landing pages 38](docs/landing-38.jpg)
+
 ### Mobile
 
 ![Mobile captures](docs/mobile.jpg)
