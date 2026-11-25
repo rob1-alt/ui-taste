@@ -13568,5 +13568,166 @@
    "recent-work-carousel"
   ],
   "note": "A brand innovation firm writes 'Brands grow when they mean more to the world.' in serif with 'grow', 'mean more' underlined and 'the world' in italics: emphasis does the design."
+ },
+ {
+  "site": "Common Works",
+  "type": "landing",
+  "url": "https://commonworks.co.uk",
+  "tags": [
+   "giant-cropped-type",
+   "ticker",
+   "framed-works",
+   "arched-frames"
+  ],
+  "note": "A studio runs 'DESIGN & TECHNOLOGY' as a giant cropped line across the top, then shows each project inside a black frame or arch: the frames make a gallery of mixed work."
+ },
+ {
+  "site": "Fons Hickmann",
+  "type": "landing",
+  "url": "https://fonshickmann.com",
+  "tags": [
+   "search-box",
+   "poster-grid",
+   "filter",
+   "typographic-posters",
+   "berlin"
+  ],
+  "note": "A poster designer's homepage is a search field and a grid of posters with titles: the archive is the interface, nothing else."
+ },
+ {
+  "site": "Galgo Studio",
+  "type": "landing",
+  "url": "http://www.galgo.studio",
+  "tags": [
+   "large-project-names",
+   "text-list",
+   "minimal",
+   "ux-and-branding"
+  ],
+  "note": "A small studio lists projects as large names with a tiny category under each, one per line down the page: the index is the whole design."
+ },
+ {
+  "site": "Great",
+  "type": "landing",
+  "url": "https://great.design",
+  "tags": [
+   "three-word-header",
+   "photo-hero",
+   "greeting",
+   "illustration-pattern",
+   "product-photos"
+  ],
+  "note": "The header bar spells 'Great Design Studio' across the full width in three words, the hero says 'Ahhh, hoi!' over a building photo, then bold pattern and product photos: a Dutch hello sets the tone."
+ },
+ {
+  "site": "Kilo",
+  "type": "landing",
+  "url": "http://kilodesign.dk",
+  "tags": [
+   "photo-hero",
+   "product-grid",
+   "headphones",
+   "hardware-design",
+   "news-tiles"
+  ],
+  "note": "An industrial design studio overlays one sentence on a photo of kids on a jetty, then its products (headphones, trimmers, a hyperloop) as a tile grid: objects shown as they are."
+ },
+ {
+  "site": "Moniker",
+  "type": "landing",
+  "url": "https://studiomoniker.com",
+  "tags": [
+   "retired-studio",
+   "archive",
+   "dates",
+   "interactive-projects",
+   "lilac"
+  ],
+  "note": "'Moniker 2012–2023': an interactive studio that closed keeps its site as an archive with the dates in the title: the page is a monument, not a pitch."
+ },
+ {
+  "site": "Rapt Studio",
+  "type": "landing",
+  "url": "https://raptstudio.com",
+  "tags": [
+   "centred-serif",
+   "interior-photo",
+   "pink-section",
+   "service-columns"
+  ],
+  "note": "An integrated design studio: one centred serif line, a photo of a Dropbox office it designed, and services in three columns on pale pink: spaces lead, the list follows."
+ },
+ {
+  "site": "Stockholm Design Lab",
+  "type": "landing",
+  "url": "http://www.stockholmdesignlab.se",
+  "tags": [
+   "logo-cloud",
+   "3d-scattered-logos",
+   "welcome",
+   "selected-work"
+  ],
+  "note": "Stockholm Design Lab opens on the logos it made (Polestar, SAS, Ikea) scattered in 3D like a swarm, then 'Welcome' and selected work: the identity work as the hero."
+ },
+ {
+  "site": "Studio Augmenta",
+  "type": "landing",
+  "url": "https://studioaugmenta.com",
+  "tags": [
+   "client-list",
+   "giant-caps",
+   "dark-mode",
+   "fashion-video"
+  ],
+  "note": "A moving-image studio lists its clients (Swarovski, Vogue, Nike, Hermès) in huge white caps down a black page, with video thumbnails on the side: the roster is the headline."
+ },
+ {
+  "site": "Studio Aves",
+  "type": "landing",
+  "url": "http://studioaves.com",
+  "tags": [
+   "blue-block",
+   "typography-studio",
+   "type-specimen",
+   "captions"
+  ],
+  "note": "A graphic and type practice opens on a flat blue block with its name, then typographic work (a word list poster, lettering) with coloured captions: colour first, letters after."
+ },
+ {
+  "site": "THE PEOPLE",
+  "type": "landing",
+  "url": "http://www.thepeople.world",
+  "tags": [
+   "giant-red-wordmark",
+   "newsletter",
+   "black-and-red",
+   "berlin-collective"
+  ],
+  "note": "A Berlin creative collective: 'THE PEOPLE°' in huge red caps on black and a 'NEWSLETTER' block just as big: a one-screen site whose action is subscribing."
+ },
+ {
+  "site": "unfun",
+  "type": "landing",
+  "url": "https://unfun.de",
+  "tags": [
+   "billboards",
+   "dense-grid",
+   "3d-objects",
+   "campaigns"
+  ],
+  "note": "A studio shows its campaigns as billboards and 3D objects in a dense grid of equal tiles: the work as photographed out in the world."
+ },
+ {
+  "site": "Zero",
+  "type": "landing",
+  "url": "https://zero.nyc",
+  "tags": [
+   "giant-wordmark",
+   "circle",
+   "dark-mode",
+   "product-render",
+   "caps-statement"
+  ],
+  "note": "'ZERO' set huge with a white circle as the O's twin, then a 3D sneaker and 'WE BUILD BREAK THROUGH BRANDS.' in caps: the mark and one render carry the page."
  }
 ]

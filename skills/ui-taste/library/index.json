@@ -24758,6 +24758,64 @@
     }
   },
   {
+    "id": "common-works-landing",
+    "site": "Common Works",
+    "url": "https://commonworks.co.uk",
+    "type": "landing",
+    "tags": [
+      "giant-cropped-type",
+      "ticker",
+      "framed-works",
+      "arched-frames"
+    ],
+    "note": "A studio runs 'DESIGN & TECHNOLOGY' as a giant cropped line across the top, then shows each project inside a black frame or arch: the frames make a gallery of mixed work.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/common-works-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/common-works-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Common Works",
+      "fonts": [
+        "Beausite"
+      ],
+      "type": {
+        "h1": null,
+        "h2": {
+          "font": "Beausite",
+          "size": 368,
+          "weight": "700",
+          "lineHeight": 1.5,
+          "letterSpacing": "normal",
+          "color": "rgb(33, 33, 33)"
+        },
+        "h3": null,
+        "body": null
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#212121",
+          "#f1f1f1"
+        ],
+        "text": [
+          "#f1f1f1",
+          "#212121"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": 1280
+    }
+  },
+  {
     "id": "commonwealth-fusion-landing",
     "site": "Commonwealth Fusion",
     "url": "https://cfs.energy",
@@ -36201,6 +36259,78 @@
     }
   },
   {
+    "id": "fons-hickmann-landing",
+    "site": "Fons Hickmann",
+    "url": "https://fonshickmann.com",
+    "type": "landing",
+    "tags": [
+      "search-box",
+      "poster-grid",
+      "filter",
+      "typographic-posters",
+      "berlin"
+    ],
+    "note": "A poster designer's homepage is a search field and a grid of posters with titles: the archive is the interface, nothing else.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/fons-hickmann-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/fons-hickmann-landing-mobile.jpg",
+        "width": 390,
+        "height": 845
+      }
+    },
+    "tokens": {
+      "title": "Work • Fons Hickmann",
+      "fonts": [
+        "Theinhardt Web"
+      ],
+      "type": {
+        "h1": {
+          "font": "Theinhardt Web",
+          "size": 36,
+          "weight": "400",
+          "lineHeight": 1,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        },
+        "h2": {
+          "font": "Theinhardt Web",
+          "size": 28,
+          "weight": "400",
+          "lineHeight": 1,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        },
+        "h3": null,
+        "body": {
+          "font": "Theinhardt Web",
+          "size": 270,
+          "weight": "400",
+          "lineHeight": 1.2,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#eeeeee",
+          "#ffffff"
+        ],
+        "text": [
+          "#000000"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": null
+    }
+  },
+  {
     "id": "fonts-in-use-landing",
     "site": "Fonts In Use",
     "url": "https://fontsinuse.com",
@@ -37854,6 +37984,67 @@
       },
       "buttons": [],
       "contentWidth": 1600
+    }
+  },
+  {
+    "id": "galgo-studio-landing",
+    "site": "Galgo Studio",
+    "url": "http://www.galgo.studio",
+    "type": "landing",
+    "tags": [
+      "large-project-names",
+      "text-list",
+      "minimal",
+      "ux-and-branding"
+    ],
+    "note": "A small studio lists projects as large names with a tiny category under each, one per line down the page: the index is the whole design.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/galgo-studio-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/galgo-studio-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Galgo Studio",
+      "fonts": [
+        "MaisonNeueLight"
+      ],
+      "type": {
+        "h1": null,
+        "h2": {
+          "font": "MaisonNeueLight",
+          "size": 0,
+          "weight": "400",
+          "lineHeight": Infinity,
+          "letterSpacing": "normal",
+          "color": "rgb(26, 26, 26)"
+        },
+        "h3": {
+          "font": "MaisonNeueLight",
+          "size": 23,
+          "weight": "400",
+          "lineHeight": 0.68,
+          "letterSpacing": "normal",
+          "color": "rgb(26, 26, 26)"
+        },
+        "body": null
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [],
+        "text": [
+          "#1a1a1a"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": null
     }
   },
   {
@@ -40035,6 +40226,70 @@
       },
       "buttons": [],
       "contentWidth": 1158
+    }
+  },
+  {
+    "id": "great-landing",
+    "site": "Great",
+    "url": "https://great.design",
+    "type": "landing",
+    "tags": [
+      "three-word-header",
+      "photo-hero",
+      "greeting",
+      "illustration-pattern",
+      "product-photos"
+    ],
+    "note": "The header bar spells 'Great Design Studio' across the full width in three words, the hero says 'Ahhh, hoi!' over a building photo, then bold pattern and product photos: a Dutch hello sets the tone.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/great-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/great-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Great – Great Design Studio",
+      "fonts": [
+        "TheinhardtRegular"
+      ],
+      "type": {
+        "h1": {
+          "font": "TheinhardtRegular",
+          "size": 82,
+          "weight": "400",
+          "lineHeight": 1.17,
+          "letterSpacing": "normal",
+          "color": "rgb(255, 255, 255)"
+        },
+        "h2": null,
+        "h3": null,
+        "body": {
+          "font": "TheinhardtRegular",
+          "size": 40,
+          "weight": "400",
+          "lineHeight": 1.2,
+          "letterSpacing": "normal",
+          "color": "rgb(255, 255, 255)"
+        }
+      },
+      "colors": {
+        "background": "#000000",
+        "surfaces": [
+          "#000000"
+        ],
+        "text": [
+          "#ffffff"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": null
     }
   },
   {
@@ -48895,6 +49150,80 @@
     }
   },
   {
+    "id": "kilo-landing",
+    "site": "Kilo",
+    "url": "http://kilodesign.dk",
+    "type": "landing",
+    "tags": [
+      "photo-hero",
+      "product-grid",
+      "headphones",
+      "hardware-design",
+      "news-tiles"
+    ],
+    "note": "An industrial design studio overlays one sentence on a photo of kids on a jetty, then its products (headphones, trimmers, a hyperloop) as a tile grid: objects shown as they are.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/kilo-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3049
+      },
+      "mobile": {
+        "file": "screens/kilo-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Home – Kilo",
+      "fonts": [
+        "Juli Sans Regular",
+        "Juli Sans Black"
+      ],
+      "type": {
+        "h1": {
+          "font": "Juli Sans Black",
+          "size": 40,
+          "weight": "400",
+          "lineHeight": 1.13,
+          "letterSpacing": "normal",
+          "color": "rgb(255, 255, 255)"
+        },
+        "h2": null,
+        "h3": {
+          "font": "Juli Sans Black",
+          "size": 31,
+          "weight": "400",
+          "lineHeight": 1.13,
+          "letterSpacing": "normal",
+          "color": "rgb(254, 254, 254)"
+        },
+        "body": {
+          "font": "Juli Sans Regular",
+          "size": 13,
+          "weight": "400",
+          "lineHeight": 1,
+          "letterSpacing": "normal",
+          "color": "rgb(254, 254, 254)"
+        }
+      },
+      "colors": {
+        "background": "#fefefe",
+        "surfaces": [
+          "#0a0a0a",
+          "#fefefe"
+        ],
+        "text": [
+          "#fefefe",
+          "#ffffff"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": null
+    }
+  },
+  {
     "id": "kilo-code-landing",
     "site": "Kilo Code",
     "url": "https://kilocode.ai",
@@ -56961,6 +57290,71 @@
         }
       ],
       "contentWidth": 1440
+    }
+  },
+  {
+    "id": "moniker-landing",
+    "site": "Moniker",
+    "url": "https://studiomoniker.com",
+    "type": "landing",
+    "tags": [
+      "retired-studio",
+      "archive",
+      "dates",
+      "interactive-projects",
+      "lilac"
+    ],
+    "note": "'Moniker 2012–2023': an interactive studio that closed keeps its site as an archive with the dates in the title: the page is a monument, not a pitch.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/moniker-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/moniker-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Moniker",
+      "fonts": [
+        "Gestures"
+      ],
+      "type": {
+        "h1": {
+          "font": "Gestures",
+          "size": 19,
+          "weight": "400",
+          "lineHeight": 1.45,
+          "letterSpacing": "0.185px",
+          "color": "rgb(0, 0, 255)"
+        },
+        "h2": {
+          "font": "Gestures",
+          "size": 56,
+          "weight": "400",
+          "lineHeight": 1,
+          "letterSpacing": "0.555px",
+          "color": "rgb(0, 0, 77)"
+        },
+        "h3": null,
+        "body": null
+      },
+      "colors": {
+        "background": "#f3f3ff",
+        "surfaces": [
+          "#dadae5"
+        ],
+        "text": [
+          "#00004d",
+          "#0000ff"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": 1214
     }
   },
   {
@@ -70471,6 +70865,86 @@
     }
   },
   {
+    "id": "rapt-studio-landing",
+    "site": "Rapt Studio",
+    "url": "https://raptstudio.com",
+    "type": "landing",
+    "tags": [
+      "centred-serif",
+      "interior-photo",
+      "pink-section",
+      "service-columns"
+    ],
+    "note": "An integrated design studio: one centred serif line, a photo of a Dropbox office it designed, and services in three columns on pale pink: spaces lead, the list follows.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/rapt-studio-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/rapt-studio-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Home | Rapt Studio",
+      "fonts": [
+        "Fakt-Blond",
+        "noe-display",
+        "Fakt-Semibold"
+      ],
+      "type": {
+        "h1": {
+          "font": "noe-display",
+          "size": 40,
+          "weight": "500",
+          "lineHeight": 1.3,
+          "letterSpacing": "normal",
+          "color": "rgb(64, 64, 64)"
+        },
+        "h2": {
+          "font": "noe-display",
+          "size": 65,
+          "weight": "500",
+          "lineHeight": 1.3,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        },
+        "h3": {
+          "font": "noe-display",
+          "size": 28,
+          "weight": "500",
+          "lineHeight": 1.1,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        },
+        "body": {
+          "font": "Fakt-Blond",
+          "size": 20,
+          "weight": "400",
+          "lineHeight": 1.6,
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#ffffff",
+          "#f9f9f9"
+        ],
+        "text": [
+          "#000000"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": 1470
+    }
+  },
+  {
     "id": "rauno-landing",
     "site": "Rauno",
     "url": "https://rauno.me",
@@ -79731,6 +80205,76 @@
     }
   },
   {
+    "id": "stockholm-design-lab-landing",
+    "site": "Stockholm Design Lab",
+    "url": "http://www.stockholmdesignlab.se",
+    "type": "landing",
+    "tags": [
+      "logo-cloud",
+      "3d-scattered-logos",
+      "welcome",
+      "selected-work"
+    ],
+    "note": "Stockholm Design Lab opens on the logos it made (Polestar, SAS, Ikea) scattered in 3D like a swarm, then 'Welcome' and selected work: the identity work as the hero.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/stockholm-design-lab-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/stockholm-design-lab-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Home – Stockholm Design Lab",
+      "fonts": [
+        "LabGrotesque-regular"
+      ],
+      "type": {
+        "h1": {
+          "font": "LabGrotesque-regular",
+          "size": 32,
+          "weight": "400",
+          "lineHeight": "normal",
+          "letterSpacing": "normal",
+          "color": "rgb(0, 0, 0)"
+        },
+        "h2": {
+          "font": "LabGrotesque-regular",
+          "size": 42,
+          "weight": "400",
+          "lineHeight": 1.05,
+          "letterSpacing": "-0.84px",
+          "color": "rgb(0, 0, 0)"
+        },
+        "h3": null,
+        "body": {
+          "font": "LabGrotesque-regular",
+          "size": 42,
+          "weight": "400",
+          "lineHeight": 1.05,
+          "letterSpacing": "-0.84px",
+          "color": "rgb(0, 0, 0)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#ffffff"
+        ],
+        "text": [
+          "#000000"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": null
+    }
+  },
+  {
     "id": "stoke-space-landing",
     "site": "Stoke Space",
     "url": "https://www.stokespace.com",
@@ -80597,6 +81141,143 @@
         }
       ],
       "contentWidth": 1440
+    }
+  },
+  {
+    "id": "studio-augmenta-landing",
+    "site": "Studio Augmenta",
+    "url": "https://studioaugmenta.com",
+    "type": "landing",
+    "tags": [
+      "client-list",
+      "giant-caps",
+      "dark-mode",
+      "fashion-video"
+    ],
+    "note": "A moving-image studio lists its clients (Swarovski, Vogue, Nike, Hermès) in huge white caps down a black page, with video thumbnails on the side: the roster is the headline.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/studio-augmenta-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3453
+      },
+      "mobile": {
+        "file": "screens/studio-augmenta-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Studio Augmenta",
+      "fonts": [
+        "Adieu-Bold"
+      ],
+      "type": {
+        "h1": null,
+        "h2": null,
+        "h3": null,
+        "body": {
+          "font": "Adieu-Bold",
+          "size": 19,
+          "weight": "400",
+          "lineHeight": 1.53,
+          "letterSpacing": "0.8064px",
+          "color": "rgb(255, 255, 255)"
+        }
+      },
+      "colors": {
+        "background": "#000000",
+        "surfaces": [
+          "#000000"
+        ],
+        "text": [
+          "#ffffff"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": null
+    }
+  },
+  {
+    "id": "studio-aves-landing",
+    "site": "Studio Aves",
+    "url": "http://studioaves.com",
+    "type": "landing",
+    "tags": [
+      "blue-block",
+      "typography-studio",
+      "type-specimen",
+      "captions"
+    ],
+    "note": "A graphic and type practice opens on a flat blue block with its name, then typographic work (a word list poster, lettering) with coloured captions: colour first, letters after.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/studio-aves-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/studio-aves-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Studio Aves.",
+      "fonts": [
+        "NeuzeitOffice-Regular"
+      ],
+      "type": {
+        "h1": {
+          "font": "NeuzeitOffice-Regular",
+          "size": 86,
+          "weight": "400",
+          "lineHeight": 1,
+          "letterSpacing": "-2.592px",
+          "color": "rgb(255, 255, 255)"
+        },
+        "h2": {
+          "font": "NeuzeitOffice-Regular",
+          "size": 23,
+          "weight": "400",
+          "lineHeight": 1.4,
+          "letterSpacing": "-0.4608px",
+          "color": "rgb(17, 17, 17)"
+        },
+        "h3": {
+          "font": "NeuzeitOffice-Regular",
+          "size": 23,
+          "weight": "400",
+          "lineHeight": 1.4,
+          "letterSpacing": "-0.4608px",
+          "color": "rgb(166, 34, 82)"
+        },
+        "body": {
+          "font": "NeuzeitOffice-Regular",
+          "size": 23,
+          "weight": "400",
+          "lineHeight": 1.4,
+          "letterSpacing": "-0.4608px",
+          "color": "rgb(17, 17, 17)"
+        }
+      },
+      "colors": {
+        "background": "#ffffff",
+        "surfaces": [
+          "#ffffff",
+          "#3333ff",
+          "#a62252",
+          "#0041ff"
+        ],
+        "text": [
+          "#111111",
+          "#ffffff"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": null
     }
   },
   {
@@ -85933,6 +86614,60 @@
     }
   },
   {
+    "id": "the-people-landing",
+    "site": "THE PEOPLE",
+    "url": "http://www.thepeople.world",
+    "type": "landing",
+    "tags": [
+      "giant-red-wordmark",
+      "newsletter",
+      "black-and-red",
+      "berlin-collective"
+    ],
+    "note": "A Berlin creative collective: 'THE PEOPLE°' in huge red caps on black and a 'NEWSLETTER' block just as big: a one-screen site whose action is subscribing.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/the-people-landing-desktop.jpg",
+        "width": 1440,
+        "height": 1578
+      },
+      "mobile": {
+        "file": "screens/the-people-landing-mobile.jpg",
+        "width": 390,
+        "height": 844
+      }
+    },
+    "tokens": {
+      "title": "Home | THE PEOPLE°",
+      "fonts": [
+        "font-1",
+        "Gravity"
+      ],
+      "type": {
+        "h1": null,
+        "h2": null,
+        "h3": null,
+        "body": null
+      },
+      "colors": {
+        "background": "#ff0000",
+        "surfaces": [
+          "#000000",
+          "#ff0000",
+          "#ffffff"
+        ],
+        "text": [
+          "#ff0000",
+          "#000000",
+          "#ffffff"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": null
+    }
+  },
+  {
     "id": "the-pudding-landing",
     "site": "The Pudding",
     "url": "https://pudding.cool",
@@ -89136,6 +89871,59 @@
         ],
         "text": [
           "#020203"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": null
+    }
+  },
+  {
+    "id": "unfun-landing",
+    "site": "unfun",
+    "url": "https://unfun.de",
+    "type": "landing",
+    "tags": [
+      "billboards",
+      "dense-grid",
+      "3d-objects",
+      "campaigns"
+    ],
+    "note": "A studio shows its campaigns as billboards and 3D objects in a dense grid of equal tiles: the work as photographed out in the world.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/unfun-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/unfun-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "unfun",
+      "fonts": [
+        "Soehne"
+      ],
+      "type": {
+        "h1": null,
+        "h2": null,
+        "h3": null,
+        "body": null
+      },
+      "colors": {
+        "background": "#191919",
+        "surfaces": [
+          "#dbdbdb",
+          "#3e3e3e",
+          "#dcdcdc",
+          "#f1f1f1"
+        ],
+        "text": [
+          "#3e3e3e",
+          "#f1f1f1"
         ]
       },
       "buttons": [],
@@ -94220,6 +95008,86 @@
         }
       ],
       "contentWidth": 1312
+    }
+  },
+  {
+    "id": "zero-landing",
+    "site": "Zero",
+    "url": "https://zero.nyc",
+    "type": "landing",
+    "tags": [
+      "giant-wordmark",
+      "circle",
+      "dark-mode",
+      "product-render",
+      "caps-statement"
+    ],
+    "note": "'ZERO' set huge with a white circle as the O's twin, then a 3D sneaker and 'WE BUILD BREAK THROUGH BRANDS.' in caps: the mark and one render carry the page.",
+    "captured": "2026-11-25",
+    "screens": {
+      "desktop": {
+        "file": "screens/zero-landing-desktop.jpg",
+        "width": 1440,
+        "height": 3600
+      },
+      "mobile": {
+        "file": "screens/zero-landing-mobile.jpg",
+        "width": 390,
+        "height": 2600
+      }
+    },
+    "tokens": {
+      "title": "Zero Studios",
+      "fonts": [
+        "Neue Montreal",
+        "GT America Mono"
+      ],
+      "type": {
+        "h1": {
+          "font": "Neue Montreal",
+          "size": 145,
+          "weight": "400",
+          "lineHeight": 0.95,
+          "letterSpacing": "-3px",
+          "color": "rgb(255, 255, 255)"
+        },
+        "h2": {
+          "font": "GT America Mono",
+          "size": 14,
+          "weight": "400",
+          "lineHeight": 1,
+          "letterSpacing": "0.5px",
+          "color": "rgb(255, 255, 255)"
+        },
+        "h3": {
+          "font": "Neue Montreal",
+          "size": 20,
+          "weight": "400",
+          "lineHeight": 1,
+          "letterSpacing": "normal",
+          "color": "rgb(255, 255, 255)"
+        },
+        "body": {
+          "font": "Neue Montreal",
+          "size": 40,
+          "weight": "400",
+          "lineHeight": 1,
+          "letterSpacing": "normal",
+          "color": "rgb(255, 255, 255)"
+        }
+      },
+      "colors": {
+        "background": "#000000",
+        "surfaces": [
+          "#000000",
+          "#ffffff"
+        ],
+        "text": [
+          "#ffffff"
+        ]
+      },
+      "buttons": [],
+      "contentWidth": 800
     }
   },
   {

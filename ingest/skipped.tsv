@@ -1730,3 +1730,38 @@ https://www.octaveoctave.com	standard agency layout
 https://otk.studio	desktop partial render
 https://www.wolfwhale.com	dark serif agency template
 https://wolvesnotsheep.us	dark text page, nothing new
+http://wearecocoon.co.uk	blocked (http 403) (prefilter)
+http://vsby.co	broken (http 301) (prefilter)
+http://noutstudio.com	broken (URLError) (prefilter)
+https://comotion.studio	broken (http 520) (prefilter)
+http://parametro.studio	bot wall (prefilter)
+http://www.size.agency	redirects off-site (studio-size.com) (prefilter)
+http://ultra.studio	broken (http 502) (prefilter)
+http://www.theworkshop.ch	redirects off-site (twks.ch) (prefilter)
+http://weareyoungblood.com	redirects off-site (yungbld.com) (prefilter)
+http://newnow.de	redirects off-site (newnow.cool) (prefilter)
+https://www.rehabstudio.com	broken (URLError) (prefilter)
+http://www.samdallyn.co.uk	redirects off-site (lundqvistdallyn.studio) (prefilter)
+http://discoveroutpost.com	redirects off-site (outpost.design) (prefilter)
+https://acceptandproceed.com	grey empty hero block; then a Vans/IBM project grid that rea
+https://www.adelebates.com.au	hero only: full-screen sky photo; nothing rendered below on 
+https://adoratorio.studio	hero only: wordmark and dotted logo on one screen; empty whi
+https://antoni.de	one-screen hero plus footer; no content below; likely scroll
+https://www.avidlyagency.com	HubSpot agency template: LEVEL UP YOUR REVENUE; stock photo;
+http://blunt.af	default-looking type stack; text-heavy intro; coloured case 
+https://concreterep.com	hero with a red serif wordmark; then dark grey and a black v
+https://dehlic.com	hero only: giant DEHLIC letters on one screen; blank below o
+https://www.lab101.be	centred plain list of project names and a small logo; nothin
+http://ourplace.studio	real-estate blog template: article card grid with stock illu
+http://sabina.ch	French agency template: centred headline; +420% stat card; i
+https://www.shiftexhibition.com	hero only: purple screen with AUT wordmark and paper-plane g
+https://studiofables.com	hero only: black screen with radial graphic and marquee nav;
+https://tux.co	news-list homepage with a corner award popup and plain three
+http://www.wavy.se	fashion row of four images then black and empty below on des
+https://creamco.net	blank
+https://www.ogilvy.com	blank
+https://www.spindle.co	blank
+https://www.coderesolution.com	dark serif agency template
+http://www.pathh.co	sparse, mobile black
+http://www.polytechnic.works	grey placeholders, partial
+https://stuur.men	grey placeholder blocks, partial
