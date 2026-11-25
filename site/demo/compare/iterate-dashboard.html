@@ -1,0 +1,594 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#F2EEE5">
+<title>Dashboard · Tally</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..600;1,9..144,300..500&family=Geist:wght@400;500;600&family=Geist+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --paper:#F2EEE5;
+    --sheet:#FBF9F4;
+    --sheet-hover:#F6F2EA;
+    --ink:#1A1815;
+    --ink-2:#4A453D;
+    --muted:#756E61;
+    --rule:#DDD6C8;
+    --rule-soft:#EAE4D8;
+    --late:#C2410C;
+    --late-2:#E07B4A;
+    --late-3:#7C2D12;
+    --late-bg:#F8E4D8;
+    --paid:#2F6B4E;
+    --paid-bg:#DFEBDF;
+    --soon:#9A5B06;
+    --soon-bg:#F5EACB;
+    --serif:"Fraunces", Georgia, "Times New Roman", serif;
+    --sans:"Geist", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+    --mono:"Geist Mono", ui-monospace, "SFMono-Regular", Menlo, monospace;
+    --radius:16px;
+  }
+  *{box-sizing:border-box}
+  html{-webkit-text-size-adjust:100%}
+  body{
+    margin:0;background:var(--paper);color:var(--ink);
+    font:15px/1.5 var(--sans);
+    -webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;
+  }
+  a{color:inherit;text-decoration:none}
+  button{font:inherit;color:inherit;cursor:pointer}
+  .tnum{font-variant-numeric:tabular-nums}
+  .mono{font-family:var(--mono);font-variant-numeric:tabular-nums}
+  :focus-visible{outline:2px solid var(--ink);outline-offset:2px;border-radius:6px}
+  .sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+
+  /* ---------- Top bar ---------- */
+  .top{
+    position:sticky;top:0;z-index:10;
+    background:color-mix(in srgb, var(--paper) 86%, transparent);
+    -webkit-backdrop-filter:saturate(1.4) blur(10px);backdrop-filter:saturate(1.4) blur(10px);
+    border-bottom:1px solid var(--rule);
+  }
+  .top-in{max-width:1240px;margin:0 auto;padding:0 32px;height:64px;display:flex;align-items:center;gap:36px}
+  .brand{display:flex;align-items:center;gap:10px;font-family:var(--serif);font-size:24px;font-weight:500;letter-spacing:-.02em;font-variation-settings:"opsz" 48}
+  .brand svg{display:block}
+  .nav{display:flex;gap:2px;height:100%}
+  .nav a{display:flex;align-items:center;padding:0 12px;color:var(--muted);font-weight:500;font-size:14px;position:relative;transition:color .15s}
+  .nav a:hover{color:var(--ink)}
+  .nav a[aria-current]{color:var(--ink)}
+  .nav a[aria-current]::after{content:"";position:absolute;left:12px;right:12px;bottom:-1px;height:2px;background:var(--ink)}
+  .count{margin-left:7px;font:500 11px/1 var(--mono);background:var(--late);color:#fff;border-radius:99px;padding:3px 6px}
+  .top-actions{margin-left:auto;display:flex;align-items:center;gap:12px}
+  .search{
+    display:flex;align-items:center;gap:8px;height:36px;padding:0 8px 0 12px;width:240px;
+    border:1px solid var(--rule);border-radius:10px;background:var(--sheet);color:var(--muted);font-size:13.5px;cursor:text;
+    transition:border-color .15s;
+  }
+  .search:hover{border-color:#C9C0AE}
+  .search kbd{margin-left:auto;font:500 11px/1 var(--mono);border:1px solid var(--rule);border-radius:5px;padding:3px 5px;color:var(--muted);background:var(--paper)}
+  .avatar{width:36px;height:36px;border-radius:50%;display:grid;place-items:center;background:#D9CBB3;font:600 13px var(--sans);color:#4A3B22;border:0}
+
+  .btn{
+    display:inline-flex;align-items:center;justify-content:center;gap:8px;height:38px;padding:0 15px;border-radius:10px;
+    border:1px solid var(--ink);background:var(--ink);color:var(--paper);font-weight:500;font-size:14px;white-space:nowrap;
+    transition:transform .12s ease, background .15s ease, border-color .15s ease;
+  }
+  .btn:hover{background:#000}
+  .btn:active{transform:translateY(1px)}
+  .btn.ghost{background:transparent;color:var(--ink);border-color:var(--rule)}
+  .btn.ghost:hover{border-color:var(--ink-2);background:var(--sheet)}
+  .btn.mini{height:30px;padding:0 11px;font-size:13px;border-radius:8px}
+
+  /* ---------- Layout ---------- */
+  main{max-width:1240px;margin:0 auto;padding:48px 32px 72px}
+  .intro{display:grid;grid-template-columns:1fr auto;align-items:end;gap:32px;padding-bottom:40px}
+  .eyebrow{font:500 12px/1 var(--mono);text-transform:uppercase;letter-spacing:.09em;color:var(--muted);margin:0 0 20px;display:flex;align-items:center;gap:10px}
+  .eyebrow::before{content:"";width:18px;height:1px;background:var(--muted)}
+  h1{
+    font-family:var(--serif);font-weight:340;font-size:clamp(32px,4.4vw,54px);line-height:1.06;letter-spacing:-.018em;
+    margin:0;max-width:20ch;font-variation-settings:"opsz" 144, "SOFT" 30;text-wrap:balance;
+  }
+  h1 em{font-style:italic;font-weight:380;white-space:nowrap}
+  h1 em.late{color:var(--late)}
+  .intro-side{display:flex;gap:10px}
+
+  .grid{display:grid;grid-template-columns:repeat(12,minmax(0,1fr));gap:20px}
+  .card{background:var(--sheet);border:1px solid var(--rule);border-radius:var(--radius);padding:26px 28px;min-width:0;display:flex;flex-direction:column}
+  .card-h{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:20px;min-height:30px}
+  .card-h h2{font:600 14px/1.2 var(--sans);margin:0;letter-spacing:-.005em}
+  .link{font-size:13px;color:var(--muted);font-weight:500;transition:color .15s;white-space:nowrap}
+  .link:hover{color:var(--ink)}
+  .span-7{grid-column:span 7}.span-5{grid-column:span 5}.span-12{grid-column:span 12}
+
+  /* ---------- Big figures ---------- */
+  .big{font-family:var(--serif);font-weight:340;font-size:60px;line-height:.95;letter-spacing:-.025em;font-variation-settings:"opsz" 144;margin:0;font-variant-numeric:lining-nums}
+  .big .cur{font-size:.5em;vertical-align:.7em;margin-right:4px;color:var(--muted);letter-spacing:0}
+  .sub{color:var(--muted);font-size:14px;margin:12px 0 0}
+  .sub b{color:var(--ink);font-weight:500}
+
+  /* ---------- Outstanding ---------- */
+  .aging{margin-top:auto;padding-top:30px}
+  .bar{display:flex;height:14px;gap:3px}
+  .bar span{display:block;height:100%;border-radius:3px}
+  .b0{background:var(--ink)}.b1{background:var(--late-2)}.b2{background:var(--late)}.b3{background:var(--late-3)}
+  .legend{display:grid;grid-template-columns:repeat(4,1fr);margin:16px 0 0;gap:12px}
+  .legend div{border-left:1px solid var(--rule);padding-left:14px}
+  .legend div:first-child{border-left:0;padding-left:0}
+  .legend dt{display:flex;align-items:center;gap:7px;font-size:12.5px;color:var(--muted)}
+  .legend dt i{width:8px;height:8px;border-radius:2px;display:inline-block;flex:none}
+  .legend dd{margin:6px 0 0;font-size:17px;font-weight:500;letter-spacing:-.01em}
+  .legend dd small{display:block;color:var(--muted);font-size:12.5px;font-weight:400;letter-spacing:0;margin-top:1px}
+  .forecast{padding-top:26px}
+  .forecast-in{display:flex;align-items:center;gap:14px;padding:14px 16px;border-radius:12px;background:var(--paper);font-size:13.5px;color:var(--ink-2)}
+  .forecast-in svg{flex:none;color:var(--muted)}
+  .forecast-in b{font-weight:500;color:var(--ink)}
+  .forecast-in .link{margin-left:auto}
+
+  /* ---------- Paid ---------- */
+  .paid-top{display:flex;justify-content:space-between;align-items:flex-start;gap:12px}
+  .delta{display:inline-flex;align-items:center;gap:5px;font:500 12.5px/1 var(--sans);color:var(--paid);background:var(--paid-bg);padding:6px 9px;border-radius:99px;white-space:nowrap}
+  .chart{margin-top:22px}
+  .chart svg{width:100%;height:auto;display:block;overflow:visible}
+  .chart-x{display:flex;justify-content:space-between;font:400 11px var(--mono);color:var(--muted);margin-top:8px}
+  .chart-key{display:flex;gap:16px;font-size:12px;color:var(--muted)}
+  .chart-key span{display:inline-flex;align-items:center;gap:6px}
+  .chart-key i{width:14px;height:0;border-top:2px solid var(--paid);display:inline-block}
+  .chart-key i.dash{border-top:2px dashed #B3A995}
+  .chart-foot{display:flex;justify-content:space-between;align-items:center;margin-top:10px}
+  .payments{list-style:none;margin:20px 0 0;padding:0;border-top:1px solid var(--rule-soft)}
+  .payments li{display:grid;grid-template-columns:1fr auto;gap:2px 12px;padding:11px 0;border-bottom:1px solid var(--rule-soft);font-size:13.5px}
+  .payments li:last-child{border-bottom:0;padding-bottom:0}
+  .payments b{font-weight:500}
+  .payments .amt{font-weight:500;color:var(--paid)}
+  .payments small{color:var(--muted);font-size:12.5px;grid-column:1/-1}
+
+  /* ---------- Late clients ---------- */
+  .tally{display:flex;align-items:center;gap:16px;padding-bottom:20px}
+  .tally svg{flex:none}
+  .tally p{margin:0;font-size:14px;color:var(--muted);line-height:1.45}
+  .tally p b{color:var(--ink);font-weight:500}
+  .late-list{list-style:none;margin:0;padding:0}
+  .late-list li{border-top:1px solid var(--rule-soft)}
+  .late-list a{display:block;padding:17px 0;transition:background .15s}
+  .late-list a:hover .late-row b{text-decoration:underline;text-underline-offset:3px;text-decoration-color:var(--rule)}
+  .late-row{display:flex;justify-content:space-between;align-items:baseline;gap:10px}
+  .late-row b{font-weight:500}
+  .late-row .amt{font-size:15px;font-weight:500}
+  .late-meta{display:flex;justify-content:space-between;gap:10px;font-size:12.5px;color:var(--muted);margin-top:2px}
+  .late-meta .next{color:var(--ink-2)}
+  .days{margin-top:11px;height:4px;background:var(--rule-soft);border-radius:2px;position:relative}
+  .days span{position:absolute;left:0;top:0;bottom:0;border-radius:2px;background:var(--late)}
+  .days-scale{display:flex;justify-content:space-between;font:400 10.5px var(--mono);color:var(--muted);margin-top:6px;padding-top:12px;border-top:1px solid var(--rule-soft)}
+  .note{margin-top:auto;padding-top:18px;font-size:12.5px;color:var(--muted);display:flex;gap:8px;align-items:flex-start}
+  .note svg{flex:none;margin-top:2px}
+
+  /* ---------- Reminders ---------- */
+  .rem-status{display:inline-flex;align-items:center;gap:8px;font-size:13px;color:var(--paid);font-weight:500}
+  .pulse{width:7px;height:7px;border-radius:50%;background:var(--paid);box-shadow:0 0 0 0 rgba(47,107,78,.45);animation:pulse 2.4s infinite}
+  @keyframes pulse{70%{box-shadow:0 0 0 7px rgba(47,107,78,0)}100%{box-shadow:0 0 0 0 rgba(47,107,78,0)}}
+  @media (prefers-reduced-motion:reduce){.pulse{animation:none}}
+  .rem-h{display:flex;align-items:center;gap:12px;font:500 11px var(--mono);text-transform:uppercase;letter-spacing:.07em;color:var(--muted);margin:0 0 4px}
+  .rem-h::after{content:"";flex:1;height:1px;background:var(--rule-soft)}
+  .rem-h.sent{margin-top:18px}
+  .rem{list-style:none;margin:0;padding:0}
+  .rem li{display:grid;grid-template-columns:96px 1fr auto;gap:4px 18px;padding:14px 0;border-bottom:1px solid var(--rule-soft);align-items:start}
+  .rem li:last-child{border-bottom:0}
+  .r-when{font-size:13px;line-height:1.35;color:var(--ink);font-weight:500;padding-top:1px}
+  .r-when small{display:block;font:400 12px/1.4 var(--mono);color:var(--muted);margin-top:2px}
+  .r-what{font-size:14px;line-height:1.45;color:var(--ink-2);min-width:0}
+  .r-what b{font-weight:500;color:var(--ink)}
+  .r-meta{display:flex;flex-wrap:wrap;gap:4px 10px;margin-top:4px;font-size:12.5px;color:var(--muted)}
+  .r-side{display:flex;gap:6px;align-items:center;justify-self:end}
+  .tone{font-size:12px;font-weight:500;padding:3px 9px;border-radius:99px;background:var(--paper);border:1px solid var(--rule);color:var(--ink-2);white-space:nowrap}
+  .tone.firm{border-color:#EBC2A9;color:var(--late);background:#FBEEE6}
+  .tone.final{border-color:var(--late);color:#fff;background:var(--late)}
+  .rem li.ask{background:#F7EFD8;box-shadow:inset 3px 0 0 var(--soon);margin:6px -14px 0;padding:14px;border-radius:10px;border-bottom:0}
+  .rem li.ask + li{border-top:0}
+  .ask-tag{display:inline-flex;align-items:center;gap:6px;font-size:12px;font-weight:500;color:var(--soon)}
+  .ask-tag::before{content:"";width:6px;height:6px;border-radius:50%;background:var(--soon)}
+  .opened{color:var(--paid)}
+  .quote{font-family:var(--serif);font-style:italic;color:var(--ink-2);font-size:13.5px}
+
+  /* ---------- Invoices table ---------- */
+  .tabs{display:flex;gap:2px;background:var(--paper);border:1px solid var(--rule);border-radius:10px;padding:3px}
+  .tabs button{border:0;background:none;padding:5px 11px;border-radius:7px;font-size:13px;font-weight:500;color:var(--muted);transition:color .15s}
+  .tabs button:hover{color:var(--ink)}
+  .tabs button[aria-pressed="true"]{background:var(--sheet);color:var(--ink);box-shadow:0 1px 2px rgba(26,24,21,.12)}
+  .tabs .n{font:400 11px var(--mono);color:var(--muted);margin-left:4px}
+  .inv-h-right{display:flex;align-items:center;gap:16px}
+  table{width:100%;border-collapse:collapse}
+  thead th{font:500 11px var(--mono);text-transform:uppercase;letter-spacing:.07em;color:var(--muted);text-align:left;padding:0 14px 12px;border-bottom:1px solid var(--rule);white-space:nowrap}
+  thead th:first-child,tbody td:first-child{padding-left:0}
+  thead th:last-child,tbody td:last-child{padding-right:0}
+  th.r,td.r{text-align:right}
+  tbody td{padding:13px 14px;border-bottom:1px solid var(--rule-soft);vertical-align:middle;font-size:14px}
+  tbody tr:last-child td{border-bottom:0}
+  tbody tr{cursor:pointer}
+  tbody tr:hover td{background:var(--sheet-hover)}
+  tbody tr:hover td:first-child{box-shadow:-12px 0 0 var(--sheet-hover)}
+  tbody tr:hover td:last-child{box-shadow:12px 0 0 var(--sheet-hover)}
+  .client{display:flex;align-items:center;gap:12px}
+  .mono-badge{width:34px;height:34px;flex:none;border-radius:9px;display:grid;place-items:center;font:600 12px var(--sans);letter-spacing:.02em}
+  .client b{font-weight:500;display:block;line-height:1.3}
+  .client small{color:var(--muted);font-size:12.5px;display:block;line-height:1.35}
+  .id{font:400 12.5px var(--mono);color:var(--muted)}
+  .pill{display:inline-flex;align-items:center;gap:6px;font-size:12.5px;font-weight:500;padding:3px 10px 3px 8px;border-radius:99px;white-space:nowrap}
+  .pill::before{content:"";width:6px;height:6px;border-radius:50%;background:currentColor}
+  .pill.late{color:var(--late);background:var(--late-bg)}
+  .pill.paid{color:var(--paid);background:var(--paid-bg)}
+  .pill.soon{color:var(--soon);background:var(--soon-bg)}
+  .pill.open{color:var(--ink-2);background:#ECE7DC}
+  .when{font-size:13.5px;color:var(--ink-2);white-space:nowrap}
+  .when.late{color:var(--late)}
+  td.c-amt{font-weight:500;font-size:14.5px;white-space:nowrap}
+  td.c-amt .c{color:var(--muted);font-weight:400}
+  .tfoot{display:flex;justify-content:space-between;align-items:center;gap:12px;margin-top:16px;padding-top:16px;border-top:1px solid var(--rule);font-size:13px;color:var(--muted)}
+
+  .foot{margin-top:32px;display:flex;justify-content:space-between;color:var(--muted);font-size:12.5px;gap:8px 16px;flex-wrap:wrap}
+  .foot span{display:inline-flex;align-items:center;gap:8px}
+  .foot i{width:6px;height:6px;border-radius:50%;background:var(--paid);display:inline-block}
+
+  .mobile-nav{display:none}
+
+  /* ---------- Responsive ---------- */
+  @media (max-width:1100px){
+    .search{display:none}
+    .span-7,.span-5{grid-column:span 12}
+    .rem li{grid-template-columns:96px 1fr auto}
+  }
+  @media (max-width:860px){
+    td.c-issued, th.c-issued{display:none}
+  }
+  @media (max-width:760px){
+    body{padding-bottom:76px}
+    .top-in{padding:0 20px;gap:16px;height:58px}
+    .nav{display:none}
+    main{padding:28px 16px 48px}
+    .intro{grid-template-columns:1fr;gap:22px;padding:0 4px 28px}
+    .eyebrow{margin-bottom:16px}
+    .intro-side .btn{flex:1;height:44px}
+    .grid{gap:14px}
+    .card{padding:22px 20px;border-radius:14px}
+    .big{font-size:50px}
+    .legend{grid-template-columns:repeat(2,1fr);row-gap:18px}
+    .legend div:nth-child(3){border-left:0;padding-left:0}
+    .forecast-in{flex-wrap:wrap}
+    .forecast-in .link{margin-left:30px}
+
+    .rem li{grid-template-columns:1fr auto;gap:6px 12px}
+    .r-when{grid-column:1;display:flex;gap:8px;align-items:baseline}
+    .r-when small{margin:0}
+    .r-what{grid-column:1/-1;grid-row:2}
+    .r-side{grid-column:2;grid-row:1}
+    .rem li.ask .r-side{grid-row:3;grid-column:1/-1;justify-self:start;margin-top:6px}
+    .rem li.ask{margin:6px -10px 0;padding:14px 10px}
+
+    .card-h.inv{flex-wrap:wrap}
+    table thead{display:none}
+    table, tbody, tr, td{display:block}
+    tbody tr{display:grid;grid-template-columns:1fr auto;gap:8px 12px;padding:14px 0;border-bottom:1px solid var(--rule-soft)}
+    tbody tr:last-child{border-bottom:0}
+    tbody td{padding:0;border:0}
+    tbody tr:hover td{background:none;box-shadow:none!important}
+    td.c-client{grid-column:1}
+    td.c-amt{grid-column:2;grid-row:1;align-self:start;padding-top:2px}
+    td.c-id{display:none}
+    td.c-status{grid-column:1;padding-left:46px}
+    td.c-due{grid-column:2;text-align:right;align-self:center}
+    td.c-due::before{content:"Due ";color:var(--muted)}
+    .tfoot{flex-direction:column;align-items:flex-start}
+
+    .mobile-nav{
+      display:grid;grid-template-columns:repeat(5,1fr);position:fixed;left:0;right:0;bottom:0;z-index:10;
+      background:color-mix(in srgb, var(--sheet) 92%, transparent);
+      -webkit-backdrop-filter:blur(12px);backdrop-filter:blur(12px);
+      border-top:1px solid var(--rule);padding:8px 4px calc(8px + env(safe-area-inset-bottom));
+    }
+    .mobile-nav a{display:flex;flex-direction:column;align-items:center;gap:3px;font-size:11px;color:var(--muted);font-weight:500;position:relative;padding:2px 0}
+    .mobile-nav a[aria-current]{color:var(--ink)}
+    .mobile-nav svg{width:22px;height:22px}
+    .mobile-nav .dot{position:absolute;top:0;left:calc(50% + 6px);width:8px;height:8px;border-radius:50%;background:var(--late);border:2px solid var(--sheet)}
+  }
+  @media (max-width:400px){
+    .big{font-size:44px}
+    h1{font-size:31px}
+  }
+</style>
+</head>
+<body>
+
+<header class="top">
+  <div class="top-in">
+    <a class="brand" href="#" aria-label="Tally, home">
+      <svg width="28" height="24" viewBox="0 0 28 24" fill="none" aria-hidden="true">
+        <path d="M4.5 3.2c.2 5.4.1 11 .3 17.4M10 2.6c-.1 6 .2 11.6 0 18.2M15.6 3.1c.2 5.8 0 11.5.2 17.5M21 2.7c-.1 6.2.2 11.7 0 18" stroke="#1A1815" stroke-width="2.3" stroke-linecap="round"/>
+        <path d="M1.6 16.6C9 13.2 16.6 9.9 25.6 6.4" stroke="#C2410C" stroke-width="2.3" stroke-linecap="round"/>
+      </svg>
+      Tally
+    </a>
+    <nav class="nav" aria-label="Main">
+      <a href="#" aria-current="page">Dashboard</a>
+      <a href="#">Invoices</a>
+      <a href="#">Clients</a>
+      <a href="#">Reminders <span class="count" aria-label="1 needs approval">1</span></a>
+      <a href="#">Reports</a>
+    </nav>
+    <div class="top-actions">
+      <label class="search">
+        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5"/></svg>
+        <span>Search invoices, clients…</span>
+        <kbd>⌘K</kbd>
+      </label>
+      <button class="avatar" aria-label="Account: Maya Lindqvist">ML</button>
+    </div>
+  </div>
+</header>
+
+<main>
+  <section class="intro">
+    <div>
+      <p class="eyebrow">Tuesday, 24 November</p>
+      <h1>Morning, Maya. <em>$22,530</em> is still out there, and <em class="late">$10,780</em> of it is late.</h1>
+    </div>
+    <div class="intro-side">
+      <a class="btn ghost" href="#">Record payment</a>
+      <a class="btn" href="#">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg>
+        New invoice
+      </a>
+    </div>
+  </section>
+
+  <div class="grid">
+
+    <!-- Outstanding -->
+    <section class="card span-7" aria-labelledby="h-out">
+      <div class="card-h"><h2 id="h-out">Outstanding</h2><a class="link" href="#">7 open invoices →</a></div>
+      <p class="big"><span class="cur">$</span>22,530</p>
+      <p class="sub">Across 6 clients · they take <b>19 days</b> to pay on average, 4 days faster than last quarter</p>
+      <div class="aging">
+        <div class="bar" role="img" aria-label="Aging: $11,750 not yet due, $6,030 1 to 30 days late, $2,900 31 to 60 days late, $1,850 over 60 days late">
+          <span class="b0" style="flex:11750"></span>
+          <span class="b1" style="flex:6030"></span>
+          <span class="b2" style="flex:2900"></span>
+          <span class="b3" style="flex:1850"></span>
+        </div>
+        <dl class="legend tnum">
+          <div><dt><i class="b0"></i>Not yet due</dt><dd>$11,750<small>3 invoices</small></dd></div>
+          <div><dt><i class="b1"></i>1–30 days late</dt><dd>$6,030<small>2 invoices</small></dd></div>
+          <div><dt><i class="b2"></i>31–60 days</dt><dd>$2,900<small>1 invoice</small></dd></div>
+          <div><dt><i class="b3"></i>60+ days</dt><dd>$1,850<small>1 invoice</small></dd></div>
+        </dl>
+      </div>
+      <div class="forecast">
+        <div class="forecast-in">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M3 10h18M8 3v4M16 3v4"/></svg>
+          <span><b class="tnum">$5,350</b> expected in the next 8 days from Marlowe Press and Studio Ebb</span>
+          <a class="link" href="#">Forecast →</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Paid this month -->
+    <section class="card span-5" aria-labelledby="h-paid">
+      <div class="card-h"><h2 id="h-paid">Paid in November</h2><a class="link" href="#">6 payments →</a></div>
+      <div class="paid-top">
+        <p class="big"><span class="cur">$</span>20,430</p>
+        <span class="delta" title="Compared with 1–24 October">
+          <svg width="9" height="9" viewBox="0 0 10 10" aria-hidden="true"><path d="M5 1.5L9 7.5H1z" fill="currentColor"/></svg>26% on October
+        </span>
+      </div>
+      <p class="sub">October had <b class="tnum">$16,210</b> in by this date</p>
+      <div class="chart">
+        <svg viewBox="0 0 300 92" role="img" aria-label="Cumulative payments received in November, step chart, compared with October">
+          <g stroke="#EAE4D8" stroke-width="1">
+            <line x1="0" y1="23" x2="300" y2="23"/><line x1="0" y1="46" x2="300" y2="46"/><line x1="0" y1="69" x2="300" y2="69"/>
+          </g>
+          <line x1="0" y1="92" x2="300" y2="92" stroke="#DDD6C8"/>
+          <path d="M0,92 H20.7 V83.6 H72.4 V72.4 H113.8 V64 H155.2 V46.8 H217.2 V29.9 H289.7 V19.4 H300" fill="none" stroke="#B3A995" stroke-width="1.3" stroke-dasharray="3 3"/>
+          <path d="M0,92 H10.3 V88.6 H31 V76.4 H82.8 V68.9 H134.5 V44.3 H165.5 V35.2 H206.9 V13.7 H237.9 V92 Z" fill="#2F6B4E" opacity=".09"/>
+          <path d="M0,92 H10.3 V88.6 H31 V76.4 H82.8 V68.9 H134.5 V44.3 H165.5 V35.2 H206.9 V13.7 H237.9" fill="none" stroke="#2F6B4E" stroke-width="1.8" stroke-linejoin="round"/>
+          <g fill="#FBF9F4" stroke="#2F6B4E" stroke-width="1.4">
+            <circle cx="10.3" cy="88.6" r="2.4"/><circle cx="31" cy="76.4" r="2.4"/><circle cx="82.8" cy="68.9" r="2.4"/>
+            <circle cx="134.5" cy="44.3" r="2.4"/><circle cx="165.5" cy="35.2" r="2.4"/><circle cx="206.9" cy="13.7" r="2.4"/>
+          </g>
+          <line x1="237.9" y1="2" x2="237.9" y2="92" stroke="#1A1815" stroke-width=".8" stroke-dasharray="2 2"/>
+          <text x="234.5" y="6" text-anchor="end" font-family="Geist Mono, monospace" font-size="8" fill="#756E61">TODAY</text>
+        </svg>
+        <div class="chart-x"><span>Nov 1</span><span>Nov 15</span><span>Nov 30</span></div>
+      </div>
+      <div class="chart-foot"><div class="chart-key"><span><i></i>November</span><span><i class="dash"></i>October</span></div></div>
+      <ul class="payments tnum" aria-label="Latest payment">
+        <li><b>Oaktree Credit Union</b><span class="amt">+$5,600</span><small>Nov 21 · ACH · paid 9 days after sending</small></li>
+      </ul>
+    </section>
+
+    <!-- Who's late -->
+    <section class="card span-5" aria-labelledby="h-late">
+      <div class="card-h"><h2 id="h-late">Who’s late</h2><a class="link" href="#">All clients →</a></div>
+      <div class="tally">
+        <svg width="58" height="44" viewBox="0 0 58 44" fill="none" aria-hidden="true">
+          <path d="M8 6.5c.3 10.5-.1 20.6.4 31.5M19.4 5.3c-.2 11 .3 21.8 0 32.9M30.6 6.2c.3 10.6-.1 21 .3 31.4M41.8 5.4c-.2 11.4.2 21.9 0 32.6" stroke="#1A1815" stroke-width="2.6" stroke-linecap="round"/>
+          <path d="M51.5 6.4c.2 10.4-.1 21 .2 31.6" stroke="#1A1815" stroke-width="2.6" stroke-linecap="round" stroke-dasharray="1 6" opacity=".35"/>
+        </svg>
+        <p><b>4 late invoices</b> from 3 clients,<br>worth <b class="tnum">$10,780</b> in total</p>
+      </div>
+      <ul class="late-list">
+        <li><a href="#">
+          <div class="late-row"><b>Halden &amp; Rowe</b><span class="amt tnum">$6,600</span></div>
+          <div class="late-meta"><span>2 invoices · oldest 63 days late</span><span class="next">Final notice Wed</span></div>
+          <div class="days" aria-label="63 days late"><span style="width:70%"></span></div>
+        </a></li>
+        <li><a href="#">
+          <div class="late-row"><b>Kettle &amp; Fern</b><span class="amt tnum">$2,900</span></div>
+          <div class="late-meta"><span>1 invoice · 49 days late</span><span class="next">Reminder at 2 pm</span></div>
+          <div class="days" aria-label="49 days late"><span style="width:54.4%"></span></div>
+        </a></li>
+        <li><a href="#">
+          <div class="late-row"><b>Fieldnote Coffee</b><span class="amt tnum">$1,280</span></div>
+          <div class="late-meta"><span>1 invoice · 24 days late</span><span class="next">Promised next week</span></div>
+          <div class="days" aria-label="24 days late"><span style="width:26.7%"></span></div>
+        </a></li>
+      </ul>
+      <div class="days-scale" aria-hidden="true"><span>0 days</span><span>30</span><span>60</span><span>90</span></div>
+      <div class="note">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 8v5M12 16.5v.5"/></svg>
+        <span>Your terms add a 1.5% monthly late fee after 60 days. Only Halden &amp; Rowe’s TAL-0126 qualifies right now. <a href="#" style="color:var(--ink);text-decoration:underline;text-underline-offset:3px;text-decoration-color:var(--rule)">Edit terms</a></span>
+      </div>
+    </section>
+
+    <!-- Reminders -->
+    <section class="card span-7" aria-labelledby="h-rem">
+      <div class="card-h"><h2 id="h-rem">Reminders Tally is sending</h2><span class="rem-status"><span class="pulse" aria-hidden="true"></span>Autopilot on</span></div>
+      <p class="rem-h">Next up</p>
+      <ol class="rem">
+        <li class="ask">
+          <div class="r-when">Wed 26 Nov<small>9:00 am</small></div>
+          <div class="r-what"><b>Final notice to Halden &amp; Rowe</b> for TAL-0126 ($1,850, 63 days late). Adds the 1.5% late fee from your terms.
+            <div class="r-meta"><span class="ask-tag">Waiting for your OK</span><span>to finance@haldenrowe.com</span></div>
+          </div>
+          <div class="r-side"><button class="btn mini">Approve</button><button class="btn ghost mini">Edit</button></div>
+        </li>
+        <li>
+          <div class="r-when">Today<small>2:00 pm</small></div>
+          <div class="r-what"><b>Second reminder to Kettle &amp; Fern</b> for TAL-0131
+            <div class="r-meta"><span>to accounts@kettleandfern.co · 1st sent Nov 10, opened</span></div>
+          </div>
+          <div class="r-side"><span class="tone firm">Firm</span></div>
+        </li>
+        <li>
+          <div class="r-when">Tomorrow<small>9:00 am</small></div>
+          <div class="r-what"><b>Due-today note to Marlowe Press</b> for TAL-0145
+            <div class="r-meta"><span>to jo@marlowepress.com · they usually pay on time</span></div>
+          </div>
+          <div class="r-side"><span class="tone">Friendly</span></div>
+        </li>
+        <li>
+          <div class="r-when">Fri 28 Nov<small>9:00 am</small></div>
+          <div class="r-what"><b>Second reminder to Fieldnote Coffee</b> for TAL-0138
+            <div class="r-meta"><span>Skipped automatically if they pay first</span></div>
+          </div>
+          <div class="r-side"><span class="tone">Polite</span></div>
+        </li>
+      </ol>
+      <p class="rem-h sent">Recently sent</p>
+      <ol class="rem">
+        <li>
+          <div class="r-when">Sun 23 Nov<small>9:02 am</small></div>
+          <div class="r-what">Reminder to Halden &amp; Rowe for TAL-0141
+            <div class="r-meta"><span class="opened">Opened 3 times</span><span>No reply yet</span></div>
+          </div>
+          <div class="r-side"><a class="link" href="#">View</a></div>
+        </li>
+        <li>
+          <div class="r-when">Fri 21 Nov<small>9:00 am</small></div>
+          <div class="r-what">Reminder to Fieldnote Coffee for TAL-0138
+            <div class="r-meta"><span class="opened">Replied</span><span class="quote">“Sorry Maya, paying next Thursday.”</span></div>
+          </div>
+          <div class="r-side"><a class="link" href="#">View</a></div>
+        </li>
+      </ol>
+    </section>
+
+    <!-- Recent invoices -->
+    <section class="card span-12" aria-labelledby="h-inv">
+      <div class="card-h inv">
+        <h2 id="h-inv">Recent invoices</h2>
+        <div class="tabs" role="group" aria-label="Filter invoices">
+          <button aria-pressed="true" data-f="all">All</button><button aria-pressed="false" data-f="open">Open</button><button aria-pressed="false" data-f="late">Late</button><button aria-pressed="false" data-f="paid">Paid</button>
+        </div>
+      </div>
+      <table>
+        <thead>
+          <tr><th>Client</th><th>Invoice</th><th class="c-issued">Issued</th><th>Status</th><th>Due</th><th class="r">Amount</th></tr>
+        </thead>
+        <tbody class="tnum">
+          <tr data-s="open">
+            <td class="c-client"><div class="client"><span class="mono-badge" style="background:#DCE4EC;color:#2B4257" aria-hidden="true">PB</span><div><b>Pallas Biotech</b><small>Brand system, phase 2</small></div></div></td>
+            <td class="c-id id">TAL-0148</td><td class="c-issued when">Nov 20</td>
+            <td class="c-status"><span class="pill open">Sent</span></td>
+            <td class="c-due when">Dec 20</td>
+            <td class="c-amt r">$6,400<span class="c">.00</span></td>
+          </tr>
+          <tr data-s="open">
+            <td class="c-client"><div class="client"><span class="mono-badge" style="background:#E6E0EF;color:#4A3B6B" aria-hidden="true">SE</span><div><b>Studio Ebb</b><small>Website retainer, November</small></div></div></td>
+            <td class="c-id id">TAL-0147</td><td class="c-issued when">Nov 18</td>
+            <td class="c-status"><span class="pill open">Viewed</span></td>
+            <td class="c-due when">Dec 2</td>
+            <td class="c-amt r">$2,150<span class="c">.00</span></td>
+          </tr>
+          <tr data-s="paid">
+            <td class="c-client"><div class="client"><span class="mono-badge" style="background:#E3ECE2;color:#2F5A3B" aria-hidden="true">OC</span><div><b>Oaktree Credit Union</b><small>Annual report layout</small></div></div></td>
+            <td class="c-id id">TAL-0146</td><td class="c-issued when">Nov 12</td>
+            <td class="c-status"><span class="pill paid">Paid Nov 21</span></td>
+            <td class="c-due when">Dec 12</td>
+            <td class="c-amt r">$5,600<span class="c">.00</span></td>
+          </tr>
+          <tr data-s="open">
+            <td class="c-client"><div class="client"><span class="mono-badge" style="background:#F1E4CC;color:#6B4E1B" aria-hidden="true">MP</span><div><b>Marlowe Press</b><small>Two book covers</small></div></div></td>
+            <td class="c-id id">TAL-0145</td><td class="c-issued when">Nov 10</td>
+            <td class="c-status"><span class="pill soon">Due tomorrow</span></td>
+            <td class="c-due when">Nov 25</td>
+            <td class="c-amt r">$3,200<span class="c">.00</span></td>
+          </tr>
+          <tr data-s="paid">
+            <td class="c-client"><div class="client"><span class="mono-badge" style="background:#F0DDD3;color:#7A2E12" aria-hidden="true">NC</span><div><b>Northwind Ceramics</b><small>Packaging illustrations</small></div></div></td>
+            <td class="c-id id">TAL-0144</td><td class="c-issued when">Nov 3</td>
+            <td class="c-status"><span class="pill paid">Paid Nov 17</span></td>
+            <td class="c-due when">Nov 17</td>
+            <td class="c-amt r">$2,400<span class="c">.00</span></td>
+          </tr>
+          <tr data-s="late">
+            <td class="c-client"><div class="client"><span class="mono-badge" style="background:#E2E0DA;color:#3D3A33" aria-hidden="true">HR</span><div><b>Halden &amp; Rowe</b><small>Signage and wayfinding</small></div></div></td>
+            <td class="c-id id">TAL-0141</td><td class="c-issued when">Oct 9</td>
+            <td class="c-status"><span class="pill late">16 days late</span></td>
+            <td class="c-due when late">Nov 8</td>
+            <td class="c-amt r">$4,750<span class="c">.00</span></td>
+          </tr>
+          <tr data-s="late">
+            <td class="c-client"><div class="client"><span class="mono-badge" style="background:#EADBC9;color:#5E3F1F" aria-hidden="true">FC</span><div><b>Fieldnote Coffee</b><small>Menu boards, 3 locations</small></div></div></td>
+            <td class="c-id id">TAL-0138</td><td class="c-issued when">Oct 17</td>
+            <td class="c-status"><span class="pill late">24 days late</span></td>
+            <td class="c-due when late">Oct 31</td>
+            <td class="c-amt r">$1,280<span class="c">.00</span></td>
+          </tr>
+        </tbody>
+      </table>
+      <div class="tfoot"><span>Showing 7 of 148 invoices sent since March 2023</span><a class="link" href="#">Open all invoices →</a></div>
+    </section>
+  </div>
+
+  <footer class="foot">
+    <span><i aria-hidden="true"></i>Synced with Stripe and Mercury 4 minutes ago · amounts in USD</span>
+    <span>Maya Lindqvist Design · Net 30 terms</span>
+  </footer>
+</main>
+
+<nav class="mobile-nav" aria-label="Main">
+  <a href="#" aria-current="page"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><rect x="3" y="3" width="7" height="9" rx="1.5"/><rect x="14" y="3" width="7" height="5" rx="1.5"/><rect x="14" y="12" width="7" height="9" rx="1.5"/><rect x="3" y="16" width="7" height="5" rx="1.5"/></svg>Home</a>
+  <a href="#"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><path d="M6 3h9l4 4v14H6z"/><path d="M9 12h7M9 16h5"/></svg>Invoices</a>
+  <a href="#"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><circle cx="12" cy="8" r="4"/><path d="M4 21c1.5-4 4.5-6 8-6s6.5 2 8 6"/></svg>Clients</a>
+  <a href="#"><span class="dot" aria-hidden="true"></span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><path d="M6 16v-5a6 6 0 1112 0v5l2 2H4z"/><path d="M10 21h4"/></svg>Reminders</a>
+  <a href="#"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><path d="M4 20V10M10 20V4M16 20v-7M22 20H2"/></svg>Reports</a>
+</nav>
+
+<script>
+  // Invoice filter tabs
+  (function(){
+    var tabs = document.querySelectorAll('.tabs button');
+    tabs.forEach(function(b){
+      b.addEventListener('click', function(){
+        tabs.forEach(function(x){ x.setAttribute('aria-pressed', String(x === b)); });
+        var f = b.dataset.f;
+        document.querySelectorAll('tbody tr').forEach(function(tr){
+          tr.hidden = !(f === 'all' || tr.dataset.s === f);
+        });
+      });
+    });
+  })();
+</script>
+</body>
+</html>

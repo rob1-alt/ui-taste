@@ -4,8 +4,8 @@ import { existsSync, readFileSync } from "node:fs";
 import { resolve } from "node:path";
 
 type Run = { img: string; html: string; turns: number; seconds: number };
-export type Pair = { name: string; prompt: string; without: Run; with: Run };
-export type Compare = { model: string; tool: string; pairs: Pair[] };
+export type Pair = { name: string; prompt: string; without: Run; with: Run; iterate?: Run };
+export type Compare = { model: string; tool: string; iterate?: string; pairs: Pair[] };
 
 const FILE = resolve(process.cwd(), "..", "site", "demo", "compare", "compare.json");
 export function getCompare(): Compare | null {

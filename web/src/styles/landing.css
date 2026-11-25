@@ -931,3 +931,5 @@ section { padding-top: 160px; }
 .faq-more a { color: var(--ink); text-decoration: underline; text-underline-offset: 3px; text-decoration-color: var(--line); }
 @media (max-width: 900px) { .faq { grid-template-columns: 1fr; gap: 24px; } .faq-more { grid-column: 1; } }
 @media (max-width: 720px) { .faq { padding-left: 16px; padding-right: 16px; } .faq-h { font-size: clamp(44px, 13vw, 64px); } .faq-list summary { font-size: 17px; } }
+.cmp-iter { display: flex; align-items: flex-start; gap: 10px; margin: 0 0 20px; max-width: 80ch; font-size: 14px; line-height: 1.5; color: var(--ink-2); cursor: pointer; }
+.cmp-iter input { flex: none; width: 18px; height: 18px; margin: 1px 0 0; accent-color: var(--ink); cursor: pointer; }

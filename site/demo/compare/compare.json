@@ -16,6 +16,12 @@
     "html": "/demo/compare/with-landing.html",
     "turns": 24,
     "seconds": 315
+   },
+   "iterate": {
+    "img": "/demo/compare/iterate-landing.jpg",
+    "html": "/demo/compare/iterate-landing.html",
+    "turns": 40,
+    "seconds": 542
    }
   },
   {
@@ -32,6 +38,12 @@
     "html": "/demo/compare/with-pricing.html",
     "turns": 18,
     "seconds": 184
+   },
+   "iterate": {
+    "img": "/demo/compare/iterate-pricing.jpg",
+    "html": "/demo/compare/iterate-pricing.html",
+    "turns": 32,
+    "seconds": 232
    }
   },
   {
@@ -48,7 +60,14 @@
     "html": "/demo/compare/with-dashboard.html",
     "turns": 16,
     "seconds": 233
+   },
+   "iterate": {
+    "img": "/demo/compare/iterate-dashboard.jpg",
+    "html": "/demo/compare/iterate-dashboard.html",
+    "turns": 27,
+    "seconds": 381
    }
   }
- ]
+ ],
+ "iterate": "Take your time and iterate: render the page in a headless browser (python3 has Playwright and Chromium installed), look at the screenshots at desktop and mobile widths, and keep improving the design until it is excellent, distinctive and not generic."
 }
