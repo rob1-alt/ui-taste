@@ -1,8 +1,8 @@
 {
-  "name": "taster-launch-video",
+  "name": "uitaste-launch-video",
   "private": true,
   "scripts": {
-    "render": "remotion render src/index.ts Launch out/taster-launch.mp4 --codec h264",
+    "render": "remotion render src/index.ts Launch out/uitaste-launch.mp4 --codec h264",
     "still": "remotion still src/index.ts Launch out/frame.png"
   },
   "dependencies": {

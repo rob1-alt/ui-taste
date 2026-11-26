@@ -1,14 +1,25 @@
 import React, { useEffect, useState } from "react";
 import { AbsoluteFill, continueRender, delayRender, interpolate, spring, staticFile, useCurrentFrame, useVideoConfig } from "remotion";
 
+// The site's identity: near-black, white, one vermilion. Archivo across its width axis.
 export const INK = "#0e0e0e";
-export const PAPER = "#f3f3f0";
-export const GREY = "#e4e4df";
-export const MUTED = "#6b6b66";
+export const WHITE = "#ffffff";
+export const RED = "#ff3d1f";
+export const DIM = "rgba(255,255,255,.58)";
+export const LINE = "rgba(255,255,255,.14)";
 export const SANS = "Archivo, 'Helvetica Neue', Arial, sans-serif";
 export const MONO = "'Liberation Mono', 'DejaVu Sans Mono', Menlo, monospace";
+export const PAD = 96;
 
-/** Loads the variable Archivo once; the render waits for it. */
+/** The display voice of the site: condensed, black, uppercase. */
+export const display = (size: number, extra: React.CSSProperties = {}): React.CSSProperties => ({
+  fontFamily: SANS, fontStretch: "62%", fontWeight: 800, textTransform: "uppercase", fontSize: size, lineHeight: 0.86, letterSpacing: "-0.01em", ...extra,
+});
+/** Small expanded labels, as in the site's nav. */
+export const label = (size = 18, extra: React.CSSProperties = {}): React.CSSProperties => ({
+  fontFamily: SANS, fontStretch: "125%", fontWeight: 600, textTransform: "uppercase", fontSize: size, letterSpacing: "0.04em", ...extra,
+});
+
 export const useArchivo = () => {
   const [handle] = useState(() => delayRender("Archivo"));
   useEffect(() => {
@@ -17,50 +28,49 @@ export const useArchivo = () => {
   }, [handle]);
 };
 
-/** 0→1 with a spring, starting at `from` frames into the scene. */
-export const useRise = (from: number, config = { damping: 200, stiffness: 120, mass: 0.9 }) => {
+export const ease = (t: number) => 1 - Math.pow(1 - t, 3);
+export const clamp = { extrapolateLeft: "clamp", extrapolateRight: "clamp" } as const;
+/** 0→1 between two frames, eased. */
+export const ramp = (frame: number, a: number, b: number) => interpolate(frame, [a, b], [0, 1], { ...clamp, easing: ease });
+
+export const useRise = (from: number) => {
   const frame = useCurrentFrame();
   const { fps } = useVideoConfig();
-  return spring({ frame: frame - from, fps, config, durationInFrames: 40 });
+  return spring({ frame: frame - from, fps, config: { damping: 200, stiffness: 140, mass: 0.8 }, durationInFrames: 30 });
 };
 
-export const fadeInOut = (frame: number, total: number, edge = 12) =>
-  interpolate(frame, [0, edge, total - edge, total], [0, 1, 1, 0], { extrapolateLeft: "clamp", extrapolateRight: "clamp" });
+/** Full-frame scene on ink, fading at both ends. */
+export const Scene: React.FC<{ total: number; children: React.ReactNode; bg?: string }> = ({ total, children, bg = INK }) => {
+  const frame = useCurrentFrame();
+  const o = interpolate(frame, [0, 10, total - 10, total], [0, 1, 1, 0], clamp);
+  return <AbsoluteFill style={{ background: bg, color: WHITE, fontFamily: SANS, opacity: o, overflow: "hidden" }}>{children}</AbsoluteFill>;
+};
 
-/** A scene wrapper: full frame, paper or ink background, fades at both ends. */
-export const Scene: React.FC<{ total: number; dark?: boolean; children: React.ReactNode }> = ({ total, dark, children }) => {
+/** A line of display type that rises out of a mask, word by word. */
+export const Rise: React.FC<{ text: string; from: number; size: number; color?: string; stagger?: number; style?: React.CSSProperties }> = ({ text, from, size, color = WHITE, stagger = 3, style }) => {
   const frame = useCurrentFrame();
   return (
-    <AbsoluteFill style={{ background: dark ? INK : PAPER, color: dark ? "#fff" : INK, fontFamily: SANS, opacity: fadeInOut(frame, total) }}>
-      {children}
-    </AbsoluteFill>
-  );
-};
-
-/** The mark: 3×3 tiles, five lit as a T. `lit` = how many of the five are on (0..5). */
-export const Tiles: React.FC<{ size?: number; lit?: number; ink?: string; off?: string; showOff?: boolean }> = ({ size = 104, lit = 5, ink = INK, off = GREY, showOff = true }) => {
-  const order: [number, number][] = [[0, 0], [1, 0], [2, 0], [1, 1], [1, 2]];
-  const s = size / 104;
-  const cells: React.ReactNode[] = [];
-  for (let r = 0; r < 3; r++) for (let c = 0; c < 3; c++) {
-    const i = order.findIndex(([oc, orr]) => oc === c && orr === r);
-    const on = i >= 0 && i < lit;
-    if (i < 0 && !showOff) continue;
-    cells.push(<rect key={`${c}${r}`} x={c * 37 * s} y={r * 37 * s} width={30 * s} height={30 * s} rx={6 * s} fill={on ? ink : i >= 0 ? "transparent" : off} />);
-  }
-  return <svg width={size} height={size} viewBox={`0 0 ${size} ${size}`}>{cells}</svg>;
-};
-
-export const Caption: React.FC<{ children: React.ReactNode; from?: number; dark?: boolean; size?: number; style?: React.CSSProperties }> = ({ children, from = 0, dark, size = 44, style }) => {
-  const p = useRise(from);
-  return (
-    <div style={{ fontSize: size, fontWeight: 600, letterSpacing: "-0.03em", lineHeight: 1.08, color: dark ? "#fff" : INK, opacity: p, transform: `translateY(${(1 - p) * 18}px)`, textWrap: "balance" as never, ...style }}>
-      {children}
+    <div style={{ ...display(size), color, display: "flex", flexWrap: "wrap", columnGap: size * 0.22, ...style }}>
+      {text.split(" ").map((w, i) => {
+        const p = ramp(frame, from + i * stagger, from + i * stagger + 14);
+        return (
+          <span key={i} style={{ display: "inline-block", overflow: "hidden", paddingBottom: size * 0.06 }}>
+            <span style={{ display: "inline-block", transform: `translateY(${(1 - p) * 105}%)` }}>{w}</span>
+          </span>
+        );
+      })}
     </div>
   );
 };
 
-export const Small: React.FC<{ children: React.ReactNode; from?: number; dark?: boolean; style?: React.CSSProperties }> = ({ children, from = 0, dark, style }) => {
-  const p = useRise(from);
-  return <div style={{ fontSize: 24, color: dark ? "rgba(255,255,255,.6)" : MUTED, opacity: p, transform: `translateY(${(1 - p) * 10}px)`, ...style }}>{children}</div>;
+/** A small red tag with a leader dot, for calling things out on a screenshot. */
+export const Tag: React.FC<{ x: number; y: number; text: string; at: number; left?: boolean }> = ({ x, y, text, at, left }) => {
+  const frame = useCurrentFrame();
+  const p = ramp(frame, at, at + 10);
+  return (
+    <div style={{ position: "absolute", left: x, top: y, opacity: p, transform: `scale(${0.9 + 0.1 * p})`, transformOrigin: left ? "100% 50%" : "0 50%", display: "flex", alignItems: "center", gap: 10, flexDirection: left ? "row-reverse" : "row", translate: left ? "-100% -50%" : "0 -50%" }}>
+      <span style={{ width: 16, height: 16, borderRadius: 8, background: RED, boxShadow: `0 0 0 5px rgba(255,61,31,.28)` }} />
+      <span style={{ ...label(17), background: RED, color: WHITE, padding: "8px 12px", borderRadius: 4, whiteSpace: "nowrap" }}>{text}</span>
+    </div>
+  );
 };
